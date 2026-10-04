@@ -1,0 +1,74 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened official agency/legal pages and inspected relevant passages with web tool; no third-party teaching source used",
+  "manuscript_original_check_date": "2026-10-01",
+  "changes_to_manuscript": "none",
+  "sources": [
+    {
+      "alias": "b",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+      "finding": "Category B mass/age/residence/permit/test requirements; practice ages, approved supervisor, proof and visible learner sign. Exceptions retained.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "supervisor",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/handledare/",
+      "finding": "Course requirement ended 1 August 2026; individual supervisor approval still required.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "risk",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/",
+      "finding": "Two mandatory parts before tests, valid until licence obtained or at most five years; motorcycle training does not substitute.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "validity",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf",
+      "finding": "TSFS 2026:47 sets one-year validity from 19 August 2026; earlier tests retain earlier provisions.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "test",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+      "finding": "Trafikverket confirms four months before 19 August and one year from that date; automated-transmission restriction also supported.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Traffic Regulation chapter 2 section 1, chapter 3 sections 1 and 14: care, fitness and adapting speed.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "drink-law",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/vad-sager-lagen-om-rattfylleri/",
+      "finding": "0.2 per mille alcohol threshold; aggravated factors include 1.0, substantial impairment or clear danger; non-prescribed narcotics zero tolerance.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "alcohol",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/",
+      "finding": "Attention/vision/reaction/coordination effects, next-day impairment and prescribed-drug impairment responsibility.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "medical",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/medicinska-krav/",
+      "finding": "Medical eligibility assessment for permit; distinct from daily fitness to drive.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "TSFS 2011:20 chapters 4–5 support journey choices, personal/social pressures and reflection. No exam guarantees added.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "planning",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/",
+      "finding": "Trafikverket supports allowing time, rest breaks, traffic/road-condition checks and seasonal preparation.",
+      "status": "supports chapter use"
+    }
+  ]
+}
