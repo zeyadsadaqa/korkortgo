@@ -1,0 +1,54 @@
+# Gradle, Kotlin, and generated build output
+.gradle/
+.kotlin/
+build/
+out/
+.cxx/
+.externalNativeBuild/
+node_modules/
+dist/
+
+# Machine-specific IDE and SDK settings
+.idea/
+*.iml
+local.properties
+.vscode/
+
+# Xcode user settings and generated output
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcarchive/
+
+# Local credentials and signing material
+.env
+.env.*
+!.env.example
+!.env.sample
+*.jks
+*.keystore
+*.p12
+*.p8
+*.mobileprovision
+keystore.properties
+key.properties
+
+# Python tooling caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Temporary files and operating system metadata
+tmp/
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+._*
+Thumbs.db
+
+# Local research source; not part of the distributed project
+/theory-book-2026-1 (1).pdf
