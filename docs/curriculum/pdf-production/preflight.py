@@ -1,4 +1,4 @@
-"""Check the saved 6A preparation package; does not render or clear approvals."""
+"""Check source, approval and bundled font integrity before a reproducible build."""
 import hashlib
 import json
 from pathlib import Path
@@ -22,5 +22,8 @@ if errors:
     print("\n".join(errors))
     raise SystemExit(1)
 print("Preparation integrity passed: 10 chapters, 40 lessons and 10 reviews.")
-print("READINESS HOLD: see readiness-review.md. No production PDF or render verification yet.")
-raise SystemExit(2)
+for record in json.loads((root / "pdf-production/fonts/manifest.json").read_text())["files"]:
+    path = root / "pdf-production" / record["file"]
+    assert hashlib.sha256(path.read_bytes()).hexdigest() == record["sha256"], path
+assert manifest["status"] == "6A_complete_screen_review"
+print("6A input/font integrity passed. Run build.py and verify.py for artifact checks.")

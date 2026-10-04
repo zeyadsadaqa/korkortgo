@@ -1,17 +1,35 @@
-# KörkortGo PDF production
+# KörkortGo PDF build
 
-**Step 6A started:** 3 October 2026. **Status:** Readiness checked; production blocked.
+Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production begins separately at 6B.
 
-The execution request authorises 6A. Its saved entry requirements are not yet satisfied, so no finished opening PDF, renderer or reusable page templates are claimed here. The approved cover and navigation remain approved; this check does not request their approval again.
+## Reproduce
 
-## Files prepared
+Run from the repository root with Python 3.12 and the pinned packages in `requirements.txt`:
 
-- [Readiness review](readiness-review.md): current entry requirements and unfinished 6A work.
-- [Build manifest](build-manifest.json): ten original chapter titles, 40 lesson IDs, ten review IDs, appendix destinations, shared page/font settings and dated input hashes.
-- [Preflight](preflight.py): validate chapter coverage and input hashes; report the saved production hold. Run `python3 docs/curriculum/pdf-production/preflight.py` from the repository root. Exit 2 means the documented readiness hold remains, 1 means integrity failure, and 0 is reserved for a future cleared implementation.
+```sh
+python3 docs/curriculum/pdf-production/preflight.py
+python3 docs/curriculum/pdf-production/build.py
+python3 docs/curriculum/pdf-production/verify.py
+pdftoppm -scale-to 1600 -png docs/curriculum/pdf-production/front-matter.pdf tmp/pdfs/6a/page
+```
 
-This is a production preparation package, not the editable PDF renderer promised by 6A. Chapter content continues to come from the manuscript, with official image bindings supplied by the sign package. Do not copy teaching text or sign artwork from generated preview boards.
+The available bundled interpreter is `/Users/zeyad/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3`. Fonts and licences are local, so the build does not need a network connection. If Poppler on macOS needs font configuration, set `FONTCONFIG_FILE` to a local configuration containing `/System/Library/Fonts` and `/Library/Fonts`.
 
-## Resume 6A
+`build.py` writes [front-matter.pdf](front-matter.pdf) and the identical delivery copy at `../../../output/pdf/korkortgo-front-matter.pdf`. Its invariant build produces identical bytes on rerun with the pinned dependencies. `verify.py` checks that property, full introductory paragraphs, exact disclaimer, all chapter/appendix titles, embedded Unicode fonts, Swedish glyphs, internal links, bookmarks, page bounds and approved-preview hashes.
 
-Resolve the outstanding requirements in the readiness review, then pin the actual Source Serif 4 and Source Sans 3 font files and licences. Implement the approved opening pages and shared templates using the PDF workflow. Save `front-matter.pdf`, editable build source, exact build commands and dependency versions; render and inspect every opening page, verify embedded fonts/selectable text and the full disclaimer. Record actual results before marking 6A complete. Final book folios are assigned in 6M; the manifest deliberately has no invented page numbers.
+## Editable inputs and reusable components
+
+- [Manuscript](../manuscript.md): authoritative teaching text; introductory prose is extracted directly, not copied from imagegen.
+- [Build source](build.py): A4 page frame, token-based colours, registered font families, heading/body/caption/reference styles, automatic-height panels, lesson-heading component and repeated-header reference tables. Text overflow raises an error instead of shrinking the type.
+- [Font manifest](fonts/manifest.json): Adobe Source Sans 3 release 3.052R and Source Serif 4 release 4.005R, source URLs, hashes and bundled OFL licences.
+- [Asset bindings](asset-bindings.json): exact approved cover reference plus canonical chapter/sign bindings. The cover uses native PDF clipping; its generated text is excluded and replaced with selectable typography.
+- [Navigation](navigation.json): actual opening-page destinations plus reserved chapter, lesson, review, appendix and reference IDs. Chapter links and contents folios are attached only when target pages exist in 6M. No fictitious page numbers or broken chapter links appear in this partial PDF.
+- [Build manifest](build-manifest.json): source hashes and per-chapter production status.
+
+## Later chapter builds
+
+Reuse the shared page frame, fonts, styles and panels. Add all manuscript content, exact official signs and approved scene crops. Keep questions and answers on separate, non-facing pages; verify parity again after assembly. Do not publish whole raster preview boards as lesson pages. Render every newly built page and inspect scenario meaning and actual-size legibility. Caption and alternative text must describe the actual final illustration.
+
+## Review and limits
+
+See [readiness/render review](readiness-review.md) and [machine checks](verification.json). This is not a print-ready release: the approved cover raster is approximately 95 ppi at this size. Final tagged-PDF accessibility, chapter sign placement, cross-book navigation and final folios remain in their planned production stages. No chapter or app migration was executed in 6A.

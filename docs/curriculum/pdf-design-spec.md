@@ -1,3 +1,5 @@
+> **6A update — 4 October 2026:** All current visual previews are approved and the renewed execution request authorises the established design. The opening-page build is complete; see [readiness/render review](pdf-production/readiness-review.md). Historical pending-preview statements below are superseded. Chapter-specific artwork, sign substitution and final release checks remain mandatory.
+
 # KörkortGo PDF design specification
 
 **Version:** 1.0 · **Prepared:** 3 October 2026 · **Step:** 5F.  

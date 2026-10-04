@@ -1,26 +1,24 @@
-# Step 6A readiness review
+# Step 6A readiness and render review
 
-**Checked:** 3 October 2026. **Outcome:** Started; entry requirements not met. No PDF generated.
+**Checked:** 4 October 2026. **Outcome:** 6A complete for the screen-review build; four opening pages generated and inspected.
 
-## Evidence
+## Entry requirements
 
-| Requirement | Finding |
-|---|---|
-| Separate execution request | Received: “OK go ahead with execution 6A” |
-| Approved manuscript | Text prepared; final manuscript approval is not recorded in the progress tracker |
-| Approved cover/opening and navigation | Present: 5B v4 and 5C v1; no repeat approval needed for unchanged designs |
-| Complete approved design package | Not present: the 5F review retains F02–F08, now supported by the revised preview package; explicit design approval and final production checks remain |
-| Verified complete required sign package | Resolved 3 October: F01 closed using official poster vectors and passing 4F checks; recorded minimum sizes remain mandatory |
-| Production font files and licences | Specified families, but actual files/versions and licences still need to be pinned |
+The user completed sequential approval of all 21 current illustration/layout previews, then explicitly requested “go ahead with execution 6A”. Together with earlier cover v4 and navigation v1 approvals, this authorises implementation of the established designs. The current execution request authorises using the prepared manuscript for these opening pages; it is not recorded as final publication approval of unseen chapter PDFs. No new design was introduced or pending preview approval bypassed.
 
-Sources: [step 6 entry requirements](../implementation-plan.md), [5F completion review](../pdf-design-review.md), [design specification](../pdf-design-spec.md) and [progress tracker](../progress.md). These are existing project requirements, not a new permission rule introduced by the PDF skill. The current request starts the readiness work; it does not itself fix missing assets or approve unseen revised designs.
+The [versioned approvals](../pdf-design/gap-resolution/approval-record.json) pass all 21 hash checks. F01 is resolved: the rerun official sign verifier passes with zero required blockers and 321/321 eligible bindings. F02–F07 visual revisions are approved; final scene cropping, sign substitution, captions and semantic checks remain acceptance requirements within each chapter/reference build. F08 design approval is satisfied by the completed individual reviews followed by this explicit execution request. Historical pending statements are superseded by this record; they are not final artwork certification.
 
-## Work completed
+Fonts are pinned locally to Adobe Source Sans 3 3.052R and Source Serif 4 4.005R, with original OFL licences, source URLs and hashes. No font substitution is used.
 
-Prepared a shared build manifest from the actual manuscript: ten chapter destinations, 40 lesson IDs, ten module-review IDs, four appendices and official references. Recorded page settings, required font families, the required sign list (now empty after resolution) and hashes of seven source inputs. Added a rerunnable integrity/readiness preflight. No source-book page references or fabricated final folios were added.
+## Render review
 
-## Work remaining in 6A
+1. Cover: approved lakeside road/car artwork, forest brand title, category B subtitle and learning-aid label. All title text is selectable. Native PDF clipping excludes the generated lettering; a first-pass crop defect was corrected.
+2. Before you begin: full exact disclaimer in cream/gold, navy heading and full audience/learning guidance from the manuscript.
+3. Study guidance: the remaining manuscript introduction is retained at 12/17 pt, including label meanings, official sources, brief 1177 scope and original factual-check date.
+4. Contents: all ten exact module titles, four appendix titles and references. No invented final folios. Shared margins, header, gold rules and navigation match the approved direction.
 
-After entry requirements are satisfied: pin fonts and preserve licences; implement shared editable page templates and the approved cover/introduction/contents; bind production artwork; generate `front-matter.pdf`; inspect rendered pages; check text extraction, embedding, navigation and the exact disclaimer. This report is a readiness review only, not a render review. Chapter production has not started.
+All four pages were rendered and visually inspected. No clipped text, overlapping blocks or missing glyphs were found in the final render. Four Unicode fonts are embedded, all five internal links target present pages, four bookmarks and four named destinations resolve, and the document language is en-GB. All six opening prose paragraphs and the exact disclaimer match the manuscript. Build rerun yields identical PDF bytes. See `verification.json` for the output hash.
 
-The current F01–F08 list remains authoritative. Resolve its concrete missing work before seeking final package approval; do not request approval of an incomplete package merely to clear this check.
+## Scope and remaining release work
+
+6A supplies the reusable build and opening-page review artifact. It does not complete 6B–6N. The cover raster is approximately 95 ppi, suitable for screen review; obtain higher-resolution approved artwork for a print release. Full PDF tagging/assistive-technology checks remain required at 6N; selectable text and language metadata alone do not certify accessibility. Final contents page numbers and cross-chapter links wait for 6M. Each chapter still requires production artwork, factual and render checks before completion.

@@ -1,0 +1,177 @@
+{
+  "date": "2026-10-03",
+  "source_url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/vagmarken/ts_poster70x100_2021-10-01_webb.pdf",
+  "source_sha256": "009f425752e099baf13200ba253b160753bef6d81db8f1e68cb7073b38a083eb",
+  "method": "pypdf crop and affine scale; outside poster text removed; sign vector paths and colours unchanged",
+  "assets": [
+    {
+      "code": "S1",
+      "path": "docs/curriculum/sign-assets/official-poster/S1-official-vector.pdf",
+      "sha256": "70a71fb014a4f553d276a6b12ed4d156d875035f64dc6ef390aab396b322b775",
+      "poster_box_top_origin_points": [
+        197.6,
+        1883.7,
+        270.3,
+        1928.6
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S2",
+      "path": "docs/curriculum/sign-assets/official-poster/S2-official-vector.pdf",
+      "sha256": "9a0380ba0ee77e917ceebf52fccfc9dafd0eb17818373aa2bfb3eef14742f9c5",
+      "poster_box_top_origin_points": [
+        283.5,
+        1883.6,
+        355.6,
+        1928
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S3",
+      "path": "docs/curriculum/sign-assets/official-poster/S3-official-vector.pdf",
+      "sha256": "4dc583e99952a61d2e382e1249f12c0f1765ccd0f784d11825b3c16452609335",
+      "poster_box_top_origin_points": [
+        367.7,
+        1883.7,
+        440.4,
+        1928.5
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S4",
+      "path": "docs/curriculum/sign-assets/official-poster/S4-official-vector.pdf",
+      "sha256": "b86fab65a7c147c9c964a8cb6cbe6d4e88824455a5e499456dc35905f063a681",
+      "poster_box_top_origin_points": [
+        452.5,
+        1883.7,
+        524.8,
+        1928.3
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S8",
+      "path": "docs/curriculum/sign-assets/official-poster/S8-official-vector.pdf",
+      "sha256": "db12d069eab85fa307b7f14a4a3830765fe13a544c4d83663d3f6ac4f0909d67",
+      "poster_box_top_origin_points": [
+        791.6,
+        1882.8,
+        863.8,
+        1927.4
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S9",
+      "path": "docs/curriculum/sign-assets/official-poster/S9-official-vector.pdf",
+      "sha256": "d6c3aa59aa52f21a9f5da4e3a4f07eb9cc0cac4d956a616c9de8285ee52c93ae",
+      "poster_box_top_origin_points": [
+        877,
+        1882,
+        950,
+        1927
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S10",
+      "path": "docs/curriculum/sign-assets/official-poster/S10-official-vector.pdf",
+      "sha256": "49c890b5cd5f34d23206f19601d3203c3ba1c5128ad52e3a2edbdb15e503f1f4",
+      "poster_box_top_origin_points": [
+        962.1,
+        1873.7,
+        1034.7,
+        1934.8
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "S12",
+      "path": "docs/curriculum/sign-assets/official-poster/S12-official-vector.pdf",
+      "sha256": "d4b6831a3c46b0e3413bd6e6a177d967a8dbb4259325b22dabd864eb0ae540e6",
+      "poster_box_top_origin_points": [
+        1131,
+        1881.9,
+        1203.9,
+        1926.8
+      ],
+      "review_width_mm": 110.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "T1",
+      "path": "docs/curriculum/sign-assets/official-poster/T1-official-vector.pdf",
+      "sha256": "8d6939e56bd271b174617640cd731840dfd7908385ee95e9a6584c3f79a5450a",
+      "poster_box_top_origin_points": [
+        1304.3,
+        1869.2,
+        1364.8,
+        1945.5
+      ],
+      "review_width_mm": 110.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "T2",
+      "path": "docs/curriculum/sign-assets/official-poster/T2-official-vector.pdf",
+      "sha256": "4377ceaae3e71deefa0b1de8f7d5f066118d0b19a9e47282611e038b7be16749",
+      "poster_box_top_origin_points": [
+        1388.1,
+        1893.3,
+        1458.2,
+        1921.2
+      ],
+      "review_width_mm": 110.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "T6",
+      "path": "docs/curriculum/sign-assets/official-poster/T6-official-vector.pdf",
+      "sha256": "1625cefd3695263c6dc570e90b9e4183340542a28ec774f6adc78821e8647910",
+      "poster_box_top_origin_points": [
+        1719.4,
+        1877.5,
+        1795.4,
+        1934
+      ],
+      "review_width_mm": 80.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "T8",
+      "path": "docs/curriculum/sign-assets/official-poster/T8-official-vector.pdf",
+      "sha256": "d3ec73144665f793214a6ea36c6ac47ed7a718075efa5e3861324396e7232ba2",
+      "poster_box_top_origin_points": [
+        114.9,
+        2015.8,
+        181.6,
+        2050.2
+      ],
+      "review_width_mm": 110.0,
+      "status": "visually_reviewed_at_recorded_size"
+    },
+    {
+      "code": "T22",
+      "path": "docs/curriculum/sign-assets/official-poster/T22-official-vector.pdf",
+      "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871",
+      "poster_box_top_origin_points": [
+        1309.023,
+        2019.026,
+        1362.164,
+        2046.219
+      ],
+      "review_width_mm": 110.0,
+      "status": "visually_reviewed_at_recorded_size"
+    }
+  ]
+}

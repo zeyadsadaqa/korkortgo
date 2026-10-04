@@ -1,3 +1,5 @@
+> **6A update — 4 October 2026:** All current visual previews are approved and the renewed execution request authorises the established design. The opening-page build is complete; see [readiness/render review](pdf-production/readiness-review.md). Historical pending-preview statements below are superseded. Chapter-specific artwork, sign substitution and final release checks remain mandatory.
+
 > **Current status — 4 October 2026:** All current individual illustration and sign-reference layout previews have explicit user approval. See [versioned approval record](pdf-design/gap-resolution/approval-record.json). Earlier pending-preview findings below are historical. Final source-art substitution, captions/alt text, typography and rendered-PDF verification remain production work; approval of preview images does not certify those checks.
 
 # KörkortGo design completion review — 5F

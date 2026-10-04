@@ -1,0 +1,121 @@
+{
+  "checked_on": "2026-10-03",
+  "poster_url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/vagmarken/ts_poster70x100_2021-10-01_webb.pdf",
+  "poster_sha256": "009f425752e099baf13200ba253b160753bef6d81db8f1e68cb7073b38a083eb",
+  "T8_crop_box_pdf_points": [
+    114.9,
+    784.4500000000003,
+    181.6,
+    818.8500000000001
+  ],
+  "candidates": [
+    {
+      "code": "S1",
+      "title": "S1 Tung lastbil",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/tung-lastbil/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c7736e2e15de3343.png",
+      "sha256": "a8d76607f3f8e22dffcf3815de14a0fe032d45a15e3e558b81624d2081bc9577",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S2",
+      "title": "S2 Tung lastbil med tillkopplad sl\u00e4pvagn",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/tung-lastbil-med-tillkopplad-slapvagn/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-2986656d363a2861.png",
+      "sha256": "caecbfa03fdb84b0c7e4e824bc4d12fb3492dd11cf7fb2ca371b6357e3422cc0",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S3",
+      "title": "S3 Personbil",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personbil/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-a122d7ebd12e0108.png",
+      "sha256": "24964e5f3c8ffcac7fee2c5b8c470fbda8e0d815fa5671bd001022e0ba73d218",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S4",
+      "title": "S4 Personbil med tillkopplad sl\u00e4pk\u00e4rra",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personbil-med-tillkopplad-slapkarra/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e1e08684b77f2c55.png",
+      "sha256": "7165daeff5daa2a8121f13cd094e7be9e2ae150dfa9ee89b47020ba5d8fcf445",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S8",
+      "title": "S8 Cykel och moped klass II",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/cykel-och-moped-klass-ii/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-352d49f388295581.png",
+      "sha256": "94e5d54a99ed552884be380c9d099ed9e157078671d790811c81f0710cc87a31",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S9",
+      "title": "S9 Sl\u00e4pk\u00e4rra",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/slapkarra/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-cbafb8739ee4c2b8.png",
+      "sha256": "85716ae18eaf0eb36690b874414aab342909ad72461f052ac7d0dcb55ace092c",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S10",
+      "title": "S10 G\u00e5ende",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/gaende/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e4c934b5ae8a2dc9.png",
+      "sha256": "2d9ded59df8fafdce6948c4d646bb79c9f9ee49696e0deaa4e3462b5c2e61f56",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "S12",
+      "title": "S12 Personbil klass II",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personbil-klass-ii/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-7bf1c4be0f3f0381.png",
+      "sha256": "025962ed98aaf3f1094317357f1ff0513358afaac84027bcb741a2964418bc28",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "T1",
+      "title": "T1 V\u00e4gstr\u00e4ckas l\u00e4ngd",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/vagstrackas-langd/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c1983d2b04ce9bc6.png",
+      "sha256": "6281abbc76a41e98f642a24d826706471e19bd9ea339fe98c850d6e6187a89e5",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "T2",
+      "title": "T2 Avst\u00e5nd",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/avstand/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8569fa721f5a01ef.png",
+      "sha256": "85ebdb83ff1b5476775907fb3d506929d74e8caadd1319199c9f5418cecb491c",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "T6",
+      "title": "T6 Tidsangivelse",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tidsangivelse/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e0e8f867a65336ef.png",
+      "sha256": "ac3e71f84fabdcc541417c9c0c8641c8a821a87650e53f1ba55b63d9603137cd",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    },
+    {
+      "code": "T22",
+      "title": "T22 Text",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/text/",
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-0b06632f8e9b76fe.png",
+      "sha256": "242f4111c0fa3ba4ebc69193008beeed884d16fc9518efa10c15ce1d9bdbe1db",
+      "width_mm": 80,
+      "status": "candidate_pending_print_proof_review"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Illustration coverage register — current review
 
-Updated 3 October 2026 (M01-v2, F06-v4 and M02-v3 approved; others pending). Forty lessons and ten reviews are mapped below; four sections deliberately remain text-only. New previews await explicit approval. The structured register preserves exact manuscript anchors and official evidence. Preview boards show compositions, not final printable pages; production must restore exact manuscript titles, scenario conditions, captions and official sign artwork.
+Updated 4 October 2026. All current linked preview designs are explicitly approved; final production checks remain. Forty lessons and ten reviews are mapped below, including four text-only sections. The structured register and versioned approval record govern current assets.
 
 [Review package](../gap-resolution/README.md)
 
@@ -11,11 +11,11 @@ Updated 3 October 2026 (M01-v2, F06-v4 and M02-v3 approved; others pending). For
 | M01-L03 · Pressure is a driving risk | preview_approved | [M01-v2](../gap-resolution/M01-v2.png); [F06-v4](../gap-resolution/F06-v4.png) |
 | M01-L04 · Plan the journey before the ignition | preview_approved | [M01-v2](../gap-resolution/M01-v2.png); [F06-v4](../gap-resolution/F06-v4.png) |
 | M01-R · Review and self-assessment | preview_approved | [M01-v2](../gap-resolution/M01-v2.png); [F06-v4](../gap-resolution/F06-v4.png) |
-| M02-L01 · Know what the controls tell you | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) (board approved; parking-v3 awaiting approval) |
-| M02-L02 · A check before moving | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) (board approved; parking-v3 awaiting approval) |
-| M02-L03 · Protect everyone inside | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) (board approved; parking-v3 awaiting approval) |
+| M02-L01 · Know what the controls tell you | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) |
+| M02-L02 · A check before moving | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) |
+| M02-L03 · Protect everyone inside | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) |
 | M02-L04 · Move with control | preview_prepared_awaiting_approval | [parking-v3](../gap-resolution/parking-v3.png) |
-| M02-R · Review and self-assessment | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) (board approved; parking-v3 awaiting approval) |
+| M02-R · Review and self-assessment | preview_approved | [M02-v3](../gap-resolution/M02-v3.png); [parking-v3](../gap-resolution/parking-v3.png) |
 | M03-L01 · Recognise what a sign asks | preview_prepared_awaiting_approval | [M03-v4](../gap-resolution/M03-v4.png) |
 | M03-L02 · Combine the instructions | revision_requested | [M03-v4](../gap-resolution/M03-v4.png) (v4 pending: junction geometry and stop line) |
 | M03-L03 · Find your way without rushing | preview_prepared_awaiting_approval | [M03-v4](../gap-resolution/M03-v4.png) |

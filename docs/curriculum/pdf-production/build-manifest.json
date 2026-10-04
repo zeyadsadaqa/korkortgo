@@ -1,7 +1,7 @@
 {
   "version": 1,
   "prepared": "2026-10-03",
-  "status": "readiness_blocked_not_a_rendered_build",
+  "status": "6A_complete_screen_review",
   "brand": "KörkortGo",
   "page": {
     "format": "A4",
@@ -11,8 +11,9 @@
   "fonts": {
     "headings": "Source Serif 4",
     "body": "Source Sans 3",
-    "files_pinned": false,
-    "licences_bundled": false
+    "files_pinned": true,
+    "licences_bundled": true,
+    "manifest": "fonts/manifest.json"
   },
   "front_matter": [
     "cover",
@@ -183,12 +184,16 @@
   "final_page_numbers": null,
   "input_sha256": {
     "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
-    "pdf-design-spec.md": "4b082780bfa5c7f156b63eea0d9aefe2c86f13854cebd6f4063bb655d133f0e5",
-    "pdf-design-review.md": "7b40bb70f021c0c82725e63a4877f198df499bc33f5799bc9e7b776b0afed1ad",
+    "pdf-design-spec.md": "a0d8fa1aa187e41415046af738a7cd2ba8c4a3bfc145fb71c8e062b17985c612",
+    "pdf-design-review.md": "778a62e382a408e28baef3db5e97341a25a71fd7ff85a155480af140ba59f883",
     "sign-asset-manifest.json": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32",
     "sign-placement-map.json": "f445f5e4829b35e59a20a75fb0a436607ef6be1fdd6ffd53c1920520946d93d4",
     "sign-captions.json": "879fbdb4d42ec673c49bba191ddb8c3212ba9dc41b4401eabbc52a932b43545b",
-    "pdf-design/5e/illustration-register.json": "b637bde4b957ff1153a2fb30879ab8dcba519b7870b6560d2c2999ffa0c61a00"
+    "pdf-design/5e/illustration-register.json": "b637bde4b957ff1153a2fb30879ab8dcba519b7870b6560d2c2999ffa0c61a00",
+    "pdf-design/gap-resolution/approval-record.json": "7fed12e2fce20a5b6eec87c84c9eb63a521bef020f074d451acb3f94bf54b18a"
   },
-  "required_held_signs": []
+  "required_held_signs": [],
+  "updated": "2026-10-04",
+  "front_matter_pdf": "front-matter.pdf",
+  "chapter_execution": "6B–6N remain independently authorised steps"
 }

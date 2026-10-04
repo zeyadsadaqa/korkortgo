@@ -1,11 +1,11 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 3 October 2026  
-**Current position:** Steps 1–3 completed; outline version 1.0 approved; editable manuscript prepared; step 4 completed (13 selected gaps resolved with verified official vectors; four optional mismatches excluded); step 5 in progress (5A–5C completed; 5D illustrated revision and 5E chapter/diagram previews prepared; 5F awaiting revised-package approval); step 6A readiness checked but blocked; steps 6B–6N and 7–10 not started.  
-**Next action:** Complete the step 6A readiness/consolidation check using the [approved preview versions](pdf-design/gap-resolution/approval-record.json), then build and verify shared templates and front matter. Individual preview approval is complete; production checks remain.
+**Last updated:** 4 October 2026  
+**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Step 6A completed: reusable build, pinned fonts/licences and four-page front matter verified. Steps 6B–6N and 7–10 not started.  
+**Next action:** Review the [6A opening PDF](pdf-production/front-matter.pdf); chapter 1 can be requested independently as step 6B.
 
-This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Four of ten steps have cleared their requirements. This is a step count, not an estimate of total effort completed.
+This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Five of ten steps have cleared their preparation/design requirements. This is a step count, not an estimate of total effort completed.
 
 ## Status overview
 
@@ -15,8 +15,8 @@ This file records actual work and approvals. It does not authorise the next step
 | 2 | Draft the original curriculum and official-source map | Completed | [Outline v1.0](curriculum-outline.md), [official-source map](curriculum-source-map.md) and [structured map](curriculum-source-map.json) approved for curriculum planning on 1 October 2026 |
 | 3 | Write the complete learning material | Completed | [Editable manuscript](manuscript.md), [evidence register](manuscript-evidence.md) and [verification report](manuscript-verification.md); final illustrations and PDF remain later steps |
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
-| 5 | Generate a PDF design preview | In progress | [5A design brief](pdf-design-brief.md) complete; 5B–5C approved; [5F specification](pdf-design-spec.md) consolidated; [completion review](pdf-design-review.md) awaiting approval of the revised preview package |
-| 6 | Produce and verify the curriculum PDF | Started; readiness blocked | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
+| 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
+| 6 | Produce and verify the curriculum PDF | In progress; 6A completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
 | 7 | Plan the app’s curriculum migration | Not started | Approved PDF required; map lesson IDs and practice questions |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
@@ -48,11 +48,11 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 
 ## Step 6 substep tracker
 
-6A readiness preparation started on 3 October 2026; no PDF has been generated. The [implementation plan](implementation-plan.md) defines inputs and completion criteria. Resolve existing step 5 blockers and obtain the required approvals before 6A. Each chapter can be requested separately after 6A; completing one does not start the next.
+6A completed on 4 October 2026 after sequential visual approval and the renewed execution request. Each chapter can be requested separately; completion does not start the next substep.
 
 | Substep | Work | Status | Planned output |
 |---|---|---|---|
-| 6A | Shared build and opening pages | Started; readiness blocked | [Readiness review](pdf-production/readiness-review.md), [preparation package](pdf-production/README.md); renderer, fonts and opening PDF remain |
+| 6A | Shared build and opening pages | Completed | [Opening PDF](pdf-production/front-matter.pdf), [build instructions](pdf-production/README.md), [readiness/render review](pdf-production/readiness-review.md), [checks](pdf-production/verification.json) |
 | 6B | Chapter 1: Choose to drive responsibly | Not started | M01 chapter PDF, editable source and review |
 | 6C | Chapter 2: Prepare a car that is ready | Not started | M02 chapter PDF, editable source and review |
 | 6D | Chapter 3: Read the road before acting | Not started | M03 chapter PDF, editable source and review |
@@ -453,3 +453,5 @@ Resolved all 13 selected sign assets using official vectors; verified all 321 bi
 **4 October — timeline v4 approved:** User approved the added parking signs. All chapter/scenario previews presented in the sequential review, including the priority-road addition, have now received visual approval. Next shown for review: existing sign-reference layout (5E sign-layouts-v1), whose direction was previously accepted. Production asset, typography and accessibility checks remain.
 
 **4 October — sequential visual review completed:** User approved sign-layouts-v1. All 21 current illustration/layout boards in the versioned approval record now have explicit approval. No further unseen chapter preview is queued. Final production checks and 6A PDF generation remain; later chapters are separate steps.
+
+**4 October — 6A executed:** Built four opening pages using the approved design and complete manuscript introduction; bundled four exact fonts with OFL licences, shared editable templates, navigation/asset manifests and reproducible build instructions. Rendered all pages and checked source fidelity, embedded fonts, glyphs, five links, four bookmarks/destinations and deterministic output. Sign verification passes 321/321 bindings. Screen review only: print-resolution cover artwork and full accessibility certification remain release work. Stopped before 6B.
