@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened the seven chapter reference targets and inspected relevant passages. Reused previously verified individual official sign captions/artwork with hash checks; this is not a claim that all individual sign pages were fetched again.",
+  "sources": [
+    {
+      "alias": "signs",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/",
+      "finding": "Official catalogue identifies sign families, signals, markings, police directions and guards. Retained approved individual caption/asset bindings; each placed example links to its own official description.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "sign-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+      "finding": "Chapter 3 §§3–15 supports steady vehicle indications, amber unsafe-stop exception, flashing amber, lane control and separate public-transport scope. Chapter 2 and marking captions retain the verified source-register meanings.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Current chapter 2 §§2–4 supports precedence. Chapter 3 §§5,7,9–11,14–20 supports yielding, lane choice, line restrictions, safe speed, defaults and keeping junctions clear. Chapter 9 §1 motorway defaults retained. Future unrelated amendments not applied.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "panels",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/",
+      "finding": "Catalogue confirms supplementary panels give distance, extent, time and other qualifications. Exact official poster vectors retain reviewed minimum dimensions; no invented assembly.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "impact",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+      "finding": "Speed-and-impact guidance explains increased impact severity and shorter stopping distance at lower speed. No copied graphic or numerical injury model used.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "friction",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "finding": "VTI report 980, hosted by Transportstyrelsen, sections 4.2–4.3 supports reaction plus braking distance and the shared available friction for braking/steering. The 50/3.6 and 80/3.6 examples are explicitly hypothetical unit conversions, not braking predictions.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "TSFS 2011:20 chapters 2–3 supports observation, margins, prediction, consequence assessment and reflection.",
+      "status": "supports chapter use"
+    }
+  ]
+}

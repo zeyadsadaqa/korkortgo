@@ -71,7 +71,12 @@
       ],
       "review": "M03-R",
       "production_step": "6D",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M03/chapter.pdf",
+      "pages": 50,
+      "review_report": "chapters/M03/review.md",
+      "verified_on": "2026-10-04",
+      "sha256": "d2b6f4a25f679032fb2dcbf86ed3a971a175b7fcb892efc44f64dfca17c32988"
     },
     {
       "id": "M04",

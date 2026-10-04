@@ -39,3 +39,5 @@ See [readiness/render review](readiness-review.md) and [machine checks](verifica
 - [Chapter 1 review](chapters/M01/review.md): 6B complete, 15 pages, four lessons and one self-assessment. Build with `python3 docs/curriculum/pdf-production/chapters/M01/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
 
 - [Chapter 2 review](chapters/M02/review.md): 6C complete, 15 pages, four lessons and one self-assessment. Build with `python3 docs/curriculum/pdf-production/chapters/M02/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 3 review](chapters/M03/review.md): 6D complete, 50 pages, four lessons, self-assessment, seven approved scene placements and 100 exact official sign/signal/marking placements. Build with `python3 docs/curriculum/pdf-production/chapters/M03/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
