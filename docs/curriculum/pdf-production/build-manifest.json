@@ -1,0 +1,194 @@
+{
+  "version": 1,
+  "prepared": "2026-10-03",
+  "status": "readiness_blocked_not_a_rendered_build",
+  "brand": "KörkortGo",
+  "page": {
+    "format": "A4",
+    "orientation": "portrait",
+    "margin_mm": 20
+  },
+  "fonts": {
+    "headings": "Source Serif 4",
+    "body": "Source Sans 3",
+    "files_pinned": false,
+    "licences_bundled": false
+  },
+  "front_matter": [
+    "cover",
+    "introduction",
+    "contents"
+  ],
+  "chapters": [
+    {
+      "id": "M01",
+      "title": "Choose to drive responsibly",
+      "destination": "M01",
+      "lessons": [
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04"
+      ],
+      "review": "M01-R",
+      "production_step": "6B",
+      "status": "not_started"
+    },
+    {
+      "id": "M02",
+      "title": "Prepare a car that is ready",
+      "destination": "M02",
+      "lessons": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04"
+      ],
+      "review": "M02-R",
+      "production_step": "6C",
+      "status": "not_started"
+    },
+    {
+      "id": "M03",
+      "title": "Read the road before acting",
+      "destination": "M03",
+      "lessons": [
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04"
+      ],
+      "review": "M03-R",
+      "production_step": "6D",
+      "status": "not_started"
+    },
+    {
+      "id": "M04",
+      "title": "Negotiate shared space",
+      "destination": "M04",
+      "lessons": [
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04"
+      ],
+      "review": "M04-R",
+      "production_step": "6E",
+      "status": "not_started"
+    },
+    {
+      "id": "M05",
+      "title": "Make room in busy streets",
+      "destination": "M05",
+      "lessons": [
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04"
+      ],
+      "review": "M05-R",
+      "production_step": "6F",
+      "status": "not_started"
+    },
+    {
+      "id": "M06",
+      "title": "Travel beyond the town",
+      "destination": "M06",
+      "lessons": [
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04"
+      ],
+      "review": "M06-R",
+      "production_step": "6G",
+      "status": "not_started"
+    },
+    {
+      "id": "M07",
+      "title": "Adapt when conditions change",
+      "destination": "M07",
+      "lessons": [
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04"
+      ],
+      "review": "M07-R",
+      "production_step": "6H",
+      "status": "not_started"
+    },
+    {
+      "id": "M08",
+      "title": "Take responsibility for the vehicle and load",
+      "destination": "M08",
+      "lessons": [
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04"
+      ],
+      "review": "M08-R",
+      "production_step": "6I",
+      "status": "not_started"
+    },
+    {
+      "id": "M09",
+      "title": "Reduce the impact of each journey",
+      "destination": "M09",
+      "lessons": [
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04"
+      ],
+      "review": "M09-R",
+      "production_step": "6J",
+      "status": "not_started"
+    },
+    {
+      "id": "M10",
+      "title": "Respond, reflect and keep learning",
+      "destination": "M10",
+      "lessons": [
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04"
+      ],
+      "review": "M10-R",
+      "production_step": "6K",
+      "status": "not_started"
+    }
+  ],
+  "appendices": [
+    {
+      "id": "appendix-A",
+      "title": "Put the learning into practice"
+    },
+    {
+      "id": "appendix-B",
+      "title": "Learn signs by the decision they require"
+    },
+    {
+      "id": "appendix-C",
+      "title": "A practical Swedish–English glossary"
+    },
+    {
+      "id": "appendix-D",
+      "title": "Personal practice record"
+    }
+  ],
+  "references_destination": "official-references",
+  "final_page_numbers": null,
+  "input_sha256": {
+    "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
+    "pdf-design-spec.md": "4b082780bfa5c7f156b63eea0d9aefe2c86f13854cebd6f4063bb655d133f0e5",
+    "pdf-design-review.md": "7b40bb70f021c0c82725e63a4877f198df499bc33f5799bc9e7b776b0afed1ad",
+    "sign-asset-manifest.json": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32",
+    "sign-placement-map.json": "f445f5e4829b35e59a20a75fb0a436607ef6be1fdd6ffd53c1920520946d93d4",
+    "sign-captions.json": "879fbdb4d42ec673c49bba191ddb8c3212ba9dc41b4401eabbc52a932b43545b",
+    "pdf-design/5e/illustration-register.json": "b637bde4b957ff1153a2fb30879ab8dcba519b7870b6560d2c2999ffa0c61a00"
+  },
+  "required_held_signs": []
+}
