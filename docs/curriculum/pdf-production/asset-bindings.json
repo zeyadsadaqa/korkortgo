@@ -1,0 +1,16 @@
+{
+  "cover": {
+    "source": "pdf-design/5b/cover-opening-v4.png",
+    "sha256": "9d2f3359961b9e7b3623d8980ae9ce630155fbe72503748daecaae096fd152f9",
+    "placement": "Left landscape only via native PDF clipping; generated text excluded; original unchanged",
+    "role": "decorative editorial illustration",
+    "description": "A teal car travels in the right lane of a winding lakeside road, surrounded by Swedish conifers and rocky slopes.",
+    "effective_ppi": 94.9,
+    "release_limit": "Screen review; obtain a higher-resolution approved master before print release"
+  },
+  "chapter_illustrations": "pdf-design/5e/illustration-register.json",
+  "preview_approval_hashes": "pdf-design/gap-resolution/approval-record.json",
+  "official_sign_bindings": "sign-placement-map.json",
+  "official_sign_captions": "sign-captions.json",
+  "chapter_asset_rule": "Only approved scene artwork; typeset exact manuscript text and insert eligible official sign assets. Inspect each final crop and alternative text during its chapter step."
+}
