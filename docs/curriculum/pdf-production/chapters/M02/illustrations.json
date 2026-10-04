@@ -1,0 +1,140 @@
+{
+  "status": "approved crops; screen review",
+  "assets": {
+    "M02-L01": {
+      "file": "M02-v3.png",
+      "box": [
+        32,
+        142,
+        807,
+        470
+      ],
+      "polygon": [
+        [
+          32,
+          166
+        ],
+        [
+          525,
+          166
+        ],
+        [
+          540,
+          142
+        ],
+        [
+          807,
+          142
+        ],
+        [
+          807,
+          470
+        ],
+        [
+          32,
+          470
+        ]
+      ],
+      "caption": "A learner consults the vehicle handbook beside a parked car. Establish the actual controls before driving; no universal dashboard layout is shown.",
+      "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a",
+      "alt_text": "A learner consults the vehicle handbook beside a parked car. Establish the actual controls before driving; no universal dashboard layout is shown.",
+      "print_ppi": 115.8
+    },
+    "M02-L02": {
+      "file": "M02-v3.png",
+      "box": [
+        833,
+        146,
+        1638,
+        469
+      ],
+      "caption": "A companion checks the rear of a stationary car and trailer. Check the trailer lights directly before moving.",
+      "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a",
+      "alt_text": "A companion checks the rear of a stationary car and trailer. Check the trailer lights directly before moving.",
+      "print_ppi": 120.3
+    },
+    "M02-L03": {
+      "file": "M02-v3.png",
+      "box": [
+        33,
+        554,
+        767,
+        889
+      ],
+      "caption": "An adult and child stand beside an open rear door. The empty booster and rear bench face forwards. This scene does not demonstrate installation or belt fit; follow the child-restraint and vehicle instructions.",
+      "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a",
+      "alt_text": "An adult and child stand beside an open rear door. The empty booster and rear bench face forwards. This scene does not demonstrate installation or belt fit; follow the child-restraint and vehicle instructions.",
+      "print_ppi": 109.7
+    },
+    "M02-L04": {
+      "file": "parking-v3.png",
+      "box": [
+        102,
+        194,
+        718,
+        730
+      ],
+      "width_mm": 120,
+      "caption": "A car and van occupy adjacent bays. A pedestrian is on the footway between the bays and the access lane. Consider what the driver may lose sight of. Diagram not to scale.",
+      "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a",
+      "alt_text": "A car and van occupy adjacent bays. A pedestrian is on the footway between the bays and the access lane. Consider what the driver may lose sight of. Diagram not to scale.",
+      "print_ppi": 130.4
+    },
+    "M02-L04-cabin": {
+      "file": "M02-v3.png",
+      "box": [
+        796,
+        560,
+        1635,
+        888
+      ],
+      "width_mm": 115,
+      "caption": "The driver is in the left-hand seat and looks around before moving. Controls are illustrative; learn the actual vehicle.",
+      "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a",
+      "alt_text": "The driver is in the left-hand seat and looks around before moving. Controls are illustrative; learn the actual vehicle.",
+      "print_ppi": 185.3
+    },
+    "M02-R": {
+      "file": "parking-v3.png",
+      "box": [
+        777,
+        156,
+        1464,
+        729
+      ],
+      "width_mm": 120,
+      "polygon": [
+        [
+          777,
+          156
+        ],
+        [
+          1464,
+          156
+        ],
+        [
+          1464,
+          729
+        ],
+        [
+          844,
+          729
+        ],
+        [
+          844,
+          446
+        ],
+        [
+          777,
+          446
+        ]
+      ],
+      "caption": "An unfamiliar car, a child with an adult, and confined parking beside a van. The footway separates the bays from the access lane. No manoeuvre is selected; diagram not to scale.",
+      "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a",
+      "alt_text": "An unfamiliar car, a child with an adult, and confined parking beside a van. The footway separates the bays from the access lane. No manoeuvre is selected; diagram not to scale.",
+      "print_ppi": 145.4
+    }
+  },
+  "required_sign_assets": [],
+  "text_only": []
+}

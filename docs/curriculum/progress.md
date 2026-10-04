@@ -2,8 +2,8 @@
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
 **Last updated:** 4 October 2026  
-**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A and 6B completed: shared build/front matter and 15-page Chapter 1 screen-review PDF verified. Steps 6C–6N and 7–10 not started.  
-**Next action:** Review [Chapter 1](pdf-production/chapters/M01/chapter.pdf). Chapter 2 can be requested independently as step 6C.
+**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6C completed: shared build/front matter and Chapters 1–2 screen-review PDFs verified. Steps 6D–6N and 7–10 not started.  
+**Next action:** Review [Chapter 2](pdf-production/chapters/M02/chapter.pdf). Chapter 3 can be requested independently as step 6D.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Five of ten steps have cleared their preparation/design requirements. This is a step count, not an estimate of total effort completed.
 
@@ -16,7 +16,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 3 | Write the complete learning material | Completed | [Editable manuscript](manuscript.md), [evidence register](manuscript-evidence.md) and [verification report](manuscript-verification.md); final illustrations and PDF remain later steps |
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
-| 6 | Produce and verify the curriculum PDF | In progress; 6A–6B completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
+| 6 | Produce and verify the curriculum PDF | In progress; 6A–6C completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
 | 7 | Plan the app’s curriculum migration | Not started | Approved PDF required; map lesson IDs and practice questions |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
@@ -54,7 +54,7 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 |---|---|---|---|
 | 6A | Shared build and opening pages | Completed | [Opening PDF](pdf-production/front-matter.pdf), [build instructions](pdf-production/README.md), [readiness/render review](pdf-production/readiness-review.md), [checks](pdf-production/verification.json) |
 | 6B | Chapter 1 — Choose to drive responsibly | Completed | [Chapter PDF](pdf-production/chapters/M01/chapter.pdf), [review](pdf-production/chapters/M01/review.md), [checks](pdf-production/chapters/M01/verification.json); 15-page screen-review build |
-| 6C | Chapter 2: Prepare a car that is ready | Not started | M02 chapter PDF, editable source and review |
+| 6C | Chapter 2 — Prepare a car that is ready | Completed | [Chapter PDF](pdf-production/chapters/M02/chapter.pdf), [review](pdf-production/chapters/M02/review.md), [checks](pdf-production/chapters/M02/verification.json); 15-page screen-review build |
 | 6D | Chapter 3: Read the road before acting | Not started | M03 chapter PDF, editable source and review |
 | 6E | Chapter 4: Negotiate shared space | Not started | M04 chapter PDF, editable source and review |
 | 6F | Chapter 5: Make room in busy streets | Not started | M05 chapter PDF, editable source and review |
@@ -457,3 +457,5 @@ Resolved all 13 selected sign assets using official vectors; verified all 321 bi
 **4 October — 6A executed:** Built four opening pages using the approved design and complete manuscript introduction; bundled four exact fonts with OFL licences, shared editable templates, navigation/asset manifests and reproducible build instructions. Rendered all pages and checked source fidelity, embedded fonts, glyphs, five links, four bookmarks/destinations and deterministic output. Sign verification passes 321/321 bindings. Screen review only: print-resolution cover artwork and full accessibility certification remain release work. Stopped before 6B.
 
 **4 October — 6B executed:** Built Chapter 1 with all four complete lessons, four approved scene crops, self-assessment, reflection space and separately placed answers. Rechecked all 11 official references; no manuscript changes needed. Inspected all 15 rendered pages; fidelity, embedded fonts, 34 internal links, 16 destinations, answer separation and deterministic-build checks pass. Source, asset and verification records saved beside the chapter PDF. No sign artwork is required in M01. Print-resolution masters and full release accessibility remain later work. Stopped before 6C.
+
+**4 October — 6C executed:** Built Chapter 2 with four complete lessons, six approved illustration placements, self-assessment, reflection space and separate answers. Rechecked 11 official references, including child-restraint exceptions/advice, lighting and vehicle-control requirements. Preserved the corrected rear-seat orientation, child outside the vehicle, left-hand driver and separated parking/footway/access-lane geometry. All 15 pages inspected; text fidelity, font embedding, 34 internal links, 16 destinations, answer separation and reproducibility checks pass. No road signs are required for M02. Print masters, final global navigation and full accessibility certification remain later release work. Stopped before 6D.

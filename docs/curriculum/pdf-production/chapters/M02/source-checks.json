@@ -1,0 +1,72 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened official pages/PDFs and inspected relevant passages; chapter teaching text unchanged",
+  "sources": [
+    {
+      "alias": "practical",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+      "finding": "Practical-test safety checks include controls, tyres, lighting, fluids and warnings; deficiencies require action. Seat/headrest/mirror/belt setup, parking, reversing, hill starts and effective braking are supported.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 3 sections 14, 43, 46, 50, 65–66 and chapter 4 sections 10–10d support speed/control, safe movement, securing stationary vehicles, signalling obligations and occupant protection. Relevant current provisions checked; future unrelated amendments not applied.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "friction",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "finding": "VTI report 980 section 4.3, hosted by Transportstyrelsen, confirms lateral and braking forces share available friction. Used only for this physical principle, not as an additional rule.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "tyres",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/",
+      "finding": "Load capacity, speed capability and replacement-size compatibility requirements support the chapter; no unsupported universal tyre specification is added.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "lights",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+      "finding": "Daytime-running-light rear/side exception, required manual intervention in darkness/poor weather and trailer lights always on during travel are confirmed.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "belts",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+      "finding": "Belt-equipped places, under-135 cm child protection and under-15 supervision duties confirmed; limited exceptions retained.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "child-rules",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+      "finding": "Three-and-over short occasional transport and under-three short taxi exception conditions confirmed. Rear-facing recommendation and active-airbag cautions retained as distinct from legal height threshold.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "child-advice",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+      "finding": "Rear-facing at least four to five years, preferably longer; 135 cm restraint rule; 140 cm active-airbag advice unless manufacturer recommends otherwise.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "airbags",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/",
+      "finding": "Airbag supplements belt; active front airbag creates severe risk for rear-facing restraints, other child restraints and short occupants. Vehicle-specific instructions remain mandatory.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "seats",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/",
+      "finding": "Head restraint should suit the actual occupant; adjustment and seat position influence protection. No clinical treatment content included.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "TSFS 2011:20 chapter 2 supports vehicle controls, protection systems, checks, manoeuvring and self-assessment.",
+      "status": "supports chapter use"
+    }
+  ]
+}

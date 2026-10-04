@@ -52,7 +52,12 @@
       ],
       "review": "M02-R",
       "production_step": "6C",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M02/chapter.pdf",
+      "pages": 15,
+      "review_report": "chapters/M02/review.md",
+      "verified_on": "2026-10-04",
+      "sha256": "db70b8e6c6d8aecde3b98416dc36a78a733385864c20593a51265ae414006dd5"
     },
     {
       "id": "M03",
@@ -200,5 +205,5 @@
   "required_held_signs": [],
   "updated": "2026-10-04",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B complete; 6C–6N remain independently authorised steps"
+  "chapter_execution": "6B–6C complete; 6D–6N remain independently authorised steps"
 }
