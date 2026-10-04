@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-04",
+  "method": "Opened all seven chapter reference targets and inspected relevant passages. Individual official sign captions/artwork reused from the verified register with hash and size checks; not a claim that every individual sign page was fetched again.",
+  "sources": [
+    {
+      "alias": "priority",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/",
+      "finding": "Right-hand priority applies when vehicle paths cross, including three-way junctions and parking areas; general care duties remain. Special duties retained from Traffic Regulation §21.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 3 §§18–29, 43–44 and 60–66 checked: exit rule, priority-road/no-lane-change exception, roundabout entry, acceleration-lane join, turning position, mutual adaptation, controlled/uncontrolled crossings and signalling. Current provisions used; unrelated future amendments not applied. The short acceleration-lane companion explanation is explicitly sourced to §23.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "pedestrians",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/",
+      "finding": "Uncontrolled pedestrian-crossing duties, walking a bicycle versus riding, and controlled-crossing distinction confirmed.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "wheelchairs",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/",
+      "finding": "Pedestrian rules apply to wheelchair use at walking speed, irrespective of propulsion; no wider classification inferred.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "cycles",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/",
+      "finding": "Marked cycle passage differs from cycle crossing. Cycle crossing requires markings/signs and design securing no more than 30 km/h. Drivers yield to riders on/about to enter; riders consider approaching traffic. After-turn/roundabout-exit passage duty checked in Traffic Regulation §61.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "roundabout",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/att-koera-i-cirkulationsplats-a5-webb.pdf",
+      "finding": "Official guide confirms anticlockwise travel, entry yield, lane choice according to signs/markings, no signal solely for entry, safe signalled lane changes and right signal on exit. Extra room for long vehicles is preserved.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "TSFS 2011:20 chapter 3 §3 supports reflective self-assessment; chapter 3 §2 supports observation, interaction, safety margins and consequence assessment.",
+      "status": "supports chapter use"
+    }
+  ]
+}

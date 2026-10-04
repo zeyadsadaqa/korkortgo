@@ -2,7 +2,7 @@
   "version": 1,
   "prepared": "2026-10-03",
   "status": "6A_complete_screen_review",
-  "brand": "KörkortGo",
+  "brand": "K\u00f6rkortGo",
   "page": {
     "format": "A4",
     "orientation": "portrait",
@@ -90,7 +90,12 @@
       ],
       "review": "M04-R",
       "production_step": "6E",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M04/chapter.pdf",
+      "pages": 42,
+      "review_report": "chapters/M04/review.md",
+      "verified_on": "2026-10-04",
+      "sha256": "88b3eba6b740ecbf4ff4c095a266f1691c5fd9871c6b12c837654c7f90da8caf"
     },
     {
       "id": "M05",
@@ -188,7 +193,7 @@
     },
     {
       "id": "appendix-C",
-      "title": "A practical Swedish–English glossary"
+      "title": "A practical Swedish\u2013English glossary"
     },
     {
       "id": "appendix-D",
@@ -210,5 +215,5 @@
   "required_held_signs": [],
   "updated": "2026-10-04",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B–6C complete; 6D–6N remain independently authorised steps"
+  "chapter_execution": "6B\u20136E complete; 6F\u20136N remain independently authorised steps"
 }
