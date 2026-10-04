@@ -1,0 +1,5 @@
+# D05 v3 — entrance signs
+
+Built-in imagegen edit with verified B1 and D3 source images as references. Generated sign faces are preview-only; exact official assets must replace them in production.
+
+Edit target image1 KörkortGo D05 board. Supporting sign references: image2 exact Swedish B1 give-way red-bordered YELLOW inverted triangle, image3 exact D3 blue roundabout disc with three white anticlockwise arrows. Change ONLY panel1 Approach: add these two signs together on one grey roadside post at RIGHT side of bottom approach road immediately before yield triangle road markings, facing approaching teal driver. B1 above D3, distinct readable faces matching references, plausible roadside placement not in carriageway or footway centre. For overhead teaching view sign faces may be shown facing reader as a readable educational inset anchored to roadside post. Keep signs within panel1, no overlap car/road/heading. Preserve all existing illustrations, road geometry, captions, texts, style and layout unchanged. These are preview sign representations; preserve exact shapes/colors of supplied official references as closely as possible.

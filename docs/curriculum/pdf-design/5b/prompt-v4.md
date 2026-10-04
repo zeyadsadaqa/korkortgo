@@ -1,0 +1,5 @@
+# Version 4 — opening-page colours
+
+Built-in imagegen edit, 2 October 2026. Edit target: cover-opening-v3.png. Colour reference: cover-opening-v1.png.
+
+Edit reference image 1 (current version 3 two-page KörkortGo book preview). Preserve the entire LEFT cover exactly: KörkortGo title, subtitle, learning-aid label, forest green typography, Swedish lakeside road illustration, car and border. Change ONLY the colours on the RIGHT opening page to match the RIGHT opening page in reference image 2 (first draft). Restore dark navy headings, body text and line icons; warm ivory paper; pale warm cream disclaimer panel with muted gold thin outline; icon circle backgrounds in order muted powder blue, pale sage, warm sand, muted powder blue. Replace the right-page outer green border with the first draft's subtle neutral page edge. Keep all current right-page text verbatim, including the complete disclaimer, and preserve current typography, spacing, icon shapes and geometry. Do not bring back the old left cover or old book title from reference 2. Output the complete two-page flat review board, high resolution, same composition and page dimensions. No other edits.

@@ -1,0 +1,415 @@
+{
+  "date": "2026-10-03",
+  "policy": "Exact upstream files only in final PDF; generated sign pixels are preview placeholders",
+  "bindings": [
+    {
+      "code": "B1",
+      "family": "B",
+      "caption_id": "CAP-B1",
+      "official_name_sv": "Väjningsplikt",
+      "label_en": "Give way",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-d1d38cce8664fe04",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/vajningsplikt/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+        "source_asset_id": "ASSET-7671a42456af532b",
+        "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+        "max_size_mm_at_300ppi": [
+          161.0,
+          142.9
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Give way. Inverted triangular give-way sign.",
+      "primary_reference_group": "RB02",
+      "related_reference_groups": [
+        "RB02"
+      ],
+      "lesson_placement_ids": [
+        "LP001",
+        "LP002",
+        "LP016",
+        "LP022"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "B2",
+      "family": "B",
+      "caption_id": "CAP-B2",
+      "official_name_sv": "Stopplikt",
+      "label_en": "Stop",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-e2fb3e8a84872721",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/stopplikt/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-8682862e91ad901f.png",
+        "source_asset_id": "ASSET-8682862e91ad901f",
+        "sha256": "60c8ca4f96603da5f34e83bfdd6fcf727fd453729c9af3fe713e26dbe5f094ba",
+        "max_size_mm_at_300ppi": [
+          180.3,
+          180.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Stop. Red octagon bearing STOP.",
+      "primary_reference_group": "RB02",
+      "related_reference_groups": [
+        "RB02"
+      ],
+      "lesson_placement_ids": [
+        "LP002",
+        "LP016"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "B3",
+      "family": "B",
+      "caption_id": "CAP-B3",
+      "official_name_sv": "Övergångsställe",
+      "label_en": "Pedestrian crossing",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-03df3ee4f3495774",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/overgangsstalle/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-8c35baefaf0cfa7b.png",
+        "source_asset_id": "ASSET-8c35baefaf0cfa7b",
+        "sha256": "f81e5f16cca3861cbbe67c40226f2dbf66ba198fac9e0b46a992c422b9dfc7e5",
+        "max_size_mm_at_300ppi": [
+          120.3,
+          120.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Pedestrian crossing. Pedestrian on crossing stripes within a white triangle on blue.",
+      "primary_reference_group": "RB13",
+      "related_reference_groups": [
+        "RB13"
+      ],
+      "lesson_placement_ids": [
+        "LP019"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "B8",
+      "family": "B",
+      "caption_id": "CAP-B8",
+      "official_name_sv": "Cykelöverfart",
+      "label_en": "Cycle crossing",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-61afce2d894a394b",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/cykeloverfart/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-bde53c8f30d7bcc9.png",
+        "source_asset_id": "ASSET-bde53c8f30d7bcc9",
+        "sha256": "366540110a3cd4df65c776e5eaf91fef30462668d432b818a512109dec046f68",
+        "max_size_mm_at_300ppi": [
+          297.1,
+          297.1
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Cycle crossing. Cyclist above a crossing in a blue square.",
+      "primary_reference_group": "RB13",
+      "related_reference_groups": [
+        "RB13"
+      ],
+      "lesson_placement_ids": [
+        "LP020"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "E19",
+      "family": "E",
+      "caption_id": "CAP-E19",
+      "official_name_sv": "Parkering",
+      "label_en": "Parking",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-ae93a5d1b6e90d94",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/parkering/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-27be6c2d7112d13d.png",
+        "source_asset_id": "ASSET-27be6c2d7112d13d",
+        "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+        "max_size_mm_at_300ppi": [
+          80.3,
+          80.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Parking. White P on blue.",
+      "primary_reference_group": "RB16",
+      "related_reference_groups": [
+        "RB16"
+      ],
+      "lesson_placement_ids": [
+        "LP031",
+        "LP032"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "E27",
+      "family": "E",
+      "caption_id": "CAP-E27",
+      "official_name_sv": "Nöduppställningsplats",
+      "label_en": "Emergency stopping bay",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-f996a2b193915497",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/noduppstallningsplats/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-41a2600873777874.png",
+        "source_asset_id": "ASSET-41a2600873777874",
+        "sha256": "f148af1eb832a45aac26648453fa17a42efd9c9082cb5f73c47e0b4672b127d7",
+        "max_size_mm_at_300ppi": [
+          120.3,
+          160.4
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Emergency stopping bay. Roadside bay diagram with SOS.",
+      "primary_reference_group": "RB24",
+      "related_reference_groups": [
+        "RB24"
+      ],
+      "lesson_placement_ids": [
+        "LP053"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "E28",
+      "family": "E",
+      "caption_id": "CAP-E28",
+      "official_name_sv": "Nödutgång",
+      "label_en": "Emergency exit",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-1e310cd9ae4c24aa",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/nodutgang/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-849f8113ab69df2c.png",
+        "source_asset_id": "ASSET-849f8113ab69df2c",
+        "sha256": "0a586c0d42b2abcc8d13fc71574b859a1deaa78d6a465dde2ac23ccf70650acb",
+        "max_size_mm_at_300ppi": [
+          80.3,
+          80.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Emergency exit. Emergency-exit figure faces right.",
+      "primary_reference_group": "RB24",
+      "related_reference_groups": [
+        "RB24"
+      ],
+      "lesson_placement_ids": [
+        "LP053"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "E29",
+      "family": "E",
+      "caption_id": "CAP-E29",
+      "official_name_sv": "Utrymningsväg",
+      "label_en": "Emergency escape route",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-bfb9e8d3c4a9a048",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/utrymningsvag/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-f2877ee42c37c52a.png",
+        "source_asset_id": "ASSET-f2877ee42c37c52a",
+        "sha256": "65003be8d8ad1d3cd44e1a52a3c6449a87c0814dcdbe2d965eec3aaed98aa1b0",
+        "max_size_mm_at_300ppi": [
+          132.3,
+          40.4
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Emergency escape route. Left arrow, running figure and 100 m.",
+      "primary_reference_group": "RB24",
+      "related_reference_groups": [
+        "RB24"
+      ],
+      "lesson_placement_ids": [
+        "LP053"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "F1-2",
+      "family": "F",
+      "caption_id": "CAP-F1-2",
+      "official_name_sv": "Orienteringstavla",
+      "label_en": "Advance direction diagram — alternative",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-71dcf7996f773632",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/orienteringstavla2/orienteringstavla2/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/d37e75b77a0ff340-f1-2.png",
+        "source_asset_id": "ASSET-d37e75b77a0ff340",
+        "sha256": "d6f519a752dc4c07c5d15a3c5100f9c9ac25b93ef3ba75b12158aa7b0d2aa8ff",
+        "max_size_mm_at_300ppi": [
+          71.9,
+          23.6
+        ],
+        "reason": "Use unchanged official raster; EPS unavailable or has excess canvas/outline treatment."
+      },
+      "alt_text_en": "Advance direction diagram — alternative. Roundabout advance diagram: Örebro ahead, Kumla left and Katrineholm right.",
+      "primary_reference_group": "RB07",
+      "related_reference_groups": [
+        "RB07"
+      ],
+      "lesson_placement_ids": [
+        "LP009"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "T13",
+      "family": "T",
+      "caption_id": "CAP-T13",
+      "official_name_sv": "Flervägsväjning",
+      "label_en": "All approaches give way",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-ce958ee0772c64a7",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/flervagsvajning/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-c3007295d1f8386f.png",
+        "source_asset_id": "ASSET-c3007295d1f8386f",
+        "sha256": "bfd7d498b75ce7922796372b1ea27a3c2fd7bbe5db26223807e7be2505f23680",
+        "max_size_mm_at_300ppi": [
+          127.0,
+          59.7
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "All approaches give way. Text Flervägsväjning on yellow.",
+      "primary_reference_group": "RB02",
+      "related_reference_groups": [
+        "RB02"
+      ],
+      "lesson_placement_ids": [
+        "LP015"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "T14",
+      "family": "T",
+      "caption_id": "CAP-T14",
+      "official_name_sv": "Flervägsstopp",
+      "label_en": "All approaches stop",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-e6e617c386c20dad",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/flervagsstopp/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-22d3b5bd7249832c.png",
+        "source_asset_id": "ASSET-22d3b5bd7249832c",
+        "sha256": "3368680512c06e3921f837e6f12978891e155d6e34ed11bcd64015cb103c4542",
+        "max_size_mm_at_300ppi": [
+          266.0,
+          127.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "All approaches stop. Text Flervägsstopp on red.",
+      "primary_reference_group": "RB02",
+      "related_reference_groups": [
+        "RB02"
+      ],
+      "lesson_placement_ids": [
+        "LP015"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "T18",
+      "family": "T",
+      "caption_id": "CAP-T18",
+      "official_name_sv": "Tillåten tid för parkering",
+      "label_en": "Maximum parking duration",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-6bca708ff6c9947c",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tillaten-tid-for-parkering/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-3e668438003c038c.png",
+        "source_asset_id": "ASSET-3e668438003c038c",
+        "sha256": "7224b133046094d1cfb939f06973021bb59ad60c121a6fc346251446af34a663",
+        "max_size_mm_at_300ppi": [
+          420.2,
+          210.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "alt_text_en": "Maximum parking duration. 2 tim: maximum two hours.",
+      "primary_reference_group": "RB16",
+      "related_reference_groups": [
+        "RB16"
+      ],
+      "lesson_placement_ids": [
+        "LP031",
+        "LP032"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    },
+    {
+      "code": "Y2",
+      "family": "Y",
+      "caption_id": "CAP-Y2",
+      "official_name_sv": "Ljudsignal",
+      "label_en": "Rail-crossing audible warning",
+      "caption_source_file": "sign-captions.json",
+      "caption_source_id": "TS-SIGN-0f32f8d6880f3402",
+      "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/sakerhetsanordningar-i-korsningar-med-jarnvag-eller-sparvag/ljudsignal/",
+      "eligibility": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/f4afe91a53679267-y2-1.gif",
+        "source_asset_id": "ASSET-f4afe91a53679267",
+        "sha256": "54b960f4828662efb7977511380ecb3897704fc9040b2c28e25730ac4d3ebdf5",
+        "max_size_mm_at_300ppi": [
+          10.2,
+          5.1
+        ],
+        "reason": "Use unchanged official raster; EPS unavailable or has excess canvas/outline treatment."
+      },
+      "alt_text_en": "Rail-crossing audible warning. Grey speaker icon with sound waves; no audio is supplied.",
+      "primary_reference_group": "RB19",
+      "related_reference_groups": [
+        "RB19"
+      ],
+      "lesson_placement_ids": [
+        "LP042"
+      ],
+      "unresolved_gap_id": null,
+      "reference_only_reason": null
+    }
+  ]
+}

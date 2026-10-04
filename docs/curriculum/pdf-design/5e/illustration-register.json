@@ -1,0 +1,2650 @@
+{
+  "date": "2026-10-03",
+  "status": "all_current_preview_designs_approved_production_checks_pending",
+  "manuscript_sha256": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
+  "records": [
+    {
+      "section_id": "M01-L01",
+      "title": "Your route into driving",
+      "scene_ids": [
+        "D09"
+      ],
+      "status": "text_only",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Noor plans to practise privately in September 2026. Her relative says no approvals are needed because a course was abolished. Noor checks the current supervisor page and waits for supervisor approval. The removed course and the retained approval are different requirements.",
+        "sha256": "0c91587a739bb07f8058e67a60ae40d21100c8745b606fbf33247aecf7c4bf12",
+        "line": 45,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Administrative checklist remains text; an invented permit or licence would add no teaching value.",
+      "caption_draft": null,
+      "alt_text_draft": null,
+      "alt_status": "draft brief only; describe actual approved output before production",
+      "evidence": [
+        {
+          "alias": "b",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/"
+        },
+        {
+          "alias": "supervisor",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/handledare/"
+        },
+        {
+          "alias": "risk",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/"
+        },
+        {
+          "alias": "validity",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf"
+        },
+        {
+          "alias": "test",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "not_requested_for_text_only"
+    },
+    {
+      "section_id": "M01-L02",
+      "title": "Am I ready today?",
+      "scene_ids": [
+        "D10"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver has taken a new medicine and feels unusually drowsy. A passenger offers to keep talking to help them stay awake. The safer choice is to arrange another driver or transport and ask for medication advice. Conversation does not resolve the impairment.",
+        "sha256": "51fc1fe2fd70b430cce88349ba7d640fc3ca2fa07d4f4ebb2f49d2df1a1111c8",
+        "line": 65,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Stationary car and visibly tired learner consulting a supervisor; no diagnosis or medicine-clearance graphic.",
+      "caption_draft": "Scenario: Am I ready today?.",
+      "alt_text_draft": "Stationary car and visibly tired learner consulting a supervisor; no diagnosis or medicine-clearance graphic.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "drink-law",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/vad-sager-lagen-om-rattfylleri/"
+        },
+        {
+          "alias": "alcohol",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/"
+        },
+        {
+          "alias": "medical",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/medicinska-krav/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/F06-v4.png"
+      ],
+      "preview_panel": "M01-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M01-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "F06-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M01-L03",
+      "title": "Pressure is a driving risk",
+      "scene_ids": [
+        "D11"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Friends laugh when Amir stays behind a slow vehicle on a road with a hidden crest. He recognises the urge to prove himself, maintains space and waits for a genuinely suitable opportunity. His decision protects the purpose of the trip: arriving safely. There is no need to “win” the interaction.",
+        "sha256": "0e4fcbfeb8f2534949aa779d0165d7bc1573f1a30535deb8c26caabf6fbe1b49",
+        "line": 83,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Learner behind a slower vehicle before a hidden crest; passenger pressure shown in a separate inset.",
+      "caption_draft": "Scenario: Pressure is a driving risk.",
+      "alt_text_draft": "Learner behind a slower vehicle before a hidden crest; passenger pressure shown in a separate inset.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/F06-v4.png"
+      ],
+      "preview_panel": "M01-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M01-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "F06-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M01-L04",
+      "title": "Plan the journey before the ignition",
+      "scene_ids": [
+        "D12"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A learner and supervisor can practise on a familiar route in daylight or travel through an unfamiliar town during a forecast snow shower. They choose daylight practice today and plan a later lesson for more demanding conditions with suitable preparation. This is staged learning, not an assumption that difficult conditions can always be avoided.",
+        "sha256": "dff9fd9f4b5248480ce3cfca70e565fe207b4ce76343a36d93da6ae91bc52a46",
+        "line": 101,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Two planning panels: daylight familiar route and worsening-weather unfamiliar route; no invented live forecast.",
+      "caption_draft": "Scenario: Plan the journey before the ignition.",
+      "alt_text_draft": "Two planning panels: daylight familiar route and worsening-weather unfamiliar route; no invented live forecast.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "planning",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/"
+        },
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/F06-v4.png"
+      ],
+      "preview_panel": "M01-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M01-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "F06-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M01-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D12"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You intend to practise after a long workday, collect a friend and reach an appointment on time. Your supervisor is approved, but the road forecast has worsened.",
+        "sha256": "683a1b7a87e913c0dc0f38d392ee321bcb3459c7ca0cdfebb46fab281edda96f",
+        "line": 117,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral pre-journey storyboard of fatigue, appointment and weather; no chosen outcome highlighted.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral pre-journey storyboard of fatigue, appointment and weather; no chosen outcome highlighted.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/F06-v4.png"
+      ],
+      "preview_panel": "M01-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M01-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "F06-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M02-L01",
+      "title": "Know what the controls tell you",
+      "scene_ids": [
+        "D13"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Leila starts a borrowed car and sees a warning she cannot identify. Instead of driving to see whether it disappears, she stays parked, consults the vehicle instructions and seeks help. The lesson is to resolve uncertainty, not to guess from a warning's colour alone.",
+        "sha256": "45cc5b4918ef0379d3062e04810b6494b489d915b5aef3c5ac34406998f7140f",
+        "line": 129,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Stationary unfamiliar car and vehicle handbook; dashboard detail deferred until vehicle-specific reference is sourced.",
+      "caption_draft": "Scenario: Know what the controls tell you.",
+      "alt_text_draft": "Stationary unfamiliar car and vehicle handbook; dashboard detail deferred until vehicle-specific reference is sourced.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "practical",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "friction",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M02-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M02-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M02-L02",
+      "title": "A check before moving",
+      "scene_ids": [
+        "D14"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A passenger notices that the trailer's rear lights are dark although the car's daytime lights are on. The driver checks the setting and connection before moving. “The dashboard looks normal” is not a check of the trailer lamps.",
+        "sha256": "6cc840d2ba6ebb523e3da2ad262578dcb69a5d18bb6e02593e8bf4b29207b42f",
+        "line": 147,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Rear exterior view of stationary car and trailer for lamp observation; no invented switch or universal lamp diagnostic.",
+      "caption_draft": "Scenario: A check before moving.",
+      "alt_text_draft": "Rear exterior view of stationary car and trailer for lamp observation; no invented switch or universal lamp diagnostic.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "practical",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/"
+        },
+        {
+          "alias": "tyres",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/"
+        },
+        {
+          "alias": "lights",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M02-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M02-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M02-L03",
+      "title": "Protect everyone inside",
+      "scene_ids": [
+        "D15"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A child reaches the legal height threshold, but the belt still lies badly. The adult checks an appropriate approved booster rather than treating the threshold as an instruction to discard it.",
+        "sha256": "a4a1fd7435dc24c092aea486b765df96bdbb9ea054691228931dc4e8ac88e8b2",
+        "line": 163,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Adult checking child restraint context; exact belt fit requires separate approved manufacturer/official visual reference.",
+      "caption_draft": "Scenario: Protect everyone inside.",
+      "alt_text_draft": "Adult checking child restraint context; exact belt fit requires separate approved manufacturer/official visual reference.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "belts",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "child-rules",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/"
+        },
+        {
+          "alias": "child-advice",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/"
+        },
+        {
+          "alias": "airbags",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/"
+        },
+        {
+          "alias": "seats",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M02-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M02-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M02-L04",
+      "title": "Move with control",
+      "scene_ids": [
+        "D07"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** While reversing into a space, a driver loses sight of a person who was beside the car. The driver stops. The empty camera image is not enough to resolve where the person went; direct observation and an adequate overall view are still needed.",
+        "sha256": "af156b3b133a9c0aea8f7c5eb34ea6a90b033d8832bf5d5b46f3f67786421090",
+        "line": 181,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Reversing observation sequence with a pedestrian leaving view; no guaranteed camera coverage.",
+      "caption_draft": "Scenario: Move with control.",
+      "alt_text_draft": "Reversing observation sequence with a pedestrian leaving view; no guaranteed camera coverage.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "practical",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M02-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M02-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D16"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You will drive an unfamiliar car with a child passenger, then reverse out of a confined space.",
+        "sha256": "83502718b52f31842d7392edbd2dd82be80b142569e2bd02e3a6ac0707b66d8f",
+        "line": 197,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Three neutral preparation panels: unfamiliar car, child passenger and confined parking; parking geometry still needs correction.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Three neutral preparation panels: unfamiliar car, child passenger and confined parking; parking geometry still needs correction.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "preview_partial",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M02-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M02-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M03-L01",
+      "title": "Recognise what a sign asks",
+      "scene_ids": [
+        "D17"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You see a warning sign for a narrow section. You reduce speed and look for oncoming traffic before reaching it. You then read any priority instruction at the narrow point. The warning alone did not decide who should pass first.",
+        "sha256": "43e124f49a42aa3c2994e38143938a6f94532ce42fdea10dd7d52778b290e27c",
+        "line": 209,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Narrow-road approach and separate warning/priority sign examples; no warning interpreted as priority.",
+      "caption_draft": "Scenario: Recognise what a sign asks.",
+      "alt_text_draft": "Narrow-road approach and separate warning/priority sign examples; no warning interpreted as priority.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "signs",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/"
+        },
+        {
+          "alias": "sign-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP001",
+        "LP002",
+        "LP003"
+      ],
+      "sign_codes": [
+        "A15",
+        "A5",
+        "A5-2",
+        "A5-3",
+        "B1",
+        "B2",
+        "B6",
+        "B7",
+        "C31",
+        "D1",
+        "E5",
+        "M13",
+        "M14",
+        "M18"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M03-v4.png"
+      ],
+      "preview_panel": "M03-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M03-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M03-L02",
+      "title": "Combine the instructions",
+      "scene_ids": [
+        "D18"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Your signal is green, but a queue fills the space beyond the junction. Wait where you will not obstruct crossing traffic rather than entering a space you cannot clear. [Traffic Regulation, chapter 3 §20][traffic-law]",
+        "sha256": "dcf47892e7376ff8b51ef3d275e438d2c8e8237bea28137e724ce54e3a7394a6",
+        "line": 233,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Separate sign/plate comparisons are previewed; green-signal queue scene and any police gesture still need their own verified treatment.",
+      "caption_draft": "Scenario: Combine the instructions.",
+      "alt_text_draft": "Separate sign/plate comparisons are previewed; green-signal queue scene and any police gesture still need their own verified treatment.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "sign-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/"
+        },
+        {
+          "alias": "panels",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/"
+        }
+      ],
+      "placement_ids": [
+        "LP004",
+        "LP005",
+        "LP006",
+        "LP007",
+        "LP008"
+      ],
+      "sign_codes": [
+        "M1",
+        "M10",
+        "M11",
+        "M12",
+        "M3",
+        "M8",
+        "M9",
+        "P1",
+        "P2",
+        "S3",
+        "S4",
+        "S8",
+        "SIG1",
+        "SIG10",
+        "SIG11",
+        "SIG12",
+        "SIG13",
+        "SIG14",
+        "SIG2",
+        "SIG3",
+        "SIG4",
+        "SIG5",
+        "SIG8",
+        "SIG9",
+        "T1",
+        "T11",
+        "T11-2",
+        "T12",
+        "T2",
+        "T22",
+        "T3",
+        "T6",
+        "T8",
+        "T8-3",
+        "T8-4",
+        "T8-8",
+        "V1",
+        "V3"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "preview_partial",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M03-v4.png"
+      ],
+      "preview_panel": "M03-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M03-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M03-L03",
+      "title": "Find your way without rushing",
+      "scene_ids": [
+        "D19"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A navigation instruction arrives after a driver has passed the safe lane-change opportunity. The driver continues in the permitted direction and finds another route. A missed turn is a planning problem; a sudden crossing of lanes creates a traffic problem.",
+        "sha256": "1dd2ef8aede305f7ea22efa3f7ebd856f9c6de3e83907eb3abfa081cd0d166ec",
+        "line": 253,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Advance lane choice and missed-turn route recovery shown in separate panels with exact official direction assets.",
+      "caption_draft": "Scenario: Find your way without rushing.",
+      "alt_text_draft": "Advance lane choice and missed-turn route recovery shown in separate panels with exact official direction assets.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "sign-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/"
+        },
+        {
+          "alias": "signs",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP009",
+        "LP010",
+        "LP011",
+        "LP012"
+      ],
+      "sign_codes": [
+        "F1-1",
+        "F1-2",
+        "F10",
+        "F11",
+        "F13",
+        "F14",
+        "F14-2",
+        "F14-3",
+        "F14-4",
+        "F15",
+        "F21",
+        "F27",
+        "F3",
+        "F34",
+        "F35",
+        "F36",
+        "F37",
+        "F38",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8",
+        "F9",
+        "G4",
+        "H1",
+        "H13",
+        "H27",
+        "H3",
+        "I1",
+        "J2",
+        "S10",
+        "S8"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M03-v4.png"
+      ],
+      "preview_panel": "M03-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M03-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M03-L04",
+      "title": "Leave room to respond",
+      "scene_ids": [
+        "D20"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You can see over the roof of the car ahead that traffic is slowing. Ease your approach early rather than waiting for its brake lights at a short distance. The benefit is having choices before braking becomes urgent.",
+        "sha256": "2c8b5f9d234ced5b51656b023088e041a71dd4e7d51badd73eefd2d269bda4ec",
+        "line": 271,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Queue viewed ahead with a separate reaction-distance comparison; assumed delay and braking exclusion stay visible.",
+      "caption_draft": "Scenario: Leave room to respond.",
+      "alt_text_draft": "Queue viewed ahead with a separate reaction-distance comparison; assumed delay and braking exclusion stay visible.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "impact",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/"
+        },
+        {
+          "alias": "friction",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf"
+        }
+      ],
+      "placement_ids": [
+        "LP013"
+      ],
+      "sign_codes": [
+        "C31",
+        "C31-11",
+        "C31-12",
+        "C31-4",
+        "C31-5",
+        "C31-7",
+        "C31-8",
+        "C32",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E5",
+        "E6"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M03-v4.png"
+      ],
+      "preview_panel": "M03-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M03-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M03-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D18"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You approach an unfamiliar junction with an advance direction sign, a supplementary panel, a changing signal and a queue beyond it.",
+        "sha256": "3ea22c1ee4514219a11e20daffdfe9c019e45e882f4d485d345a2d4162bea835",
+        "line": 291,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral approach storyboard separating route signs, time panel, signal and downstream queue; held panels block final assembly.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral approach storyboard separating route signs, time panel, signal and downstream queue; held panels block final assembly.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [
+        "LP014"
+      ],
+      "sign_codes": [
+        "F1-1",
+        "SIG3",
+        "T11"
+      ],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M03-v4.png"
+      ],
+      "preview_panel": "M03-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M03-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M04-L01",
+      "title": "Decide who goes first",
+      "scene_ids": [
+        "D01"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You approach from a driveway on the right of a car travelling along the road. You yield under the exit rule. Being on the other driver's right does not displace that duty.",
+        "sha256": "571d920ba8cb4fcade728f8462a72d7fbf705512420666e30375055ab5e47e94",
+        "line": 303,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Driveway exception scene previewed; separate uncontrolled-junction and stop-line cases still required.",
+      "caption_draft": "Scenario: Decide who goes first.",
+      "alt_text_draft": "Driveway exception scene previewed; separate uncontrolled-junction and stop-line cases still required.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "priority",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP015",
+        "LP016"
+      ],
+      "sign_codes": [
+        "A28",
+        "A29",
+        "A29-10",
+        "A29-13",
+        "B1",
+        "B2",
+        "B4",
+        "B5",
+        "M13",
+        "M14",
+        "T13",
+        "T14",
+        "T15",
+        "T15-2"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "preview_partial",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/D01-v2.png"
+      ],
+      "preview_panel": "M04-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "D01-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "D01-priority-v3.png": "User: OK great, approved, show me next"
+      },
+      "additional_required_preview": {
+        "id": "D01-priority-road",
+        "status": "explicitly_approved",
+        "brief": "Priority-road continuation example: B4 after junction on right verge, B1 controls side road. Exact official sign faces required in production.",
+        "preview_file": "docs/curriculum/pdf-design/gap-resolution/D01-priority-v3.png"
+      }
+    },
+    {
+      "section_id": "M04-L02",
+      "title": "Turn with a complete picture",
+      "scene_ids": [
+        "D04"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver signals to move right while a cyclist is beside the vehicle. The driver waits. Signalling earlier would have helped communication, but it would never have removed the need to ensure the cyclist's safety.",
+        "sha256": "e3cdd9ddfaa4f714065de65e3e290bf88b46d95b211a10ba9c5c576143054f93",
+        "line": 321,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Three distinct scenes: lane change, mutual merge and acceleration-lane join; cyclist conflict receives a separate inset.",
+      "caption_draft": "Scenario: Turn with a complete picture.",
+      "alt_text_draft": "Three distinct scenes: lane change, mutual merge and acceleration-lane join; cyclist conflict receives a separate inset.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP017",
+        "LP018"
+      ],
+      "sign_codes": [
+        "C25",
+        "C25-2",
+        "C26",
+        "D1",
+        "D1-2",
+        "D1-3",
+        "D1-6",
+        "D1-7",
+        "D1-8",
+        "E15",
+        "E16",
+        "E16-2",
+        "F16",
+        "F17",
+        "M19",
+        "M20"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/D04-v3.png"
+      ],
+      "preview_panel": "M04-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "D04-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M04-L03",
+      "title": "Crossings belong to people",
+      "scene_ids": [
+        "D02"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You leave a roundabout and reach an uncontrolled cycle passage. A cyclist is about to enter. You slow and give the rider an opportunity to pass; applying only the straight-ahead passage rule would miss the significance of your exit.",
+        "sha256": "512afa791ddc73f03a0963c0928dad8de2ce1f4df4cd87fcb6823316ea05991c",
+        "line": 337,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Separate pedestrian crossing, cycle passage and cycle crossing, plus roundabout-exit passage; official controls must match each.",
+      "caption_draft": "Scenario: Crossings belong to people.",
+      "alt_text_draft": "Separate pedestrian crossing, cycle passage and cycle crossing, plus roundabout-exit passage; official controls must match each.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "pedestrians",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/"
+        },
+        {
+          "alias": "wheelchairs",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "cycles",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/"
+        }
+      ],
+      "placement_ids": [
+        "LP019",
+        "LP020",
+        "LP021"
+      ],
+      "sign_codes": [
+        "A13",
+        "B3",
+        "B3-2",
+        "B8",
+        "M14",
+        "M15",
+        "M16",
+        "SIG1",
+        "SIG3",
+        "SIG6",
+        "SIG7"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/D02-v4.png"
+      ],
+      "preview_panel": "M04-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "D02-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M04-L04",
+      "title": "Choose a safe path through a roundabout",
+      "scene_ids": [
+        "D05"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Your desired exit is approaching, but a car is alongside in the outer lane. You do not cut across it. You preserve a safe path and choose another opportunity consistent with the lane markings. Recovering the route is secondary to avoiding a conflict.",
+        "sha256": "8d7e0bfd12f38c30f4d3395185c8665489c29b0527b91a0cdc9e58a09b5c6c65",
+        "line": 359,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Separate approach, circulation and exit scenes; preserve anticlockwise travel and no inner-lane priority claim.",
+      "caption_draft": "Scenario: Choose a safe path through a roundabout.",
+      "alt_text_draft": "Separate approach, circulation and exit scenes; preserve anticlockwise travel and no inner-lane priority claim.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "roundabout",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/att-koera-i-cirkulationsplats-a5-webb.pdf"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP022"
+      ],
+      "sign_codes": [
+        "A30",
+        "B1",
+        "D3",
+        "M19a",
+        "X9"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/D05-v3.png"
+      ],
+      "preview_panel": "M04-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "D05-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M04-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D21"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** Leave a car park, turn left, pass a cycle crossing and enter a two-lane roundabout.",
+        "sha256": "7afd6bdd57c9873198997d4f39fcb721b637784b20fa85a4af414dc050432514",
+        "line": 375,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Four neutral panels: car-park exit, left turn, cycle crossing and roundabout entry, without answer arrows.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Four neutral panels: car-park exit, left turn, cycle crossing and roundabout entry, without answer arrows.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M04R-v3.png"
+      ],
+      "preview_panel": "M04-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M04R-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M05-L01",
+      "title": "See the person behind the movement",
+      "scene_ids": [
+        "D22"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** On a 40 km/h street, a bus signals out. You ease speed early and leave room rather than trying to squeeze past. You also watch for people near the stop; making space for the bus is not your only task.",
+        "sha256": "60e69f0ae4eb558ab612ab79c99e948a5676161b6c4a8abebdf99ff8d604e42e",
+        "line": 387,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Bus indicating out and people near stop in separate observation layers; exact speed context stays in text.",
+      "caption_draft": "Scenario: See the person behind the movement.",
+      "alt_text_draft": "Bus indicating out and people near stop in separate observation layers; exact speed context stays in text.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "horses",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/hastar-i-trafiken/"
+        }
+      ],
+      "placement_ids": [
+        "LP023",
+        "LP024",
+        "LP025"
+      ],
+      "sign_codes": [
+        "A14",
+        "A15",
+        "A16",
+        "A18",
+        "C31-4",
+        "E22",
+        "T10",
+        "T9"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M05-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/D03-v1.png",
+        "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M05-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "M05-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "D03-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "timeline-v3.png": "Current timeline direction approved with requested parking-sign addition; revised image not yet reviewed",
+        "timeline-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      },
+      "additional_required_preview": {
+        "id": "D06-parking-signs",
+        "status": "explicitly_approved",
+        "brief": "Add parking sign and supplementary conditions 2 tim, black 9–18 to both exercise and worked example. Verify official sign assembly semantics and assets before preview; arrival 10:00 stated separately, 12:00 only in answer. Explicit approval required for revised visual.",
+        "preview_file": "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png"
+      }
+    },
+    {
+      "section_id": "M05-L02",
+      "title": "When the street changes purpose",
+      "scene_ids": [
+        "D23"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Your navigation suggests a pedestrian street as a shortcut. You continue to another permitted route. The navigation suggestion does not establish an exemption from the access rule.",
+        "sha256": "c823be6557ed1c2686242d692cf6116b8dbbff5c42bf0e1cdcb2405cc676f3b9",
+        "line": 405,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Navigation suggestion and pedestrian-street boundary shown separately using exact verified signs.",
+      "caption_draft": "Scenario: When the street changes purpose.",
+      "alt_text_draft": "Navigation suggestion and pedestrian-street boundary shown separately using exact verified signs.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "special-streets",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP026",
+        "LP027",
+        "LP028"
+      ],
+      "sign_codes": [
+        "C1",
+        "C2",
+        "C3",
+        "D10",
+        "D11",
+        "D4",
+        "D5",
+        "D6",
+        "D7",
+        "D7-2",
+        "E10",
+        "E17",
+        "E17-4",
+        "E33",
+        "E34",
+        "E7",
+        "E8",
+        "E9"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M05-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/D03-v1.png",
+        "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M05-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "M05-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "D03-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "timeline-v3.png": "Current timeline direction approved with requested parking-sign addition; revised image not yet reviewed",
+        "timeline-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      },
+      "additional_required_preview": {
+        "id": "D06-parking-signs",
+        "status": "explicitly_approved",
+        "brief": "Add parking sign and supplementary conditions 2 tim, black 9–18 to both exercise and worked example. Verify official sign assembly semantics and assets before preview; arrival 10:00 stated separately, 12:00 only in answer. Explicit approval required for revised visual.",
+        "preview_file": "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png"
+      }
+    },
+    {
+      "section_id": "M05-L03",
+      "title": "Choose a lawful place to stop",
+      "scene_ids": [
+        "D03",
+        "D06"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** It is an ordinary Tuesday, not a holiday or the day before one. A parking sign permits at most two hours during black unbracketed 09–18. You arrive at 10:00. The two-hour restriction applies; check the other conditions before leaving the car.",
+        "sha256": "d1e398beb726cde39cf5aed9a90c595ad190c3f1447b93de130a6aeed4572377",
+        "line": 423,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Parking timeline previewed; crossing/junction/bus-stop distance diagrams deferred; no fabricated 09–18 sign.",
+      "caption_draft": "Scenario: Choose a lawful place to stop.",
+      "alt_text_draft": "Parking timeline previewed; crossing/junction/bus-stop distance diagrams deferred; no fabricated 09–18 sign.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "parking",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "sign-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/"
+        },
+        {
+          "alias": "parking-permit",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/"
+        }
+      ],
+      "placement_ids": [
+        "LP029",
+        "LP030",
+        "LP031",
+        "LP032",
+        "LP033"
+      ],
+      "sign_codes": [
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "C40",
+        "C41",
+        "C42",
+        "C43",
+        "C45",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E30",
+        "M21",
+        "M22",
+        "M23",
+        "M33",
+        "T16",
+        "T17",
+        "T18",
+        "T19",
+        "T20",
+        "T21",
+        "T6",
+        "T7",
+        "T8"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "preview_partial",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/D03-v1.png",
+        "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png"
+      ],
+      "preview_panel": "M05-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "D03-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "timeline-v3.png": "Current timeline direction approved with requested parking-sign addition; revised image not yet reviewed",
+        "timeline-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      },
+      "additional_required_preview": {
+        "id": "D06-parking-signs",
+        "status": "explicitly_approved",
+        "brief": "Add parking sign and supplementary conditions 2 tim, black 9–18 to both exercise and worked example. Verify official sign assembly semantics and assets before preview; arrival 10:00 stated separately, 12:00 only in answer. Explicit approval required for revised visual.",
+        "preview_file": "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png"
+      }
+    },
+    {
+      "section_id": "M05-L04",
+      "title": "Manoeuvre where people may appear",
+      "scene_ids": [
+        "D07"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A delivery vehicle blocks the view of the footway behind your parking place. Rather than reversing across it in one continuous movement, you reassess the layout with your supervisor and choose a method or another place that provides the necessary view. If a pedestrian enters the path, you wait.",
+        "sha256": "10ad2e764fdbf8aa98b29dafa98249304e132cce709858f3f3324547f0f9abe1",
+        "line": 456,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Van-obscured pedestrian scene previewed; revise access lane and footway geometry before instructional approval.",
+      "caption_draft": "Scenario: Manoeuvre where people may appear.",
+      "alt_text_draft": "Van-obscured pedestrian scene previewed; revise access lane and footway geometry before instructional approval.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP034"
+      ],
+      "sign_codes": [
+        "M24",
+        "T21",
+        "T21-2",
+        "T21-3",
+        "T21-4"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "preview_revision_required",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M05-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M05-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D24"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You reach a busy neighbourhood to collect a passenger. A bus is signalling out, a cyclist is beside parked cars and the nearest space is before a crossing.",
+        "sha256": "320498032bbf20f53bb3d5d05336a43b4ca1f4bbee548e6c09fdac7ed5a5fb0f",
+        "line": 472,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Three neutral observation panels for bus, cyclist beside parked cars and space before crossing; no safe-space highlight.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Three neutral observation panels for bus, cyclist beside parked cars and space before crossing; no safe-space highlight.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M05-v2.png",
+        "docs/curriculum/pdf-design/gap-resolution/D03-v1.png",
+        "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png",
+        "docs/curriculum/pdf-design/gap-resolution/parking-v3.png"
+      ],
+      "preview_panel": "M05-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "parking-v3.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "M05-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "D03-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation",
+        "timeline-v3.png": "Current timeline direction approved with requested parking-sign addition; revised image not yet reviewed",
+        "timeline-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      },
+      "additional_required_preview": {
+        "id": "D06-parking-signs",
+        "status": "explicitly_approved",
+        "brief": "Add parking sign and supplementary conditions 2 tim, black 9–18 to both exercise and worked example. Verify official sign assembly semantics and assets before preview; arrival 10:00 stated separately, 12:00 only in answer. Explicit approval required for revised visual.",
+        "preview_file": "docs/curriculum/pdf-design/gap-resolution/timeline-v4.png"
+      }
+    },
+    {
+      "section_id": "M06-L01",
+      "title": "Read the rural road",
+      "scene_ids": [
+        "D17"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You approach a narrow bridge with a van coming towards you and an obstruction on your side. You reduce speed before the narrowing and stop if necessary. Do not move into the van's path simply because you reached the obstruction first.",
+        "sha256": "96746561a89fe581172e1831d7d73ffc46bc6a510909dfc4a3829fcc42cf87fe",
+        "line": 484,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Narrow bridge and obstruction on learner side with oncoming van; preserve sight lines and right-hand travel.",
+      "caption_draft": "Scenario: Read the rural road.",
+      "alt_text_draft": "Narrow bridge and obstruction on learner side with oncoming van; preserve sight lines and right-hand travel.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "wildlife",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/"
+        },
+        {
+          "alias": "slow-vehicles",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/"
+        }
+      ],
+      "placement_ids": [
+        "LP035",
+        "LP036",
+        "LP037"
+      ],
+      "sign_codes": [
+        "A1",
+        "A1-2",
+        "A19",
+        "A19-2",
+        "A19-3",
+        "A19-4",
+        "A19-5",
+        "A19-6",
+        "A19-7",
+        "A2",
+        "A2-2",
+        "A25",
+        "A27",
+        "A3",
+        "A31",
+        "A4",
+        "A8",
+        "A9",
+        "A9-2",
+        "C19",
+        "E18"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M06-v1.png"
+      ],
+      "preview_panel": "M06-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M06-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M06-L02",
+      "title": "Is passing worth the risk?",
+      "scene_ids": [
+        "D11"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A vehicle ahead travels slightly slower than you want. An approaching bend hides the final part of the pass. You stay behind at a useful distance. The first few clear metres do not establish a complete overtaking opportunity.",
+        "sha256": "acff757a8c7165ef06352c9f470af08825508c2a6a886490e49f827de9eadb8e",
+        "line": 502,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Slow vehicle before an obscured bend; do not draw a complete overtaking path through unseen space.",
+      "caption_draft": "Scenario: Is passing worth the risk?.",
+      "alt_text_draft": "Slow vehicle before an obscured bend; do not draw a complete overtaking path through unseen space.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "time",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/"
+        }
+      ],
+      "placement_ids": [
+        "LP038"
+      ],
+      "sign_codes": [
+        "C27",
+        "C28",
+        "M10",
+        "M11",
+        "M20a",
+        "M3",
+        "M8"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M06-v1.png"
+      ],
+      "preview_panel": "M06-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M06-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M06-L03",
+      "title": "Join faster traffic calmly",
+      "scene_ids": [
+        "D04",
+        "D19"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Your exit sign appears while another vehicle occupies the lane you would need to cross. You do not force the move. You continue safely and tell your passenger the route will change.",
+        "sha256": "bde6cf33ebdab8d8b9654760d7e74a506ecdca0ed48520c3210d4e56f1415d9f",
+        "line": 522,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Acceleration lane and occupied exit lane as separate scenes; do not imply entitlement to force a gap.",
+      "caption_draft": "Scenario: Join faster traffic calmly.",
+      "alt_text_draft": "Acceleration lane and occupied exit lane as separate scenes; do not imply entitlement to force a gap.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [
+        "LP039",
+        "LP040",
+        "LP041"
+      ],
+      "sign_codes": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "F18",
+        "F18-2",
+        "F19",
+        "F20",
+        "F27",
+        "F4",
+        "F7",
+        "F8",
+        "F8-2",
+        "X4"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M06-v1.png"
+      ],
+      "preview_panel": "M06-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M06-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M06-L04",
+      "title": "Expect an interrupted route",
+      "scene_ids": [
+        "D25"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Traffic beyond a railway crossing stops while the barriers are still raised. You wait before the crossing. An open barrier is not proof that there is space to get clear. Later, at roadworks, you read the temporary lane instructions instead of following the old route from memory.",
+        "sha256": "30e238b36117e7f89d457fa1409013f1509a0fdb619bc749945c509d4dbf7c70",
+        "line": 540,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Rail crossing with queue beyond and separate roadworks panel; no invented crossing ID or new signal variant.",
+      "caption_draft": "Scenario: Expect an interrupted route.",
+      "alt_text_draft": "Rail crossing with queue beyond and separate roadworks panel; no invented crossing ID or new signal variant.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "rail",
+          "url": "https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf"
+        },
+        {
+          "alias": "works",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/"
+        }
+      ],
+      "placement_ids": [
+        "LP042",
+        "LP043"
+      ],
+      "sign_codes": [
+        "A20",
+        "A21",
+        "A22",
+        "A34",
+        "A35",
+        "A36",
+        "A37",
+        "A38",
+        "A38-2",
+        "A38-3",
+        "A39",
+        "A39-3",
+        "A40",
+        "F23",
+        "F24",
+        "F25",
+        "F26",
+        "V1",
+        "V2",
+        "V3",
+        "X1",
+        "X10",
+        "X2",
+        "X3",
+        "X3-2",
+        "X3-3",
+        "X5",
+        "X6",
+        "X7",
+        "X8",
+        "Y1",
+        "Y2",
+        "Y3",
+        "Y4"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M06-v1.png"
+      ],
+      "preview_panel": "M06-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M06-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M06-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D25"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** Your rural trip involves a slow vehicle, a motorway entry, temporary roadworks and a railway crossing with a queue beyond it.",
+        "sha256": "26f83ae9bb8592ba9b53eb223ecc1ad74be9386d5f07e129ca7f3f76ed25831c",
+        "line": 556,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral four-panel rural route sequence; assess each conflict independently without a preselected route.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral four-panel rural route sequence; assess each conflict independently without a preselected route.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M06-v1.png"
+      ],
+      "preview_panel": "M06-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M06-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M07-L01",
+      "title": "Drive within what you can see",
+      "scene_ids": [
+        "D26"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Rain becomes heavy during a daytime trip. The dashboard remains illuminated, but the driver checks and selects the appropriate exterior lighting rather than inferring that the rear lights must be on. The driver also reduces speed for the shorter usable view.",
+        "sha256": "9b90ed9b90d610228a88a0f1005b8ead135266a68fd9ca90763313bed11e4bc0",
+        "line": 568,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Same road in heavy rain and darkness, with visible road horizon reduced; no universal headlight-control graphic.",
+      "caption_draft": "Scenario: Drive within what you can see.",
+      "alt_text_draft": "Same road in heavy rain and darkness, with visible road horizon reduced; no universal headlight-control graphic.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "lights",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/"
+        }
+      ],
+      "placement_ids": [
+        "LP044"
+      ],
+      "sign_codes": [
+        "A24",
+        "A24-2"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M07-v1.png"
+      ],
+      "preview_panel": "M07-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M07-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M07-L02",
+      "title": "Grip is a changing resource",
+      "scene_ids": [
+        "D26"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Your car has suitable winter tyres, but the next bend is partly shaded and looks different from the road behind. You reduce speed before the bend and preserve margin. Equipment does not establish the grip at that particular point.",
+        "sha256": "dc93246f01dfdcc60ffa267360151530ffd8cdc9b82cd643aaf18ad9d0214684",
+        "line": 586,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Shaded icy bend compared with previously dry road; no claim that tyres guarantee grip.",
+      "caption_draft": "Scenario: Grip is a changing resource.",
+      "alt_text_draft": "Shaded icy bend compared with previously dry road; no claim that tyres guarantee grip.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "friction",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf"
+        },
+        {
+          "alias": "winter",
+          "url": "https://www.transportstyrelsen.se/vinterdack"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "tyre-basics",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/"
+        },
+        {
+          "alias": "tyre-advice",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/"
+        },
+        {
+          "alias": "risk",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/"
+        }
+      ],
+      "placement_ids": [
+        "LP045",
+        "LP046"
+      ],
+      "sign_codes": [
+        "A10",
+        "A11",
+        "C44"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M07-v1.png"
+      ],
+      "preview_panel": "M07-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M07-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M07-L03",
+      "title": "Protect your attention",
+      "scene_ids": [
+        "D10"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver misses a sign during an intense hands-free conversation. The useful response is not to argue that the device is legal to use. End the conversation, reassess fitness and stop safely if attention cannot be restored.",
+        "sha256": "3f07146335e72ae050dc7b02391caaee65b7849449b4e13df437db66fab9ae01",
+        "line": 606,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Attention drawn to hands-free conversation shown in separate cabin context; vehicle remains safely stationary for close-up.",
+      "caption_draft": "Scenario: Protect your attention.",
+      "alt_text_draft": "Attention drawn to hands-free conversation shown in separate cabin context; vehicle remains safely stationary for close-up.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "phone",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "planning",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/"
+        }
+      ],
+      "placement_ids": [
+        "LP047"
+      ],
+      "sign_codes": [
+        "H13"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M07-v1.png"
+      ],
+      "preview_panel": "M07-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M07-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M07-L04",
+      "title": "Change the plan when risk grows",
+      "scene_ids": [
+        "D12"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A late appointment leaves a driver facing an unfamiliar route in darkness and worsening weather. Instead of protecting the original arrival time, the driver finds a safe stopping place, tells the person waiting and chooses a realistic alternative. The change happens while there is still time to make it calmly.",
+        "sha256": "9816a16ca97f63e041576bd264674d7606a267b5685cad9f4251c0e265cb299f",
+        "line": 622,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Worsening weather and revised journey plan with safe stopping context; no roadside phone-use ambiguity.",
+      "caption_draft": "Scenario: Change the plan when risk grows.",
+      "alt_text_draft": "Worsening weather and revised journey plan with safe stopping context; no roadside phone-use ambiguity.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M07-v1.png"
+      ],
+      "preview_panel": "M07-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M07-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M07-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D26"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You leave in daylight but meet heavy rain, darkness and a delay. A passenger wants to keep going without a break.",
+        "sha256": "19ada9ae061f0c3f4709773c5fbebf785ee4896ed2e3fc057c5898f808025b72",
+        "line": 638,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral daylight/rain/darkness/delay sequence with passenger; no correct decision highlighted.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral daylight/rain/darkness/delay sequence with passenger; no correct decision highlighted.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M07-v1.png"
+      ],
+      "preview_panel": "M07-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M07-v1.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M08-L01",
+      "title": "Understand what you may drive",
+      "scene_ids": [
+        "D27"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A car has a total weight of 2,200 kg and a trailer 1,500 kg. Their combined total weight is 3,700 kg, and the trailer exceeds 750 kg. Ordinary B does not cover this combination. B96 may satisfy the entitlement part, but the car's towing capacity and loaded weights still need checking.",
+        "sha256": "dfab89a05e544fd5a2b447922c1b0a9cea19d02f9c8aeebcede58017b4998b72",
+        "line": 650,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Car and trailer with editorial weight labels from the worked example, not fabricated registration documents.",
+      "caption_draft": "Scenario: Understand what you may drive.",
+      "alt_text_draft": "Car and trailer with editorial weight labels from the worked example, not fabricated registration documents.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "b",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/"
+        },
+        {
+          "alias": "trailer",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/"
+        },
+        {
+          "alias": "trailer-guide",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/"
+        },
+        {
+          "alias": "towing",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M08-v2.png"
+      ],
+      "preview_panel": "M08-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M08-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M08-L02",
+      "title": "Make the load part of the safety check",
+      "scene_ids": [
+        "D27"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A trailer's ready weight is 400 kg and cargo adds 500 kg, giving an illustrative actual weight of 900 kg. A car rated to tow only 800 kg cannot pull that load merely because the driver's entitlement covers the registered total weights.",
+        "sha256": "a9ffce396d4d1166437854464798b01bb699178bf456478cf703c81fb6f1ed28",
+        "line": 666,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Trailer load components and towing-limit comparison; distinguish actual weight from registered maximum.",
+      "caption_draft": "Scenario: Make the load part of the safety check.",
+      "alt_text_draft": "Trailer load components and towing-limit comparison; distinguish actual weight from registered maximum.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "weights",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/"
+        },
+        {
+          "alias": "towing",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "load-advice",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/"
+        },
+        {
+          "alias": "trailer-guide",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/"
+        }
+      ],
+      "placement_ids": [
+        "LP048",
+        "LP049",
+        "LP050"
+      ],
+      "sign_codes": [
+        "C16",
+        "C17",
+        "C18",
+        "C20",
+        "C21",
+        "C22",
+        "C22-2",
+        "C23",
+        "C24",
+        "C46",
+        "C6",
+        "S1",
+        "S12",
+        "S2",
+        "S3",
+        "S4",
+        "S9",
+        "T4",
+        "T5"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M08-v2.png"
+      ],
+      "preview_panel": "M08-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M08-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M08-L03",
+      "title": "Keep the car legally ready",
+      "scene_ids": [
+        "D09"
+      ],
+      "status": "text_only",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A buyer collects an on-road car but assumes the seller's insurance is enough for the trip home. The buyer checks the transfer and arranges the required cover from the applicable ownership date before driving. The sale does not transfer the seller's insurance as personal cover for the buyer.",
+        "sha256": "da9e8d6b192ce7167d06829f4896b0745aadc924a08a7eacef8cf9638725c5bf",
+        "line": 695,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Ownership and insurance checklist is clearer as text; no invented insurance certificate or official interface.",
+      "caption_draft": null,
+      "alt_text_draft": null,
+      "alt_status": "draft brief only; describe actual approved output before production",
+      "evidence": [
+        {
+          "alias": "insurance",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/"
+        },
+        {
+          "alias": "inspection",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/"
+        },
+        {
+          "alias": "status",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/"
+        },
+        {
+          "alias": "owner",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/"
+        },
+        {
+          "alias": "registration",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "not_requested_for_text_only"
+    },
+    {
+      "section_id": "M08-L04",
+      "title": "Know what assistance cannot do",
+      "scene_ids": [
+        "D25"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver assumes lane assistance will handle a temporary roadworks layout. Instead, they must read the actual signs and lane path, stay in control and understand the system's limitations. An assistance symbol does not transfer responsibility for the route.",
+        "sha256": "790dd6b8c3b0f9a2f49a816f5f7aef28dbf2d1671d8730a87374b133ba4a2669",
+        "line": 713,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Temporary lane path with generic assistance context; no universal dashboard icon or autonomous-driving promise.",
+      "caption_draft": "Scenario: Know what assistance cannot do.",
+      "alt_text_draft": "Temporary lane path with generic assistance context; no universal dashboard icon or autonomous-driving promise.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "crash",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/"
+        },
+        {
+          "alias": "aeb",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/"
+        },
+        {
+          "alias": "friction",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf"
+        },
+        {
+          "alias": "tyre-advice",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "hybrid",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M08-v2.png"
+      ],
+      "preview_panel": "M08-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M08-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M08-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D27"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** You borrow a car and trailer for a move. You know the registration numbers but not the actual load weight or towing limit.",
+        "sha256": "9b46279e3554086f602b168ce2bbb0df1e37b2164c4dae3d9406a826baa22a2b",
+        "line": 731,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral car/trailer/loading scene with unknown values marked as questions; do not supply missing answer data.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral car/trailer/loading scene with unknown values marked as questions; do not supply missing answer data.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M08-v2.png"
+      ],
+      "preview_panel": "M08-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M08-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M09-L01",
+      "title": "Look beyond the exhaust",
+      "scene_ids": [
+        "D28"
+      ],
+      "status": "text_only",
+      "anchor": {
+        "exact_quote": "**Worked decision.** Two vehicles are advertised using different environmental measures. One figure describes exhaust emissions under a test procedure; another describes noise. The learner does not rank them as though both figures measure the same thing. They first identify the question being answered and the information still missing.",
+        "sha256": "c95d43569d806fac7eb7013fd1ebf56c479bd6a1ba62202c16598de548834c38",
+        "line": 743,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Use labelled comparison table for different environmental measures; decorative vehicle imagery could imply unsupported ranking.",
+      "caption_draft": null,
+      "alt_text_draft": null,
+      "alt_status": "draft brief only; describe actual approved output before production",
+      "evidence": [
+        {
+          "alias": "climate",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/"
+        },
+        {
+          "alias": "air",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/"
+        },
+        {
+          "alias": "noise",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/"
+        },
+        {
+          "alias": "hybrid",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "not_requested_for_text_only"
+    },
+    {
+      "section_id": "M09-L02",
+      "title": "Use energy with foresight",
+      "scene_ids": [
+        "D20"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** You can see that a traffic queue is stationary ahead. You check behind and begin a controlled reduction in speed early, retaining enough room to stop. You do not accelerate simply to close the gap, and you do not roll into a crossing to preserve momentum.",
+        "sha256": "741ae8e8a134abc371f348e537a5c7ec77ce7a0ac52cd0e46a8960c9b98841b5",
+        "line": 759,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Queue and available space illustrated without a quantified fuel-saving claim; crossing remains unobstructed.",
+      "caption_draft": "Scenario: Use energy with foresight.",
+      "alt_text_draft": "Queue and available space illustrated without a quantified fuel-saving claim; crossing remains unobstructed.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "eco",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M09-v2.png"
+      ],
+      "preview_panel": "M09-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M09-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M09-L03",
+      "title": "Choose the journey as well as the car",
+      "scene_ids": [
+        "D19"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A learner normally makes two separate drives to the same district. On a day when both appointments can be combined without leaving anyone waiting unsafely, the learner plans one return trip. No exact fuel saving is claimed; the decision avoids a duplicated journey.",
+        "sha256": "742da00cdf3724f32ab4ca59ffae852f185ed0d8b00cbab1fe0db20a9bd6261c",
+        "line": 777,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Schematic separate-versus-combined trips, labelled illustrative route rather than a real geographic map.",
+      "caption_draft": "Scenario: Choose the journey as well as the car.",
+      "alt_text_draft": "Schematic separate-versus-combined trips, labelled illustrative route rather than a real geographic map.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M09-v2.png"
+      ],
+      "preview_panel": "M09-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M09-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M09-L04",
+      "title": "Check where the vehicle can go",
+      "scene_ids": [
+        "D23"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver has heard that a city plans a new zone. Before travelling, they verify the operative restriction and compare it with the car's recorded category. The route is chosen from current information, not from a headline remembered months earlier.",
+        "sha256": "e6136b37054a97338f48ccb26f51558dbda4927b4eba8afd0084221cdea6beca",
+        "line": 793,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Vehicle-category check and zone-boundary sign shown separately; no invented live city restriction.",
+      "caption_draft": "Scenario: Check where the vehicle can go.",
+      "alt_text_draft": "Vehicle-category check and zone-boundary sign shown separately; no invented live city restriction.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "zones",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/"
+        },
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "stfs",
+          "url": "https://rdt.transportstyrelsen.se/rdt/Default.aspx?UseStfs=1"
+        }
+      ],
+      "placement_ids": [
+        "LP051",
+        "LP052"
+      ],
+      "sign_codes": [
+        "E31",
+        "E31-2",
+        "E31-3",
+        "E31-4",
+        "E32",
+        "E32-2",
+        "E32-3",
+        "E32-4",
+        "H27",
+        "T24"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M09-v2.png"
+      ],
+      "preview_panel": "M09-L04 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M09-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M09-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D19",
+        "D23"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** Plan a regular journey with an optional errand, two possible modes and a destination near a restricted area.",
+        "sha256": "af9ad1aa8dc1561fc381678eb8a46be88998d3059222a1e0b2db6675e06cb4db",
+        "line": 809,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral route-choice worksheet with errand and mode options; no route selected for learner.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Neutral route-choice worksheet with errand and mode options; no route selected for learner.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M09-v2.png"
+      ],
+      "preview_panel": "M09-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M09-v2.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M10-L01",
+      "title": "When the car cannot continue",
+      "scene_ids": [
+        "D08",
+        "D29"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A driver with a puncture on a motorway wants to change the wheel immediately. They first protect people from traffic and arrange recovery rather than working in an exposed position. A warning triangle does not create a protected workshop.",
+        "sha256": "34c7921c262e38c2ce96c2fee141b9680ef4da19fa2d0deb2cea66b9836f8901",
+        "line": 821,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Separate motorway breakdown and tunnel cases; no fabricated escape distance and no staying-near-car fire advice.",
+      "caption_draft": "Scenario: When the car cannot continue.",
+      "alt_text_draft": "Separate motorway breakdown and tunnel cases; no fabricated escape distance and no staying-near-car fire advice.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "breakdown",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/"
+        },
+        {
+          "alias": "tunnel",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/"
+        }
+      ],
+      "placement_ids": [
+        "LP053"
+      ],
+      "sign_codes": [
+        "A26",
+        "E26",
+        "E27",
+        "E28",
+        "E28-2",
+        "E29",
+        "G2",
+        "G9"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M10-v4.png"
+      ],
+      "preview_panel": "M10-L01 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M10-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M10-L02",
+      "title": "When someone may be hurt",
+      "scene_ids": [
+        "D29"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Worked decision.** After a collision, a person is badly injured and vehicles are still passing. You call 112 and describe the immediate traffic danger from a protected position, following instructions and helping within your ability. Photographing damage is not the first priority.",
+        "sha256": "61bb6d27f70db0afda27b7015c878a39e4f492d289bc5d27ae2f6e53901ed97a",
+        "line": 839,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Protected caller at incident with moving traffic separated; no clinical procedure illustration or injury detail.",
+      "caption_draft": "Scenario: When someone may be hurt.",
+      "alt_text_draft": "Protected caller at incident with moving traffic separated; no clinical procedure illustration or injury detail.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        },
+        {
+          "alias": "breakdown",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/"
+        },
+        {
+          "alias": "first-aid",
+          "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/"
+        },
+        {
+          "alias": "wildlife",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/"
+        }
+      ],
+      "placement_ids": [
+        "LP054"
+      ],
+      "sign_codes": [
+        "A41",
+        "X6"
+      ],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M10-v4.png"
+      ],
+      "preview_panel": "M10-L02 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M10-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M10-L03",
+      "title": "Explain a whole journey",
+      "scene_ids": [
+        "D30"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario.** You plan to take a passenger to a rural appointment using an unfamiliar car. The outward journey includes a residential area, a roundabout and a faster road. Rain is expected later. At the destination, the nearest empty space is before a pedestrian crossing. On the return journey you become delayed; the passenger asks you to pass a slower vehicle near a bend.",
+        "sha256": "6933b5674a1d72ad50403accca9c1a36cf3ef449fb59c3b6b08034a6613fbaf5",
+        "line": 859,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Neutral whole-journey storyboard of urban route, roundabout, rain, parking and delayed return; separate conflicts.",
+      "caption_draft": "Scenario: Explain a whole journey.",
+      "alt_text_draft": "Neutral whole-journey storyboard of urban route, roundabout, rain, parking and delayed return; separate conflicts.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "traffic-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M10-v4.png"
+      ],
+      "preview_panel": "M10-L03 labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M10-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    },
+    {
+      "section_id": "M10-L04",
+      "title": "Make a realistic readiness plan",
+      "scene_ids": [
+        "D09"
+      ],
+      "status": "text_only",
+      "anchor": {
+        "exact_quote": "**Worked decision.** A learner answers most checks correctly but still needs reminders to scan at junctions. They continue targeted supervised practice instead of treating their theory score as proof of practical readiness.",
+        "sha256": "db7959c8feefd4bfcf1efda9560c803322714c5df5d90145b48fad1d9d6b37fb",
+        "line": 883,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Observable-readiness checklist remains text; no score badge implying practical readiness.",
+      "caption_draft": null,
+      "alt_text_draft": null,
+      "alt_status": "draft brief only; describe actual approved output before production",
+      "evidence": [
+        {
+          "alias": "test",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/"
+        },
+        {
+          "alias": "practical",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/"
+        },
+        {
+          "alias": "languages",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/"
+        },
+        {
+          "alias": "support",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/teoriprov-och-yrkesprov-med-stod/"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Worked explanation may include answer; knowledge-check image must not reveal it.",
+      "approval": "not_requested_for_text_only"
+    },
+    {
+      "section_id": "M10-R",
+      "title": "Review and self-assessment",
+      "scene_ids": [
+        "D30"
+      ],
+      "status": "preview_approved_pending_production_checks",
+      "anchor": {
+        "exact_quote": "**Scenario:** Review an entire journey that included an unexpected stop and a decision you would now change.",
+        "sha256": "da7bc0deb1936e5a43eb1890f4e4c87a8f09f38bcfb8a381bd93d93f5ebaf44a",
+        "line": 903,
+        "relation": "before scenario for assessment; adjacent to worked decision for teaching"
+      },
+      "learning_purpose": "Blank journey storyboard with space for the learner's own unexpected stop; no imposed correct answer.",
+      "caption_draft": "Scenario: Review and self-assessment.",
+      "alt_text_draft": "Blank journey storyboard with space for the learner's own unexpected stop; no imposed correct answer.",
+      "alt_status": "draft; final cropped artwork and official sign insertion must be described during production",
+      "evidence": [
+        {
+          "alias": "syllabus",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf"
+        }
+      ],
+      "placement_ids": [],
+      "sign_codes": [],
+      "assessment_policy": "Neutral scene before question; explanatory overlay/answer separately after response.",
+      "approval": "All current linked preview designs explicitly approved in sequential review",
+      "previous_status": "planned",
+      "preview_files": [
+        "docs/curriculum/pdf-design/gap-resolution/M10-v4.png"
+      ],
+      "preview_panel": "M10-R labelled panel; shared boards may include companion panels",
+      "production_contract": "Preview is a visual composition, not a replacement for the exact manuscript scenario. Use original lesson title, manuscript copy, official sign assets and Source Sans 3 body text. No generated text, sign or vehicle badge may be carried into final output unchecked.",
+      "preview_approvals": {
+        "M10-v4.png": "Explicit user approval; see gap-resolution/approval-record.json and conversation"
+      }
+    }
+  ]
+}

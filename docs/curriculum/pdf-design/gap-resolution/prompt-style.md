@@ -1,0 +1,5 @@
+# style preview prompt
+
+Built-in imagegen, 3 October 2026. Preview only; explicit approval required before implementation.
+
+Use case: precise-object-edit. Edit the supplied KörkortGo Swedish illustration style reference sheet. Preserve its six-panel composition, palette, illustration quality and all people/road examples. Remove every small automobile maker badge/emblem from every car and van view, leaving plain unbranded bodywork/grilles; do not replace badges with invented symbols. Preserve the teal compact estate model consistently in front, rear, top, urban and rural views. Replace the CAR A subtitle with exactly "Unbranded compact estate. Keep this model consistent across views." For the POLICE appearance study keep the neutral standing front/side/back views, navy clothing and yellow reflective vest with the white word POLIS on blue patches; simplify tiny cap/shoulder insignia to plain shapes rather than invented detailed crests. No traffic-control gestures. Bottom note exactly "Appearance reference only. Traffic-control signs use verified official artwork." Keep KörkortGo spelling. This is a review preview, not official police uniform certification.
