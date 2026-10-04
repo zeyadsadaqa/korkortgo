@@ -1,0 +1,1265 @@
+{
+  "version": "1.0",
+  "date": "2026-10-01",
+  "status": "outline_approved",
+  "scope": "Original category B curriculum planning; official topic support, not claim-level manuscript validation.",
+  "modules": [
+    {
+      "id": "M01",
+      "title": "Choose to drive responsibly",
+      "exam_domain": "Personal factors",
+      "syllabus_chapters": [
+        "4",
+        "5"
+      ],
+      "lessons": [
+        {
+          "id": "M01-L01",
+          "title": "Your route into driving",
+          "objective": "Build a personal preparation checklist covering entitlement, permits, supervised practice, risk training and examinations.",
+          "source_ids": [
+            "SRC-a6fdf41e5fb86af6",
+            "SRC-84a7ba78047b0136",
+            "SRC-804b5a3ce0bf1522",
+            "SRC-f2e96bf01856511f",
+            "SRC-64a8c6a618915c71"
+          ],
+          "evidence_limit": "Recheck dated licensing and examination requirements before publication."
+        },
+        {
+          "id": "M01-L02",
+          "title": "Am I ready today?",
+          "objective": "Decide whether to drive in scenarios involving tiredness, illness, medication, alcohol or other drugs, and explain a safer alternative.",
+          "source_ids": [
+            "SRC-16280dcecc55e002",
+            "SRC-2b993e2c85ae94c9",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Syllabus scope for fatigue and medication; detailed impairment and medical claims need direct supporting guidance."
+        },
+        {
+          "id": "M01-L03",
+          "title": "Pressure is a driving risk",
+          "objective": "Identify how peers, impulses, confidence and personal circumstances can change a driving decision; rehearse a refusal or alternative.",
+          "source_ids": [
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Syllabus scope, chapter 5; scenarios are original teaching exercises, not validated psychological predictions."
+        },
+        {
+          "id": "M01-L04",
+          "title": "Plan the journey before the ignition",
+          "objective": "Compare route, departure time, transport mode and passenger choices for safety, accessibility and environmental impact.",
+          "source_ids": [
+            "SRC-254a36987682400e",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Syllabus chapter 4 supports scope; route-specific restrictions must be checked separately."
+        }
+      ],
+      "self_assessment": {
+        "id": "M01-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 4, 5, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M02",
+      "title": "Prepare a car that is ready",
+      "exam_domain": "Vehicle knowledge and manoeuvring",
+      "syllabus_chapters": [
+        "2"
+      ],
+      "lessons": [
+        {
+          "id": "M02-L01",
+          "title": "Know what the controls tell you",
+          "objective": "Explain the purpose of core controls, warning indicators, braking and steering systems, and identify when further instructions are needed.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Practical-test and syllabus scope; vehicle-specific operation and warning responses remain unverified."
+        },
+        {
+          "id": "M02-L02",
+          "title": "A check before moving",
+          "objective": "Organise a safety check of tyres, lights, visibility and vehicle condition, and distinguish a defect from a reason to seek help.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-32256a46ed1c6028",
+            "SRC-e454ba2a4ddaffb3"
+          ],
+          "evidence_limit": "Detailed maintenance procedures and defect thresholds require further evidence."
+        },
+        {
+          "id": "M02-L03",
+          "title": "Protect everyone inside",
+          "objective": "Select appropriate restraint arrangements in adult and child passenger scenarios and explain how belts, headrests and airbags work together.",
+          "source_ids": [
+            "SRC-2081963d3a6ed062",
+            "SRC-b7b53b24caa30874",
+            "SRC-438ebf1c277f32bb",
+            "SRC-2c2f5df0084a7b5a"
+          ],
+          "evidence_limit": "Verify age, height, seat-position exceptions and manufacturer-dependent arrangements before teaching specifics."
+        },
+        {
+          "id": "M02-L04",
+          "title": "Move with control",
+          "objective": "Plan observation and control for starting, stopping, reversing, hill starts and turning; explain the need for supervised practical practice.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Official assessment scope; a text lesson cannot establish practical competence."
+        }
+      ],
+      "self_assessment": {
+        "id": "M02-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M03",
+      "title": "Read the road before acting",
+      "exam_domain": "Traffic rules",
+      "syllabus_chapters": [
+        "2",
+        "3"
+      ],
+      "lessons": [
+        {
+          "id": "M03-L01",
+          "title": "Recognise what a sign asks",
+          "objective": "Classify warning, priority, prohibition, mandatory and instruction signs and describe the decision each category prompts.",
+          "source_ids": [
+            "SRC-07793eae4d237cb8",
+            "SRC-87199133ef371706",
+            "SRC-d8e6b13b90f6039f",
+            "SRC-3462ea12a3001dda",
+            "SRC-7582f5c3aed437e8"
+          ],
+          "evidence_limit": "Individual meanings and variants require step 4 verification."
+        },
+        {
+          "id": "M03-L02",
+          "title": "Combine the instructions",
+          "objective": "Interpret a sign with a supplementary panel, road marking or signal and identify when a police or guard instruction must be considered.",
+          "source_ids": [
+            "SRC-1ac98015cab15754",
+            "SRC-ee993eb3ab9625e5",
+            "SRC-0c97a3d86b50e38c",
+            "SRC-824a078f814193d0",
+            "SRC-6c18e5d21848f829"
+          ],
+          "evidence_limit": "The complete legal order of precedence and exceptions need direct provisions."
+        },
+        {
+          "id": "M03-L03",
+          "title": "Find your way without rushing",
+          "objective": "Use direction signs, symbols, facility and service signs to plan a route choice early, including walking and cycling destinations.",
+          "source_ids": [
+            "SRC-0a2e59375a189ec8",
+            "SRC-2d287fe5b28b367b",
+            "SRC-06679c0d901db98b",
+            "SRC-c67ca55539208b5b",
+            "SRC-4053e5a0f5e7acf2",
+            "SRC-717cad7d0a44194b",
+            "SRC-9b1e50fd5dab63db"
+          ],
+          "evidence_limit": "Step 4 will select legible variants and English labels; category pages establish scope."
+        },
+        {
+          "id": "M03-L04",
+          "title": "Leave room to respond",
+          "objective": "Explain how observation, speed, reaction time, braking, grip and following space affect the options available in a developing hazard.",
+          "source_ids": [
+            "SRC-8f8abe04c365e91c",
+            "SRC-01410e80b68b774c",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Any formula or numerical example must state assumptions; it must not be presented as a guaranteed stopping distance."
+        }
+      ],
+      "self_assessment": {
+        "id": "M03-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, 3, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M04",
+      "title": "Negotiate shared space",
+      "exam_domain": "Traffic rules",
+      "syllabus_chapters": [
+        "3"
+      ],
+      "lessons": [
+        {
+          "id": "M04-L01",
+          "title": "Decide who goes first",
+          "objective": "Explain a junction decision using priority signs and right-hand priority, and recognise situations requiring further rule checks.",
+          "source_ids": [
+            "SRC-32b9b4a023fab895",
+            "SRC-87199133ef371706",
+            "SRC-4f119c98672b2997"
+          ],
+          "evidence_limit": "Exit rules, turning duties, buses and special junction exceptions require direct supporting provisions."
+        },
+        {
+          "id": "M04-L02",
+          "title": "Turn with a complete picture",
+          "objective": "Plan observation, signalling, position and margins for turns and lane changes, accounting for blind spots and other road users.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Practical-test scope; detailed positioning and lane rules require verification."
+        },
+        {
+          "id": "M04-L03",
+          "title": "Crossings belong to people",
+          "objective": "Distinguish pedestrian crossings, cycle passages and cycle crossings and explain the driver's responsibilities in a selected scenario.",
+          "source_ids": [
+            "SRC-6ba459d3eeb28672",
+            "SRC-6ea809d7f549132c",
+            "SRC-6fab65567b9a0d41"
+          ],
+          "evidence_limit": "Check controlled versus uncontrolled crossings and exceptions against current guidance."
+        },
+        {
+          "id": "M04-L04",
+          "title": "Choose a safe path through a roundabout",
+          "objective": "Describe an approach, entry and exit plan that accounts for priority, lanes, signalling and people crossing nearby.",
+          "source_ids": [
+            "SRC-8fa63f909edeef02",
+            "SRC-4f119c98672b2997"
+          ],
+          "evidence_limit": "Roundabout page supports entry duties; lane and signalling details need more evidence."
+        }
+      ],
+      "self_assessment": {
+        "id": "M04-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 3, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M05",
+      "title": "Make room in busy streets",
+      "exam_domain": "Road safety",
+      "syllabus_chapters": [
+        "3"
+      ],
+      "lessons": [
+        {
+          "id": "M05-L01",
+          "title": "See the person behind the movement",
+          "objective": "Anticipate the needs of children, older people, wheelchair users, cyclists, riders and motorcyclists in street scenarios.",
+          "source_ids": [
+            "SRC-d2ff057261206093",
+            "SRC-fee0b57c7e11881b",
+            "SRC-c0f9f1f76af57c79",
+            "SRC-7943690914367590",
+            "SRC-6fab65567b9a0d41"
+          ],
+          "evidence_limit": "Avoid stereotypes; detailed clearance requirements must be sourced before stating numbers."
+        },
+        {
+          "id": "M05-L02",
+          "title": "When the street changes purpose",
+          "objective": "Compare ordinary streets with walking-speed areas, pedestrian streets and cycle streets and choose a suitable driving response.",
+          "source_ids": [
+            "SRC-b10ea78b3a467701",
+            "SRC-7582f5c3aed437e8"
+          ],
+          "evidence_limit": "Verify local restrictions and exceptions separately."
+        },
+        {
+          "id": "M05-L03",
+          "title": "Choose a lawful place to stop",
+          "objective": "Distinguish stopping from parking and interpret signs and time panels for a proposed parking place.",
+          "source_ids": [
+            "SRC-050697b456950e96",
+            "SRC-1ac98015cab15754",
+            "SRC-d8e6b13b90f6039f",
+            "SRC-8334b1a2b9a77ca3"
+          ],
+          "evidence_limit": "General prohibitions, distances, dates, loading exceptions and permit scope require detailed official references."
+        },
+        {
+          "id": "M05-L04",
+          "title": "Manoeuvre where people may appear",
+          "objective": "Plan a low-speed parking or reversing manoeuvre with observation, space checks and a decision to stop when the view is insufficient.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Assessment scope; no universal manoeuvre recipe or claim of practical proficiency."
+        }
+      ],
+      "self_assessment": {
+        "id": "M05-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 3, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M06",
+      "title": "Travel beyond the town",
+      "exam_domain": "Road safety",
+      "syllabus_chapters": [
+        "3"
+      ],
+      "lessons": [
+        {
+          "id": "M06-L01",
+          "title": "Read the rural road",
+          "objective": "Identify risks from bends, crests, narrow roads, animals and slow vehicles and justify changes in speed and position.",
+          "source_ids": [
+            "SRC-0ad08ea1b0c67595",
+            "SRC-3b3acf1fd00df055",
+            "SRC-4f119c98672b2997"
+          ],
+          "evidence_limit": "Detailed meeting and positioning rules need verification; animal behaviour cannot be guaranteed."
+        },
+        {
+          "id": "M06-L02",
+          "title": "Is passing worth the risk?",
+          "objective": "Compare staying behind with overtaking in a scenario using visibility, closing speed, space and the ability to abandon the attempt.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-5305e6160261c39c",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Overtaking prohibitions and exceptions require direct legal support before manuscript drafting."
+        },
+        {
+          "id": "M06-L03",
+          "title": "Join faster traffic calmly",
+          "objective": "Plan a motorway entry, lane choice, separation and exit, including a safe response to a missed exit.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Assessment scope; motorway and expressway legal restrictions need direct provisions."
+        },
+        {
+          "id": "M06-L04",
+          "title": "Expect an interrupted route",
+          "objective": "Interpret railway-crossing and roadworks information and plan a safe approach to changed lanes, queues or a blocked crossing.",
+          "source_ids": [
+            "SRC-bc705f027d726147",
+            "SRC-c328564027f1a34a",
+            "SRC-272733df2a1a2c37",
+            "SRC-1b0cb60853b441ef"
+          ],
+          "evidence_limit": "Separate normal crossing behaviour from an emergency; confirm current procedures and asset meanings."
+        }
+      ],
+      "self_assessment": {
+        "id": "M06-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 3, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M07",
+      "title": "Adapt when conditions change",
+      "exam_domain": "Road safety",
+      "syllabus_chapters": [
+        "2",
+        "3",
+        "4"
+      ],
+      "lessons": [
+        {
+          "id": "M07-L01",
+          "title": "Drive within what you can see",
+          "objective": "Choose a visibility and lighting strategy for darkness, fog and glare, considering both seeing and being seen.",
+          "source_ids": [
+            "SRC-e454ba2a4ddaffb3",
+            "SRC-4f119c98672b2997"
+          ],
+          "evidence_limit": "Verify lighting combinations and exceptions; avoid unsupported fixed visibility distances."
+        },
+        {
+          "id": "M07-L02",
+          "title": "Grip is a changing resource",
+          "objective": "Explain how rain, standing water, ice, snow, tyres and driver inputs can affect stability, steering and braking.",
+          "source_ids": [
+            "SRC-6ba4442478c22874",
+            "SRC-b91cb0cb272c9ec3",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Verify tyre dates, exemptions and limits; vehicle-specific recovery procedures remain out of scope until supported."
+        },
+        {
+          "id": "M07-L03",
+          "title": "Protect your attention",
+          "objective": "Recognise distraction, stress and fatigue in a journey scenario and choose a practical interruption or alternative travel plan.",
+          "source_ids": [
+            "SRC-b0aaaffb8704a589",
+            "SRC-254a36987682400e",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Separate communication-device law from broader safety advice; fatigue detail needs official corroboration."
+        },
+        {
+          "id": "M07-L04",
+          "title": "Change the plan when risk grows",
+          "objective": "Reassess a trip when weather, darkness, delays or passenger pressure accumulate and justify continuing, pausing or cancelling.",
+          "source_ids": [
+            "SRC-7530106233dee341",
+            "SRC-254a36987682400e"
+          ],
+          "evidence_limit": "Syllabus chapter 4 supports scope; no invented numerical risk thresholds."
+        }
+      ],
+      "self_assessment": {
+        "id": "M07-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, 3, 4, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M08",
+      "title": "Take responsibility for the vehicle and load",
+      "exam_domain": "Vehicle knowledge and manoeuvring",
+      "syllabus_chapters": [
+        "2",
+        "3"
+      ],
+      "lessons": [
+        {
+          "id": "M08-L01",
+          "title": "Understand what you may drive",
+          "objective": "Use entitlement and vehicle-category information to decide what further checks a car or trailer combination requires.",
+          "source_ids": [
+            "SRC-a6fdf41e5fb86af6",
+            "SRC-392432b3bb540082",
+            "SRC-1f10e4ca091a477e"
+          ],
+          "evidence_limit": "Verify all entitlement and weight thresholds before worked examples."
+        },
+        {
+          "id": "M08-L02",
+          "title": "Make the load part of the safety check",
+          "objective": "Distinguish weight terms, assess a proposed load and identify checks for securing cargo, towing capacity and trailer suitability.",
+          "source_ids": [
+            "SRC-4674e24fd4357555",
+            "SRC-10dd69b097df0a9b",
+            "SRC-f59e6867e39d34e1",
+            "SRC-545891451cebc4a4"
+          ],
+          "evidence_limit": "Dimensions, projections, coupling checks and equipment-specific rules require detailed verification."
+        },
+        {
+          "id": "M08-L03",
+          "title": "Keep the car legally ready",
+          "objective": "Build an ownership checklist covering registration, insurance, inspection and on-road or off-road status.",
+          "source_ids": [
+            "SRC-39dbf9dc5488e03b",
+            "SRC-f069b581e5d1cd33",
+            "SRC-e5507e144427dec5",
+            "SRC-1a8682d573791a52",
+            "SRC-4a02f46defddfd5c"
+          ],
+          "evidence_limit": "Recheck deadlines, obligations and exemptions at manuscript verification."
+        },
+        {
+          "id": "M08-L04",
+          "title": "Know what assistance cannot do",
+          "objective": "Explain why safety systems and different powertrains do not remove the driver's duty to observe, control and recognise limitations.",
+          "source_ids": [
+            "SRC-960faeeb8dfede6d",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Detailed ABS, stability control, automated assistance and powertrain behaviours need explicit official evidence."
+        }
+      ],
+      "self_assessment": {
+        "id": "M08-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, 3, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M09",
+      "title": "Reduce the impact of each journey",
+      "exam_domain": "Environment",
+      "syllabus_chapters": [
+        "2",
+        "4",
+        "5"
+      ],
+      "lessons": [
+        {
+          "id": "M09-L01",
+          "title": "Look beyond the exhaust",
+          "objective": "Compare climate, air-quality and noise effects of travel choices without assuming one vehicle has no environmental impact.",
+          "source_ids": [
+            "SRC-fc2c20a9baff5363",
+            "SRC-81da58b4bbbc356b",
+            "SRC-896fc76e43f0789c"
+          ],
+          "evidence_limit": "Lifecycle comparisons and numerical emissions claims require additional evidence."
+        },
+        {
+          "id": "M09-L02",
+          "title": "Use energy with foresight",
+          "objective": "Plan smooth, anticipatory driving while preserving safety margins and explain how driving technique can affect energy use.",
+          "source_ids": [
+            "SRC-4f119c98672b2997",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Official assessment and syllabus scope; gear, coasting and vehicle-specific advice need verification."
+        },
+        {
+          "id": "M09-L03",
+          "title": "Choose the journey as well as the car",
+          "objective": "Compare combining trips, walking, cycling, public transport and driving for a realistic personal journey.",
+          "source_ids": [
+            "SRC-7530106233dee341",
+            "SRC-fc2c20a9baff5363"
+          ],
+          "evidence_limit": "Syllabus chapters 4–5 support transport choice; no invented savings or accessibility assumptions."
+        },
+        {
+          "id": "M09-L04",
+          "title": "Check where the vehicle can go",
+          "objective": "Find official environmental-zone information and identify what must be checked before entering a restricted area.",
+          "source_ids": [
+            "SRC-519a943406a9a9fd",
+            "SRC-d8e6b13b90f6039f"
+          ],
+          "evidence_limit": "Current local boundaries, signs and exemptions must be verified for each example."
+        }
+      ],
+      "self_assessment": {
+        "id": "M09-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, 4, 5, section 3 (self-assessment)."
+      }
+    },
+    {
+      "id": "M10",
+      "title": "Respond, reflect and keep learning",
+      "exam_domain": "Personal factors",
+      "syllabus_chapters": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "lessons": [
+        {
+          "id": "M10-L01",
+          "title": "When the car cannot continue",
+          "objective": "Compare the response to a breakdown on an ordinary road, a motorway and in a tunnel, explaining how the location changes the priorities.",
+          "source_ids": [
+            "SRC-1fa593cfee2c2d1d",
+            "SRC-9df1b7b27832830a",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Do not generalise motorway evacuation advice to every tunnel incident; verify each procedure independently."
+        },
+        {
+          "id": "M10-L02",
+          "title": "When someone may be hurt",
+          "objective": "Identify scene-safety, emergency contact and first-aid learning needs following a collision, and distinguish knowledge from hands-on training.",
+          "source_ids": [
+            "SRC-7530106233dee341",
+            "SRC-0ad08ea1b0c67595",
+            "SRC-bc705f027d726147"
+          ],
+          "evidence_limit": "Syllabus chapter 3 mandates incident response and first aid; these sources do not establish a complete clinical first-aid procedure. Research required before instruction."
+        },
+        {
+          "id": "M10-L03",
+          "title": "Explain a whole journey",
+          "objective": "Review a mixed urban and rural scenario, justify decisions, identify missed hazards and propose safer alternatives.",
+          "source_ids": [
+            "SRC-7530106233dee341",
+            "SRC-64a8c6a618915c71",
+            "SRC-4f119c98672b2997"
+          ],
+          "evidence_limit": "Original integrative exercise; not an official exam or a prediction of passing."
+        },
+        {
+          "id": "M10-L04",
+          "title": "Make a realistic readiness plan",
+          "objective": "Compare knowledge, practical performance and confidence, then create a plan for further supervised practice and accessible examination preparation.",
+          "source_ids": [
+            "SRC-64a8c6a618915c71",
+            "SRC-70574a62464729ca",
+            "SRC-ff21aeef162407df",
+            "SRC-7530106233dee341"
+          ],
+          "evidence_limit": "Use current official test guidance; self-assessment cannot certify readiness or entitlement."
+        }
+      ],
+      "self_assessment": {
+        "id": "M10-R",
+        "objective": "After the module scenario, identify one uncertain decision, explain its possible consequences, and choose an official reference or supervised practice activity to address it.",
+        "source_ids": [
+          "SRC-7530106233dee341"
+        ],
+        "locator": "TSFS 2011:20, chapters 2, 3, 4, 5, section 3 (self-assessment)."
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "SRC-01410e80b68b774c",
+      "title": "Hastighet - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hastighet/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-050697b456950e96",
+      "title": "Stanna och parkera - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-06679c0d901db98b",
+      "title": "Lokaliseringsmärken för upplysning om allmänna inrättningar med mera - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-07793eae4d237cb8",
+      "title": "Varningsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-0a2e59375a189ec8",
+      "title": "Lokaliseringsmärken för vägvisning - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-0ad08ea1b0c67595",
+      "title": "Se upp för vilt på vägarna - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-0c97a3d86b50e38c",
+      "title": "Trafiksignaler - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-10dd69b097df0a9b",
+      "title": "Lastsäkring - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-16280dcecc55e002",
+      "title": "Alkohol - så påverkar den - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-1a8682d573791a52",
+      "title": "Ställ av eller på ditt fordon - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-1ac98015cab15754",
+      "title": "Tilläggstavlor - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-1b0cb60853b441ef",
+      "title": "Andra anordningar för anvisningar för trafiken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-1f10e4ca091a477e",
+      "title": "Personbil med släp - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-1fa593cfee2c2d1d",
+      "title": "Om du får stopp på bilen – varna, lämna och larma - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-2081963d3a6ed062",
+      "title": "Bältesregler - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-254a36987682400e",
+      "title": "Goda råd på vägen vid storhelger - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-272733df2a1a2c37",
+      "title": "Signaler vid korsning med järnväg eller spårväg - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/sakerhetsanordningar-i-korsningar-med-jarnvag-eller-sparvag/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-2b993e2c85ae94c9",
+      "title": "Medicinska krav - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/medicinska-krav/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-2c2f5df0084a7b5a",
+      "title": "Krockkudde - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-2d287fe5b28b367b",
+      "title": "Lokaliseringsmärken för vägvisning av gång- och cykeltrafik - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-gang-och-cykeltrafik/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-32256a46ed1c6028",
+      "title": "Krav på däck för personbil - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-32b9b4a023fab895",
+      "title": "Högerregeln - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-3462ea12a3001dda",
+      "title": "Påbudsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-392432b3bb540082",
+      "title": "Personbil, lastbil och buss - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-39dbf9dc5488e03b",
+      "title": "Registreringsbevis - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-3b3acf1fd00df055",
+      "title": "Säkerhet på fyrhjuling, mopedbil, traktor och motorredskap - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-4053e5a0f5e7acf2",
+      "title": "Lokaliseringsmärken för turistiskt intressanta mål med mera - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-turistiskt-intressanta-mal-med-mera/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-438ebf1c277f32bb",
+      "title": "Säten och huvudstöd - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-4674e24fd4357555",
+      "title": "Vikter - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-4a02f46defddfd5c",
+      "title": "Ägarbyte av fordon - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-4f119c98672b2997",
+      "title": "Så går körprovet till - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-519a943406a9a9fd",
+      "title": "Miljözoner - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-5305e6160261c39c",
+      "title": "Hastighet och restid - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-545891451cebc4a4",
+      "title": "Köra personbil eller lätt lastbil med släp- eller husvagn - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-64a8c6a618915c71",
+      "title": "Personbil och lätt lastbil - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-6ba4442478c22874",
+      "title": "Vinterdäck - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/vinterdack",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-6ba459d3eeb28672",
+      "title": "Övergångsställe - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-6c18e5d21848f829",
+      "title": "Tecken av vakt - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tecken-av-vakt/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-6ea809d7f549132c",
+      "title": "Cykelpassage och cykelöverfart - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-6fab65567b9a0d41",
+      "title": "Trafikregler för rullstolsburna - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-70574a62464729ca",
+      "title": "Teoriprov och yrkesprov med stöd - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/teoriprov-och-yrkesprov-med-stod/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-717cad7d0a44194b",
+      "title": "Symboler - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-7530106233dee341",
+      "title": "TSFS 2011:20 - category B syllabus",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-7582f5c3aed437e8",
+      "title": "Anvisningsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-7943690914367590",
+      "title": "Säkerhet på motorcykel - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-motorcykel/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-804b5a3ce0bf1522",
+      "title": "Handledarskap och övningskörning - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-81da58b4bbbc356b",
+      "title": "Luftkvalitet  - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-824a078f814193d0",
+      "title": "Tecken av polisman med flera - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tecken-av-polisman-med-flera/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-8334b1a2b9a77ca3",
+      "title": "Parkeringstillstånd för rörelsehindrade - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-84a7ba78047b0136",
+      "title": "Körkortstillstånd - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/korkortstillstand/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-87199133ef371706",
+      "title": "Väjningspliktsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-896fc76e43f0789c",
+      "title": "Buller  - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-8f8abe04c365e91c",
+      "title": "Hastighet och krockvåld - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-8fa63f909edeef02",
+      "title": "Cirkulationsplats - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cirkulationsplats/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-960faeeb8dfede6d",
+      "title": "Krocksäkerhet - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-9b1e50fd5dab63db",
+      "title": "Upplysningsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-9df1b7b27832830a",
+      "title": "Säkerhet i vägtunnlar - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-a6fdf41e5fb86af6",
+      "title": "B – Personbil och lätt lastbil - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-b0aaaffb8704a589",
+      "title": "Mobilanvändning och annan kommunikationsutrustning - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-b10ea78b3a467701",
+      "title": "Gågata, cykelgata och gångfartsområde - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-b7b53b24caa30874",
+      "title": "Så skyddar du barnen – regler och tips - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-b91cb0cb272c9ec3",
+      "title": "Däck - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-bc705f027d726147",
+      "title": "Säkerhet vid plankorsningar",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-c0f9f1f76af57c79",
+      "title": "Hästar i trafiken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/hastar-i-trafiken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-c328564027f1a34a",
+      "title": "Säkerhet vid vägarbeten - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-c67ca55539208b5b",
+      "title": "Lokaliseringsmärken för upplysning om serviceanläggningar med mera - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-d2ff057261206093",
+      "title": "Säkerhet för gående - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-for-gaende/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-d8e6b13b90f6039f",
+      "title": "Förbudsmärken - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-e454ba2a4ddaffb3",
+      "title": "Fordonsbelysning - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-e5507e144427dec5",
+      "title": "Kontrollbesiktning av personbil och lastbil som inte överstiger 3500 kg i totalvikt - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-ee993eb3ab9625e5",
+      "title": "Vägmarkeringar - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-f069b581e5d1cd33",
+      "title": "Trafikförsäkring - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-f2e96bf01856511f",
+      "title": "Riskutbildning för personbil - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-f59e6867e39d34e1",
+      "title": "Vikter att ta hänsyn till när du drar en släpvagn - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-fc2c20a9baff5363",
+      "title": "Klimat och energi - Transportstyrelsen",
+      "publisher": "Transportstyrelsen",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-fee0b57c7e11881b",
+      "title": "Säkerhet på cykel - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-cykel/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    },
+    {
+      "id": "SRC-ff21aeef162407df",
+      "title": "Teoriprovet på annat språk - www.trafikverket.se",
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/",
+      "retrieved": "2026-10-01",
+      "status": "retrieved"
+    }
+  ],
+  "outline_approval": {
+    "version": "1.0",
+    "date": "2026-10-01",
+    "evidence": "User explicitly replied: yes approved",
+    "scope": "Curriculum outline; evidence gaps remain open. Step 3 awaits a separate execution request."
+  }
+}

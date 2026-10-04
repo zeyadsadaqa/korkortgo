@@ -1,0 +1,29 @@
+{
+  "checked_on": "2026-10-01",
+  "manuscript_version": "1.0",
+  "manuscript_sha256": "297363f401d2a955b27ddfe142c5f6c1269f3d7783867b3ba828698d39a8fd76",
+  "status": "passed",
+  "modules": 10,
+  "lessons": 40,
+  "module_reflections": 10,
+  "claim_or_scope_records": 96,
+  "cited_sources": 66,
+  "words_including_reference_list": 18500,
+  "first_aid_reference_words": 58,
+  "checks": [
+    "Approved module and lesson titles preserved",
+    "All 50 planning IDs present with evidence coverage",
+    "Every lesson has learning text, worked decision, answered check and reminder",
+    "All source aliases, IDs, URLs and retrieval metadata consistent",
+    "Official source domains only, with authorised brief 1177 reference",
+    "Prominent required disclaimer",
+    "Original arithmetic examples checked",
+    "Relative deliverable links resolve",
+    "No background-book names or original-page references",
+    "No TODO/TBD/FIXME placeholders"
+  ],
+  "limitations": [
+    "Structural checks do not independently certify factual or legal accuracy",
+    "No rendered PDF or sign-asset verification at this step"
+  ]
+}

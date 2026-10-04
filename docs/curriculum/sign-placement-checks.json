@@ -1,0 +1,63 @@
+{
+  "checked_on": "2026-10-02",
+  "status": "pass",
+  "scope": "4E placement integrity and coverage only; not the full 4F package review or final PDF verification.",
+  "summary": {
+    "selected_codes": 263,
+    "reference_groups": 24,
+    "lesson_placements": 54,
+    "distinct_lesson_or_review_locations": 24,
+    "chosen_additional_variants": 58,
+    "bound_codes": 321,
+    "eligible_bound_codes": 308,
+    "selected_image_gaps": 13,
+    "optional_variant_holds": 4,
+    "diagram_briefs": 8,
+    "catalogue_dispositions": 498
+  },
+  "checks": {
+    "all_input_hashes_match": true,
+    "263_selected_exactly_one_primary_reference_entry": true,
+    "unique_ids": true,
+    "all_exact_passage_anchors_resolve_in_their_sections": true,
+    "asset_caption_hashes_and_bidirectional_placement_bindings": true,
+    "all_17_holds_preserved": true,
+    "13_selected_holds_have_explicit_reference_and_lesson_gaps": true,
+    "all_498_catalogue_records_have_one_disposition": true,
+    "all_18_reference_families_covered": true,
+    "eight_selection_gap_dispositions": true,
+    "all_diagrams_unimplemented_and_awaiting_design_approval": true,
+    "markdown_local_targets_and_reference_definitions_resolve": true,
+    "no_background_book_reference_or_source_page_number": true
+  },
+  "artifact_sha256": {
+    "sign-placement-map.md": "e003a334493dc19de820c6969a2f2a54fc748d31b8d771b011fc50794aaaaaab",
+    "sign-placement-map.json": "6bc3a4eabc0f719351d9069da1249263d84e5273f398bdab6131288e8830ff74"
+  },
+  "remaining_gaps": {
+    "selected_image_codes": [
+      "S1",
+      "S10",
+      "S12",
+      "S2",
+      "S3",
+      "S4",
+      "S8",
+      "S9",
+      "T1",
+      "T2",
+      "T22",
+      "T6",
+      "T8"
+    ],
+    "optional_held_variants_excluded": [
+      "C45-7",
+      "C45-8",
+      "C45-9",
+      "A29-17"
+    ],
+    "exact_parking_composite": "Unresolved; original exercise remains text, D06 is a brief only.",
+    "crossing_id_closeup": "Unresolved; text only.",
+    "contextual_diagrams": "D01–D08 await step 5 preview and approval."
+  }
+}
