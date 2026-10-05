@@ -1,0 +1,905 @@
+{
+  "status": "approved crops and exact official sign insertions; screen review",
+  "assets": {
+    "M05-L01": {
+      "file": "M05-v2.png",
+      "box": [
+        35,
+        198,
+        567,
+        825
+      ],
+      "width_mm": 105,
+      "caption": "The bus signals to leave its stop. The full-width middle lane remains separate from the opposing lane. In the worked decision the road limit is 40 km/h; available road width does not remove the bus duty.",
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "alt_text": "The bus signals to leave its stop. The full-width middle lane remains separate from the opposing lane. In the worked decision the road limit is 40 km/h; available road width does not remove the bus duty.",
+      "print_ppi": 128.7
+    },
+    "M05-L02": {
+      "file": "M05-v2.png",
+      "box": [
+        599,
+        198,
+        1128,
+        889
+      ],
+      "width_mm": 100,
+      "caption": "At a pedestrian-street boundary, the official E7 sign identifies the street\u2019s purpose. Check whether your journey is permitted before entering; a navigation shortcut is not an exemption.",
+      "overlays": [
+        {
+          "code": "E7",
+          "rect": [
+            960,
+            198,
+            1128,
+            453
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-9be3499f26e80ce4.png",
+            "source_asset_id": "ASSET-9be3499f26e80ce4",
+            "sha256": "29496807ed9163e9b05ea13d47a0addc4ea4243e8a9dd96fa26da494284f4160",
+            "max_size_mm_at_300ppi": [
+              140.4,
+              140.4
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/gagata/"
+        }
+      ],
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "alt_text": "At a pedestrian-street boundary, the official E7 sign identifies the street\u2019s purpose. Check whether your journey is permitted before entering; a navigation shortcut is not an exemption.",
+      "print_ppi": 134.4
+    },
+    "M05-L03-crossing": {
+      "file": "D03-v1.png",
+      "box": [
+        310,
+        79,
+        1640,
+        330
+      ],
+      "width_mm": 170,
+      "caption": "Travel is left to right. No stopping on the crossing or within 10 m before it. Shading shows the rule\u2019s extent, not a braking distance; the drawing is not to scale.",
+      "overlays": [
+        {
+          "label": "10 m before",
+          "rect": [
+            975,
+            183,
+            1165,
+            224
+          ]
+        }
+      ],
+      "sha256": "2f6def53dac8bddde4e63e44d94c5377fb5a7a9865577cfd36f92a201ee7d6d1",
+      "alt_text": "Travel is left to right. No stopping on the crossing or within 10 m before it. Shading shows the rule\u2019s extent, not a braking distance; the drawing is not to scale.",
+      "print_ppi": 198.7
+    },
+    "M05-L03-junction": {
+      "file": "D03-v1.png",
+      "box": [
+        310,
+        350,
+        1640,
+        611
+      ],
+      "width_mm": 170,
+      "caption": "Travel is left to right. No stopping in the junction or within 10 m of the nearest edge of the crossing carriageway. Distances run from the junction edges; this schematic is not to scale.",
+      "overlays": [
+        {
+          "label": "10 m",
+          "rect": [
+            748,
+            442,
+            838,
+            490
+          ]
+        },
+        {
+          "label": "10 m",
+          "rect": [
+            1185,
+            442,
+            1277,
+            490
+          ]
+        }
+      ],
+      "sha256": "2f6def53dac8bddde4e63e44d94c5377fb5a7a9865577cfd36f92a201ee7d6d1",
+      "alt_text": "Travel is left to right. No stopping in the junction or within 10 m of the nearest edge of the crossing carriageway. Distances run from the junction edges; this schematic is not to scale.",
+      "print_ppi": 198.7
+    },
+    "M05-L03-bus": {
+      "file": "D03-v1.png",
+      "box": [
+        310,
+        631,
+        1640,
+        890
+      ],
+      "width_mm": 170,
+      "caption": "Travel is left to right. With no marked stop extent, the restriction extends 20 m before and 5 m after the stop sign. Other vehicles may stop only for boarding or alighting without obstructing the service. Shading is explanatory, not a road marking.",
+      "overlays": [
+        {
+          "code": "E22",
+          "rect": [
+            1097,
+            691,
+            1123,
+            724
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-38bae0beaf60eb6f.png",
+            "source_asset_id": "ASSET-38bae0beaf60eb6f",
+            "sha256": "535fd45a686b51b622c6cbf32ae26a820540fd0bd0ea93dceafcd2494f5a1b2f",
+            "max_size_mm_at_300ppi": [
+              80.3,
+              40.4
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/busshallplats/"
+        },
+        {
+          "label": "Bus-stop sign",
+          "rect": [
+            1031,
+            631,
+            1206,
+            673
+          ]
+        },
+        {
+          "label": "20 m before",
+          "rect": [
+            771,
+            762,
+            953,
+            803
+          ]
+        },
+        {
+          "label": "5 m after",
+          "rect": [
+            1135,
+            762,
+            1280,
+            803
+          ]
+        }
+      ],
+      "sha256": "2f6def53dac8bddde4e63e44d94c5377fb5a7a9865577cfd36f92a201ee7d6d1",
+      "alt_text": "Travel is left to right. With no marked stop extent, the restriction extends 20 m before and 5 m after the stop sign. Other vehicles may stop only for boarding or alighting without obstructing the service. Shading is explanatory, not a road marking.",
+      "print_ppi": 198.7
+    },
+    "M05-L04": {
+      "file": "parking-v3.png",
+      "box": [
+        100,
+        136,
+        719,
+        731
+      ],
+      "width_mm": 130,
+      "caption": "Parking bays are above the footway; the access lane is below it. The white van can hide a pedestrian from the reversing driver. No path is cleared or recommended by this drawing.",
+      "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a",
+      "alt_text": "Parking bays are above the footway; the access lane is below it. The white van can hide a pedestrian from the reversing driver. No path is cleared or recommended by this drawing.",
+      "print_ppi": 120.9
+    },
+    "M05-R-bus": {
+      "file": "M05-v2.png",
+      "box": [
+        1160,
+        168,
+        1635,
+        368
+      ],
+      "width_mm": 170,
+      "caption": "Bus detail: identify the signal and the applicable road limit before explaining your approach.",
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "alt_text": "Bus detail: identify the signal and the applicable road limit before explaining your approach.",
+      "print_ppi": 71.0
+    },
+    "M05-R-cyclist": {
+      "file": "M05-v2.png",
+      "box": [
+        1160,
+        376,
+        1635,
+        577
+      ],
+      "width_mm": 170,
+      "caption": "Cyclist detail: observe the parked cars, opening door and space the rider may need.",
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "alt_text": "Cyclist detail: observe the parked cars, opening door and space the rider may need.",
+      "print_ppi": 71.0
+    },
+    "M05-R-crossing": {
+      "file": "M05-v2.png",
+      "box": [
+        1160,
+        585,
+        1635,
+        762
+      ],
+      "width_mm": 170,
+      "caption": "Crossing detail: assess the proposed collection point. The drawing provides no measured clearance and does not label a lawful stopping place.",
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "alt_text": "Crossing detail: assess the proposed collection point. The drawing provides no measured clearance and does not label a lawful stopping place.",
+      "print_ppi": 71.0
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP023",
+      "code": "A14",
+      "page": 2,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-562fc21f92deaaa0.png",
+      "sha256": "e80e199e9eba530f8fa0f20aba4241d35432192274ce53021babe812ce7689cb",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP023",
+      "code": "A15",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-99b8af0ab287bda5.png",
+      "sha256": "bc4c4845630a56b268378373053da075747a745728253701d008af8c5897aa9d",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP023",
+      "code": "A16",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c6a351c987312c0c.png",
+      "sha256": "9861199a803f75d45da01d413a112e6355c52cd96352677b5e0adc1a9750c117",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP023",
+      "code": "T9",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-55672d5459d665e6.png",
+      "sha256": "b1af8c88b8976f8da107e37ef983bffded658e0308e1d3475687099cb3d8c256",
+      "width_mm": 70.0,
+      "height_mm": 32.332,
+      "vector": false
+    },
+    {
+      "group": "LP023",
+      "code": "T10",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-6bcecdb48f957965.png",
+      "sha256": "8c6027a14f693e1469ca7766dacaa1b702b0b359ac59053de622b79958a67a33",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP024",
+      "code": "A18",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-fcb20a27dc0421e2.png",
+      "sha256": "c956bff4944369ff1b09573234822f8de5c01df29d22ce3f3229ca56d062b514",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP025",
+      "code": "E22",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-38bae0beaf60eb6f.png",
+      "sha256": "535fd45a686b51b622c6cbf32ae26a820540fd0bd0ea93dceafcd2494f5a1b2f",
+      "width_mm": 70.0,
+      "height_mm": 35.184,
+      "vector": false
+    },
+    {
+      "group": "LP025",
+      "code": "C31-4",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-9e3179331e9837ba.png",
+      "sha256": "6f725f9c74fc2929ab56a7ab0bb1d89df875ed719feee63adedecd087c07b708",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP026",
+      "code": "E7",
+      "page": 8,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-9be3499f26e80ce4.png",
+      "sha256": "29496807ed9163e9b05ea13d47a0addc4ea4243e8a9dd96fa26da494284f4160",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP026",
+      "code": "E8",
+      "page": 9,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-47ec60755fad1ea5.png",
+      "sha256": "93220bd9559289ae40c5487418643a7f1b0c9039316ae14ba48c92626b6c60a2",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP026",
+      "code": "E9",
+      "page": 9,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-6ba57f46d1e9d863.png",
+      "sha256": "d3e3bb67d8da7b3b2bddd778ec565085aab4d72b0dd3d4f093db5ad949af4750",
+      "width_mm": 67.159,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP026",
+      "code": "E10",
+      "page": 9,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-fc0cd58ad25eb8ce.png",
+      "sha256": "accfa978b073feba6d813977201e4914486cbcbe4a8251710ac10b4cd23ef096",
+      "width_mm": 67.159,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP027",
+      "code": "E33",
+      "page": 10,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-49865d94c96df5e1.png",
+      "sha256": "7ad6b341b8b8321a24575e3f659098479934cf7603453103902435c87d153db6",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP027",
+      "code": "E34",
+      "page": 10,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-1a543005bd3730c9.png",
+      "sha256": "433f02f0c21b0c90e5b1c6f92d4f8b465b780aa9a19afea6b56c5a23c70a00b4",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "C1",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/7bbeb68b4e366117-c1-1.png",
+      "sha256": "d6c389dd457c6c63a92647cc42ef1a6e6fbab39c4708cc2dd40d728693de997e",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "C2",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/1b86039090d5bf50-c2-1.png",
+      "sha256": "155ae0ff1fa53699e24346a7cae04b63bdf996ba86ee57985c772652d853646d",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "C3",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/889101af749c4de5-c3-1.png",
+      "sha256": "ee1b74fac82924a8d10b44ed8ce59430ab2329c0932348370e6607d6cdb66c36",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D4",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/originals/0a712c4dc36af994-d4-1.png",
+      "sha256": "8bca5059f2148fb333982d8c18a643b06744710bd2aed68d99f8a4ad05250cb9",
+      "width_mm": 29.0,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D5",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-5bfebf9e9f5657c0.png",
+      "sha256": "b5431bb23a08bfdb83eab5fd7a09fc5cc8a4ca3fd846c67f3e5e80e8107b8e9a",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D6",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-7a3f818421eab792.png",
+      "sha256": "4f10c3579fab4d8f10ea0d8a1544df4694a16089ac2567c96b0cae5992912cf3",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D7",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-a91382a07115d253.png",
+      "sha256": "1473db0aafa7b247b2c38f9ef037a9e2fb111966fb8e0a87b14c5da377aaa547",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D7-2",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-84c41f392028c083.png",
+      "sha256": "555c688ed84b8377e250ce1a583a57624d3df31c8295ba4978e323bdcbed9dbb",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D10",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f873691eab39f1b6.png",
+      "sha256": "1f6410eb8917e8eac21e313584986667668b006dadee83e7675a1e1e6e42e664",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "D11",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-0e5fbc9f1b6d5662.png",
+      "sha256": "7f96cd5d4c8dc1f16ca70e7130d27c751d7ea29ea817f15eb302fcc68e6c988b",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "E17",
+      "page": 16,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e970e9c0b5cb9789.png",
+      "sha256": "dfe42f7f7244a5631f224916e91fe50967bc3bd5741eda73087ae9f8174cae0a",
+      "width_mm": 38.441,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP028",
+      "code": "E17-4",
+      "page": 16,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-2d3c5fbeaeb59dcb.png",
+      "sha256": "28f77f69ee56ff39d31848dd46e02da04fd00f716890d8953f176faad914b31f",
+      "width_mm": 27.474,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP029",
+      "code": "C35",
+      "page": 18,
+      "path": "docs/curriculum/sign-assets/originals/2d638fc59a007458-c35-1.png",
+      "sha256": "f48cbeb6032575f5d94a6758a233523ab307bc0ebea20bfcd03ffc01ad39f293",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP029",
+      "code": "C39",
+      "page": 18,
+      "path": "docs/curriculum/sign-assets/originals/5b3f31c943602f1c-c39-1.png",
+      "sha256": "83fe3919a89d221a0c896a5aff73a8c0c62fe1259af32db3cb1a5ea00b79f8c2",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP029",
+      "code": "M21",
+      "page": 19,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-af5356033d1b82c3.png",
+      "sha256": "3d50ba3405c9c939d6a90548375bd90785ba4b8a420d17269927599816594895",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP029",
+      "code": "M22",
+      "page": 19,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-829acd50c7cfecc9.png",
+      "sha256": "6f71b2a8ee1788806d26b620ba0519d96a1b9ea4e512ae9d97819f29a8e5bcbd",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP029",
+      "code": "M23",
+      "page": 19,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3570be8229bd7ca6.png",
+      "sha256": "7397be9305be747eea4e604f16c9c28e8f2df8ac1b50214669c8b723a99287db",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C36",
+      "page": 21,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3e9e3e0d8165a741.png",
+      "sha256": "438dcdf98754a7ea1df5ce0bb21312b4c5611d772efed87e1080c357932e26bc",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C37",
+      "page": 21,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-48fc941acd8877bf.png",
+      "sha256": "3e56970597f863535bc18db5520e0bc60a44a2668477c1edc3f7068c1d2baeb9",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C38",
+      "page": 21,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-b9a78b703f54e633.png",
+      "sha256": "798584e1ea786379e7114cb48491b9b418aca11ae3c21c4150be9c7495a7cb68",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C40",
+      "page": 22,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-d10e84e60c0680d5.png",
+      "sha256": "db81443479a3d81d5c4f4badba16a69b49e3cda08df98bd8153895ca1159e310",
+      "width_mm": 32.011,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C41",
+      "page": 22,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-4baf01692afabc36.png",
+      "sha256": "b18933f3ef3a5fefbffd90064b56f83dfd205010884c7a7df7d35bda08166700",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C42",
+      "page": 22,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-d73c60bcdd91138e.png",
+      "sha256": "cce7f8f13cae64d181f5bb13ff079819aa40708d5139517a5a0cb77f34e7cc94",
+      "width_mm": 32.011,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C43",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3bd08b95a52b4f00.png",
+      "sha256": "acb1fe00643ff8ac6458086541bba431543d46f0d38e120caa61fdbb0f0497fd",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "C45",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-073b1425afaa1f4f.png",
+      "sha256": "09404be00bc40b16a94432ee5ebcb7dd0063e4111283b6f8bc4eb3a2355bbbd8",
+      "width_mm": 70.0,
+      "height_mm": 26.628,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "E20",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3ff5c667c026c1ae.png",
+      "sha256": "baa8fa386295b13a7a012a797ba1a9ccdf5d39397715548dfde077c1ccdc1265",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "E21",
+      "page": 24,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-654da6392ee3a433.png",
+      "sha256": "a18f8d61a477b2a49288d44d7109717bf6a6056cbe398ac7b66c19391aeb3dba",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP033",
+      "code": "E30",
+      "page": 24,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-30cfe57063f0a63e.png",
+      "sha256": "6294ff456fc8ad0f455bf6ca7527cb2e3bf02e7522ffc216bdf1c5f64d9a7422",
+      "width_mm": 70.0,
+      "height_mm": 32.686,
+      "vector": false
+    },
+    {
+      "group": "LP030",
+      "code": "E22",
+      "page": 24,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-38bae0beaf60eb6f.png",
+      "sha256": "535fd45a686b51b622c6cbf32ae26a820540fd0bd0ea93dceafcd2494f5a1b2f",
+      "width_mm": 70.0,
+      "height_mm": 35.184,
+      "vector": false
+    },
+    {
+      "group": "LP030",
+      "code": "M22",
+      "page": 25,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-829acd50c7cfecc9.png",
+      "sha256": "6f71b2a8ee1788806d26b620ba0519d96a1b9ea4e512ae9d97819f29a8e5bcbd",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "E19",
+      "page": 25,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-27be6c2d7112d13d.png",
+      "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T6",
+      "page": 26,
+      "path": "docs/curriculum/sign-assets/official-poster/T6-official-vector.pdf",
+      "sha256": "1625cefd3695263c6dc570e90b9e4183340542a28ec774f6adc78821e8647910",
+      "width_mm": 80.0,
+      "height_mm": 59.474,
+      "vector": true
+    },
+    {
+      "group": "LP031",
+      "code": "T7",
+      "page": 26,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-248d5634fbef6e9a.png",
+      "sha256": "47481bb0b76254216a5d784523067260e411f6fd2237bdf76b60c77e7648357d",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T8",
+      "page": 27,
+      "path": "docs/curriculum/sign-assets/official-poster/T8-official-vector.pdf",
+      "sha256": "d3ec73144665f793214a6ea36c6ac47ed7a718075efa5e3861324396e7232ba2",
+      "width_mm": 110.0,
+      "height_mm": 56.732,
+      "vector": true
+    },
+    {
+      "group": "LP031",
+      "code": "T16",
+      "page": 27,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-641bf72f5ce81ee5.png",
+      "sha256": "e8ab0d1adf1390c498138aaf568b6e1dce4e9ae02864fec4c0f15966490a3bb1",
+      "width_mm": 70.0,
+      "height_mm": 35.028,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T17",
+      "page": 27,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-5800e80c62754d5c.png",
+      "sha256": "0485c910d77772ba76fe5714d40cc44fc502060851f25729495df1db5533617a",
+      "width_mm": 70.0,
+      "height_mm": 37.175,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T18",
+      "page": 28,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3e668438003c038c.png",
+      "sha256": "7224b133046094d1cfb939f06973021bb59ad60c121a6fc346251446af34a663",
+      "width_mm": 70.0,
+      "height_mm": 35.035,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T19",
+      "page": 28,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-122186ff27f7a147.png",
+      "sha256": "cb1eff7793bff4f2cc381a3b1af9589adbe2a25e44812b3670d885530b9a3e5c",
+      "width_mm": 70.0,
+      "height_mm": 35.028,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T20",
+      "page": 28,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8da3a212a0f3828e.png",
+      "sha256": "9d30ba92b7f93769316a276d5444db2d7489530ce4c95254bad453a8f7a7a0f6",
+      "width_mm": 70.0,
+      "height_mm": 35.028,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "T21",
+      "page": 28,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8b39c4b8a66cfbe2.png",
+      "sha256": "2e861928c47f1334876548725aecf8d07d5322e47fa93fbb4d998404ab27f113",
+      "width_mm": 70.0,
+      "height_mm": 35.028,
+      "vector": false
+    },
+    {
+      "group": "LP031",
+      "code": "M33",
+      "page": 29,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-40b175abbf45fed1.png",
+      "sha256": "58b123f4eadb1cfce8553f4a0efaac50df2b5c671b032364695851a24d596811",
+      "width_mm": 22.5,
+      "height_mm": 25.968,
+      "vector": false
+    },
+    {
+      "group": "LP032",
+      "code": "E19",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-27be6c2d7112d13d.png",
+      "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP032",
+      "code": "T18",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3e668438003c038c.png",
+      "sha256": "7224b133046094d1cfb939f06973021bb59ad60c121a6fc346251446af34a663",
+      "width_mm": 70.0,
+      "height_mm": 35.035,
+      "vector": false
+    },
+    {
+      "group": "LP034",
+      "code": "M24",
+      "page": 34,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-19b0a13b093bb1e9.png",
+      "sha256": "f42a5e9f1d2e663df130eeea6a137c5d3c0a3830fd057b784fc4eb480bdfe4ec",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP034",
+      "code": "T21",
+      "page": 34,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8b39c4b8a66cfbe2.png",
+      "sha256": "2e861928c47f1334876548725aecf8d07d5322e47fa93fbb4d998404ab27f113",
+      "width_mm": 70.0,
+      "height_mm": 35.028,
+      "vector": false
+    },
+    {
+      "group": "LP034",
+      "code": "T21-2",
+      "page": 35,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-bd5ebbc7df5d307c.png",
+      "sha256": "26d48aa392ef7331b1853d311358269518bccda410913baaaf9e2b4dab8c7ee4",
+      "width_mm": 70.0,
+      "height_mm": 35.184,
+      "vector": false
+    },
+    {
+      "group": "LP034",
+      "code": "T21-3",
+      "page": 35,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-61d13d19ff1ae2ab.png",
+      "sha256": "441ee4053713a021f0be479057d2ca0e5aea221cac76c1e03e9e7910b0768738",
+      "width_mm": 70.0,
+      "height_mm": 35.184,
+      "vector": false
+    },
+    {
+      "group": "LP034",
+      "code": "T21-4",
+      "page": 35,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8a3f96661f058dd2.png",
+      "sha256": "c51f737f76b69f3076ef7e86465d21d10a23f25d8dc72d86d9638ae3630fb8b3",
+      "width_mm": 70.0,
+      "height_mm": 35.184,
+      "vector": false
+    }
+  ],
+  "reference_cross_links": {},
+  "native_diagrams": [
+    {
+      "kind": "parking_conditions",
+      "page": 32,
+      "official_code": "E19",
+      "asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-27be6c2d7112d13d.png",
+        "source_asset_id": "ASSET-27be6c2d7112d13d",
+        "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+        "max_size_mm_at_300ppi": [
+          80.3,
+          80.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "width_mm": 45,
+      "plate_text": [
+        "2 tim",
+        "9\u201318"
+      ],
+      "plate_status": "illustrative typeset condition plate, not archived T6 artwork"
+    },
+    {
+      "kind": "parking_conditions",
+      "page": 42,
+      "official_code": "E19",
+      "asset": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-27be6c2d7112d13d.png",
+        "source_asset_id": "ASSET-27be6c2d7112d13d",
+        "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+        "max_size_mm_at_300ppi": [
+          80.3,
+          80.3
+        ],
+        "reason": "Use verified render of official EPS for clearer reproduction."
+      },
+      "width_mm": 45,
+      "plate_text": [
+        "2 tim",
+        "9\u201318"
+      ],
+      "plate_status": "illustrative typeset condition plate, not archived T6 artwork"
+    },
+    {
+      "kind": "approved_design",
+      "file": "timeline-v4.png",
+      "sha256": "d08aa1f16d68d73dde28dde32300c8ab6963bb96d5048167c4d49ef3538dabe5"
+    }
+  ]
+}

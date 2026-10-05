@@ -1,6 +1,6 @@
 # KörkortGo PDF build
 
-Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. Chapters 1–4 (6B–6E) are now built and verified.
+Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. Chapters 1–6 (6B–6G) are now built and verified.
 
 ## Reproduce
 
@@ -43,3 +43,7 @@ See [readiness/render review](readiness-review.md) and [machine checks](verifica
 - [Chapter 3 review](chapters/M03/review.md): 6D complete, 50 pages, four lessons, self-assessment, seven approved scene placements and 100 exact official sign/signal/marking placements. Build with `python3 docs/curriculum/pdf-production/chapters/M03/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
 
 - [Chapter 4 review](chapters/M04/review.md): 6E complete, 42 pages, four lessons, self-assessment, 20 approved scene placements and 46 exact official reference placements plus nine scene sign insertions. Build with `python3 docs/curriculum/pdf-production/chapters/M04/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 5 review](chapters/M05/review.md): 6F complete, 44 pages, four lessons, self-assessment, nine scene placements, separate parking-time exercise/worked review and 62 official reference placements. Build with `python3 docs/curriculum/pdf-production/chapters/M05/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 6 review](chapters/M06/review.md): 6G complete, 48 pages, four lessons, self-assessment, 13 approved scene placements and 76 exact official reference assets. Build with `python3 docs/curriculum/pdf-production/chapters/M06/build_chapter.py`; verify with the adjacent `verify_chapter.py`.

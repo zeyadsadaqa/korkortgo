@@ -109,7 +109,12 @@
       ],
       "review": "M05-R",
       "production_step": "6F",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M05/chapter.pdf",
+      "pages": 44,
+      "review_report": "chapters/M05/review.md",
+      "verified_on": "2026-10-05",
+      "sha256": "e747336980c95d75e4fa551f0a718bb474f7852c60bb15e01888ee51a87880fa"
     },
     {
       "id": "M06",
@@ -123,7 +128,12 @@
       ],
       "review": "M06-R",
       "production_step": "6G",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M06/chapter.pdf",
+      "pages": 48,
+      "review_report": "chapters/M06/review.md",
+      "verified_on": "2026-10-05",
+      "sha256": "a17331d7ea26fc32ac83a6362e72e7ed8a9472981599192b3538110f295000eb"
     },
     {
       "id": "M07",
@@ -215,5 +225,5 @@
   "required_held_signs": [],
   "updated": "2026-10-04",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B\u20136E complete; 6F\u20136N remain independently authorised steps"
+  "chapter_execution": "6B\u20136G complete; 6H\u20136N remain independently authorised steps"
 }

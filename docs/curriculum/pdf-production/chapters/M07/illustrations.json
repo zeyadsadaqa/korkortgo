@@ -1,0 +1,181 @@
+{
+  "status": "approved crops and exact official reference assets; screen review",
+  "assets": {
+    "M07-L01": {
+      "file": "M07-v1.png",
+      "box": [
+        25,
+        150,
+        602,
+        478
+      ],
+      "width_mm": 170,
+      "caption": "Rain and darkness shorten the usable view. The teal car travels on the right. Reassess speed and check the actual exterior-light setting; the illustration does not identify a lamp mode or a measured stopping distance.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Rain and darkness shorten the usable view. The teal car travels on the right. Reassess speed and check the actual exterior-light setting; the illustration does not identify a lamp mode or a measured stopping distance.",
+      "print_ppi": 86.2
+    },
+    "M07-L02": {
+      "file": "M07-v1.png",
+      "box": [
+        615,
+        150,
+        1112,
+        478
+      ],
+      "width_mm": 150,
+      "caption": "A dry-looking foreground leads towards a shaded winter bend. The surface appearance is a reason to reassess, not a measurement of friction. No skid-recovery technique or guaranteed tyre performance is shown.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "A dry-looking foreground leads towards a shaded winter bend. The surface appearance is a reason to reassess, not a measurement of friction. No skid-recovery technique or guaranteed tyre performance is shown.",
+      "print_ppi": 84.2
+    },
+    "M07-L03": {
+      "file": "M07-v1.png",
+      "box": [
+        1126,
+        153,
+        1647,
+        478
+      ],
+      "width_mm": 160,
+      "caption": "A left-hand-seat driver is parked in a parking area, with the phone in a holder. This is a stopped discussion, not permission to use a screen or conduct a distracting call while driving. Controls and mounting are illustrative.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "A left-hand-seat driver is parked in a parking area, with the phone in a holder. This is a stopped discussion, not permission to use a screen or conduct a distracting call while driving. Controls and mounting are illustrative.",
+      "print_ppi": 82.7
+    },
+    "M07-L04": {
+      "file": "M07-v1.png",
+      "box": [
+        25,
+        563,
+        625,
+        901
+      ],
+      "width_mm": 170,
+      "caption": "Two adults reconsider a journey indoors while rain falls outside and the car remains parked. Use the available route information to choose a realistic alternative before setting off.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Two adults reconsider a journey indoors while rain falls outside and the car remains parked. Use the available route information to choose a realistic alternative before setting off.",
+      "print_ppi": 89.6
+    },
+    "M07-R-departure": {
+      "file": "M07-v1.png",
+      "box": [
+        646,
+        563,
+        881,
+        731
+      ],
+      "width_mm": 80,
+      "caption": "Departure: identify what to prepare before leaving in daylight.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Departure: identify what to prepare before leaving in daylight.",
+      "print_ppi": 74.6
+    },
+    "M07-R-rain": {
+      "file": "M07-v1.png",
+      "box": [
+        891,
+        563,
+        1133,
+        731
+      ],
+      "width_mm": 80,
+      "caption": "Rain: explain which observations would change your decisions.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Rain: explain which observations would change your decisions.",
+      "print_ppi": 76.8
+    },
+    "M07-R-darkness": {
+      "file": "M07-v1.png",
+      "box": [
+        1144,
+        563,
+        1384,
+        731
+      ],
+      "width_mm": 80,
+      "caption": "Darkness: explain how the changed view affects the journey.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Darkness: explain how the changed view affects the journey.",
+      "print_ppi": 76.2
+    },
+    "M07-R-delay": {
+      "file": "M07-v1.png",
+      "box": [
+        1395,
+        563,
+        1638,
+        731
+      ],
+      "width_mm": 80,
+      "caption": "Delay: consider the pressure to keep going. The clock is illustrative, not a prescribed break interval.",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "alt_text": "Delay: consider the pressure to keep going. The clock is illustrative, not a prescribed break interval.",
+      "print_ppi": 77.2
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP044",
+      "code": "A24",
+      "page": 2,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-64214aea95da66b7.png",
+      "sha256": "1ecbb2c321dc5919c7e1bd6e26400ef79bee3f465d1b32f01c14c20c5e1712d2",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP044",
+      "code": "A24-2",
+      "page": 2,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3a17f6c19b2f1776.png",
+      "sha256": "f828f15359353317e966e899dd7057f764d1e924b35d999413e54f6b1c6ef75e",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP045",
+      "code": "A10",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c1f7eabfe9f96287.png",
+      "sha256": "8a83fca644c081bef0cdd19544e3a7d6b72ad6059e29ebf1bc3e563eca920c57",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP045",
+      "code": "A11",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-bfcde6cf141cc017.png",
+      "sha256": "31df229c4fa5402d66bf1ba51074954ab816666b628299e3b56d9735d9ada44d",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP046",
+      "code": "C44",
+      "page": 7,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-17050dc49eb5e974.png",
+      "sha256": "ed0a844dc39f441eb2451dfd508b2ac89d17981bfc76d9e1177009a3b8ff87c7",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP047",
+      "code": "H13",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-4407e2090d148783.png",
+      "sha256": "765a51edef3c2bd8e9a706b15e0aae48003fd33f7054b7238af2b3d699b48a09",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    }
+  ],
+  "reference_cross_links": {},
+  "review_preview_reconciliation": "All four approved neutral review scenes retained in sequence: departure, rain, darkness and delay. Selectable captions and blank writing space replace raster preview text."
+}
