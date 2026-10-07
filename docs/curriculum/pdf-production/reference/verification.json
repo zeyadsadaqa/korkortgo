@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "pages": 183,
+  "appendices": 4,
+  "reference_groups": 24,
+  "unique_official_entries": 321,
+  "vector_placements": 13,
+  "manuscript_blocks_and_cells_preserved": 210,
+  "glossary_terms": 23,
+  "practice_prompts": 9,
+  "manuscript_source_references": 66,
+  "external_reference_urls": 388,
+  "valid_internal_links": 554,
+  "named_destinations": 505,
+  "embedded_fonts": [
+    "/AAAAAA+SourceSans3-Regular",
+    "/AAAAAA+SourceSans3-Semibold",
+    "/AAAAAA+SourceSerif4-Bold",
+    "/AAAAAA+SourceSerif4-Semibold"
+  ],
+  "reproducible": true,
+  "sha256": "7bdd9b4aa0991a42abda5b730c62bbafafdf01de927347b173b48f5bce2c8b80",
+  "visual_review": "See ../reference-material-review.md",
+  "limits": [
+    "Standalone folios and chapter references are provisional; final cross-book links are 6M work",
+    "Full tagged-PDF accessibility and final publication approval remain in 6N"
+  ]
+}

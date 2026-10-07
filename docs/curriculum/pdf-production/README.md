@@ -1,6 +1,6 @@
 # KörkortGo PDF build
 
-Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. All ten chapters (6B–6K) are now built and verified.
+Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. All ten chapters (6B–6K) and the reference material (6L) are now built and verified.
 
 ## Reproduce
 
@@ -55,3 +55,29 @@ See [readiness/render review](readiness-review.md) and [machine checks](verifica
 - [Chapter 9 review](chapters/M09/review.md): 6J complete, 22 pages, four lessons, self-assessment, four approved scenes, ten official reference assets and one exact official zone-sign insertion. Build with `python3 docs/curriculum/pdf-production/chapters/M09/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
 
 - [Chapter 10 review](chapters/M10/review.md): 6K complete, 23 pages, four lessons, eight approved scenes, five native review frames, ten official reference assets and two exact official scene insertions. Build with `python3 docs/curriculum/pdf-production/chapters/M10/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+## Completed reference material (6L)
+
+[Reference review](reference-material-review.md): 183 pages containing appendices A–D, all 24 sign groups with 321 unique official entries, glossary, practice record and 66 official references. The editable [builder](reference/build_reference.py) extracts the manuscript appendices and writes a [source snapshot](reference/reference-source.md), asset bindings and navigation records.
+
+```sh
+python3 docs/curriculum/pdf-production/reference/build_reference.py
+python3 docs/curriculum/pdf-production/reference/verify_reference.py
+mkdir -p tmp/pdfs/6l
+pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/reference-material.pdf tmp/pdfs/6l/page
+```
+
+The builder writes `reference-material.pdf` and an identical delivery copy at `output/pdf/korkortgo-reference-material.pdf` from the repository root. [Source checks](reference/source-checks.json) and [link checks](reference/link-checks.json) distinguish historic factual checks from link availability on 7 October 2026. Final book navigation and folios remain 6M work; final accessibility and publication verification remain 6N.
+
+## Complete book assembly (6M)
+
+The [complete review PDF](korkortgo-curriculum-review.pdf) combines 498 pages with continuous printed folios, clickable contents, nested bookmarks, lesson/sign cross-links and Contents/Sources access on every interior page. See the [assembly review](assembly/assembly-review.md), [verification](assembly/verification.json) and [render comparison](assembly/render-comparison.json).
+
+```sh
+python3 docs/curriculum/pdf-production/assembly/build_book.py
+python3 docs/curriculum/pdf-production/assembly/verify_book.py
+```
+
+The editable builder imports the verified standalone parts, preserves their artwork and text, and replaces the contents/footer navigation. `assembly/inputs.json` records component hashes and offsets; `assembly/navigation.json` records final destinations and folios. `assembly/cross-link-candidates.json` caches text geometry against all input hashes; pass `--refresh-navigation` to regenerate it, and it regenerates automatically when inputs change. No source PDF is modified. The delivery copy is `output/pdf/korkortgo-curriculum-review.pdf`.
+
+The assembly check verifies preserved text, every original body link, all new navigation, fonts, question/answer separation and deterministic output. All pages were rendered and their body regions compared with source renders; the contents and section boundaries were inspected visually. Final whole-book publication and accessibility verification remain step 6N.

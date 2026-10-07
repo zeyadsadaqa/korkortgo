@@ -32,7 +32,9 @@ class Reference(BookCanvas):
   if f.wrap(WIDTH,1000)[1]+space>self.y-30*mm:
    self.end();self.cont+=1;self.start(self.section+'-continued-'+str(self.cont),self.page_labels[self.page]+' · Continued' if 'Continued' not in self.page_labels[self.page] else self.page_labels[self.page]);self.add(para('Continue the reference','subheading'),15)
   self.add(f,space)
- def text(self,t,style='body',space=12):self.ensure(para(t,style),space)
+ def text(self,t,style='body',space=12):
+  f=Paragraph('<link href="'+escape(t)+'" color="#173E32">'+escape(t)+'</link>',STYLES[style]) if t.startswith('https://') else para(t,style)
+  self.ensure(f,space)
  def link(self,key,label):self.ensure(Paragraph('<link href="#'+key+'" color="#173E32">'+escape(label)+'</link>',STYLES['body']),10)
  def table(self,rows,widths):
   t=Table([[para(c,'caption') for c in r] for r in rows],colWidths=widths,repeatRows=1)
@@ -61,7 +63,7 @@ class RefCard(SignCard):
 
 def run():
  (OUT/'reference-source.md').write_text(SOURCE.replace(OLD,NEW))
- b=Reference();b.start('reference-contents','Reference material');b.text('APPENDICES AND SOURCES','source');b.text('Keep learning, checking and practising','heading')
+ b=Reference();b.start('reference-contents','Reference material');b.text('APPENDICES AND SOURCES · 2026 version','source');b.text('Keep learning, checking and practising','heading')
  for i,title in enumerate(TITLES):b.link('appendix-'+chr(65+i) if i<4 else 'official-references',title)
  b.link('sign-group-index','Sign groups RB01–RB24');b.link('sign-family-index','Sign code and family lookup')
  b.add(panel(re.search(r'> \*\*(.*?)\*\*',FULL).group(1),'disclaimer'),18);b.end()
@@ -90,7 +92,14 @@ def run():
   b.end()
  for g in GROUPS:
   gid=g['group_id'];b.section=gid;b.start(gid,gid+' · '+g['title']);b.text(gid,'source');b.text(g['title'],'heading');b.text(g['learning_purpose'],'caption');b.text('Related lessons: '+', '.join(g['selection_intended_lessons']),'source')
-  for code in g['primary_codes']+g['additional_comparison_codes']:b.ensure(RefCard(code,b,gid),16)
+  codes=g['primary_codes']+g['additional_comparison_codes']
+  if RefCard(codes[0],b,gid).height+16>b.y-30*mm:
+   b.text('In this group','subheading')
+   for offset in range(0,len(codes),5):
+    links=' · '.join('<link href="#sign-'+code+'" color="#173E32">'+code+'</link>' for code in codes[offset:offset+5])
+    b.ensure(Paragraph(links,STYLES['body']),12)
+   b.text('Use the links to compare each example with its explanation. Read the main sign and any qualifications together.','caption')
+  for code in codes:b.ensure(RefCard(code,b,gid),16)
   if g['cross_reference_codes']:
    b.text('Related entries','subheading')
    for code in g['cross_reference_codes']:b.link('sign-'+code,code+' · '+BINDINGS[code]['label_en'])
@@ -115,6 +124,7 @@ def run():
  for j in [1,6]:
   b.start('appendix-D' if j==1 else 'appendix-D-continued','Appendix D · Practice record');b.text(TITLES[3].split(' · ')[1] if j==1 else 'Continue your practice record','heading')
   if j==1:b.text(pars[0])
+  b.text('Prompt · Your record','source')
   for row in rows[j:j+5]:b.text(row[0],'body',3);b.lines(2)
   if j==6:b.text(pars[-1])
   b.end()

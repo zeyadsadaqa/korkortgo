@@ -215,23 +215,59 @@
   "appendices": [
     {
       "id": "appendix-A",
-      "title": "Put the learning into practice"
+      "title": "Put the learning into practice",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
     },
     {
       "id": "appendix-B",
-      "title": "Learn signs by the decision they require"
+      "title": "Learn signs by the decision they require",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
     },
     {
       "id": "appendix-C",
-      "title": "A practical Swedish\u2013English glossary"
+      "title": "A practical Swedish\u2013English glossary",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
     },
     {
       "id": "appendix-D",
-      "title": "Personal practice record"
+      "title": "Personal practice record",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
     }
   ],
   "references_destination": "official-references",
-  "final_page_numbers": null,
+  "final_page_numbers": {
+    "contents": 4,
+    "M01": 5,
+    "M02": 20,
+    "M03": 35,
+    "M04": 85,
+    "M05": 127,
+    "M06": 171,
+    "M07": 219,
+    "M08": 242,
+    "M09": 271,
+    "M10": 293,
+    "appendix-A": 317,
+    "appendix-A-situations": 318,
+    "appendix-B": 319,
+    "appendix-B-study-1": 320,
+    "appendix-B-study-7": 321,
+    "appendix-C": 475,
+    "appendix-C-7": 476,
+    "appendix-C-13": 477,
+    "appendix-C-19": 478,
+    "appendix-D": 479,
+    "appendix-D-continued": 480,
+    "official-references": 481
+  },
   "input_sha256": {
     "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
     "pdf-design-spec.md": "a0d8fa1aa187e41415046af738a7cd2ba8c4a3bfc145fb71c8e062b17985c612",
@@ -243,7 +279,25 @@
     "pdf-design/gap-resolution/approval-record.json": "7fed12e2fce20a5b6eec87c84c9eb63a521bef020f074d451acb3f94bf54b18a"
   },
   "required_held_signs": [],
-  "updated": "2026-10-04",
+  "updated": "2026-10-07",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B\u20136K complete; 6L\u20136N remain independently authorised steps"
+  "chapter_execution": "6B\u20136M complete; 6N remains independently authorised",
+  "reference_material": {
+    "production_step": "6L",
+    "status": "completed_screen_review",
+    "pdf": "reference-material.pdf",
+    "pages": 183,
+    "review_report": "reference-material-review.md",
+    "verified_on": "2026-10-07",
+    "sha256": "7bdd9b4aa0991a42abda5b730c62bbafafdf01de927347b173b48f5bce2c8b80"
+  },
+  "assembly": {
+    "production_step": "6M",
+    "status": "completed_screen_review",
+    "pdf": "korkortgo-curriculum-review.pdf",
+    "pages": 498,
+    "review_report": "assembly/assembly-review.md",
+    "verified_on": "2026-10-07",
+    "sha256": "5007914b3b7f4d18472f283c3cd29efc302a6ab1cd7eb36190ea2984cf1a84b0"
+  }
 }

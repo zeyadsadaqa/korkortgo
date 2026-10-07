@@ -14,11 +14,15 @@
     },
     {
       "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "fallback": "Opened successfully with web tool on 2026-10-07",
+      "verification": "browser_content_verified"
     },
     {
       "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "fallback": "Opened successfully with web tool on 2026-10-07",
+      "verification": "browser_content_verified"
     },
     {
       "url": "https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf",
@@ -1940,5 +1944,11 @@
       "status": 200,
       "final_url": "https://www.transportstyrelsen.se/vinterdack"
     }
-  ]
+  ],
+  "summary": {
+    "total": 388,
+    "http_success": 386,
+    "browser_verified_fallbacks": 2,
+    "unresolved": 0
+  }
 }

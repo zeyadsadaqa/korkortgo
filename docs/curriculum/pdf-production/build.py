@@ -107,6 +107,7 @@ def build():
     c.setFillColor(COLORS['forest']);c.setFont('Heading',70);c.drawString(M,H-55*mm,'KörkortGo')
     c.setFont('Body',18);c.drawString(M,H-70*mm,'Swedish category B learning guide')
     c.setFont('Body',13);c.drawString(M,H-88*mm,'A learning aid')
+    c.drawString(M,H-96*mm,'2026 version')
     b.end()
     b.start('introduction','Before you begin',next_page=('How to use this book','study-guide'))
     b.add(paragraph('Before you begin','heading'))
