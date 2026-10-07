@@ -2,8 +2,8 @@
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
 **Last updated:** 7 October 2026
-**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6J completed: shared build/front matter and Chapters 1–9 screen-review PDFs verified. Steps 6K–6N and 7–10 not started.
-**Next action:** Review [Chapter 9](pdf-production/chapters/M09/chapter.pdf). Chapter 10 can be requested independently as step 6K.
+**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6K completed: shared build/front matter and all ten chapter screen-review PDFs verified. Steps 6L–6N and 7–10 not started.
+**Next action:** Review [Chapter 10](pdf-production/chapters/M10/chapter.pdf). Appendices, sign reference and official sources can be requested independently as step 6L.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Five of ten steps have cleared their preparation/design requirements. This is a step count, not an estimate of total effort completed.
 
@@ -16,7 +16,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 3 | Write the complete learning material | Completed | [Editable manuscript](manuscript.md), [evidence register](manuscript-evidence.md) and [verification report](manuscript-verification.md); final illustrations and PDF remain later steps |
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
-| 6 | Produce and verify the curriculum PDF | In progress; 6A–6J completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
+| 6 | Produce and verify the curriculum PDF | In progress; 6A–6K completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
 | 7 | Plan the app’s curriculum migration | Not started | Approved PDF required; map lesson IDs and practice questions |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
@@ -62,7 +62,7 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 | 6H | Chapter 7 — Adapt when conditions change | Completed | [Chapter PDF](pdf-production/chapters/M07/chapter.pdf), [review](pdf-production/chapters/M07/review.md), [checks](pdf-production/chapters/M07/verification.json); 23-page screen-review build |
 | 6I | Chapter 8 — Take responsibility for the vehicle and load | Completed | [Chapter PDF](pdf-production/chapters/M08/chapter.pdf), [review](pdf-production/chapters/M08/review.md), [checks](pdf-production/chapters/M08/verification.json); 29-page screen-review build |
 | 6J | Chapter 9 — Reduce the impact of each journey | Completed | [Chapter PDF](pdf-production/chapters/M09/chapter.pdf), [review](pdf-production/chapters/M09/review.md), [checks](pdf-production/chapters/M09/verification.json); 22-page screen-review build |
-| 6K | Chapter 10: Respond, reflect and keep learning | Not started | M10 chapter PDF, editable source and review |
+| 6K | Chapter 10 — Respond, reflect and keep learning | Completed | [Chapter PDF](pdf-production/chapters/M10/chapter.pdf), [review](pdf-production/chapters/M10/review.md), [checks](pdf-production/chapters/M10/verification.json); 23-page screen-review build |
 | 6L | Appendices, sign reference and official sources | Not started | Reference-material PDF, editable source and review |
 | 6M | Complete book assembly and navigation | Not started | Combined review PDF and assembly review |
 | 6N | Final verification and PDF approval | Not started | Finished PDF, editable source, verification report and explicit user approval |
@@ -473,3 +473,5 @@ Resolved all 13 selected sign assets using official vectors; verified all 321 bi
 **7 October — 6I completed:** Built Chapter 8 with all four lessons, four approved scene placements, the weight-definition table, self-assessment, reflection and separate answers. Included all three required groups with nineteen exact official reference assets, including six poster vectors, and eight official marker-face insertions preserving the approved roadwork directions. Eighteen chapter reference targets were checked on 5 October, as recorded in the source checks. All 29 pages visually reviewed; 42 manuscript blocks, exact disclaimer, font embedding, 36 internal links, 30 destinations, answer separation and deterministic rebuild checks pass. Print masters and final accessibility/global assembly remain later work. Stopped before 6J.
 
 **7 October — 6J completed:** Built Chapter 9 with all four lessons, four approved scene placements, self-assessment, reflection and separate answers. Included both required groups with ten exact official reference assets and one official class-2 zone-sign insertion. Rechecked all nine chapter reference targets. All 22 pages visually reviewed; 37 manuscript blocks, exact disclaimer, embedded fonts, 29 internal links, 25 destinations, answer separation and deterministic rebuilding pass. Print masters and final accessibility/global assembly remain later work. Stopped before 6K.
+
+**7 October — 6K completed:** Built Chapter 10 with all four lessons, eight approved scene placements, five native journey-review frames, reflection and separate answers. Included both required groups with ten exact official reference assets and two official scene insertions. Preserved separated A/B/C breakdown situations and the open tunnel exit. Rechecked ten chapter reference targets; first aid remains a brief 1177 referral. All 23 pages visually reviewed; 43 manuscript blocks, exact disclaimer, embedded fonts, 30 internal links, 24 destinations, answer separation and deterministic rebuilding pass. All ten individual chapters are now complete for screen review. Print masters, reference material, final accessibility and book assembly remain later work. Stopped before 6L.

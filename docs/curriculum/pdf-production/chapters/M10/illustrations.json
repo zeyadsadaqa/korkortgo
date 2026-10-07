@@ -1,0 +1,274 @@
+{
+  "status": "approved crops and exact official reference assets; screen review",
+  "assets": {
+    "M10-L01-A": {
+      "file": "M10-v4.png",
+      "box": [
+        33,
+        152,
+        350,
+        396
+      ],
+      "width_mm": 80,
+      "caption": "A. Motorway: the stopped car is on the shoulder; the occupants wait outside the guardrail, away from traffic. This scene does not show a safe place to repair the car.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "A. Motorway: the stopped car is on the shoulder; the occupants wait outside the guardrail, away from traffic. This scene does not show a safe place to repair the car.",
+      "print_ppi": 100.6
+    },
+    "M10-L01-B": {
+      "file": "M10-v4.png",
+      "box": [
+        376,
+        152,
+        670,
+        396
+      ],
+      "width_mm": 80,
+      "caption": "B. Non-urgent tunnel situation: the car is in a protected emergency bay. The occupant calls for assistance from inside. This advice does not apply to fire or an urgent danger.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "B. Non-urgent tunnel situation: the car is in a protected emergency bay. The occupant calls for assistance from inside. This advice does not apply to fire or an urgent danger.",
+      "print_ppi": 93.3
+    },
+    "M10-L01-C": {
+      "file": "M10-v4.png",
+      "box": [
+        695,
+        152,
+        1018,
+        396
+      ],
+      "width_mm": 110,
+      "caption": "C. Fire or urgent tunnel situation: people move towards the open, lit emergency exit. The approach is unobstructed; the railing is on the traffic side. Follow emergency instructions. Exact official E28-2 artwork marks the exit.",
+      "overlays": [
+        {
+          "rect": [
+            926,
+            157,
+            1013,
+            212
+          ],
+          "label": "Emergency exit"
+        },
+        {
+          "rect": [
+            966,
+            211,
+            1003,
+            258
+          ],
+          "code": "E28-2",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-4660be436d08d512.png",
+            "source_asset_id": "ASSET-4660be436d08d512",
+            "sha256": "568a2191803991d9178c2286259681f642f7a989dc6a570089222f6c3a2d42d3",
+            "max_size_mm_at_300ppi": [
+              80.3,
+              80.3
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/nodutgang/nodutgang-e28-2/"
+        }
+      ],
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "C. Fire or urgent tunnel situation: people move towards the open, lit emergency exit. The approach is unobstructed; the railing is on the traffic side. Follow emergency instructions. Exact official E28-2 artwork marks the exit.",
+      "print_ppi": 74.6
+    },
+    "M10-L02": {
+      "file": "M10-v4.png",
+      "box": [
+        1043,
+        151,
+        1640,
+        487
+      ],
+      "width_mm": 170,
+      "caption": "Call from a protected place, away from traffic. For a life-threatening emergency, call 112 and describe the location, direction of travel, what happened and immediate dangers. Follow the operator's instructions.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "Call from a protected place, away from traffic. For a life-threatening emergency, call 112 and describe the location, direction of travel, what happened and immediate dangers. Follow the operator's instructions.",
+      "print_ppi": 89.2
+    },
+    "M10-L03-town": {
+      "file": "M10-v4.png",
+      "box": [
+        33,
+        575,
+        370,
+        724
+      ],
+      "width_mm": 80,
+      "caption": "Residential area: describe crossings, people near parked vehicles and the appropriate speed.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "Residential area: describe crossings, people near parked vehicles and the appropriate speed.",
+      "print_ppi": 107.0
+    },
+    "M10-L03-roundabout": {
+      "file": "M10-v4.png",
+      "box": [
+        376,
+        575,
+        710,
+        724
+      ],
+      "width_mm": 80,
+      "caption": "Roundabout: explain entry, lane and exit decisions separately. D3 is an official recognition example; it does not by itself show every entry duty.",
+      "overlays": [
+        {
+          "rect": [
+            598,
+            597,
+            671,
+            646
+          ],
+          "code": "D3",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/cfec445947e106f4-d3-1.png",
+            "source_asset_id": "ASSET-cfec445947e106f4",
+            "sha256": "28efc7c76a5c6111a237322ba254c954075380f3e7f3b8a12cb42d2565cd379f",
+            "max_size_mm_at_300ppi": [
+              29.0,
+              29.0
+            ],
+            "reason": "Use unchanged official raster; EPS unavailable or has excess canvas/outline treatment."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/cirkulationsplats/"
+        }
+      ],
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "Roundabout: explain entry, lane and exit decisions separately. D3 is an official recognition example; it does not by itself show every entry duty.",
+      "print_ppi": 106.0
+    },
+    "M10-L03-rain": {
+      "file": "M10-v4.png",
+      "box": [
+        33,
+        731,
+        370,
+        899
+      ],
+      "width_mm": 80,
+      "caption": "Rain: reassess the view, lighting, speed and following gap as conditions change.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "Rain: reassess the view, lighting, speed and following gap as conditions change.",
+      "print_ppi": 107.0
+    },
+    "M10-L03-traffic": {
+      "file": "M10-v4.png",
+      "box": [
+        376,
+        731,
+        710,
+        899
+      ],
+      "width_mm": 80,
+      "caption": "Traffic and parked vehicles: preserve visibility and room for others. This urban detail does not depict the later rural bend; use the written scenario to assess that decision.",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "alt_text": "Traffic and parked vehicles: preserve visibility and room for others. This urban detail does not depict the later rural bend; use the written scenario to assess that decision.",
+      "print_ppi": 106.0
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP053",
+      "code": "A26",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-df8edefece9d3082.png",
+      "sha256": "fcc42310334c63e6000b95b1699ca140caa5730a89070d8c0ca111a361894308",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "E26",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-16412e62a8a16b88.png",
+      "sha256": "48ed2c2c74364b6875e9257fcca95b0a1ed3ea18934665fc113a2cbdbc85a2e4",
+      "width_mm": 36.013,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "E27",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-41a2600873777874.png",
+      "sha256": "f148af1eb832a45aac26648453fa17a42efd9c9082cb5f73c47e0b4672b127d7",
+      "width_mm": 36.013,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "E28",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-849f8113ab69df2c.png",
+      "sha256": "0a586c0d42b2abcc8d13fc71574b859a1deaa78d6a465dde2ac23ccf70650acb",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "E28-2",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-4660be436d08d512.png",
+      "sha256": "568a2191803991d9178c2286259681f642f7a989dc6a570089222f6c3a2d42d3",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "E29",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f2877ee42c37c52a.png",
+      "sha256": "65003be8d8ad1d3cd44e1a52a3c6449a87c0814dcdbe2d965eec3aaed98aa1b0",
+      "width_mm": 70.0,
+      "height_mm": 21.363,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "G2",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-311c623d7db9ee8f.png",
+      "sha256": "1dd6a8ef18f0c8adf825a44533ccf20e71efa9714b1792480dc7aa0d147dfbf5",
+      "width_mm": 38.67,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP053",
+      "code": "G9",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-b6991801d51839f9.png",
+      "sha256": "0b172cbf087137283ae49edd19d070013975137f725f8aaf5d8b20f16ace0aef",
+      "width_mm": 42.682,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP054",
+      "code": "A41",
+      "page": 10,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-235569d62dbd1c27.png",
+      "sha256": "0d8dafe8d6cde078007ccffbe6bcd878c0293710d7de97d66732193860d7bb5d",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP054",
+      "code": "X6",
+      "page": 10,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-1b32b052ad9aa2f8.png",
+      "sha256": "63264c4ff944229ead9be6179c8f934982372a02d8043215b77d57cfd6bc4342",
+      "width_mm": 55.431,
+      "height_mm": 48.0,
+      "vector": false
+    }
+  ],
+  "reference_cross_links": {},
+  "review_preview_reconciliation": "M10-v4 preserves separated A/B/C scenes and the open exit. M10-L04 stays text-only. The five review frames are native selectable text and writing lines. E28-2 and D3 use exact official artwork. Urban companion scenes support but do not replace the full written journey."
+}

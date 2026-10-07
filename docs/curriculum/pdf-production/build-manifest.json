@@ -204,7 +204,12 @@
       ],
       "review": "M10-R",
       "production_step": "6K",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M10/chapter.pdf",
+      "pages": 23,
+      "review_report": "chapters/M10/review.md",
+      "verified_on": "2026-10-07",
+      "sha256": "e9fc6a1dce9d4bde6a8f9be009dc7edbd34a4fbe930f6e00a69c6cbc45b5f883"
     }
   ],
   "appendices": [
@@ -240,5 +245,5 @@
   "required_held_signs": [],
   "updated": "2026-10-04",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B\u20136J complete; 6K\u20136N remain independently authorised steps"
+  "chapter_execution": "6B\u20136K complete; 6L\u20136N remain independently authorised steps"
 }

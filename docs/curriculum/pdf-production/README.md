@@ -1,6 +1,6 @@
 # KörkortGo PDF build
 
-Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. Chapters 1–9 (6B–6J) are now built and verified.
+Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. All ten chapters (6B–6K) are now built and verified.
 
 ## Reproduce
 
@@ -53,3 +53,5 @@ See [readiness/render review](readiness-review.md) and [machine checks](verifica
 - [Chapter 8 review](chapters/M08/review.md): 6I complete, 29 pages, four lessons, self-assessment, four approved scenes, nineteen official reference assets and eight official marker-face insertions. Build with `python3 docs/curriculum/pdf-production/chapters/M08/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
 
 - [Chapter 9 review](chapters/M09/review.md): 6J complete, 22 pages, four lessons, self-assessment, four approved scenes, ten official reference assets and one exact official zone-sign insertion. Build with `python3 docs/curriculum/pdf-production/chapters/M09/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 10 review](chapters/M10/review.md): 6K complete, 23 pages, four lessons, eight approved scenes, five native review frames, ten official reference assets and two exact official scene insertions. Build with `python3 docs/curriculum/pdf-production/chapters/M10/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
