@@ -1,0 +1,114 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "Relevant official chapter passages inspected; friction, tyre advice, syllabus and speed provisions also reuse same-day M07/M06 inspection. Individual sign descriptions/artwork reuse the verified register with hash and dimensional checks; not a claim that every individual sign page was fetched again.",
+  "sources": [
+    {
+      "alias": "b",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+      "finding": "Ordinary B car/light goods vehicle limit of 3,500 kg registered total weight.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "trailer",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/",
+      "finding": "B trailer alternatives, B96 and the distinction between registered entitlement weights and actual technical loading.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "trailer-guide",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/",
+      "finding": "Current B/B96/BE limits and historical entitlement caveats; conventional braked and unbraked trailer speed conditions. No universal 80 km/h permission inferred.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "towing",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+      "finding": "Registration fields O.1/O.2 and F.3, actual towing and actual combination limits are separate from entitlement.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "weights",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/",
+      "finding": "Ready weight, total weight, actual gross weight and maximum load definitions; car ready weight includes driver and trailer ready weight excludes cargo.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 3 §§78–83 confirms securing, unobstructed controls/signals and projection marking. Chapter 4 §§15–17 confirms ordinary width/length restrictions and exemptions. Chapter 4 §20 version applicable before 1 December 2026 supports the scoped 80/40/30 trailer limits; future amendment not applied early. Chapter 3 §14 supports appropriate speed.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "load-advice",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/",
+      "finding": "Cargo restraint, low supported loading, roof/equipment capacity and trailer checks. Entitlement details use the more specific Transportstyrelsen guidance, not this page’s abbreviated B/BE summary.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "insurance",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/",
+      "finding": "Registered owner’s compulsory-insurance duty for an on-road car, including unused/defective/prohibited vehicles, and the limited scope of compulsory cover.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "inspection",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/",
+      "finding": "Normal light-car inspection sequence 36/24/14 months and recalculation after an earlier inspection.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "status",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/",
+      "finding": "Official on/off-road services; on-road use requires insurance and vehicle tax. Status is a separate check from inspection and physical readiness.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "owner",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/",
+      "finding": "Mina sidor eligibility, latest part 2 for applicable written transfers; buyer insurance from notified ownership date and automatic ending of seller insurance.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "registration",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/",
+      "finding": "Part 1 technical details and part 2 ownership function; latest issued certificate only, with safe document handling.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "crash",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/",
+      "finding": "Crashworthiness and assistance systems form parts of modern vehicle safety; ratings are not collision-avoidance guarantees.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "aeb",
+      "url": "https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/",
+      "finding": "30 June 2026 tests show automatic braking does not remove severe truck-trailer collision risk; no numerical guarantee imported.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "friction",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "finding": "VTI report section 4.3 supports combined steering/braking forces within available friction; same-day M07 source inspection reused.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "tyre-advice",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/",
+      "finding": "Stability control, tyres and appropriate speed/distance; same-day M07 source inspection reused.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "hybrid",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/",
+      "finding": "Plug-in hybrids use both electrical and combustion propulsion; no assumption that every journey is electric.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "Self-assessment and identification of personal knowledge gaps; same-day M07 official syllabus inspection reused.",
+      "status": "supports chapter use"
+    }
+  ]
+}

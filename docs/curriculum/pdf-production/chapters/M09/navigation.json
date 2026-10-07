@@ -1,0 +1,76 @@
+{
+  "destinations": {
+    "M09": 1,
+    "M09-L01": 2,
+    "M09-L01-question": 3,
+    "M09-L02": 4,
+    "M09-L02-scenario": 5,
+    "M09-L02-question": 6,
+    "M09-L03": 7,
+    "M09-L03-scenario": 8,
+    "M09-L03-question": 9,
+    "M09-L04": 10,
+    "LP051": 10,
+    "M09-L04-continued-1": 11,
+    "M09-L04-continued-2": 12,
+    "M09-L04-continued-3": 13,
+    "LP052": 13,
+    "M09-L04-continued-4": 14,
+    "M09-L04-scenario": 15,
+    "M09-L04-question": 16,
+    "M09-R": 17,
+    "M09-reflection": 18,
+    "M09-answers": 19,
+    "M09-references": 20,
+    "M09-references-2": 21,
+    "M09-references-3": 22
+  },
+  "questions": {
+    "M09-L01": 3,
+    "M09-L02": 6,
+    "M09-L03": 9,
+    "M09-L04": 16,
+    "M09-R": 17
+  },
+  "answers": {
+    "M09-L01": 19,
+    "M09-L02": 19,
+    "M09-L03": 19,
+    "M09-L04": 19,
+    "M09-R": 19
+  },
+  "page_labels": {
+    "1": "Chapter 9",
+    "2": "M09-L01",
+    "3": "M09-L01 \u00b7 Knowledge check",
+    "4": "M09-L02",
+    "5": "M09-L02 \u00b7 Illustration",
+    "6": "M09-L02 \u00b7 Knowledge check",
+    "7": "M09-L03",
+    "8": "M09-L03 \u00b7 Illustration",
+    "9": "M09-L03 \u00b7 Knowledge check",
+    "10": "M09-L04",
+    "11": "M09-L04 \u00b7 Continued",
+    "12": "M09-L04 \u00b7 Continued",
+    "13": "M09-L04 \u00b7 Continued",
+    "14": "M09-L04 \u00b7 Continued",
+    "15": "M09-L04 \u00b7 Illustration",
+    "16": "M09-L04 \u00b7 Knowledge check",
+    "17": "M09-R \u00b7 Self-assessment",
+    "18": "M09-R \u00b7 Reflection",
+    "19": "Answers and review guidance",
+    "20": "Official references",
+    "21": "Official references",
+    "22": "Official references"
+  },
+  "group_pages": {
+    "LP051": 10,
+    "LP052": 13
+  },
+  "scene_pages": {
+    "M09-L02": 5,
+    "M09-L03": 8,
+    "M09-L04": 15,
+    "M09-R": 17
+  }
+}

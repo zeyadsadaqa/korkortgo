@@ -1,6 +1,6 @@
 # KörkortGo PDF build
 
-Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. Chapters 1–6 (6B–6G) are now built and verified.
+Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. Chapters 1–9 (6B–6J) are now built and verified.
 
 ## Reproduce
 
@@ -47,3 +47,9 @@ See [readiness/render review](readiness-review.md) and [machine checks](verifica
 - [Chapter 5 review](chapters/M05/review.md): 6F complete, 44 pages, four lessons, self-assessment, nine scene placements, separate parking-time exercise/worked review and 62 official reference placements. Build with `python3 docs/curriculum/pdf-production/chapters/M05/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
 
 - [Chapter 6 review](chapters/M06/review.md): 6G complete, 48 pages, four lessons, self-assessment, 13 approved scene placements and 76 exact official reference assets. Build with `python3 docs/curriculum/pdf-production/chapters/M06/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 7 review](chapters/M07/review.md): 6H complete, 23 pages, four lessons, self-assessment, eight approved scene placements and six exact official reference assets. Build with `python3 docs/curriculum/pdf-production/chapters/M07/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 8 review](chapters/M08/review.md): 6I complete, 29 pages, four lessons, self-assessment, four approved scenes, nineteen official reference assets and eight official marker-face insertions. Build with `python3 docs/curriculum/pdf-production/chapters/M08/build_chapter.py`; verify with the adjacent `verify_chapter.py`.
+
+- [Chapter 9 review](chapters/M09/review.md): 6J complete, 22 pages, four lessons, self-assessment, four approved scenes, ten official reference assets and one exact official zone-sign insertion. Build with `python3 docs/curriculum/pdf-production/chapters/M09/build_chapter.py`; verify with the adjacent `verify_chapter.py`.

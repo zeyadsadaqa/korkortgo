@@ -1,0 +1,187 @@
+{
+  "status": "approved crops and exact official reference assets; screen review",
+  "assets": {
+    "M09-L02": {
+      "file": "M09-v2.png",
+      "box": [
+        29,
+        160,
+        800,
+        487
+      ],
+      "width_mm": 170,
+      "caption": "The teal car approaches a queue on the right side of the road. Look ahead, retain room to stop and keep the crossing clear. The illustration does not specify a measured following distance.",
+      "sha256": "573db9fa10a655d44bdc08f2db7fe228d8b6f20b6eb4711f11f9f6244aa4cad0",
+      "alt_text": "The teal car approaches a queue on the right side of the road. Look ahead, retain room to stop and keep the crossing clear. The illustration does not specify a measured following distance.",
+      "print_ppi": 115.2
+    },
+    "M09-L03": {
+      "file": "M09-v2.png",
+      "box": [
+        835,
+        177,
+        1630,
+        450
+      ],
+      "width_mm": 170,
+      "caption": "Separate journeys: home - shop - home, then home - library - home. Combined journey: home - shop - library - home. These are schematic options, not measured routes or a promised saving. Check practical needs and timing.",
+      "sha256": "573db9fa10a655d44bdc08f2db7fe228d8b6f20b6eb4711f11f9f6244aa4cad0",
+      "alt_text": "Separate journeys: home - shop - home, then home - library - home. Combined journey: home - shop - library - home. These are schematic options, not measured routes or a promised saving. Check practical needs and timing.",
+      "print_ppi": 118.8
+    },
+    "M09-L04": {
+      "file": "M09-v2.png",
+      "box": [
+        29,
+        586,
+        799,
+        893
+      ],
+      "width_mm": 170,
+      "caption": "Check the vehicle record and the current local decision before departure. The official E31 class-2 example is for recognition only; it does not establish a real boundary or permission for the illustrated car.",
+      "overlays": [
+        {
+          "rect": [
+            554,
+            605,
+            783,
+            872
+          ],
+          "code": "E31-2",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/fd930bdf924d3924-e31-2.png",
+            "source_asset_id": "ASSET-fd930bdf924d3924",
+            "sha256": "c1d7d850172973152aa3dbe465a464f2eb9ed07ff7e722069f87ec4a0573181a",
+            "max_size_mm_at_300ppi": [
+              80.1,
+              120.1
+            ],
+            "reason": "Use unchanged official raster; EPS unavailable or has excess canvas/outline treatment."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/miljozon/miljozon-e31-2/"
+        }
+      ],
+      "sha256": "573db9fa10a655d44bdc08f2db7fe228d8b6f20b6eb4711f11f9f6244aa4cad0",
+      "alt_text": "Check the vehicle record and the current local decision before departure. The official E31 class-2 example is for recognition only; it does not establish a real boundary or permission for the illustrated car.",
+      "print_ppi": 115.0
+    },
+    "M09-R": {
+      "file": "M09-v2.png",
+      "box": [
+        821,
+        586,
+        1455,
+        881
+      ],
+      "width_mm": 170,
+      "caption": "Walking, cycling, public transport and a car are options to compare against actual access needs, services and conditions. The pictures do not rank the modes or supply emissions figures.",
+      "sha256": "573db9fa10a655d44bdc08f2db7fe228d8b6f20b6eb4711f11f9f6244aa4cad0",
+      "alt_text": "Walking, cycling, public transport and a car are options to compare against actual access needs, services and conditions. The pictures do not rank the modes or supply emissions figures.",
+      "print_ppi": 94.7
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP051",
+      "code": "E31",
+      "page": 10,
+      "path": "docs/curriculum/sign-assets/originals/bcf00609cef1e570-e31-1.png",
+      "sha256": "135ac2a3fb14f7a80cf9bcb59f83dcf30df9180f1cbe59d4a5810ff106ad90aa",
+      "width_mm": 32.023,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E31-2",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/originals/fd930bdf924d3924-e31-2.png",
+      "sha256": "c1d7d850172973152aa3dbe465a464f2eb9ed07ff7e722069f87ec4a0573181a",
+      "width_mm": 32.023,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E31-3",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/originals/ead6b5417bd9f239-e31-3.png",
+      "sha256": "31cf30fe2e84f15d21fc109a395c80f9f55810fdcea411cbc92194ddfa3ef1f6",
+      "width_mm": 32.023,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E31-4",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/originals/b1b846473f82666d-e31-4.png",
+      "sha256": "42e658e812bd63b6aa2f0f5625d598c8b13f7a68d10c044599fd483018d7933f",
+      "width_mm": 32.023,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E32",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f714feca0d123b20.png",
+      "sha256": "1a250ac80d969df73694ce56f49d796ba927242f10e967ed23d8b9689445d69a",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E32-2",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-85f13289e04c19d1.png",
+      "sha256": "6aef666cdda8b79ca5d3451dd37e1101d265769ccb94e2efc48475ee05e331e0",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E32-3",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f6803352c0c3b51a.png",
+      "sha256": "8ed9f7bc07b1ae4c3fee7f5b384d02f244535c9024d5b858bc6e411c23e997a3",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP051",
+      "code": "E32-4",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-83e24f4d6c2f4737.png",
+      "sha256": "ea11775363c32ba75abfc4915427d3539737b12f20850eeaed1d0cb9b94caf90",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP052",
+      "code": "H27",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-bac8ea7f9fe4d30f.png",
+      "sha256": "e6d44a376538829cd551520bfe56aa04aefb0963f41b99983db04c172a71fca4",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP052",
+      "code": "T24",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-aa247841b99d80c5.png",
+      "sha256": "d4bedb7ef0a6843fe4f7d3493b945009336108f7c056f51233678161fe06c4af",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    }
+  ],
+  "reference_cross_links": {},
+  "review_preview_reconciliation": "M09-v2 approved scenes retained; M09-L01 remains text-only. Official E31-2 replaces the reserved sign panel. Route labels are transcribed in a selectable caption; the review retains four modes and uses native blank writing lines."
+}

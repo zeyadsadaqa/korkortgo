@@ -147,7 +147,12 @@
       ],
       "review": "M07-R",
       "production_step": "6H",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M07/chapter.pdf",
+      "pages": 23,
+      "review_report": "chapters/M07/review.md",
+      "verified_on": "2026-10-05",
+      "sha256": "d6caf92b396698ed14b7cc82e7ebc1ddc01067050d2d9c4d4385d64208f72306"
     },
     {
       "id": "M08",
@@ -161,7 +166,12 @@
       ],
       "review": "M08-R",
       "production_step": "6I",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M08/chapter.pdf",
+      "pages": 29,
+      "review_report": "chapters/M08/review.md",
+      "verified_on": "2026-10-07",
+      "sha256": "e36404ca7d511599f36fc571349e8b7a9c17c9f76a3f0385f04292ef340d6557"
     },
     {
       "id": "M09",
@@ -175,7 +185,12 @@
       ],
       "review": "M09-R",
       "production_step": "6J",
-      "status": "not_started"
+      "status": "completed_screen_review",
+      "pdf": "chapters/M09/chapter.pdf",
+      "pages": 22,
+      "review_report": "chapters/M09/review.md",
+      "verified_on": "2026-10-07",
+      "sha256": "5df476531df7c24b13a69e251d4b1daf48d6c9c14712772953fe81ec4f232b04"
     },
     {
       "id": "M10",
@@ -225,5 +240,5 @@
   "required_held_signs": [],
   "updated": "2026-10-04",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B\u20136G complete; 6H\u20136N remain independently authorised steps"
+  "chapter_execution": "6B\u20136J complete; 6K\u20136N remain independently authorised steps"
 }
