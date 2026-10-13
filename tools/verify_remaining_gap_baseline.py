@@ -47,10 +47,12 @@ def retrieve(url, suffix='.html'):
 def main():
     args = argparse.ArgumentParser()
     args.add_argument('--offline', action='store_true')
+    args.add_argument('--allow-teaching-changes', action='store_true', help='For H1–H5: preserve book/bank/gaps and evidence checks while allowing canonical teaching registers/builders to advance.')
     opts = args.parse_args()
     if opts.offline:
         data = json.loads(REGISTER.read_text())
-        for item in data['baseline'].values():
+        frozen_inputs = data['baseline'] if not opts.allow_teaching_changes else {key:data['baseline'][key] for key in ['book','delivery_book','questions','gaps']}
+        for item in frozen_inputs.values():
             assert binding(item['path']) == item, item['path']
         def walk(value):
             if isinstance(value, dict):
@@ -62,7 +64,7 @@ def main():
                 for v in value.values(): walk(v)
             elif isinstance(value, list):
                 for v in value: walk(v)
-        walk(data)
+        walk({key:value for key,value in data.items() if key != 'baseline'})
         ids = [x['question_id'] for x in data['targets']]
         assert len(ids) == len(set(ids)) == 228
         assert len(data['signs']) == 79

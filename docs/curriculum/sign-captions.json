@@ -8,11 +8,11 @@
   "source_policy": "Official Transportstyrelsen detail pages and primary Swedish legislation only. Variant pages with no explanation inherit the parent meaning except M19a and M20a, which have their own meanings. Practical reminders are editorial teaching advice.",
   "asset_manifest": {
     "path": "sign-asset-manifest.json",
-    "sha256": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32"
+    "sha256": "41e58f7050118703cb4137e053521dea64444b4753b48000ba4958a08b76685b"
   },
   "source_register": {
     "path": "sign-sources.json",
-    "sha256": "f0b4501a72465f1f10773c5f64499ae904efc636fbd9ac0745531ab331905a83"
+    "sha256": "076428e4628c3c6428397fe9c2fb193b98a247e7f479040eba55363b69907027"
   },
   "discrepancy_rechecks": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "summary": {
-    "selected_identifiers": 263,
-    "caption_records": 498,
+    "selected_identifiers": 291,
+    "caption_records": 526,
     "additional_linked_pages": 235,
-    "eligible_images": 494,
+    "eligible_images": 522,
     "held_images": 4
   },
   "captions": [
@@ -27865,6 +27865,1160 @@
         "notes": []
       },
       "reviewed_on": "2026-10-02"
+    },
+    {
+      "caption_id": "CAP-A6",
+      "code": "A6",
+      "selected_parent_codes": [
+        "A6"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för bro",
+      "label_en": "Opening bridge",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "An opening bridge lies ahead. Look for signals, barriers or a bridge opening and be ready to stop before the crossing.",
+      "variant_description_en": "The raised bridge span is the hazard; this is not a quayside warning.",
+      "alt_text_en": "Opening bridge. The raised bridge span is the hazard; this is not a quayside warning.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a6.png",
+        "source_asset_id": "H1-ASSET-A6",
+        "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A6",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-bro/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "06cfa6e158349cd045ea5bb9dd2c75389677146fb69c181fcf815d082137af26",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/8606b587a24422ae6aa772a9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A7",
+      "code": "A7",
+      "selected_parent_codes": [
+        "A7"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för kaj",
+      "label_en": "Quayside or road ending at water",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "The road ends at water, such as a quay or bank. Reduce speed early and check the road edge and any barrier before approaching it.",
+      "variant_description_en": "The car approaching the water distinguishes this from an opening bridge.",
+      "alt_text_en": "Quayside or road ending at water. The car approaching the water distinguishes this from an opening bridge.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a7.png",
+        "source_asset_id": "H1-ASSET-A7",
+        "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A7",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-kaj/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "6a453a15ead4d48b7833b1577cc130431e5bb2370b2d25b5e7538fe90356d1f7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e9daa39d008c9af68b6fefc8.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A12",
+      "code": "A12",
+      "selected_parent_codes": [
+        "A12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för stenras",
+      "label_en": "Falling rocks",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Falling rocks may occur, and rocks from a fall may lie on the road. Look for debris and leave enough space to respond.",
+      "variant_description_en": "This illustration shows rocks falling from the right. The official mirrored variant reflects conditions at the site.",
+      "alt_text_en": "Falling rocks. This illustration shows rocks falling from the right. The official mirrored variant reflects conditions at the site.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a12.png",
+        "source_asset_id": "H1-ASSET-A12",
+        "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+        "max_size_mm_at_300ppi": [
+          40.217,
+          35.475
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-stenras/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d19f051ba0284741b4fe2a5a371dc96121cd5e1c68e788ed20ae0928cda112a9",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5e01119d7846aeee6927af9b.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A17",
+      "code": "A17",
+      "selected_parent_codes": [
+        "A17"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för skidåkare",
+      "label_en": "Skiers",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Skiers often cross or remain on the road here. Watch both sides and adjust speed so that you can respond to a skier entering your path.",
+      "variant_description_en": "The skier symbol identifies this hazard; it does not designate a ski facility.",
+      "alt_text_en": "Skiers. The skier symbol identifies this hazard; it does not designate a ski facility.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a17.png",
+        "source_asset_id": "H1-ASSET-A17",
+        "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+        "max_size_mm_at_300ppi": [
+          38.777,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A17",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-skidakare/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "cd5deab04e42dcc4dc5fb9342db262e57808d171ca6d7e8c3926efe3736e1f11",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2903a9fc8affdbd930751e14.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A23",
+      "code": "A23",
+      "selected_parent_codes": [
+        "A23"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för lågt flygande flygplan",
+      "label_en": "Low-flying aircraft",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Warning of low-flying aircraft. Keep attention on the road and be prepared for an aircraft nearby.",
+      "variant_description_en": "The question illustration points left; the official opposite-facing aircraft has the same warning meaning.",
+      "alt_text_en": "Low-flying aircraft. The question illustration points left; the official opposite-facing aircraft has the same warning meaning.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a23.png",
+        "source_asset_id": "H1-ASSET-A23",
+        "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A23",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-lagt-flygande-flygplan/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "c9af769c8e25a33cc550c827010373eb0c72b15c9d03accd0e4819a450e570d5",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ffd8060fa298059d98914582.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A32",
+      "code": "A32",
+      "selected_parent_codes": [
+        "A32"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för fordon med förspänt dragdjur",
+      "label_en": "Vehicles drawn by draught animals",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Vehicles drawn by draught animals often cross or remain on this road section. Look ahead for slow-moving animal-drawn traffic and allow space.",
+      "variant_description_en": "The illustration shows a horse and cart. Official variants show other animal-drawn vehicles; the meaning is not limited to horses.",
+      "alt_text_en": "Vehicles drawn by draught animals. The illustration shows a horse and cart. Official variants show other animal-drawn vehicles; the meaning is not limited to horses.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a32.png",
+        "source_asset_id": "H1-ASSET-A32",
+        "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A32",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "4817aaea248a44cb75bf293eb704af8af58dea5d9b08b5880cc3594a093ce72c",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/faaa1abef9eb86cfbc70bfc4.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-A33",
+      "code": "A33",
+      "selected_parent_codes": [
+        "A33"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Varning för terrängskotertrafik",
+      "label_en": "Off-road scooter traffic",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Off-road scooters often cross or enter the road here. Watch the roadside and prepare for a vehicle entering your path.",
+      "variant_description_en": "The snowmobile illustration identifies off-road scooter traffic, not ordinary road mopeds.",
+      "alt_text_en": "Off-road scooter traffic. The snowmobile illustration identifies off-road scooter traffic, not ordinary road mopeds.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a33.png",
+        "source_asset_id": "H1-ASSET-A33",
+        "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-A33",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "46a6a94b32dc708b45923fd3826adb2b896384dce3af0c28a98df7e87b7b2c24",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/08e4b4f63c0f2cc9b4fb6c54.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C4",
+      "code": "C4",
+      "selected_parent_codes": [
+        "C4"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med motordrivet fordon med fler än två hjul",
+      "label_en": "No motor vehicles with more than two wheels",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Traffic with motor-driven vehicles having more than two wheels is prohibited. Check whether your vehicle falls within that class before entering.",
+      "variant_description_en": "The car symbol does not limit the prohibition to passenger cars. Compare C5 for motorcycles and class I mopeds.",
+      "alt_text_en": "No motor vehicles with more than two wheels. The car symbol does not limit the prohibition to passenger cars. Compare C5 for motorcycles and class I mopeds.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c4.png",
+        "source_asset_id": "H1-ASSET-C4",
+        "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C4",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "ba69e84bce18af25d55f8e7db42343235dc558c7110084aa868e6d74d172d4bc",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5310187b30000421073a33d0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C5",
+      "code": "C5",
+      "selected_parent_codes": [
+        "C5"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med motorcykel och moped klass I",
+      "label_en": "No motorcycles or class I mopeds",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Motorcycles and class I mopeds are prohibited. Do not treat this as the same prohibition as C4, which concerns motor-driven vehicles with more than two wheels.",
+      "variant_description_en": "Class II mopeds have separate signs, including C11.",
+      "alt_text_en": "No motorcycles or class I mopeds. Class II mopeds have separate signs, including C11.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c5.png",
+        "source_asset_id": "H1-ASSET-C5",
+        "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C5",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motorcykel-och-moped-klass-i/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "0e818736e44c97253b2d24d3656201bf658da8f9b2d402a5944059439cfd2f46",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/02fe14d60838323d35f5acd9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C7",
+      "code": "C7",
+      "selected_parent_codes": [
+        "C7"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med tung lastbil",
+      "label_en": "No heavy lorries",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Traffic with heavy lorries is prohibited. Identify the vehicle class rather than assuming that every vehicle carrying goods is a heavy lorry.",
+      "variant_description_en": "This restricts access; C29 instead restricts overtaking by a heavy lorry.",
+      "alt_text_en": "No heavy lorries. This restricts access; C29 instead restricts overtaking by a heavy lorry.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c7.png",
+        "source_asset_id": "H1-ASSET-C7",
+        "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C7",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-tung-lastbil/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "240e3c2f7df29b47062eae05950f71d536e3e84f184fc9e654b1c6e8ef564d8a",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/8f8a5a1a59a3b635bf119dde.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C8",
+      "code": "C8",
+      "selected_parent_codes": [
+        "C8"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med traktor och motorredskap klass II",
+      "label_en": "No tractors or class II motorised equipment",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Traffic with tractors and class II motorised equipment is prohibited. If the prohibition also covers tractor b or class I motorised equipment, a supplementary panel states this.",
+      "variant_description_en": "Read the panel as well as the tractor symbol.",
+      "alt_text_en": "No tractors or class II motorised equipment. Read the panel as well as the tractor symbol.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c8.png",
+        "source_asset_id": "H1-ASSET-C8",
+        "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C8",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "bf587b63cc2ec08c40939328dff41a3cbd535131b78ed35e7f3e6e555413a686",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c7f667fd64a4bded570def62.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C9",
+      "code": "C9",
+      "selected_parent_codes": [
+        "C9"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med fordon lastat med farligt gods",
+      "label_en": "No vehicles carrying specified dangerous goods",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Vehicles carrying loads subject to the orange-plate marking requirement for dangerous-goods transport are prohibited. The sign does not mean that every vehicle carrying any potentially hazardous item is forbidden.",
+      "variant_description_en": "With panel T23 it indicates the tunnel category. Compare mandatory D12 and recommended-route F32.",
+      "alt_text_en": "No vehicles carrying specified dangerous goods. With panel T23 it indicates the tunnel category. Compare mandatory D12 and recommended-route F32.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c9.png",
+        "source_asset_id": "H1-ASSET-C9",
+        "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C9",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "44b8ff605549ea04bb90a391df143de7b0f57e6647d8071fe66d3ab2ddf2c8a3",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/f7489efadb92b29f3b6e4992.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C10",
+      "code": "C10",
+      "selected_parent_codes": [
+        "C10"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med cykel och moped klass II",
+      "label_en": "No bicycles or class II mopeds",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Bicycles and class II mopeds are prohibited. If the prohibition also covers class I mopeds, a supplementary panel states this.",
+      "variant_description_en": "Compare C11, which concerns class II mopeds without prohibiting bicycles through that sign alone.",
+      "alt_text_en": "No bicycles or class II mopeds. Compare C11, which concerns class II mopeds without prohibiting bicycles through that sign alone.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c10.png",
+        "source_asset_id": "H1-ASSET-C10",
+        "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C10",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-cykel-och-moped-klass-ii/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "4235e4cf2ed1bced4b40b51910c996b8cb7084c6498f15e876ec180f42057d4e",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/6e1c3499061d0f9005be3c03.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C11",
+      "code": "C11",
+      "selected_parent_codes": [
+        "C11"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med moped klass II",
+      "label_en": "No class II mopeds",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Class II mopeds are prohibited. If the prohibition also covers class I mopeds, a supplementary panel states this.",
+      "variant_description_en": "Compare C10, whose bicycle symbol covers bicycles and class II mopeds.",
+      "alt_text_en": "No class II mopeds. Compare C10, whose bicycle symbol covers bicycles and class II mopeds.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c11.png",
+        "source_asset_id": "H1-ASSET-C11",
+        "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C11",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-moped-klass-ii/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d1b5ad31a2d5de08a43178c92cc14e4d4268bfbd8e879281b2eb45dbf487ab8b",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c38de627a3efe908917330c3.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C12",
+      "code": "C12",
+      "selected_parent_codes": [
+        "C12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med fordon förspänt med dragdjur",
+      "label_en": "No vehicles drawn by draught animals",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Traffic with vehicles drawn by draught animals is prohibited. The restriction concerns animal-drawn vehicles rather than riding on an animal.",
+      "variant_description_en": "The horse-and-cart illustration is an example of the class. Compare C14 for riding.",
+      "alt_text_en": "No vehicles drawn by draught animals. The horse-and-cart illustration is an example of the class. Compare C14 for riding.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c12.png",
+        "source_asset_id": "H1-ASSET-C12",
+        "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-forspant-med-dragdjur/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "c86f66727de40f7f74cb3dd9d4e1a3c5196b36992fb62e28a2c0d99c898c6b62",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/4301ed305fcd366c5ae2719f.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C13",
+      "code": "C13",
+      "selected_parent_codes": [
+        "C13"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot trafik med terrängmotorfordon och terrängsläp",
+      "label_en": "No off-road motor vehicles or off-road trailers",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Off-road motor vehicles and off-road trailers are prohibited. If off-road wagons are exempt from the prohibition, this is stated on a supplementary panel.",
+      "variant_description_en": "Read the vehicle class and any panel; the snowmobile picture is not the whole scope.",
+      "alt_text_en": "No off-road motor vehicles or off-road trailers. Read the vehicle class and any panel; the snowmobile picture is not the whole scope.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c13.png",
+        "source_asset_id": "H1-ASSET-C13",
+        "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C13",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "86eabcaa6780203d8b01f0b675993b50651326c842194ef711d2b7906387cc44",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a5e6f0f6ff992185cadf5da4.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C14",
+      "code": "C14",
+      "selected_parent_codes": [
+        "C14"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot ridning",
+      "label_en": "No riding",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Riding is prohibited. If leading a riding animal is also prohibited, a supplementary panel states this.",
+      "variant_description_en": "Compare C12 for vehicles drawn by draught animals; leading an animal is not automatically covered by C14 alone.",
+      "alt_text_en": "No riding. Compare C12 for vehicles drawn by draught animals; leading an animal is not automatically covered by C14 alone.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c14.png",
+        "source_asset_id": "H1-ASSET-C14",
+        "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C14",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-ridning/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "f662fcd0ce4bb7fe36c591bbac74433a82e039d27c8cf6440685e69d04f8ba06",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7389cf2d76f9bde7d3754887.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C15",
+      "code": "C15",
+      "selected_parent_codes": [
+        "C15"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot gångtrafik",
+      "label_en": "No pedestrians",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Pedestrian traffic is prohibited. Choose a permitted route for walking rather than entering the restricted section.",
+      "variant_description_en": "The walking-person symbol identifies pedestrian access, not a general prohibition on all traffic.",
+      "alt_text_en": "No pedestrians. The walking-person symbol identifies pedestrian access, not a general prohibition on all traffic.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c15.png",
+        "source_asset_id": "H1-ASSET-C15",
+        "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C15",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-gangtrafik/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d7730e3faece2777b944fce4b03fca51b2aa230f93d8a64cd216b57c3e0a73e7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b40517da8ad47bd3f1085516.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C29",
+      "code": "C29",
+      "selected_parent_codes": [
+        "C29"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förbud mot omkörning med tung lastbil",
+      "label_en": "No overtaking with a heavy lorry",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "A heavy lorry must not overtake other motor-driven vehicles except two-wheeled mopeds and two-wheeled motorcycles without sidecars. The prohibition applies along the road until C30 ends it.",
+      "variant_description_en": "The heavy-lorry-and-car illustration restricts the overtaking driver; it does not ban heavy-lorry access.",
+      "alt_text_en": "No overtaking with a heavy lorry. The heavy-lorry-and-car illustration restricts the overtaking driver; it does not ban heavy-lorry access.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c29.png",
+        "source_asset_id": "H1-ASSET-C29",
+        "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C29",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-omkorning-med-tung-lastbil/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "c06da3877fa342fe3ecfc41c0e12be202f369a8281c073114c069ed1ed078967",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/f84563a549fdc74a56577d12.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C30",
+      "code": "C30",
+      "selected_parent_codes": [
+        "C30"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Slut på förbud mot omkörning med tung lastbil",
+      "label_en": "End of heavy-lorry overtaking prohibition",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "The heavy-lorry overtaking prohibition indicated by C29 ends here. Continue to apply the ordinary overtaking rules and check that any manoeuvre is safe and permitted.",
+      "variant_description_en": "The crossed-out lorry-and-car symbol ends that particular restriction; it is not an instruction to overtake.",
+      "alt_text_en": "End of heavy-lorry overtaking prohibition. The crossed-out lorry-and-car symbol ends that particular restriction; it is not an instruction to overtake.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c30.png",
+        "source_asset_id": "H1-ASSET-C30",
+        "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C30",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/slut-pa-forbud-mot-omkorning-med-tung-lastbil/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "de785e4b0abf85105c9b94fad4f4689e3f20ff0e710bee4dfcb674ba481e3e16",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/276f8b3369e06c3836fbd129.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C33",
+      "code": "C33",
+      "selected_parent_codes": [
+        "C33"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stopp vid tull",
+      "label_en": "Stop at customs",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Stop at the customs point. Read the customs wording beneath the horizontal bar to identify the reason for stopping.",
+      "variant_description_en": "The question artwork says TULL/TOLD. Official TULL/TOLL, TULL/TULLI and TULL/ZOLL variants use other customs-language combinations.",
+      "alt_text_en": "Stop at customs. The question artwork says TULL/TOLD. Official TULL/TOLL, TULL/TULLI and TULL/ZOLL variants use other customs-language combinations.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c33.png",
+        "source_asset_id": "H1-ASSET-C33",
+        "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C33",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-vid-tull/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "f5607bfb9de0cd2b3914c0fb35f2010f6ad3d164be208b5ab278b73417290af5",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2034a3112e49ecdf37ef25b3.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-C34",
+      "code": "C34",
+      "selected_parent_codes": [
+        "C34"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stopp för angivet ändamål",
+      "label_en": "Stop for the stated purpose",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Stop for the reason written below the horizontal bar. When the sign is placed before a traffic signal, a vehicle passing that signal must stop at red, at the stop line or, if there is none, at the sign.",
+      "variant_description_en": "This exact illustration says STOPP SIGNAL. Other official examples say FÄRJA, KONTROLL or VAKT; read the actual stated purpose.",
+      "alt_text_en": "Stop for the stated purpose. This exact illustration says STOPP SIGNAL. Other official examples say FÄRJA, KONTROLL or VAKT; read the actual stated purpose.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c34.png",
+        "source_asset_id": "H1-ASSET-C34",
+        "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+        "max_size_mm_at_300ppi": [
+          71.289,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-C34",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-for-angivet-andamal/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "3d80a2c021ce2febdb214c71eaaecd3426e8bf04755e03b6a340766b6e417bc3",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/1f612cf830f30fafa42bb1f5.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-D8",
+      "code": "D8",
+      "selected_parent_codes": [
+        "D8"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Påbjuden ridväg",
+      "label_en": "Compulsory riding path",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "This is a designated riding path. Walking is also permitted; do not interpret the rider symbol as excluding pedestrians.",
+      "variant_description_en": "Compare prohibitory C14, whose red-ringed symbol prohibits riding.",
+      "alt_text_en": "Compulsory riding path. Compare prohibitory C14, whose red-ringed symbol prohibits riding.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d8.png",
+        "source_asset_id": "H1-ASSET-D8",
+        "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-D8",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-ridvag/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "97555525caac617d88e6c99a704f18583dcf57608a786fbb37bd90670ec638c3",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/67dabe707b8e72881fe93bc6.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-D9",
+      "code": "D9",
+      "selected_parent_codes": [
+        "D9"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Påbjuden led för terrängmotorfordon och terrängsläp",
+      "label_en": "Compulsory off-road vehicle route",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "This is a designated route for off-road motor vehicles and off-road trailers. Walking is also permitted.",
+      "variant_description_en": "The blue snowmobile symbol is a route instruction; red-ringed C13 prohibits the relevant traffic.",
+      "alt_text_en": "Compulsory off-road vehicle route. The blue snowmobile symbol is a route instruction; red-ringed C13 prohibits the relevant traffic.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d9.png",
+        "source_asset_id": "H1-ASSET-D9",
+        "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-D9",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-led-for-terrangmotorfordon-och-terrangslap/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "edf9298c6403b5c317a3b7299d34778be32d21f2c10a929ed4a2160adc0f2301",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b127362dcdb3ec9868b8c040.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-D12",
+      "code": "D12",
+      "selected_parent_codes": [
+        "D12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Påbjuden körriktning för fordon lastat med farligt gods",
+      "label_en": "Required direction for specified dangerous-goods vehicles",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Vehicles carrying loads subject to the dangerous-goods orange-plate marking requirement must follow the indicated direction. If a letter is shown, the instruction applies only to vehicles barred from a tunnel of that category.",
+      "variant_description_en": "The question variant shows a left arrow with no letter. The official B-letter/right-arrow variant has the stated tunnel-category qualification.",
+      "alt_text_en": "Required direction for specified dangerous-goods vehicles. The question variant shows a left arrow with no letter. The official B-letter/right-arrow variant has the stated tunnel-category qualification.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d12.png",
+        "source_asset_id": "H1-ASSET-D12",
+        "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+        "max_size_mm_at_300ppi": [
+          100.838,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-D12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "38dadd6077fd6170dc8f73d836bf1b4396e46ad9a5fbb623c3bc48b10021b912",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/bcd40b451b88a470c821fcc9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-E23",
+      "code": "E23",
+      "selected_parent_codes": [
+        "E23"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Taxi",
+      "label_en": "Taxi standing-place boundary",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "This sign marks the far end, in the direction of travel, of a special standing place for vehicles used in taxi traffic. Read it as a boundary of that place rather than a general taxi-service destination.",
+      "variant_description_en": "The blue TAXI panel identifies the designated standing-place instruction.",
+      "alt_text_en": "Taxi standing-place boundary. The blue TAXI panel identifies the designated standing-place instruction.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e23.png",
+        "source_asset_id": "H1-ASSET-E23",
+        "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+        "max_size_mm_at_300ppi": [
+          21.759,
+          14.647
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-E23",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "32ac50e385ba9b6d54c9dc8c30d2ec1760b0a3d24a51c40919ce1aec9e33677d",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/50ca6da480c73bf78727516a.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-E24",
+      "code": "E24",
+      "selected_parent_codes": [
+        "E24"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Automatisk trafikövervakning",
+      "label_en": "Automatic traffic surveillance",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Automatic camera or equivalent monitoring may take place here to enforce traffic rules, taxation or charges; personal data may be recorded under the applicable rules. If it concerns a longer road section, T1 states its length and the sign is repeated at suitable intervals.",
+      "variant_description_en": "The camera illustration is broader than speed-camera enforcement alone.",
+      "alt_text_en": "Automatic traffic surveillance. The camera illustration is broader than speed-camera enforcement alone.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e24.png",
+        "source_asset_id": "H1-ASSET-E24",
+        "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+        "max_size_mm_at_300ppi": [
+          29.041,
+          29.041
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-E24",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "81221958b3d4abf6f2fabef3aaff1977432f82537ad37960c76c56983d8d2a4a",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/53a2cfcb816af9fed0b37743.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-E25",
+      "code": "E25",
+      "selected_parent_codes": [
+        "E25"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Betalväg",
+      "label_en": "Road charge or tax",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "A fee or special tax must be paid when travelling on a particular road or within a particular area. Check the applicable charging conditions for the route.",
+      "variant_description_en": "The payment illustration announces charging; it does not by itself specify the amount or payment method.",
+      "alt_text_en": "Road charge or tax. The payment illustration announces charging; it does not by itself specify the amount or payment method.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e25.png",
+        "source_asset_id": "H1-ASSET-E25",
+        "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-E25",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "695becea5992b845e241a38f1271f36c21eb9e556f570984d0366104022b5421",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2090c9b3b172ada47cebb4dd.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H1"
     }
-  ]
+  ],
+  "h1_extension": {
+    "completed_on": "2026-10-13",
+    "codes": [
+      "A6",
+      "A7",
+      "A12",
+      "A17",
+      "A23",
+      "A32",
+      "A33",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C29",
+      "C30",
+      "C33",
+      "C34",
+      "D8",
+      "D9",
+      "D12",
+      "E23",
+      "E24",
+      "E25"
+    ],
+    "scope": "28 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
+  }
 }

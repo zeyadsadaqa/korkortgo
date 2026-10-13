@@ -19,7 +19,20 @@ assert 'until the separately verified illustrated reference is prepared' not in 
 nav=json.loads((OUT/'navigation.json').read_text());assets=json.loads((OUT/'assets.json').read_text());records=assets['official_sign_placements']
 expected=[code for g in GROUPS for code in g['primary_codes']+g['additional_comparison_codes']]
 assert [a['code'] for a in records]==expected
-assert len(expected)==len(set(expected))==321
+assert len(expected)==len(set(expected))==PLACEMENT['summary']['eligible_bound_codes']
+h0=json.loads((ROOT/'question-book-review/remaining-gap-h0-sources.json').read_text())
+h1_targets=[t for t in h0['targets'] if t['step']=='H1']
+h1_codes={t['sign_code'] for t in h1_targets}
+h1_records={a['code']:a for a in records if a['code'] in h1_codes}
+assert len(h1_targets)==56 and len(h1_records)==28
+for code in h1_codes:
+ source=next(s for s in h0['signs'] if s['code']==code)
+ assert h1_records[code]['sha256']==source['question_asset']['sha256']
+ assert BINDINGS[code]['official_url']==source['page']['url']
+ assert CAPTIONS[code]['official_name_sv']==source['official_name_sv']
+for name in ['book','delivery_book','questions','gaps']:
+ item=h0['baseline'][name]
+ assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==item['sha256']
 for g in GROUPS:
  assert g['group_id'] in r.named_destinations
  for code in g['cross_reference_codes']:assert 'sign-'+code in r.named_destinations
@@ -57,5 +70,5 @@ assert not any(s in alltext.lower() for s in ['körkort online','theory-book'])
 sha=hashlib.sha256(TARGET.read_bytes()).hexdigest()
 subprocess.run([sys.executable,str(OUT/'build_reference.py')],check=True,capture_output=True)
 assert hashlib.sha256(TARGET.read_bytes()).hexdigest()==sha
-report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':len(table_rows(SECS[TITLES[2]].split('\n\n')[1]))-1,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'See ../reference-material-review.md','limits':['Standalone folios and chapter references are provisional; final cross-book links are 6M work','Full tagged-PDF accessibility and final publication approval remain in 6N']}
+report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':len(table_rows(SECS[TITLES[2]].split('\n\n')[1]))-1,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'../../question-book-review/remaining-gap-execution-plan.md, H1 execution record','h1':{'codes':sorted(h1_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h1_records[t['sign_code']]['page']} for t in h1_targets],'bank_and_full_book_unchanged':True},'limits':['This is the updated reference component; full-book assembly/folios and final coverage audit remain H6/H7 work','Full tagged-PDF accessibility and final publication approval remain outside this H1 check']}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,indent=2))

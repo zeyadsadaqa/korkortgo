@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0 approved and completed on 13 October 2026; H1–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0 and H1 approved and completed on 13 October 2026; H2–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -338,3 +338,64 @@ All links below are exact retrieved individual pages. “Images / alternatives�
 - Compressed source evidence and frozen inputs pass offline SHA-256 verification. Run `python3 tools/verify_remaining_gap_baseline.py --offline` from the repository root; it needs only the standard library. A new online capture needs BeautifulSoup, available in the existing `tmp/python` environment; retain this register as the approved baseline rather than overwriting it later.
 
 **Next executable scope:** H1, the 28 A/C/D/E codes and 56 questions, using these verified sources and the existing approved Appendix B presentation. No new design was required or implemented in H0.
+
+
+## H1 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H1. **Acceptance gate:** 28 A/C/D/E entries added and verified, supplying the illustrated caption units for H1's 56 question IDs in the reference component. No new visual design was needed; the approved card, font, column, spacing and artwork-size rules were reused.
+
+### Changes
+
+Added the seven A, fifteen C, three D and three E codes to eight existing Appendix B groups. Each card preserves the official Swedish name, contains an editorial English meaning and use/decision explanation, identifies the exact question variant, and carries the individual official URL and a 13 October caption-check date. Canonical source, asset, caption and placement JSON registers and their Markdown views are updated. The original 498 caption records and 321 placement bindings are unchanged, checked against the pre-H1 repository versions.
+
+Artwork is the exact H0-verified official PNG for each question; source/asset hashes agree with the frozen H0 register. All 28 files decoded successfully. Print dimensions stay within their own 300 ppi maxima; the renderer's existing larger-artwork caps remain in effect. No artwork was redrawn, replaced with a similar code, or enlarged beyond its limit. The asset and caption registers retain the H0 detail-page snapshots and variant/reuse evidence.
+
+Caption checks explicitly retain draught-animal scope, C8/C10/C11/C13/C14 panel qualifications, C9/D12 orange-plate scope, C29's exception and C30 endpoint, pedestrian permission on D8/D9, E23's far-boundary meaning, and the broader monitoring/charging meanings of E24/E25. C34's actual `STOPP SIGNAL` illustration is explained as a signal-related stop instruction rather than replaced with a generic stop-sign duty. C33's actual bilingual `TULL/TOLD` artwork is distinguished from the other official customs-text variants.
+
+The [updated reference component](../../../output/pdf/korkortgo-reference-material.pdf) contains **211 pages and 349 unique illustrated entries**, up from 201 pages and 321 entries: **10 additional pages**. The source component and output copy are byte-identical. The full 540-page book, delivery book, question bank and final gaps/coverage files remain at the H0 hashes. This component is ready for later H6 assembly; these standalone page numbers are not final full-book teaching-page mappings, and H7 has not recalculated whole-book coverage.
+
+### H1 code-to-component-page mapping
+
+For each code below, both `sign-meaning-CODE` and `sign-recognise-CODE` map to the same exact illustrated caption unit. The reference verification JSON records all 56 IDs individually. H6/H7 must replace these component pages with final assembled-book pages.
+
+| Code | Existing group | Reference component page |
+|---|---|---:|
+| E24 | RB11 | 66 |
+| C4 | RB12 | 76 |
+| C5 | RB12 | 77 |
+| C8 | RB12 | 77 |
+| C10 | RB12 | 77 |
+| C11 | RB12 | 78 |
+| C12 | RB12 | 78 |
+| C13 | RB12 | 78 |
+| C14 | RB12 | 79 |
+| C15 | RB12 | 79 |
+| C34 | RB12 | 79 |
+| D8 | RB12 | 80 |
+| D9 | RB12 | 80 |
+| A17 | RB13 | 89 |
+| E23 | RB16 | 108 |
+| A6 | RB17 | 117 |
+| A7 | RB17 | 117 |
+| A12 | RB17 | 118 |
+| A23 | RB17 | 118 |
+| A32 | RB17 | 118 |
+| C29 | RB17 | 119 |
+| C30 | RB17 | 119 |
+| A33 | RB21 | 146 |
+| C7 | RB22 | 154 |
+| C9 | RB22 | 155 |
+| C33 | RB22 | 155 |
+| D12 | RB22 | 156 |
+| E25 | RB23 | 158 |
+
+### Validation and handoff
+
+- Reference verifier passes all 349 exact placements, complete caption/variant/Swedish-name text, original appendix/glossary/practice/source text, artwork SHA-256 and 300 ppi size limits, font embedding, accessible text equivalents, internal destinations and external source links. No duplicate entries or missing H1 codes.
+- 610 internal links and 561 named destinations pass; all 24 existing groups remain. The reference builder automatically retains code-lookup links for every added entry.
+- Rebuilding produces the same SHA-256. The source and delivery reference PDFs are identical: `4111f4a1546633fca53a7dbba0efe75cd63760df311a47ea00dacf1365211bbb`.
+- All **16 pages containing H1 additions** were rendered at 110 dpi and inspected, including older entries sharing those pages: 66, 76–80, 89, 108, 117–119, 146, 154–156 and 158. Artwork, Swedish names, caption text, URLs, separators, headers and folios are readable with no overlap or clipping. The four code-lookup pages (166–169) and updated artwork-credit page (211) were also rendered and inspected: 21 pages in total. All-page text-bound checks pass. Temporary review renders are in `tmp/pdfs/h1`; validation is recorded here and in the existing reference `verification.json`, not a new execution-report tree.
+- Full-book/delivery, bank and gaps hashes still match H0. The baseline verifier now supports `python3 tools/verify_remaining_gap_baseline.py --offline --allow-teaching-changes` for H1–H5: it checks the frozen book/bank/gaps and all saved evidence/artwork while allowing authorised canonical teaching-register/build changes. The original frozen hashes are preserved, not overwritten.
+- H0 rounding findings are unchanged and remain for H5. Full assembly, final folios and full-book coverage remain H6/H7; no 828/1,000 final-book coverage claim is made from a standalone component.
+
+**Next executable scope:** H2, the 36 F/G/H/J codes and 72 questions. H2–H7 have not started.

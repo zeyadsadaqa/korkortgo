@@ -1362,3 +1362,176 @@ Step 4E is complete because every selected example has an exact reference locati
 [winter]: https://www.transportstyrelsen.se/vinterdack
 [works]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/
 [zones]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/
+
+
+## H1 Appendix B extension — 13 October 2026
+
+The existing approved card layout is retained. These 28 primary entries extend the historical step-4 record; H0 exact page/artwork and reuse evidence is bound in the JSON registers. No new lesson placements or full-book assembly are part of H1.
+
+### A6 · Opening bridge
+
+Official Swedish: **Varning för bro**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-bro/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff`.
+
+### A7 · Quayside or road ending at water
+
+Official Swedish: **Varning för kaj**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-kaj/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a`.
+
+### A12 · Falling rocks
+
+Official Swedish: **Varning för stenras**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-stenras/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972`.
+
+### A17 · Skiers
+
+Official Swedish: **Varning för skidåkare**. Primary group: RB13.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-skidakare/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950`.
+
+### A23 · Low-flying aircraft
+
+Official Swedish: **Varning för lågt flygande flygplan**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-lagt-flygande-flygplan/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d`.
+
+### A32 · Vehicles drawn by draught animals
+
+Official Swedish: **Varning för fordon med förspänt dragdjur**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b`.
+
+### A33 · Off-road scooter traffic
+
+Official Swedish: **Varning för terrängskotertrafik**. Primary group: RB21.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3`.
+
+### C4 · No motor vehicles with more than two wheels
+
+Official Swedish: **Förbud mot trafik med motordrivet fordon med fler än två hjul**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9`.
+
+### C5 · No motorcycles or class I mopeds
+
+Official Swedish: **Förbud mot trafik med motorcykel och moped klass I**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motorcykel-och-moped-klass-i/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922`.
+
+### C7 · No heavy lorries
+
+Official Swedish: **Förbud mot trafik med tung lastbil**. Primary group: RB22.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50`.
+
+### C8 · No tractors or class II motorised equipment
+
+Official Swedish: **Förbud mot trafik med traktor och motorredskap klass II**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad`.
+
+### C9 · No vehicles carrying specified dangerous goods
+
+Official Swedish: **Förbud mot trafik med fordon lastat med farligt gods**. Primary group: RB22.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79`.
+
+### C10 · No bicycles or class II mopeds
+
+Official Swedish: **Förbud mot trafik med cykel och moped klass II**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-cykel-och-moped-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850`.
+
+### C11 · No class II mopeds
+
+Official Swedish: **Förbud mot trafik med moped klass II**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-moped-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543`.
+
+### C12 · No vehicles drawn by draught animals
+
+Official Swedish: **Förbud mot trafik med fordon förspänt med dragdjur**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-forspant-med-dragdjur/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac`.
+
+### C13 · No off-road motor vehicles or off-road trailers
+
+Official Swedish: **Förbud mot trafik med terrängmotorfordon och terrängsläp**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd`.
+
+### C14 · No riding
+
+Official Swedish: **Förbud mot ridning**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-ridning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219`.
+
+### C15 · No pedestrians
+
+Official Swedish: **Förbud mot gångtrafik**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-gangtrafik/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723`.
+
+### C29 · No overtaking with a heavy lorry
+
+Official Swedish: **Förbud mot omkörning med tung lastbil**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-omkorning-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d`.
+
+### C30 · End of heavy-lorry overtaking prohibition
+
+Official Swedish: **Slut på förbud mot omkörning med tung lastbil**. Primary group: RB17.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/slut-pa-forbud-mot-omkorning-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173`.
+
+### C33 · Stop at customs
+
+Official Swedish: **Stopp vid tull**. Primary group: RB22.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-vid-tull/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5`.
+
+### C34 · Stop for the stated purpose
+
+Official Swedish: **Stopp för angivet ändamål**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-for-angivet-andamal/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5`.
+
+### D8 · Compulsory riding path
+
+Official Swedish: **Påbjuden ridväg**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-ridvag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c`.
+
+### D9 · Compulsory off-road vehicle route
+
+Official Swedish: **Påbjuden led för terrängmotorfordon och terrängsläp**. Primary group: RB12.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-led-for-terrangmotorfordon-och-terrangslap/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23`.
+
+### D12 · Required direction for specified dangerous-goods vehicles
+
+Official Swedish: **Påbjuden körriktning för fordon lastat med farligt gods**. Primary group: RB22.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a`.
+
+### E23 · Taxi standing-place boundary
+
+Official Swedish: **Taxi**. Primary group: RB16.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f`.
+
+### E24 · Automatic traffic surveillance
+
+Official Swedish: **Automatisk trafikövervakning**. Primary group: RB11.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4`.
+
+### E25 · Road charge or tax
+
+Official Swedish: **Betalväg**. Primary group: RB23.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3`.

@@ -6013,3 +6013,232 @@ Traffic joining from the connecting roads must yield or stop. Match the diagram 
 **Status:** Eligible within recorded asset limits.
 
 **Official evidence:** [TS-SIGN-5a82a4a65693f309](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-vagkorsning-dar-trafikanter-pa-anslutande-vag-har-vajningsplikt-eller-stopplikt/a29-9/) — Official heading, explanation and artwork; [TS-SIGN-6895cc22ad5c5db9](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-vagkorsning-dar-trafikanter-pa-anslutande-vag-har-vajningsplikt-eller-stopplikt/) — Shared sign meaning; variant illustration is taken from the variant page; [SFS-2007-90](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/) — 2 kap.; A29
+
+
+## H1 exact A/C/D/E additions — 13 October 2026
+
+The existing approved card layout is retained. These 28 primary entries extend the historical step-4 record; H0 exact page/artwork and reuse evidence is bound in the JSON registers. No new lesson placements or full-book assembly are part of H1.
+
+### A6 · Opening bridge
+
+Official Swedish: **Varning för bro**. Primary group: RB17.
+
+An opening bridge lies ahead. Look for signals, barriers or a bridge opening and be ready to stop before the crossing. The raised bridge span is the hazard; this is not a quayside warning.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-bro/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff`.
+
+### A7 · Quayside or road ending at water
+
+Official Swedish: **Varning för kaj**. Primary group: RB17.
+
+The road ends at water, such as a quay or bank. Reduce speed early and check the road edge and any barrier before approaching it. The car approaching the water distinguishes this from an opening bridge.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-kaj/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a`.
+
+### A12 · Falling rocks
+
+Official Swedish: **Varning för stenras**. Primary group: RB17.
+
+Falling rocks may occur, and rocks from a fall may lie on the road. Look for debris and leave enough space to respond. This illustration shows rocks falling from the right. The official mirrored variant reflects conditions at the site.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-stenras/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972`.
+
+### A17 · Skiers
+
+Official Swedish: **Varning för skidåkare**. Primary group: RB13.
+
+Skiers often cross or remain on the road here. Watch both sides and adjust speed so that you can respond to a skier entering your path. The skier symbol identifies this hazard; it does not designate a ski facility.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-skidakare/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950`.
+
+### A23 · Low-flying aircraft
+
+Official Swedish: **Varning för lågt flygande flygplan**. Primary group: RB17.
+
+Warning of low-flying aircraft. Keep attention on the road and be prepared for an aircraft nearby. The question illustration points left; the official opposite-facing aircraft has the same warning meaning.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-lagt-flygande-flygplan/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d`.
+
+### A32 · Vehicles drawn by draught animals
+
+Official Swedish: **Varning för fordon med förspänt dragdjur**. Primary group: RB17.
+
+Vehicles drawn by draught animals often cross or remain on this road section. Look ahead for slow-moving animal-drawn traffic and allow space. The illustration shows a horse and cart. Official variants show other animal-drawn vehicles; the meaning is not limited to horses.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b`.
+
+### A33 · Off-road scooter traffic
+
+Official Swedish: **Varning för terrängskotertrafik**. Primary group: RB21.
+
+Off-road scooters often cross or enter the road here. Watch the roadside and prepare for a vehicle entering your path. The snowmobile illustration identifies off-road scooter traffic, not ordinary road mopeds.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3`.
+
+### C4 · No motor vehicles with more than two wheels
+
+Official Swedish: **Förbud mot trafik med motordrivet fordon med fler än två hjul**. Primary group: RB12.
+
+Traffic with motor-driven vehicles having more than two wheels is prohibited. Check whether your vehicle falls within that class before entering. The car symbol does not limit the prohibition to passenger cars. Compare C5 for motorcycles and class I mopeds.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9`.
+
+### C5 · No motorcycles or class I mopeds
+
+Official Swedish: **Förbud mot trafik med motorcykel och moped klass I**. Primary group: RB12.
+
+Motorcycles and class I mopeds are prohibited. Do not treat this as the same prohibition as C4, which concerns motor-driven vehicles with more than two wheels. Class II mopeds have separate signs, including C11.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motorcykel-och-moped-klass-i/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922`.
+
+### C7 · No heavy lorries
+
+Official Swedish: **Förbud mot trafik med tung lastbil**. Primary group: RB22.
+
+Traffic with heavy lorries is prohibited. Identify the vehicle class rather than assuming that every vehicle carrying goods is a heavy lorry. This restricts access; C29 instead restricts overtaking by a heavy lorry.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50`.
+
+### C8 · No tractors or class II motorised equipment
+
+Official Swedish: **Förbud mot trafik med traktor och motorredskap klass II**. Primary group: RB12.
+
+Traffic with tractors and class II motorised equipment is prohibited. If the prohibition also covers tractor b or class I motorised equipment, a supplementary panel states this. Read the panel as well as the tractor symbol.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad`.
+
+### C9 · No vehicles carrying specified dangerous goods
+
+Official Swedish: **Förbud mot trafik med fordon lastat med farligt gods**. Primary group: RB22.
+
+Vehicles carrying loads subject to the orange-plate marking requirement for dangerous-goods transport are prohibited. The sign does not mean that every vehicle carrying any potentially hazardous item is forbidden. With panel T23 it indicates the tunnel category. Compare mandatory D12 and recommended-route F32.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79`.
+
+### C10 · No bicycles or class II mopeds
+
+Official Swedish: **Förbud mot trafik med cykel och moped klass II**. Primary group: RB12.
+
+Bicycles and class II mopeds are prohibited. If the prohibition also covers class I mopeds, a supplementary panel states this. Compare C11, which concerns class II mopeds without prohibiting bicycles through that sign alone.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-cykel-och-moped-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850`.
+
+### C11 · No class II mopeds
+
+Official Swedish: **Förbud mot trafik med moped klass II**. Primary group: RB12.
+
+Class II mopeds are prohibited. If the prohibition also covers class I mopeds, a supplementary panel states this. Compare C10, whose bicycle symbol covers bicycles and class II mopeds.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-moped-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543`.
+
+### C12 · No vehicles drawn by draught animals
+
+Official Swedish: **Förbud mot trafik med fordon förspänt med dragdjur**. Primary group: RB12.
+
+Traffic with vehicles drawn by draught animals is prohibited. The restriction concerns animal-drawn vehicles rather than riding on an animal. The horse-and-cart illustration is an example of the class. Compare C14 for riding.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-forspant-med-dragdjur/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac`.
+
+### C13 · No off-road motor vehicles or off-road trailers
+
+Official Swedish: **Förbud mot trafik med terrängmotorfordon och terrängsläp**. Primary group: RB12.
+
+Off-road motor vehicles and off-road trailers are prohibited. If off-road wagons are exempt from the prohibition, this is stated on a supplementary panel. Read the vehicle class and any panel; the snowmobile picture is not the whole scope.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd`.
+
+### C14 · No riding
+
+Official Swedish: **Förbud mot ridning**. Primary group: RB12.
+
+Riding is prohibited. If leading a riding animal is also prohibited, a supplementary panel states this. Compare C12 for vehicles drawn by draught animals; leading an animal is not automatically covered by C14 alone.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-ridning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219`.
+
+### C15 · No pedestrians
+
+Official Swedish: **Förbud mot gångtrafik**. Primary group: RB12.
+
+Pedestrian traffic is prohibited. Choose a permitted route for walking rather than entering the restricted section. The walking-person symbol identifies pedestrian access, not a general prohibition on all traffic.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-gangtrafik/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723`.
+
+### C29 · No overtaking with a heavy lorry
+
+Official Swedish: **Förbud mot omkörning med tung lastbil**. Primary group: RB17.
+
+A heavy lorry must not overtake other motor-driven vehicles except two-wheeled mopeds and two-wheeled motorcycles without sidecars. The prohibition applies along the road until C30 ends it. The heavy-lorry-and-car illustration restricts the overtaking driver; it does not ban heavy-lorry access.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-omkorning-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d`.
+
+### C30 · End of heavy-lorry overtaking prohibition
+
+Official Swedish: **Slut på förbud mot omkörning med tung lastbil**. Primary group: RB17.
+
+The heavy-lorry overtaking prohibition indicated by C29 ends here. Continue to apply the ordinary overtaking rules and check that any manoeuvre is safe and permitted. The crossed-out lorry-and-car symbol ends that particular restriction; it is not an instruction to overtake.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/slut-pa-forbud-mot-omkorning-med-tung-lastbil/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173`.
+
+### C33 · Stop at customs
+
+Official Swedish: **Stopp vid tull**. Primary group: RB22.
+
+Stop at the customs point. Read the customs wording beneath the horizontal bar to identify the reason for stopping. The question artwork says TULL/TOLD. Official TULL/TOLL, TULL/TULLI and TULL/ZOLL variants use other customs-language combinations.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-vid-tull/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5`.
+
+### C34 · Stop for the stated purpose
+
+Official Swedish: **Stopp för angivet ändamål**. Primary group: RB12.
+
+Stop for the reason written below the horizontal bar. When the sign is placed before a traffic signal, a vehicle passing that signal must stop at red, at the stop line or, if there is none, at the sign. This exact illustration says STOPP SIGNAL. Other official examples say FÄRJA, KONTROLL or VAKT; read the actual stated purpose.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-for-angivet-andamal/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5`.
+
+### D8 · Compulsory riding path
+
+Official Swedish: **Påbjuden ridväg**. Primary group: RB12.
+
+This is a designated riding path. Walking is also permitted; do not interpret the rider symbol as excluding pedestrians. Compare prohibitory C14, whose red-ringed symbol prohibits riding.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-ridvag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c`.
+
+### D9 · Compulsory off-road vehicle route
+
+Official Swedish: **Påbjuden led för terrängmotorfordon och terrängsläp**. Primary group: RB12.
+
+This is a designated route for off-road motor vehicles and off-road trailers. Walking is also permitted. The blue snowmobile symbol is a route instruction; red-ringed C13 prohibits the relevant traffic.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-led-for-terrangmotorfordon-och-terrangslap/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23`.
+
+### D12 · Required direction for specified dangerous-goods vehicles
+
+Official Swedish: **Påbjuden körriktning för fordon lastat med farligt gods**. Primary group: RB22.
+
+Vehicles carrying loads subject to the dangerous-goods orange-plate marking requirement must follow the indicated direction. If a letter is shown, the instruction applies only to vehicles barred from a tunnel of that category. The question variant shows a left arrow with no letter. The official B-letter/right-arrow variant has the stated tunnel-category qualification.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a`.
+
+### E23 · Taxi standing-place boundary
+
+Official Swedish: **Taxi**. Primary group: RB16.
+
+This sign marks the far end, in the direction of travel, of a special standing place for vehicles used in taxi traffic. Read it as a boundary of that place rather than a general taxi-service destination. The blue TAXI panel identifies the designated standing-place instruction.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f`.
+
+### E24 · Automatic traffic surveillance
+
+Official Swedish: **Automatisk trafikövervakning**. Primary group: RB11.
+
+Automatic camera or equivalent monitoring may take place here to enforce traffic rules, taxation or charges; personal data may be recorded under the applicable rules. If it concerns a longer road section, T1 states its length and the sign is repeated at suitable intervals. The camera illustration is broader than speed-camera enforcement alone.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4`.
+
+### E25 · Road charge or tax
+
+Official Swedish: **Betalväg**. Primary group: RB23.
+
+A fee or special tax must be paid when travelling on a particular road or within a particular area. Check the applicable charging conditions for the route. The payment illustration announces charging; it does not by itself specify the amount or payment method.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3`.

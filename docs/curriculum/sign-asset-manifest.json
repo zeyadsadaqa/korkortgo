@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "checked_on": "2026-10-03",
   "source_register": "sign-sources.json",
-  "source_register_sha256": "f0b4501a72465f1f10773c5f64499ae904efc636fbd9ac0745531ab331905a83",
+  "source_register_sha256": "076428e4628c3c6428397fe9c2fb193b98a247e7f479040eba55363b69907027",
   "scope": "Original official raster and linked EPS files for all selected signs and directly linked alternatives. CAD excluded: not needed for PDF layout.",
   "assets": [
     {
@@ -41274,6 +41274,1154 @@
       "quality_notes": [],
       "visually_reviewed_on": "2026-10-01",
       "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01"
+    },
+    {
+      "asset_id": "H1-ASSET-A6",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a06.-varning-for-bro/a6-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A6"
+      ],
+      "selected_codes": [
+        "A6"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a6.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+      "bytes": 10712,
+      "format": "PNG",
+      "width_px": 457,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.693,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a06.-varning-for-bro/a6-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/1d0344435f9cea03a30b2209.png",
+        "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+        "content_sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för bro",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 457,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A7",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a07.-varning-for-kaj/a7-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A7"
+      ],
+      "selected_codes": [
+        "A7"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a7.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+      "bytes": 13754,
+      "format": "PNG",
+      "width_px": 457,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.693,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a07.-varning-for-kaj/a7-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c5e04f85f424470639a1c5f2.png",
+        "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+        "content_sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för kaj",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 457,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A12",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a12.-varning-for-stenras/a12-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A12"
+      ],
+      "selected_codes": [
+        "A12"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a12.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+      "bytes": 13777,
+      "format": "PNG",
+      "width_px": 475,
+      "height_px": 419,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        40.217,
+        35.475
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a12.-varning-for-stenras/a12-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e631623f64a875650d1286ad.png",
+        "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+        "content_sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för stenras",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 475,
+        "height": 419
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A17",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a17.-varning-for-skidakare/a17-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A17"
+      ],
+      "selected_codes": [
+        "A17"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a17.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+      "bytes": 15484,
+      "format": "PNG",
+      "width_px": 458,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.777,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a17.-varning-for-skidakare/a17-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/43f61e4bf592fd5d3f6a9df0.png",
+        "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+        "content_sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för skidåkare",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 458,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A23",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a23.-varning-for-lagt-flygande-flygplan/a23-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A23"
+      ],
+      "selected_codes": [
+        "A23"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a23.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+      "bytes": 11568,
+      "format": "PNG",
+      "width_px": 457,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.693,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a23.-varning-for-lagt-flygande-flygplan/a23-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/bf44da8bef1806a42f59785a.png",
+        "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+        "content_sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för lågt flygande flygplan",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 457,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A32",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a32.-varning-for-fordon-med-forspant-dragdjur/a32-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A32"
+      ],
+      "selected_codes": [
+        "A32"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a32.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+      "bytes": 13694,
+      "format": "PNG",
+      "width_px": 457,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.693,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a32.-varning-for-fordon-med-forspant-dragdjur/a32-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5d76e79cb32f4d17196df19d.png",
+        "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+        "content_sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för fordon med förspänt dragdjur",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 457,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-A33",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a33.-varning-for-terrangskotertrafik/a33-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-A33"
+      ],
+      "selected_codes": [
+        "A33"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-a33.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+      "bytes": 13259,
+      "format": "PNG",
+      "width_px": 457,
+      "height_px": 406,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        38.693,
+        34.375
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/a.-varningsmarken/a33.-varning-for-terrangskotertrafik/a33-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/bad1854f399543d6841a7bf4.png",
+        "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+        "content_sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+        "retrieved_on": "2026-10-13",
+        "alt": "Varning för terrängskotertrafik",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 457,
+        "height": 406
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C4",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c04.-forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/c4-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C4"
+      ],
+      "selected_codes": [
+        "C4"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c4.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+      "bytes": 9174,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c04.-forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/c4-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7631525f48f7affde43d0b77.png",
+        "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+        "content_sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med motordrivet fordon med fler än två hjul",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C5",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c05.-forbud-mot-trafik-med-motorcykel-och-moped-klass-i/c5-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C5"
+      ],
+      "selected_codes": [
+        "C5"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c5.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+      "bytes": 9926,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c05.-forbud-mot-trafik-med-motorcykel-och-moped-klass-i/c5-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/1c6bbc3d119a3d6b1813cb2d.png",
+        "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+        "content_sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med motorcykel och moped klass I",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C7",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c07.-forbud-mot-trafik-med-tung-lastbil/c7-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C7"
+      ],
+      "selected_codes": [
+        "C7"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c7.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+      "bytes": 9723,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c07.-forbud-mot-trafik-med-tung-lastbil/c7-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/0da2e0b173e4ea925f586498.png",
+        "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+        "content_sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med tung lastbil",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C8",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c08.-forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/c8-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C8"
+      ],
+      "selected_codes": [
+        "C8"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c8.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+      "bytes": 13074,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c08.-forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/c8-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/0bef3f49ba8a523d575b31af.png",
+        "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+        "content_sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med traktor och motorredskap klass II",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C9",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c09.-forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/c9-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C9"
+      ],
+      "selected_codes": [
+        "C9"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c9.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+      "bytes": 8752,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c09.-forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/c9-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ff464df963d5eacd7996a3a7.png",
+        "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+        "content_sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med fordon lastat med farligt gods",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C10",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c10.-forbud-mot-trafik-med-cykel-och-moped-klass-ii/c10-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C10"
+      ],
+      "selected_codes": [
+        "C10"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c10.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+      "bytes": 13108,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c10.-forbud-mot-trafik-med-cykel-och-moped-klass-ii/c10-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a9f5e725046b622d335f98b7.png",
+        "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+        "content_sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med cykel och moped klass II",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C11",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c11.-forbud-mot-trafik-med-moped-klass-ii/c11-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C11"
+      ],
+      "selected_codes": [
+        "C11"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c11.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+      "bytes": 12637,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c11.-forbud-mot-trafik-med-moped-klass-ii/c11-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/85a55576373a491165f07ae4.png",
+        "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+        "content_sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med moped klass II",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C12",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c12.-forbud-mot-trafik-med-fordon-forspant-med-dragdjur/c12-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C12"
+      ],
+      "selected_codes": [
+        "C12"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c12.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+      "bytes": 11120,
+      "format": "PNG",
+      "width_px": 342,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.956,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c12.-forbud-mot-trafik-med-fordon-forspant-med-dragdjur/c12-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ae5a24a6dd938ce12aefbfd7.png",
+        "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+        "content_sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med fordon förspänt med dragdjur",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 342,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C13",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c13.-forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/c13-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C13"
+      ],
+      "selected_codes": [
+        "C13"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c13.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+      "bytes": 11367,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c13.-forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/c13-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/23625eedecfec2f8b5ad8138.png",
+        "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+        "content_sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot trafik med terrängmotorfordon och terrängsläp",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C14",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c14.-forbud-mot-ridning/c14-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C14"
+      ],
+      "selected_codes": [
+        "C14"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c14.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+      "bytes": 12720,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c14.-forbud-mot-ridning/c14-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/6b30c25eff7a1936045787ff.png",
+        "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+        "content_sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot ridning",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C15",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c15.-forbud-mot-gangtrafik/c15-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C15"
+      ],
+      "selected_codes": [
+        "C15"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c15.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+      "bytes": 12114,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c15.-forbud-mot-gangtrafik/c15-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c9cd09c47636b91046ff87b9.png",
+        "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+        "content_sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot gångtrafik",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C29",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c29.-forbud-mot-omkorning-med-tung-lastbil/c29-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C29"
+      ],
+      "selected_codes": [
+        "C29"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c29.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+      "bytes": 9029,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c29.-forbud-mot-omkorning-med-tung-lastbil/c29-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/32e9e803ac99e3b631a2d73b.png",
+        "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+        "content_sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+        "retrieved_on": "2026-10-13",
+        "alt": "Förbud mot omkörning med tung lastbil",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C30",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c30.-slut-pa-forbud-mot-omkorning-med-tung-lastbil/c30-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C30"
+      ],
+      "selected_codes": [
+        "C30"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c30.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+      "bytes": 7520,
+      "format": "PNG",
+      "width_px": 341,
+      "height_px": 341,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.871,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c30.-slut-pa-forbud-mot-omkorning-med-tung-lastbil/c30-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/75dc0c4e23299adbb5bae975.png",
+        "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+        "content_sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+        "retrieved_on": "2026-10-13",
+        "alt": "Slut på förbud mot omkörning med tung lastbil",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 341,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C33",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c33.-stopp-vid-tull/c33-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C33"
+      ],
+      "selected_codes": [
+        "C33"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c33.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+      "bytes": 5287,
+      "format": "PNG",
+      "width_px": 342,
+      "height_px": 341,
+      "mode": "P",
+      "max_size_mm_at_300ppi": [
+        28.956,
+        28.871
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c33.-stopp-vid-tull/c33-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/941fe69798300d1aa3e19ab8.png",
+        "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+        "content_sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+        "retrieved_on": "2026-10-13",
+        "alt": "Stopp vid tull",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 342,
+        "height": 341
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-C34",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c34.-stopp-for-angivet-andamal/c34.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-C34"
+      ],
+      "selected_codes": [
+        "C34"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-c34.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+      "bytes": 15918,
+      "format": "PNG",
+      "width_px": 842,
+      "height_px": 842,
+      "mode": "P",
+      "max_size_mm_at_300ppi": [
+        71.289,
+        71.289
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/c.-forbudsmarken/c34.-stopp-for-angivet-andamal/c34.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/79261c4f2446dd2760725417.png",
+        "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+        "content_sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+        "retrieved_on": "2026-10-13",
+        "alt": "Stopp för angivet ändamål",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 842,
+        "height": 842
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-D8",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d08.-pabjuden-ridvag/d8-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-D8"
+      ],
+      "selected_codes": [
+        "D8"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-d8.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+      "bytes": 15240,
+      "format": "PNG",
+      "width_px": 342,
+      "height_px": 342,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.956,
+        28.956
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d08.-pabjuden-ridvag/d8-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/1e0cd4b44ff83d8f20d4ce7e.png",
+        "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+        "content_sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+        "retrieved_on": "2026-10-13",
+        "alt": "Påbjuden ridväg",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 342,
+        "height": 342
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-D9",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d09.-pabjuden-led-for-terrangmotorfordon-och-terrangslap/d9-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-D9"
+      ],
+      "selected_codes": [
+        "D9"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-d9.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+      "bytes": 14528,
+      "format": "PNG",
+      "width_px": 342,
+      "height_px": 342,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.956,
+        28.956
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d09.-pabjuden-led-for-terrangmotorfordon-och-terrangslap/d9-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3d04d7469ec71cb86fc9d180.png",
+        "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+        "content_sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+        "retrieved_on": "2026-10-13",
+        "alt": "Påbjuden led för terrängmotorfordon och terrängsläp",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 342,
+        "height": 342
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-D12",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d12.-pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/d12-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-D12"
+      ],
+      "selected_codes": [
+        "D12"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-d12.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+      "bytes": 9205,
+      "format": "PNG",
+      "width_px": 1191,
+      "height_px": 842,
+      "mode": "P",
+      "max_size_mm_at_300ppi": [
+        100.838,
+        71.289
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/d.-pabudsmarken/d12.-pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/d12-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/dd9bf41024a35e9fbf9f1a88.png",
+        "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+        "content_sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+        "retrieved_on": "2026-10-13",
+        "alt": "Påbjuden körriktning för fordon lastat med farligt gods",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 1191,
+        "height": 842
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-E23",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e23.-taxi/e23-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-E23"
+      ],
+      "selected_codes": [
+        "E23"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-e23.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+      "bytes": 3681,
+      "format": "PNG",
+      "width_px": 257,
+      "height_px": 173,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        21.759,
+        14.647
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e23.-taxi/e23-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3ac266ba30fc7a8adba1859f.png",
+        "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+        "content_sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+        "retrieved_on": "2026-10-13",
+        "alt": "Taxi",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 257,
+        "height": 173
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-E24",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e24.-automatisk-trafikovervakning/e24-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-E24"
+      ],
+      "selected_codes": [
+        "E24"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-e24.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+      "bytes": 5334,
+      "format": "PNG",
+      "width_px": 343,
+      "height_px": 343,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        29.041,
+        29.041
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e24.-automatisk-trafikovervakning/e24-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/cef8b77d37d6f93c00ea5a12.png",
+        "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+        "content_sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+        "retrieved_on": "2026-10-13",
+        "alt": "Automatisk trafikövervakning",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 343,
+        "height": 343
+      },
+      "execution_step": "H1"
+    },
+    {
+      "asset_id": "H1-ASSET-E25",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e25.-betalvag/e25-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-E25"
+      ],
+      "selected_codes": [
+        "E25"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h1-e25.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+      "bytes": 9476,
+      "format": "PNG",
+      "width_px": 342,
+      "height_px": 342,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        28.956,
+        28.956
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/e.-anvisningsmarken/e25.-betalvag/e25-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/331e6d675ebc5736360aa00c.png",
+        "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+        "content_sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+        "retrieved_on": "2026-10-13",
+        "alt": "Betalväg",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 342,
+        "height": 342
+      },
+      "execution_step": "H1"
     }
   ],
   "pages": [
@@ -58825,6 +59973,622 @@
         ],
         "reason": "Use verified render of official EPS for clearer reproduction."
       }
+    },
+    {
+      "source_id": "H0-SIGN-A6",
+      "title": "A6 Varning för bro",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-bro/",
+      "selected_codes": [
+        "A6"
+      ],
+      "raster_asset_id": "H1-ASSET-A6",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a6.png",
+        "source_asset_id": "H1-ASSET-A6",
+        "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A7",
+      "title": "A7 Varning för kaj",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-kaj/",
+      "selected_codes": [
+        "A7"
+      ],
+      "raster_asset_id": "H1-ASSET-A7",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a7.png",
+        "source_asset_id": "H1-ASSET-A7",
+        "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A12",
+      "title": "A12 Varning för stenras",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-stenras/",
+      "selected_codes": [
+        "A12"
+      ],
+      "raster_asset_id": "H1-ASSET-A12",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a12.png",
+        "source_asset_id": "H1-ASSET-A12",
+        "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+        "max_size_mm_at_300ppi": [
+          40.217,
+          35.475
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A17",
+      "title": "A17 Varning för skidåkare",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-skidakare/",
+      "selected_codes": [
+        "A17"
+      ],
+      "raster_asset_id": "H1-ASSET-A17",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a17.png",
+        "source_asset_id": "H1-ASSET-A17",
+        "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+        "max_size_mm_at_300ppi": [
+          38.777,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A23",
+      "title": "A23 Varning för lågt flygande flygplan",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-lagt-flygande-flygplan/",
+      "selected_codes": [
+        "A23"
+      ],
+      "raster_asset_id": "H1-ASSET-A23",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a23.png",
+        "source_asset_id": "H1-ASSET-A23",
+        "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A32",
+      "title": "A32 Varning för fordon med förspänt dragdjur",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/",
+      "selected_codes": [
+        "A32"
+      ],
+      "raster_asset_id": "H1-ASSET-A32",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a32.png",
+        "source_asset_id": "H1-ASSET-A32",
+        "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-A33",
+      "title": "A33 Varning för terrängskotertrafik",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/",
+      "selected_codes": [
+        "A33"
+      ],
+      "raster_asset_id": "H1-ASSET-A33",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-a33.png",
+        "source_asset_id": "H1-ASSET-A33",
+        "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+        "max_size_mm_at_300ppi": [
+          38.693,
+          34.375
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C4",
+      "title": "C4 Förbud mot trafik med motordrivet fordon med fler än två hjul",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/",
+      "selected_codes": [
+        "C4"
+      ],
+      "raster_asset_id": "H1-ASSET-C4",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c4.png",
+        "source_asset_id": "H1-ASSET-C4",
+        "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C5",
+      "title": "C5 Förbud mot trafik med motorcykel och moped klass I",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motorcykel-och-moped-klass-i/",
+      "selected_codes": [
+        "C5"
+      ],
+      "raster_asset_id": "H1-ASSET-C5",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c5.png",
+        "source_asset_id": "H1-ASSET-C5",
+        "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C7",
+      "title": "C7 Förbud mot trafik med tung lastbil",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-tung-lastbil/",
+      "selected_codes": [
+        "C7"
+      ],
+      "raster_asset_id": "H1-ASSET-C7",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c7.png",
+        "source_asset_id": "H1-ASSET-C7",
+        "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C8",
+      "title": "C8 Förbud mot trafik med traktor och motorredskap klass II",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/",
+      "selected_codes": [
+        "C8"
+      ],
+      "raster_asset_id": "H1-ASSET-C8",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c8.png",
+        "source_asset_id": "H1-ASSET-C8",
+        "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C9",
+      "title": "C9 Förbud mot trafik med fordon lastat med farligt gods",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/",
+      "selected_codes": [
+        "C9"
+      ],
+      "raster_asset_id": "H1-ASSET-C9",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c9.png",
+        "source_asset_id": "H1-ASSET-C9",
+        "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C10",
+      "title": "C10 Förbud mot trafik med cykel och moped klass II",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-cykel-och-moped-klass-ii/",
+      "selected_codes": [
+        "C10"
+      ],
+      "raster_asset_id": "H1-ASSET-C10",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c10.png",
+        "source_asset_id": "H1-ASSET-C10",
+        "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C11",
+      "title": "C11 Förbud mot trafik med moped klass II",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-moped-klass-ii/",
+      "selected_codes": [
+        "C11"
+      ],
+      "raster_asset_id": "H1-ASSET-C11",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c11.png",
+        "source_asset_id": "H1-ASSET-C11",
+        "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C12",
+      "title": "C12 Förbud mot trafik med fordon förspänt med dragdjur",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-forspant-med-dragdjur/",
+      "selected_codes": [
+        "C12"
+      ],
+      "raster_asset_id": "H1-ASSET-C12",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c12.png",
+        "source_asset_id": "H1-ASSET-C12",
+        "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C13",
+      "title": "C13 Förbud mot trafik med terrängmotorfordon och terrängsläp",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/",
+      "selected_codes": [
+        "C13"
+      ],
+      "raster_asset_id": "H1-ASSET-C13",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c13.png",
+        "source_asset_id": "H1-ASSET-C13",
+        "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C14",
+      "title": "C14 Förbud mot ridning",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-ridning/",
+      "selected_codes": [
+        "C14"
+      ],
+      "raster_asset_id": "H1-ASSET-C14",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c14.png",
+        "source_asset_id": "H1-ASSET-C14",
+        "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C15",
+      "title": "C15 Förbud mot gångtrafik",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-gangtrafik/",
+      "selected_codes": [
+        "C15"
+      ],
+      "raster_asset_id": "H1-ASSET-C15",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c15.png",
+        "source_asset_id": "H1-ASSET-C15",
+        "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C29",
+      "title": "C29 Förbud mot omkörning med tung lastbil",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-omkorning-med-tung-lastbil/",
+      "selected_codes": [
+        "C29"
+      ],
+      "raster_asset_id": "H1-ASSET-C29",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c29.png",
+        "source_asset_id": "H1-ASSET-C29",
+        "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C30",
+      "title": "C30 Slut på förbud mot omkörning med tung lastbil",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/slut-pa-forbud-mot-omkorning-med-tung-lastbil/",
+      "selected_codes": [
+        "C30"
+      ],
+      "raster_asset_id": "H1-ASSET-C30",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c30.png",
+        "source_asset_id": "H1-ASSET-C30",
+        "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C33",
+      "title": "C33 Stopp vid tull",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-vid-tull/",
+      "selected_codes": [
+        "C33"
+      ],
+      "raster_asset_id": "H1-ASSET-C33",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c33.png",
+        "source_asset_id": "H1-ASSET-C33",
+        "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-C34",
+      "title": "C34 Stopp för angivet ändamål",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-for-angivet-andamal/",
+      "selected_codes": [
+        "C34"
+      ],
+      "raster_asset_id": "H1-ASSET-C34",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-c34.png",
+        "source_asset_id": "H1-ASSET-C34",
+        "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+        "max_size_mm_at_300ppi": [
+          71.289,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-D8",
+      "title": "D8 Påbjuden ridväg",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-ridvag/",
+      "selected_codes": [
+        "D8"
+      ],
+      "raster_asset_id": "H1-ASSET-D8",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d8.png",
+        "source_asset_id": "H1-ASSET-D8",
+        "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-D9",
+      "title": "D9 Påbjuden led för terrängmotorfordon och terrängsläp",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-led-for-terrangmotorfordon-och-terrangslap/",
+      "selected_codes": [
+        "D9"
+      ],
+      "raster_asset_id": "H1-ASSET-D9",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d9.png",
+        "source_asset_id": "H1-ASSET-D9",
+        "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-D12",
+      "title": "D12 Påbjuden körriktning för fordon lastat med farligt gods",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/",
+      "selected_codes": [
+        "D12"
+      ],
+      "raster_asset_id": "H1-ASSET-D12",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-d12.png",
+        "source_asset_id": "H1-ASSET-D12",
+        "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+        "max_size_mm_at_300ppi": [
+          100.838,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-E23",
+      "title": "E23 Taxi",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/",
+      "selected_codes": [
+        "E23"
+      ],
+      "raster_asset_id": "H1-ASSET-E23",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e23.png",
+        "source_asset_id": "H1-ASSET-E23",
+        "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+        "max_size_mm_at_300ppi": [
+          21.759,
+          14.647
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-E24",
+      "title": "E24 Automatisk trafikövervakning",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/",
+      "selected_codes": [
+        "E24"
+      ],
+      "raster_asset_id": "H1-ASSET-E24",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e24.png",
+        "source_asset_id": "H1-ASSET-E24",
+        "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+        "max_size_mm_at_300ppi": [
+          29.041,
+          29.041
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
+    },
+    {
+      "source_id": "H0-SIGN-E25",
+      "title": "E25 Betalväg",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/",
+      "selected_codes": [
+        "E25"
+      ],
+      "raster_asset_id": "H1-ASSET-E25",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h1-e25.png",
+        "source_asset_id": "H1-ASSET-E25",
+        "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          28.956
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H1"
     }
   ],
   "held_requests": [
@@ -58959,16 +60723,16 @@
     }
   ],
   "summary": {
-    "selected_identifiers": 263,
-    "source_pages": 498,
-    "original_rasters": 498,
+    "selected_identifiers": 291,
+    "source_pages": 526,
+    "original_rasters": 526,
     "original_eps": 495,
     "download_failures": 0,
-    "original_bytes": 392448369,
+    "original_bytes": 392759550,
     "raster_decode_failures": 0,
     "eps_render_failures": 0,
     "derived_300ppi_renders": 495,
-    "usable_page_candidates": 494,
+    "usable_page_candidates": 522,
     "held_page_candidates": 4,
     "step_4C_status": "complete_with_explicit_quality_holds",
     "publication_status": "not_approved; captions, placement, design and final rendered-page verification remain",
@@ -59342,5 +61106,39 @@
       "method": "pypdf crop and affine scale; outside poster text removed; sign vector paths and colours unchanged"
     }
   ],
-  "resolution_review": "sign-assets/official-poster/README.md"
+  "resolution_review": "sign-assets/official-poster/README.md",
+  "h1_extension": {
+    "completed_on": "2026-10-13",
+    "codes": [
+      "A6",
+      "A7",
+      "A12",
+      "A17",
+      "A23",
+      "A32",
+      "A33",
+      "C4",
+      "C5",
+      "C7",
+      "C8",
+      "C9",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C29",
+      "C30",
+      "C33",
+      "C34",
+      "D8",
+      "D9",
+      "D12",
+      "E23",
+      "E24",
+      "E25"
+    ],
+    "scope": "28 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
+  }
 }
