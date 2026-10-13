@@ -1,17 +1,17 @@
 {
   "status": "passed",
-  "pages": 211,
+  "pages": 225,
   "appendices": 4,
   "reference_groups": 24,
-  "unique_official_entries": 349,
+  "unique_official_entries": 385,
   "vector_placements": 13,
   "manuscript_blocks_and_cells_preserved": 312,
   "glossary_terms": 38,
   "practice_prompts": 9,
   "manuscript_source_references": 114,
-  "external_reference_urls": 463,
-  "valid_internal_links": 610,
-  "named_destinations": 561,
+  "external_reference_urls": 499,
+  "valid_internal_links": 660,
+  "named_destinations": 611,
   "embedded_fonts": [
     "/AAAAAA+SourceSans3-Regular",
     "/AAAAAA+SourceSans3-Semibold",
@@ -19,8 +19,8 @@
     "/AAAAAA+SourceSerif4-Semibold"
   ],
   "reproducible": true,
-  "sha256": "4111f4a1546633fca53a7dbba0efe75cd63760df311a47ea00dacf1365211bbb",
-  "visual_review": "../../question-book-review/remaining-gap-execution-plan.md, H1 execution record",
+  "sha256": "b09da416bfd362cc8d87a45ca4fa42eb76523951b523dbe6e0ae1016ab5eec07",
+  "visual_review": "../../question-book-review/remaining-gap-execution-plan.md, H1/H2 execution records",
   "h1": {
     "codes": [
       "A12",
@@ -56,288 +56,691 @@
       {
         "question_id": "sign-meaning-A6",
         "sign_code": "A6",
-        "component_page": 117
+        "component_page": 130
       },
       {
         "question_id": "sign-recognise-A6",
         "sign_code": "A6",
-        "component_page": 117
+        "component_page": 130
       },
       {
         "question_id": "sign-meaning-A7",
         "sign_code": "A7",
-        "component_page": 117
+        "component_page": 130
       },
       {
         "question_id": "sign-recognise-A7",
         "sign_code": "A7",
-        "component_page": 117
+        "component_page": 130
       },
       {
         "question_id": "sign-meaning-A12",
         "sign_code": "A12",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-recognise-A12",
         "sign_code": "A12",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-meaning-A17",
         "sign_code": "A17",
-        "component_page": 89
+        "component_page": 102
       },
       {
         "question_id": "sign-recognise-A17",
         "sign_code": "A17",
-        "component_page": 89
+        "component_page": 102
       },
       {
         "question_id": "sign-meaning-A23",
         "sign_code": "A23",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-recognise-A23",
         "sign_code": "A23",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-meaning-A32",
         "sign_code": "A32",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-recognise-A32",
         "sign_code": "A32",
-        "component_page": 118
+        "component_page": 131
       },
       {
         "question_id": "sign-meaning-A33",
         "sign_code": "A33",
-        "component_page": 146
+        "component_page": 159
       },
       {
         "question_id": "sign-recognise-A33",
         "sign_code": "A33",
-        "component_page": 146
+        "component_page": 159
       },
       {
         "question_id": "sign-meaning-C4",
         "sign_code": "C4",
-        "component_page": 76
+        "component_page": 89
       },
       {
         "question_id": "sign-recognise-C4",
         "sign_code": "C4",
-        "component_page": 76
+        "component_page": 89
       },
       {
         "question_id": "sign-meaning-C5",
         "sign_code": "C5",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-recognise-C5",
         "sign_code": "C5",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-meaning-C7",
         "sign_code": "C7",
-        "component_page": 154
+        "component_page": 167
       },
       {
         "question_id": "sign-recognise-C7",
         "sign_code": "C7",
-        "component_page": 154
+        "component_page": 167
       },
       {
         "question_id": "sign-meaning-C8",
         "sign_code": "C8",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-recognise-C8",
         "sign_code": "C8",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-meaning-C9",
         "sign_code": "C9",
-        "component_page": 155
+        "component_page": 168
       },
       {
         "question_id": "sign-recognise-C9",
         "sign_code": "C9",
-        "component_page": 155
+        "component_page": 168
       },
       {
         "question_id": "sign-meaning-C10",
         "sign_code": "C10",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-recognise-C10",
         "sign_code": "C10",
-        "component_page": 77
+        "component_page": 90
       },
       {
         "question_id": "sign-meaning-C11",
         "sign_code": "C11",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-recognise-C11",
         "sign_code": "C11",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-meaning-C12",
         "sign_code": "C12",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-recognise-C12",
         "sign_code": "C12",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-meaning-C13",
         "sign_code": "C13",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-recognise-C13",
         "sign_code": "C13",
-        "component_page": 78
+        "component_page": 91
       },
       {
         "question_id": "sign-meaning-C14",
         "sign_code": "C14",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-recognise-C14",
         "sign_code": "C14",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-meaning-C15",
         "sign_code": "C15",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-recognise-C15",
         "sign_code": "C15",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-meaning-C29",
         "sign_code": "C29",
-        "component_page": 119
+        "component_page": 132
       },
       {
         "question_id": "sign-recognise-C29",
         "sign_code": "C29",
-        "component_page": 119
+        "component_page": 132
       },
       {
         "question_id": "sign-meaning-C30",
         "sign_code": "C30",
-        "component_page": 119
+        "component_page": 132
       },
       {
         "question_id": "sign-recognise-C30",
         "sign_code": "C30",
-        "component_page": 119
+        "component_page": 132
       },
       {
         "question_id": "sign-meaning-C33",
         "sign_code": "C33",
-        "component_page": 155
+        "component_page": 168
       },
       {
         "question_id": "sign-recognise-C33",
         "sign_code": "C33",
-        "component_page": 155
+        "component_page": 168
       },
       {
         "question_id": "sign-meaning-C34",
         "sign_code": "C34",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-recognise-C34",
         "sign_code": "C34",
-        "component_page": 79
+        "component_page": 92
       },
       {
         "question_id": "sign-meaning-D8",
         "sign_code": "D8",
-        "component_page": 80
+        "component_page": 93
       },
       {
         "question_id": "sign-recognise-D8",
         "sign_code": "D8",
-        "component_page": 80
+        "component_page": 93
       },
       {
         "question_id": "sign-meaning-D9",
         "sign_code": "D9",
-        "component_page": 80
+        "component_page": 93
       },
       {
         "question_id": "sign-recognise-D9",
         "sign_code": "D9",
-        "component_page": 80
+        "component_page": 93
       },
       {
         "question_id": "sign-meaning-D12",
         "sign_code": "D12",
-        "component_page": 156
+        "component_page": 169
       },
       {
         "question_id": "sign-recognise-D12",
         "sign_code": "D12",
-        "component_page": 156
+        "component_page": 169
       },
       {
         "question_id": "sign-meaning-E23",
         "sign_code": "E23",
-        "component_page": 108
+        "component_page": 121
       },
       {
         "question_id": "sign-recognise-E23",
         "sign_code": "E23",
-        "component_page": 108
+        "component_page": 121
       },
       {
         "question_id": "sign-meaning-E24",
         "sign_code": "E24",
-        "component_page": 66
+        "component_page": 79
       },
       {
         "question_id": "sign-recognise-E24",
         "sign_code": "E24",
-        "component_page": 66
+        "component_page": 79
       },
       {
         "question_id": "sign-meaning-E25",
         "sign_code": "E25",
-        "component_page": 158
+        "component_page": 172
       },
       {
         "question_id": "sign-recognise-E25",
         "sign_code": "E25",
-        "component_page": 158
+        "component_page": 172
+      }
+    ],
+    "bank_and_full_book_unchanged": true
+  },
+  "h2": {
+    "codes": [
+      "F12",
+      "F22",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F31a",
+      "F32",
+      "F33",
+      "G1",
+      "G10",
+      "G12",
+      "G3",
+      "G5",
+      "H10",
+      "H11",
+      "H12",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21",
+      "H22",
+      "H23",
+      "H24",
+      "H25",
+      "H26",
+      "H28",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H9",
+      "J3"
+    ],
+    "question_component_pages": [
+      {
+        "question_id": "sign-meaning-F12",
+        "sign_code": "F12",
+        "component_page": 46
+      },
+      {
+        "question_id": "sign-recognise-F12",
+        "sign_code": "F12",
+        "component_page": 46
+      },
+      {
+        "question_id": "sign-meaning-F22",
+        "sign_code": "F22",
+        "component_page": 46
+      },
+      {
+        "question_id": "sign-recognise-F22",
+        "sign_code": "F22",
+        "component_page": 46
+      },
+      {
+        "question_id": "sign-meaning-F28",
+        "sign_code": "F28",
+        "component_page": 47
+      },
+      {
+        "question_id": "sign-recognise-F28",
+        "sign_code": "F28",
+        "component_page": 47
+      },
+      {
+        "question_id": "sign-meaning-F29",
+        "sign_code": "F29",
+        "component_page": 47
+      },
+      {
+        "question_id": "sign-recognise-F29",
+        "sign_code": "F29",
+        "component_page": 47
+      },
+      {
+        "question_id": "sign-meaning-F30",
+        "sign_code": "F30",
+        "component_page": 48
+      },
+      {
+        "question_id": "sign-recognise-F30",
+        "sign_code": "F30",
+        "component_page": 48
+      },
+      {
+        "question_id": "sign-meaning-F31",
+        "sign_code": "F31",
+        "component_page": 48
+      },
+      {
+        "question_id": "sign-recognise-F31",
+        "sign_code": "F31",
+        "component_page": 48
+      },
+      {
+        "question_id": "sign-meaning-F31a",
+        "sign_code": "F31a",
+        "component_page": 169
+      },
+      {
+        "question_id": "sign-recognise-F31a",
+        "sign_code": "F31a",
+        "component_page": 169
+      },
+      {
+        "question_id": "sign-meaning-F32",
+        "sign_code": "F32",
+        "component_page": 170
+      },
+      {
+        "question_id": "sign-recognise-F32",
+        "sign_code": "F32",
+        "component_page": 170
+      },
+      {
+        "question_id": "sign-meaning-F33",
+        "sign_code": "F33",
+        "component_page": 178
+      },
+      {
+        "question_id": "sign-recognise-F33",
+        "sign_code": "F33",
+        "component_page": 178
+      },
+      {
+        "question_id": "sign-meaning-G1",
+        "sign_code": "G1",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-recognise-G1",
+        "sign_code": "G1",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-meaning-G3",
+        "sign_code": "G3",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-recognise-G3",
+        "sign_code": "G3",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-meaning-G5",
+        "sign_code": "G5",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-recognise-G5",
+        "sign_code": "G5",
+        "component_page": 63
+      },
+      {
+        "question_id": "sign-meaning-G10",
+        "sign_code": "G10",
+        "component_page": 64
+      },
+      {
+        "question_id": "sign-recognise-G10",
+        "sign_code": "G10",
+        "component_page": 64
+      },
+      {
+        "question_id": "sign-meaning-G12",
+        "sign_code": "G12",
+        "component_page": 64
+      },
+      {
+        "question_id": "sign-recognise-G12",
+        "sign_code": "G12",
+        "component_page": 64
+      },
+      {
+        "question_id": "sign-meaning-H4",
+        "sign_code": "H4",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-recognise-H4",
+        "sign_code": "H4",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-meaning-H5",
+        "sign_code": "H5",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-recognise-H5",
+        "sign_code": "H5",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-meaning-H6",
+        "sign_code": "H6",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-recognise-H6",
+        "sign_code": "H6",
+        "component_page": 65
+      },
+      {
+        "question_id": "sign-meaning-H8",
+        "sign_code": "H8",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-recognise-H8",
+        "sign_code": "H8",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-meaning-H9",
+        "sign_code": "H9",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-recognise-H9",
+        "sign_code": "H9",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-meaning-H10",
+        "sign_code": "H10",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-recognise-H10",
+        "sign_code": "H10",
+        "component_page": 66
+      },
+      {
+        "question_id": "sign-meaning-H11",
+        "sign_code": "H11",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-recognise-H11",
+        "sign_code": "H11",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-meaning-H12",
+        "sign_code": "H12",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-recognise-H12",
+        "sign_code": "H12",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-meaning-H15",
+        "sign_code": "H15",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-recognise-H15",
+        "sign_code": "H15",
+        "component_page": 67
+      },
+      {
+        "question_id": "sign-meaning-H16",
+        "sign_code": "H16",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-recognise-H16",
+        "sign_code": "H16",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-meaning-H17",
+        "sign_code": "H17",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-recognise-H17",
+        "sign_code": "H17",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-meaning-H18",
+        "sign_code": "H18",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-recognise-H18",
+        "sign_code": "H18",
+        "component_page": 68
+      },
+      {
+        "question_id": "sign-meaning-H19",
+        "sign_code": "H19",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-recognise-H19",
+        "sign_code": "H19",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-meaning-H20",
+        "sign_code": "H20",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-recognise-H20",
+        "sign_code": "H20",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-meaning-H21",
+        "sign_code": "H21",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-recognise-H21",
+        "sign_code": "H21",
+        "component_page": 69
+      },
+      {
+        "question_id": "sign-meaning-H22",
+        "sign_code": "H22",
+        "component_page": 70
+      },
+      {
+        "question_id": "sign-recognise-H22",
+        "sign_code": "H22",
+        "component_page": 70
+      },
+      {
+        "question_id": "sign-meaning-H23",
+        "sign_code": "H23",
+        "component_page": 70
+      },
+      {
+        "question_id": "sign-recognise-H23",
+        "sign_code": "H23",
+        "component_page": 70
+      },
+      {
+        "question_id": "sign-meaning-H24",
+        "sign_code": "H24",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-recognise-H24",
+        "sign_code": "H24",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-meaning-H25",
+        "sign_code": "H25",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-recognise-H25",
+        "sign_code": "H25",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-meaning-H26",
+        "sign_code": "H26",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-recognise-H26",
+        "sign_code": "H26",
+        "component_page": 71
+      },
+      {
+        "question_id": "sign-meaning-H28",
+        "sign_code": "H28",
+        "component_page": 72
+      },
+      {
+        "question_id": "sign-recognise-H28",
+        "sign_code": "H28",
+        "component_page": 72
+      },
+      {
+        "question_id": "sign-meaning-J3",
+        "sign_code": "J3",
+        "component_page": 75
+      },
+      {
+        "question_id": "sign-recognise-J3",
+        "sign_code": "J3",
+        "component_page": 75
       }
     ],
     "bank_and_full_book_unchanged": true
   },
   "limits": [
     "This is the updated reference component; full-book assembly/folios and final coverage audit remain H6/H7 work",
-    "Full tagged-PDF accessibility and final publication approval remain outside this H1 check"
+    "Full tagged-PDF accessibility and final publication approval remain outside this H1/H2 check"
   ]
 }

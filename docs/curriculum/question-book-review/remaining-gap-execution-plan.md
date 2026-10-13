@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0 and H1 approved and completed on 13 October 2026; H2–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0, H1 and H2 approved and completed on 13 October 2026; H3–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -399,3 +399,78 @@ For each code below, both `sign-meaning-CODE` and `sign-recognise-CODE` map to t
 - H0 rounding findings are unchanged and remain for H5. Full assembly, final folios and full-book coverage remain H6/H7; no 828/1,000 final-book coverage claim is made from a standalone component.
 
 **Next executable scope:** H2, the 36 F/G/H/J codes and 72 questions. H2–H7 have not started.
+
+
+## H2 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H2. **Acceptance gate:** All 36 F/G/H/J codes have exact illustrated caption entries for their 72 target IDs in the reference component. The existing approved Appendix B presentation was reused; no new design was requested or implemented.
+
+### Changes and source decisions
+
+Added nine F direction entries, five G public-facility entries, 21 H service entries and J3. These extend existing groups RB07, RB09, RB10, RB22 and RB24. Canonical source, asset, caption and placement JSON registers and their Markdown views are updated, with exact official Swedish names, individual URLs, editorial English wording, exact-variant descriptions and 13 October checks. The previous 526 caption records and 349 placement bindings, including all H1 entries, are unchanged; verified against snapshots taken before H2.
+
+The 36 original PNGs are byte-identical to the H0-verified question variants. For **F30 and F31**, the original PNGs would permit only about 12 mm print width at 300 ppi. Their officially linked `f30-1.eps` and `f31-1.eps` were retrieved from Transportstyrelsen and rendered at 300 ppi using Ghostscript with EPS cropping and no artwork edits. Comparison against the original question PNGs confirmed the exact local-loop and left-facing lorry variants. Original EPS/PNG bytes, derived-image hashes, official EPS URLs and [the comparison proof](../sign-assets/proofs/h2-f30-f31.png) are retained in the asset/caption/placement records. The reference uses these clearer EPS renders; all other H2 entries use their exact official PNGs. Every placement obeys its own 300 ppi maximum and the existing renderer's artwork caps.
+
+Teaching qualifications carried forward from H0:
+
+- F28 identifies a parking garage; F29 identifies parking connected to public transport, with the transport type read from the symbol. F30 is local-loop guidance; F31 indicates a suitable route/bypass for the pictured class, not a blanket access prohibition. F31a identifies long-combination routing without claiming general permission for every combination.
+- F32 is recommended routing for orange-plate dangerous-goods loads, compared with mandatory D12 and prohibitory C9. F33 identifies a numbered rescue location at works or similar, distinct from general medical/emergency-parking facilities.
+- G12 is passenger-ferry information without a promise that a car can board. G3's station/frequency details are illustration examples, not instructions to operate a radio while driving.
+- H4's exact CNG artwork is distinguished from LPG/LNG/H₂ variants. H9/H10 distinguish many/few cottages; H11/H12/H28 distinguish tents plus living-accommodation vehicles, living-accommodation vehicles only, and motor homes only. H18/H19 distinguish seated chair lift from a ski tow.
+- H22 identifies a sight of national interest without inventing legal heritage status. H25 is a farm shop for local products, more precise than the bank's broad “Shop” label. H23's distance is to the exit/junction, not a promise that all services are immediately beside the sign. Service/public-facility symbols provide information; captions do not invent independent traffic duties or guarantee availability.
+- J3 explains a dangerous overhead electrical line. The exact wider warning is shown and the narrower official variant is identified; no numerical safe clearance is invented.
+
+The [updated reference component](../../../output/pdf/korkortgo-reference-material.pdf) now has **225 pages and 385 unique illustrated entries**, up from H1's 211 pages and 349 entries: **14 additional pages**. It remains a standalone component for H6 assembly. The full 540-page book, delivery book, bank and gaps files retain the H0 hashes; final whole-book coverage is not recalculated in H2.
+
+### H2 code-to-component-page mapping
+
+Both `sign-meaning-CODE` and `sign-recognise-CODE` map to the exact illustrated caption unit below. The existing reference verification JSON records all 72 IDs and refreshes the 56 H1 mappings to their current component pages. The H1 table above records the earlier H1 build; final assembled-book page mappings remain H6/H7 work.
+
+| Code | Existing group | Reference component page |
+|---|---|---:|
+| F12 | RB07 | 46 |
+| F22 | RB07 | 46 |
+| F28 | RB07 | 47 |
+| F29 | RB07 | 47 |
+| F30 | RB07 | 48 |
+| F31 | RB07 | 48 |
+| G1 | RB09 | 63 |
+| G3 | RB09 | 63 |
+| G5 | RB09 | 63 |
+| G10 | RB09 | 64 |
+| G12 | RB09 | 64 |
+| H4 | RB09 | 65 |
+| H5 | RB09 | 65 |
+| H6 | RB09 | 65 |
+| H8 | RB09 | 66 |
+| H9 | RB09 | 66 |
+| H10 | RB09 | 66 |
+| H11 | RB09 | 67 |
+| H12 | RB09 | 67 |
+| H15 | RB09 | 67 |
+| H16 | RB09 | 68 |
+| H17 | RB09 | 68 |
+| H18 | RB09 | 68 |
+| H19 | RB09 | 69 |
+| H20 | RB09 | 69 |
+| H21 | RB09 | 69 |
+| H22 | RB09 | 70 |
+| H23 | RB09 | 70 |
+| H24 | RB09 | 71 |
+| H25 | RB09 | 71 |
+| H26 | RB09 | 71 |
+| H28 | RB09 | 72 |
+| J3 | RB10 | 75 |
+| F31a | RB22 | 169 |
+| F32 | RB22 | 170 |
+| F33 | RB24 | 178 |
+
+### Validation and handoff
+
+- Reference verification passes all **385** placements, artwork hashes and print-size limits, complete teaching/variant/Swedish-name text, source links, appendix/glossary/practice/source fidelity, font embedding, text equivalents and all-page text bounds. All 24 existing groups remain; no duplicate or missing H2 entries.
+- **660 internal links** and **611 named destinations** pass. All 72 H2 IDs map to their actual component teaching pages; all 56 H1 target mappings remain valid.
+- Deterministic rebuild and identical source/delivery PDFs pass. Current reference SHA-256: `b09da416bfd362cc8d87a45ca4fa42eb76523951b523dbe6e0ae1016ab5eec07`.
+- Visually inspected **22 rendered pages**: 17 containing H2 entries, four lookup pages and the updated artwork-credit page. Review pages: 46, 47, 48, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 75, 169, 170, 178, 180, 181, 182, 183, 225. All inspected artwork, Swedish names, captions, wrapped URLs, separators, headers and folios are readable with no overlap or clipping. F30/F31 official print renders were separately checked against the question variants. Scratch review renders are in `tmp/pdfs/h2`; this plan and the existing reference verification/source-checks JSONs retain the results, with no new execution-report tree.
+- `python3 tools/verify_remaining_gap_baseline.py --offline --allow-teaching-changes` passes the frozen book/bank/gaps and all saved H0 evidence/artwork checks. Source-text whitespace checks pass. Prior H0 rounding findings remain for H5; no bank changes or manufactured coverage pass.
+
+**Next executable scope:** H3, the 15 M/S/T codes and 30 questions, including the recorded white-symbol contrast issue. H3–H7 have not started. Full-book assembly/folios and final 1,000-question audit remain H6/H7.

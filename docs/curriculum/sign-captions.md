@@ -6242,3 +6242,296 @@ Official Swedish: **Betalväg**. Primary group: RB23.
 A fee or special tax must be paid when travelling on a particular road or within a particular area. Check the applicable charging conditions for the route. The payment illustration announces charging; it does not by itself specify the amount or payment method.
 
 [Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3`.
+
+
+## H2 exact F/G/H/J additions — 13 October 2026
+
+Thirty-six entries extend the existing approved card presentation. Official names and artwork remain unchanged; English text and practical reminders are editorial. H0 supplies exact detail/variant and reuse evidence.
+
+### F12 · Watercourse
+
+Official Swedish: **Vattendrag**. Primary group: RB07.
+
+Identifies a watercourse by its name. Use it to recognise the location rather than as an instruction about access or priority. The question example names DALÄLVEN; the name varies with the watercourse.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/vattendrag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `1c83899b37472b5e7e53e538fd8d4ff5b0af4b6026a630ae94ad78e4ea5348a2`.
+
+### F22 · Country border
+
+Official Swedish: **Riksmärke**. Primary group: RB07.
+
+Indicates the border with Sweden or another EU country. Recognise the country named on the sign; it does not itself state a stop duty or customs procedure. The question variant says SVERIGE. The official FINLAND variant identifies another EU-country border.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/riksmarke/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c8fcd90de49b9c2f69658bcfff15a2b4d0e4f4b6a8031c15c50b6ad17b4dcecc`.
+
+### F28 · Parking garage
+
+Official Swedish: **Parkeringshus**. Primary group: RB07.
+
+Directs you to a parking garage. Its name may be included, and nearby information may state whether spaces are available or the garage is full. Check the parking conditions on arrival. The roof above P distinguishes a garage from a general parking destination.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/parkeringshus/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `576780fac3a818bc1aebc5e4acd46dbbd042055f05d6f64ba12f3494ca390703`.
+
+### F29 · Park and ride
+
+Official Swedish: **Infartsparkering**. Primary group: RB07.
+
+Identifies parking connected to public transport. The accompanying symbol shows which type of transport is available; the parking place name may also be included. The question variant uses P+T. Official alternatives depict a bus or train. It does not promise free parking or a free onward journey.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/infartsparkering/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `3932610fe3bcc398aac8a42483c2ef246ff7415f48a4c9e48b0f05ad04a1634c`.
+
+### F30 · Local loop
+
+Official Swedish: **Lokal slinga**. Primary group: RB07.
+
+Indicates a ring road or a comparable local loop. A designation may be added; use it to follow the indicated route. The loop symbol is route guidance, not a roundabout priority instruction.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lokal-slinga/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `9b08e0ccf589a00320a5681862eb3878d7ff8330abb3c1fbcceca9c199576287`.
+
+### F31 · Suitable route or bypass for a road-user class
+
+Official Swedish: **Lämplig väg eller förbifart för visst fordonsslag eller trafikantgrupp**. Primary group: RB07.
+
+Indicates a suitable route or bypass for the vehicle class or road-user group shown by the symbol. Identify that class before using the route information. The question variant shows a lorry. Other official variants depict other classes and directions; this guidance does not itself prohibit all other traffic.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lamplig-vag-eller-forbifart-for-visst-fordonsslag-eller-trafikantgrupp/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8cc1dec297e967f8e603c67d6d9021efaefb2ac12f7c9e5f8bd37026477cc071`.
+
+### F31a · Route for long vehicle combinations
+
+Official Swedish: **Färdväg för långa fordonståg**. Primary group: RB22.
+
+Indicates a route for long vehicle combinations under the applicable traffic-regulation provisions. Check the route and the requirements for the actual combination. The question artwork shows a long combination and 34.5 m. The sign is route information, not a general permission for every vehicle combination.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/fardvag-for-langa-fordonstag/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `ab5ad1bf2f158314d8a5b12634aa041081b505aa064c0f5dbd665d97bdea8d5c`.
+
+### F32 · Recommended dangerous-goods route
+
+Official Swedish: **Farligt gods**. Primary group: RB22.
+
+Indicates a recommended route for vehicles carrying loads subject to the dangerous-goods orange-plate marking requirement. Distinguish a recommendation from a mandatory direction or prohibition. Compare mandatory D12 and prohibitory C9. The orange dangerous-goods symbol identifies this route information.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/farligt-gods/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `0db992ee4cf7c0f49e74c29d0e152a934f68754ee0c57074c8d64febe1314695`.
+
+### F33 · Numbered rescue location
+
+Official Swedish: **Räddningsplats**. Primary group: RB24.
+
+Identifies a rescue location at roadworks or a similar site. The number identifies the particular rescue location. The question example is R1. This is not a general hospital, first-aid facility or emergency-parking sign.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/raddningsplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `8974d637aa3e15e1fed4b15f5f7e910c1d86e66e7d57410b0b2b316b27aaff6f`.
+
+### G1 · Postal service point
+
+Official Swedish: **Post**. Primary group: RB09.
+
+Identifies a postal agent providing letter and parcel handling and stamp sales. Use it to locate the service while still checking local access and parking conditions. The postal-horn symbol identifies postal services, not a traffic priority.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/post/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `4b19017fc3cf3d69a54860b93087c739a06bab2ad57367aabd182421133bfb86`.
+
+### G3 · Radio station for traffic information
+
+Official Swedish: **Radiostation för vägtrafikinformation**. Primary group: RB09.
+
+Identifies a radio station with regular recurring road-traffic information broadcasts intended to cover a wider area. Read the station or frequency shown. Radio FM4 and 98.7 in this illustration are example station details; this is not an instruction to operate a radio while driving.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/radiostation-for-vagtrafikinformation/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `fa7b5b517d48e0130d01def007320227d9f95be7b531e5cc4f104c6542f178d8`.
+
+### G5 · Industrial area
+
+Official Swedish: **Industriområde**. Primary group: RB09.
+
+Identifies an area for industrial or similar activities. Use it as destination information and continue to follow the local traffic instructions. The factory symbol does not itself impose a vehicle restriction.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/industriomrade/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `84f7f5e1394d6b51a9f780ec5e0c07071650d879ccc9a33e4d4d79bd1a8f032e`.
+
+### G10 · Commercial area
+
+Official Swedish: **Handelsområde**. Primary group: RB09.
+
+Identifies an area for trade or shopping. Use the symbol to locate the destination; check entry and parking rules separately. The shopping-trolley symbol identifies a commercial area rather than a single named shop.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/handelsomrade/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `2ff4f76e69d45209e5de2082b686810c1f1cf512220a50eaa2d7afa53b9e6a28`.
+
+### G12 · Passenger ferry
+
+Official Swedish: **Personfärja**. Primary group: RB09.
+
+Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Check the actual service and boarding conditions. The passenger-ferry symbol does not promise that the ferry carries your car.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/personfarja/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `951d3362877ba6df2a565fcb353bb1e05814e3e83091acc466a2a3a0e82d5eda`.
+
+### H4 · Gas for vehicle propulsion
+
+Official Swedish: **Gas för fordonsdrift**. Primary group: RB09.
+
+Identifies a facility supplying vehicle gas. The abbreviation states the gas type; CNG means compressed natural gas. Check the fuel type required by your vehicle. The question illustration says CNG. Official LPG, LNG and H₂ variants identify other gas types; do not treat them as interchangeable fuels.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gas-for-fordonsdrift/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `61843504a931dd203657e6d94737572691d5e0e81fac9fb5a30656852925d8ae`.
+
+### H5 · Light refreshments
+
+Official Swedish: **Servering**. Primary group: RB09.
+
+Identifies a facility serving drinks and simple meals. Use it as service information rather than assuming a full restaurant menu. The cup symbol distinguishes light refreshments from restaurant sign H6.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/servering/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `cdb8df91a27b083d77f12fa9e1f5aa3f40b6982099b4460af8d7760105bef0b6`.
+
+### H6 · Restaurant
+
+Official Swedish: **Restaurang**. Primary group: RB09.
+
+Identifies a restaurant. Check the actual service and opening information at the facility. The crossed cutlery distinguishes H6 from H5 light refreshments; the symbol does not promise round-the-clock opening.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/restaurang/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `bdde2713288ff3b477cd0478188ba669efa0ecf7a64ce7c00f8d457d9dd0be8d`.
+
+### H8 · Hostel
+
+Official Swedish: **Vandrarhem**. Primary group: RB09.
+
+Identifies a hostel. Check the actual accommodation and availability before relying on a stay. The hostel symbol is accommodation information, not a hotel booking or availability guarantee.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandrarhem/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `2806263fd1dda637ef874b5bfb9a6098f322739263f94561eb9355320d32d787`.
+
+### H9 · Holiday village
+
+Official Swedish: **Stugby**. Primary group: RB09.
+
+Identifies an establishment with a larger number of cottages. Use it to recognise a cottage village. The multiple-cottage illustration distinguishes H9 from H10, which concerns a small number of cottages.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stugby/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `599e81fbc45af7bce14250f094dd3a7ec4182e2b90a39be944a75f23a413bd60`.
+
+### H10 · Cottage accommodation
+
+Official Swedish: **Stuga**. Primary group: RB09.
+
+Identifies an establishment with a small number of cottages. Check its actual accommodation arrangements and availability. The single-cottage illustration contrasts with the larger cottage village indicated by H9.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stuga/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `9cd7eb365c3cc00b690d3361ddcea9c4d54350927974e27213de44b7f06cf128`.
+
+### H11 · Camp site
+
+Official Swedish: **Campingplats**. Primary group: RB09.
+
+Identifies a facility providing pitches for both tents and vehicles with living accommodation. Check the site conditions and availability. The tent symbol does not mean tents only. Compare H12 for living-accommodation vehicles only and H28 for motor homes only.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/campingplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `7daf07c69e4e36c1d0e8007e1f91440e8b2b4db3b2924c9837e9458d51224dbe`.
+
+### H12 · Caravan site
+
+Official Swedish: **Husvagnsplats**. Primary group: RB09.
+
+Identifies a facility providing pitches only for vehicles with living accommodation. It does not indicate tent pitches. The caravan illustration represents that accommodation category; compare H11 and the narrower motor-home facility H28.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/husvagnsplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `50190da5521b3c83919dbc58d8ff5134fcaf47de2fcb727f2916162106fee97b`.
+
+### H15 · Bathing place
+
+Official Swedish: **Badplats**. Primary group: RB09.
+
+Identifies a bathing beach or another bathing facility. Use it to locate the facility and check the conditions there. The swimmer symbol does not itself guarantee safe water or supervised bathing.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/badplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `3240a4862dac2ac412fc716e2bc121e40b2b0bfdc5987b02f21f91f042ec1236`.
+
+### H16 · Recreational area
+
+Official Swedish: **Friluftsområde**. Primary group: RB09.
+
+Identifies an outdoor recreational area. Use the symbol to locate the area and read local access information. The recreation symbol does not itself permit driving on paths or camping in the area.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/friluftsomrade/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `5273c6b27e2ce566b24bcdd8d01f9b04ece9906cc0018d13449b989fdc89621c`.
+
+### H17 · Hiking trail
+
+Official Swedish: **Vandringsled**. Primary group: RB09.
+
+Identifies a hiking trail. Follow the information for the trail and check its actual route and conditions. The walkers symbol identifies a trail, not a mandatory pedestrian-path instruction.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandringsled/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `df7543ce7971dcf922d71e25f2757419916a780f7410429c11f08e1e18e0638d`.
+
+### H18 · Chair lift
+
+Official Swedish: **Stollift**. Primary group: RB09.
+
+Identifies a lift facility with chairs or similar seating. Use it as facility information. The seated passenger distinguishes a chair lift from ski tow H19.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stollift/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `7eeabb921855699288b7af1e4c9d8d941f785f98e1d555d4967a54b49f9635f2`.
+
+### H19 · Ski tow
+
+Official Swedish: **Släplift**. Primary group: RB09.
+
+Identifies a lift facility where skiers are pulled along. Use it as facility information. The standing skier being towed distinguishes H19 from seated chair lift H18.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/slaplift/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `e44a4044a9e75af207fac7261c4b6cf29b702500e4274c8bd3234338bad13ae9`.
+
+### H20 · Golf course
+
+Official Swedish: **Golfbana**. Primary group: RB09.
+
+Identifies a golf course. Use it to locate the facility; admission and access conditions are separate. The golfer symbol identifies the service destination and imposes no traffic duty by itself.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/golfbana/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c4d4bb07bab9b8d5a9b2f7a4cbad90d6d5b2c582c79d1f894ad4f2c378d15531`.
+
+### H21 · Fishing licences for sale
+
+Official Swedish: **Försäljningsställe för fiskekort**. Primary group: RB09.
+
+Identifies a place selling fishing permits. Check the permit needed for the actual fishing location. The fish symbol indicates permit sales; it is not itself permission to fish or a fish-shop sign.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forsaljningsstalle-for-fiskekort/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `9790a271eacf1a892a64f7078260b8cfebcbde476bfc657c79fc0ee307fd0e17`.
+
+### H22 · Sight of national interest
+
+Official Swedish: **Sevärdhet**. Primary group: RB09.
+
+Identifies a sight of national interest. Information next to the sign states the nature of the sight. The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5`.
+
+### H23 · Advance information about nearby services
+
+Official Swedish: **Förberedande upplysning om vägnära service**. Primary group: RB09.
+
+Gives advance information about roadside service facilities, sometimes with their names. The stated distance is to the relevant exit or junction; fuel, restaurant and hotel symbols may include company names or emblems. The question example says 1 km. Read the individual service symbols rather than assuming every advertised service is immediately beside the sign.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forberedande-upplysning-om-vagnara-service/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `939d20e125daf167776aae629eab47a7d2369505e535af4b08faad491f960571`.
+
+### H24 · Bed and breakfast
+
+Official Swedish: **Rum och frukost**. Primary group: RB09.
+
+Identifies an establishment providing overnight rooms and breakfast. Check its actual accommodation arrangements. B&B with the bed illustration identifies this service, not guaranteed room availability.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/rum-och-frukost/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `e4dcda284ccdae14db5a25c985df5afa7e0e8cab31baf8c3c2f190ff67c7b906`.
+
+### H25 · Farm shop
+
+Official Swedish: **Gårdsbutik**. Primary group: RB09.
+
+Identifies an establishment selling locally made or locally grown products. Use it to locate a farm shop rather than a general shopping area. The question artwork says Gårdsbutik. It identifies a farm shop for local products rather than a general shop.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gardsbutik/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6db797e5c015182eeec96c231bf664d52632298120e500c53c7d8b4d1267391d`.
+
+### H26 · Handicrafts
+
+Official Swedish: **Hantverk**. Primary group: RB09.
+
+Identifies an establishment making and selling handicraft products. Use it to locate that activity. The craftsperson illustration concerns production and sales, not a general industrial-area sign.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/hantverk/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `d93dd59282a849c24d12164b5b471df36fa004c6e1cac88336a1047058f02ef2`.
+
+### H28 · Site only for motor homes
+
+Official Swedish: **Anläggning som enbart tillhandahåller platser för bilar med bostadsutrymme**. Primary group: RB09.
+
+Identifies a facility providing pitches only for cars with living accommodation, such as motor homes. Do not assume that tents or towed caravans are included. Compare H11 for tents and living-accommodation vehicles, and H12 for living-accommodation vehicles only.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/anlaggning-tillhandahaller-plats-for-bil-med-bostadsutrymme/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `99fbdd8a7ff9771ca9983d364202c35655d335a14d6ae5aad11a22047781f8ae`.
+
+### J3 · Dangerous overhead electrical line
+
+Official Swedish: **Livsfarlig ledning**. Primary group: RB10.
+
+Warns of an electrical line over the road or route that may present danger. Check the actual line and clearance conditions rather than treating the message as ordinary route guidance. The question artwork says Livsfarlig ledning with a lightning symbol. The official narrower format has the same warning; this sign does not state a numerical safe clearance.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d`.

@@ -8,11 +8,11 @@
   "source_policy": "Official Transportstyrelsen detail pages and primary Swedish legislation only. Variant pages with no explanation inherit the parent meaning except M19a and M20a, which have their own meanings. Practical reminders are editorial teaching advice.",
   "asset_manifest": {
     "path": "sign-asset-manifest.json",
-    "sha256": "41e58f7050118703cb4137e053521dea64444b4753b48000ba4958a08b76685b"
+    "sha256": "2df4b761115f3108f7160d8ab996acc9bb170fa293e375ba97f0647b7df657fd"
   },
   "source_register": {
     "path": "sign-sources.json",
-    "sha256": "076428e4628c3c6428397fe9c2fb193b98a247e7f479040eba55363b69907027"
+    "sha256": "03d12680e06821a69309cd3aba7bab8041b7957b0e948f29658f142ad0e9a443"
   },
   "discrepancy_rechecks": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "summary": {
-    "selected_identifiers": 291,
-    "caption_records": 526,
+    "selected_identifiers": 327,
+    "caption_records": 562,
     "additional_linked_pages": 235,
-    "eligible_images": 522,
+    "eligible_images": 558,
     "held_images": 4
   },
   "captions": [
@@ -28985,6 +28985,1456 @@
       ],
       "reviewed_on": "2026-10-13",
       "execution_step": "H1"
+    },
+    {
+      "caption_id": "CAP-F12",
+      "code": "F12",
+      "selected_parent_codes": [
+        "F12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Vattendrag",
+      "label_en": "Watercourse",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a watercourse by its name. Use it to recognise the location rather than as an instruction about access or priority.",
+      "variant_description_en": "The question example names DALÄLVEN; the name varies with the watercourse.",
+      "alt_text_en": "Watercourse. The question example names DALÄLVEN; the name varies with the watercourse.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f12.png",
+        "source_asset_id": "H2-ASSET-F12",
+        "sha256": "1c83899b37472b5e7e53e538fd8d4ff5b0af4b6026a630ae94ad78e4ea5348a2",
+        "max_size_mm_at_300ppi": [
+          39.116,
+          13.885
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/vattendrag/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "ba1a741c07ecf29b228b79b8e455788ea54b991134fc9637cb6ac07ba70bc6c8",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c511cdbf4f75eaf6ebf70f16.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F22",
+      "code": "F22",
+      "selected_parent_codes": [
+        "F22"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Riksmärke",
+      "label_en": "Country border",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates the border with Sweden or another EU country. Recognise the country named on the sign; it does not itself state a stop duty or customs procedure.",
+      "variant_description_en": "The question variant says SVERIGE. The official FINLAND variant identifies another EU-country border.",
+      "alt_text_en": "Country border. The question variant says SVERIGE. The official FINLAND variant identifies another EU-country border.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f22.png",
+        "source_asset_id": "H2-ASSET-F22",
+        "sha256": "c8fcd90de49b9c2f69658bcfff15a2b4d0e4f4b6a8031c15c50b6ad17b4dcecc",
+        "max_size_mm_at_300ppi": [
+          160.189,
+          160.105
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F22",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/riksmarke/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "af08d30f177d3ad7779379e601bab3932d32f34c58502413d128f6c0400154fb",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/9a97cc262dadded40102a8cf.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F28",
+      "code": "F28",
+      "selected_parent_codes": [
+        "F28"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Parkeringshus",
+      "label_en": "Parking garage",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Directs you to a parking garage. Its name may be included, and nearby information may state whether spaces are available or the garage is full. Check the parking conditions on arrival.",
+      "variant_description_en": "The roof above P distinguishes a garage from a general parking destination.",
+      "alt_text_en": "Parking garage. The roof above P distinguishes a garage from a general parking destination.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f28.png",
+        "source_asset_id": "H2-ASSET-F28",
+        "sha256": "576780fac3a818bc1aebc5e4acd46dbbd042055f05d6f64ba12f3494ca390703",
+        "max_size_mm_at_300ppi": [
+          19.389,
+          19.304
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F28",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/parkeringshus/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "787dd88be98f40446b37b847bc196bcae9b19c94008deb3c68c7df2f165887cf",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/20a257cafb8192ffbe8883ee.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F29",
+      "code": "F29",
+      "selected_parent_codes": [
+        "F29"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Infartsparkering",
+      "label_en": "Park and ride",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies parking connected to public transport. The accompanying symbol shows which type of transport is available; the parking place name may also be included.",
+      "variant_description_en": "The question variant uses P+T. Official alternatives depict a bus or train. It does not promise free parking or a free onward journey.",
+      "alt_text_en": "Park and ride. The question variant uses P+T. Official alternatives depict a bus or train. It does not promise free parking or a free onward journey.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f29.png",
+        "source_asset_id": "H2-ASSET-F29",
+        "sha256": "3932610fe3bcc398aac8a42483c2ef246ff7415f48a4c9e48b0f05ad04a1634c",
+        "max_size_mm_at_300ppi": [
+          24.215,
+          19.389
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F29",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/infartsparkering/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "f69ad321d1c6e786eed3db4a30f140a9ed2c85ab28e37d33dc18670cf4882428",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e76367ebc68eac8397ea8867.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F30",
+      "code": "F30",
+      "selected_parent_codes": [
+        "F30"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Lokal slinga",
+      "label_en": "Local loop",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates a ring road or a comparable local loop. A designation may be added; use it to follow the indicated route.",
+      "variant_description_en": "The loop symbol is route guidance, not a roundabout priority instruction.",
+      "alt_text_en": "Local loop. The loop symbol is route guidance, not a roundabout priority instruction.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h2-f30.png",
+        "source_asset_id": "H2-EPS-F30",
+        "sha256": "9b08e0ccf589a00320a5681862eb3878d7ff8330abb3c1fbcceca9c199576287",
+        "max_size_mm_at_300ppi": [
+          50.038,
+          35.052
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "88d10da5d2d6c3a64a0912e40eb75621fb3c8a9c7ea7d2e301718d7ca0a2aa66",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/f.-lokaliseringsmarken-for-vagvisning/f30.-lokal-slinga/f30-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h2-f30.eps",
+        "official_eps_sha256": "e448f24342e0b0a365e17677514c63ef78842852b56daa2fea6c382c265b6cc5",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h2-f30-f31.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F30",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lokal-slinga/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "8d2eceae0b9029d1b7aaa10172106581c3f448c01c5d3908418e09ab817ff783",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5b4ea00bc31f1f34b55ad14a.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F31",
+      "code": "F31",
+      "selected_parent_codes": [
+        "F31"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Lämplig väg eller förbifart för visst fordonsslag eller trafikantgrupp",
+      "label_en": "Suitable route or bypass for a road-user class",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates a suitable route or bypass for the vehicle class or road-user group shown by the symbol. Identify that class before using the route information.",
+      "variant_description_en": "The question variant shows a lorry. Other official variants depict other classes and directions; this guidance does not itself prohibit all other traffic.",
+      "alt_text_en": "Suitable route or bypass for a road-user class. The question variant shows a lorry. Other official variants depict other classes and directions; this guidance does not itself prohibit all other traffic.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h2-f31.png",
+        "source_asset_id": "H2-EPS-F31",
+        "sha256": "8cc1dec297e967f8e603c67d6d9021efaefb2ac12f7c9e5f8bd37026477cc071",
+        "max_size_mm_at_300ppi": [
+          48.091,
+          31.073
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "51201f6d50ef07c1f64d2a4e9f729c5a4d030e0290036174386984d6ae591e5c",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/f.-lokaliseringsmarken-for-vagvisning/f31.-lamplig-vag-eller-forbifart-for-visst-fordonsslag-eller-trafikantgrupp/f31-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h2-f31.eps",
+        "official_eps_sha256": "41472aaf848a6ba98b6211ea56ad4715218113dbacd3265ca205fcbe631d5db9",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h2-f30-f31.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F31",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lamplig-vag-eller-forbifart-for-visst-fordonsslag-eller-trafikantgrupp/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "1e66d3c48ab20cb917bd777e3e5006b1e42042e4567c06829ead75a12300cf5f",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2f7146c2ca417266fbadcd4a.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F31a",
+      "code": "F31a",
+      "selected_parent_codes": [
+        "F31a"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Färdväg för långa fordonståg",
+      "label_en": "Route for long vehicle combinations",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates a route for long vehicle combinations under the applicable traffic-regulation provisions. Check the route and the requirements for the actual combination.",
+      "variant_description_en": "The question artwork shows a long combination and 34.5 m. The sign is route information, not a general permission for every vehicle combination.",
+      "alt_text_en": "Route for long vehicle combinations. The question artwork shows a long combination and 34.5 m. The sign is route information, not a general permission for every vehicle combination.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f31a.png",
+        "source_asset_id": "H2-ASSET-F31a",
+        "sha256": "ab5ad1bf2f158314d8a5b12634aa041081b505aa064c0f5dbd665d97bdea8d5c",
+        "max_size_mm_at_300ppi": [
+          150.199,
+          97.451
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F31a",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/fardvag-for-langa-fordonstag/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "eaee76da174042c8cf42f440050d5ee14d03af87937167c92679201d06b7ae0d",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/0968dd3268d9bf77731ec35b.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F32",
+      "code": "F32",
+      "selected_parent_codes": [
+        "F32"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Farligt gods",
+      "label_en": "Recommended dangerous-goods route",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates a recommended route for vehicles carrying loads subject to the dangerous-goods orange-plate marking requirement. Distinguish a recommendation from a mandatory direction or prohibition.",
+      "variant_description_en": "Compare mandatory D12 and prohibitory C9. The orange dangerous-goods symbol identifies this route information.",
+      "alt_text_en": "Recommended dangerous-goods route. Compare mandatory D12 and prohibitory C9. The orange dangerous-goods symbol identifies this route information.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f32.png",
+        "source_asset_id": "H2-ASSET-F32",
+        "sha256": "0db992ee4cf7c0f49e74c29d0e152a934f68754ee0c57074c8d64febe1314695",
+        "max_size_mm_at_300ppi": [
+          28.871,
+          28.871
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F32",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/farligt-gods/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "6be4525ed670624c5faa0ceef86cdd9fcad93f559db3b4b82e8924b32aec5a6e",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/cf15e6bd80ca75885489548d.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-F33",
+      "code": "F33",
+      "selected_parent_codes": [
+        "F33"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Räddningsplats",
+      "label_en": "Numbered rescue location",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a rescue location at roadworks or a similar site. The number identifies the particular rescue location.",
+      "variant_description_en": "The question example is R1. This is not a general hospital, first-aid facility or emergency-parking sign.",
+      "alt_text_en": "Numbered rescue location. The question example is R1. This is not a general hospital, first-aid facility or emergency-parking sign.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-f33.png",
+        "source_asset_id": "H2-ASSET-F33",
+        "sha256": "8974d637aa3e15e1fed4b15f5f7e910c1d86e66e7d57410b0b2b316b27aaff6f",
+        "max_size_mm_at_300ppi": [
+          28.956,
+          19.389
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-F33",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/raddningsplats/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "ca7c6de82f8a540653d9c450bba7fb1cc5073aa494c092dca3b8cdeffa36f086",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ef073684368284827117ee98.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-G1",
+      "code": "G1",
+      "selected_parent_codes": [
+        "G1"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Post",
+      "label_en": "Postal service point",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a postal agent providing letter and parcel handling and stamp sales. Use it to locate the service while still checking local access and parking conditions.",
+      "variant_description_en": "The postal-horn symbol identifies postal services, not a traffic priority.",
+      "alt_text_en": "Postal service point. The postal-horn symbol identifies postal services, not a traffic priority.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-g1.png",
+        "source_asset_id": "H2-ASSET-G1",
+        "sha256": "4b19017fc3cf3d69a54860b93087c739a06bab2ad57367aabd182421133bfb86",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-G1",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/post/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "7afa75ca76fc0578fd05f3b7d84f6e64b1be2378afddbfbeb677b1c323f31fc3",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ca5d0cdf7c1474b639bea6a1.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-G3",
+      "code": "G3",
+      "selected_parent_codes": [
+        "G3"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Radiostation för vägtrafikinformation",
+      "label_en": "Radio station for traffic information",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a radio station with regular recurring road-traffic information broadcasts intended to cover a wider area. Read the station or frequency shown.",
+      "variant_description_en": "Radio FM4 and 98.7 in this illustration are example station details; this is not an instruction to operate a radio while driving.",
+      "alt_text_en": "Radio station for traffic information. Radio FM4 and 98.7 in this illustration are example station details; this is not an instruction to operate a radio while driving.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-g3.png",
+        "source_asset_id": "H2-ASSET-G3",
+        "sha256": "fa7b5b517d48e0130d01def007320227d9f95be7b531e5cc4f104c6542f178d8",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          47.837
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-G3",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/radiostation-for-vagtrafikinformation/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "1af9259ea9a041450178a3a2992c7c1729b652f863748f6d4d50fa8412b2dd70",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3fd6577c83a555343a01c4e9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-G5",
+      "code": "G5",
+      "selected_parent_codes": [
+        "G5"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Industriområde",
+      "label_en": "Industrial area",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an area for industrial or similar activities. Use it as destination information and continue to follow the local traffic instructions.",
+      "variant_description_en": "The factory symbol does not itself impose a vehicle restriction.",
+      "alt_text_en": "Industrial area. The factory symbol does not itself impose a vehicle restriction.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-g5.png",
+        "source_asset_id": "H2-ASSET-G5",
+        "sha256": "84f7f5e1394d6b51a9f780ec5e0c07071650d879ccc9a33e4d4d79bd1a8f032e",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-G5",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/industriomrade/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "9aeb2b58104ce7d998e68641030a197407997537a8971a4da5396b2108f18073",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/122d248336360767f853a8ed.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-G10",
+      "code": "G10",
+      "selected_parent_codes": [
+        "G10"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Handelsområde",
+      "label_en": "Commercial area",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an area for trade or shopping. Use the symbol to locate the destination; check entry and parking rules separately.",
+      "variant_description_en": "The shopping-trolley symbol identifies a commercial area rather than a single named shop.",
+      "alt_text_en": "Commercial area. The shopping-trolley symbol identifies a commercial area rather than a single named shop.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-g10.png",
+        "source_asset_id": "H2-ASSET-G10",
+        "sha256": "2ff4f76e69d45209e5de2082b686810c1f1cf512220a50eaa2d7afa53b9e6a28",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-G10",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/handelsomrade/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "f2c67c054aef94aa27e8b75167d55381cf18ad7ed06cbbcc12a15323f5ebe945",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a83d9ab5530fd610fe9695e0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-G12",
+      "code": "G12",
+      "selected_parent_codes": [
+        "G12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Personfärja",
+      "label_en": "Passenger ferry",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Check the actual service and boarding conditions.",
+      "variant_description_en": "The passenger-ferry symbol does not promise that the ferry carries your car.",
+      "alt_text_en": "Passenger ferry. The passenger-ferry symbol does not promise that the ferry carries your car.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-g12.png",
+        "source_asset_id": "H2-ASSET-G12",
+        "sha256": "951d3362877ba6df2a565fcb353bb1e05814e3e83091acc466a2a3a0e82d5eda",
+        "max_size_mm_at_300ppi": [
+          71.374,
+          71.459
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-G12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/personfarja/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "aa8ea06fbc8bf1f4777c11b727f5e340e6b07dad721edc07af458b9c8306b159",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/1aa44855202865a8c6947323.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H4",
+      "code": "H4",
+      "selected_parent_codes": [
+        "H4"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Gas för fordonsdrift",
+      "label_en": "Gas for vehicle propulsion",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a facility supplying vehicle gas. The abbreviation states the gas type; CNG means compressed natural gas. Check the fuel type required by your vehicle.",
+      "variant_description_en": "The question illustration says CNG. Official LPG, LNG and H₂ variants identify other gas types; do not treat them as interchangeable fuels.",
+      "alt_text_en": "Gas for vehicle propulsion. The question illustration says CNG. Official LPG, LNG and H₂ variants identify other gas types; do not treat them as interchangeable fuels.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h4.png",
+        "source_asset_id": "H2-ASSET-H4",
+        "sha256": "61843504a931dd203657e6d94737572691d5e0e81fac9fb5a30656852925d8ae",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H4",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gas-for-fordonsdrift/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "74c050c16e0527b9bb40a2d162d1942053a588f64acd54cfe161ae96f9f1ebf0",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/de5ee9d92bdca76ae80f84ea.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H5",
+      "code": "H5",
+      "selected_parent_codes": [
+        "H5"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Servering",
+      "label_en": "Light refreshments",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a facility serving drinks and simple meals. Use it as service information rather than assuming a full restaurant menu.",
+      "variant_description_en": "The cup symbol distinguishes light refreshments from restaurant sign H6.",
+      "alt_text_en": "Light refreshments. The cup symbol distinguishes light refreshments from restaurant sign H6.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h5.png",
+        "source_asset_id": "H2-ASSET-H5",
+        "sha256": "cdb8df91a27b083d77f12fa9e1f5aa3f40b6982099b4460af8d7760105bef0b6",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H5",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/servering/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "e640c755bc27bfaa03824f7bc1cf003a4ad356fce4cb4dcdc812de874fe2330f",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a15eb04254a5770c90a39995.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H6",
+      "code": "H6",
+      "selected_parent_codes": [
+        "H6"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Restaurang",
+      "label_en": "Restaurant",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a restaurant. Check the actual service and opening information at the facility.",
+      "variant_description_en": "The crossed cutlery distinguishes H6 from H5 light refreshments; the symbol does not promise round-the-clock opening.",
+      "alt_text_en": "Restaurant. The crossed cutlery distinguishes H6 from H5 light refreshments; the symbol does not promise round-the-clock opening.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h6.png",
+        "source_asset_id": "H2-ASSET-H6",
+        "sha256": "bdde2713288ff3b477cd0478188ba669efa0ecf7a64ce7c00f8d457d9dd0be8d",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H6",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/restaurang/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "a3745bfe179e41091a44b4aca7f75606cd1ff7d331aa2ec551bb8bee4d2769d0",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/8dc28eab7cf7d44d9155c852.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H8",
+      "code": "H8",
+      "selected_parent_codes": [
+        "H8"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Vandrarhem",
+      "label_en": "Hostel",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a hostel. Check the actual accommodation and availability before relying on a stay.",
+      "variant_description_en": "The hostel symbol is accommodation information, not a hotel booking or availability guarantee.",
+      "alt_text_en": "Hostel. The hostel symbol is accommodation information, not a hotel booking or availability guarantee.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h8.png",
+        "source_asset_id": "H2-ASSET-H8",
+        "sha256": "2806263fd1dda637ef874b5bfb9a6098f322739263f94561eb9355320d32d787",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H8",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandrarhem/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "e8dd3cbb408b8b36299fa4930bcd2bde9394e09be7f1e0074cbc5dfc310b7743",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c84a03eb49a9bc2d87220e8e.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H9",
+      "code": "H9",
+      "selected_parent_codes": [
+        "H9"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stugby",
+      "label_en": "Holiday village",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an establishment with a larger number of cottages. Use it to recognise a cottage village.",
+      "variant_description_en": "The multiple-cottage illustration distinguishes H9 from H10, which concerns a small number of cottages.",
+      "alt_text_en": "Holiday village. The multiple-cottage illustration distinguishes H9 from H10, which concerns a small number of cottages.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h9.png",
+        "source_asset_id": "H2-ASSET-H9",
+        "sha256": "599e81fbc45af7bce14250f094dd3a7ec4182e2b90a39be944a75f23a413bd60",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H9",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stugby/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "37d379ffce0c7bb565cfece4dead68206edaffa9d0669610980d3dd3338d06c7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/8d1b3fd0769bf27ae281f73b.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H10",
+      "code": "H10",
+      "selected_parent_codes": [
+        "H10"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stuga",
+      "label_en": "Cottage accommodation",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an establishment with a small number of cottages. Check its actual accommodation arrangements and availability.",
+      "variant_description_en": "The single-cottage illustration contrasts with the larger cottage village indicated by H9.",
+      "alt_text_en": "Cottage accommodation. The single-cottage illustration contrasts with the larger cottage village indicated by H9.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h10.png",
+        "source_asset_id": "H2-ASSET-H10",
+        "sha256": "9cd7eb365c3cc00b690d3361ddcea9c4d54350927974e27213de44b7f06cf128",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H10",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stuga/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "502db1ac4010319093702955b01ce38846f04a86fd671d4c137ce740ff54ab6e",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/9967d8a8e5f2d2e3148892f0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H11",
+      "code": "H11",
+      "selected_parent_codes": [
+        "H11"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Campingplats",
+      "label_en": "Camp site",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a facility providing pitches for both tents and vehicles with living accommodation. Check the site conditions and availability.",
+      "variant_description_en": "The tent symbol does not mean tents only. Compare H12 for living-accommodation vehicles only and H28 for motor homes only.",
+      "alt_text_en": "Camp site. The tent symbol does not mean tents only. Compare H12 for living-accommodation vehicles only and H28 for motor homes only.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h11.png",
+        "source_asset_id": "H2-ASSET-H11",
+        "sha256": "7daf07c69e4e36c1d0e8007e1f91440e8b2b4db3b2924c9837e9458d51224dbe",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H11",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/campingplats/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d68c5c9d1c7f7c88298a01b469953a1c4e0a07804aa65f830be91eb7d150b8c0",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e6c3871c460750485a548d30.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H12",
+      "code": "H12",
+      "selected_parent_codes": [
+        "H12"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Husvagnsplats",
+      "label_en": "Caravan site",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a facility providing pitches only for vehicles with living accommodation. It does not indicate tent pitches.",
+      "variant_description_en": "The caravan illustration represents that accommodation category; compare H11 and the narrower motor-home facility H28.",
+      "alt_text_en": "Caravan site. The caravan illustration represents that accommodation category; compare H11 and the narrower motor-home facility H28.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h12.png",
+        "source_asset_id": "H2-ASSET-H12",
+        "sha256": "50190da5521b3c83919dbc58d8ff5134fcaf47de2fcb727f2916162106fee97b",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H12",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/husvagnsplats/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "1d67bd1a2aad42fcc492a760d963dd27dec0b379d389269c6300e440adb47a26",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/6beff32ee2ae83ff948fd987.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H15",
+      "code": "H15",
+      "selected_parent_codes": [
+        "H15"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Badplats",
+      "label_en": "Bathing place",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a bathing beach or another bathing facility. Use it to locate the facility and check the conditions there.",
+      "variant_description_en": "The swimmer symbol does not itself guarantee safe water or supervised bathing.",
+      "alt_text_en": "Bathing place. The swimmer symbol does not itself guarantee safe water or supervised bathing.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h15.png",
+        "source_asset_id": "H2-ASSET-H15",
+        "sha256": "3240a4862dac2ac412fc716e2bc121e40b2b0bfdc5987b02f21f91f042ec1236",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H15",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/badplats/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "18fd7572f4330b1e1c49d1b8db01eccd01b334f1bd878db3dec649b3224023e8",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b1186af568abfad285cfb4bc.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H16",
+      "code": "H16",
+      "selected_parent_codes": [
+        "H16"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Friluftsområde",
+      "label_en": "Recreational area",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an outdoor recreational area. Use the symbol to locate the area and read local access information.",
+      "variant_description_en": "The recreation symbol does not itself permit driving on paths or camping in the area.",
+      "alt_text_en": "Recreational area. The recreation symbol does not itself permit driving on paths or camping in the area.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h16.png",
+        "source_asset_id": "H2-ASSET-H16",
+        "sha256": "5273c6b27e2ce566b24bcdd8d01f9b04ece9906cc0018d13449b989fdc89621c",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H16",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/friluftsomrade/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "32f678242f4faba34223002b4168309a9f87378a183403b482bc19eab71c4d95",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2a9adc351a7e305403869af0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H17",
+      "code": "H17",
+      "selected_parent_codes": [
+        "H17"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Vandringsled",
+      "label_en": "Hiking trail",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a hiking trail. Follow the information for the trail and check its actual route and conditions.",
+      "variant_description_en": "The walkers symbol identifies a trail, not a mandatory pedestrian-path instruction.",
+      "alt_text_en": "Hiking trail. The walkers symbol identifies a trail, not a mandatory pedestrian-path instruction.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h17.png",
+        "source_asset_id": "H2-ASSET-H17",
+        "sha256": "df7543ce7971dcf922d71e25f2757419916a780f7410429c11f08e1e18e0638d",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H17",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandringsled/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "3d718207873c8c69cf301cd8c350ff7d52c3cd943740fb9bda710a2582a75de5",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/41483ebb086c94db27cca0f7.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H18",
+      "code": "H18",
+      "selected_parent_codes": [
+        "H18"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stollift",
+      "label_en": "Chair lift",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a lift facility with chairs or similar seating. Use it as facility information.",
+      "variant_description_en": "The seated passenger distinguishes a chair lift from ski tow H19.",
+      "alt_text_en": "Chair lift. The seated passenger distinguishes a chair lift from ski tow H19.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h18.png",
+        "source_asset_id": "H2-ASSET-H18",
+        "sha256": "7eeabb921855699288b7af1e4c9d8d941f785f98e1d555d4967a54b49f9635f2",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H18",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stollift/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "6f99c49188bcea1d6a79bad1d9fcb29967bca656b2de1c6f346fff3147c1b46b",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3f9ce3a435be3d4927591c73.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H19",
+      "code": "H19",
+      "selected_parent_codes": [
+        "H19"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Släplift",
+      "label_en": "Ski tow",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a lift facility where skiers are pulled along. Use it as facility information.",
+      "variant_description_en": "The standing skier being towed distinguishes H19 from seated chair lift H18.",
+      "alt_text_en": "Ski tow. The standing skier being towed distinguishes H19 from seated chair lift H18.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h19.png",
+        "source_asset_id": "H2-ASSET-H19",
+        "sha256": "e44a4044a9e75af207fac7261c4b6cf29b702500e4274c8bd3234338bad13ae9",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H19",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/slaplift/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "de42f7da99c6c568c09ccbf9f644d2db8003d8df5ae042a9aa16f07d871869a3",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a73a7fd0f0d1750af72d34e9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H20",
+      "code": "H20",
+      "selected_parent_codes": [
+        "H20"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Golfbana",
+      "label_en": "Golf course",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a golf course. Use it to locate the facility; admission and access conditions are separate.",
+      "variant_description_en": "The golfer symbol identifies the service destination and imposes no traffic duty by itself.",
+      "alt_text_en": "Golf course. The golfer symbol identifies the service destination and imposes no traffic duty by itself.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h20.png",
+        "source_asset_id": "H2-ASSET-H20",
+        "sha256": "c4d4bb07bab9b8d5a9b2f7a4cbad90d6d5b2c582c79d1f894ad4f2c378d15531",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H20",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/golfbana/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d2247af246c26bb0efba74986faefc705150002885744d2dbe6ecb1c3db0d6d2",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7911a1d24d8572a1fbe38643.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H21",
+      "code": "H21",
+      "selected_parent_codes": [
+        "H21"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Försäljningsställe för fiskekort",
+      "label_en": "Fishing licences for sale",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a place selling fishing permits. Check the permit needed for the actual fishing location.",
+      "variant_description_en": "The fish symbol indicates permit sales; it is not itself permission to fish or a fish-shop sign.",
+      "alt_text_en": "Fishing licences for sale. The fish symbol indicates permit sales; it is not itself permission to fish or a fish-shop sign.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h21.png",
+        "source_asset_id": "H2-ASSET-H21",
+        "sha256": "9790a271eacf1a892a64f7078260b8cfebcbde476bfc657c79fc0ee307fd0e17",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H21",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forsaljningsstalle-for-fiskekort/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "972ec70b8e0dcf36aeb248f1534a637eabbe74c4fa801e8c8ed3fcb80aad0d93",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a1ae04732592ba4e19a4b28c.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H22",
+      "code": "H22",
+      "selected_parent_codes": [
+        "H22"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Sevärdhet",
+      "label_en": "Sight of national interest",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a sight of national interest. Information next to the sign states the nature of the sight.",
+      "variant_description_en": "The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.",
+      "alt_text_en": "Sight of national interest. The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h22.png",
+        "source_asset_id": "H2-ASSET-H22",
+        "sha256": "f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5",
+        "max_size_mm_at_300ppi": [
+          38.608,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H22",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "a9080d47e1848c3ac2d2d89cef729c444a6c253e15858a491b3b6e211288a5f1",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b8b785943425b2cf7b03db0e.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H23",
+      "code": "H23",
+      "selected_parent_codes": [
+        "H23"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Förberedande upplysning om vägnära service",
+      "label_en": "Advance information about nearby services",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Gives advance information about roadside service facilities, sometimes with their names. The stated distance is to the relevant exit or junction; fuel, restaurant and hotel symbols may include company names or emblems.",
+      "variant_description_en": "The question example says 1 km. Read the individual service symbols rather than assuming every advertised service is immediately beside the sign.",
+      "alt_text_en": "Advance information about nearby services. The question example says 1 km. Read the individual service symbols rather than assuming every advertised service is immediately beside the sign.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h23.png",
+        "source_asset_id": "H2-ASSET-H23",
+        "sha256": "939d20e125daf167776aae629eab47a7d2369505e535af4b08faad491f960571",
+        "max_size_mm_at_300ppi": [
+          61.891,
+          71.459
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H23",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forberedande-upplysning-om-vagnara-service/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "0ad40112756589958d30d6de30224612788a7193f90cdb4409b83f08cb6ec153",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b0d21a1f977ea77dfc9261c0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H24",
+      "code": "H24",
+      "selected_parent_codes": [
+        "H24"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Rum och frukost",
+      "label_en": "Bed and breakfast",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an establishment providing overnight rooms and breakfast. Check its actual accommodation arrangements.",
+      "variant_description_en": "B&B with the bed illustration identifies this service, not guaranteed room availability.",
+      "alt_text_en": "Bed and breakfast. B&B with the bed illustration identifies this service, not guaranteed room availability.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h24.png",
+        "source_asset_id": "H2-ASSET-H24",
+        "sha256": "e4dcda284ccdae14db5a25c985df5afa7e0e8cab31baf8c3c2f190ff67c7b906",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.523
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H24",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/rum-och-frukost/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "fb97dfe27ce1cf9fca0d61230cf33339dff219445299a9f19cd25ecf8b1d63d7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7840f67d8e9003d343153ee3.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H25",
+      "code": "H25",
+      "selected_parent_codes": [
+        "H25"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Gårdsbutik",
+      "label_en": "Farm shop",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an establishment selling locally made or locally grown products. Use it to locate a farm shop rather than a general shopping area.",
+      "variant_description_en": "The question artwork says Gårdsbutik. It identifies a farm shop for local products rather than a general shop.",
+      "alt_text_en": "Farm shop. The question artwork says Gårdsbutik. It identifies a farm shop for local products rather than a general shop.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h25.png",
+        "source_asset_id": "H2-ASSET-H25",
+        "sha256": "6db797e5c015182eeec96c231bf664d52632298120e500c53c7d8b4d1267391d",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H25",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gardsbutik/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "2a471c8f10757cfafdac746100069a2401358881ffc64cdea2ad3acb9528861a",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c75ea38ea7c03f859798ca42.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H26",
+      "code": "H26",
+      "selected_parent_codes": [
+        "H26"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Hantverk",
+      "label_en": "Handicrafts",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies an establishment making and selling handicraft products. Use it to locate that activity.",
+      "variant_description_en": "The craftsperson illustration concerns production and sales, not a general industrial-area sign.",
+      "alt_text_en": "Handicrafts. The craftsperson illustration concerns production and sales, not a general industrial-area sign.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h26.png",
+        "source_asset_id": "H2-ASSET-H26",
+        "sha256": "d93dd59282a849c24d12164b5b471df36fa004c6e1cac88336a1047058f02ef2",
+        "max_size_mm_at_300ppi": [
+          38.523,
+          38.608
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H26",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/hantverk/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "fa130f31252567ce5c8aa28e61b2da5d2d32e62a93a62418b41005eef0d00c97",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/83b43a88f645079e441c21ff.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-H28",
+      "code": "H28",
+      "selected_parent_codes": [
+        "H28"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Anläggning som enbart tillhandahåller platser för bilar med bostadsutrymme",
+      "label_en": "Site only for motor homes",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a facility providing pitches only for cars with living accommodation, such as motor homes. Do not assume that tents or towed caravans are included.",
+      "variant_description_en": "Compare H11 for tents and living-accommodation vehicles, and H12 for living-accommodation vehicles only.",
+      "alt_text_en": "Site only for motor homes. Compare H11 for tents and living-accommodation vehicles, and H12 for living-accommodation vehicles only.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-h28.png",
+        "source_asset_id": "H2-ASSET-H28",
+        "sha256": "99fbdd8a7ff9771ca9983d364202c35655d335a14d6ae5aad11a22047781f8ae",
+        "max_size_mm_at_300ppi": [
+          71.374,
+          71.459
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-H28",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/anlaggning-tillhandahaller-plats-for-bil-med-bostadsutrymme/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "32b82ddbcd2a336d63ec6954d4a9950c5e463c6afc0401c65a25010c519945ed",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/144c435e57fc5965bab936d5.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-J3",
+      "code": "J3",
+      "selected_parent_codes": [
+        "J3"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Livsfarlig ledning",
+      "label_en": "Dangerous overhead electrical line",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Warns of an electrical line over the road or route that may present danger. Check the actual line and clearance conditions rather than treating the message as ordinary route guidance.",
+      "variant_description_en": "The question artwork says Livsfarlig ledning with a lightning symbol. The official narrower format has the same warning; this sign does not state a numerical safe clearance.",
+      "alt_text_en": "Dangerous overhead electrical line. The question artwork says Livsfarlig ledning with a lightning symbol. The official narrower format has the same warning; this sign does not state a numerical safe clearance.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h2-j3.png",
+        "source_asset_id": "H2-ASSET-J3",
+        "sha256": "53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d",
+        "max_size_mm_at_300ppi": [
+          40.386,
+          19.812
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-J3",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "8237bf9269c17b25e39d89010bab8532a3d653f12378830816af567c09f34e2b",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/42f40078e1d42b9557d530d0.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H2"
     }
   ],
   "h1_extension": {
@@ -29020,5 +30470,47 @@
       "E25"
     ],
     "scope": "28 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
+  },
+  "h2_extension": {
+    "completed_on": "2026-10-13",
+    "codes": [
+      "F12",
+      "F22",
+      "F28",
+      "F29",
+      "F30",
+      "F31",
+      "F31a",
+      "F32",
+      "F33",
+      "G1",
+      "G3",
+      "G5",
+      "G10",
+      "G12",
+      "H4",
+      "H5",
+      "H6",
+      "H8",
+      "H9",
+      "H10",
+      "H11",
+      "H12",
+      "H15",
+      "H16",
+      "H17",
+      "H18",
+      "H19",
+      "H20",
+      "H21",
+      "H22",
+      "H23",
+      "H24",
+      "H25",
+      "H26",
+      "H28",
+      "J3"
+    ],
+    "scope": "36 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
   }
 }
