@@ -1,49 +1,56 @@
-# Revised question coverage review
+# Final question coverage review
 
-Reviewed all **1000 questions** against the **540-page G11 revised book** on 13 October 2026.
+H7 reviewed all **1,000 questions** against the final **578-page book** on 13 October 2026. **1,000 covered, 0 not-covered, 0 prompt-only**, under the existing keyed-answer-selection criterion. Four fuel answers retain the rounding qualifications below.
 
-| Result | Original book | Revised book |
+| Result | Prior G12 book | Final H7 book |
 |---|---:|---:|
-| Covered by book study | 697 | 772 |
-| Missing knowledge/illustration | 233 | 158 |
-| Prompt-only arithmetic/model | 70 | 70 |
+| Covered | 772 | 1000 |
+| Missing teaching/illustration | 158 | 0 |
+| Prompt-only | 70 | 0 |
 
-**55/55 target situation gaps verified**, with 68 claim links. The square-of-speed addition also covers **20 braking-factor questions**, making **75 newly covered** records. No previously covered question lost support.
+All 772 previously covered records retain support. The 228 gains are 158 exact sign meaning/recognition questions (79 codes), 30 rough stopping calculations and 40 fuel calculations. The bank and both final PDFs retain their approved hashes.
 
 | Family | Covered | Missing | Prompt-only |
 |---|---:|---:|---:|
 | situation | 178 | 0 | 0 |
-| sign | 458 | 158 | 0 |
+| sign | 616 | 0 | 0 |
 | reaction | 36 | 0 | 0 |
-| stopping | 0 | 0 | 30 |
+| stopping | 30 | 0 | 0 |
 | braking | 20 | 0 | 0 |
 | gap | 20 | 0 | 0 |
 | disc | 30 | 0 | 0 |
 | load | 30 | 0 | 0 |
-| fuel | 0 | 0 | 20 |
-| fuel-saving | 0 | 0 | 20 |
+| fuel | 20 | 0 | 0 |
+| fuel-saving | 20 | 0 | 0 |
 
-## Remaining scope
+## Verification
 
-**228 records still lack sufficient book teaching:** 79 missing sign codes affect 158 meaning/recognition records; 30 rough stopping-model and 40 fuel/savings records are prompt-only. The current book does not teach the rough reaction factor/0.4 braking coefficient or the fuel proportion calculation. No further teaching changes were made in G12.
+All 178 scenario decisions were checked against freshly extracted, exactly preserved teaching bodies; supporting pages and teaching guards were remapped to final folios. The retained 55 target decisions and 68 source-linked claims keep their original semantic scope. All 616 sign records require actual illustrated caption units and verified asset placements. All 206 numerical instances were recalculated from their prompt inputs; the 70 new calculations use exact Decimal arithmetic.
 
-Missing codes: A12, A17, A23, A32, A33, A6, A7, C10, C11, C12, C13, C14, C15, C29, C30, C33, C34, C4, C5, C7, C8, C9, D12, D8, D9, E23, E24, E25, F12, F22, F28, F29, F30, F31, F31a, F32, F33, G1, G10, G12, G3, G5, H10, H11, H12, H15, H16, H17, H18, H19, H20, H21, H22, H23, H24, H25, H26, H28, H4, H5, H6, H8, H9, J3, M17, M17a, M28, M29, M30, M31, M32, M34, S11, S13, S5, S6, S7, T23, T25.
+Stopping equations/assumptions and examples are on pages 86–87. Fuel equations/examples are on page 298; precision and rounding disclosure are on page 299. Every covered record includes actual final teaching-page evidence. PDF labels 1–578, source/delivery equality, bank hash, complete ID ordering, disjoint output partition and zero regressions pass.
 
-## Evidence and files
+## Retained rounding qualifications
 
-- `question-page-map.json`: covered questions, actual pages, original prompts/options/answers and extracted evidence.
-- `question-coverage-gaps.json`: every remaining unsupported/prompt-only record with precise reason.
-- `all-question-coverage.json`: all 1000 records in original order.
-- [G12 target review](g-step-changes.json#/records/G12~1target-coverage-review.json): actual printed anchors and source/claim linkage for all 55 targets.
-- [G12 scenario decisions](g-step-changes.json#/records/G12~1scenario-decisions.json): reviewed decisions for all 178 scenarios; bound to actual PDF and bank hashes.
-- [Arithmetic verification](g-step-changes.json#/records/G12~1arithmetic-validation.json): 206 independent calculations.
+Four savings prompts omit precision and rounding convention. Page 299 explicitly teaches the existing one-decimal ties-to-even keys. These are covered for keyed-answer selection with that printed disclosure; coverage does not erase the prompt omission or assert exact equality.
 
-Book-page numbers include the cover and match verified continuous PDF labels. `original_source_page` retains the old bank’s page, not this book’s folio. No bibliography, code lookup or external link is accepted as teaching/illustration coverage.
+| Question | Exact litres | Keyed litres |
+|---|---:|---:|
+| `fuel-saving-150-0.5` | 0.75 | 0.8 |
+| `fuel-saving-150-1.5` | 2.25 | 2.2 |
+| `fuel-saving-250-0.5` | 1.25 | 1.2 |
+| `fuel-saving-250-1.5` | 3.75 | 3.8 |
 
-## Coverage limits
+## Evidence and limits
 
-The criterion is selecting the keyed answer from book study and reasonable application, not reproducing every keyed-answer detail or every distractor explanation. Entries 081, 087, 151 and 175 explicitly distinguish the taught core principle from more detailed keyed wording. Scope limits in all 55 target passages remain applicable. This is not a new legal/medical audit of the bank or a certification for publication, print or accessibility.
+- [All-question coverage](all-question-coverage.json): all 1,000 records in bank order, final pages and extracted evidence.
+- [Question-page map](question-page-map.json): all 1,000 covered records.
+- [Coverage gaps](question-coverage-gaps.json): empty question list with final metadata.
+- [H7 audit](remaining-gap-h7-audit.json): prior status/page evidence, remap, 206 arithmetic checks, gains and qualifications.
+- [Execution plan](remaining-gap-execution-plan.md): H0–H7 decisions and validation.
+- [Historical G-step evidence](g-step-changes.json): preserved original audit and source/claim limits.
 
-One non-blocking cross-reference issue: M06-L01 p.191 directs wildlife-collision actions to M10-L01; the correct section is M10-L02, p.326. Target q126 and collision q127 remain supported at their correctly mapped pages. [Observation](g-step-changes.json#/records/G12~1editorial-observations.json). G12 preserves the G11 PDF.
+The criterion is selecting the keyed answer from printed teaching and reasonable application, not reproducing every distractor explanation or certifying every bank claim. Existing scenario detail limits, source retrieval limits, and review-edition print/accessibility/publication limits remain. No new legal/medical or live external-source audit is claimed.
 
-Question bank stayed byte-identical. Baseline audit statuses and G0 snapshot checksums are preserved in the consolidated G-step reference. Book SHA-256: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`. Bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`.
+The retained wildlife-collision cross-reference observation now concerns M06-L01 page 193: it points to M10-L01, while the relevant lesson is M10-L02 page 330. Both affected questions retain correctly mapped teaching evidence.
+
+Book SHA-256: `6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b`. Bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`.

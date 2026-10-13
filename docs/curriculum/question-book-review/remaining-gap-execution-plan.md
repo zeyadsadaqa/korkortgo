@@ -1,10 +1,10 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0–H6 approved and completed on 13 October 2026; H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0–H7 approved and completed on 13 October 2026. Final book: 578 pages; final coverage: 1,000/1,000, with four retained fuel-rounding qualifications. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
-Current book: 540 pages. Current coverage: 772/1,000. Remaining: 158 sign questions (79 exact codes, two questions each), 30 stopping-model questions, and 40 fuel arithmetic questions (20 consumption, 20 savings).
+Planning baseline: 540 pages and 772/1,000 covered. The original remaining scope was 158 sign questions (79 exact codes, two questions each), 30 stopping-model questions, and 40 fuel arithmetic questions (20 consumption, 20 savings). H7 now verifies all 228 additions against the final 578-page book, with zero remaining teaching gaps under the stated criterion.
 
 Target: 1,000/1,000 covered under the existing criterion: the printed book provides the illustration, principle or calculation method required to choose the keyed answer. This is not a claim that every distractor explanation is taught, or that these 1,000 questions exhaust the Swedish driving curriculum. External links alone do not count as teaching.
 
@@ -670,3 +670,40 @@ The canonical assembly navigation and manifest record actual final destinations,
 The question bank remains byte-identical at `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`. Existing coverage/gaps/page-map files are intentionally **not** regenerated in H6: they still describe the prior 540-page G12 book and its 772/1,000 coverage. Historical G12 totals are retained as baseline evidence, not represented as an audit of this 578-page output.
 
 **Next executable scope:** H7, repeat the full 1,000-question audit against this final book, regenerate all-question coverage/page map/gaps/review and check no loss of the prior 772. Retain H0/H5's four original fuel midpoint-rounding qualifications; the printed page 299 explicitly discloses the existing keys/convention. No unconditional 1,000/1,000 claim is made by H6. Existing review-edition print/accessibility/publication limitations remain separate from this assembly gate.
+
+
+## H7 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H7. **Acceptance gate:** All 1,000 bank records map to actual final teaching pages: **1,000 covered / 0 not-covered / 0 prompt-only**. All prior 772 covered questions retain support; all 228 H0 target IDs are newly covered exactly once. Four fuel midpoint answers remain explicitly qualified by the printed rounding disclosure. No question, teaching, artwork, layout or PDF change was required.
+
+### Final audit and page evidence
+
+Regenerated [all-question coverage](all-question-coverage.json), [question-page map](question-page-map.json), [gaps JSON](question-coverage-gaps.json) and [review](review.md). All-question coverage and the page map contain the same 1,000 covered records in original bank order; the gaps list is empty. Original prompts, options, keys, explanations and original-source page fields are preserved alongside final book pages and fresh extracted teaching evidence.
+
+The updated `tools/review_question_book_coverage.py` reproduces the H7 audit. The canonical [H7 audit JSON](remaining-gap-h7-audit.json) retains prior 772/228 statuses, the original gaps file as an exact hash-verifiable text snapshot, previous scenario-page evidence, final remapping/decisions, calculation checks, all 228 gains, rounding qualifications and output hashes. Historical G-step evidence and the H0 register remain unchanged; no new execution-report tree was created.
+
+| Family | Questions checked | Final result |
+|---|---:|---|
+| Situations | 178 | Covered; retained semantic decisions and scope limits revalidated |
+| Exact sign meanings/recognition | 616 | Covered; actual illustrated captions and verified asset placements |
+| Numerical/rule applications | 206 | Covered; independently recomputed from actual prompts |
+| **Total** | **1,000** | **1,000 covered; zero regressions** |
+
+- Freshly extracted all 578 final pages. Remapped 110 distinct scenario support pages by exact normalised teaching-body equality, not guessed offsets. Reconstructed and checked all 189 retained full-page evidence hashes against the historical G12 guards, then checked current guards and all required teaching phrases. All 178 scenario decisions, including 55 prior target decisions and 68 essential source-linked claims, retain their semantic scope.
+- Matched all 616 sign records to exact illustrated code-caption units using current component placements and hashed assets. Checked bank meaning keys against the canonical sign inventory and recognition/meaning image paths against each exact code. The 158 new questions have actual illustrated teaching evidence; lookup, bibliography and external links are excluded as teaching.
+- Independently recalculated all 206 numerical/rule applications. All 30 stopping totals use Decimal arithmetic from actual speed/time inputs; reaction, braking and total values in every option explanation and the main explanation also match. Printed equations, assumptions and examples are verified on pages 86–87. Existing exact reaction conversion, gap, load, disc and squared-speed support remains correctly mapped.
+- All 40 fuel calculations use exact Decimal arithmetic from actual distance/rate inputs; every explanation preserves the exact result. Methods/examples are verified on page 298 and rounding disclosure on page 299. The 36 exact keys and four disclosed one-decimal ties-to-even keys pass separately.
+
+### Qualifications and protected inputs
+
+The four H0/H5 findings remain attached to `fuel-saving-150-0.5`, `fuel-saving-150-1.5`, `fuel-saving-250-0.5` and `fuel-saving-250-1.5`. Exact results are **0.75, 2.25, 1.25 and 3.75 litres**; existing displayed keys are **0.8, 2.2, 1.2 and 3.8 litres**. Page 299 explicitly supplies the convention needed to select these keys. Coverage is therefore supported under the existing keyed-answer-selection criterion with this qualification; the prompts still omit precision/convention and are not presented as corrected or exact equalities.
+
+Bank SHA-256 remains `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`. Source/delivery PDFs remain byte-identical at the H6 hash `6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b`. H7 verifies final PDF labels 1–578 and the existing passed assembly hash binding; H6's visual/layout and continuous printed-folio evidence remains applicable because neither PDF changed.
+
+The baseline verifier adds `--allow-coverage-changes` to check the original frozen gaps from the exact retained snapshot while checking the new coverage/review hashes. The assembly verifier also accepts this verified H7 snapshot/output binding on later reruns, preserving the original H0 hash instead of overwriting it.
+
+**Verification:** The complete audit passes and a second complete run reproduces all five H7 outputs byte-for-byte. `tools/verify_remaining_gap_baseline.py --offline --allow-teaching-changes --allow-assembled-book --allow-coverage-changes` passes the original gaps snapshot, unchanged bank, all saved source/artwork evidence, final H6 book and H7 output hashes. Audit/verifier syntax and scoped source-text whitespace checks pass. Full-book assembly was not rerun because H7 leaves both accepted PDFs unchanged.
+
+The retained non-blocking wildlife-collision cross-reference observation now concerns M06-L01 page 193: it points to M10-L01, while the relevant lesson is M10-L02 page 330. Both affected questions have correctly mapped teaching support. Original source retrieval limitations, scenario detail qualifications and review-edition print/accessibility/publication limitations remain separate from this coverage gate. H7 is not a new live external-source, legal or medical accuracy audit.
+
+**Final status:** H0–H7 complete. Final coverage outputs describe the 578-page delivered book; no remaining teaching gap exists under the agreed criterion, subject to the four explicit rounding qualifications.

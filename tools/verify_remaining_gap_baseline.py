@@ -48,6 +48,7 @@ def main():
     args = argparse.ArgumentParser()
     args.add_argument('--offline', action='store_true')
     args.add_argument('--allow-assembled-book', action='store_true', help='After H6: verify the rebuilt book against the completed H6 manifest while retaining original bank/gaps/evidence checks.')
+    args.add_argument('--allow-coverage-changes', action='store_true', help='After H7: verify original gaps from the retained exact snapshot and current coverage output hashes.')
     args.add_argument('--allow-teaching-changes', action='store_true', help='For H1–H5: preserve book/bank/gaps and evidence checks while allowing canonical teaching registers/builders to advance.')
     opts = args.parse_args()
     if opts.offline:
@@ -58,6 +59,13 @@ def main():
                 h6 = json.loads((ROOT / 'docs/curriculum/pdf-production/build-manifest.json').read_text())['H6_assembly']
                 assert h6['status'] == 'complete'
                 assert binding(item['path'])['sha256'] == h6['sha256'], item['path']
+            elif opts.allow_coverage_changes and key == 'gaps':
+                h7 = json.loads((BASE / 'remaining-gap-h7-audit.json').read_text())
+                assert h7['status'] == 'passed'
+                assert sha(h7['previous_audit']['gaps_snapshot'].encode()) == item['sha256']
+                assert h7['metadata']['book_sha256'] == binding(data['baseline']['book']['path'])['sha256']
+                for name, digest in h7['outputs'].items():
+                    assert sha((BASE / name).read_bytes()) == digest, name
             else:
                 assert binding(item['path']) == item, item['path']
         def walk(value):
@@ -75,12 +83,12 @@ def main():
         assert len(ids) == len(set(ids)) == 228
         assert len(data['signs']) == 79
         assert {step:sum(t['step']==step for t in data['targets']) for step in ['H1','H2','H3','H4','H5']} == {'H1':56,'H2':72,'H3':30,'H4':30,'H5':40}
-        gaps = json.loads((BASE / 'question-coverage-gaps.json').read_text())['questions']
+        gaps = json.loads(h7['previous_audit']['gaps_snapshot'] if opts.allow_coverage_changes else (BASE / 'question-coverage-gaps.json').read_text())['questions']
         assert set(ids) == {q['question_id'] for q in gaps}
         assert all(s['page_code_matches'] and s['swedish_name_matches'] and
                    s['question_artwork_matches_official'] for s in data['signs'])
         assert sum(not t.get('exact_arithmetic_matches', True) for t in data['targets']) == 4
-        print('PASS: 228 unique targets, 79 exact official sign identities/artwork; frozen bank/gaps/evidence and verified H6 book intact; four rounding qualifications retained' if opts.allow_assembled_book else 'PASS: 228 unique targets, 79 exact official sign identities/artwork, frozen hashes intact; four rounding qualifications retained')
+        print('PASS: 228 unique targets, 79 exact official sign identities/artwork; original bank/gaps snapshot/evidence and final coverage hashes intact; four rounding qualifications retained' if opts.allow_coverage_changes else 'PASS: 228 unique targets, 79 exact official sign identities/artwork; frozen bank/gaps/evidence and verified H6 book intact; four rounding qualifications retained' if opts.allow_assembled_book else 'PASS: 228 unique targets, 79 exact official sign identities/artwork, frozen hashes intact; four rounding qualifications retained')
         return
 
     if REGISTER.exists():

@@ -68,7 +68,12 @@ assert r.trailer['/Root']['/Lang']=='en-GB'
 # H6 verifies the new teaching anchors and sign destinations, not final coverage.
 h0=json.loads((ROOT/'question-book-review/remaining-gap-h0-sources.json').read_text())
 assert digest(REPO/h0['baseline']['questions']['path'])==h0['baseline']['questions']['sha256']
-assert digest(REPO/h0['baseline']['gaps']['path'])==h0['baseline']['gaps']['sha256']
+gaps_path=REPO/h0['baseline']['gaps']['path']
+if digest(gaps_path)!=h0['baseline']['gaps']['sha256']:
+ h7=json.loads((ROOT/'question-book-review/remaining-gap-h7-audit.json').read_text())
+ assert h7['status']=='passed' and h7['metadata']['book_sha256']==digest(TARGET)
+ assert hashlib.sha256(h7['previous_audit']['gaps_snapshot'].encode()).hexdigest()==h0['baseline']['gaps']['sha256']
+ assert digest(gaps_path)==h7['outputs']['question-coverage-gaps.json']
 new_anchors=['M03-L04-approximate-model','M03-L04-approximate-examples','M09-L02-fuel-arithmetic','M09-L02-fuel-rounding','commercial-teaching-references']
 for key in new_anchors:assert key in dest
 for sign in h0['signs']:assert 'sign-'+sign['code'] in dest
