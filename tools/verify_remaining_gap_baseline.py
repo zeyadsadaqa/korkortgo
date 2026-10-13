@@ -47,13 +47,19 @@ def retrieve(url, suffix='.html'):
 def main():
     args = argparse.ArgumentParser()
     args.add_argument('--offline', action='store_true')
+    args.add_argument('--allow-assembled-book', action='store_true', help='After H6: verify the rebuilt book against the completed H6 manifest while retaining original bank/gaps/evidence checks.')
     args.add_argument('--allow-teaching-changes', action='store_true', help='For H1–H5: preserve book/bank/gaps and evidence checks while allowing canonical teaching registers/builders to advance.')
     opts = args.parse_args()
     if opts.offline:
         data = json.loads(REGISTER.read_text())
         frozen_inputs = data['baseline'] if not opts.allow_teaching_changes else {key:data['baseline'][key] for key in ['book','delivery_book','questions','gaps']}
-        for item in frozen_inputs.values():
-            assert binding(item['path']) == item, item['path']
+        for key, item in frozen_inputs.items():
+            if opts.allow_assembled_book and key in ['book', 'delivery_book']:
+                h6 = json.loads((ROOT / 'docs/curriculum/pdf-production/build-manifest.json').read_text())['H6_assembly']
+                assert h6['status'] == 'complete'
+                assert binding(item['path'])['sha256'] == h6['sha256'], item['path']
+            else:
+                assert binding(item['path']) == item, item['path']
         def walk(value):
             if isinstance(value, dict):
                 if 'path' in value and 'sha256' in value:
@@ -74,7 +80,7 @@ def main():
         assert all(s['page_code_matches'] and s['swedish_name_matches'] and
                    s['question_artwork_matches_official'] for s in data['signs'])
         assert sum(not t.get('exact_arithmetic_matches', True) for t in data['targets']) == 4
-        print('PASS: 228 unique targets, 79 exact official sign identities/artwork, all frozen hashes intact; four rounding qualifications retained')
+        print('PASS: 228 unique targets, 79 exact official sign identities/artwork; frozen bank/gaps/evidence and verified H6 book intact; four rounding qualifications retained' if opts.allow_assembled_book else 'PASS: 228 unique targets, 79 exact official sign identities/artwork, frozen hashes intact; four rounding qualifications retained')
         return
 
     if REGISTER.exists():

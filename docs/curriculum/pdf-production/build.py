@@ -131,7 +131,7 @@ def build():
     b.add(t,24);b.add(paragraph('Keep these close','subheading'),8)
     for a in manifest['appendices']:
         b.add(paragraph('Appendix '+a['id'][-1]+' · '+a['title']),8)
-    b.add(paragraph('Official references'))
+    b.add(paragraph('Sources and references'))
     b.end();c.save()
     # Explicit PDF navigation targets only for pages actually present; chapter targets
     # remain in navigation.json until assembly, never pointing at fabricated pages.

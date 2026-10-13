@@ -83,7 +83,7 @@ def run():
     toc_rows=[]
     for i,ch in enumerate(MANIFEST['chapters'],1):toc_rows.append((f'{i:02d}',ch['title'],ch['id']))
     for a in MANIFEST['appendices']:toc_rows.append((a['id'][-1],a['title'],a['id']))
-    toc_rows.append(('', 'Official references','official-references'))
+    toc_rows.append(('', 'Sources and references','official-references'))
     toc_rects=[]
     def contents(c):
         c.setFillColor(COLORS['paper']);c.rect(0,0,W,H,stroke=0,fill=1)
@@ -145,14 +145,16 @@ def run():
     for ch in MANIFEST['chapters']:
         parent=writer.add_outline_item(ch['id']+' · '+ch['title'],dest[ch['id']]-1)
         for key in ch['lessons']+[ch['review'],ch['id']+'-answers',ch['id']+'-references']:
-            writer.add_outline_item(key+(' · Answers' if key.endswith('-answers') else ' · Official references' if key.endswith('-references') else ''),dest[key]-1,parent=parent)
+            writer.add_outline_item(key+(' · Answers' if key.endswith('-answers') else ' · Sources and references' if key.endswith('-references') else ''),dest[key]-1,parent=parent)
+        for key,label in [('M03-L04-approximate-model','Approximate stopping model'),('M03-L04-approximate-examples','Stopping worked examples'),('M09-L02-fuel-arithmetic','Fuel consumption and savings'),('M09-L02-fuel-rounding','Exact values and rounding')]:
+            if key.startswith(ch['id']) and key in dest:writer.add_outline_item(label,dest[key]-1,parent=parent)
     parent=writer.add_outline_item('Appendices and sign reference',dest['reference-contents']-1)
     for a in MANIFEST['appendices']:
         child=writer.add_outline_item('Appendix '+a['id'][-1]+' · '+a['title'],dest[a['id']]-1,parent=parent)
         if a['id']=='appendix-B':
             for g in json.loads((ROOT/'sign-placement-map.json').read_text())['reference_groups']:writer.add_outline_item(g['group_id']+' · '+g['title'],dest[g['group_id']]-1,parent=child)
             writer.add_outline_item('Sign code and family lookup',dest['sign-family-index']-1,parent=child)
-    writer.add_outline_item('Official references',dest['official-references']-1);writer.add_outline_item('Manufacturer technical references',dest['manufacturer-references']-1);writer.add_outline_item('Artwork and source credits',dest['artwork-credits']-1)
+    writer.add_outline_item('Sources and references',dest['official-references']-1);writer.add_outline_item('Supplementary commercial teaching references',dest['commercial-teaching-references']-1);writer.add_outline_item('Manufacturer technical references',dest['manufacturer-references']-1);writer.add_outline_item('Artwork and source credits',dest['artwork-credits']-1)
     writer.root_object[NameObject('/Lang')]=TextStringObject('en-GB');writer.set_page_label(0,len(writer.pages)-1,style='/D',start=1)
     writer.add_metadata({'/Title':'KörkortGo | Swedish category B learning guide','/Author':'KörkortGo','/Subject':'Complete curriculum review edition | A learning aid','/CreationDate':'D:20261013000000Z','/ModDate':'D:20261013000000Z'})
     with TARGET.open('wb') as f:writer.write(f)

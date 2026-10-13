@@ -1228,7 +1228,7 @@ Repeat this entry after study or supervised practice. Its purpose is honest self
 
 A useful entry identifies something observable. “Check the near cycle path before the turn, then revisit it as the gap develops” is more actionable than “be better at junctions.” Keep adapting the task to your own experience and the feedback from your instructor or supervisor.
 
-## Official references
+## Sources and references
 
 Original source checks are dated 1 October 2026. Chapter additions retain their individual 12–13 October checks below and in the evidence records. Official agency, legal, public-health and research references are distinguished from manufacturer technical handbooks. Use current guidance and the actual vehicle handbook; references do not make this book official.
 

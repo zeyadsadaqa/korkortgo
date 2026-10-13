@@ -63,7 +63,7 @@ for code in h3_codes:
  else:assert h3_records[code]['sha256']==source['question_asset']['sha256']
 for name in ['book','delivery_book','questions','gaps']:
  item=h0['baseline'][name]
- assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==item['sha256']
+ expected=item['sha256']; h6=json.loads((ROOT/'pdf-production/build-manifest.json').read_text()).get('H6_assembly',{}); expected=h6['sha256'] if name in ['book','delivery_book'] and h6.get('status')=='complete' else expected; assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==expected
 for g in GROUPS:
  assert g['group_id'] in r.named_destinations
  for code in g['cross_reference_codes']:assert 'sign-'+code in r.named_destinations

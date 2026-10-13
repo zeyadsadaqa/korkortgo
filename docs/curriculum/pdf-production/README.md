@@ -1,3 +1,5 @@
+> Current assembled review edition: **H6, 578 pages**, verified 13 October 2026. The updated book includes all H1–H5 teaching components, continuous folios/PDF labels and refreshed sources/navigation. Progress and validation are in [the remaining-gap execution plan](../question-book-review/remaining-gap-execution-plan.md). Historical production-stage records below retain their original scope. H7 final coverage auditing has not run.
+
 # KörkortGo PDF build
 
 Step 6A completed on 4 October 2026. Four opening pages are built from the approved cover/navigation direction and unchanged manuscript introduction. This is a screen-review PDF; chapter production proceeds separately by module. All ten chapters (6B–6K) and the reference material (6L) are now built and verified.

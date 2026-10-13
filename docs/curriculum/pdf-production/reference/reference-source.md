@@ -109,7 +109,7 @@ Repeat this entry after study or supervised practice. Its purpose is honest self
 
 A useful entry identifies something observable. “Check the near cycle path before the turn, then revisit it as the gap develops” is more actionable than “be better at junctions.” Keep adapting the task to your own experience and the feedback from your instructor or supervisor.
 
-## Official references
+## Sources and references
 
 Original source checks are dated 1 October 2026. Chapter additions retain their individual 12–13 October checks below and in the evidence records. Official agency, legal, public-health and research references are distinguished from manufacturer technical handbooks. Use current guidance and the actual vehicle handbook; references do not make this book official.
 
@@ -195,6 +195,7 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 - [New or used vehicle buyers][crumple-zones] — Government of Western Australia – Road Safety Commission; checked 2026-10-12; Live page; publication date not displayed in inspected passage.
 - [Elektrisk utrustning och elinstallationer][fuse-protection] — Transportstyrelsen; checked 2026-10-12; Live supplementary guidance; retrieved 12 October 2026.
 - [Safe stopping distance][following-gap] — Transport for NSW / NSW Government (Australia); checked 2026-10-12; Live guidance; publication date not displayed in inspected passage.
+- [Hastighet och stoppsträcka][stopping-principles] — Trafikverket; checked 2026-10-13. Supports reaction plus braking and dependence on speed/conditions, not the exercise shortcut constants.
 - [KRAV Grundvärden, Vägar och gators utformning (VGU)][braking-model] — Trafikverket; checked 2026-10-12; TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework.
 - [Driver’s Manual, Chapter 5: Intersections and Turns][left-turn-wheels] — New York State Department of Motor Vehicles (government); checked 2026-10-13; Live official driver manual; publication/update date not displayed in inspected passage.
 - [Fakta om ledarhundar][guide-dog] — Myndigheten för delaktighet (MFD); checked 2026-10-13; Last updated 30 April 2026.
@@ -229,6 +230,10 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 - [Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck][studs-local] — Transportstyrelsen; checked 2026-10-13; 16 August 2024, TSG 2023-7800.
 - [C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II][studs-sign] — Transportstyrelsen; checked 2026-10-13; Updated 5 November 2024.
 
+
+### Supplementary commercial teaching references
+
+- [Approximate stopping-distance method][stopping-shortcut] — Trafiko, commercial teaching source; checked 2026-10-13. Limited to the one-second reaction shortcut and 0.4 braking shortcut under good-brake/good-tyre/dry-asphalt assumptions. Variable reaction time is editorial proportional arithmetic; not official agency guidance or a real-world stopping prediction.
 
 ### Manufacturer technical references
 
@@ -404,3 +409,6 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 [studs-sign]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/
 
 [hot-coolant]: https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html
+
+[stopping-shortcut]: https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka
+[stopping-principles]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/

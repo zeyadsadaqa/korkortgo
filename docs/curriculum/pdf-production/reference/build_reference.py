@@ -130,13 +130,14 @@ def run():
   b.end()
  # Complete registry-backed references; manufacturer sources clearly separated.
  section=SECS[TITLES[4]];groups=re.split(r'^### (.+)\n',section,flags=re.M)
- chunks=[('Official references',groups[0])]+[(groups[i],groups[i+1]) for i in range(1,len(groups),2)]
+ chunks=[('Sources and references',groups[0])]+[(groups[i],groups[i+1]) for i in range(1,len(groups),2)]
  b.section='official-references';sequence=0
  for title,body in chunks:
   entries=[line for line in body.splitlines() if line.startswith('- ')]
   for j in range(0,len(entries),4):
    sequence+=1;key='official-references' if sequence==1 else 'official-references-'+str(sequence)
    if title=='Manufacturer technical references' and j==0:key='manufacturer-references'
+   if title=='Supplementary commercial teaching references' and j==0:key='commercial-teaching-references'
    b.start(key,title);b.text(title,'heading')
    if sequence==1:b.text(body.split('\n\n',1)[0]);b.text('Chapter evidence records exact passages, dates and limitations. G11 assembles these records without claiming a new factual audit of every old source.','caption')
    elif j==0:b.text('These are manufacturer technical handbooks, not official agency or legal references.' if title=='Manufacturer technical references' else 'Keep each reference within the scope stated in its lesson and evidence record.','caption')
@@ -156,7 +157,7 @@ def run():
  parent=w.add_outline_item('Appendices and official references',0);current=parent
  for key,num in b.destinations.items():
   w.add_named_destination(key,num-1)
-  if key in ['appendix-A','appendix-B','appendix-C','appendix-D','official-references','manufacturer-references','artwork-credits']:current=w.add_outline_item(b.page_labels[num],num-1,parent=parent)
+  if key in ['appendix-A','appendix-B','appendix-C','appendix-D','official-references','manufacturer-references','commercial-teaching-references','artwork-credits']:current=w.add_outline_item(b.page_labels[num],num-1,parent=parent)
   elif key in [g['group_id'] for g in GROUPS]:w.add_outline_item(b.page_labels[num],num-1,parent=current)
  w.add_named_destination('contents',0)
  with TARGET.open('wb') as f:w.write(f)

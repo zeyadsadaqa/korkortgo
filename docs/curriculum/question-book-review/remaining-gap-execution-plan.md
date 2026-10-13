@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0–H5 approved and completed on 13 October 2026; H6–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0–H6 approved and completed on 13 October 2026; H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -608,3 +608,65 @@ The [updated Chapter 9 component](../../../output/pdf/korkortgo-chapter-09.pdf) 
 - The baseline verifier with `--offline --allow-teaching-changes` and source-text whitespace checks pass. Frozen full book/delivery, bank and gaps retain H0 hashes. All teaching additions H1–H5 are now in their verified components; full-book assembly and final coverage auditing have not run.
 
 **Next executable scope:** H6, rebuild affected reference/front-matter components and assemble the complete book with continuous printed folios, PDF labels, bookmarks and references. H6–H7 have not started. H7 retains the four original fuel-rounding qualifications when auditing all 1,000 questions.
+
+
+## H6 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H6. **Acceptance gate:** Complete book assembled from verified components; contents, printed interior folios, PDF page labels, named destinations, bookmarks, source references and delivery equality pass. Existing approved presentation is retained; no new design was required. H7's 1,000-question audit has not run.
+
+### Rebuild and assembled output
+
+Rebuilt and verified front matter, Chapter 3, Chapter 9 and the reference component. The reference now contains 235 pages, including the H4 agency-principles reference and separately labelled commercial-method reference. The eight unaffected chapter PDFs retain their pre-H6 hashes. Updated the canonical build manifest, source/navigation/asset records and final source-section headings. Historical G-step and production records retain their original scope.
+
+The [complete updated book](../../../output/pdf/korkortgo-curriculum-review.pdf) has **578 pages**, up from the H0 baseline of 540: **38 added pages**. H1/H2/H3 contributed 10/14/9 net reference pages; H4 and H5 contributed two chapter pages each; the final bibliography adds one further page. This is below the 583–593 planning estimate because the actual builds reused capacity within existing groups, answers and references. No artwork or typography was reduced to force a page count; H1–H5 print-size limits and layout checks remain applicable.
+
+| Component | Final pages | Physical book range |
+|---|---:|---|
+| front | 4 | 1–4 |
+| M01 | 17 | 5–21 |
+| M02 | 19 | 22–40 |
+| M03 | 54 | 41–94 |
+| M04 | 43 | 95–137 |
+| M05 | 45 | 138–182 |
+| M06 | 50 | 183–232 |
+| M07 | 27 | 233–259 |
+| M08 | 31 | 260–290 |
+| M09 | 29 | 291–319 |
+| M10 | 24 | 320–343 |
+| reference | 235 | 344–578 |
+
+### Contents, folios, bookmarks and sources
+
+- Rebuilt contents page 4 using actual assembled positions. All ten chapters, four appendices and the general source section have correct printed page numbers and links.
+- PDF labels are exactly 1–578. Interior printed folios are continuous from 2 through 578; the approved cover remains unnumbered in print and is PDF label 1. Contents/Sources and previous/next links are rebuilt against current positions, with no “next page” on the final page.
+- All 40 lesson and ten self-assessment destinations, chapter answers/references, 24 sign groups, code lookup, appendices and source destinations are preserved/refreshed. Added chapter bookmarks for the new stopping model/examples and fuel arithmetic/rounding. All 79 planned sign-code destinations are present within the 400-entry Appendix B reference.
+- The general section and contents now say **Sources and references**, preserving stable internal destination IDs. The commercial stopping-method source has its own explicitly labelled subsection, named destination and bookmark; it is not presented as agency authority. Source records retain original verification dates/limitations rather than implying a new factual audit of every older webpage.
+
+| New teaching/source anchor | Final book page |
+|---|---:|
+| Stopping model and assumptions | 86 |
+| Stopping worked examples and exact comparison | 87 |
+| Fuel consumption and savings equations/examples | 298 |
+| Exact values and rounding disclosure | 299 |
+| General sources and references | 545 |
+| Supplementary commercial teaching references | 574 |
+| Manufacturer technical references | 575 |
+| Artwork and source credits | 578 |
+
+The canonical assembly navigation and manifest record actual final destinations, component offsets and the 79 planned sign-code pages. Final per-question coverage/page-map outputs remain H7 work; H6 does not substitute anchor presence for the required full question audit.
+
+### Verification
+
+- **578 pages**, ten chapters, 40 lessons, ten self-assessments and four appendices pass assembly checks. All **577 source-page text sequences** outside the deliberately replaced contents page are preserved, as are **2098 original body links**.
+- **3525 internal links**, **1123 named destinations**, **664 refreshed cross-links**, footer destinations and contents targets pass. All PDF labels and printed interior folios are verified. Embedded Unicode fonts and minimum question/answer separation remain valid. External URI targets are preserved; this is not a new HTTP/factual review of every external source.
+- Deterministic full-book rebuild passes. Source and delivery PDFs are byte-identical. Final book SHA-256: `6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b`.
+- Rendered **all 578 assembled pages and all source component pages at a maximum dimension of 1000 pixels**. The **577 non-contents page bodies**, including artwork and headers, match their source renders **pixel-for-pixel**, with **zero unexpected body differences**. Replaced footer pixels are excluded from that comparison and their folios/links are checked separately. The new reproducible `assembly/compare_book_renders.py` writes the existing canonical `render-comparison.json`.
+- Visually inspected **33 final book pages** at 110 dpi: 1, 2, 3, 4, 5, 22, 40, 41, 86, 87, 94, 95, 138, 183, 233, 260, 290, 291, 298, 299, 319, 320, 343, 344, 345, 347, 532, 536, 543, 545, 574, 575, 578. This covers the cover/opening, actual contents, every chapter opening, affected chapter boundaries, both new calculation sections, reference/appendix boundaries, lookup, general/commercial/manufacturer references and final credits. Headers, folios, formulas, decimal values, source wording, links and wrapped text are readable with no overlap or clipping. All new sign/math component pages had already been visually checked in H1–H5; exact body-render equality confirms their assembled artwork/layout is preserved. Inspection renders are in `tmp/pdfs/h6`; no new execution-report tree was created.
+- Build/source artifacts: existing component verification JSONs, assembly `inputs.json`, `navigation.json`, `cross-link-candidates.json`, `footer-replacement.json`, `verification.json`, `render-comparison.json` and build manifest updated. The source/delivery book is the final H6 artifact. A pre-assembly 540-page scratch copy was retained at `/private/tmp/h6-before-540.pdf`; original baseline hashes remain in the H0 register.
+- The baseline verifier now supports `--offline --allow-teaching-changes --allow-assembled-book`: original bank/gaps and H0 source/artwork evidence remain frozen, while the rebuilt book must match the **completed H6 manifest hash**. Component verifiers use that same completed-H6 binding for later reruns. The H0 baseline record was not overwritten. Source-text whitespace checks pass.
+
+### H7 handoff and scope limits
+
+The question bank remains byte-identical at `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`. Existing coverage/gaps/page-map files are intentionally **not** regenerated in H6: they still describe the prior 540-page G12 book and its 772/1,000 coverage. Historical G12 totals are retained as baseline evidence, not represented as an audit of this 578-page output.
+
+**Next executable scope:** H7, repeat the full 1,000-question audit against this final book, regenerate all-question coverage/page map/gaps/review and check no loss of the prior 772. Retain H0/H5's four original fuel midpoint-rounding qualifications; the printed page 299 explicitly discloses the existing keys/convention. No unconditional 1,000/1,000 claim is made by H6. Existing review-edition print/accessibility/publication limitations remain separate from this assembly gate.
