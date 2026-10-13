@@ -1,0 +1,340 @@
+# Remaining 228-question teaching-gap execution plan
+
+Status: H0 approved and completed on 13 October 2026; H1–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+
+## Scope and completion criterion
+
+Current book: 540 pages. Current coverage: 772/1,000. Remaining: 158 sign questions (79 exact codes, two questions each), 30 stopping-model questions, and 40 fuel arithmetic questions (20 consumption, 20 savings).
+
+Target: 1,000/1,000 covered under the existing criterion: the printed book provides the illustration, principle or calculation method required to choose the keyed answer. This is not a claim that every distractor explanation is taught, or that these 1,000 questions exhaust the Swedish driving curriculum. External links alone do not count as teaching.
+
+No additional chapters are needed. Expand Appendix B, M03-L04 and M09-L02 using the existing approved presentation. Keep question content unchanged; report any discovered answer/source inconsistency instead of forcing a coverage pass.
+
+## Source policy
+
+Use Transportstyrelsen or Trafikverket where they support the actual claim. Do not add another authority for the same supported claim. Separate agency guidance, editorial arithmetic and the supplementary approximate stopping model.
+
+- Signs, markings, symbols and panels: [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/). H0 must resolve and verify each of the 79 exact detail pages, meaning and illustration variants. Preserve official artwork and Swedish names; identify English wording as editorial translation. Recheck the existing agency reuse terms before adding assets.
+- Stopping principles: [Trafikverket: speed and stopping distance](https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/). Retain the already recorded Trafikverket braking-equation reference in M03-L04. These support the underlying principles, not the question bank's particular shortcut constants.
+- Exact stopping shortcut: this research did not locate the combination `(speed/10) × time × 3` and `(speed/10)² × 0.4` in Transportstyrelsen/Trafikverket guidance. [Trafiko's own explanation](https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka) documents the one-second reaction shortcut and the 0.4 dry-asphalt braking shortcut. Cite it only for that approximate method; it is a commercial teaching source, not an official authority. Generalisation to a supplied reaction time is editorial proportional arithmetic. Do not import unrelated claims from that page.
+- Fuel context: [Transportstyrelsen: economical driving](https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/). The equations below follow from the stated litres-per-100-km unit; explain them as editorial arithmetic, not as an agency-prescribed formula. Supplied savings figures are exercise assumptions, not guaranteed benefits of smoother driving.
+
+## Teaching additions and estimated length
+
+| Location | Questions | Proposed teaching | Additional pages |
+|---|---:|---|---:|
+| Appendix B, existing sign groups | 158 | 79 exact illustrated caption entries, official Swedish name, English meaning, decision/use, and comparisons where needed | 36–42 |
+| M03-L04: Leave room to respond | 30 | Distinguish exact unit conversion from rough shortcuts; teach both model equations, variable reaction time, addition, assumptions, rounding, worked examples and self-check answers | 3–4 |
+| M09-L02: Use energy with foresight | 40 | Litres/100 km interpretation; journey consumption and savings calculations; worked examples, units, decimals and self-check answers | 2–3 |
+| Contents, indexes and source references | — | Added anchors and source entries, index growth and any pagination spill | 2–4 |
+| **Total** | **228** | **Estimated final book: 583–593 pages** | **43–53** |
+
+These are planning estimates, not a rendered page count. Existing Appendix B places 321 illustrated entries on 145 pages (about 2.2 entries/page). That supports approximately 36 pages for 79 more entries before extra group/continuation space. Use this density as the basis; do not shrink artwork or captions to force a lower estimate. Reusing space may reduce the net increase; long captions or references may increase it. Confirm after component rendering.
+
+### Stopping-model content
+
+- Define `v` in km/h and `t` in seconds.
+- Exact constant-speed reaction calculation: `(v / 3.6) × t`. Existing teaching remains useful.
+- Rough exercise reaction estimate: `(v / 10) × t × 3`.
+- Rough exercise braking estimate: `(v / 10)² × 0.4`.
+- Total in that exercise model: sum the two rough estimates. Do not silently mix exact reaction values with rough-model keyed answers.
+- Explain that the reaction shortcut overestimates the exact conversion by about 8%; 0.4 is the shortcut's assumed coefficient, not a universal real-world braking result. Its good-brake/good-tyre/dry-asphalt assumptions do not make it a reliable prediction for an actual car or road.
+- Provide at least three independently calculated examples covering 0.5, 1 and 2 seconds, plus questions that require combining the parts. Teach the transferable process rather than copying all 30 bank answers.
+- Example: 50 km/h and 2 seconds gives reaction 30 m, braking 10 m, total 40 m in the rough exercise model. Compare separately with exact reaction conversion (about 27.8 m).
+
+### Fuel arithmetic content
+
+- `journey litres = distance in km × consumption in litres/100 km ÷ 100`.
+- `litres saved = distance in km × reduction in litres/100 km ÷ 100`.
+- If two consumption rates are given, calculate their difference first. Retain units and round only at the requested final precision.
+- Consumption example: 120 km at 6.5 litres/100 km uses 7.8 litres.
+- Savings example: a supplied reduction of 1.5 litres/100 km over 300 km saves 4.5 litres.
+- Explain that consumption varies with real conditions and that exercise rates are supplied/measured assumptions. Do not claim a fixed saving from any technique.
+
+## Execution steps
+
+Each step is separately executable following approval. Maintain progress, decisions and validation in this one plan instead of creating another G-step report tree. Canonical source/asset/build files and final coverage JSONs remain necessary outputs.
+
+| Step | Scope and deliverable | Acceptance gate |
+|---|---|---|
+| H0 | Freeze baseline hashes and 228 target IDs; verify exact sign detail pages/artwork and scoped source claims; record per-code source URLs and any conflicts here | All 228 IDs assigned once; 79 official sign entries resolved; shortcut provenance/assumptions explicit; no false official attribution |
+| H1 | Add A/C/D/E entries to existing Appendix B groups: 28 codes, 56 questions | Exact variants, names and meanings checked against official detail pages; assets and readable captions verified |
+| H2 | Add F/G/H/J entries: 36 codes, 72 questions | Direction/public/service/information signs distinguished; no invented duties for informational symbols |
+| H3 | Add M/S/T entries: 15 codes, 30 questions; update code lookup and cross-links | Markings, symbols and supplementary qualifications taught in context; all 79 entries present |
+| H4 | Extend M03-L04 with the clearly labelled approximate calculation method | All 30 answers recomputed from their actual inputs; model taught in the book; existing exact conversion and braking comparison retained |
+| H5 | Extend M09-L02 with consumption and savings arithmetic | All 40 answers recomputed; both methods taught, including decimal inputs and correct units |
+| H6 | Rebuild affected components and assemble the complete book; update contents, printed folios, PDF labels, bookmarks and source references | Affected pages visually checked for readable artwork, clipping and layout; links and continuous page numbering pass; delivery/source PDFs identical |
+| H7 | Repeat complete 1,000-question audit; regenerate all-question coverage, question-page map, gaps JSON and review | 1,000 covered / 0 not-covered / 0 prompt-only expected; each question maps to actual final teaching pages; no loss of previous 772; bank unchanged |
+
+Reuse the existing approved layout. If implementation requires a new visual design, apply the user's design workflow: imagegen preview and explicit approval before implementing that design. This text plan does not request or implement a new design.
+
+The expected 1,000/1,000 outcome is conditional on source and answer verification. If an exact sign variant or keyed answer cannot be supported, preserve the finding and present the discrepancy; do not mark it covered merely to meet the target.
+
+## Exact target inventory
+
+The following inventory is generated from the final gaps JSON. Family links are discovery starting points; H0 must verify individual detail URLs, not treat this plan as completed per-sign research.
+
+### H1 sign targets
+
+| Family | Codes | Questions | Official discovery source |
+|---|---|---:|---|
+| A: Warning signs | A6, A7, A12, A17, A23, A32, A33 | 14 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family A |
+| C: Prohibition signs | C4, C5, C7, C8, C9, C10, C11, C12, C13, C14, C15, C29, C30, C33, C34 | 30 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family C |
+| D: Mandatory signs | D8, D9, D12 | 6 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family D |
+| E: Instruction signs | E23, E24, E25 | 6 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family E |
+
+Each listed code covers the exact IDs `sign-meaning-CODE` and `sign-recognise-CODE`.
+
+### H2 sign targets
+
+| Family | Codes | Questions | Official discovery source |
+|---|---|---:|---|
+| F: Direction signs | F12, F22, F28, F29, F30, F31, F31a, F32, F33 | 18 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family F |
+| G: Public facilities | G1, G3, G5, G10, G12 | 10 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family G |
+| H: Service facilities | H4, H5, H6, H8, H9, H10, H11, H12, H15, H16, H17, H18, H19, H20, H21, H22, H23, H24, H25, H26, H28 | 42 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family H |
+| J: Information signs | J3 | 2 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family J |
+
+Each listed code covers the exact IDs `sign-meaning-CODE` and `sign-recognise-CODE`.
+
+### H3 sign targets
+
+| Family | Codes | Questions | Official discovery source |
+|---|---|---:|---|
+| M: Road markings | M17, M17a, M28, M29, M30, M31, M32, M34 | 16 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family M |
+| S: Symbols | S5, S6, S7, S11, S13 | 10 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family S |
+| T: Supplementary panels | T23, T25 | 4 | [Transportstyrelsen catalogue](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/) → family T |
+
+Each listed code covers the exact IDs `sign-meaning-CODE` and `sign-recognise-CODE`.
+
+### H4 calculation targets
+
+- `stopping-20-0.5`
+- `stopping-20-1`
+- `stopping-20-2`
+- `stopping-30-0.5`
+- `stopping-30-1`
+- `stopping-30-2`
+- `stopping-40-0.5`
+- `stopping-40-1`
+- `stopping-40-2`
+- `stopping-50-0.5`
+- `stopping-50-1`
+- `stopping-50-2`
+- `stopping-60-0.5`
+- `stopping-60-1`
+- `stopping-60-2`
+- `stopping-70-0.5`
+- `stopping-70-1`
+- `stopping-70-2`
+- `stopping-80-0.5`
+- `stopping-80-1`
+- `stopping-80-2`
+- `stopping-90-0.5`
+- `stopping-90-1`
+- `stopping-90-2`
+- `stopping-100-0.5`
+- `stopping-100-1`
+- `stopping-100-2`
+- `stopping-110-0.5`
+- `stopping-110-1`
+- `stopping-110-2`
+
+### H5 calculation targets
+
+- `fuel-40-5`
+- `fuel-40-6`
+- `fuel-40-7`
+- `fuel-40-8`
+- `fuel-60-5`
+- `fuel-60-6`
+- `fuel-60-7`
+- `fuel-60-8`
+- `fuel-80-5`
+- `fuel-80-6`
+- `fuel-80-7`
+- `fuel-80-8`
+- `fuel-100-5`
+- `fuel-100-6`
+- `fuel-100-7`
+- `fuel-100-8`
+- `fuel-120-5`
+- `fuel-120-6`
+- `fuel-120-7`
+- `fuel-120-8`
+- `fuel-saving-100-0.5`
+- `fuel-saving-100-1`
+- `fuel-saving-100-1.5`
+- `fuel-saving-100-2`
+- `fuel-saving-150-0.5`
+- `fuel-saving-150-1`
+- `fuel-saving-150-1.5`
+- `fuel-saving-150-2`
+- `fuel-saving-200-0.5`
+- `fuel-saving-200-1`
+- `fuel-saving-200-1.5`
+- `fuel-saving-200-2`
+- `fuel-saving-250-0.5`
+- `fuel-saving-250-1`
+- `fuel-saving-250-1.5`
+- `fuel-saving-250-2`
+- `fuel-saving-300-0.5`
+- `fuel-saving-300-1`
+- `fuel-saving-300-1.5`
+- `fuel-saving-300-2`
+
+## Baseline binding
+
+- Book SHA-256: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`
+- Question bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`
+- Input inventory: `question-coverage-gaps.json`, 228 records.
+- Existing approved G0–G12 history: `g-step-changes.json`; do not recreate deleted execution folders.
+
+
+## H0 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H0 only. **Acceptance gate:** passed with the rounding and caption/print qualifications below explicitly preserved. H1–H7 remain unexecuted; no claim of new book coverage is made. Existing approved presentation remains the design basis.
+
+### Frozen inputs and target assignments
+
+The [H0 source register](remaining-gap-h0-sources.json) freezes the book, delivery PDF, question bank, gaps JSON, sign inventory/source/asset/caption/placement registers, manuscript and source register, relevant reference/chapter/assembly builders, and retained G-step history. All recorded hashes were rechecked after H0. The two current PDFs remain byte-identical at the recorded book hash. Existing workspace PDF changes/deleted legacy execution snapshots were present before H0 and were left alone.
+
+- Book and delivery PDF SHA-256: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`.
+- Question bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`.
+- Gaps SHA-256: `3dab3c2a1ea25188102be14221e10bd1cfa52a111257f990c2a8cc7307a5ed52`.
+- Every one of the 228 actual gap IDs is bound once to its existing bank record and one execution step: H1 56, H2 72, H3 30, H4 30, H5 40. These are 79 exact sign codes × two IDs, 30 stopping exercises, 20 consumption exercises and 20 savings exercises. No additional targets or duplicate assignments.
+- Baseline remains 540 pages and 772/1,000 covered; 158 not-covered and 70 prompt-only.
+
+### Exact sign source and artwork verification
+
+Retrieved all 79 current individual official detail pages. Every official page code and Swedish name agrees with the bank sign inventory. Each question's current local illustration is byte-identical both to its live inventory image link and to an image explicitly displayed by its exact official detail page. No substituted or generated artwork. Main-page variants and all directly linked alternative detail pages were also retrieved; see the per-code table below. Contact-sheet inspection confirmed the question illustrations and multiple-image variants, including mirrored directions, changed text, vehicle types, gas abbreviations and tunnel letters.
+
+The register stores exact official meaning text, editorial English labels, main/alternative URLs, preferred matching artwork hashes, dimensions where available, and EPS/DWG links where published. Blank descriptive paragraphs mean the official heading supplies the identity; they do not justify invented additional duties. Source HTML is preserved losslessly as compressed evidence, alongside retrieved PNG/JPEG bytes, in [remaining-gap-source-evidence](remaining-gap-source-evidence/). The scratch cache is not the only evidence copy. Print-size/quality and final captions are H1–H3 gates, not an H0 approval to print every raster.
+
+**Reuse recheck:** The current [Transportstyrelsen road-sign-file paragraph](https://www.transportstyrelsen.se/sv/om-oss/pressrum/pressbilder/) remains consistent with the prior record: sign files may be used for different purposes, with proper context requested. Retain official artwork, agency/source credit and editorial-translation labelling. The existing interpretation covering other catalogue families remains an interpretation, not a separate family licence or agency endorsement. The distinct restrictions on ordinary press photographs are outside this permission.
+
+### Scoped calculation sources and findings
+
+- [Trafikverket stopping guidance](https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/) supports reaction plus braking and dependence on speed, tyres, road/weather and braking. Its illustrated 50 km/h total is 35 m, whereas the exercise shortcut at one second gives 25 m. These are distinct examples/models; do not attribute the bank constants to this page or mix their outputs.
+- [Trafiko's own method](https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka) explicitly documents the one-second reaction shortcut and 0.4 braking shortcut under good-brake/good-tyre/dry-asphalt assumptions. It is commercial teaching provenance only. Extension to a supplied reaction time is editorial proportional arithmetic. No unrelated ABS, weight or typical-reaction-time claims are adopted. The reaction shortcut is exactly 8% above constant-speed conversion; the braking coefficient is not a universal real-world prediction.
+- Existing M03-L04 source `G3-braking-model`, Trafikverket VGU 2024:148, printed p.9(58), remains retained with its original retrieval limitation and scope. Its fixed-denominator squared-speed derivation does not establish the 0.4 shortcut. H0 did not claim a new direct-PDF download or fresh legal re-audit of that retained reference.
+- [Transportstyrelsen economical-driving guidance](https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/) supports fuel-use context. Distance × rate ÷ 100 is editorial unit arithmetic. Neither fuel equation nor the supplied savings rates are represented as agency prescriptions or guaranteed technique benefits.
+- H0 independently parsed actual prompt inputs and recomputed all 70 numerical targets. All 30 stopping and 20 consumption keys equal their exact model/arithmetic results. Sixteen savings keys equal the exact result. Four savings keys use one-decimal ties-to-even rounding, with no precision or convention in their prompts:
+
+| Question | Exact litres saved | Current key | Finding for H5 |
+|---|---:|---:|---|
+| `fuel-saving-150-0.5` | 0.75 | 0.8 | Rounded result; precision unstated |
+| `fuel-saving-150-1.5` | 2.25 | 2.2 | Ties-to-even; conventional half-up would give 2.3 |
+| `fuel-saving-250-0.5` | 1.25 | 1.2 | Ties-to-even; conventional half-up would give 1.3 |
+| `fuel-saving-250-1.5` | 3.75 | 3.8 | Rounded result; precision unstated |
+
+**Disposition:** Bank preserved. H5 must explicitly disclose the exercise convention and the distinction from exact results, or present the bank discrepancy for an authorised correction. Do not teach ordinary half-up rounding and silently mark these questions passed. H7 must retain this finding when assessing answer selection; the 1,000/1,000 outcome remains conditional. The stopping prompts' phrase “book’s rough dry-road model” is not true of the current printed teaching; H4 is the planned resolution, and these questions remain prompt-only until then.
+
+### Caption and production qualifications carried into H1–H3
+
+These are teaching precision requirements, not evidence that the exact sign illustration is missing from the official catalogue. Short English bank labels often identify an illustration but do not express its full official scope; preserve the bank and write fuller captions.
+
+- A32/C12 cover draught animals generally, not horses exclusively. A7 warns that a road ends at water; A33's pictured snowmobile must not be replaced with a generic road scooter.
+- C8 includes supplementary-panel qualifications for tractor b/class I equipment; C10/C11 can extend to class I mopeds by panel; C13/C14 also have explicit panel qualifications. C9/D12 concern orange-plate hazardous loads; D12's letter condition must be explained when that variant is shown.
+- C29 has the two-wheeled moped/motorcycle-without-sidecar exception. C34's current question artwork says `STOPP SIGNAL`; teach the red-signal/stop-line meaning as well as the general stated-purpose heading. C33's current artwork is bilingual `TULL/TOLD`.
+- D8/D9 also allow walking. E23 marks the far end, in the direction of travel, of the taxi standing place; it is more specific than a generic taxi symbol.
+- F28 is a parking garage. F31 indicates a suitable route/bypass for the depicted class; F32 is recommended hazardous-goods routing, distinct from mandatory D12 and prohibitory C9. F33 identifies a numbered rescue location at works or similar, not a general hospital or emergency-parking place.
+- H22 is a sight of national interest; “National heritage” must not become a claim of legal heritage designation. H25 is a farm shop for locally made/grown products; “Shop” is too broad for a full caption. H4's question illustration is CNG; do not label LPG/LNG/H₂ variants as CNG. H11/H12/H28 distinguish tents plus living-space vehicles, living-space vehicles only, and motor homes only.
+- M17 includes humps, depressions or similar obstacles. M28 indicates a lane for scheduled-service vehicles and others, not an unconditional bus-only claim. M32 reinforces B2; M34's `SKOLA` is one information example, not the definition of the whole code.
+- S7 includes two-wheeled motorcycles **and class I mopeds**, both without sidecars. S11 is a mobility-disability symbol; S13 refers to passenger ferry, not an arbitrary boat. Symbols acquire context from the containing sign and do not independently impose invented duties.
+- T23 is used under C9 and the B/C/D/E letter matters; the question variant is B. T25 qualifies H5/H6 serving/restaurant facilities, not all businesses.
+- S5/S6/S7/S11/S13 official question PNGs contain pale/white symbols that lose contrast on a light page. Identity is verified, but H3 must use an appropriate existing approved presentation/backing or verified official print asset and check it at print size. Do not redraw pixels or mark them print-ready from byte equality alone.
+
+### Per-code official detail URLs and frozen question variants
+
+All links below are exact retrieved individual pages. “Images / alternatives” counts the main detail page's displayed artwork and directly linked alternate detail pages; it does not assert that every allowed real-world configuration is pictured. Full alternative URLs and their own descriptions are in the register. English wording in the bank is editorial translation.
+
+| Step | Code and official Swedish name | Exact official question artwork | Images / alternatives |
+|---|---|---|---:|
+| H1 | [A6 — Varning för bro](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-bro/) | `a6-1.png` | 1 / 0 |
+| H1 | [A7 — Varning för kaj](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-kaj/) | `a7-1.png` | 1 / 0 |
+| H1 | [A12 — Varning för stenras](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-stenras/) | `a12-1.png` | 2 / 1 |
+| H1 | [A17 — Varning för skidåkare](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-skidakare/) | `a17-1.png` | 1 / 0 |
+| H1 | [A23 — Varning för lågt flygande flygplan](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-lagt-flygande-flygplan/) | `a23-1.png` | 2 / 1 |
+| H1 | [A32 — Varning för fordon med förspänt dragdjur](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/) | `a32-1.png` | 3 / 2 |
+| H1 | [A33 — Varning för terrängskotertrafik](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/) | `a33-1.png` | 1 / 0 |
+| H1 | [C4 — Förbud mot trafik med motordrivet fordon med fler än två hjul](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motordrivet-fordon-med-fler-an-tva-hjul/) | `c4-1.png` | 1 / 0 |
+| H1 | [C5 — Förbud mot trafik med motorcykel och moped klass I](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-motorcykel-och-moped-klass-i/) | `c5-1.png` | 1 / 0 |
+| H1 | [C7 — Förbud mot trafik med tung lastbil](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-tung-lastbil/) | `c7-1.png` | 1 / 0 |
+| H1 | [C8 — Förbud mot trafik med traktor och motorredskap klass II](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-traktor-och-motorredskap-klass-ii/) | `c8-1.png` | 1 / 0 |
+| H1 | [C9 — Förbud mot trafik med fordon lastat med farligt gods](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-lastat-med-farligt-gods/) | `c9-1.png` | 1 / 0 |
+| H1 | [C10 — Förbud mot trafik med cykel och moped klass II](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-cykel-och-moped-klass-ii/) | `c10-1.png` | 1 / 0 |
+| H1 | [C11 — Förbud mot trafik med moped klass II](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-moped-klass-ii/) | `c11-1.png` | 1 / 0 |
+| H1 | [C12 — Förbud mot trafik med fordon förspänt med dragdjur](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-fordon-forspant-med-dragdjur/) | `c12-1.png` | 1 / 0 |
+| H1 | [C13 — Förbud mot trafik med terrängmotorfordon och terrängsläp](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-terrangmotorfordon-och-terrangslap/) | `c13-1.png` | 1 / 0 |
+| H1 | [C14 — Förbud mot ridning](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-ridning/) | `c14-1.png` | 1 / 0 |
+| H1 | [C15 — Förbud mot gångtrafik](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-gangtrafik/) | `c15-1.png` | 1 / 0 |
+| H1 | [C29 — Förbud mot omkörning med tung lastbil](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-omkorning-med-tung-lastbil/) | `c29-1.png` | 1 / 0 |
+| H1 | [C30 — Slut på förbud mot omkörning med tung lastbil](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/slut-pa-forbud-mot-omkorning-med-tung-lastbil/) | `c30-1.png` | 1 / 0 |
+| H1 | [C33 — Stopp vid tull](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-vid-tull/) | `c33-1.png` | 4 / 3 |
+| H1 | [C34 — Stopp för angivet ändamål](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/stopp-for-angivet-andamal/) | `c34.png` | 4 / 3 |
+| H1 | [D8 — Påbjuden ridväg](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-ridvag/) | `d8-1.png` | 1 / 0 |
+| H1 | [D9 — Påbjuden led för terrängmotorfordon och terrängsläp](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-led-for-terrangmotorfordon-och-terrangslap/) | `d9-1.png` | 1 / 0 |
+| H1 | [D12 — Påbjuden körriktning för fordon lastat med farligt gods](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/pabjuden-korriktning-for-fordon-lastat-med-farligt-gods/) | `d12-1.png` | 2 / 1 |
+| H1 | [E23 — Taxi](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/) | `e23-1.png` | 1 / 0 |
+| H1 | [E24 — Automatisk trafikövervakning](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/) | `e24-1.png` | 1 / 0 |
+| H1 | [E25 — Betalväg](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/) | `e25-1.png` | 1 / 0 |
+| H2 | [F12 — Vattendrag](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/vattendrag/) | `f12-1.png` | 1 / 0 |
+| H2 | [F22 — Riksmärke](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/riksmarke/) | `f22-2.png` | 2 / 1 |
+| H2 | [F28 — Parkeringshus](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/parkeringshus/) | `f28-1.png` | 1 / 0 |
+| H2 | [F29 — Infartsparkering](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/infartsparkering/) | `f29-1.png` | 3 / 2 |
+| H2 | [F30 — Lokal slinga](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lokal-slinga/) | `f30-1.png` | 1 / 0 |
+| H2 | [F31 — Lämplig väg eller förbifart för visst fordonsslag eller trafikantgrupp](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/lamplig-vag-eller-forbifart-for-visst-fordonsslag-eller-trafikantgrupp/) | `f31-1.png` | 11 / 10 |
+| H2 | [F31a — Färdväg för långa fordonståg](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/fardvag-for-langa-fordonstag/) | `f31a.png` | 1 / 0 |
+| H2 | [F32 — Farligt gods](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/farligt-gods/) | `f32-1.png` | 1 / 0 |
+| H2 | [F33 — Räddningsplats](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/raddningsplats/) | `f33-1.png` | 1 / 0 |
+| H2 | [G1 — Post](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/post/) | `g1-1.png` | 1 / 0 |
+| H2 | [G3 — Radiostation för vägtrafikinformation](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/radiostation-for-vagtrafikinformation/) | `g3-1.png` | 1 / 0 |
+| H2 | [G5 — Industriområde](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/industriomrade/) | `g5-1.png` | 1 / 0 |
+| H2 | [G10 — Handelsområde](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/handelsomrade/) | `g10.png` | 1 / 0 |
+| H2 | [G12 — Personfärja](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/personfarja/) | `g12.png` | 1 / 0 |
+| H2 | [H4 — Gas för fordonsdrift](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gas-for-fordonsdrift/) | `h4-1.png` | 4 / 3 |
+| H2 | [H5 — Servering](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/servering/) | `h5-1.png` | 1 / 0 |
+| H2 | [H6 — Restaurang](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/restaurang/) | `h6-1.png` | 1 / 0 |
+| H2 | [H8 — Vandrarhem](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandrarhem/) | `h8-1.png` | 1 / 0 |
+| H2 | [H9 — Stugby](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stugby/) | `h9-1.png` | 1 / 0 |
+| H2 | [H10 — Stuga](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stuga/) | `h10-1.png` | 1 / 0 |
+| H2 | [H11 — Campingplats](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/campingplats/) | `h11-1.png` | 1 / 0 |
+| H2 | [H12 — Husvagnsplats](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/husvagnsplats/) | `h12-1.png` | 1 / 0 |
+| H2 | [H15 — Badplats](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/badplats/) | `h15-1.png` | 1 / 0 |
+| H2 | [H16 — Friluftsområde](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/friluftsomrade/) | `h16-1.png` | 1 / 0 |
+| H2 | [H17 — Vandringsled](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandringsled/) | `h17-1.png` | 1 / 0 |
+| H2 | [H18 — Stollift](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stollift/) | `h18-1.png` | 1 / 0 |
+| H2 | [H19 — Släplift](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/slaplift/) | `h19-1.png` | 1 / 0 |
+| H2 | [H20 — Golfbana](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/golfbana/) | `h20-1.png` | 1 / 0 |
+| H2 | [H21 — Försäljningsställe för fiskekort](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forsaljningsstalle-for-fiskekort/) | `h21-1.png` | 1 / 0 |
+| H2 | [H22 — Sevärdhet](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/) | `h22-1.png` | 1 / 0 |
+| H2 | [H23 — Förberedande upplysning om vägnära service](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forberedande-upplysning-om-vagnara-service/) | `h23.png` | 1 / 0 |
+| H2 | [H24 — Rum och frukost](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/rum-och-frukost/) | `h24-1.png` | 1 / 0 |
+| H2 | [H25 — Gårdsbutik](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gardsbutik/) | `h25.png` | 1 / 0 |
+| H2 | [H26 — Hantverk](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/hantverk/) | `h26.png` | 1 / 0 |
+| H2 | [H28 — Anläggning som enbart tillhandahåller platser för bilar med bostadsutrymme](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/anlaggning-tillhandahaller-plats-for-bil-med-bostadsutrymme/) | `h28.png` | 1 / 0 |
+| H2 | [J3 — Livsfarlig ledning](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/) | `j3-1.png` | 2 / 1 |
+| H3 | [M17 — Farthinder](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/farthinder/) | `m17-1.png` | 1 / 0 |
+| H3 | [M17a — Cykelbox](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/) | `m17a-cykelbox.png` | 1 / 0 |
+| H3 | [M28 — Buss](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/buss/) | `m28-1.png` | 1 / 0 |
+| H3 | [M29 — Hastighet](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/hastighet/) | `m29-1.png` | 1 / 0 |
+| H3 | [M30 — Vägnummer](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/vagnummer/) | `m30.png` | 1 / 0 |
+| H3 | [M31 — Ändamålsplats](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/andamalsplats/) | `m31-1.png` | 1 / 0 |
+| H3 | [M32 — Stopp](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/stopp/) | `m32-1.png` | 1 / 0 |
+| H3 | [M34 — Information](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/information/) | `m34-1.png` | 1 / 0 |
+| H3 | [S5 — Buss](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/buss/) | `s5-1.png` | 1 / 0 |
+| H3 | [S6 — Traktor och motorredskap klass II](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/) | `s6-1.png` | 1 / 0 |
+| H3 | [S7 — Motorcykel](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/) | `s7-1.png` | 1 / 0 |
+| H3 | [S11 — Rörelsehindrade](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/rorelsehindrade/) | `s11-1.png` | 1 / 0 |
+| H3 | [S13 — Personfärja](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/) | `s13-1.png` | 1 / 0 |
+| H3 | [T23 — Tunnelkategori](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tunnelkategori/) | `t23-1.jpg` | 4 / 3 |
+| H3 | [T25 — Öppet dygnet runt](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/oppet-dygnet-runt/) | `t25-1.png` | 1 / 0 |
+
+### H0 validation and next step
+
+- 228 unique targets, exact gaps-set equality; assignments H1/H2/H3/H4/H5 = 56/72/30/30/40.
+- 79 official code/name matches and 79 exact question-artwork byte matches; 110 displayed official images and 31 linked alternate detail pages recorded.
+- 66 exact numerical results and four explicitly recorded rounding qualifications; no bank changes and no fabricated official shortcut attribution.
+- Compressed source evidence and frozen inputs pass offline SHA-256 verification. Run `python3 tools/verify_remaining_gap_baseline.py --offline` from the repository root; it needs only the standard library. A new online capture needs BeautifulSoup, available in the existing `tmp/python` environment; retain this register as the approved baseline rather than overwriting it later.
+
+**Next executable scope:** H1, the 28 A/C/D/E codes and 56 questions, using these verified sources and the existing approved Appendix B presentation. No new design was required or implemented in H0.
