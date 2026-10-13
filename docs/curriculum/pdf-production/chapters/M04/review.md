@@ -37,3 +37,8 @@ pdftoppm -scale-to 1600 -png docs/curriculum/pdf-production/chapters/M04/chapter
 Use the pinned dependencies/fonts in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; change authoritative teaching text in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-04.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved scene masters remain necessary for print publication. Final global folios/navigation, appendix integration and complete tagged-PDF accessibility remain in 6M–6N. This step does not approve publication or start 6F.
+
+
+## G4 review — 13 October 2026
+
+43 rendered pages inspected in contact sheets; full-size checks on 18, 22, 41 and 42. No clipping, overlap, broken symbols or URL overflow. All approved scenes and official sign bindings/sizes preserved; later pages shift by one. Answers remain separated. +1 page meets budget. [Completion](../../../question-book-review/execution/G4/completion.md).

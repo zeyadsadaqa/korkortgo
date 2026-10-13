@@ -1,15 +1,15 @@
 {
   "status": "passed",
-  "pages": 15,
+  "pages": 19,
   "complete_lessons": 4,
   "module_reviews": 1,
-  "manuscript_blocks_preserved": 38,
+  "manuscript_blocks_preserved": 50,
   "illustrations": 6,
   "image_actualtext_descriptions": 6,
   "official_signs_required": 0,
-  "official_reference_urls": 11,
-  "valid_internal_links": 34,
-  "named_destinations": 16,
+  "official_reference_urls": 19,
+  "valid_internal_links": 40,
+  "named_destinations": 20,
   "embedded_fonts": [
     "/AAAAAA+SourceSans3-Regular",
     "/AAAAAA+SourceSans3-Semibold",
@@ -17,9 +17,9 @@
     "/AAAAAA+SourceSerif4-Semibold"
   ],
   "answers_non_facing": true,
-  "sha256": "db70b8e6c6d8aecde3b98416dc36a78a733385864c20593a51265ae414006dd5",
+  "sha256": "4659ff73f14eb62bb9dfd0866bff4a0f2186f3c3776ee3c6c16ae34906e7377c",
   "reproducible": true,
-  "visual_review": "15 pages inspected; review.md",
+  "visual_review": "See G2 rendered-page inspection in review.md",
   "release_limits": [
     "Screen-review image resolution; print masters remain separate",
     "Full tagged-PDF accessibility and final navigation/pagination checked in 6M–6N"

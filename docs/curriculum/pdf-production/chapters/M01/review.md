@@ -42,3 +42,8 @@ pdftoppm -scale-to 1600 -png docs/curriculum/pdf-production/chapters/M01/chapter
 Use the pinned shared dependencies/fonts from [the build README](../../README.md). `chapter-source.md` is the generated editable chapter snapshot; update the authoritative manuscript and rebuild to change teaching text. `build_chapter.py` is the editable composition source. A matching delivery copy is saved under `output/pdf/korkortgo-chapter-01.pdf`.
 
 No blocking chapter issue remains for this screen-review build. Artwork is approximately 103–118 ppi at full text width; higher-resolution approved masters are needed for a print release. ActualText and captions do not constitute full tagged-PDF/PDF-UA certification; full accessibility checks remain in 6N. Final book pagination/navigation are verified in 6M. Step 6C was not started.
+
+
+## G1 review — 12 October 2026
+
+17-page revision inspected in rendered contact sheets; full-size detail checks on pages 5, 7, 8, 13 and 14. Existing artwork unchanged. No clipping or overlap; references wrap within margins. Answers remain separate from assessment pages. Added two pages within G1 budget. Exact coverage/evidence and release limits: [G1 completion](../../../question-book-review/execution/G1/completion.md).

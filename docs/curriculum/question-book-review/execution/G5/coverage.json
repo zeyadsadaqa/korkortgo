@@ -1,0 +1,129 @@
+{
+  "step": "G5",
+  "checked_on": "2026-10-13",
+  "page_number_scope": "One-based local Chapter 5 pages; final book pages pending assembly.",
+  "chapter_pages": 45,
+  "baseline_pages": 44,
+  "added_pages": 1,
+  "questions_resolved": 3,
+  "questions": [
+    {
+      "question_id": "situation-013",
+      "question_prompt": "The speed limit is 70 km/h and a bus signals to leave its stop. Which statement is correct?",
+      "keyed_answer": "The bus must give way, but you should still be ready to cooperate.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        6,
+        7
+      ],
+      "primary_local_page": 6,
+      "comprehension_check_local_page": 8,
+      "answer_local_page": 42,
+      "teaching_excerpt": "The threshold concerns the maximum permitted speed on the road, not how fast you happen to be travelling. At a 70 km/h limit, the special bus-stop departure rule above does not apply. The bus must wait for an entry that can be made without danger or unnecessary obstruction. You still have a duty to adapt speed to facilitate an observed entry into your lane. A bus indicator does not create unconditional priority, and the higher road limit does not excuse deliberately blocking it. Traffic Regulation, chapter 3 §§43–45 Road limit Duties when the bus signals to leave its stop 50 km/h or lower Slow and let the bus leave; stop if needed. The bus driver must take particular care. 70 km/h, ordinary entry into your lane The special bus-exit duty does not apply. The bus waits for a safe entry; you adapt speed to facilitate the observed entry. Safety advice · Let a guide dog work. Do not pet, call ",
+      "coverage_reasoning": "All three essential claims taught: ≤50 special opportunity/stop duty, safe bus entry at 70, and continued cooperation under §43. Explicitly distinguishes road limit from actual speed; original 40 km/h bus example extended to a 70 km/h comparison.",
+      "claim_ids": [
+        "situation-013-C01",
+        "situation-013-C02",
+        "situation-013-C03"
+      ],
+      "sources": [
+        {
+          "source_alias": "traffic-law",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry"
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        141,
+        142
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-119",
+      "question_prompt": "How should you behave around a guide dog working in traffic?",
+      "keyed_answer": "Avoid distracting it.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        6
+      ],
+      "primary_local_page": 6,
+      "comprehension_check_local_page": 8,
+      "answer_local_page": 42,
+      "teaching_excerpt": "Do not pet, call to or talk to a working guide dog to attract its attention. Distraction can endanger the person it is helping. Allow the pair room and time; if you need to communicate, address the handler rather than trying to direct the dog. The handler chooses the route and remains in control. For example, a passenger beside your parked car wants to greet a guide dog at a crossing. Ask them to leave it working and keep the path clear. MFD: meeting a working guide dog Traffic terminology · A bicycle is a vehicle. A person riding an ordinary pedal bicycle is operating a vehicle, even without an engine. “Vehicle” does not mean only “motor vehicle”. Apply the relevant cyclist duties and protections; crossing distinctions remain in M04-L03. Transportstyrelsen: bicycle definition",
+      "coverage_reasoning": "Avoids attention directed at the working dog; explains handler risk, communication with handler and a guide-dog interaction example.",
+      "claim_ids": [
+        "situation-119-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "guide-dog",
+          "publisher": "Myndigheten för delaktighet (MFD)",
+          "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+          "locator": "När du möter ett ledarhundsekipage, first and third bullets; Så här arbetar ledarhundar"
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        141
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-135",
+      "question_prompt": "Which road user is operating a vehicle under the traffic definitions?",
+      "keyed_answer": "A person riding a bicycle.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        6
+      ],
+      "primary_local_page": 6,
+      "comprehension_check_local_page": 8,
+      "answer_local_page": 42,
+      "teaching_excerpt": "A person riding an ordinary pedal bicycle is operating a vehicle, even without an engine. “Vehicle” does not mean only “motor vehicle”. Apply the relevant cyclist duties and protections; crossing distinctions remain in M04-L03. Transportstyrelsen: bicycle definition",
+      "coverage_reasoning": "Explicit ordinary-pedal-bicycle vehicle definition and rider operating a vehicle, distinguished from motor vehicle terminology; existing crossing duties cross-referenced.",
+      "claim_ids": [
+        "situation-135-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "bicycle-definition",
+          "publisher": "Transportstyrelsen",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/",
+          "locator": "Definitionen av en cykel, definition item 1 under Act (2001:559)"
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        141
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    }
+  ]
+}

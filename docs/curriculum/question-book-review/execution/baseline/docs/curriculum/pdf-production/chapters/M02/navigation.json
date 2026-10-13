@@ -1,0 +1,50 @@
+{
+  "destinations": {
+    "M02": 1,
+    "M02-L01": 2,
+    "M02-L01-scenario": 3,
+    "M02-L02": 4,
+    "M02-L02-scenario": 5,
+    "M02-L03": 6,
+    "M02-L03-scenario": 7,
+    "M02-L04": 8,
+    "M02-L04-scenario": 9,
+    "M02-R": 10,
+    "M02-reflection": 11,
+    "M02-answers": 12,
+    "M02-references": 13,
+    "M02-references-2": 14,
+    "M02-references-3": 15
+  },
+  "questions": {
+    "M02-L01": 3,
+    "M02-L02": 5,
+    "M02-L03": 7,
+    "M02-L04": 9,
+    "M02-R": 10
+  },
+  "answers": {
+    "M02-L01": 12,
+    "M02-L02": 12,
+    "M02-L03": 12,
+    "M02-L04": 12,
+    "M02-R": 12
+  },
+  "page_labels": {
+    "1": "Chapter 2",
+    "2": "M02-L01",
+    "3": "M02-L01 \u00b7 Worked decision",
+    "4": "M02-L02",
+    "5": "M02-L02 \u00b7 Worked decision",
+    "6": "M02-L03",
+    "7": "M02-L03 \u00b7 Worked decision",
+    "8": "M02-L04",
+    "9": "M02-L04 \u00b7 Worked decision",
+    "10": "M02-R \u00b7 Self-assessment",
+    "11": "M02-R \u00b7 Reflection",
+    "12": "Answers and review guidance",
+    "13": "Official references",
+    "14": "Official references",
+    "15": "Official references"
+  }
+}

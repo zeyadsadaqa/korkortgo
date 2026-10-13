@@ -39,3 +39,8 @@ pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/chapters/M07/chapter
 Use the pinned dependencies/fonts in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; change authoritative teaching text in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-07.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved scene masters remain necessary for print publication. Global folios/navigation, appendix integration and complete tagged-PDF accessibility remain in 6M–6N. This step does not approve publication or start 6I.
+
+
+## G7 review — 13 October 2026
+
+All 27 rendered pages inspected; full-size checks on 4, 6, 9, 10, 12, 13 and 23–27. No clipping, overlap, broken symbols or URL overflow. Six official sign bindings/sizes and eight approved scenes retained. Existing typography reused; no new design. Expanded answers remain separated on local p.23. Three new teaching pages and fourth reference page meet +4 budget. ABS cross-reference verified against M02-L01. [Completion](../../../question-book-review/execution/G7/completion.md).

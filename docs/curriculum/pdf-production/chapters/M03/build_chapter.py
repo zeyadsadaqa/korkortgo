@@ -202,6 +202,8 @@ def run():
     for n in range(1,5):
         key=f'M03-L{n:02d}';b.section=key;s=SECTIONS[key];b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(s['paragraphs'][0]),18)
         for p in s['paragraphs'][1:]:
+            if n==4 and p.startswith('**Safety advice · When someone follows too closely.'):
+                b.end();b.start(key+'-gaps',key+' · Time and braking distance');b.text('Margins and braking distance','heading')
             if p.startswith('**Worked decision.'):
                 b.end();b.start(key+'-scenario',key+' · Worked decision');b.text('Apply the learning','subheading');b.art(key)
                 if n==3:b.art(key+'-follow')
@@ -229,8 +231,8 @@ def run():
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M03-R','source',6);b.text('**Review guide:** '+a);b.answers['M03-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),4):
-        key='M03-references' if offset==0 else 'M03-references-2';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 4 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
+        key='M03-references' if offset==0 else f'M03-references-{offset//4+1}';b.start(key,'Official references');b.text('Official references','heading')
+        b.text('Original references checked 4 October 2026; G3 additions checked 12 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
         if offset==4:
@@ -262,7 +264,8 @@ def run():
         if key=='M03':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[int(key[2:])-1],num-1,parent=current)
-        elif key in ['M03-answers','M03-references','M03-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
+        elif key=='M03-L04-gaps':w.add_outline_item('Time and braking distance',num-1,parent=current)
+        elif key.startswith('M03-references') or key in ['M03-answers','M03-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
     w.add_named_destination('contents',0)
     with (OUT/'chapter.pdf').open('wb') as f:w.write(f)
     (OUT/'navigation.json').write_text(json.dumps({'destinations':b.destinations,'questions':b.questions,'answers':b.answers,'page_labels':b.page_labels,'group_pages':b.group_pages,'scene_pages':b.scene_pages},indent=2)+'\n')

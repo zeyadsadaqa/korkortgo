@@ -2,7 +2,7 @@
 
 ## Swedish category B learning manuscript
 
-**Version 1.0 · Prepared and source-checked 1 October 2026**  
+**2026 review edition · Original checks 1 October; chapter additions checked 12–13 October 2026**
 Based on the curriculum outline approved on 1 October 2026.
 
 > **This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.**
@@ -17,9 +17,9 @@ Each lesson contains a goal, an explanation, an original worked situation, a kno
 
 **Requirements** describe applicable duties or conditions, with official references. **Official recommendations/advice** describe the named authority's guidance. **Learning approaches, worked decisions and review guides** are original teaching material. They help you apply the principles; they are not additional laws. English explanations are written for learning and do not replace the Swedish legal wording.
 
-References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Where a short agency page does not cover a legal exception, references also point to the official legislation published by Sveriges riksdag. A brief first-aid reference points to 1177, the Swedish public healthcare information service. Vehicle-specific controls and procedures must be established for the actual vehicle rather than inferred from a generic example.
+References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Official legislation and other public authorities supply details missing from the main agency guidance. Selected manufacturer handbooks supply missing technical cautions and are listed separately. The lessons identify source limits and distinguish recommendations, research and teaching inferences from legal duties. Use the handbook for the actual vehicle; a generic example is not its operating procedure.
 
-Dated licensing, examination and vehicle requirements reflect the source checks on 1 October 2026. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance.
+Original licensing, examination and vehicle checks are dated 1 October 2026; added passages have their own checks on 12–13 October. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance.
 
 ### Contents
 
@@ -36,11 +36,11 @@ Dated licensing, examination and vehicle requirements reflect the source checks 
 
 Appendices: journey and vehicle checklists; sign-study method; glossary; personal practice record; official references.
 
-**Editorial status:** This is the editable text manuscript. Official sign illustrations and their placement are prepared in step 4; the illustrated reference is not yet present. PDF design, pagination and final publication verification follow in later steps.
+**Editorial status:** The review edition includes the verified chapter additions and illustrated sign reference. Assembly and navigation are checked in G11; the final question-bank coverage audit is G12. Print masters, tagged-PDF accessibility and publication approval remain separate.
 
 ## 1. Choose to drive responsibly
 
-Driving begins with a choice: whether this person, this vehicle and this journey are ready to go together. Learning rules matters, but so does recognising when a different plan is safer. This module helps you build both habits.
+Driving begins with a choice: whether this person, this vehicle and this journey are ready to go together. Sweden’s Vision Zero (Nollvisionen) aims for no one to be killed or seriously injured in traffic. The choices taught here contribute to that aim. [Trafikverket: Vision Zero][vision-zero] Learning rules matters, but so does recognising when a different plan is safer. This module helps you build both habits.
 
 ### M01-L01 · Your route into driving
 
@@ -74,9 +74,17 @@ Alcohol can affect judgement, attention, vision, reactions and coordination. Fee
 
 **Learning approach.** Before taking the keys, ask: Can I stay alert? Can I see and move well enough? Has anything changed since I last drove? Can I concentrate on several developing situations? If the answers are uncertain, make a different travel plan and resolve the uncertainty first. Medical eligibility and day-to-day readiness are related but different: having a licence does not mean you are fit for every journey. [Medical requirements][medical]
 
+**Medical explanation · Sleep and awareness.** Microsleep (mikrosömn) is a brief, unintended episode of sleep. You do not choose it or reliably prevent it by deciding to try harder. For a deliberately hypothetical two-second lapse at a constant 90 km/h, distance = speed × time: 90 ÷ 3.6 = 25 metres per second; 25 × 2 = 50 metres travelled while asleep. Two seconds is an example, not a prediction of how long a microsleep lasts. [CDC/NIOSH: microsleeps][microsleep]
+
+**Official safety advice · Replace missing sleep with sleep.** Adequate sleep is the fundamental remedy for sleep deprivation. Coffee or an energy drink may briefly make you feel more alert, but does not replace the sleep you need; serious sleep deprivation can still lead to microsleep. Music, an open window or willpower should not be treated as a clearance to drive: they do not provide the missing sleep. Do not start when you cannot stay awake; if sleepiness develops, stop somewhere safe and arrange rest or another way to travel. See M07-L03 for planning around fatigue on a journey. [NHTSA: drowsy driving][drowsy-driving]
+
+**Medical explanation · Stimulation is not safe judgement.** Stimulant misuse, for example involving amphetamine or cocaine, can produce overconfidence while judgement and concentration are impaired. Some stimulant effects can reduce the feeling of fatigue or drowsiness: tiredness may be masked rather than the need for sleep removed. Feeling energetic is therefore not proof of safe driving ability. Effects vary with substance, dose and individual circumstances; this does not mean every prescribed stimulant treatment has the same effect. Ask your prescriber about your treatment and driving. [Swedish Government: stimulant confidence and judgement][stimulant-confidence] · [NHTSA: stimulant effects][stimulant-fatigue]
+
+**Practice example.** Lina slept too little before an evening journey. She suggests an energy drink and loud music; her friend suggests a stimulant to make her feel confident. The missing sleep remains unresolved, and a stronger feeling of alertness cannot certify safe judgement. She postpones the drive or arranges an alert driver, and makes time for adequate sleep before driving again.
+
 **Worked decision.** A driver has taken a new medicine and feels unusually drowsy. A passenger offers to keep talking to help them stay awake. The safer choice is to arrange another driver or transport and ask for medication advice. Conversation does not resolve the impairment.
 
-**Knowledge check.** Is driving automatically acceptable if a medicine was prescribed correctly? **Answer:** No. The driver must still be capable of driving safely. The prescription exception to the narcotics rule does not excuse unsafe impairment.
+**Knowledge check.** (1) Is driving automatically acceptable if a medicine was prescribed correctly? (2) How does microsleep differ from choosing to close your eyes? (3) A sleep-deprived driver feels energetic and unusually confident after taking a stimulant. Has the missing sleep been remedied, and does that feeling establish safe judgement? **Answer:** (1) No. The driver must still be capable of driving safely. The prescription exception to the narcotics rule does not excuse unsafe impairment. (2) Microsleep is a brief unintended sleep episode, not a deliberate action. (3) No. Adequate sleep addresses sleep deprivation; stimulation can mask fatigue and produce overconfidence without safe judgement.
 
 **Remember:** Decide fitness before deciding convenience.
 
@@ -92,9 +100,11 @@ A useful personal boundary is a sentence you can use without debate: “I will s
 
 **Requirement.** You still owe care to other road users and must adapt speed to conditions. Cooperation does not authorise ignoring a traffic rule because another person is impatient. [Traffic Regulation, chapter 2 §1 and chapter 3 §14][traffic-law]
 
+**Official policy aim · Vision Zero.** Nollvisionen means no one should be killed or seriously injured in traffic. It is not a promise that nobody will ever make a mistake. Trafikverket describes shared responsibility: road users must show consideration and judgement and follow traffic rules, while system designers have ultimate responsibility for the system’s safety. Your part includes choosing safe speed and margins and refusing a pressured manoeuvre; road and vehicle design also contribute. For example, staying behind a vehicle near a hidden crest helps protect people even when a passenger dislikes the delay. [Trafikverket: Vision Zero][vision-zero]
+
 **Worked decision.** Friends laugh when Amir stays behind a slow vehicle on a road with a hidden crest. He recognises the urge to prove himself, maintains space and waits for a genuinely suitable opportunity. His decision protects the purpose of the trip: arriving safely. There is no need to “win” the interaction.
 
-**Knowledge check.** Which is better evidence of readiness: feeling confident, or repeatedly identifying hazards and responding safely during supervised practice? **Answer:** Observed performance. Confidence is useful only when it agrees with what you can actually do.
+**Knowledge check.** (1) Which is better evidence of readiness: feeling confident, or repeatedly identifying hazards and responding safely during supervised practice? (2) Does Vision Zero aim only to reduce minor collisions, or to prevent deaths and serious injuries? **Answer:** (1) Observed performance. Confidence is useful only when it agrees with what you can actually do. (2) Its central aim is that no one should be killed or seriously injured in traffic. Safer driver choices contribute to that aim.
 
 **Remember:** A decision can be socially uncomfortable and still be the correct driving decision.
 
@@ -138,9 +148,24 @@ The service brake is used to reduce speed and stop; the parking brake helps secu
 
 **Vehicle-specific boundary.** Control layouts, warning meanings and system checks differ. Use the instructions for the actual vehicle before trying an unfamiliar function. This material does not prescribe a universal brake-servo test, fluid-opening procedure or response to every dashboard symbol. An unexplained warning is a reason to establish what is wrong before treating the car as ready.
 
+**Technical explanation · Brakes and electrical protection.** Separate brake circuits provide a reserve: if one circuit fails, the remaining circuit can still provide some braking. This reduces the chance of losing all braking through one circuit fault. Remaining braking may be weaker; it is not permission to continue normally. The technical requirements distinguish the surviving capability from full service-brake performance. [Transportstyrelsen: brake circuits][brake-circuits]
+
+**ABS in an emergency.** Anti-lock braking helps prevent wheel locking and can preserve steering control. During an emergency stop with ABS, keep firm, continuous pressure on the brake pedal and steer as necessary; do not pump the pedal. Pulsation or vibration through the pedal during ABS operation can be normal feedback as the system regulates braking. This differs from a changed pedal feel in ordinary braking. ABS does not guarantee a shorter stop or create grip that the tyres lack. [UK Government: ABS instruction, Rule 120][abs-driving] · [Ford: normal ABS feedback, 2011 Explorer][abs-feedback]
+
+**Recognise a symptom, then act.** The table gives possibilities, not diagnoses. A sinking pedal can suggest internal leakage, although some servo/pump behaviour can resemble it. Air can cause hydraulic pedal sponginess. Obtain professional assessment for an unexplained change. [Transportstyrelsen: brake inspection][brake-inspection] · [Northern Ireland government: vehicle faults][vehicle-faults]
+
+| Symptom | Possible cause | Action |
+|---|---|---|
+| Pulsating pedal during an emergency ABS stop | Normal ABS operation | Keep firm continuous pressure; steer as needed. |
+| Pedal slowly sinks under steady pressure | Hydraulic leakage or another brake fault | Do not start an unsafe journey; obtain professional help. |
+| Hydraulic pedal feels unusually springy or spongy | Air in the brake system | Have it checked before moving; do not rely on normal braking. |
+| Steering vibrates at certain speeds | Wheel imbalance; other faults are possible | Have tyres, wheels and steering assessed; see M02-L02. |
+
+**What a fuse does.** A fuse protects an electrical circuit by interrupting excessive current during an overload or short circuit. Investigate faults under the actual vehicle's instructions. [Transportstyrelsen: fuse protection principle][fuse-protection]
+
 **Worked decision.** Leila starts a borrowed car and sees a warning she cannot identify. Instead of driving to see whether it disappears, she stays parked, consults the vehicle instructions and seeks help. The lesson is to resolve uncertainty, not to guess from a warning's colour alone.
 
-**Knowledge check.** Does a familiar-looking selector guarantee that an unfamiliar car will behave like your practice car? **Answer:** No. Establish its operation while stationary and practise under suitable supervision.
+**Knowledge check.** (1) Does a familiar selector guarantee familiar operation? (2) Why separate brake circuits? (3) What should you do when the pedal pulsates during emergency ABS braking? (4) What might a sinking or unusually spongy pedal suggest? (5) What does a fuse protect against? **Answer:** (1) No; establish operation while stationary. (2) A remaining circuit can retain some braking after one fails, with reduced capability. (3) Keep firm continuous pressure and steer as needed; normal ABS pulsation is not a reason to pump. (4) Sinking can suggest a hydraulic leak or fault; sponginess can suggest air. Obtain professional assessment before an unsafe journey. (5) Excessive current; the fuse interrupts the circuit.
 
 **Remember:** Learn a function, its limitations and the appropriate response—not only its button.
 
@@ -154,9 +179,15 @@ The service brake is used to reduce speed and stop; the parking brake helps secu
 
 Required lighting must work and be used appropriately. Some cars can run daytime lights without rear lights; the driver must ensure suitable front, rear and side lighting is on in darkness, twilight or poor weather. A trailer's lighting must be on during travel. Automatic settings may need manual intervention. [Transportstyrelsen: vehicle lighting][lights]
 
+**Technical explanation · Steering vibration.** Uneven mass distribution around a rotating wheel and tyre can cause steering vibration, sometimes most noticeable at particular speeds. Wheel imbalance is one possible cause, not a diagnosis: tyre damage and other wheel or steering defects may also be involved. Arrange assessment rather than testing the symptom by driving faster. [Northern Ireland government: wheel balance and vehicle faults][vehicle-faults]
+
+**Vehicle instructions · A temporary spare.** Before using a temporary spare, read the actual car and spare-wheel instructions for maximum speed, distance or use restrictions, and required tyre pressure. Follow those limits and replace it with the normal wheel as instructed. Its pressure can differ from the road tyres. Volvo's 2019 V60 Twin Engine handbook gives one model's temporary-use, speed and pressure requirements; these cannot be assumed for every car. [Volvo: temporary spare, 2019 V60 Twin Engine][temporary-spare]
+
+**Practice example.** Omar notices vibration on a journey and proposes fitting an unfamiliar temporary spare. He first obtains help to assess the symptom, then checks whether the spare is suitable and reads its limits. Changing a wheel does not establish the original cause. Handling and grip are developed in M07-L02. For hot-coolant precautions during other vehicle checks, see M10-L01.
+
 **Worked decision.** A passenger notices that the trailer's rear lights are dark although the car's daytime lights are on. The driver checks the setting and connection before moving. “The dashboard looks normal” is not a check of the trailer lamps.
 
-**Knowledge check.** A tyre has a visible defect, but its tread looks deep. Is tread alone enough to declare it safe? **Answer:** No. Condition and suitability also matter. Have the defect assessed and do not make an unsafe journey.
+**Knowledge check.** (1) Is deep tread enough if a tyre has a defect? (2) What is one possible cause of steering vibration at certain speeds? (3) Which instructions must you check before using a temporary spare? **Answer:** (1) No; condition and suitability also matter. Have the defect assessed. (2) Wheel imbalance is one possibility; assessment is needed because other faults can cause vibration. (3) The actual vehicle/spare maximum speed, distance or use restrictions, and required pressure; no universal limit can be assumed.
 
 **Remember:** Use a repeatable order, then take a specific action for each concern. Detailed winter requirements are in M07-L02.
 
@@ -172,9 +203,17 @@ For a child aged three or more but shorter than 135 cm, an occasional short tran
 
 Never place a rear-facing child restraint in front of an active passenger airbag. Trafikverket advises at least 140 cm in front of an active airbag unless the manufacturer recommends otherwise; Transportstyrelsen gives more conservative advice for children in restraints. Resolve seating and airbag compatibility using the vehicle and restraint instructions before travelling. An airbag supplements a belt; it does not replace one. Adjust the head restraint for the person occupying the seat. [Children in cars][child-advice] · [Airbags][airbags] · [Seats and head restraints][seats]
 
+**Technical explanation · Head restraints.** In a rear impact, the seat and torso can move while the head lags behind. A correctly designed and adjusted head restraint helps limit damaging head movement relative to the torso and reduce neck-injury risk. Trafikverket advises positioning the top at the crown of the head and keeping the gap behind the head as small as possible. Adjust it for the occupant before driving; a comfort setting is not the same as a protective setting. A head restraint cannot guarantee that injury will be avoided. [Trafikverket: seats and head restraints][seats]
+
+**Why children face backwards.** A young child's head is relatively heavy and the neck is vulnerable. In a frontal collision, a rear-facing seat supports the head and body together, takes up collision forces and distributes the load across the supported body. The neck does not have to restrain the heavy head on its own in the same way as when facing forwards. This is why the recommendations above concern protection, not only seat orientation. Follow the seat's size limits, fitting instructions and airbag compatibility. [Trafikverket: child head and neck protection][child-advice] · [Transportstyrelsen: rear-facing collision protection][child-rules]
+
+**Controlled deformation.** Crumple zones are parts of a vehicle designed to deform progressively in a collision, absorbing energy while the passenger compartment's structure protects the occupants' space. Spreading the deceleration over a longer time reduces forces acting on the people inside. A car remaining visually undamaged is not the objective: designed deformation can be part of its protection. Belts and suitable child restraints still matter, and no structure makes every collision survivable. [Western Australia government: structure and crumple zones][crumple-zones]
+
+**Practice example.** A family prepares a car for a child and an adult passenger. They check rear-facing seat fit and airbag compatibility, and adjust the adult's head restraint. After discussing crash protection, they recognise that the restraint, seat and deforming vehicle structure have different roles that work together.
+
 **Worked decision.** A child reaches the legal height threshold, but the belt still lies badly. The adult checks an appropriate approved booster rather than treating the threshold as an instruction to discard it.
 
-**Knowledge check.** Can the child use a rear-facing seat in front of an active airbag for a very short trip? **Answer:** No. Trip length does not make that arrangement safe.
+**Knowledge check.** (1) Is a rear-facing seat safe in front of an active airbag for a short trip? (2) What does a head restraint do? (3) Why does rear-facing travel protect a small child? (4) Why are crumple zones designed to deform? **Answer:** (1) No. Trip length does not make it safe. (2) It helps limit damaging head movement and reduce neck-injury risk, particularly in rear impacts. (3) The seat supports the relatively heavy head and body together and takes collision forces, protecting the vulnerable neck. (4) Controlled deformation absorbs energy and slows the compartment more gradually, reducing occupant forces.
 
 **Remember:** Legal minimums, official recommendations and equipment compatibility answer different questions.
 
@@ -282,9 +321,21 @@ Think of stopping in two parts. During the time between noticing a hazard and be
 
 **Learning approach.** Scan far enough ahead to see developing situations, while revisiting the near area, mirrors and places where someone may enter. Avoid staring at one hazard until everything else disappears from attention. Increase your margin when information is poor. A timed following-gap check can help you notice a short gap, but no fixed number is safe in every condition.
 
+**Safety advice · Check a timed gap.** For the three-second following-distance guideline, select a fixed roadside point, such as a pole or sign. When the rear of the vehicle ahead passes it, start counting at a steady seconds pace. Stop when the front of your car reaches the same point. Arriving before three seconds indicates a short gap against that guideline: ease back smoothly and check again. Three seconds is a guideline, not a statutory fixed interval or a guarantee; poor grip, visibility or other hazards require more space and an appropriate speed. Keep observing the road while counting. [NSW Government: fixed-point following-gap method][following-gap]
+
+**Fixed-point example.** The car ahead passes a sign. You count “one thousand and one, one thousand and two, one thousand and three”. If your car reaches the sign while you are still on “two”, increase the gap smoothly. At a hypothetical constant 60 km/h, three seconds represents 60 ÷ 3.6 × 3 = 50 metres. A timed gap therefore represents more metres at higher speed, without requiring you to estimate metres by eye.
+
+**Safety advice · When someone follows too closely.** Increase your gap to the vehicle ahead gradually, allowing you to ease off and brake more gently if traffic slows. This gives the following driver more time to respond. Do not brake sharply to warn or punish them, or accelerate into an unsafe speed. If an emergency requires braking, brake as necessary; this advice does not mean withholding it. [Northern Ireland government: tailgater response][vehicle-faults]
+
+**Tailgater example.** Maya has a close follower and sees brake lights farther ahead. She eases off early to create room in front and slows progressively. She cannot control the follower, but she can reduce the need for a sudden stop.
+
+**Physical explanation · Twice the speed.** With the same effective grip and braking deceleration on the same gradient, braking distance is approximately proportional to speed squared: **2 × speed → 4 × braking distance**. In a constant-deceleration model, distance = speed² ÷ (2 × deceleration), with speed in metres per second. Doubling speed multiplies the numerator by four. Real conditions and brake response can change; this is a comparison under stated assumptions. [Trafikverket: VGU braking-distance equation][braking-model]
+
+**Hypothetical comparison.** Assume a level road, unchanged vehicle/load/grip, constant braking deceleration of 5 m/s² and a one-second response delay. At 40 km/h, braking distance is about 12.3 m and reaction distance 11.1 m. At 80 km/h they are 49.4 m and 22.2 m: braking quadruples while reaction distance doubles. Total stopping distances are about 23.5 m and 71.6 m, so the total does **not** quadruple. These invented model conditions explain the relationship; they are not predicted stopping distances for your car.
+
 **Worked decision.** You can see over the roof of the car ahead that traffic is slowing. Ease your approach early rather than waiting for its brake lights at a short distance. The benefit is having choices before braking becomes urgent.
 
-**Knowledge check.** If your response delay doubles at the same speed, what happens to distance travelled before braking? **Answer:** It doubles under the stated constant-speed assumption. The actual total stopping distance still depends on braking and conditions.
+**Knowledge check.** (1) If response delay doubles at the same speed, what happens to reaction distance? (2) How do you time a three-second following gap? (3) Why increase the forward gap when someone follows too closely? (4) With unchanged braking deceleration, how does doubled speed affect braking distance, and does total stopping distance also quadruple? **Answer:** (1) It doubles under the constant-speed assumption. (2) Count seconds from the rear of the car ahead passing a fixed point until your front reaches that point; three seconds is a guideline and conditions may require more. (3) More forward space allows gentler slowing and gives the follower more time; avoid unnecessary sudden braking. (4) Braking distance becomes approximately four times as long, but reaction distance doubles for the same response delay, so the combined total does not generally quadruple.
 
 **Remember:** Space is useful because it gives you time to notice, decide and act.
 
@@ -328,9 +379,15 @@ For a lane change or significant sideways movement, signal clearly and in time, 
 
 **Learning approach.** Read the path through the turn, not just the point at which you steer. Check the mirror view and the areas it does not cover. Look for a cyclist alongside before turning across their route. Recheck the receiving road, crossings and queue space. If the information changes, pause the manoeuvre rather than completing the original plan automatically.
 
+**Safety advice · Wait with front wheels straight.** When stopped waiting to turn left across oncoming traffic, keep your front wheels pointing straight ahead. Your indicator communicates the intended turn; your wheels do not need to point along that intended route while you wait. If a vehicle hits you from behind, front wheels already turned left can direct the pushed car into oncoming traffic. Keeping them straight helps reduce that risk, but cannot guarantee protection in a collision. Begin steering into the turn only when there is a safe opportunity to make it. [New York DMV: waiting to turn left][left-turn-wheels]
+
+**Waiting is different from turning.** Follow the positioning, signalling and observation requirements above. The wheel-position advice does not create permission to enter or block a junction, ignore a signal, or obstruct someone else's path. Continue observing oncoming traffic, the receiving road, crossings and vehicles behind you while waiting. Recheck the full path before moving.
+
+**Practice example.** Sami is stopped in a suitable position, signalling left while oncoming cars pass. A passenger suggests turning the wheels left now to be ready. Sami keeps them straight: preparing the intention is different from starting the movement. Once the gap and receiving road permit a safe turn, he moves and steers into it. On rural roads, use M06-L01 to assess bends, crests and other risks before choosing a turning opportunity.
+
 **Worked decision.** A driver signals to move right while a cyclist is beside the vehicle. The driver waits. Signalling earlier would have helped communication, but it would never have removed the need to ensure the cyclist's safety.
 
-**Knowledge check.** Does a driver in the continuing lane have no responsibility when someone is merging? **Answer:** No. They must adapt speed to facilitate an observed entry; the joining driver must still make a safe movement.
+**Knowledge check.** (1) Does a driver in the continuing lane have no responsibility when someone is merging? (2) You are stopped waiting to turn left across oncoming traffic. Which way should the front wheels point, why, and when should you start steering into the turn? **Answer:** (1) No. They must adapt speed to facilitate an observed entry; the joining driver must still make a safe movement. (2) Keep the front wheels straight while waiting. Pre-turning them left can direct the car into oncoming traffic if it is struck from behind. Begin steering into the turn only when the movement can be made safely; a signal alone does not establish that opportunity.
 
 **Remember:** Communicate the plan, then confirm the space is still there.
 
@@ -396,9 +453,20 @@ Horses and riders also belong in your traffic assessment. Vehicle rules apply to
 
 **Bus rule.** Where the maximum permitted speed is 50 km/h or lower, a driver approaching a bus whose driver signals to leave a bus stop must slow and give it the opportunity to leave, stopping if needed. The bus driver must also take particular care. If passing on the right of a bus or tram stopped at a stop without a refuge, stop to allow boarding or alighting passengers free passage. [Traffic Regulation, chapter 3 §§45 and 58][traffic-law]
 
-**Worked decision.** On a 40 km/h street, a bus signals out. You ease speed early and leave room rather than trying to squeeze past. You also watch for people near the stop; making space for the bus is not your only task.
+**Bus comparison · Check the road limit.** The threshold concerns the maximum permitted speed on the road, not how fast you happen to be travelling. At a 70 km/h limit, the special bus-stop departure rule above does not apply. The bus must wait for an entry that can be made without danger or unnecessary obstruction. You still have a duty to adapt speed to facilitate an observed entry into your lane. A bus indicator does not create unconditional priority, and the higher road limit does not excuse deliberately blocking it. [Traffic Regulation, chapter 3 §§43–45][traffic-law]
 
-**Knowledge check.** Does a narrow visible gap beside a cyclist prove there is enough room to pass? **Answer:** No. Consider the rider's possible movement, roadside obstacles, oncoming traffic and a safe lateral margin. Wait if there is not enough space.
+| Road limit | Duties when the bus signals to leave its stop |
+|---|---|
+| 50 km/h or lower | Slow and let the bus leave; stop if needed. The bus driver must take particular care. |
+| 70 km/h, ordinary entry into your lane | The special bus-exit duty does not apply. The bus waits for a safe entry; you adapt speed to facilitate the observed entry. |
+
+**Safety advice · Let a guide dog work.** Do not pet, call to or talk to a working guide dog to attract its attention. Distraction can endanger the person it is helping. Allow the pair room and time; if you need to communicate, address the handler rather than trying to direct the dog. The handler chooses the route and remains in control. For example, a passenger beside your parked car wants to greet a guide dog at a crossing. Ask them to leave it working and keep the path clear. [MFD: meeting a working guide dog][guide-dog]
+
+**Traffic terminology · A bicycle is a vehicle.** A person riding an ordinary pedal bicycle is operating a vehicle, even without an engine. “Vehicle” does not mean only “motor vehicle”. Apply the relevant cyclist duties and protections; crossing distinctions remain in M04-L03. [Transportstyrelsen: bicycle definition][bicycle-definition]
+
+**Worked decision.** On a 40 km/h street, a bus signals out. You ease speed early and leave room rather than trying to squeeze past. You also watch for people near the stop; making space for the bus is not your only task. Compare an otherwise ordinary 70 km/h road: the bus waits for a safe entry, while you still adapt speed to help an observed entry into your lane. Travelling at 40 on that 70 road does not activate the special bus rule.
+
+**Knowledge check.** (1) Does a narrow visible gap beside a cyclist prove passing is safe? (2) A bus signals from its stop on a 70 km/h road while you drive at 40. Does the special bus rule apply, and what must both drivers do? (3) Should you greet a working guide dog? (4) Is a person riding a pedal bicycle operating a vehicle? **Answer:** (1) No. Consider possible rider movement, obstacles, oncoming traffic and a safe lateral margin; wait if needed. (2) No: the road limit determines the threshold. The bus must enter safely without unnecessary obstruction; you must adapt speed to facilitate the observed entry into your lane. At limits of 50 or lower, slow and let the bus leave, stopping if necessary; the bus driver must take particular care. (3) No. Avoid distracting it by petting, calling or talking to it; communicate with the handler if needed. (4) Yes. A bicycle is a vehicle even without an engine.
 
 **Remember:** Predict possible needs without assuming a person will behave exactly as expected.
 
@@ -493,9 +561,19 @@ Wild animals and reindeer can appear throughout the year. Trafikverket highlight
 
 A slow vehicle's appearance may resemble a car even when its permitted speed and construction differ. Trafikverket advises other drivers to keep distance and pass only where appropriate. Stay far enough back to see around it and evaluate the road, rather than moving close to demand that it hurry. [Slow vehicles and other traffic][slow-vehicles]
 
+**Turn planning · Choose a safer approach.** On an ordinary two-way rural road, heavy traffic may make a direct left turn unsafe. Continue to a suitable, permitted place or route where you can change direction safely, then return to approach the destination with a right turn if that movement is allowed and safe. This can avoid hazardous waiting and crossing the opposing stream at the original entrance. It is a planning alternative, not permission to turn around immediately on the carriageway. If no safe legal return route exists, choose another route or postpone. [Trafikverket: example of routing to a turning place][rural-turn-alternative]
+
+**Legal boundary.** Before turning or leaving the road, protect oncoming traffic and traffic on the road you enter; take particular care of following traffic. A turnaround must cause neither danger nor obstruction. Signs and access restrictions still apply. Never turn around or reverse on a motorway or expressway. If you can wait safely and legally for a left turn, remember the advice in M04-L02 to keep the front wheels straight; that advice does not make an unsafe turn suitable. [Traffic Regulation, chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2][traffic-law]
+
+**Worked rural alternative.** A farm entrance is on your left and busy traffic leaves no safe opportunity. You continue to an accessible junction route that legally and safely brings you back in the opposite direction. The entrance is then on your right. Check people, traffic and the entrance again before turning; the revised route does not guarantee a safe final movement.
+
+**Wildlife observation · Time and terrain.** Give extra attention at dawn and dusk, near animal habitats and where fences end or have openings. Scan woodland edges, bushes and small waterways beside the road: Trafikverket's road-project study describes these as animal routes that can conceal an approach. Its national guidance also describes animal passages through fence openings. These are cues for observation and speed planning, not predictions that animals only cross there. [Trafikverket: wildlife and fence passages][wildlife] · [Trafikverket: habitat example, page 9][wildlife-habitat]
+
+**Apply the cues.** At dusk, woodland meets a field beside a gap in the fence. Read the edges and opening as possible animal approaches, and choose speed for the view and foreseeable hazard. Keep observing even on fenced stretches. Prevention belongs here; actions after a collision are in M10-L01.
+
 **Worked decision.** You approach a narrow bridge with a van coming towards you and an obstruction on your side. You reduce speed before the narrowing and stop if necessary. Do not move into the van's path simply because you reached the obstruction first.
 
-**Knowledge check.** You can see no vehicle on the far side of a crest. Does that prove the road is clear there? **Answer:** No. It proves only that the view is limited. Choose speed and position for that uncertainty.
+**Knowledge check.** (1) No vehicle is visible beyond a crest. Is the road proved clear? (2) Heavy traffic makes your rural left turn unsafe. What alternative can you plan? (3) Which time and roadside cues call for extra wildlife attention? **Answer:** (1) No. The view is limited; choose speed and position for that uncertainty. (2) Continue to a suitable permitted turning place or route, change direction safely and return for a right turn if allowed and safe. If no such route exists, choose another route or postpone. Do not make an immediate unsafe turnaround. (3) Dawn/dusk, animal habitats such as woodland edges and bushes, and fence endings/openings. Animals can also appear elsewhere and at other times.
 
 **Remember:** Let what you can actually see determine the available space.
 
@@ -531,9 +609,13 @@ Normally use the rightmost lane intended for your vehicle. Keep a following dist
 
 For an exit, take the suitable lane in good time and enter the deceleration lane as soon as possible. If you miss the exit, continue to a permitted exit and re-plan; never reverse to recover it. A breakdown is dealt with in M10-L01, not by using the shoulder as a convenient place to check navigation.
 
+**After the motorway · Recheck your speed.** After a long period at a steady motorway speed, your perception can adapt to that pace. On a slower road, the correct lower speed may feel unusually slow. This effect is often called speed adaptation or velocitation. Check the speedometer regularly to judge actual speed and adjust to the current limit and conditions. The feeling alone is not evidence that the speedometer is faulty. [ODOT: speed perception and speedometer checks][speed-adaptation]
+
+**Worked transition.** After a long motorway trip, you leave onto a road signed 50 km/h. At 50, the car feels as if it is crawling. Confirm the speedometer reading, read the new road and retain a speed suited to its limit, visibility and hazards. Do not accelerate merely to recover the motorway's familiar feeling.
+
 **Worked decision.** Your exit sign appears while another vehicle occupies the lane you would need to cross. You do not force the move. You continue safely and tell your passenger the route will change.
 
-**Knowledge check.** Does a posted motorway limit override the lower permitted speed of your trailer combination? **Answer:** No. Both road and vehicle limits apply; use the lower applicable limit and reduce further when conditions require it.
+**Knowledge check.** (1) Does a posted motorway limit override a lower trailer-combination limit? (2) After prolonged motorway driving, the lower speed on your new road feels too slow. What explains that feeling, and what should guide your speed? **Answer:** (1) No. Use the lower applicable road/vehicle limit and reduce further for conditions. (2) Perception may have adapted to the motorway pace. Check the speedometer and current limit, then adapt to visibility and hazards. Feeling slow alone does not prove a faulty instrument or justify accelerating.
 
 **Remember:** Prepare the next movement before the road makes it urgent.
 
@@ -577,9 +659,17 @@ Use main beam when needed for a sufficient field of view, but not where the road
 
 Automatic lighting is an aid, not confirmation that every required lamp is on. In a car whose daytime-light mode leaves the rear lights off, check the actual setting when darkness or bad weather arrives. [Transportstyrelsen: vehicle lighting][lights]
 
+**Lighting choice · Name the prohibited pair.** Do not use dipped headlights and front fog lights together. In fog or heavy precipitation, front fog lights may replace dipped headlights; they are not an extra light to add to them. Select a permitted mode and check it on the actual vehicle. [Transportstyrelsen: dipped beam and front fog lights][lights-combinations]
+
+**Central vision · Read the detail.** Central vision supplies the fine detail where you are looking directly. Reading the precise wording on a road sign relies particularly on it. Merely noticing a sign at the edge of your view does not establish what its text says. [Official driver-vision guidance][vision-roles]
+
+**Peripheral vision · Notice, then inspect.** Peripheral or side vision surrounds your direct focus. It can alert you to movement, a developing hazard or a traffic change outside that focus. Move your eyes, and head where needed, to inspect the relevant object directly while maintaining control and awareness of the road. For example, notice movement near the verge, then look to identify whether it is a person about to enter your path. Keep scanning; staring at one sign can leave other information unattended. [Official driver-vision guidance][vision-roles]
+
+**One light · Keep width uncertain.** One approaching light at night does not prove a narrow motorcycle. A wider car can have a failed headlight. Transportstyrelsen documents defective car headlights; the practical inference is to allow for a vehicle whose full width is not yet visible. Preserve a safe lateral margin and adapt speed to the view rather than squeezing past on a guessed width. [Transportstyrelsen: defective car headlights][lamp-defects]
+
 **Worked decision.** Rain becomes heavy during a daytime trip. The dashboard remains illuminated, but the driver checks and selects the appropriate exterior lighting rather than inferring that the rear lights must be on. The driver also reduces speed for the shorter usable view.
 
-**Knowledge check.** If main beam must be dipped for an oncoming vehicle, can you maintain speed solely because the limit is unchanged? **Answer:** No. The limit and the safe speed under the new visibility are different constraints.
+**Knowledge check.** (1) Can you maintain speed solely because the limit is unchanged after dipping main beam? (2) May dipped headlights and front fog lights be used together? (3) Which vision role reads precise sign text, and which can alert you to movement outside direct focus? (4) Does one approaching light prove a narrow motorcycle? **Answer:** (1) No; reassess safe speed for the view. (2) No. Front fog lights may replace dipped beam in fog/heavy precipitation. (3) Central vision reads fine detail; peripheral vision can detect movement/hazards. Look directly to inspect. (4) No. It may be a wider car with a failed lamp; preserve clearance.
 
 **Remember:** Adjust speed to the information the light actually gives you.
 
@@ -597,9 +687,29 @@ For summer conditions, the minimum tread depth is 1.6 mm. Transportstyrelsen rec
 
 **Learning approach.** Reduce speed and increase space before reaching uncertain grip. Avoid demanding abrupt braking, steering and acceleration together. Do not experiment with skid recovery in ordinary traffic. Establish the actual vehicle's emergency-braking behaviour through appropriate instruction and risk training. [Trafikverket: winter driving advice][tyre-advice] · [Risk training][risk]
 
+**Surface change · A bridge can freeze first.** A bridge is exposed to cold air above and below. That exposure can cool it faster than neighbouring road supported by ground, so moisture can freeze on the bridge while the approach still appears clear. It is a possibility, not a rule that every bridge always freezes first. Anticipate uncertain grip and reduce speed before reaching the bridge. [National Weather Service: bridge cooling][bridge-cooling]
+
+**Rain on a cold road · Ice can hide.** Rainwater can freeze when it meets a road surface cold enough for ice to form, producing a thin, nearly invisible slippery layer. The road may look wet, and the air temperature can be above zero while the surface is still below freezing. Near-zero air alone does not prove ice, but it calls for attention to surface conditions, more space and lower speed. [Trafikverket: deceptive ice and cold roads][ice-risk]
+
+**First rain after dry weather · Residues matter.** During a dry spell, dust, dirt and oily residues can accumulate. The first rain can mix with these contaminants and make the road unusually slippery. Reassess speed and separation as rain starts; do not assume a light shower immediately washes the surface clean or that a fixed time restores grip. [County Fire: rain after a dry spell][first-rain]
+
+**Worked surface decision.** A light shower begins after dry weather as you approach a bridge in near-freezing conditions. Plan for both wet residues and possible local ice. The clear-looking approach does not measure the grip on the bridge.
+
+**Rear stability · Why the best grip belongs at the rear.** Transportstyrelsen recommends the best-grip or deepest-tread tyres at the rear to reduce skid risk in braking and bends, for both front- and rear-wheel-drive cars. Better rear grip helps reduce the risk of the rear sliding outward and rotating the car. Suitable tyres and stability assistance still cannot guarantee control. [Transportstyrelsen: best tyres at the rear][tyre-basics] · [VTI: rear grip and oversteer][handling]
+
+**Oversteer · Rear grip loss.** In the loss-of-grip situation, the rear tyres lose sufficient lateral grip, the tail swings outward and the car rotates more than intended into the turn. This can develop into a spin. [VTI: oversteer and rear stability][handling]
+
+**Understeer · Front grip loss.** In the loss-of-grip situation, the front tyres cannot supply the lateral grip needed for the requested turn. The car turns less than intended and follows a straighter, wider path; adding more steering does not guarantee the requested curve. These are grip-loss explanations, not a full definition of every vehicle's normal handling characteristics. [VTI: handling paths][handling] · [NHTSA: front-axle grip limit][front-grip]
+
+**Aquaplaning · Water interrupts contact.** If water builds between tyres and road, it can support the tyre on a film and reduce or remove effective tyre-road contact. Steering and braking then have less grip to work with. Reduce speed before standing water and uncertain wet surfaces. [PennDOT: aquaplaning][wet-driving]
+
+**Response · Ease off smoothly.** If aquaplaning starts and there is space to slow gradually, ease off the accelerator, keep steering steady and avoid abrupt steering or hard braking. Make only gentle necessary corrections as contact returns. This is different from M02-L01's ABS emergency-stop instruction: ABS cannot create grip where a tyre is separated from the road by water. An immediate collision emergency needs action appropriate to the actual situation; this advice does not establish a universal ban on braking. [PennDOT: aquaplaning response][wet-driving]
+
+**Worked grip comparison.** A rear slide swinging the tail outward is oversteer; a front slide that prevents the intended curve is understeer. A light, unresponsive steering feel over standing water raises a different possibility: aquaplaning. Recognise the mechanism, preserve margins and practise vehicle-specific emergency handling only with suitable instruction.
+
 **Worked decision.** Your car has suitable winter tyres, but the next bend is partly shaded and looks different from the road behind. You reduce speed before the bend and preserve margin. Equipment does not establish the grip at that particular point.
 
-**Knowledge check.** Does a legal tread depth mean you can use the same following distance on ice as on a dry road? **Answer:** No. Adapt the gap and speed to actual conditions.
+**Knowledge check.** (1) Does legal tread depth guarantee dry-road spacing on ice? (2) Why can a bridge freeze first? (3) What can rain form on a sufficiently cold road? (4) Why can first rain after dry weather be unusually slippery? (5) Why place the best-grip tyres at the rear? (6) Compare oversteer and understeer in a grip-loss situation. (7) What is aquaplaning, and how should you respond when there is room to slow gradually? **Answer:** (1) No; adapt speed and gap. (2) Cold air cools it above and below. (3) A nearly invisible slippery ice layer. (4) Water mixes with accumulated dirt/oily residues. (5) To reduce rear grip loss, tail swing and rotation. (6) Oversteer: rear grip loss, tail outward, more rotation than intended. Understeer: front grip loss, less turn and a wider/straighter path. (7) A water film reduces effective tyre-road contact. Ease off the accelerator, keep steering steady and avoid abrupt steering/hard braking; use gentle necessary corrections.
 
 **Remember:** Tyres and assistance systems support a cautious plan; they do not create unlimited grip.
 
@@ -610,6 +720,8 @@ For summer conditions, the minimum tread depth is 1.6 mm. Transportstyrelsen rec
 **Requirements.** During road travel, a driver may use communication equipment only if it does not adversely affect driving. Holding the equipment in the hand while using it is prohibited. Hands-free use is therefore not automatically acceptable: the effect on driving still matters. You must also not drive when exhaustion or another condition prevents safe control. [Transportstyrelsen: communication equipment][phone] · [Traffic Regulation, chapter 3 §1 and chapter 4 §10e][traffic-law]
 
 **Learning approach.** Prepare navigation before setting off, place the phone away from casual handling and agree when passengers can help. If a conversation, screen task or emotional reaction is consuming the attention needed for the road, end it. A safe place to stop is the place to resolve a complicated route or urgent message.
+
+**Attention link.** Use M07-L01's notice-then-inspect distinction when scanning. A conversation that consumes attention can delay recognising what peripheral vision has alerted you to.
 
 Treat fatigue as a reason to change the journey. Plan rest opportunities and stop safely when concentration cannot be maintained. Do not wait for a dramatic event to prove that you are too tired. Trafikverket recommends setting out rested, allowing time and taking breaks on longer journeys. No universal break interval in this material certifies that you can continue safely. [Journey advice][planning]
 
@@ -657,9 +769,13 @@ Extended B (B96) permits combined total weights up to 4,250 kg, without increasi
 
 **Two tests.** Entitlement uses registered total weights. Technical towing limits also restrict what the particular car may pull in its actual loaded state. Emptying a trailer may reduce its actual weight without changing its registered total weight, so it may solve a technical-weight problem but not an entitlement problem. [Towing weights][towing]
 
+**Vehicle comparison · Light lorry without a trailer.** A light lorry (*lätt lastbil*) has a registered total weight of at most 3,500 kg. Without a trailer, it normally follows the road's maximum speed; the general heavy-lorry cap does not apply. A heavy lorry exceeds 3,500 kg: without a trailer its vehicle maximum is 90 km/h on a motorway or expressway, and 80 km/h on other roads; with a trailer it is 80 km/h. A lower road limit always applies. For a light lorry towing, check the combination rules in M08-L02. [Transportstyrelsen: light and heavy lorries][light-lorry]
+
+**Apply the limit.** A light lorry without a trailer on a road signed 100 km/h does not acquire an 80 km/h cap simply because it is called a lorry. Still reduce speed for visibility, grip, traffic and load; a maximum is not a target. [Safe-speed duty, chapter 3 §14][traffic-law]
+
 **Worked decision.** A car has a total weight of 2,200 kg and a trailer 1,500 kg. Their combined total weight is 3,700 kg, and the trailer exceeds 750 kg. Ordinary B does not cover this combination. B96 may satisfy the entitlement part, but the car's towing capacity and loaded weights still need checking.
 
-**Knowledge check.** A 3,500 kg car is paired with a 750 kg trailer. Is ordinary B automatically excluded because the sum exceeds 3,500 kg? **Answer:** No. The trailer-at-most-750 kg route can cover it. Technical and actual-weight limits must still be satisfied.
+**Knowledge check.** (1) Is ordinary B automatically excluded for a 3,500 kg car and 750 kg trailer? (2) Which maximum normally applies to a light lorry without a trailer, and is it a target? **Answer:** (1) No. The at-most-750 kg trailer route can cover it; technical/actual-weight limits still apply. (2) The road maximum, with speed reduced for conditions. It is not the general heavy-lorry cap or a target; towing needs a separate combination check.
 
 **Remember:** Check the licence first, then the vehicle and load—not one instead of the other.
 
@@ -686,9 +802,15 @@ On roads other than private roads, the ordinary width/load rule restricts a moto
 
 For a conventional light braked trailer with rigid drawbar and suitable overrun brake, the maximum is normally 80 km/h. For an unbraked trailer up to 750 kg, 80 km/h requires its total weight to be no more than half the car’s defined ready weight; when the trailer is empty, its ready weight is used for this comparison instead. The ordinary unbraked combination outside those conditions is limited to 40 km/h, subject to the other combination requirements; other configurations can be limited to 30. Use Transportstyrelsen's calculator and guidance for the specific combination, and obey any lower road limit. [Trailer guide: speed conditions][trailer-guide] · [Traffic Regulation, chapter 4 §20, version applicable on 1 October 2026][traffic-law]
 
+**Towball load · A separate force.** Towball load (*kultryck*) is the trailer's downward load at the coupling, not the trailer's whole loaded weight. With a conventional towball behind the car's rear axle, excessive downward force acts through a lever arm: it increases rear loading while reducing the load carried by the front axle. Front unloading does not require the wheels to leave the road. With less front-tyre loading, available steering grip and response can be impaired. [Official towing guide: front-wheel unloading, page 6][towball-physics]
+
+Trafikverket warns that incorrect coupling pressure can lift the car or trailer. Follow the specified towball, coupling, axle and vehicle limits for the actual combination; there is no universal number in this lesson. Measure and redistribute the load as instructed before travelling. Total trailer weight, coupling load and cargo securing are separate checks. Do not cure excessive downward load by guessing or creating an equally unsuitable load distribution. [Trafikverket: coupling-load caution][load-advice] · [Official towing guide: ratings and load distribution][towball-physics]
+
+**Worked loading decision.** Your total trailer weight is within the car's towing limit, but a heavy object far forward makes the coupling load excessive. The total-weight check has not proved suitable axle loading. Stop preparation, establish the specified limits and adjust and secure the load before driving.
+
 **Worked decision.** A trailer's ready weight is 400 kg and cargo adds 500 kg, giving an illustrative actual weight of 900 kg. A car rated to tow only 800 kg cannot pull that load merely because the driver's entitlement covers the registered total weights.
 
-**Knowledge check.** Does a strap around the load prove the vehicle is within its weight limit? **Answer:** No. Securing and weight are different checks. Also inspect the correct coupling, lighting, tyres and equipment for the actual trailer before departure.
+**Knowledge check.** (1) Does a strap prove the vehicle is within its weight limit? (2) Can an acceptable total trailer weight still conceal excessive towball load, and what can that do? **Answer:** (1) No. Weight and securing are separate checks; inspect coupling, lights, tyres and equipment too. (2) Yes. Excess downward load behind the rear axle can unload the front axle and impair steering grip. Check the actual coupling/axle limits and load distribution before driving.
 
 **Remember:** Establish what the load weighs, where it is, how it is restrained and what limits apply.
 
@@ -704,9 +826,15 @@ An on-road registration status, valid insurance and completed inspection answer 
 
 **Ownership process.** Transportstyrelsen currently provides eligible private-person transfers through Mina sidor; other cases may require the latest registration certificate part 2. The service has eligibility conditions. Consult the current instructions instead of relying on an old app or a remembered screen sequence. Part 1 and the vehicle enquiry service provide technical information; protect ownership documents appropriately. [Ownership transfer][owner] · [Registration certificate][registration]
 
+**Inspection deadline · An automatic ban.** If the required periodic inspection deadline is missed, an automatic driving ban (*inträtt körförbud*) applies. You remain responsible even without a reminder. Booking a later appointment does not end the ban. The deadline ban lasts until the inspection has been carried out; follow its result, since defects can bring a new prohibition or a repair/reinspection requirement. Check the vehicle record before ordinary use. [Transportstyrelsen: missed inspection][inspection-ban] · [Vehicle Regulation, chapter 6 §§15–21][vehicle-inspection-law]
+
+**Restricted trips.** With an overdue-inspection ban and on-road status (*påställd*), only the shortest suitable route to a repair workshop for repair or to an inspection business for inspection is permitted. If the vehicle is off-road (*avställd*) and the ban still applies, the exception is the shortest suitable route to the nearest inspection business. Traffic insurance and other applicable requirements still matter; the off-road exception requires no unpaid vehicle taxes. It does not permit errands or commuting. A prohibition issued because the vehicle is dangerously defective has different conditions: it must be recovered from the place where that prohibition is issued. [Transportstyrelsen: inspection prohibitions][inspection-ban] · [Transportstyrelsen: off-road inspection conditions][off-road-inspection]
+
+**Worked deadline.** An ordinary light car's recorded inspection deadline is 31 October 2026. Without the required inspection, the deadline ban starts on 1 November. An appointment on 5 November does not allow normal driving on 2 November. Arrange a permitted inspection trip, or transport if it cannot be driven safely and lawfully, then follow the inspection result. These dates illustrate the rule; use the actual vehicle's record. [Vehicle Regulation, chapter 6 §§15 and 21][vehicle-inspection-law]
+
 **Worked decision.** A buyer collects an on-road car but assumes the seller's insurance is enough for the trip home. The buyer checks the transfer and arranges the required cover from the applicable ownership date before driving. The sale does not transfer the seller's insurance as personal cover for the buyer.
 
-**Knowledge check.** Does parking an on-road car in a garage automatically remove the compulsory-insurance requirement? **Answer:** No. Formal status and the insurance rules apply, not simply whether you intend to drive today.
+**Knowledge check.** (1) Does garaging an on-road car automatically end compulsory insurance? (2) The inspection deadline passed, but you booked an appointment. May you commute meanwhile? **Answer:** (1) No. Formal status and insurance rules apply. (2) No. The automatic deadline ban continues until inspection is carried out. Only the applicable restricted inspection/repair trip is permitted; vehicle status, insurance, tax and safety conditions must be satisfied. Follow the inspection result and check for any further prohibition before ordinary use.
 
 **Remember:** Keep a record of dates and obligations, then verify them against the current vehicle record.
 
@@ -750,9 +878,30 @@ Transportstyrelsen distinguishes several effects. Greenhouse-gas emissions relat
 
 A plug-in hybrid combines electrical and combustion-engine operation. Transportstyrelsen changed the weighting used for new registrations in 2026 to better reflect the mix of those modes. The general lesson is to understand what a reported figure represents; it is not a promise about your next journey's consumption. [Transportstyrelsen: plug-in-hybrid weighting][hybrid]
 
+**Emissions explained · Fossil carbon and a cold catalyst.** Fossil petrol contains carbon stored for millions of years. Burning it combines that carbon with oxygen and releases CO₂ into the atmosphere. The added CO₂ strengthens the natural greenhouse effect and contributes to warming. [Long-stored carbon: Naturvårdsverket][fossil-carbon] · [Climate effect: Trafikverket][climate-effect]
+
+A conventional petrol car's three-way catalyst reduces carbon monoxide, hydrocarbons and nitrogen oxides by chemical conversion. It needs sufficient heat to become effective, so it is least effective just after a cold start. Conversion products include water and CO₂: cleaning up these pollutants does not capture the fossil carbon or cancel its climate impact. No single warm-up time applies to every car. [Transportstyrelsen: catalyst operation, page 24][catalyst-warmup] · [Trafikverket: cold emission controls][road-air]
+
+**Pollutant comparison.** Keep CO distinct from CO₂. The table summarises different mechanisms; one cleaner exhaust measure cannot stand for all of them.
+
+| Substance | Why it matters |
+|---|---|
+| CO₂ · carbon dioxide | Added fossil CO₂ strengthens the greenhouse effect. |
+| CO · carbon monoxide | Binds strongly to haemoglobin and interferes with the blood's oxygen transport. |
+| NOx · nitrogen oxides | Can irritate airways, contribute to acidification and, with hydrocarbons and sunlight, form ground-level ozone. |
+| Traffic particles | Exhaust and wear particles can enter and harm the respiratory system. |
+
+[Trafikverket: CO, NOx and particle mechanisms][road-air] · [Trafikverket: CO₂ and warming][climate-effect]
+
+**Powertrain and washing · Check the boundary.** A battery-electric car uses only electricity for propulsion and has no combustion tailpipe exhaust while driving. That does not remove impacts from vehicle/battery production, raw-material extraction or electricity supply. Tyre and road wear still matter. A plug-in hybrid combines electric and combustion operation and its traction battery can be charged externally. A conventional non-plug-in hybrid cannot be charged from an external electricity supply. [Trafikverket: electric cars and hybrid types][electric-types]
+
+Choose a purpose-built automatic or self-service wash that collects and treats its wastewater. Washing on an ordinary street or driveway can carry oil, metals and cleaning chemicals into ground or surface water. Treatment reduces the problem but does not remove every pollutant. Follow the facility's product instructions and local water-protection rules. [Göteborg environmental authority: washing and treatment][wash-water]
+
+**Apply the comparison.** A catalyst-equipped petrol car still releases fossil CO₂. An electric car avoids combustion exhaust on that drive, but needs a broader production-and-energy comparison. For either car, choose washing by how the dirty water is handled, rather than assuming a mild detergent makes street runoff harmless.
+
 **Worked decision.** Two vehicles are advertised using different environmental measures. One figure describes exhaust emissions under a test procedure; another describes noise. The learner does not rank them as though both figures measure the same thing. They first identify the question being answered and the information still missing.
 
-**Knowledge check.** Does removing exhaust from a journey remove tyre and road-wear particles? **Answer:** No. Those are separate sources of pollution. A broader comparison needs more than a tailpipe figure.
+**Knowledge check.** (1) Why does fossil petrol warm the climate, even with a catalyst, and when is that catalyst least effective? (2) Match CO, NOx and particles to their effects. (3) Does an electric car have no environmental impact; which hybrid can charge externally? (4) Where should washing water go? **Answer:** (1) Long-stored carbon becomes CO₂, strengthening the greenhouse effect. A catalyst converts other pollutants and works poorly just after a cold start. (2) CO impairs blood oxygen transport; NOx irritates airways and contributes to acidification and ground-level ozone; particles harm airways. (3) No: production and electricity supply still matter. A plug-in hybrid can charge externally; a non-plug-in hybrid cannot. (4) Choose a purpose-built wash collecting and treating wastewater.
 
 **Remember:** Name the effect and the basis of comparison before making the claim.
 
@@ -768,9 +917,19 @@ Prepare the vehicle for the trip. Check the specified tyre pressure and remove u
 
 **Vehicle-specific boundary.** Gear selection and deceleration strategies vary. Do not use a fixed engine-speed rule for every car or assume every powertrain cuts fuel or recovers energy in the same way. Learn the actual vehicle's approved operation with your instructor. This book does not recommend coasting in neutral or switching the vehicle off while moving.
 
+**Practical energy choices · Prepare and control the car.** Use a timer with an installed electric engine heater so it warms the engine when needed, without running unnecessarily long. Set it for the intended departure using the equipment instructions and conditions; there is no universal heating duration. [Gagnef municipal energy advice: heater timer][heater-timer]
+
+Air conditioning consumes energy, but it can support comfort, alertness and clear windows. Avoid unnecessary cooling while keeping those safety benefits. Use the car's appropriate demisting controls; visibility takes priority over a saving. Cooling is not a remedy for sleep deprivation: stop and rest if drowsy. Revisit M07-L01 for seeing clearly and M07-L03 for attention. [NZ Transport Agency: cooling, alertness and demisting][cooling-safety]
+
+In a conventional manual car, choose a suitably high gear in which the engine runs smoothly without labouring. Change down if the load or gradient makes that gear unsuitable. Engine braking means slowing with the accelerator released while a suitable gear remains engaged; do not disengage the drive by pressing the clutch or selecting neutral for this technique. Use the brakes whenever safety requires. Actual engine control varies, so this definition does not promise zero fuel use or a universal RPM. [Official vehicle agency: comfortable gear choice and in-gear deceleration][manual-eco]
+
+Unnecessary carried mass increases the demands on the vehicle. Unload heavy equipment you no longer need before future journeys, while retaining necessary safety and access equipment. Removing cargo is a different check from removing a roof box's air resistance. [Swedish public energy advice: minimise weight][carried-mass]
+
+**Apply before departure.** Remove unused heavy equipment, schedule the heater for the trip, and keep effective demisting. On an uphill section, use the gear the car can comfortably handle; a high gear that strains the engine is not the intended economical technique.
+
 **Worked decision.** You can see that a traffic queue is stationary ahead. You check behind and begin a controlled reduction in speed early, retaining enough room to stop. You do not accelerate simply to close the gap, and you do not roll into a crossing to preserve momentum.
 
-**Knowledge check.** Should an energy-saving technique take priority over a safe response to an emerging hazard? **Answer:** No. Anticipation supports safety and efficiency; it does not replace a necessary stop.
+**Knowledge check.** (1) May economy override a necessary stop? (2) How should you use an engine-heater timer and cooling? (3) What is a suitable high gear and engine braking in a manual car? (4) What should happen to unneeded heavy cargo? **Answer:** (1) No. (2) Heat when needed, avoiding unnecessary runtime; retain comfort, alertness and clear windows without needless cooling. (3) Use a gear allowing smooth running without strain. Engine braking releases the accelerator with a suitable gear engaged; brake as needed. No universal RPM or zero-fuel promise. (4) Unload it before future trips; retain necessary equipment.
 
 **Remember:** Reduce avoidable demands on the car while keeping full control of the journey.
 
@@ -800,9 +959,11 @@ Do not replace one unrealistic assumption with another. A route may be short but
 
 Transportstyrelsen's official traffic-regulation collection, STFS, provides local regulations. Check whether a decision is in force on the date of travel, and whether another decision has changed it. Do not rely on a remembered map or an announcement of a proposed zone. [Official local traffic regulations][stfs]
 
+**Studded tyres · A separate local restriction.** Studs wear the road surface and create particles that can become airborne and enter the airways. Municipalities can restrict studded vehicles on particular roads or areas to address this problem. Check the current local decision in STFS, its dates, extent, exceptions and signs for your route. National permission to use studs in a season does not override a local prohibition. C44 denotes this restriction for motor vehicles other than moped class II; a supplementary panel can include that class too. Revisit the official C44 example in M07-L02. [Trafikverket: stud-related particles][road-air] · [Transportstyrelsen: local restrictions, page 13][studs-local] · [Transportstyrelsen: C44][studs-sign]
+
 **Worked decision.** A driver has heard that a city plans a new zone. Before travelling, they verify the operative restriction and compare it with the car's recorded category. The route is chosen from current information, not from a headline remembered months earlier.
 
-**Knowledge check.** Does the word “hybrid” alone establish permission to enter any environmental zone? **Answer:** No. The zone class, vehicle criteria, applicable exemptions and current local decision must be checked.
+**Knowledge check.** (1) Does “hybrid” guarantee environmental-zone access? (2) Why can a municipality restrict studded tyres, and what must you check? **Answer:** (1) No. Check zone class, vehicle criteria, exemptions and current decision. (2) Studs wear roads and create airborne particles. Check the local decision, route, dates, exceptions and signs; national permitted season does not override a local ban.
 
 **Remember:** A rule's location and effective date are part of the rule.
 
@@ -830,9 +991,15 @@ When a journey is interrupted, the setting determines the safest response. After
 
 **Learning approach.** On an ordinary road, assess traffic, visibility and the location before choosing a protected waiting place and arranging help. Do not assume that a procedure for a sheltered bay, an exposed motorway shoulder and a smoke-filled tunnel can be identical.
 
+**Overheating · Leave the hot cap closed.** In a conventional pressurised cooling system, hot coolant and steam can remain under pressure even after the engine is switched off. Opening the radiator cap, or the cap of a pressurised coolant reservoir, can release that pressure and expel scalding liquid or steam, causing severe burns. Never loosen or remove the cap while the engine or cooling system is hot. Switching off is not proof that pressure and heat have disappeared. [Manufacturer handbook: hot coolant and pressure warning][hot-coolant]
+
+Treat a temperature warning as a reason to respond according to the actual vehicle handbook, not as an invitation to open a cap. Revisit M02-L01 for warning indicators and fault recognition. Protect people from traffic first and arrange professional assistance where needed. Cooling-system layouts and stopping instructions vary; this lesson gives no fixed waiting time, cap-opening sequence or roadside refill procedure. [Manufacturer cooling-system precautions][hot-coolant] · [Trafikverket: protect people and call recovery][breakdown]
+
+**Apply the warning.** The temperature warning appears on a motorway journey. After reaching the safest available stopping place as conditions allow, follow the vehicle's stopping instructions and this lesson's motorway scene-safety advice. A passenger suggests opening the coolant cap immediately because the engine is now off. Reject that action: residual heat and pressure can still cause a burn. Call recovery from a protected position rather than attempting an exposed repair. If the event is in a tunnel, use the tunnel response above; smoke, fire or danger to life requires the urgent response, not waiting beside the vehicle to diagnose it. [Trafikverket: motorway breakdown][breakdown] · [Trafikverket: tunnel urgency][tunnel]
+
 **Worked decision.** A driver with a puncture on a motorway wants to change the wheel immediately. They first protect people from traffic and arrange recovery rather than working in an exposed position. A warning triangle does not create a protected workshop.
 
-**Knowledge check.** Is “always stay in the car” or “always leave in exactly the same way” a complete rule for every breakdown? **Answer:** Neither. Apply the official guidance for the location and urgency, with people’s safety first.
+**Knowledge check.** (1) Is one identical waiting rule suitable for every breakdown? (2) Why must you leave a hot coolant cap closed even after switching off the engine? **Answer:** (1) No. Apply the guidance for the location and urgency, with people’s safety first. (2) Heat and pressure can remain; opening the cap can release scalding coolant or steam and cause severe burns. Do not open it while hot. Follow the actual handbook and arrange assistance; no fixed waiting time proves it safe.
 
 **Remember:** Establish where the danger is before deciding where to wait.
 
@@ -984,6 +1151,22 @@ These are plain-language learning explanations, not a certified legal translatio
 | *Påställd / avställd* | Registered for road use / formally placed off road. | M08-L03 |
 | *Trafikförsäkring* | Compulsory motor insurance. | M08-L03 |
 | *Miljözon* | Environmental zone with specified vehicle criteria. | M09-L04 |
+| *Nollvisionen* | Vision Zero: no one killed or seriously injured in road traffic. | M01-L03 |
+| *Mikrosömn* | A brief involuntary sleep episode; do not treat alertness tricks as a cure. | M01-L02 |
+| *Tillfälligt reservhjul* | Temporary spare wheel, used only within the actual vehicle handbook limits. | M02-L01 |
+| *Säkring* | Electrical fuse protecting its circuit from excessive current. | M02-L01 |
+| *Deformationszon* | Vehicle structure designed to deform and manage crash energy. | M02-L03 |
+| *Understyrning / överstyrning* | Front-grip loss can widen the turn; rear-grip loss can make the rear step outward. | M07-L02 |
+| *Vattenplaning* | Water separates tyre contact from the road, reducing grip/control. | M07-L02 |
+| *Kultryck* | Downward load at the trailer coupling, distinct from whole trailer weight. | M08-L02 |
+| *Lätt lastbil* | Lorry with registered total weight at most 3,500 kg. | M08-L01 |
+| *Inträtt körförbud* | Automatic driving prohibition after a missed inspection deadline; restricted trips apply. | M08-L03 |
+| *Kolmonoxid / koldioxid* | CO impairs blood oxygen transport; added fossil CO₂ contributes to warming. | M09-L01 |
+| *Kväveoxider* | NOx: airway irritation, acidification and ground-level ozone formation. | M09-L01 |
+| *Motorbromsning* | In a conventional manual car, slowing with accelerator released and suitable gear engaged. | M09-L02 |
+| *Laddhybrid / elhybrid* | Plug-in hybrid externally rechargeable; conventional non-plug-in hybrid is not. | M09-L01 |
+| *Kylvätska / kylarlock* | Coolant / cooling-system cap; a hot pressurised system can release scalding liquid or steam. | M10-L01 |
+
 
 ## Appendix D · Personal practice record
 
@@ -1005,7 +1188,7 @@ A useful entry identifies something observable. “Check the near cycle path bef
 
 ## Official references
 
-Sources were checked on 1 October 2026. A reference identifies the authority or official legal text behind the adjacent material; it does not make this book official. Use the current version when a rule, requirement or service changes. Research findings are distinguished from legal duties in the lessons.
+Original source checks are dated 1 October 2026. Chapter additions retain their individual 12–13 October checks below and in the evidence records. Official agency, legal, public-health and research references are distinguished from manufacturer technical handbooks. Use current guidance and the actual vehicle handbook; references do not make this book official.
 
 - [Trafikverket vill se säkrare lastbilssläp efter nya krocktester][aeb] — Trafikverket; checked 2026-10-01.
 - [Luftkvalitet  - Transportstyrelsen][air] — Transportstyrelsen; checked 2026-10-01.
@@ -1074,6 +1257,72 @@ Sources were checked on 1 October 2026. A reference identifies the authority or 
 - [Säkerhet vid vägarbeten - www.trafikverket.se][works] — Trafikverket; checked 2026-10-01.
 - [Miljözoner - Transportstyrelsen][zones] — Transportstyrelsen; checked 2026-10-01.
 
+
+### Official agency, legal and research additions
+
+- [Nollvisionen – tillsammans räddar vi liv][vision-zero] — Trafikverket; checked 2026-10-12; Last updated/reviewed 5 November 2024.
+- [Drowsy Driving][drowsy-driving] — NHTSA (United States government); checked 2026-10-12; Live page; publication date not displayed in retrieved passage.
+- [Microsleeps — Module 3, Negative Impacts on Sleep][microsleep] — CDC/NIOSH (United States government); checked 2026-10-12; Last reviewed 31 March 2020; Module 3, page 3 of 28.
+- [Drograttfylleri och sjöfylleri — proposition 1998/99:43][stimulant-confidence] — Swedish Government; published by Sveriges riksdag; checked 2026-10-12; Proposition 1998/99:43.
+- [Drugs and Human Performance Fact Sheets][stimulant-fatigue] — NHTSA (United States government); checked 2026-10-12; DOT HS 809 725, April 2004.
+- [TSFS 2013:63 – vehicle technical requirements][brake-circuits] — Transportstyrelsen; checked 2026-10-12; Consolidated through TSFS 2025:6 (effective 2 June 2025).
+- [TSFS 2017:54 – control inspection][brake-inspection] — Transportstyrelsen; checked 2026-10-12; Consolidated through TSFS 2026:1 (effective 5 January 2026).
+- [Taxi Driver Manual][vehicle-faults] — Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government; checked 2026-10-12; Version 2.1 March 2024; hosted file August 2025.
+- [The Highway Code – Rule 120][abs-driving] — UK Government – Department for Transport; checked 2026-10-12; Updated 22 October 2025.
+- [New or used vehicle buyers][crumple-zones] — Government of Western Australia – Road Safety Commission; checked 2026-10-12; Live page; publication date not displayed in inspected passage.
+- [Elektrisk utrustning och elinstallationer][fuse-protection] — Transportstyrelsen; checked 2026-10-12; Live supplementary guidance; retrieved 12 October 2026.
+- [Safe stopping distance][following-gap] — Transport for NSW / NSW Government (Australia); checked 2026-10-12; Live guidance; publication date not displayed in inspected passage.
+- [KRAV Grundvärden, Vägar och gators utformning (VGU)][braking-model] — Trafikverket; checked 2026-10-12; TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework.
+- [Driver’s Manual, Chapter 5: Intersections and Turns][left-turn-wheels] — New York State Department of Motor Vehicles (government); checked 2026-10-13; Live official driver manual; publication/update date not displayed in inspected passage.
+- [Fakta om ledarhundar][guide-dog] — Myndigheten för delaktighet (MFD); checked 2026-10-13; Last updated 30 April 2026.
+- [Cykel][bicycle-definition] — Transportstyrelsen; checked 2026-10-13; Last updated 16 February 2026.
+- [Complex Driving Skills — Online Parent Guide to Teen Driving][speed-adaptation] — Oregon Department of Transportation, Driver and Motor Vehicle Services; checked 2026-10-13; Live official guide; publication/update date not displayed in inspected passage.
+- [Avstängning för förberedande arbeten — E4 Förbifart Stockholm][rural-turn-alternative] — Trafikverket; checked 2026-10-13; Published 7 February 2025; historical works notice.
+- [Gestaltningsprogram — Väg 26/47 Jönköping–Mullsjö, Hedenstorp–Månseryd][wildlife-habitat] — Trafikverket; project authors Charlotta Gard, Liselott Nykvist, Rebecka Olsson and Lovisa Norlin, Sweco; checked 2026-10-13; Version 2.0; 30 June 2023, revised 11 April 2025; TRV 2021/46509.
+- [Choose the right vehicle lighting][lights-combinations] — Transportstyrelsen; checked 2026-10-13; TS 201621, first edition August 2016; current agency publication link and live lighting page checked.
+- [Vision Impairment and DMV Requirements][vision-roles] — California Department of Motor Vehicles; checked 2026-10-13; Live page; update date not displayed.
+- [Halvljus – vanligaste felet vid besiktning][lamp-defects] — Transportstyrelsen; checked 2026-10-13; Updated 11 April 2025.
+- [Winter Driving — Bridges Freeze First][bridge-cooling] — NOAA National Weather Service; checked 2026-10-13; Live safety page; date not displayed.
+- [På glid? Nej! Så jobbar vi mot halka][ice-risk] — Trafikverket; checked 2026-10-13; Published 21 November 2025.
+- [Arrive safely with these winter driving safety tips][first-rain] — San Bernardino County Fire; checked 2026-10-13; Published 4 December 2019.
+- [Överstyrning på is och snö med olika vinterdäck — VTI rapport 708][handling] — VTI; report hosted by Trafikverket, funded by Skyltfonden; checked 2026-10-13; Hjort, Bruzelius and Andersson; May 2011; publication approved 23 May 2011.
+- [Electronic Stability Control Systems — final-rule technical appendix][front-grip] — US Department of Transportation, NHTSA; checked 2026-10-13; Docket NHTSA–2007–27662; 2007 prepublication final-rule PDF, 327 pages.
+- [Managing Speed — Online Driver’s Manual, Chapter 3][wet-driving] — Pennsylvania Department of Transportation (PennDOT); checked 2026-10-13; Live official manual; update date not displayed.
+- [Lastbil][light-lorry] — Transportstyrelsen; checked 2026-10-13; Updated 31 October 2025.
+- [Towing a Trailer in Oregon — Being Equipped for Safety][towball-physics] — Oregon Department of Transportation; checked 2026-10-13; Live agency-hosted 32-page brochure; publication date not printed in inspected text.
+- [Besiktning av fordon][inspection-ban] — Transportstyrelsen; checked 2026-10-13; Updated 8 October 2025.
+- [Vehicle Regulation (2009:211)][vehicle-inspection-law] — Swedish Government; published by Sveriges riksdag; checked 2026-10-13; Consolidated live text; chapter 6 §§15–21 checked 13 October 2026.
+- [Ställa av ditt fordon][off-road-inspection] — Transportstyrelsen; checked 2026-10-13; Live page; checked 13 October 2026.
+- [Kolets kretslopp rubbas][fossil-carbon] — Naturvårdsverket; checked 2026-10-13; Reviewed 7 January 2025.
+- [Hastighet och hållbarhet][climate-effect] — Trafikverket; checked 2026-10-13; Updated 31 March 2022.
+- [Åtgärder mot manipulering av viss fordonsutrustning – avgasrening och vägmätare][catalyst-warmup] — Transportstyrelsen; checked 2026-10-13; 27 June 2022, TSG 2021-3376.
+- [Vägtrafikens luftföroreningar][road-air] — Trafikverket; checked 2026-10-13; Reviewed 11 November 2021.
+- [Elfordon – så funkar det][electric-types] — Trafikverket; checked 2026-10-13; Updated 19 April 2024.
+- [Energi- och klimatrådgivning][heater-timer] — Gagnefs kommun; checked 2026-10-13; Updated 19 August 2026.
+- [Features that affect the environment][cooling-safety] — NZ Transport Agency Waka Kotahi; checked 2026-10-13; Live official page; no editorial revision date shown.
+- [Fuel efficient driving tips][manual-eco] — UK Vehicle Certification Agency; checked 2026-10-13; Live government agency page; editorial revision date not shown.
+- [Sparsam körning][carried-mass] — Energimyndigheten / municipal Energi- och klimatrådgivningen; checked 2026-10-13; Live advisory page; no editorial revision date shown.
+- [Tvätta bilen rätt][wash-water] — Göteborgs Stad, Miljöförvaltningen; checked 2026-10-13; Live municipal guidance; article revision date not shown (site-wide maintenance banner has its own unrelated date).
+- [Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck][studs-local] — Transportstyrelsen; checked 2026-10-13; 16 August 2024, TSG 2023-7800.
+- [C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II][studs-sign] — Transportstyrelsen; checked 2026-10-13; Updated 5 November 2024.
+
+
+### Manufacturer technical references
+
+- [V60 Twin Engine – Reservhjul][temporary-spare] — Volvo Cars (manufacturer); checked 2026-10-12; V60 Twin Engine model-year 2019 / 18w46; updated 19 March 2020.
+- [2011 Explorer Owner’s Guide][abs-feedback] — Ford Motor Company (manufacturer); checked 2026-10-12; 2011 Explorer, 4th Printing, USA.
+- [Kontrollera kylarvätskenivån][hot-coolant] — Kia, manufacturer owner handbook; checked 2026-10-13; MQ4 / 2022 / Swedish manual; live manufacturer edition, no revision date shown.
+
+
+### Later checks of existing references
+
+- [Se upp för vilt på vägarna - www.trafikverket.se][wildlife] — Trafikverket; additional passage checks: 2026-10-13; original check retained above.
+- [Lasta bilen säkert - www.trafikverket.se][load-advice] — Trafikverket; additional passage checks: 2026-10-13; original check retained above.
+- [Om du får stopp på bilen – varna, lämna och larma - www.trafikverket.se][breakdown] — Trafikverket; additional passage checks: 2026-10-13; original check retained above.
+- [Säkerhet i vägtunnlar - www.trafikverket.se][tunnel] — Trafikverket; additional passage checks: 2026-10-13; original check retained above.
+- [Trafikförordning (1998:1276)][traffic-law] — Sveriges riksdag — official SFS consolidation; additional passage checks: 2026-10-13; original check retained above.
+- [Däck - Transportstyrelsen][tyre-basics] — Transportstyrelsen; additional passage checks: 2026-10-13; original check retained above.
+
 [aeb]: https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/
 [air]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/
 [airbags]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/
@@ -1140,3 +1389,95 @@ Sources were checked on 1 October 2026. A reference identifies the authority or 
 [winter]: https://www.transportstyrelsen.se/vinterdack
 [works]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/
 [zones]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/
+
+[vision-zero]: https://bransch.trafikverket.se/for-dig-i-branschen/samarbete-med-branschen/Samarbeten-for-trafiksakerhet/tillsammans-for-nollvisionen/
+[drowsy-driving]: https://www.nhtsa.gov/risky-driving/drowsy-driving
+[microsleep]: https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/03.html
+[stimulant-confidence]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/drograttfylleri-och-sjofylleri_gm0343/html/
+[stimulant-fatigue]: https://www.nhtsa.gov/sites/nhtsa.gov/files/809725-drugshumanperformfs.pdf
+
+[brake-circuits]: https://www.transportstyrelsen.se/TSFS/TSFS%202013_63k.pdf
+
+[brake-inspection]: https://www.transportstyrelsen.se/TSFS/TSFS%202017_54k.pdf
+
+[vehicle-faults]: https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf
+
+[temporary-spare]: https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/
+
+[abs-driving]: https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158
+
+[abs-feedback]: https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/11expog4e.pdf
+
+[crumple-zones]: https://www.wa.gov.au/organisation/road-safety-commission/new-or-used-vehicle-buyers
+
+[fuse-protection]: https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/lagar-och-regler/regler-for-sjofart/regler-for-nationell-sjofart/regler-kompletterade-upplysningar/elektrisk-utrustning-och-elinstallationer/
+
+[following-gap]: https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance
+
+[braking-model]: https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf
+
+[left-turn-wheels]: https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-5-intersections-and-turns
+
+[guide-dog]: https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/
+
+[bicycle-definition]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/
+
+[speed-adaptation]: https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx
+
+[rural-turn-alternative]: https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/
+
+[wildlife-habitat]: https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf
+
+[lights-combinations]: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf
+
+[vision-roles]: https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/
+
+[lamp-defects]: https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2025/halvljus--vanligaste-felet-vid-besiktning/
+
+[bridge-cooling]: https://www.weather.gov/wrn/winter-driving-sm
+
+[ice-risk]: https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/
+
+[first-rain]: https://main.sbcounty.gov/2019/12/04/arrive-safely-with-these-winter-driving-safety-tips/
+
+[handling]: https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf
+
+[front-grip]: https://www.nhtsa.gov/document/final-rule-federal-motor-vehicle-safety-standards-electronic-stability-control-systems-0
+
+[wet-driving]: https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed
+
+[light-lorry]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/
+
+[towball-physics]: https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf
+
+[inspection-ban]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/
+
+[vehicle-inspection-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/
+
+[off-road-inspection]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/
+
+[fossil-carbon]: https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/
+
+[climate-effect]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/
+
+[catalyst-warmup]: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf
+
+[road-air]: https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/
+
+[electric-types]: https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/
+
+[heater-timer]: https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/
+
+[cooling-safety]: https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment
+
+[manual-eco]: https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/
+
+[carried-mass]: https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html
+
+[wash-water]: https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan
+
+[studs-local]: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf
+
+[studs-sign]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/
+
+[hot-coolant]: https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html

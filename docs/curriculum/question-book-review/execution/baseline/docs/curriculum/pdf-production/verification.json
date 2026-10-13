@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "pages": 4,
+  "manuscript_intro_paragraphs_preserved": 6,
+  "exact_disclaimer": true,
+  "embedded_unicode_fonts": [
+    "/AAAAAA+SourceSans3-Regular",
+    "/AAAAAA+SourceSans3-Semibold",
+    "/AAAAAA+SourceSerif4-Bold",
+    "/AAAAAA+SourceSerif4-Semibold"
+  ],
+  "valid_internal_links": 5,
+  "bookmarks": 4,
+  "named_destinations": 4,
+  "swedish_glyphs": true,
+  "preview_hashes_verified": 21,
+  "reproducible_sha256": "fbcdb2de9b7018e6f6750962f8ee861ef9e2b4a77cc3206080a88000ef3430ca",
+  "visual_review": "All four final pages inspected; see readiness-review.md",
+  "limits": [
+    "Chapter links/folios deferred until 6M",
+    "Cover artwork is approximately 95 ppi: screen-review use; print-resolution master remains required for a print release",
+    "Full tagged-PDF accessibility verification remains in 6N"
+  ]
+}

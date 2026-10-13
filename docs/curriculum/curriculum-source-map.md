@@ -366,3 +366,53 @@ The objective text is repeated here so every source relationship can be reviewed
 7. In step 4, select official sign variants and verify each meaning, label, reuse record and print-quality asset. Category links in this map do not complete asset preparation.
 
 During step 3, record each material claim's exact official URL, supporting passage or provision, verification date, rule-versus-recommendation classification, and unresolved limitations. Reconcile this handoff with the existing source-inventory verification queue; no previous open item is closed by this outline.
+
+
+## G1 amendment — 12 October 2026
+
+Chapter 1 adds verified teaching for situation-062, 068, 069 and 129. Exact evidence, fallbacks and scope limits: [G1 evidence](question-book-review/execution/G1/evidence.md). Existing verification dates remain historical. Final assembly and whole-book audit await G11/G12.
+
+
+## G2 amendment — 12 October 2026
+
+M02-L01–L03 add ten driving-situation questions, with twelve essential claims. Exact evidence, fallbacks and applicability limits: [G2 evidence](question-book-review/execution/G2/evidence.md). Original check dates remain historical. Final assembly and whole-book audit await G11/G12.
+
+
+## G3 amendment — 12 October 2026
+
+M03-L04 adds the fixed-point timing method, tailgater response and qualified squared-speed braking relationship for situation-106, 107 and 138. Exact evidence, searches and hypothetical arithmetic: [G3 evidence](question-book-review/execution/G3/evidence.md). Original checks retain their dates. Final assembly/audit await G11/G12.
+
+
+## G4 amendment — 13 October 2026
+
+M04-L02 adds waiting-to-turn wheel position, rear-impact reasoning, an example and an answered check for situation-104. Classified as safety advice. [Evidence and fallback](question-book-review/execution/G4/evidence.md). M06-L01 cross-reference only; G6 teaching not implemented. Final assembly/audit await G11/G12.
+
+
+## G5 amendment — 13 October 2026
+
+M05-L01 adds the bus road-limit comparison, guide-dog interaction advice and bicycle-as-vehicle definition for situation-013, 119 and 135. Five essential claims verified. [Evidence and scope](question-book-review/execution/G5/evidence.md). Original bus example extended; other lessons unchanged. Final assembly/audit await G11/G12.
+
+
+## G6 amendment — 13 October 2026
+
+M06-L01 adds conditional rural turn planning and wildlife cues; M06-L03 adds speed-perception adaptation and a motorway transition example, for situation-075, 105 and 126. Three claims checked with explicit scope. Rural return-right routing is an editorial application of a Trafikverket example and current Swedish rules. [Evidence](question-book-review/execution/G6/evidence.md). Other lessons and review unchanged. Final assembly/audit await G11/G12.
+
+
+## G7 amendment — 13 October 2026
+
+M07-L01 adds explicit lighting combination, visual roles and single-light width caution. M07-L02 adds bridge/ice/first-rain mechanisms, rear tyre stability, grip-loss handling definitions and aquaplaning response. Short attention cross-link in M07-L03; M07-L04/review unchanged. Twelve questions and thirteen claims checked with stated scope. [Evidence](question-book-review/execution/G7/evidence.md). Final assembly/audit await G11/G12.
+
+
+## G8 amendment — 13 October 2026
+
+M08-L01 adds light/heavy lorry speed comparison; L02 adds coupling-force/front-axle explanation and load example; L03 adds automatic inspection ban, restricted trips and deadline example. Three questions/claims checked. M08-L04/review unchanged. [Evidence](question-book-review/execution/G8/evidence.md). Whole-book assembly/audit await G11/G12.
+
+
+## G9 amendment — 13 October 2026
+
+M09-L01 adds fossil-carbon/catalyst and pollutant comparison, powertrain types and washing; L02 adds heater/cooling/gear/deceleration/cargo examples; L04 adds stud particles/local restrictions. Fifteen questions and 22 claims checked. L03/review unchanged. [Evidence](question-book-review/execution/G9/evidence.md). Whole-book assembly/audit await G11/G12.
+
+
+## G10 amendment — 13 October 2026
+
+M10-L01 adds hot-coolant pressure/burn mechanism, closed-cap precaution and overheating decision integrated with road/tunnel scene safety. One question/claim verified; L02–L04/review unchanged. [Evidence](question-book-review/execution/G10/evidence.md). G11/G12 assembly and final audit pending.

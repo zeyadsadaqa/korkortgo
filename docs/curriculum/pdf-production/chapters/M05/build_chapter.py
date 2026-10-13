@@ -286,6 +286,8 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     for p in paras[1:paras.index(worked)]:
+        if n==1 and p.startswith('**Bus comparison · Check the road limit.'):
+            b.end();b.start(key+'-cooperation',key+' · Share the space');b.text('Share the space','heading')
         if p.startswith('|'):
             rows=[[para(v.strip(),'caption') for v in line.strip('|').split('|')] for line in p.splitlines() if not line.startswith('|---')]
             table=Table(rows,colWidths=[62*mm,108*mm],repeatRows=1)
@@ -326,13 +328,13 @@ def run():
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M05-R','source',6);b.text('**Review guide:** '+a);b.answers['M05-R']=b.page;b.end()
     b.start('D06-answer','M05-L03 · Parking-time review');parking_example(b,True);b.answers['D06']=b.page;b.end()
-    for offset in range(0,len(ALIASES),4):
+    for offset in range(0,len(ALIASES),5):
         key='M05-references' if offset==0 else 'M05-references-2';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 5 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
-        for alias in ALIASES[offset:offset+4]:
+        b.text('Original references checked 5 October 2026; G5 additions checked 13 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
+        for alias in ALIASES[offset:offset+5]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
-        if offset==4:b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
-        if offset==4:
+        if offset==5:b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
+        if offset==5:
             b.text('T6 and T8 use exact vector extracts from the official Swedish road-sign poster, retained at their reviewed size.','caption')
             b.add(Paragraph('<link href="https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/vagmarken/ts_poster70x100_2021-10-01_webb.pdf" color="#173E32">Transportstyrelsen · Sveriges vägmärken (official poster)</link>',STYLES['source']))
         b.end()
@@ -358,6 +360,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M05':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif key=='M05-L01-cooperation':w.add_outline_item('Bus limits, guide dogs and bicycles',num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M05-answers','M05-references','M05-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['D06-question','D06-answer','M05-R-crossing'] or any(key.endswith(suf) for suf in ['-compare','-priority','-stop','-join','-scenario','-entry','-exit','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

@@ -33,3 +33,8 @@ pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/chapters/M08/chapter
 Use the pinned dependencies/fonts in [the build README](../../README.md). `chapter-source.md` is the editable generated snapshot; edit authoritative teaching text in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-08.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved scene masters remain necessary for print publication. Global folios/navigation, appendix integration and complete tagged-PDF accessibility remain in 6M–6N. This step does not approve publication or start 6J.
+
+
+## G8 review — 13 October 2026
+
+All 31 rendered pages inspected; full-size checks on 2, 4, 15, 17, 19, 20 and 26–31. No clipping, overlap, broken symbols or URL overflow. 19 sign bindings/sizes, six vector placements, four approved scenes and eight marker insertions retained. +2 text pages meets budget; five reference pages retained with existing type sizes. Expanded answers remain separated on local p.26. [Completion](../../../question-book-review/execution/G8/completion.md).

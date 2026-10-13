@@ -1,0 +1,93 @@
+{
+  "step": "G10",
+  "checked_on": "2026-10-13",
+  "page_number_scope": "One-based local Chapter 10 pages; final book pages pending G11.",
+  "chapter_pages": 24,
+  "baseline_pages": 23,
+  "added_pages": 1,
+  "questions_resolved": 1,
+  "essential_claims": 1,
+  "questions": [
+    {
+      "question_id": "situation-174",
+      "question_prompt": "The engine has overheated. Why should you not immediately open a hot coolant cap?",
+      "keyed_answer": "Pressurised hot coolant or steam can cause burns.",
+      "chapter": "M10",
+      "lesson": "M10-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        6
+      ],
+      "primary_local_page": 6,
+      "comprehension_check_local_page": 9,
+      "answer_local_page": 21,
+      "teaching_excerpt": "KörkortGo · M10-L01 · Overheating 6 Contents Keep the hot coolant cap closed Overheating · Leave the hot cap closed. In a conventional pressurised cooling system, hot coolant and steam can remain under pressure even after the engine is switched off. Opening the radiator cap, or the cap of a pressurised coolant reservoir, can release that pressure and expel scalding liquid or steam, causing severe burns. Never loosen or remove the cap while the engine or cooling system is hot. Switching off is not proof that pressure and heat have disappeared. Manufacturer handbook: hot coolant and pressure warning Treat a temperature warning as a reason to respond according to the actual vehicle handbook, not as an invitation to open a cap. Revisit M02-L01 for warning indicators and fault recognition. Protect people from traffic first and arrange professional assistance where needed. Cooling-system layouts and stopping instructions vary; this lesson gives no fixed waiting time, cap-opening sequence or roadside refill procedure. Manufacturer cooling-system precautions · Trafikverket: protect people and call recovery Apply the warning. The temperature warning appears on a motorway journey. After reaching the safest available stopping place as conditions allow, follow the vehicle's stopping instructions and this lesson's motorway scene-safety advice. A passenger suggests opening the coolant cap immediately because the engine is now off. Reject that action: residual heat and pressure can still cause a burn. Call recovery from a protected position rather than attempting an exposed repair. If the event is in a tunnel, use the tunnel response above; smoke, fire or danger to life requires the urgent response, not waiting beside the vehicle to diagnose it. Trafikverket: motorway breakdown · Trafikverket: tunnel urgency",
+      "coverage_reasoning": "Explicit residual heat/pressure even engine off, cap opening expels scalding fluid/steam causing burns; never open while hot. Vehicle handbook and M02-L01 warning cross-link; worked motorway decision with tunnel urgency distinction, no fixed wait or repair sequence.",
+      "claim_ids": [
+        "situation-174-C01"
+      ],
+      "sources": [
+        {
+          "alias": "hot-coolant",
+          "source_id": "G10-hot-coolant",
+          "publisher": "Kia, manufacturer owner handbook",
+          "title": "Kontrollera kylarvätskenivån",
+          "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html",
+          "version": "MQ4 / 2022 / Swedish manual; live manufacturer edition, no revision date shown",
+          "locator": "VIKTIGT: Ta bort kylarlocket; pressure-release explanation and following warning; VARNING: Kylarlock",
+          "excerpt": "Het kylvätska och ånga kan strömma ut och orsaka allvarliga brännskador.",
+          "supports": "Never remove radiator cap while engine/radiator is hot or running; pressure can remain even engine off; pressure release can expel hot liquid/steam causing severe burns.",
+          "fallback_reason": "TS/TRV searches for kylarlock, hot coolant, cooling-system pressure and burns found no exact technical warning. Approved manufacturer fallback R-COOLANT gives complete mechanism.",
+          "scope_limits": "Manufacturer technical warning for a conventional pressurised cooling system. Actual radiator/expansion-tank layout and stopping instructions vary: use own handbook/recovery advice. Do not generalise Kia opening steps, refill quantities/mixture, fan/battery procedure or fixed waiting time. The lesson gives no roadside cap-opening/repair instructions.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct exact primary page inspected"
+        },
+        {
+          "alias": "breakdown",
+          "source_id": "G10-breakdown",
+          "publisher": "Trafikverket",
+          "title": "Om du får stopp på bilen – varna, lämna och larma",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+          "version": "Updated 24 November 2022",
+          "locator": "Opening; Varna/Lämna/Larma",
+          "excerpt": "Använd professionell hjälp. Ring bilbärgare.",
+          "supports": "Motorway/2+1-road protect people from traffic, safest available stopping place, leave car/road and call recovery; 112 for danger to life.",
+          "fallback_reason": null,
+          "scope_limits": "Preferred agency scene-safety support; not coolant technical evidence. Motorway/2+1-road advice not universal tunnel waiting instruction. No numerical triangle distance added by G10.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct exact primary page inspected"
+        },
+        {
+          "alias": "tunnel",
+          "source_id": "G10-tunnel",
+          "publisher": "Trafikverket",
+          "title": "Säkerhet i vägtunnlar",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/",
+          "version": "Updated 5 September 2022",
+          "locator": "Om bilen går sönder eller om det händer en olycka; Om det brinner",
+          "excerpt": "Om läget är akut: Lämna bilen",
+          "supports": "Non-urgent tunnel: stay in car/protected nearby while getting help; urgent/fire: exit to nearest emergency exit and summon help.",
+          "fallback_reason": null,
+          "scope_limits": "Agency scene-safety cross-link only, not technical cooling-system instruction. Smoke/fire urgent; do not diagnose roadside source before responding to immediate danger.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct exact primary page inspected"
+        }
+      ],
+      "evidence_basis": "Manufacturer fallback only for exact technical hazard; Trafikverket for scene safety",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        321
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 321,
+      "comprehension_check_book_page": 324,
+      "answer_book_page": 336,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    }
+  ]
+}

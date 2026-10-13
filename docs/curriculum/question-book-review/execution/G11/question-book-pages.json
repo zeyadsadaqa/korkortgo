@@ -1,0 +1,1184 @@
+{
+  "step": "G11",
+  "checked_on": "2026-10-13",
+  "numbering": "One-based physical PDF pages; printed folios and PDF labels agree. Cover is page 1 without visible folio.",
+  "assembled_book_pages": 540,
+  "pdf": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
+  "pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+  "question_bank_sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb",
+  "questions": [
+    {
+      "question_id": "situation-062",
+      "question_prompt": "What is a dangerous effect of stimulant drugs on driving?",
+      "keyed_answer": "Overconfidence while fatigue may be masked.",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "supporting_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "local_primary_page": 5,
+      "coverage_reasoning": "Overconfidence and reduced perceived fatigue are separately explained and qualified to stimulant misuse; perceived alertness is explicitly distinguished from safe judgement.",
+      "claim_ids": [
+        "situation-062-C01",
+        "situation-062-C02"
+      ],
+      "chapter_coverage": "../G1/coverage.json",
+      "evidence": "../G1/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-068",
+      "question_prompt": "What is microsleep in driving?",
+      "keyed_answer": "A brief unintended episode of sleep.",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "supporting_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "local_primary_page": 5,
+      "coverage_reasoning": "Explicit definition supports the answer. Hypothetical 90 km/h × 2 seconds = 50 metres demonstrates distance without assigning a typical duration.",
+      "claim_ids": [
+        "situation-068-C01"
+      ],
+      "chapter_coverage": "../G1/coverage.json",
+      "evidence": "../G1/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-069",
+      "question_prompt": "What is the fundamental remedy for sleep deprivation?",
+      "keyed_answer": "Adequate sleep.",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "supporting_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "local_primary_page": 5,
+      "coverage_reasoning": "Explains why coffee, music, an open window and willpower do not replace missing sleep; practice example selects another driver or postponement.",
+      "claim_ids": [
+        "situation-069-C01"
+      ],
+      "chapter_coverage": "../G1/coverage.json",
+      "evidence": "../G1/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-129",
+      "question_prompt": "What is the central aim of Vision Zero?",
+      "keyed_answer": "No one should be killed or seriously injured in road traffic.",
+      "chapter": "M01",
+      "lesson": "M01-L03",
+      "supporting_book_pages": [
+        5,
+        11
+      ],
+      "primary_book_page": 11,
+      "comprehension_check_book_page": 12,
+      "answer_book_page": 17,
+      "local_primary_page": 7,
+      "coverage_reasoning": "States the exact aim and explains the shared responsibility of road users and system designers, with a pressured-overtake example.",
+      "claim_ids": [
+        "situation-129-C01"
+      ],
+      "chapter_coverage": "../G1/coverage.json",
+      "evidence": "../G1/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-131",
+      "question_prompt": "What is the safety purpose of a correctly adjusted head restraint?",
+      "keyed_answer": "To reduce damaging head movement in a collision.",
+      "chapter": "M02",
+      "lesson": "M02-L03",
+      "supporting_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "local_primary_page": 8,
+      "coverage_reasoning": "Purpose, relative head movement and adjustment taught; no injury-prevention guarantee.",
+      "claim_ids": [
+        "situation-131-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-132",
+      "question_prompt": "Why are rear-facing restraints recommended for young children?",
+      "keyed_answer": "They support the head and neck and distribute crash forces.",
+      "chapter": "M02",
+      "lesson": "M02-L03",
+      "supporting_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "local_primary_page": 8,
+      "coverage_reasoning": "Explains the relatively heavy head/vulnerable neck, simultaneous support and distribution of collision load.",
+      "claim_ids": [
+        "situation-132-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-145",
+      "question_prompt": "The steering wheel vibrates at certain speeds. Which fault is a possible cause?",
+      "keyed_answer": "Wheel imbalance.",
+      "chapter": "M02",
+      "lesson": "M02-L02",
+      "supporting_book_pages": [
+        26
+      ],
+      "primary_book_page": 26,
+      "comprehension_check_book_page": 27,
+      "answer_book_page": 35,
+      "local_primary_page": 5,
+      "coverage_reasoning": "Explains rotating uneven mass and possible speed-dependent steering vibration; other causes and assessment retained.",
+      "claim_ids": [
+        "situation-145-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-146",
+      "question_prompt": "You fit a temporary spare wheel after a puncture. What should guide its use?",
+      "keyed_answer": "The vehicle's limits for speed, distance and pressure.",
+      "chapter": "M02",
+      "lesson": "M02-L02",
+      "supporting_book_pages": [
+        26
+      ],
+      "primary_book_page": 26,
+      "comprehension_check_book_page": 27,
+      "answer_book_page": 35,
+      "local_primary_page": 5,
+      "coverage_reasoning": "All three required limits/use conditions taught; actual handbook controls and no universal number invented.",
+      "claim_ids": [
+        "situation-146-C01",
+        "situation-146-C02",
+        "situation-146-C03"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-154",
+      "question_prompt": "Why does a car have separate brake circuits?",
+      "keyed_answer": "To retain some braking if one circuit fails.",
+      "chapter": "M02",
+      "lesson": "M02-L01",
+      "supporting_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Retained partial braking after a circuit fault explained; reduced capability and limits made explicit.",
+      "claim_ids": [
+        "situation-154-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-156",
+      "question_prompt": "During an emergency stop, your ABS brake pedal pulsates. What should you normally do?",
+      "keyed_answer": "Maintain firm pressure and steer as needed.",
+      "chapter": "M02",
+      "lesson": "M02-L01",
+      "supporting_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Normal ABS pulsation is distinguished from abnormal ordinary pedal behaviour; firm pressure, no pumping and steering taught.",
+      "claim_ids": [
+        "situation-156-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-157",
+      "question_prompt": "The brake pedal slowly sinks under steady pressure. What should you suspect?",
+      "keyed_answer": "A potentially serious brake-system leak or fault.",
+      "chapter": "M02",
+      "lesson": "M02-L01",
+      "supporting_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Serious possible hydraulic fault explained; professional assessment rather than definitive symptom diagnosis.",
+      "claim_ids": [
+        "situation-157-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-158",
+      "question_prompt": "A hydraulic brake pedal feels unusually springy. What may be wrong?",
+      "keyed_answer": "Air in the brake system.",
+      "chapter": "M02",
+      "lesson": "M02-L01",
+      "supporting_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Air in hydraulic brakes is linked to unusual springiness/sponginess with appropriate action.",
+      "claim_ids": [
+        "situation-158-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-159",
+      "question_prompt": "Why are parts of a car designed to deform in a crash?",
+      "keyed_answer": "To absorb energy and reduce the forces reaching occupants.",
+      "chapter": "M02",
+      "lesson": "M02-L03",
+      "supporting_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "local_primary_page": 8,
+      "coverage_reasoning": "Explains energy absorption, protected passenger space, longer deceleration and lower occupant forces.",
+      "claim_ids": [
+        "situation-159-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-173",
+      "question_prompt": "What is the purpose of an electrical fuse?",
+      "keyed_answer": "To protect a circuit against excessive current.",
+      "chapter": "M02",
+      "lesson": "M02-L01",
+      "supporting_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Circuit protection against overload/short circuit taught; maritime source used only for common electrical principle.",
+      "claim_ids": [
+        "situation-173-C01"
+      ],
+      "chapter_coverage": "../G2/coverage.json",
+      "evidence": "../G2/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-106",
+      "question_prompt": "How do you use the three-second following-distance guideline?",
+      "keyed_answer": "Count the time between the car ahead and your car passing the same fixed point.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "supporting_book_pages": [
+        84
+      ],
+      "primary_book_page": 84,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "local_primary_page": 44,
+      "coverage_reasoning": "Explains the fixed-point/rear-to-front counting method, a three-second guideline, smooth gap adjustment and conditions requiring more space.",
+      "claim_ids": [
+        "situation-106-C01"
+      ],
+      "chapter_coverage": "../G3/coverage.json",
+      "evidence": "../G3/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-107",
+      "question_prompt": "A car follows you too closely. How can you reduce the risk?",
+      "keyed_answer": "Increase your gap to the vehicle ahead and avoid sudden braking.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "supporting_book_pages": [
+        85
+      ],
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "local_primary_page": 45,
+      "coverage_reasoning": "Teaches increasing forward space so slowing/braking can be gentler; tailgater example and emergency-braking boundary included.",
+      "claim_ids": [
+        "situation-107-C01"
+      ],
+      "chapter_coverage": "../G3/coverage.json",
+      "evidence": "../G3/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-138",
+      "question_prompt": "With otherwise identical grip and braking, what happens to braking distance when speed doubles?",
+      "keyed_answer": "It becomes approximately four times as long.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "supporting_book_pages": [
+        85
+      ],
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "local_primary_page": 45,
+      "coverage_reasoning": "Explains 2× speed → 4× braking distance under identical deceleration assumptions; reaction distance and total stopping distance are explicitly distinguished and arithmetic checked.",
+      "claim_ids": [
+        "situation-138-C01"
+      ],
+      "chapter_coverage": "../G3/coverage.json",
+      "evidence": "../G3/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-104",
+      "question_prompt": "You must wait before turning left across oncoming traffic. How should you hold your front wheels?",
+      "keyed_answer": "Keep them straight until you can turn.",
+      "chapter": "M04",
+      "lesson": "M04-L02",
+      "supporting_book_pages": [
+        110
+      ],
+      "primary_book_page": 110,
+      "comprehension_check_book_page": 114,
+      "answer_book_page": 133,
+      "local_primary_page": 18,
+      "coverage_reasoning": "Explicitly teaches front wheels straight while stopped before a left turn across oncoming traffic, the rear-impact/oncoming-path risk, and beginning steering only when the movement is safe. Classified as safety advice; example and answered check reinforce the distinction.",
+      "claim_ids": [
+        "situation-104-C01"
+      ],
+      "chapter_coverage": "../G4/coverage.json",
+      "evidence": "../G4/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-013",
+      "question_prompt": "The speed limit is 70 km/h and a bus signals to leave its stop. Which statement is correct?",
+      "keyed_answer": "The bus must give way, but you should still be ready to cooperate.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "supporting_book_pages": [
+        141,
+        142
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "local_primary_page": 6,
+      "coverage_reasoning": "All three essential claims taught: ≤50 special opportunity/stop duty, safe bus entry at 70, and continued cooperation under §43. Explicitly distinguishes road limit from actual speed; original 40 km/h bus example extended to a 70 km/h comparison.",
+      "claim_ids": [
+        "situation-013-C01",
+        "situation-013-C02",
+        "situation-013-C03"
+      ],
+      "chapter_coverage": "../G5/coverage.json",
+      "evidence": "../G5/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-119",
+      "question_prompt": "How should you behave around a guide dog working in traffic?",
+      "keyed_answer": "Avoid distracting it.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "supporting_book_pages": [
+        141
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "local_primary_page": 6,
+      "coverage_reasoning": "Avoids attention directed at the working dog; explains handler risk, communication with handler and a guide-dog interaction example.",
+      "claim_ids": [
+        "situation-119-C01"
+      ],
+      "chapter_coverage": "../G5/coverage.json",
+      "evidence": "../G5/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-135",
+      "question_prompt": "Which road user is operating a vehicle under the traffic definitions?",
+      "keyed_answer": "A person riding a bicycle.",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "supporting_book_pages": [
+        141
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "local_primary_page": 6,
+      "coverage_reasoning": "Explicit ordinary-pedal-bicycle vehicle definition and rider operating a vehicle, distinguished from motor vehicle terminology; existing crossing duties cross-referenced.",
+      "claim_ids": [
+        "situation-135-C01"
+      ],
+      "chapter_coverage": "../G5/coverage.json",
+      "evidence": "../G5/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-075",
+      "question_prompt": "After a long motorway drive, 60 km/h feels unusually slow. What should you do?",
+      "keyed_answer": "Check the speedometer and adapt to the new road conditions.",
+      "chapter": "M06",
+      "lesson": "M06-L03",
+      "supporting_book_pages": [
+        205
+      ],
+      "primary_book_page": 205,
+      "comprehension_check_book_page": 207,
+      "answer_book_page": 228,
+      "local_primary_page": 25,
+      "coverage_reasoning": "Explains steady-speed perceptual adaptation, deceptive slow feeling, speedometer checks, current limit/conditions and motorway-to-50 example. Feeling alone does not establish instrument fault.",
+      "claim_ids": [
+        "situation-075-C01"
+      ],
+      "chapter_coverage": "../G6/coverage.json",
+      "evidence": "../G6/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-105",
+      "question_prompt": "Heavy traffic makes a country-road left turn unsafe. What is a sensible alternative?",
+      "keyed_answer": "Continue to a suitable turning place and return for a right turn.",
+      "chapter": "M06",
+      "lesson": "M06-L01",
+      "supporting_book_pages": [
+        191
+      ],
+      "primary_book_page": 191,
+      "comprehension_check_book_page": 193,
+      "answer_book_page": 228,
+      "local_primary_page": 11,
+      "coverage_reasoning": "Teaches continuing to a suitable permitted turnaround/place or return route, returning for a safe right turn, legal boundaries, no immediate unsafe turnaround, and choosing another route if no suitable return exists. Conditional editorial inference from official rerouting example and Swedish rules is disclosed in evidence.",
+      "claim_ids": [
+        "situation-105-C01"
+      ],
+      "chapter_coverage": "../G6/coverage.json",
+      "evidence": "../G6/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-126",
+      "question_prompt": "When is extra attention to large animals especially important?",
+      "keyed_answer": "Around dusk and dawn near wildlife habitats and fence openings.",
+      "chapter": "M06",
+      "lesson": "M06-L01",
+      "supporting_book_pages": [
+        191
+      ],
+      "primary_book_page": 191,
+      "comprehension_check_book_page": 193,
+      "answer_book_page": 228,
+      "local_primary_page": 11,
+      "coverage_reasoning": "Explicit dawn/dusk, habitat edges/bushes/waterways and fence endings/openings, with observation and speed-planning example; year-round uncertainty retained and post-collision instructions cross-linked to M10.",
+      "claim_ids": [
+        "situation-126-C01"
+      ],
+      "chapter_coverage": "../G6/coverage.json",
+      "evidence": "../G6/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-045",
+      "question_prompt": "May you use dipped headlights and front fog lights together?",
+      "keyed_answer": "No.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "supporting_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Names the Swedish prohibited pair explicitly and explains replacement in fog/heavy precipitation.",
+      "claim_ids": [
+        "situation-045-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-070",
+      "question_prompt": "Which task relies particularly on central vision?",
+      "keyed_answer": "Reading the precise wording on a road sign.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "supporting_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Defines central detail vision and its role in reading exact sign wording.",
+      "claim_ids": [
+        "situation-070-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-071",
+      "question_prompt": "Why is peripheral vision important in traffic?",
+      "keyed_answer": "It helps detect movement and potential hazards outside your direct focus.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "supporting_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Explains peripheral detection outside direct focus and eye/head movement for direct inspection, with verge example.",
+      "claim_ids": [
+        "situation-071-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-073",
+      "question_prompt": "You see one light approaching at night. What should you remember?",
+      "keyed_answer": "It may be a wider vehicle with a failed headlight.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "supporting_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Explains possible wider car with failed lamp and clearance caution; conditional editorial inference from documented defective car lamps.",
+      "claim_ids": [
+        "situation-073-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-114",
+      "question_prompt": "Why can a bridge freeze before nearby road sections?",
+      "keyed_answer": "Cold air can cool it from above and below.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 9,
+      "coverage_reasoning": "Explains exposed bridge cooling and possible earlier freezing, not an always-first guarantee.",
+      "claim_ids": [
+        "situation-114-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-116",
+      "question_prompt": "Rain falls near freezing temperature onto a cold road. What risk should you anticipate?",
+      "keyed_answer": "A nearly invisible slippery ice layer.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 9,
+      "coverage_reasoning": "Explicit freezing on sufficiently cold surface, thin deceptive ice and distinction between air and road temperature.",
+      "claim_ids": [
+        "situation-116-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-117",
+      "question_prompt": "After a long dry spell, the first rain begins. What should you consider?",
+      "keyed_answer": "Dirt and residues can make the surface unusually slippery.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 9,
+      "coverage_reasoning": "Explains accumulation and mixing by first rain, reduced grip and no guaranteed cleaning time.",
+      "claim_ids": [
+        "situation-117-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-148",
+      "question_prompt": "Why are the tyres with the best grip generally fitted on the rear axle?",
+      "keyed_answer": "To reduce the risk of the rear losing grip and swinging out.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 10,
+      "coverage_reasoning": "Explains rear stability, tail slide and rotation risk behind the best-rear-tyre recommendation.",
+      "claim_ids": [
+        "situation-148-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-149",
+      "question_prompt": "What happens in oversteer?",
+      "keyed_answer": "The rear loses grip and the car turns more than intended.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 10,
+      "coverage_reasoning": "Defines the grip-loss oversteer case: rear slide and excess rotation.",
+      "claim_ids": [
+        "situation-149-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-150",
+      "question_prompt": "What happens in understeer?",
+      "keyed_answer": "The front loses grip and the car turns less than intended.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 10,
+      "coverage_reasoning": "Defines grip-loss understeer: front saturation, reduced turn and straighter/wider path; distinguishes ordinary handling characteristics.",
+      "claim_ids": [
+        "situation-150-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-152",
+      "question_prompt": "What occurs during aquaplaning?",
+      "keyed_answer": "Water prevents the tyre from maintaining proper contact with the road.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 10,
+      "coverage_reasoning": "Explains water-supported tyre film and reduced/absent effective road contact, steering/braking limits.",
+      "claim_ids": [
+        "situation-152-C01"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-153",
+      "question_prompt": "Your car starts aquaplaning. What is the appropriate response?",
+      "keyed_answer": "Ease off the accelerator and avoid abrupt steering or braking.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "supporting_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "local_primary_page": 10,
+      "coverage_reasoning": "Both essential responses: gradual accelerator release and avoiding abrupt steering/braking, with gentle necessary corrections. Cross-link to M02-L01 ABS and scope excludes universal never-brake instruction.",
+      "claim_ids": [
+        "situation-153-C01",
+        "situation-153-C02"
+      ],
+      "chapter_coverage": "../G7/coverage.json",
+      "evidence": "../G7/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-136",
+      "question_prompt": "A light lorry has no trailer. Which maximum speed generally applies?",
+      "keyed_answer": "The speed limit of the road, subject to safe adaptation.",
+      "chapter": "M08",
+      "lesson": "M08-L01",
+      "supporting_book_pages": [
+        259
+      ],
+      "primary_book_page": 259,
+      "comprehension_check_book_page": 261,
+      "answer_book_page": 283,
+      "local_primary_page": 2,
+      "coverage_reasoning": "Explains light-lorry ≤3500 kg road-maximum treatment without trailer, contrast with heavy-lorry caps, lower road limits, safe adaptation and towing exception; includes signed-100 example.",
+      "claim_ids": [
+        "situation-136-C01"
+      ],
+      "chapter_coverage": "../G8/coverage.json",
+      "evidence": "../G8/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-165",
+      "question_prompt": "A trailer presses too heavily down on the towball. What can happen?",
+      "keyed_answer": "The car's front axle can be unloaded, impairing steering grip.",
+      "chapter": "M08",
+      "lesson": "M08-L02",
+      "supporting_book_pages": [
+        272
+      ],
+      "primary_book_page": 272,
+      "comprehension_check_book_page": 274,
+      "answer_book_page": 283,
+      "local_primary_page": 15,
+      "coverage_reasoning": "Defines coupling force distinct from total trailer weight; rear coupling leverage unloads front axle and impairs steering grip. Explains not necessarily lifting wheels off road, actual limits and forward-load example.",
+      "claim_ids": [
+        "situation-165-C01"
+      ],
+      "chapter_coverage": "../G8/coverage.json",
+      "evidence": "../G8/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-172",
+      "question_prompt": "What normally happens if the required inspection deadline is missed?",
+      "keyed_answer": "An automatic driving ban applies until the inspection requirements are addressed.",
+      "chapter": "M08",
+      "lesson": "M08-L03",
+      "supporting_book_pages": [
+        276
+      ],
+      "primary_book_page": 276,
+      "comprehension_check_book_page": 277,
+      "answer_book_page": 283,
+      "local_primary_page": 19,
+      "coverage_reasoning": "Explicit automatic missed-deadline ban, owner responsibility without reminder, booking not enough, legal endpoint when inspection performed and further-result constraints. Includes correct on/off-road exceptions, insurance/tax requirements, dangerous-defect distinction and 31-October/1-November example.",
+      "claim_ids": [
+        "situation-172-C01"
+      ],
+      "chapter_coverage": "../G8/coverage.json",
+      "evidence": "../G8/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-076",
+      "question_prompt": "Why does burning fossil petrol contribute to climate change?",
+      "keyed_answer": "It adds carbon dioxide from long-stored carbon to the atmosphere.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Long-stored fossil carbon combines with oxygen, releases CO₂ and strengthens natural greenhouse effect.",
+      "claim_ids": [
+        "situation-076-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-077",
+      "question_prompt": "When is a conventional catalytic converter least effective?",
+      "keyed_answer": "Just after a cold engine is started.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Conventional petrol three-way catalyst needs sufficient heat, so cold-start effectiveness is low; no universal warm-up duration.",
+      "claim_ids": [
+        "situation-077-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-078",
+      "question_prompt": "Does a catalytic converter remove the climate impact of burning fossil fuel?",
+      "keyed_answer": "No, fossil carbon dioxide emissions remain.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Pollutant conversion distinguished from continued fossil CO₂/climate effect; catalyst is not carbon capture.",
+      "claim_ids": [
+        "situation-078-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-079",
+      "question_prompt": "Why use a timer with an engine heater?",
+      "keyed_answer": "To warm the engine when needed without wasting electricity.",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "supporting_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "local_primary_page": 7,
+      "coverage_reasoning": "Timer schedules needed heating and avoids unnecessarily long electricity use; actual equipment/conditions govern duration.",
+      "claim_ids": [
+        "situation-079-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-082",
+      "question_prompt": "How can you use air conditioning sensibly?",
+      "keyed_answer": "Use it as needed for comfort, alertness and clear windows without unnecessary cooling.",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "supporting_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "local_primary_page": 7,
+      "coverage_reasoning": "All three claims: energy demand, comfort/alertness, and clear-window demisting. Avoid needless cooling while retaining safety; cooling does not cure sleep deprivation.",
+      "claim_ids": [
+        "situation-082-C01",
+        "situation-082-C02",
+        "situation-082-C03"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-083",
+      "question_prompt": "Where is the environmentally preferable place to wash a car?",
+      "keyed_answer": "A purpose-built wash facility that treats wastewater.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Wastewater collection/treatment linked to oil, metals and chemicals; compatible products/local rules, no zero-pollution promise.",
+      "claim_ids": [
+        "situation-083-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-084",
+      "question_prompt": "What is a major danger of carbon monoxide?",
+      "keyed_answer": "It interferes with the blood's oxygen transport.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "CO binding to haemoglobin prevents normal oxygen transport; kept distinct from CO₂.",
+      "claim_ids": [
+        "situation-084-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-085",
+      "question_prompt": "Which environmental problem is associated with nitrogen oxides from traffic?",
+      "keyed_answer": "Airway irritation and contributions to acidification and ground-level ozone.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "NOx airway irritation, acidification, ground-level ozone formation with hydrocarbons/sunlight all individually evidenced.",
+      "claim_ids": [
+        "situation-085-C01",
+        "situation-085-C02",
+        "situation-085-C03"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-086",
+      "question_prompt": "Why are traffic particles a health concern?",
+      "keyed_answer": "They can harm the respiratory system.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 3,
+      "coverage_reasoning": "Exhaust/wear particles can enter airways and cause respiratory harm.",
+      "claim_ids": [
+        "situation-086-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-088",
+      "question_prompt": "In a manual car, which gear choice generally saves fuel without straining the engine?",
+      "keyed_answer": "Use a suitably high gear while the engine runs smoothly.",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "supporting_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "local_primary_page": 7,
+      "coverage_reasoning": "Conventional manual-car high gear conditional on smooth unstrained operation; load/gradient may require lower gear.",
+      "claim_ids": [
+        "situation-088-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-090",
+      "question_prompt": "What is engine braking in a conventional manual car?",
+      "keyed_answer": "Slowing with the accelerator released while a suitable gear remains engaged.",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "supporting_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "local_primary_page": 7,
+      "coverage_reasoning": "Accelerator released, suitable gear engaged; clutch/neutral disengagement not this technique; necessary braking and vehicle-specific behaviour retained.",
+      "claim_ids": [
+        "situation-090-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-092",
+      "question_prompt": "Which statement about an electric car is accurate?",
+      "keyed_answer": "It has no tailpipe exhaust while driving, but production and energy supply still have impacts.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Battery-electric electricity-only propulsion implies no combustion exhaust while driving; manufacturing, extraction and electricity supply still affect environment.",
+      "claim_ids": [
+        "situation-092-C01",
+        "situation-092-C02",
+        "situation-092-C03"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-094",
+      "question_prompt": "What distinguishes a plug-in hybrid from a conventional non-plug-in hybrid?",
+      "keyed_answer": "Its traction battery can be charged from an external electricity supply.",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "supporting_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "local_primary_page": 4,
+      "coverage_reasoning": "Plug-in externally rechargeable contrasted with non-plug-in hybrid not externally rechargeable.",
+      "claim_ids": [
+        "situation-094-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-098",
+      "question_prompt": "Why can cities restrict studded tyres on particular roads?",
+      "keyed_answer": "Studs contribute to road wear and airborne particles.",
+      "chapter": "M09",
+      "lesson": "M09-L04",
+      "supporting_book_pages": [
+        305
+      ],
+      "primary_book_page": 305,
+      "comprehension_check_book_page": 307,
+      "answer_book_page": 310,
+      "local_primary_page": 17,
+      "coverage_reasoning": "Stud wear → particles → airway harm; municipality can restrict road/area. Check STFS dates/extent/exceptions/signs, national season does not override local ban, correct C44 exception and cross-link M07-L02.",
+      "claim_ids": [
+        "situation-098-C01",
+        "situation-098-C02"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-099",
+      "question_prompt": "What should you do with heavy equipment you no longer need in the car?",
+      "keyed_answer": "Remove it before future journeys.",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "supporting_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "local_primary_page": 7,
+      "coverage_reasoning": "Remove unneeded heavy cargo before trips, distinct from roof-box drag; retain needed safety/access equipment.",
+      "claim_ids": [
+        "situation-099-C01"
+      ],
+      "chapter_coverage": "../G9/coverage.json",
+      "evidence": "../G9/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    },
+    {
+      "question_id": "situation-174",
+      "question_prompt": "The engine has overheated. Why should you not immediately open a hot coolant cap?",
+      "keyed_answer": "Pressurised hot coolant or steam can cause burns.",
+      "chapter": "M10",
+      "lesson": "M10-L01",
+      "supporting_book_pages": [
+        321
+      ],
+      "primary_book_page": 321,
+      "comprehension_check_book_page": 324,
+      "answer_book_page": 336,
+      "local_primary_page": 6,
+      "coverage_reasoning": "Explicit residual heat/pressure even engine off, cap opening expels scalding fluid/steam causing burns; never open while hot. Vehicle handbook and M02-L01 warning cross-link; worked motorway decision with tunnel urgency distinction, no fixed wait or repair sequence.",
+      "claim_ids": [
+        "situation-174-C01"
+      ],
+      "chapter_coverage": "../G10/coverage.json",
+      "evidence": "../G10/evidence.json",
+      "status": "verified_in_final_book_after_G12"
+    }
+  ],
+  "status": "Assembly mappings only; independent 1000-question audit is G12",
+  "G12_audit_status": "all_55_verified",
+  "final_coverage_review": "../final-coverage-review.md"
+}

@@ -1,0 +1,48 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "Opened all seven chapter reference targets and inspected the relevant passages. Individual sign captions and artwork reuse the verified register with hash/dimension checks; not a claim that all 76 sign pages were fetched again.",
+  "sources": [
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 2 §§2 and 7 supports authorised directions and railway approach/entry duties. Chapter 3 §§2, 7, 11, 14–15, 21, 23, 30–43 and 51 supports spacing, lane choice, continuous lines, visibility, meeting, overtaking restrictions and exceptions, joining/exiting and unavoidable stops. Chapter 4 §20 confirms vehicle-combination limits; the version effective on the check date is used, not the amendment effective 1 December 2026. Chapter 9 §§1–2 confirms motorway/expressway eligibility and movement restrictions. No legal exception is treated as proof that a manoeuvre is safe.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "wildlife",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+      "finding": "Supports year-round risk, increased attention around dawn/dusk and periods of animal movement, and caution where wildlife fencing is interrupted. No new collision statistics or species-specific accident duties added.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "slow-vehicles",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/",
+      "finding": "The advice to other road users explicitly calls for consideration, following distance and overtaking only where appropriate. Supports the lesson without inferring permission from a slow vehicle’s appearance.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "time",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/",
+      "finding": "Supports the qualitative point that apparent time savings from greater speed can be small. No new numerical time-saving claim is introduced.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "rail",
+      "url": "https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf",
+      "finding": "The official guide distinguishes a functioning vehicle trapped by barriers (drive through to leave the tracks) from a breakdown (evacuate, move away and call 112). It also says to continue clear when warnings begin during crossing, avoid queues on the tracks and identify the crossing from the back of the crossbuck. The chapter retains the safety qualification on retrieving an ID and invents no ID panel or number.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "works",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/",
+      "finding": "Supports changed lane arrangements, queues, advance attention, reduced speed, distance and following actual signs/signals/guard instructions. The scene is explicitly partial, not a verified traffic-management layout.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "Chapter 3 §§2–3 supports safe traffic performance and critical assessment of personal driving choices. The reflection on impatience follows this purpose.",
+      "status": "supports chapter use"
+    }
+  ]
+}

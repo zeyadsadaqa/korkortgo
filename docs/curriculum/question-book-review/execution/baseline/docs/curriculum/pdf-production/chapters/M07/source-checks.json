@@ -1,0 +1,66 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "Opened all ten chapter reference targets and inspected relevant passages. Legal fitness/speed/winter provisions also reuse same-day inspection from Chapter 6. Individual sign captions/artwork reuse the verified register with hash/dimension checks; not a claim that all six individual sign pages were fetched again.",
+  "sources": [
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 3 §§1, 14–15 and 68–72 supports fitness, visibility-based speed and lighting duties, including main-beam dazzle restrictions and fog-light combinations. Chapter 4 §10e supports the equipment-use limits; §§18a–18d confirms the winter-tyre framework for the ordinary light-vehicle case. Current provisions are used, not future amendments.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "lights",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+      "finding": "Confirms daytime running-light settings can leave rear/side lights off and may need manual correction in darkness, dawn/dusk or bad weather. An illuminated dashboard is not proof that the required exterior lights are on.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "friction",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "finding": "Inspected sections 4.2–4.3 of VTI report 980 hosted by Transportstyrelsen. Supports surface/vehicle effects on stopping, shared braking/cornering friction and ABS preserving lateral forces within the available friction. No road-design friction thresholds or braking-distance figures are imported as driver guarantees.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "winter",
+      "url": "https://www.transportstyrelsen.se/vinterdack",
+      "finding": "Confirms the ordinary light-vehicle 1 December–31 March condition-dependent requirement, 3 mm minimum, mountain/snowflake marking for studless car tyres, studded-use season and mixed-tyre restrictions. Supports car/trailer combinations and the winter-designed M+S light-trailer transition through 30 November 2028. Heavy-vehicle cases and exemptions remain separately scoped. Manuscript’s original 1 October check date is retained; these claims were rechecked on 5 October.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "tyre-basics",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+      "finding": "Confirms the 1.6 mm summer minimum, recommendation to fit the best-grip/deepest-tread tyres at the rear, and vehicle-instruction-based pressure checks.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "tyre-advice",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/",
+      "finding": "Supports adapting speed and distance to the actual surface and recognising that tyre/assistance equipment does not replace suitable driving. No additional comparative tyre claims or accident statistics are introduced.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "risk",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/",
+      "finding": "Confirms risk-training coverage of fatigue/risky behaviour and speed, safety and differing road/weather conditions, including skid training. The chapter directs practice to appropriate instruction rather than public-road experimentation.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "phone",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/",
+      "finding": "Confirms both the hand-held use prohibition and the separate restriction on communication activities that adversely affect driving. Hands-free or mounted equipment does not remove the attention requirement.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "planning",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/",
+      "finding": "Confirms starting rested, allowing time, adapting to conditions, keeping distance and taking regular breaks. No universal interval certifying fitness to continue is inferred.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "Chapters 2–4 §3 and chapters 4–5 support reflection, trip timing/route/passenger choices, fatigue, personal motives and group pressure. The chapter’s qualitative replanning exercise does not claim a numerical risk model.",
+      "status": "supports chapter use"
+    }
+  ]
+}

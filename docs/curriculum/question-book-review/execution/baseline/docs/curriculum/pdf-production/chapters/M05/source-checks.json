@@ -1,0 +1,60 @@
+{
+  "checked_on": "2026-10-05",
+  "method": "Opened seven chapter reference targets and inspected relevant passages, plus the official T6 and T18 descriptions for the approved illustrative parking assembly. Other individual sign captions/artwork reuse the verified register with hash/size checks; not a claim that every sign page was fetched again.",
+  "sources": [
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 2 §1 and chapter 3 §§15, 21, 45–55 and 58 support consideration, bus departures at limits up to 50 km/h, reversing, stopping/parking distances, unmarked bus-stop extent, vehicle security, doors and the weekday 24-hour/disc rules. Chapter 8 §§1–1a confirms special-street rules; chapter 10 §1 allows lawful local parking arrangements. Current provisions used; future amendments unrelated to this chapter are not applied.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "horses",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/hastar-i-trafiken/",
+      "finding": "Riding and leading horses are subject to vehicle provisions where applicable. The manuscript’s cautious passing advice remains a care principle, without inventing a fixed distance.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "special-streets",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/",
+      "finding": "Walking pace, pedestrian priority and pedestrian-street access exceptions confirmed. Cycle-street maximum 30 km/h, bicycle-traffic adaptation, designated parking and entry/exit yielding duties confirmed.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "parking",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/",
+      "finding": "Definition distinguishes parking from traffic/danger stops, boarding/alighting and goods loading/unloading; driver presence does not settle the classification.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "sign-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+      "finding": "T6 distinguishes ordinary weekday, preceding-day and holiday times, including named days. T7/T8 and T16–T19 supply permit, vehicle, fee, disc, duration and resident qualifications. Reference panels remain independent examples.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "parking-permit",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/",
+      "finding": "Permit benefits are defined and limited; fees and reserved-purpose restrictions still require checking. No unrestricted stopping entitlement is inferred.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "Chapter 3 §3 supports critical reflection on driving behaviour; the chapter’s supervised observation exercise follows that purpose.",
+      "status": "supports chapter use"
+    },
+    {
+      "alias": "T6",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tidsangivelse/",
+      "finding": "Time qualifications can qualify other conditions. Black unbracketed 9–18 fits the ordinary-Tuesday assumption.",
+      "status": "supports illustrative parking assembly"
+    },
+    {
+      "alias": "T18",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tillaten-tid-for-parkering/",
+      "finding": "Maximum duration can be qualified by T6 times. The illustrative 2 tim / 9–18 plate is consistent with the approved example; arrival 10:00 reaches two hours at 12:00. No disc rounding or fee is introduced.",
+      "status": "supports illustrative parking assembly"
+    }
+  ]
+}

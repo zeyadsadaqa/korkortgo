@@ -1,0 +1,1242 @@
+{
+  "status": "passed",
+  "instances": 206,
+  "questions": [
+    {
+      "question_id": "reaction-20-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 2.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-20-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 5.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-20-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 8.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-30-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 4.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-30-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 8.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-30-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 12.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-40-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 5.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-40-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 11.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-40-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 16.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-50-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 6.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-50-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 13.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-50-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 20.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-60-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 8.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-60-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 16.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-60-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 25.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-70-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 9.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-70-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 19.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-70-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 29.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-80-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 11.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-80-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 22.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-80-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 33.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-90-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 12.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-90-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 25.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-90-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 37.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-100-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 13.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-100-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 27.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-100-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 41.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-110-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 15.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-110-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 30.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-110-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 45.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-120-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 16.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-120-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 33.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-120-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 50.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-130-0.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 18.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-130-1",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 36.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "reaction-130-1.5",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 54.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-20-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 4.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-20-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 7.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-20-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 13.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-30-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 8.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-30-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 12.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-30-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 21.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-40-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 12.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-40-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 18.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-40-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 30.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-50-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 17.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-50-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 25.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-50-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 40.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-60-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 23.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-60-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 32.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-60-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 50.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-70-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 30.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-70-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 40.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-70-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 61.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-80-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 37.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-80-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 49.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-80-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 73.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-90-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 45.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-90-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 59.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-90-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 86.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-100-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 55.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-100-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 70.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-100-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 100.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-110-0.5",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 64.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-110-1",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 81.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "stopping-110-2",
+      "method": "formula_supplied_by_question_not_book",
+      "expected_numeric_answer": 114.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-5-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 20.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-5-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 45.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-8-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 32.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-8-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 72.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-10-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 40.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-10-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 90.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-12-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 48.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-12-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 108.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-15-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 60.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-15-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 135.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-18-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 72.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-18-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 162.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-20-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 80.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-20-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 180.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-25-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 100.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-25-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 225.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-30-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 120.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-30-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 270.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-35-2",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 140.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "braking-35-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 315.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-30-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 25.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-30-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 33.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-40-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 33.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-40-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 44.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-50-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 41.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-50-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 55.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-60-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 50.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-60-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 66.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-70-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 58.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-70-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 77.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-80-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 66.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-80-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 88.9,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-90-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 75.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-90-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 100.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-100-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 83.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-100-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 111.1,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-110-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 91.7,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-110-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 122.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-120-3",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 100.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "gap-120-4",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 133.3,
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-8-7",
+      "method": "next half-hour",
+      "expected_answer": "08:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-8-24",
+      "method": "next half-hour",
+      "expected_answer": "08:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-8-43",
+      "method": "next half-hour",
+      "expected_answer": "09:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-9-7",
+      "method": "next half-hour",
+      "expected_answer": "09:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-9-24",
+      "method": "next half-hour",
+      "expected_answer": "09:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-9-43",
+      "method": "next half-hour",
+      "expected_answer": "10:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-10-7",
+      "method": "next half-hour",
+      "expected_answer": "10:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-10-24",
+      "method": "next half-hour",
+      "expected_answer": "10:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-10-43",
+      "method": "next half-hour",
+      "expected_answer": "11:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-11-7",
+      "method": "next half-hour",
+      "expected_answer": "11:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-11-24",
+      "method": "next half-hour",
+      "expected_answer": "11:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-11-43",
+      "method": "next half-hour",
+      "expected_answer": "12:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-12-7",
+      "method": "next half-hour",
+      "expected_answer": "12:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-12-24",
+      "method": "next half-hour",
+      "expected_answer": "12:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-12-43",
+      "method": "next half-hour",
+      "expected_answer": "13:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-13-7",
+      "method": "next half-hour",
+      "expected_answer": "13:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-13-24",
+      "method": "next half-hour",
+      "expected_answer": "13:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-13-43",
+      "method": "next half-hour",
+      "expected_answer": "14:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-14-7",
+      "method": "next half-hour",
+      "expected_answer": "14:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-14-24",
+      "method": "next half-hour",
+      "expected_answer": "14:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-14-43",
+      "method": "next half-hour",
+      "expected_answer": "15:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-15-7",
+      "method": "next half-hour",
+      "expected_answer": "15:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-15-24",
+      "method": "next half-hour",
+      "expected_answer": "15:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-15-43",
+      "method": "next half-hour",
+      "expected_answer": "16:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-16-7",
+      "method": "next half-hour",
+      "expected_answer": "16:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-16-24",
+      "method": "next half-hour",
+      "expected_answer": "16:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-16-43",
+      "method": "next half-hour",
+      "expected_answer": "17:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-17-7",
+      "method": "next half-hour",
+      "expected_answer": "17:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-17-24",
+      "method": "next half-hour",
+      "expected_answer": "17:30",
+      "status": "passed"
+    },
+    {
+      "question_id": "disc-17-43",
+      "method": "next half-hour",
+      "expected_answer": "18:00",
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1200-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1200-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1200-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1350-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1350-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1350-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1500-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1500-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1500-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1650-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1650-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1650-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1800-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1800-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1800-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1950-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1950-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-1950-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2100-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2100-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2100-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2250-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2250-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2250-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2400-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2400-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2400-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2550-350",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 350.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2550-450",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 450.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "load-2550-550",
+      "method": "application_of_book_calculation",
+      "expected_numeric_answer": 550.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-40-5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-40-6",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-40-7",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-40-8",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-60-5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-60-6",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-60-7",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-60-8",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-80-5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-80-6",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-80-7",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 5.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-80-8",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 6.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-100-5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 5.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-100-6",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 6.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-100-7",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 7.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-100-8",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 8.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-120-5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 6.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-120-6",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 7.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-120-7",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 8.4,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-120-8",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 9.6,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-100-0.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 0.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-100-1",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-100-1.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-100-2",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-150-0.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 0.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-150-1",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-150-1.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-150-2",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-200-0.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-200-1",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-200-1.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-200-2",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-250-0.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.2,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-250-1",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 2.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-250-1.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.8,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-250-2",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 5.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-300-0.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 1.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-300-1",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 3.0,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-300-1.5",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 4.5,
+      "status": "passed"
+    },
+    {
+      "question_id": "fuel-saving-300-2",
+      "method": "ordinary_proportional_arithmetic",
+      "expected_numeric_answer": 6.0,
+      "status": "passed"
+    }
+  ]
+}

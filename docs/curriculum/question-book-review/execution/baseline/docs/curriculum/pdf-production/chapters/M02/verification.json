@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "pages": 15,
+  "complete_lessons": 4,
+  "module_reviews": 1,
+  "manuscript_blocks_preserved": 38,
+  "illustrations": 6,
+  "image_actualtext_descriptions": 6,
+  "official_signs_required": 0,
+  "official_reference_urls": 11,
+  "valid_internal_links": 34,
+  "named_destinations": 16,
+  "embedded_fonts": [
+    "/AAAAAA+SourceSans3-Regular",
+    "/AAAAAA+SourceSans3-Semibold",
+    "/AAAAAA+SourceSerif4-Bold",
+    "/AAAAAA+SourceSerif4-Semibold"
+  ],
+  "answers_non_facing": true,
+  "sha256": "db70b8e6c6d8aecde3b98416dc36a78a733385864c20593a51265ae414006dd5",
+  "reproducible": true,
+  "visual_review": "15 pages inspected; review.md",
+  "release_limits": [
+    "Screen-review image resolution; print masters remain separate",
+    "Full tagged-PDF accessibility and final navigation/pagination checked in 6M–6N"
+  ]
+}

@@ -37,3 +37,8 @@ pdftoppm -scale-to 1600 -png docs/curriculum/pdf-production/chapters/M03/chapter
 Use the pinned shared dependencies/fonts in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; change authoritative teaching text in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-03.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved scene masters remain necessary for print publication. Final global folios/navigation, appendix integration and complete tagged-PDF accessibility are later assembly/release work in 6M–6N. This step does not approve publication or start 6E.
+
+
+## G3 review — 12 October 2026
+
+52 rendered pages inspected in contact sheets. Full-size checks: pages 44, 45, 49, 51 and 52. No clipping, overlap, broken symbols or URL overflow. All 100 official sign placements and existing scene assets unchanged. Answers remain separated. +2 pages meets G3 budget. [Completion](../../../question-book-review/execution/G3/completion.md).

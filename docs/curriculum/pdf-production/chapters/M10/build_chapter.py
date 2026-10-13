@@ -248,6 +248,8 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith(('**Worked decision.','**Worked reflection.')))
     for p in paras[1:paras.index(worked)]:
+        if p.startswith('**Overheating ·'):
+            b.end();b.start(key+'-overheating',key+' · Overheating');b.text('Keep the hot coolant cap closed','heading')
         if p.startswith('1. '):
             for item in p.splitlines():b.text(item)
         else:b.text(p)
@@ -299,7 +301,7 @@ def run():
     b.text('M10-R','source',6);b.text('**Review guide:** '+a);b.answers['M10-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),4):
         key='M10-references' if offset==0 else f'M10-references-{offset//4+1}';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 7 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
+        b.text('Original references checked 7 October 2026; G10 coolant and scene-safety passages checked 13 October 2026. Official sign artwork retained. Consult current guidance and the actual vehicle handbook.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
         if offset+4>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
@@ -326,6 +328,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M10':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif key.endswith('-overheating'):w.add_outline_item(b.page_labels[num],num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M10-answers','M10-references','M10-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['M10-R-conditions'] or any(key.endswith(suf) for suf in ['-scenario','-urgent','-rail','-works','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

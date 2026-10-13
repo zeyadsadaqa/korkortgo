@@ -31,3 +31,8 @@ pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/chapters/M09/chapter
 Use the dependencies in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; revise authoritative teaching content in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-09.pdf`.
 
 No chapter-specific screen-review blocker remains. Approved high-resolution scene masters remain print-release work. Global folios, final navigation and full tagged-PDF accessibility remain in 6M–6N; ActualText and captions alone do not certify accessibility. This step does not approve publication or start 6K.
+
+
+## G9 review — 13 October 2026
+
+All 27 rendered pages reviewed, with full-size checks on 3, 4, 7, 17, 22 and 24–27. C44 cross-link corrected to M07-L02 and page 17 rerendered/reviewed. No clipping, overlap, broken symbols or URL overflow; comparison table and CO₂ readable. 10 signs, four approved scenes and one E31-2 insert retained. +5 pages meets budget; all answers on separated p.22. [Completion](../../../question-book-review/execution/G9/completion.md).

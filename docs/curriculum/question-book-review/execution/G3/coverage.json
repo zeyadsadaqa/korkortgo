@@ -1,0 +1,128 @@
+{
+  "step": "G3",
+  "checked_on": "2026-10-12",
+  "page_number_scope": "One-based local Chapter 3 pages; final book pages pending assembly.",
+  "chapter_pages": 52,
+  "baseline_pages": 50,
+  "added_pages": 2,
+  "questions_resolved": 3,
+  "questions": [
+    {
+      "question_id": "situation-106",
+      "question_prompt": "How do you use the three-second following-distance guideline?",
+      "keyed_answer": "Count the time between the car ahead and your car passing the same fixed point.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        44
+      ],
+      "primary_local_page": 44,
+      "comprehension_check_local_page": 46,
+      "answer_local_page": 49,
+      "teaching_excerpt": "select a fixed roadside point, such as a pole or sign. When the rear of the vehicle ahead passes it, start counting at a steady seconds pace. Stop when the front of your car reaches the same point. Arriving before three seconds indicates a short gap against that guideline: ease back smoothly and check again. Three seconds is a guideline, not a statutory fixed interval or a guarantee; poor grip, visibility or other hazards require more space and an appropriate speed. Keep observing the road while counting. NSW Government: fixed-point following-gap method Fixed-point example. The car ahead passes a sign. You count “one thousand and one, one thousand and two, one thousand and three”. If your car reaches the sign while you are still on “two”, increase the gap smoothly. At a hypothetical constant 60 km/h, three seconds represents 60 ÷ 3.6 × 3 = 50 metres. A timed gap therefore represents more",
+      "coverage_reasoning": "Explains the fixed-point/rear-to-front counting method, a three-second guideline, smooth gap adjustment and conditions requiring more space.",
+      "claim_ids": [
+        "situation-106-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "following-gap",
+          "publisher": "Transport for NSW / NSW Government (Australia)",
+          "url": "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance",
+          "locator": "Working out your crash avoidance space, steps 1–3; video transcript general-rule explanation",
+          "retrieval_method": "Direct primary page retrieved and inspected"
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        84
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 84,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-107",
+      "question_prompt": "A car follows you too closely. How can you reduce the risk?",
+      "keyed_answer": "Increase your gap to the vehicle ahead and avoid sudden braking.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        45
+      ],
+      "primary_local_page": 45,
+      "comprehension_check_local_page": 46,
+      "answer_local_page": 49,
+      "teaching_excerpt": "Increase your gap to the vehicle ahead gradually, allowing you to ease off and brake more gently if traffic slows. This gives the following driver more time to respond. Do not brake sharply to warn or punish them, or accelerate into an unsafe speed. If an emergency requires braking, brake as necessary; this advice does not mean withholding it. Northern Ireland government: tailgater response Tailgater example. Maya has a close follower and sees brake lights farther ahead. She eases off early to create room in front and slows progressively. She cannot control the follower, but she can reduce the need for a sudden stop. Physical explanation · Twice the speed. With the same effective grip and braking deceleration on the same gradient, braking distance is approximately proportional to speed squared: 2 × speed → 4 × braking distance. In a constant-deceleration model, distance = speed² ÷ (2 × d",
+      "coverage_reasoning": "Teaches increasing forward space so slowing/braking can be gentler; tailgater example and emergency-braking boundary included.",
+      "claim_ids": [
+        "situation-107-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "vehicle-faults",
+          "publisher": "Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government",
+          "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+          "locator": "Printed/PDF p.83: Tailgating (zero-based PDF index 82)",
+          "retrieval_method": "Direct primary PDF retrieved and inspected"
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        85
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-138",
+      "question_prompt": "With otherwise identical grip and braking, what happens to braking distance when speed doubles?",
+      "keyed_answer": "It becomes approximately four times as long.",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        45
+      ],
+      "primary_local_page": 45,
+      "comprehension_check_local_page": 46,
+      "answer_local_page": 49,
+      "teaching_excerpt": "braking distance is approximately proportional to speed squared: 2 × speed → 4 × braking distance. In a constant-deceleration model, distance = speed² ÷ (2 × deceleration), with speed in metres per second. Doubling speed multiplies the numerator by four. Real conditions and brake response can change; this is a comparison under stated assumptions. Trafikverket: VGU braking-distance equation Hypothetical comparison. Assume a level road, unchanged vehicle/load/grip, constant braking deceleration of 5 m/s² and a one-second response delay. At 40 km/h, braking distance is about 12.3 m and reaction distance 11.1 m. At 80 km/h they are 49.4 m and 22.2 m: braking quadruples while reaction distance doubles. Total stopping distances are about 23.5 m and 71.6 m, so the total does not quadruple. These invented model conditions explain the relationship; they are not predicted stopping distances for yo",
+      "coverage_reasoning": "Explains 2× speed → 4× braking distance under identical deceleration assumptions; reaction distance and total stopping distance are explicitly distinguished and arithmetic checked.",
+      "claim_ids": [
+        "situation-138-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "braking-model",
+          "publisher": "Trafikverket",
+          "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+          "locator": "Printed p.9(58): braking-distance equation and variable definitions",
+          "retrieval_method": "Complete indexed primary-PDF equation passage retrieved through search. Direct PDF opens timed out; no local source download or checksum claimed."
+        }
+      ],
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        85
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    }
+  ]
+}

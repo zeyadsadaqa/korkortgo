@@ -1,0 +1,144 @@
+{
+  "checked_on": "2026-10-13",
+  "new_references": [
+    "vision-zero",
+    "drowsy-driving",
+    "microsleep",
+    "stimulant-confidence",
+    "stimulant-fatigue",
+    "brake-circuits",
+    "brake-inspection",
+    "vehicle-faults",
+    "temporary-spare",
+    "abs-driving",
+    "abs-feedback",
+    "crumple-zones",
+    "fuse-protection",
+    "following-gap",
+    "braking-model",
+    "left-turn-wheels",
+    "guide-dog",
+    "bicycle-definition",
+    "speed-adaptation",
+    "rural-turn-alternative",
+    "wildlife-habitat",
+    "lights-combinations",
+    "vision-roles",
+    "lamp-defects",
+    "bridge-cooling",
+    "ice-risk",
+    "first-rain",
+    "handling",
+    "front-grip",
+    "wet-driving",
+    "light-lorry",
+    "towball-physics",
+    "inspection-ban",
+    "vehicle-inspection-law",
+    "off-road-inspection",
+    "fossil-carbon",
+    "climate-effect",
+    "catalyst-warmup",
+    "road-air",
+    "electric-types",
+    "heater-timer",
+    "cooling-safety",
+    "manual-eco",
+    "carried-mass",
+    "wash-water",
+    "studs-local",
+    "studs-sign",
+    "hot-coolant"
+  ],
+  "manufacturer_references": [
+    "temporary-spare",
+    "abs-feedback",
+    "hot-coolant"
+  ],
+  "later_check_references": [
+    "wildlife",
+    "load-advice",
+    "breakdown",
+    "tunnel",
+    "traffic-law",
+    "tyre-basics"
+  ],
+  "glossary_additions": [
+    {
+      "term": "Nollvisionen",
+      "meaning": "Vision Zero: no one killed or seriously injured in road traffic.",
+      "lesson": "M01-L03"
+    },
+    {
+      "term": "Mikrosömn",
+      "meaning": "A brief involuntary sleep episode; do not treat alertness tricks as a cure.",
+      "lesson": "M01-L02"
+    },
+    {
+      "term": "Tillfälligt reservhjul",
+      "meaning": "Temporary spare wheel, used only within the actual vehicle handbook limits.",
+      "lesson": "M02-L01"
+    },
+    {
+      "term": "Säkring",
+      "meaning": "Electrical fuse protecting its circuit from excessive current.",
+      "lesson": "M02-L01"
+    },
+    {
+      "term": "Deformationszon",
+      "meaning": "Vehicle structure designed to deform and manage crash energy.",
+      "lesson": "M02-L03"
+    },
+    {
+      "term": "Understyrning / överstyrning",
+      "meaning": "Front-grip loss can widen the turn; rear-grip loss can make the rear step outward.",
+      "lesson": "M07-L02"
+    },
+    {
+      "term": "Vattenplaning",
+      "meaning": "Water separates tyre contact from the road, reducing grip/control.",
+      "lesson": "M07-L02"
+    },
+    {
+      "term": "Kultryck",
+      "meaning": "Downward load at the trailer coupling, distinct from whole trailer weight.",
+      "lesson": "M08-L02"
+    },
+    {
+      "term": "Lätt lastbil",
+      "meaning": "Lorry with registered total weight at most 3,500 kg.",
+      "lesson": "M08-L01"
+    },
+    {
+      "term": "Inträtt körförbud",
+      "meaning": "Automatic driving prohibition after a missed inspection deadline; restricted trips apply.",
+      "lesson": "M08-L03"
+    },
+    {
+      "term": "Kolmonoxid / koldioxid",
+      "meaning": "CO impairs blood oxygen transport; added fossil CO₂ contributes to warming.",
+      "lesson": "M09-L01"
+    },
+    {
+      "term": "Kväveoxider",
+      "meaning": "NOx: airway irritation, acidification and ground-level ozone formation.",
+      "lesson": "M09-L01"
+    },
+    {
+      "term": "Motorbromsning",
+      "meaning": "In a conventional manual car, slowing with accelerator released and suitable gear engaged.",
+      "lesson": "M09-L02"
+    },
+    {
+      "term": "Laddhybrid / elhybrid",
+      "meaning": "Plug-in hybrid externally rechargeable; conventional non-plug-in hybrid is not.",
+      "lesson": "M09-L01"
+    },
+    {
+      "term": "Kylvätska / kylarlock",
+      "meaning": "Coolant / cooling-system cap; a hot pressurised system can release scalding liquid or steam.",
+      "lesson": "M10-L01"
+    }
+  ],
+  "new_glossary_terms": 15
+}

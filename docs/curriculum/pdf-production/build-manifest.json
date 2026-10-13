@@ -1,8 +1,8 @@
 {
   "version": 1,
   "prepared": "2026-10-03",
-  "status": "6A_complete_screen_review",
-  "brand": "K\u00f6rkortGo",
+  "status": "G11_revised_assembly_verified_screen_review",
+  "brand": "KörkortGo",
   "page": {
     "format": "A4",
     "orientation": "portrait",
@@ -33,12 +33,13 @@
       ],
       "review": "M01-R",
       "production_step": "6B",
-      "status": "completed_screen_review",
+      "status": "G1_complete_screen_review",
       "pdf": "chapters/M01/chapter.pdf",
-      "pages": 15,
-      "verified_on": "2026-10-04",
-      "sha256": "df8d37f67711e263f2c1f9ebf63e589527749cf4a5b18374da0ba376b4192310",
-      "review_report": "chapters/M01/review.md"
+      "pages": 17,
+      "verified_on": "2026-10-12",
+      "sha256": "9b02ff107fdbfeac706d55b52da38db34065352809cb381623929b5db204e15d",
+      "review_report": "chapters/M01/review.md",
+      "gap_execution_report": "../question-book-review/execution/G1/completion.md"
     },
     {
       "id": "M02",
@@ -52,12 +53,13 @@
       ],
       "review": "M02-R",
       "production_step": "6C",
-      "status": "completed_screen_review",
+      "status": "G2_complete_screen_review",
       "pdf": "chapters/M02/chapter.pdf",
-      "pages": 15,
+      "pages": 19,
       "review_report": "chapters/M02/review.md",
-      "verified_on": "2026-10-04",
-      "sha256": "db70b8e6c6d8aecde3b98416dc36a78a733385864c20593a51265ae414006dd5"
+      "verified_on": "2026-10-12",
+      "sha256": "4659ff73f14eb62bb9dfd0866bff4a0f2186f3c3776ee3c6c16ae34906e7377c",
+      "gap_execution_report": "../question-book-review/execution/G2/completion.md"
     },
     {
       "id": "M03",
@@ -71,12 +73,13 @@
       ],
       "review": "M03-R",
       "production_step": "6D",
-      "status": "completed_screen_review",
+      "status": "G3_complete_screen_review",
       "pdf": "chapters/M03/chapter.pdf",
-      "pages": 50,
+      "pages": 52,
       "review_report": "chapters/M03/review.md",
-      "verified_on": "2026-10-04",
-      "sha256": "d2b6f4a25f679032fb2dcbf86ed3a971a175b7fcb892efc44f64dfca17c32988"
+      "verified_on": "2026-10-12",
+      "sha256": "b6bdc7cb3c5021f1ab8e9e4b24ede78caf4a9a4360bf9faedde146dde166ab0c",
+      "gap_execution_report": "../question-book-review/execution/G3/completion.md"
     },
     {
       "id": "M04",
@@ -90,12 +93,13 @@
       ],
       "review": "M04-R",
       "production_step": "6E",
-      "status": "completed_screen_review",
+      "status": "G4_complete_screen_review",
       "pdf": "chapters/M04/chapter.pdf",
-      "pages": 42,
+      "pages": 43,
       "review_report": "chapters/M04/review.md",
-      "verified_on": "2026-10-04",
-      "sha256": "88b3eba6b740ecbf4ff4c095a266f1691c5fd9871c6b12c837654c7f90da8caf"
+      "verified_on": "2026-10-13",
+      "sha256": "fe33089945c3164dd2eed1aa3f1cf640f2b307bd219c2ccee290d8ef2fba8cc4",
+      "gap_execution_report": "../question-book-review/execution/G4/completion.md"
     },
     {
       "id": "M05",
@@ -109,12 +113,13 @@
       ],
       "review": "M05-R",
       "production_step": "6F",
-      "status": "completed_screen_review",
+      "status": "G5_complete_screen_review",
       "pdf": "chapters/M05/chapter.pdf",
-      "pages": 44,
+      "pages": 45,
       "review_report": "chapters/M05/review.md",
-      "verified_on": "2026-10-05",
-      "sha256": "e747336980c95d75e4fa551f0a718bb474f7852c60bb15e01888ee51a87880fa"
+      "verified_on": "2026-10-13",
+      "sha256": "cf4e444407959dc6bfdaa2140e510b9a42b51699238c85b8c4e3624f6c838787",
+      "gap_execution_report": "../question-book-review/execution/G5/completion.md"
     },
     {
       "id": "M06",
@@ -128,12 +133,13 @@
       ],
       "review": "M06-R",
       "production_step": "6G",
-      "status": "completed_screen_review",
+      "status": "G6_complete_screen_review",
       "pdf": "chapters/M06/chapter.pdf",
-      "pages": 48,
+      "pages": 50,
       "review_report": "chapters/M06/review.md",
-      "verified_on": "2026-10-05",
-      "sha256": "a17331d7ea26fc32ac83a6362e72e7ed8a9472981599192b3538110f295000eb"
+      "verified_on": "2026-10-13",
+      "sha256": "f6379c6ccd3b52e5be465dd7459847c45ef7f6bf480d802f69cc6f0513a77e1b",
+      "gap_execution_report": "../question-book-review/execution/G6/completion.md"
     },
     {
       "id": "M07",
@@ -147,12 +153,13 @@
       ],
       "review": "M07-R",
       "production_step": "6H",
-      "status": "completed_screen_review",
+      "status": "G7_complete_screen_review",
       "pdf": "chapters/M07/chapter.pdf",
-      "pages": 23,
+      "pages": 27,
       "review_report": "chapters/M07/review.md",
-      "verified_on": "2026-10-05",
-      "sha256": "d6caf92b396698ed14b7cc82e7ebc1ddc01067050d2d9c4d4385d64208f72306"
+      "verified_on": "2026-10-13",
+      "sha256": "77100ebfaab970282ba4f3b47e93235e2c3fc9def8ddbbe88cbac2cf3d466170",
+      "gap_execution_report": "../question-book-review/execution/G7/completion.md"
     },
     {
       "id": "M08",
@@ -166,12 +173,13 @@
       ],
       "review": "M08-R",
       "production_step": "6I",
-      "status": "completed_screen_review",
+      "status": "G8_complete_screen_review",
       "pdf": "chapters/M08/chapter.pdf",
-      "pages": 29,
+      "pages": 31,
       "review_report": "chapters/M08/review.md",
-      "verified_on": "2026-10-07",
-      "sha256": "e36404ca7d511599f36fc571349e8b7a9c17c9f76a3f0385f04292ef340d6557"
+      "verified_on": "2026-10-13",
+      "sha256": "db49f1cfae1adc32dcc7859c880aba318646e6b6d1bbdb0a0030d8d782a10fa2",
+      "gap_execution_report": "../question-book-review/execution/G8/completion.md"
     },
     {
       "id": "M09",
@@ -185,12 +193,13 @@
       ],
       "review": "M09-R",
       "production_step": "6J",
-      "status": "completed_screen_review",
+      "status": "G9_complete_screen_review",
       "pdf": "chapters/M09/chapter.pdf",
-      "pages": 22,
+      "pages": 27,
       "review_report": "chapters/M09/review.md",
-      "verified_on": "2026-10-07",
-      "sha256": "5df476531df7c24b13a69e251d4b1daf48d6c9c14712772953fe81ec4f232b04"
+      "verified_on": "2026-10-13",
+      "sha256": "034dfa829005136a37b6cc9f2121c8d68fffc00fe8294bae6f2138d9130be16f",
+      "gap_execution_report": "../question-book-review/execution/G9/completion.md"
     },
     {
       "id": "M10",
@@ -204,12 +213,13 @@
       ],
       "review": "M10-R",
       "production_step": "6K",
-      "status": "completed_screen_review",
+      "status": "G10_complete_screen_review",
       "pdf": "chapters/M10/chapter.pdf",
-      "pages": 23,
+      "pages": 24,
       "review_report": "chapters/M10/review.md",
-      "verified_on": "2026-10-07",
-      "sha256": "e9fc6a1dce9d4bde6a8f9be009dc7edbd34a4fbe930f6e00a69c6cbc45b5f883"
+      "verified_on": "2026-10-13",
+      "sha256": "8a791506c0155fea1da50d48191d464a13b48029cb2a674fbba5367de61a2fbc",
+      "gap_execution_report": "../question-book-review/execution/G10/completion.md"
     }
   ],
   "appendices": [
@@ -229,7 +239,7 @@
     },
     {
       "id": "appendix-C",
-      "title": "A practical Swedish\u2013English glossary",
+      "title": "A practical Swedish–English glossary",
       "status": "completed_screen_review",
       "pdf": "reference-material.pdf",
       "production_step": "6L"
@@ -246,30 +256,35 @@
   "final_page_numbers": {
     "contents": 4,
     "M01": 5,
-    "M02": 20,
-    "M03": 35,
-    "M04": 85,
-    "M05": 127,
-    "M06": 171,
-    "M07": 219,
-    "M08": 242,
-    "M09": 271,
-    "M10": 293,
-    "appendix-A": 317,
-    "appendix-A-situations": 318,
-    "appendix-B": 319,
-    "appendix-B-study-1": 320,
-    "appendix-B-study-7": 321,
-    "appendix-C": 475,
-    "appendix-C-7": 476,
-    "appendix-C-13": 477,
-    "appendix-C-19": 478,
-    "appendix-D": 479,
-    "appendix-D-continued": 480,
-    "official-references": 481
+    "M02": 22,
+    "M03": 41,
+    "M04": 93,
+    "M05": 136,
+    "M06": 181,
+    "M07": 231,
+    "M08": 258,
+    "M09": 289,
+    "M10": 316,
+    "appendix-A": 341,
+    "appendix-A-situations": 342,
+    "appendix-B": 343,
+    "appendix-B-study-1": 344,
+    "appendix-B-study-7": 345,
+    "appendix-C": 499,
+    "appendix-C-7": 500,
+    "appendix-C-13": 501,
+    "appendix-C-19": 502,
+    "appendix-C-25": 503,
+    "appendix-C-31": 504,
+    "appendix-C-37": 505,
+    "appendix-D": 506,
+    "appendix-D-continued": 507,
+    "official-references": 508,
+    "manufacturer-references": 537,
+    "artwork-credits": 540
   },
   "input_sha256": {
-    "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
+    "manuscript.md": "42051786b97304109057f5045895b5965e8c8776ee0617695dc2e2fd3b3cf620",
     "pdf-design-spec.md": "a0d8fa1aa187e41415046af738a7cd2ba8c4a3bfc145fb71c8e062b17985c612",
     "pdf-design-review.md": "778a62e382a408e28baef3db5e97341a25a71fd7ff85a155480af140ba59f883",
     "sign-asset-manifest.json": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32",
@@ -279,25 +294,114 @@
     "pdf-design/gap-resolution/approval-record.json": "7fed12e2fce20a5b6eec87c84c9eb63a521bef020f074d451acb3f94bf54b18a"
   },
   "required_held_signs": [],
-  "updated": "2026-10-07",
+  "updated": "2026-10-13",
   "front_matter_pdf": "front-matter.pdf",
-  "chapter_execution": "6B\u20136M complete; 6N remains independently authorised",
+  "chapter_execution": "G0–G12 gap plan and coverage audit complete; publication/accessibility work separate",
   "reference_material": {
     "production_step": "6L",
-    "status": "completed_screen_review",
+    "status": "G11_complete_screen_review",
     "pdf": "reference-material.pdf",
-    "pages": 183,
+    "pages": 201,
     "review_report": "reference-material-review.md",
-    "verified_on": "2026-10-07",
-    "sha256": "7bdd9b4aa0991a42abda5b730c62bbafafdf01de927347b173b48f5bce2c8b80"
+    "verified_on": "2026-10-13",
+    "sha256": "c87612f82a7f31595c2b54e581e9c96a196aad13c3a5898b4846c4a08d26ae92"
   },
   "assembly": {
     "production_step": "6M",
-    "status": "completed_screen_review",
+    "status": "G11_complete_screen_review",
     "pdf": "korkortgo-curriculum-review.pdf",
-    "pages": 498,
+    "pages": 540,
     "review_report": "assembly/assembly-review.md",
-    "verified_on": "2026-10-07",
-    "sha256": "5007914b3b7f4d18472f283c3cd29efc302a6ab1cd7eb36190ea2984cf1a84b0"
+    "verified_on": "2026-10-13",
+    "sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+    "gap_execution_report": "../question-book-review/execution/assembly-completion.md"
+  },
+  "G1_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M01",
+    "added_pages": 2,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G2_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M02",
+    "added_pages": 4,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G3_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M03",
+    "added_pages": 2,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G4_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M04",
+    "added_pages": 1,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G5_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M05",
+    "added_pages": 1,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G6_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M06",
+    "added_pages": 2,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G7_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M07",
+    "added_pages": 4,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G8_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M08",
+    "added_pages": 2,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G9_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M09",
+    "added_pages": 5,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G10_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M10",
+    "added_pages": 1,
+    "assembly_status": "Included in G11 assembly; assigned question teaching verified in G12"
+  },
+  "G11_amendment": {
+    "date": "2026-10-13",
+    "pages": 540,
+    "added_pages": 42,
+    "chapter_additions": 24,
+    "glossary_additions": 3,
+    "central_reference_additions": 15,
+    "baseline_copy": "../question-book-review/execution/G11/baseline/korkortgo-curriculum-review-498-pages.pdf",
+    "verification": "assembly/verification.json",
+    "render_comparison": "assembly/render-comparison.json"
+  },
+  "G12_audit": {
+    "status": "complete",
+    "checked_on": "2026-10-13",
+    "report": "../question-book-review/execution/final-coverage-review.md",
+    "totals": {
+      "total": 1000,
+      "covered": 772,
+      "not_covered": 158,
+      "prompt_only": 70,
+      "not_answerable_from_book": 228
+    },
+    "targets_verified": 55,
+    "newly_covered": 75,
+    "regressions": 0,
+    "pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+    "publication_status": "Review edition; separate publication/accessibility/print work remains"
   }
 }

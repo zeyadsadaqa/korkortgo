@@ -30,9 +30,15 @@ For a lane change or significant sideways movement, signal clearly and in time, 
 
 **Learning approach.** Read the path through the turn, not just the point at which you steer. Check the mirror view and the areas it does not cover. Look for a cyclist alongside before turning across their route. Recheck the receiving road, crossings and queue space. If the information changes, pause the manoeuvre rather than completing the original plan automatically.
 
+**Safety advice · Wait with front wheels straight.** When stopped waiting to turn left across oncoming traffic, keep your front wheels pointing straight ahead. Your indicator communicates the intended turn; your wheels do not need to point along that intended route while you wait. If a vehicle hits you from behind, front wheels already turned left can direct the pushed car into oncoming traffic. Keeping them straight helps reduce that risk, but cannot guarantee protection in a collision. Begin steering into the turn only when there is a safe opportunity to make it. [New York DMV: waiting to turn left][left-turn-wheels]
+
+**Waiting is different from turning.** Follow the positioning, signalling and observation requirements above. The wheel-position advice does not create permission to enter or block a junction, ignore a signal, or obstruct someone else's path. Continue observing oncoming traffic, the receiving road, crossings and vehicles behind you while waiting. Recheck the full path before moving.
+
+**Practice example.** Sami is stopped in a suitable position, signalling left while oncoming cars pass. A passenger suggests turning the wheels left now to be ready. Sami keeps them straight: preparing the intention is different from starting the movement. Once the gap and receiving road permit a safe turn, he moves and steers into it. On rural roads, use M06-L01 to assess bends, crests and other risks before choosing a turning opportunity.
+
 **Worked decision.** A driver signals to move right while a cyclist is beside the vehicle. The driver waits. Signalling earlier would have helped communication, but it would never have removed the need to ensure the cyclist's safety.
 
-**Knowledge check.** Does a driver in the continuing lane have no responsibility when someone is merging? **Answer:** No. They must adapt speed to facilitate an observed entry; the joining driver must still make a safe movement.
+**Knowledge check.** (1) Does a driver in the continuing lane have no responsibility when someone is merging? (2) You are stopped waiting to turn left across oncoming traffic. Which way should the front wheels point, why, and when should you start steering into the turn? **Answer:** (1) No. They must adapt speed to facilitate an observed entry; the joining driver must still make a safe movement. (2) Keep the front wheels straight while waiting. Pre-turning them left can direct the car into oncoming traffic if it is struck from behind. Begin steering into the turn only when the movement can be made safely; a signal alone does not establish that opportunity.
 
 **Remember:** Communicate the plan, then confirm the space is still there.
 
@@ -85,6 +91,7 @@ Which conflict would be hardest to observe while also controlling the car? Recor
 
 [priority]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/
 [traffic-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
+[left-turn-wheels]: https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-5-intersections-and-turns
 [pedestrians]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/
 [wheelchairs]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/
 [cycles]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/

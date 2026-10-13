@@ -39,3 +39,8 @@ pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/chapters/M06/chapter
 Use the pinned dependencies/fonts in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; change authoritative teaching text in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-06.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved scene masters remain necessary for print publication. Global folios/navigation, appendix integration and complete tagged-PDF accessibility remain in 6M–6N. This step does not approve publication or start 6H.
+
+
+## G6 review — 13 October 2026
+
+All 50 rendered pages inspected in contact sheets; full-size checks on 11, 13, 25, 27, 48, 49 and 50. No clipping, overlap, broken symbols or URL overflow. 76 official sign bindings/sizes and 13 approved scenes preserved. +2 pages meets budget; two reference pages use five entries each with existing type sizes. Rural alternative is a conditional editorial inference with legal limits. [Completion](../../../question-book-review/execution/G6/completion.md).

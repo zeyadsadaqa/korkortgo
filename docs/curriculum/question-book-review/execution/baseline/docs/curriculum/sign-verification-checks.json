@@ -1,0 +1,153 @@
+{
+  "checked_on": "2026-10-03",
+  "status": "ready_for_next_stage",
+  "integrity_checks_passed": true,
+  "package_ready": true,
+  "scope": "Local package integrity, provenance, reuse linkage, captions and editorial placement reconciliation. Earlier visual/source review retained; no new full legal review, EPS re-render or PDF approval.",
+  "summary": {
+    "selected_codes": 263,
+    "source_pages": 498,
+    "original_files": 993,
+    "decoded_rasters": 498,
+    "decoded_eps_renders": 495,
+    "usable_catalogue_images": 494,
+    "held_catalogue_images": 4,
+    "selected_image_blockers": 0,
+    "optional_held_variants_excluded": 4,
+    "placement_bindings": 321,
+    "eligible_placement_bindings": 321,
+    "lesson_placements": 54,
+    "reference_groups": 24
+  },
+  "checks": [
+    {
+      "check": "selection_263_unique_matching_register",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "page_and_caption_ids_unique_and_complete",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "asset_ids_and_paths_unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "498_source_snapshots_and_reuse_evidence_hashes",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_asset_and_page_reuse_records_resolve",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "993_originals_498_rasters_495_renders_integrity",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "no_missing_or_unmanifested_asset_files",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "official_document_and_vector_extract_integrity",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "page_asset_caption_source_and_proof_relationships",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_usable_captions_have_editorial_labels_and_alt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "readable_captions_match_structured_content",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "upstream_hash_bindings_unchanged",
+      "passed": true,
+      "details": {
+        "source_register_sha256": true,
+        "asset_manifest": true,
+        "source_register": true,
+        "implementation-plan.md": true,
+        "manuscript.md": true,
+        "sign-selection.md": true,
+        "sign-asset-manifest.json": true,
+        "sign-captions.json": true,
+        "sign-sources.json": true,
+        "sign-reuse.md": true
+      }
+    },
+    {
+      "check": "all_passage_anchors_resolve",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_263_selected_have_one_primary_reference",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "current_holds_retained_in_map",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "placement_bindings_and_no_held_image_leakage",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "all_catalogue_dispositions_present",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "reuse_credit_disclaimer_and_pending_design_retained",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "duplicate_original_byte_groups": [
+    {
+      "sha256": "c0f6a02a4eda9bf65261c8c74a8eb7f36a8618a88e7479287bf8f965e062f9e0",
+      "asset_ids": [
+        "ASSET-5ae6ac27b1c8947d",
+        "ASSET-1df78663cfeba389"
+      ],
+      "page_codes": [
+        "C45-6",
+        "C45-7"
+      ],
+      "interpretation": "Identical bytes do not prove interchangeable sign meaning; retain each source/variant identity and all holds."
+    }
+  ],
+  "blocking_gaps": [],
+  "input_sha256": {
+    "implementation-plan.md": "41c908893a8976913f0c5b007919f9f937854f09a4c5c1fb373387cd4cc97047",
+    "sign-selection.md": "904cc7bf466c708aaa917cb575b6634ffcd20efa77fa438288c8ff016668ebac",
+    "sign-sources.json": "f0b4501a72465f1f10773c5f64499ae904efc636fbd9ac0745531ab331905a83",
+    "sign-reuse.md": "62e639a9c6ec473926792d5ffd5ea7fa1063b5cafc26b63e28fdb55bc226f9fb",
+    "sign-asset-manifest.json": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32",
+    "sign-captions.json": "879fbdb4d42ec673c49bba191ddb8c3212ba9dc41b4401eabbc52a932b43545b",
+    "sign-captions.md": "e676580adf97713b6312e9f03f861dcb383c626f00b870ff53896b401f328426",
+    "sign-placement-map.json": "f445f5e4829b35e59a20a75fb0a436607ef6be1fdd6ffd53c1920520946d93d4",
+    "sign-placement-map.md": "2695ec644ab94e90f9c2b01cbb479bb09625b69aa04eb98aaf03e8ffdbddbf95",
+    "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd"
+  },
+  "verifier_sha256": "6434e474b2fd41fccee9fbb43bac7dde53aefe150f363733b29294e00bc1ace3"
+}

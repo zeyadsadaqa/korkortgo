@@ -1,0 +1,425 @@
+{
+  "status": "approved crops and exact official reference assets; screen review",
+  "assets": {
+    "M08-L01": {
+      "file": "M08-v2.png",
+      "box": [
+        29,
+        169,
+        827,
+        404
+      ],
+      "width_mm": 170,
+      "caption": "Hypothetical registered total weights: 2,200 kg + 1,500 kg = 3,700 kg. Check entitlement and technical limits separately. The pictured vehicle does not establish its capacity.",
+      "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc",
+      "alt_text": "Hypothetical registered total weights: 2,200 kg + 1,500 kg = 3,700 kg. Check entitlement and technical limits separately. The pictured vehicle does not establish its capacity.",
+      "print_ppi": 119.2
+    },
+    "M08-L02": {
+      "file": "M08-v2.png",
+      "box": [
+        843,
+        165,
+        1643,
+        399
+      ],
+      "width_mm": 170,
+      "caption": "Hypothetical loading calculation: 400 kg ready weight + 500 kg cargo = 900 kg actual weight. Example towing limit: 800 kg. The goods are beside the trailer for planning; this is not a secured-load demonstration.",
+      "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc",
+      "alt_text": "Hypothetical loading calculation: 400 kg ready weight + 500 kg cargo = 900 kg actual weight. Example towing limit: 800 kg. The goods are beside the trailer for planning; this is not a secured-load demonstration.",
+      "print_ppi": 119.5
+    },
+    "M08-L04": {
+      "file": "M08-v2.png",
+      "box": [
+        29,
+        545,
+        827,
+        887
+      ],
+      "width_mm": 170,
+      "caption": "The driver follows the temporary road path and remains responsible for control. The left marker bands slope down towards the road; the right markers slope down the opposite way. Official X3 artwork: Transportstyrelsen. Simplified scene, not to scale.",
+      "overlays": [
+        {
+          "code": "X3-2",
+          "rect": [
+            115,
+            685,
+            134,
+            758
+          ],
+          "side": "left",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            198,
+            683,
+            209,
+            734
+          ],
+          "side": "left",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            243,
+            683,
+            249,
+            716
+          ],
+          "side": "left",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            489,
+            682,
+            495,
+            715
+          ],
+          "side": "right",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            507,
+            685,
+            516,
+            725
+          ],
+          "side": "right",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            536,
+            689,
+            548,
+            741
+          ],
+          "side": "right",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            617,
+            704,
+            641,
+            793
+          ],
+          "side": "right",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        },
+        {
+          "code": "X3-2",
+          "rect": [
+            763,
+            706,
+            798,
+            841
+          ],
+          "side": "right",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c2857bd55d18ec90.png",
+            "source_asset_id": "ASSET-c2857bd55d18ec90",
+            "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+            "max_size_mm_at_300ppi": [
+              204.0,
+              296.8
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/andra-anordningar-for-anvisningar-for-trafiken/markeringsskarm-for-sidohinder-farthinder-mm/markeringsskarm-for-sidohinder-farthinder/"
+        }
+      ],
+      "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc",
+      "alt_text": "The driver follows the temporary road path and remains responsible for control. The left marker bands slope down towards the road; the right markers slope down the opposite way. Official X3 artwork: Transportstyrelsen. Simplified scene, not to scale.",
+      "print_ppi": 119.2
+    },
+    "M08-R": {
+      "file": "M08-v2.png",
+      "box": [
+        843,
+        542,
+        1640,
+        756
+      ],
+      "width_mm": 170,
+      "caption": "A borrowed car and trailer await loading. Establish the missing figures and documents before deciding to drive. The drawing supplies no verified weight, entitlement or towing capacity.",
+      "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc",
+      "alt_text": "A borrowed car and trailer await loading. Establish the missing figures and documents before deciding to drive. The drawing supplies no verified weight, entitlement or towing capacity.",
+      "print_ppi": 119.1
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP048",
+      "code": "C20",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-4fac27ebdc31304d.png",
+      "sha256": "726b8a7dbfb9f1c50cbb16140b05fff5f0ac4b96bd97e69ff8975b3e9421d0de",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "C21",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-873bd1870ca65919.png",
+      "sha256": "544cb1c09e2d641bbeb80adb42b74be42f5d9b6b2c41e8b10eb8c71bbe62564d",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "C23",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-3b1ff2f9e1450aa3.png",
+      "sha256": "96932e93e5be1d8faf23c87abb92897fab2311b43e9731592bf046d425ee5df1",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "C24",
+      "page": 7,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-67d09784a936df27.png",
+      "sha256": "98fac0c401319a18bac5a1b64cd9745aaccf4ec6915937f110d451a665664051",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "C46",
+      "page": 7,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-64721d8febddab43.png",
+      "sha256": "10846ca157ad4e0e5352c4a90da8fbdb34602881eb2a97717668c63a6b8e61be",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "T5",
+      "page": 7,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-a8538d3656714f7e.png",
+      "sha256": "96786ba4a93433f279570724f4e2acbfcc335cda341f9574b422568772e8788a",
+      "width_mm": 70.0,
+      "height_mm": 33.179,
+      "vector": false
+    },
+    {
+      "group": "LP048",
+      "code": "S1",
+      "page": 8,
+      "path": "docs/curriculum/sign-assets/official-poster/S1-official-vector.pdf",
+      "sha256": "70a71fb014a4f553d276a6b12ed4d156d875035f64dc6ef390aab396b322b775",
+      "width_mm": 80.0,
+      "height_mm": 49.409,
+      "vector": true
+    },
+    {
+      "group": "LP048",
+      "code": "S2",
+      "page": 8,
+      "path": "docs/curriculum/sign-assets/official-poster/S2-official-vector.pdf",
+      "sha256": "9a0380ba0ee77e917ceebf52fccfc9dafd0eb17818373aa2bfb3eef14742f9c5",
+      "width_mm": 80.0,
+      "height_mm": 49.265,
+      "vector": true
+    },
+    {
+      "group": "LP048",
+      "code": "S9",
+      "page": 9,
+      "path": "docs/curriculum/sign-assets/official-poster/S9-official-vector.pdf",
+      "sha256": "d6c3aa59aa52f21a9f5da4e3a4f07eb9cc0cac4d956a616c9de8285ee52c93ae",
+      "width_mm": 80.0,
+      "height_mm": 49.315,
+      "vector": true
+    },
+    {
+      "group": "LP048",
+      "code": "S12",
+      "page": 9,
+      "path": "docs/curriculum/sign-assets/official-poster/S12-official-vector.pdf",
+      "sha256": "d4b6831a3c46b0e3413bd6e6a177d967a8dbb4259325b22dabd864eb0ae540e6",
+      "width_mm": 110.0,
+      "height_mm": 67.75,
+      "vector": true
+    },
+    {
+      "group": "LP049",
+      "code": "C16",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-aa0e6e721cfb7e38.png",
+      "sha256": "d3e6ff415403a67a5ab6037f31d4e97335bc10d797a60758f3e836eb65641a50",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP049",
+      "code": "C17",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-dddec8efc39e1788.png",
+      "sha256": "d2eefd7d2bb65459ee944c33b88c06c48210e03ffb4ee4adfc622ef5d7df31f3",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP049",
+      "code": "C18",
+      "page": 11,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-6cf10ca702a501ec.png",
+      "sha256": "745581e57e876bf346bc45d22ebd1e10139a314309c93e1d1a28a9d847bebef0",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP049",
+      "code": "T4",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/originals/72a4434d9b3b2c97-t4-1.png",
+      "sha256": "ba8ef3c5ac6b48b707d6043c0557d27abdbff6515eebc61c50ac00073483f67a",
+      "width_mm": 42.667,
+      "height_mm": 16.0,
+      "vector": false
+    },
+    {
+      "group": "LP049",
+      "code": "C22",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-743da904a0ea5a00.png",
+      "sha256": "943ef256884e627e1cd2d2d6c0448d0c55dd467f55a39573a8caa1609bbec010",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP049",
+      "code": "C22-2",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-1d31cca9fed33f1e.png",
+      "sha256": "b0b86b246bab427bebdf788e1d4d27d5ec0e944d6d8ac1eb554411b5afd2e611",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP050",
+      "code": "C6",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/cf07c6b7450fd85b-c6-1.png",
+      "sha256": "e582ed673869965dd4d548222366f0f840c7faf674058951f6eb87546155e1f2",
+      "width_mm": 28.9,
+      "height_mm": 28.985,
+      "vector": false
+    },
+    {
+      "group": "LP050",
+      "code": "S3",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/official-poster/S3-official-vector.pdf",
+      "sha256": "4dc583e99952a61d2e382e1249f12c0f1765ccd0f784d11825b3c16452609335",
+      "width_mm": 80.0,
+      "height_mm": 49.298,
+      "vector": true
+    },
+    {
+      "group": "LP050",
+      "code": "S4",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/official-poster/S4-official-vector.pdf",
+      "sha256": "b86fab65a7c147c9c964a8cb6cbe6d4e88824455a5e499456dc35905f063a681",
+      "width_mm": 80.0,
+      "height_mm": 49.35,
+      "vector": true
+    }
+  ],
+  "reference_cross_links": {},
+  "review_preview_reconciliation": "Approved M08-v2 scenes retained. M08-L03 remains a text checklist. Arithmetic and review prompts are selectable text; eight marker faces use the matching member of exact official X3-2 artwork."
+}

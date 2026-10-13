@@ -161,7 +161,11 @@ class Production(Chapter):
         if flow.wrap(WIDTH,1000)[1]+space>self.y-30*mm:
             self.end();self.cont+=1;self.start(f'{self.section}-continued-{self.cont}',self.section+' · Continued');self.text('Continue the learning','subheading')
         self.add(flow,space)
-    def text(self,text,style='body',space=12):self.ensure(para(text,style),space)
+    def text(self,text,style='body',space=12):
+        if text.startswith('|'):
+            rows=[[c.strip() for c in line.strip('|').split('|')] for line in text.splitlines() if not line.startswith('|---')]
+            self.ensure(reference_table(rows,[WIDTH*.28,WIDTH*.72]),space)
+        else:self.ensure(para(text,style),space)
     def art(self,key):
         flow=Scene(key);cap=para(ART[key]['caption'],'caption')
         if flow.height+cap.wrap(WIDTH,1000)[1]+25>self.y-30*mm:
@@ -212,6 +216,9 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     for p in paras[1:paras.index(worked)]:
+        for marker,suffix,title in [('**Emissions explained ·','-emissions','Understand emissions'),('**Powertrain and washing ·','-powertrain','Compare powertrains and washing'),('**Practical energy choices ·','-energy','Use energy with control')]:
+            if p.startswith(marker):
+                b.end();b.start(key+suffix,key+' · '+title);b.text(title,'heading')
         b.text(p)
         for group in GROUPS:
             if group['location']['section_id']==key and group['location']['exact_quote']==p:b.signs(group)
@@ -239,12 +246,12 @@ def run():
     b.start('M09-answers','Answers and review guidance');b.text('Review after answering','heading')
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M09-R','source',6);b.text('**Review guide:** '+a);b.answers['M09-R']=b.page;b.end()
-    for offset in range(0,len(ALIASES),4):
-        key='M09-references' if offset==0 else f'M09-references-{offset//4+1}';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 7 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
-        for alias in ALIASES[offset:offset+4]:
+    for offset in range(0,len(ALIASES),5):
+        key='M09-references' if offset==0 else f'M09-references-{offset//5+1}';b.start(key,'Official references');b.text('Official references','heading')
+        b.text('Original references checked 7 October 2026; G9 additions checked 13 October 2026. Sign captions and artwork use the official asset register. Consult current guidance and applicable rules.','caption',18)
+        for alias in ALIASES[offset:offset+5]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
-        if offset+4>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
+        if offset+5>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
         b.end()
     b.c.save();r=PdfReader(OUT/'chapter.pdf');w=PdfWriter();w.clone_document_from_reader(r)
     from pypdf import Transformation
@@ -268,6 +275,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M09':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif any(key.endswith(suf) for suf in ['-emissions','-powertrain','-energy']):w.add_outline_item(b.page_labels[num],num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M09-answers','M09-references','M09-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['M09-R-conditions'] or any(key.endswith(suf) for suf in ['-scenario','-rail','-works','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

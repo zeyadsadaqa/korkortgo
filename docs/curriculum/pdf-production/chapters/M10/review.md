@@ -35,3 +35,8 @@ pdftoppm -scale-to 1400 -png docs/curriculum/pdf-production/chapters/M10/chapter
 Use the dependencies in [the build README](../../README.md). `chapter-source.md` is the generated editable snapshot; update authoritative teaching content in the manuscript and rebuild. `build_chapter.py` controls composition. The identical delivery copy is `output/pdf/korkortgo-chapter-10.pdf`.
 
 No chapter-specific screen-review blocker remains. Print-resolution scene masters, full tagged-PDF accessibility, global pagination and cross-chapter navigation remain later release work. This completes all ten individual chapter builds; it does not assemble or approve the finished book and does not start 6L.
+
+
+## G10 review — 13 October 2026
+
+All 24 rendered pages reviewed; full-size new teaching p.6, check p.9, answer p.21 and new reference p.22. No clipping, overlap, broken symbols or URL overflow. 10 signs, eight approved scenes and two exact inserts preserved. One new teaching page meets budget; references retain three pages. [Completion](../../../question-book-review/execution/G10/completion.md).

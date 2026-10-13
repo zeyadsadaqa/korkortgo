@@ -75,14 +75,20 @@ def run():
         q,a=check.split(' **Answer:** ',1);answers.append((key,a))
         remember=paras[-1];body=paras[1:paras.index(worked)]
         # Two pages per lesson keep scene + worked situation + check together.
-        b.start(key,key,next_page=(key+' scenario',key+'-scenario'))
+        b.start(key,key,next_page=('Sleep and safe judgement',key+'-sleep') if num==2 else (key+' scenario',key+'-scenario'))
         b.text(key,'source');b.text(s['title'],'heading');b.add(panel(goal),18)
-        first=body[:3] if num==1 else body
+        split_at=next((i for i,p in enumerate(body) if p.startswith('**Medical explanation · Sleep')),len(body))
+        first=body[:3] if num==1 else body[:split_at] if num==2 else body
         for p in first:
             if num==4 and p==body[0]:
                 b.text('Official advice · Trafikverket','source',6)
             b.text(p)
         b.end()
+        if num==2:
+            b.start(key+'-sleep',key+' · Sleep and safe judgement',next_page=(key+' scenario',key+'-scenario'))
+            b.text('Sleep and safe judgement','heading')
+            for p in body[split_at:]:b.text(p)
+            b.end()
         b.start(key+'-scenario',key+' · Worked decision',next_page=(f'M01-L{num+1:02d}' if num<4 else 'M01-R',f'M01-L{num+1:02d}' if num<4 else 'M01-R'))
         b.text('Apply the learning','subheading')
         if num==1:
@@ -107,7 +113,7 @@ def run():
     for offset in range(0,len(ALIASES),4):
         key='M01-references' if offset==0 else f'M01-references-{offset//4+1}'
         b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Official sources checked 4 October 2026. Always consult current official guidance and the applicable rules.','caption',18)
+        b.text('Original sources checked 4 October 2026; G1 additions checked 12 October 2026. Consult current official guidance and applicable rules.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             url=REFS[alias];b.text(LABELS[alias],'body',4)
             b.add(Paragraph(f'<link href="{escape(url)}" color="#173E32">{escape(url)}</link>',STYLES['source']),20)
@@ -122,6 +128,8 @@ def run():
         if key=='M01':continue
         if key.endswith('-scenario'):
             w.add_outline_item('Worked decision and knowledge check',num-1,parent=lesson_parents[key.removesuffix('-scenario')])
+        elif key.endswith('-sleep'):
+            w.add_outline_item('Sleep and safe judgement',num-1,parent=lesson_parents[key.removesuffix('-sleep')])
         elif key in SECTIONS:
             lesson_parents[key]=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
         elif key=='M01-reflection':w.add_outline_item('Reflection',num-1,parent=lesson_parents['M01-R'])

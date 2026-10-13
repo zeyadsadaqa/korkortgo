@@ -1,0 +1,1699 @@
+{
+  "step": "G9",
+  "checked_on": "2026-10-13",
+  "sources": [
+    {
+      "alias": "fossil-carbon",
+      "source_id": "G9-fossil-carbon",
+      "publisher": "Naturvårdsverket",
+      "title": "Kolets kretslopp rubbas",
+      "url": "https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/",
+      "version": "Reviewed 7 January 2025",
+      "locator": "Opening three paragraphs before Koldioxidutsläpp från biobränslen",
+      "excerpt": "När vi eldar upp bränslena förenas detta kol med syre",
+      "supports": "Fossil carbon originated millions of years ago; combustion combines carbon with oxygen, releasing CO2 into atmosphere.",
+      "fallback_reason": "TS climate page and TRV sustainability page establish climate consequences, but not the inspected exact long-stored-carbon mechanism. NV supplies only this missing mechanism.",
+      "scope_limits": "Qualitative teaching only; no dated statistics or percentage-saving promise imported.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "climate-effect",
+      "source_id": "G9-climate-effect",
+      "publisher": "Trafikverket",
+      "title": "Hastighet och hållbarhet",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+      "version": "Updated 31 March 2022",
+      "locator": "Paragraph starting Transporternas klimatpåverkan",
+      "excerpt": "förstärker den naturliga växthuseffekten",
+      "supports": "Fossil-fuel use raises atmospheric CO2 and strengthens natural greenhouse effect; temperature rises.",
+      "fallback_reason": null,
+      "scope_limits": "Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "catalyst-warmup",
+      "source_id": "G9-catalyst-warmup",
+      "publisher": "Transportstyrelsen",
+      "title": "Åtgärder mot manipulering av viss fordonsutrustning – avgasrening och vägmätare",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf",
+      "version": "27 June 2022, TSG 2021-3376",
+      "locator": "Så fungerar katalysatorer, printed/PDF page 24",
+      "excerpt": "Katalysatorn förutsätter att avgastemperaturen kommer upp till en given nivå",
+      "supports": "Temperature/light-off threshold; three-way petrol catalyst reduces CO/HC/NOx; conversion products include CO2/water.",
+      "fallback_reason": null,
+      "scope_limits": "Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "road-air",
+      "source_id": "G9-road-air",
+      "publisher": "Trafikverket",
+      "title": "Vägtrafikens luftföroreningar",
+      "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+      "version": "Reviewed 11 November 2021",
+      "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+      "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+      "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+      "fallback_reason": null,
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "electric-types",
+      "source_id": "G9-electric-types",
+      "publisher": "Trafikverket",
+      "title": "Elfordon – så funkar det",
+      "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+      "version": "Updated 19 April 2024",
+      "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+      "excerpt": "Elhybridfordon är inte laddbara från elnätet.",
+      "supports": "BEV only electric; plug-in hybrid externally rechargeable, non-plug-in not; mining/manufacturing batteries/vehicles and electricity generation affect climate.",
+      "fallback_reason": null,
+      "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "heater-timer",
+      "source_id": "G9-heater-timer",
+      "publisher": "Gagnefs kommun",
+      "title": "Energi- och klimatrådgivning",
+      "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/",
+      "version": "Updated 19 August 2026",
+      "locator": "Tänk efter vad du använder el till, motorvärmare bullet",
+      "excerpt": "Använd timer kopplar till motorvärmare och värm inte mer än nödvändigt",
+      "supports": "Timer limits unnecessary engine-heater electricity use.",
+      "fallback_reason": "TS/TRV timer searches and older Energimyndigheten nine-step lead did not give an accessible complete exact timer/energy teaching passage; current municipal advisory explicitly gives it.",
+      "scope_limits": "Installed electric engine heater used as instructed; no universal duration/temperature or promise heater has warmed catalyst. Scheduling before departure is educational application, not numerical prescription.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "cooling-safety",
+      "source_id": "G9-cooling-safety",
+      "publisher": "NZ Transport Agency Waka Kotahi",
+      "title": "Features that affect the environment",
+      "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+      "version": "Live official page; no editorial revision date shown",
+      "locator": "Air conditioning",
+      "excerpt": "keeping you comfortable and alert",
+      "supports": "AC increases fuel consumption but provides comfort/alertness and demisting safety benefits.",
+      "fallback_reason": "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed.",
+      "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "manual-eco",
+      "source_id": "G9-manual-eco",
+      "publisher": "UK Vehicle Certification Agency",
+      "title": "Fuel efficient driving tips",
+      "url": "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/",
+      "version": "Live government agency page; editorial revision date not shown",
+      "locator": "Change up at low revs; Less stopping on a journey means less CO2",
+      "excerpt": "as soon as your vehicle will comfortably take the next higher gear",
+      "supports": "Early higher-gear choice limited by comfortable running, load/gradient; accelerator released while remaining in gear when slowing.",
+      "fallback_reason": "TS/TRV and older energy guide give early-upshift/motorbrake recommendations; inspected agency results lack complete suitably-engaged-gear definition and comfortable-running limit. VCA supplies these missing technical details.",
+      "scope_limits": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "carried-mass",
+      "source_id": "G9-carried-mass",
+      "publisher": "Energimyndigheten / municipal Energi- och klimatrådgivningen",
+      "title": "Sparsam körning",
+      "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html",
+      "version": "Live advisory page; no editorial revision date shown",
+      "locator": "Fördelar med sparsam körning / advice list: Minimera vikten och luftmotståndet",
+      "excerpt": "Lasta ur allt du inte behöver",
+      "supports": "Minimise mass and drag; unload unneeded cargo; mount roof equipment only when required.",
+      "fallback_reason": "TS economical-driving page covers roof racks/boxes; exact unnecessary carried-mass instruction was missing from inspected TS/TRV results. Swedish public energy-advisory service supplies it.",
+      "scope_limits": "Remove unnecessary cargo, retain required safety/accessibility equipment; no numerical fuel saving, no universal heater times from this page imported.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "wash-water",
+      "source_id": "G9-wash-water",
+      "publisher": "Göteborgs Stad, Miljöförvaltningen",
+      "title": "Tvätta bilen rätt",
+      "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan",
+      "version": "Live municipal guidance; article revision date not shown (site-wide maintenance banner has its own unrelated date)",
+      "locator": "Opening; Så gör du rätt; Varför är det viktigt / För miljön",
+      "excerpt": "Där samlas och renas vattnet innan det släpps vidare.",
+      "supports": "Purpose-built automatic/self-service washes collect and treat dirty water; oil/metals/chemicals harm receiving waters; not all pollution eliminated.",
+      "fallback_reason": "TS/TRV car-washing searches did not give exact consumer wastewater-treatment instruction. Current municipal environmental authority guidance selected instead of older leaflet.",
+      "scope_limits": "Environmental choice, not invented nationwide blanket street-washing criminal rule. Local water-protection restrictions differ. Treatment does not guarantee zero pollution; use facility-compatible products.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "studs-local",
+      "source_id": "G9-studs-local",
+      "publisher": "Transportstyrelsen",
+      "title": "Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf",
+      "version": "16 August 2024, TSG 2023-7800",
+      "locator": "Printed/PDF page 13: paragraph after table 1; corroborated current Traffic Regulation chapter 10 §2",
+      "excerpt": "En kommun kan genom lokala trafikföreskrifter införa dubbdäcksförbud",
+      "supports": "Municipality may restrict studded vehicles on road/segment/area; current statutory paragraph confirms authority.",
+      "fallback_reason": null,
+      "scope_limits": "Use agency statement for authority; current statutory paragraph checked as corroboration only. No old fine, proposed date changes, historical municipal decision or particular street presented as currently operative.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    },
+    {
+      "alias": "studs-sign",
+      "source_id": "G9-studs-sign",
+      "publisher": "Transportstyrelsen",
+      "title": "C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/",
+      "version": "Updated 5 November 2024",
+      "locator": "Sign heading and supplementary-panel paragraph",
+      "excerpt": "Avser förbudet även moped klass II anges det på en tilläggstavla.",
+      "supports": "C44 denotes local studded-motor-vehicle restriction excluding moped class II unless supplement says otherwise.",
+      "fallback_reason": null,
+      "scope_limits": "Text cross-link to already taught official C44 in M07-L02; no new image/design/sign placement. Check actual STFS decision, dates, limits, exceptions and signs; national permitted tyre season does not override local restriction.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "situation-076-C01",
+      "question_id": "situation-076",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain stored fossil carbon → CO₂ → enhanced greenhouse effect.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-CLIMATE",
+        "R-CARBON"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "fossil-carbon",
+          "source_id": "G9-fossil-carbon",
+          "publisher": "Naturvårdsverket",
+          "title": "Kolets kretslopp rubbas",
+          "url": "https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/",
+          "version": "Reviewed 7 January 2025",
+          "locator": "Opening three paragraphs before Koldioxidutsläpp från biobränslen",
+          "excerpt": "När vi eldar upp bränslena förenas detta kol med syre",
+          "supports": "Fossil carbon originated millions of years ago; combustion combines carbon with oxygen, releasing CO2 into atmosphere.",
+          "fallback_reason": "TS climate page and TRV sustainability page establish climate consequences, but not the inspected exact long-stored-carbon mechanism. NV supplies only this missing mechanism.",
+          "scope_limits": "Qualitative teaching only; no dated statistics or percentage-saving promise imported.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        },
+        {
+          "alias": "climate-effect",
+          "source_id": "G9-climate-effect",
+          "publisher": "Trafikverket",
+          "title": "Hastighet och hållbarhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "version": "Updated 31 March 2022",
+          "locator": "Paragraph starting Transporternas klimatpåverkan",
+          "excerpt": "förstärker den naturliga växthuseffekten",
+          "supports": "Fossil-fuel use raises atmospheric CO2 and strengthens natural greenhouse effect; temperature rises.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS climate page and TRV sustainability page establish climate consequences, but not the inspected exact long-stored-carbon mechanism. NV supplies only this missing mechanism."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Qualitative teaching only; no dated statistics or percentage-saving promise imported. Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-077-C01",
+      "question_id": "situation-077",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain catalyst temperature and low cold-start effectiveness.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-CATALYST"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "catalyst-warmup",
+          "source_id": "G9-catalyst-warmup",
+          "publisher": "Transportstyrelsen",
+          "title": "Åtgärder mot manipulering av viss fordonsutrustning – avgasrening och vägmätare",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf",
+          "version": "27 June 2022, TSG 2021-3376",
+          "locator": "Så fungerar katalysatorer, printed/PDF page 24",
+          "excerpt": "Katalysatorn förutsätter att avgastemperaturen kommer upp till en given nivå",
+          "supports": "Temperature/light-off threshold; three-way petrol catalyst reduces CO/HC/NOx; conversion products include CO2/water.",
+          "fallback_reason": null,
+          "scope_limits": "Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        },
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law. Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-078-C01",
+      "question_id": "situation-078",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain pollutant conversion versus remaining fossil CO₂/climate impact.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-CATALYST",
+        "R-CLIMATE"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "climate-effect",
+          "source_id": "G9-climate-effect",
+          "publisher": "Trafikverket",
+          "title": "Hastighet och hållbarhet",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "version": "Updated 31 March 2022",
+          "locator": "Paragraph starting Transporternas klimatpåverkan",
+          "excerpt": "förstärker den naturliga växthuseffekten",
+          "supports": "Fossil-fuel use raises atmospheric CO2 and strengthens natural greenhouse effect; temperature rises.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        },
+        {
+          "alias": "catalyst-warmup",
+          "source_id": "G9-catalyst-warmup",
+          "publisher": "Transportstyrelsen",
+          "title": "Åtgärder mot manipulering av viss fordonsutrustning – avgasrening och vägmätare",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf",
+          "version": "27 June 2022, TSG 2021-3376",
+          "locator": "Så fungerar katalysatorer, printed/PDF page 24",
+          "excerpt": "Katalysatorn förutsätter att avgastemperaturen kommer upp till en given nivå",
+          "supports": "Temperature/light-off threshold; three-way petrol catalyst reduces CO/HC/NOx; conversion products include CO2/water.",
+          "fallback_reason": null,
+          "scope_limits": "Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied. Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-079-C01",
+      "question_id": "situation-079",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Explain an engine-heater timer reducing unnecessary electricity use.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "heater-timer",
+          "source_id": "G9-heater-timer",
+          "publisher": "Gagnefs kommun",
+          "title": "Energi- och klimatrådgivning",
+          "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/",
+          "version": "Updated 19 August 2026",
+          "locator": "Tänk efter vad du använder el till, motorvärmare bullet",
+          "excerpt": "Använd timer kopplar till motorvärmare och värm inte mer än nödvändigt",
+          "supports": "Timer limits unnecessary engine-heater electricity use.",
+          "fallback_reason": "TS/TRV timer searches and older Energimyndigheten nine-step lead did not give an accessible complete exact timer/energy teaching passage; current municipal advisory explicitly gives it.",
+          "scope_limits": "Installed electric engine heater used as instructed; no universal duration/temperature or promise heater has warmed catalyst. Scheduling before departure is educational application, not numerical prescription.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV timer searches and older Energimyndigheten nine-step lead did not give an accessible complete exact timer/energy teaching passage; current municipal advisory explicitly gives it."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Installed electric engine heater used as instructed; no universal duration/temperature or promise heater has warmed catalyst. Scheduling before departure is educational application, not numerical prescription.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-082-C01",
+      "question_id": "situation-082",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Unnecessary cooling consumes energy.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "publisher": "NZ Transport Agency Waka Kotahi",
+          "title": "Features that affect the environment",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "version": "Live official page; no editorial revision date shown",
+          "locator": "Air conditioning",
+          "excerpt": "keeping you comfortable and alert",
+          "supports": "AC increases fuel consumption but provides comfort/alertness and demisting safety benefits.",
+          "fallback_reason": "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed.",
+          "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-082-C02",
+      "question_id": "situation-082",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Air conditioning can support comfort/alertness.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "publisher": "NZ Transport Agency Waka Kotahi",
+          "title": "Features that affect the environment",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "version": "Live official page; no editorial revision date shown",
+          "locator": "Air conditioning",
+          "excerpt": "keeping you comfortable and alert",
+          "supports": "AC increases fuel consumption but provides comfort/alertness and demisting safety benefits.",
+          "fallback_reason": "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed.",
+          "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-082-C03",
+      "question_id": "situation-082",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Air conditioning can support clear windows.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "publisher": "NZ Transport Agency Waka Kotahi",
+          "title": "Features that affect the environment",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "version": "Live official page; no editorial revision date shown",
+          "locator": "Air conditioning",
+          "excerpt": "keeping you comfortable and alert",
+          "supports": "AC increases fuel consumption but provides comfort/alertness and demisting safety benefits.",
+          "fallback_reason": "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed.",
+          "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV AC searches yielded broad modelling/equipment context, not all three exact benefits/energy statements. NZTA directly states all three, so no DGT/manufacturer duplicate needed."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-083-C01",
+      "question_id": "situation-083",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain purpose-built washing with collected/treated wastewater.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-WASH"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "wash-water",
+          "source_id": "G9-wash-water",
+          "publisher": "Göteborgs Stad, Miljöförvaltningen",
+          "title": "Tvätta bilen rätt",
+          "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan",
+          "version": "Live municipal guidance; article revision date not shown (site-wide maintenance banner has its own unrelated date)",
+          "locator": "Opening; Så gör du rätt; Varför är det viktigt / För miljön",
+          "excerpt": "Där samlas och renas vattnet innan det släpps vidare.",
+          "supports": "Purpose-built automatic/self-service washes collect and treat dirty water; oil/metals/chemicals harm receiving waters; not all pollution eliminated.",
+          "fallback_reason": "TS/TRV car-washing searches did not give exact consumer wastewater-treatment instruction. Current municipal environmental authority guidance selected instead of older leaflet.",
+          "scope_limits": "Environmental choice, not invented nationwide blanket street-washing criminal rule. Local water-protection restrictions differ. Treatment does not guarantee zero pollution; use facility-compatible products.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV car-washing searches did not give exact consumer wastewater-treatment instruction. Current municipal environmental authority guidance selected instead of older leaflet."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Environmental choice, not invented nationwide blanket street-washing criminal rule. Local water-protection restrictions differ. Treatment does not guarantee zero pollution; use facility-compatible products.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-084-C01",
+      "question_id": "situation-084",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain carbon monoxide interfering with blood oxygen transport.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-085-C01",
+      "question_id": "situation-085",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Traffic NOx can irritate airways.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR",
+        "R-NOX"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-085-C02",
+      "question_id": "situation-085",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "NOx contributes to acidification.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR",
+        "R-NOX"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-085-C03",
+      "question_id": "situation-085",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "NOx contributes to ground-level ozone.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR",
+        "R-NOX"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-086-C01",
+      "question_id": "situation-086",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Explain traffic particles and respiratory harm.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-088-C01",
+      "question_id": "situation-088",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Explain a suitably high gear without labouring the engine in a conventional manual car.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "manual-eco",
+          "source_id": "G9-manual-eco",
+          "publisher": "UK Vehicle Certification Agency",
+          "title": "Fuel efficient driving tips",
+          "url": "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/",
+          "version": "Live government agency page; editorial revision date not shown",
+          "locator": "Change up at low revs; Less stopping on a journey means less CO2",
+          "excerpt": "as soon as your vehicle will comfortably take the next higher gear",
+          "supports": "Early higher-gear choice limited by comfortable running, load/gradient; accelerator released while remaining in gear when slowing.",
+          "fallback_reason": "TS/TRV and older energy guide give early-upshift/motorbrake recommendations; inspected agency results lack complete suitably-engaged-gear definition and comfortable-running limit. VCA supplies these missing technical details.",
+          "scope_limits": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV and older energy guide give early-upshift/motorbrake recommendations; inspected agency results lack complete suitably-engaged-gear definition and comfortable-running limit. VCA supplies these missing technical details."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-090-C01",
+      "question_id": "situation-090",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Define engine braking with accelerator released and a suitable gear engaged.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "manual-eco",
+          "source_id": "G9-manual-eco",
+          "publisher": "UK Vehicle Certification Agency",
+          "title": "Fuel efficient driving tips",
+          "url": "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/",
+          "version": "Live government agency page; editorial revision date not shown",
+          "locator": "Change up at low revs; Less stopping on a journey means less CO2",
+          "excerpt": "as soon as your vehicle will comfortably take the next higher gear",
+          "supports": "Early higher-gear choice limited by comfortable running, load/gradient; accelerator released while remaining in gear when slowing.",
+          "fallback_reason": "TS/TRV and older energy guide give early-upshift/motorbrake recommendations; inspected agency results lack complete suitably-engaged-gear definition and comfortable-running limit. VCA supplies these missing technical details.",
+          "scope_limits": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV and older energy guide give early-upshift/motorbrake recommendations; inspected agency results lack complete suitably-engaged-gear definition and comfortable-running limit. VCA supplies these missing technical details."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+      "answer_conflict": null,
+      "interpretation": "Engine braking definition describes official VCA in-gear accelerator-release deceleration; actual braking/fuel behaviour vehicle-dependent."
+    },
+    {
+      "claim_id": "situation-092-C01",
+      "question_id": "situation-092",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "An electric car has no tailpipe exhaust while driving.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "publisher": "Trafikverket",
+          "title": "Elfordon – så funkar det",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "version": "Updated 19 April 2024",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "excerpt": "Elhybridfordon är inte laddbara från elnätet.",
+          "supports": "BEV only electric; plug-in hybrid externally rechargeable, non-plug-in not; mining/manufacturing batteries/vehicles and electricity generation affect climate.",
+          "fallback_reason": null,
+          "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "answer_conflict": null,
+      "interpretation": "No combustion tailpipe exhaust is the direct explanatory inference from agency electricity-only BEV definition; not a claim of zero lifecycle or particle impacts."
+    },
+    {
+      "claim_id": "situation-092-C02",
+      "question_id": "situation-092",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Vehicle/battery production has environmental impacts.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "publisher": "Trafikverket",
+          "title": "Elfordon – så funkar det",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "version": "Updated 19 April 2024",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "excerpt": "Elhybridfordon är inte laddbara från elnätet.",
+          "supports": "BEV only electric; plug-in hybrid externally rechargeable, non-plug-in not; mining/manufacturing batteries/vehicles and electricity generation affect climate.",
+          "fallback_reason": null,
+          "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-092-C03",
+      "question_id": "situation-092",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Electricity supply has environmental impacts.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "publisher": "Trafikverket",
+          "title": "Elfordon – så funkar det",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "version": "Updated 19 April 2024",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "excerpt": "Elhybridfordon är inte laddbara från elnätet.",
+          "supports": "BEV only electric; plug-in hybrid externally rechargeable, non-plug-in not; mining/manufacturing batteries/vehicles and electricity generation affect climate.",
+          "fallback_reason": null,
+          "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-094-C01",
+      "question_id": "situation-094",
+      "chapter": "M09",
+      "lesson": "M09-L01",
+      "required_statement_to_verify": "Compare externally rechargeable plug-in hybrids with non-plug-in hybrids.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "publisher": "Trafikverket",
+          "title": "Elfordon – så funkar det",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "version": "Updated 19 April 2024",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "excerpt": "Elhybridfordon är inte laddbara från elnätet.",
+          "supports": "BEV only electric; plug-in hybrid externally rechargeable, non-plug-in not; mining/manufacturing batteries/vehicles and electricity generation affect climate.",
+          "fallback_reason": null,
+          "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-098-C01",
+      "question_id": "situation-098",
+      "chapter": "M09",
+      "lesson": "M09-L04",
+      "required_statement_to_verify": "Studded tyres cause road wear and airborne particles.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "road-air",
+          "source_id": "G9-road-air",
+          "publisher": "Trafikverket",
+          "title": "Vägtrafikens luftföroreningar",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "version": "Reviewed 11 November 2021",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "excerpt": "Kolmonoxid binds hårdare till blodets hemoglobin än vad syre gör",
+          "supports": "CO prevents oxygen transport; particles harm airways; NOx irritates mucous membranes and contributes to acidification; NOx+hydrocarbons+sunlight produce ground-level ozone; studs wear road and create breathable particles; cold emission controls less effective.",
+          "fallback_reason": null,
+          "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-098-C02",
+      "question_id": "situation-098",
+      "chapter": "M09",
+      "lesson": "M09-L04",
+      "required_statement_to_verify": "Local restrictions can address that pollution.",
+      "classification": "legal requirement",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "studs-local",
+          "source_id": "G9-studs-local",
+          "publisher": "Transportstyrelsen",
+          "title": "Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf",
+          "version": "16 August 2024, TSG 2023-7800",
+          "locator": "Printed/PDF page 13: paragraph after table 1; corroborated current Traffic Regulation chapter 10 §2",
+          "excerpt": "En kommun kan genom lokala trafikföreskrifter införa dubbdäcksförbud",
+          "supports": "Municipality may restrict studded vehicles on road/segment/area; current statutory paragraph confirms authority.",
+          "fallback_reason": null,
+          "scope_limits": "Use agency statement for authority; current statutory paragraph checked as corroboration only. No old fine, proposed date changes, historical municipal decision or particular street presented as currently operative.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        },
+        {
+          "alias": "studs-sign",
+          "source_id": "G9-studs-sign",
+          "publisher": "Transportstyrelsen",
+          "title": "C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/",
+          "version": "Updated 5 November 2024",
+          "locator": "Sign heading and supplementary-panel paragraph",
+          "excerpt": "Avser förbudet även moped klass II anges det på en tilläggstavla.",
+          "supports": "C44 denotes local studded-motor-vehicle restriction excluding moped class II unless supplement says otherwise.",
+          "fallback_reason": null,
+          "scope_limits": "Text cross-link to already taught official C44 in M07-L02; no new image/design/sign placement. Check actual STFS decision, dates, limits, exceptions and signs; national permitted tyre season does not override local restriction.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Use agency statement for authority; current statutory paragraph checked as corroboration only. No old fine, proposed date changes, historical municipal decision or particular street presented as currently operative. Text cross-link to already taught official C44 in M07-L02; no new image/design/sign placement. Check actual STFS decision, dates, limits, exceptions and signs; national permitted tyre season does not override local restriction.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-099-C01",
+      "question_id": "situation-099",
+      "chapter": "M09",
+      "lesson": "M09-L02",
+      "required_statement_to_verify": "Explain unnecessary carried mass and removing unneeded heavy equipment.",
+      "classification": "technical/environmental explanation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-ECO"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+            "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+            "site:trafikverket.se motorvärmare timer",
+            "site:trafikverket.se motorbromsa växel",
+            "site:transportstyrelsen.se luftkonditionering imma",
+            "site:trafikverket.se luftkonditionering komfort",
+            "site:trafikverket.se onödig vikt bränsle",
+            "site:transportstyrelsen.se tvätta bilen",
+            "site:trafikverket.se tvätta bilen",
+            "site:transportstyrelsen.se kol miljontals",
+            "site:transportstyrelsen.se dubbdäck lokala"
+          ],
+          "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "motorvärmare timer onödig el kommun energi klimatrådgivning",
+            "site:nzta.govt.nz air conditioning demist windows",
+            "site:gov.uk driving fuel high gear labour engine",
+            "site:goteborg.se tvätta bilen tvätthall"
+          ],
+          "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "carried-mass",
+          "source_id": "G9-carried-mass",
+          "publisher": "Energimyndigheten / municipal Energi- och klimatrådgivningen",
+          "title": "Sparsam körning",
+          "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html",
+          "version": "Live advisory page; no editorial revision date shown",
+          "locator": "Fördelar med sparsam körning / advice list: Minimera vikten och luftmotståndet",
+          "excerpt": "Lasta ur allt du inte behöver",
+          "supports": "Minimise mass and drag; unload unneeded cargo; mount roof equipment only when required.",
+          "fallback_reason": "TS economical-driving page covers roof racks/boxes; exact unnecessary carried-mass instruction was missing from inspected TS/TRV results. Swedish public energy-advisory service supplies it.",
+          "scope_limits": "Remove unnecessary cargo, retain required safety/accessibility equipment; no numerical fuel saving, no universal heater times from this page imported.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
+        }
+      ],
+      "fallback_justification": [
+        "TS economical-driving page covers roof racks/boxes; exact unnecessary carried-mass instruction was missing from inspected TS/TRV results. Swedish public energy-advisory service supplies it."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Remove unnecessary cargo, retain required safety/accessibility equipment; no numerical fuel saving, no universal heater times from this page imported.",
+      "answer_conflict": null
+    }
+  ],
+  "source_priority_searches": [
+    {
+      "publisher": "Transportstyrelsen/Trafikverket",
+      "queries": [
+        "site:transportstyrelsen.se katalysator kall motor kolmonoxid",
+        "site:trafikverket.se sparsam körning motorvärmare luftkonditionering växel motorbroms vikt",
+        "site:trafikverket.se motorvärmare timer",
+        "site:trafikverket.se motorbromsa växel",
+        "site:transportstyrelsen.se luftkonditionering imma",
+        "site:trafikverket.se luftkonditionering komfort",
+        "site:trafikverket.se onödig vikt bränsle",
+        "site:transportstyrelsen.se tvätta bilen",
+        "site:trafikverket.se tvätta bilen",
+        "site:transportstyrelsen.se kol miljontals",
+        "site:transportstyrelsen.se dubbdäck lokala"
+      ],
+      "finding": "Selected exact TS catalyst and local restriction passages, TRV air/health/climate and powertrain guidance. Timer/cooling/gear-operation limits/carried mass/wastewater/long-stored carbon needed documented official fallbacks. Indexed TRV chapter 4.5.1 gives early-upshift/release-gas recommendations; complete PDF not accessible, so not used as standalone complete technical evidence."
+    },
+    {
+      "publisher": "Official fallback leads",
+      "queries": [
+        "motorvärmare timer onödig el kommun energi klimatrådgivning",
+        "site:nzta.govt.nz air conditioning demist windows",
+        "site:gov.uk driving fuel high gear labour engine",
+        "site:goteborg.se tvätta bilen tvätthall"
+      ],
+      "finding": "Selected exact Gagnef, NZTA, VCA, Swedish public energy advisory, Göteborg and NV passages. Older energy leaflet lacks timer/detail and contains dated numerical examples; not used in book. DGT secondary manufacturer tips rejected in favour of exact NZTA agency guidance."
+    }
+  ],
+  "answer_conflicts": []
+}

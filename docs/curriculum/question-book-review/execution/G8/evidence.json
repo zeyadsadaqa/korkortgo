@@ -1,0 +1,382 @@
+{
+  "step": "G8",
+  "checked_on": "2026-10-13",
+  "sources": [
+    {
+      "alias": "light-lorry",
+      "source_id": "G8-light-lorry",
+      "publisher": "Transportstyrelsen",
+      "title": "Lastbil",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/",
+      "version": "Updated 31 October 2025",
+      "locator": "Opening definition and speed paragraph",
+      "excerpt": "Lätt lastbil får köra den hastighet som gäller för vägen.",
+      "supports": "Light lorry ≤3.5 tonnes total weight; heavy >3.5; heavy 90 on motorway/expressway without trailer, 80 on other roads or towing; light without trailer follows road maximum.",
+      "fallback_reason": null,
+      "scope_limits": "Light-lorry statement explicitly scoped to no trailer. Lower road limit still binds heavy lorry; towing light lorry needs M08-L02 combination check. No inference that light lorry towing may always use road maximum.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "traffic-law",
+      "source_id": "G8-traffic-law",
+      "publisher": "Swedish Government; published by Sveriges riksdag",
+      "title": "Traffic Regulation (1998:1276)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "version": "Existing current statutory source; safe-speed requirement corroborated by current Transportstyrelsen Hastighet page (8 May 2026)",
+      "locator": "Chapter 3 §14; corroboration: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hastighet/",
+      "excerpt": "behålla kontrollen över fordonet",
+      "supports": "Safe-speed adaptation depends on road/weather/visibility/load and foreseeable stopping distance.",
+      "fallback_reason": null,
+      "scope_limits": "Existing legal teaching reused; current exact agency safe-speed passage directly inspected, not whole statute re-audited during G8.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "load-advice",
+      "source_id": "G8-load-advice",
+      "publisher": "Trafikverket",
+      "title": "Lasta bilen säkert",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/",
+      "version": "Updated 15 June 2026",
+      "locator": "Tänk på att, towball-pressure bullet",
+      "excerpt": "Var noga med släpkärrans kultryck så att inte bilen eller kärran lyfter sig.",
+      "supports": "Incorrect coupling pressure can lift car/trailer and harm handling.",
+      "fallback_reason": null,
+      "scope_limits": "Agency safety background; does not state exact front-axle unloading/steering-grip mechanism or universal numeric towball limit.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "towball-physics",
+      "source_id": "G8-towball-physics",
+      "publisher": "Oregon Department of Transportation",
+      "title": "Towing a Trailer in Oregon — Being Equipped for Safety",
+      "url": "https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf",
+      "version": "Live agency-hosted 32-page brochure; publication date not printed in inspected text",
+      "locator": "If You Already Have a Tow Vehicle, printed page 6 / PDF page 8; definitions/ratings pp.4–6",
+      "excerpt": "the tow vehicle will be less responsive to steering",
+      "supports": "Downward tongue/hitch load defined; excessive load leaves too little weight on front wheels and reduces steering response. Follow actual vehicle/hitch ratings.",
+      "fallback_reason": "TS/TRV kultryck searches found lifting/handling cautions and calculator scope limits, not the complete front-wheel mechanism. Exact official ODOT brochure passage selected; manufacturer fallback unnecessary.",
+      "scope_limits": "Conventional rear towball/coupling load explanation, not fifth-wheel geometry. No US percentage, hitch modification recipe, numeric load limit, registration or towing law imported. Front unloading means reduced axle load, not necessarily wheels leaving the road.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "inspection-ban",
+      "source_id": "G8-inspection-ban",
+      "publisher": "Transportstyrelsen",
+      "title": "Besiktning av fordon",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+      "version": "Updated 8 October 2025",
+      "locator": "Opening owner responsibility; Vad händer om jag inte besiktar i tid? — Körförbud",
+      "excerpt": "Om du inte besiktar fordonet i tid, får du automatiskt körförbud",
+      "supports": "Automatic overdue-inspection prohibition, owner responsibility even without invitation, restricted trips for on/off-road vehicle; dangerous-condition prohibition distinct.",
+      "fallback_reason": null,
+      "scope_limits": "Inträtt körförbud due missed periodic deadline, not dangerous-condition meddelat körförbud. On-road: shortest suitable route to repair workshop/inspection; off-road and still banned: shortest suitable route to nearest inspection business. Does not grant general errands/commuting or waive other requirements.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "vehicle-inspection-law",
+      "source_id": "G8-vehicle-inspection-law",
+      "publisher": "Swedish Government; published by Sveriges riksdag",
+      "title": "Vehicle Regulation (2009:211)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+      "version": "Consolidated live text; chapter 6 §§15–21 checked 13 October 2026",
+      "locator": "Chapter 6 §15: first calendar month after missed inspection month; §21: prohibition until inspection performed; §§16–17: defects/result",
+      "excerpt": "Ett körförbud enligt 15 eller 16 § gäller till dess en kontrollbesiktning har genomförts.",
+      "supports": "Exact start/end of periodic-deadline ban; completed inspection rather than simply booking; follow new findings and any further prohibition/order.",
+      "fallback_reason": "TS page establishes ban and travel exceptions but does not state precise legal endpoint. Linked primary regulation supplies that missing detail; not an extra duplicate source for the TS-supported ban.",
+      "scope_limits": "Periodic inspection example only. Inspection being carried out ends §15 deadline ban; not a guarantee the result permits ordinary driving, since defects may create new ban/order. No implication a pass is always required merely to end the original deadline ban.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    },
+    {
+      "alias": "off-road-inspection",
+      "source_id": "G8-off-road-inspection",
+      "publisher": "Transportstyrelsen",
+      "title": "Ställa av ditt fordon",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+      "version": "Live page; checked 13 October 2026",
+      "locator": "Köra ett avställt fordon; opening: prohibition does not automatically create off-road status",
+      "excerpt": "Fordonet måste vara trafikförsäkrat och det får inte finnas några obetalda fordonsskatter.",
+      "supports": "General off-road inspection exception requires traffic insurance and no unpaid vehicle taxes; ban does not automatically deregister car.",
+      "fallback_reason": null,
+      "scope_limits": "General off-road rule allows shortest suitable route to/from nearest inspection; when an overdue ban also applies, the additional ban restriction is to nearest inspection. Return is not automatically allowed while that ban continues. This is an explicit intersection of the agency conditions.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "situation-136-C01",
+      "question_id": "situation-136",
+      "chapter": "M08",
+      "lesson": "M08-L01",
+      "required_statement_to_verify": "Explain the road-limit treatment of a light lorry without a trailer and safe speed adaptation.",
+      "classification": "legal requirement",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-LORRY"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se lätt lastbil hastighet 90 80",
+            "site:transportstyrelsen.se kultryck framhjul styrning",
+            "site:trafikverket.se kultryck framaxel",
+            "site:transportstyrelsen.se kultryck",
+            "site:trafikverket.se kultryck",
+            "site:transportstyrelsen.se körförbud inträder automatiskt besiktning kortaste lämpliga väg"
+          ],
+          "finding": "Exact lorry/ban rules found; coupling cautions found but complete unloading/steering mechanism missing in inspected agency results. ODOT official guide selected for exact mechanism."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "site:gov nose weight front steering",
+            "site:gov tongue weight front wheels steering",
+            "site:volvocars.com towball front wheels"
+          ],
+          "finding": "Exact physical passage located in ODOT brochure; no model-specific manufacturer claim needed. Vehicle Regulation linked directly from TS inspection page used only for exact deadline-ban endpoint."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "light-lorry",
+          "source_id": "G8-light-lorry",
+          "publisher": "Transportstyrelsen",
+          "title": "Lastbil",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/",
+          "version": "Updated 31 October 2025",
+          "locator": "Opening definition and speed paragraph",
+          "excerpt": "Lätt lastbil får köra den hastighet som gäller för vägen.",
+          "supports": "Light lorry ≤3.5 tonnes total weight; heavy >3.5; heavy 90 on motorway/expressway without trailer, 80 on other roads or towing; light without trailer follows road maximum.",
+          "fallback_reason": null,
+          "scope_limits": "Light-lorry statement explicitly scoped to no trailer. Lower road limit still binds heavy lorry; towing light lorry needs M08-L02 combination check. No inference that light lorry towing may always use road maximum.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        },
+        {
+          "alias": "traffic-law",
+          "source_id": "G8-traffic-law",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Traffic Regulation (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "version": "Existing current statutory source; safe-speed requirement corroborated by current Transportstyrelsen Hastighet page (8 May 2026)",
+          "locator": "Chapter 3 §14; corroboration: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hastighet/",
+          "excerpt": "behålla kontrollen över fordonet",
+          "supports": "Safe-speed adaptation depends on road/weather/visibility/load and foreseeable stopping distance.",
+          "fallback_reason": null,
+          "scope_limits": "Existing legal teaching reused; current exact agency safe-speed passage directly inspected, not whole statute re-audited during G8.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Light-lorry statement explicitly scoped to no trailer. Lower road limit still binds heavy lorry; towing light lorry needs M08-L02 combination check. No inference that light lorry towing may always use road maximum. Existing legal teaching reused; current exact agency safe-speed passage directly inspected, not whole statute re-audited during G8.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-165-C01",
+      "question_id": "situation-165",
+      "chapter": "M08",
+      "lesson": "M08-L02",
+      "required_statement_to_verify": "Explain excessive downward towball loading unloading the front axle and impairing steering grip.",
+      "classification": "technical/safety explanation",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se lätt lastbil hastighet 90 80",
+            "site:transportstyrelsen.se kultryck framhjul styrning",
+            "site:trafikverket.se kultryck framaxel",
+            "site:transportstyrelsen.se kultryck",
+            "site:trafikverket.se kultryck",
+            "site:transportstyrelsen.se körförbud inträder automatiskt besiktning kortaste lämpliga väg"
+          ],
+          "finding": "Exact lorry/ban rules found; coupling cautions found but complete unloading/steering mechanism missing in inspected agency results. ODOT official guide selected for exact mechanism."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "site:gov nose weight front steering",
+            "site:gov tongue weight front wheels steering",
+            "site:volvocars.com towball front wheels"
+          ],
+          "finding": "Exact physical passage located in ODOT brochure; no model-specific manufacturer claim needed. Vehicle Regulation linked directly from TS inspection page used only for exact deadline-ban endpoint."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "load-advice",
+          "source_id": "G8-load-advice",
+          "publisher": "Trafikverket",
+          "title": "Lasta bilen säkert",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/",
+          "version": "Updated 15 June 2026",
+          "locator": "Tänk på att, towball-pressure bullet",
+          "excerpt": "Var noga med släpkärrans kultryck så att inte bilen eller kärran lyfter sig.",
+          "supports": "Incorrect coupling pressure can lift car/trailer and harm handling.",
+          "fallback_reason": null,
+          "scope_limits": "Agency safety background; does not state exact front-axle unloading/steering-grip mechanism or universal numeric towball limit.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        },
+        {
+          "alias": "towball-physics",
+          "source_id": "G8-towball-physics",
+          "publisher": "Oregon Department of Transportation",
+          "title": "Towing a Trailer in Oregon — Being Equipped for Safety",
+          "url": "https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf",
+          "version": "Live agency-hosted 32-page brochure; publication date not printed in inspected text",
+          "locator": "If You Already Have a Tow Vehicle, printed page 6 / PDF page 8; definitions/ratings pp.4–6",
+          "excerpt": "the tow vehicle will be less responsive to steering",
+          "supports": "Downward tongue/hitch load defined; excessive load leaves too little weight on front wheels and reduces steering response. Follow actual vehicle/hitch ratings.",
+          "fallback_reason": "TS/TRV kultryck searches found lifting/handling cautions and calculator scope limits, not the complete front-wheel mechanism. Exact official ODOT brochure passage selected; manufacturer fallback unnecessary.",
+          "scope_limits": "Conventional rear towball/coupling load explanation, not fifth-wheel geometry. No US percentage, hitch modification recipe, numeric load limit, registration or towing law imported. Front unloading means reduced axle load, not necessarily wheels leaving the road.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [
+        "TS/TRV kultryck searches found lifting/handling cautions and calculator scope limits, not the complete front-wheel mechanism. Exact official ODOT brochure passage selected; manufacturer fallback unnecessary."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Agency safety background; does not state exact front-axle unloading/steering-grip mechanism or universal numeric towball limit. Conventional rear towball/coupling load explanation, not fifth-wheel geometry. No US percentage, hitch modification recipe, numeric load limit, registration or towing law imported. Front unloading means reduced axle load, not necessarily wheels leaving the road.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-172-C01",
+      "question_id": "situation-172",
+      "chapter": "M08",
+      "lesson": "M08-L03",
+      "required_statement_to_verify": "Explain automatic driving prohibition following a missed inspection deadline and applicable conditions for addressing it.",
+      "classification": "legal requirement",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-INSPECTION"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen/Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se lätt lastbil hastighet 90 80",
+            "site:transportstyrelsen.se kultryck framhjul styrning",
+            "site:trafikverket.se kultryck framaxel",
+            "site:transportstyrelsen.se kultryck",
+            "site:trafikverket.se kultryck",
+            "site:transportstyrelsen.se körförbud inträder automatiskt besiktning kortaste lämpliga väg"
+          ],
+          "finding": "Exact lorry/ban rules found; coupling cautions found but complete unloading/steering mechanism missing in inspected agency results. ODOT official guide selected for exact mechanism."
+        },
+        {
+          "publisher": "Official fallback leads",
+          "queries": [
+            "site:gov nose weight front steering",
+            "site:gov tongue weight front wheels steering",
+            "site:volvocars.com towball front wheels"
+          ],
+          "finding": "Exact physical passage located in ODOT brochure; no model-specific manufacturer claim needed. Vehicle Regulation linked directly from TS inspection page used only for exact deadline-ban endpoint."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "inspection-ban",
+          "source_id": "G8-inspection-ban",
+          "publisher": "Transportstyrelsen",
+          "title": "Besiktning av fordon",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+          "version": "Updated 8 October 2025",
+          "locator": "Opening owner responsibility; Vad händer om jag inte besiktar i tid? — Körförbud",
+          "excerpt": "Om du inte besiktar fordonet i tid, får du automatiskt körförbud",
+          "supports": "Automatic overdue-inspection prohibition, owner responsibility even without invitation, restricted trips for on/off-road vehicle; dangerous-condition prohibition distinct.",
+          "fallback_reason": null,
+          "scope_limits": "Inträtt körförbud due missed periodic deadline, not dangerous-condition meddelat körförbud. On-road: shortest suitable route to repair workshop/inspection; off-road and still banned: shortest suitable route to nearest inspection business. Does not grant general errands/commuting or waive other requirements.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        },
+        {
+          "alias": "vehicle-inspection-law",
+          "source_id": "G8-vehicle-inspection-law",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Vehicle Regulation (2009:211)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+          "version": "Consolidated live text; chapter 6 §§15–21 checked 13 October 2026",
+          "locator": "Chapter 6 §15: first calendar month after missed inspection month; §21: prohibition until inspection performed; §§16–17: defects/result",
+          "excerpt": "Ett körförbud enligt 15 eller 16 § gäller till dess en kontrollbesiktning har genomförts.",
+          "supports": "Exact start/end of periodic-deadline ban; completed inspection rather than simply booking; follow new findings and any further prohibition/order.",
+          "fallback_reason": "TS page establishes ban and travel exceptions but does not state precise legal endpoint. Linked primary regulation supplies that missing detail; not an extra duplicate source for the TS-supported ban.",
+          "scope_limits": "Periodic inspection example only. Inspection being carried out ends §15 deadline ban; not a guarantee the result permits ordinary driving, since defects may create new ban/order. No implication a pass is always required merely to end the original deadline ban.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        },
+        {
+          "alias": "off-road-inspection",
+          "source_id": "G8-off-road-inspection",
+          "publisher": "Transportstyrelsen",
+          "title": "Ställa av ditt fordon",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+          "version": "Live page; checked 13 October 2026",
+          "locator": "Köra ett avställt fordon; opening: prohibition does not automatically create off-road status",
+          "excerpt": "Fordonet måste vara trafikförsäkrat och det får inte finnas några obetalda fordonsskatter.",
+          "supports": "General off-road inspection exception requires traffic insurance and no unpaid vehicle taxes; ban does not automatically deregister car.",
+          "fallback_reason": null,
+          "scope_limits": "General off-road rule allows shortest suitable route to/from nearest inspection; when an overdue ban also applies, the additional ban restriction is to nearest inspection. Return is not automatically allowed while that ban continues. This is an explicit intersection of the agency conditions.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page or PDF; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [
+        "TS page establishes ban and travel exceptions but does not state precise legal endpoint. Linked primary regulation supplies that missing detail; not an extra duplicate source for the TS-supported ban."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Inträtt körförbud due missed periodic deadline, not dangerous-condition meddelat körförbud. On-road: shortest suitable route to repair workshop/inspection; off-road and still banned: shortest suitable route to nearest inspection business. Does not grant general errands/commuting or waive other requirements. Periodic inspection example only. Inspection being carried out ends §15 deadline ban; not a guarantee the result permits ordinary driving, since defects may create new ban/order. No implication a pass is always required merely to end the original deadline ban. General off-road rule allows shortest suitable route to/from nearest inspection; when an overdue ban also applies, the additional ban restriction is to nearest inspection. Return is not automatically allowed while that ban continues. This is an explicit intersection of the agency conditions.",
+      "answer_conflict": null,
+      "interpretation": "Deadline prohibition ends once periodic inspection has been carried out (§21), but new defect-related bans/orders and other requirements can still apply. Off-road general travel permission must be intersected with the still-active deadline-ban restriction."
+    }
+  ],
+  "source_priority_searches": [
+    {
+      "publisher": "Transportstyrelsen/Trafikverket",
+      "queries": [
+        "site:transportstyrelsen.se lätt lastbil hastighet 90 80",
+        "site:transportstyrelsen.se kultryck framhjul styrning",
+        "site:trafikverket.se kultryck framaxel",
+        "site:transportstyrelsen.se kultryck",
+        "site:trafikverket.se kultryck",
+        "site:transportstyrelsen.se körförbud inträder automatiskt besiktning kortaste lämpliga väg"
+      ],
+      "finding": "Exact lorry/ban rules found; coupling cautions found but complete unloading/steering mechanism missing in inspected agency results. ODOT official guide selected for exact mechanism."
+    },
+    {
+      "publisher": "Official fallback leads",
+      "queries": [
+        "site:gov nose weight front steering",
+        "site:gov tongue weight front wheels steering",
+        "site:volvocars.com towball front wheels"
+      ],
+      "finding": "Exact physical passage located in ODOT brochure; no model-specific manufacturer claim needed. Vehicle Regulation linked directly from TS inspection page used only for exact deadline-ban endpoint."
+    }
+  ],
+  "answer_conflicts": []
+}

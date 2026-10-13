@@ -1,0 +1,952 @@
+{
+  "status": "approved crops and exact official sign insertions; screen review",
+  "assets": {
+    "M04-L01": {
+      "box": [
+        621,
+        210,
+        1140,
+        880
+      ],
+      "caption": "Driveway exit: the teal car is entering across the footway. Identify the exit duty before choosing a gap.",
+      "file": "D01-v2.png",
+      "width_mm": 80,
+      "sha256": "a1ff4ce11e2ee16265965b702b89fbb5f21daeef284afc26d8095a57d2700647",
+      "alt_text": "Driveway exit: the teal car is entering across the footway. Identify the exit duty before choosing a gap.",
+      "print_ppi": 164.8
+    },
+    "M04-L01-ordinary": {
+      "box": [
+        34,
+        210,
+        599,
+        880
+      ],
+      "caption": "Ordinary junction: no signs, signals or special rule apply. The yellow car approaches from the teal driver\u2019s right. Road width alone does not determine priority.",
+      "file": "D01-v2.png",
+      "width_mm": 80,
+      "sha256": "a1ff4ce11e2ee16265965b702b89fbb5f21daeef284afc26d8095a57d2700647",
+      "alt_text": "Ordinary junction: no signs, signals or special rule apply. The yellow car approaches from the teal driver\u2019s right. Road width alone does not determine priority.",
+      "print_ppi": 179.4
+    },
+    "M04-L01-priority": {
+      "box": [
+        34,
+        144,
+        1637,
+        880
+      ],
+      "caption": "Driving on a priority road: B4 is after the junction on the right verge. B1 controls the side-road approach. Continue observing; priority does not make a collision acceptable.",
+      "file": "D01-priority-v3.png",
+      "overlays": [
+        {
+          "code": "B4",
+          "rect": [
+            902,
+            143,
+            979,
+            215
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-5c9b7d8b5ffe4883.png",
+            "source_asset_id": "ASSET-5c9b7d8b5ffe4883",
+            "sha256": "78626c76288db7bc52df60b75286c4495e277057c43feedf4532e57bdbed38d5",
+            "max_size_mm_at_300ppi": [
+              169.7,
+              169.7
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/huvudled/"
+        },
+        {
+          "code": "B1",
+          "rect": [
+            997,
+            216,
+            1073,
+            280
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+            "source_asset_id": "ASSET-7671a42456af532b",
+            "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+            "max_size_mm_at_300ppi": [
+              161.0,
+              142.9
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/vajningsplikt/"
+        },
+        {
+          "label": "B4",
+          "rect": [
+            984,
+            159,
+            1209,
+            210
+          ]
+        }
+      ],
+      "width_mm": 170,
+      "sha256": "c8e957ac035258a2af3e396e79d5d2f24dc6c1a2c2cbe2fe4c71e04be330d5f8",
+      "alt_text": "Driving on a priority road: B4 is after the junction on the right verge. B1 controls the side-road approach. Continue observing; priority does not make a collision acceptable.",
+      "print_ppi": 239.5
+    },
+    "M04-L01-stop": {
+      "box": [
+        1163,
+        210,
+        1640,
+        880
+      ],
+      "caption": "Stop duty: the teal car approaches the stop line. A complete stop is required at the line. This detail shows the stopping point, not the whole junction.",
+      "file": "D01-v2.png",
+      "overlays": [
+        {
+          "code": "B2",
+          "rect": [
+            1548,
+            387,
+            1625,
+            457
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-8682862e91ad901f.png",
+            "source_asset_id": "ASSET-8682862e91ad901f",
+            "sha256": "60c8ca4f96603da5f34e83bfdd6fcf727fd453729c9af3fe713e26dbe5f094ba",
+            "max_size_mm_at_300ppi": [
+              180.3,
+              180.3
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/stopplikt/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "a1ff4ce11e2ee16265965b702b89fbb5f21daeef284afc26d8095a57d2700647",
+      "alt_text": "Stop duty: the teal car approaches the stop line. A complete stop is required at the line. This detail shows the stopping point, not the whole junction.",
+      "print_ppi": 151.4
+    },
+    "M04-L02": {
+      "box": [
+        465,
+        660,
+        1638,
+        891
+      ],
+      "caption": "Right turn beside a cyclist: the cycling route and receiving road remain open. Check the cyclist\u2019s movement before crossing the route. No movement arrow grants priority.",
+      "file": "D04-v3.png",
+      "width_mm": 170,
+      "sha256": "1a33f7e0b58900471ae734d53d31cb7cf5e66ff53e933f0b835d88a4d56cfff5",
+      "alt_text": "Right turn beside a cyclist: the cycling route and receiving road remain open. Check the cyclist\u2019s movement before crossing the route. No movement arrow grants priority.",
+      "print_ppi": 175.3
+    },
+    "M04-L02-join": {
+      "box": [
+        1091,
+        153,
+        1638,
+        633
+      ],
+      "caption": "Acceleration-lane join: a distinct joining lane meets the through lane. Adapt speed and join safely; do not force a gap.",
+      "file": "D04-v3.png",
+      "width_mm": 80,
+      "sha256": "1a33f7e0b58900471ae734d53d31cb7cf5e66ff53e933f0b835d88a4d56cfff5",
+      "alt_text": "Acceleration-lane join: a distinct joining lane meets the through lane. Adapt speed and join safely; do not force a gap.",
+      "print_ppi": 173.7
+    },
+    "M04-L02-lane": {
+      "box": [
+        34,
+        153,
+        578,
+        633
+      ],
+      "caption": "Lane change: two marked lanes continue. A signal communicates an intention; check for a safe opportunity before moving sideways.",
+      "file": "D04-v3.png",
+      "width_mm": 80,
+      "sha256": "1a33f7e0b58900471ae734d53d31cb7cf5e66ff53e933f0b835d88a4d56cfff5",
+      "alt_text": "Lane change: two marked lanes continue. A signal communicates an intention; check for a safe opportunity before moving sideways.",
+      "print_ppi": 172.7
+    },
+    "M04-L02-merge": {
+      "box": [
+        603,
+        153,
+        1068,
+        633
+      ],
+      "caption": "Mutual merge: two lanes narrow into one. Both drivers adapt with mutual consideration.",
+      "file": "D04-v3.png",
+      "width_mm": 80,
+      "sha256": "1a33f7e0b58900471ae734d53d31cb7cf5e66ff53e933f0b835d88a4d56cfff5",
+      "alt_text": "Mutual merge: two lanes narrow into one. Both drivers adapt with mutual consideration.",
+      "print_ppi": 147.6
+    },
+    "M04-L03": {
+      "box": [
+        1225,
+        143,
+        1637,
+        740
+      ],
+      "caption": "Passage after a roundabout exit: the cyclist is approaching the marked passage on the receiving road. The exit movement matters to the driver\u2019s duty.",
+      "file": "D02-v4.png",
+      "width_mm": 80,
+      "sha256": "201d5d8796da00503e85280d07347bccf5425ffe6f1ccee235650cb5f0c91551",
+      "alt_text": "Passage after a roundabout exit: the cyclist is approaching the marked passage on the receiving road. The exit movement matters to the driver\u2019s duty.",
+      "print_ppi": 130.8
+    },
+    "M04-L03-crossing": {
+      "box": [
+        842,
+        143,
+        1210,
+        740
+      ],
+      "caption": "Cycle crossing: B8, the crossing markings and the raised treatment distinguish this example. Surface colour alone does not determine the duty.",
+      "file": "D02-v4.png",
+      "overlays": [
+        {
+          "code": "B8",
+          "rect": [
+            1098,
+            528,
+            1210,
+            740
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-bde53c8f30d7bcc9.png",
+            "source_asset_id": "ASSET-bde53c8f30d7bcc9",
+            "sha256": "366540110a3cd4df65c776e5eaf91fef30462668d432b818a512109dec046f68",
+            "max_size_mm_at_300ppi": [
+              297.1,
+              297.1
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/cykeloverfart/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "201d5d8796da00503e85280d07347bccf5425ffe6f1ccee235650cb5f0c91551",
+      "alt_text": "Cycle crossing: B8, the crossing markings and the raised treatment distinguish this example. Surface colour alone does not determine the duty.",
+      "print_ppi": 116.8
+    },
+    "M04-L03-passage": {
+      "box": [
+        439,
+        143,
+        826,
+        740
+      ],
+      "caption": "Uncontrolled cycle passage approached without turning: M16 blocks mark the passage. There is no B8 cycle-crossing sign in this example.",
+      "file": "D02-v4.png",
+      "overlays": [
+        {
+          "code": "M16",
+          "rect": [
+            714,
+            528,
+            826,
+            740
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-beb0b3919541fe29.png",
+            "source_asset_id": "ASSET-beb0b3919541fe29",
+            "sha256": "0f4e92b6db518ec15effa2becd46659273a02b00030fea46e4feb67e29763280",
+            "max_size_mm_at_300ppi": [
+              22.5,
+              12.5
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelpassage-eller-cykeloverfart/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "201d5d8796da00503e85280d07347bccf5425ffe6f1ccee235650cb5f0c91551",
+      "alt_text": "Uncontrolled cycle passage approached without turning: M16 blocks mark the passage. There is no B8 cycle-crossing sign in this example.",
+      "print_ppi": 122.9
+    },
+    "M04-L03-pedestrian": {
+      "box": [
+        34,
+        143,
+        425,
+        740
+      ],
+      "caption": "Uncontrolled pedestrian crossing: a person is about to enter. The B3 sign and zebra marking identify this separate example.",
+      "file": "D02-v4.png",
+      "overlays": [
+        {
+          "code": "B3",
+          "rect": [
+            313,
+            528,
+            424,
+            740
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-8c35baefaf0cfa7b.png",
+            "source_asset_id": "ASSET-8c35baefaf0cfa7b",
+            "sha256": "f81e5f16cca3861cbbe67c40226f2dbf66ba198fac9e0b46a992c422b9dfc7e5",
+            "max_size_mm_at_300ppi": [
+              120.3,
+              120.3
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/overgangsstalle/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "201d5d8796da00503e85280d07347bccf5425ffe6f1ccee235650cb5f0c91551",
+      "alt_text": "Uncontrolled pedestrian crossing: a person is about to enter. The B3 sign and zebra marking identify this separate example.",
+      "print_ppi": 124.1
+    },
+    "M04-L04": {
+      "box": [
+        559,
+        176,
+        1108,
+        870
+      ],
+      "caption": "Circulation: two lanes surround the island. The teal car in the inner lane and yellow car in the outer lane need separate space; the inner lane confers no exit priority.",
+      "file": "D05-v3.png",
+      "width_mm": 80,
+      "sha256": "78e381838150ecc3529b44b6f74281c31145ed8b9ed5e8631eba7fe67ea203d9",
+      "alt_text": "Circulation: two lanes surround the island. The teal car in the inner lane and yellow car in the outer lane need separate space; the inner lane confers no exit priority.",
+      "print_ppi": 174.3
+    },
+    "M04-L04-entry": {
+      "box": [
+        26,
+        176,
+        541,
+        870
+      ],
+      "caption": "Approach: B1 and D3 identify the entry instructions. The teal car approaches the yield point while the yellow car circulates anticlockwise.",
+      "file": "D05-v3.png",
+      "overlays": [
+        {
+          "code": "B1",
+          "rect": [
+            379,
+            589,
+            427,
+            630
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+            "source_asset_id": "ASSET-7671a42456af532b",
+            "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+            "max_size_mm_at_300ppi": [
+              161.0,
+              142.9
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/vajningsplikt/"
+        },
+        {
+          "code": "D3",
+          "rect": [
+            380,
+            630,
+            427,
+            675
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/cfec445947e106f4-d3-1.png",
+            "source_asset_id": "ASSET-cfec445947e106f4",
+            "sha256": "28efc7c76a5c6111a237322ba254c954075380f3e7f3b8a12cb42d2565cd379f",
+            "max_size_mm_at_300ppi": [
+              29.0,
+              29.0
+            ],
+            "reason": "Use unchanged official raster; EPS unavailable or has excess canvas/outline treatment."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/pabudsmarken/cirkulationsplats/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "78e381838150ecc3529b44b6f74281c31145ed8b9ed5e8631eba7fe67ea203d9",
+      "alt_text": "Approach: B1 and D3 identify the entry instructions. The teal car approaches the yield point while the yellow car circulates anticlockwise.",
+      "print_ppi": 163.5
+    },
+    "M04-L04-exit": {
+      "box": [
+        1127,
+        176,
+        1644,
+        870
+      ],
+      "caption": "Exit: the teal car approaches a cycle passage. Signal right when leaving and check the passage as a separate conflict.",
+      "file": "D05-v3.png",
+      "width_mm": 80,
+      "sha256": "78e381838150ecc3529b44b6f74281c31145ed8b9ed5e8631eba7fe67ea203d9",
+      "alt_text": "Exit: the teal car approaches a cycle passage. Signal right when leaving and check the passage as a separate conflict.",
+      "print_ppi": 164.1
+    },
+    "M04-R-crossing": {
+      "box": [
+        845,
+        168,
+        1240,
+        641
+      ],
+      "caption": "3. Approaching a raised cycle crossing. Read the official B8 sign and the markings before explaining the duty.",
+      "file": "M04R-v3.png",
+      "overlays": [
+        {
+          "code": "B8",
+          "rect": [
+            1198,
+            484,
+            1238,
+            516
+          ],
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-bde53c8f30d7bcc9.png",
+            "source_asset_id": "ASSET-bde53c8f30d7bcc9",
+            "sha256": "366540110a3cd4df65c776e5eaf91fef30462668d432b818a512109dec046f68",
+            "max_size_mm_at_300ppi": [
+              297.1,
+              297.1
+            ],
+            "reason": "Use verified render of official EPS for clearer reproduction."
+          },
+          "official_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/cykeloverfart/"
+        }
+      ],
+      "width_mm": 80,
+      "sha256": "480e73ae1a6ab27930e877969b71e80c6b0831f9cfb833ad4d16cca342acbf3e",
+      "alt_text": "3. Approaching a raised cycle crossing. Read the official B8 sign and the markings before explaining the duty.",
+      "print_ppi": 125.4
+    },
+    "M04-R-entry": {
+      "box": [
+        1256,
+        165,
+        1649,
+        641
+      ],
+      "caption": "4. Entry detail. This companion image shows a single-lane entry; use the separate two-lane view for the written scenario\u2019s lane decisions.",
+      "file": "M04R-v3.png",
+      "width_mm": 80,
+      "sha256": "480e73ae1a6ab27930e877969b71e80c6b0831f9cfb833ad4d16cca342acbf3e",
+      "alt_text": "4. Entry detail. This companion image shows a single-lane entry; use the separate two-lane view for the written scenario\u2019s lane decisions.",
+      "print_ppi": 124.8
+    },
+    "M04-R-exit": {
+      "box": [
+        22,
+        165,
+        426,
+        641
+      ],
+      "caption": "1. Leaving a car park. Describe the duty and the observations needed before entering the road.",
+      "file": "M04R-v3.png",
+      "width_mm": 80,
+      "sha256": "480e73ae1a6ab27930e877969b71e80c6b0831f9cfb833ad4d16cca342acbf3e",
+      "alt_text": "1. Leaving a car park. Describe the duty and the observations needed before entering the road.",
+      "print_ppi": 128.3
+    },
+    "M04-R-turn": {
+      "box": [
+        444,
+        168,
+        825,
+        641
+      ],
+      "caption": "2. Preparing a left turn on a two-way road. Identify the vehicles and paths you need to observe.",
+      "file": "M04R-v3.png",
+      "width_mm": 80,
+      "sha256": "480e73ae1a6ab27930e877969b71e80c6b0831f9cfb833ad4d16cca342acbf3e",
+      "alt_text": "2. Preparing a left turn on a two-way road. Identify the vehicles and paths you need to observe.",
+      "print_ppi": 121.0
+    },
+    "M04-R-two-lane": {
+      "box": [
+        559,
+        176,
+        1108,
+        870
+      ],
+      "caption": "Two-lane companion view for the written scenario. Identify nearby vehicles and explain how you would plan a lane change and exit. No route is selected.",
+      "file": "D05-v3.png",
+      "width_mm": 95,
+      "sha256": "78e381838150ecc3529b44b6f74281c31145ed8b9ed5e8631eba7fe67ea203d9",
+      "alt_text": "Two-lane companion view for the written scenario. Identify nearby vehicles and explain how you would plan a lane change and exit. No route is selected.",
+      "print_ppi": 146.8
+    }
+  },
+  "official_sign_placements": [
+    {
+      "group": "LP015",
+      "code": "A28",
+      "page": 2,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-51f2a947f7351c21.png",
+      "sha256": "16d8d30cff6ec3b85a67685411db5da15f8cf67a06eff65a7cfd9e9e06845e54",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "A29",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-43e6ac15802c2108.png",
+      "sha256": "393ab56961807f430897474de943a6eaf6ee1998019d39c5bf343caafcc758e0",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "A29-10",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-76a5d1cd4fda36bc.png",
+      "sha256": "a1be4116b103568a1b90c606ed889b535305747af33b94b4f3c445ba81feced6",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "A29-13",
+      "page": 3,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-1835b433c9e2f307.png",
+      "sha256": "9d248e40babbcdae646f9fba1596faee76344900a2b85265bb237ada17d19125",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "B4",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-5c9b7d8b5ffe4883.png",
+      "sha256": "78626c76288db7bc52df60b75286c4495e277057c43feedf4532e57bdbed38d5",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "B5",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-25bc779a5abd3c3a.png",
+      "sha256": "f130cc873579004ee3bcfac1a0fe2b2dafb9c372d07b12c0b9a3a68ddd79f56a",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "T13",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c3007295d1f8386f.png",
+      "sha256": "bfd7d498b75ce7922796372b1ea27a3c2fd7bbe5db26223807e7be2505f23680",
+      "width_mm": 70.0,
+      "height_mm": 32.9,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "T14",
+      "page": 4,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-22d3b5bd7249832c.png",
+      "sha256": "3368680512c06e3921f837e6f12978891e155d6e34ed11bcd64015cb103c4542",
+      "width_mm": 70.0,
+      "height_mm": 33.507,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "T15",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c72b6bd4be7b4819.png",
+      "sha256": "5cd5ab6baa17d59247cc8431c22b6c7343a0add845c497467b162baf28051cb3",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP015",
+      "code": "T15-2",
+      "page": 5,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-c82c229975406684.png",
+      "sha256": "e631c785054e662f6435fb839eba231fef4e9c1f5d6e9437f656a558945b8d12",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP016",
+      "code": "B1",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+      "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP016",
+      "code": "B2",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8682862e91ad901f.png",
+      "sha256": "60c8ca4f96603da5f34e83bfdd6fcf727fd453729c9af3fe713e26dbe5f094ba",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP016",
+      "code": "M13",
+      "page": 6,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-795a8e6c72fc495e.png",
+      "sha256": "9b3d4dec9d5af1001b031ad6a8395763b085a53b7068ca84a65ca890f92f73f1",
+      "width_mm": 22.466,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP016",
+      "code": "M14",
+      "page": 7,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-0f70f525f4eee352.png",
+      "sha256": "f98e9d6a8d95730d0564320ca946faf12da0ac4ce5bb4979a50d1eecc8fa1bef",
+      "width_mm": 22.466,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "C25",
+      "page": 12,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-79867121aaea7f5c.png",
+      "sha256": "c9e127ec6ec9ce9a6ffc6e6f012493ec7a714ad0fc780574e6044da12a32a73b",
+      "width_mm": 48.61,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "C25-2",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/4f78e03303117322-c25-2.png",
+      "sha256": "3238d0de4c5e26fa6ba284961b9d086189706b26e0adeb15237452229ce29887",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "C26",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/6259c93d8d0cf37f-c26-1.png",
+      "sha256": "6f4e347fa3de0d46ac6576efbca65a4802c57a262ae2a10cb8b27d7c919835cb",
+      "width_mm": 28.9,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/c2ad308d9963834b-d1-1.png",
+      "sha256": "c27d48a7f3d6bcea7b6125e090055f4e1dc45a30bbaecd3b4260150cf91705a2",
+      "width_mm": 29.0,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1-2",
+      "page": 13,
+      "path": "docs/curriculum/sign-assets/originals/9da4a3b10f3db73a-d1-2.png",
+      "sha256": "94587516083fbd81e615f06652231682af6188aebfffbc46c241631a4a18dfa0",
+      "width_mm": 28.915,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1-3",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/originals/017d92e569632ead-d1-3.png",
+      "sha256": "024de4b31625b6cee3794ceaf1a99fa622f01a94c3e7d11742636f45913c840d",
+      "width_mm": 28.915,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1-6",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/originals/eb29ac5b39f3f574-d1-6.png",
+      "sha256": "67c47531c1fb116f18780dfd3e4465344a076fa9005bbe17bca2647cb085abfd",
+      "width_mm": 29.0,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1-7",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/originals/f60cdf59906e7ebf-d1-7.png",
+      "sha256": "c15307d69c4a1582e02a4a74f7604d3fc39f62ab75e28edfa2887f31375bc2f8",
+      "width_mm": 29.0,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "D1-8",
+      "page": 14,
+      "path": "docs/curriculum/sign-assets/originals/d740a51ffb88fef5-d1-8.png",
+      "sha256": "e38cdf4663dd65f5d1720afc1815a0d657b5f23a912b581463bcea43c15ca98c",
+      "width_mm": 28.985,
+      "height_mm": 28.9,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "E16",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-9ae978dc6073ae0a.png",
+      "sha256": "60c178791370e297e8fcb19c3a515912990882f4e0cfce36d030263051199656",
+      "width_mm": 70.0,
+      "height_mm": 26.352,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "E16-2",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-565624938aee48d1.png",
+      "sha256": "3dcca33fffb4ca152e071bbff2450cf03e1b14a7ea4e341a2c7e2df54b26e2a1",
+      "width_mm": 32.056,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP017",
+      "code": "M19",
+      "page": 15,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-2421ee81cbc90136.png",
+      "sha256": "807658636900a9177af6435bb5e5491a1b72b05105d181362e2a6b4d82f9f8de",
+      "width_mm": 24.58,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP018",
+      "code": "E15",
+      "page": 16,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f9a6f5d4351042ae.png",
+      "sha256": "a1dc68cdf71caf0455e2ef5735107aeaccd3977900aeb247fb9a173eaf783d0f",
+      "width_mm": 32.023,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP018",
+      "code": "F16",
+      "page": 16,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-6b1fd618456cec14.png",
+      "sha256": "5672005f3eed027b07ceaab682959334d163c4a49fec310b1c21236e6bd0cbf4",
+      "width_mm": 36.086,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP018",
+      "code": "F17",
+      "page": 16,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-1a0113c543143875.png",
+      "sha256": "2392fc5bbae098fe70bcd99f3fc06183de4fde955290e1862c26ad2f0a9d2a8b",
+      "width_mm": 34.076,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP018",
+      "code": "M20",
+      "page": 17,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-47934d22d82864f8.png",
+      "sha256": "33093ca47dce8fa14f519d8efd58548eb3c9ff8f50316e2efaef8c1424528ad4",
+      "width_mm": 41.132,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP019",
+      "code": "A13",
+      "page": 22,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e9f152d643969622.png",
+      "sha256": "19353c0754352bb2a3d7621dc6c80a228061f52b42030efb50272d5c18c74877",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP019",
+      "code": "B3",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-8c35baefaf0cfa7b.png",
+      "sha256": "f81e5f16cca3861cbbe67c40226f2dbf66ba198fac9e0b46a992c422b9dfc7e5",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP019",
+      "code": "B3-2",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-f7ca19f05598b409.png",
+      "sha256": "297251999bb2faafafe04b4bdce6df3ce6d81f4a02b90be5ceb80825a864ec3d",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP019",
+      "code": "M15",
+      "page": 23,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-6888de19019ee9ea.png",
+      "sha256": "12081440090f4fb6c1c7e9f7c913aa5f615cc0f5f207d4c54d89dee7b51c48ee",
+      "width_mm": 22.466,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP020",
+      "code": "B8",
+      "page": 24,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-bde53c8f30d7bcc9.png",
+      "sha256": "366540110a3cd4df65c776e5eaf91fef30462668d432b818a512109dec046f68",
+      "width_mm": 48.0,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP020",
+      "code": "M14",
+      "page": 24,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-0f70f525f4eee352.png",
+      "sha256": "f98e9d6a8d95730d0564320ca946faf12da0ac4ce5bb4979a50d1eecc8fa1bef",
+      "width_mm": 22.466,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP020",
+      "code": "M16",
+      "page": 25,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-beb0b3919541fe29.png",
+      "sha256": "0f4e92b6db518ec15effa2becd46659273a02b00030fea46e4feb67e29763280",
+      "width_mm": 22.466,
+      "height_mm": 12.5,
+      "vector": false
+    },
+    {
+      "group": "LP021",
+      "code": "SIG6",
+      "page": 25,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-094a84d6bc5dbea6.png",
+      "sha256": "7f0c18aedf71867f04b898b8645df80dfbe0f783671c509b789fcf94a004980f",
+      "width_mm": 24.878,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP021",
+      "code": "SIG7",
+      "page": 26,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-19062784f90c6be1.png",
+      "sha256": "93d9fd22fef040e458cd78d4b38fb6e9b083e0262a86a9392b0cacd26a1a41c6",
+      "width_mm": 24.878,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP021",
+      "code": "SIG1",
+      "page": 26,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-d5531cd434f4b57a.png",
+      "sha256": "f00e630336dadfa95feecde61354048795ed763ff0c1cde24988454f8ab97414",
+      "width_mm": 58.467,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP021",
+      "code": "SIG3",
+      "page": 26,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-7aaa2d6b58c8a828.png",
+      "sha256": "318779200e8dbb11cc2d17e400695ee22ca9bf86102fb2e40aa576be62851cc0",
+      "width_mm": 58.467,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP022",
+      "code": "A30",
+      "page": 30,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-68f1ea2002c2c50e.png",
+      "sha256": "3d95eae279ee91c629979ff227fddffba59f0a54089e591d4676fa6f3ecacccf",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP022",
+      "code": "D3",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/originals/cfec445947e106f4-d3-1.png",
+      "sha256": "28efc7c76a5c6111a237322ba254c954075380f3e7f3b8a12cb42d2565cd379f",
+      "width_mm": 28.915,
+      "height_mm": 29.0,
+      "vector": false
+    },
+    {
+      "group": "LP022",
+      "code": "B1",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+      "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+      "width_mm": 54.057,
+      "height_mm": 48.0,
+      "vector": false
+    },
+    {
+      "group": "LP022",
+      "code": "M19a",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-e510bd95967d11cf.png",
+      "sha256": "5e9af758b8a9170aaf3adc63d024c555b5b4e4cc7222869fb97f38babf262578",
+      "width_mm": 70.0,
+      "height_mm": 29.695,
+      "vector": false
+    },
+    {
+      "group": "LP022",
+      "code": "X9",
+      "page": 31,
+      "path": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+      "sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+      "width_mm": 70.0,
+      "height_mm": 17.546,
+      "vector": false
+    }
+  ],
+  "reference_cross_links": {},
+  "review_preview_reconciliation": "Single-lane M04R entry is labelled as a companion detail; approved D05 two-lane view supports the unchanged manuscript scenario."
+}

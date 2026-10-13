@@ -1,0 +1,340 @@
+{
+  "step": "G6",
+  "checked_on": "2026-10-13",
+  "sources": [
+    {
+      "alias": "speed-adaptation",
+      "source_id": "G6-speed-adaptation",
+      "publisher": "Oregon Department of Transportation, Driver and Motor Vehicle Services",
+      "title": "Complex Driving Skills — Online Parent Guide to Teen Driving",
+      "url": "https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx",
+      "version": "Live official guide; publication/update date not displayed in inspected passage",
+      "locator": "Highway glossary: Velocitation; Exiting the Freeway, steps 5–6",
+      "excerpt": "Make sure you do frequent speedometer checks to help adjust your speed.",
+      "supports": "Prolonged steady-speed driving can alter perceived speed; speedometer checks help adjustment after leaving fast traffic.",
+      "fallback_reason": "Targeted TS/TRV searches did not locate exact speed-adaptation and instrument-check guidance. VTI results inspected did not establish this complete transition advice. ODOT provides direct official driver education.",
+      "scope_limits": "Perceptual/safety advice only. No foreign traffic laws, speed limits or stopping distances imported; feeling slow does not prove instrument failure, nor establish an instrument can never fail.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+    },
+    {
+      "alias": "rural-turn-alternative",
+      "source_id": "G6-rural-turn-alternative",
+      "publisher": "Trafikverket",
+      "title": "Avstängning för förberedande arbeten — E4 Förbifart Stockholm",
+      "url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+      "version": "Published 7 February 2025; historical works notice",
+      "locator": "Aktiviteter från vecka 7, final bullet: unavailable left turn into Kvarnbacken and identified alternative turning locations",
+      "excerpt": "där det finns möjlighet att vända",
+      "supports": "Agency example replaces an unavailable left turn with routing to an identified turning location.",
+      "fallback_reason": null,
+      "scope_limits": "Historical local closure example, not current route advice or a verbatim general recommendation about heavy rural traffic. Continuing, safely changing direction and returning for a right turn is an explicitly identified editorial planning inference, conditional on road geometry and Swedish rules.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+    },
+    {
+      "alias": "traffic-law",
+      "source_id": "G6-turning-law",
+      "publisher": "Swedish Government; published by Sveriges riksdag",
+      "title": "Traffic Regulation (1998:1276)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "version": "Consolidated live text; relevant current provisions checked 13 October 2026",
+      "locator": "Chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2",
+      "excerpt": "En förare får vända eller backa endast om det kan ske utan fara eller hinder för andra vägtrafikanter.",
+      "supports": "Turning/leaving road must protect oncoming and same-direction/rear traffic; turning around must avoid danger/obstruction; motorway/expressway turnaround and reversing prohibited.",
+      "fallback_reason": "Trafikverket example does not specify the complete general legal boundary. Current Swedish statute supplies precise constraints rather than inventing an unconditional route recommendation.",
+      "scope_limits": "These provisions constrain the conditional editorial example; they do not explicitly recommend return-right routing. Other signs, access restrictions, controls and local rules remain applicable.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+    },
+    {
+      "alias": "wildlife",
+      "source_id": "G6-wildlife",
+      "publisher": "Trafikverket",
+      "title": "Se upp för vilt på vägarna",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+      "version": "Updated 6 July 2026",
+      "locator": "När är det störst risk för vilt- och renolyckor?; Passager för vilt under eller över vägen; Faunapassager med viltvarningssystem",
+      "excerpt": "Var särskilt uppmärksam i gryning och skymning.",
+      "supports": "Year-round animal risk, increased attention at dawn/dusk, natural animal routes and intentional fence openings for crossings.",
+      "fallback_reason": null,
+      "scope_limits": "Prevention and observation only; not reproducing collision reporting from this page. No guarantee that fencing or absence of a warning proves an animal-free road.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+    },
+    {
+      "alias": "wildlife-habitat",
+      "source_id": "G6-wildlife-habitat",
+      "publisher": "Trafikverket; project authors Charlotta Gard, Liselott Nykvist, Rebecka Olsson and Lovisa Norlin, Sweco",
+      "title": "Gestaltningsprogram — Väg 26/47 Jönköping–Mullsjö, Hedenstorp–Månseryd",
+      "url": "https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf",
+      "version": "Version 2.0; 30 June 2023, revised 11 April 2025; TRV 2021/46509",
+      "locator": "Section 2.2 Naturmiljö, printed/PDF page 9 of 48; paragraph on animal routes and hidden approach",
+      "excerpt": "Djuren följer gärna skogsbryn och buskage längs stenmurar och mindre vattendrag.",
+      "supports": "Woodland/farmland habitat and edges/bushes/small waterways can provide animal routes and conceal approach to the road.",
+      "fallback_reason": null,
+      "scope_limits": "Project-specific landscape observation used as an example of cues to scan, not a nationwide accident-frequency estimate or a prediction of every animal crossing.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "situation-075-C01",
+      "question_id": "situation-075",
+      "chapter": "M06",
+      "lesson": "M06-L03",
+      "required_statement_to_verify": "Explain speed-perception adaptation after prolonged motorway driving and checking the speedometer on a slower road.",
+      "classification": "safety advice",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket / VTI",
+          "queries": [
+            "site:transportstyrelsen.se fartblindhet",
+            "site:trafikverket.se fartblindhet",
+            "site:vti.se fartblindhet hastighet motorväg"
+          ],
+          "finding": "No exact TS/TRV explanation plus speedometer advice located in inspected results. VTI speed/attention and optical-line research did not provide this complete driver instruction. Official ODOT fallback selected."
+        },
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se vänstersväng fortsätt höger sväng",
+            "site:trafikverket.se \"vänstersväng\" \"vända\"",
+            "site:trafikverket.se \"vänstersväng\" \"lämplig plats\"",
+            "site:transportstyrelsen.se \"vänstersväng\" \"fortsätt\""
+          ],
+          "finding": "No exact general heavy-traffic return-right driver instruction located. Trafikverket historical rerouting example supports using an identified turning location; general application remains a conditional editorial inference constrained by current Swedish statute. Commercial theory pages not selected."
+        },
+        {
+          "publisher": "Trafikverket",
+          "queries": [
+            "site:trafikverket.se vilt gryning skymning öppningar stängsel",
+            "site:trafikverket.se \"skogsbryn\" \"vilt\""
+          ],
+          "finding": "Exact dawn/dusk and fence-opening passages on current wildlife page; exact habitat/hidden-approach passage in published road-plan landscape programme. No additional publisher needed."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "speed-adaptation",
+          "source_id": "G6-speed-adaptation",
+          "publisher": "Oregon Department of Transportation, Driver and Motor Vehicle Services",
+          "title": "Complex Driving Skills — Online Parent Guide to Teen Driving",
+          "url": "https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx",
+          "version": "Live official guide; publication/update date not displayed in inspected passage",
+          "locator": "Highway glossary: Velocitation; Exiting the Freeway, steps 5–6",
+          "excerpt": "Make sure you do frequent speedometer checks to help adjust your speed.",
+          "supports": "Prolonged steady-speed driving can alter perceived speed; speedometer checks help adjustment after leaving fast traffic.",
+          "fallback_reason": "Targeted TS/TRV searches did not locate exact speed-adaptation and instrument-check guidance. VTI results inspected did not establish this complete transition advice. ODOT provides direct official driver education.",
+          "scope_limits": "Perceptual/safety advice only. No foreign traffic laws, speed limits or stopping distances imported; feeling slow does not prove instrument failure, nor establish an instrument can never fail.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [
+        "Targeted TS/TRV searches did not locate exact speed-adaptation and instrument-check guidance. VTI results inspected did not establish this complete transition advice. ODOT provides direct official driver education."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Perceptual/safety advice only. No foreign traffic laws, speed limits or stopping distances imported; feeling slow does not prove instrument failure, nor establish an instrument can never fail.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-105-C01",
+      "question_id": "situation-105",
+      "chapter": "M06",
+      "lesson": "M06-L01",
+      "required_statement_to_verify": "Explain continuing to a suitable safe turning place and returning for a right turn when a rural left turn is unsafe.",
+      "classification": "conditional editorial application of official example and legal rules",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket / VTI",
+          "queries": [
+            "site:transportstyrelsen.se fartblindhet",
+            "site:trafikverket.se fartblindhet",
+            "site:vti.se fartblindhet hastighet motorväg"
+          ],
+          "finding": "No exact TS/TRV explanation plus speedometer advice located in inspected results. VTI speed/attention and optical-line research did not provide this complete driver instruction. Official ODOT fallback selected."
+        },
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se vänstersväng fortsätt höger sväng",
+            "site:trafikverket.se \"vänstersväng\" \"vända\"",
+            "site:trafikverket.se \"vänstersväng\" \"lämplig plats\"",
+            "site:transportstyrelsen.se \"vänstersväng\" \"fortsätt\""
+          ],
+          "finding": "No exact general heavy-traffic return-right driver instruction located. Trafikverket historical rerouting example supports using an identified turning location; general application remains a conditional editorial inference constrained by current Swedish statute. Commercial theory pages not selected."
+        },
+        {
+          "publisher": "Trafikverket",
+          "queries": [
+            "site:trafikverket.se vilt gryning skymning öppningar stängsel",
+            "site:trafikverket.se \"skogsbryn\" \"vilt\""
+          ],
+          "finding": "Exact dawn/dusk and fence-opening passages on current wildlife page; exact habitat/hidden-approach passage in published road-plan landscape programme. No additional publisher needed."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "rural-turn-alternative",
+          "source_id": "G6-rural-turn-alternative",
+          "publisher": "Trafikverket",
+          "title": "Avstängning för förberedande arbeten — E4 Förbifart Stockholm",
+          "url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+          "version": "Published 7 February 2025; historical works notice",
+          "locator": "Aktiviteter från vecka 7, final bullet: unavailable left turn into Kvarnbacken and identified alternative turning locations",
+          "excerpt": "där det finns möjlighet att vända",
+          "supports": "Agency example replaces an unavailable left turn with routing to an identified turning location.",
+          "fallback_reason": null,
+          "scope_limits": "Historical local closure example, not current route advice or a verbatim general recommendation about heavy rural traffic. Continuing, safely changing direction and returning for a right turn is an explicitly identified editorial planning inference, conditional on road geometry and Swedish rules.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+        },
+        {
+          "alias": "traffic-law",
+          "source_id": "G6-turning-law",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Traffic Regulation (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "version": "Consolidated live text; relevant current provisions checked 13 October 2026",
+          "locator": "Chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2",
+          "excerpt": "En förare får vända eller backa endast om det kan ske utan fara eller hinder för andra vägtrafikanter.",
+          "supports": "Turning/leaving road must protect oncoming and same-direction/rear traffic; turning around must avoid danger/obstruction; motorway/expressway turnaround and reversing prohibited.",
+          "fallback_reason": "Trafikverket example does not specify the complete general legal boundary. Current Swedish statute supplies precise constraints rather than inventing an unconditional route recommendation.",
+          "scope_limits": "These provisions constrain the conditional editorial example; they do not explicitly recommend return-right routing. Other signs, access restrictions, controls and local rules remain applicable.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [
+        "Trafikverket example does not specify the complete general legal boundary. Current Swedish statute supplies precise constraints rather than inventing an unconditional route recommendation."
+      ],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Historical local closure example, not current route advice or a verbatim general recommendation about heavy rural traffic. Continuing, safely changing direction and returning for a right turn is an explicitly identified editorial planning inference, conditional on road geometry and Swedish rules. These provisions constrain the conditional editorial example; they do not explicitly recommend return-right routing. Other signs, access restrictions, controls and local rules remain applicable.",
+      "answer_conflict": null,
+      "interpretation": "Supported conditional planning inference, not a direct agency quote: on an ordinary two-way road a legal safe return can change the destination approach from left to right. If no suitable route exists, choose another route or postpone."
+    },
+    {
+      "claim_id": "situation-126-C01",
+      "question_id": "situation-126",
+      "chapter": "M06",
+      "lesson": "M06-L01",
+      "required_statement_to_verify": "Explain increased wildlife attention around dusk/dawn, habitats and fence openings.",
+      "classification": "safety advice",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-WILDLIFE"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket / VTI",
+          "queries": [
+            "site:transportstyrelsen.se fartblindhet",
+            "site:trafikverket.se fartblindhet",
+            "site:vti.se fartblindhet hastighet motorväg"
+          ],
+          "finding": "No exact TS/TRV explanation plus speedometer advice located in inspected results. VTI speed/attention and optical-line research did not provide this complete driver instruction. Official ODOT fallback selected."
+        },
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se vänstersväng fortsätt höger sväng",
+            "site:trafikverket.se \"vänstersväng\" \"vända\"",
+            "site:trafikverket.se \"vänstersväng\" \"lämplig plats\"",
+            "site:transportstyrelsen.se \"vänstersväng\" \"fortsätt\""
+          ],
+          "finding": "No exact general heavy-traffic return-right driver instruction located. Trafikverket historical rerouting example supports using an identified turning location; general application remains a conditional editorial inference constrained by current Swedish statute. Commercial theory pages not selected."
+        },
+        {
+          "publisher": "Trafikverket",
+          "queries": [
+            "site:trafikverket.se vilt gryning skymning öppningar stängsel",
+            "site:trafikverket.se \"skogsbryn\" \"vilt\""
+          ],
+          "finding": "Exact dawn/dusk and fence-opening passages on current wildlife page; exact habitat/hidden-approach passage in published road-plan landscape programme. No additional publisher needed."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "wildlife",
+          "source_id": "G6-wildlife",
+          "publisher": "Trafikverket",
+          "title": "Se upp för vilt på vägarna",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+          "version": "Updated 6 July 2026",
+          "locator": "När är det störst risk för vilt- och renolyckor?; Passager för vilt under eller över vägen; Faunapassager med viltvarningssystem",
+          "excerpt": "Var särskilt uppmärksam i gryning och skymning.",
+          "supports": "Year-round animal risk, increased attention at dawn/dusk, natural animal routes and intentional fence openings for crossings.",
+          "fallback_reason": null,
+          "scope_limits": "Prevention and observation only; not reproducing collision reporting from this page. No guarantee that fencing or absence of a warning proves an animal-free road.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+        },
+        {
+          "alias": "wildlife-habitat",
+          "source_id": "G6-wildlife-habitat",
+          "publisher": "Trafikverket; project authors Charlotta Gard, Liselott Nykvist, Rebecka Olsson and Lovisa Norlin, Sweco",
+          "title": "Gestaltningsprogram — Väg 26/47 Jönköping–Mullsjö, Hedenstorp–Månseryd",
+          "url": "https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf",
+          "version": "Version 2.0; 30 June 2023, revised 11 April 2025; TRV 2021/46509",
+          "locator": "Section 2.2 Naturmiljö, printed/PDF page 9 of 48; paragraph on animal routes and hidden approach",
+          "excerpt": "Djuren följer gärna skogsbryn och buskage längs stenmurar och mindre vattendrag.",
+          "supports": "Woodland/farmland habitat and edges/bushes/small waterways can provide animal routes and conceal approach to the road.",
+          "fallback_reason": null,
+          "scope_limits": "Project-specific landscape observation used as an example of cues to scan, not a nationwide accident-frequency estimate or a prediction of every animal crossing.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct official primary page/PDF retrieved; exact passage inspected"
+        }
+      ],
+      "fallback_justification": [],
+      "checked_on": "2026-10-13",
+      "scope_limits": "Prevention and observation only; not reproducing collision reporting from this page. No guarantee that fencing or absence of a warning proves an animal-free road. Project-specific landscape observation used as an example of cues to scan, not a nationwide accident-frequency estimate or a prediction of every animal crossing.",
+      "answer_conflict": null
+    }
+  ],
+  "source_priority_searches": [
+    {
+      "publisher": "Transportstyrelsen / Trafikverket / VTI",
+      "queries": [
+        "site:transportstyrelsen.se fartblindhet",
+        "site:trafikverket.se fartblindhet",
+        "site:vti.se fartblindhet hastighet motorväg"
+      ],
+      "finding": "No exact TS/TRV explanation plus speedometer advice located in inspected results. VTI speed/attention and optical-line research did not provide this complete driver instruction. Official ODOT fallback selected."
+    },
+    {
+      "publisher": "Transportstyrelsen / Trafikverket",
+      "queries": [
+        "site:transportstyrelsen.se vänstersväng fortsätt höger sväng",
+        "site:trafikverket.se \"vänstersväng\" \"vända\"",
+        "site:trafikverket.se \"vänstersväng\" \"lämplig plats\"",
+        "site:transportstyrelsen.se \"vänstersväng\" \"fortsätt\""
+      ],
+      "finding": "No exact general heavy-traffic return-right driver instruction located. Trafikverket historical rerouting example supports using an identified turning location; general application remains a conditional editorial inference constrained by current Swedish statute. Commercial theory pages not selected."
+    },
+    {
+      "publisher": "Trafikverket",
+      "queries": [
+        "site:trafikverket.se vilt gryning skymning öppningar stängsel",
+        "site:trafikverket.se \"skogsbryn\" \"vilt\""
+      ],
+      "finding": "Exact dawn/dusk and fence-opening passages on current wildlife page; exact habitat/hidden-approach passage in published road-plan landscape programme. No additional publisher needed."
+    }
+  ],
+  "answer_conflicts": []
+}

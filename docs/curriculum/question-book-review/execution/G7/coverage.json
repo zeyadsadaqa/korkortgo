@@ -1,0 +1,507 @@
+{
+  "step": "G7",
+  "checked_on": "2026-10-13",
+  "page_number_scope": "One-based local Chapter 7 pages; final book pages pending assembly.",
+  "chapter_pages": 27,
+  "baseline_pages": 23,
+  "added_pages": 4,
+  "questions_resolved": 12,
+  "essential_claims": 13,
+  "questions": [
+    {
+      "question_id": "situation-045",
+      "question_prompt": "May you use dipped headlights and front fog lights together?",
+      "keyed_answer": "No.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        4
+      ],
+      "primary_local_page": 4,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 23,
+      "teaching_excerpt": "Do not use dipped headlights and front fog lights together. In fog or heavy precipitation, front fog lights may replace dipped headlights; they are not an extra light to add to them. Select a permitted mode and check it on the actual vehicle. Transportstyrelsen: dipped beam and front fog lights Central vision · Read the detail. Central vision supplies the fine detail where you are looking directly. Reading the precise wording on a road sign relies particularly on it. Merely noticing a sign at the edge of your view does not establish what its text says. Official driver-vision guidance Peripheral vision · Notice, then inspect. Peripheral or side vision surrounds your direct focus. It can alert you to movement, a developing hazard or a traffic change outside that focus. Move your eyes, and head where needed, to inspect the relevant object directly while maintaining control and awareness of the road. For example, notice movement near the verge, then look to identify whether it is a person ",
+      "coverage_reasoning": "Names the Swedish prohibited pair explicitly and explains replacement in fog/heavy precipitation.",
+      "claim_ids": [
+        "situation-045-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "lights-combinations",
+          "publisher": "Transportstyrelsen",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf",
+          "locator": "Printed pp.8–9, PDF page 5 of 7: Fog, heavy rain or snow",
+          "scope_limits": "Swedish lighting rule. Current Fordonsbelysning page updated 8 May 2026 confirms dipped plus other lights prohibition; no foreign lighting law used."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        234
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-070",
+      "question_prompt": "Which task relies particularly on central vision?",
+      "keyed_answer": "Reading the precise wording on a road sign.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        4
+      ],
+      "primary_local_page": 4,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 23,
+      "teaching_excerpt": "Reading the precise wording on a road sign relies particularly on it. Merely noticing a sign at the edge of your view does not establish what its text says. Official driver-vision guidance Peripheral vision · Notice, then inspect. Peripheral or side vision surrounds your direct focus. It can alert you to movement, a developing hazard or a traffic change outside that focus. Move your eyes, and head where needed, to inspect the relevant object directly while maintaining control and awareness of the road. For example, notice movement near the verge, then look to identify whether it is a person about to enter your path. Keep scanning; staring at one sign can leave other information unattended. Official driver-vision guidance One light · Keep width uncertain. One approaching light at night does not prove a narrow motorcycle. A wider car can have a failed headlight. Transportstyrelsen documents defective car headlights; the practical inference is to allow for a vehicle whose full width is no",
+      "coverage_reasoning": "Defines central detail vision and its role in reading exact sign wording.",
+      "claim_ids": [
+        "situation-070-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "vision-roles",
+          "publisher": "California Department of Motor Vehicles",
+          "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/",
+          "locator": "Visual Acuity and Peripheral Vision",
+          "scope_limits": "Explains perception roles, not Swedish medical eligibility or California licence-testing standards. Peripheral vision can alert, but precise inspection requires looking directly; no claim that it detects every hazard."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        234
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-071",
+      "question_prompt": "Why is peripheral vision important in traffic?",
+      "keyed_answer": "It helps detect movement and potential hazards outside your direct focus.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        4
+      ],
+      "primary_local_page": 4,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 23,
+      "teaching_excerpt": "It can alert you to movement, a developing hazard or a traffic change outside that focus. Move your eyes, and head where needed, to inspect the relevant object directly while maintaining control and awareness of the road. For example, notice movement near the verge, then look to identify whether it is a person about to enter your path. Keep scanning; staring at one sign can leave other information unattended. Official driver-vision guidance One light · Keep width uncertain. One approaching light at night does not prove a narrow motorcycle. A wider car can have a failed headlight. Transportstyrelsen documents defective car headlights; the practical inference is to allow for a vehicle whose full width is not yet visible. Preserve a safe lateral margin and adapt speed to the view rather than squeezing past on a guessed width. Transportstyrelsen: defective car headlights",
+      "coverage_reasoning": "Explains peripheral detection outside direct focus and eye/head movement for direct inspection, with verge example.",
+      "claim_ids": [
+        "situation-071-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "vision-roles",
+          "publisher": "California Department of Motor Vehicles",
+          "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/",
+          "locator": "Visual Acuity and Peripheral Vision",
+          "scope_limits": "Explains perception roles, not Swedish medical eligibility or California licence-testing standards. Peripheral vision can alert, but precise inspection requires looking directly; no claim that it detects every hazard."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        234
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-073",
+      "question_prompt": "You see one light approaching at night. What should you remember?",
+      "keyed_answer": "It may be a wider vehicle with a failed headlight.",
+      "chapter": "M07",
+      "lesson": "M07-L01",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        4
+      ],
+      "primary_local_page": 4,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 23,
+      "teaching_excerpt": "One approaching light at night does not prove a narrow motorcycle. A wider car can have a failed headlight. Transportstyrelsen documents defective car headlights; the practical inference is to allow for a vehicle whose full width is not yet visible. Preserve a safe lateral margin and adapt speed to the view rather than squeezing past on a guessed width. Transportstyrelsen: defective car headlights",
+      "coverage_reasoning": "Explains possible wider car with failed lamp and clearance caution; conditional editorial inference from documented defective car lamps.",
+      "claim_ids": [
+        "situation-073-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "lamp-defects",
+          "publisher": "Transportstyrelsen",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2025/halvljus--vanligaste-felet-vid-besiktning/",
+          "locator": "Vanligaste felet – defekta halvljus",
+          "scope_limits": "Single-visible-lamp width caution is an explicitly identified editorial inference from the agency fact of defective car headlights. The agency does not directly describe this night-driving illusion; no statistics or assertion that every single light is a car."
+        }
+      ],
+      "evidence_basis": "conditional editorial width inference from defective-headlight evidence",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        234
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-114",
+      "question_prompt": "Why can a bridge freeze before nearby road sections?",
+      "keyed_answer": "Cold air can cool it from above and below.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        9
+      ],
+      "primary_local_page": 9,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "A bridge is exposed to cold air above and below. That exposure can cool it faster than neighbouring road supported by ground, so moisture can freeze on the bridge while the approach still appears clear. It is a possibility, not a rule that every bridge always freezes first. Anticipate uncertain grip and reduce speed before reaching the bridge. National Weather Service: bridge cooling Rain on a cold road · Ice can hide. Rainwater can freeze when it meets a road surface cold enough for ice to form, producing a thin, nearly invisible slippery layer. The road may look wet, and the air temperature can be above zero while the surface is still below freezing. Near-zero air alone does not prove ice, but it calls for attention to surface conditions, more space and lower speed. Trafikverket: deceptive ice and cold roads First rain after dry weather · Residues matter. During a dry spell, dust, dirt and oily residues can accumulate. The first rain can mix with these contaminants and make the road ",
+      "coverage_reasoning": "Explains exposed bridge cooling and possible earlier freezing, not an always-first guarantee.",
+      "claim_ids": [
+        "situation-114-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "bridge-cooling",
+          "publisher": "NOAA National Weather Service",
+          "url": "https://www.weather.gov/wrn/winter-driving-sm",
+          "locator": "Bridges Freeze First, text and alt text",
+          "scope_limits": "A bridge can freeze sooner, not a guarantee every bridge always freezes first; moisture, temperature and local conditions matter. No US winter casualty figures imported."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        239
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-116",
+      "question_prompt": "Rain falls near freezing temperature onto a cold road. What risk should you anticipate?",
+      "keyed_answer": "A nearly invisible slippery ice layer.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        9
+      ],
+      "primary_local_page": 9,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "Rainwater can freeze when it meets a road surface cold enough for ice to form, producing a thin, nearly invisible slippery layer. The road may look wet, and the air temperature can be above zero while the surface is still below freezing. Near-zero air alone does not prove ice, but it calls for attention to surface conditions, more space and lower speed. Trafikverket: deceptive ice and cold roads First rain after dry weather · Residues matter. During a dry spell, dust, dirt and oily residues can accumulate. The first rain can mix with these contaminants and make the road unusually slippery. Reassess speed and separation as rain starts; do not assume a light shower immediately washes the surface clean or that a fixed time restores grip. County Fire: rain after a dry spell Worked surface decision. A light shower begins after dry weather as you approach a bridge in near-freezing conditions. Plan for both wet residues and possible local ice. The clear-looking approach does not measure the g",
+      "coverage_reasoning": "Explicit freezing on sufficiently cold surface, thin deceptive ice and distinction between air and road temperature.",
+      "claim_ids": [
+        "situation-116-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "ice-risk",
+          "publisher": "Trafikverket",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/",
+          "locator": "Kan det bli halt trots att det är plusgrader? Ishalka bullet; Du kan göra mycket själv items 1 and 4",
+          "scope_limits": "Road surface must be cold enough for freezing; near-zero air or rain alone does not prove ice. No salt-temperature or maintenance-performance claims imported. SMHI Trafikväder/Underkylt regn checked as corroboration only; TRV supports the teaching so no redundant SMHI citation added."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        239
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-117",
+      "question_prompt": "After a long dry spell, the first rain begins. What should you consider?",
+      "keyed_answer": "Dirt and residues can make the surface unusually slippery.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        9
+      ],
+      "primary_local_page": 9,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "During a dry spell, dust, dirt and oily residues can accumulate. The first rain can mix with these contaminants and make the road unusually slippery. Reassess speed and separation as rain starts; do not assume a light shower immediately washes the surface clean or that a fixed time restores grip. County Fire: rain after a dry spell Worked surface decision. A light shower begins after dry weather as you approach a bridge in near-freezing conditions. Plan for both wet residues and possible local ice. The clear-looking approach does not measure the grip on the bridge.",
+      "coverage_reasoning": "Explains accumulation and mixing by first rain, reduced grip and no guaranteed cleaning time.",
+      "claim_ids": [
+        "situation-117-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "first-rain",
+          "publisher": "San Bernardino County Fire",
+          "url": "https://main.sbcounty.gov/2019/12/04/arrive-safely-with-these-winter-driving-safety-tips/",
+          "locator": "Reduce Your Speed, bullet beginning Slow down at the first sign of rain",
+          "scope_limits": "Hazard explanation only. No US speed reductions, car-length following rules, lighting rules or chains instructions imported. Rain and residues can reduce grip; no fixed duration or claim rain later guarantees clean/safe road."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        239
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-148",
+      "question_prompt": "Why are the tyres with the best grip generally fitted on the rear axle?",
+      "keyed_answer": "To reduce the risk of the rear losing grip and swinging out.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        10
+      ],
+      "primary_local_page": 10,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "Better rear grip helps reduce the risk of the rear sliding outward and rotating the car. Suitable tyres and stability assistance still cannot guarantee control. Transportstyrelsen: best tyres at the rear · VTI: rear grip and oversteer Oversteer · Rear grip loss. In the loss-of-grip situation, the rear tyres lose sufficient lateral grip, the tail swings outward and the car rotates more than intended into the turn. This can develop into a spin. VTI: oversteer and rear stability Understeer · Front grip loss. In the loss-of-grip situation, the front tyres cannot supply the lateral grip needed for the requested turn. The car turns less than intended and follows a straighter, wider path; adding more steering does not guarantee the requested curve. These are grip-loss explanations, not a full definition of every vehicle's normal handling characteristics. VTI: handling paths · NHTSA: front-axle grip limit Aquaplaning · Water interrupts contact. If water builds between tyres and road, it can su",
+      "coverage_reasoning": "Explains rear stability, tail slide and rotation risk behind the best-rear-tyre recommendation.",
+      "claim_ids": [
+        "situation-148-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "tyre-basics",
+          "publisher": "Transportstyrelsen",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+          "locator": "Bra att tänka på — Bästa däcken bak",
+          "scope_limits": "Recommendation, not new legal mandate. Rear-stability explanation paired with VTI rear grip/oversteer mechanism. Approved sizes and vehicle instructions still apply."
+        },
+        {
+          "source_alias": "handling",
+          "publisher": "VTI; report hosted by Trafikverket, funded by Skyltfonden",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "scope_limits": "Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        240
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-149",
+      "question_prompt": "What happens in oversteer?",
+      "keyed_answer": "The rear loses grip and the car turns more than intended.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        10
+      ],
+      "primary_local_page": 10,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "the rear tyres lose sufficient lateral grip, the tail swings outward and the car rotates more than intended into the turn. This can develop into a spin. VTI: oversteer and rear stability Understeer · Front grip loss. In the loss-of-grip situation, the front tyres cannot supply the lateral grip needed for the requested turn. The car turns less than intended and follows a straighter, wider path; adding more steering does not guarantee the requested curve. These are grip-loss explanations, not a full definition of every vehicle's normal handling characteristics. VTI: handling paths · NHTSA: front-axle grip limit Aquaplaning · Water interrupts contact. If water builds between tyres and road, it can support the tyre on a film and reduce or remove effective tyre-road contact. Steering and braking then have less grip to work with. Reduce speed before standing water and uncertain wet surfaces. PennDOT: aquaplaning Response · Ease off smoothly. If aquaplaning starts and there is space to slow g",
+      "coverage_reasoning": "Defines the grip-loss oversteer case: rear slide and excess rotation.",
+      "claim_ids": [
+        "situation-149-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "handling",
+          "publisher": "VTI; report hosted by Trafikverket, funded by Skyltfonden",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "scope_limits": "Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        240
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-150",
+      "question_prompt": "What happens in understeer?",
+      "keyed_answer": "The front loses grip and the car turns less than intended.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        10
+      ],
+      "primary_local_page": 10,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "the front tyres cannot supply the lateral grip needed for the requested turn. The car turns less than intended and follows a straighter, wider path; adding more steering does not guarantee the requested curve. These are grip-loss explanations, not a full definition of every vehicle's normal handling characteristics. VTI: handling paths · NHTSA: front-axle grip limit Aquaplaning · Water interrupts contact. If water builds between tyres and road, it can support the tyre on a film and reduce or remove effective tyre-road contact. Steering and braking then have less grip to work with. Reduce speed before standing water and uncertain wet surfaces. PennDOT: aquaplaning Response · Ease off smoothly. If aquaplaning starts and there is space to slow gradually, ease off the accelerator, keep steering steady and avoid abrupt steering or hard braking. Make only gentle necessary corrections as contact returns. This is different from M02-L01's ABS emergency-stop instruction: ABS cannot create grip w",
+      "coverage_reasoning": "Defines grip-loss understeer: front saturation, reduced turn and straighter/wider path; distinguishes ordinary handling characteristics.",
+      "claim_ids": [
+        "situation-150-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "handling",
+          "publisher": "VTI; report hosted by Trafikverket, funded by Skyltfonden",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "scope_limits": "Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported."
+        },
+        {
+          "source_alias": "front-grip",
+          "publisher": "US Department of Transportation, NHTSA",
+          "url": "https://www.nhtsa.gov/document/final-rule-federal-motor-vehicle-safety-standards-electronic-stability-control-systems-0",
+          "locator": "What NHTSA Means by Mitigating Excessive Understeer, Case 1, PDF/numbered p.310; Case 3 p.311",
+          "scope_limits": "Technical grip-limit explanation only; no US ESC compliance rules imported. Restricted to loss-of-grip understeer, not claim that every ordinarily understeering car has already lost grip."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        240
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-152",
+      "question_prompt": "What occurs during aquaplaning?",
+      "keyed_answer": "Water prevents the tyre from maintaining proper contact with the road.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        10
+      ],
+      "primary_local_page": 10,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "If water builds between tyres and road, it can support the tyre on a film and reduce or remove effective tyre-road contact. Steering and braking then have less grip to work with. Reduce speed before standing water and uncertain wet surfaces. PennDOT: aquaplaning Response · Ease off smoothly. If aquaplaning starts and there is space to slow gradually, ease off the accelerator, keep steering steady and avoid abrupt steering or hard braking. Make only gentle necessary corrections as contact returns. This is different from M02-L01's ABS emergency-stop instruction: ABS cannot create grip where a tyre is separated from the road by water. An immediate collision emergency needs action appropriate to the actual situation; this advice does not establish a universal ban on braking. PennDOT: aquaplaning response Worked grip comparison. A rear slide swinging the tail outward is oversteer; a front slide that prevents the intended curve is understeer. A light, unresponsive steering feel over standing",
+      "coverage_reasoning": "Explains water-supported tyre film and reduced/absent effective road contact, steering/braking limits.",
+      "claim_ids": [
+        "situation-152-C01"
+      ],
+      "sources": [
+        {
+          "source_alias": "wet-driving",
+          "publisher": "Pennsylvania Department of Transportation (PennDOT)",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+          "locator": "Road Conditions — Hydroplaning, definition and response items 1–4",
+          "scope_limits": "Aquaplaning response with space/time to slow gradually. No foreign mph/water-depth thresholds or emergency-law rules imported. No universal never-brake instruction. Immediate collision emergency remains context-specific; G2 ABS instruction is not a claim ABS restores water-separated contact."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        240
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-153",
+      "question_prompt": "Your car starts aquaplaning. What is the appropriate response?",
+      "keyed_answer": "Ease off the accelerator and avoid abrupt steering or braking.",
+      "chapter": "M07",
+      "lesson": "M07-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        10
+      ],
+      "primary_local_page": 10,
+      "comprehension_check_local_page": 12,
+      "answer_local_page": 23,
+      "teaching_excerpt": "ease off the accelerator, keep steering steady and avoid abrupt steering or hard braking. Make only gentle necessary corrections as contact returns. This is different from M02-L01's ABS emergency-stop instruction: ABS cannot create grip where a tyre is separated from the road by water. An immediate collision emergency needs action appropriate to the actual situation; this advice does not establish a universal ban on braking. PennDOT: aquaplaning response Worked grip comparison. A rear slide swinging the tail outward is oversteer; a front slide that prevents the intended curve is understeer. A light, unresponsive steering feel over standing water raises a different possibility: aquaplaning. Recognise the mechanism, preserve margins and practise vehicle-specific emergency handling only with suitable instruction.",
+      "coverage_reasoning": "Both essential responses: gradual accelerator release and avoiding abrupt steering/braking, with gentle necessary corrections. Cross-link to M02-L01 ABS and scope excludes universal never-brake instruction.",
+      "claim_ids": [
+        "situation-153-C01",
+        "situation-153-C02"
+      ],
+      "sources": [
+        {
+          "source_alias": "wet-driving",
+          "publisher": "Pennsylvania Department of Transportation (PennDOT)",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+          "locator": "Road Conditions — Hydroplaning, definition and response items 1–4",
+          "scope_limits": "Aquaplaning response with space/time to slow gradually. No foreign mph/water-depth thresholds or emergency-law rules imported. No universal never-brake instruction. Immediate collision emergency remains context-specific; G2 ABS instruction is not a claim ABS restores water-separated contact."
+        }
+      ],
+      "evidence_basis": "official primary evidence with stated scope",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        240
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    }
+  ]
+}

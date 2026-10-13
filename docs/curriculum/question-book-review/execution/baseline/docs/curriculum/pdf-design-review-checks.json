@@ -1,0 +1,53 @@
+{
+  "reviewed_on": "2026-10-03",
+  "status": "consolidated_completion_blocked",
+  "checks": {
+    "local_links": true,
+    "unique_coverage_ids_50": true,
+    "lesson_ids_40": true,
+    "review_ids_10": true,
+    "exact_disclaimer": true
+  },
+  "blockers": [
+    "F01",
+    "F02",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08"
+  ],
+  "step_5_complete": false,
+  "step_6_started": false,
+  "input_sha256": {
+    "docs/curriculum/implementation-plan.md": "1d9416920a266592168083da16ebc96b8060028a05c52f5e53ab399ddda45068",
+    "docs/curriculum/manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
+    "docs/curriculum/pdf-design-brief.md": "85d1bda2d0cf31a4d987eb07ddccc6186cba137648923027bdc9fbbd6a32e686",
+    "docs/curriculum/pdf-design-spec.md": "52c434c0561709f54e266d529892d21a9326252cad7467745f9bd5bbb1ea0ce3",
+    "docs/curriculum/pdf-design-review.md": "281764051853cabc7f808d13226f49f6c7bc7d7cbe6851a0669180f3597242cc",
+    "docs/curriculum/sign-verification-checks.json": "b462f9f9089ef57cd73db42e203c3eda0072cc3c2e11dfdd2b30afad9badeb58",
+    "docs/curriculum/pdf-design/5c/review.md": "2dc34fd21c6100790a04d3d1fb70af13461b24c5b0d38206b5db730583c97ff1",
+    "docs/curriculum/pdf-design/5d/review.md": "fb2e915a0ec34752ef0d542bb1a5f77766bd8d87f839ff289fc06ccf28be855d",
+    "docs/curriculum/pdf-design/5e/review.md": "0495133b6aec82c9480e6247f428a13e54eca0f5c51dea4c25c7542c0f71ee6c",
+    "docs/curriculum/pdf-design/5b/review.md": "9a967cd3226649d284395bf760d58051bf5a86f243067087161f66393e7a740f",
+    "docs/curriculum/pdf-design/5e/illustration-register.json": "8ca156818b687a2e7cad29cd40b424b94283e9cf6c14c10448021c42cd1efffc",
+    "docs/curriculum/pdf-design/5e/checks.json": "7c20cfd1b2661cae69fd5747760b12e7fc259c6a67779bab145ffa8abb2519e4",
+    "docs/curriculum/pdf-design/5e/asset-bindings.json": "04ce81d878f3d2d6a945d6f142bc9c604e248af199701303fb80f96b5e0f3396",
+    "docs/curriculum/pdf-design/5c/navigation-v1.png": "ccb6b22680c05eeb652439aafb415f91564174fa00cc63f074b3c08af474af84",
+    "docs/curriculum/pdf-design/5d/lessons-v1.png": "3f9fe514c702e621821c2adaef8db9d6f23e2e6dd350731495e0c5897e4feb07",
+    "docs/curriculum/pdf-design/5d/reflection-reference-v1.png": "005ef90b70ded3a24cb7b7b07223af08c73afa726bd3a971ae68674500ac1970",
+    "docs/curriculum/pdf-design/5e/parking-timeline-v1.png": "3b172545901892c91bd8d6242295fe26e1fc386d770191dfe0a1035dc9e0d687",
+    "docs/curriculum/pdf-design/5e/style-v1.png": "02b2ebf67537836f350af8be4daeb9589ba8435a6de25aa302ffe953c26ed779",
+    "docs/curriculum/pdf-design/5e/scenarios-v2.png": "f5ff10ecced59cbbdc7b0b3f34451301c3319a0c4220a25852e832f980f25623",
+    "docs/curriculum/pdf-design/5e/scenarios-v1.png": "6c4b4d524d5179479ef59c57458324a64183ea43684a795d9f2870ce545a19b3",
+    "docs/curriculum/pdf-design/5e/sign-layouts-v1.png": "09a1bfc8e067276585502dda65cd8ef3b80a0d29d24bfe9e1ddd8672a4b2c6e1",
+    "docs/curriculum/pdf-design/5b/cover-opening-v4.png": "9d2f3359961b9e7b3623d8980ae9ce630155fbe72503748daecaae096fd152f9",
+    "docs/curriculum/pdf-design/5b/cover-opening-v2.png": "63ac6f3bfd99984bd9920575389993021d32be00b5de839f76407ef9d5c8b9d6",
+    "docs/curriculum/pdf-design/5b/cover-opening-v3.png": "1f5ed41dd17337c2ae3e0cc543b714c1343ddf9ee706407420b6af4a5ac484d8",
+    "docs/curriculum/pdf-design/5b/cover-opening-v1.png": "bd4cb6506b52e82c3175fab639d1b5375013247f042003139105a5b1547cfdb1",
+    "design/brand/README.md": "063bdb0c1be082f445d95a53e5ce1b1d833e2c0b9dd5c91904498fd61cdf9021",
+    "design/brand/tokens.json": "b75f5aea31a79261a1a728fa7ac60f2a1d4063ea302ea131c1c72b1868904851",
+    "design/brand/illustration-guide.md": "af06bd2e78f6d7957c9a3baf688ddc4dc72e3e415b5ba7e94719cb912f335f13"
+  }
+}

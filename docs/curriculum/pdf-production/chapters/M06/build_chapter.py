@@ -252,6 +252,10 @@ def lesson_body(b,n):
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     deferred=None
     for p in paras[1:paras.index(worked)]:
+        if n==1 and p.startswith('**Turn planning · Choose a safer approach.'):
+            b.end();b.start(key+'-planning',key+' · Rural decisions');b.text('Plan turns and read animal cues','heading')
+        if n==3 and p.startswith('**After the motorway · Recheck your speed.'):
+            b.end();b.start(key+'-speed-adaptation',key+' · Speed perception');b.text('Adjust after faster traffic','heading')
         # Keep the passing approach with its illustration, avoiding a one-paragraph page.
         if n==2 and p.startswith('**Learning approach.'):
             deferred=p;continue
@@ -297,12 +301,12 @@ def run():
     b.start('M06-answers','Answers and review guidance');b.text('Review after answering','heading')
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M06-R','source',6);b.text('**Review guide:** '+a);b.answers['M06-R']=b.page;b.end()
-    for offset in range(0,len(ALIASES),4):
+    for offset in range(0,len(ALIASES),5):
         key='M06-references' if offset==0 else 'M06-references-2';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 5 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
-        for alias in ALIASES[offset:offset+4]:
+        b.text('Original references checked 5 October 2026; G6 additions checked 13 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
+        for alias in ALIASES[offset:offset+5]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
-        if offset==4:b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
+        if offset==5:b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
         b.end()
     b.c.save();r=PdfReader(OUT/'chapter.pdf');w=PdfWriter();w.clone_document_from_reader(r)
     assert not b.vectors,'M06 currently uses only verified raster sign assets'
@@ -312,6 +316,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M06':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif key in ['M06-L01-planning','M06-L03-speed-adaptation']:w.add_outline_item(b.page_labels[num],num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M06-answers','M06-references','M06-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['M06-R-crossings','M06-R-route','M06-R-works'] or any(key.endswith(suf) for suf in ['-scenario','-rail','-works','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

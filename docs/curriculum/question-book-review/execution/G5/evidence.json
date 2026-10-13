@@ -1,0 +1,384 @@
+{
+  "step": "G5",
+  "checked_on": "2026-10-13",
+  "sources": [
+    {
+      "alias": "traffic-law",
+      "source_id": "G5-bus-rule",
+      "publisher": "Swedish Government; published by Sveriges riksdag",
+      "title": "Traffic Regulation (1998:1276)",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "version": "Consolidated live text; chapter 3 §§43–45 checked as applicable 13 October 2026",
+      "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+      "excerpt": "utan fara eller onödigt hinder; anpassa hastigheten så att inkörningen underlättas; 50 kilometer i timmen eller lägre",
+      "supports": "Special bus-stop departure duty at road limits ≤50; no such special duty at 70, but safe-entry and speed-adaptation/cooperation duties remain.",
+      "fallback_reason": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+      "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+    },
+    {
+      "alias": "guide-dog",
+      "source_id": "G5-guide-dog",
+      "publisher": "Myndigheten för delaktighet (MFD)",
+      "title": "Fakta om ledarhundar",
+      "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+      "version": "Last updated 30 April 2026",
+      "locator": "När du möter ett ledarhundsekipage, first and third bullets; Så här arbetar ledarhundar",
+      "excerpt": "Stör inte ledarhundar som arbetar genom att klappa eller prata med dem.",
+      "supports": "Avoid petting/talking to distract working guide dogs; distraction can endanger handler; communicate with handler, who chooses route and remains in control.",
+      "fallback_reason": "No exact guide-dog distraction advice located in TS/TRV searches. MFD is the Swedish government authority responsible for guide-dog services and supplies directly applicable guidance.",
+      "scope_limits": "Safety/interaction advice, not a newly asserted traffic offence. No claim that the dog alone decides a road is safe or every glance necessarily distracts it.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+    },
+    {
+      "alias": "bicycle-definition",
+      "source_id": "G5-bicycle-definition",
+      "publisher": "Transportstyrelsen",
+      "title": "Cykel",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/",
+      "version": "Last updated 16 February 2026",
+      "locator": "Definitionen av en cykel, definition item 1 under Act (2001:559)",
+      "excerpt": "Ett fordon som är avsett att drivas med tramp- eller vevanordning och inte är ett lekfordon.",
+      "supports": "An ordinary pedal bicycle is a vehicle even though not motor-driven; a rider is operating a vehicle.",
+      "fallback_reason": null,
+      "scope_limits": "Ordinary pedal bicycle, excluding toy vehicles. No unnecessary e-bike/e-scooter taxonomy or implication that every crossing rule is identical for all vehicles.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "situation-013-C01",
+      "question_id": "situation-013",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "required_statement_to_verify": "The special bus-exit obligation applies at limits of 50 km/h or lower.",
+      "classification": "legal requirement/definition",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-LAW"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se buss hållplats 50 70 km",
+            "site:trafikverket.se buss hållplats 50 70",
+            "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+            "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+            "site:transportstyrelsen.se ledarhund störa",
+            "site:trafikverket.se ledarhund klappa"
+          ],
+          "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+        },
+        {
+          "publisher": "Transportstyrelsen",
+          "queries": [
+            "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+          ],
+          "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+        },
+        {
+          "publisher": "MFD",
+          "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+          "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Traffic Regulation (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "version": "Consolidated live text; chapter 3 §§43–45 checked as applicable 13 October 2026",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "excerpt": "utan fara eller onödigt hinder; anpassa hastigheten så att inkörningen underlättas; 50 kilometer i timmen eller lägre",
+          "supports": "Special bus-stop departure duty at road limits ≤50; no such special duty at 70, but safe-entry and speed-adaptation/cooperation duties remain.",
+          "fallback_reason": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+          "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+        }
+      ],
+      "fallback_justification": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+      "checked_on": "2026-10-13",
+      "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-013-C02",
+      "question_id": "situation-013",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "required_statement_to_verify": "Above that threshold the bus must enter without danger or unnecessary obstruction.",
+      "classification": "legal requirement/definition",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-LAW"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se buss hållplats 50 70 km",
+            "site:trafikverket.se buss hållplats 50 70",
+            "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+            "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+            "site:transportstyrelsen.se ledarhund störa",
+            "site:trafikverket.se ledarhund klappa"
+          ],
+          "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+        },
+        {
+          "publisher": "Transportstyrelsen",
+          "queries": [
+            "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+          ],
+          "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+        },
+        {
+          "publisher": "MFD",
+          "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+          "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Traffic Regulation (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "version": "Consolidated live text; chapter 3 §§43–45 checked as applicable 13 October 2026",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "excerpt": "utan fara eller onödigt hinder; anpassa hastigheten så att inkörningen underlättas; 50 kilometer i timmen eller lägre",
+          "supports": "Special bus-stop departure duty at road limits ≤50; no such special duty at 70, but safe-entry and speed-adaptation/cooperation duties remain.",
+          "fallback_reason": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+          "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+        }
+      ],
+      "fallback_justification": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+      "checked_on": "2026-10-13",
+      "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "answer_conflict": null,
+      "interpretation": "§45 road-limit threshold does not apply at 70; §43 safe-start/lateral-entry duty does. This is a comparison of the provisions, not a direct quoted 70-km/h sentence."
+    },
+    {
+      "claim_id": "situation-013-C03",
+      "question_id": "situation-013",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "required_statement_to_verify": "Other drivers must still cooperate appropriately.",
+      "classification": "legal requirement/definition",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-LAW"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se buss hållplats 50 70 km",
+            "site:trafikverket.se buss hållplats 50 70",
+            "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+            "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+            "site:transportstyrelsen.se ledarhund störa",
+            "site:trafikverket.se ledarhund klappa"
+          ],
+          "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+        },
+        {
+          "publisher": "Transportstyrelsen",
+          "queries": [
+            "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+          ],
+          "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+        },
+        {
+          "publisher": "MFD",
+          "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+          "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "publisher": "Swedish Government; published by Sveriges riksdag",
+          "title": "Traffic Regulation (1998:1276)",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "version": "Consolidated live text; chapter 3 §§43–45 checked as applicable 13 October 2026",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "excerpt": "utan fara eller onödigt hinder; anpassa hastigheten så att inkörningen underlättas; 50 kilometer i timmen eller lägre",
+          "supports": "Special bus-stop departure duty at road limits ≤50; no such special duty at 70, but safe-entry and speed-adaptation/cooperation duties remain.",
+          "fallback_reason": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+          "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+        }
+      ],
+      "fallback_justification": "Inspected TS/TRV results did not establish the complete current 50/70 comparison and reciprocal duties. The current statutory provisions give exact primary legal support.",
+      "checked_on": "2026-10-13",
+      "scope_limits": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-119-C01",
+      "question_id": "situation-119",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "required_statement_to_verify": "Avoid distracting a working guide dog, including attention directed at the dog.",
+      "classification": "safety advice",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-GUIDE"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se buss hållplats 50 70 km",
+            "site:trafikverket.se buss hållplats 50 70",
+            "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+            "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+            "site:transportstyrelsen.se ledarhund störa",
+            "site:trafikverket.se ledarhund klappa"
+          ],
+          "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+        },
+        {
+          "publisher": "Transportstyrelsen",
+          "queries": [
+            "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+          ],
+          "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+        },
+        {
+          "publisher": "MFD",
+          "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+          "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "guide-dog",
+          "source_id": "G5-guide-dog",
+          "publisher": "Myndigheten för delaktighet (MFD)",
+          "title": "Fakta om ledarhundar",
+          "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+          "version": "Last updated 30 April 2026",
+          "locator": "När du möter ett ledarhundsekipage, first and third bullets; Så här arbetar ledarhundar",
+          "excerpt": "Stör inte ledarhundar som arbetar genom att klappa eller prata med dem.",
+          "supports": "Avoid petting/talking to distract working guide dogs; distraction can endanger handler; communicate with handler, who chooses route and remains in control.",
+          "fallback_reason": "No exact guide-dog distraction advice located in TS/TRV searches. MFD is the Swedish government authority responsible for guide-dog services and supplies directly applicable guidance.",
+          "scope_limits": "Safety/interaction advice, not a newly asserted traffic offence. No claim that the dog alone decides a road is safe or every glance necessarily distracts it.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+        }
+      ],
+      "fallback_justification": "No exact guide-dog distraction advice located in TS/TRV searches. MFD is the Swedish government authority responsible for guide-dog services and supplies directly applicable guidance.",
+      "checked_on": "2026-10-13",
+      "scope_limits": "Safety/interaction advice, not a newly asserted traffic offence. No claim that the dog alone decides a road is safe or every glance necessarily distracts it.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-135-C01",
+      "question_id": "situation-135",
+      "chapter": "M05",
+      "lesson": "M05-L01",
+      "required_statement_to_verify": "Explicitly identify a bicycle as a vehicle under traffic terminology.",
+      "classification": "legal requirement/definition",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-LIGHTS"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:transportstyrelsen.se buss hållplats 50 70 km",
+            "site:trafikverket.se buss hållplats 50 70",
+            "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+            "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+            "site:transportstyrelsen.se ledarhund störa",
+            "site:trafikverket.se ledarhund klappa"
+          ],
+          "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+        },
+        {
+          "publisher": "Transportstyrelsen",
+          "queries": [
+            "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+          ],
+          "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+        },
+        {
+          "publisher": "MFD",
+          "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+          "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "bicycle-definition",
+          "source_id": "G5-bicycle-definition",
+          "publisher": "Transportstyrelsen",
+          "title": "Cykel",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/",
+          "version": "Last updated 16 February 2026",
+          "locator": "Definitionen av en cykel, definition item 1 under Act (2001:559)",
+          "excerpt": "Ett fordon som är avsett att drivas med tramp- eller vevanordning och inte är ett lekfordon.",
+          "supports": "An ordinary pedal bicycle is a vehicle even though not motor-driven; a rider is operating a vehicle.",
+          "fallback_reason": null,
+          "scope_limits": "Ordinary pedal bicycle, excluding toy vehicles. No unnecessary e-bike/e-scooter taxonomy or implication that every crossing rule is identical for all vehicles.",
+          "checked_on": "2026-10-13",
+          "retrieved_on": "2026-10-13",
+          "retrieval_method": "Direct primary official page retrieved and exact passage inspected"
+        }
+      ],
+      "fallback_justification": null,
+      "checked_on": "2026-10-13",
+      "scope_limits": "Ordinary pedal bicycle, excluding toy vehicles. No unnecessary e-bike/e-scooter taxonomy or implication that every crossing rule is identical for all vehicles.",
+      "answer_conflict": null
+    }
+  ],
+  "source_priority_searches": [
+    {
+      "publisher": "Transportstyrelsen / Trafikverket",
+      "queries": [
+        "site:transportstyrelsen.se buss hållplats 50 70 km",
+        "site:trafikverket.se buss hållplats 50 70",
+        "site:transportstyrelsen.se \"buss\" \"50 kilometer\" \"hållplats\"",
+        "site:trafikverket.se \"buss\" \"50 km/h\" \"lämna\"",
+        "site:transportstyrelsen.se ledarhund störa",
+        "site:trafikverket.se ledarhund klappa"
+      ],
+      "finding": "General speed/stop caution and historical infrastructure material located, but not sufficient exact current 50/70/cooperation explanation or working-dog distraction advice. Scope describes inspected searches, not all publications."
+    },
+    {
+      "publisher": "Transportstyrelsen",
+      "queries": [
+        "site:transportstyrelsen.se \"cykel\" \"ett fordon\""
+      ],
+      "finding": "Exact current definition directly located; no other publisher needed for the bicycle claim."
+    },
+    {
+      "publisher": "MFD",
+      "url": "https://www.mfd.se/nyhetsarkiv/ledarhundens-dag/",
+      "finding": "Original lead, 24 April 2024, supports not petting/talking and loss of concentration. Selected newer Facts page (30 April 2026) instead of duplicating both citations."
+    }
+  ],
+  "answer_conflicts": []
+}

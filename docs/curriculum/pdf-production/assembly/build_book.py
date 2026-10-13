@@ -152,9 +152,9 @@ def run():
         if a['id']=='appendix-B':
             for g in json.loads((ROOT/'sign-placement-map.json').read_text())['reference_groups']:writer.add_outline_item(g['group_id']+' · '+g['title'],dest[g['group_id']]-1,parent=child)
             writer.add_outline_item('Sign code and family lookup',dest['sign-family-index']-1,parent=child)
-    writer.add_outline_item('Official references',dest['official-references']-1);writer.add_outline_item('Artwork and source credits',dest['artwork-credits']-1)
+    writer.add_outline_item('Official references',dest['official-references']-1);writer.add_outline_item('Manufacturer technical references',dest['manufacturer-references']-1);writer.add_outline_item('Artwork and source credits',dest['artwork-credits']-1)
     writer.root_object[NameObject('/Lang')]=TextStringObject('en-GB');writer.set_page_label(0,len(writer.pages)-1,style='/D',start=1)
-    writer.add_metadata({'/Title':'KörkortGo | Swedish category B learning guide','/Author':'KörkortGo','/Subject':'Complete curriculum review edition | A learning aid','/CreationDate':'D:20261007000000Z','/ModDate':'D:20261007000000Z'})
+    writer.add_metadata({'/Title':'KörkortGo | Swedish category B learning guide','/Author':'KörkortGo','/Subject':'Complete curriculum review edition | A learning aid','/CreationDate':'D:20261013000000Z','/ModDate':'D:20261013000000Z'})
     with TARGET.open('wb') as f:writer.write(f)
     (OUT/'navigation.json').write_text(json.dumps({'pages':len(writer.pages),'destinations':dest,'page_map':page_map,'contents':[{'title':title,'destination':key,'page':dest[key]} for _,title,key in toc_rows],'cross_links':added,'footer_links':footer_links},ensure_ascii=False,indent=2)+'\n')
     (OUT/'inputs.json').write_text(json.dumps([{'id':p['id'],'path':str(p['path'].relative_to(HERE)),'sha256':digest(p['path']),'pages':len(p['reader'].pages),'offset':p['offset']} for p in parts],indent=2)+'\n')

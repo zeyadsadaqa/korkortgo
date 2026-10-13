@@ -128,14 +128,21 @@ def run():
   for row in rows[j:j+5]:b.text(row[0],'body',3);b.lines(2)
   if j==6:b.text(pars[-1])
   b.end()
- # Complete approved reference list with original factual-check dates and full URLs.
- pars=SECS[TITLES[4]].split('\n\n');entries=pars[1].splitlines();b.section='official-references'
- for j in range(0,len(entries),4):
-  b.start('official-references' if j==0 else 'official-references-'+str(j//4+1),'Official references');b.text('Official references','heading')
-  if j==0:b.text(pars[0]);b.text('Later chapter checks are recorded with those chapters. Link availability for this reference edition was checked separately on 7 October 2026; this does not change the factual-check dates below.','caption')
-  for entry in entries[j:j+4]:
-   b.text(entry[2:],'body',4);alias=re.search(r'\]\[([^]]+)\]',entry)[1];b.text(REFS[alias],'source',20)
-  b.end()
+ # Complete registry-backed references; manufacturer sources clearly separated.
+ section=SECS[TITLES[4]];groups=re.split(r'^### (.+)\n',section,flags=re.M)
+ chunks=[('Official references',groups[0])]+[(groups[i],groups[i+1]) for i in range(1,len(groups),2)]
+ b.section='official-references';sequence=0
+ for title,body in chunks:
+  entries=[line for line in body.splitlines() if line.startswith('- ')]
+  for j in range(0,len(entries),4):
+   sequence+=1;key='official-references' if sequence==1 else 'official-references-'+str(sequence)
+   if title=='Manufacturer technical references' and j==0:key='manufacturer-references'
+   b.start(key,title);b.text(title,'heading')
+   if sequence==1:b.text(body.split('\n\n',1)[0]);b.text('Chapter evidence records exact passages, dates and limitations. G11 assembles these records without claiming a new factual audit of every old source.','caption')
+   elif j==0:b.text('These are manufacturer technical handbooks, not official agency or legal references.' if title=='Manufacturer technical references' else 'Keep each reference within the scope stated in its lesson and evidence record.','caption')
+   for entry in entries[j:j+4]:
+    b.text(entry[2:],'body',4);alias=re.search(r'\]\[([^]]+)\]',entry)[1];b.text(REFS[alias],'source',20)
+   b.end()
  b.start('artwork-credits','Artwork and source credits');b.text('Artwork and source credits','heading');b.text(CREDIT);b.text('English sign labels and explanations are editorial translations. The sign reference uses official catalogue artwork in its teaching context. This learning material is not endorsed by Transportstyrelsen.');b.text('Individual sign-caption checks are dated in each entry. Source pages were retrieved on 1 October 2026 and captions reviewed on 2 October; resolved official-vector assets were verified on 3 October. Original artwork is preserved.','caption');b.text('Transportstyrelsen · road-sign reuse guidance','body',4);b.text(REUSE,'source');b.text('Transportstyrelsen · official sign catalogue','body',4);b.text(REFS['signs'],'source');b.text('The first-aid reference is limited to 1177 public healthcare guidance. No clinical procedure is reproduced.','caption');b.end()
  b.c.save();r=PdfReader(TARGET);w=PdfWriter();w.clone_document_from_reader(r)
  from pypdf import Transformation
@@ -149,7 +156,7 @@ def run():
  parent=w.add_outline_item('Appendices and official references',0);current=parent
  for key,num in b.destinations.items():
   w.add_named_destination(key,num-1)
-  if key in ['appendix-A','appendix-B','appendix-C','appendix-D','official-references','artwork-credits']:current=w.add_outline_item(b.page_labels[num],num-1,parent=parent)
+  if key in ['appendix-A','appendix-B','appendix-C','appendix-D','official-references','manufacturer-references','artwork-credits']:current=w.add_outline_item(b.page_labels[num],num-1,parent=parent)
   elif key in [g['group_id'] for g in GROUPS]:w.add_outline_item(b.page_labels[num],num-1,parent=current)
  w.add_named_destination('contents',0)
  with TARGET.open('wb') as f:w.write(f)

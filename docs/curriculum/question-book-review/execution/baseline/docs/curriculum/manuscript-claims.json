@@ -1,0 +1,1961 @@
+{
+  "version": "1.0",
+  "checked_on": "2026-10-01",
+  "scope": "Material claim groups and educational-scope checks; not independent professional certification.",
+  "claims": [
+    {
+      "id": "C001",
+      "lesson": "M01-L01",
+      "classification": "requirement",
+      "statement": "Ordinary B eligibility, 3500 kg vehicle scope, practice ages and private-practice duties.",
+      "support": [
+        {
+          "source_alias": "b",
+          "source_id": "SRC-a6fdf41e5fb86af6",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+          "locator": "Eligibility and Övningsköra sections",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Exceptions for existing entitlements are expressly qualified."
+    },
+    {
+      "id": "C002",
+      "lesson": "M01-L01",
+      "classification": "dated requirement",
+      "statement": "Introductory course removed on 1 August 2026; supervisor approval remains.",
+      "support": [
+        {
+          "source_alias": "supervisor",
+          "source_id": "SRC-c24899e35492e564",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/handledare/",
+          "locator": "Kravet på introduktionsutbildning slopades 1 augusti 2026",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Not confused with risk training."
+    },
+    {
+      "id": "C003",
+      "lesson": "M01-L01",
+      "classification": "dated requirement",
+      "statement": "One-year theory validity applies from 19 August 2026; older passes retain prior rules.",
+      "support": [
+        {
+          "source_alias": "validity",
+          "source_id": "SRC-d1b9e081d8a60885",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf",
+          "locator": "5 kap. 1 § and commencement/transitional paragraphs 1–2",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "test",
+          "source_id": "SRC-64a8c6a618915c71",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+          "locator": "Giltighetstiden på teoriprovet för behörighet B förlängs",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Earlier standard four-month period supported by Trafikverket; individual extensions not inferred."
+    },
+    {
+      "id": "C004",
+      "lesson": "M01-L01",
+      "classification": "requirement",
+      "statement": "Risk training has two parts and lasts until licensing or at most five years.",
+      "support": [
+        {
+          "source_alias": "risk",
+          "source_id": "SRC-f2e96bf01856511f",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/",
+          "locator": "Utbildningen består av två delar and validity paragraph",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Passenger-car scope; motorcycle training not substituted."
+    },
+    {
+      "id": "C005",
+      "lesson": "M01-L02",
+      "classification": "requirement",
+      "statement": "Unsafe impairment or exhaustion prevents lawful driving.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 1 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No numerical threshold used as a fitness guarantee."
+    },
+    {
+      "id": "C006",
+      "lesson": "M01-L02",
+      "classification": "requirement",
+      "statement": "Alcohol thresholds, aggravated-offence factors and narcotics qualification.",
+      "support": [
+        {
+          "source_alias": "drink-law",
+          "source_id": "MS-e60a63c3f8983251",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/vad-sager-lagen-om-rattfylleri/",
+          "locator": "Vad innebär rattfylleri",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "alcohol",
+          "source_id": "SRC-16280dcecc55e002",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/",
+          "locator": "Droger and Sjukdomar och läkemedel",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No self-clearance calculation or medication change prescribed."
+    },
+    {
+      "id": "C007",
+      "lesson": "M01-L02",
+      "classification": "guidance",
+      "statement": "Alcohol and medication can affect performance, including next-day effects.",
+      "support": [
+        {
+          "source_alias": "alcohol",
+          "source_id": "SRC-16280dcecc55e002",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/",
+          "locator": "Synen, Reaktionstiden, Uppmärksamheten, Prestationsförmågan and Sjukdomar",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Fixed metabolism rates and statistical proportions omitted."
+    },
+    {
+      "id": "C008",
+      "lesson": "M01-L03",
+      "classification": "educational scope",
+      "statement": "Self-evaluation of social pressure, impulses and motives.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "5 kap. 2–3 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Refusal scripts and scenario are original pedagogy, not validated psychological claims."
+    },
+    {
+      "id": "C009",
+      "lesson": "M01-L03",
+      "classification": "requirement",
+      "statement": "Cooperation does not displace care and adapted speed.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 1 §",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 14 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No broad permission to ignore rules."
+    },
+    {
+      "id": "C010",
+      "lesson": "M01-L04",
+      "classification": "recommendation",
+      "statement": "Plan time, weather, breaks and supplies; consider travel alternatives.",
+      "support": [
+        {
+          "source_alias": "planning",
+          "source_id": "SRC-254a36987682400e",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/",
+          "locator": "Advice before departure and during travel",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "4–5 kap. 2 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal safest mode or fixed rest interval."
+    },
+    {
+      "id": "C011",
+      "lesson": "M02-L01",
+      "classification": "assessment scope",
+      "statement": "Vehicle-check domains and pre-drive adjustments.",
+      "support": [
+        {
+          "source_alias": "practical",
+          "source_id": "SRC-4f119c98672b2997",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+          "locator": "Säkerhetskontrollen",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "The original control-learning routine is not an official test script."
+    },
+    {
+      "id": "C012",
+      "lesson": "M02-L01",
+      "classification": "physical principle",
+      "statement": "Braking and steering depend on available friction.",
+      "support": [
+        {
+          "source_alias": "friction",
+          "source_id": "MS-642e8e5d8ee346e2",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+          "locator": "4.3 Kurvtagning",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 14 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal vehicle diagnostic or brake-servo sequence."
+    },
+    {
+      "id": "C013",
+      "lesson": "M02-L02",
+      "classification": "requirement",
+      "statement": "Tyre suitability includes load, speed and dimension conditions.",
+      "support": [
+        {
+          "source_alias": "tyres",
+          "source_id": "SRC-32256a46ed1c6028",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/",
+          "locator": "Belastningsförmåga, Hastighetskapacitet and Dimensioner",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Not a claim that tread depth alone proves safety."
+    },
+    {
+      "id": "C014",
+      "lesson": "M02-L02",
+      "classification": "requirement",
+      "statement": "Daytime lamps may omit rear lights; weather/darkness require suitable lighting; trailer lamps on.",
+      "support": [
+        {
+          "source_alias": "lights",
+          "source_id": "SRC-e454ba2a4ddaffb3",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+          "locator": "Har din bil rätt belysning bak and Belysning på släpvagn",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Actual setting must be checked; automatic function not assumed."
+    },
+    {
+      "id": "C015",
+      "lesson": "M02-L03",
+      "classification": "requirement",
+      "statement": "Belts, under-135 cm restraints, under-15 protection measures and short-trip exceptions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 10–10d §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "belts",
+          "source_id": "SRC-2081963d3a6ed062",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+          "locator": "Passenger-car and child rules",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "child-rules",
+          "source_id": "SRC-b7b53b24caa30874",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+          "locator": "Alla ska ha bälte",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Exceptions are not recommended travel arrangements."
+    },
+    {
+      "id": "C016",
+      "lesson": "M02-L03",
+      "classification": "recommendation",
+      "statement": "Rear-facing advice, fit limits and airbag compatibility.",
+      "support": [
+        {
+          "source_alias": "child-advice",
+          "source_id": "SRC-ba13434f02e5f2b7",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+          "locator": "Regler och rekommendationer",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "child-rules",
+          "source_id": "SRC-b7b53b24caa30874",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+          "locator": "Bakåtvänt är bäst and Koppla ur passagerarplatsens krockkudde",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "airbags",
+          "source_id": "SRC-2c2f5df0084a7b5a",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/",
+          "locator": "Krockkudde",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Different agency age/airbag wording is disclosed; no universal birthday rule."
+    },
+    {
+      "id": "C017",
+      "lesson": "M02-L03",
+      "classification": "recommendation",
+      "statement": "Head restraints must be adjusted to the occupant.",
+      "support": [
+        {
+          "source_alias": "seats",
+          "source_id": "SRC-438ebf1c277f32bb",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/",
+          "locator": "Minska riskerna",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No injury percentages or medical treatment claims retained."
+    },
+    {
+      "id": "C018",
+      "lesson": "M02-L04",
+      "classification": "requirement",
+      "statement": "Starting, lateral movement, reversing, turning and signalling duties.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 43, 46, 65–66 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Camera/helper examples are original cautious applications, not technical detection claims."
+    },
+    {
+      "id": "C019",
+      "lesson": "M02-L04",
+      "classification": "assessment scope",
+      "statement": "Parking, reversing, hill starts and effective braking need practice.",
+      "support": [
+        {
+          "source_alias": "practical",
+          "source_id": "SRC-4f119c98672b2997",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+          "locator": "Parkering, Backning, Start i lutning, Vändning and Effektiv bromsning",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No unsupervised public-road emergency-braking drill."
+    },
+    {
+      "id": "C020",
+      "lesson": "M03-L01",
+      "classification": "requirement",
+      "statement": "Sign purposes and B1/B2 duties.",
+      "support": [
+        {
+          "source_alias": "sign-law",
+          "source_id": "MS-af5cd6fe8800ad98",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "locator": "2 kap. 4–12 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 5 and 19 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Exact art and variant validation remains step 4."
+    },
+    {
+      "id": "C021",
+      "lesson": "M03-L01",
+      "classification": "requirement",
+      "statement": "A speed limit does not prescribe a safe speed for every situation.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 14–15 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No invented numerical response to a warning sign."
+    },
+    {
+      "id": "C022",
+      "lesson": "M03-L02",
+      "classification": "requirement",
+      "statement": "Instruction precedence, police directions and guard instructions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 2–4 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Steady traffic-light precedence is limited to yield/stop signs, not every restriction."
+    },
+    {
+      "id": "C023",
+      "lesson": "M03-L02",
+      "classification": "requirement",
+      "statement": "Vehicle signals and lane-control signals.",
+      "support": [
+        {
+          "source_alias": "sign-law",
+          "source_id": "MS-af5cd6fe8800ad98",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "locator": "3 kap. 3–6 and 14–15 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Amber exception is inability to stop without danger after the change."
+    },
+    {
+      "id": "C024",
+      "lesson": "M03-L02",
+      "classification": "requirement",
+      "statement": "Markings, continuous-line restrictions, exceptions and supplementary panels.",
+      "support": [
+        {
+          "source_alias": "sign-law",
+          "source_id": "MS-af5cd6fe8800ad98",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "locator": "4 kap. M1/M3/M8/M9 and 2 kap. T1/T2",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 9–11 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No claim that a broken line ensures safe overtaking."
+    },
+    {
+      "id": "C025",
+      "lesson": "M03-L02",
+      "classification": "requirement",
+      "statement": "Do not enter a junction in a way that creates unnecessary crossing-traffic obstruction.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 20 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Green is not treated as permission to block a junction."
+    },
+    {
+      "id": "C026",
+      "lesson": "M03-L03",
+      "classification": "requirement",
+      "statement": "Direction information and lane selection remain subject to safe lane changes.",
+      "support": [
+        {
+          "source_alias": "sign-law",
+          "source_id": "MS-af5cd6fe8800ad98",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "locator": "2 kap. F/G/H/I/J/S descriptions",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 7, 9 and 43 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Service symbols do not create access permission."
+    },
+    {
+      "id": "C027",
+      "lesson": "M03-L04",
+      "classification": "requirement",
+      "statement": "Following distance, control, visible stopping space and general road-speed limits.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 2 and 14–17 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 20 § and 9 kap. 1 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No fixed following-time value declared universally safe."
+    },
+    {
+      "id": "C028",
+      "lesson": "M03-L04",
+      "classification": "physical principle",
+      "statement": "Speed and friction affect stopping and available response.",
+      "support": [
+        {
+          "source_alias": "impact",
+          "source_id": "SRC-8f8abe04c365e91c",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/",
+          "locator": "Lägre fart ger kortare stoppsträcka",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "friction",
+          "source_id": "MS-642e8e5d8ee346e2",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+          "locator": "4.2 Stoppsträcka and 4.3 Kurvtagning",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No braking-distance chart or collision-survival threshold."
+    },
+    {
+      "id": "C029",
+      "lesson": "M03-L04",
+      "classification": "original calculation",
+      "statement": "50/3.6≈13.9 m/s and 80/3.6≈22.2 m/s; distance under constant speed equals speed times delay.",
+      "support": [
+        {
+          "source_alias": "friction",
+          "source_id": "MS-642e8e5d8ee346e2",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+          "locator": "4.2 reaction-distance relationship",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "One-second delay is explicitly hypothetical, not a measured or universal reaction time."
+    },
+    {
+      "id": "C030",
+      "lesson": "M04-L01",
+      "classification": "requirement",
+      "statement": "Right-hand priority, exit/priority-road/roundabout exceptions, yielding and stopping.",
+      "support": [
+        {
+          "source_alias": "priority",
+          "source_id": "SRC-32b9b4a023fab895",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/",
+          "locator": "Högerregeln",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 5 and 18–23 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No kerb-only test or broad-road priority assumption."
+    },
+    {
+      "id": "C031",
+      "lesson": "M04-L02",
+      "classification": "requirement",
+      "statement": "Turning position, observation, lane-change, merging and signalling duties.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 24–29, 43–44 and 65–66 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Duties of both joining and continuing drivers explained."
+    },
+    {
+      "id": "C032",
+      "lesson": "M04-L03",
+      "classification": "requirement",
+      "statement": "Pedestrian/wheelchair status and crossing duties.",
+      "support": [
+        {
+          "source_alias": "pedestrians",
+          "source_id": "SRC-6ba459d3eeb28672",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/",
+          "locator": "Uncontrolled crossing guidance",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "wheelchairs",
+          "source_id": "SRC-6fab65567b9a0d41",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/",
+          "locator": "Pedestrian rules at walking speed",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "1 kap. 4 § and 3 kap. 60–62 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Riding a bicycle is distinguished from walking it."
+    },
+    {
+      "id": "C033",
+      "lesson": "M04-L03",
+      "classification": "requirement",
+      "statement": "Cycle-passage versus cycle-crossing duties, including turns and roundabout exits.",
+      "support": [
+        {
+          "source_alias": "cycles",
+          "source_id": "SRC-6ea809d7f549132c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/",
+          "locator": "Cykelpassage and Cykelöverfart",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 60–61a §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Controlled and uncontrolled arrangements distinguished."
+    },
+    {
+      "id": "C034",
+      "lesson": "M04-L04",
+      "classification": "requirement",
+      "statement": "Roundabout entry, anticlockwise travel, signalling and lane changes.",
+      "support": [
+        {
+          "source_alias": "roundabout",
+          "source_id": "MS-6a4f38f62d5e45cb",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/att-koera-i-cirkulationsplats-a5-webb.pdf",
+          "locator": "Entry, circulation and exit sections",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 13, 22, 43 and 65–66 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No fixed lane-for-exit rule overriding signs or conditions."
+    },
+    {
+      "id": "C035",
+      "lesson": "M04-L04",
+      "classification": "requirement",
+      "statement": "Crossing duties continue on exit.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 60–62 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Exit is not treated as priority over a neighbouring lane."
+    },
+    {
+      "id": "C036",
+      "lesson": "M05-L01",
+      "classification": "requirement",
+      "statement": "Consideration for vulnerable users, suitable speed, safe passing space and horse status.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 1 § and 3 kap. 15, 33 and 58 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "horses",
+          "source_id": "SRC-c0f9f1f76af57c79",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/hastar-i-trafiken/",
+          "locator": "Opening paragraphs",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No age multiplier, stereotype or invented fixed lateral distance."
+    },
+    {
+      "id": "C037",
+      "lesson": "M05-L01",
+      "classification": "requirement",
+      "statement": "Bus departure duty at limits of 50 km/h or lower; boarding/alighting without refuge.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 45 and 58 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Bus driver's care duty retained."
+    },
+    {
+      "id": "C038",
+      "lesson": "M05-L02",
+      "classification": "requirement",
+      "statement": "Pedestrian street and walking-speed-area duties/access exceptions; cycle-street duties.",
+      "support": [
+        {
+          "source_alias": "special-streets",
+          "source_id": "SRC-b10ea78b3a467701",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/",
+          "locator": "Gågata and Cykla på cykelgata",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 21 §, 8 kap. 1–1a §§ and 10 kap. 1 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No fixed numeric walking pace; signed lawful parking provisions qualified."
+    },
+    {
+      "id": "C039",
+      "lesson": "M05-L03",
+      "classification": "definition",
+      "statement": "Waiting with the driver present may still be parking; boarding/loading distinctions.",
+      "support": [
+        {
+          "source_alias": "parking",
+          "source_id": "SRC-050697b456950e96",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/",
+          "locator": "Definitions",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Hazard lamps do not grant a parking exemption."
+    },
+    {
+      "id": "C040",
+      "lesson": "M05-L03",
+      "classification": "requirement",
+      "statement": "Core prohibitions, 10 m/3 m/30 m/20–5 m limits, 24-hour public-place rule and parking-disc settings.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 47–55 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General rules distinguished from local signed provisions; ordinary car scope."
+    },
+    {
+      "id": "C041",
+      "lesson": "M05-L03",
+      "classification": "requirement",
+      "statement": "Time panels and limited parking-permit scope.",
+      "support": [
+        {
+          "source_alias": "sign-law",
+          "source_id": "MS-af5cd6fe8800ad98",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+          "locator": "2 kap. T6–T8 and T16–T19",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "parking-permit",
+          "source_id": "SRC-8334b1a2b9a77ca3",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/",
+          "locator": "Giltighet, användning och parkeringsavgifter",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Worked example explicitly excludes holidays and their preceding days."
+    },
+    {
+      "id": "C042",
+      "lesson": "M05-L04",
+      "classification": "requirement",
+      "statement": "Reversing/turning, marked parking position, door opening and securing.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 46 and 49–50 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original manoeuvre advice; no sensor-performance guarantee."
+    },
+    {
+      "id": "C043",
+      "lesson": "M06-L01",
+      "classification": "requirement",
+      "statement": "Meeting traffic, obstruction on own side and speed near hidden/narrow sections.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 14–15 and 30 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Being first to an obstruction is not taught as priority."
+    },
+    {
+      "id": "C044",
+      "lesson": "M06-L01",
+      "classification": "guidance",
+      "statement": "Wildlife is possible throughout the year; allow room behind slow vehicles.",
+      "support": [
+        {
+          "source_alias": "wildlife",
+          "source_id": "SRC-0ad08ea1b0c67595",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+          "locator": "When risk is greatest",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "slow-vehicles",
+          "source_id": "SRC-3b3acf1fd00df055",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/",
+          "locator": "Råd till övriga trafikanter",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No dated accident count or guaranteed animal behaviour."
+    },
+    {
+      "id": "C045",
+      "lesson": "M06-L02",
+      "classification": "requirement",
+      "statement": "Safe overtaking, side/return duties, being overtaken and special prohibitions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 7, 11 and 31–42 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Chapter 3 §39 limited exceptions are acknowledged; no exception overrides danger prohibition."
+    },
+    {
+      "id": "C046",
+      "lesson": "M06-L02",
+      "classification": "guidance",
+      "statement": "Consider limited time benefit before passing.",
+      "support": [
+        {
+          "source_alias": "time",
+          "source_id": "SRC-5305e6160261c39c",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/",
+          "locator": "Hastighet och restid",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No numerical time-saving promise."
+    },
+    {
+      "id": "C047",
+      "lesson": "M06-L03",
+      "classification": "requirement",
+      "statement": "Motorway/expressway access, entry/exit, reversing and stopping restrictions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "9 kap. 1–2 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "40 km/h criterion is vehicle eligibility, not a minimum queue speed."
+    },
+    {
+      "id": "C048",
+      "lesson": "M06-L03",
+      "classification": "requirement",
+      "statement": "Acceleration/deceleration lanes, safe joining, lane use and applicable limits.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 2, 7, 21, 23 and 43 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 20 § and 9 kap. 1 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Vehicle limit and road limit both apply."
+    },
+    {
+      "id": "C049",
+      "lesson": "M06-L04",
+      "classification": "requirement",
+      "statement": "Level-crossing entry restrictions and clear exit space.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 7 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Rising barriers and audible warnings included."
+    },
+    {
+      "id": "C050",
+      "lesson": "M06-L04",
+      "classification": "emergency guidance",
+      "statement": "Drive out if able and trapped; evacuate an immobilised vehicle and call 112.",
+      "support": [
+        {
+          "source_alias": "rail",
+          "source_id": "SRC-bc705f027d726147",
+          "url": "https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf",
+          "locator": "Tänk på det här and Viktigt att veta",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No pushing advice; crossing ID only if available without returning to danger."
+    },
+    {
+      "id": "C051",
+      "lesson": "M06-L04",
+      "classification": "requirement and recommendation",
+      "statement": "Follow worksite instructions, reduce speed and keep distance.",
+      "support": [
+        {
+          "source_alias": "works",
+          "source_id": "SRC-c328564027f1a34a",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/",
+          "locator": "Advice to road users",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 2 § and 3 kap. 15 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Temporary layout replaces memory of a familiar route."
+    },
+    {
+      "id": "C052",
+      "lesson": "M07-L01",
+      "classification": "requirement",
+      "statement": "Lighting duties, main-beam limitations, fog-light combinations and rear-fog restrictions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 68–72 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "lights",
+          "source_id": "SRC-e454ba2a4ddaffb3",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
+          "locator": "Rear lighting in poor conditions",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal visibility-distance table."
+    },
+    {
+      "id": "C053",
+      "lesson": "M07-L02",
+      "classification": "physical principle and recommendation",
+      "statement": "Available friction limits braking and cornering; adapt driving before uncertain grip.",
+      "support": [
+        {
+          "source_alias": "friction",
+          "source_id": "MS-642e8e5d8ee346e2",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+          "locator": "4.2–4.3",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "tyre-advice",
+          "source_id": "SRC-b91cb0cb272c9ec3",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/",
+          "locator": "Körsättet påverkar säkerheten",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No vehicle-specific skid-recovery instructions."
+    },
+    {
+      "id": "C054",
+      "lesson": "M07-L02",
+      "classification": "dated requirement",
+      "statement": "Light-vehicle winter dates, tread, markings, studs and light-trailer transition.",
+      "support": [
+        {
+          "source_alias": "winter",
+          "source_id": "SRC-6ba4442478c22874",
+          "url": "https://www.transportstyrelsen.se/vinterdack",
+          "locator": "Personbilar och lätta lastbilar, Dubbade vinterdäck and Vinterdäck på släpvagn",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 18a–18d §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Heavy-vehicle and exceptional cases not conflated with ordinary B cars."
+    },
+    {
+      "id": "C055",
+      "lesson": "M07-L02",
+      "classification": "requirement and recommendation",
+      "statement": "Summer 1.6 mm tread minimum; best tyres at rear and correct pressure advice.",
+      "support": [
+        {
+          "source_alias": "tyre-basics",
+          "source_id": "SRC-ef044fa13893e15d",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+          "locator": "Sommarväglag and Bra att tänka på",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Minimum compliance is not a safety guarantee."
+    },
+    {
+      "id": "C056",
+      "lesson": "M07-L03",
+      "classification": "requirement",
+      "statement": "Communication-device use must not impair driving; hand-held use prohibited.",
+      "support": [
+        {
+          "source_alias": "phone",
+          "source_id": "SRC-b0aaaffb8704a589",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/",
+          "locator": "Current rule",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 10e §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Hands-free is not automatically safe or lawful."
+    },
+    {
+      "id": "C057",
+      "lesson": "M07-L03",
+      "classification": "requirement and recommendation",
+      "statement": "Do not drive exhausted; plan rest and adapt the trip.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 1 §",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "planning",
+          "source_id": "SRC-254a36987682400e",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/",
+          "locator": "Before departure and during travel",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No fixed break schedule or stimulant remedy."
+    },
+    {
+      "id": "C058",
+      "lesson": "M07-L04",
+      "classification": "educational scope and requirement",
+      "statement": "Reassess combined journey circumstances while preserving fitness and control.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "4–5 kap. 2–3 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 1 and 14 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original decision exercise, not a numerical risk model."
+    },
+    {
+      "id": "C059",
+      "lesson": "M08-L01",
+      "classification": "requirement",
+      "statement": "B, B96 and ordinary current BE weight boundaries.",
+      "support": [
+        {
+          "source_alias": "b",
+          "source_id": "SRC-a6fdf41e5fb86af6",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+          "locator": "B entitlement",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "trailer",
+          "source_id": "SRC-1f10e4ca091a477e",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/",
+          "locator": "Vad är ett lätt släp",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "trailer-guide",
+          "source_id": "SRC-545891451cebc4a4",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/",
+          "locator": "Har du rätt körkort and Övergångsregler",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Historical entitlements explicitly qualified; not a full B96/BE course."
+    },
+    {
+      "id": "C060",
+      "lesson": "M08-L01",
+      "classification": "requirement and original calculation",
+      "statement": "Entitlement uses total weights; unloading does not change them; 2200+1500=3700 kg.",
+      "support": [
+        {
+          "source_alias": "towing",
+          "source_id": "SRC-f59e6867e39d34e1",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+          "locator": "Den högsta tillåtna totalvikt utifrån körkortsbehörigheter",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Illustrative combination only; no technical clearance inferred."
+    },
+    {
+      "id": "C061",
+      "lesson": "M08-L02",
+      "classification": "definition",
+      "statement": "Tjänstevikt, totalvikt, bruttovikt and maximilast.",
+      "support": [
+        {
+          "source_alias": "weights",
+          "source_id": "SRC-4674e24fd4357555",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/",
+          "locator": "Named definition headings",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Car ready weight includes driver; trailer ready weight excludes cargo."
+    },
+    {
+      "id": "C062",
+      "lesson": "M08-L02",
+      "classification": "requirement",
+      "statement": "Technical towing limits O.1/O.2 and F.3 are distinct from entitlement.",
+      "support": [
+        {
+          "source_alias": "towing",
+          "source_id": "SRC-f59e6867e39d34e1",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/",
+          "locator": "Ta reda på ... and Den högsta sammanlagda bruttovikt",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Missing data must be resolved; load example is arithmetic only."
+    },
+    {
+      "id": "C063",
+      "lesson": "M08-L02",
+      "classification": "requirement and recommendation",
+      "statement": "Cargo security, low placement, projection marking and ordinary dimensions.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 78–83 §§ and 4 kap. 15–17 §§",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "load-advice",
+          "source_id": "SRC-42042368739ae270",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/",
+          "locator": "Lasta bilen säkert",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "260 cm/20 cm/24 m are general public-road provisions, not equipment or route clearance."
+    },
+    {
+      "id": "C064",
+      "lesson": "M08-L02",
+      "classification": "requirement",
+      "statement": "Conventional braked and unbraked trailer speed conditions.",
+      "support": [
+        {
+          "source_alias": "trailer-guide",
+          "source_id": "SRC-545891451cebc4a4",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/",
+          "locator": "Hur fort får du köra",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 20 § version ending 2026-12-01",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Future amended provision is not applied early; unusual combinations require own verification."
+    },
+    {
+      "id": "C065",
+      "lesson": "M08-L03",
+      "classification": "requirement",
+      "statement": "Compulsory insurance duties and scope; formal status matters.",
+      "support": [
+        {
+          "source_alias": "insurance",
+          "source_id": "SRC-f069b581e5d1cd33",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/",
+          "locator": "Named insurance questions",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "status",
+          "source_id": "SRC-1a8682d573791a52",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/",
+          "locator": "Ställ av and Ställ på",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Optional policy benefits not universalised."
+    },
+    {
+      "id": "C066",
+      "lesson": "M08-L03",
+      "classification": "requirement",
+      "statement": "Ordinary light-vehicle inspection sequence is 36/24/14 months.",
+      "support": [
+        {
+          "source_alias": "inspection",
+          "source_id": "SRC-e5507e144427dec5",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/",
+          "locator": "Opening inspection schedule",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Measured after relevant month; special cases and actual recorded deadline qualified."
+    },
+    {
+      "id": "C067",
+      "lesson": "M08-L03",
+      "classification": "current service guidance",
+      "statement": "Private ownership transfer through eligible Mina sidor route; current certificate for other cases.",
+      "support": [
+        {
+          "source_alias": "owner",
+          "source_id": "SRC-4a02f46defddfd5c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/",
+          "locator": "Mina sidor and Registreringsbevis",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "registration",
+          "source_id": "SRC-39dbf9dc5488e03b",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/",
+          "locator": "Document parts",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No stale app workflow; seller insurance not assumed transferable."
+    },
+    {
+      "id": "C068",
+      "lesson": "M08-L04",
+      "classification": "research and guidance",
+      "statement": "Assistance improves safety but cannot guarantee avoiding a collision.",
+      "support": [
+        {
+          "source_alias": "crash",
+          "source_id": "SRC-960faeeb8dfede6d",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/",
+          "locator": "Euro NCAP section",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "aeb",
+          "source_id": "MS-bdab5fce819fd7bc",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/",
+          "locator": "2026 truck-trailer test conclusions",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal detection range or performance claim."
+    },
+    {
+      "id": "C069",
+      "lesson": "M08-L04",
+      "classification": "physical principle and recommendation",
+      "statement": "ABS retains combined forces within grip; stability support does not remove adapted-speed duty.",
+      "support": [
+        {
+          "source_alias": "friction",
+          "source_id": "MS-642e8e5d8ee346e2",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+          "locator": "4.3 Kurvtagning",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "tyre-advice",
+          "source_id": "SRC-b91cb0cb272c9ec3",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/",
+          "locator": "Antisladdsystem",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 14 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal brake operation or repair recipe."
+    },
+    {
+      "id": "C070",
+      "lesson": "M08-L04",
+      "classification": "technical description",
+      "statement": "Plug-in hybrids use electricity and a combustion engine.",
+      "support": [
+        {
+          "source_alias": "hybrid",
+          "source_id": "MS-bc25648363544833",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/",
+          "locator": "Explanation of operating modes",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No claim about every vehicle's energy recovery or automatic mode switching."
+    },
+    {
+      "id": "C071",
+      "lesson": "M09-L01",
+      "classification": "environmental guidance",
+      "statement": "Climate, exhaust/wear particles and noise are different effects.",
+      "support": [
+        {
+          "source_alias": "climate",
+          "source_id": "SRC-fc2c20a9baff5363",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/",
+          "locator": "Factors affecting emissions",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "air",
+          "source_id": "SRC-81da58b4bbbc356b",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/",
+          "locator": "Exhaust and wear particles",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "noise",
+          "source_id": "SRC-896fc76e43f0789c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+          "locator": "Electric-car and tyre-road noise paragraphs",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No unsourced lifecycle ranking or statistics."
+    },
+    {
+      "id": "C072",
+      "lesson": "M09-L01",
+      "classification": "dated technical context",
+      "statement": "New-registration plug-in-hybrid weighting changed in 2026.",
+      "support": [
+        {
+          "source_alias": "hybrid",
+          "source_id": "MS-bc25648363544833",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/",
+          "locator": "Opening paragraphs and reported-data explanation",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No tax-rate advice; not a prediction for a particular trip."
+    },
+    {
+      "id": "C073",
+      "lesson": "M09-L02",
+      "classification": "recommendation",
+      "statement": "Pressure, speed compliance and removing unused roof equipment support economy.",
+      "support": [
+        {
+          "source_alias": "eco",
+          "source_id": "MS-a7adb547fef9f80c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "locator": "Opening advice and training/assessment section",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No fixed savings, RPM, coasting or regenerative-braking rule."
+    },
+    {
+      "id": "C074",
+      "lesson": "M09-L02",
+      "classification": "requirement",
+      "statement": "Necessary braking and safe space override an efficiency preference.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 2 and 14 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original scenario applies existing duties."
+    },
+    {
+      "id": "C075",
+      "lesson": "M09-L03",
+      "classification": "educational scope",
+      "statement": "Evaluate transport choice against real personal circumstances.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "4–5 kap. 2–3 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original scenario; no invented emissions saving."
+    },
+    {
+      "id": "C076",
+      "lesson": "M09-L04",
+      "classification": "requirement",
+      "statement": "Zone classes, light-vehicle Euro criteria, class 3 categories and exemptions.",
+      "support": [
+        {
+          "source_alias": "zones",
+          "source_id": "SRC-519a943406a9a9fd",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/",
+          "locator": "Class 1/2/3 and exceptions",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "4 kap. 22–24a §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Light gas criterion taken from 22d rather than generalising heavy Euro VI wording."
+    },
+    {
+      "id": "C077",
+      "lesson": "M09-L04",
+      "classification": "official service guidance",
+      "statement": "Check operative local regulations through STFS.",
+      "support": [
+        {
+          "source_alias": "stfs",
+          "source_id": "MS-fc78cbd13801aad2",
+          "url": "https://rdt.transportstyrelsen.se/rdt/Default.aspx?UseStfs=1",
+          "locator": "Collection description and search service",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No unverified city boundary or future announcement treated as law."
+    },
+    {
+      "id": "C078",
+      "lesson": "M10-L01",
+      "classification": "requirement",
+      "statement": "Move a disabled vehicle and warn traffic subject to incident-specific duties.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "3 kap. 51 and 57 §§",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No universal statutory triangle distance asserted."
+    },
+    {
+      "id": "C079",
+      "lesson": "M10-L01",
+      "classification": "emergency recommendation",
+      "statement": "Motorway/2+1 warning, leaving traffic and professional help; 100 m advice.",
+      "support": [
+        {
+          "source_alias": "breakdown",
+          "source_id": "SRC-1fa593cfee2c2d1d",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+          "locator": "Varna, Lämna and Larma",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Distance labelled agency recommendation; personal exposure cautions included."
+    },
+    {
+      "id": "C080",
+      "lesson": "M10-L01",
+      "classification": "emergency recommendation",
+      "statement": "Tunnel non-urgent stop differs from urgent incident and fire.",
+      "support": [
+        {
+          "source_alias": "tunnel",
+          "source_id": "SRC-9df1b7b27832830a",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/",
+          "locator": "Om bilen går sönder and Om det brinner",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Does not generalise motorway evacuation or non-urgent tunnel waiting to all situations."
+    },
+    {
+      "id": "C081",
+      "lesson": "M10-L02",
+      "classification": "requirement",
+      "statement": "Remain, assist, exchange information, notify and preserve accident evidence.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2 kap. 8 §",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Non-insignificant injury reporting and serious-injury vehicle-movement distinction retained."
+    },
+    {
+      "id": "C082",
+      "lesson": "M10-L02",
+      "classification": "emergency guidance and reference",
+      "statement": "112 for danger to life; brief signpost to 1177 first-aid learning.",
+      "support": [
+        {
+          "source_alias": "breakdown",
+          "source_id": "SRC-1fa593cfee2c2d1d",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+          "locator": "Larma",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "first-aid",
+          "source_id": "MS-41020226e75a1c31",
+          "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/",
+          "locator": "First-aid landing page",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "User explicitly authorised brief reference only; no clinical sequence or exam-exclusion claim."
+    },
+    {
+      "id": "C083",
+      "lesson": "M10-L02",
+      "classification": "emergency guidance",
+      "statement": "Wildlife reporting/marking advice and separate dangerous-species precaution.",
+      "support": [
+        {
+          "source_alias": "wildlife",
+          "source_id": "SRC-0ad08ea1b0c67595",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+          "locator": "Vid olycka, ring 112",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Presented as agency guidance, not a universal legal offence for all species; safety/vehicle capability qualified."
+    },
+    {
+      "id": "C084",
+      "lesson": "M10-L03",
+      "classification": "original integrative exercise",
+      "statement": "Scenario applies previously taught traffic duties and reviews the decision process.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "2–3 kap. as cited in M02–M07",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Not an official exam question or verified court case."
+    },
+    {
+      "id": "C085",
+      "lesson": "M10-L04",
+      "classification": "assessment information",
+      "statement": "Theory domains, 70 questions/65 scored/52 pass/50 min and practical application.",
+      "support": [
+        {
+          "source_alias": "test",
+          "source_id": "SRC-64a8c6a618915c71",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+          "locator": "Så går teoriprovet till and Vad teoriprovet innehåller",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "practical",
+          "source_id": "SRC-4f119c98672b2997",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+          "locator": "Körprovet består av",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Dated information; no practice-score promise."
+    },
+    {
+      "id": "C086",
+      "lesson": "M10-L04",
+      "classification": "accessibility information",
+      "statement": "Languages and application-based support routes.",
+      "support": [
+        {
+          "source_alias": "languages",
+          "source_id": "SRC-ff21aeef162407df",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/",
+          "locator": "Language selection",
+          "checked_on": "2026-10-01"
+        },
+        {
+          "source_alias": "support",
+          "source_id": "SRC-70574a62464729ca",
+          "url": "https://www.trafikverket.se/korkort/ta-korkort/teoriprov-och-yrkesprov-med-stod/",
+          "locator": "How to apply and approval before booking",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No guaranteed individual support outcome or fixed processing time."
+    },
+    {
+      "id": "R01",
+      "lesson": "M01-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 4–5, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R02",
+      "lesson": "M02-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R03",
+      "lesson": "M03-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2–3, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R04",
+      "lesson": "M04-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 3, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R05",
+      "lesson": "M05-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 3, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R06",
+      "lesson": "M06-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 3, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R07",
+      "lesson": "M07-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2–4, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R08",
+      "lesson": "M08-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2–3, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R09",
+      "lesson": "M09-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2, 4–5, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "R10",
+      "lesson": "M10-R",
+      "classification": "original self-assessment exercise",
+      "statement": "Identify uncertainty, consequences and a specific reference or practice action.",
+      "support": [
+        {
+          "source_alias": "syllabus",
+          "source_id": "SRC-7530106233dee341",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+          "locator": "TSFS 2011:20 chapters 2–5, section 3",
+          "checked_on": "2026-10-01"
+        }
+      ],
+      "decision": "educational_scope_supported",
+      "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    }
+  ]
+}

@@ -1956,6 +1956,1353 @@
       ],
       "decision": "educational_scope_supported",
       "scope_limit": "Original prompt; not an official assessment or practical competence certification."
+    },
+    {
+      "id": "situation-062-C01",
+      "lesson": "M01-L02",
+      "classification": "medical explanation",
+      "statement": "Stimulant drugs can mask fatigue.",
+      "support": [
+        {
+          "source_alias": "stimulant-fatigue",
+          "source_id": "G1-stimulant-fatigue",
+          "url": "https://www.nhtsa.gov/sites/nhtsa.gov/files/809725-drugshumanperformfs.pdf",
+          "locator": "Printed pages 62–64 (PDF pages 63–65), Methamphetamine, Effects / Performance Effects / Effects on Driving",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General physiology and stimulant misuse; no foreign legal rules or blanket claim about prescribed treatment."
+    },
+    {
+      "id": "situation-062-C02",
+      "lesson": "M01-L02",
+      "classification": "medical explanation",
+      "statement": "Stimulant drugs can produce overconfidence without safe judgement.",
+      "support": [
+        {
+          "source_alias": "stimulant-confidence",
+          "source_id": "G1-stimulant-confidence",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/drograttfylleri-och-sjofylleri_gm0343/html/",
+          "locator": "Printed page 24, paragraph beginning De centralstimulerande medlen",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General physiology and stimulant misuse; no foreign legal rules or blanket claim about prescribed treatment."
+    },
+    {
+      "id": "situation-068-C01",
+      "lesson": "M01-L02",
+      "classification": "medical explanation",
+      "statement": "Define brief unintended sleep and show distance travelled during a short lapse.",
+      "support": [
+        {
+          "source_alias": "microsleep",
+          "source_id": "G1-microsleep",
+          "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/03.html",
+          "locator": "Microsleeps definition",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General physiology and stimulant misuse; no foreign legal rules or blanket claim about prescribed treatment."
+    },
+    {
+      "id": "situation-069-C01",
+      "lesson": "M01-L02",
+      "classification": "medical explanation",
+      "statement": "Explain that adequate sleep addresses sleep deprivation; transient alertness does not replace sleep.",
+      "support": [
+        {
+          "source_alias": "drowsy-driving",
+          "source_id": "G1-drowsy-driving",
+          "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+          "locator": "Tips to Drive Alert: How To Avoid Driving Drowsy item 1; Short-Term Interventions item 1",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General physiology and stimulant misuse; no foreign legal rules or blanket claim about prescribed treatment."
+    },
+    {
+      "id": "situation-129-C01",
+      "lesson": "M01-L03",
+      "classification": "official policy aim",
+      "statement": "Define Vision Zero's no-death/no-serious-injury aim and connect it to driver choices.",
+      "support": [
+        {
+          "source_alias": "vision-zero",
+          "source_id": "G1-vision-zero",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/samarbete-med-branschen/Samarbeten-for-trafiksakerhet/tillsammans-for-nollvisionen/",
+          "locator": "Introductory aim and shared-responsibility principles 1–3",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Road-traffic application of the stated transport safety aim."
+    },
+    {
+      "id": "situation-131-C01",
+      "lesson": "M02-L03",
+      "classification": "technical explanation",
+      "statement": "Explain head-restraint purpose and head/neck movement in a collision.",
+      "support": [
+        {
+          "source_alias": "seats",
+          "source_id": "G2-seats",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/",
+          "locator": "Whiplash protection and Minska riskerna; complete body retrieved via ?accessibilityarea=easyread",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Explains protective purpose; no guarantee or claim that every whiplash mechanism is settled."
+    },
+    {
+      "id": "situation-132-C01",
+      "lesson": "M02-L03",
+      "classification": "technical explanation",
+      "statement": "Explain rear-facing child-seat support and distribution of collision forces.",
+      "support": [
+        {
+          "source_alias": "child-advice",
+          "source_id": "G2-child-advice",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/",
+          "locator": "Opening explanation: relatively heavy head, undeveloped neck; rear-facing seat slows head and body together",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "source_alias": "child-rules",
+          "source_id": "G2-child-rules",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+          "locator": "Små barn åker säkrast bakåtvänt: heavy head, fragile neck and seat taking collision forces",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General safety/technical explanation; no foreign legal requirements imported. General safety/technical explanation; no foreign legal requirements imported."
+    },
+    {
+      "id": "situation-145-C01",
+      "lesson": "M02-L02",
+      "classification": "technical explanation",
+      "statement": "Explain wheel imbalance as a possible cause of speed-dependent steering vibration.",
+      "support": [
+        {
+          "source_alias": "vehicle-faults",
+          "source_id": "G2-vehicle-faults",
+          "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+          "locator": "Wheel balance p.47; hydraulic brakes p.49; Appendix 3 Basic vehicle faults p.181 (printed/PDF numbers agree)",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Universal vehicle principles only, not Northern Ireland taxi rules. Several faults can cause similar symptoms."
+    },
+    {
+      "id": "situation-146-C01",
+      "lesson": "M02-L02",
+      "classification": "technical explanation",
+      "statement": "Temporary spare speed limits follow the vehicle instructions.",
+      "support": [
+        {
+          "source_alias": "temporary-spare",
+          "source_id": "G2-temporary-spare",
+          "url": "https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/",
+          "locator": "Temporary Spare use, Varning speed restriction and prescribed pressure; full indexed source passage retrieved; direct open failed",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Illustrative 2019 Volvo handbook only. Its 80 km/h limit is not imported as a universal rule; check any stated distance/use restriction in actual handbook."
+    },
+    {
+      "id": "situation-146-C02",
+      "lesson": "M02-L02",
+      "classification": "technical explanation",
+      "statement": "Temporary spare use/distance limits follow the vehicle instructions.",
+      "support": [
+        {
+          "source_alias": "temporary-spare",
+          "source_id": "G2-temporary-spare",
+          "url": "https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/",
+          "locator": "Temporary Spare use, Varning speed restriction and prescribed pressure; full indexed source passage retrieved; direct open failed",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Illustrative 2019 Volvo handbook only. Its 80 km/h limit is not imported as a universal rule; check any stated distance/use restriction in actual handbook."
+    },
+    {
+      "id": "situation-146-C03",
+      "lesson": "M02-L02",
+      "classification": "technical explanation",
+      "statement": "Temporary spare pressure follows the vehicle instructions.",
+      "support": [
+        {
+          "source_alias": "temporary-spare",
+          "source_id": "G2-temporary-spare",
+          "url": "https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/",
+          "locator": "Temporary Spare use, Varning speed restriction and prescribed pressure; full indexed source passage retrieved; direct open failed",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Illustrative 2019 Volvo handbook only. Its 80 km/h limit is not imported as a universal rule; check any stated distance/use restriction in actual handbook."
+    },
+    {
+      "id": "situation-154-C01",
+      "lesson": "M02-L01",
+      "classification": "technical explanation",
+      "statement": "Explain independent brake circuits and reduced remaining braking after one fails.",
+      "support": [
+        {
+          "source_alias": "brake-circuits",
+          "source_id": "G2-brake-circuits",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202013_63k.pdf",
+          "locator": "Chapter 12 §§26 and 30; printed pp. 65–66 / PDF pp. 79–80",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Technical purpose only. Regulation applicability depends on vehicle approval/date; no universal performance percentage or identical braking promise."
+    },
+    {
+      "id": "situation-156-C01",
+      "lesson": "M02-L01",
+      "classification": "technical explanation",
+      "statement": "Explain normal ABS pulsation during emergency braking and maintaining firm steady pressure.",
+      "support": [
+        {
+          "source_alias": "abs-driving",
+          "source_id": "G2-abs-driving",
+          "url": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158",
+          "locator": "Rule 120: ABS emergency braking",
+          "checked_on": "2026-10-12"
+        },
+        {
+          "source_alias": "abs-feedback",
+          "source_id": "G2-abs-feedback",
+          "url": "https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/11expog4e.pdf",
+          "locator": "Four-wheel ABS / Using ABS, printed and PDF p.272 (zero-based index 271)",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Common ABS operation only; no UK traffic law imported. Model-qualified evidence of ABS feedback. No claim that every vibration is ABS or that ABS always shortens a stop."
+    },
+    {
+      "id": "situation-157-C01",
+      "lesson": "M02-L01",
+      "classification": "technical explanation",
+      "statement": "Explain a sinking pedal as a serious possible hydraulic leak/fault.",
+      "support": [
+        {
+          "source_alias": "brake-inspection",
+          "source_id": "G2-brake-inspection",
+          "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202017_54k.pdf",
+          "locator": "Annex 1 §4.2.2 printed p.46 / PDF p.50; leakage/failure assessment §4.3 pp.50–51",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Symptom suggests a possible fault, not a home diagnosis. Inspection test procedures and grading are not taught."
+    },
+    {
+      "id": "situation-158-C01",
+      "lesson": "M02-L01",
+      "classification": "technical explanation",
+      "statement": "Explain air in hydraulic brakes as a possible cause of a springy/spongy pedal.",
+      "support": [
+        {
+          "source_alias": "vehicle-faults",
+          "source_id": "G2-vehicle-faults",
+          "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+          "locator": "Wheel balance p.47; hydraulic brakes p.49; Appendix 3 Basic vehicle faults p.181 (printed/PDF numbers agree)",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Universal vehicle principles only, not Northern Ireland taxi rules. Several faults can cause similar symptoms."
+    },
+    {
+      "id": "situation-159-C01",
+      "lesson": "M02-L03",
+      "classification": "technical explanation",
+      "statement": "Explain controlled deformation absorbing crash energy and reducing occupant forces.",
+      "support": [
+        {
+          "source_alias": "crumple-zones",
+          "source_id": "G2-crumple-zones",
+          "url": "https://www.wa.gov.au/organisation/road-safety-commission/new-or-used-vehicle-buyers",
+          "locator": "Crash protection features → Structure and Crumple Zones",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Shared engineering principle only; no foreign ratings or buying rules imported."
+    },
+    {
+      "id": "situation-173-C01",
+      "lesson": "M02-L01",
+      "classification": "technical explanation",
+      "statement": "Explain a fuse protecting a circuit from excessive current.",
+      "support": [
+        {
+          "source_alias": "fuse-protection",
+          "source_id": "G2-fuse-protection",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/lagar-och-regler/regler-for-sjofart/regler-for-nationell-sjofart/regler-kompletterade-upplysningar/elektrisk-utrustning-och-elinstallationer/",
+          "locator": "Säkringar; electrical short-circuit/overload protection",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "General electrical principle explained on a maritime guidance page. Not cited as legislation governing car fuse installations; no repair instruction added."
+    },
+    {
+      "id": "situation-106-C01",
+      "lesson": "M03-L04",
+      "classification": "safety advice",
+      "statement": "Teach selecting a fixed point and counting the time between both vehicles passing it.",
+      "support": [
+        {
+          "source_alias": "following-gap",
+          "source_id": "G3-following-gap",
+          "url": "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance",
+          "locator": "Working out your crash avoidance space, steps 1–3; video transcript general-rule explanation",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Technique only. Three seconds is presented as a guideline, not a Swedish statutory interval or universal guarantee. Australian reaction-time assumptions, long-vehicle laws, penalty rules and left-side placement instructions are not imported.",
+      "editorial_derivation": null
+    },
+    {
+      "id": "situation-107-C01",
+      "lesson": "M03-L04",
+      "classification": "safety advice",
+      "statement": "Explain increasing the forward gap when followed too closely, allowing smoother braking.",
+      "support": [
+        {
+          "source_alias": "vehicle-faults",
+          "source_id": "G3-tailgater",
+          "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+          "locator": "Printed/PDF p.83: Tailgating (zero-based PDF index 82)",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Common defensive-driving advice only, not Northern Ireland taxi law. Risk reduction is not a guarantee; necessary emergency braking remains necessary. Its two-second target is not imported.",
+      "editorial_derivation": null
+    },
+    {
+      "id": "situation-138-C01",
+      "lesson": "M03-L04",
+      "classification": "physical explanation and illustrative calculation",
+      "statement": "Explain approximately fourfold braking distance at doubled speed under identical grip/braking assumptions.",
+      "support": [
+        {
+          "source_alias": "braking-model",
+          "source_id": "G3-braking-model",
+          "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+          "locator": "Printed p.9(58): braking-distance equation and variable definitions",
+          "checked_on": "2026-10-12"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original mathematical derivation from agency equation. Hold grip/braking deceleration and gradient constant; real design friction can depend on speed. No general promise of exact fourfold road-test distance or fourfold total stopping distance.",
+      "editorial_derivation": {
+        "source_equation": "Sb = (V1² - V2²) / [2g(fb + i)]",
+        "assumptions": [
+          "V2=0",
+          "Fixed positive deceleration a=g(fb+i)",
+          "Same vehicle/loading, effective grip and braking; level road in example"
+        ],
+        "simplification": "d = v² / (2a); d(2v)/d(v) = 4",
+        "example": {
+          "speeds_kmh": [
+            40,
+            80
+          ],
+          "deceleration_m_s2": 5,
+          "response_seconds": 1,
+          "braking_metres": [
+            12.345679,
+            49.382716
+          ],
+          "reaction_metres": [
+            11.111111,
+            22.222222
+          ],
+          "total_metres": [
+            23.45679,
+            71.604938
+          ]
+        },
+        "scope": "Hypothetical arithmetic, not typical or guaranteed vehicle stopping figures."
+      }
+    },
+    {
+      "id": "situation-104-C01",
+      "lesson": "M04-L02",
+      "classification": "safety advice",
+      "statement": "Keep front wheels straight while waiting to turn left across oncoming traffic; explain the rear-impact risk.",
+      "support": [
+        {
+          "source_alias": "left-turn-wheels",
+          "source_id": "G4-left-turn-wheels",
+          "url": "https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-5-intersections-and-turns",
+          "locator": "Right-of-Way: left-turn example immediately after the opposite-direction arrival bullet; wheels-straight and completion sentences",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Safety advice, not presented as a separately established Swedish statutory wheel-angle duty. Only wheel position and its risk explanation are used; New York right-of-way, junction-entry, signal and other legal instructions are not imported. Straight wheels reduce a risk, not guarantee protection."
+    },
+    {
+      "id": "situation-013-C01",
+      "lesson": "M05-L01",
+      "classification": "legal requirement/definition",
+      "statement": "The special bus-exit obligation applies at limits of 50 km/h or lower.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-013-C02",
+      "lesson": "M05-L01",
+      "classification": "legal requirement/definition",
+      "statement": "Above that threshold the bus must enter without danger or unnecessary obstruction.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "interpretation": "§45 road-limit threshold does not apply at 70; §43 safe-start/lateral-entry duty does. This is a comparison of the provisions, not a direct quoted 70-km/h sentence."
+    },
+    {
+      "id": "situation-013-C03",
+      "lesson": "M05-L01",
+      "classification": "legal requirement/definition",
+      "statement": "Other drivers must still cooperate appropriately.",
+      "support": [
+        {
+          "source_alias": "traffic-law",
+          "source_id": "G5-bus-rule",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §45: maximum permitted road speed ≤50, approaching-driver duty and bus caution; §43: safe edge/lateral movement and facilitating observed lane entry",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Ordinary departure from roadside bus stop into the approaching driver’s lane, subject to other applicable controls/rules. Road maximum limit, not actual vehicle speed, determines §45. No unconditional priority or permission to force a gap. “Must give way” in the keyed answer is explained as waiting for a safe entry under §43, not an invented separate always-yield statute.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-119-C01",
+      "lesson": "M05-L01",
+      "classification": "safety advice",
+      "statement": "Avoid distracting a working guide dog, including attention directed at the dog.",
+      "support": [
+        {
+          "source_alias": "guide-dog",
+          "source_id": "G5-guide-dog",
+          "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+          "locator": "När du möter ett ledarhundsekipage, first and third bullets; Så här arbetar ledarhundar",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Safety/interaction advice, not a newly asserted traffic offence. No claim that the dog alone decides a road is safe or every glance necessarily distracts it.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-135-C01",
+      "lesson": "M05-L01",
+      "classification": "legal requirement/definition",
+      "statement": "Explicitly identify a bicycle as a vehicle under traffic terminology.",
+      "support": [
+        {
+          "source_alias": "bicycle-definition",
+          "source_id": "G5-bicycle-definition",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/",
+          "locator": "Definitionen av en cykel, definition item 1 under Act (2001:559)",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Ordinary pedal bicycle, excluding toy vehicles. No unnecessary e-bike/e-scooter taxonomy or implication that every crossing rule is identical for all vehicles.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-075-C01",
+      "lesson": "M06-L03",
+      "classification": "safety advice",
+      "statement": "Explain speed-perception adaptation after prolonged motorway driving and checking the speedometer on a slower road.",
+      "support": [
+        {
+          "source_alias": "speed-adaptation",
+          "source_id": "G6-speed-adaptation",
+          "url": "https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx",
+          "locator": "Highway glossary: Velocitation; Exiting the Freeway, steps 5–6",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Perceptual/safety advice only. No foreign traffic laws, speed limits or stopping distances imported; feeling slow does not prove instrument failure, nor establish an instrument can never fail.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-105-C01",
+      "lesson": "M06-L01",
+      "classification": "conditional editorial application of official example and legal rules",
+      "statement": "Explain continuing to a suitable safe turning place and returning for a right turn when a rural left turn is unsafe.",
+      "support": [
+        {
+          "source_alias": "rural-turn-alternative",
+          "source_id": "G6-rural-turn-alternative",
+          "url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+          "locator": "Aktiviteter från vecka 7, final bullet: unavailable left turn into Kvarnbacken and identified alternative turning locations",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Historical local closure example, not current route advice or a verbatim general recommendation about heavy rural traffic. Continuing, safely changing direction and returning for a right turn is an explicitly identified editorial planning inference, conditional on road geometry and Swedish rules. These provisions constrain the conditional editorial example; they do not explicitly recommend return-right routing. Other signs, access restrictions, controls and local rules remain applicable.",
+      "interpretation": "Supported conditional planning inference, not a direct agency quote: on an ordinary two-way road a legal safe return can change the destination approach from left to right. If no suitable route exists, choose another route or postpone."
+    },
+    {
+      "id": "situation-126-C01",
+      "lesson": "M06-L01",
+      "classification": "safety advice",
+      "statement": "Explain increased wildlife attention around dusk/dawn, habitats and fence openings.",
+      "support": [
+        {
+          "source_alias": "wildlife",
+          "source_id": "SRC-0ad08ea1b0c67595",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+          "locator": "När är det störst risk för vilt- och renolyckor?; Passager för vilt under eller över vägen; Faunapassager med viltvarningssystem",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "wildlife-habitat",
+          "source_id": "G6-wildlife-habitat",
+          "url": "https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf",
+          "locator": "Section 2.2 Naturmiljö, printed/PDF page 9 of 48; paragraph on animal routes and hidden approach",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Prevention and observation only; not reproducing collision reporting from this page. No guarantee that fencing or absence of a warning proves an animal-free road. Project-specific landscape observation used as an example of cues to scan, not a nationwide accident-frequency estimate or a prediction of every animal crossing.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-045-C01",
+      "lesson": "M07-L01",
+      "classification": "legal requirement",
+      "statement": "Explicitly prohibit dipped headlights plus front fog lights together.",
+      "support": [
+        {
+          "source_alias": "lights-combinations",
+          "source_id": "G7-lights-combinations",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf",
+          "locator": "Printed pp.8–9, PDF page 5 of 7: Fog, heavy rain or snow",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Swedish lighting rule. Current Fordonsbelysning page updated 8 May 2026 confirms dipped plus other lights prohibition; no foreign lighting law used.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-070-C01",
+      "lesson": "M07-L01",
+      "classification": "safety/physical explanation",
+      "statement": "Explain central vision and reading precise sign wording.",
+      "support": [
+        {
+          "source_alias": "vision-roles",
+          "source_id": "G7-vision-roles",
+          "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/",
+          "locator": "Visual Acuity and Peripheral Vision",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Explains perception roles, not Swedish medical eligibility or California licence-testing standards. Peripheral vision can alert, but precise inspection requires looking directly; no claim that it detects every hazard.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-071-C01",
+      "lesson": "M07-L01",
+      "classification": "safety/physical explanation",
+      "statement": "Explain peripheral movement/hazard detection and looking directly to inspect it.",
+      "support": [
+        {
+          "source_alias": "vision-roles",
+          "source_id": "G7-vision-roles",
+          "url": "https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/",
+          "locator": "Visual Acuity and Peripheral Vision",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Explains perception roles, not Swedish medical eligibility or California licence-testing standards. Peripheral vision can alert, but precise inspection requires looking directly; no claim that it detects every hazard.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-073-C01",
+      "lesson": "M07-L01",
+      "classification": "editorial safety inference",
+      "statement": "Explain that one approaching light may be a wider vehicle with a failed lamp.",
+      "support": [
+        {
+          "source_alias": "lamp-defects",
+          "source_id": "G7-lamp-defects",
+          "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2025/halvljus--vanligaste-felet-vid-besiktning/",
+          "locator": "Vanligaste felet – defekta halvljus",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Single-visible-lamp width caution is an explicitly identified editorial inference from the agency fact of defective car headlights. The agency does not directly describe this night-driving illusion; no statistics or assertion that every single light is a car.",
+      "interpretation": "One visible light cannot establish narrow vehicle width because a car may have a defective unlit headlamp; conditional editorial inference from Transportstyrelsen evidence."
+    },
+    {
+      "id": "situation-114-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Explain bridge cooling from above and below and earlier freezing.",
+      "support": [
+        {
+          "source_alias": "bridge-cooling",
+          "source_id": "G7-bridge-cooling",
+          "url": "https://www.weather.gov/wrn/winter-driving-sm",
+          "locator": "Bridges Freeze First, text and alt text",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "A bridge can freeze sooner, not a guarantee every bridge always freezes first; moisture, temperature and local conditions matter. No US winter casualty figures imported.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-116-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Explain nearly invisible ice from rain falling onto a sufficiently cold road.",
+      "support": [
+        {
+          "source_alias": "ice-risk",
+          "source_id": "G7-ice-risk",
+          "url": "https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/",
+          "locator": "Kan det bli halt trots att det är plusgrader? Ishalka bullet; Du kan göra mycket själv items 1 and 4",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Road surface must be cold enough for freezing; near-zero air or rain alone does not prove ice. No salt-temperature or maintenance-performance claims imported. SMHI Trafikväder/Underkylt regn checked as corroboration only; TRV supports the teaching so no redundant SMHI citation added.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-117-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Explain first rain mixing with accumulated road residues after dry weather.",
+      "support": [
+        {
+          "source_alias": "first-rain",
+          "source_id": "G7-first-rain",
+          "url": "https://main.sbcounty.gov/2019/12/04/arrive-safely-with-these-winter-driving-safety-tips/",
+          "locator": "Reduce Your Speed, bullet beginning Slow down at the first sign of rain",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Hazard explanation only. No US speed reductions, car-length following rules, lighting rules or chains instructions imported. Rain and residues can reduce grip; no fixed duration or claim rain later guarantees clean/safe road.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-148-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Explain best-grip tyres on the rear and reducing rear-end grip loss.",
+      "support": [
+        {
+          "source_alias": "tyre-basics",
+          "source_id": "SRC-ef044fa13893e15d",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/",
+          "locator": "Bra att tänka på — Bästa däcken bak",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "handling",
+          "source_id": "G7-handling",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Recommendation, not new legal mandate. Rear-stability explanation paired with VTI rear grip/oversteer mechanism. Approved sizes and vehicle instructions still apply. Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-149-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Define oversteer: rear grip loss, turning more than intended.",
+      "support": [
+        {
+          "source_alias": "handling",
+          "source_id": "G7-handling",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-150-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Define understeer: front grip loss, turning less than intended.",
+      "support": [
+        {
+          "source_alias": "handling",
+          "source_id": "G7-handling",
+          "url": "https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf",
+          "locator": "Sections 2.1–2.2, printed pp.11–13 / PDF pp.14–16; rear/front slip discussion printed p.15",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "front-grip",
+          "source_id": "G7-front-grip",
+          "url": "https://www.nhtsa.gov/document/final-rule-federal-motor-vehicle-safety-standards-electronic-stability-control-systems-0",
+          "locator": "What NHTSA Means by Mitigating Excessive Understeer, Case 1, PDF/numbered p.310; Case 3 p.311",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Primary Swedish government research, hosted by TRV; authors state conclusions are not necessarily TRV positions. Teaching describes grip-loss cases, not all technical definitions of under/oversteer or a universal recovery manoeuvre. No historical tyre category performance rankings imported. Technical grip-limit explanation only; no US ESC compliance rules imported. Restricted to loss-of-grip understeer, not claim that every ordinarily understeering car has already lost grip.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-152-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Define aquaplaning as water disrupting tyre-road contact.",
+      "support": [
+        {
+          "source_alias": "wet-driving",
+          "source_id": "G7-wet-driving",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+          "locator": "Road Conditions — Hydroplaning, definition and response items 1–4",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Aquaplaning response with space/time to slow gradually. No foreign mph/water-depth thresholds or emergency-law rules imported. No universal never-brake instruction. Immediate collision emergency remains context-specific; G2 ABS instruction is not a claim ABS restores water-separated contact.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-153-C01",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Ease off the accelerator during aquaplaning.",
+      "support": [
+        {
+          "source_alias": "wet-driving",
+          "source_id": "G7-wet-driving",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+          "locator": "Road Conditions — Hydroplaning, definition and response items 1–4",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Aquaplaning response with space/time to slow gradually. No foreign mph/water-depth thresholds or emergency-law rules imported. No universal never-brake instruction. Immediate collision emergency remains context-specific; G2 ABS instruction is not a claim ABS restores water-separated contact.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-153-C02",
+      "lesson": "M07-L02",
+      "classification": "safety/physical explanation",
+      "statement": "Avoid abrupt steering or braking during aquaplaning.",
+      "support": [
+        {
+          "source_alias": "wet-driving",
+          "source_id": "G7-wet-driving",
+          "url": "https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed",
+          "locator": "Road Conditions — Hydroplaning, definition and response items 1–4",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Aquaplaning response with space/time to slow gradually. No foreign mph/water-depth thresholds or emergency-law rules imported. No universal never-brake instruction. Immediate collision emergency remains context-specific; G2 ABS instruction is not a claim ABS restores water-separated contact.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-136-C01",
+      "lesson": "M08-L01",
+      "classification": "legal requirement",
+      "statement": "Explain the road-limit treatment of a light lorry without a trailer and safe speed adaptation.",
+      "support": [
+        {
+          "source_alias": "light-lorry",
+          "source_id": "G8-light-lorry",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/",
+          "locator": "Opening definition and speed paragraph",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "traffic-law",
+          "source_id": "MS-9f4b74a976fa03fb",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+          "locator": "Chapter 3 §14; corroboration: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hastighet/",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Light-lorry statement explicitly scoped to no trailer. Lower road limit still binds heavy lorry; towing light lorry needs M08-L02 combination check. No inference that light lorry towing may always use road maximum. Existing legal teaching reused; current exact agency safe-speed passage directly inspected, not whole statute re-audited during G8.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-165-C01",
+      "lesson": "M08-L02",
+      "classification": "technical/safety explanation",
+      "statement": "Explain excessive downward towball loading unloading the front axle and impairing steering grip.",
+      "support": [
+        {
+          "source_alias": "load-advice",
+          "source_id": "SRC-42042368739ae270",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/",
+          "locator": "Tänk på att, towball-pressure bullet",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "towball-physics",
+          "source_id": "G8-towball-physics",
+          "url": "https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf",
+          "locator": "If You Already Have a Tow Vehicle, printed page 6 / PDF page 8; definitions/ratings pp.4–6",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Agency safety background; does not state exact front-axle unloading/steering-grip mechanism or universal numeric towball limit. Conventional rear towball/coupling load explanation, not fifth-wheel geometry. No US percentage, hitch modification recipe, numeric load limit, registration or towing law imported. Front unloading means reduced axle load, not necessarily wheels leaving the road.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-172-C01",
+      "lesson": "M08-L03",
+      "classification": "legal requirement",
+      "statement": "Explain automatic driving prohibition following a missed inspection deadline and applicable conditions for addressing it.",
+      "support": [
+        {
+          "source_alias": "inspection-ban",
+          "source_id": "G8-inspection-ban",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+          "locator": "Opening owner responsibility; Vad händer om jag inte besiktar i tid? — Körförbud",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "vehicle-inspection-law",
+          "source_id": "G8-vehicle-inspection-law",
+          "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+          "locator": "Chapter 6 §15: first calendar month after missed inspection month; §21: prohibition until inspection performed; §§16–17: defects/result",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "off-road-inspection",
+          "source_id": "G8-off-road-inspection",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+          "locator": "Köra ett avställt fordon; opening: prohibition does not automatically create off-road status",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Inträtt körförbud due missed periodic deadline, not dangerous-condition meddelat körförbud. On-road: shortest suitable route to repair workshop/inspection; off-road and still banned: shortest suitable route to nearest inspection business. Does not grant general errands/commuting or waive other requirements. Periodic inspection example only. Inspection being carried out ends §15 deadline ban; not a guarantee the result permits ordinary driving, since defects may create new ban/order. No implication a pass is always required merely to end the original deadline ban. General off-road rule allows shortest suitable route to/from nearest inspection; when an overdue ban also applies, the additional ban restriction is to nearest inspection. Return is not automatically allowed while that ban continues. This is an explicit intersection of the agency conditions.",
+      "interpretation": "Deadline prohibition ends once periodic inspection has been carried out (§21), but new defect-related bans/orders and other requirements can still apply. Off-road general travel permission must be intersected with the still-active deadline-ban restriction."
+    },
+    {
+      "id": "situation-076-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain stored fossil carbon → CO₂ → enhanced greenhouse effect.",
+      "support": [
+        {
+          "source_alias": "fossil-carbon",
+          "source_id": "G9-fossil-carbon",
+          "url": "https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/",
+          "locator": "Opening three paragraphs before Koldioxidutsläpp från biobränslen",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "climate-effect",
+          "source_id": "G9-climate-effect",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "locator": "Paragraph starting Transporternas klimatpåverkan",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Qualitative teaching only; no dated statistics or percentage-saving promise imported. Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-077-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain catalyst temperature and low cold-start effectiveness.",
+      "support": [
+        {
+          "source_alias": "catalyst-warmup",
+          "source_id": "G9-catalyst-warmup",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf",
+          "locator": "Så fungerar katalysatorer, printed/PDF page 24",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law. Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-078-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain pollutant conversion versus remaining fossil CO₂/climate impact.",
+      "support": [
+        {
+          "source_alias": "climate-effect",
+          "source_id": "G9-climate-effect",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/",
+          "locator": "Paragraph starting Transporternas klimatpåverkan",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "catalyst-warmup",
+          "source_id": "G9-catalyst-warmup",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf",
+          "locator": "Så fungerar katalysatorer, printed/PDF page 24",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanism only. No old emission share, numerical speed saving or national inventory copied. Conventional petrol three-way catalyst; cold-start weakness corroborated by TRV road-air opening. No universal warm-up time/temperature, no implication diesel catalysts work identically, no use of 2022 legislative proposals as current law.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-079-C01",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain an engine-heater timer reducing unnecessary electricity use.",
+      "support": [
+        {
+          "source_alias": "heater-timer",
+          "source_id": "G9-heater-timer",
+          "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/",
+          "locator": "Tänk efter vad du använder el till, motorvärmare bullet",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Installed electric engine heater used as instructed; no universal duration/temperature or promise heater has warmed catalyst. Scheduling before departure is educational application, not numerical prescription.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-082-C01",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Unnecessary cooling consumes energy.",
+      "support": [
+        {
+          "source_alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "locator": "Air conditioning",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-082-C02",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Air conditioning can support comfort/alertness.",
+      "support": [
+        {
+          "source_alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "locator": "Air conditioning",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-082-C03",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Air conditioning can support clear windows.",
+      "support": [
+        {
+          "source_alias": "cooling-safety",
+          "source_id": "G9-cooling-safety",
+          "url": "https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment",
+          "locator": "Air conditioning",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Benefits do not cure sleep deprivation. No foreign speed threshold/window-opening recipe or universal temperature copied. Follow actual demisting/climate controls, M07-L01 visibility and M07-L03 attention.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-083-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain purpose-built washing with collected/treated wastewater.",
+      "support": [
+        {
+          "source_alias": "wash-water",
+          "source_id": "G9-wash-water",
+          "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan",
+          "locator": "Opening; Så gör du rätt; Varför är det viktigt / För miljön",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Environmental choice, not invented nationwide blanket street-washing criminal rule. Local water-protection restrictions differ. Treatment does not guarantee zero pollution; use facility-compatible products.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-084-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain carbon monoxide interfering with blood oxygen transport.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-085-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Traffic NOx can irritate airways.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-085-C02",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "NOx contributes to acidification.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-085-C03",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "NOx contributes to ground-level ozone.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-086-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain traffic particles and respiratory harm.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-088-C01",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain a suitably high gear without labouring the engine in a conventional manual car.",
+      "support": [
+        {
+          "source_alias": "manual-eco",
+          "source_id": "G9-manual-eco",
+          "url": "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/",
+          "locator": "Change up at low revs; Less stopping on a journey means less CO2",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-090-C01",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Define engine braking with accelerator released and a suitable gear engaged.",
+      "support": [
+        {
+          "source_alias": "manual-eco",
+          "source_id": "G9-manual-eco",
+          "url": "https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/",
+          "locator": "Change up at low revs; Less stopping on a journey means less CO2",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Conventional manual combustion-engine car only. Engine braking is editorial definition of described in-gear deceleration, not universal fuel cutoff. No fixed RPM, switching ignition off, foreign laws, downhill coasting or percentage saving imported.",
+      "interpretation": "Engine braking definition describes official VCA in-gear accelerator-release deceleration; actual braking/fuel behaviour vehicle-dependent."
+    },
+    {
+      "id": "situation-092-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "An electric car has no tailpipe exhaust while driving.",
+      "support": [
+        {
+          "source_alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "interpretation": "No combustion tailpipe exhaust is the direct explanatory inference from agency electricity-only BEV definition; not a claim of zero lifecycle or particle impacts."
+    },
+    {
+      "id": "situation-092-C02",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Vehicle/battery production has environmental impacts.",
+      "support": [
+        {
+          "source_alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-092-C03",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Electricity supply has environmental impacts.",
+      "support": [
+        {
+          "source_alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-094-C01",
+      "lesson": "M09-L01",
+      "classification": "technical/environmental explanation",
+      "statement": "Compare externally rechargeable plug-in hybrids with non-plug-in hybrids.",
+      "support": [
+        {
+          "source_alias": "electric-types",
+          "source_id": "G9-electric-types",
+          "url": "https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/",
+          "locator": "Vad är ett elfordon?; Laddbara fordon och utsläpp av växthusgaser",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Battery-electric car scoped explicitly; no-tailpipe follows directly from electricity-only propulsion, marked as explanatory inference in claims. No zero-lifecycle impact, fixed range, outdated inventory share or exact hybrid fuel-consumption promise.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-098-C01",
+      "lesson": "M09-L04",
+      "classification": "technical/environmental explanation",
+      "statement": "Studded tyres cause road wear and airborne particles.",
+      "support": [
+        {
+          "source_alias": "road-air",
+          "source_id": "G9-road-air",
+          "url": "https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/",
+          "locator": "Opening; Påverkan på hälsan; Partiklar; Kväveoxid; Kolmonoxid",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Stable qualitative mechanisms only; no historical fleet shares, diesel projections, exposure thresholds or claim outdoor CO never matters. CO and CO2 distinguished. Ground-level ozone forms via reactions, not simply directly emitted NOx.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-098-C02",
+      "lesson": "M09-L04",
+      "classification": "legal requirement",
+      "statement": "Local restrictions can address that pollution.",
+      "support": [
+        {
+          "source_alias": "studs-local",
+          "source_id": "G9-studs-local",
+          "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf",
+          "locator": "Printed/PDF page 13: paragraph after table 1; corroborated current Traffic Regulation chapter 10 §2",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "studs-sign",
+          "source_id": "G9-studs-sign",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/",
+          "locator": "Sign heading and supplementary-panel paragraph",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Use agency statement for authority; current statutory paragraph checked as corroboration only. No old fine, proposed date changes, historical municipal decision or particular street presented as currently operative. Text cross-link to already taught official C44 in M07-L02; no new image/design/sign placement. Check actual STFS decision, dates, limits, exceptions and signs; national permitted tyre season does not override local restriction.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-099-C01",
+      "lesson": "M09-L02",
+      "classification": "technical/environmental explanation",
+      "statement": "Explain unnecessary carried mass and removing unneeded heavy equipment.",
+      "support": [
+        {
+          "source_alias": "carried-mass",
+          "source_id": "G9-carried-mass",
+          "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html",
+          "locator": "Fördelar med sparsam körning / advice list: Minimera vikten och luftmotståndet",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Remove unnecessary cargo, retain required safety/accessibility equipment; no numerical fuel saving, no universal heater times from this page imported.",
+      "interpretation": null
+    },
+    {
+      "id": "situation-174-C01",
+      "lesson": "M10-L01",
+      "classification": "technical/safety explanation",
+      "statement": "Explain why opening a hot coolant cap can release pressurised hot fluid/steam and cause burns.",
+      "support": [
+        {
+          "source_alias": "hot-coolant",
+          "source_id": "G10-hot-coolant",
+          "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html",
+          "locator": "VIKTIGT: Ta bort kylarlocket; pressure-release explanation and following warning; VARNING: Kylarlock",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "breakdown",
+          "source_id": "SRC-1fa593cfee2c2d1d",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+          "locator": "Opening; Varna/Lämna/Larma",
+          "checked_on": "2026-10-13"
+        },
+        {
+          "source_alias": "tunnel",
+          "source_id": "SRC-9df1b7b27832830a",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/",
+          "locator": "Om bilen går sönder eller om det händer en olycka; Om det brinner",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Manufacturer technical warning for a conventional pressurised cooling system. Actual radiator/expansion-tank layout and stopping instructions vary: use own handbook/recovery advice. Do not generalise Kia opening steps, refill quantities/mixture, fan/battery procedure or fixed waiting time. The lesson gives no roadside cap-opening/repair instructions. Preferred agency scene-safety support; not coolant technical evidence. Motorway/2+1-road advice not universal tunnel waiting instruction. No numerical triangle distance added by G10. Agency scene-safety cross-link only, not technical cooling-system instruction. Smoke/fire urgent; do not diagnose roadside source before responding to immediate danger."
     }
-  ]
+  ],
+  "last_amended_on": "2026-10-13"
 }

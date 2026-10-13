@@ -12,9 +12,13 @@ Extended B (B96) permits combined total weights up to 4,250 kg, without increasi
 
 **Two tests.** Entitlement uses registered total weights. Technical towing limits also restrict what the particular car may pull in its actual loaded state. Emptying a trailer may reduce its actual weight without changing its registered total weight, so it may solve a technical-weight problem but not an entitlement problem. [Towing weights][towing]
 
+**Vehicle comparison · Light lorry without a trailer.** A light lorry (*lätt lastbil*) has a registered total weight of at most 3,500 kg. Without a trailer, it normally follows the road's maximum speed; the general heavy-lorry cap does not apply. A heavy lorry exceeds 3,500 kg: without a trailer its vehicle maximum is 90 km/h on a motorway or expressway, and 80 km/h on other roads; with a trailer it is 80 km/h. A lower road limit always applies. For a light lorry towing, check the combination rules in M08-L02. [Transportstyrelsen: light and heavy lorries][light-lorry]
+
+**Apply the limit.** A light lorry without a trailer on a road signed 100 km/h does not acquire an 80 km/h cap simply because it is called a lorry. Still reduce speed for visibility, grip, traffic and load; a maximum is not a target. [Safe-speed duty, chapter 3 §14][traffic-law]
+
 **Worked decision.** A car has a total weight of 2,200 kg and a trailer 1,500 kg. Their combined total weight is 3,700 kg, and the trailer exceeds 750 kg. Ordinary B does not cover this combination. B96 may satisfy the entitlement part, but the car's towing capacity and loaded weights still need checking.
 
-**Knowledge check.** A 3,500 kg car is paired with a 750 kg trailer. Is ordinary B automatically excluded because the sum exceeds 3,500 kg? **Answer:** No. The trailer-at-most-750 kg route can cover it. Technical and actual-weight limits must still be satisfied.
+**Knowledge check.** (1) Is ordinary B automatically excluded for a 3,500 kg car and 750 kg trailer? (2) Which maximum normally applies to a light lorry without a trailer, and is it a target? **Answer:** (1) No. The at-most-750 kg trailer route can cover it; technical/actual-weight limits still apply. (2) The road maximum, with speed reduced for conditions. It is not the general heavy-lorry cap or a target; towing needs a separate combination check.
 
 **Remember:** Check the licence first, then the vehicle and load—not one instead of the other.
 
@@ -41,9 +45,15 @@ On roads other than private roads, the ordinary width/load rule restricts a moto
 
 For a conventional light braked trailer with rigid drawbar and suitable overrun brake, the maximum is normally 80 km/h. For an unbraked trailer up to 750 kg, 80 km/h requires its total weight to be no more than half the car’s defined ready weight; when the trailer is empty, its ready weight is used for this comparison instead. The ordinary unbraked combination outside those conditions is limited to 40 km/h, subject to the other combination requirements; other configurations can be limited to 30. Use Transportstyrelsen's calculator and guidance for the specific combination, and obey any lower road limit. [Trailer guide: speed conditions][trailer-guide] · [Traffic Regulation, chapter 4 §20, version applicable on 1 October 2026][traffic-law]
 
+**Towball load · A separate force.** Towball load (*kultryck*) is the trailer's downward load at the coupling, not the trailer's whole loaded weight. With a conventional towball behind the car's rear axle, excessive downward force acts through a lever arm: it increases rear loading while reducing the load carried by the front axle. Front unloading does not require the wheels to leave the road. With less front-tyre loading, available steering grip and response can be impaired. [Official towing guide: front-wheel unloading, page 6][towball-physics]
+
+Trafikverket warns that incorrect coupling pressure can lift the car or trailer. Follow the specified towball, coupling, axle and vehicle limits for the actual combination; there is no universal number in this lesson. Measure and redistribute the load as instructed before travelling. Total trailer weight, coupling load and cargo securing are separate checks. Do not cure excessive downward load by guessing or creating an equally unsuitable load distribution. [Trafikverket: coupling-load caution][load-advice] · [Official towing guide: ratings and load distribution][towball-physics]
+
+**Worked loading decision.** Your total trailer weight is within the car's towing limit, but a heavy object far forward makes the coupling load excessive. The total-weight check has not proved suitable axle loading. Stop preparation, establish the specified limits and adjust and secure the load before driving.
+
 **Worked decision.** A trailer's ready weight is 400 kg and cargo adds 500 kg, giving an illustrative actual weight of 900 kg. A car rated to tow only 800 kg cannot pull that load merely because the driver's entitlement covers the registered total weights.
 
-**Knowledge check.** Does a strap around the load prove the vehicle is within its weight limit? **Answer:** No. Securing and weight are different checks. Also inspect the correct coupling, lighting, tyres and equipment for the actual trailer before departure.
+**Knowledge check.** (1) Does a strap prove the vehicle is within its weight limit? (2) Can an acceptable total trailer weight still conceal excessive towball load, and what can that do? **Answer:** (1) No. Weight and securing are separate checks; inspect coupling, lights, tyres and equipment too. (2) Yes. Excess downward load behind the rear axle can unload the front axle and impair steering grip. Check the actual coupling/axle limits and load distribution before driving.
 
 **Remember:** Establish what the load weighs, where it is, how it is restrained and what limits apply.
 
@@ -59,9 +69,15 @@ An on-road registration status, valid insurance and completed inspection answer 
 
 **Ownership process.** Transportstyrelsen currently provides eligible private-person transfers through Mina sidor; other cases may require the latest registration certificate part 2. The service has eligibility conditions. Consult the current instructions instead of relying on an old app or a remembered screen sequence. Part 1 and the vehicle enquiry service provide technical information; protect ownership documents appropriately. [Ownership transfer][owner] · [Registration certificate][registration]
 
+**Inspection deadline · An automatic ban.** If the required periodic inspection deadline is missed, an automatic driving ban (*inträtt körförbud*) applies. You remain responsible even without a reminder. Booking a later appointment does not end the ban. The deadline ban lasts until the inspection has been carried out; follow its result, since defects can bring a new prohibition or a repair/reinspection requirement. Check the vehicle record before ordinary use. [Transportstyrelsen: missed inspection][inspection-ban] · [Vehicle Regulation, chapter 6 §§15–21][vehicle-inspection-law]
+
+**Restricted trips.** With an overdue-inspection ban and on-road status (*påställd*), only the shortest suitable route to a repair workshop for repair or to an inspection business for inspection is permitted. If the vehicle is off-road (*avställd*) and the ban still applies, the exception is the shortest suitable route to the nearest inspection business. Traffic insurance and other applicable requirements still matter; the off-road exception requires no unpaid vehicle taxes. It does not permit errands or commuting. A prohibition issued because the vehicle is dangerously defective has different conditions: it must be recovered from the place where that prohibition is issued. [Transportstyrelsen: inspection prohibitions][inspection-ban] · [Transportstyrelsen: off-road inspection conditions][off-road-inspection]
+
+**Worked deadline.** An ordinary light car's recorded inspection deadline is 31 October 2026. Without the required inspection, the deadline ban starts on 1 November. An appointment on 5 November does not allow normal driving on 2 November. Arrange a permitted inspection trip, or transport if it cannot be driven safely and lawfully, then follow the inspection result. These dates illustrate the rule; use the actual vehicle's record. [Vehicle Regulation, chapter 6 §§15 and 21][vehicle-inspection-law]
+
 **Worked decision.** A buyer collects an on-road car but assumes the seller's insurance is enough for the trip home. The buyer checks the transfer and arranges the required cover from the applicable ownership date before driving. The sale does not transfer the seller's insurance as personal cover for the buyer.
 
-**Knowledge check.** Does parking an on-road car in a garage automatically remove the compulsory-insurance requirement? **Answer:** No. Formal status and the insurance rules apply, not simply whether you intend to drive today.
+**Knowledge check.** (1) Does garaging an on-road car automatically end compulsory insurance? (2) The inspection deadline passed, but you booked an appointment. May you commute meanwhile? **Answer:** (1) No. Formal status and insurance rules apply. (2) No. The automatic deadline ban continues until inspection is carried out. Only the applicable restricted inspection/repair trip is permitted; vehicle status, insurance, tax and safety conditions must be satisfied. Follow the inspection result and check for any further prohibition before ordinary use.
 
 **Remember:** Keep a record of dates and obligations, then verify them against the current vehicle record.
 
@@ -96,14 +112,19 @@ Identify one figure or document you do not yet know how to interpret. Record the
 [trailer]: https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/
 [trailer-guide]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/
 [towing]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/
-[weights]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/
+[light-lorry]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/
 [traffic-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
+[weights]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/
 [load-advice]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/
+[towball-physics]: https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf
 [insurance]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/
 [inspection]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/
 [status]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/
 [owner]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/
 [registration]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/
+[inspection-ban]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/
+[vehicle-inspection-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/
+[off-road-inspection]: https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/
 [crash]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/
 [aeb]: https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/
 [friction]: https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf

@@ -14,9 +14,15 @@ When a journey is interrupted, the setting determines the safest response. After
 
 **Learning approach.** On an ordinary road, assess traffic, visibility and the location before choosing a protected waiting place and arranging help. Do not assume that a procedure for a sheltered bay, an exposed motorway shoulder and a smoke-filled tunnel can be identical.
 
+**Overheating · Leave the hot cap closed.** In a conventional pressurised cooling system, hot coolant and steam can remain under pressure even after the engine is switched off. Opening the radiator cap, or the cap of a pressurised coolant reservoir, can release that pressure and expel scalding liquid or steam, causing severe burns. Never loosen or remove the cap while the engine or cooling system is hot. Switching off is not proof that pressure and heat have disappeared. [Manufacturer handbook: hot coolant and pressure warning][hot-coolant]
+
+Treat a temperature warning as a reason to respond according to the actual vehicle handbook, not as an invitation to open a cap. Revisit M02-L01 for warning indicators and fault recognition. Protect people from traffic first and arrange professional assistance where needed. Cooling-system layouts and stopping instructions vary; this lesson gives no fixed waiting time, cap-opening sequence or roadside refill procedure. [Manufacturer cooling-system precautions][hot-coolant] · [Trafikverket: protect people and call recovery][breakdown]
+
+**Apply the warning.** The temperature warning appears on a motorway journey. After reaching the safest available stopping place as conditions allow, follow the vehicle's stopping instructions and this lesson's motorway scene-safety advice. A passenger suggests opening the coolant cap immediately because the engine is now off. Reject that action: residual heat and pressure can still cause a burn. Call recovery from a protected position rather than attempting an exposed repair. If the event is in a tunnel, use the tunnel response above; smoke, fire or danger to life requires the urgent response, not waiting beside the vehicle to diagnose it. [Trafikverket: motorway breakdown][breakdown] · [Trafikverket: tunnel urgency][tunnel]
+
 **Worked decision.** A driver with a puncture on a motorway wants to change the wheel immediately. They first protect people from traffic and arrange recovery rather than working in an exposed position. A warning triangle does not create a protected workshop.
 
-**Knowledge check.** Is “always stay in the car” or “always leave in exactly the same way” a complete rule for every breakdown? **Answer:** Neither. Apply the official guidance for the location and urgency, with people’s safety first.
+**Knowledge check.** (1) Is one identical waiting rule suitable for every breakdown? (2) Why must you leave a hot coolant cap closed even after switching off the engine? **Answer:** (1) No. Apply the guidance for the location and urgency, with people’s safety first. (2) Heat and pressure can remain; opening the cap can release scalding coolant or steam and cause severe burns. Do not open it while hot. Follow the actual handbook and arrange assistance; no fixed waiting time proves it safe.
 
 **Remember:** Establish where the danger is before deciding where to wait.
 
@@ -96,6 +102,7 @@ Write a dated plan for further study or supervised practice, including how you w
 [traffic-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
 [breakdown]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/
 [tunnel]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/
+[hot-coolant]: https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html
 [first-aid]: https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/
 [wildlife]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/
 [test]: https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/

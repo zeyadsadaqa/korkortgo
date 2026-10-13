@@ -44,6 +44,8 @@ for rec in records:
  else:
   assert rec['width_mm']<=asset['max_size_mm_at_300ppi'][0]+.001
   assert rec['height_mm']<=asset['max_size_mm_at_300ppi'][1]+.001
+assert 'Manufacturer technical references' in alltext
+assert 'manufacturer-references' in r.named_destinations
 assert set(REFS.values())<=uris, set(REFS.values())-uris
 assert REUSE in uris
 assert r.trailer['/Root']['/Lang']=='en-GB'
@@ -55,5 +57,5 @@ assert not any(s in alltext.lower() for s in ['körkort online','theory-book'])
 sha=hashlib.sha256(TARGET.read_bytes()).hexdigest()
 subprocess.run([sys.executable,str(OUT/'build_reference.py')],check=True,capture_output=True)
 assert hashlib.sha256(TARGET.read_bytes()).hexdigest()==sha
-report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':23,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'See ../reference-material-review.md','limits':['Standalone folios and chapter references are provisional; final cross-book links are 6M work','Full tagged-PDF accessibility and final publication approval remain in 6N']}
+report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':len(table_rows(SECS[TITLES[2]].split('\n\n')[1]))-1,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'See ../reference-material-review.md','limits':['Standalone folios and chapter references are provisional; final cross-book links are 6M work','Full tagged-PDF accessibility and final publication approval remain in 6N']}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,indent=2))

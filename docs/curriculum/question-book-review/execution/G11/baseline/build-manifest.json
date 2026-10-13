@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "prepared": "2026-10-03",
+  "status": "6A_complete_screen_review",
+  "brand": "KörkortGo",
+  "page": {
+    "format": "A4",
+    "orientation": "portrait",
+    "margin_mm": 20
+  },
+  "fonts": {
+    "headings": "Source Serif 4",
+    "body": "Source Sans 3",
+    "files_pinned": true,
+    "licences_bundled": true,
+    "manifest": "fonts/manifest.json"
+  },
+  "front_matter": [
+    "cover",
+    "introduction",
+    "contents"
+  ],
+  "chapters": [
+    {
+      "id": "M01",
+      "title": "Choose to drive responsibly",
+      "destination": "M01",
+      "lessons": [
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04"
+      ],
+      "review": "M01-R",
+      "production_step": "6B",
+      "status": "G1_complete_screen_review",
+      "pdf": "chapters/M01/chapter.pdf",
+      "pages": 17,
+      "verified_on": "2026-10-12",
+      "sha256": "9b02ff107fdbfeac706d55b52da38db34065352809cb381623929b5db204e15d",
+      "review_report": "chapters/M01/review.md",
+      "gap_execution_report": "../question-book-review/execution/G1/completion.md"
+    },
+    {
+      "id": "M02",
+      "title": "Prepare a car that is ready",
+      "destination": "M02",
+      "lessons": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04"
+      ],
+      "review": "M02-R",
+      "production_step": "6C",
+      "status": "G2_complete_screen_review",
+      "pdf": "chapters/M02/chapter.pdf",
+      "pages": 19,
+      "review_report": "chapters/M02/review.md",
+      "verified_on": "2026-10-12",
+      "sha256": "4659ff73f14eb62bb9dfd0866bff4a0f2186f3c3776ee3c6c16ae34906e7377c",
+      "gap_execution_report": "../question-book-review/execution/G2/completion.md"
+    },
+    {
+      "id": "M03",
+      "title": "Read the road before acting",
+      "destination": "M03",
+      "lessons": [
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04"
+      ],
+      "review": "M03-R",
+      "production_step": "6D",
+      "status": "G3_complete_screen_review",
+      "pdf": "chapters/M03/chapter.pdf",
+      "pages": 52,
+      "review_report": "chapters/M03/review.md",
+      "verified_on": "2026-10-12",
+      "sha256": "b6bdc7cb3c5021f1ab8e9e4b24ede78caf4a9a4360bf9faedde146dde166ab0c",
+      "gap_execution_report": "../question-book-review/execution/G3/completion.md"
+    },
+    {
+      "id": "M04",
+      "title": "Negotiate shared space",
+      "destination": "M04",
+      "lessons": [
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04"
+      ],
+      "review": "M04-R",
+      "production_step": "6E",
+      "status": "G4_complete_screen_review",
+      "pdf": "chapters/M04/chapter.pdf",
+      "pages": 43,
+      "review_report": "chapters/M04/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "fe33089945c3164dd2eed1aa3f1cf640f2b307bd219c2ccee290d8ef2fba8cc4",
+      "gap_execution_report": "../question-book-review/execution/G4/completion.md"
+    },
+    {
+      "id": "M05",
+      "title": "Make room in busy streets",
+      "destination": "M05",
+      "lessons": [
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04"
+      ],
+      "review": "M05-R",
+      "production_step": "6F",
+      "status": "G5_complete_screen_review",
+      "pdf": "chapters/M05/chapter.pdf",
+      "pages": 45,
+      "review_report": "chapters/M05/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "cf4e444407959dc6bfdaa2140e510b9a42b51699238c85b8c4e3624f6c838787",
+      "gap_execution_report": "../question-book-review/execution/G5/completion.md"
+    },
+    {
+      "id": "M06",
+      "title": "Travel beyond the town",
+      "destination": "M06",
+      "lessons": [
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04"
+      ],
+      "review": "M06-R",
+      "production_step": "6G",
+      "status": "G6_complete_screen_review",
+      "pdf": "chapters/M06/chapter.pdf",
+      "pages": 50,
+      "review_report": "chapters/M06/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "f6379c6ccd3b52e5be465dd7459847c45ef7f6bf480d802f69cc6f0513a77e1b",
+      "gap_execution_report": "../question-book-review/execution/G6/completion.md"
+    },
+    {
+      "id": "M07",
+      "title": "Adapt when conditions change",
+      "destination": "M07",
+      "lessons": [
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04"
+      ],
+      "review": "M07-R",
+      "production_step": "6H",
+      "status": "G7_complete_screen_review",
+      "pdf": "chapters/M07/chapter.pdf",
+      "pages": 27,
+      "review_report": "chapters/M07/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "77100ebfaab970282ba4f3b47e93235e2c3fc9def8ddbbe88cbac2cf3d466170",
+      "gap_execution_report": "../question-book-review/execution/G7/completion.md"
+    },
+    {
+      "id": "M08",
+      "title": "Take responsibility for the vehicle and load",
+      "destination": "M08",
+      "lessons": [
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04"
+      ],
+      "review": "M08-R",
+      "production_step": "6I",
+      "status": "G8_complete_screen_review",
+      "pdf": "chapters/M08/chapter.pdf",
+      "pages": 31,
+      "review_report": "chapters/M08/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "db49f1cfae1adc32dcc7859c880aba318646e6b6d1bbdb0a0030d8d782a10fa2",
+      "gap_execution_report": "../question-book-review/execution/G8/completion.md"
+    },
+    {
+      "id": "M09",
+      "title": "Reduce the impact of each journey",
+      "destination": "M09",
+      "lessons": [
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04"
+      ],
+      "review": "M09-R",
+      "production_step": "6J",
+      "status": "G9_complete_screen_review",
+      "pdf": "chapters/M09/chapter.pdf",
+      "pages": 27,
+      "review_report": "chapters/M09/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "034dfa829005136a37b6cc9f2121c8d68fffc00fe8294bae6f2138d9130be16f",
+      "gap_execution_report": "../question-book-review/execution/G9/completion.md"
+    },
+    {
+      "id": "M10",
+      "title": "Respond, reflect and keep learning",
+      "destination": "M10",
+      "lessons": [
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04"
+      ],
+      "review": "M10-R",
+      "production_step": "6K",
+      "status": "G10_complete_screen_review",
+      "pdf": "chapters/M10/chapter.pdf",
+      "pages": 24,
+      "review_report": "chapters/M10/review.md",
+      "verified_on": "2026-10-13",
+      "sha256": "8a791506c0155fea1da50d48191d464a13b48029cb2a674fbba5367de61a2fbc",
+      "gap_execution_report": "../question-book-review/execution/G10/completion.md"
+    }
+  ],
+  "appendices": [
+    {
+      "id": "appendix-A",
+      "title": "Put the learning into practice",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
+    },
+    {
+      "id": "appendix-B",
+      "title": "Learn signs by the decision they require",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
+    },
+    {
+      "id": "appendix-C",
+      "title": "A practical Swedish–English glossary",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
+    },
+    {
+      "id": "appendix-D",
+      "title": "Personal practice record",
+      "status": "completed_screen_review",
+      "pdf": "reference-material.pdf",
+      "production_step": "6L"
+    }
+  ],
+  "references_destination": "official-references",
+  "final_page_numbers": {
+    "contents": 4,
+    "M01": 5,
+    "M02": 20,
+    "M03": 35,
+    "M04": 85,
+    "M05": 127,
+    "M06": 171,
+    "M07": 219,
+    "M08": 242,
+    "M09": 271,
+    "M10": 293,
+    "appendix-A": 317,
+    "appendix-A-situations": 318,
+    "appendix-B": 319,
+    "appendix-B-study-1": 320,
+    "appendix-B-study-7": 321,
+    "appendix-C": 475,
+    "appendix-C-7": 476,
+    "appendix-C-13": 477,
+    "appendix-C-19": 478,
+    "appendix-D": 479,
+    "appendix-D-continued": 480,
+    "official-references": 481
+  },
+  "input_sha256": {
+    "manuscript.md": "d3eebe04b9fa6c9a2e85dbef2804a6c3b9e5167f941a2ca2ef400bb7b67d3bbd",
+    "pdf-design-spec.md": "a0d8fa1aa187e41415046af738a7cd2ba8c4a3bfc145fb71c8e062b17985c612",
+    "pdf-design-review.md": "778a62e382a408e28baef3db5e97341a25a71fd7ff85a155480af140ba59f883",
+    "sign-asset-manifest.json": "e841e8e918ff98ca08ea06375c2186ffd8fd857a13ef059c09fc618fdbb14b32",
+    "sign-placement-map.json": "f445f5e4829b35e59a20a75fb0a436607ef6be1fdd6ffd53c1920520946d93d4",
+    "sign-captions.json": "879fbdb4d42ec673c49bba191ddb8c3212ba9dc41b4401eabbc52a932b43545b",
+    "pdf-design/5e/illustration-register.json": "b637bde4b957ff1153a2fb30879ab8dcba519b7870b6560d2c2999ffa0c61a00",
+    "pdf-design/gap-resolution/approval-record.json": "7fed12e2fce20a5b6eec87c84c9eb63a521bef020f074d451acb3f94bf54b18a"
+  },
+  "required_held_signs": [],
+  "updated": "2026-10-07",
+  "front_matter_pdf": "front-matter.pdf",
+  "chapter_execution": "6B–6M complete; 6N remains independently authorised",
+  "reference_material": {
+    "production_step": "6L",
+    "status": "completed_screen_review",
+    "pdf": "reference-material.pdf",
+    "pages": 183,
+    "review_report": "reference-material-review.md",
+    "verified_on": "2026-10-07",
+    "sha256": "7bdd9b4aa0991a42abda5b730c62bbafafdf01de927347b173b48f5bce2c8b80"
+  },
+  "assembly": {
+    "production_step": "6M",
+    "status": "completed_screen_review",
+    "pdf": "korkortgo-curriculum-review.pdf",
+    "pages": 498,
+    "review_report": "assembly/assembly-review.md",
+    "verified_on": "2026-10-07",
+    "sha256": "5007914b3b7f4d18472f283c3cd29efc302a6ab1cd7eb36190ea2984cf1a84b0"
+  },
+  "G1_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M01",
+    "added_pages": 2,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G2_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M02",
+    "added_pages": 4,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G3_amendment": {
+    "date": "2026-10-12",
+    "chapter": "M03",
+    "added_pages": 2,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G4_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M04",
+    "added_pages": 1,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G5_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M05",
+    "added_pages": 1,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G6_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M06",
+    "added_pages": 2,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G7_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M07",
+    "added_pages": 4,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G8_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M08",
+    "added_pages": 2,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G9_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M09",
+    "added_pages": 5,
+    "assembly_status": "G11 pending; existing full-book PDF remains baseline"
+  },
+  "G10_amendment": {
+    "date": "2026-10-13",
+    "chapter": "M10",
+    "added_pages": 1,
+    "assembly_status": "G11 pending; existing full-book remains baseline"
+  }
+}

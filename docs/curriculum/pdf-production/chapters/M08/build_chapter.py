@@ -237,6 +237,9 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     for p in paras[1:paras.index(worked)]:
+        for marker,suffix,title in [('**Towball load ·','-coupling','Check coupling load'),('**Inspection deadline ·','-deadline','Resolve a missed inspection')]:
+            if p.startswith(marker):
+                b.end();b.start(key+suffix,key+' · '+title);b.text(title,'heading')
         if p.startswith('|'):
             rows=[[para(v.strip(),'caption') for v in line.strip('|').split('|')] for line in p.splitlines() if not line.startswith('|---')]
             table=Table(rows,colWidths=[45*mm,125*mm],repeatRows=1)
@@ -267,12 +270,12 @@ def run():
     b.start('M08-answers','Answers and review guidance');b.text('Review after answering','heading')
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M08-R','source',6);b.text('**Review guide:** '+a);b.answers['M08-R']=b.page;b.end()
-    for offset in range(0,len(ALIASES),4):
-        key='M08-references' if offset==0 else f'M08-references-{offset//4+1}';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 5 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
-        for alias in ALIASES[offset:offset+4]:
+    for offset in range(0,len(ALIASES),5):
+        key='M08-references' if offset==0 else f'M08-references-{offset//5+1}';b.start(key,'Official references');b.text('Official references','heading')
+        b.text('Original references checked 5 October 2026; G8 additions checked 13 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
+        for alias in ALIASES[offset:offset+5]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
-        if offset+4>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
+        if offset+5>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
         b.end()
     b.c.save();r=PdfReader(OUT/'chapter.pdf');w=PdfWriter();w.clone_document_from_reader(r)
     from pypdf import Transformation
@@ -296,6 +299,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M08':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif any(key.endswith(suf) for suf in ['-coupling','-deadline']):w.add_outline_item(b.page_labels[num],num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M08-answers','M08-references','M08-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['M08-R-conditions'] or any(key.endswith(suf) for suf in ['-scenario','-rail','-works','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

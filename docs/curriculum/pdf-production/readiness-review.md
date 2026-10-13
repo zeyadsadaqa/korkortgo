@@ -22,3 +22,8 @@ All four pages were rendered and visually inspected. No clipped text, overlappin
 ## Scope and remaining release work
 
 6A supplies the reusable build and opening-page review artifact. It does not complete 6B–6N. The cover raster is approximately 95 ppi, suitable for screen review; obtain higher-resolution approved artwork for a print release. Full PDF tagging/assistive-technology checks remain required at 6N; selectable text and language metadata alone do not certify accessibility. Final contents page numbers and cross-chapter links wait for 6M. Each chapter still requires production artwork, factual and render checks before completion.
+
+
+## G11 opening amendment — 13 October 2026
+
+Source-scope guidance and dates updated; exact disclaimer and approved cover retained. Four pages, fonts and deterministic rebuild verified; all opening pages and regenerated assembled contents visually inspected. Final folios/navigation verified in assembly.

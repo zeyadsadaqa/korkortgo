@@ -1,0 +1,23 @@
+{
+  "checked_on": "2026-10-01",
+  "status": "passed_with_documented_quality_holds",
+  "manifest_sha256": "5aad50efc90771a04feb3a6fdb7280b764e5298a9e33e21038deb09254e7e9e4",
+  "original_files": 993,
+  "rendered_files": 495,
+  "source_pages": 498,
+  "held_candidates": 17,
+  "checks": [
+    "All original sizes and SHA-256 hashes match",
+    "All render hashes match",
+    "All resolved download domains official",
+    "All selected/source/asset relationships resolve",
+    "All 498 rasters decoded and 495 EPS files rendered",
+    "Held candidates have no recommended layout file",
+    "Preferred files exist, match their hashes and are not held"
+  ],
+  "limits": [
+    "Caption meanings and translations are step 4D",
+    "Final physical size, colour reproduction and readability require PDF inspection",
+    "17 candidates remain held; step 4 as a whole is not complete"
+  ]
+}

@@ -293,6 +293,8 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     for p in paras[1:paras.index(worked)]:
+        if n==2 and p.startswith('**Safety advice · Wait with front wheels straight.'):
+            b.end();b.start(key+'-waiting',key+' · Waiting to turn left');b.text('Wait before steering','heading')
         if p.startswith('|'):
             rows=[[para(v.strip(),'caption') for v in line.strip('|').split('|')] for line in p.splitlines() if not line.startswith('|---')]
             table=Table(rows,colWidths=[62*mm,108*mm],repeatRows=1)
@@ -342,7 +344,7 @@ def run():
     b.text('M04-R','source',6);b.text('**Review guide:** '+a);b.answers['M04-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),4):
         key='M04-references' if offset==0 else 'M04-references-2';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Chapter references checked 4 October 2026. Individual sign captions and artwork use the verified official asset register. Always consult current official guidance and the applicable rules.','caption',18)
+        b.text('Original references checked 4 October 2026; G4 addition checked 13 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
         if offset==4:b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
@@ -355,6 +357,7 @@ def run():
         w.add_named_destination(key,num-1)
         if key=='M04':continue
         if key in SECTIONS:current=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
+        elif key=='M04-L02-waiting':w.add_outline_item('Waiting to turn left',num-1,parent=current)
         elif key.startswith('LP'):w.add_outline_item(GROUP_TITLES[key],num-1,parent=current)
         elif key in ['M04-answers','M04-references','M04-reflection']:w.add_outline_item(b.page_labels[num],num-1,parent=parent)
         elif key in ['M04-R-crossings','M04-R-two-lanes'] or any(key.endswith(suf) for suf in ['-compare','-priority','-stop','-join','-scenario','-entry','-exit','-question']):w.add_outline_item(b.page_labels[num],num-1,parent=current)

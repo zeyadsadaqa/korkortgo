@@ -1,0 +1,312 @@
+{
+  "step": "G3",
+  "checked_on": "2026-10-12",
+  "sources": [
+    {
+      "alias": "following-gap",
+      "source_id": "G3-following-gap",
+      "publisher": "Transport for NSW / NSW Government (Australia)",
+      "title": "Safe stopping distance",
+      "url": "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance",
+      "version": "Live guidance; publication date not displayed in inspected passage",
+      "locator": "Working out your crash avoidance space, steps 1–3; video transcript general-rule explanation",
+      "excerpt": "count how long it takes you to pass the same object as the vehicle in front of you",
+      "supports": "Select a fixed roadside point; count three seconds between lead vehicle and own vehicle passing it; increase margins for poor conditions.",
+      "fallback_reason": "Exact fixed-point/counting instruction not located in targeted TS/TRV or Swedish-agency searches. Trafikverket-hosted NESTA and tunnel reports mention a three-second guideline but do not teach the counting method. Official NSW guidance supplies the exact technique.",
+      "scope_limits": "Technique only. Three seconds is presented as a guideline, not a Swedish statutory interval or universal guarantee. Australian reaction-time assumptions, long-vehicle laws, penalty rules and left-side placement instructions are not imported.",
+      "retrieval_method": "Direct primary page retrieved and inspected",
+      "retrieved_on": "2026-10-12"
+    },
+    {
+      "alias": "vehicle-faults",
+      "source_id": "G3-tailgater",
+      "publisher": "Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government",
+      "title": "Taxi Driver Manual",
+      "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+      "version": "Version 2.1 March 2024; hosted file August 2025",
+      "locator": "Printed/PDF p.83: Tailgating (zero-based PDF index 82)",
+      "excerpt": "gradually reduce your speed to increase the gap between you and any vehicle ahead",
+      "supports": "When followed too closely, gradually enlarge the forward gap to allow gentler braking and reduce rear-impact risk.",
+      "fallback_reason": "Exact increase-forward-gap/gentler-braking behavioural instruction not located in inspected TS/TRV material. This government manual provides the explicit causal advice.",
+      "scope_limits": "Common defensive-driving advice only, not Northern Ireland taxi law. Risk reduction is not a guarantee; necessary emergency braking remains necessary. Its two-second target is not imported.",
+      "retrieval_method": "Direct primary PDF retrieved and inspected",
+      "retrieved_on": "2026-10-12"
+    },
+    {
+      "alias": "braking-model",
+      "source_id": "G3-braking-model",
+      "publisher": "Trafikverket",
+      "title": "KRAV Grundvärden, Vägar och gators utformning (VGU)",
+      "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+      "version": "TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework",
+      "locator": "Printed p.9(58): braking-distance equation and variable definitions",
+      "excerpt": "Bromssträckan erhålls enligt formeln",
+      "supports": "S_b = (V1² − V2²) / [2g(f_b + i)]; setting final speed to zero and holding denominator constant establishes the speed-squared braking-distance relationship.",
+      "fallback_reason": null,
+      "scope_limits": "Original mathematical derivation from agency equation. Hold grip/braking deceleration and gradient constant; real design friction can depend on speed. No general promise of exact fourfold road-test distance or fourfold total stopping distance.",
+      "retrieval_method": "Complete indexed primary-PDF equation passage retrieved through search. Direct PDF opens timed out; no local source download or checksum claimed.",
+      "publisher_confirmation_url": "https://bransch.trafikverket.se/for-dig-i-branschen/vag/Utformning-av-vagar-och-gator/vagar-och-gators-utformning-vgu/",
+      "retrieved_on": "2026-10-12"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "situation-106-C01",
+      "question_id": "situation-106",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "required_statement_to_verify": "Teach selecting a fixed point and counting the time between both vehicles passing it.",
+      "classification": "safety advice",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:trafikverket.se tresekundersregeln avstånd",
+            "site:transportstyrelsen.se tre sekunder avstånd",
+            "site:trafikverket.se bakom för nära avstånd framför",
+            "site:transportstyrelsen.se bromssträcka v2",
+            "site:trafikverket.se bromssträcka formel"
+          ],
+          "finding": "General stopping-distance background and direct VGU braking equation found. No exact fixed-point method or tailgater/forward-gap instruction located; this describes the inspected search coverage, not all publications."
+        },
+        {
+          "publisher": "Other Swedish official sources",
+          "queries": [
+            "site:polisen.se tresekundersregeln",
+            "site:msb.se tresekundersregeln",
+            "site:forsvarsmakten.se tresekundersregeln"
+          ],
+          "finding": "No exact directly published method located. Public-service media quote a police officer and parliamentary motions mention the rule, but these were not selected instead of a direct government teaching source."
+        },
+        {
+          "publisher": "Trafikverket",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+          "finding": "Supports reaction + braking distinction and conditions affecting stopping; does not explicitly state the squared-speed relation. Kept as inspected background, not an added duplicate citation."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "following-gap",
+          "source_id": "G3-following-gap",
+          "publisher": "Transport for NSW / NSW Government (Australia)",
+          "title": "Safe stopping distance",
+          "url": "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance",
+          "version": "Live guidance; publication date not displayed in inspected passage",
+          "locator": "Working out your crash avoidance space, steps 1–3; video transcript general-rule explanation",
+          "excerpt": "count how long it takes you to pass the same object as the vehicle in front of you",
+          "supports": "Select a fixed roadside point; count three seconds between lead vehicle and own vehicle passing it; increase margins for poor conditions.",
+          "fallback_reason": "Exact fixed-point/counting instruction not located in targeted TS/TRV or Swedish-agency searches. Trafikverket-hosted NESTA and tunnel reports mention a three-second guideline but do not teach the counting method. Official NSW guidance supplies the exact technique.",
+          "scope_limits": "Technique only. Three seconds is presented as a guideline, not a Swedish statutory interval or universal guarantee. Australian reaction-time assumptions, long-vehicle laws, penalty rules and left-side placement instructions are not imported.",
+          "retrieval_method": "Direct primary page retrieved and inspected",
+          "retrieved_on": "2026-10-12"
+        }
+      ],
+      "fallback_justification": "Exact fixed-point/counting instruction not located in targeted TS/TRV or Swedish-agency searches. Trafikverket-hosted NESTA and tunnel reports mention a three-second guideline but do not teach the counting method. Official NSW guidance supplies the exact technique.",
+      "checked_on": "2026-10-12",
+      "scope_limits": "Technique only. Three seconds is presented as a guideline, not a Swedish statutory interval or universal guarantee. Australian reaction-time assumptions, long-vehicle laws, penalty rules and left-side placement instructions are not imported.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-107-C01",
+      "question_id": "situation-107",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "required_statement_to_verify": "Explain increasing the forward gap when followed too closely, allowing smoother braking.",
+      "classification": "safety advice",
+      "status": "verified",
+      "source_lead_ids": [],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:trafikverket.se tresekundersregeln avstånd",
+            "site:transportstyrelsen.se tre sekunder avstånd",
+            "site:trafikverket.se bakom för nära avstånd framför",
+            "site:transportstyrelsen.se bromssträcka v2",
+            "site:trafikverket.se bromssträcka formel"
+          ],
+          "finding": "General stopping-distance background and direct VGU braking equation found. No exact fixed-point method or tailgater/forward-gap instruction located; this describes the inspected search coverage, not all publications."
+        },
+        {
+          "publisher": "Other Swedish official sources",
+          "queries": [
+            "site:polisen.se tresekundersregeln",
+            "site:msb.se tresekundersregeln",
+            "site:forsvarsmakten.se tresekundersregeln"
+          ],
+          "finding": "No exact directly published method located. Public-service media quote a police officer and parliamentary motions mention the rule, but these were not selected instead of a direct government teaching source."
+        },
+        {
+          "publisher": "Trafikverket",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+          "finding": "Supports reaction + braking distinction and conditions affecting stopping; does not explicitly state the squared-speed relation. Kept as inspected background, not an added duplicate citation."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "vehicle-faults",
+          "source_id": "G3-tailgater",
+          "publisher": "Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government",
+          "title": "Taxi Driver Manual",
+          "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+          "version": "Version 2.1 March 2024; hosted file August 2025",
+          "locator": "Printed/PDF p.83: Tailgating (zero-based PDF index 82)",
+          "excerpt": "gradually reduce your speed to increase the gap between you and any vehicle ahead",
+          "supports": "When followed too closely, gradually enlarge the forward gap to allow gentler braking and reduce rear-impact risk.",
+          "fallback_reason": "Exact increase-forward-gap/gentler-braking behavioural instruction not located in inspected TS/TRV material. This government manual provides the explicit causal advice.",
+          "scope_limits": "Common defensive-driving advice only, not Northern Ireland taxi law. Risk reduction is not a guarantee; necessary emergency braking remains necessary. Its two-second target is not imported.",
+          "retrieval_method": "Direct primary PDF retrieved and inspected",
+          "retrieved_on": "2026-10-12"
+        }
+      ],
+      "fallback_justification": "Exact increase-forward-gap/gentler-braking behavioural instruction not located in inspected TS/TRV material. This government manual provides the explicit causal advice.",
+      "checked_on": "2026-10-12",
+      "scope_limits": "Common defensive-driving advice only, not Northern Ireland taxi law. Risk reduction is not a guarantee; necessary emergency braking remains necessary. Its two-second target is not imported.",
+      "answer_conflict": null
+    },
+    {
+      "claim_id": "situation-138-C01",
+      "question_id": "situation-138",
+      "chapter": "M03",
+      "lesson": "M03-L04",
+      "required_statement_to_verify": "Explain approximately fourfold braking distance at doubled speed under identical grip/braking assumptions.",
+      "classification": "physical explanation and illustrative calculation",
+      "status": "verified",
+      "source_lead_ids": [
+        "R-STOP"
+      ],
+      "source_searches": [
+        {
+          "publisher": "Transportstyrelsen / Trafikverket",
+          "queries": [
+            "site:trafikverket.se tresekundersregeln avstånd",
+            "site:transportstyrelsen.se tre sekunder avstånd",
+            "site:trafikverket.se bakom för nära avstånd framför",
+            "site:transportstyrelsen.se bromssträcka v2",
+            "site:trafikverket.se bromssträcka formel"
+          ],
+          "finding": "General stopping-distance background and direct VGU braking equation found. No exact fixed-point method or tailgater/forward-gap instruction located; this describes the inspected search coverage, not all publications."
+        },
+        {
+          "publisher": "Other Swedish official sources",
+          "queries": [
+            "site:polisen.se tresekundersregeln",
+            "site:msb.se tresekundersregeln",
+            "site:forsvarsmakten.se tresekundersregeln"
+          ],
+          "finding": "No exact directly published method located. Public-service media quote a police officer and parliamentary motions mention the rule, but these were not selected instead of a direct government teaching source."
+        },
+        {
+          "publisher": "Trafikverket",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+          "finding": "Supports reaction + braking distinction and conditions affecting stopping; does not explicitly state the squared-speed relation. Kept as inspected background, not an added duplicate citation."
+        }
+      ],
+      "selected_evidence": [
+        {
+          "alias": "braking-model",
+          "source_id": "G3-braking-model",
+          "publisher": "Trafikverket",
+          "title": "KRAV Grundvärden, Vägar och gators utformning (VGU)",
+          "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+          "version": "TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework",
+          "locator": "Printed p.9(58): braking-distance equation and variable definitions",
+          "excerpt": "Bromssträckan erhålls enligt formeln",
+          "supports": "S_b = (V1² − V2²) / [2g(f_b + i)]; setting final speed to zero and holding denominator constant establishes the speed-squared braking-distance relationship.",
+          "fallback_reason": null,
+          "scope_limits": "Original mathematical derivation from agency equation. Hold grip/braking deceleration and gradient constant; real design friction can depend on speed. No general promise of exact fourfold road-test distance or fourfold total stopping distance.",
+          "retrieval_method": "Complete indexed primary-PDF equation passage retrieved through search. Direct PDF opens timed out; no local source download or checksum claimed.",
+          "publisher_confirmation_url": "https://bransch.trafikverket.se/for-dig-i-branschen/vag/Utformning-av-vagar-och-gator/vagar-och-gators-utformning-vgu/",
+          "retrieved_on": "2026-10-12"
+        }
+      ],
+      "fallback_justification": null,
+      "checked_on": "2026-10-12",
+      "scope_limits": "Original mathematical derivation from agency equation. Hold grip/braking deceleration and gradient constant; real design friction can depend on speed. No general promise of exact fourfold road-test distance or fourfold total stopping distance.",
+      "answer_conflict": null,
+      "editorial_derivation": {
+        "source_equation": "Sb = (V1² - V2²) / [2g(fb + i)]",
+        "assumptions": [
+          "V2=0",
+          "Fixed positive deceleration a=g(fb+i)",
+          "Same vehicle/loading, effective grip and braking; level road in example"
+        ],
+        "simplification": "d = v² / (2a); d(2v)/d(v) = 4",
+        "example": {
+          "speeds_kmh": [
+            40,
+            80
+          ],
+          "deceleration_m_s2": 5,
+          "response_seconds": 1,
+          "braking_metres": [
+            12.345679,
+            49.382716
+          ],
+          "reaction_metres": [
+            11.111111,
+            22.222222
+          ],
+          "total_metres": [
+            23.45679,
+            71.604938
+          ]
+        },
+        "scope": "Hypothetical arithmetic, not typical or guaranteed vehicle stopping figures."
+      }
+    }
+  ],
+  "source_priority_searches": [
+    {
+      "publisher": "Transportstyrelsen / Trafikverket",
+      "queries": [
+        "site:trafikverket.se tresekundersregeln avstånd",
+        "site:transportstyrelsen.se tre sekunder avstånd",
+        "site:trafikverket.se bakom för nära avstånd framför",
+        "site:transportstyrelsen.se bromssträcka v2",
+        "site:trafikverket.se bromssträcka formel"
+      ],
+      "finding": "General stopping-distance background and direct VGU braking equation found. No exact fixed-point method or tailgater/forward-gap instruction located; this describes the inspected search coverage, not all publications."
+    },
+    {
+      "publisher": "Other Swedish official sources",
+      "queries": [
+        "site:polisen.se tresekundersregeln",
+        "site:msb.se tresekundersregeln",
+        "site:forsvarsmakten.se tresekundersregeln"
+      ],
+      "finding": "No exact directly published method located. Public-service media quote a police officer and parliamentary motions mention the rule, but these were not selected instead of a direct government teaching source."
+    },
+    {
+      "publisher": "Trafikverket",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+      "finding": "Supports reaction + braking distinction and conditions affecting stopping; does not explicitly state the squared-speed relation. Kept as inspected background, not an added duplicate citation."
+    }
+  ],
+  "answer_conflicts": [],
+  "swedish_rule_check": {
+    "publisher": "Swedish Government; published by Sveriges riksdag",
+    "source_alias": "traffic-law",
+    "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+    "locator": "Traffic Regulation (1998:1276), chapter 3 §2",
+    "checked_on": "2026-10-12",
+    "excerpt": "Avståndet till ett framförvarande fordon skall anpassas",
+    "finding": "The general Swedish following-distance duty requires adaptation to avoid rear collision on slowing/stopping, without specifying a fixed three-second interval."
+  },
+  "arithmetic_validation": [
+    {
+      "speed_kmh": 40,
+      "braking_m": 12.345679012345679,
+      "reaction_m": 11.11111111111111,
+      "total_m": 23.45679012345679
+    },
+    {
+      "speed_kmh": 80,
+      "braking_m": 49.382716049382715,
+      "reaction_m": 22.22222222222222,
+      "total_m": 71.60493827160494
+    }
+  ]
+}

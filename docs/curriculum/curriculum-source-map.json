@@ -33,18 +33,25 @@
           "source_ids": [
             "SRC-16280dcecc55e002",
             "SRC-2b993e2c85ae94c9",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G1-drowsy-driving",
+            "G1-microsleep",
+            "G1-stimulant-confidence",
+            "G1-stimulant-fatigue"
           ],
-          "evidence_limit": "Syllabus scope for fatigue and medication; detailed impairment and medical claims need direct supporting guidance."
+          "evidence_limit": "Syllabus scope for fatigue and medication; detailed impairment and medical claims need direct supporting guidance.",
+          "G1_evidence": "question-book-review/execution/G1/evidence.json"
         },
         {
           "id": "M01-L03",
           "title": "Pressure is a driving risk",
           "objective": "Identify how peers, impulses, confidence and personal circumstances can change a driving decision; rehearse a refusal or alternative.",
           "source_ids": [
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G1-vision-zero"
           ],
-          "evidence_limit": "Syllabus scope, chapter 5; scenarios are original teaching exercises, not validated psychological predictions."
+          "evidence_limit": "Syllabus scope, chapter 5; scenarios are original teaching exercises, not validated psychological predictions.",
+          "G1_evidence": "question-book-review/execution/G1/evidence.json"
         },
         {
           "id": "M01-L04",
@@ -80,9 +87,16 @@
           "objective": "Explain the purpose of core controls, warning indicators, braking and steering systems, and identify when further instructions are needed.",
           "source_ids": [
             "SRC-4f119c98672b2997",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G2-brake-circuits",
+            "G2-abs-driving",
+            "G2-abs-feedback",
+            "G2-brake-inspection",
+            "G2-vehicle-faults",
+            "G2-fuse-protection"
           ],
-          "evidence_limit": "Practical-test and syllabus scope; vehicle-specific operation and warning responses remain unverified."
+          "evidence_limit": "Practical-test and syllabus scope; vehicle-specific operation and warning responses remain unverified.",
+          "G2_evidence": "question-book-review/execution/G2/evidence.json"
         },
         {
           "id": "M02-L02",
@@ -91,9 +105,12 @@
           "source_ids": [
             "SRC-4f119c98672b2997",
             "SRC-32256a46ed1c6028",
-            "SRC-e454ba2a4ddaffb3"
+            "SRC-e454ba2a4ddaffb3",
+            "G2-vehicle-faults",
+            "G2-temporary-spare"
           ],
-          "evidence_limit": "Detailed maintenance procedures and defect thresholds require further evidence."
+          "evidence_limit": "Detailed maintenance procedures and defect thresholds require further evidence.",
+          "G2_evidence": "question-book-review/execution/G2/evidence.json"
         },
         {
           "id": "M02-L03",
@@ -103,9 +120,14 @@
             "SRC-2081963d3a6ed062",
             "SRC-b7b53b24caa30874",
             "SRC-438ebf1c277f32bb",
-            "SRC-2c2f5df0084a7b5a"
+            "SRC-2c2f5df0084a7b5a",
+            "G2-seats",
+            "G2-child-advice",
+            "G2-child-rules",
+            "G2-crumple-zones"
           ],
-          "evidence_limit": "Verify age, height, seat-position exceptions and manufacturer-dependent arrangements before teaching specifics."
+          "evidence_limit": "Verify age, height, seat-position exceptions and manufacturer-dependent arrangements before teaching specifics.",
+          "G2_evidence": "question-book-review/execution/G2/evidence.json"
         },
         {
           "id": "M02-L04",
@@ -184,9 +206,13 @@
           "source_ids": [
             "SRC-8f8abe04c365e91c",
             "SRC-01410e80b68b774c",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G3-following-gap",
+            "G2-vehicle-faults",
+            "G3-braking-model"
           ],
-          "evidence_limit": "Any formula or numerical example must state assumptions; it must not be presented as a guaranteed stopping distance."
+          "evidence_limit": "Any formula or numerical example must state assumptions; it must not be presented as a guaranteed stopping distance.",
+          "G3_evidence": "question-book-review/execution/G3/evidence.json"
         }
       ],
       "self_assessment": {
@@ -223,9 +249,11 @@
           "objective": "Plan observation, signalling, position and margins for turns and lane changes, accounting for blind spots and other road users.",
           "source_ids": [
             "SRC-4f119c98672b2997",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G4-left-turn-wheels"
           ],
-          "evidence_limit": "Practical-test scope; detailed positioning and lane rules require verification."
+          "evidence_limit": "Practical-test scope; detailed positioning and lane rules require verification.",
+          "G4_evidence": "question-book-review/execution/G4/evidence.json"
         },
         {
           "id": "M04-L03",
@@ -275,9 +303,13 @@
             "SRC-fee0b57c7e11881b",
             "SRC-c0f9f1f76af57c79",
             "SRC-7943690914367590",
-            "SRC-6fab65567b9a0d41"
+            "SRC-6fab65567b9a0d41",
+            "MS-9f4b74a976fa03fb",
+            "G5-guide-dog",
+            "G5-bicycle-definition"
           ],
-          "evidence_limit": "Avoid stereotypes; detailed clearance requirements must be sourced before stating numbers."
+          "evidence_limit": "Avoid stereotypes; detailed clearance requirements must be sourced before stating numbers.",
+          "G5_evidence": "question-book-review/execution/G5/evidence.json"
         },
         {
           "id": "M05-L02",
@@ -336,9 +368,13 @@
           "source_ids": [
             "SRC-0ad08ea1b0c67595",
             "SRC-3b3acf1fd00df055",
-            "SRC-4f119c98672b2997"
+            "SRC-4f119c98672b2997",
+            "G6-rural-turn-alternative",
+            "MS-9f4b74a976fa03fb",
+            "G6-wildlife-habitat"
           ],
-          "evidence_limit": "Detailed meeting and positioning rules need verification; animal behaviour cannot be guaranteed."
+          "evidence_limit": "Detailed meeting and positioning rules need verification; animal behaviour cannot be guaranteed.",
+          "G6_evidence": "question-book-review/execution/G6/evidence.json"
         },
         {
           "id": "M06-L02",
@@ -357,9 +393,11 @@
           "objective": "Plan a motorway entry, lane choice, separation and exit, including a safe response to a missed exit.",
           "source_ids": [
             "SRC-4f119c98672b2997",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G6-speed-adaptation"
           ],
-          "evidence_limit": "Assessment scope; motorway and expressway legal restrictions need direct provisions."
+          "evidence_limit": "Assessment scope; motorway and expressway legal restrictions need direct provisions.",
+          "G6_evidence": "question-book-review/execution/G6/evidence.json"
         },
         {
           "id": "M06-L04",
@@ -399,9 +437,13 @@
           "objective": "Choose a visibility and lighting strategy for darkness, fog and glare, considering both seeing and being seen.",
           "source_ids": [
             "SRC-e454ba2a4ddaffb3",
-            "SRC-4f119c98672b2997"
+            "SRC-4f119c98672b2997",
+            "G7-lights-combinations",
+            "G7-vision-roles",
+            "G7-lamp-defects"
           ],
-          "evidence_limit": "Verify lighting combinations and exceptions; avoid unsupported fixed visibility distances."
+          "evidence_limit": "Verify lighting combinations and exceptions; avoid unsupported fixed visibility distances.",
+          "G7_evidence": "question-book-review/execution/G7/evidence.json"
         },
         {
           "id": "M07-L02",
@@ -410,9 +452,17 @@
           "source_ids": [
             "SRC-6ba4442478c22874",
             "SRC-b91cb0cb272c9ec3",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G7-bridge-cooling",
+            "G7-ice-risk",
+            "G7-first-rain",
+            "SRC-ef044fa13893e15d",
+            "G7-handling",
+            "G7-front-grip",
+            "G7-wet-driving"
           ],
-          "evidence_limit": "Verify tyre dates, exemptions and limits; vehicle-specific recovery procedures remain out of scope until supported."
+          "evidence_limit": "Verify tyre dates, exemptions and limits; vehicle-specific recovery procedures remain out of scope until supported.",
+          "G7_evidence": "question-book-review/execution/G7/evidence.json"
         },
         {
           "id": "M07-L03",
@@ -461,9 +511,12 @@
           "source_ids": [
             "SRC-a6fdf41e5fb86af6",
             "SRC-392432b3bb540082",
-            "SRC-1f10e4ca091a477e"
+            "SRC-1f10e4ca091a477e",
+            "G8-light-lorry",
+            "MS-9f4b74a976fa03fb"
           ],
-          "evidence_limit": "Verify all entitlement and weight thresholds before worked examples."
+          "evidence_limit": "Verify all entitlement and weight thresholds before worked examples.",
+          "G8_evidence": "question-book-review/execution/G8/evidence.json"
         },
         {
           "id": "M08-L02",
@@ -473,9 +526,12 @@
             "SRC-4674e24fd4357555",
             "SRC-10dd69b097df0a9b",
             "SRC-f59e6867e39d34e1",
-            "SRC-545891451cebc4a4"
+            "SRC-545891451cebc4a4",
+            "SRC-42042368739ae270",
+            "G8-towball-physics"
           ],
-          "evidence_limit": "Dimensions, projections, coupling checks and equipment-specific rules require detailed verification."
+          "evidence_limit": "Dimensions, projections, coupling checks and equipment-specific rules require detailed verification.",
+          "G8_evidence": "question-book-review/execution/G8/evidence.json"
         },
         {
           "id": "M08-L03",
@@ -486,9 +542,13 @@
             "SRC-f069b581e5d1cd33",
             "SRC-e5507e144427dec5",
             "SRC-1a8682d573791a52",
-            "SRC-4a02f46defddfd5c"
+            "SRC-4a02f46defddfd5c",
+            "G8-inspection-ban",
+            "G8-vehicle-inspection-law",
+            "G8-off-road-inspection"
           ],
-          "evidence_limit": "Recheck deadlines, obligations and exemptions at manuscript verification."
+          "evidence_limit": "Recheck deadlines, obligations and exemptions at manuscript verification.",
+          "G8_evidence": "question-book-review/execution/G8/evidence.json"
         },
         {
           "id": "M08-L04",
@@ -527,9 +587,16 @@
           "source_ids": [
             "SRC-fc2c20a9baff5363",
             "SRC-81da58b4bbbc356b",
-            "SRC-896fc76e43f0789c"
+            "SRC-896fc76e43f0789c",
+            "G9-fossil-carbon",
+            "G9-climate-effect",
+            "G9-catalyst-warmup",
+            "G9-road-air",
+            "G9-wash-water",
+            "G9-electric-types"
           ],
-          "evidence_limit": "Lifecycle comparisons and numerical emissions claims require additional evidence."
+          "evidence_limit": "Lifecycle comparisons and numerical emissions claims require additional evidence.",
+          "G9_evidence": "question-book-review/execution/G9/evidence.json"
         },
         {
           "id": "M09-L02",
@@ -537,9 +604,14 @@
           "objective": "Plan smooth, anticipatory driving while preserving safety margins and explain how driving technique can affect energy use.",
           "source_ids": [
             "SRC-4f119c98672b2997",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G9-heater-timer",
+            "G9-cooling-safety",
+            "G9-manual-eco",
+            "G9-carried-mass"
           ],
-          "evidence_limit": "Official assessment and syllabus scope; gear, coasting and vehicle-specific advice need verification."
+          "evidence_limit": "Official assessment and syllabus scope; gear, coasting and vehicle-specific advice need verification.",
+          "G9_evidence": "question-book-review/execution/G9/evidence.json"
         },
         {
           "id": "M09-L03",
@@ -557,9 +629,13 @@
           "objective": "Find official environmental-zone information and identify what must be checked before entering a restricted area.",
           "source_ids": [
             "SRC-519a943406a9a9fd",
-            "SRC-d8e6b13b90f6039f"
+            "SRC-d8e6b13b90f6039f",
+            "G9-road-air",
+            "G9-studs-local",
+            "G9-studs-sign"
           ],
-          "evidence_limit": "Current local boundaries, signs and exemptions must be verified for each example."
+          "evidence_limit": "Current local boundaries, signs and exemptions must be verified for each example.",
+          "G9_evidence": "question-book-review/execution/G9/evidence.json"
         }
       ],
       "self_assessment": {
@@ -589,9 +665,11 @@
           "source_ids": [
             "SRC-1fa593cfee2c2d1d",
             "SRC-9df1b7b27832830a",
-            "SRC-7530106233dee341"
+            "SRC-7530106233dee341",
+            "G10-hot-coolant"
           ],
-          "evidence_limit": "Do not generalise motorway evacuation advice to every tunnel incident; verify each procedure independently."
+          "evidence_limit": "Do not generalise motorway evacuation advice to every tunnel incident; verify each procedure independently.",
+          "G10_evidence": "question-book-review/execution/G10/evidence.json"
         },
         {
           "id": "M10-L02",
@@ -1261,5 +1339,6 @@
     "date": "2026-10-01",
     "evidence": "User explicitly replied: yes approved",
     "scope": "Curriculum outline; evidence gaps remain open. Step 3 awaits a separate execution request."
-  }
+  },
+  "last_amended_on": "2026-10-13"
 }

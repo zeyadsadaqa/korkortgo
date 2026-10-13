@@ -1,0 +1,50 @@
+{
+  "checked_on": "2026-10-02",
+  "status": "pass",
+  "scope": "Structural/integrity checks supplement the editorial source and visual review; not legal certification or final PDF approval.",
+  "summary": {
+    "selected_identifiers": 263,
+    "caption_records": 498,
+    "additional_linked_pages": 235,
+    "eligible_images": 481,
+    "held_images": 17
+  },
+  "checks": {
+    "498_unique_records": true,
+    "263_selected_identifiers": true,
+    "481_eligible_17_held": true,
+    "source_register_binding": true,
+    "unchanged_4C_manifest": true,
+    "all_names_fields_sources_assets_and_markdown_match": true,
+    "no_held_image_has_alt_or_layout_asset": true,
+    "distinct_M19a_M20a_meanings": true,
+    "critical_wording_present": true,
+    "no_background_source_names_or_book_page_references": true,
+    "five_recheck_hashes": true
+  },
+  "artifact_sha256": {
+    "sign-captions.md": "c2dd70d3fb83f5ad011964c69c0b9e5b2aa5b628d109729862ea1178f77ae166",
+    "sign-captions.json": "29fab36c5db5c7aa6f4289f70ac0b3a24ec6dff169610985d3438517e1d7efdf",
+    "sign-caption-review.md": "0acdade2eef3527da0a37b1823fa479ee1fd398c66c7e73d04e533d0ad44e421",
+    "progress.md": "f212f40de49f838954ec2dbcdda38557fcf497ae5b69e05847392ae732557051"
+  },
+  "held_codes": [
+    "S1",
+    "S10",
+    "S12",
+    "S2",
+    "S3",
+    "S4",
+    "S8",
+    "S9",
+    "T1",
+    "T2",
+    "T22",
+    "T6",
+    "T8",
+    "C45-7",
+    "C45-8",
+    "C45-9",
+    "A29-17"
+  ]
+}

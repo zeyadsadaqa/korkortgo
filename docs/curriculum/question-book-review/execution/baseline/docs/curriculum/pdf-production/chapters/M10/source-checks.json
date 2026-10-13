@@ -1,0 +1,68 @@
+{
+  "checked_on": "2026-10-07",
+  "method": "Official references opened and relevant guidance read; same-day legal/syllabus evidence reused where stated.",
+  "sources": [
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "status": "verified",
+      "finding": "Read chapter 2 section 8: remain and assist regardless of fault, information/police duties, moving an obstructing vehicle with stricter serious-injury evidence rules. Read chapter 3 sections 51 and 57: move breakdowns promptly, warn sufficiently early without a universal triangle distance. Reused same-day checks of speed/control and crossing/parking duties for the mixed journey; its earlier-module rules remain unchanged."
+    },
+    {
+      "alias": "breakdown",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/",
+      "status": "verified",
+      "finding": "Motorway/2+1 advice confirms safest available stopping place, hazard lights, leave car and road, wait outside barrier where available, professional recovery and 112 for danger to life. At least 100 m is explicitly agency advice, not presented as a universal legal distance."
+    },
+    {
+      "alias": "tunnel",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/",
+      "status": "verified",
+      "finding": "Non-urgent: remain in car or protected nearby and summon assistance. Urgent/fire: leave for nearest emergency exit and use assistance point/phone or 112; follow signs, announcements and personnel. The artwork keeps the exit approach open."
+    },
+    {
+      "alias": "first-aid",
+      "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/",
+      "status": "verified",
+      "finding": "1177 first-aid landing page verified. Only brief referral retained as authorised; no clinical procedures, pulse checks or additional clinical illustrations added."
+    },
+    {
+      "alias": "wildlife",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/",
+      "status": "verified",
+      "finding": "Agency page confirms immediate reporting/marking and separate 200 m precaution for boar, bear, lynx and wolf. Manuscript retains safe-and-possible qualification and explicitly does not generalise statutory reporting requirements to every species."
+    },
+    {
+      "alias": "test",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+      "status": "verified",
+      "finding": "Current category B page confirms five knowledge areas and standard 70 questions, 65 scored, at least 52 points, 50 minutes. Approved manuscript date label of 1 October retained; these facts were rechecked on 7 October. Practice wording is not official test content."
+    },
+    {
+      "alias": "practical",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/",
+      "status": "verified",
+      "finding": "Official practical-test page confirms safety check, special manoeuvring and driving in traffic; learner must explain defect response and apply knowledge."
+    },
+    {
+      "alias": "languages",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/",
+      "status": "verified",
+      "finding": "English is an available category B language; language is selected at booking and interpreter support follows an application route."
+    },
+    {
+      "alias": "support",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/teoriprov-och-yrkesprov-med-stod/",
+      "status": "verified",
+      "finding": "Extended time, oral test and interpreter support require the applicable application; supported test booking follows approval. No promise of eligibility or immediate adjustment is made."
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "status": "verified",
+      "finding": "Self-assessment goals in chapters 2–5 section 3 support evaluation of ability, behaviour, journey choices and personal influences. Same-day official PDF checks reused from 6J and relevant paragraphs reopened."
+    }
+  ],
+  "sign_sources": "Exact official image/caption register reused with hash and size checks; not every sign page fetched again.",
+  "outstanding_claim_gaps": []
+}

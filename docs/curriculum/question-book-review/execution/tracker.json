@@ -1,0 +1,2548 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "created_on": "2026-10-12",
+    "scope": "G0–G12 complete: chapter gaps, revised assembly and independent whole-bank coverage audit",
+    "plan_path": "../driving-situation-execution-plan.md",
+    "baseline_manifest": "baseline/manifest.json",
+    "question_count": 55,
+    "book_pages_before": 498,
+    "estimated_added_pages": {
+      "minimum": 18,
+      "maximum": 24
+    },
+    "authority_priority": [
+      "Transportstyrelsen",
+      "Trafikverket",
+      "other appropriate official sources if exact support is missing",
+      "manufacturer technical source only as documented fallback"
+    ],
+    "status_definitions": {
+      "pending_verification": "Evidence lead only; no current exact supporting passage verified during G0.",
+      "pending_assessment": "No new design approved or implemented; assess during chapter work.",
+      "not_started": "Chapter/content execution has not begun.",
+      "not_covered": "Baseline gap remains unresolved until verified teaching support is added.",
+      "covered_in_verified_chapter": "Teaching verified in standalone chapter; final assembly and whole-book audit pending.",
+      "not_required_existing_design": "Approved page, table and artwork styles reused; no new visual design requested.",
+      "covered_in_final_book": "Actual assembled teaching verified in G12 with source/claim linkage and final one-based pages."
+    },
+    "last_updated": "2026-10-13",
+    "questions_taught": 55,
+    "questions_remaining": 0,
+    "assembled_book_pages": 540,
+    "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+    "actual_added_pages": 42,
+    "status": "complete",
+    "final_bank_totals": {
+      "total": 1000,
+      "covered": 772,
+      "not_covered": 158,
+      "prompt_only": 70,
+      "not_answerable_from_book": 228
+    },
+    "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+  },
+  "steps": [
+    {
+      "step": "G0",
+      "status": "complete"
+    },
+    {
+      "step": "G1",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G1/completion.md",
+      "added_pages": 2
+    },
+    {
+      "step": "G2",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G2/completion.md",
+      "added_pages": 4
+    },
+    {
+      "step": "G3",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G3/completion.md",
+      "added_pages": 2
+    },
+    {
+      "step": "G4",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G4/completion.md",
+      "added_pages": 1
+    },
+    {
+      "step": "G5",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G5/completion.md",
+      "added_pages": 1
+    },
+    {
+      "step": "G6",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G6/completion.md",
+      "added_pages": 2
+    },
+    {
+      "step": "G7",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G7/completion.md",
+      "added_pages": 4
+    },
+    {
+      "step": "G8",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G8/completion.md",
+      "added_pages": 2
+    },
+    {
+      "step": "G9",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G9/completion.md",
+      "added_pages": 5
+    },
+    {
+      "step": "G10",
+      "status": "complete",
+      "depends_on": [
+        "G0"
+      ],
+      "completion_report": "G10/completion.md",
+      "added_pages": 1
+    },
+    {
+      "step": "G11",
+      "status": "complete",
+      "depends_on": [
+        "G1",
+        "G2",
+        "G3",
+        "G4",
+        "G5",
+        "G6",
+        "G7",
+        "G8",
+        "G9",
+        "G10"
+      ],
+      "completion_report": "assembly-completion.md",
+      "pages": 540,
+      "added_pages": 42,
+      "coverage_mapping": "G11/question-book-pages.json"
+    },
+    {
+      "step": "G12",
+      "status": "complete",
+      "depends_on": [
+        "G11"
+      ],
+      "completion_report": "final-coverage-review.md",
+      "questions_audited": 1000,
+      "targets_verified": 55
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "situation-062",
+      "execution_step": "G1",
+      "primary_chapter": "M01",
+      "primary_lesson": "M01-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is a dangerous effect of stimulant drugs on driving?",
+      "keyed_answer": "Overconfidence while fatigue may be masked.",
+      "keyed_answer_explanation": "Feeling stimulated does not mean judgement and reaction are safe.",
+      "baseline_gap_reason": "Stimulant drugs masking fatigue and producing overconfidence are not explained.",
+      "required_teaching_claim": "Explain masked fatigue and overconfidence from stimulant drugs; distinguish feeling alert from safe judgement.",
+      "claim_ids": [
+        "situation-062-C01",
+        "situation-062-C02"
+      ],
+      "source_route": "R-DRUGS provides background; exact combined claim pending, then Läkemedelsverket if needed.",
+      "source_lead_ids": [
+        "R-DRUGS"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        5
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G1/coverage.json",
+      "final_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-068",
+      "execution_step": "G1",
+      "primary_chapter": "M01",
+      "primary_lesson": "M01-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is microsleep in driving?",
+      "keyed_answer": "A brief unintended episode of sleep.",
+      "keyed_answer_explanation": "Even a very brief loss of awareness can cover a substantial distance at road speed.",
+      "baseline_gap_reason": "Microsleep is not defined.",
+      "required_teaching_claim": "Define brief unintended sleep and show distance travelled during a short lapse.",
+      "claim_ids": [
+        "situation-068-C01"
+      ],
+      "source_route": "Agency search first; R-FATIGUE/VTI report as proposed official fallback. Exact definition pending.",
+      "source_lead_ids": [
+        "R-FATIGUE"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        5
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G1/coverage.json",
+      "final_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-069",
+      "execution_step": "G1",
+      "primary_chapter": "M01",
+      "primary_lesson": "M01-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is the fundamental remedy for sleep deprivation?",
+      "keyed_answer": "Adequate sleep.",
+      "keyed_answer_explanation": "Temporary alertness measures do not replace restorative sleep.",
+      "baseline_gap_reason": "Fatigue and stopping/rest planning are covered, but restorative sleep as the remedy for sleep deprivation is not taught.",
+      "required_teaching_claim": "Explain that adequate sleep addresses sleep deprivation; transient alertness does not replace sleep.",
+      "claim_ids": [
+        "situation-069-C01"
+      ],
+      "source_route": "Agency search first; R-SLEEP fallback.",
+      "source_lead_ids": [
+        "R-SLEEP"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        5
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G1/coverage.json",
+      "final_book_pages": [
+        9
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-129",
+      "execution_step": "G1",
+      "primary_chapter": "M01",
+      "primary_lesson": "M01-L03",
+      "additional_insertion_anchor": "Chapter opening introduction",
+      "question_prompt": "What is the central aim of Vision Zero?",
+      "keyed_answer": "No one should be killed or seriously injured in road traffic.",
+      "keyed_answer_explanation": "The approach includes safer roads, vehicles and behaviour while recognising human mistakes.",
+      "baseline_gap_reason": "Vision Zero and its no-death/no-serious-injury goal are not defined.",
+      "required_teaching_claim": "Define Vision Zero's no-death/no-serious-injury aim and connect it to driver choices.",
+      "claim_ids": [
+        "situation-129-C01"
+      ],
+      "source_route": "R-ZERO.",
+      "source_lead_ids": [
+        "R-ZERO"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        1,
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G1/coverage.json",
+      "final_book_pages": [
+        5,
+        11
+      ],
+      "primary_book_page": 5,
+      "comprehension_check_book_page": 12,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-131",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L03",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is the safety purpose of a correctly adjusted head restraint?",
+      "keyed_answer": "To reduce damaging head movement in a collision.",
+      "keyed_answer_explanation": "It helps limit neck strain, especially in rear impacts.",
+      "baseline_gap_reason": "Head-restraint adjustment is mentioned without explaining neck protection or rear-impact head movement.",
+      "required_teaching_claim": "Explain head-restraint purpose and head/neck movement in a collision.",
+      "claim_ids": [
+        "situation-131-C01"
+      ],
+      "source_route": "R-HEADREST.",
+      "source_lead_ids": [
+        "R-HEADREST"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        8
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-132",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L03",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why are rear-facing restraints recommended for young children?",
+      "keyed_answer": "They support the head and neck and distribute crash forces.",
+      "keyed_answer_explanation": "A young child's relatively heavy head and vulnerable neck need suitable support.",
+      "baseline_gap_reason": "Rear-facing seats are recommended without explaining young children’s head/neck support and crash-force distribution.",
+      "required_teaching_claim": "Explain rear-facing child-seat support and distribution of collision forces.",
+      "claim_ids": [
+        "situation-132-C01"
+      ],
+      "source_route": "R-CHILD.",
+      "source_lead_ids": [
+        "R-CHILD"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        8
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-145",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "The steering wheel vibrates at certain speeds. Which fault is a possible cause?",
+      "keyed_answer": "Wheel imbalance.",
+      "keyed_answer_explanation": "An imbalanced rotating wheel can produce speed-dependent vibration and should be checked.",
+      "baseline_gap_reason": "Wheel imbalance as a cause of speed-dependent steering vibration is not covered.",
+      "required_teaching_claim": "Explain wheel imbalance as a possible cause of speed-dependent steering vibration.",
+      "claim_ids": [
+        "situation-145-C01"
+      ],
+      "source_route": "Direct agency technical evidence pending; manufacturer technical fallback if necessary.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        5
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        26
+      ],
+      "primary_book_page": 26,
+      "comprehension_check_book_page": 27,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-146",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "You fit a temporary spare wheel after a puncture. What should guide its use?",
+      "keyed_answer": "The vehicle's limits for speed, distance and pressure.",
+      "keyed_answer_explanation": "Temporary spares are intended for restricted use until the proper tyre is repaired or replaced.",
+      "baseline_gap_reason": "Temporary spare-wheel use and its speed/distance/pressure limits are not taught.",
+      "required_teaching_claim": "Explain temporary spare use and checking vehicle-specific speed, distance/use and pressure limits.",
+      "claim_ids": [
+        "situation-146-C01",
+        "situation-146-C02",
+        "situation-146-C03"
+      ],
+      "source_route": "Agency evidence first; R-SPARE is a manufacturer fallback example.",
+      "source_lead_ids": [
+        "R-SPARE"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        5
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        26
+      ],
+      "primary_book_page": 26,
+      "comprehension_check_book_page": 27,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-154",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why does a car have separate brake circuits?",
+      "keyed_answer": "To retain some braking if one circuit fails.",
+      "keyed_answer_explanation": "Separating the circuits reduces the chance that a single failure removes all braking.",
+      "baseline_gap_reason": "Separate brake circuits and retained braking after a circuit failure are not explained.",
+      "required_teaching_claim": "Explain independent brake circuits and reduced remaining braking after one fails.",
+      "claim_ids": [
+        "situation-154-C01"
+      ],
+      "source_route": "Current TS technical requirements pending; an inspection defect table alone does not establish the design purpose.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-156",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "During an emergency stop, your ABS brake pedal pulsates. What should you normally do?",
+      "keyed_answer": "Maintain firm pressure and steer as needed.",
+      "keyed_answer_explanation": "Pulsation is a normal sign of ABS pressure regulation during hard braking.",
+      "baseline_gap_reason": "ABS pedal pulsation and maintaining firm pressure during an emergency stop are not taught.",
+      "required_teaching_claim": "Explain normal ABS pulsation during emergency braking and maintaining firm steady pressure.",
+      "claim_ids": [
+        "situation-156-C01"
+      ],
+      "source_route": "Direct agency instruction pending; R-ABS is a manufacturer fallback.",
+      "source_lead_ids": [
+        "R-ABS"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-157",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "The brake pedal slowly sinks under steady pressure. What should you suspect?",
+      "keyed_answer": "A potentially serious brake-system leak or fault.",
+      "keyed_answer_explanation": "Loss of hydraulic pressure requires prompt professional attention.",
+      "baseline_gap_reason": "A sinking brake pedal and hydraulic leaks/faults are not explained.",
+      "required_teaching_claim": "Explain a sinking pedal as a serious possible hydraulic leak/fault.",
+      "claim_ids": [
+        "situation-157-C01"
+      ],
+      "source_route": "Verify current TS inspection rules; R-BRAKE-LEAD is an older research lead.",
+      "source_lead_ids": [
+        "R-BRAKE-LEAD"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-158",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "A hydraulic brake pedal feels unusually springy. What may be wrong?",
+      "keyed_answer": "Air in the brake system.",
+      "keyed_answer_explanation": "Air compresses, unlike the intended hydraulic pressure transmission, producing a spongy feel.",
+      "baseline_gap_reason": "Air in a hydraulic brake system and a springy/spongy pedal are not explained.",
+      "required_teaching_claim": "Explain air in hydraulic brakes as a possible cause of a springy/spongy pedal.",
+      "claim_ids": [
+        "situation-158-C01"
+      ],
+      "source_route": "Direct technical evidence pending.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-159",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L03",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why are parts of a car designed to deform in a crash?",
+      "keyed_answer": "To absorb energy and reduce the forces reaching occupants.",
+      "keyed_answer_explanation": "Controlled deformation extends the deceleration process while the passenger cell protects space.",
+      "baseline_gap_reason": "Controlled deformation/crumple zones and crash-energy absorption are not explained.",
+      "required_teaching_claim": "Explain controlled deformation absorbing crash energy and reducing occupant forces.",
+      "claim_ids": [
+        "situation-159-C01"
+      ],
+      "source_route": "Exact agency explanation pending; manufacturer engineering fallback if necessary.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        8
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        29
+      ],
+      "primary_book_page": 29,
+      "comprehension_check_book_page": 30,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-173",
+      "execution_step": "G2",
+      "primary_chapter": "M02",
+      "primary_lesson": "M02-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is the purpose of an electrical fuse?",
+      "keyed_answer": "To protect a circuit against excessive current.",
+      "keyed_answer_explanation": "A fuse interrupts an overloaded circuit to reduce damage and fire risk.",
+      "baseline_gap_reason": "Electrical fuses and protection against excessive current are not explained.",
+      "required_teaching_claim": "Explain a fuse protecting a circuit from excessive current.",
+      "claim_ids": [
+        "situation-173-C01"
+      ],
+      "source_route": "Agency search first; R-FUSE official fallback for the electrical principle.",
+      "source_lead_ids": [
+        "R-FUSE"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G2/coverage.json",
+      "final_book_pages": [
+        24
+      ],
+      "primary_book_page": 24,
+      "comprehension_check_book_page": 25,
+      "answer_book_page": 35,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-106",
+      "execution_step": "G3",
+      "primary_chapter": "M03",
+      "primary_lesson": "M03-L04",
+      "additional_insertion_anchor": null,
+      "question_prompt": "How do you use the three-second following-distance guideline?",
+      "keyed_answer": "Count the time between the car ahead and your car passing the same fixed point.",
+      "keyed_answer_explanation": "A time gap scales with speed; poor conditions require a larger margin.",
+      "baseline_gap_reason": "A timed gap is mentioned without the fixed-point counting method or the three-second guideline.",
+      "required_teaching_claim": "Teach selecting a fixed point and counting the time between both vehicles passing it.",
+      "claim_ids": [
+        "situation-106-C01"
+      ],
+      "source_route": "Exact TS/TRV three-second method pending; suitable Swedish official fallback to locate.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        44
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G3/coverage.json",
+      "design_assessment": "Existing text pages and approved artwork reused. Squared-speed relation is normal typeset teaching text; no diagram created.",
+      "final_book_pages": [
+        84
+      ],
+      "primary_book_page": 84,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-107",
+      "execution_step": "G3",
+      "primary_chapter": "M03",
+      "primary_lesson": "M03-L04",
+      "additional_insertion_anchor": null,
+      "question_prompt": "A car follows you too closely. How can you reduce the risk?",
+      "keyed_answer": "Increase your gap to the vehicle ahead and avoid sudden braking.",
+      "keyed_answer_explanation": "More space ahead lets you slow gradually, giving the following driver more time.",
+      "baseline_gap_reason": "Increasing the forward gap to manage a tailgater and avoiding sudden braking are not taught.",
+      "required_teaching_claim": "Explain increasing the forward gap when followed too closely, allowing smoother braking.",
+      "claim_ids": [
+        "situation-107-C01"
+      ],
+      "source_route": "Exact official behavioural instruction pending.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        45
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G3/coverage.json",
+      "design_assessment": "Existing text pages and approved artwork reused. Squared-speed relation is normal typeset teaching text; no diagram created.",
+      "final_book_pages": [
+        85
+      ],
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-138",
+      "execution_step": "G3",
+      "primary_chapter": "M03",
+      "primary_lesson": "M03-L04",
+      "additional_insertion_anchor": null,
+      "question_prompt": "With otherwise identical grip and braking, what happens to braking distance when speed doubles?",
+      "keyed_answer": "It becomes approximately four times as long.",
+      "keyed_answer_explanation": "Braking distance grows approximately with the square of speed.",
+      "baseline_gap_reason": "The square-of-speed braking-distance relationship is not taught.",
+      "required_teaching_claim": "Explain approximately fourfold braking distance at doubled speed under identical grip/braking assumptions.",
+      "claim_ids": [
+        "situation-138-C01"
+      ],
+      "source_route": "R-STOP background; exact relation or an authoritative physical derivation pending.",
+      "source_lead_ids": [
+        "R-STOP"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        45
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G3/coverage.json",
+      "design_assessment": "Existing text pages and approved artwork reused. Squared-speed relation is normal typeset teaching text; no diagram created.",
+      "final_book_pages": [
+        85
+      ],
+      "primary_book_page": 85,
+      "comprehension_check_book_page": 86,
+      "answer_book_page": 89,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-104",
+      "execution_step": "G4",
+      "primary_chapter": "M04",
+      "primary_lesson": "M04-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "You must wait before turning left across oncoming traffic. How should you hold your front wheels?",
+      "keyed_answer": "Keep them straight until you can turn.",
+      "keyed_answer_explanation": "If hit from behind, straight wheels reduce the risk of being pushed into oncoming traffic.",
+      "baseline_gap_reason": "Keeping front wheels straight while waiting for a left turn is not taught.",
+      "required_teaching_claim": "Keep front wheels straight while waiting to turn left across oncoming traffic; explain the rear-impact risk.",
+      "claim_ids": [
+        "situation-104-C01"
+      ],
+      "source_route": "Exact official technique evidence pending.",
+      "source_lead_ids": [],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        18
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G4/coverage.json",
+      "design_assessment": "Existing text-page style and approved artwork reused; no wheel-position diagram needed or created.",
+      "final_book_pages": [
+        110
+      ],
+      "primary_book_page": 110,
+      "comprehension_check_book_page": 114,
+      "answer_book_page": 133,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-013",
+      "execution_step": "G5",
+      "primary_chapter": "M05",
+      "primary_lesson": "M05-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "The speed limit is 70 km/h and a bus signals to leave its stop. Which statement is correct?",
+      "keyed_answer": "The bus must give way, but you should still be ready to cooperate.",
+      "keyed_answer_explanation": "The special obligation to let a bus out applies at limits of 50 km/h or lower.",
+      "baseline_gap_reason": "The 50 km/h threshold is taught, but the bus yielding duty above it is not explained.",
+      "required_teaching_claim": "Compare the special bus rule at ≤50 km/h with a bus leaving a stop on a 70 km/h road; explain safe entry and cooperation.",
+      "claim_ids": [
+        "situation-013-C01",
+        "situation-013-C02",
+        "situation-013-C03"
+      ],
+      "source_route": "Exact agency support pending; R-LAW chapter 3 §§43–45 fallback.",
+      "source_lead_ids": [
+        "R-LAW"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        6,
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G5/coverage.json",
+      "design_assessment": "Existing text page, two-column table and approved artwork reused; no new diagram created.",
+      "final_book_pages": [
+        141,
+        142
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-119",
+      "execution_step": "G5",
+      "primary_chapter": "M05",
+      "primary_lesson": "M05-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "How should you behave around a guide dog working in traffic?",
+      "keyed_answer": "Avoid distracting it.",
+      "keyed_answer_explanation": "The dog is helping its handler navigate and needs to remain focused.",
+      "baseline_gap_reason": "Guide dogs and avoiding distraction of a working dog are not covered.",
+      "required_teaching_claim": "Avoid distracting a working guide dog, including attention directed at the dog.",
+      "claim_ids": [
+        "situation-119-C01"
+      ],
+      "source_route": "Agency search first; R-GUIDE official fallback.",
+      "source_lead_ids": [
+        "R-GUIDE"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        6
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G5/coverage.json",
+      "design_assessment": "Existing text page, two-column table and approved artwork reused; no new diagram created.",
+      "final_book_pages": [
+        141
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-135",
+      "execution_step": "G5",
+      "primary_chapter": "M05",
+      "primary_lesson": "M05-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Which road user is operating a vehicle under the traffic definitions?",
+      "keyed_answer": "A person riding a bicycle.",
+      "keyed_answer_explanation": "Bicycles are vehicles even though they do not have engines.",
+      "baseline_gap_reason": "The general definition of a bicycle as a vehicle is not taught explicitly.",
+      "required_teaching_claim": "Explicitly identify a bicycle as a vehicle under traffic terminology.",
+      "claim_ids": [
+        "situation-135-C01"
+      ],
+      "source_route": "R-LIGHTS identifies bicycles as vehicles; verify the exact definition needed.",
+      "source_lead_ids": [
+        "R-LIGHTS"
+      ],
+      "source_status": "verified",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        6
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G5/coverage.json",
+      "design_assessment": "Existing text page, two-column table and approved artwork reused; no new diagram created.",
+      "final_book_pages": [
+        141
+      ],
+      "primary_book_page": 141,
+      "comprehension_check_book_page": 143,
+      "answer_book_page": 177,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-075",
+      "execution_step": "G6",
+      "primary_chapter": "M06",
+      "primary_lesson": "M06-L03",
+      "additional_insertion_anchor": null,
+      "question_prompt": "After a long motorway drive, 60 km/h feels unusually slow. What should you do?",
+      "keyed_answer": "Check the speedometer and adapt to the new road conditions.",
+      "keyed_answer_explanation": "Prolonged high speed can distort your subjective perception of speed.",
+      "baseline_gap_reason": "Speed adaptation after prolonged high-speed driving and the speedometer check are not taught.",
+      "required_teaching_claim": "Explain speed-perception adaptation after prolonged motorway driving and checking the speedometer on a slower road.",
+      "claim_ids": [
+        "situation-075-C01"
+      ],
+      "source_route": "Exact agency/VTI evidence pending.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        25
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G6/coverage.json",
+      "design_assessment": "Existing text styles and approved illustrations reused; no new diagram created.",
+      "evidence_basis": "direct official guidance with stated scope",
+      "final_book_pages": [
+        205
+      ],
+      "primary_book_page": 205,
+      "comprehension_check_book_page": 207,
+      "answer_book_page": 228,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-105",
+      "execution_step": "G6",
+      "primary_chapter": "M06",
+      "primary_lesson": "M06-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Heavy traffic makes a country-road left turn unsafe. What is a sensible alternative?",
+      "keyed_answer": "Continue to a suitable turning place and return for a right turn.",
+      "keyed_answer_explanation": "Avoiding a hazardous waiting position can reduce rear-end and crossing risks.",
+      "baseline_gap_reason": "The safer country-road left-turn alternative of continuing, turning around and returning for a right turn is not taught.",
+      "required_teaching_claim": "Explain continuing to a suitable safe turning place and returning for a right turn when a rural left turn is unsafe.",
+      "claim_ids": [
+        "situation-105-C01"
+      ],
+      "source_route": "Direct official support pending; verify route/turn legality and safety conditions.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        11
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G6/coverage.json",
+      "design_assessment": "Existing text styles and approved illustrations reused; no new diagram created.",
+      "evidence_basis": "conditional editorial inference, not a verbatim general agency recommendation",
+      "final_book_pages": [
+        191
+      ],
+      "primary_book_page": 191,
+      "comprehension_check_book_page": 193,
+      "answer_book_page": 228,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-126",
+      "execution_step": "G6",
+      "primary_chapter": "M06",
+      "primary_lesson": "M06-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "When is extra attention to large animals especially important?",
+      "keyed_answer": "Around dusk and dawn near wildlife habitats and fence openings.",
+      "keyed_answer_explanation": "Animals can enter the road suddenly, particularly at common crossing points.",
+      "baseline_gap_reason": "Wildlife risks at dusk/dawn, habitats and fence openings are not taught.",
+      "required_teaching_claim": "Explain increased wildlife attention around dusk/dawn, habitats and fence openings.",
+      "claim_ids": [
+        "situation-126-C01"
+      ],
+      "source_route": "R-WILDLIFE; verify each detail, including fence openings.",
+      "source_lead_ids": [
+        "R-WILDLIFE"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        11
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G6/coverage.json",
+      "design_assessment": "Existing text styles and approved illustrations reused; no new diagram created.",
+      "evidence_basis": "direct official guidance with stated scope",
+      "final_book_pages": [
+        191
+      ],
+      "primary_book_page": 191,
+      "comprehension_check_book_page": 193,
+      "answer_book_page": 228,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-045",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "May you use dipped headlights and front fog lights together?",
+      "keyed_answer": "No.",
+      "keyed_answer_explanation": "This combination is prohibited; use the permitted lighting appropriate to visibility.",
+      "baseline_gap_reason": "The book refers to prohibited lighting combinations without naming dipped headlights plus front fog lights.",
+      "required_teaching_claim": "Explicitly prohibit dipped headlights plus front fog lights together.",
+      "claim_ids": [
+        "situation-045-C01"
+      ],
+      "source_route": "R-LIGHTS.",
+      "source_lead_ids": [
+        "R-LIGHTS"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-070",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Which task relies particularly on central vision?",
+      "keyed_answer": "Reading the precise wording on a road sign.",
+      "keyed_answer_explanation": "Central vision provides the detail needed to identify text and fine features.",
+      "baseline_gap_reason": "Central vision and its role in reading fine detail are not explained.",
+      "required_teaching_claim": "Explain central vision and reading precise sign wording.",
+      "claim_ids": [
+        "situation-070-C01"
+      ],
+      "source_route": "Exact agency evidence pending; VTI vision research fallback.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-071",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why is peripheral vision important in traffic?",
+      "keyed_answer": "It helps detect movement and potential hazards outside your direct focus.",
+      "keyed_answer_explanation": "You can then turn your eyes to inspect the detected hazard more precisely.",
+      "baseline_gap_reason": "Peripheral vision and movement detection are not explained.",
+      "required_teaching_claim": "Explain peripheral movement/hazard detection and looking directly to inspect it.",
+      "claim_ids": [
+        "situation-071-C01"
+      ],
+      "source_route": "Exact agency evidence pending; VTI vision research fallback.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-073",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "You see one light approaching at night. What should you remember?",
+      "keyed_answer": "It may be a wider vehicle with a failed headlight.",
+      "keyed_answer_explanation": "Assuming every single light is a narrow motorcycle can lead to inadequate clearance.",
+      "baseline_gap_reason": "The single-headlight illusion and the possibility of a wider vehicle with a failed lamp are not taught.",
+      "required_teaching_claim": "Explain that one approaching light may be a wider vehicle with a failed lamp.",
+      "claim_ids": [
+        "situation-073-C01"
+      ],
+      "source_route": "R-LIGHTS background; exact hazard explanation pending.",
+      "source_lead_ids": [
+        "R-LIGHTS"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "conditional editorial width inference from defective-headlight evidence",
+      "final_book_pages": [
+        234
+      ],
+      "primary_book_page": 234,
+      "comprehension_check_book_page": 236,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-114",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why can a bridge freeze before nearby road sections?",
+      "keyed_answer": "Cold air can cool it from above and below.",
+      "keyed_answer_explanation": "Bridge surfaces can become icy even when nearby roads appear clear.",
+      "baseline_gap_reason": "Bridge cooling from above and below, and earlier freezing, are not explained.",
+      "required_teaching_claim": "Explain bridge cooling from above and below and earlier freezing.",
+      "claim_ids": [
+        "situation-114-C01"
+      ],
+      "source_route": "R-BRIDGE background; exact mechanism pending, then SMHI.",
+      "source_lead_ids": [
+        "R-BRIDGE"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        9
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-116",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Rain falls near freezing temperature onto a cold road. What risk should you anticipate?",
+      "keyed_answer": "A nearly invisible slippery ice layer.",
+      "keyed_answer_explanation": "Rain can freeze on contact and dramatically reduce grip.",
+      "baseline_gap_reason": "Freezing rain forming a nearly invisible ice layer is not explained.",
+      "required_teaching_claim": "Explain nearly invisible ice from rain falling onto a sufficiently cold road.",
+      "claim_ids": [
+        "situation-116-C01"
+      ],
+      "source_route": "Agency search first; R-WEATHER fallback.",
+      "source_lead_ids": [
+        "R-WEATHER"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        9
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-117",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "After a long dry spell, the first rain begins. What should you consider?",
+      "keyed_answer": "Dirt and residues can make the surface unusually slippery.",
+      "keyed_answer_explanation": "Water can mix with accumulated contaminants, reducing grip.",
+      "baseline_gap_reason": "First rain after a dry spell mixing with road residues is not explained.",
+      "required_teaching_claim": "Explain first rain mixing with accumulated road residues after dry weather.",
+      "claim_ids": [
+        "situation-117-C01"
+      ],
+      "source_route": "Exact Swedish official mechanism pending; R-UK-WEATHER provides partial hazard background only.",
+      "source_lead_ids": [
+        "R-UK-WEATHER"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        9
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        239
+      ],
+      "primary_book_page": 239,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-148",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why are the tyres with the best grip generally fitted on the rear axle?",
+      "keyed_answer": "To reduce the risk of the rear losing grip and swinging out.",
+      "keyed_answer_explanation": "Rear stability helps prevent oversteer and uncontrolled rotation.",
+      "baseline_gap_reason": "Best-grip tyres are recommended at the rear, but the reason involving rear grip loss and the tail swinging out is not explained.",
+      "required_teaching_claim": "Explain best-grip tyres on the rear and reducing rear-end grip loss.",
+      "claim_ids": [
+        "situation-148-C01"
+      ],
+      "source_route": "R-TYRES.",
+      "source_lead_ids": [
+        "R-TYRES"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        10
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-149",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What happens in oversteer?",
+      "keyed_answer": "The rear loses grip and the car turns more than intended.",
+      "keyed_answer_explanation": "Loss of rear grip can make the tail swing outward.",
+      "baseline_gap_reason": "Oversteer and rear-axle loss of grip are not defined.",
+      "required_teaching_claim": "Define oversteer: rear grip loss, turning more than intended.",
+      "claim_ids": [
+        "situation-149-C01"
+      ],
+      "source_route": "Exact agency/VTI technical evidence pending.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        10
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-150",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What happens in understeer?",
+      "keyed_answer": "The front loses grip and the car turns less than intended.",
+      "keyed_answer_explanation": "The vehicle tends to continue straighter than the driver's intended curve.",
+      "baseline_gap_reason": "Understeer and front-axle loss of grip are not defined.",
+      "required_teaching_claim": "Define understeer: front grip loss, turning less than intended.",
+      "claim_ids": [
+        "situation-150-C01"
+      ],
+      "source_route": "Exact agency/VTI technical evidence pending.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        10
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-152",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What occurs during aquaplaning?",
+      "keyed_answer": "Water prevents the tyre from maintaining proper contact with the road.",
+      "keyed_answer_explanation": "Steering and braking grip can be severely reduced when the tread cannot disperse water.",
+      "baseline_gap_reason": "Aquaplaning and water separating tyre contact from the road are not defined.",
+      "required_teaching_claim": "Define aquaplaning as water disrupting tyre-road contact.",
+      "claim_ids": [
+        "situation-152-C01"
+      ],
+      "source_route": "Agency search first; R-UK-WEATHER proposed government fallback.",
+      "source_lead_ids": [
+        "R-UK-WEATHER"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        10
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-153",
+      "execution_step": "G7",
+      "primary_chapter": "M07",
+      "primary_lesson": "M07-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Your car starts aquaplaning. What is the appropriate response?",
+      "keyed_answer": "Ease off the accelerator and avoid abrupt steering or braking.",
+      "keyed_answer_explanation": "Smooth inputs help the wheels recover grip without a sudden change in direction.",
+      "baseline_gap_reason": "The aquaplaning response is not taught; generic smooth-input advice does not establish the specific recovery action.",
+      "required_teaching_claim": "Explain easing off and avoiding abrupt steering/braking during aquaplaning.",
+      "claim_ids": [
+        "situation-153-C01",
+        "situation-153-C02"
+      ],
+      "source_route": "Exact full response pending; R-UK-WEATHER supports gradual easing/slowing only.",
+      "source_lead_ids": [
+        "R-UK-WEATHER"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        10
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G7/coverage.json",
+      "design_assessment": "Existing text styles and approved scenes reused; explicit paired definitions and worked examples teach mechanisms without new design/diagram.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        240
+      ],
+      "primary_book_page": 240,
+      "comprehension_check_book_page": 242,
+      "answer_book_page": 253,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-136",
+      "execution_step": "G8",
+      "primary_chapter": "M08",
+      "primary_lesson": "M08-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "A light lorry has no trailer. Which maximum speed generally applies?",
+      "keyed_answer": "The speed limit of the road, subject to safe adaptation.",
+      "keyed_answer_explanation": "It is not subject to the same general vehicle-specific cap as a heavy lorry.",
+      "baseline_gap_reason": "The road-speed-limit treatment of a light lorry versus the heavy-lorry cap is not taught.",
+      "required_teaching_claim": "Explain the road-limit treatment of a light lorry without a trailer and safe speed adaptation.",
+      "claim_ids": [
+        "situation-136-C01"
+      ],
+      "source_route": "R-LORRY.",
+      "source_lead_ids": [
+        "R-LORRY"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        2
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G8/coverage.json",
+      "design_assessment": "Existing text styles and approved artwork reused; explicit lever/load explanation and examples suffice, so no new diagram/design.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        259
+      ],
+      "primary_book_page": 259,
+      "comprehension_check_book_page": 261,
+      "answer_book_page": 283,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-165",
+      "execution_step": "G8",
+      "primary_chapter": "M08",
+      "primary_lesson": "M08-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "A trailer presses too heavily down on the towball. What can happen?",
+      "keyed_answer": "The car's front axle can be unloaded, impairing steering grip.",
+      "keyed_answer_explanation": "Too much downward coupling force can lift the front relative to the rear.",
+      "baseline_gap_reason": "Excess towball load unloading the front axle and reducing steering grip is not explained.",
+      "required_teaching_claim": "Explain excessive downward towball loading unloading the front axle and impairing steering grip.",
+      "claim_ids": [
+        "situation-165-C01"
+      ],
+      "source_route": "Exact agency technical mechanism pending; manufacturer towing evidence if needed.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": true,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        15
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G8/coverage.json",
+      "design_assessment": "Existing text styles and approved artwork reused; explicit lever/load explanation and examples suffice, so no new diagram/design.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        272
+      ],
+      "primary_book_page": 272,
+      "comprehension_check_book_page": 274,
+      "answer_book_page": 283,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-172",
+      "execution_step": "G8",
+      "primary_chapter": "M08",
+      "primary_lesson": "M08-L03",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What normally happens if the required inspection deadline is missed?",
+      "keyed_answer": "An automatic driving ban applies until the inspection requirements are addressed.",
+      "keyed_answer_explanation": "Owners are responsible for meeting the deadline even without a reminder.",
+      "baseline_gap_reason": "Inspection intervals are taught, but automatic prohibition following a missed deadline is not stated.",
+      "required_teaching_claim": "Explain automatic driving prohibition following a missed inspection deadline and applicable conditions for addressing it.",
+      "claim_ids": [
+        "situation-172-C01"
+      ],
+      "source_route": "R-INSPECTION.",
+      "source_lead_ids": [
+        "R-INSPECTION"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        19
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G8/coverage.json",
+      "design_assessment": "Existing text styles and approved artwork reused; explicit lever/load explanation and examples suffice, so no new diagram/design.",
+      "evidence_basis": "official primary evidence with stated scope",
+      "final_book_pages": [
+        276
+      ],
+      "primary_book_page": 276,
+      "comprehension_check_book_page": 277,
+      "answer_book_page": 283,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-076",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why does burning fossil petrol contribute to climate change?",
+      "keyed_answer": "It adds carbon dioxide from long-stored carbon to the atmosphere.",
+      "keyed_answer_explanation": "Carbon dioxide contributes to the enhanced greenhouse effect.",
+      "baseline_gap_reason": "The mechanism linking fossil carbon, carbon dioxide and climate change is not explained.",
+      "required_teaching_claim": "Explain stored fossil carbon → CO₂ → enhanced greenhouse effect.",
+      "claim_ids": [
+        "situation-076-C01"
+      ],
+      "source_route": "R-CLIMATE background; R-CARBON fallback for the exact mechanism if absent in TS/TRV.",
+      "source_lead_ids": [
+        "R-CLIMATE",
+        "R-CARBON"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-077",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "When is a conventional catalytic converter least effective?",
+      "keyed_answer": "Just after a cold engine is started.",
+      "keyed_answer_explanation": "It needs to reach operating temperature to treat exhaust effectively.",
+      "baseline_gap_reason": "Catalytic-converter warm-up and cold-start effectiveness are not taught.",
+      "required_teaching_claim": "Explain catalyst temperature and low cold-start effectiveness.",
+      "claim_ids": [
+        "situation-077-C01"
+      ],
+      "source_route": "R-CATALYST.",
+      "source_lead_ids": [
+        "R-CATALYST"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-078",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Does a catalytic converter remove the climate impact of burning fossil fuel?",
+      "keyed_answer": "No, fossil carbon dioxide emissions remain.",
+      "keyed_answer_explanation": "Converters reduce several harmful pollutants but do not make fossil-fuel driving climate-neutral.",
+      "baseline_gap_reason": "The distinction between catalytic pollutant removal and remaining fossil CO2 emissions is not taught.",
+      "required_teaching_claim": "Explain pollutant conversion versus remaining fossil CO₂/climate impact.",
+      "claim_ids": [
+        "situation-078-C01"
+      ],
+      "source_route": "R-CATALYST plus R-CLIMATE for distinct claims; no redundant other publisher needed if sufficient.",
+      "source_lead_ids": [
+        "R-CATALYST",
+        "R-CLIMATE"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-079",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why use a timer with an engine heater?",
+      "keyed_answer": "To warm the engine when needed without wasting electricity.",
+      "keyed_answer_explanation": "Excessive heating time adds energy use without proportional benefit.",
+      "baseline_gap_reason": "Engine heaters and timer use are not covered.",
+      "required_teaching_claim": "Explain an engine-heater timer reducing unnecessary electricity use.",
+      "claim_ids": [
+        "situation-079-C01"
+      ],
+      "source_route": "Exact agency evidence pending; R-ENERGY and current municipal guidance as fallback leads.",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-082",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "How can you use air conditioning sensibly?",
+      "keyed_answer": "Use it as needed for comfort, alertness and clear windows without unnecessary cooling.",
+      "keyed_answer_explanation": "Air conditioning uses energy, but visibility and safe alertness take priority.",
+      "baseline_gap_reason": "Air-conditioning energy demand and its safe, economical use are not taught.",
+      "required_teaching_claim": "Explain avoiding unnecessary cooling while preserving comfort, alertness and clear windows.",
+      "claim_ids": [
+        "situation-082-C01",
+        "situation-082-C02",
+        "situation-082-C03"
+      ],
+      "source_route": "Exact evidence for both energy and safety elements pending.",
+      "source_lead_ids": [],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-083",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Where is the environmentally preferable place to wash a car?",
+      "keyed_answer": "A purpose-built wash facility that treats wastewater.",
+      "keyed_answer_explanation": "Treatment helps prevent oils and other residues reaching waterways.",
+      "baseline_gap_reason": "Car washing, wastewater treatment and preferred wash facilities are not covered.",
+      "required_teaching_claim": "Explain purpose-built washing with collected/treated wastewater.",
+      "claim_ids": [
+        "situation-083-C01"
+      ],
+      "source_route": "Agency search first; R-WASH municipal fallback.",
+      "source_lead_ids": [
+        "R-WASH"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-084",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is a major danger of carbon monoxide?",
+      "keyed_answer": "It interferes with the blood's oxygen transport.",
+      "keyed_answer_explanation": "Carbon monoxide can cause serious poisoning; exhaust must not accumulate around people.",
+      "baseline_gap_reason": "Carbon monoxide and its effect on oxygen transport are not explained.",
+      "required_teaching_claim": "Explain carbon monoxide interfering with blood oxygen transport.",
+      "claim_ids": [
+        "situation-084-C01"
+      ],
+      "source_route": "R-AIR.",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-085",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Which environmental problem is associated with nitrogen oxides from traffic?",
+      "keyed_answer": "Airway irritation and contributions to acidification and ground-level ozone.",
+      "keyed_answer_explanation": "Nitrogen oxides are air pollutants with health and environmental effects.",
+      "baseline_gap_reason": "Nitrogen oxides, acidification, airway irritation and ground-level ozone are not explained.",
+      "required_teaching_claim": "Explain NOx respiratory effects, acidification and ground-level ozone.",
+      "claim_ids": [
+        "situation-085-C01",
+        "situation-085-C02",
+        "situation-085-C03"
+      ],
+      "source_route": "R-AIR first; R-NOX only for effects not supported there.",
+      "source_lead_ids": [
+        "R-AIR",
+        "R-NOX"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-086",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why are traffic particles a health concern?",
+      "keyed_answer": "They can harm the respiratory system.",
+      "keyed_answer_explanation": "Particles arise from exhaust and wear, including tyres and road surfaces.",
+      "baseline_gap_reason": "Wear particles are mentioned, but respiratory health effects are not explained.",
+      "required_teaching_claim": "Explain traffic particles and respiratory harm.",
+      "claim_ids": [
+        "situation-086-C01"
+      ],
+      "source_route": "R-AIR.",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        3
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        291
+      ],
+      "primary_book_page": 291,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-088",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "In a manual car, which gear choice generally saves fuel without straining the engine?",
+      "keyed_answer": "Use a suitably high gear while the engine runs smoothly.",
+      "keyed_answer_explanation": "A high appropriate gear reduces engine speed; downshift if the engine labours.",
+      "baseline_gap_reason": "The high suitable gear principle for a conventional manual car is not taught; vehicle instructions are deferred to.",
+      "required_teaching_claim": "Explain a suitably high gear without labouring the engine in a conventional manual car.",
+      "claim_ids": [
+        "situation-088-C01"
+      ],
+      "source_route": "Exact agency evidence pending; R-ENERGY fallback, with engine-operation limits verified.",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-090",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What is engine braking in a conventional manual car?",
+      "keyed_answer": "Slowing with the accelerator released while a suitable gear remains engaged.",
+      "keyed_answer_explanation": "The engine resists rotation; many fuel-injected cars cut fuel during overrun under suitable conditions.",
+      "baseline_gap_reason": "Engine braking in a conventional manual car is not defined.",
+      "required_teaching_claim": "Define engine braking with accelerator released and a suitable gear engaged.",
+      "claim_ids": [
+        "situation-090-C01"
+      ],
+      "source_route": "Exact agency definition pending; R-ENERGY is a lead, not complete evidence.",
+      "source_lead_ids": [
+        "R-ENERGY"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-092",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Which statement about an electric car is accurate?",
+      "keyed_answer": "It has no tailpipe exhaust while driving, but production and energy supply still have impacts.",
+      "keyed_answer_explanation": "Considering the full life cycle includes electricity, materials and manufacturing.",
+      "baseline_gap_reason": "The electric-car distinction between no tailpipe exhaust and production/energy-supply impacts is not taught explicitly.",
+      "required_teaching_claim": "Distinguish no tailpipe exhaust from production and electricity-supply impacts.",
+      "claim_ids": [
+        "situation-092-C01",
+        "situation-092-C02",
+        "situation-092-C03"
+      ],
+      "source_route": "R-EV.",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-094",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What distinguishes a plug-in hybrid from a conventional non-plug-in hybrid?",
+      "keyed_answer": "Its traction battery can be charged from an external electricity supply.",
+      "keyed_answer_explanation": "External charging allows electric driving using energy obtained before the trip.",
+      "baseline_gap_reason": "Plug-in hybrids are mentioned, but external charging versus a non-plug-in hybrid is not explained.",
+      "required_teaching_claim": "Compare externally rechargeable plug-in hybrids with non-plug-in hybrids.",
+      "claim_ids": [
+        "situation-094-C01"
+      ],
+      "source_route": "R-EV.",
+      "source_lead_ids": [
+        "R-EV"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        4
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        292
+      ],
+      "primary_book_page": 292,
+      "comprehension_check_book_page": 293,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-098",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L04",
+      "additional_insertion_anchor": null,
+      "question_prompt": "Why can cities restrict studded tyres on particular roads?",
+      "keyed_answer": "Studs contribute to road wear and airborne particles.",
+      "keyed_answer_explanation": "Local air-quality concerns can lead to signed restrictions.",
+      "baseline_gap_reason": "Local studded-tyre restrictions and wear particles are mentioned separately; the specific studs/road-wear/air-quality link is not taught.",
+      "required_teaching_claim": "Connect studs → road wear → airborne particles → possible local restrictions.",
+      "claim_ids": [
+        "situation-098-C01",
+        "situation-098-C02"
+      ],
+      "source_route": "R-AIR plus current TS/local traffic-regulation evidence for the restriction claim.",
+      "source_lead_ids": [
+        "R-AIR"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        17
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        305
+      ],
+      "primary_book_page": 305,
+      "comprehension_check_book_page": 307,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-099",
+      "execution_step": "G9",
+      "primary_chapter": "M09",
+      "primary_lesson": "M09-L02",
+      "additional_insertion_anchor": null,
+      "question_prompt": "What should you do with heavy equipment you no longer need in the car?",
+      "keyed_answer": "Remove it before future journeys.",
+      "keyed_answer_explanation": "Moving unnecessary mass requires energy, especially during acceleration.",
+      "baseline_gap_reason": "Removing roof equipment is taught, but unnecessary carried mass and its energy cost are not explained.",
+      "required_teaching_claim": "Explain unnecessary carried mass and removing unneeded heavy equipment.",
+      "claim_ids": [
+        "situation-099-C01"
+      ],
+      "source_route": "R-ECO covers roof equipment; exact carried-mass evidence pending.",
+      "source_lead_ids": [
+        "R-ECO"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        7
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G9/coverage.json",
+      "design_assessment": "Existing typography and reusable comparison-table style, approved artwork/sign placements retained. No new design needed.",
+      "evidence_basis": "official primary evidence with stated scope and identified explanatory inferences",
+      "final_book_pages": [
+        295
+      ],
+      "primary_book_page": 295,
+      "comprehension_check_book_page": 297,
+      "answer_book_page": 310,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    },
+    {
+      "question_id": "situation-174",
+      "execution_step": "G10",
+      "primary_chapter": "M10",
+      "primary_lesson": "M10-L01",
+      "additional_insertion_anchor": null,
+      "question_prompt": "The engine has overheated. Why should you not immediately open a hot coolant cap?",
+      "keyed_answer": "Pressurised hot coolant or steam can cause burns.",
+      "keyed_answer_explanation": "Allow the system to cool and follow the vehicle's instructions.",
+      "baseline_gap_reason": "Hot pressurised coolant and the burn risk from opening its cap are not explained.",
+      "required_teaching_claim": "Explain why opening a hot coolant cap can release pressurised hot fluid/steam and cause burns.",
+      "claim_ids": [
+        "situation-174-C01"
+      ],
+      "source_route": "Direct agency technical instruction pending; R-COOLANT manufacturer fallback.",
+      "source_lead_ids": [
+        "R-COOLANT"
+      ],
+      "source_status": "verified_with_stated_scope",
+      "design_status": "not_required_existing_design",
+      "proposed_visual_review": false,
+      "design_approval": null,
+      "text_status": "complete",
+      "chapter_status": "verified",
+      "final_coverage_status": "covered_in_final_book",
+      "supporting_local_pages": [
+        6
+      ],
+      "supporting_final_pages": [],
+      "primary_final_page": null,
+      "open_items": [],
+      "last_updated": "2026-10-13",
+      "coverage_record": "G10/coverage.json",
+      "design_assessment": "Existing text styles and approved breakdown/tunnel scenes reused; no new design.",
+      "evidence_basis": "Manufacturer fallback only for exact technical hazard; Trafikverket for scene safety",
+      "final_book_pages": [
+        321
+      ],
+      "primary_book_page": 321,
+      "comprehension_check_book_page": 324,
+      "answer_book_page": 336,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit_record": "../all-question-coverage.json"
+    }
+  ]
+}

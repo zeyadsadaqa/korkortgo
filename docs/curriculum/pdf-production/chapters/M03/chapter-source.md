@@ -78,9 +78,21 @@ Think of stopping in two parts. During the time between noticing a hazard and be
 
 **Learning approach.** Scan far enough ahead to see developing situations, while revisiting the near area, mirrors and places where someone may enter. Avoid staring at one hazard until everything else disappears from attention. Increase your margin when information is poor. A timed following-gap check can help you notice a short gap, but no fixed number is safe in every condition.
 
+**Safety advice · Check a timed gap.** For the three-second following-distance guideline, select a fixed roadside point, such as a pole or sign. When the rear of the vehicle ahead passes it, start counting at a steady seconds pace. Stop when the front of your car reaches the same point. Arriving before three seconds indicates a short gap against that guideline: ease back smoothly and check again. Three seconds is a guideline, not a statutory fixed interval or a guarantee; poor grip, visibility or other hazards require more space and an appropriate speed. Keep observing the road while counting. [NSW Government: fixed-point following-gap method][following-gap]
+
+**Fixed-point example.** The car ahead passes a sign. You count “one thousand and one, one thousand and two, one thousand and three”. If your car reaches the sign while you are still on “two”, increase the gap smoothly. At a hypothetical constant 60 km/h, three seconds represents 60 ÷ 3.6 × 3 = 50 metres. A timed gap therefore represents more metres at higher speed, without requiring you to estimate metres by eye.
+
+**Safety advice · When someone follows too closely.** Increase your gap to the vehicle ahead gradually, allowing you to ease off and brake more gently if traffic slows. This gives the following driver more time to respond. Do not brake sharply to warn or punish them, or accelerate into an unsafe speed. If an emergency requires braking, brake as necessary; this advice does not mean withholding it. [Northern Ireland government: tailgater response][vehicle-faults]
+
+**Tailgater example.** Maya has a close follower and sees brake lights farther ahead. She eases off early to create room in front and slows progressively. She cannot control the follower, but she can reduce the need for a sudden stop.
+
+**Physical explanation · Twice the speed.** With the same effective grip and braking deceleration on the same gradient, braking distance is approximately proportional to speed squared: **2 × speed → 4 × braking distance**. In a constant-deceleration model, distance = speed² ÷ (2 × deceleration), with speed in metres per second. Doubling speed multiplies the numerator by four. Real conditions and brake response can change; this is a comparison under stated assumptions. [Trafikverket: VGU braking-distance equation][braking-model]
+
+**Hypothetical comparison.** Assume a level road, unchanged vehicle/load/grip, constant braking deceleration of 5 m/s² and a one-second response delay. At 40 km/h, braking distance is about 12.3 m and reaction distance 11.1 m. At 80 km/h they are 49.4 m and 22.2 m: braking quadruples while reaction distance doubles. Total stopping distances are about 23.5 m and 71.6 m, so the total does **not** quadruple. These invented model conditions explain the relationship; they are not predicted stopping distances for your car.
+
 **Worked decision.** You can see over the roof of the car ahead that traffic is slowing. Ease your approach early rather than waiting for its brake lights at a short distance. The benefit is having choices before braking becomes urgent.
 
-**Knowledge check.** If your response delay doubles at the same speed, what happens to distance travelled before braking? **Answer:** It doubles under the stated constant-speed assumption. The actual total stopping distance still depends on braking and conditions.
+**Knowledge check.** (1) If response delay doubles at the same speed, what happens to reaction distance? (2) How do you time a three-second following gap? (3) Why increase the forward gap when someone follows too closely? (4) With unchanged braking deceleration, how does doubled speed affect braking distance, and does total stopping distance also quadruple? **Answer:** (1) It doubles under the constant-speed assumption. (2) Count seconds from the rear of the car ahead passing a fixed point until your front reaches that point; three seconds is a guideline and conditions may require more. (3) More forward space allows gentler slowing and gives the follower more time; avoid unnecessary sudden braking. (4) Braking distance becomes approximately four times as long, but reaction distance doubles for the same response delay, so the combined total does not generally quadruple.
 
 **Remember:** Space is useful because it gives you time to notice, decide and act.
 
@@ -99,4 +111,7 @@ Identify one type of information you noticed late. Explain the consequence and c
 [panels]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/
 [impact]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/
 [friction]: https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf
+[following-gap]: https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance
+[vehicle-faults]: https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf
+[braking-model]: https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf
 [syllabus]: https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf

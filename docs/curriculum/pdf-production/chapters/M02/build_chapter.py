@@ -53,7 +53,11 @@ class Chapter(BookCanvas):
     def start(self,key,label,**kw):
         super().start(key,label,**kw);self.page_labels[self.page]=label
         if self.page==1:self.c.bookmarkPage('contents')
-    def text(self,text,style='body',space=12):self.add(para(text,style),space)
+    def text(self,text,style='body',space=12):
+        if text.startswith('|'):
+            rows=[[c.strip() for c in line.strip().strip('|').split('|')] for line in text.splitlines() if not re.fullmatch(r'[| :\-]+',line)]
+            self.add(reference_table(rows,[WIDTH*.30,WIDTH*.30,WIDTH*.40]),space)
+        else:self.add(para(text,style),space)
     def art(self,key):
         self.add(Scene(key),7);self.text(ART[key]['caption'],'caption',18)
     def lines(self,n=5):
@@ -74,7 +78,7 @@ def run():
     for key,v in SECTIONS.items():
         b.add(Paragraph(f'<link href="#{key}" color="#173E32"><b>{key}</b> · {escape(v["title"])}</link>',STYLES['body']),13)
     b.add(Paragraph('<link href="#M02-answers" color="#173E32">Answers and review guidance</link>',STYLES['body']))
-    b.add(Paragraph('<link href="#M02-references" color="#173E32">Official references</link>',STYLES['body']),24)
+    b.add(Paragraph('<link href="#M02-references" color="#173E32">References and vehicle handbooks</link>',STYLES['body']),24)
     disclaimer=re.search(r'> \*\*(.*?)\*\*',MANUSCRIPT).group(1)
     b.add(panel(disclaimer,'disclaimer'));b.end()
     for num in range(1,5):
@@ -84,17 +88,26 @@ def run():
         q,a=check.split(' **Answer:** ',1);answers.append((key,a))
         remember=paras[-1];body=paras[1:paras.index(worked)]
         # Two pages per lesson keep scene + worked situation + check together.
-        b.start(key,key,next_page=(key+' scenario',key+'-scenario'))
+        extra=num in [1,3]
+        split_at=next((i for i,p in enumerate(body) if p.startswith('**Technical explanation ·')),len(body)) if extra else len(body)
+        b.start(key,key,next_page=('Further learning',key+'-systems') if extra else (key+' scenario',key+'-scenario'))
         b.text(key,'source');b.text(s['title'],'heading');b.add(panel(goal),18)
-        first=body
+        practice=[p for p in body if p.startswith('**Practice example.**')] if num==2 else []
+        first=[p for p in body[:split_at] if p not in practice]
         for p in first:
             b.text(p)
         if num==4:b.art('M02-L04-cabin')
         b.end()
+        if extra:
+            b.start(key+'-systems',key+' · Further learning',next_page=(key+' scenario',key+'-scenario'))
+            b.text('Brakes and protective circuits' if num==1 else 'How protection works','heading')
+            for p in body[split_at:]:b.text(p)
+            b.end()
         b.start(key+'-scenario',key+' · Worked decision',next_page=(f'M02-L{num+1:02d}' if num<4 else 'M02-R',f'M02-L{num+1:02d}' if num<4 else 'M02-R'))
         b.text('Apply the learning','subheading')
         b.art(key)
         b.text(worked)
+        for p in practice:b.text(p)
         b.text(q);b.questions[key]=b.page
         b.lines(3)
         b.text(remember,'caption');b.end()
@@ -105,15 +118,15 @@ def run():
     b.questions['M02-R']=b.page;b.lines(3);b.end()
     b.start('M02-reflection','M02-R · Reflection',next_page=('Review your answers','M02-answers'))
     b.text('Keep a practice record','heading');b.text(review[2]);b.lines(17);b.end()
-    b.start('M02-answers','Answers and review guidance',next_page=('Official references','M02-references'))
+    b.start('M02-answers','Answers and review guidance',next_page=('References and vehicle handbooks','M02-references'))
     b.text('Review after answering','heading')
     for key,a in answers:
         b.text(key,'source',6);b.text('**Answer:** '+a,space=20);b.answers[key]=b.page
     b.text('M02-R','source',6);b.text('**Review guide:** '+review_answer);b.answers['M02-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),4):
         key='M02-references' if offset==0 else f'M02-references-{offset//4+1}'
-        b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Official sources checked 4 October 2026. Always consult current official guidance and the applicable rules.','caption',18)
+        b.start(key,'References and vehicle handbooks');b.text('References and vehicle handbooks','heading')
+        b.text('Original sources checked 4 October 2026; G2 additions checked 12 October 2026. Consult current official guidance and the actual vehicle instructions.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             url=REFS[alias];b.text(LABELS[alias],'body',4)
             b.add(Paragraph(f'<link href="{escape(url)}" color="#173E32">{escape(url)}</link>',STYLES['source']),20)
@@ -128,6 +141,8 @@ def run():
         if key=='M02':continue
         if key.endswith('-scenario'):
             w.add_outline_item('Worked decision and knowledge check',num-1,parent=lesson_parents[key.removesuffix('-scenario')])
+        elif key.endswith('-systems'):
+            w.add_outline_item('Further learning',num-1,parent=lesson_parents[key.removesuffix('-systems')])
         elif key in SECTIONS:
             lesson_parents[key]=w.add_outline_item(key+' · '+SECTIONS[key]['title'],num-1,parent=parent)
         elif key=='M02-reflection':w.add_outline_item('Reflection',num-1,parent=lesson_parents['M02-R'])

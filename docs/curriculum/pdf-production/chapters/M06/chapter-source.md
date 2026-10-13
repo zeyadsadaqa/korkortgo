@@ -14,9 +14,19 @@ Wild animals and reindeer can appear throughout the year. Trafikverket highlight
 
 A slow vehicle's appearance may resemble a car even when its permitted speed and construction differ. Trafikverket advises other drivers to keep distance and pass only where appropriate. Stay far enough back to see around it and evaluate the road, rather than moving close to demand that it hurry. [Slow vehicles and other traffic][slow-vehicles]
 
+**Turn planning · Choose a safer approach.** On an ordinary two-way rural road, heavy traffic may make a direct left turn unsafe. Continue to a suitable, permitted place or route where you can change direction safely, then return to approach the destination with a right turn if that movement is allowed and safe. This can avoid hazardous waiting and crossing the opposing stream at the original entrance. It is a planning alternative, not permission to turn around immediately on the carriageway. If no safe legal return route exists, choose another route or postpone. [Trafikverket: example of routing to a turning place][rural-turn-alternative]
+
+**Legal boundary.** Before turning or leaving the road, protect oncoming traffic and traffic on the road you enter; take particular care of following traffic. A turnaround must cause neither danger nor obstruction. Signs and access restrictions still apply. Never turn around or reverse on a motorway or expressway. If you can wait safely and legally for a left turn, remember the advice in M04-L02 to keep the front wheels straight; that advice does not make an unsafe turn suitable. [Traffic Regulation, chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2][traffic-law]
+
+**Worked rural alternative.** A farm entrance is on your left and busy traffic leaves no safe opportunity. You continue to an accessible junction route that legally and safely brings you back in the opposite direction. The entrance is then on your right. Check people, traffic and the entrance again before turning; the revised route does not guarantee a safe final movement.
+
+**Wildlife observation · Time and terrain.** Give extra attention at dawn and dusk, near animal habitats and where fences end or have openings. Scan woodland edges, bushes and small waterways beside the road: Trafikverket's road-project study describes these as animal routes that can conceal an approach. Its national guidance also describes animal passages through fence openings. These are cues for observation and speed planning, not predictions that animals only cross there. [Trafikverket: wildlife and fence passages][wildlife] · [Trafikverket: habitat example, page 9][wildlife-habitat]
+
+**Apply the cues.** At dusk, woodland meets a field beside a gap in the fence. Read the edges and opening as possible animal approaches, and choose speed for the view and foreseeable hazard. Keep observing even on fenced stretches. Prevention belongs here; actions after a collision are in M10-L01.
+
 **Worked decision.** You approach a narrow bridge with a van coming towards you and an obstruction on your side. You reduce speed before the narrowing and stop if necessary. Do not move into the van's path simply because you reached the obstruction first.
 
-**Knowledge check.** You can see no vehicle on the far side of a crest. Does that prove the road is clear there? **Answer:** No. It proves only that the view is limited. Choose speed and position for that uncertainty.
+**Knowledge check.** (1) No vehicle is visible beyond a crest. Is the road proved clear? (2) Heavy traffic makes your rural left turn unsafe. What alternative can you plan? (3) Which time and roadside cues call for extra wildlife attention? **Answer:** (1) No. The view is limited; choose speed and position for that uncertainty. (2) Continue to a suitable permitted turning place or route, change direction safely and return for a right turn if allowed and safe. If no such route exists, choose another route or postpone. Do not make an immediate unsafe turnaround. (3) Dawn/dusk, animal habitats such as woodland edges and bushes, and fence endings/openings. Animals can also appear elsewhere and at other times.
 
 **Remember:** Let what you can actually see determine the available space.
 
@@ -52,9 +62,13 @@ Normally use the rightmost lane intended for your vehicle. Keep a following dist
 
 For an exit, take the suitable lane in good time and enter the deceleration lane as soon as possible. If you miss the exit, continue to a permitted exit and re-plan; never reverse to recover it. A breakdown is dealt with in M10-L01, not by using the shoulder as a convenient place to check navigation.
 
+**After the motorway · Recheck your speed.** After a long period at a steady motorway speed, your perception can adapt to that pace. On a slower road, the correct lower speed may feel unusually slow. This effect is often called speed adaptation or velocitation. Check the speedometer regularly to judge actual speed and adjust to the current limit and conditions. The feeling alone is not evidence that the speedometer is faulty. [ODOT: speed perception and speedometer checks][speed-adaptation]
+
+**Worked transition.** After a long motorway trip, you leave onto a road signed 50 km/h. At 50, the car feels as if it is crawling. Confirm the speedometer reading, read the new road and retain a speed suited to its limit, visibility and hazards. Do not accelerate merely to recover the motorway's familiar feeling.
+
 **Worked decision.** Your exit sign appears while another vehicle occupies the lane you would need to cross. You do not force the move. You continue safely and tell your passenger the route will change.
 
-**Knowledge check.** Does a posted motorway limit override the lower permitted speed of your trailer combination? **Answer:** No. Both road and vehicle limits apply; use the lower applicable limit and reduce further when conditions require it.
+**Knowledge check.** (1) Does a posted motorway limit override a lower trailer-combination limit? (2) After prolonged motorway driving, the lower speed on your new road feels too slow. What explains that feeling, and what should guide your speed? **Answer:** (1) No. Use the lower applicable road/vehicle limit and reduce further for conditions. (2) Perception may have adapted to the motorway pace. Check the speedometer and current limit, then adapt to visibility and hazards. Feeling slow alone does not prove a faulty instrument or justify accelerating.
 
 **Remember:** Prepare the next movement before the road makes it urgent.
 
@@ -86,7 +100,10 @@ Record one situation in which impatience could change your judgement. Explain th
 [traffic-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
 [wildlife]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/
 [slow-vehicles]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/
+[rural-turn-alternative]: https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/
+[wildlife-habitat]: https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf
 [time]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/
+[speed-adaptation]: https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx
 [rail]: https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf
 [works]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/
 [syllabus]: https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf

@@ -12,9 +12,30 @@ Transportstyrelsen distinguishes several effects. Greenhouse-gas emissions relat
 
 A plug-in hybrid combines electrical and combustion-engine operation. Transportstyrelsen changed the weighting used for new registrations in 2026 to better reflect the mix of those modes. The general lesson is to understand what a reported figure represents; it is not a promise about your next journey's consumption. [Transportstyrelsen: plug-in-hybrid weighting][hybrid]
 
+**Emissions explained · Fossil carbon and a cold catalyst.** Fossil petrol contains carbon stored for millions of years. Burning it combines that carbon with oxygen and releases CO₂ into the atmosphere. The added CO₂ strengthens the natural greenhouse effect and contributes to warming. [Long-stored carbon: Naturvårdsverket][fossil-carbon] · [Climate effect: Trafikverket][climate-effect]
+
+A conventional petrol car's three-way catalyst reduces carbon monoxide, hydrocarbons and nitrogen oxides by chemical conversion. It needs sufficient heat to become effective, so it is least effective just after a cold start. Conversion products include water and CO₂: cleaning up these pollutants does not capture the fossil carbon or cancel its climate impact. No single warm-up time applies to every car. [Transportstyrelsen: catalyst operation, page 24][catalyst-warmup] · [Trafikverket: cold emission controls][road-air]
+
+**Pollutant comparison.** Keep CO distinct from CO₂. The table summarises different mechanisms; one cleaner exhaust measure cannot stand for all of them.
+
+| Substance | Why it matters |
+|---|---|
+| CO₂ · carbon dioxide | Added fossil CO₂ strengthens the greenhouse effect. |
+| CO · carbon monoxide | Binds strongly to haemoglobin and interferes with the blood's oxygen transport. |
+| NOx · nitrogen oxides | Can irritate airways, contribute to acidification and, with hydrocarbons and sunlight, form ground-level ozone. |
+| Traffic particles | Exhaust and wear particles can enter and harm the respiratory system. |
+
+[Trafikverket: CO, NOx and particle mechanisms][road-air] · [Trafikverket: CO₂ and warming][climate-effect]
+
+**Powertrain and washing · Check the boundary.** A battery-electric car uses only electricity for propulsion and has no combustion tailpipe exhaust while driving. That does not remove impacts from vehicle/battery production, raw-material extraction or electricity supply. Tyre and road wear still matter. A plug-in hybrid combines electric and combustion operation and its traction battery can be charged externally. A conventional non-plug-in hybrid cannot be charged from an external electricity supply. [Trafikverket: electric cars and hybrid types][electric-types]
+
+Choose a purpose-built automatic or self-service wash that collects and treats its wastewater. Washing on an ordinary street or driveway can carry oil, metals and cleaning chemicals into ground or surface water. Treatment reduces the problem but does not remove every pollutant. Follow the facility's product instructions and local water-protection rules. [Göteborg environmental authority: washing and treatment][wash-water]
+
+**Apply the comparison.** A catalyst-equipped petrol car still releases fossil CO₂. An electric car avoids combustion exhaust on that drive, but needs a broader production-and-energy comparison. For either car, choose washing by how the dirty water is handled, rather than assuming a mild detergent makes street runoff harmless.
+
 **Worked decision.** Two vehicles are advertised using different environmental measures. One figure describes exhaust emissions under a test procedure; another describes noise. The learner does not rank them as though both figures measure the same thing. They first identify the question being answered and the information still missing.
 
-**Knowledge check.** Does removing exhaust from a journey remove tyre and road-wear particles? **Answer:** No. Those are separate sources of pollution. A broader comparison needs more than a tailpipe figure.
+**Knowledge check.** (1) Why does fossil petrol warm the climate, even with a catalyst, and when is that catalyst least effective? (2) Match CO, NOx and particles to their effects. (3) Does an electric car have no environmental impact; which hybrid can charge externally? (4) Where should washing water go? **Answer:** (1) Long-stored carbon becomes CO₂, strengthening the greenhouse effect. A catalyst converts other pollutants and works poorly just after a cold start. (2) CO impairs blood oxygen transport; NOx irritates airways and contributes to acidification and ground-level ozone; particles harm airways. (3) No: production and electricity supply still matter. A plug-in hybrid can charge externally; a non-plug-in hybrid cannot. (4) Choose a purpose-built wash collecting and treating wastewater.
 
 **Remember:** Name the effect and the basis of comparison before making the claim.
 
@@ -30,9 +51,19 @@ Prepare the vehicle for the trip. Check the specified tyre pressure and remove u
 
 **Vehicle-specific boundary.** Gear selection and deceleration strategies vary. Do not use a fixed engine-speed rule for every car or assume every powertrain cuts fuel or recovers energy in the same way. Learn the actual vehicle's approved operation with your instructor. This book does not recommend coasting in neutral or switching the vehicle off while moving.
 
+**Practical energy choices · Prepare and control the car.** Use a timer with an installed electric engine heater so it warms the engine when needed, without running unnecessarily long. Set it for the intended departure using the equipment instructions and conditions; there is no universal heating duration. [Gagnef municipal energy advice: heater timer][heater-timer]
+
+Air conditioning consumes energy, but it can support comfort, alertness and clear windows. Avoid unnecessary cooling while keeping those safety benefits. Use the car's appropriate demisting controls; visibility takes priority over a saving. Cooling is not a remedy for sleep deprivation: stop and rest if drowsy. Revisit M07-L01 for seeing clearly and M07-L03 for attention. [NZ Transport Agency: cooling, alertness and demisting][cooling-safety]
+
+In a conventional manual car, choose a suitably high gear in which the engine runs smoothly without labouring. Change down if the load or gradient makes that gear unsuitable. Engine braking means slowing with the accelerator released while a suitable gear remains engaged; do not disengage the drive by pressing the clutch or selecting neutral for this technique. Use the brakes whenever safety requires. Actual engine control varies, so this definition does not promise zero fuel use or a universal RPM. [Official vehicle agency: comfortable gear choice and in-gear deceleration][manual-eco]
+
+Unnecessary carried mass increases the demands on the vehicle. Unload heavy equipment you no longer need before future journeys, while retaining necessary safety and access equipment. Removing cargo is a different check from removing a roof box's air resistance. [Swedish public energy advice: minimise weight][carried-mass]
+
+**Apply before departure.** Remove unused heavy equipment, schedule the heater for the trip, and keep effective demisting. On an uphill section, use the gear the car can comfortably handle; a high gear that strains the engine is not the intended economical technique.
+
 **Worked decision.** You can see that a traffic queue is stationary ahead. You check behind and begin a controlled reduction in speed early, retaining enough room to stop. You do not accelerate simply to close the gap, and you do not roll into a crossing to preserve momentum.
 
-**Knowledge check.** Should an energy-saving technique take priority over a safe response to an emerging hazard? **Answer:** No. Anticipation supports safety and efficiency; it does not replace a necessary stop.
+**Knowledge check.** (1) May economy override a necessary stop? (2) How should you use an engine-heater timer and cooling? (3) What is a suitable high gear and engine braking in a manual car? (4) What should happen to unneeded heavy cargo? **Answer:** (1) No. (2) Heat when needed, avoiding unnecessary runtime; retain comfort, alertness and clear windows without needless cooling. (3) Use a gear allowing smooth running without strain. Engine braking releases the accelerator with a suitable gear engaged; brake as needed. No universal RPM or zero-fuel promise. (4) Unload it before future trips; retain necessary equipment.
 
 **Remember:** Reduce avoidable demands on the car while keeping full control of the journey.
 
@@ -62,9 +93,11 @@ Do not replace one unrealistic assumption with another. A route may be short but
 
 Transportstyrelsen's official traffic-regulation collection, STFS, provides local regulations. Check whether a decision is in force on the date of travel, and whether another decision has changed it. Do not rely on a remembered map or an announcement of a proposed zone. [Official local traffic regulations][stfs]
 
+**Studded tyres · A separate local restriction.** Studs wear the road surface and create particles that can become airborne and enter the airways. Municipalities can restrict studded vehicles on particular roads or areas to address this problem. Check the current local decision in STFS, its dates, extent, exceptions and signs for your route. National permission to use studs in a season does not override a local prohibition. C44 denotes this restriction for motor vehicles other than moped class II; a supplementary panel can include that class too. Revisit the official C44 example in M07-L02. [Trafikverket: stud-related particles][road-air] · [Transportstyrelsen: local restrictions, page 13][studs-local] · [Transportstyrelsen: C44][studs-sign]
+
 **Worked decision.** A driver has heard that a city plans a new zone. Before travelling, they verify the operative restriction and compare it with the car's recorded category. The route is chosen from current information, not from a headline remembered months earlier.
 
-**Knowledge check.** Does the word “hybrid” alone establish permission to enter any environmental zone? **Answer:** No. The zone class, vehicle criteria, applicable exemptions and current local decision must be checked.
+**Knowledge check.** (1) Does “hybrid” guarantee environmental-zone access? (2) Why can a municipality restrict studded tyres, and what must you check? **Answer:** (1) No. Check zone class, vehicle criteria, exemptions and current decision. (2) Studs wear roads and create airborne particles. Check the local decision, route, dates, exceptions and signs; national permitted season does not override a local ban.
 
 **Remember:** A rule's location and effective date are part of the rule.
 
@@ -81,8 +114,20 @@ Record one assumption you made about environmental impact or access. Identify wh
 [air]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/
 [noise]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/
 [hybrid]: https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/
+[fossil-carbon]: https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/
+[climate-effect]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/
+[catalyst-warmup]: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf
+[road-air]: https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/
+[electric-types]: https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/
+[wash-water]: https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan
 [eco]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/
 [traffic-law]: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/
+[heater-timer]: https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/
+[cooling-safety]: https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment
+[manual-eco]: https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/
+[carried-mass]: https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html
 [syllabus]: https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf
 [zones]: https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/
 [stfs]: https://rdt.transportstyrelsen.se/rdt/Default.aspx?UseStfs=1
+[studs-local]: https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf
+[studs-sign]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/

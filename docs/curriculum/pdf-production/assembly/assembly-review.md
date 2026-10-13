@@ -1,27 +1,40 @@
-# Step 6M assembly review
+# G11 revised assembly completed
 
-Completed for screen review on 7 October 2026. This is the complete book assembly; final publication verification and approval remain step 6N.
+Completed 13 October 2026. The production and delivery review PDFs are identical, verified **540-page** revised copies. The original **498-page** copy is retained at [G11 baseline](../../question-book-review/execution/G11/baseline/korkortgo-curriculum-review-498-pages.pdf); G0 snapshots are intact.
 
-## Composition and navigation
+## Pagination and variance
 
-The 498-page book combines the four opening pages, 311 chapter pages and 183 reference pages. Each input page is included once, with the provisional contents replaced in place. All ten chapters, 40 lessons, ten self-assessments and appendices A–D remain present. No blank padding or content reflow was needed: every question retains at least a two-page separation from its answer, so questions and answers do not share a facing spread.
+| Component | Before | Revised | Added | Book pages |
+|---|---|---|---|---|
+| front | 4 | 4 | +0 | 1–4 |
+| M01 | 15 | 17 | +2 | 5–21 |
+| M02 | 15 | 19 | +4 | 22–40 |
+| M03 | 50 | 52 | +2 | 41–92 |
+| M04 | 42 | 43 | +1 | 93–135 |
+| M05 | 44 | 45 | +1 | 136–180 |
+| M06 | 48 | 50 | +2 | 181–230 |
+| M07 | 23 | 27 | +4 | 231–257 |
+| M08 | 29 | 31 | +2 | 258–288 |
+| M09 | 22 | 27 | +5 | 289–315 |
+| M10 | 23 | 24 | +1 | 316–339 |
+| reference | 183 | 201 | +18 | 340–540 |
 
-The contents now lists the book’s own final folios. Printed page numbers and PDF page labels agree throughout; the cover has no visible folio. Every interior page provides Contents, Sources and Previous page links, with Next page except on the last page. Nested bookmarks cover chapters, lessons, reviews, answers, chapter sources, appendices and sign groups. Printed lesson IDs and chapter sign codes link to their full-book destinations where applicable. External official links remain usable.
+Total increase is **42 pages**: **24 chapter pages**, **3 glossary pages**, **15 central reference/provenance pages**. Chapter additions meet the original 18–24-page upper estimate; G11 reference/glossary work adds 18 beyond it. Existing font sizes and readable spacing retained. No new chapter or visual design. [Pagination JSON](../../question-book-review/execution/G11/pagination.json).
 
-The editable [builder](build_book.py) uses the approved shared styles and verified component PDFs. [Inputs](inputs.json) record hashes, page counts and offsets; [navigation](navigation.json) records 914 destinations and 589 new cross-links. Text-geometry candidates are cached against component hashes and can be regenerated with `--refresh-navigation`.
+## Reference and navigation changes
 
-## Fidelity and verification
+All G1–G10 teaching and chapter PDFs are unchanged by assembly. Opening guidance distinguishes official evidence and manufacturer technical cautions and retains the exact learning-aid disclaimer. Fifteen glossary terms join the 23 originals, with verified lesson cross-links (crumple zones M02-L03). Forty-eight source additions are integrated; all 114 aliases resolve to a central source page. Existing references and their original dates remain, with later passage checks recorded separately. Three manufacturer handbooks have their own labelled section/bookmark, separate from agency/legal/research references. The 321-sign reference, exact assets/captions, four appendices and nine practice prompts remain.
 
-[Verification](verification.json) passes with 498 pages, 3,037 valid internal links, 389 distinct external URL targets, four embedded Unicode fonts and deterministic rebuilding. All 1,633 original non-footer links retain their destination or external URL. All preserved source-page text remains present and in its original sequence. Every source file still matches its pre-assembly hash. The output copy and production PDF have identical bytes.
+Contents folios, continuous PDF labels, chapter/lesson/review/answer/source/appendix/sign destinations, source links, printed cross-links and footer Previous/Next/Contents/Sources targets are rebuilt from actual component offsets. Source and delivery PDFs match byte-for-byte; deterministic rebuild passes. Assessments retain at least two pages before their answers.
 
-The merge library emitted warnings while remapping direct links in the first build. The final builder instead reconstructs each original body link explicitly using the component offset and original page target. Verification checks every remapped target against its original; the final build produces no such warnings.
+[55-question assembled-page JSON](../../question-book-review/execution/G11/question-book-pages.json) records actual teaching/check/answer pages and source-claim linkage. Each chapter coverage record and tracker now contains assembled page fields. These mappings remain pending the independent G12 coverage audit. Original 1000-question audit JSONs have not been regenerated in G11.
 
-All 498 assembled pages and all component pages were rendered at a 1,000-pixel longest edge. Excluding only the replaced footer region, all 497 preserved page bodies match their source render pixel for pixel, including the cover. Page 4 is the newly generated contents. See [render comparison](render-comparison.json).
+## Verification and visual review
 
-The new contents was inspected separately at 1,600 pixels. Thirty-one opening, chapter-boundary, appendix/reference and final pages were inspected visually for layout consistency, headers, folios and section transitions. No assembly defects remain. The existing illustrations, exact sign artwork, captions, source dates, credits and learning-aid disclaimer are preserved.
+Reference fidelity, embedded Unicode fonts, exact sign bindings and URLs, link bounds/targets and reproducibility passed. Assembly verifier preserves every source body-text sequence and original non-footer link target. Every assembled and component page rendered at a 1000-pixel longest edge; all **539 preserved page bodies match pixel-for-pixel**, excluding only replaced footer regions. Page 4 is the deliberately regenerated contents. Inserted teaching pages, assessment/answer pages, component boundaries, all glossary pages and the entire central reference section inspected via contact sheets, with full-size details for opening/contents, source headings, long URLs and glossary cross-links. [Validation](../../question-book-review/execution/G11/validation.json) and [render comparison](render-comparison.json).
 
-SHA-256: `5007914b3b7f4d18472f283c3cd29efc302a6ab1cd7eb36190ea2984cf1a84b0`.
+Question bank and ten chapter PDFs stayed byte-identical; all 154 G0 snapshots verified. Book hash: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`.
 
-## Remaining stage
+## Remaining scope
 
-Step 6N still requires the final complete-book factual, publication and accessibility review, including tagged reading order and release approval. The approved illustrations remain at their existing screen-review resolution; this assembly does not claim print-ready masters or accessibility certification. Link target preservation is verified here; it does not claim a new factual review of every official webpage. The 6L availability checks and individual chapter source checks remain the dated evidence until 6N.
+G12 must independently re-assess all 55 target passages and remap/recheck all 1000 questions before reporting final coverage totals. Screen-review artwork resolution, print masters, tagged-PDF accessibility and final publication approval remain separate. No app migration/publication performed. G12 has not been executed.

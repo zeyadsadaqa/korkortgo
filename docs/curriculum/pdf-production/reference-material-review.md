@@ -38,3 +38,8 @@ SHA-256: `7bdd9b4aa0991a42abda5b730c62bbafafdf01de927347b173b48f5bce2c8b80`.
 ## Remaining stages
 
 This is the standalone screen-review edition. Final book folios and chapter-to-reference navigation are assigned during 6M. Full tagged-PDF reading order/accessibility, final factual/publication verification and print-release suitability remain 6N. Completing this review does not execute or approve those stages.
+
+
+## G11 reference amendment — 13 October 2026
+
+201 pages (previously 183): three additional glossary pages and 15 source/provenance pages. 38 glossary terms, 114 reference aliases, 321 official sign entries, 13 vector placements. Manufacturer technical handbooks separately labelled; original references/dates preserved. Reproducibility and fidelity passed; changed glossary/reference pages rendered and reviewed in final assembly. [G11 completion](../question-book-review/execution/assembly-completion.md).

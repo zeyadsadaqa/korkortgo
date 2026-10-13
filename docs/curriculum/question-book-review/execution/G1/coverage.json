@@ -1,0 +1,133 @@
+{
+  "step": "G1",
+  "checked_on": "2026-10-12",
+  "chapter_pages": 17,
+  "baseline_pages": 15,
+  "added_pages": 2,
+  "questions_resolved": 4,
+  "questions": [
+    {
+      "question_id": "situation-062",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        5
+      ],
+      "primary_local_page": 5,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 13,
+      "teaching_excerpt": "Stimulation is not safe judgement. Stimulant misuse, for example involving amphetamine or cocaine, can produce overconfidence while judgement and concentration are impaired. Some stimulant effects can reduce the feeling of fatigue or drowsiness: tiredness may be masked rather than the need for sleep removed. Feeling energetic is therefore not proof of safe driving ability. Effects vary with substance, dose and individual circumstances; this does not mean every prescribed stimulant treatment has the same effect. Ask your prescriber about your treatment and driving. Swedish Government: stimulant confidence and judgement · NHTSA: stimulant effects Practice example. Lina slept too little before an evening journey. She suggests an energy drink and loud music; her friend suggests a stimulant to make her feel confident. The missing sleep remains",
+      "coverage_reasoning": "Overconfidence and reduced perceived fatigue are separately explained and qualified to stimulant misuse; perceived alertness is explicitly distinguished from safe judgement.",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        9
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "question_prompt": "What is a dangerous effect of stimulant drugs on driving?",
+      "keyed_answer": "Overconfidence while fatigue may be masked.",
+      "claim_ids": [
+        "situation-062-C01",
+        "situation-062-C02"
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-068",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        5
+      ],
+      "primary_local_page": 5,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 13,
+      "teaching_excerpt": "Microsleep (mikrosömn) is a brief, unintended episode of sleep. You do not choose it or reliably prevent it by deciding to try harder. For a deliberately hypothetical two-second lapse at a constant 90 km/h, distance = speed × time: 90 ÷ 3.6 = 25 metres per second; 25 × 2 = 50 metres travelled while asleep. Two seconds is an example, not a prediction of how long a microsleep lasts. CDC/NIOSH: microsleeps Official safety advice · Replace missing sleep with sleep. Adequate sleep is the fundamental remedy for sleep deprivation. Coffee or an energy drink may briefly make you feel more alert, but does not replace the sleep you need; serious sleep deprivation can still lead to microsleep. Music, an open window or willpower should not be treated as a clearance to drive: they do not provide the missing sleep. Do not start when you cannot stay awak",
+      "coverage_reasoning": "Explicit definition supports the answer. Hypothetical 90 km/h × 2 seconds = 50 metres demonstrates distance without assigning a typical duration.",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        9
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "question_prompt": "What is microsleep in driving?",
+      "keyed_answer": "A brief unintended episode of sleep.",
+      "claim_ids": [
+        "situation-068-C01"
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-069",
+      "chapter": "M01",
+      "lesson": "M01-L02",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        5
+      ],
+      "primary_local_page": 5,
+      "comprehension_check_local_page": 6,
+      "answer_local_page": 13,
+      "teaching_excerpt": "Adequate sleep is the fundamental remedy for sleep deprivation. Coffee or an energy drink may briefly make you feel more alert, but does not replace the sleep you need; serious sleep deprivation can still lead to microsleep. Music, an open window or willpower should not be treated as a clearance to drive: they do not provide the missing sleep. Do not start when you cannot stay awake; if sleepiness develops, stop somewhere safe and arrange rest or another way to travel. See M07-L03 for planning around fatigue on a journey. NHTSA: drowsy driving Medical explanation · Stimulation is not safe judgement. Stimulant misuse, for example involving amphetamine or cocaine, can produce overconfidence while judgement and concentration are impaired. Some stimulant effects can reduce the feeling of fatigue or drowsiness: tiredness may be masked rather t",
+      "coverage_reasoning": "Explains why coffee, music, an open window and willpower do not replace missing sleep; practice example selects another driver or postponement.",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        9
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "question_prompt": "What is the fundamental remedy for sleep deprivation?",
+      "keyed_answer": "Adequate sleep.",
+      "claim_ids": [
+        "situation-069-C01"
+      ],
+      "primary_book_page": 9,
+      "comprehension_check_book_page": 10,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    },
+    {
+      "question_id": "situation-129",
+      "chapter": "M01",
+      "lesson": "M01-L03",
+      "coverage_status": "covered_in_verified_chapter",
+      "supporting_local_pages": [
+        1,
+        7
+      ],
+      "primary_local_page": 7,
+      "comprehension_check_local_page": 8,
+      "answer_local_page": 13,
+      "teaching_excerpt": "Nollvisionen means no one should be killed or seriously injured in traffic. It is not a promise that nobody will ever make a mistake. Trafikverket describes shared responsibility: road users must show consideration and judgement and follow traffic rules, while system designers have ultimate responsibility for the system’s safety. Your part includes choosing safe speed and margins and refusing a pressured manoeuvre; road and vehicle design also contribute. For example, staying behind a vehicle near a hidden crest helps protect people even when a passenger dislikes the delay. Trafikverket: Vision Zero",
+      "coverage_reasoning": "States the exact aim and explains the shared responsibility of road users and system designers, with a pressured-overtake example.",
+      "source_evidence": "evidence.json",
+      "final_book_pages": [
+        5,
+        11
+      ],
+      "final_status": "covered_in_final_book_after_G12",
+      "question_prompt": "What is the central aim of Vision Zero?",
+      "keyed_answer": "No one should be killed or seriously injured in road traffic.",
+      "claim_ids": [
+        "situation-129-C01"
+      ],
+      "primary_book_page": 5,
+      "comprehension_check_book_page": 12,
+      "answer_book_page": 17,
+      "assembled_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
+      "final_audit": "../../all-question-coverage.json",
+      "final_pdf_sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299"
+    }
+  ]
+}

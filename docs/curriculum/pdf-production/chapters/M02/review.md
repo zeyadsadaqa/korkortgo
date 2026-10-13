@@ -41,3 +41,8 @@ pdftoppm -scale-to 1600 -png docs/curriculum/pdf-production/chapters/M02/chapter
 Use the pinned shared dependencies/fonts from [the build README](../../README.md). `chapter-source.md` is a generated editable snapshot; teaching-text changes belong in the authoritative manuscript, then rebuild. `build_chapter.py` controls composition. The delivery copy is `output/pdf/korkortgo-chapter-02.pdf`.
 
 No chapter-specific blocker remains for screen review. Higher-resolution approved artwork remains necessary for print publication. Captions and ActualText are provided, but complete tagged-PDF/accessibility certification remains in 6N. Global book folios, cross-chapter links (including M07-L02) and final Contents destinations are assembly work in 6M. Step 6D has not started.
+
+
+## G2 review — 12 October 2026
+
+19 pages inspected in rendered contact sheets; full-size detail checks on pages 3, 5, 8, 14 and 17. No clipping, overlap or broken glyphs. Symptom table aligns; long URLs wrap within margins. Existing artwork unchanged; answers remain separated. +4 pages meets budget. [Completion](../../../question-book-review/execution/G2/completion.md).

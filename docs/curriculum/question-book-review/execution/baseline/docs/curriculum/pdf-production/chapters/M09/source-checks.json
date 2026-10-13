@@ -1,0 +1,62 @@
+{
+  "checked_on": "2026-10-07",
+  "method": "Opened official references and read relevant guidance/legal provisions using web browsing. Approved teaching text preserved.",
+  "sources": [
+    {
+      "alias": "climate",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/",
+      "finding": "Travel volume, fuel mix, energy efficiency and electrification affect greenhouse-gas emissions; no numerical savings added.",
+      "status": "verified"
+    },
+    {
+      "alias": "air",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/",
+      "finding": "Exhaust and wear particles from brakes, tyres and road surfaces are distinct sources.",
+      "status": "verified"
+    },
+    {
+      "alias": "noise",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/",
+      "finding": "Tyre-road interaction dominates at higher speeds; quieter electric propulsion does not eliminate all noise.",
+      "status": "verified"
+    },
+    {
+      "alias": "hybrid",
+      "url": "https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/",
+      "finding": "7 January 2026 notice confirms revised weighting for new registrations from 2026, reflecting electric and combustion operation; no journey-consumption guarantee.",
+      "status": "verified"
+    },
+    {
+      "alias": "eco",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+      "finding": "Correct tyre pressure, speed limits and removing unused roof equipment are recommended. No fixed percentage saving or universal gear/engine-speed claim.",
+      "status": "verified"
+    },
+    {
+      "alias": "syllabus",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "finding": "Chapters 4 and 5 address travel purpose, modes, companions, route, circumstances and personal factors; self-assessment in chapters 2, 4 and 5 supports reflection.",
+      "status": "verified"
+    },
+    {
+      "alias": "zones",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/",
+      "finding": "National classes and municipality decisions distinguished. Class 2 petrol/spark-ignition Euro 5/6 versus diesel Euro 6; class 3 light vehicles checked against exact legal text rather than extending heavy plug-in-hybrid permission.",
+      "status": "verified"
+    },
+    {
+      "alias": "traffic-law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "finding": "Chapter 3 sections 2 and 14 support following distance and safe speed/control. Chapter 4 sections 22–24a supports class-specific environmental-zone criteria; light gas vehicles use Euro 6 table-2 limits. Exemptions and vehicle documentation remain qualified. No named municipal boundary is asserted.",
+      "status": "verified"
+    },
+    {
+      "alias": "stfs",
+      "url": "https://rdt.transportstyrelsen.se/rdt/Default.aspx?UseStfs=1",
+      "finding": "Official service provides regulations including amendments and a register for rules effective on a selected date. Availability verified; no actual city-specific access decision is needed or claimed in this hypothetical lesson.",
+      "status": "verified"
+    }
+  ],
+  "sign_sources": "Exact artwork, captions and eligibility reuse verified official asset register; individual sign web pages not all re-fetched.",
+  "outstanding_claim_gaps": []
+}
