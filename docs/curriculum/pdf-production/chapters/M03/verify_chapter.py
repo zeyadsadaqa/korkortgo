@@ -54,6 +54,29 @@ for rec in ART.values():
     approved=next(a for a in approvals if a['path'].endswith('/'+rec['file']))
     assert hashlib.sha256((ROOT/'pdf-design/gap-resolution'/rec['file']).read_bytes()).hexdigest()==approved['sha256']
 assert (OUT/'chapter-source.md').read_text().startswith(SOURCE)
+from decimal import Decimal
+h0=json.loads((ROOT/'question-book-review/remaining-gap-h0-sources.json').read_text())
+model_pages=[i+1 for i,t in enumerate(texts) if 'Rough reaction estimate:' in t or 'Rough braking estimate:' in t or 'Rough total:' in t]
+example_pages=[i+1 for i,t in enumerate(texts) if 'Example A · 40 km/h' in t or 'Compare separately with exact conversion.' in t]
+assert model_pages and example_pages
+for phrase in ['(v ÷ 10) × t × 3','(v ÷ 10)² × 0.4','S = R + B','8% overestimate','commercial teaching source','27.8 m','12.4 m','40.6 m','100 m']:
+ assert phrase in alltext,phrase
+assert '2 × speed → 4 × braking distance' in alltext
+assert '12.3 m' in alltext and '49.4 m' in alltext
+bank={q['id']:q for q in json.loads((REPO/'content/questions.json').read_text())}
+calculations=[]
+for target in h0['targets']:
+ if target['step']!='H4':continue
+ q=bank[target['question_id']]
+ speed,time=map(Decimal,re.search(r'At ([\d.]+) km/h and ([\d.]+) seconds',q['prompt']).groups())
+ reaction=speed*time*Decimal('0.3');braking=speed**2*Decimal('0.004');total=reaction+braking
+ key=Decimal(re.search(r'[\d.]+',q['options'][q['correct']]['text'])[0]);assert key==total,q['id']
+ explained=list(map(Decimal,re.search(r'Reaction: ([\d.]+) m. Braking: ([\d.]+) m. Total: ([\d.]+) m',q['explanation']).groups()))
+ assert explained==[reaction,braking,total],q['id']
+ calculations.append({'question_id':q['id'],'speed_kmh':str(speed),'reaction_seconds':str(time),'reaction_m':str(reaction),'braking_m':str(braking),'total_m':str(total),'keyed_answer':q['options'][q['correct']]['text'],'component_teaching_pages':model_pages,'component_example_pages':example_pages,'key_and_explanation_match':True})
+assert len(calculations)==30
+for name in ['book','delivery_book','questions','gaps']:
+ item=h0['baseline'][name];assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==item['sha256']
 first=hashlib.sha256(pdf.read_bytes()).hexdigest();subprocess.run([sys.executable,str(OUT/'build_chapter.py')],check=True,capture_output=True);assert hashlib.sha256(pdf.read_bytes()).hexdigest()==first
-report={'status':'passed','pages':len(reader.pages),'complete_lessons':4,'module_reviews':1,'manuscript_blocks_preserved':verified,'illustrations':len(ART),'official_sign_placements':len(records),'unique_official_assets':len({r['code'] for r in records}),'required_groups':len(GROUPS),'vector_placements':sum(r['vector'] for r in records),'official_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(reader.named_destinations),'embedded_fonts':sorted(fonts),'answers_non_facing':True,'sha256':first,'reproducible':True,'visual_review':'See review.md','release_limits':['Approved scene crops are screen-review resolution; print masters remain separate','Full tagged-PDF accessibility and final navigation/pagination checked in 6M–6N']}
+report={'status':'passed','pages':len(reader.pages),'complete_lessons':4,'module_reviews':1,'manuscript_blocks_preserved':verified,'illustrations':len(ART),'official_sign_placements':len(records),'unique_official_assets':len({r['code'] for r in records}),'required_groups':len(GROUPS),'vector_placements':sum(r['vector'] for r in records),'official_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(reader.named_destinations),'embedded_fonts':sorted(fonts),'answers_non_facing':True,'sha256':first,'reproducible':True,'h4':{'question_component_pages':calculations,'model_pages':model_pages,'example_pages':example_pages,'bank_and_full_book_unchanged':True},'visual_review':'../../../question-book-review/remaining-gap-execution-plan.md, H4 execution record','release_limits':['Approved scene crops are screen-review resolution; print masters remain separate','Full assembly/folios and final coverage auditing remain H6/H7']}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))

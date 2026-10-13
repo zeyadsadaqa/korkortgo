@@ -3302,6 +3302,54 @@
       ],
       "decision": "supported_with_stated_scope",
       "scope_limit": "Manufacturer technical warning for a conventional pressurised cooling system. Actual radiator/expansion-tank layout and stopping instructions vary: use own handbook/recovery advice. Do not generalise Kia opening steps, refill quantities/mixture, fan/battery procedure or fixed waiting time. The lesson gives no roadside cap-opening/repair instructions. Preferred agency scene-safety support; not coolant technical evidence. Motorway/2+1-road advice not universal tunnel waiting instruction. No numerical triangle distance added by G10. Agency scene-safety cross-link only, not technical cooling-system instruction. Smoke/fire urgent; do not diagnose roadside source before responding to immediate danger."
+    },
+    {
+      "lesson": "M03-L04",
+      "support": [
+        {
+          "source_alias": "stopping-shortcut",
+          "source_id": "H4-stopping-shortcut",
+          "url": "https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Commercial shortcut provenance; reaction-time generalisation is editorial. Good brakes/tyres/dry asphalt assumptions do not predict actual stopping.",
+      "id": "H4-model",
+      "classification": "supplementary_approximate_model",
+      "statement": "R=(v/10)*t*3; B=(v/10)^2*0.4; S=R+B, metres with km/h and seconds"
+    },
+    {
+      "lesson": "M03-L04",
+      "support": [
+        {
+          "source_alias": "stopping-shortcut",
+          "source_id": "H4-stopping-shortcut",
+          "url": "https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Exact units/proportional arithmetic; no safe-distance guarantee. Existing G3-braking-model reference retained unchanged.",
+      "id": "H4-exact-comparison",
+      "classification": "editorial_arithmetic",
+      "statement": "Exact constant-speed reaction is (v/3.6)*t. Rough reaction is 8% higher; do not silently mix models."
+    },
+    {
+      "lesson": "M03-L04",
+      "support": [
+        {
+          "source_alias": "stopping-principles",
+          "source_id": "H4-stopping-principles",
+          "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+          "checked_on": "2026-10-13"
+        }
+      ],
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "No agency attribution of shortcut constants; published agency examples use other assumptions.",
+      "id": "H4-principles",
+      "classification": "agency_guidance",
+      "statement": "Stopping combines reaction and braking and depends on speed/conditions."
     }
   ],
   "last_amended_on": "2026-10-13"

@@ -333,9 +333,31 @@ Think of stopping in two parts. During the time between noticing a hazard and be
 
 **Hypothetical comparison.** Assume a level road, unchanged vehicle/load/grip, constant braking deceleration of 5 m/s² and a one-second response delay. At 40 km/h, braking distance is about 12.3 m and reaction distance 11.1 m. At 80 km/h they are 49.4 m and 22.2 m: braking quadruples while reaction distance doubles. Total stopping distances are about 23.5 m and 71.6 m, so the total does **not** quadruple. These invented model conditions explain the relationship; they are not predicted stopping distances for your car.
 
+**Approximate exercise model · Keep the methods separate.** Define v as speed in km/h and t as the supplied reaction time in seconds. Exact constant-speed reaction distance is (v ÷ 3.6) × t metres; braking is not included. When an exercise specifies the rough method below, use both rough estimates together rather than substituting an exact reaction value.
+
+**Rough reaction estimate:** R = (v ÷ 10) × t × 3 metres. Divide speed by ten, multiply by the supplied seconds, then by three. [Trafiko: approximate stopping method][stopping-shortcut] documents the one-second shortcut; multiplication by a supplied t is editorial proportional arithmetic. Half a second gives half the one-second estimate; two seconds gives twice it. These are supplied exercise inputs, not claims about every driver's reaction time.
+
+**Rough braking estimate:** B = (v ÷ 10)² × 0.4 metres. Divide speed by ten, square that result, then multiply by 0.4. [Trafiko: approximate stopping method][stopping-shortcut] describes this shortcut under good-brake, good-tyre and dry-asphalt assumptions. The coefficient is an exercise assumption, not a universal result for a real car or road. Supplied reaction time does not change the braking part in this model.
+
+**Rough total:** S = R + B. Calculate both parts separately with metres, then add. Keep decimal precision during the working; round only the final result if a precision is requested. These shortcuts teach arithmetic, not a safe-distance guarantee or a prediction for an actual hazard.
+
+**Source and assumption limits.** Trafiko is a commercial teaching source, cited only for these approximate shortcuts. [Trafikverket: stopping-distance principles][stopping-principles] supports reaction plus braking and dependence on speed and conditions, but does not supply these constants. Its illustrated distances have different assumptions and must not be mixed with this model. Real stopping depends on grip, gradient, tyres, brakes, response and other conditions. Retain the exact conversion and separate constant-deceleration comparison above under their own assumptions.
+
+**Worked approximate examples · Calculate both parts.** Use the rough exercise equations consistently; each reaction time below is a supplied hypothetical input.
+
+**Example A · 40 km/h and 0.5 seconds.** First v ÷ 10 = 4. Reaction R = 4 × 0.5 × 3 = 6 m. Braking B = 4² × 0.4 = 6.4 m. Total S = 6 + 6.4 = **12.4 m**. The half-second input affects reaction, not braking.
+
+**Example B · 70 km/h and one second.** First v ÷ 10 = 7. Reaction R = 7 × 1 × 3 = 21 m. Braking B = 7² × 0.4 = 19.6 m. Total S = 21 + 19.6 = **40.6 m**. Squaring seven gives 49; do not multiply speed itself by 0.4.
+
+**Example C · 50 km/h and two seconds.** First v ÷ 10 = 5. Reaction R = 5 × 2 × 3 = 30 m. Braking B = 5² × 0.4 = 10 m. Total S = 30 + 10 = **40 m**. Doubling reaction time doubles this model's reaction estimate, leaving braking unchanged.
+
+**Compare separately with exact conversion.** At 50 km/h and two seconds, exact constant-speed reaction distance is (50 ÷ 3.6) × 2 = about **27.8 m**, compared with the shortcut's 30 m. Dividing the shortcut factor 0.3 by the exact conversion factor 1 ÷ 3.6 gives 1.08: an **8% overestimate** for reaction distance. Mixing 27.8 m with rough braking of 10 m gives about 37.8 m, not the exercise model's 40 m. Keep exact conversion separate from the rough-model answer.
+
+**Try the approximate process.** Calculate reaction, braking and total for (A) 30 km/h and 0.5 seconds, (B) 80 km/h and one second, and (C) 100 km/h and two seconds. Give each part in metres, check the square, then add. Answers are in the separate lesson answer section.
+
 **Worked decision.** You can see over the roof of the car ahead that traffic is slowing. Ease your approach early rather than waiting for its brake lights at a short distance. The benefit is having choices before braking becomes urgent.
 
-**Knowledge check.** (1) If response delay doubles at the same speed, what happens to reaction distance? (2) How do you time a three-second following gap? (3) Why increase the forward gap when someone follows too closely? (4) With unchanged braking deceleration, how does doubled speed affect braking distance, and does total stopping distance also quadruple? **Answer:** (1) It doubles under the constant-speed assumption. (2) Count seconds from the rear of the car ahead passing a fixed point until your front reaches that point; three seconds is a guideline and conditions may require more. (3) More forward space allows gentler slowing and gives the follower more time; avoid unnecessary sudden braking. (4) Braking distance becomes approximately four times as long, but reaction distance doubles for the same response delay, so the combined total does not generally quadruple.
+**Knowledge check.** (1) If response delay doubles at the same speed, what happens to reaction distance? (2) How do you time a three-second following gap? (3) Why increase the forward gap when someone follows too closely? (4) With unchanged braking deceleration, how does doubled speed affect braking distance, and does total stopping distance also quadruple? (5) Complete the three approximate exercises above and explain why you should keep exact reaction conversion separate. **Answer:** (1) It doubles under the constant-speed assumption. (2) Count seconds from the rear of the car ahead passing a fixed point until your front reaches that point; three seconds is a guideline and conditions may require more. (3) More forward space allows gentler slowing and gives the follower more time; avoid unnecessary sudden braking. (4) Braking distance becomes approximately four times as long, but reaction distance doubles for the same response delay, so the combined total does not generally quadruple. (5) A: reaction 4.5 m, braking 3.6 m, total 8.1 m. B: reaction 24 m, braking 25.6 m, total 49.6 m. C: reaction 60 m, braking 40 m, total 100 m. Use both rough equations together; substituting exact reaction conversion changes the exercise-model answer.
 
 **Remember:** Space is useful because it gives you time to notice, decide and act.
 
@@ -1272,6 +1294,7 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 - [New or used vehicle buyers][crumple-zones] — Government of Western Australia – Road Safety Commission; checked 2026-10-12; Live page; publication date not displayed in inspected passage.
 - [Elektrisk utrustning och elinstallationer][fuse-protection] — Transportstyrelsen; checked 2026-10-12; Live supplementary guidance; retrieved 12 October 2026.
 - [Safe stopping distance][following-gap] — Transport for NSW / NSW Government (Australia); checked 2026-10-12; Live guidance; publication date not displayed in inspected passage.
+- [Hastighet och stoppsträcka][stopping-principles] — Trafikverket; checked 2026-10-13. Supports reaction plus braking and dependence on speed/conditions, not the exercise shortcut constants.
 - [KRAV Grundvärden, Vägar och gators utformning (VGU)][braking-model] — Trafikverket; checked 2026-10-12; TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework.
 - [Driver’s Manual, Chapter 5: Intersections and Turns][left-turn-wheels] — New York State Department of Motor Vehicles (government); checked 2026-10-13; Live official driver manual; publication/update date not displayed in inspected passage.
 - [Fakta om ledarhundar][guide-dog] — Myndigheten för delaktighet (MFD); checked 2026-10-13; Last updated 30 April 2026.
@@ -1306,6 +1329,10 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 - [Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck][studs-local] — Transportstyrelsen; checked 2026-10-13; 16 August 2024, TSG 2023-7800.
 - [C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II][studs-sign] — Transportstyrelsen; checked 2026-10-13; Updated 5 November 2024.
 
+
+### Supplementary commercial teaching references
+
+- [Approximate stopping-distance method][stopping-shortcut] — Trafiko, commercial teaching source; checked 2026-10-13. Limited to the one-second reaction shortcut and 0.4 braking shortcut under good-brake/good-tyre/dry-asphalt assumptions. Variable reaction time is editorial proportional arithmetic; not official agency guidance or a real-world stopping prediction.
 
 ### Manufacturer technical references
 
@@ -1481,3 +1508,6 @@ Original source checks are dated 1 October 2026. Chapter additions retain their 
 [studs-sign]: https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/
 
 [hot-coolant]: https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html
+
+[stopping-shortcut]: https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka
+[stopping-principles]: https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/

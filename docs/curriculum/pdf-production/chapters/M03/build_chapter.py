@@ -197,13 +197,17 @@ def run():
     b.start('M03','Chapter 3');b.text('CHAPTER 03','source');b.text('Read the road before acting','heading')
     b.text(PARTS[0].split('\n\n',1)[1].strip(),space=24);b.text('In this chapter','subheading')
     for key,v in SECTIONS.items():b.add(Paragraph(f'<link href="#{key}" color="#173E32"><b>{key}</b> · {escape(v["title"])}</link>',STYLES['body']),13)
-    for key,title in [('M03-answers','Answers and review guidance'),('M03-references','Official references')]:b.add(Paragraph(f'<link href="#{key}" color="#173E32">{title}</link>',STYLES['body']),13)
+    for key,title in [('M03-answers','Answers and review guidance'),('M03-references','Sources and references')]:b.add(Paragraph(f'<link href="#{key}" color="#173E32">{title}</link>',STYLES['body']),13)
     b.add(panel(re.search(r'> \*\*(.*?)\*\*',MANUSCRIPT).group(1),'disclaimer'));b.end()
     for n in range(1,5):
         key=f'M03-L{n:02d}';b.section=key;s=SECTIONS[key];b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(s['paragraphs'][0]),18)
         for p in s['paragraphs'][1:]:
             if n==4 and p.startswith('**Safety advice · When someone follows too closely.'):
                 b.end();b.start(key+'-gaps',key+' · Time and braking distance');b.text('Margins and braking distance','heading')
+            if n==4 and p.startswith('**Approximate exercise model'):
+                b.end();b.start(key+'-approximate-model',key+' · Approximate exercise model');b.text('A rough calculation method','heading')
+            if n==4 and p.startswith('**Worked approximate examples'):
+                b.end();b.start(key+'-approximate-examples',key+' · Approximate examples');b.text('Apply the rough model','heading')
             if p.startswith('**Worked decision.'):
                 b.end();b.start(key+'-scenario',key+' · Worked decision');b.text('Apply the learning','subheading');b.art(key)
                 if n==3:b.art(key+'-follow')
@@ -231,8 +235,8 @@ def run():
     for key,ans in answers:b.text(key,'source',6);b.text('**Answer:** '+ans,space=20);b.answers[key]=b.page
     b.text('M03-R','source',6);b.text('**Review guide:** '+a);b.answers['M03-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),4):
-        key='M03-references' if offset==0 else f'M03-references-{offset//4+1}';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Original references checked 4 October 2026; G3 additions checked 12 October 2026. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
+        key='M03-references' if offset==0 else f'M03-references-{offset//4+1}';b.start(key,'Sources and references');b.text('Sources and references','heading')
+        b.text('Original references checked 4 October 2026; G3 additions checked 12 October 2026. H4 sources checked 13 October 2026. Trafiko is a commercial teaching source for the labelled approximate method; agency sources support their stated principles. Sign captions and artwork use the verified official asset register. Consult current guidance and applicable rules.','caption',18)
         for alias in ALIASES[offset:offset+4]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
         if offset==4:

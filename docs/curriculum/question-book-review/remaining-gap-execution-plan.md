@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0–H3 approved and completed on 13 October 2026; H4–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0–H4 approved and completed on 13 October 2026; H5–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -529,3 +529,40 @@ Both `sign-meaning-CODE` and `sign-recognise-CODE` map to the same exact illustr
 - The baseline verifier with `--offline --allow-teaching-changes` passes frozen book/bank/gaps and H0 evidence/artwork checks. All prior caption/binding records are preserved and source-text whitespace checks pass. H0's four fuel-rounding findings remain unchanged for H5. No full-book coverage pass is claimed from this standalone component.
 
 **Next executable scope:** H4, teaching the clearly labelled approximate stopping calculation in M03-L04 for 30 questions. H4–H7 have not started; full assembly/folios and final coverage auditing remain H6/H7.
+
+
+## H4 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H4. **Acceptance gate:** M03-L04 now teaches both clearly labelled approximate exercise equations, variable reaction time, addition, assumptions, final-only rounding, independently calculated examples and separated practice answers. All 30 target keys and explanation breakdowns recompute from their actual prompt inputs. No new visual design was required; existing lesson typography and page structure were reused.
+
+### Teaching and source changes
+
+Added two dedicated teaching pages: “A rough calculation method” and “Apply the rough model”. Define v in km/h and t in seconds; teach R = (v ÷ 10) × t × 3, B = (v ÷ 10)² × 0.4 and S = R + B, with metres throughout. Decimal working is preserved and rounding is only at a requested final precision. The time input changes reaction, not this model's braking part.
+
+Three worked examples cover 0.5, 1 and 2 seconds, with reaction, braking and total shown separately:
+
+| Supplied inputs | Rough reaction | Rough braking | Rough total |
+|---|---:|---:|---:|
+| 40 km/h, 0.5 s | 6 m | 6.4 m | 12.4 m |
+| 70 km/h, 1 s | 21 m | 19.6 m | 40.6 m |
+| 50 km/h, 2 s | 30 m | 10 m | 40 m |
+
+Three further practice calculations have separate lesson answers: 30 km/h/0.5 s gives 8.1 m; 80 km/h/1 s gives 49.6 m; 100 km/h/2 s gives 100 m. The lesson knowledge check now asks for these calculations and why exact reaction conversion must be kept separate. This teaches a transferable method rather than listing all 30 bank answers.
+
+The prior exact conversion illustration, following-gap advice, tailgater guidance and VGU braking-distance comparison remain. The new comparison gives exact constant-speed reaction at 50 km/h/2 s as about 27.8 m versus rough reaction of 30 m, explains the exact 8% reaction overestimate, and warns that mixing exact reaction with rough braking yields a different model answer.
+
+Canonical manuscript/source/claim registers and Chapter 3 source-checks are updated using the same-day H0 source evidence. Trafiko is explicitly a **commercial teaching source** for the one-second reaction and 0.4 dry-asphalt braking shortcuts; variable-time multiplication and the 8% comparison are editorial arithmetic. Good-brake/good-tyre/dry-asphalt assumptions do not make the coefficient universal or predict an actual stop. Trafikverket supports the underlying reaction-plus-braking and conditions principles, not those constants. No unrelated claims from the commercial page were imported. The existing `G3-braking-model` source and its retrieval limitation remain unchanged.
+
+Chapter source pages are now titled **Sources and references**, with the commercial source identified in the teaching and source notes. The canonical final reference list adds Trafikverket's principles and a separately labelled supplementary commercial-teaching subsection. That reference component will be rebuilt in H6; H4 rebuilt only the affected Chapter 3 component.
+
+### Component output and validation
+
+The [updated Chapter 3 component](../../../output/pdf/korkortgo-chapter-03.pdf) has **54 pages**, up from 52: **two added pages**. This is below the planning estimate of 3–4 because the existing answer/reference pages accommodate the additions; fonts, spacing and artwork were not reduced to fit. All 100 prior sign placements remain. Approximate equations and assumptions are on component page **46**, worked examples and practice prompts on **47**, and answers on **51**. Exact conversion remains on **44**, and the separate braking comparison on **45**. H6/H7 must map these to final full-book pages.
+
+- The chapter verifier independently parsed all 30 actual speed/time prompts, recomputed reaction as 0.3 × speed × time and braking as 0.004 × speed², and checked every keyed total and explanation's reaction/braking/total values. All 30 pass; individual inputs, results and component teaching pages are recorded in the existing chapter verification JSON.
+- Manuscript fidelity, all 100 official placements/asset hashes, embedded fonts, text equivalents, all-page text bounds, source URLs, 64 internal links and 60 named destinations pass. Practice answers remain non-facing and separate from prompts.
+- Deterministic rebuild and source/delivery PDF equality pass. Chapter SHA-256: `78dec79ed9507fae0fee3dbb45019918e6e2f5c65c5564c69fedac2068ef362c`.
+- Ten relevant final pages rendered and visually inspected at 115 dpi: 1, 44–48 and 51–54. Equations, superscripts, decimal values, examples, answer separation, source labelling, wrapped URLs, headers and folios are readable without clipping or overlap. Scratch renders are in `tmp/pdfs/h4`; this plan and existing chapter/source verification JSONs retain the results, with no new execution-report tree.
+- Frozen full book/delivery, bank and gaps remain at their H0 hashes. The baseline verifier with `--offline --allow-teaching-changes` and source-text whitespace checks pass. H0's fuel-rounding findings remain for H5. The current 540-page assembled book is unchanged; no final-book coverage increase is claimed until H6/H7.
+
+**Next executable scope:** H5, consumption and savings arithmetic in M09-L02 for 40 questions, explicitly preserving/resolving the recorded four midpoint-rounding qualifications. H5–H7 have not started.

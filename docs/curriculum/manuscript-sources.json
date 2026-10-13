@@ -1764,6 +1764,38 @@
       "retrieved": "2026-10-13",
       "status": "verified_exact_passage_with_stated_scope",
       "basis": "G10 exact evidence.json"
+    },
+    {
+      "alias": "stopping-shortcut",
+      "source_id": "H4-stopping-shortcut",
+      "publisher": "Trafiko, commercial teaching source",
+      "title": "Stoppsträcka, reaktionssträcka & bromssträcka",
+      "url": "https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka",
+      "locator": "Approximate reaction/braking method sections",
+      "supports": "One-second reaction shortcut and 0.4 dry-asphalt braking coefficient only. Variable reaction time is editorial proportional arithmetic. No unrelated ABS, mass or typical reaction-time claims adopted.",
+      "scope_limits": "One-second reaction shortcut and 0.4 dry-asphalt braking coefficient only. Variable reaction time is editorial proportional arithmetic. No unrelated ABS, mass or typical reaction-time claims adopted.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "status": "verified_exact_passage_with_stated_scope",
+      "basis": "H0 same-day source capture; H4 scoped teaching",
+      "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/0f011d29fdd9c97f37045e9e.html.gz",
+      "sha256": "f13b23845e6a528b2a4aeb8581ff5e471b6e9adcbaaf769860ca475112c4b651"
+    },
+    {
+      "alias": "stopping-principles",
+      "source_id": "H4-stopping-principles",
+      "publisher": "Trafikverket",
+      "title": "Hastighet och stoppsträcka",
+      "url": "https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/",
+      "locator": "Opening and Lägre fart ger kortare stoppsträcka",
+      "supports": "Reaction plus braking and dependence on speed and conditions. Agency example distances do not establish the bank shortcut constants.",
+      "scope_limits": "Reaction plus braking and dependence on speed and conditions. Agency example distances do not establish the bank shortcut constants.",
+      "checked_on": "2026-10-13",
+      "retrieved_on": "2026-10-13",
+      "status": "verified_exact_passage_with_stated_scope",
+      "basis": "H0 same-day source capture; H4 scoped teaching",
+      "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5553f8105341987bcd159162.html.gz",
+      "sha256": "84c27b42786142876a78a18009b00f650a941a97229cc671e53f53c3b5b46b5c"
     }
   ],
   "last_amended_on": "2026-10-13"
