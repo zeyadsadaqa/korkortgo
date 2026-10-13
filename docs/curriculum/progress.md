@@ -2,7 +2,7 @@
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
 **Last updated:** 14 October 2026 (step 7 planning breakdown only)
-**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6M completed: the full 498-page book is assembled with final contents, continuous folios and verified navigation. Step 6N and steps 8–10 not started. Step 7A app audit is saved as a provisional baseline; final PDF verification/approval remains unrecorded.
+**Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6M completed: the full 498-page book is assembled with final contents, continuous folios and verified navigation. Step 6N and steps 8–10 not started. Steps 7A–7B audit and ID/content-contract records are saved provisionally; final PDF verification/approval remains unrecorded.
 **Next action:** Complete 6N verification and obtain explicit approval of the current 578-page review book, then confirm the [7A baseline](app-migration/baseline.md) against that release. The 498-page assembly description above is historical; H7 content updates produced the current review PDF.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Five of ten steps have cleared their preparation/design requirements. This is a step count, not an estimate of total effort completed.
@@ -17,7 +17,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | In progress; 6A–6M completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
-| 7 | Plan the app’s curriculum migration | In progress; 7A provisional audit saved | [Baseline and entry gap](app-migration/baseline.md); approved 6N release still required for completion |
+| 7 | Plan the app’s curriculum migration | In progress; 7A–7B provisional records saved | [Baseline and entry gap](app-migration/baseline.md); approved 6N release still required for completion |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
@@ -69,12 +69,12 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 
 ## Step 7 substep tracker
 
-The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. 7A was requested on 14 October 2026 and its app audit/input hashes are saved. Step 6N verification and explicit PDF approval remain unrecorded entry requirements; 7A is provisional, and 7B–7G have not started. The current PDF matches the [578-page H7 coverage review](question-book-review/review.md).
+The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. 7A and continuation to 7B were requested on 14 October 2026; audit, input hashes and ID/content-contract records are saved. Step 6N verification and explicit PDF approval remain unrecorded entry requirements; 7A–7B release confirmation is pending, and 7C–7G have not started. The current PDF matches the [578-page H7 coverage review](question-book-review/review.md).
 
 | Substep | Work | Status | Planned deliverable |
 |---|---|---|---|
 | 7A | Freeze content and audit app | In progress; audit complete, approved release pending | [Baseline](app-migration/baseline.md), [hashes and checks](app-migration/baseline.json); 7A-B01 remains |
-| 7B | Confirm curriculum IDs and content contract | Not started | `app-migration/curriculum-map.md`, `curriculum-map.json` |
+| 7B | Confirm curriculum IDs and content contract | Planning deliverables prepared; release confirmation pending | [ID registry and contract](app-migration/curriculum-map.md), [structured map](app-migration/curriculum-map.json); 7A-B01 retained |
 | 7C | Map questions to teaching and official sources | Not started | `app-migration/question-map.json`, `question-map-review.md` |
 | 7D | Review question dispositions and corrections | Not started | `app-migration/question-actions.md`, `question-actions.json` |
 | 7E | Plan link and learner-progress migration | Not started | `app-migration/link-and-progress-map.md`, `link-and-progress-map.json` |
@@ -555,3 +555,5 @@ Verified 540-page revised assembly (+42: 24 chapter, three glossary, 15 central 
 All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 prompt-only calculations. All 55 assigned gaps/68 claims verified; 20 additional braking exercises gained support. No regressions or PDF/bank changes. [Final audit](question-book-review/g-step-changes.json#/records/final-coverage-review.md). Minor wildlife cross-reference observation recorded for later correction.
 
 **14 October — 7A audit performed:** Recorded 163 source/evidence input hashes and all 343 bundled asset hashes, the matching 578-page source/delivery PDF identity, 1,000 unique question IDs, 500 concepts and 39 legacy chapter ranges. JSON/generated Kotlin parity and sign/coverage hashes pass. README chapter count is stale; no durable learner progress or bookmarks exist in audited source. No 6N final verification/approval is recorded, so the baseline is provisional and 7A remains in progress. App sources, question bank and PDFs were unchanged; 7B was not started.
+
+**14 October — 7B planning performed:** Following the request to proceed, preserved exact titles and stable IDs for 10 modules, 40 lessons and 10 reviews, registered four appendices, 24 sign groups and all 1,123 published book destinations. Defined versioned content, question relationships, source classification, asset and navigation fields, with required app model/import changes. Verified frozen inputs and source-destination resolution. No legacy chapter structure adopted, question mapping, app implementation or design performed. Final release verification/approval remains pending; 7C not started.
