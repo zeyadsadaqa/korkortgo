@@ -39,4 +39,4 @@ No chapter-specific screen-review blocker remains. Print-resolution scene master
 
 ## G10 review — 13 October 2026
 
-All 24 rendered pages reviewed; full-size new teaching p.6, check p.9, answer p.21 and new reference p.22. No clipping, overlap, broken symbols or URL overflow. 10 signs, eight approved scenes and two exact inserts preserved. One new teaching page meets budget; references retain three pages. [Completion](../../../question-book-review/execution/G10/completion.md).
+All 24 rendered pages reviewed; full-size new teaching p.6, check p.9, answer p.21 and new reference p.22. No clipping, overlap, broken symbols or URL overflow. 10 signs, eight approved scenes and two exact inserts preserved. One new teaching page meets budget; references retain three pages. [Completion](../../../question-book-review/g-step-changes.json#/records/G10~1completion.md).

@@ -45,4 +45,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G5 review — 13 October 2026
 
-45 rendered pages inspected in contact sheets; full-size detail checks on 6, 7, 8, 42, 44 and 45. No clipping, overlap, broken symbols or URL overflow. Approved scenes, 62 official sign bindings/sizes and both parking exercises preserved. Later pages shift by one. Expanded answers remain separated. +1 page meets budget. References use existing style/type sizes with five and four entries. [Completion](../../../question-book-review/execution/G5/completion.md).
+45 rendered pages inspected in contact sheets; full-size detail checks on 6, 7, 8, 42, 44 and 45. No clipping, overlap, broken symbols or URL overflow. Approved scenes, 62 official sign bindings/sizes and both parking exercises preserved. Later pages shift by one. Expanded answers remain separated. +1 page meets budget. References use existing style/type sizes with five and four entries. [Completion](../../../question-book-review/g-step-changes.json#/records/G5~1completion.md).

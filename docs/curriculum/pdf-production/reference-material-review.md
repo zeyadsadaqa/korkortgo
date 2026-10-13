@@ -42,4 +42,4 @@ This is the standalone screen-review edition. Final book folios and chapter-to-r
 
 ## G11 reference amendment — 13 October 2026
 
-201 pages (previously 183): three additional glossary pages and 15 source/provenance pages. 38 glossary terms, 114 reference aliases, 321 official sign entries, 13 vector placements. Manufacturer technical handbooks separately labelled; original references/dates preserved. Reproducibility and fidelity passed; changed glossary/reference pages rendered and reviewed in final assembly. [G11 completion](../question-book-review/execution/assembly-completion.md).
+201 pages (previously 183): three additional glossary pages and 15 source/provenance pages. 38 glossary terms, 114 reference aliases, 321 official sign entries, 13 vector placements. Manufacturer technical handbooks separately labelled; original references/dates preserved. Reproducibility and fidelity passed; changed glossary/reference pages rendered and reviewed in final assembly. [G11 completion](../question-book-review/g-step-changes.json#/records/assembly-completion.md).

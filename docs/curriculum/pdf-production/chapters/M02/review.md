@@ -45,4 +45,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G2 review — 12 October 2026
 
-19 pages inspected in rendered contact sheets; full-size detail checks on pages 3, 5, 8, 14 and 17. No clipping, overlap or broken glyphs. Symptom table aligns; long URLs wrap within margins. Existing artwork unchanged; answers remain separated. +4 pages meets budget. [Completion](../../../question-book-review/execution/G2/completion.md).
+19 pages inspected in rendered contact sheets; full-size detail checks on pages 3, 5, 8, 14 and 17. No clipping, overlap or broken glyphs. Symptom table aligns; long URLs wrap within margins. Existing artwork unchanged; answers remain separated. +4 pages meets budget. [Completion](../../../question-book-review/g-step-changes.json#/records/G2~1completion.md).

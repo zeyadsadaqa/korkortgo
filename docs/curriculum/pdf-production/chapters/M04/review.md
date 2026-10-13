@@ -41,4 +41,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G4 review — 13 October 2026
 
-43 rendered pages inspected in contact sheets; full-size checks on 18, 22, 41 and 42. No clipping, overlap, broken symbols or URL overflow. All approved scenes and official sign bindings/sizes preserved; later pages shift by one. Answers remain separated. +1 page meets budget. [Completion](../../../question-book-review/execution/G4/completion.md).
+43 rendered pages inspected in contact sheets; full-size checks on 18, 22, 41 and 42. No clipping, overlap, broken symbols or URL overflow. All approved scenes and official sign bindings/sizes preserved; later pages shift by one. Answers remain separated. +1 page meets budget. [Completion](../../../question-book-review/g-step-changes.json#/records/G4~1completion.md).

@@ -39,7 +39,7 @@
       "verified_on": "2026-10-12",
       "sha256": "9b02ff107fdbfeac706d55b52da38db34065352809cb381623929b5db204e15d",
       "review_report": "chapters/M01/review.md",
-      "gap_execution_report": "../question-book-review/execution/G1/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G1~1completion.md"
     },
     {
       "id": "M02",
@@ -59,7 +59,7 @@
       "review_report": "chapters/M02/review.md",
       "verified_on": "2026-10-12",
       "sha256": "4659ff73f14eb62bb9dfd0866bff4a0f2186f3c3776ee3c6c16ae34906e7377c",
-      "gap_execution_report": "../question-book-review/execution/G2/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G2~1completion.md"
     },
     {
       "id": "M03",
@@ -79,7 +79,7 @@
       "review_report": "chapters/M03/review.md",
       "verified_on": "2026-10-12",
       "sha256": "b6bdc7cb3c5021f1ab8e9e4b24ede78caf4a9a4360bf9faedde146dde166ab0c",
-      "gap_execution_report": "../question-book-review/execution/G3/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G3~1completion.md"
     },
     {
       "id": "M04",
@@ -99,7 +99,7 @@
       "review_report": "chapters/M04/review.md",
       "verified_on": "2026-10-13",
       "sha256": "fe33089945c3164dd2eed1aa3f1cf640f2b307bd219c2ccee290d8ef2fba8cc4",
-      "gap_execution_report": "../question-book-review/execution/G4/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G4~1completion.md"
     },
     {
       "id": "M05",
@@ -119,7 +119,7 @@
       "review_report": "chapters/M05/review.md",
       "verified_on": "2026-10-13",
       "sha256": "cf4e444407959dc6bfdaa2140e510b9a42b51699238c85b8c4e3624f6c838787",
-      "gap_execution_report": "../question-book-review/execution/G5/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G5~1completion.md"
     },
     {
       "id": "M06",
@@ -139,7 +139,7 @@
       "review_report": "chapters/M06/review.md",
       "verified_on": "2026-10-13",
       "sha256": "f6379c6ccd3b52e5be465dd7459847c45ef7f6bf480d802f69cc6f0513a77e1b",
-      "gap_execution_report": "../question-book-review/execution/G6/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G6~1completion.md"
     },
     {
       "id": "M07",
@@ -159,7 +159,7 @@
       "review_report": "chapters/M07/review.md",
       "verified_on": "2026-10-13",
       "sha256": "77100ebfaab970282ba4f3b47e93235e2c3fc9def8ddbbe88cbac2cf3d466170",
-      "gap_execution_report": "../question-book-review/execution/G7/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G7~1completion.md"
     },
     {
       "id": "M08",
@@ -179,7 +179,7 @@
       "review_report": "chapters/M08/review.md",
       "verified_on": "2026-10-13",
       "sha256": "db49f1cfae1adc32dcc7859c880aba318646e6b6d1bbdb0a0030d8d782a10fa2",
-      "gap_execution_report": "../question-book-review/execution/G8/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G8~1completion.md"
     },
     {
       "id": "M09",
@@ -199,7 +199,7 @@
       "review_report": "chapters/M09/review.md",
       "verified_on": "2026-10-13",
       "sha256": "034dfa829005136a37b6cc9f2121c8d68fffc00fe8294bae6f2138d9130be16f",
-      "gap_execution_report": "../question-book-review/execution/G9/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G9~1completion.md"
     },
     {
       "id": "M10",
@@ -219,7 +219,7 @@
       "review_report": "chapters/M10/review.md",
       "verified_on": "2026-10-13",
       "sha256": "8a791506c0155fea1da50d48191d464a13b48029cb2a674fbba5367de61a2fbc",
-      "gap_execution_report": "../question-book-review/execution/G10/completion.md"
+      "gap_execution_report": "../question-book-review/g-step-changes.json#/records/G10~1completion.md"
     }
   ],
   "appendices": [
@@ -314,7 +314,7 @@
     "review_report": "assembly/assembly-review.md",
     "verified_on": "2026-10-13",
     "sha256": "c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299",
-    "gap_execution_report": "../question-book-review/execution/assembly-completion.md"
+    "gap_execution_report": "../question-book-review/g-step-changes.json#/records/assembly-completion.md"
   },
   "G1_amendment": {
     "date": "2026-10-12",
@@ -383,14 +383,14 @@
     "chapter_additions": 24,
     "glossary_additions": 3,
     "central_reference_additions": 15,
-    "baseline_copy": "../question-book-review/execution/G11/baseline/korkortgo-curriculum-review-498-pages.pdf",
+    "baseline_copy": "../question-book-review/original-book-498-pages.pdf",
     "verification": "assembly/verification.json",
     "render_comparison": "assembly/render-comparison.json"
   },
   "G12_audit": {
     "status": "complete",
     "checked_on": "2026-10-13",
-    "report": "../question-book-review/execution/final-coverage-review.md",
+    "report": "../question-book-review/g-step-changes.json#/records/final-coverage-review.md",
     "totals": {
       "total": 1000,
       "covered": 772,

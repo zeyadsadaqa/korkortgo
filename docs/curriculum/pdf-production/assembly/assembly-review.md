@@ -1,6 +1,6 @@
 # G11 revised assembly completed
 
-Completed 13 October 2026. The production and delivery review PDFs are identical, verified **540-page** revised copies. The original **498-page** copy is retained at [G11 baseline](../../question-book-review/execution/G11/baseline/korkortgo-curriculum-review-498-pages.pdf); G0 snapshots are intact.
+Completed 13 October 2026. The production and delivery review PDFs are identical, verified **540-page** revised copies. The original **498-page** copy is retained at [G11 baseline](../../question-book-review/original-book-498-pages.pdf); G0 snapshots are intact.
 
 ## Pagination and variance
 
@@ -19,7 +19,7 @@ Completed 13 October 2026. The production and delivery review PDFs are identical
 | M10 | 23 | 24 | +1 | 316–339 |
 | reference | 183 | 201 | +18 | 340–540 |
 
-Total increase is **42 pages**: **24 chapter pages**, **3 glossary pages**, **15 central reference/provenance pages**. Chapter additions meet the original 18–24-page upper estimate; G11 reference/glossary work adds 18 beyond it. Existing font sizes and readable spacing retained. No new chapter or visual design. [Pagination JSON](../../question-book-review/execution/G11/pagination.json).
+Total increase is **42 pages**: **24 chapter pages**, **3 glossary pages**, **15 central reference/provenance pages**. Chapter additions meet the original 18–24-page upper estimate; G11 reference/glossary work adds 18 beyond it. Existing font sizes and readable spacing retained. No new chapter or visual design. [Pagination JSON](../../question-book-review/g-step-changes.json#/records/G11~1pagination.json).
 
 ## Reference and navigation changes
 
@@ -27,11 +27,11 @@ All G1–G10 teaching and chapter PDFs are unchanged by assembly. Opening guidan
 
 Contents folios, continuous PDF labels, chapter/lesson/review/answer/source/appendix/sign destinations, source links, printed cross-links and footer Previous/Next/Contents/Sources targets are rebuilt from actual component offsets. Source and delivery PDFs match byte-for-byte; deterministic rebuild passes. Assessments retain at least two pages before their answers.
 
-[55-question assembled-page JSON](../../question-book-review/execution/G11/question-book-pages.json) records actual teaching/check/answer pages and source-claim linkage. Each chapter coverage record and tracker now contains assembled page fields. These mappings remain pending the independent G12 coverage audit. Original 1000-question audit JSONs have not been regenerated in G11.
+[55-question assembled-page JSON](../../question-book-review/g-step-changes.json#/records/G11~1question-book-pages.json) records actual teaching/check/answer pages and source-claim linkage. Each chapter coverage record and tracker now contains assembled page fields. These mappings remain pending the independent G12 coverage audit. Original 1000-question audit JSONs have not been regenerated in G11.
 
 ## Verification and visual review
 
-Reference fidelity, embedded Unicode fonts, exact sign bindings and URLs, link bounds/targets and reproducibility passed. Assembly verifier preserves every source body-text sequence and original non-footer link target. Every assembled and component page rendered at a 1000-pixel longest edge; all **539 preserved page bodies match pixel-for-pixel**, excluding only replaced footer regions. Page 4 is the deliberately regenerated contents. Inserted teaching pages, assessment/answer pages, component boundaries, all glossary pages and the entire central reference section inspected via contact sheets, with full-size details for opening/contents, source headings, long URLs and glossary cross-links. [Validation](../../question-book-review/execution/G11/validation.json) and [render comparison](render-comparison.json).
+Reference fidelity, embedded Unicode fonts, exact sign bindings and URLs, link bounds/targets and reproducibility passed. Assembly verifier preserves every source body-text sequence and original non-footer link target. Every assembled and component page rendered at a 1000-pixel longest edge; all **539 preserved page bodies match pixel-for-pixel**, excluding only replaced footer regions. Page 4 is the deliberately regenerated contents. Inserted teaching pages, assessment/answer pages, component boundaries, all glossary pages and the entire central reference section inspected via contact sheets, with full-size details for opening/contents, source headings, long URLs and glossary cross-links. [Validation](../../question-book-review/g-step-changes.json#/records/G11~1validation.json) and [render comparison](render-comparison.json).
 
 Question bank and ten chapter PDFs stayed byte-identical; all 154 G0 snapshots verified. Book hash: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`.
 

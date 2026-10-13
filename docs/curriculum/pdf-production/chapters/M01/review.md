@@ -46,4 +46,4 @@ No blocking chapter issue remains for this screen-review build. Artwork is appro
 
 ## G1 review — 12 October 2026
 
-17-page revision inspected in rendered contact sheets; full-size detail checks on pages 5, 7, 8, 13 and 14. Existing artwork unchanged. No clipping or overlap; references wrap within margins. Answers remain separate from assessment pages. Added two pages within G1 budget. Exact coverage/evidence and release limits: [G1 completion](../../../question-book-review/execution/G1/completion.md).
+17-page revision inspected in rendered contact sheets; full-size detail checks on pages 5, 7, 8, 13 and 14. Existing artwork unchanged. No clipping or overlap; references wrap within margins. Answers remain separate from assessment pages. Added two pages within G1 budget. Exact coverage/evidence and release limits: [G1 completion](../../../question-book-review/g-step-changes.json#/records/G1~1completion.md).

@@ -37,4 +37,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G8 review — 13 October 2026
 
-All 31 rendered pages inspected; full-size checks on 2, 4, 15, 17, 19, 20 and 26–31. No clipping, overlap, broken symbols or URL overflow. 19 sign bindings/sizes, six vector placements, four approved scenes and eight marker insertions retained. +2 text pages meets budget; five reference pages retained with existing type sizes. Expanded answers remain separated on local p.26. [Completion](../../../question-book-review/execution/G8/completion.md).
+All 31 rendered pages inspected; full-size checks on 2, 4, 15, 17, 19, 20 and 26–31. No clipping, overlap, broken symbols or URL overflow. 19 sign bindings/sizes, six vector placements, four approved scenes and eight marker insertions retained. +2 text pages meets budget; five reference pages retained with existing type sizes. Expanded answers remain separated on local p.26. [Completion](../../../question-book-review/g-step-changes.json#/records/G8~1completion.md).

@@ -43,4 +43,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G7 review — 13 October 2026
 
-All 27 rendered pages inspected; full-size checks on 4, 6, 9, 10, 12, 13 and 23–27. No clipping, overlap, broken symbols or URL overflow. Six official sign bindings/sizes and eight approved scenes retained. Existing typography reused; no new design. Expanded answers remain separated on local p.23. Three new teaching pages and fourth reference page meet +4 budget. ABS cross-reference verified against M02-L01. [Completion](../../../question-book-review/execution/G7/completion.md).
+All 27 rendered pages inspected; full-size checks on 4, 6, 9, 10, 12, 13 and 23–27. No clipping, overlap, broken symbols or URL overflow. Six official sign bindings/sizes and eight approved scenes retained. Existing typography reused; no new design. Expanded answers remain separated on local p.23. Three new teaching pages and fourth reference page meet +4 budget. ABS cross-reference verified against M02-L01. [Completion](../../../question-book-review/g-step-changes.json#/records/G7~1completion.md).

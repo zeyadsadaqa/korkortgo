@@ -41,4 +41,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G3 review — 12 October 2026
 
-52 rendered pages inspected in contact sheets. Full-size checks: pages 44, 45, 49, 51 and 52. No clipping, overlap, broken symbols or URL overflow. All 100 official sign placements and existing scene assets unchanged. Answers remain separated. +2 pages meets G3 budget. [Completion](../../../question-book-review/execution/G3/completion.md).
+52 rendered pages inspected in contact sheets. Full-size checks: pages 44, 45, 49, 51 and 52. No clipping, overlap, broken symbols or URL overflow. All 100 official sign placements and existing scene assets unchanged. Answers remain separated. +2 pages meets G3 budget. [Completion](../../../question-book-review/g-step-changes.json#/records/G3~1completion.md).

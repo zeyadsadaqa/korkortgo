@@ -34,9 +34,9 @@ Missing codes: A12, A17, A23, A32, A33, A6, A7, C10, C11, C12, C13, C14, C15, C2
 - `question-page-map.json`: covered questions, actual pages, original prompts/options/answers and extracted evidence.
 - `question-coverage-gaps.json`: every remaining unsupported/prompt-only record with precise reason.
 - `all-question-coverage.json`: all 1000 records in original order.
-- [G12 target review](execution/G12/target-coverage-review.json): actual printed anchors and source/claim linkage for all 55 targets.
-- [G12 scenario decisions](execution/G12/scenario-decisions.json): reviewed decisions for all 178 scenarios; bound to actual PDF and bank hashes.
-- [Arithmetic verification](execution/G12/arithmetic-validation.json): 206 independent calculations.
+- [G12 target review](g-step-changes.json#/records/G12~1target-coverage-review.json): actual printed anchors and source/claim linkage for all 55 targets.
+- [G12 scenario decisions](g-step-changes.json#/records/G12~1scenario-decisions.json): reviewed decisions for all 178 scenarios; bound to actual PDF and bank hashes.
+- [Arithmetic verification](g-step-changes.json#/records/G12~1arithmetic-validation.json): 206 independent calculations.
 
 Book-page numbers include the cover and match verified continuous PDF labels. `original_source_page` retains the old bank’s page, not this book’s folio. No bibliography, code lookup or external link is accepted as teaching/illustration coverage.
 
@@ -44,6 +44,6 @@ Book-page numbers include the cover and match verified continuous PDF labels. `o
 
 The criterion is selecting the keyed answer from book study and reasonable application, not reproducing every keyed-answer detail or every distractor explanation. Entries 081, 087, 151 and 175 explicitly distinguish the taught core principle from more detailed keyed wording. Scope limits in all 55 target passages remain applicable. This is not a new legal/medical audit of the bank or a certification for publication, print or accessibility.
 
-One non-blocking cross-reference issue: M06-L01 p.191 directs wildlife-collision actions to M10-L01; the correct section is M10-L02, p.326. Target q126 and collision q127 remain supported at their correctly mapped pages. [Observation](execution/G12/editorial-observations.json). G12 preserves the G11 PDF.
+One non-blocking cross-reference issue: M06-L01 p.191 directs wildlife-collision actions to M10-L01; the correct section is M10-L02, p.326. Target q126 and collision q127 remain supported at their correctly mapped pages. [Observation](g-step-changes.json#/records/G12~1editorial-observations.json). G12 preserves the G11 PDF.
 
-Question bank stayed byte-identical. Baseline audit files remain in the verified G0 snapshots. Book SHA-256: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`. Bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`.
+Question bank stayed byte-identical. Baseline audit statuses and G0 snapshot checksums are preserved in the consolidated G-step reference. Book SHA-256: `c21ea3887b3f67bfd40a5683908df990187432a035d025898e7f0700380fa299`. Bank SHA-256: `303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb`.

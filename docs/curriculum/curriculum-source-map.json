@@ -40,7 +40,7 @@
             "G1-stimulant-fatigue"
           ],
           "evidence_limit": "Syllabus scope for fatigue and medication; detailed impairment and medical claims need direct supporting guidance.",
-          "G1_evidence": "question-book-review/execution/G1/evidence.json"
+          "G1_evidence": "question-book-review/g-step-changes.json#/records/G1~1evidence.json"
         },
         {
           "id": "M01-L03",
@@ -51,7 +51,7 @@
             "G1-vision-zero"
           ],
           "evidence_limit": "Syllabus scope, chapter 5; scenarios are original teaching exercises, not validated psychological predictions.",
-          "G1_evidence": "question-book-review/execution/G1/evidence.json"
+          "G1_evidence": "question-book-review/g-step-changes.json#/records/G1~1evidence.json"
         },
         {
           "id": "M01-L04",
@@ -96,7 +96,7 @@
             "G2-fuse-protection"
           ],
           "evidence_limit": "Practical-test and syllabus scope; vehicle-specific operation and warning responses remain unverified.",
-          "G2_evidence": "question-book-review/execution/G2/evidence.json"
+          "G2_evidence": "question-book-review/g-step-changes.json#/records/G2~1evidence.json"
         },
         {
           "id": "M02-L02",
@@ -110,7 +110,7 @@
             "G2-temporary-spare"
           ],
           "evidence_limit": "Detailed maintenance procedures and defect thresholds require further evidence.",
-          "G2_evidence": "question-book-review/execution/G2/evidence.json"
+          "G2_evidence": "question-book-review/g-step-changes.json#/records/G2~1evidence.json"
         },
         {
           "id": "M02-L03",
@@ -127,7 +127,7 @@
             "G2-crumple-zones"
           ],
           "evidence_limit": "Verify age, height, seat-position exceptions and manufacturer-dependent arrangements before teaching specifics.",
-          "G2_evidence": "question-book-review/execution/G2/evidence.json"
+          "G2_evidence": "question-book-review/g-step-changes.json#/records/G2~1evidence.json"
         },
         {
           "id": "M02-L04",
@@ -212,7 +212,7 @@
             "G3-braking-model"
           ],
           "evidence_limit": "Any formula or numerical example must state assumptions; it must not be presented as a guaranteed stopping distance.",
-          "G3_evidence": "question-book-review/execution/G3/evidence.json"
+          "G3_evidence": "question-book-review/g-step-changes.json#/records/G3~1evidence.json"
         }
       ],
       "self_assessment": {
@@ -253,7 +253,7 @@
             "G4-left-turn-wheels"
           ],
           "evidence_limit": "Practical-test scope; detailed positioning and lane rules require verification.",
-          "G4_evidence": "question-book-review/execution/G4/evidence.json"
+          "G4_evidence": "question-book-review/g-step-changes.json#/records/G4~1evidence.json"
         },
         {
           "id": "M04-L03",
@@ -309,7 +309,7 @@
             "G5-bicycle-definition"
           ],
           "evidence_limit": "Avoid stereotypes; detailed clearance requirements must be sourced before stating numbers.",
-          "G5_evidence": "question-book-review/execution/G5/evidence.json"
+          "G5_evidence": "question-book-review/g-step-changes.json#/records/G5~1evidence.json"
         },
         {
           "id": "M05-L02",
@@ -374,7 +374,7 @@
             "G6-wildlife-habitat"
           ],
           "evidence_limit": "Detailed meeting and positioning rules need verification; animal behaviour cannot be guaranteed.",
-          "G6_evidence": "question-book-review/execution/G6/evidence.json"
+          "G6_evidence": "question-book-review/g-step-changes.json#/records/G6~1evidence.json"
         },
         {
           "id": "M06-L02",
@@ -397,7 +397,7 @@
             "G6-speed-adaptation"
           ],
           "evidence_limit": "Assessment scope; motorway and expressway legal restrictions need direct provisions.",
-          "G6_evidence": "question-book-review/execution/G6/evidence.json"
+          "G6_evidence": "question-book-review/g-step-changes.json#/records/G6~1evidence.json"
         },
         {
           "id": "M06-L04",
@@ -443,7 +443,7 @@
             "G7-lamp-defects"
           ],
           "evidence_limit": "Verify lighting combinations and exceptions; avoid unsupported fixed visibility distances.",
-          "G7_evidence": "question-book-review/execution/G7/evidence.json"
+          "G7_evidence": "question-book-review/g-step-changes.json#/records/G7~1evidence.json"
         },
         {
           "id": "M07-L02",
@@ -462,7 +462,7 @@
             "G7-wet-driving"
           ],
           "evidence_limit": "Verify tyre dates, exemptions and limits; vehicle-specific recovery procedures remain out of scope until supported.",
-          "G7_evidence": "question-book-review/execution/G7/evidence.json"
+          "G7_evidence": "question-book-review/g-step-changes.json#/records/G7~1evidence.json"
         },
         {
           "id": "M07-L03",
@@ -516,7 +516,7 @@
             "MS-9f4b74a976fa03fb"
           ],
           "evidence_limit": "Verify all entitlement and weight thresholds before worked examples.",
-          "G8_evidence": "question-book-review/execution/G8/evidence.json"
+          "G8_evidence": "question-book-review/g-step-changes.json#/records/G8~1evidence.json"
         },
         {
           "id": "M08-L02",
@@ -531,7 +531,7 @@
             "G8-towball-physics"
           ],
           "evidence_limit": "Dimensions, projections, coupling checks and equipment-specific rules require detailed verification.",
-          "G8_evidence": "question-book-review/execution/G8/evidence.json"
+          "G8_evidence": "question-book-review/g-step-changes.json#/records/G8~1evidence.json"
         },
         {
           "id": "M08-L03",
@@ -548,7 +548,7 @@
             "G8-off-road-inspection"
           ],
           "evidence_limit": "Recheck deadlines, obligations and exemptions at manuscript verification.",
-          "G8_evidence": "question-book-review/execution/G8/evidence.json"
+          "G8_evidence": "question-book-review/g-step-changes.json#/records/G8~1evidence.json"
         },
         {
           "id": "M08-L04",
@@ -596,7 +596,7 @@
             "G9-electric-types"
           ],
           "evidence_limit": "Lifecycle comparisons and numerical emissions claims require additional evidence.",
-          "G9_evidence": "question-book-review/execution/G9/evidence.json"
+          "G9_evidence": "question-book-review/g-step-changes.json#/records/G9~1evidence.json"
         },
         {
           "id": "M09-L02",
@@ -611,7 +611,7 @@
             "G9-carried-mass"
           ],
           "evidence_limit": "Official assessment and syllabus scope; gear, coasting and vehicle-specific advice need verification.",
-          "G9_evidence": "question-book-review/execution/G9/evidence.json"
+          "G9_evidence": "question-book-review/g-step-changes.json#/records/G9~1evidence.json"
         },
         {
           "id": "M09-L03",
@@ -635,7 +635,7 @@
             "G9-studs-sign"
           ],
           "evidence_limit": "Current local boundaries, signs and exemptions must be verified for each example.",
-          "G9_evidence": "question-book-review/execution/G9/evidence.json"
+          "G9_evidence": "question-book-review/g-step-changes.json#/records/G9~1evidence.json"
         }
       ],
       "self_assessment": {
@@ -669,7 +669,7 @@
             "G10-hot-coolant"
           ],
           "evidence_limit": "Do not generalise motorway evacuation advice to every tunnel incident; verify each procedure independently.",
-          "G10_evidence": "question-book-review/execution/G10/evidence.json"
+          "G10_evidence": "question-book-review/g-step-changes.json#/records/G10~1evidence.json"
         },
         {
           "id": "M10-L02",

@@ -35,4 +35,4 @@ No chapter-specific screen-review blocker remains. Approved high-resolution scen
 
 ## G9 review — 13 October 2026
 
-All 27 rendered pages reviewed, with full-size checks on 3, 4, 7, 17, 22 and 24–27. C44 cross-link corrected to M07-L02 and page 17 rerendered/reviewed. No clipping, overlap, broken symbols or URL overflow; comparison table and CO₂ readable. 10 signs, four approved scenes and one E31-2 insert retained. +5 pages meets budget; all answers on separated p.22. [Completion](../../../question-book-review/execution/G9/completion.md).
+All 27 rendered pages reviewed, with full-size checks on 3, 4, 7, 17, 22 and 24–27. C44 cross-link corrected to M07-L02 and page 17 rerendered/reviewed. No clipping, overlap, broken symbols or URL overflow; comparison table and CO₂ readable. 10 signs, four approved scenes and one E31-2 insert retained. +5 pages meets budget; all answers on separated p.22. [Completion](../../../question-book-review/g-step-changes.json#/records/G9~1completion.md).

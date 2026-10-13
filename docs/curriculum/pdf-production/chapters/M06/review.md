@@ -43,4 +43,4 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 
 ## G6 review — 13 October 2026
 
-All 50 rendered pages inspected in contact sheets; full-size checks on 11, 13, 25, 27, 48, 49 and 50. No clipping, overlap, broken symbols or URL overflow. 76 official sign bindings/sizes and 13 approved scenes preserved. +2 pages meets budget; two reference pages use five entries each with existing type sizes. Rural alternative is a conditional editorial inference with legal limits. [Completion](../../../question-book-review/execution/G6/completion.md).
+All 50 rendered pages inspected in contact sheets; full-size checks on 11, 13, 25, 27, 48, 49 and 50. No clipping, overlap, broken symbols or URL overflow. 76 official sign bindings/sizes and 13 approved scenes preserved. +2 pages meets budget; two reference pages use five entries each with existing type sizes. Rural alternative is a conditional editorial inference with legal limits. [Completion](../../../question-book-review/g-step-changes.json#/records/G6~1completion.md).

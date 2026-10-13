@@ -38,13 +38,11 @@ with pdfplumber.open(pdf) as doc:
         for ch in p.chars:
             assert 0<=ch['x0']<ch['x1']<=p.width+.1
             assert 0<=ch['top']<ch['bottom']<=p.height+.1
-baseline_assets=REPO/'docs/curriculum/question-book-review/execution/baseline/docs/curriculum/pdf-production/chapters/M01/illustrations.json'
-assert baseline_assets.exists()
-if baseline_assets.exists():
-    approved=json.loads(baseline_assets.read_text())['assets']
-    for key,rec in ART.items():
-        actual=hashlib.sha256((ROOT/'pdf-design/gap-resolution'/rec['file']).read_bytes()).hexdigest()
-        assert actual==approved[key]['sha256'],('Approved asset changed',key)
+ledger=json.loads((REPO/'docs/curriculum/question-book-review/g-step-changes.json').read_text())
+approved=ledger['records']['baseline-M01-illustrations.json']['assets']
+for key,rec in ART.items():
+    actual=hashlib.sha256((ROOT/'pdf-design/gap-resolution'/rec['file']).read_bytes()).hexdigest()
+    assert actual==approved[key]['sha256'],('Approved asset changed',key)
 assert 'körkort online' not in alltext.lower() and 'theory-book' not in alltext.lower()
 first=hashlib.sha256(pdf.read_bytes()).hexdigest()
 subprocess.run([sys.executable,str(OUT/'build_chapter.py')],check=True,capture_output=True)
