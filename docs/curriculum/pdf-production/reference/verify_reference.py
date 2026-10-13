@@ -45,6 +45,22 @@ for code in h2_codes:
   assert hashlib.sha256((REPO/asset['official_eps_path']).read_bytes()).hexdigest()==asset['official_eps_sha256']
   assert (REPO/asset['variant_proof']).exists()
  else:assert h2_records[code]['sha256']==source['question_asset']['sha256']
+h3_targets=[t for t in h0['targets'] if t['step']=='H3']
+h3_codes={t['sign_code'] for t in h3_targets}
+h3_records={a['code']:a for a in records if a['code'] in h3_codes}
+assert len(h3_targets)==30 and len(h3_records)==15
+assert h1_codes|h2_codes|h3_codes=={s['code'] for s in h0['signs']}
+for code in h3_codes:
+ source=next(s for s in h0['signs'] if s['code']==code)
+ asset=BINDINGS[code]['preferred_asset']
+ assert BINDINGS[code]['official_url']==source['page']['url']
+ assert CAPTIONS[code]['official_name_sv']==source['official_name_sv']
+ if code.startswith('S') or code in ['M17','M28','M29','M31','M32','M34']:
+  assert asset['official_variant_image_sha256']==source['question_asset']['sha256']
+  assert asset['official_eps_url'] in source['download_urls']
+  assert hashlib.sha256((REPO/asset['official_eps_path']).read_bytes()).hexdigest()==asset['official_eps_sha256']
+  assert (REPO/asset['variant_proof']).exists()
+ else:assert h3_records[code]['sha256']==source['question_asset']['sha256']
 for name in ['book','delivery_book','questions','gaps']:
  item=h0['baseline'][name]
  assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==item['sha256']
@@ -85,5 +101,5 @@ assert not any(s in alltext.lower() for s in ['körkort online','theory-book'])
 sha=hashlib.sha256(TARGET.read_bytes()).hexdigest()
 subprocess.run([sys.executable,str(OUT/'build_reference.py')],check=True,capture_output=True)
 assert hashlib.sha256(TARGET.read_bytes()).hexdigest()==sha
-report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':len(table_rows(SECS[TITLES[2]].split('\n\n')[1]))-1,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'../../question-book-review/remaining-gap-execution-plan.md, H1/H2 execution records','h1':{'codes':sorted(h1_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h1_records[t['sign_code']]['page']} for t in h1_targets],'bank_and_full_book_unchanged':True},'h2':{'codes':sorted(h2_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h2_records[t['sign_code']]['page']} for t in h2_targets],'bank_and_full_book_unchanged':True},'limits':['This is the updated reference component; full-book assembly/folios and final coverage audit remain H6/H7 work','Full tagged-PDF accessibility and final publication approval remain outside this H1/H2 check']}
+report={'status':'passed','pages':len(r.pages),'appendices':4,'reference_groups':len(GROUPS),'unique_official_entries':len(records),'vector_placements':sum(rec['vector'] for rec in records),'manuscript_blocks_and_cells_preserved':count,'glossary_terms':len(table_rows(SECS[TITLES[2]].split('\n\n')[1]))-1,'practice_prompts':9,'manuscript_source_references':len(REFS),'external_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(r.named_destinations),'embedded_fonts':sorted(fonts),'reproducible':True,'sha256':sha,'visual_review':'../../question-book-review/remaining-gap-execution-plan.md, H1/H2/H3 execution records','h1':{'codes':sorted(h1_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h1_records[t['sign_code']]['page']} for t in h1_targets],'bank_and_full_book_unchanged':True},'h2':{'codes':sorted(h2_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h2_records[t['sign_code']]['page']} for t in h2_targets],'bank_and_full_book_unchanged':True},'h3':{'codes':sorted(h3_codes),'question_component_pages':[{'question_id':t['question_id'],'sign_code':t['sign_code'],'component_page':h3_records[t['sign_code']]['page']} for t in h3_targets],'bank_and_full_book_unchanged':True},'limits':['This is the updated reference component; full-book assembly/folios and final coverage audit remain H6/H7 work','Full tagged-PDF accessibility and final publication approval remain outside this H1/H2/H3 check']}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,indent=2))

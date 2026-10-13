@@ -8,11 +8,11 @@
   "source_policy": "Official Transportstyrelsen detail pages and primary Swedish legislation only. Variant pages with no explanation inherit the parent meaning except M19a and M20a, which have their own meanings. Practical reminders are editorial teaching advice.",
   "asset_manifest": {
     "path": "sign-asset-manifest.json",
-    "sha256": "2df4b761115f3108f7160d8ab996acc9bb170fa293e375ba97f0647b7df657fd"
+    "sha256": "5b61ce01899370d0d5719678044887a42f514d53547aa4a87f6db6fe7a9aaa74"
   },
   "source_register": {
     "path": "sign-sources.json",
-    "sha256": "03d12680e06821a69309cd3aba7bab8041b7957b0e948f29658f142ad0e9a443"
+    "sha256": "008499f086206f78ffbc4eec13ee848def33845c6b6ab23a989d46802e39610b"
   },
   "discrepancy_rechecks": [
     {
@@ -57,10 +57,10 @@
     }
   ],
   "summary": {
-    "selected_identifiers": 327,
-    "caption_records": 562,
+    "selected_identifiers": 342,
+    "caption_records": 577,
     "additional_linked_pages": 235,
-    "eligible_images": 558,
+    "eligible_images": 573,
     "held_images": 4
   },
   "captions": [
@@ -30435,6 +30435,671 @@
       ],
       "reviewed_on": "2026-10-13",
       "execution_step": "H2"
+    },
+    {
+      "caption_id": "CAP-M17",
+      "code": "M17",
+      "selected_parent_codes": [
+        "M17"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Farthinder",
+      "label_en": "Speed obstacle",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "The marking indicates a speed obstacle such as a hump, depression or similar feature. Observe the road surface and adjust speed before reaching it.",
+      "variant_description_en": "The patterned marking identifies the obstacle; the meaning is not limited to a raised speed bump.",
+      "alt_text_en": "Speed obstacle. The patterned marking identifies the obstacle; the meaning is not limited to a raised speed bump.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m17.png",
+        "source_asset_id": "H3-EPS-M17",
+        "sha256": "6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          26.585
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m17.eps",
+        "official_eps_sha256": "6f2e019fe8efdd4562761c961565224242e490ffea2f6d395a5ed0414815bd87",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M17",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/farthinder/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "8886e7aedbb2a7cba7f4023c32ab09bde75b327d8caf21d8308b1e93cad65456",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/03066169ffc460e6a4dc1607.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M17a",
+      "code": "M17a",
+      "selected_parent_codes": [
+        "M17a"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Cykelbox",
+      "label_en": "Bicycle box",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates a suitable position for cyclists and class II moped riders. The marking may be adapted to the conditions at the site.",
+      "variant_description_en": "The question illustration shows a cycle symbol and an advanced marked area. It does not by itself grant priority over conflicting traffic.",
+      "alt_text_en": "Bicycle box. The question illustration shows a cycle symbol and an advanced marked area. It does not by itself grant priority over conflicting traffic.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h3-m17a.png",
+        "source_asset_id": "H3-ASSET-M17a",
+        "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+        "max_size_mm_at_300ppi": [
+          550.079,
+          945.049
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M17a",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "427186753c719ae5c5832ca6109826bbfd08d77095f70e3c7d5631c8fcafaabd",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ae2cbafa3fc197c2b7b990bf.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M28",
+      "code": "M28",
+      "selected_parent_codes": [
+        "M28"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Buss",
+      "label_en": "Bus lane marking",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates that the lane is intended for scheduled-service vehicles and others. Read the applicable lane signs and qualifications to identify which traffic may use it.",
+      "variant_description_en": "BUSS is the exact question artwork. Do not infer an unconditional bus-only rule from this word alone.",
+      "alt_text_en": "Bus lane marking. BUSS is the exact question artwork. Do not infer an unconditional bus-only rule from this word alone.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m28.png",
+        "source_asset_id": "H3-EPS-M28",
+        "sha256": "77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m28.eps",
+        "official_eps_sha256": "e7bb87f7ce5343d4b7d2a9bc49154b77e7a9554c5793195604e3d5b3ad7bba69",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M28",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/buss/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "e265ccc3997a9c5892be4a4d07df3da96341dbbb061cc4514ba397c1dc6be05b",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c084b18f97c154da13e12cb9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M29",
+      "code": "M29",
+      "selected_parent_codes": [
+        "M29"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Hastighet",
+      "label_en": "Maximum-speed marking",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Provides information about the highest permitted speed. Read the number shown and continue to adapt speed to the actual conditions.",
+      "variant_description_en": "The question example shows 30. Compare route-number marking M30; a marked maximum is not a recommended minimum.",
+      "alt_text_en": "Maximum-speed marking. The question example shows 30. Compare route-number marking M30; a marked maximum is not a recommended minimum.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m29.png",
+        "source_asset_id": "H3-EPS-M29",
+        "sha256": "1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m29.eps",
+        "official_eps_sha256": "e3fc1665acfba68871fd7f03f4bc0591385738ec3c923a6a03ca978f11dc1a6c",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M29",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/hastighet/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "3f7b85ff68d08690bdfe649ccf4603ef15da7b9885b37e7d291f36fb5015d745",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2aed62a0975b75d850bef5ef.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M30",
+      "code": "M30",
+      "selected_parent_codes": [
+        "M30"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Vägnummer",
+      "label_en": "Route-number marking",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Provides information about the road number. Use it to recognise the route rather than interpreting the number as a speed limit.",
+      "variant_description_en": "The question example says E4. Compare M29 for maximum-speed information.",
+      "alt_text_en": "Route-number marking. The question example says E4. Compare M29 for maximum-speed information.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h3-m30.png",
+        "source_asset_id": "H3-ASSET-M30",
+        "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+        "max_size_mm_at_300ppi": [
+          61.637,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M30",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/vagnummer/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "c760de19a4fba984b38ab13575b57666a26a3909c0f8ade43c5e33c458a028e7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b645a78e175310ce769b5fc9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M31",
+      "code": "M31",
+      "selected_parent_codes": [
+        "M31"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Ändamålsplats",
+      "label_en": "Standing place for a stated purpose",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Provides information about a standing place intended for a particular purpose. The wording is adapted to that purpose; read the actual text and the applicable signs.",
+      "variant_description_en": "The question example says LASTPLATS, indicating a loading place. It is one purpose example, not the definition of every M31 marking.",
+      "alt_text_en": "Standing place for a stated purpose. The question example says LASTPLATS, indicating a loading place. It is one purpose example, not the definition of every M31 marking.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m31.png",
+        "source_asset_id": "H3-EPS-M31",
+        "sha256": "3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m31.eps",
+        "official_eps_sha256": "89d33b69ec1e7c0120dff5555c6059d6b21e576ecc451f8ab5ff2d8e2f54e00b",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M31",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/andamalsplats/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "5437efdc8912ad6c81010165ec5e3939ecf5ce3c893dd79efe89030b90990d74",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/40348616829d721ba551a7c7.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M32",
+      "code": "M32",
+      "selected_parent_codes": [
+        "M32"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Stopp",
+      "label_en": "Stop marking",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Provides information about a duty to stop. The marking is used with B2 to reinforce the stop instruction; fulfil the stop duty at the prescribed stopping position.",
+      "variant_description_en": "The question artwork says STOPP. Read it with B2 and the stop line rather than treating the word as a separate new stopping rule.",
+      "alt_text_en": "Stop marking. The question artwork says STOPP. Read it with B2 and the stop line rather than treating the word as a separate new stopping rule.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m32.png",
+        "source_asset_id": "H3-EPS-M32",
+        "sha256": "cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m32.eps",
+        "official_eps_sha256": "58fa4861c0b4da689cfd5ef4ee048d62f0cd063d4fba513013029fb769bf5463",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M32",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/stopp/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "870ada52b5cc30887bfeea73c7303ce3c361b1f655475b64be7331c001adaf91",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/66e82149726e4a09f3ec052e.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-M34",
+      "code": "M34",
+      "selected_parent_codes": [
+        "M34"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Information",
+      "label_en": "Information marking",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Provides information, warning or guidance of importance to the road user. Read the actual message and respond to the situation it describes.",
+      "variant_description_en": "The question example says SKOLA. School information is one example; other messages may be used.",
+      "alt_text_en": "Information marking. The question example says SKOLA. School information is one example; other messages may be used.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m34.png",
+        "source_asset_id": "H3-EPS-M34",
+        "sha256": "2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m34.eps",
+        "official_eps_sha256": "75435f5d5171f090b875199c7557ac09d3c4ae46ca26dac4587b62f0756d3cc7",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-M34",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/information/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "261db55bfefc50ceb8787f4da0667bafe26825c8f7b2ea4e22e585b6dde18c8f",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ffa3efea987255e2f9729be9.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-S5",
+      "code": "S5",
+      "selected_parent_codes": [
+        "S5"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Buss",
+      "label_en": "Bus symbol",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a bus in the context of the sign or panel that contains the symbol. Read the complete sign to determine the information or qualification it provides.",
+      "variant_description_en": "The bus silhouette is a symbol, not a standalone bus-lane or access instruction.",
+      "alt_text_en": "Bus symbol. The bus silhouette is a symbol, not a standalone bus-lane or access instruction.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s5.pdf",
+        "source_asset_id": "H3-EPS-S5",
+        "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s5.eps",
+        "official_eps_sha256": "9f5c034634333fc2b9efee02a088563bdc289f5d76a7ab856c64ecb0efdd5d68",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-S5",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/buss/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "dd15a726aaa050eb59ad126316a7aa46f83c98e0af15cbe8abb7b9b4f1643d06",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/4b735eb2f8aed203a2f31e3f.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-S6",
+      "code": "S6",
+      "selected_parent_codes": [
+        "S6"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Traktor och motorredskap klass II",
+      "label_en": "Tractor and class II motorised-equipment symbol",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification.",
+      "variant_description_en": "The tractor silhouette is not itself the prohibition indicated by C8.",
+      "alt_text_en": "Tractor and class II motorised-equipment symbol. The tractor silhouette is not itself the prohibition indicated by C8.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+        "source_asset_id": "H3-EPS-S6",
+        "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+        "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-S6",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "2a2f176a1fd2338c0c7cb6778e6b5d24501b51e55d50d1779bcfd13cfa19881f",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/99fa468b3fe34387a399b9ae.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-S7",
+      "code": "S7",
+      "selected_parent_codes": [
+        "S7"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Motorcykel",
+      "label_en": "Motorcycle and class I moped symbol",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification.",
+      "variant_description_en": "The motorcycle silhouette includes the stated class I mopeds; the symbol does not itself prohibit either class.",
+      "alt_text_en": "Motorcycle and class I moped symbol. The motorcycle silhouette includes the stated class I mopeds; the symbol does not itself prohibit either class.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+        "source_asset_id": "H3-EPS-S7",
+        "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+        "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-S7",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "e63d0614b77e3c26f3e971b4d94c0f9711ab83dc10c1e19c32fc23e5f18a4f0c",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c5ab056a19173b6432e204a8.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-S11",
+      "code": "S11",
+      "selected_parent_codes": [
+        "S11"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Rörelsehindrade",
+      "label_en": "Mobility-disability symbol",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies people with mobility disabilities in the context of the containing sign or panel. Read the complete sign and its conditions, including any applicable parking qualification.",
+      "variant_description_en": "The wheelchair symbol does not by itself state a complete parking permission or entitlement.",
+      "alt_text_en": "Mobility-disability symbol. The wheelchair symbol does not by itself state a complete parking permission or entitlement.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s11.pdf",
+        "source_asset_id": "H3-EPS-S11",
+        "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          66.985
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s11.eps",
+        "official_eps_sha256": "178232da050c74e0ade93fe4c3f0502ab1ced13c8b76424589335fa03b1163b2",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-S11",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/rorelsehindrade/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d04f15f03f69f883de25bc376257321a8c37e5d3936aa61e1aeac53b39236dbd",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/247272717b6dee397793a2dd.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-S13",
+      "code": "S13",
+      "selected_parent_codes": [
+        "S13"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Personfärja",
+      "label_en": "Passenger-ferry symbol",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service.",
+      "variant_description_en": "The passengers-on-a-ferry illustration is not a promise that a car may board. Compare G12 for the passenger-ferry facility sign.",
+      "alt_text_en": "Passenger-ferry symbol. The passengers-on-a-ferry illustration is not a promise that a car may board. Compare G12 for the passenger-ferry facility sign.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+        "source_asset_id": "H3-EPS-S13",
+        "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 110,
+        "max_size_mm_at_300ppi": [
+          110,
+          68.547
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+        "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-S13",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "d2d5c30af2a0a25f8b7c97921d74587dbd885ae517d35c541f914a66a9b8297d",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a90c5a922b955489ea30b501.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-T23",
+      "code": "T23",
+      "selected_parent_codes": [
+        "T23"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Tunnelkategori",
+      "label_en": "Tunnel-category panel",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Used below C9 for vehicles carrying the specified dangerous-goods loads. The letter B, C, D or E states the tunnel category. Times may be given according to the provisions for T6.",
+      "variant_description_en": "The question panel shows B. Read the category with C9; do not interpret the letter as a road number or as a standalone prohibition on all vehicles.",
+      "alt_text_en": "Tunnel-category panel. The question panel shows B. Read the category with C9; do not interpret the letter as a road number or as a standalone prohibition on all vehicles.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h3-t23.jpg",
+        "source_asset_id": "H3-ASSET-T23",
+        "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+        "max_size_mm_at_300ppi": [
+          13.123,
+          11.853
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-T23",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tunnelkategori/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "6e9dac9779b3ddbbe6a826c8a1963b373a757478b1ead885c68ca2e0d77eeb93",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/df8acaf1cf925b7018e2d12d.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
+    },
+    {
+      "caption_id": "CAP-T25",
+      "code": "T25",
+      "selected_parent_codes": [
+        "T25"
+      ],
+      "is_selected": true,
+      "official_name_sv": "Öppet dygnet runt",
+      "label_en": "Open 24 hours a day",
+      "translation_status": "Official Swedish names are preserved from Transportstyrelsen. All English labels, explanations and alternative text are original editorial wording, not official translations.",
+      "teaching_caption_en": "Indicates that a refreshments facility or restaurant is open round the clock. The panel is used below H5 or H6 and qualifies that facility information.",
+      "variant_description_en": "The clock says 24 tim. This does not indicate a parking-duration limit or round-the-clock opening of every nearby business.",
+      "alt_text_en": "Open 24 hours a day. The clock says 24 tim. This does not indicate a parking-duration limit or round-the-clock opening of every nearby business.",
+      "caption_status": "checked_against_official_sources",
+      "image_status": "usable_with_recorded_limits",
+      "eligible_for_placement": true,
+      "preferred_asset": {
+        "path": "docs/curriculum/sign-assets/originals/h3-t25.png",
+        "source_asset_id": "H3-ASSET-T25",
+        "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+        "max_size_mm_at_300ppi": [
+          100.838,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "hold_notes": [],
+      "sources": [
+        {
+          "source_id": "H0-SIGN-T25",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/oppet-dygnet-runt/",
+          "retrieved_on": "2026-10-13",
+          "html_sha256": "e2d7370d35c6976ab77738968c89fc6270577389b2ef4c42ab5c6b272fd844a7",
+          "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+          "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ba336b573564b393b3a3cea3.html.gz"
+        }
+      ],
+      "reviewed_on": "2026-10-13",
+      "execution_step": "H3"
     }
   ],
   "h1_extension": {
@@ -30512,5 +31177,26 @@
       "J3"
     ],
     "scope": "36 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
+  },
+  "h3_extension": {
+    "completed_on": "2026-10-13",
+    "codes": [
+      "M17",
+      "M17a",
+      "M28",
+      "M29",
+      "M30",
+      "M31",
+      "M32",
+      "M34",
+      "S5",
+      "S6",
+      "S7",
+      "S11",
+      "S13",
+      "T23",
+      "T25"
+    ],
+    "scope": "15 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
   }
 }

@@ -6535,3 +6535,128 @@ Official Swedish: **Livsfarlig ledning**. Primary group: RB10.
 Warns of an electrical line over the road or route that may present danger. Check the actual line and clearance conditions rather than treating the message as ordinary route guidance. The question artwork says Livsfarlig ledning with a lightning symbol. The official narrower format has the same warning; this sign does not state a numerical safe clearance.
 
 [Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d`.
+
+
+## H3 exact M/S/T additions — 13 October 2026
+
+Fifteen entries extend the existing approved card presentation. Official symbol outlines use the established full-width vector-card format, preserving the official artwork. H0 supplies exact detail/variant and reuse evidence. English wording is editorial.
+
+### M17 · Speed obstacle
+
+Official Swedish: **Farthinder**. Primary group: RB05.
+
+The marking indicates a speed obstacle such as a hump, depression or similar feature. Observe the road surface and adjust speed before reaching it. The patterned marking identifies the obstacle; the meaning is not limited to a raised speed bump.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/farthinder/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb`.
+
+### M17a · Bicycle box
+
+Official Swedish: **Cykelbox**. Primary group: RB13.
+
+Indicates a suitable position for cyclists and class II moped riders. The marking may be adapted to the conditions at the site. The question illustration shows a cycle symbol and an advanced marked area. It does not by itself grant priority over conflicting traffic.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e`.
+
+### M28 · Bus lane marking
+
+Official Swedish: **Buss**. Primary group: RB05.
+
+Indicates that the lane is intended for scheduled-service vehicles and others. Read the applicable lane signs and qualifications to identify which traffic may use it. BUSS is the exact question artwork. Do not infer an unconditional bus-only rule from this word alone.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/buss/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb`.
+
+### M29 · Maximum-speed marking
+
+Official Swedish: **Hastighet**. Primary group: RB11.
+
+Provides information about the highest permitted speed. Read the number shown and continue to adapt speed to the actual conditions. The question example shows 30. Compare route-number marking M30; a marked maximum is not a recommended minimum.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/hastighet/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398`.
+
+### M30 · Route-number marking
+
+Official Swedish: **Vägnummer**. Primary group: RB07.
+
+Provides information about the road number. Use it to recognise the route rather than interpreting the number as a speed limit. The question example says E4. Compare M29 for maximum-speed information.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/vagnummer/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30`.
+
+### M31 · Standing place for a stated purpose
+
+Official Swedish: **Ändamålsplats**. Primary group: RB16.
+
+Provides information about a standing place intended for a particular purpose. The wording is adapted to that purpose; read the actual text and the applicable signs. The question example says LASTPLATS, indicating a loading place. It is one purpose example, not the definition of every M31 marking.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/andamalsplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612`.
+
+### M32 · Stop marking
+
+Official Swedish: **Stopp**. Primary group: RB02.
+
+Provides information about a duty to stop. The marking is used with B2 to reinforce the stop instruction; fulfil the stop duty at the prescribed stopping position. The question artwork says STOPP. Read it with B2 and the stop line rather than treating the word as a separate new stopping rule.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/stopp/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad`.
+
+### M34 · Information marking
+
+Official Swedish: **Information**. Primary group: RB05.
+
+Provides information, warning or guidance of importance to the road user. Read the actual message and respond to the situation it describes. The question example says SKOLA. School information is one example; other messages may be used.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/information/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854`.
+
+### S5 · Bus symbol
+
+Official Swedish: **Buss**. Primary group: RB06.
+
+Identifies a bus in the context of the sign or panel that contains the symbol. Read the complete sign to determine the information or qualification it provides. The bus silhouette is a symbol, not a standalone bus-lane or access instruction.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/buss/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad`.
+
+### S6 · Tractor and class II motorised-equipment symbol
+
+Official Swedish: **Traktor och motorredskap klass II**. Primary group: RB06.
+
+Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification. The tractor silhouette is not itself the prohibition indicated by C8.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395`.
+
+### S7 · Motorcycle and class I moped symbol
+
+Official Swedish: **Motorcykel**. Primary group: RB06.
+
+Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification. The motorcycle silhouette includes the stated class I mopeds; the symbol does not itself prohibit either class.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b`.
+
+### S11 · Mobility-disability symbol
+
+Official Swedish: **Rörelsehindrade**. Primary group: RB06.
+
+Identifies people with mobility disabilities in the context of the containing sign or panel. Read the complete sign and its conditions, including any applicable parking qualification. The wheelchair symbol does not by itself state a complete parking permission or entitlement.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/rorelsehindrade/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f`.
+
+### S13 · Passenger-ferry symbol
+
+Official Swedish: **Personfärja**. Primary group: RB09.
+
+Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service. The passengers-on-a-ferry illustration is not a promise that a car may board. Compare G12 for the passenger-ferry facility sign.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493`.
+
+### T23 · Tunnel-category panel
+
+Official Swedish: **Tunnelkategori**. Primary group: RB22.
+
+Used below C9 for vehicles carrying the specified dangerous-goods loads. The letter B, C, D or E states the tunnel category. Times may be given according to the provisions for T6. The question panel shows B. Read the category with C9; do not interpret the letter as a road number or as a standalone prohibition on all vehicles.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tunnelkategori/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248`.
+
+### T25 · Open 24 hours a day
+
+Official Swedish: **Öppet dygnet runt**. Primary group: RB09.
+
+Indicates that a refreshments facility or restaurant is open round the clock. The panel is used below H5 or H6 and qualifies that facility information. The clock says 24 tim. This does not indicate a parking-duration limit or round-the-clock opening of every nearby business.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/oppet-dygnet-runt/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3`.

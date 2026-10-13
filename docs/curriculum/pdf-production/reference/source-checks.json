@@ -24,5 +24,24 @@
     "captions": "../../sign-captions.json",
     "plan": "../../question-book-review/remaining-gap-execution-plan.md",
     "source_policy": "Exact official meanings and artwork; editorial English and practical use reminders. Route recommendations distinguished from mandatory/prohibitory instructions. Service symbols convey information, not independent traffic duties."
+  },
+  "h3_extension": {
+    "checked_on": "2026-10-13",
+    "scope": "15 M/S/T additions; H0 exact page/variant/reuse evidence retained. Five symbol EPS files retrieved and preserved as vector PDFs using the established full-width vector-card format.",
+    "evidence": "../../question-book-review/remaining-gap-h0-sources.json",
+    "variant_proof": "../../sign-assets/proofs/h3-symbol-variants.png",
+    "source_policy": "Symbols acquire duties from their containing sign/panel; T23 read with C9 and T25 with H5/H6. No new arbitrary minimum clearance, independent symbol duty or blanket bus-only claim.",
+    "marking_print_assets": {
+      "codes": [
+        "M17",
+        "M28",
+        "M29",
+        "M31",
+        "M32",
+        "M34"
+      ],
+      "reason": "Original PNGs are only about 5 mm wide at 300 ppi. Exact official EPS artwork is rendered at 300 ppi for normal-sized readable cards.",
+      "proof": "../../sign-assets/proofs/h3-marking-variants.png"
+    }
   }
 }

@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0, H1 and H2 approved and completed on 13 October 2026; H3–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0–H3 approved and completed on 13 October 2026; H4–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -474,3 +474,58 @@ Both `sign-meaning-CODE` and `sign-recognise-CODE` map to the exact illustrated 
 - `python3 tools/verify_remaining_gap_baseline.py --offline --allow-teaching-changes` passes the frozen book/bank/gaps and all saved H0 evidence/artwork checks. Source-text whitespace checks pass. Prior H0 rounding findings remain for H5; no bank changes or manufactured coverage pass.
 
 **Next executable scope:** H3, the 15 M/S/T codes and 30 questions, including the recorded white-symbol contrast issue. H3–H7 have not started. Full-book assembly/folios and final 1,000-question audit remain H6/H7.
+
+
+## H3 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H3. **Acceptance gate:** All 15 M/S/T codes have exact illustrated caption entries for their 30 target IDs; all 79 planned codes from H1–H3 are present. The existing approved raster and full-width vector-card formats were reused. No new visual design, symbol recolouring or invented sign assembly was required.
+
+### Changes and artwork decisions
+
+Added eight markings (M17, M17a, M28–M32, M34), five symbols (S5–S7, S11, S13) and two panels (T23, T25) across existing groups RB02, RB05, RB06, RB07, RB09, RB11, RB13, RB16 and RB22. Canonical source, asset, caption and placement JSON registers and their Markdown views are updated. Each entry retains the official Swedish name, exact individual source URL, an editorial English caption, the exact question variant, and a 13 October check date. All previous **562 caption records and 385 placement bindings** remain unchanged, checked against snapshots taken before H3.
+
+The 15 original question-artwork files are byte-identical to H0; their unchanged bytes are retained. The H0 symbol-contrast finding was refined by inspecting the actual pixels: these five PNGs contain faint, partly transparent black outlines, rather than solid white silhouettes. A dark background would worsen their contrast. The exact officially linked EPS files were retrieved and converted to vector PDFs, with paths, colours and stroke widths preserved. They use the already approved full-width vector-card treatment on white, with minimum reviewed widths **80 mm** for S5/S6/S7/S11 and **110 mm** for S13. The larger sharp outlines and full captions make the symbols readable without altering the agency artwork. [Original/rendered symbol comparisons](../sign-assets/proofs/h3-symbol-variants.png) retain exact-variant evidence.
+
+Rendering also exposed a separate size limitation: the original PNGs for **M17, M28, M29, M31, M32 and M34** permit only about **5 mm** width at 300 ppi. Their exact officially linked EPS files were retrieved and rendered at 300 ppi for the normal existing raster-card format. [Original/rendered marking comparisons](../sign-assets/proofs/h3-marking-variants.png) confirm the same patterns, numbers and words. The preliminary tiny-artwork render was rejected and rebuilt before final validation. M17a, M30, T23 and T25 retain their exact official original PNG/JPEG files. No pixel enlargement beyond the recorded raster limits or artwork editing is used. Original EPS hashes, derived-image hashes, official URLs and both comparison proofs are recorded in the canonical manifests.
+
+### Teaching and cross-links
+
+- M17 includes humps, depressions or similar obstacles. M17a indicates suitable placement for cyclists and class II moped riders without inventing priority. M28 is for scheduled-service vehicles and others; its BUSS wording is not treated as an unconditional bus-only restriction.
+- M29's 30 is maximum-speed information, contrasted with M30's E4 route number. M31's LASTPLATS is one stated-purpose example. M32 reinforces B2 and does not invent a separate stop position. M34's SKOLA is one information example, not the definition of every M34 marking.
+- S5/S6/S7/S11 acquire their actual duties or qualifications from the containing sign/panel. S7 explicitly includes two-wheeled motorcycles and class I mopeds, both without sidecars. S11 does not create a complete parking entitlement by itself. S13 concerns a passenger ferry without promising that a car may board.
+- T23 is taught below C9, including the B/C/D/E category meaning; the exact question panel is **B**. T25 qualifies **H5/H6** refreshments/restaurant opening information and is not a parking-duration limit.
+- The code lookup includes every new entry. Added working group cross-links from RB05 to M17a/M29/M30/M31/M32, RB06 to S13/T23/T25, RB11 to M30, and RB24 to T23. The reference verifier checks those destinations. These are separate comparison entries, not fabricated combined road signs.
+
+The [updated reference component](../../../output/pdf/korkortgo-reference-material.pdf) now has **234 pages and 400 unique illustrated entries**, up from H2's 225 pages and 385 entries: **nine additional pages**. All 79 planned sign codes and their 158 question IDs now have component teaching-page mappings. The full 540-page book, delivery book, bank and gaps files retain the H0 hashes; assembled-book page mappings and coverage totals remain H6/H7 work.
+
+### H3 code-to-component-page mapping
+
+Both `sign-meaning-CODE` and `sign-recognise-CODE` map to the same exact illustrated caption unit. The existing reference verification JSON stores the 30 H3 mappings and refreshed mappings for all 128 H1/H2 target IDs. Earlier H1/H2 tables are historical build records.
+
+| Code | Existing group | Reference component page |
+|---|---|---:|
+| M32 | RB02 | 16 |
+| M17 | RB05 | 30 |
+| M28 | RB05 | 31 |
+| M34 | RB05 | 31 |
+| S5 | RB06 | 41 |
+| S6 | RB06 | 42 |
+| S7 | RB06 | 43 |
+| S11 | RB06 | 44 |
+| M30 | RB07 | 56 |
+| S13 | RB09 | 79 |
+| T25 | RB09 | 80 |
+| M29 | RB11 | 87 |
+| M17a | RB13 | 110 |
+| M31 | RB16 | 129 |
+| T23 | RB22 | 178 |
+
+### Validation and handoff
+
+- Reference verification passes all **400** placements, complete caption/variant/Swedish-name text, artwork/source hashes, raster size limits and vector minimum widths, font embedding, text equivalents, all-page text bounds and preserved appendix/glossary/practice/source text. All 24 groups remain; the component has 18 vector placements. All 79 planned sign codes are present once, with no missing H1/H2/H3 targets.
+- **698 internal links** and **635 named destinations** pass, including the new comparison links and every new code-lookup link. All 158 target sign-question IDs map to actual component teaching pages.
+- Final deterministic rebuild and source/delivery PDF equality pass. Reference SHA-256: `142953ea992d5285a9b96fd26f00595ef3cbb737a56fb0dc9096ccb50fdf8abf`.
+- **23 final rendered pages** inspected at 110 dpi: 14 with H3 entries, affected cross-reference pages, four lookup pages and the artwork-credit page. Pages: 16, 30, 31, 32, 41, 42, 43, 44, 46, 56, 79, 80, 87, 90, 110, 129, 178, 188, 189, 190, 191, 192, 234. The final markings and enlarged symbol outlines, Swedish names, captions, source URLs, links, separators, headers and folios are readable without overlap or clipping. Temporary inspection renders are in `tmp/pdfs/h3`; comparison proofs are canonical assets. Validation remains in this plan and the existing reference verification/source-checks JSONs, with no new execution-report tree.
+- The baseline verifier with `--offline --allow-teaching-changes` passes frozen book/bank/gaps and H0 evidence/artwork checks. All prior caption/binding records are preserved and source-text whitespace checks pass. H0's four fuel-rounding findings remain unchanged for H5. No full-book coverage pass is claimed from this standalone component.
+
+**Next executable scope:** H4, teaching the clearly labelled approximate stopping calculation in M03-L04 for 30 questions. H4–H7 have not started; full assembly/folios and final coverage auditing remain H6/H7.

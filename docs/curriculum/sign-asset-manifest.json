@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "checked_on": "2026-10-03",
   "source_register": "sign-sources.json",
-  "source_register_sha256": "03d12680e06821a69309cd3aba7bab8041b7957b0e948f29658f142ad0e9a443",
+  "source_register_sha256": "008499f086206f78ffbc4eec13ee848def33845c6b6ab23a989d46802e39610b",
   "scope": "Original official raster and linked EPS files for all selected signs and directly linked alternatives. CAD excluded: not needed for PDF layout.",
   "assets": [
     {
@@ -43970,6 +43970,1025 @@
       "visually_reviewed_on": "2026-10-13",
       "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
       "execution_step": "H2"
+    },
+    {
+      "asset_id": "H3-ASSET-M17",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M17"
+      ],
+      "selected_codes": [
+        "M17"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m17.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+      "bytes": 443,
+      "format": "PNG",
+      "width_px": 64,
+      "height_px": 76,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        5.419,
+        6.435
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/eff2ab61a2a230e4b450dbad.png",
+        "sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+        "content_sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+        "retrieved_on": "2026-10-13",
+        "alt": "Farthinder",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 64,
+        "height": 76
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M17a",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17a.-cykelbox/m17a-cykelbox.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M17a"
+      ],
+      "selected_codes": [
+        "M17a"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m17a.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+      "bytes": 396261,
+      "format": "PNG",
+      "width_px": 6497,
+      "height_px": 11162,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        550.079,
+        945.049
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17a.-cykelbox/m17a-cykelbox.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/5a484ed9772c69f21b9d80fd.png",
+        "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+        "content_sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+        "retrieved_on": "2026-10-13",
+        "alt": "Cykelbox",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 6497,
+        "height": 11162
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M28",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M28"
+      ],
+      "selected_codes": [
+        "M28"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m28.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+      "bytes": 784,
+      "format": "PNG",
+      "width_px": 64,
+      "height_px": 74,
+      "mode": "RGB",
+      "max_size_mm_at_300ppi": [
+        5.419,
+        6.265
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/d975330ff97beec13b37d31f.png",
+        "sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+        "content_sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+        "retrieved_on": "2026-10-13",
+        "alt": "Buss",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 64,
+        "height": 74
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M29",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M29"
+      ],
+      "selected_codes": [
+        "M29"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m29.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+      "bytes": 1422,
+      "format": "PNG",
+      "width_px": 66,
+      "height_px": 74,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        5.588,
+        6.265
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e519dc564593623c1217271c.png",
+        "sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+        "content_sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+        "retrieved_on": "2026-10-13",
+        "alt": "Hastighet",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 66,
+        "height": 74
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M30",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m30.-vagnummer/m30.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M30"
+      ],
+      "selected_codes": [
+        "M30"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m30.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+      "bytes": 2972,
+      "format": "PNG",
+      "width_px": 728,
+      "height_px": 842,
+      "mode": "P",
+      "max_size_mm_at_300ppi": [
+        61.637,
+        71.289
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m30.-vagnummer/m30.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3f7e41734c9d85e41efe8064.png",
+        "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+        "content_sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+        "retrieved_on": "2026-10-13",
+        "alt": "Vägnummer",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 728,
+        "height": 842
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M31",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M31"
+      ],
+      "selected_codes": [
+        "M31"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m31.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+      "bytes": 1180,
+      "format": "PNG",
+      "width_px": 64,
+      "height_px": 74,
+      "mode": "RGB",
+      "max_size_mm_at_300ppi": [
+        5.419,
+        6.265
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/0fc28e52abf6bd7410f809f4.png",
+        "sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+        "content_sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+        "retrieved_on": "2026-10-13",
+        "alt": "Ändamålsplats",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 64,
+        "height": 74
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M32",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M32"
+      ],
+      "selected_codes": [
+        "M32"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m32.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+      "bytes": 829,
+      "format": "PNG",
+      "width_px": 64,
+      "height_px": 74,
+      "mode": "RGB",
+      "max_size_mm_at_300ppi": [
+        5.419,
+        6.265
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/298a94a75b9c86cc1052bfed.png",
+        "sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+        "content_sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+        "retrieved_on": "2026-10-13",
+        "alt": "Stopp",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 64,
+        "height": 74
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-M34",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-M34"
+      ],
+      "selected_codes": [
+        "M34"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m34.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+      "bytes": 913,
+      "format": "PNG",
+      "width_px": 64,
+      "height_px": 74,
+      "mode": "RGB",
+      "max_size_mm_at_300ppi": [
+        5.419,
+        6.265
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7210c4fee375f7f3408df810.png",
+        "sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+        "content_sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+        "retrieved_on": "2026-10-13",
+        "alt": "Information",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 64,
+        "height": 74
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-S5",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-S5"
+      ],
+      "selected_codes": [
+        "S5"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s5.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+      "bytes": 1149,
+      "format": "PNG",
+      "width_px": 245,
+      "height_px": 149,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        20.743,
+        12.615
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c96af999ea8d079c8ac967db.png",
+        "sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+        "content_sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+        "retrieved_on": "2026-10-13",
+        "alt": "Buss",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 245,
+        "height": 149
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-S6",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-S6"
+      ],
+      "selected_codes": [
+        "S6"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s6.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+      "bytes": 2430,
+      "format": "PNG",
+      "width_px": 245,
+      "height_px": 149,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        20.743,
+        12.615
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/10248f2329392f3815808a3b.png",
+        "sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+        "content_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+        "retrieved_on": "2026-10-13",
+        "alt": "Traktor och motorredskap klass II",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 245,
+        "height": 149
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-S7",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-S7"
+      ],
+      "selected_codes": [
+        "S7"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s7.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+      "bytes": 2520,
+      "format": "PNG",
+      "width_px": 245,
+      "height_px": 149,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        20.743,
+        12.615
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/f815aee52b9b4ae438d0a590.png",
+        "sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+        "content_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+        "retrieved_on": "2026-10-13",
+        "alt": "Motorcykel",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 245,
+        "height": 149
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-S11",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-S11"
+      ],
+      "selected_codes": [
+        "S11"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s11.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+      "bytes": 2266,
+      "format": "PNG",
+      "width_px": 245,
+      "height_px": 205,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        20.743,
+        17.357
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/8609c0ddc9cca4d648ebabb9.png",
+        "sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+        "content_sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+        "retrieved_on": "2026-10-13",
+        "alt": "Rörelsehindrade",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 245,
+        "height": 205
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-S13",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-S13"
+      ],
+      "selected_codes": [
+        "S13"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s13.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+      "bytes": 2841,
+      "format": "PNG",
+      "width_px": 347,
+      "height_px": 217,
+      "mode": "RGBA",
+      "max_size_mm_at_300ppi": [
+        29.379,
+        18.373
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/58dc2afac5b44d1a4a7fb34b.png",
+        "sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+        "content_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+        "retrieved_on": "2026-10-13",
+        "alt": "Personfärja",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 347,
+        "height": 217
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-T23",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/t.-tillaggstavlor/t23.-tunnelkategori/t23-1.jpg",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-T23"
+      ],
+      "selected_codes": [
+        "T23"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-t23.jpg",
+      "retrieved_on": "2026-10-13",
+      "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+      "bytes": 6468,
+      "format": "JPEG",
+      "width_px": 155,
+      "height_px": 140,
+      "mode": "RGB",
+      "max_size_mm_at_300ppi": [
+        13.123,
+        11.853
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/t.-tillaggstavlor/t23.-tunnelkategori/t23-1.jpg",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/623a4980554532d9b09ddaa1.jpg",
+        "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+        "content_sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+        "retrieved_on": "2026-10-13",
+        "alt": "Tunnelkategori",
+        "format": "jpeg",
+        "matches_question_image": true
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-ASSET-T25",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/t.-tillaggstavlor/t25.-oppet-dygnet-runt/t25-1.png",
+      "role": "displayed_raster",
+      "source_ids": [
+        "H0-SIGN-T25"
+      ],
+      "selected_codes": [
+        "T25"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-t25.png",
+      "retrieved_on": "2026-10-13",
+      "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+      "bytes": 16106,
+      "format": "PNG",
+      "width_px": 1191,
+      "height_px": 842,
+      "mode": "P",
+      "max_size_mm_at_300ppi": [
+        100.838,
+        71.289
+      ],
+      "status": "decoded_all_frames",
+      "quality_status": "usable_with_recorded_limits",
+      "quality_notes": [],
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "h0_artwork_evidence": {
+        "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/t.-tillaggstavlor/t25.-oppet-dygnet-runt/t25-1.png",
+        "path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/6918be4558e32ab12ada091d.png",
+        "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+        "content_sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+        "retrieved_on": "2026-10-13",
+        "alt": "Öppet dygnet runt",
+        "format": "png",
+        "matches_question_image": true,
+        "width": 1191,
+        "height": 842
+      },
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-S5",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-S5"
+      ],
+      "selected_codes": [
+        "S5"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s5.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "9f5c034634333fc2b9efee02a088563bdc289f5d76a7ab856c64ecb0efdd5d68",
+      "bytes": 427358,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s5.pdf",
+        "source_asset_id": "H3-EPS-S5",
+        "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s5.eps",
+        "official_eps_sha256": "9f5c034634333fc2b9efee02a088563bdc289f5d76a7ab856c64ecb0efdd5d68",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-S6",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-S6"
+      ],
+      "selected_codes": [
+        "S6"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+      "bytes": 434018,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+        "source_asset_id": "H3-EPS-S6",
+        "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+        "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-S7",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-S7"
+      ],
+      "selected_codes": [
+        "S7"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+      "bytes": 435322,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+        "source_asset_id": "H3-EPS-S7",
+        "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+        "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-S11",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-S11"
+      ],
+      "selected_codes": [
+        "S11"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s11.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "178232da050c74e0ade93fe4c3f0502ab1ced13c8b76424589335fa03b1163b2",
+      "bytes": 454770,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s11.pdf",
+        "source_asset_id": "H3-EPS-S11",
+        "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          66.985
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s11.eps",
+        "official_eps_sha256": "178232da050c74e0ade93fe4c3f0502ab1ced13c8b76424589335fa03b1163b2",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-S13",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-S13"
+      ],
+      "selected_codes": [
+        "S13"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+      "bytes": 519098,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+        "source_asset_id": "H3-EPS-S13",
+        "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 110,
+        "max_size_mm_at_300ppi": [
+          110,
+          68.547
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+        "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M17",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M17"
+      ],
+      "selected_codes": [
+        "M17"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m17.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "6f2e019fe8efdd4562761c961565224242e490ffea2f6d395a5ed0414815bd87",
+      "bytes": 384398,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m17.png",
+        "source_asset_id": "H3-EPS-M17",
+        "sha256": "6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          26.585
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m17.eps",
+        "official_eps_sha256": "6f2e019fe8efdd4562761c961565224242e490ffea2f6d395a5ed0414815bd87",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M28",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M28"
+      ],
+      "selected_codes": [
+        "M28"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m28.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "e7bb87f7ce5343d4b7d2a9bc49154b77e7a9554c5793195604e3d5b3ad7bba69",
+      "bytes": 389850,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m28.png",
+        "source_asset_id": "H3-EPS-M28",
+        "sha256": "77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m28.eps",
+        "official_eps_sha256": "e7bb87f7ce5343d4b7d2a9bc49154b77e7a9554c5793195604e3d5b3ad7bba69",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M29",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M29"
+      ],
+      "selected_codes": [
+        "M29"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m29.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "e3fc1665acfba68871fd7f03f4bc0591385738ec3c923a6a03ca978f11dc1a6c",
+      "bytes": 385874,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m29.png",
+        "source_asset_id": "H3-EPS-M29",
+        "sha256": "1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m29.eps",
+        "official_eps_sha256": "e3fc1665acfba68871fd7f03f4bc0591385738ec3c923a6a03ca978f11dc1a6c",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M31",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M31"
+      ],
+      "selected_codes": [
+        "M31"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m31.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "89d33b69ec1e7c0120dff5555c6059d6b21e576ecc451f8ab5ff2d8e2f54e00b",
+      "bytes": 389374,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m31.png",
+        "source_asset_id": "H3-EPS-M31",
+        "sha256": "3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m31.eps",
+        "official_eps_sha256": "89d33b69ec1e7c0120dff5555c6059d6b21e576ecc451f8ab5ff2d8e2f54e00b",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M32",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M32"
+      ],
+      "selected_codes": [
+        "M32"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m32.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "58fa4861c0b4da689cfd5ef4ee048d62f0cd063d4fba513013029fb769bf5463",
+      "bytes": 389090,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m32.png",
+        "source_asset_id": "H3-EPS-M32",
+        "sha256": "cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m32.eps",
+        "official_eps_sha256": "58fa4861c0b4da689cfd5ef4ee048d62f0cd063d4fba513013029fb769bf5463",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
+    },
+    {
+      "asset_id": "H3-EPS-M34",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.eps",
+      "role": "official_print_eps",
+      "source_ids": [
+        "H0-SIGN-M34"
+      ],
+      "selected_codes": [
+        "M34"
+      ],
+      "path": "docs/curriculum/sign-assets/originals/h3-m34.eps",
+      "retrieved_on": "2026-10-13",
+      "sha256": "75435f5d5171f090b875199c7557ac09d3c4ae46ca26dac4587b62f0756d3cc7",
+      "bytes": 387398,
+      "format": "EPS",
+      "render_status": "rendered_and_decoded",
+      "rendered_image": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m34.png",
+        "source_asset_id": "H3-EPS-M34",
+        "sha256": "2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m34.eps",
+        "official_eps_sha256": "75435f5d5171f090b875199c7557ac09d3c4ae46ca26dac4587b62f0756d3cc7",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "quality_status": "usable_with_recorded_limits",
+      "visually_reviewed_on": "2026-10-13",
+      "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
+      "execution_step": "H3"
     }
   ],
   "pages": [
@@ -62943,6 +63962,423 @@
         "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
       },
       "execution_step": "H2"
+    },
+    {
+      "source_id": "H0-SIGN-M17",
+      "title": "M17 Farthinder",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/farthinder/",
+      "selected_codes": [
+        "M17"
+      ],
+      "raster_asset_id": "H3-ASSET-M17",
+      "eps_asset_ids": [
+        "H3-EPS-M17"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m17.png",
+        "source_asset_id": "H3-EPS-M17",
+        "sha256": "6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          26.585
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m17.-farthinder/m17-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m17.eps",
+        "official_eps_sha256": "6f2e019fe8efdd4562761c961565224242e490ffea2f6d395a5ed0414815bd87",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M17a",
+      "title": "M17a Cykelbox",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/",
+      "selected_codes": [
+        "M17a"
+      ],
+      "raster_asset_id": "H3-ASSET-M17a",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h3-m17a.png",
+        "source_asset_id": "H3-ASSET-M17a",
+        "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+        "max_size_mm_at_300ppi": [
+          550.079,
+          945.049
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M28",
+      "title": "M28 Buss",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/buss/",
+      "selected_codes": [
+        "M28"
+      ],
+      "raster_asset_id": "H3-ASSET-M28",
+      "eps_asset_ids": [
+        "H3-EPS-M28"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m28.png",
+        "source_asset_id": "H3-EPS-M28",
+        "sha256": "77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m28.-buss/m28-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m28.eps",
+        "official_eps_sha256": "e7bb87f7ce5343d4b7d2a9bc49154b77e7a9554c5793195604e3d5b3ad7bba69",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M29",
+      "title": "M29 Hastighet",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/hastighet/",
+      "selected_codes": [
+        "M29"
+      ],
+      "raster_asset_id": "H3-ASSET-M29",
+      "eps_asset_ids": [
+        "H3-EPS-M29"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m29.png",
+        "source_asset_id": "H3-EPS-M29",
+        "sha256": "1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m29.-hastighet/m29-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m29.eps",
+        "official_eps_sha256": "e3fc1665acfba68871fd7f03f4bc0591385738ec3c923a6a03ca978f11dc1a6c",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M30",
+      "title": "M30 Vägnummer",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/vagnummer/",
+      "selected_codes": [
+        "M30"
+      ],
+      "raster_asset_id": "H3-ASSET-M30",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h3-m30.png",
+        "source_asset_id": "H3-ASSET-M30",
+        "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+        "max_size_mm_at_300ppi": [
+          61.637,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M31",
+      "title": "M31 Ändamålsplats",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/andamalsplats/",
+      "selected_codes": [
+        "M31"
+      ],
+      "raster_asset_id": "H3-ASSET-M31",
+      "eps_asset_ids": [
+        "H3-EPS-M31"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m31.png",
+        "source_asset_id": "H3-EPS-M31",
+        "sha256": "3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m31.-andamalsplats/m31-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m31.eps",
+        "official_eps_sha256": "89d33b69ec1e7c0120dff5555c6059d6b21e576ecc451f8ab5ff2d8e2f54e00b",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M32",
+      "title": "M32 Stopp",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/stopp/",
+      "selected_codes": [
+        "M32"
+      ],
+      "raster_asset_id": "H3-ASSET-M32",
+      "eps_asset_ids": [
+        "H3-EPS-M32"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m32.png",
+        "source_asset_id": "H3-EPS-M32",
+        "sha256": "cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m32.-stopp/m32-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m32.eps",
+        "official_eps_sha256": "58fa4861c0b4da689cfd5ef4ee048d62f0cd063d4fba513013029fb769bf5463",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-M34",
+      "title": "M34 Information",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/information/",
+      "selected_codes": [
+        "M34"
+      ],
+      "raster_asset_id": "H3-ASSET-M34",
+      "eps_asset_ids": [
+        "H3-EPS-M34"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-m34.png",
+        "source_asset_id": "H3-EPS-M34",
+        "sha256": "2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854",
+        "max_size_mm_at_300ppi": [
+          22.521,
+          25.993
+        ],
+        "reason": "Verified 300 ppi Ghostscript render of official EPS for the exact question variant; no artwork edits.",
+        "official_variant_image_sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/m.-vagmarkeringar/m34.-information/m34-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-m34.eps",
+        "official_eps_sha256": "75435f5d5171f090b875199c7557ac09d3c4ae46ca26dac4587b62f0756d3cc7",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-marking-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-S5",
+      "title": "S5 Buss",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/buss/",
+      "selected_codes": [
+        "S5"
+      ],
+      "raster_asset_id": "H3-ASSET-S5",
+      "eps_asset_ids": [
+        "H3-EPS-S5"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s5.pdf",
+        "source_asset_id": "H3-EPS-S5",
+        "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s05.-buss/s5-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s5.eps",
+        "official_eps_sha256": "9f5c034634333fc2b9efee02a088563bdc289f5d76a7ab856c64ecb0efdd5d68",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-S6",
+      "title": "S6 Traktor och motorredskap klass II",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/",
+      "selected_codes": [
+        "S6"
+      ],
+      "raster_asset_id": "H3-ASSET-S6",
+      "eps_asset_ids": [
+        "H3-EPS-S6"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+        "source_asset_id": "H3-EPS-S6",
+        "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+        "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-S7",
+      "title": "S7 Motorcykel",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/",
+      "selected_codes": [
+        "S7"
+      ],
+      "raster_asset_id": "H3-ASSET-S7",
+      "eps_asset_ids": [
+        "H3-EPS-S7"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+        "source_asset_id": "H3-EPS-S7",
+        "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          48.395
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+        "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-S11",
+      "title": "S11 Rörelsehindrade",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/rorelsehindrade/",
+      "selected_codes": [
+        "S11"
+      ],
+      "raster_asset_id": "H3-ASSET-S11",
+      "eps_asset_ids": [
+        "H3-EPS-S11"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s11.pdf",
+        "source_asset_id": "H3-EPS-S11",
+        "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 80,
+        "max_size_mm_at_300ppi": [
+          80,
+          66.985
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s11.-rorelsehindrade/s11-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s11.eps",
+        "official_eps_sha256": "178232da050c74e0ade93fe4c3f0502ab1ced13c8b76424589335fa03b1163b2",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-S13",
+      "title": "S13 Personfärja",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/",
+      "selected_codes": [
+        "S13"
+      ],
+      "raster_asset_id": "H3-ASSET-S13",
+      "eps_asset_ids": [
+        "H3-EPS-S13"
+      ],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+        "source_asset_id": "H3-EPS-S13",
+        "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+        "format": "PDF",
+        "minimum_reviewed_width_mm": 110,
+        "max_size_mm_at_300ppi": [
+          110,
+          68.547
+        ],
+        "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+        "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+        "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+        "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+        "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+        "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-T23",
+      "title": "T23 Tunnelkategori",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tunnelkategori/",
+      "selected_codes": [
+        "T23"
+      ],
+      "raster_asset_id": "H3-ASSET-T23",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h3-t23.jpg",
+        "source_asset_id": "H3-ASSET-T23",
+        "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+        "max_size_mm_at_300ppi": [
+          13.123,
+          11.853
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H3"
+    },
+    {
+      "source_id": "H0-SIGN-T25",
+      "title": "T25 Öppet dygnet runt",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/oppet-dygnet-runt/",
+      "selected_codes": [
+        "T25"
+      ],
+      "raster_asset_id": "H3-ASSET-T25",
+      "eps_asset_ids": [],
+      "asset_quality_status": "usable_with_recorded_limits",
+      "preferred_for_layout": {
+        "path": "docs/curriculum/sign-assets/originals/h3-t25.png",
+        "source_asset_id": "H3-ASSET-T25",
+        "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+        "max_size_mm_at_300ppi": [
+          100.838,
+          71.289
+        ],
+        "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+      },
+      "execution_step": "H3"
     }
   ],
   "held_requests": [
@@ -63077,16 +64513,16 @@
     }
   ],
   "summary": {
-    "selected_identifiers": 327,
-    "source_pages": 562,
-    "original_rasters": 562,
-    "original_eps": 497,
+    "selected_identifiers": 342,
+    "source_pages": 577,
+    "original_rasters": 577,
+    "original_eps": 508,
     "download_failures": 0,
-    "original_bytes": 393858809,
+    "original_bytes": 398893943,
     "raster_decode_failures": 0,
     "eps_render_failures": 0,
-    "derived_300ppi_renders": 497,
-    "usable_page_candidates": 558,
+    "derived_300ppi_renders": 503,
+    "usable_page_candidates": 573,
     "held_page_candidates": 4,
     "step_4C_status": "complete_with_explicit_quality_holds",
     "publication_status": "not_approved; captions, placement, design and final rendered-page verification remain",
@@ -63458,6 +64894,101 @@
       "reuse_policy_id": "TS-ROAD-SIGN-REUSE-2026-10-01",
       "proof": "docs/curriculum/sign-assets/official-poster/vector-legibility-proof.pdf",
       "method": "pypdf crop and affine scale; outside poster text removed; sign vector paths and colours unchanged"
+    },
+    {
+      "code": "S5",
+      "asset_id": "H3-VECTOR-S5",
+      "role": "official_vector_extract",
+      "source_document_id": "H3-EPS-S5",
+      "source_document_sha256": "9f5c034634333fc2b9efee02a088563bdc289f5d76a7ab856c64ecb0efdd5d68",
+      "path": "docs/curriculum/sign-assets/rendered/h3-s5.pdf",
+      "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad",
+      "format": "PDF",
+      "minimum_reviewed_width_mm": 80,
+      "max_size_mm_at_300ppi": [
+        80,
+        48.395
+      ],
+      "status": "reviewed_with_exact_question_variant",
+      "proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png",
+      "method": "Ghostscript pdfwrite EPSCrop; vector paths, stroke colours and artwork preserved. No recolouring or line-weight edits.",
+      "execution_step": "H3"
+    },
+    {
+      "code": "S6",
+      "asset_id": "H3-VECTOR-S6",
+      "role": "official_vector_extract",
+      "source_document_id": "H3-EPS-S6",
+      "source_document_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+      "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+      "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+      "format": "PDF",
+      "minimum_reviewed_width_mm": 80,
+      "max_size_mm_at_300ppi": [
+        80,
+        48.395
+      ],
+      "status": "reviewed_with_exact_question_variant",
+      "proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png",
+      "method": "Ghostscript pdfwrite EPSCrop; vector paths, stroke colours and artwork preserved. No recolouring or line-weight edits.",
+      "execution_step": "H3"
+    },
+    {
+      "code": "S7",
+      "asset_id": "H3-VECTOR-S7",
+      "role": "official_vector_extract",
+      "source_document_id": "H3-EPS-S7",
+      "source_document_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+      "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+      "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+      "format": "PDF",
+      "minimum_reviewed_width_mm": 80,
+      "max_size_mm_at_300ppi": [
+        80,
+        48.395
+      ],
+      "status": "reviewed_with_exact_question_variant",
+      "proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png",
+      "method": "Ghostscript pdfwrite EPSCrop; vector paths, stroke colours and artwork preserved. No recolouring or line-weight edits.",
+      "execution_step": "H3"
+    },
+    {
+      "code": "S11",
+      "asset_id": "H3-VECTOR-S11",
+      "role": "official_vector_extract",
+      "source_document_id": "H3-EPS-S11",
+      "source_document_sha256": "178232da050c74e0ade93fe4c3f0502ab1ced13c8b76424589335fa03b1163b2",
+      "path": "docs/curriculum/sign-assets/rendered/h3-s11.pdf",
+      "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f",
+      "format": "PDF",
+      "minimum_reviewed_width_mm": 80,
+      "max_size_mm_at_300ppi": [
+        80,
+        66.985
+      ],
+      "status": "reviewed_with_exact_question_variant",
+      "proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png",
+      "method": "Ghostscript pdfwrite EPSCrop; vector paths, stroke colours and artwork preserved. No recolouring or line-weight edits.",
+      "execution_step": "H3"
+    },
+    {
+      "code": "S13",
+      "asset_id": "H3-VECTOR-S13",
+      "role": "official_vector_extract",
+      "source_document_id": "H3-EPS-S13",
+      "source_document_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+      "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+      "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+      "format": "PDF",
+      "minimum_reviewed_width_mm": 110,
+      "max_size_mm_at_300ppi": [
+        110,
+        68.547
+      ],
+      "status": "reviewed_with_exact_question_variant",
+      "proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png",
+      "method": "Ghostscript pdfwrite EPSCrop; vector paths, stroke colours and artwork preserved. No recolouring or line-weight edits.",
+      "execution_step": "H3"
     }
   ],
   "resolution_review": "sign-assets/official-poster/README.md",
@@ -63536,5 +65067,26 @@
       "J3"
     ],
     "scope": "36 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
+  },
+  "h3_extension": {
+    "completed_on": "2026-10-13",
+    "codes": [
+      "M17",
+      "M17a",
+      "M28",
+      "M29",
+      "M30",
+      "M31",
+      "M32",
+      "M34",
+      "S5",
+      "S6",
+      "S7",
+      "S11",
+      "S13",
+      "T23",
+      "T25"
+    ],
+    "scope": "15 exact primary entries; H0 detail-page, variant and reuse evidence. Historical step-4 summaries retain their original scope."
   }
 }

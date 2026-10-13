@@ -1756,3 +1756,98 @@ Official Swedish: **Anläggning som enbart tillhandahåller platser för bilar m
 Official Swedish: **Livsfarlig ledning**. Primary group: RB10.
 
 [Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d`.
+
+
+## H3 Appendix B extension — 13 October 2026
+
+Fifteen entries extend the existing approved card presentation. Official symbol outlines use the established full-width vector-card format, preserving the official artwork. H0 supplies exact detail/variant and reuse evidence. English wording is editorial.
+
+### M17 · Speed obstacle
+
+Official Swedish: **Farthinder**. Primary group: RB05.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/farthinder/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb`.
+
+### M17a · Bicycle box
+
+Official Swedish: **Cykelbox**. Primary group: RB13.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e`.
+
+### M28 · Bus lane marking
+
+Official Swedish: **Buss**. Primary group: RB05.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/buss/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb`.
+
+### M29 · Maximum-speed marking
+
+Official Swedish: **Hastighet**. Primary group: RB11.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/hastighet/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398`.
+
+### M30 · Route-number marking
+
+Official Swedish: **Vägnummer**. Primary group: RB07.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/vagnummer/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30`.
+
+### M31 · Standing place for a stated purpose
+
+Official Swedish: **Ändamålsplats**. Primary group: RB16.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/andamalsplats/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612`.
+
+### M32 · Stop marking
+
+Official Swedish: **Stopp**. Primary group: RB02.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/stopp/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad`.
+
+### M34 · Information marking
+
+Official Swedish: **Information**. Primary group: RB05.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/information/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854`.
+
+### S5 · Bus symbol
+
+Official Swedish: **Buss**. Primary group: RB06.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/buss/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad`.
+
+### S6 · Tractor and class II motorised-equipment symbol
+
+Official Swedish: **Traktor och motorredskap klass II**. Primary group: RB06.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395`.
+
+### S7 · Motorcycle and class I moped symbol
+
+Official Swedish: **Motorcykel**. Primary group: RB06.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b`.
+
+### S11 · Mobility-disability symbol
+
+Official Swedish: **Rörelsehindrade**. Primary group: RB06.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/rorelsehindrade/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f`.
+
+### S13 · Passenger-ferry symbol
+
+Official Swedish: **Personfärja**. Primary group: RB09.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493`.
+
+### T23 · Tunnel-category panel
+
+Official Swedish: **Tunnelkategori**. Primary group: RB22.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tunnelkategori/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248`.
+
+### T25 · Open 24 hours a day
+
+Official Swedish: **Öppet dygnet runt**. Primary group: RB09.
+
+[Transportstyrelsen exact description](https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/oppet-dygnet-runt/). Checked 13 October 2026. English wording is editorial. Asset SHA-256: `b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3`.
