@@ -771,7 +771,14 @@
       "retrieved": "2026-10-01",
       "sha256": "95fb8e274b8ea2a7b9846105a0e4381f5b2779bd55f01583650148e80f45779a",
       "status": "retrieved",
-      "basis": "Official content retrieved during step 3"
+      "basis": "Official content retrieved during step 3",
+      "h5_review": {
+        "checked_on": "2026-10-13",
+        "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a7adb547fef9f80c927c4a5c.html.gz",
+        "sha256": "f551b3447c279339c25bc7ff9720acd957b6f4fc0642b69b3665051777f0cf85",
+        "supports": "Economical-driving context only; no agency attribution of the journey/savings formulas or supplied reductions.",
+        "derivation": "Formulas are editorial arithmetic from litres/100 km. Rounding conventions are explicitly editorial."
+      }
     },
     {
       "alias": "drink-law",

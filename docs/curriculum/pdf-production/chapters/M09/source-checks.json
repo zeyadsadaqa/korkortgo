@@ -254,5 +254,12 @@
       "retrieval_method": "Exact primary official page or PDF passage inspected with web tools"
     }
   ],
-  "changes_to_manuscript": "G9 M09-L01/L02/L04; original source-check dates retained"
+  "changes_to_manuscript": "G9 M09-L01/L02/L04; original source-check dates retained",
+  "h5_extension": {
+    "checked_on": "2026-10-13",
+    "evidence": "../../../question-book-review/remaining-gap-h0-sources.json",
+    "agency_context": "eco",
+    "scope": "Transportstyrelsen economical-driving context only. Formulas are editorial unit arithmetic and rates/reductions are exercise assumptions.",
+    "rounding_disposition": "Bank preserved. Four midpoint exact values disclosed with the one-decimal ties-to-even keys and half-up comparison. Prompt ambiguity retained for H7, not silently erased."
+  }
 }

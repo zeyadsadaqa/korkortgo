@@ -66,6 +66,28 @@ for rec in ART.values():
     approved=next(a for a in approvals if a['path'].endswith('/'+rec['file']))
     assert hashlib.sha256((ROOT/'pdf-design/gap-resolution'/rec['file']).read_bytes()).hexdigest()==approved['sha256']
 assert (OUT/'chapter-source.md').read_text().startswith(SOURCE)
+from decimal import Decimal, ROUND_HALF_EVEN
+h0=json.loads((ROOT/'question-book-review/remaining-gap-h0-sources.json').read_text())
+consumption_pages=[i+1 for i,t in enumerate(texts) if 'Journey consumption:' in t]
+savings_pages=[i+1 for i,t in enumerate(texts) if 'Savings from a supplied reduction:' in t]
+rounding_pages=[i+1 for i,t in enumerate(texts) if 'Four midpoint examples.' in t or 'Compare conventions.' in t]
+assert consumption_pages and savings_pages and rounding_pages
+for phrase in ['distance in km × consumption in litres/100 km ÷ 100','distance in km × reduction in litres/100 km ÷ 100','7.8 litres','4.5 litres','7.0 − 6.5 = 0.5','ties-to-even','2.25 becomes 2.3','1.25 becomes 1.3','not agency-prescribed formulas','5.2 litres','2.6 litres saved']:
+ assert phrase in alltext,phrase
+bank={q['id']:q for q in json.loads((REPO/'content/questions.json').read_text())}
+calculations=[]
+for target in h0['targets']:
+ if target['step']!='H5':continue
+ q=bank[target['question_id']];saving=q['id'].startswith('fuel-saving-')
+ pattern=r'by ([\d.]+) litres per 100 km. Over ([\d.]+) km' if saving else r'averages ([\d.]+) litres per 100 km over a ([\d.]+) km'
+ rate,distance=map(Decimal,re.search(pattern,q['prompt']).groups())
+ exact=(distance/100)*rate;key=Decimal(re.search(r'[\d.]+',q['options'][q['correct']]['text'])[0]);rounded=exact.quantize(Decimal('0.1'),rounding=ROUND_HALF_EVEN)
+ assert key==rounded,q['id']
+ if exact!=key:assert q['id'] in h0['findings']['rounding'] and saving
+ calculations.append({'question_id':q['id'],'kind':'savings' if saving else 'consumption','distance_km':str(distance),'litres_per_100_km':str(rate),'exact_litres':str(exact),'keyed_litres':str(key),'exact_key_match':exact==key,'matches_disclosed_ties_to_even':rounded==key,'prompt_rounding_qualification_retained':exact!=key,'component_teaching_pages':savings_pages if saving else consumption_pages,'component_rounding_pages':rounding_pages if exact!=key else []})
+assert len(calculations)==40 and sum(not r['exact_key_match'] for r in calculations)==4
+for name in ['book','delivery_book','questions','gaps']:
+ item=h0['baseline'][name];assert hashlib.sha256((REPO/item['path']).read_bytes()).hexdigest()==item['sha256']
 first=hashlib.sha256(pdf.read_bytes()).hexdigest();subprocess.run([sys.executable,str(OUT/'build_chapter.py')],check=True,capture_output=True);assert hashlib.sha256(pdf.read_bytes()).hexdigest()==first
-report={'status':'passed','pages':len(reader.pages),'complete_lessons':4,'module_reviews':1,'manuscript_blocks_preserved':verified,'illustrations':len(ART),'scene_sign_insertions':sum('code' in o for r in ART.values() for o in r.get('overlays',[])),'official_sign_placements':len(records),'unique_official_assets':len({r['code'] for r in records}),'required_groups':len(GROUPS),'vector_placements':sum(r['vector'] for r in records),'official_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(reader.named_destinations),'embedded_fonts':sorted(fonts),'answers_non_facing':True,'sha256':first,'reproducible':True,'visual_review':'See review.md','release_limits':['Approved scene crops are screen-review resolution; print masters remain separate','Full tagged-PDF accessibility and final navigation/pagination checked in 6M–6N']}
+report={'status':'passed','pages':len(reader.pages),'complete_lessons':4,'module_reviews':1,'manuscript_blocks_preserved':verified,'illustrations':len(ART),'scene_sign_insertions':sum('code' in o for r in ART.values() for o in r.get('overlays',[])),'official_sign_placements':len(records),'unique_official_assets':len({r['code'] for r in records}),'required_groups':len(GROUPS),'vector_placements':sum(r['vector'] for r in records),'official_reference_urls':len(uris),'valid_internal_links':links,'named_destinations':len(reader.named_destinations),'embedded_fonts':sorted(fonts),'answers_non_facing':True,'sha256':first,'reproducible':True,'h5':{'question_component_pages':calculations,'consumption_pages':consumption_pages,'savings_pages':savings_pages,'rounding_pages':rounding_pages,'bank_and_full_book_unchanged':True,'rounding_prompt_qualifications':h0['findings']['rounding']},'visual_review':'../../../question-book-review/remaining-gap-execution-plan.md, H5 execution record','release_limits':['Approved scene crops are screen-review resolution; print masters remain separate','Full assembly/folios and final coverage auditing remain H6/H7']}
 (OUT/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n');print(json.dumps(report,ensure_ascii=False,indent=2))

@@ -1,6 +1,6 @@
 # Remaining 228-question teaching-gap execution plan
 
-Status: H0–H4 approved and completed on 13 October 2026; H5–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
+Status: H0–H5 approved and completed on 13 October 2026; H6–H7 not started. Prepared 13 October 2026. This remains the execution/progress document. H0 added a canonical source register, compressed source snapshots, verification artwork and a reproducible verifier; it did not change teaching, question content, production assets or PDFs.
 
 ## Scope and completion criterion
 
@@ -566,3 +566,45 @@ The [updated Chapter 3 component](../../../output/pdf/korkortgo-chapter-03.pdf) 
 - Frozen full book/delivery, bank and gaps remain at their H0 hashes. The baseline verifier with `--offline --allow-teaching-changes` and source-text whitespace checks pass. H0's fuel-rounding findings remain for H5. The current 540-page assembled book is unchanged; no final-book coverage increase is claimed until H6/H7.
 
 **Next executable scope:** H5, consumption and savings arithmetic in M09-L02 for 40 questions, explicitly preserving/resolving the recorded four midpoint-rounding qualifications. H5–H7 have not started.
+
+
+## H5 execution record — completed 13 October 2026
+
+**Authorisation:** User approved H5. **Acceptance gate:** M09-L02 now teaches journey consumption, supplied savings and two-rate comparisons with units, decimal working, examples and separate practice answers. All 40 actual prompt inputs were independently parsed and calculated: 36 keys equal the exact result and four match the explicitly disclosed one-decimal ties-to-even convention. The original prompt-rounding qualifications remain recorded; neither the question bank nor its wording was changed.
+
+### Teaching and source changes
+
+Added two pages using the existing approved lesson typography and layout: “Calculate journey consumption and savings” and “Exact values and displayed answers”. Explain litres per 100 km as the amount for each 100 km portion; teach:
+
+- Journey litres = distance in km × consumption in litres/100 km ÷ 100.
+- Litres saved = distance in km × supplied reduction in litres/100 km ÷ 100.
+- When two rates are given, subtract the lower from the higher first. Keep units and decimal working, and round only the final result at a stated precision/convention.
+
+Worked examples: 120 km at 6.5 litres/100 km uses **7.8 litres**; a supplied reduction of 1.5 litres/100 km over 300 km saves **4.5 litres**; 7.0 versus 6.5 litres/100 km over 240 km gives a 0.5-rate difference and **1.2 litres** saved, also checked by subtracting 15.6 litres from 16.8 litres. Three practice questions have separate answers: **5.2 litres** consumption, **1.25 litres exactly / 1.2 litres with one-decimal ties-to-even**, and **2.6 litres** saved after a rate subtraction.
+
+Transportstyrelsen's already cited economical-driving page supplies context only. The equations and rounding convention are **editorial arithmetic**, not agency prescriptions. Rates/reductions are supplied or measured exercise assumptions, not guaranteed technique savings; actual conditions affect consumption. The existing `eco` source retains its previous record and gains an H5 scoped review bound to the same-day H0 evidence. Canonical manuscript/source/claim registers and Chapter 9 source-checks are updated; no extra authority for the supported context was added. All manuscript content outside M09-L02 is byte-for-byte unchanged.
+
+### Rounding disposition
+
+The lesson explicitly discloses the four H0 midpoint findings, explains ties-to-even, distinguishes it from ordinary half-up, and retains the exact arithmetic:
+
+| Target ID | Exact litres | Current displayed key | Retained qualification |
+|---|---:|---:|---|
+| `fuel-saving-150-0.5` | 0.75 | 0.8 | One decimal, ties-to-even; prompt precision unstated |
+| `fuel-saving-150-1.5` | 2.25 | 2.2 | Ties-to-even; half-up would give 2.3 |
+| `fuel-saving-250-0.5` | 1.25 | 1.2 | Ties-to-even; half-up would give 1.3 |
+| `fuel-saving-250-1.5` | 3.75 | 3.8 | One decimal, ties-to-even; prompt precision unstated |
+
+**Disposition:** H5's teaching gap is addressed by visible disclosure; the original prompt omission is not erased or called an exact equality. The book tells readers to follow stated precision/conventions, report an exact result when unspecified, and recognise that a rounded display needs an assumption. The existing chapter verifier stores exact values separately from keyed values and flags all four qualifications. H7 must assess keyed-answer selection using the printed teaching and retain these qualifications; this is not an independent bank-content correction or an unconditional final coverage pass.
+
+### Component output and validation
+
+The [updated Chapter 9 component](../../../output/pdf/korkortgo-chapter-09.pdf) has **29 pages**, up from 27: **two added pages**. Both consumption and savings equations/examples are on component page **8**, rounding disclosures and practice prompts on **9**, the lesson knowledge check on **11**, and answers on **24**. H6/H7 must bind these to final assembled-book pages. Existing economical-driving advice, all ten official reference placements and four approved scenes are preserved.
+
+- Independently recomputed all 20 consumption and 20 savings targets from their actual prompt distances and rates using exact Decimal arithmetic. All 36 exact results and four disclosed rounded keys pass. Every target ID, input, exact/keyed value, qualification and component teaching page is recorded in the existing chapter verification JSON.
+- Manuscript fidelity, official asset bindings/hashes, font embedding, text equivalents, source URLs, 36 internal links, 32 named destinations, all-page text bounds and separated non-facing answers pass.
+- Deterministic rebuild and source/delivery PDF equality pass. Chapter SHA-256: `32c47732e24c8bead14cf3eebace17bcbf13d650d8b0cec781a011e8f47c969a`.
+- **13 final pages** rendered and visually inspected at 115 dpi: 1, 6, 7, 8, 9, 10, 11, 24, 25, 26, 27, 28, 29. Equations, rates/units, exact and rounded results, worked examples, prompts/answers, source notes, wrapped URLs, headers and folios are readable without overlap or clipping. Scratch renders are in `tmp/pdfs/h5`; this plan and existing chapter/source-checks JSONs retain results, with no new execution-report tree.
+- The baseline verifier with `--offline --allow-teaching-changes` and source-text whitespace checks pass. Frozen full book/delivery, bank and gaps retain H0 hashes. All teaching additions H1–H5 are now in their verified components; full-book assembly and final coverage auditing have not run.
+
+**Next executable scope:** H6, rebuild affected reference/front-matter components and assemble the complete book with continuous printed folios, PDF labels, bookmarks and references. H6–H7 have not started. H7 retains the four original fuel-rounding qualifications when auditing all 1,000 questions.

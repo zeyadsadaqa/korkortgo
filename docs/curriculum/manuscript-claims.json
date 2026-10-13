@@ -3350,6 +3350,60 @@
       "id": "H4-principles",
       "classification": "agency_guidance",
       "statement": "Stopping combines reaction and braking and depends on speed/conditions."
+    },
+    {
+      "id": "H5-consumption",
+      "lesson": "M09-L02",
+      "classification": "editorial_arithmetic",
+      "statement": "Journey litres = distance in km × consumption in litres/100 km ÷ 100.",
+      "support": [
+        {
+          "source_alias": "eco",
+          "source_id": "MS-a7adb547fef9f80c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "checked_on": "2026-10-13",
+          "scope": "Agency driving context only, not a source for the equation or rounding."
+        }
+      ],
+      "derivation": "Unit arithmetic; exact decimal calculations independently recomputed from actual exercise inputs.",
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Editorial arithmetic from units; supplied rate is an assumption, not a prediction for all conditions."
+    },
+    {
+      "id": "H5-savings",
+      "lesson": "M09-L02",
+      "classification": "editorial_arithmetic",
+      "statement": "Litres saved = distance in km × supplied reduction in litres/100 km ÷ 100; subtract two rates first when both are given.",
+      "support": [
+        {
+          "source_alias": "eco",
+          "source_id": "MS-a7adb547fef9f80c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "checked_on": "2026-10-13",
+          "scope": "Agency driving context only, not a source for the equation or rounding."
+        }
+      ],
+      "derivation": "Unit arithmetic; exact decimal calculations independently recomputed from actual exercise inputs.",
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Editorial arithmetic, not agency-prescribed formula or guaranteed technique saving."
+    },
+    {
+      "id": "H5-rounding",
+      "lesson": "M09-L02",
+      "classification": "editorial_arithmetic",
+      "statement": "Four supplied midpoint exercises use one-decimal ties-to-even keys: 0.75→0.8, 2.25→2.2, 1.25→1.2, 3.75→3.8.",
+      "support": [
+        {
+          "source_alias": "eco",
+          "source_id": "MS-a7adb547fef9f80c",
+          "url": "https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/",
+          "checked_on": "2026-10-13",
+          "scope": "Agency driving context only, not a source for the equation or rounding."
+        }
+      ],
+      "derivation": "Unit arithmetic; exact decimal calculations independently recomputed from actual exercise inputs.",
+      "decision": "supported_with_stated_scope",
+      "scope_limit": "Original prompts omit precision/convention. Exact values remain visible; this is explicit disclosure of existing keys, not a correction of prompt wording. Ordinary half-up differs for 2.25 and 1.25."
     }
   ],
   "last_amended_on": "2026-10-13"

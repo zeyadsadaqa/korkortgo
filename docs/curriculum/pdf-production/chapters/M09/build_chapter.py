@@ -216,7 +216,7 @@ def lesson_body(b,n):
     b.start(key,key);b.text(key,'source');b.text(s['title'],'heading');b.add(panel(paras[0]),18)
     worked=next(p for p in paras if p.startswith('**Worked decision.'))
     for p in paras[1:paras.index(worked)]:
-        for marker,suffix,title in [('**Emissions explained ·','-emissions','Understand emissions'),('**Powertrain and washing ·','-powertrain','Compare powertrains and washing'),('**Practical energy choices ·','-energy','Use energy with control')]:
+        for marker,suffix,title in [('**Emissions explained ·','-emissions','Understand emissions'),('**Powertrain and washing ·','-powertrain','Compare powertrains and washing'),('**Practical energy choices ·','-energy','Use energy with control'),('**Fuel arithmetic ·','-fuel-arithmetic','Calculate journey consumption and savings'),('**Precision and midpoint rounding ·','-fuel-rounding','Exact values and displayed answers')]:
             if p.startswith(marker):
                 b.end();b.start(key+suffix,key+' · '+title);b.text(title,'heading')
         b.text(p)
@@ -248,7 +248,7 @@ def run():
     b.text('M09-R','source',6);b.text('**Review guide:** '+a);b.answers['M09-R']=b.page;b.end()
     for offset in range(0,len(ALIASES),5):
         key='M09-references' if offset==0 else f'M09-references-{offset//5+1}';b.start(key,'Official references');b.text('Official references','heading')
-        b.text('Original references checked 7 October 2026; G9 additions checked 13 October 2026. Sign captions and artwork use the official asset register. Consult current guidance and applicable rules.','caption',18)
+        b.text('Original references checked 7 October 2026; G9 additions checked 13 October 2026; H5 fuel arithmetic and scoped source context checked 13 October 2026. The fuel equations and rounding convention are editorial arithmetic; supplied savings are exercise assumptions. Sign captions and artwork use the official asset register. Consult current guidance and applicable rules.','caption',18)
         for alias in ALIASES[offset:offset+5]:
             b.text(LABELS[alias],'body',4);b.add(Paragraph(f'<link href="{escape(REFS[alias])}" color="#173E32">{escape(REFS[alias])}</link>',STYLES['source']),20)
         if offset+5>=len(ALIASES):b.text('Road-sign illustrations: Transportstyrelsen. Each reference example links to its official description. Swedish names are official; English labels and explanations are editorial translations. Road scenes are simplified illustrations, not to scale.','caption')
