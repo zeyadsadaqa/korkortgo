@@ -2,7 +2,7 @@
 
 **Version:** 1.0 · **Prepared:** 1 October 2026 · **Status:** Approved by the user on 1 October 2026
 
-This proposed category B learning structure follows decisions a learner makes before, during and after a journey. Its 10 modules contain 40 lessons and 10 module self-assessments. Titles, objectives and scenario briefs are original. The [official-source map](curriculum-source-map.md) records support and remaining research for every objective. Planning IDs below are review references; final app identifiers and question migration belong to step 7.
+This proposed category B learning structure follows decisions a learner makes before, during and after a journey. Its 10 modules contain 40 lessons and 10 module self-assessments. Titles, objectives and scenario briefs are original. The [official-source map](curriculum-source-map.md) records support and remaining research for every objective. The existing planning IDs below must be retained as canonical app identifiers in [step 7B](implementation-plan.md#7b-confirm-stable-curriculum-ids-and-the-app-content-contract); question mapping and disposition review belong to steps 7C–7D. Any necessary identifier aliases must be recorded rather than silently renumbered.
 
 ## Required opening notice
 

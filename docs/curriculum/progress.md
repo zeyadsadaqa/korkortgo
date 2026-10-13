@@ -1,7 +1,7 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 7 October 2026
+**Last updated:** 14 October 2026 (step 7 planning breakdown only)
 **Current position:** Steps 1–5 completed for source/content preparation and approved visual direction. Steps 6A–6M completed: the full 498-page book is assembled with final contents, continuous folios and verified navigation. Step 6N and steps 7–10 not started.
 **Next action:** Review the [complete book](pdf-production/korkortgo-curriculum-review.pdf). Final full-PDF verification and submission for approval can be requested independently as step 6N.
 
@@ -17,7 +17,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | In progress; 6A–6M completed | Planned as 6A–6N: preparation, ten individual chapters, references, assembly and final verification/approval |
-| 7 | Plan the app’s curriculum migration | Not started | Approved PDF required; map lesson IDs and practice questions |
+| 7 | Plan the app’s curriculum migration | Not started | Planned as 7A–7G; approved 6N PDF required before execution |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
@@ -66,6 +66,20 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 | 6L | Appendices, sign reference and official sources | Completed | [Reference PDF](pdf-production/reference-material.pdf), [editable source](pdf-production/reference/build_reference.py), [review](pdf-production/reference-material-review.md), [checks](pdf-production/reference/verification.json); 183-page screen-review build |
 | 6M | Complete book assembly and navigation | Completed | [Complete PDF](pdf-production/korkortgo-curriculum-review.pdf), [assembly review](pdf-production/assembly/assembly-review.md), [checks](pdf-production/assembly/verification.json); 498 pages with final folios and navigation |
 | 6N | Final verification and PDF approval | Not started | Finished PDF, editable source, verification report and explicit user approval |
+
+## Step 7 substep tracker
+
+The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) is planning only; no substep has been executed. Step 6N verification and explicit PDF approval remain entry requirements. Confirm the latest approved release against the [578-page question coverage review](question-book-review/review.md) when executing 7A; this update does not reassess earlier production statuses above.
+
+| Substep | Work | Status | Planned deliverable |
+|---|---|---|---|
+| 7A | Freeze content and audit app | Not started | `app-migration/baseline.md`, `baseline.json` |
+| 7B | Confirm curriculum IDs and content contract | Not started | `app-migration/curriculum-map.md`, `curriculum-map.json` |
+| 7C | Map questions to teaching and official sources | Not started | `app-migration/question-map.json`, `question-map-review.md` |
+| 7D | Review question dispositions and corrections | Not started | `app-migration/question-actions.md`, `question-actions.json` |
+| 7E | Plan link and learner-progress migration | Not started | `app-migration/link-and-progress-map.md`, `link-and-progress-map.json` |
+| 7F | Prepare implementation backlog and preview handoff | Not started | `app-migration/implementation-backlog.md`, `preview-handoff.md` |
+| 7G | Verify complete migration package | Not started | `app-migration/verification.md`, `verification.json`; update this tracker |
 
 ## Completed work
 

@@ -260,9 +260,81 @@ Update [progress.md](progress.md) after each executed substep with artifact link
 
 ## 7. Plan the app’s curriculum migration
 
-Assign stable module and lesson IDs. Map existing practice questions to approved lessons and official references. Identify questions requiring rewriting, replacement, or removal.
+Execute 7A–7G separately, using the saved deliverables from preceding substeps. This step prepares the migration; app previews belong to step 8 and implementation belongs to step 9. Completing a substep does not automatically start the next.
 
-**Deliverable:** Curriculum and question migration map.
+**Entry requirements:** Step 6N verification and explicit approval of the finished PDF. Use the latest approved book and its editable source, including subsequent approved content corrections. The existing [question coverage review](question-book-review/review.md) records a 578-page review book and 1,000 questions; confirm its hashes and applicability to the approved release instead of assuming the earlier 498-page assembly is current. Coverage evidence does not replace PDF approval or question-quality review.
+
+### 7A. Freeze the approved content and audit the app
+
+Record the approved PDF, manuscript/build source, question bank and official-source/asset registers with versions or hashes. Inspect the app's content models, loaders, bundled assets, question IDs, categories, book-page links, saved progress and bookmarks. Record where migration will affect content, navigation and persisted user data.
+
+**Input:** Approved 6N release, app source, `content/questions.json` and existing coverage records.
+
+**Deliverable:** `app-migration/baseline.md` and `app-migration/baseline.json` — release identity, content counts, relevant app file paths and migration constraints.
+
+**Done when:** The exact inputs are reproducibly identified and every current content/link/persistence entry point is listed, with discrepancies or missing inputs explicit.
+
+### 7B. Confirm stable curriculum IDs and the app content contract
+
+Retain the existing M01–M10, Mxx-L01–Mxx-L04 and Mxx-R identifiers and exact approved titles. Register appendices, sign-reference entries and source references that need app destinations. Define the planned content fields, ordering, question relationships, asset bindings and versioning rules. Document any necessary aliases rather than silently renumbering existing IDs.
+
+**Input:** 7A baseline, approved curriculum structure, source map and sign package.
+
+**Deliverable:** `app-migration/curriculum-map.md` and `app-migration/curriculum-map.json` — canonical IDs, titles, order, source locations and planned app fields.
+
+**Done when:** All 10 modules, 40 lessons, 10 reviews and required reference destinations have unique IDs and complete mappings; the content contract fits the audited app or lists the required changes.
+
+### 7C. Map every existing practice question to teaching and sources
+
+Preserve question IDs. Assign each question a primary lesson, related lessons/reference entries where useful, supporting approved-book passages and official references. Reuse the existing coverage evidence only when it matches the frozen inputs. Keep PDF folios as evidence; planned app links use stable curriculum IDs. Record unmatched or ambiguous questions explicitly.
+
+**Input:** 7A question baseline, 7B curriculum map, question coverage records and official-source evidence.
+
+**Deliverable:** `app-migration/question-map.json` and `app-migration/question-map-review.md`.
+
+**Done when:** Every baseline question appears exactly once, every target ID resolves, and each mapping has teaching/source evidence or an explicit unresolved finding. Record coverage totals and gaps by lesson.
+
+### 7D. Decide which questions to retain, rewrite, replace or remove
+
+Review prompts, options, keyed answers, explanations, calculations, sign variants and illustrations against approved teaching and official references. Distinguish teaching coverage from question quality. Carry forward the four fuel-rounding qualifications in the existing review and assess whether their prompts need clarification. Assign one disposition per question, with rationale and concrete acceptance criteria for every proposed change; do not edit the live question bank in this planning step.
+
+**Input:** 7C map and review, frozen questions and supporting evidence.
+
+**Deliverable:** `app-migration/question-actions.md` and `app-migration/question-actions.json` — dispositions, proposed corrections/replacement briefs, removal reasons and research holds.
+
+**Done when:** All questions have a disposition, flagged answers and ambiguities are resolved or held explicitly, and each proposed change has a source and reviewable completion criteria.
+
+### 7E. Plan link replacement and preservation of learner progress
+
+Map existing categories, chapter/book-page references and navigation routes to canonical destinations. Specify handling for retired questions, stale links, bookmarks, completed lessons and question history, including aliases, fallback behaviour and version transitions. Identify learner-facing third-party book names, borrowed labels and source-book page numbers that must be replaced.
+
+**Input:** 7A app/persistence audit, 7B curriculum IDs, 7C mappings and 7D dispositions.
+
+**Deliverable:** `app-migration/link-and-progress-map.md` and `app-migration/link-and-progress-map.json`.
+
+**Done when:** Every audited legacy reference and saved-data field has a migration rule, unresolved destinations are listed, and concrete before/after examples cover retained, changed and retired content.
+
+### 7F. Prepare the implementation backlog and app-preview handoff
+
+List bounded step 9 work items for content import, model/loader changes, question updates, route replacement, progress migration, official sources and verified assets. Give each item dependencies, affected files, outputs and acceptance checks. Prepare representative library, lesson-reader and answer-review content for step 8, including source/reference and legacy-link cases. Specify verification cases for step 10 without creating or implementing a new visual design.
+
+**Input:** All 7A–7E records.
+
+**Deliverable:** `app-migration/implementation-backlog.md` and `app-migration/preview-handoff.md`.
+
+**Done when:** Every planned content/data change has an executable work item and verification criteria; step 8 has exact representative content and constraints. Any new app design still requires imagegen previews and explicit approval before implementation.
+
+### 7G. Verify the migration package and update progress
+
+Cross-check baseline counts/hashes, unique curriculum and question IDs, complete question dispositions, valid destinations, official references, asset bindings, persistence rules and backlog coverage. Save machine-readable results and a human-readable review; list unresolved research, content or migration blockers.
+
+**Input:** All 7A–7F deliverables.
+
+**Deliverable:** `app-migration/verification.md`, `app-migration/verification.json` and updated [progress tracker](progress.md).
+
+**Done when:** All baseline questions are accounted for, required destinations and references resolve, every action is covered by the backlog and no blocking migration-planning issues remain. Otherwise keep step 7 in progress and identify the substep that must be revisited.
+
+All step 7 deliverables are saved under `docs/curriculum/`. Update the progress tracker after each executed substep with artifact links, checks and remaining issues. This breakdown does not execute migration or mark any substep completed. Request step 8 separately after 7G passes.
 
 ## 8. Generate previews of the revised app
 
@@ -292,7 +364,7 @@ The work will use independently written material and appropriately sourced illus
 
 ## Execution
 
-Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design or chapter production, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1). Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
+Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production or app migration planning, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1) or “Execute step 7A”. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
 
 
 **Sequencing update — 2 October 2026:** Following the 5A blocker notice, the user directly requested execution of 5B. A limited cover/opening-page preview without sign artwork was prepared under that instruction and is [awaiting approval](pdf-design/5b/review.md). The 13 required sign gaps and 4F completion gate remain unresolved; this exception does not clear sign-dependent layouts or final PDF production.
