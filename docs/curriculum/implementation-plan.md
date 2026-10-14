@@ -372,6 +372,8 @@ Use imagegen to show Learning library, 10 modules and 40 lessons, with module 3 
 **Deliverable:** `app-design/8b/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the library overview.
 
+**Execution record — 14 October 2026:** 8B v1 explicitly approved: “Looks great, approved”. Wide/phone library direction complete; see [preview and approval record](app-design/8b/review.md). 8C has not started.
+
 ### 8C. Preview library search and filters
 
 Use imagegen to show one filtered library state and the empty-search message “No matching lessons.” Use the five existing category labels and mapped tags. Keep lessons without primary bank questions discoverable; do not imply filters renumber modules.
