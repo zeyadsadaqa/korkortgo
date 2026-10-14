@@ -1,0 +1,17 @@
+Use case: ui-mockup. Asset: KörkortGo 8F v1 long-content and large-text reading preview.
+Create a high fidelity flat orthographic UI board with three clearly separated reading-excerpt frames. Left: WIDE regular reader roughly 700 px wide. Middle: PHONE regular about 350 px wide. Right: PHONE enlarged text exactly SAME WIDTH as middle, visibly larger text and naturally TALLER to accommodate more wrapped lines. Tall landscape canvas big enough for all content. Labels outside frames "Wide · Regular text", "Phone · Regular text", "Phone · Enlarged text". Phone enlarged body approximately 150% regular; do not widen the phone to compensate, do not shrink body or omit words. Let both phones be full-height scroll-content review strips; differing heights are expected.
+Match approved reader: Paper #F7F8F3 background, Forest #173E32 links, Ink #172C29 body, subtle line #D5DED5, quiet Sage #E7EEE5 example block. Source Serif 4 inspired serif headings, Source Sans 3 inspired readable body. Body starts around 16/24 logical px; enlarged 24/36 logical px, illustrative only. No shadow, gradient, device photos or perspective.
+EACH frame shows exact brand "KörkortGo", small module "3. Read the road before acting", serif lesson heading "Leave room to respond", and the SAME content below, all words verbatim, natural line breaks. Small normal text should remain legible on the board.
+Section heading: "Worked approximate examples · Calculate both parts."
+Intro paragraph: "Use the rough exercise equations consistently; each reaction time below is a supplied hypothetical input."
+Plain formula lines as their own reflowable text blocks:
+"R = (v ÷ 10) × t × 3 metres"
+"B = (v ÷ 10)² × 0.4 metres"
+"S = R + B"
+Sage worked example panel heading "Example B · 70 km/h and one second."
+Panel body exact: "First v ÷ 10 = 7. Reaction R = 7 × 1 × 3 = 21 m. Braking B = 7² × 0.4 = 19.6 m. Total S = 21 + 19.6 = 40.6 m. Squaring seven gives 49; do not multiply speed itself by 0.4."
+Next heading "Source and assumption limits"
+Exact paragraph: "Trafiko is a commercial teaching source, cited only for these approximate shortcuts." Then exact paragraph "These shortcuts teach arithmetic, not a safe-distance guarantee or a prediction for an actual hazard."
+Bottom text link "Sources".
+Important: ALL THREE frames include all equations and complete example and both scope sentences. Reflow equation lines on phone at operators if needed, retain all symbols/units; don't create tables or image-only math cards. Keep formulas and decimal digits accurate. Preserve ² and × and ÷ exactly.
+No completed lessons, learner progress, scores, timers, invented summaries, book pages, bookmarks, question answers, official endorsement, sign artwork, search, menus, language switches or typography setting controls. Enlarged text represents system/user scaling and must not imply a new settings feature. Only representative excerpts of longer lesson; no end-of-lesson completion/navigation in these crops. No diagrams or extra decoration.

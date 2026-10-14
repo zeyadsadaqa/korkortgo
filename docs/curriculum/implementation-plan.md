@@ -412,6 +412,8 @@ Use imagegen to show a focused M03-L04 reader example covering longer content, a
 **Deliverable:** `app-design/8f/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the long-content and large-text treatment; actual rendering remains a step 9–10 check.
 
+**Execution record — 14 October 2026:** 8F v1 explicitly approved: “approved”. Long-content and enlarged-text preview direction complete; see [preview and approval record](app-design/8f/review.md). 8G has not started.
+
 ### 8G. Preview the standard answer review
 
 Use imagegen to show the answered situation-001 fixture with exact shuffled options, selected incorrect answer, correct answer, explanation and related lesson. Record availability in both immediate and end-of-test review modes; related teaching must not bypass the unanswered-test guard.
