@@ -2,13 +2,13 @@
   "schema_version": "1.0",
   "prepared_on": "2026-10-14",
   "step": "7B",
-  "status": "content contract prepared; release approval pending",
-  "baseline_sha256": "5336670724e815a9ebd5187d6c4248e1b4227f74d0c587aec785073a7f55121c",
+  "status": "complete; canonical IDs and contract bound to approved screen release",
+  "baseline_sha256": "8e80ed26571a87e6a1b9ef1238c2cc2fabed4369f1adef94a7982c376e8ab43e",
   "release_binding": {
-    "path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
-    "sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+    "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+    "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581",
     "page_count_from_matching_H7_evidence": 578,
-    "approval_status": "6N verification and explicit finished-PDF approval not recorded",
+    "approval_status": "explicitly approved screen edition, 14 October 2026",
     "coverage_metadata": {
       "review_date": "2026-10-13",
       "book_path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
@@ -52,6 +52,16 @@
         "fuel-saving-250-0.5",
         "fuel-saving-250-1.5"
       ]
+    },
+    "edition": "screen",
+    "approval_record": "docs/curriculum/pdf-production/final-review/screen-release.json",
+    "page_count": 578,
+    "print_masters": "deferred by explicit user scope decision",
+    "coverage_revalidation": {
+      "path": "docs/curriculum/pdf-production/final-review/coverage-revalidation.json",
+      "sha256": "534ca26cfa3c44a5fafa677aed24a74ccebd1838238cecf91b33e4e3fd51e07c",
+      "tagged_visual_and_navigation_verification": "docs/curriculum/pdf-production/accessibility/verification.json",
+      "scope": "Historical H7 evidence retained; 6N revalidates page 193 correction and all 1000 records. Tagged edition preserves page painting/navigation; fresh 7C extraction must check passages."
     }
   },
   "modules": [
@@ -1094,7 +1104,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "## 6. Travel beyond the town",
         "line": 1,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 183
     },
@@ -1109,7 +1119,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "### M06-L01 · Read the rural road",
         "line": 5,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 184,
       "source_destination_ids": [
@@ -1147,7 +1157,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "### M06-L02 · Is passing worth the risk?",
         "line": 33,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 196,
       "source_destination_ids": [
@@ -1179,7 +1189,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "### M06-L03 · Join faster traffic calmly",
         "line": 53,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 201,
       "source_destination_ids": [
@@ -1211,7 +1221,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "### M06-L04 · Expect an interrupted route",
         "line": 75,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 210,
       "source_destination_ids": [
@@ -1245,7 +1255,7 @@
         "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
         "heading": "### M06-R · Review and self-assessment",
         "line": 91,
-        "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
       },
       "pdf_evidence_page": 225,
       "source_destination_ids": [
@@ -18134,7 +18144,7 @@
     "retirement": "Keep explicit tombstone/replacement metadata; never recycle an ID."
   },
   "content_contract": {
-    "content_version": "Immutable version bound to release PDF and input manifest; proposed identifier h7-578-6af8cf9fa562, pending final release approval",
+    "content_version": "Immutable approved version screen-2026-10-14-78a89d8ffbb8; bound to release PDF and input manifest",
     "navigation_target": "canonical content ID plus optional block/anchor ID; PDF folio is evidence only",
     "module_fields": [
       "id",
@@ -18239,11 +18249,11 @@
     },
     {
       "path": "docs/curriculum/manuscript.md",
-      "sha256": "f4f6c0c169d5ae50f9730db2d15a99f351525c5ea608e5233203abce74fce8f6"
+      "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/navigation.json",
-      "sha256": "11c96b49ed939f9b521d8f717c486b2238227d78d4d8eca7a8ac109763212a54"
+      "sha256": "1bd083d034720b453c83ad9662ac1fdbfa473f5d5313ab9984b5708d8bf8c5db"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/verification.json",
@@ -18291,7 +18301,7 @@
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
-      "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+      "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
@@ -18358,11 +18368,17 @@
     "all_published_destination_count": 1123,
     "unique_ids": true,
     "exact_module_lesson_titles_match": true,
-    "lesson_source_destinations_resolve": true
+    "lesson_source_destinations_resolve": true,
+    "canonical_ids_unchanged_after_6N": true,
+    "approved_release_binding_verified": true
   },
   "remaining_requirements": [
-    "7A-B01: final 6N verification and explicit finished-PDF approval remain unrecorded; no approval inferred from request to continue.",
     "Import must preserve later chapter/reference production corrections, asset placements and exact source classifications; planning map is not the imported app payload.",
     "7C assigns questions; 7D reviews quality/dispositions; 7E maps legacy links; step 8 approves visuals."
-  ]
+  ],
+  "release_refresh": {
+    "date": "2026-10-14",
+    "canonical_ids_and_titles_unchanged": true,
+    "historical_snapshot": "history/pre-6N-approved-curriculum-map.json"
+  }
 }

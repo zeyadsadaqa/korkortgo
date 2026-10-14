@@ -44,3 +44,7 @@ No chapter-specific blocker remains for screen review. Higher-resolution approve
 ## G6 review — 13 October 2026
 
 All 50 rendered pages inspected in contact sheets; full-size checks on 11, 13, 25, 27, 48, 49 and 50. No clipping, overlap, broken symbols or URL overflow. 76 official sign bindings/sizes and 13 approved scenes preserved. +2 pages meets budget; two reference pages use five entries each with existing type sizes. Rural alternative is a conditional editorial inference with legal limits. [Completion](../../../question-book-review/g-step-changes.json#/records/G6~1completion.md).
+
+## 6N correction — 14 October 2026
+
+Corrected the wildlife-collision cross-reference in M06-L01 from M10-L01 to M10-L02. Rebuilt and verified the 50-page chapter deterministically: 47 source blocks, 76 official sign placements, 13 approved scene crops, navigation, fonts, page bounds and answer separation pass. Final-book page 193 is the only changed text page; the corrected two-line passage was rendered and inspected. See the final-book verification record for current release identity and remaining accessibility/print limits.

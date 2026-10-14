@@ -2,9 +2,9 @@
 
 **Prepared:** 14 October 2026, following the user's request to continue to the next step.
 
-**Status:** ID registry and content contract prepared against the frozen H7 review release. Final release approval remains pending under 7A-B01; neither this planning work nor the request to continue is treated as finished-PDF approval. 7C has not started.
+**Status:** Complete; release bindings refreshed against the explicitly approved tagged screen edition on 14 October 2026. All canonical IDs and exact titles remain unchanged; original provisional identities are retained in history/pre-6N-approved-curriculum-map.json.
 
-[Structured curriculum map](curriculum-map.json) is the complete registry: exact titles and ordering, production-source paths/lines/hashes, objectives, source destinations, sign caption/asset bindings and supporting anchors. [7A baseline](baseline.md) supplies the audited app constraints and release identity. All 163 frozen inputs remain unchanged.
+[Structured curriculum map](curriculum-map.json) is the complete registry: exact titles and ordering, production-source paths/lines/hashes, objectives, source destinations, sign caption/asset bindings and supporting anchors. [7A baseline](baseline.md) supplies the audited app constraints and approved release identity. [7C](question-map-review.md) now assigns all 1,000 questions; source checks remain dated evidence, not refreshed external guidance.
 
 ## Canonical teaching structure
 
@@ -80,7 +80,7 @@ No renumbering or new alias is needed for the published curriculum IDs. Keep ali
 
 | Entity | Required behaviour and fields |
 |---|---|
-| Content package | Immutable content_version, schema_version and release/input hashes. Proposed release identity `h7-578-6af8cf9fa562` remains provisional until final approval. No implicit “latest” selection. |
+| Content package | Immutable content_version, schema_version and release/input hashes. Approved screen version `screen-2026-10-14-78a89d8ffbb8` binds to the release hash. No implicit “latest” selection. |
 | Module | id, exact title, order, four lesson_ids, review_id. Validate all references and order. |
 | Lesson / review | id, module_id, title, order, objectives, complete body_blocks, scenarios, knowledge_checks, separate answer_blocks, source_ids, asset_bindings, related_content_ids and content_version. Reviews have their own tasks rather than fabricated lesson objectives. |
 | Content block | Stable parent-scoped id, type, text/payload, source and asset references, answer visibility. Include requirements/recommendations, scenarios, captions and accessible text; avoid flattening all content to a short summary. |
@@ -108,4 +108,12 @@ The audited app cannot consume this contract as-is. These changes are recorded f
 
 Verified unchanged 7A hashes; exact module/lesson titles; all 10 modules, 40 lessons and 10 reviews; four appendices; 24 sign groups; unique registry IDs; and resolution of every lesson's published source destination. All 1,123 published destinations are registered and bound to the 578-page navigation record. Production locations and current register hashes are recorded in JSON. No question assignments, new designs or app implementation were created.
 
-The contract fits the app through the explicitly listed model/import/navigation/resource changes. Final 6N verification/approval remains the release prerequisite; no completion of that gate is inferred. 7B's planning deliverables are prepared, but its release confirmation remains pending alongside 7A. Recheck the registry and hashes if the approved final release changes before import.
+The contract fits the app through the explicitly listed model/import/navigation/resource changes. The 6N release prerequisite is now satisfied and 7A–7B are complete. Recheck the registry and hashes if the approved final release changes before import.
+
+## 6N release change — 14 October 2026
+
+The wildlife-collision cross-reference was corrected and the 578-page book rebuilt during 6N. The original provisional input hashes identify the earlier review edition and are now preserved in history. See [release-change-notice.json](release-change-notice.json). Canonical IDs/titles were unchanged; the input/release bindings were refreshed before 7C.
+
+## Approved-release handoff
+
+The earlier 6N release-change notice is resolved by the refreshed bindings in this file and baseline.json. 7C is complete; 7D–7G remain separate steps. Print masters are deferred by explicit user choice.

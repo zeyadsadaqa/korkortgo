@@ -258,6 +258,8 @@ Render and inspect the entire assembled book. Verify factual coverage and dated 
 
 Update [progress.md](progress.md) after each executed substep with artifact links, checks, outstanding issues and any explicit approval. Step 6 is complete only after 6A–6N meet their completion criteria.
 
+**6N approval — 14 October 2026:** Finished tagged screen edition explicitly approved. Print masters/proof deferred by user choice. [Release identity and scope](pdf-production/final-review/screen-release.json).
+
 ## 7. Plan the app’s curriculum migration
 
 Execute 7A–7G separately, using the saved deliverables from preceding substeps. This step prepares the migration; app previews belong to step 8 and implementation belongs to step 9. Completing a substep does not automatically start the next.
@@ -293,6 +295,8 @@ Preserve question IDs. Assign each question a primary lesson, related lessons/re
 **Deliverable:** `app-migration/question-map.json` and `app-migration/question-map-review.md`.
 
 **Done when:** Every baseline question appears exactly once, every target ID resolves, and each mapping has teaching/source evidence or an explicit unresolved finding. Record coverage totals and gaps by lesson.
+
+**Execution record — 14 October 2026:** 7C completed against the approved tagged screen release: 1,000 unique questions mapped, no unmatched/ambiguous mappings, four fuel-rounding qualifications retained for 7D. See [question-map-review.md](app-migration/question-map-review.md). 7D has not started.
 
 ### 7D. Decide which questions to retain, rewrite, replace or remove
 

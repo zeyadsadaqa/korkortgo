@@ -1,0 +1,19 @@
+{
+  "recorded_on": "2026-10-14",
+  "reason": "6N corrected wildlife cross-reference and rebuilt review PDF; final approval/accessibility holds remain",
+  "old_review_sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+  "current_review_sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a",
+  "changed_text_page": 193,
+  "current_release_status": "approved tagged screen edition; print deferred",
+  "affected_bindings": [
+    "manuscript.md",
+    "pdf-production/chapters/M06/* generated outputs",
+    "pdf-production/build-manifest.json",
+    "pdf-production/assembly/* generated outputs",
+    "pdf-production/korkortgo-curriculum-review.pdf",
+    "output/pdf/korkortgo-curriculum-review.pdf"
+  ],
+  "action": "7A/7B release bindings refreshed; original snapshots retained under history. 7C authorized and in progress.",
+  "current_approved_release": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+  "current_approved_sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+}

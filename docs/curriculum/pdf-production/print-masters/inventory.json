@@ -1,0 +1,1753 @@
+{
+  "date": "2026-10-14",
+  "scope": "Existing scene crops; official sign assets excluded. Dimensions are minimum replacement crop pixels at unchanged placement width, derived from recorded rounded ppi. Upsampling alone does not supply missing detail.",
+  "target_ppi": 300,
+  "placements": [
+    {
+      "id": "M07-L01",
+      "ppi": 86.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        25,
+        150,
+        602,
+        478
+      ],
+      "current_crop_pixels": [
+        577,
+        328
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        1142
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-L02",
+      "ppi": 84.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        615,
+        150,
+        1112,
+        478
+      ],
+      "current_crop_pixels": [
+        497,
+        328
+      ],
+      "target_crop_pixels_300ppi": [
+        1771,
+        1169
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-L03",
+      "ppi": 82.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        1126,
+        153,
+        1647,
+        478
+      ],
+      "current_crop_pixels": [
+        521,
+        325
+      ],
+      "target_crop_pixels_300ppi": [
+        1890,
+        1179
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-L04",
+      "ppi": 89.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        25,
+        563,
+        625,
+        901
+      ],
+      "current_crop_pixels": [
+        600,
+        338
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        1132
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-R-departure",
+      "ppi": 74.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        646,
+        563,
+        881,
+        731
+      ],
+      "current_crop_pixels": [
+        235,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        676
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-R-rain",
+      "ppi": 76.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        891,
+        563,
+        1133,
+        731
+      ],
+      "current_crop_pixels": [
+        242,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        657
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-R-darkness",
+      "ppi": 76.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        1144,
+        563,
+        1384,
+        731
+      ],
+      "current_crop_pixels": [
+        240,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        662
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M07-R-delay",
+      "ppi": 77.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M07/illustrations.json",
+      "source_file": "M07-v1.png",
+      "crop_box": [
+        1395,
+        563,
+        1638,
+        731
+      ],
+      "current_crop_pixels": [
+        243,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        653
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M09-L02",
+      "ppi": 115.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M09/illustrations.json",
+      "source_file": "M09-v2.png",
+      "crop_box": [
+        29,
+        160,
+        800,
+        487
+      ],
+      "current_crop_pixels": [
+        771,
+        327
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        852
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M09-L03",
+      "ppi": 118.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M09/illustrations.json",
+      "source_file": "M09-v2.png",
+      "crop_box": [
+        835,
+        177,
+        1630,
+        450
+      ],
+      "current_crop_pixels": [
+        795,
+        273
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        690
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M09-L04",
+      "ppi": 115.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M09/illustrations.json",
+      "source_file": "M09-v2.png",
+      "crop_box": [
+        29,
+        586,
+        799,
+        893
+      ],
+      "current_crop_pixels": [
+        770,
+        307
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        801
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M09-R",
+      "ppi": 94.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M09/illustrations.json",
+      "source_file": "M09-v2.png",
+      "crop_box": [
+        821,
+        586,
+        1455,
+        881
+      ],
+      "current_crop_pixels": [
+        634,
+        295
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        935
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M08-L01",
+      "ppi": 119.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M08/illustrations.json",
+      "source_file": "M08-v2.png",
+      "crop_box": [
+        29,
+        169,
+        827,
+        404
+      ],
+      "current_crop_pixels": [
+        798,
+        235
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        592
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M08-L02",
+      "ppi": 119.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M08/illustrations.json",
+      "source_file": "M08-v2.png",
+      "crop_box": [
+        843,
+        165,
+        1643,
+        399
+      ],
+      "current_crop_pixels": [
+        800,
+        234
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        588
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M08-L04",
+      "ppi": 119.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M08/illustrations.json",
+      "source_file": "M08-v2.png",
+      "crop_box": [
+        29,
+        545,
+        827,
+        887
+      ],
+      "current_crop_pixels": [
+        798,
+        342
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        861
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M08-R",
+      "ppi": 119.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M08/illustrations.json",
+      "source_file": "M08-v2.png",
+      "crop_box": [
+        843,
+        542,
+        1640,
+        756
+      ],
+      "current_crop_pixels": [
+        797,
+        214
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        540
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L01",
+      "ppi": 80.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        30,
+        160,
+        569,
+        506
+      ],
+      "current_crop_pixels": [
+        539,
+        346
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        1290
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L02",
+      "ppi": 77.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        588,
+        160,
+        1045,
+        506
+      ],
+      "current_crop_pixels": [
+        457,
+        346
+      ],
+      "target_crop_pixels_300ppi": [
+        1772,
+        1342
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L03-entry",
+      "ppi": 111.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        1069,
+        141,
+        1419,
+        505
+      ],
+      "current_crop_pixels": [
+        350,
+        364
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        983
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L03-exit",
+      "ppi": 67.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        1428,
+        140,
+        1641,
+        505
+      ],
+      "current_crop_pixels": [
+        213,
+        365
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        1620
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L04-rail",
+      "ppi": 79.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        30,
+        604,
+        562,
+        894
+      ],
+      "current_crop_pixels": [
+        532,
+        290
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        1095
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-L04-works",
+      "ppi": 69.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        574,
+        604,
+        860,
+        893
+      ],
+      "current_crop_pixels": [
+        286,
+        289
+      ],
+      "target_crop_pixels_300ppi": [
+        1240,
+        1253
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-meeting",
+      "ppi": 115.9,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        886,
+        587,
+        1251,
+        723
+      ],
+      "current_crop_pixels": [
+        365,
+        136
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        353
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-bend",
+      "ppi": 120.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        1262,
+        587,
+        1640,
+        724
+      ],
+      "current_crop_pixels": [
+        378,
+        137
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        343
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-junction",
+      "ppi": 115.9,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        886,
+        730,
+        1251,
+        892
+      ],
+      "current_crop_pixels": [
+        365,
+        162
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        420
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-rail",
+      "ppi": 120.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        1262,
+        730,
+        1640,
+        893
+      ],
+      "current_crop_pixels": [
+        378,
+        163
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        408
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-slow",
+      "ppi": 145.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        588,
+        160,
+        1045,
+        506
+      ],
+      "current_crop_pixels": [
+        457,
+        346
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        716
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-entry",
+      "ppi": 111.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        1069,
+        141,
+        1419,
+        505
+      ],
+      "current_crop_pixels": [
+        350,
+        364
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        983
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M06-R-works",
+      "ppi": 76.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
+      "source_file": "M06-v1.png",
+      "crop_box": [
+        574,
+        604,
+        860,
+        893
+      ],
+      "current_crop_pixels": [
+        286,
+        289
+      ],
+      "target_crop_pixels_300ppi": [
+        1122,
+        1134
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M01-L02",
+      "ppi": 118.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+      "source_file": "M01-v2.png",
+      "crop_box": [
+        35,
+        171,
+        827,
+        501
+      ],
+      "current_crop_pixels": [
+        792,
+        330
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        837
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M01-L03",
+      "ppi": 115.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+      "source_file": "M01-v2.png",
+      "crop_box": [
+        857,
+        158,
+        1631,
+        501
+      ],
+      "current_crop_pixels": [
+        774,
+        343
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        891
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M01-L04",
+      "ppi": 102.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+      "source_file": "F06-v4.png",
+      "crop_box": [
+        28,
+        153,
+        715,
+        507
+      ],
+      "current_crop_pixels": [
+        687,
+        354
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        1036
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M01-R",
+      "ppi": 115.9,
+      "component_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+      "source_file": "M01-v2.png",
+      "crop_box": [
+        855,
+        615,
+        1631,
+        755
+      ],
+      "current_crop_pixels": [
+        776,
+        140
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        363
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L01",
+      "ppi": 164.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D01-v2.png",
+      "crop_box": [
+        621,
+        210,
+        1140,
+        880
+      ],
+      "current_crop_pixels": [
+        519,
+        670
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1220
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L01-ordinary",
+      "ppi": 179.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D01-v2.png",
+      "crop_box": [
+        34,
+        210,
+        599,
+        880
+      ],
+      "current_crop_pixels": [
+        565,
+        670
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1121
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L01-priority",
+      "ppi": 239.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D01-priority-v3.png",
+      "crop_box": [
+        34,
+        144,
+        1637,
+        880
+      ],
+      "current_crop_pixels": [
+        1603,
+        736
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        922
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L01-stop",
+      "ppi": 151.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D01-v2.png",
+      "crop_box": [
+        1163,
+        210,
+        1640,
+        880
+      ],
+      "current_crop_pixels": [
+        477,
+        670
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        1328
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L02",
+      "ppi": 175.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D04-v3.png",
+      "crop_box": [
+        465,
+        660,
+        1638,
+        891
+      ],
+      "current_crop_pixels": [
+        1173,
+        231
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        396
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L02-join",
+      "ppi": 173.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D04-v3.png",
+      "crop_box": [
+        1091,
+        153,
+        1638,
+        633
+      ],
+      "current_crop_pixels": [
+        547,
+        480
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        830
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L02-lane",
+      "ppi": 172.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D04-v3.png",
+      "crop_box": [
+        34,
+        153,
+        578,
+        633
+      ],
+      "current_crop_pixels": [
+        544,
+        480
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        834
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L02-merge",
+      "ppi": 147.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D04-v3.png",
+      "crop_box": [
+        603,
+        153,
+        1068,
+        633
+      ],
+      "current_crop_pixels": [
+        465,
+        480
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        976
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L03",
+      "ppi": 130.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D02-v4.png",
+      "crop_box": [
+        1225,
+        143,
+        1637,
+        740
+      ],
+      "current_crop_pixels": [
+        412,
+        597
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1370
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L03-crossing",
+      "ppi": 116.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D02-v4.png",
+      "crop_box": [
+        842,
+        143,
+        1210,
+        740
+      ],
+      "current_crop_pixels": [
+        368,
+        597
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        1534
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L03-passage",
+      "ppi": 122.9,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D02-v4.png",
+      "crop_box": [
+        439,
+        143,
+        826,
+        740
+      ],
+      "current_crop_pixels": [
+        387,
+        597
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1458
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L03-pedestrian",
+      "ppi": 124.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D02-v4.png",
+      "crop_box": [
+        34,
+        143,
+        425,
+        740
+      ],
+      "current_crop_pixels": [
+        391,
+        597
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        1444
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L04",
+      "ppi": 174.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D05-v3.png",
+      "crop_box": [
+        559,
+        176,
+        1108,
+        870
+      ],
+      "current_crop_pixels": [
+        549,
+        694
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1195
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L04-entry",
+      "ppi": 163.5,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D05-v3.png",
+      "crop_box": [
+        26,
+        176,
+        541,
+        870
+      ],
+      "current_crop_pixels": [
+        515,
+        694
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1274
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-L04-exit",
+      "ppi": 164.1,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D05-v3.png",
+      "crop_box": [
+        1127,
+        176,
+        1644,
+        870
+      ],
+      "current_crop_pixels": [
+        517,
+        694
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        1269
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-R-crossing",
+      "ppi": 125.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "M04R-v3.png",
+      "crop_box": [
+        845,
+        168,
+        1240,
+        641
+      ],
+      "current_crop_pixels": [
+        395,
+        473
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1132
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-R-entry",
+      "ppi": 124.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "M04R-v3.png",
+      "crop_box": [
+        1256,
+        165,
+        1649,
+        641
+      ],
+      "current_crop_pixels": [
+        393,
+        476
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1145
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-R-exit",
+      "ppi": 128.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "M04R-v3.png",
+      "crop_box": [
+        22,
+        165,
+        426,
+        641
+      ],
+      "current_crop_pixels": [
+        404,
+        476
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1114
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-R-turn",
+      "ppi": 121.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "M04R-v3.png",
+      "crop_box": [
+        444,
+        168,
+        825,
+        641
+      ],
+      "current_crop_pixels": [
+        381,
+        473
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        1173
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M04-R-two-lane",
+      "ppi": 146.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M04/illustrations.json",
+      "source_file": "D05-v3.png",
+      "crop_box": [
+        559,
+        176,
+        1108,
+        870
+      ],
+      "current_crop_pixels": [
+        549,
+        694
+      ],
+      "target_crop_pixels_300ppi": [
+        1122,
+        1419
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-L01",
+      "ppi": 97.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        35,
+        164,
+        437,
+        515
+      ],
+      "current_crop_pixels": [
+        402,
+        351
+      ],
+      "target_crop_pixels_300ppi": [
+        1241,
+        1084
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-L02",
+      "ppi": 93.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        627,
+        164,
+        1105,
+        515
+      ],
+      "current_crop_pixels": [
+        478,
+        351
+      ],
+      "target_crop_pixels_300ppi": [
+        1536,
+        1128
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-L03",
+      "ppi": 75.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        1135,
+        144,
+        1637,
+        377
+      ],
+      "current_crop_pixels": [
+        502,
+        233
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        932
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-L03-follow",
+      "ppi": 75.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        1135,
+        411,
+        1637,
+        515
+      ],
+      "current_crop_pixels": [
+        502,
+        104
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        416
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-L04",
+      "ppi": 87.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        36,
+        620,
+        620,
+        898
+      ],
+      "current_crop_pixels": [
+        584,
+        278
+      ],
+      "target_crop_pixels_300ppi": [
+        2007,
+        956
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-R",
+      "ppi": 71.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        1395,
+        599,
+        1635,
+        769
+      ],
+      "current_crop_pixels": [
+        240,
+        170
+      ],
+      "target_crop_pixels_300ppi": [
+        1005,
+        712
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M03-R-route",
+      "ppi": 71.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M03/illustrations.json",
+      "source_file": "M03-v4.png",
+      "crop_box": [
+        902,
+        599,
+        1141,
+        769
+      ],
+      "current_crop_pixels": [
+        239,
+        170
+      ],
+      "target_crop_pixels_300ppi": [
+        1005,
+        715
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-L01",
+      "ppi": 115.8,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "M02-v3.png",
+      "crop_box": [
+        32,
+        142,
+        807,
+        470
+      ],
+      "current_crop_pixels": [
+        775,
+        328
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        850
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-L02",
+      "ppi": 120.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "M02-v3.png",
+      "crop_box": [
+        833,
+        146,
+        1638,
+        469
+      ],
+      "current_crop_pixels": [
+        805,
+        323
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        806
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-L03",
+      "ppi": 109.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "M02-v3.png",
+      "crop_box": [
+        33,
+        554,
+        767,
+        889
+      ],
+      "current_crop_pixels": [
+        734,
+        335
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        917
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-L04",
+      "ppi": 130.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "parking-v3.png",
+      "crop_box": [
+        102,
+        194,
+        718,
+        730
+      ],
+      "current_crop_pixels": [
+        616,
+        536
+      ],
+      "target_crop_pixels_300ppi": [
+        1418,
+        1234
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-L04-cabin",
+      "ppi": 185.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "M02-v3.png",
+      "crop_box": [
+        796,
+        560,
+        1635,
+        888
+      ],
+      "current_crop_pixels": [
+        839,
+        328
+      ],
+      "target_crop_pixels_300ppi": [
+        1359,
+        532
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M02-R",
+      "ppi": 145.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+      "source_file": "parking-v3.png",
+      "crop_box": [
+        777,
+        156,
+        1464,
+        729
+      ],
+      "current_crop_pixels": [
+        687,
+        573
+      ],
+      "target_crop_pixels_300ppi": [
+        1418,
+        1183
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L01",
+      "ppi": 128.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "M05-v2.png",
+      "crop_box": [
+        35,
+        198,
+        567,
+        825
+      ],
+      "current_crop_pixels": [
+        532,
+        627
+      ],
+      "target_crop_pixels_300ppi": [
+        1241,
+        1462
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L02",
+      "ppi": 134.4,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "M05-v2.png",
+      "crop_box": [
+        599,
+        198,
+        1128,
+        889
+      ],
+      "current_crop_pixels": [
+        529,
+        691
+      ],
+      "target_crop_pixels_300ppi": [
+        1181,
+        1543
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L03-crossing",
+      "ppi": 198.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "D03-v1.png",
+      "crop_box": [
+        310,
+        79,
+        1640,
+        330
+      ],
+      "current_crop_pixels": [
+        1330,
+        251
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        379
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L03-junction",
+      "ppi": 198.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "D03-v1.png",
+      "crop_box": [
+        310,
+        350,
+        1640,
+        611
+      ],
+      "current_crop_pixels": [
+        1330,
+        261
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        395
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L03-bus",
+      "ppi": 198.7,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "D03-v1.png",
+      "crop_box": [
+        310,
+        631,
+        1640,
+        890
+      ],
+      "current_crop_pixels": [
+        1330,
+        259
+      ],
+      "target_crop_pixels_300ppi": [
+        2009,
+        392
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-L04",
+      "ppi": 120.9,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "parking-v3.png",
+      "crop_box": [
+        100,
+        136,
+        719,
+        731
+      ],
+      "current_crop_pixels": [
+        619,
+        595
+      ],
+      "target_crop_pixels_300ppi": [
+        1536,
+        1477
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-R-bus",
+      "ppi": 71.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "M05-v2.png",
+      "crop_box": [
+        1160,
+        168,
+        1635,
+        368
+      ],
+      "current_crop_pixels": [
+        475,
+        200
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        846
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-R-cyclist",
+      "ppi": 71.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "M05-v2.png",
+      "crop_box": [
+        1160,
+        376,
+        1635,
+        577
+      ],
+      "current_crop_pixels": [
+        475,
+        201
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        850
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M05-R-crossing",
+      "ppi": 71.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M05/illustrations.json",
+      "source_file": "M05-v2.png",
+      "crop_box": [
+        1160,
+        585,
+        1635,
+        762
+      ],
+      "current_crop_pixels": [
+        475,
+        177
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        748
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L01-A",
+      "ppi": 100.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        33,
+        152,
+        350,
+        396
+      ],
+      "current_crop_pixels": [
+        317,
+        244
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        728
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L01-B",
+      "ppi": 93.3,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        376,
+        152,
+        670,
+        396
+      ],
+      "current_crop_pixels": [
+        294,
+        244
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        785
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L01-C",
+      "ppi": 74.6,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        695,
+        152,
+        1018,
+        396
+      ],
+      "current_crop_pixels": [
+        323,
+        244
+      ],
+      "target_crop_pixels_300ppi": [
+        1299,
+        982
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L02",
+      "ppi": 89.2,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        1043,
+        151,
+        1640,
+        487
+      ],
+      "current_crop_pixels": [
+        597,
+        336
+      ],
+      "target_crop_pixels_300ppi": [
+        2008,
+        1131
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L03-town",
+      "ppi": 107.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        33,
+        575,
+        370,
+        724
+      ],
+      "current_crop_pixels": [
+        337,
+        149
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        418
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L03-roundabout",
+      "ppi": 106.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        376,
+        575,
+        710,
+        724
+      ],
+      "current_crop_pixels": [
+        334,
+        149
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        422
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L03-rain",
+      "ppi": 107.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        33,
+        731,
+        370,
+        899
+      ],
+      "current_crop_pixels": [
+        337,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        945,
+        472
+      ],
+      "replacement_required": true
+    },
+    {
+      "id": "M10-L03-traffic",
+      "ppi": 106.0,
+      "component_register": "docs/curriculum/pdf-production/chapters/M10/illustrations.json",
+      "source_file": "M10-v4.png",
+      "crop_box": [
+        376,
+        731,
+        710,
+        899
+      ],
+      "current_crop_pixels": [
+        334,
+        168
+      ],
+      "target_crop_pixels_300ppi": [
+        946,
+        476
+      ],
+      "replacement_required": true
+    }
+  ],
+  "placement_count": 83,
+  "unique_source_crops": 79,
+  "below_target": 83
+}

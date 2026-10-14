@@ -1,4 +1,5 @@
-> Current assembled review edition: **H6, 578 pages**, verified 13 October 2026. The updated book includes all H1–H5 teaching components, continuous folios/PDF labels and refreshed sources/navigation. Progress and validation are in [the remaining-gap execution plan](../question-book-review/remaining-gap-execution-plan.md). Historical production-stage records below retain their original scope. H7 final coverage auditing has not run.
+> **Current release — 14 October 2026:** 6N is complete for the explicitly approved tagged 578-page screen edition. Print masters are deferred by user choice. See [verification](verification.md) and [release approval/scope](final-review/screen-release.json). Historical production notes follow.
+
 
 # KörkortGo PDF build
 
@@ -83,3 +84,19 @@ python3 docs/curriculum/pdf-production/assembly/verify_book.py
 The editable builder imports the verified standalone parts, preserves their artwork and text, and replaces the contents/footer navigation. `assembly/inputs.json` records component hashes and offsets; `assembly/navigation.json` records final destinations and folios. `assembly/cross-link-candidates.json` caches text geometry against all input hashes; pass `--refresh-navigation` to regenerate it, and it regenerates automatically when inputs change. No source PDF is modified. The delivery copy is `output/pdf/korkortgo-curriculum-review.pdf`.
 
 The assembly check verifies preserved text, every original body link, all new navigation, fonts, question/answer separation and deterministic output. All pages were rendered and their body regions compared with source renders; the contents and section boundaries were inspected visually. Final whole-book publication and accessibility verification remain step 6N.
+
+## 6N final review commands and release scope
+
+Use the sequential commands and exact evidence in [verification.md](verification.md). The legacy assembly verification file refers to the pre-correction H6/H7 identity; final-review records identify the current book. Source and delivery candidate copies are byte-identical to the corrected review edition, with candidate approval and accessibility/print holds explicit. Do not run a renderer at the same time as a build that overwrites its input PDF.
+
+### 6N tagged candidate
+
+A separate `korkortgo-curriculum-tagged.pdf` adds semantic accessibility structure to the approved review export. See [tagging workflow and limitations](accessibility/README.md), [current verification](accessibility/verification.json) and [reader checks](accessibility/reader-review.md). All 578 pages retain their approved appearance; automated PDF/UA-1 validation passes. Its final approval and the print-resolution work remain pending. The [cover proposal](print-masters/cover/cover-art-v1.png) is a design preview, below the print target and not inserted.
+
+### Current delivery scope
+
+The user selected the screen edition with print masters deferred. `korkortgo-curriculum.pdf` and the matching `output/pdf/` delivery now contain the verified tagged screen candidate; `korkortgo-curriculum-review.pdf` retains the earlier approved untagged source. See [screen-release.json](final-review/screen-release.json) for exact identities. Current status: **Awaiting approval**. Print quality is not certified; app migration remains pending final 6N approval.
+
+### Screen release approved
+
+The user explicitly approved the finished tagged screen edition and authorised 7C. The prior awaiting-approval statements are historical; current identity and status are in final-review/screen-release.json.

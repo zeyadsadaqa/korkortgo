@@ -1,0 +1,17 @@
+{
+  "approved_on": "2026-10-14",
+  "user_statement": "OK approved",
+  "artifact": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+  "sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a",
+  "pages": 578,
+  "scope": "Approval of the presented review candidate with disclosed accessibility and print-resolution limitations.",
+  "remaining_requirements": [
+    "Semantic PDF tagging and assistive reading-order verification",
+    "High-resolution cover/scene artwork and print proof"
+  ],
+  "requirements_waived": false,
+  "step_6N_complete": false,
+  "next_step_execution_authorized": false,
+  "preserved_approved_copy": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
+  "later_candidate_notice": "The release filename now contains the separate tagged screen candidate; this historical approval applies only to the SHA-256 above. See screen-release.json."
+}

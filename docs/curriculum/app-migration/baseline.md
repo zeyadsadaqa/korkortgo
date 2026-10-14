@@ -2,17 +2,13 @@
 
 **Audited:** 14 October 2026.
 
-**Status:** Audit complete; provisional baseline awaiting an approved release.
+**Status:** Complete. The user explicitly approved 6N and authorised 7C on 14 October 2026. The approved tagged screen edition is frozen in [baseline.json](baseline.json); print masters are explicitly deferred. Original provisional identities are preserved in [history](history/pre-6N-approved-baseline.json).
 
-**Execution authority:** User explicitly requested 7A. This request is not recorded as approval of the finished PDF or execution of 6N. No app content or design was changed.
+## Release identity
 
-[Machine-readable baseline](baseline.json) records SHA-256 hashes, sizes, exact question ID order, legacy chapter ranges, all bundled assets and check results. Paths in that file are relative to the repository root. These records freeze input identities, not immutable copies; recheck hashes before downstream work.
+The current approved release is `pdf-production/korkortgo-curriculum.pdf`, SHA-256 `78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581`, 578 pages, identical to its delivery copy. See [approval and scope](../pdf-production/final-review/screen-release.json). The untagged review source remains `ae872daf…`; historical H7 coverage retains its earlier `6af8cf9f…` identity. Those different hashes are explicit history, not current-release equality claims. The 6N evidence and fresh 7C passage comparison transfer the coverage to this approved edition, including the page-193 wildlife cross-reference correction.
 
-## Release identity and entry requirement
-
-The current source review PDF at `docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf` and delivery copy at `output/pdf/korkortgo-curriculum-review.pdf` are byte-identical. Their SHA-256 is `6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b`, matching the [H7 all-question coverage metadata](../question-book-review/all-question-coverage.json). That evidence records **578 pages** and 1,000 covered questions, with zero not-covered or prompt-only questions. The question-bank hash also matches that review.
-
-**7A-B01 — approved release missing:** The progress tracker still records 6N as not started; no `pdf-production/verification.md` or finished `pdf-production/korkortgo-curriculum.pdf` release is present. H0–H7 approval and coverage evidence support the subsequent content work, but do not establish 6N completion or explicit final-book approval. The older 498-page tracker text is historical assembly information, not the current PDF identity. Do not treat this provisional baseline as an approved release or clear the entry requirement for 7B. Confirm the finished release after 6N verification/approval, then refresh this baseline if any input changes.
+7A-B01 is closed. Twelve expected production/document inputs changed during 6N; all audited app sources, the 1,000-question bank and 343 bundled assets remain unchanged. Updated hashes and a change list are saved in baseline.json. This refresh does not alter the audited persistence/navigation findings below.
 
 The root manuscript, chapter sources, reference source and assembly/build scripts are independently hashed: later approved production corrections must not be lost by importing only the earlier manuscript. Step 7B must reconcile the final editable production content with the final release. The complete input inventory includes production Python/JSON/Markdown, content sources, app source, platform hosts, Gradle configuration and curriculum/source/sign/coverage records.
 
@@ -58,4 +54,4 @@ App uses Compose `remember` for page, test length, feedback mode, current sessio
 
 ## Handoff
 
-The input identities and all current content/link/state entry points are recorded. The only completion blocker is establishing the approved final release (7A-B01); the count/provenance/model differences above are explicit migration constraints, not silently corrected here. 7A remains in progress until that entry requirement is met. 7B–7G have not started. No design preview or implementation is part of 7A.
+7A is complete against the approved screen release. 7B retains all canonical IDs and titles, and 7C maps every question to teaching and sources. Quality/disposition review is 7D; legacy-link reconciliation is 7E. No app implementation or visual design occurred. The old 39-chapter inventory below/in JSON is audited migration history only, not the canonical learning structure.

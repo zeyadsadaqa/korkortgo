@@ -1,0 +1,26 @@
+{
+  "checked_on": "2026-10-14",
+  "step": "7C",
+  "status": "passed",
+  "questions": 1000,
+  "unique_ids_and_bank_order": true,
+  "all_frozen_input_hashes_match": true,
+  "all_lesson_reference_and_source_targets_resolve": true,
+  "approved_passage_substrings_and_page_hashes_match": true,
+  "retained_reviewed_claim_questions": 55,
+  "sign_questions": 616,
+  "mapping_unresolved": 0,
+  "rounding_qualified_question_ids": [
+    "fuel-saving-150-0.5",
+    "fuel-saving-150-1.5",
+    "fuel-saving-250-0.5",
+    "fuel-saving-250-1.5"
+  ],
+  "lessons_without_primary_questions": [
+    "M01-L01",
+    "M07-L04",
+    "M10-L03"
+  ],
+  "independent_quality_review": "7D not started",
+  "map_sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+}

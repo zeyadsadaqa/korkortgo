@@ -1,0 +1,7 @@
+Use case: illustration-story
+Asset type: high-resolution, text-free cover illustration proposal for the existing KörkortGo book.
+Input image: approved cover/opening board; use only the left-hand cover's lakeside road artwork as composition/style reference.
+Primary request: recreate that same scene as a separate square illustration with native crisp detail suitable for print; target 2880 × 2880 pixels. This is a replacement-artwork preview awaiting user approval, not an implemented cover.
+Preserve: Swedish conifer forest and rocky slopes on the right, blue-grey lake and distant hills on the left, a winding two-way road with white centre dashes and white edge lines, lake-side guardrail, and one generic teal hatchback seen from behind travelling away in its right-hand lane. Match the approved quiet Scandinavian editorial illustration style, perspective, light, forest/sage/blue-grey palette and safe lane placement.
+Composition: full-bleed artwork only, with the road entering from the foreground and curving along the lake; keep the car in the lower-right area. A square master will later be cropped using the existing cover image window. Preserve useful scenery beyond that window.
+Avoid: all typography, titles, border frames, page mockups, right-hand introduction page, logos, detailed licence-plate text, fabricated official signs, yellow centre markings, extra cars, altered driving side or a new visual style. Do not bake book text into the raster art.

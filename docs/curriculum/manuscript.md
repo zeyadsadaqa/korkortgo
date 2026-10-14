@@ -591,7 +591,7 @@ A slow vehicle's appearance may resemble a car even when its permitted speed and
 
 **Wildlife observation · Time and terrain.** Give extra attention at dawn and dusk, near animal habitats and where fences end or have openings. Scan woodland edges, bushes and small waterways beside the road: Trafikverket's road-project study describes these as animal routes that can conceal an approach. Its national guidance also describes animal passages through fence openings. These are cues for observation and speed planning, not predictions that animals only cross there. [Trafikverket: wildlife and fence passages][wildlife] · [Trafikverket: habitat example, page 9][wildlife-habitat]
 
-**Apply the cues.** At dusk, woodland meets a field beside a gap in the fence. Read the edges and opening as possible animal approaches, and choose speed for the view and foreseeable hazard. Keep observing even on fenced stretches. Prevention belongs here; actions after a collision are in M10-L01.
+**Apply the cues.** At dusk, woodland meets a field beside a gap in the fence. Read the edges and opening as possible animal approaches, and choose speed for the view and foreseeable hazard. Keep observing even on fenced stretches. Prevention belongs here; actions after a wildlife collision are in M10-L02.
 
 **Worked decision.** You approach a narrow bridge with a van coming towards you and an obstruction on your side. You reduce speed before the narrowing and stop if necessary. Do not move into the van's path simply because you reached the obstruction first.
 

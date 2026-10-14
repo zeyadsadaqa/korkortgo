@@ -2,13 +2,13 @@
   "schema_version": "1.0",
   "audit_date": "2026-10-14",
   "step": "7A",
-  "status": "provisional; audit complete, approved release not established",
-  "authorization": "User requested execution of 7A on 14 October 2026; no 6N approval inferred.",
+  "status": "complete; approved screen release frozen",
+  "authorization": "User explicitly approved 6N and execution of 7C on 14 October 2026.",
   "release": {
-    "path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
-    "sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+    "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+    "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581",
     "page_count_from_matching_H7_evidence": 578,
-    "approval_status": "6N verification and explicit finished-PDF approval not recorded",
+    "approval_status": "explicitly approved screen edition, 14 October 2026",
     "coverage_metadata": {
       "review_date": "2026-10-13",
       "book_path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
@@ -52,6 +52,16 @@
         "fuel-saving-250-0.5",
         "fuel-saving-250-1.5"
       ]
+    },
+    "edition": "screen",
+    "approval_record": "docs/curriculum/pdf-production/final-review/screen-release.json",
+    "page_count": 578,
+    "print_masters": "deferred by explicit user scope decision",
+    "coverage_revalidation": {
+      "path": "docs/curriculum/pdf-production/final-review/coverage-revalidation.json",
+      "sha256": "534ca26cfa3c44a5fafa677aed24a74ccebd1838238cecf91b33e4e3fd51e07c",
+      "tagged_visual_and_navigation_verification": "docs/curriculum/pdf-production/accessibility/verification.json",
+      "scope": "Historical H7 evidence retained; 6N revalidates page 193 correction and all 1000 records. Tagged edition preserves page painting/navigation; fresh 7C extraction must check passages."
     }
   },
   "counts": {
@@ -1324,12 +1334,17 @@
   "checks": {
     "unique_question_ids": true,
     "generated_kotlin_questions_match_json_exactly": true,
-    "coverage_book_hash_matches": true,
+    "coverage_book_hash_matches": false,
     "coverage_question_hash_matches": true,
     "delivery_pdf_matches_source": true,
     "missing_sign_files": [],
     "sign_hash_mismatches": [],
-    "legacy_question_pages_without_chapter": []
+    "legacy_question_pages_without_chapter": [],
+    "historical_coverage_book_hash_matches": true,
+    "current_coverage_revalidated_by_6N": true,
+    "delivery_pdf_matches_approved_screen_release": true,
+    "historical_coverage_identity_retained": true,
+    "coverage_identity_note": "coverage_book_hash_matches is false because historical H7 metadata is deliberately unchanged; 6N and 7C transfer evidence to the approved screen release with exact page/passage checks."
   },
   "persistent_user_data": {
     "implementation_found": false,
@@ -1466,13 +1481,13 @@
     },
     {
       "path": "docs/curriculum/manuscript.md",
-      "bytes": 202748,
-      "sha256": "f4f6c0c169d5ae50f9730db2d15a99f351525c5ea608e5233203abce74fce8f6"
+      "bytes": 202757,
+      "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
     },
     {
       "path": "docs/curriculum/pdf-production/README.md",
-      "bytes": 9690,
-      "sha256": "f54790aa9c0c84cad94f72c03b882eb593dd44ec495dda788ca0dd3047cd7319"
+      "bytes": 11366,
+      "sha256": "0774089f537a5e94255c284a05c1ef66ec06be9aaa5f2ab75cc4181739aadd44"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/assembly-review.md",
@@ -1491,8 +1506,8 @@
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/cross-link-candidates.json",
-      "bytes": 122332,
-      "sha256": "172c192ad4fffe028250520c783af25187e1800fd8cc22f608b50edfa5547b7c"
+      "bytes": 122333,
+      "sha256": "3e15e1f0ddf0469d966102fac29e634800d598d19005e089bd4b429dcc9bd0e8"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/footer-replacement.json",
@@ -1502,17 +1517,17 @@
     {
       "path": "docs/curriculum/pdf-production/assembly/inputs.json",
       "bytes": 2190,
-      "sha256": "12bbd558f0259645da9494b6de444d845710fefe4dc380d6699cadc4a6482804"
+      "sha256": "4b6b2f130bfd607da18bfc3bc1464b214cadca13db24078741ff2e9c15cae8b1"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/navigation.json",
-      "bytes": 196651,
-      "sha256": "11c96b49ed939f9b521d8f717c486b2238227d78d4d8eca7a8ac109763212a54"
+      "bytes": 196652,
+      "sha256": "1bd083d034720b453c83ad9662ac1fdbfa473f5d5313ab9984b5708d8bf8c5db"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/render-comparison.json",
-      "bytes": 859,
-      "sha256": "608555ab5401eb686cfca342c7efbae6120c9a8a102800d7a6bfaadca779eac9"
+      "bytes": 436,
+      "sha256": "333ed3f039803ae188afa0bc76128bfeef1b5c07efee15a8a06813d74f203d50"
     },
     {
       "path": "docs/curriculum/pdf-production/assembly/verification.json",
@@ -1531,8 +1546,8 @@
     },
     {
       "path": "docs/curriculum/pdf-production/build-manifest.json",
-      "bytes": 16043,
-      "sha256": "cff80fa7fe63187ceaa4d16ca14f710fb69bc3e8335947eca42da98f5d9ee1fe"
+      "bytes": 16057,
+      "sha256": "f9e52ae67e3a76132498311ac32f7b1e9cdc1b1d3de84c3d7ecf21a7709b6435"
     },
     {
       "path": "docs/curriculum/pdf-production/build.py",
@@ -1746,8 +1761,8 @@
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
-      "bytes": 16145,
-      "sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5"
+      "bytes": 16154,
+      "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/illustrations.json",
@@ -1761,8 +1776,8 @@
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/review.md",
-      "bytes": 6127,
-      "sha256": "a36903e369a73c963467f1ca9ec591113a9f3a8405882fc7bca4c84bfa07863b"
+      "bytes": 6662,
+      "sha256": "a2985c3ad53e3359624438ca86893c1835200317c7c7f3e9817e9cc558a17fff"
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/source-checks.json",
@@ -1772,7 +1787,7 @@
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/verification.json",
       "bytes": 924,
-      "sha256": "3aaee9b6f85cc161765d185b7a917767c15d04dd66b18a5527bb21197eb2be42"
+      "sha256": "e321662266279ae8e8f3e365877d4506ac6b25897281e2b1193d3bd6bf7ee1ac"
     },
     {
       "path": "docs/curriculum/pdf-production/chapters/M06/verify_chapter.py",
@@ -1956,8 +1971,8 @@
     },
     {
       "path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
-      "bytes": 235868550,
-      "sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b"
+      "bytes": 235868562,
+      "sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a"
     },
     {
       "path": "docs/curriculum/pdf-production/navigation.json",
@@ -2121,8 +2136,8 @@
     },
     {
       "path": "output/pdf/korkortgo-curriculum-review.pdf",
-      "bytes": 235868550,
-      "sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b"
+      "bytes": 235868562,
+      "sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a"
     },
     {
       "path": "settings.gradle.kts",
@@ -2153,6 +2168,76 @@
       "path": "tools/verify_remaining_gap_baseline.py",
       "bytes": 16363,
       "sha256": "ade4ddcf17729870db3dc642bfa854db8f2064362bb615c2a24a9851d8f5b299"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+      "bytes": 207678543,
+      "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+    },
+    {
+      "path": "output/pdf/korkortgo-curriculum.pdf",
+      "bytes": 207678543,
+      "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/final-review/screen-release.json",
+      "bytes": 824,
+      "sha256": "09b2cd80b7b883d325a838863f3d4bf23d97c77d5d1e9b216e118d19ae4eee12"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/final-review/coverage-revalidation.json",
+      "bytes": 151101,
+      "sha256": "534ca26cfa3c44a5fafa677aed24a74ccebd1838238cecf91b33e4e3fd51e07c"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/tag_pdf.py",
+      "bytes": 20937,
+      "sha256": "9645f1348fad5a5e4a1fcd643beda414073a3ba8a96c087cc721d101cfebe3c5"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/verify_tagged.py",
+      "bytes": 4550,
+      "sha256": "dc44192ee99500be6fc1f40dac3904acb49e2f5883399e0f76f2ab3fc402434b"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/verification.json",
+      "bytes": 1114,
+      "sha256": "5d5cc092b1ae15f807d5099692b94c0776ef69f38445c620ac14186dd7bf95e8"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/tagging-manifest.json",
+      "bytes": 94107,
+      "sha256": "61a61b64ffb6b35c13aa7510e13ec2e17a461bc641e2d78992446cbc8c375c75"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/reproducibility.json",
+      "bytes": 240,
+      "sha256": "dfa98a074ead3d061ee4c1d4ed36a3ce0c094fbc3254eac2064b7967a04d1311"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/reader-review.md",
+      "bytes": 1278,
+      "sha256": "36e4b3ebc92cc4447bb9c6b1beb7c497ecb4c78f829ac3ad28ad4318f6223753"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/verification.md",
+      "bytes": 12997,
+      "sha256": "2c5653d0cb80b5b857e373342adc3598a1b0f4a80a5dbee27652fac0f48d05ff"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/accessibility/README.md",
+      "bytes": 1898,
+      "sha256": "09a1abf51dec8aaaec0672ac4c29ef4851e7483436947e74601b9284ac6aaaea"
+    },
+    {
+      "path": "docs/curriculum/manuscript-sources.json",
+      "bytes": 115129,
+      "sha256": "5951a3fa2420ac9a6c79132c39b126f6ca923430be0870671748eb60ad9a2c8e"
+    },
+    {
+      "path": "docs/curriculum/question-book-review/remaining-gap-h0-sources.json",
+      "bytes": 344070,
+      "sha256": "f84693902ad792177d721b5810b0a6d646f7e98fa52256c3ba7e7182bc771678"
     }
   ],
   "bundled_assets": [
@@ -3872,16 +3957,140 @@
       "sha256": "785a9328bf50320116aec7d3d1353457552a7f4dc8b139b7fa234d33aa977e4e"
     }
   ],
-  "blockers": [
-    {
-      "id": "7A-B01",
-      "description": "No recorded 6N final verification or explicit approval for frozen 578-page review PDF; confirm approved release and rerun hash baseline if it changes."
-    }
-  ],
+  "blockers": [],
   "limitations": [
     "Hash inventory freezes identities, not immutable copies; verify before using downstream.",
     "H7 coverage is keyed-answer-selection evidence, not independent legal accuracy or final publication/accessibility approval.",
     "Source registers are frozen as local evidence; external guidance not revalidated in this audit.",
     "No runtime app execution, regeneration, source edits or visual design performed."
-  ]
+  ],
+  "historical_release_binding": {
+    "path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
+    "sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+    "page_count_from_matching_H7_evidence": 578,
+    "approval_status": "6N verification and explicit finished-PDF approval not recorded",
+    "coverage_metadata": {
+      "review_date": "2026-10-13",
+      "book_path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
+      "book_sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+      "questions_path": "content/questions.json",
+      "questions_sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb",
+      "book_page_count": 578,
+      "criterion": "Can select keyed answer from printed teaching/illustration and ordinary application. Does not mean every clause of a keyed answer or every distractor explanation is taught.",
+      "status_definitions": {
+        "covered": "Printed teaching/illustration supplies keyed-answer selection or required principle/formula; retained rounding qualifications apply.",
+        "not_covered": "Exact required illustration or knowledge missing.",
+        "prompt_only": "Supplied numbers/formulas permit arithmetic, but the book does not teach this method/model."
+      },
+      "schema_version": "3.0",
+      "audit_step": "H7",
+      "page_numbering": "One-based physical PDF pages including cover; continuous printed folios and PDF labels verified in H6. Original bank page field is unrelated.",
+      "method": "Fresh extraction of all 578 pages. All 178 retained scenario decisions checked against exactly preserved teaching bodies and remapped anchors/guards, retaining 55 target decisions and 68 claim links. All 616 sign questions matched to exact illustrated caption units and hashed asset placements. All 206 numerical instances recalculated from prompt inputs; new stopping/fuel calculations use Decimal. Four fuel midpoint keys remain qualified by printed rounding disclosure. External links, lookup and bibliography are not teaching evidence.",
+      "totals": {
+        "total": 1000,
+        "covered": 1000,
+        "not_covered": 0,
+        "prompt_only": 0,
+        "not_answerable_from_book": 0
+      },
+      "baseline_totals": {
+        "total": 1000,
+        "covered": 772,
+        "not_covered": 158,
+        "prompt_only": 70,
+        "not_answerable_from_book": 228
+      },
+      "change": {
+        "newly_covered": 228,
+        "regressions": 0,
+        "previously_covered_preserved": 772,
+        "target_questions_verified": 228
+      },
+      "rounding_qualified_questions": [
+        "fuel-saving-150-0.5",
+        "fuel-saving-150-1.5",
+        "fuel-saving-250-0.5",
+        "fuel-saving-250-1.5"
+      ]
+    }
+  },
+  "release_refresh": {
+    "date": "2026-10-14",
+    "changes": [
+      {
+        "path": "docs/curriculum/manuscript.md",
+        "old_sha256": "f4f6c0c169d5ae50f9730db2d15a99f351525c5ea608e5233203abce74fce8f6",
+        "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/README.md",
+        "old_sha256": "f54790aa9c0c84cad94f72c03b882eb593dd44ec495dda788ca0dd3047cd7319",
+        "sha256": "0774089f537a5e94255c284a05c1ef66ec06be9aaa5f2ab75cc4181739aadd44",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/assembly/cross-link-candidates.json",
+        "old_sha256": "172c192ad4fffe028250520c783af25187e1800fd8cc22f608b50edfa5547b7c",
+        "sha256": "3e15e1f0ddf0469d966102fac29e634800d598d19005e089bd4b429dcc9bd0e8",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/assembly/inputs.json",
+        "old_sha256": "12bbd558f0259645da9494b6de444d845710fefe4dc380d6699cadc4a6482804",
+        "sha256": "4b6b2f130bfd607da18bfc3bc1464b214cadca13db24078741ff2e9c15cae8b1",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/assembly/navigation.json",
+        "old_sha256": "11c96b49ed939f9b521d8f717c486b2238227d78d4d8eca7a8ac109763212a54",
+        "sha256": "1bd083d034720b453c83ad9662ac1fdbfa473f5d5313ab9984b5708d8bf8c5db",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/assembly/render-comparison.json",
+        "old_sha256": "608555ab5401eb686cfca342c7efbae6120c9a8a102800d7a6bfaadca779eac9",
+        "sha256": "333ed3f039803ae188afa0bc76128bfeef1b5c07efee15a8a06813d74f203d50",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/build-manifest.json",
+        "old_sha256": "cff80fa7fe63187ceaa4d16ca14f710fb69bc3e8335947eca42da98f5d9ee1fe",
+        "sha256": "f9e52ae67e3a76132498311ac32f7b1e9cdc1b1d3de84c3d7ecf21a7709b6435",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+        "old_sha256": "cf0742c468c2d6c18588e10208a72ba1fef906d1e06dd464e296bae567edb5f5",
+        "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/chapters/M06/review.md",
+        "old_sha256": "a36903e369a73c963467f1ca9ec591113a9f3a8405882fc7bca4c84bfa07863b",
+        "sha256": "a2985c3ad53e3359624438ca86893c1835200317c7c7f3e9817e9cc558a17fff",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/chapters/M06/verification.json",
+        "old_sha256": "3aaee9b6f85cc161765d185b7a917767c15d04dd66b18a5527bb21197eb2be42",
+        "sha256": "e321662266279ae8e8f3e365877d4506ac6b25897281e2b1193d3bd6bf7ee1ac",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf",
+        "old_sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+        "sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a",
+        "reason": "6N reviewed correction or release documentation refresh"
+      },
+      {
+        "path": "output/pdf/korkortgo-curriculum-review.pdf",
+        "old_sha256": "6af8cf9fa56297d742ee0a2e3f2f4449d7026afad14e4bc8f68b46581792402b",
+        "sha256": "ae872daf5b21feab0ec565294ad3275a0e2c08505a6c7007c13b2bde5352b69a",
+        "reason": "6N reviewed correction or release documentation refresh"
+      }
+    ],
+    "app_bank_and_bundled_assets_unchanged": true,
+    "historical_snapshot": "history/pre-6N-approved-baseline.json"
+  }
 }
