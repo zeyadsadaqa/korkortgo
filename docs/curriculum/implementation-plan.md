@@ -350,11 +350,133 @@ All step 7 deliverables are saved under `docs/curriculum/`. Update the progress 
 
 ## 8. Generate previews of the revised app
 
-Use imagegen to show the library, lesson reader, and answer review using the approved curriculum. Replace book-page labels with useful lesson information.
+Execute 8A–8O separately. Each task covers one small preparation, preview or review activity. Use the saved output from its dependencies; completing a task does not automatically start the next. This breakdown only updates the plan and does not execute step 8.
 
-**Deliverable:** App design previews.
+**Entry requirements:** Completed 7G verification, the approved curriculum and [app-preview handoff](app-migration/preview-handoff.md), including its exact `preview-content.json` fixtures. Carry forward all content, asset and persistence constraints; design approval does not clear question-quality or image-delivery holds.
 
-**Approval:** Wait for explicit design approval before implementation. If changes are requested, revise the previews and wait for approval again.
+**Shared preview workflow (8B–8M):** Use the imagegen skill to generate the specified visual preview. Save the image, exact copy/asset bindings and `review.md` in the stated directory. Record feedback, revision identity, constraints and approval status. Present that preview and wait for explicit user approval before proceeding to another design task. If edits are requested, revise with imagegen and wait for approval again. Generated previews establish visual direction; exact official artwork, text rendering and accessibility behaviour require implementation verification. No app implementation occurs in step 8.
+
+### 8A. Prepare the app-preview brief
+
+Review the verified migration package, current app screens and exact preview fixtures. Record the visual constraints, representative content, required states and approval checklist. Do not create a new visual design in this preparation task.
+
+**Input:** Completed 7G and the app-migration handoff.  
+**Deliverable:** `app-design/brief.md`.  
+**Done when:** Every required preview below has an exact fixture and a bounded scope; remaining blockers are explicit.
+
+### 8B. Preview the learning-library overview
+
+Use imagegen to show Learning library, 10 modules and 40 lessons, with module 3 and its four exact lesson titles and review. Include Sources and Road signs and reference actions. Preserve canonical module numbering; do not invent learner completion or bookmarks.
+
+**Input:** 8A brief and exact library fixtures.  
+**Deliverable:** `app-design/8b/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the library overview.
+
+### 8C. Preview library search and filters
+
+Use imagegen to show one filtered library state and the empty-search message “No matching lessons.” Use the five existing category labels and mapped tags. Keep lessons without primary bank questions discoverable; do not imply filters renumber modules.
+
+**Input:** Approved 8B and library/search constraints.  
+**Deliverable:** `app-design/8c/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves search, filtering and the empty state.
+
+### 8D. Preview the lesson-reader opening
+
+Use imagegen to show M03-L02, Combine the instructions, with its exact goal and opening requirements paragraph. Show the module context and previous/next lesson actions. Replace book-page labels with useful lesson information.
+
+**Input:** Approved 8B and exact M03-L02 content.  
+**Deliverable:** `app-design/8d/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the reader opening and lesson navigation.
+
+### 8E. Preview the lesson knowledge-check reveal
+
+Use imagegen to show the amber-signal knowledge check before and after deliberate answer reveal. Record that hidden answers must stay outside accessibility reading before reveal.
+
+**Input:** Approved 8D and the exact knowledge-check fixture.  
+**Deliverable:** `app-design/8e/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the hidden and revealed answer states.
+
+### 8F. Preview long-content and large-text reading
+
+Use imagegen to show a focused M03-L04 reader example covering longer content, a table or calculation, and enlarged text. Record intended scrolling and wrapping behaviour without omitting approved teaching content.
+
+**Input:** Approved 8D and exact long-content fixtures from the approved curriculum.  
+**Deliverable:** `app-design/8f/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the long-content and large-text treatment; actual rendering remains a step 9–10 check.
+
+### 8G. Preview the standard answer review
+
+Use imagegen to show the answered situation-001 fixture with exact shuffled options, selected incorrect answer, correct answer, explanation and related lesson. Record availability in both immediate and end-of-test review modes; related teaching must not bypass the unanswered-test guard.
+
+**Input:** Approved reader direction and exact situation-001 fixture.  
+**Deliverable:** `app-design/8g/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves feedback and related-lesson presentation after answering.
+
+### 8H. Preview the calculation answer review
+
+Use imagegen to show the exact proposed fuel-saving-150-0.5 revision, shuffled options and 0.75-litre explanation. Mark its proposed status in review notes. Document the historical-score/version-notice compatibility case without inventing an attempt-history feature.
+
+**Input:** Approved 8G and exact fuel fixture.  
+**Deliverable:** `app-design/8h/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves calculation feedback presentation; this does not accept the proposed question for live scoring.
+
+### 8I. Preview the sources area
+
+Use imagegen to show the legislation, commercial exercise-assumption and model-specific manufacturer examples from the handoff. Display their actual titles, publishers, retained dates and limitations; distinguish editorial arithmetic. Include entry from a lesson and return to the same reading position.
+
+**Input:** Approved 8D and exact source fixtures.  
+**Deliverable:** `app-design/8i/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves source distinctions, detail presentation and return behaviour.
+
+### 8J. Preview the road-sign reference
+
+Use imagegen to show the registered B1 study/reference entry, Swedish official name, CAP-B1 caption and editorial-English notice. Preview intended size, framing and zoom for faint outlines. Use the exact official asset when possible; otherwise mark a placement placeholder and retain the exact asset binding alongside it. Never generate replacement sign artwork.
+
+**Input:** Approved reader direction and registered sign fixture/asset.  
+**Deliverable:** `app-design/8j/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the reference layout and zoom treatment. All 38 image-delivery holds remain uncleared until actual delivery tests.
+
+### 8K. Preview ambiguous and moved legacy links
+
+Use imagegen to show the canonical destination chooser and moved-passage notice. Document the exact page-46 question-context examples using the handoff, with canonical lesson labels in learner copy. Do not imply equivalence between old folios and approved PDF pages.
+
+**Input:** Approved library/reader direction and exact legacy fixtures.  
+**Deliverable:** `app-design/8k/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves chooser and moved-passage presentation, with context-specific destinations recorded.
+
+### 8L. Preview unavailable destinations
+
+Use imagegen to show the exact SIG16–18 unavailable message, official-description action and optional Combine the instructions action. Also show the generic unavailable/library fallback. Do not substitute another signal or invent an approved internal destination.
+
+**Input:** Approved 8K and exact unavailable fixtures.  
+**Deliverable:** `app-design/8l/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves both unavailable states and their recovery actions.
+
+### 8M. Preview missing-results and setup recovery
+
+Use imagegen to show the exact missing-results/setup fixture and its permitted recovery actions. Carry forward existing route and saved-state limitations; do not add persistence or new deep links.
+
+**Input:** Approved visual direction and exact recovery fixture.  
+**Deliverable:** `app-design/8m/` — preview images, exact content/asset notes and `review.md`.  
+**Done when:** The user explicitly approves the recovery state and its actions.
+
+### 8N. Assemble the app design specification
+
+Index the approved preview revisions and record shared typography, colour, spacing, navigation, responsive/large-text intent, exact content bindings and accessibility requirements. Map each required handoff state to its approved preview and future implementation work item. If consolidation needs a visual change, revise the affected imagegen preview and obtain approval again.
+
+**Input:** Approved 8B–8M previews and their review records.  
+**Deliverable:** `app-design-spec.md`.  
+**Done when:** Every required state has an approved revision and an implementation requirement; unresolved issues are listed.
+
+### 8O. Verify the design package and obtain final approval
+
+Cross-check the brief, exact fixtures, approved revisions and specification for complete library, reader, answer-review, source, reference and fallback coverage. Confirm learner copy contains no third-party book names, borrowed chapter labels or source-book folios, while preserving legitimate source publishers. Present the complete package for explicit approval.
+
+**Input:** 8N specification and all preview/review records.  
+**Deliverable:** `app-design-review.md and updated progress.md`.  
+**Done when:** The user explicitly approves the complete app design package and no design blockers remain. Record approval only after it is given; step 9 still requires a separate request.
+
+All deliverables are saved under `docs/curriculum/`. Update the [progress tracker](progress.md) after each executed substep with artifact links, approval status and outstanding issues. Step 8 is complete only after 8A–8O meet their completion criteria; implementation begins only after explicit design approval and a separate request for step 9.
 
 ## 9. Implement the approved app changes
 
@@ -376,7 +498,7 @@ The work will use independently written material and appropriately sourced illus
 
 ## Execution
 
-Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production or app migration planning, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1) or “Execute step 7A”. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
+Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production, app migration planning or app previews, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1), “Execute step 7A” or “Execute step 8B”. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
 
 
 **Sequencing update — 2 October 2026:** Following the 5A blocker notice, the user directly requested execution of 5B. A limited cover/opening-page preview without sign artwork was prepared under that instruction and is [awaiting approval](pdf-design/5b/review.md). The 13 required sign gaps and 4F completion gate remain unresolved; this exception does not clear sign-dependent layouts or final PDF production.
