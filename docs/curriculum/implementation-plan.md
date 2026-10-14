@@ -332,6 +332,8 @@ List bounded step 9 work items for content import, model/loader changes, questio
 
 **Done when:** Every planned content/data change has an executable work item and verification criteria; step 8 has exact representative content and constraints. Any new app design still requires imagegen previews and explicit approval before implementation.
 
+**Execution record — 14 October 2026:** 7F completed: 15 dependency-ordered implementation work items, exhaustive per-question assignments and bounded batches, ten future verification cases and exact library/reader/answer-review/source/legacy fixtures. SIG16–18 retain explicit unavailable internal routes with recorded official-source and related-teaching actions; no new sign entries approved. All 68 local handoff checks pass, including frozen-input/asset hashes and byte-identical regeneration. No live app/question/asset/PDF changes or design previews. See [implementation-backlog.md](app-migration/implementation-backlog.md) and [preview-handoff.md](app-migration/preview-handoff.md). 7G has not started.
+
 ### 7G. Verify the migration package and update progress
 
 Cross-check baseline counts/hashes, unique curriculum and question IDs, complete question dispositions, valid destinations, official references, asset bindings, persistence rules and backlog coverage. Save machine-readable results and a human-readable review; list unresolved research, content or migration blockers.

@@ -1,0 +1,364 @@
+{
+  "step": "7F",
+  "scope": "handoff checks only; 7G and app/device tests not executed",
+  "passed": true,
+  "checks": [
+    {
+      "name": "frozen 7A–7E planning identities",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected baseline inputs and 343 app assets unchanged",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "400 exact approved sign asset hashes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "15 bounded unique work items",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "acyclic dependency graph in executable order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "each work item has files output and acceptance",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 1000 baseline IDs once in original order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact original dispositions and evidence pointers",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "336 retain / 626 rewrite / 38 replace / zero remove",
+      "passed": true,
+      "detail": {
+        "retain": 336,
+        "rewrite": 626,
+        "replace": 38
+      }
+    },
+    {
+      "name": "bounded question owners",
+      "passed": true,
+      "detail": {
+        "9J": 336,
+        "9G": 8,
+        "9E": 578,
+        "9F": 38,
+        "9H": 30,
+        "9I": 10
+      }
+    },
+    {
+      "name": "exact bounded batches 9D",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9E",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9F",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9G",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9H",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9I",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact bounded batches 9J",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all curriculum_nodes owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all sign_entries owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all source_destinations owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all supporting_destinations owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 1123 published IDs unique",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SCENARIO-SCOPE-OR-EXPLANATION",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SIGN-QUESTION-COPY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SIGN-PREANSWER-SEMANTICS",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SIGN-RECOGNITION-CODE-CUE",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SIGN-OUTLINE-DISTRACTOR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage SIGN-OUTLINE-DELIVERY",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage LOAD-WEIGHT-CONVENTION",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage FUEL-UNIT-GRAMMAR",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "issue coverage FUEL-ROUNDING",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shared 7D dependencies owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all three coverage gap briefs owned",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership category_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership lesson_category_tags",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership navigation_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership reading_order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership chapter_aliases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership legacy_page_aliases",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership question_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership unused_topic_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership sign_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership source_routes",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership state_rules",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership entry_point_rules",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership labels_to_replace",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership supporting_document_updates",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership resolution_policy",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership version_transition",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "7E ownership unresolved_destinations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "every coverage owner is a known work item",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all work items have step10 verification",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "signal fallback decision no new destinations",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact complete approved lesson fixture",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "canonical module titles and order",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 40 filter tags preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact question fixture situation-001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shuffle identity and key fixture situation-001",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact question fixture fuel-saving-150-0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "shuffle identity and key fixture fuel-saving-150-0.5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "fuel proposed and not scored status explicit",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact source classification REF-9f4b74a976fa03fb",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact source classification REF-0f011d29fdd9c97f",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact source classification REF-8994a6a11921a063",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "exact B1 reference asset/caption",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "all 7E legacy fixtures preserved",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "byte-identical 7F rebuild",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "protected inputs unchanged after rebuild",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "artifact_sha256": {
+    "implementation-backlog.json": "87de0754889d6ecb25ab9b9bb14fddd31ac3e0ba26f11ec5b542eac4feca2800",
+    "implementation-backlog.md": "c69eed2daacc53c3392decd959056e2c4471a0e42d9c42f49e4c06a97035d038",
+    "preview-content.json": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f",
+    "preview-handoff.md": "6e8a95b6019b1dd598ba67ab7cf5faa83ee8c8cd8f0ed85bcd859b9e0c47bda2"
+  }
+}
