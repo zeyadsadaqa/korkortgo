@@ -402,6 +402,8 @@ Use imagegen to show the amber-signal knowledge check before and after deliberat
 **Deliverable:** `app-design/8e/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the hidden and revealed answer states.
 
+**Execution record — 14 October 2026:** 8E v2 explicitly approved: “approved”. Wide/phone before-and-after knowledge-check reveal previews complete; see [preview and approval record](app-design/8e/review.md). 8F has not started.
+
 ### 8F. Preview long-content and large-text reading
 
 Use imagegen to show a focused M03-L04 reader example covering longer content, a table or calculation, and enlarged text. Record intended scrolling and wrapping behaviour without omitting approved teaching content.

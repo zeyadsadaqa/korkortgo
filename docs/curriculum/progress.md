@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (8D v1 approved; 8D complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E–8O and steps 9–10 have not started.
-**Next action:** 8E — preview the lesson knowledge check before and after deliberate answer reveal, using the approved reader direction. Execute only when separately requested; implementation remains gated on the complete approved design package.
+**Last updated:** 14 October 2026 (8E v2 approved; 8E complete)
+**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F–8O and steps 9–10 have not started.
+**Next action:** 8F — preview long-content and large-text reading using the approved reader direction and exact M03-L04 content. Execute only when separately requested; implementation remains gated on the complete approved design package.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | In progress; 8A–8D complete | [Approved 8D reader preview](app-design/8d/review.md); 8E next |
+| 8 | Generate previews of the revised app | In progress; 8A–8E complete | [Approved 8E reveal preview](app-design/8e/review.md); 8F next |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -91,7 +91,7 @@ Each preview requires imagegen and explicit user approval before the next design
 | 8B | Preview the learning-library overview | Completed; v1 explicitly approved | [Wide/phone preview and review](app-design/8b/review.md) |
 | 8C | Preview library search and filters | Completed; v1 explicitly approved | [Filtered/empty wide and phone previews](app-design/8c/review.md) |
 | 8D | Preview the lesson-reader opening | Completed; v1 explicitly approved | [Wide/phone reader preview and review](app-design/8d/review.md) |
-| 8E | Preview the lesson knowledge-check reveal | Not started | See implementation plan |
+| 8E | Preview the lesson knowledge-check reveal | Completed; v2 explicitly approved | [Before/after wide and phone preview](app-design/8e/review.md) |
 | 8F | Preview long-content and large-text reading | Not started | See implementation plan |
 | 8G | Preview the standard answer review | Not started | See implementation plan |
 | 8H | Preview the calculation answer review | Not started | See implementation plan |
@@ -620,3 +620,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **14 October — 8D v1 approved:** User explicitly said “approved”. Recorded approval against the saved lesson-reader preview and exact content bindings; 8D is complete. The opening-only boundary and full-content/runtime requirements remain documented. 8E is next only when separately requested; no implementation started. [Approval record](app-design/8d/review.md).
+
+
+**14 October — 8E v2 generated:** Prepared built-in imagegen before/after answer-reveal reader details for wide and phone layouts. Corrected the initial phone proportions before presenting v2. Exact M03-L02 question/answer and frozen source hash checked; saved prompt, bindings and reveal/focus/accessibility requirements. Hidden answers must be excluded from assistive reading until deliberate reveal; actual semantics remain future verification. Awaiting explicit approval; 8F unstarted. No implementation, question, official asset or PDF changes. [Preview/review](app-design/8e/review.md).
+
+
+**14 October — 8E v2 approved:** User explicitly said “approved”. Recorded approval against the saved wide/phone reveal preview and exact bindings; 8E is complete. Accessibility/reveal behaviour remains subject to actual implementation verification. 8F is next only when separately requested; no implementation started. [Approval record](app-design/8e/review.md).
