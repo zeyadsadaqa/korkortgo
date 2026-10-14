@@ -1,0 +1,76 @@
+{
+  "step": "8C",
+  "revision": "v1",
+  "status": "approved",
+  "tool": "built-in image_gen",
+  "fixture_path": "docs/curriculum/app-migration/preview-content.json",
+  "fixture_sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f",
+  "fixture_pointers": [
+    "/library/category_filters",
+    "/library/lesson_tags",
+    "/library/learner_copy/empty_search",
+    "/library/module",
+    "/library/children"
+  ],
+  "filtered_state": {
+    "category_id": "SAFETY",
+    "query": "",
+    "representative_module": "M03",
+    "visible_lesson_ids": [
+      "M03-L02",
+      "M03-L03",
+      "M03-L04"
+    ],
+    "other_matching_modules": "outside representative frame; not removed",
+    "module_review": "not included as a category-tagged lesson"
+  },
+  "empty_state": {
+    "category_id": null,
+    "query": "zzzxq",
+    "message": "No matching lessons.",
+    "visible_lessons": []
+  },
+  "new_presentation_labels": [
+    "Search lessons",
+    "All topics",
+    "Clear search",
+    "Clear filters"
+  ],
+  "action_contract": {
+    "search": "Search canonical teaching; intersect with category lesson tags; preserve canonical order.",
+    "clear_search": "Clear query; preserve selected category.",
+    "clear_filters": "Reset category to All topics; preserve query. Already All topics: no category change.",
+    "clear_icon": "Same as Clear search; accessible name Clear search.",
+    "all_topics": "Reset category; no invented completion or question-count dependency."
+  },
+  "conceptual_frame_widths": [
+    1280,
+    390
+  ],
+  "reference_inspected": "docs/curriculum/app-design/8b/library-overview-v1.png",
+  "reference_image_supplied_to_generation": false,
+  "outputs": [
+    {
+      "path": "docs/curriculum/app-design/8c/library-filter-v1.png",
+      "sha256": "a621e8fed14261d2ad8b1d71e4c9e6563024a2b1252b2064868778bc5c5597af",
+      "dimensions_px": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/library-empty-v1.png",
+      "sha256": "af57d3ce4b0d5ee4e985844622b413de14154e720a18890b973a6927805a08b9",
+      "dimensions_px": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "approval_record": {
+    "date": "2026-10-14",
+    "user_statement": "yes looks great, approved",
+    "revision": "v1",
+    "scope": "Both 8C filter and empty-search boards; no implementation started"
+  }
+}

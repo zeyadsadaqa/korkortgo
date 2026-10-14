@@ -382,6 +382,8 @@ Use imagegen to show one filtered library state and the empty-search message “
 **Deliverable:** `app-design/8c/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves search, filtering and the empty state.
 
+**Execution record — 14 October 2026:** 8C v1 explicitly approved: “yes looks great, approved”. Filtered and empty-search wide/phone previews complete; see [preview and approval record](app-design/8c/review.md). 8D has not started.
+
 ### 8D. Preview the lesson-reader opening
 
 Use imagegen to show M03-L02, Combine the instructions, with its exact goal and opening requirements paragraph. Show the module context and previous/next lesson actions. Replace book-page labels with useful lesson information.

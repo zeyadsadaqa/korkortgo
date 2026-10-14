@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (8B v1 approved; 8B complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C–8O and steps 9–10 have not started.
-**Next action:** 8C — preview library search, filtering and the empty state using the approved 8B direction. Execute only when separately requested; implementation remains gated on the complete approved design package.
+**Last updated:** 14 October 2026 (8C v1 approved; 8C complete)
+**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D–8O and steps 9–10 have not started.
+**Next action:** 8D — preview the lesson-reader opening using the approved library direction and exact M03-L02 content. Execute only when separately requested; implementation remains gated on the complete approved design package.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | In progress; 8A–8B complete | [Preview brief](app-design/brief.md), [approved 8B v1](app-design/8b/review.md); 8C next |
+| 8 | Generate previews of the revised app | In progress; 8A–8C complete | [Approved 8B](app-design/8b/review.md), [approved 8C v1](app-design/8c/review.md); 8D next |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -89,7 +89,7 @@ Each preview requires imagegen and explicit user approval before the next design
 |---|---|---|---|
 | 8A | Prepare the app-preview brief | Completed preparation | [Brief](app-design/brief.md), [readiness](app-design/readiness.json) |
 | 8B | Preview the learning-library overview | Completed; v1 explicitly approved | [Wide/phone preview and review](app-design/8b/review.md) |
-| 8C | Preview library search and filters | Not started | See implementation plan |
+| 8C | Preview library search and filters | Completed; v1 explicitly approved | [Filtered/empty wide and phone previews](app-design/8c/review.md) |
 | 8D | Preview the lesson-reader opening | Not started | See implementation plan |
 | 8E | Preview the lesson knowledge-check reveal | Not started | See implementation plan |
 | 8F | Preview long-content and large-text reading | Not started | See implementation plan |
@@ -608,3 +608,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **14 October — 8B v1 approved:** User explicitly said “Looks great, approved”. Recorded approval against the saved v1 preview and content bindings; 8B is complete. Header rendering deviations remain documented, with no new unbound menu/language functionality inferred. 8C is next only when separately requested; no implementation started. [Approval record](app-design/8b/review.md).
+
+
+**14 October — 8C v1 generated:** Saved built-in imagegen boards for Traffic safety filtering and empty search, each with wide/phone layouts. Verified module 3 matches M03-L02–L04 in canonical order against category and lesson tags. Saved exact fixtures, action/reset contracts, prompts, output hashes and review notes. Awaiting explicit user approval; 8D remains unstarted. No app, question, official asset or PDF changes. [Review](app-design/8c/review.md).
+
+
+**14 October — 8C v1 approved:** User explicitly said “yes looks great, approved”. Recorded approval for both filter and empty-search boards in the review and exact bindings; 8C is complete. Documented runtime/accessibility requirements remain future checks. 8D is next only when separately requested; no implementation started. [Approval record](app-design/8c/review.md).
