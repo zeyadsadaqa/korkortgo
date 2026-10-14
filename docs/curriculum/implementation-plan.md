@@ -344,6 +344,8 @@ Cross-check baseline counts/hashes, unique curriculum and question IDs, complete
 
 **Done when:** All baseline questions are accounted for, required destinations and references resolve, every action is covered by the backlog and no blocking migration-planning issues remain. Otherwise keep step 7 in progress and identify the substep that must be revisited.
 
+**Execution record — 14 October 2026:** 7G passed; step 7 planning is complete. Fresh 7C–7F acceptance runs and 60 cross-stage checks pass: all 1,000 baseline question IDs, 1,123 unique published destinations, source/asset bindings, learner-state contracts and backlog ownership verified. No blocking migration-planning issues remain. The 38 image-delivery holds, all proposed question edits, three explicit unavailable signal routes and deferred print scope remain recorded future requirements/limits. App, live questions, assets and approved PDFs are unchanged. See [verification.md](app-migration/verification.md) and [verification.json](app-migration/verification.json). Step 8 has not started and must be requested separately; imagegen previews and explicit design approval remain required before implementation.
+
 All step 7 deliverables are saved under `docs/curriculum/`. Update the progress tracker after each executed substep with artifact links, checks and remaining issues. This breakdown does not execute migration or mark any substep completed. Request step 8 separately after 7G passes.
 
 ## 8. Generate previews of the revised app
