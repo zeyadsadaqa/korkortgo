@@ -308,6 +308,8 @@ Review prompts, options, keyed answers, explanations, calculations, sign variant
 
 **Done when:** All questions have a disposition, flagged answers and ambiguities are resolved or held explicitly, and each proposed change has a source and reviewable completion criteria.
 
+**Execution record — 14 October 2026:** 7D planning completed: 336 retain, 626 rewrite, 38 replace and zero remove. All 1,000 IDs retained in the planning package; 38 exact-code image-delivery holds have acceptance criteria. No live questions changed. See [question-actions.md](app-migration/question-actions.md). 7E has not started.
+
 ### 7E. Plan link replacement and preservation of learner progress
 
 Map existing categories, chapter/book-page references and navigation routes to canonical destinations. Specify handling for retired questions, stale links, bookmarks, completed lessons and question history, including aliases, fallback behaviour and version transitions. Identify learner-facing third-party book names, borrowed labels and source-book page numbers that must be replaced.

@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (6N approved; 7C completed)
-**Current position:** Steps 1–6 complete for the explicitly approved 578-page tagged screen edition; print masters deferred by user choice. 7A–7B release bindings refreshed and 7C maps all 1,000 questions. Steps 7D–10 have not started.
-**Next action:** 7D — review each question for retention, rewriting, replacement or removal, including the four retained fuel-rounding qualifications and lesson sampling gaps. Execute only when requested.
+**Last updated:** 14 October 2026 (7D completed)
+**Current position:** Steps 1–6 complete for the explicitly approved 578-page tagged screen edition; print masters deferred. 7A–7D planning is complete, including all 1,000 question dispositions. Implementation acceptance includes 38 explicit image-delivery holds. Steps 7E–10 have not started.
+**Next action:** 7E — plan canonical link replacement, aliases and learner-state/content-version handling using the 7C mappings and 7D dispositions. Execute only when requested.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Six of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -17,7 +17,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
-| 7 | Plan the app’s curriculum migration | In progress; 7A–7C completed | [Frozen baseline](app-migration/baseline.md), [question map review](app-migration/question-map-review.md); next 7D |
+| 7 | Plan the app’s curriculum migration | In progress; 7A–7D completed | [Question dispositions](app-migration/question-actions.md), [checks](app-migration/question-actions-checks.json); next 7E |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
@@ -69,14 +69,14 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 
 ## Step 7 substep tracker
 
-The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. The user explicitly approved 6N and authorised 7C on 14 October 2026. The 7A–7B identities now bind to the approved tagged screen edition, with historical snapshots retained. All 1,000 H7 decisions were checked against fresh approved-page text; the two page-193 records carry the reviewed 6N correction. 7D–7G have not started.
+The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. The user explicitly approved 6N and authorised 7C on 14 October 2026. The 7A–7B identities now bind to the approved tagged screen edition, with historical snapshots retained. All 1,000 H7 decisions were checked against fresh approved-page text; the two page-193 records carry the reviewed 6N correction. 7D now records all 1,000 dispositions and explicit replacement holds; 7E–7G have not started.
 
 | Substep | Work | Status | Planned deliverable |
 |---|---|---|---|
 | 7A | Freeze content and audit app | Completed; approved release bindings refreshed | [Baseline](app-migration/baseline.md), [hashes and checks](app-migration/baseline.json) |
 | 7B | Confirm curriculum IDs and content contract | Completed; canonical IDs unchanged | [Registry](app-migration/curriculum-map.md), [structured map](app-migration/curriculum-map.json) |
 | 7C | Map questions to teaching and official sources | Completed; 1,000 mapped, no unresolved mappings | [Question map](app-migration/question-map.json), [review](app-migration/question-map-review.md), [checks](app-migration/question-map-checks.json) |
-| 7D | Review question dispositions and corrections | Not started | `app-migration/question-actions.md`, `question-actions.json` |
+| 7D | Review question dispositions and corrections | Completed planning review; 38 asset/display holds explicit | [Dispositions](app-migration/question-actions.md), [all 1,000 records](app-migration/question-actions.json), [checks](app-migration/question-actions-checks.json) |
 | 7E | Plan link and learner-progress migration | Not started | `app-migration/link-and-progress-map.md`, `link-and-progress-map.json` |
 | 7F | Prepare implementation backlog and preview handoff | Not started | `app-migration/implementation-backlog.md`, `preview-handoff.md` |
 | 7G | Verify complete migration package | Not started | `app-migration/verification.md`, `verification.json`; update this tracker |
@@ -569,3 +569,5 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **14 October — screen edition selected:** User explicitly chose “Finish the screen edition; defer print masters”. Recorded print work as deferred and promoted the verified tagged bytes to the release filename and output copy. Exact rebuild/delivery parity passes. Original untagged approval copy preserved. 6N is **Awaiting approval** of the finished tagged screen candidate; print work is not certified, and app migration has not resumed. [Release scope and identity](pdf-production/final-review/screen-release.json).
 
 **14 October — 6N approved; 7C completed:** User explicitly said “OK approve 6N and move forward to 7C”. Closed 6N for the tagged screen edition, with print work deferred. Refreshed 7A–7B release/input bindings and retained original snapshots. Mapped all 1,000 unchanged question IDs to primary lessons, supporting passages and source evidence; all destination/hash/passage checks pass. No unmatched or ambiguous mappings. Preserved 616 exact sign questions, 55 reviewed claim associations and four fuel-rounding qualifications. Three lessons lack primary bank questions (M01-L01, M07-L04, M10-L03); M07-L04 is related once. No question/app/PDF changes; 7D not started. [Review](app-migration/question-map-review.md), [checks](app-migration/question-map-checks.json).
+
+**14 October — 7D completed:** Reviewed all 178 scenarios and option explanations, 308 sign codes in both question directions, all 206 arithmetic/rule instances and ten paired asset sheets. Assigned 336 retain, 626 rewrite, 38 replace, zero remove. Saved concrete patches/briefs and source-backed acceptance criteria. Sign revisions remove pre-answer code cues, separate assessment descriptions from study captions and align exact-code feedback. Nineteen faint-outline codes require replacement delivery for 38 questions before scored use. Four fuel questions propose exact unrounded keys; 30 load prompts define driver-inclusive tjänstevikt; eight scenario and six singular-unit edits are recorded. Current numeric keys agree with the printed model/convention, with the four qualifications retained. Targeted official checks and frozen-input/asset/proposal validation pass. No live bank, app, asset or PDF changes; 7E not started. [Review](app-migration/question-actions.md).

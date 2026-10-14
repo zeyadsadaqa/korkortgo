@@ -98,3 +98,7 @@ python3 docs/curriculum/app-migration/verify_question_map.py
 To independently refresh the saved teaching-page extraction, run the builder with `--extract` using pypdf 6.10.0 in the bundled Python environment, then rerun the verifier. Changing the extraction version can change whitespace/text hashes and requires review. The builder never changes the bank, app or PDF.
 
 The acceptance checker passed against all frozen inputs and all 1,000 records. Rebuilding the mapping is deterministic. No Gradle/runtime tests were required for this planning-data change. Step **7D** is next and has not started.
+
+## Subsequent 7D review
+
+7D is now complete as a planning review; its [dispositions](question-actions.md) supersede the earlier handoff’s not-started status. The 7C evidence/map remains frozen and unchanged. 7E has not started.
