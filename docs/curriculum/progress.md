@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (7G passed; step 7 complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Steps 8–10 have not started.
-**Next action:** Step 8 — generate library, lesson-reader and answer-review previews with imagegen using the exact 7F handoff, then obtain explicit design approval before implementation. Execute only when requested.
+**Last updated:** 14 October 2026 (8A complete; app-preview brief ready)
+**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B–8O and steps 9–10 have not started.
+**Next action:** 8B — generate the learning-library overview with imagegen using the [8A brief](app-design/brief.md), then wait for explicit approval. Execute only when separately requested.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
+| 8 | Generate previews of the revised app | In progress; 8A complete | [Preview brief](app-design/brief.md), [readiness checks](app-design/readiness.json); 8B next, no visual design approved |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -80,6 +80,28 @@ The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migrat
 | 7E | Plan link and learner-progress migration | Completed planning map; three exact signal gaps explicit | [Plan](app-migration/link-and-progress-map.md), [structured rules](app-migration/link-and-progress-map.json), [checks](app-migration/link-and-progress-checks.json) |
 | 7F | Prepare implementation backlog and preview handoff | Completed planning; 68 handoff checks pass | [Backlog](app-migration/implementation-backlog.md), [all question assignments](app-migration/implementation-backlog.json), [preview handoff](app-migration/preview-handoff.md), [exact content](app-migration/preview-content.json), [checks](app-migration/handoff-checks.json) |
 | 7G | Verify complete migration package | Completed; 58/60 cross-stage checks pass, no planning blockers | [Review](app-migration/verification.md), [machine-readable results and input manifest](app-migration/verification.json), [reproducible verifier](app-migration/verify_migration_package.py) |
+
+## Step 8 substep tracker
+
+Each preview requires imagegen and explicit user approval before the next design task. 8A is preparation only; no visual proposal or implementation is approved.
+
+| Substep | Work | Status | Deliverable / next requirement |
+|---|---|---|---|
+| 8A | Prepare the app-preview brief | Completed preparation | [Brief](app-design/brief.md), [readiness](app-design/readiness.json) |
+| 8B | Preview the learning-library overview | Not started | See implementation plan |
+| 8C | Preview library search and filters | Not started | See implementation plan |
+| 8D | Preview the lesson-reader opening | Not started | See implementation plan |
+| 8E | Preview the lesson knowledge-check reveal | Not started | See implementation plan |
+| 8F | Preview long-content and large-text reading | Not started | See implementation plan |
+| 8G | Preview the standard answer review | Not started | See implementation plan |
+| 8H | Preview the calculation answer review | Not started | See implementation plan |
+| 8I | Preview the sources area | Not started | See implementation plan |
+| 8J | Preview the road-sign reference | Not started | See implementation plan |
+| 8K | Preview ambiguous and moved legacy links | Not started | See implementation plan |
+| 8L | Preview unavailable destinations | Not started | See implementation plan |
+| 8M | Preview missing-results and setup recovery | Not started | See implementation plan |
+| 8N | Assemble the app design specification | Not started | See implementation plan |
+| 8O | Verify the design package and obtain final approval | Not started | See implementation plan |
 
 ## Completed work
 
@@ -577,3 +599,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **14 October — 7F completed:** Prepared 15 dependency-ordered step 9 work items with affected files, outputs and acceptance criteria. Assigned every baseline question to one content owner with exact 7C/7D pointers and batches of at most 50; preserved 336 retain, 626 rewrite, 38 replace and zero remove. Covered all 1,123 published destinations, 7D issues/coverage briefs and 7E route/state/label rules. Chose the existing explicit unavailable internal policy for SIG16–18, retaining recorded official links and related teaching without adding unverified entries. Saved exact library, M03-L02 reader, retained/proposed answer-review, B1 reference, classified-source and legacy/fallback fixtures for future step 8. Specified ten future step 10 verification cases. All 68 local handoff checks pass, including protected baseline/asset hashes and deterministic rebuild. No live app/question/asset/PDF changes; no visual design generated. 7G remains next; step 8 still requires imagegen and explicit approval. [Backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md), [checks](app-migration/handoff-checks.json).
 
 **14 October — 7G passed; step 7 complete:** Freshly reran the 7C–7F validators and independently checked cross-stage input identities, release copies, canonical structure/folios/source locations, all 1,000 question IDs and original payloads, 500 concepts, dispositions, exact teaching/source routes, 400 sign bindings, 2,464 proposed sign-option asset/source bindings, 83 lesson scene placements, 329 chapter sign placements, 404 question URL evidence records, 22 state contracts, backlog dependencies/ownership and preview fixtures. All 60 cross-stage checks pass; the current 7F checks also pass 68/68. All 177 frozen baseline input records and 343 bundled asset records match; current app source inventory remains covered. No blocking migration-planning issues remain. The 626 rewrites and 38 replacements remain unapplied; intended-size/accessibility proof, time-sensitive source rechecks and implementation/device acceptance remain future work. SIG16–18 retain the explicit unavailable/official-link/related-teaching policy; no sign substitution or new approval. No app, question, asset or approved PDF changes. Step 8 is next, separately requested, with imagegen previews and explicit design approval required. [Verification report](app-migration/verification.md), [results and input manifest](app-migration/verification.json).
+
+
+**14 October — 8A completed:** Prepared the app-preview brief from the verified migration handoff, exact fixtures, current shared app source, brand tokens and historical mockups. Bound every 8B–8M preview to exact copy/assets or approved production/legacy records, including the M03-L04 calculation excerpt and page-46 chooser targets. All 466 stored 7G input-manifest hashes and the explicit preview input/reader/B1 bindings match. Recorded approval workflow, accessibility/reflow requirements, 626 rewrite/38 replacement limits, SIG16–18 policy and remaining implementation/device checks. No imagegen preview, new visual design, approval, app/question/asset/PDF change or 8B execution. [Brief](app-design/brief.md), [readiness](app-design/readiness.json).
