@@ -392,6 +392,8 @@ Use imagegen to show M03-L02, Combine the instructions, with its exact goal and 
 **Deliverable:** `app-design/8d/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the reader opening and lesson navigation.
 
+**Execution record — 14 October 2026:** 8D v1 explicitly approved: “approved”. Wide/phone lesson-reader opening complete; see [preview and approval record](app-design/8d/review.md). 8E has not started.
+
 ### 8E. Preview the lesson knowledge-check reveal
 
 Use imagegen to show the amber-signal knowledge check before and after deliberate answer reveal. Record that hidden answers must stay outside accessibility reading before reveal.

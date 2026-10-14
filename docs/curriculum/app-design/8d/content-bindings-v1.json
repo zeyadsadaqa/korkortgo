@@ -1,0 +1,61 @@
+{
+  "step": "8D",
+  "revision": "v1",
+  "status": "approved",
+  "tool": "built-in image_gen",
+  "fixture_path": "docs/curriculum/app-migration/preview-content.json",
+  "fixture_sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f",
+  "fixture_pointer": "/lesson_reader",
+  "content_id": "M03-L02",
+  "source_path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+  "source_sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61",
+  "module": {
+    "id": "M03",
+    "title": "Read the road before acting"
+  },
+  "title": "Combine the instructions",
+  "goal": "Interpret signs, panels, markings and signals together, including authorised directions.",
+  "requirements_opening": "Follow the traffic instructions that apply to you. Where an instruction differs from a general traffic rule, the instruction governs. A steady traffic-light indication takes precedence over a yield or stop sign; a police officer's direction takes precedence over the rules and ordinary traffic instructions. This is not a rule that a green signal cancels every other restriction. Authorised guards also give traffic directions that must be followed.",
+  "citation": {
+    "label": "Traffic Regulation, chapter 2 §§2–4",
+    "source_id": "source-traffic-law"
+  },
+  "source_ids": [
+    "source-traffic-law",
+    "source-sign-law",
+    "source-panels"
+  ],
+  "navigation": {
+    "library": "return to validated library context",
+    "previous": {
+      "id": "M03-L01",
+      "title": "Recognise what a sign asks"
+    },
+    "next": {
+      "id": "M03-L03",
+      "title": "Find your way without rushing"
+    },
+    "sources": "open scoped sources; return to same lesson/reading position"
+  },
+  "review_annotation": "Lesson continues below is preview-only; full approved lesson must continue before end-of-lesson navigation.",
+  "conceptual_frame_widths": [
+    1280,
+    390
+  ],
+  "reference_inspected": "docs/curriculum/app-design/8b/library-overview-v1.png",
+  "reference_image_supplied_to_generation": false,
+  "output": {
+    "path": "docs/curriculum/app-design/8d/lesson-opening-v1.png",
+    "sha256": "0dde99f261222524ca899003277ae951755a9628ec9e3fc10853f08502ac75c4",
+    "dimensions_px": [
+      1536,
+      1024
+    ]
+  },
+  "approval_record": {
+    "date": "2026-10-14",
+    "user_statement": "approved",
+    "revision": "v1",
+    "scope": "8D lesson-reader opening visual direction; no implementation started"
+  }
+}
