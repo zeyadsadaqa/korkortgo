@@ -106,3 +106,7 @@ python3 docs/curriculum/app-migration/verify_question_actions.py
 The checker validates every decision/ID, proposal evidence and criteria, exact fuel keys, sign/source/asset bindings, proof hashes and all upstream frozen files. Rebuilds are deterministic. Gradle/runtime tests are reserved for implementation; this step changed planning artifacts only.
 
 **Next:** 7E — plan link replacement, aliases and learner-state/version handling. It has not started.
+
+## Subsequent 7E handoff
+
+7E is complete; its [link and learner-state plan](link-and-progress-map.md) carries these dispositions, exact-key revisions and image-delivery holds forward. The 7D decision/evidence JSON remains frozen and no proposed question edit has been applied. 7F has not started.

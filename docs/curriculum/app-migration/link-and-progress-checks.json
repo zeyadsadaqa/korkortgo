@@ -1,0 +1,110 @@
+{
+  "checked_on": "2026-10-14",
+  "step": "7E",
+  "status": "passed; three exact sign gaps explicitly recorded",
+  "map_sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda",
+  "question_links_checked": 1000,
+  "legacy_chapters_checked": 39,
+  "numeric_pages_checked": 361,
+  "unused_topics_checked": 178,
+  "legacy_sign_routes_checked": 343,
+  "exact_sign_routes": 340,
+  "unresolved_exact_sign_codes": [
+    "SIG16",
+    "SIG17",
+    "SIG18"
+  ],
+  "navigation_states_checked": 8,
+  "state_fields_checked": 22,
+  "all_targets_resolve_or_have_explicit_gap_policy": true,
+  "upstream_frozen_app_bank_assets_and_pdf_unchanged": true,
+  "production_question_removals": 0,
+  "production_tombstones": 0,
+  "compatibility_examples": [
+    {
+      "id": "known-question-overrides-old-folio",
+      "status": "passed"
+    },
+    {
+      "id": "same-old-page-first-context",
+      "status": "passed"
+    },
+    {
+      "id": "same-old-page-other-context",
+      "status": "passed"
+    },
+    {
+      "id": "unknown-question-does-not-fall-through",
+      "status": "passed"
+    },
+    {
+      "id": "changed-answer-teaching-route",
+      "status": "passed"
+    },
+    {
+      "id": "replacement-hold-does-not-remove-teaching",
+      "status": "passed"
+    },
+    {
+      "id": "gap-page",
+      "status": "passed"
+    },
+    {
+      "id": "unknown-legacy-namespace",
+      "status": "passed"
+    },
+    {
+      "id": "noninteger-page",
+      "status": "passed"
+    },
+    {
+      "id": "out-of-range-page",
+      "status": "passed"
+    },
+    {
+      "id": "unknown-canonical-not-first-module",
+      "status": "passed"
+    },
+    {
+      "id": "removed-block-known-parent",
+      "status": "passed"
+    },
+    {
+      "id": "removed-block-unknown-parent",
+      "status": "passed"
+    },
+    {
+      "id": "exact-sign",
+      "status": "passed"
+    },
+    {
+      "id": "no-similar-signal-alias-SIG16",
+      "status": "passed"
+    },
+    {
+      "id": "no-similar-signal-alias-SIG17",
+      "status": "passed"
+    },
+    {
+      "id": "no-similar-signal-alias-SIG18",
+      "status": "passed"
+    },
+    {
+      "id": "fixture-retired-none",
+      "status": "passed; synthetic only"
+    },
+    {
+      "id": "fixture-retired-one",
+      "status": "passed; synthetic only"
+    },
+    {
+      "id": "fixture-retired-many",
+      "status": "passed; synthetic only"
+    },
+    {
+      "id": "shuffled-index-cannot-be-regraded-with-current-key",
+      "status": "passed"
+    }
+  ],
+  "step_7F_started": false
+}

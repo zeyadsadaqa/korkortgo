@@ -320,6 +320,8 @@ Map existing categories, chapter/book-page references and navigation routes to c
 
 **Done when:** Every audited legacy reference and saved-data field has a migration rule, unresolved destinations are listed, and concrete before/after examples cover retained, changed and retired content.
 
+**Execution record — 14 October 2026:** 7E planning completed with all audited legacy references/state covered, exact question routes, chapter/topic aliases and explicit version/fallback rules. SIG16–18 lack exact approved destinations and have recorded gap policies for 7F. No live app/question/storage changes. See [link-and-progress-map.md](app-migration/link-and-progress-map.md). 7F has not started.
+
 ### 7F. Prepare the implementation backlog and app-preview handoff
 
 List bounded step 9 work items for content import, model/loader changes, question updates, route replacement, progress migration, official sources and verified assets. Give each item dependencies, affected files, outputs and acceptance checks. Prepare representative library, lesson-reader and answer-review content for step 8, including source/reference and legacy-link cases. Specify verification cases for step 10 without creating or implementing a new visual design.

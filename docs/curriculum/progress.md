@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (7D completed)
-**Current position:** Steps 1–6 complete for the explicitly approved 578-page tagged screen edition; print masters deferred. 7A–7D planning is complete, including all 1,000 question dispositions. Implementation acceptance includes 38 explicit image-delivery holds. Steps 7E–10 have not started.
-**Next action:** 7E — plan canonical link replacement, aliases and learner-state/content-version handling using the 7C mappings and 7D dispositions. Execute only when requested.
+**Last updated:** 14 October 2026 (7E completed)
+**Current position:** Steps 1–6 complete for the explicitly approved tagged screen edition; print masters deferred. 7A–7E planning is complete. 7D’s 38 image-delivery holds and 7E’s three missing exact signal destinations are explicit implementation/backlog inputs. Steps 7F–10 have not started.
+**Next action:** 7F — prepare the bounded implementation backlog and representative app-preview handoff using 7A–7E, including the recorded question/asset and exact-signal decisions. Execute only when requested.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Six of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -17,7 +17,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 4 | Prepare official road-sign illustrations | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
-| 7 | Plan the app’s curriculum migration | In progress; 7A–7D completed | [Question dispositions](app-migration/question-actions.md), [checks](app-migration/question-actions-checks.json); next 7E |
+| 7 | Plan the app’s curriculum migration | In progress; 7A–7E completed | [Link/state migration](app-migration/link-and-progress-map.md), [checks](app-migration/link-and-progress-checks.json); next 7F |
 | 8 | Generate previews of the revised app | Not started | Generate imagegen previews; obtain explicit design approval |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
@@ -69,7 +69,7 @@ The breakdown is saved in the [implementation plan](implementation-plan.md). Pla
 
 ## Step 7 substep tracker
 
-The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. The user explicitly approved 6N and authorised 7C on 14 October 2026. The 7A–7B identities now bind to the approved tagged screen edition, with historical snapshots retained. All 1,000 H7 decisions were checked against fresh approved-page text; the two page-193 records carry the reviewed 6N correction. 7D now records all 1,000 dispositions and explicit replacement holds; 7E–7G have not started.
+The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migration) remains the execution plan. The user explicitly approved 6N and authorised 7C on 14 October 2026. The 7A–7B identities now bind to the approved tagged screen edition, with historical snapshots retained. All 1,000 H7 decisions were checked against fresh approved-page text; the two page-193 records carry the reviewed 6N correction. 7D now records all 1,000 dispositions and explicit replacement holds; 7E now records link/state/alias/version rules and three exact sign gaps; 7F–7G have not started.
 
 | Substep | Work | Status | Planned deliverable |
 |---|---|---|---|
@@ -77,7 +77,7 @@ The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migrat
 | 7B | Confirm curriculum IDs and content contract | Completed; canonical IDs unchanged | [Registry](app-migration/curriculum-map.md), [structured map](app-migration/curriculum-map.json) |
 | 7C | Map questions to teaching and official sources | Completed; 1,000 mapped, no unresolved mappings | [Question map](app-migration/question-map.json), [review](app-migration/question-map-review.md), [checks](app-migration/question-map-checks.json) |
 | 7D | Review question dispositions and corrections | Completed planning review; 38 asset/display holds explicit | [Dispositions](app-migration/question-actions.md), [all 1,000 records](app-migration/question-actions.json), [checks](app-migration/question-actions-checks.json) |
-| 7E | Plan link and learner-progress migration | Not started | `app-migration/link-and-progress-map.md`, `link-and-progress-map.json` |
+| 7E | Plan link and learner-progress migration | Completed planning map; three exact signal gaps explicit | [Plan](app-migration/link-and-progress-map.md), [structured rules](app-migration/link-and-progress-map.json), [checks](app-migration/link-and-progress-checks.json) |
 | 7F | Prepare implementation backlog and preview handoff | Not started | `app-migration/implementation-backlog.md`, `preview-handoff.md` |
 | 7G | Verify complete migration package | Not started | `app-migration/verification.md`, `verification.json`; update this tracker |
 
@@ -571,3 +571,5 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **14 October — 6N approved; 7C completed:** User explicitly said “OK approve 6N and move forward to 7C”. Closed 6N for the tagged screen edition, with print work deferred. Refreshed 7A–7B release/input bindings and retained original snapshots. Mapped all 1,000 unchanged question IDs to primary lessons, supporting passages and source evidence; all destination/hash/passage checks pass. No unmatched or ambiguous mappings. Preserved 616 exact sign questions, 55 reviewed claim associations and four fuel-rounding qualifications. Three lessons lack primary bank questions (M01-L01, M07-L04, M10-L03); M07-L04 is related once. No question/app/PDF changes; 7D not started. [Review](app-migration/question-map-review.md), [checks](app-migration/question-map-checks.json).
 
 **14 October — 7D completed:** Reviewed all 178 scenarios and option explanations, 308 sign codes in both question directions, all 206 arithmetic/rule instances and ten paired asset sheets. Assigned 336 retain, 626 rewrite, 38 replace, zero remove. Saved concrete patches/briefs and source-backed acceptance criteria. Sign revisions remove pre-answer code cues, separate assessment descriptions from study captions and align exact-code feedback. Nineteen faint-outline codes require replacement delivery for 38 questions before scored use. Four fuel questions propose exact unrounded keys; 30 load prompts define driver-inclusive tjänstevikt; eight scenario and six singular-unit edits are recorded. Current numeric keys agree with the printed model/convention, with the four qualifications retained. Targeted official checks and frozen-input/asset/proposal validation pass. No live bank, app, asset or PDF changes; 7E not started. [Review](app-migration/question-actions.md).
+
+**14 October — 7E completed:** Mapped all 1,000 question links, 39 old chapter aliases, the 361-integer legacy page span, 178 unused generated topics, 343 sign records, five categories, eight navigation states and 22 transient/progress contracts. Exact question IDs override old pages; multi-topic aliases use canonical choices and unknown routes never open the first chapter. Preserved quiz categories/quotas and defined versioned session/answer rules without inventing a durable learner store. 340 sign codes resolve exactly; SIG16–18 have explicit unavailable/official-source fallback policies for 7F. Recorded learner-facing book/publisher/page label replacement and synthetic retained/changed/replaced/retired examples; zero real question removals/tombstones. Frozen-input, destination, compatibility and deterministic rebuild checks pass. App, questions, assets and PDF unchanged; 7F not started. [Review](app-migration/link-and-progress-map.md).
