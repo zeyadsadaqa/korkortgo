@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 14 October 2026 (8F v1 approved; 8F complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F v1 is explicitly approved and complete; 8G–8O and steps 9–10 have not started.
-**Next action:** 8G — preview the standard answer review using the exact situation-001 fixture and approved visual direction. Execute only when separately requested; implementation remains gated on the complete approved design package.
+**Last updated:** 14 October 2026 (8G v1 approved; 8G complete)
+**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F v1 is explicitly approved and complete; 8G v1 is explicitly approved and complete; 8H–8O and steps 9–10 have not started.
+**Next action:** 8H — preview the calculation answer review using the exact proposed fuel-saving fixture and approved review direction. Execute only when separately requested; implementation remains gated on the complete approved design package.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | In progress; 8A–8F complete | [Approved 8F long-content preview](app-design/8f/review.md); 8G next |
+| 8 | Generate previews of the revised app | In progress; 8A–8G complete | [Approved 8G answer review](app-design/8g/review.md); 8H next |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -93,7 +93,7 @@ Each preview requires imagegen and explicit user approval before the next design
 | 8D | Preview the lesson-reader opening | Completed; v1 explicitly approved | [Wide/phone reader preview and review](app-design/8d/review.md) |
 | 8E | Preview the lesson knowledge-check reveal | Completed; v2 explicitly approved | [Before/after wide and phone preview](app-design/8e/review.md) |
 | 8F | Preview long-content and large-text reading | Completed; v1 explicitly approved | [Wide/phone regular and enlarged preview](app-design/8f/review.md) |
-| 8G | Preview the standard answer review | Not started | See implementation plan |
+| 8G | Preview the standard answer review | Completed; v1 explicitly approved | [Wide/phone answered review](app-design/8g/review.md) |
 | 8H | Preview the calculation answer review | Not started | See implementation plan |
 | 8I | Preview the sources area | Not started | See implementation plan |
 | 8J | Preview the road-sign reference | Not started | See implementation plan |
@@ -632,3 +632,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **14 October — 8F v1 approved:** User explicitly said “approved”. Recorded approval against the saved long-content/enlarged-text preview and exact bindings; 8F is complete. Documented font/viewport/scale deviations and actual reflow/full-content checks remain future implementation requirements. 8G is next only when separately requested; no implementation started. [Approval record](app-design/8f/review.md).
+
+
+**14 October — 8G v1 generated:** Saved built-in imagegen wide/phone answered situation-001 review. Verified exact shuffled A-selected/B-correct identities and recorded main/per-option explanations, M03-L02 and scoped source binding. Saved prompt and review with both feedback modes and unfinished-test guard requirements; unbound generated phone menu documented. Awaiting explicit approval; 8H unstarted. No implementation, live question, official asset or PDF changes. [Preview/review](app-design/8g/review.md).
+
+
+**14 October — 8G v1 approved:** User explicitly said “approved”. Recorded approval against the saved standard answer-review preview and exact bindings; 8G is complete. Documented quiz guard/runtime checks and unbound-menu limitation remain. 8H is next only when separately requested; no implementation started. [Approval record](app-design/8g/review.md).

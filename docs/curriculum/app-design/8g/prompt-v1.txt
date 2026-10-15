@@ -1,0 +1,15 @@
+Use case: ui-mockup. Asset: KörkortGo 8G v1 standard answer-review design board.
+Create a polished high-fidelity flat UI board with a wide review screen left and a genuinely narrow tall phone view right, same exact answered question in both. Conceptual 1280-wide desktop and 390-wide phone. Phone title, options and explanation wrap naturally; make phone tall enough, no tiny text or truncation. Labels outside screens "Wide view" and "Phone view".
+Approved calm editorial style: Paper #F7F8F3, Forest #173E32, Ink #172C29, Sage #E7EEE5, line #D5DED5; Source Serif 4 inspired headings and Source Sans 3 inspired readable body. Red incorrect text #9A332F on #FFEDEA, correct uses dark forest with light sage. Correctness always also explicit words and icon. No gradients/shadows/perspective.
+Shared brand "KörkortGo", navigation "Overview", "Learning library", "Practice" (active). Page heading "Answer review". Small category "Traffic rules". Status "Incorrect" paired with x icon. Exact question in readable serif heading:
+"A police officer signals you to stop while your traffic light is green. What should you do?"
+Show four rows in EXACT shuffled order with display letters and full exact text:
+A. "Follow the green light" — pale red, x icon, written label "Your answer · Incorrect"
+B. "Stop as directed by the officer." — pale sage, tick icon, written label "Correct answer"
+C. "Continue if the road looks clear" — neutral white
+D. "Stop only if there is a stop sign" — neutral white
+These are answered REVIEW rows, not clickable unanswered radio inputs. No confirm button. Explicit selected incorrect A and correct B must remain distinct. In wide view status labels may sit right; in phone place status below option text, avoid overlap.
+Below options show quiet explanatory card heading "Explanation", exact paragraph "A police officer's directions take precedence over traffic signals, signs and general rules."
+Next a clearly clickable related reading card with small label "Related lesson", exact title "Combine the instructions", right arrow. Show separate outlined "Sources" action with book icon. No generic official-source badge or invented publisher; actual source details belong to sources view.
+This board represents review AFTER answering, available in completed-test review; same content treatment is reused for eligible immediate feedback, with source/lesson navigation governed by the existing unfinished-test guard. Do not print this technical explanation in UI. No question numbers/test lengths/progress count invented, no scores, durations, saved history, bookmark, completion credit, old book names/pages, technical IDs, fake other questions, policing illustration, signal drawing or sign assets (fixture has no image). Do not invent any supporting image.
+Keep question, four choices, main explanation and related lesson VERBATIM in both frames. No extra slogans. Source card should not claim all references are official. No source-book folios.

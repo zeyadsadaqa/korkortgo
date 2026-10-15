@@ -422,6 +422,8 @@ Use imagegen to show the answered situation-001 fixture with exact shuffled opti
 **Deliverable:** `app-design/8g/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves feedback and related-lesson presentation after answering.
 
+**Execution record — 14 October 2026:** 8G v1 explicitly approved: “approved”. Wide/phone standard answer-review direction complete; see [preview and approval record](app-design/8g/review.md). 8H has not started.
+
 ### 8H. Preview the calculation answer review
 
 Use imagegen to show the exact proposed fuel-saving-150-0.5 revision, shuffled options and 0.75-litre explanation. Mark its proposed status in review notes. Document the historical-score/version-notice compatibility case without inventing an attempt-history feature.
