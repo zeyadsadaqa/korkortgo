@@ -442,6 +442,8 @@ Use imagegen to show the legislation, commercial exercise-assumption and model-s
 **Deliverable:** `app-design/8i/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves source distinctions, detail presentation and return behaviour.
 
+**Execution record — 15 October 2026:** 8I v1 explicitly approved: “approved”. Source-directory/detail wide/phone visual direction complete; see [preview and approval record](app-design/8i/review.md). 8J has not started.
+
 ### 8J. Preview the road-sign reference
 
 Use imagegen to show the registered B1 study/reference entry, Swedish official name, CAP-B1 caption and editorial-English notice. Preview intended size, framing and zoom for faint outlines. Use the exact official asset when possible; otherwise mark a placement placeholder and retain the exact asset binding alongside it. Never generate replacement sign artwork.
