@@ -1,0 +1,3047 @@
+{
+  "anchors": [],
+  "assets": [],
+  "documents": [
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "cover/title",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": 1
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 1,
+            "text": [
+              {
+                "text": "KörkortGo",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "cover/subtitle",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:108-108",
+              "pdf_evidence_page": 1
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Swedish category B learning guide",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "cover/learning-aid",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:109-109",
+              "pdf_evidence_page": 1
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "A learning aid",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "cover/edition",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:110-110",
+              "pdf_evidence_page": 1
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "2026 version",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "cover",
+      "kind": "front_matter",
+      "module_id": null,
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:98-98",
+        "pdf_evidence_page": 1
+      },
+      "related_content": [],
+      "revision": "opening-9B1-v1",
+      "source_ids": [],
+      "title": "Cover"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "introduction/title",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:112-112",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 1,
+            "text": [
+              {
+                "text": "Before you begin",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "introduction/disclaimer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:8-8",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "disclaimer",
+            "text": [
+              {
+                "text": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "introduction/audience",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:10-10",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "This book is for English-speaking learners preparing for ordinary Swedish category B driving. It connects rules with decisions you can explain and practise. It does not grant permission to drive, replace mandatory training or supervised practice, reproduce official examination questions, or guarantee a test result.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "introduction/how-to-use",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:119-119",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "How to use this book",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "introduction/learning-sequence",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:14-14",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Begin with modules 1–3. They establish personal readiness, vehicle preparation and road interpretation. Use modules 4–7 to apply that foundation in traffic and changing conditions. Modules 8–9 develop responsibility for the vehicle, its load and the journey's impact. Module 10 brings the learning together.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "introduction/study-method",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:16-16",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Each lesson contains a goal, an explanation, an original worked situation, a knowledge check with its answer, and a short reminder. After each module, write a reflection and use it to plan your next study or supervised practice session. Explain the answer before reading it; then change one condition in the example and consider whether your decision would change.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "introduction",
+      "kind": "front_matter",
+      "module_id": null,
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:112-112",
+        "pdf_evidence_page": 2
+      },
+      "related_content": [],
+      "revision": "opening-9B1-v1",
+      "source_ids": [],
+      "title": "Before you begin"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "study-guide/title",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:120-120",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 1,
+            "text": [
+              {
+                "text": "Read, reflect and practise",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/labels-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:121-121",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Read the labels",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/labels",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:18-18",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirements",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " describe applicable duties or conditions, with official references. ",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Official recommendations/advice",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " describe the named authority's guidance. ",
+                "type": "text"
+              },
+              {
+                "children": [
+                  {
+                    "text": "Learning approaches, worked decisions and review guides",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " are original teaching material. They help you apply the principles; they are not additional laws. English explanations are written for learning and do not replace the Swedish legal wording.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/references-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:121-121",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Use the official references",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/references",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:20-20",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Official legislation and other public authorities supply details missing from the main agency guidance. Selected manufacturer handbooks supply missing technical cautions and are listed separately. The lessons identify source limits and distinguish recommendations, research and teaching inferences from legal duties. Use the handbook for the actual vehicle; a generic example is not its operating procedure.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/current-guidance-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:121-121",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Check current guidance",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "study-guide/current-guidance",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:22-22",
+              "pdf_evidence_page": 3
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Original licensing, examination and vehicle checks are dated 1 October 2026; added passages have their own checks on 12–13 October. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "study-guide",
+      "kind": "front_matter",
+      "module_id": null,
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:119-119",
+        "pdf_evidence_page": 3
+      },
+      "related_content": [],
+      "revision": "opening-9B1-v1",
+      "source_ids": [],
+      "title": "How to use this book"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "contents/title",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:125-125",
+              "pdf_evidence_page": 4
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 1,
+            "text": [
+              {
+                "text": "Your learning journey",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "contents/modules",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-migration/curriculum-map.json",
+                "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+              },
+              "locator": "json:/modules",
+              "pdf_evidence_page": 4
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "items": [
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M01",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/0",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Choose to drive responsibly",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M01"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M02",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/1",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Prepare a car that is ready",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M02"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M03",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/2",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Read the road before acting",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M03"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M04",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/3",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Negotiate shared space",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M04"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M05",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/4",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Make room in busy streets",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M05"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M06",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/5",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Travel beyond the town",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M06"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M07",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/6",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Adapt when conditions change",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M07"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M08",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/7",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Take responsibility for the vehicle and load",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M08"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M09",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/8",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Reduce the impact of each journey",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M09"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/module-M10",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/modules/9",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "label": [
+                          {
+                            "text": "Respond, reflect and keep learning",
+                            "type": "text"
+                          }
+                        ],
+                        "target": {
+                          "target": {
+                            "block_id": null,
+                            "content_id": "M10"
+                          },
+                          "type": "internal"
+                        },
+                        "type": "link"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ]
+            ],
+            "ordered": true,
+            "start": 1,
+            "type": "list_items"
+          }
+        },
+        {
+          "metadata": {
+            "id": "contents/appendices-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:131-131",
+              "pdf_evidence_page": 4
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Keep these close",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "contents/appendices",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-migration/curriculum-map.json",
+                "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+              },
+              "locator": "json:/curriculum_nodes",
+              "pdf_evidence_page": 4
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "items": [
+              [
+                {
+                  "metadata": {
+                    "id": "contents/appendix-A",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/curriculum_nodes/60",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "text": "A ",
+                        "type": "text"
+                      },
+                      {
+                        "text": "Put the learning into practice",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/appendix-B",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/curriculum_nodes/61",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "text": "B ",
+                        "type": "text"
+                      },
+                      {
+                        "text": "Learn signs by the decision they require",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/appendix-C",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/curriculum_nodes/62",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "text": "C ",
+                        "type": "text"
+                      },
+                      {
+                        "text": "A practical Swedish–English glossary",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ],
+              [
+                {
+                  "metadata": {
+                    "id": "contents/appendix-D",
+                    "origin": {
+                      "evidence_ids": [],
+                      "file": {
+                        "path": "docs/curriculum/app-migration/curriculum-map.json",
+                        "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+                      },
+                      "locator": "json:/curriculum_nodes/63",
+                      "pdf_evidence_page": 4
+                    },
+                    "related_content": [],
+                    "source_uses": []
+                  },
+                  "payload": {
+                    "role": "explanation",
+                    "text": [
+                      {
+                        "text": "D ",
+                        "type": "text"
+                      },
+                      {
+                        "text": "Personal practice record",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "paragraph"
+                  }
+                }
+              ]
+            ],
+            "ordered": false,
+            "start": 1,
+            "type": "list_items"
+          }
+        },
+        {
+          "metadata": {
+            "id": "contents/source-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:134-134",
+              "pdf_evidence_page": 4
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Sources and references",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "contents",
+      "kind": "front_matter",
+      "module_id": null,
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:124-124",
+        "pdf_evidence_page": 4
+      },
+      "related_content": [],
+      "revision": "opening-9B1-v1",
+      "source_ids": [],
+      "title": "Contents"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 5
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Choose to drive responsibly"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01-L01",
+      "kind": "lesson",
+      "module_id": "M01",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 6
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Your route into driving"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01-L02",
+      "kind": "lesson",
+      "module_id": "M01",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:25",
+        "pdf_evidence_page": 8
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Am I ready today?"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01-L03",
+      "kind": "lesson",
+      "module_id": "M01",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:51",
+        "pdf_evidence_page": 11
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Pressure is a driving risk"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01-L04",
+      "kind": "lesson",
+      "module_id": "M01",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:71",
+        "pdf_evidence_page": 13
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Plan the journey before the ignition"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M01-R",
+      "kind": "module_review",
+      "module_id": "M01",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        "locator": "line:87",
+        "pdf_evidence_page": 15
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 22
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Prepare a car that is ready"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02-L01",
+      "kind": "lesson",
+      "module_id": "M02",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 23
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Know what the controls tell you"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02-L02",
+      "kind": "lesson",
+      "module_id": "M02",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:38",
+        "pdf_evidence_page": 26
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "A check before moving"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02-L03",
+      "kind": "lesson",
+      "module_id": "M02",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:60",
+        "pdf_evidence_page": 28
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Protect everyone inside"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02-L04",
+      "kind": "lesson",
+      "module_id": "M02",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:86",
+        "pdf_evidence_page": 31
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Move with control"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M02-R",
+      "kind": "module_review",
+      "module_id": "M02",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        "locator": "line:102",
+        "pdf_evidence_page": 33
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 41
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Read the road before acting"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L01",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 42
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Recognise what a sign asks"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L02",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:29",
+        "pdf_evidence_page": 50
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Combine the instructions"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L03",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:49",
+        "pdf_evidence_page": 67
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Find your way without rushing"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L04",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:67",
+        "pdf_evidence_page": 79
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Leave room to respond"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-R",
+      "kind": "module_review",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:121",
+        "pdf_evidence_page": 89
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 95
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Negotiate shared space"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04-L01",
+      "kind": "lesson",
+      "module_id": "M04",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 96
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Decide who goes first"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04-L02",
+      "kind": "lesson",
+      "module_id": "M04",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:23",
+        "pdf_evidence_page": 106
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Turn with a complete picture"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04-L03",
+      "kind": "lesson",
+      "module_id": "M04",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:45",
+        "pdf_evidence_page": 117
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Crossings belong to people"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04-L04",
+      "kind": "lesson",
+      "module_id": "M04",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:67",
+        "pdf_evidence_page": 125
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Choose a safe path through a roundabout"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M04-R",
+      "kind": "module_review",
+      "module_id": "M04",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M04/chapter-source.md",
+          "sha256": "c86f3ce20f37f4be358dba8306fe56e8f8c9ee3208d42883ad1ac7f6be85c082"
+        },
+        "locator": "line:83",
+        "pdf_evidence_page": 131
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 138
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Make room in busy streets"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05-L01",
+      "kind": "lesson",
+      "module_id": "M05",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 139
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "See the person behind the movement"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05-L02",
+      "kind": "lesson",
+      "module_id": "M05",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:34",
+        "pdf_evidence_page": 146
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "When the street changes purpose"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05-L03",
+      "kind": "lesson",
+      "module_id": "M05",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:52",
+        "pdf_evidence_page": 156
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Choose a lawful place to stop"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05-L04",
+      "kind": "lesson",
+      "module_id": "M05",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:85",
+        "pdf_evidence_page": 172
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Manoeuvre where people may appear"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M05-R",
+      "kind": "module_review",
+      "module_id": "M05",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M05/chapter-source.md",
+          "sha256": "38a8145802037d9bd3baaf0d5deb39d140d661618ff5f4c7acc2c9c6c6db8e26"
+        },
+        "locator": "line:101",
+        "pdf_evidence_page": 176
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 6,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 183
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Travel beyond the town"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06-L01",
+      "kind": "lesson",
+      "module_id": "M06",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 184
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Read the rural road"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06-L02",
+      "kind": "lesson",
+      "module_id": "M06",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:33",
+        "pdf_evidence_page": 196
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Is passing worth the risk?"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06-L03",
+      "kind": "lesson",
+      "module_id": "M06",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:53",
+        "pdf_evidence_page": 201
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Join faster traffic calmly"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06-L04",
+      "kind": "lesson",
+      "module_id": "M06",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:75",
+        "pdf_evidence_page": 210
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Expect an interrupted route"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M06-R",
+      "kind": "module_review",
+      "module_id": "M06",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+          "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+        },
+        "locator": "line:91",
+        "pdf_evidence_page": 225
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 7,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 233
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Adapt when conditions change"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07-L01",
+      "kind": "lesson",
+      "module_id": "M07",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 234
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Drive within what you can see"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07-L02",
+      "kind": "lesson",
+      "module_id": "M07",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:31",
+        "pdf_evidence_page": 239
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Grip is a changing resource"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07-L03",
+      "kind": "lesson",
+      "module_id": "M07",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:71",
+        "pdf_evidence_page": 245
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Protect your attention"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07-L04",
+      "kind": "lesson",
+      "module_id": "M07",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:89",
+        "pdf_evidence_page": 249
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Change the plan when risk grows"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M07-R",
+      "kind": "module_review",
+      "module_id": "M07",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M07/chapter-source.md",
+          "sha256": "23bcab3825bf050d6607f7be6db33f8e01e3e6551704685c30f9ef1362ba4167"
+        },
+        "locator": "line:105",
+        "pdf_evidence_page": 252
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 8,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 260
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Take responsibility for the vehicle and load"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08-L01",
+      "kind": "lesson",
+      "module_id": "M08",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 261
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Understand what you may drive"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08-L02",
+      "kind": "lesson",
+      "module_id": "M08",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:25",
+        "pdf_evidence_page": 264
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Make the load part of the safety check"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08-L03",
+      "kind": "lesson",
+      "module_id": "M08",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:60",
+        "pdf_evidence_page": 277
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Keep the car legally ready"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08-L04",
+      "kind": "lesson",
+      "module_id": "M08",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:84",
+        "pdf_evidence_page": 280
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Know what assistance cannot do"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M08-R",
+      "kind": "module_review",
+      "module_id": "M08",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M08/chapter-source.md",
+          "sha256": "6e78b74816bef5d1624c3e0eee5a58c53033b1dfbb017b15b9802c9701a568eb"
+        },
+        "locator": "line:102",
+        "pdf_evidence_page": 283
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 9,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 291
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Reduce the impact of each journey"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09-L01",
+      "kind": "lesson",
+      "module_id": "M09",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 292
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Look beyond the exhaust"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09-L02",
+      "kind": "lesson",
+      "module_id": "M09",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:42",
+        "pdf_evidence_page": 296
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Use energy with foresight"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09-L03",
+      "kind": "lesson",
+      "module_id": "M09",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:90",
+        "pdf_evidence_page": 302
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Choose the journey as well as the car"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09-L04",
+      "kind": "lesson",
+      "module_id": "M09",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:106",
+        "pdf_evidence_page": 305
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Check where the vehicle can go"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M09-R",
+      "kind": "module_review",
+      "module_id": "M09",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+          "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+        },
+        "locator": "line:124",
+        "pdf_evidence_page": 312
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 10,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:1",
+        "pdf_evidence_page": 320
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Respond, reflect and keep learning"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10-L01",
+      "kind": "lesson",
+      "module_id": "M10",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:5",
+        "pdf_evidence_page": 321
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "When the car cannot continue"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10-L02",
+      "kind": "lesson",
+      "module_id": "M10",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:29",
+        "pdf_evidence_page": 329
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "When someone may be hurt"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10-L03",
+      "kind": "lesson",
+      "module_id": "M10",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:49",
+        "pdf_evidence_page": 333
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Explain a whole journey"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10-L04",
+      "kind": "lesson",
+      "module_id": "M10",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:73",
+        "pdf_evidence_page": 336
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Make a realistic readiness plan"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M10-R",
+      "kind": "module_review",
+      "module_id": "M10",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M10/chapter-source.md",
+          "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
+        },
+        "locator": "line:93",
+        "pdf_evidence_page": 338
+      },
+      "related_content": [],
+      "revision": "structure-9B1-v1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    }
+  ],
+  "lesson_category_tags": {
+    "M01-L01": [
+      "personal",
+      "rules"
+    ],
+    "M01-L02": [
+      "personal",
+      "safety"
+    ],
+    "M01-L03": [
+      "personal",
+      "safety"
+    ],
+    "M01-L04": [
+      "environment",
+      "personal",
+      "safety"
+    ],
+    "M02-L01": [
+      "personal",
+      "safety",
+      "vehicle"
+    ],
+    "M02-L02": [
+      "safety",
+      "vehicle"
+    ],
+    "M02-L03": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M02-L04": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M03-L01": [
+      "rules"
+    ],
+    "M03-L02": [
+      "rules",
+      "safety"
+    ],
+    "M03-L03": [
+      "rules",
+      "safety"
+    ],
+    "M03-L04": [
+      "personal",
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M04-L01": [
+      "rules",
+      "safety"
+    ],
+    "M04-L02": [
+      "rules",
+      "safety"
+    ],
+    "M04-L03": [
+      "rules",
+      "safety"
+    ],
+    "M04-L04": [
+      "rules",
+      "safety"
+    ],
+    "M05-L01": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M05-L02": [
+      "rules",
+      "safety"
+    ],
+    "M05-L03": [
+      "rules",
+      "safety"
+    ],
+    "M05-L04": [
+      "rules",
+      "safety"
+    ],
+    "M06-L01": [
+      "rules",
+      "safety"
+    ],
+    "M06-L02": [
+      "rules",
+      "safety"
+    ],
+    "M06-L03": [
+      "personal",
+      "rules",
+      "safety"
+    ],
+    "M06-L04": [
+      "personal",
+      "rules",
+      "safety"
+    ],
+    "M07-L01": [
+      "personal",
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M07-L02": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M07-L03": [
+      "personal",
+      "safety"
+    ],
+    "M07-L04": [
+      "personal",
+      "safety"
+    ],
+    "M08-L01": [
+      "rules",
+      "vehicle"
+    ],
+    "M08-L02": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M08-L03": [
+      "rules",
+      "vehicle"
+    ],
+    "M08-L04": [
+      "safety",
+      "vehicle"
+    ],
+    "M09-L01": [
+      "environment"
+    ],
+    "M09-L02": [
+      "environment",
+      "safety",
+      "vehicle"
+    ],
+    "M09-L03": [
+      "environment",
+      "personal"
+    ],
+    "M09-L04": [
+      "environment",
+      "rules"
+    ],
+    "M10-L01": [
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M10-L02": [
+      "rules",
+      "safety"
+    ],
+    "M10-L03": [
+      "environment",
+      "personal",
+      "rules",
+      "safety",
+      "vehicle"
+    ],
+    "M10-L04": [
+      "personal",
+      "rules"
+    ]
+  },
+  "modules": [
+    {
+      "id": "M01",
+      "lesson_ids": [
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04"
+      ],
+      "order": 1,
+      "review_id": "M01-R",
+      "title": "Choose to drive responsibly"
+    },
+    {
+      "id": "M02",
+      "lesson_ids": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04"
+      ],
+      "order": 2,
+      "review_id": "M02-R",
+      "title": "Prepare a car that is ready"
+    },
+    {
+      "id": "M03",
+      "lesson_ids": [
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04"
+      ],
+      "order": 3,
+      "review_id": "M03-R",
+      "title": "Read the road before acting"
+    },
+    {
+      "id": "M04",
+      "lesson_ids": [
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04"
+      ],
+      "order": 4,
+      "review_id": "M04-R",
+      "title": "Negotiate shared space"
+    },
+    {
+      "id": "M05",
+      "lesson_ids": [
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04"
+      ],
+      "order": 5,
+      "review_id": "M05-R",
+      "title": "Make room in busy streets"
+    },
+    {
+      "id": "M06",
+      "lesson_ids": [
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04"
+      ],
+      "order": 6,
+      "review_id": "M06-R",
+      "title": "Travel beyond the town"
+    },
+    {
+      "id": "M07",
+      "lesson_ids": [
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04"
+      ],
+      "order": 7,
+      "review_id": "M07-R",
+      "title": "Adapt when conditions change"
+    },
+    {
+      "id": "M08",
+      "lesson_ids": [
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04"
+      ],
+      "order": 8,
+      "review_id": "M08-R",
+      "title": "Take responsibility for the vehicle and load"
+    },
+    {
+      "id": "M09",
+      "lesson_ids": [
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04"
+      ],
+      "order": 9,
+      "review_id": "M09-R",
+      "title": "Reduce the impact of each journey"
+    },
+    {
+      "id": "M10",
+      "lesson_ids": [
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04"
+      ],
+      "order": 10,
+      "review_id": "M10-R",
+      "title": "Respond, reflect and keep learning"
+    }
+  ],
+  "reading_order": [
+    "M01",
+    "M01-L01",
+    "M01-L02",
+    "M01-L03",
+    "M01-L04",
+    "M01-R",
+    "M02",
+    "M02-L01",
+    "M02-L02",
+    "M02-L03",
+    "M02-L04",
+    "M02-R",
+    "M03",
+    "M03-L01",
+    "M03-L02",
+    "M03-L03",
+    "M03-L04",
+    "M03-R",
+    "M04",
+    "M04-L01",
+    "M04-L02",
+    "M04-L03",
+    "M04-L04",
+    "M04-R",
+    "M05",
+    "M05-L01",
+    "M05-L02",
+    "M05-L03",
+    "M05-L04",
+    "M05-R",
+    "M06",
+    "M06-L01",
+    "M06-L02",
+    "M06-L03",
+    "M06-L04",
+    "M06-R",
+    "M07",
+    "M07-L01",
+    "M07-L02",
+    "M07-L03",
+    "M07-L04",
+    "M07-R",
+    "M08",
+    "M08-L01",
+    "M08-L02",
+    "M08-L03",
+    "M08-L04",
+    "M08-R",
+    "M09",
+    "M09-L01",
+    "M09-L02",
+    "M09-L03",
+    "M09-L04",
+    "M09-R",
+    "M10",
+    "M10-L01",
+    "M10-L02",
+    "M10-L03",
+    "M10-L04",
+    "M10-R"
+  ],
+  "reference_groups": [],
+  "schema_version": 1,
+  "sign_entries": [],
+  "source_curriculum": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8",
+    "pdf": {
+      "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+      "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+    }
+  }
+}

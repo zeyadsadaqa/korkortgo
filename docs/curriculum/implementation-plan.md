@@ -576,6 +576,8 @@ Import approved introductory content, the learning-aid disclaimer and the 60-nod
 
 **Done when:** Titles, order, disclaimer and origin locators match the approved sources.
 
+**Execution record — 15 October 2026:** 9B1 completed: approved opening text/disclaimer and all 60 reading records imported into [content/curriculum.json](../../content/curriculum.json), with a [pending-import ledger](../../content/curriculum-import-state.json). Four front-matter destinations remain outside module cards/reading order. All 86 checks and 14 configured Kotlin/desktop tests pass; all opening text matches the approved PDF and generation is byte-identical. See [review](app-migration/implementation-evidence/9B1/review.md) and [verification](app-migration/implementation-evidence/9B1/verification.json). The sixty chapter bodies remain pending; 9B2 requires a separate request.
+
 #### 9B2. Import module M01
 
 Import only M01: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.
