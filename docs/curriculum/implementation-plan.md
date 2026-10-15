@@ -536,6 +536,8 @@ Compare current app, questions, manuscript, production corrections, registries, 
 
 **Done when:** All required input identities match or have an explicitly refreshed review; unresolved drift blocks dependent implementation.
 
+**Execution record — 15 October 2026:** 9A1 completed; current inputs match the retained migration/design/release identities and final design approval is recorded. See [frozen baseline](app-migration/implementation-evidence/9A1/input-baseline.json), [readiness](app-migration/implementation-evidence/9A1/readiness.md) and [review](app-migration/implementation-evidence/9A1/review.md). No app/content migration performed; 9A2 requires a separate request.
+
 #### 9A2. Define the typed content contract
 
 Define canonical IDs, block variants, answer visibility, source/asset bindings, question and option identities, semantic revisions and eligibility. Separate curriculum release identity from app version.

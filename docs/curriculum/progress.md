@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 15 October 2026 (8O and step 8 explicitly approved; complete)
-**Current position:** Steps 1–8 complete for the approved tagged screen-edition scope; print masters deferred. The user explicitly approved the complete app design package on 15 October 2026: “yes approved”. 8O verification passes 681/681 checks; the [final review](app-design-review.md) records all twelve preview-task approvals/sixteen boards and visual-variant dispositions. Content/scoring, exact artwork delivery, source currency and runtime/device requirements remain future acceptance work. Steps 9–10 have not started.
-**Next action:** Step 9 — implement the approved app changes using the [design specification](app-design-spec.md), [final approval](app-design-review.md) and [implementation backlog](app-migration/implementation-backlog.md). Execute only when separately requested.
+**Last updated:** 15 October 2026 (9A1 input baseline verified; complete)
+**Current position:** Steps 1–8 complete for the approved tagged screen edition; print masters deferred. Step 9 is in progress: 9A1 completed with 1,174/1,174 retained identity bindings matching and 21/21 readiness checks passing. The [input baseline](app-migration/implementation-evidence/9A1/input-baseline.json) freezes 1,055 unique files; [readiness](app-migration/implementation-evidence/9A1/readiness.md) records no blocking drift. Complete app design approval remains recorded in [8O](app-design-review.md). App/content migration has not started; scoring, artwork delivery, source currency and runtime/device requirements remain future work.
+**Next action:** 9A2 — define the typed content contract using the frozen 9A1 inputs. Execute only when separately requested; 9A2 and step 10 have not started.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -19,7 +19,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
-| 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
+| 9 | Implement the approved app changes | In progress; 9A1 complete | [Input readiness](app-migration/implementation-evidence/9A1/readiness.md); 9A2 separately requested |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
 ## Step 4 substep tracker
@@ -79,7 +79,7 @@ The [7A–7G breakdown](implementation-plan.md#7-plan-the-apps-curriculum-migrat
 | 7D | Review question dispositions and corrections | Completed planning review; 38 asset/display holds explicit | [Dispositions](app-migration/question-actions.md), [all 1,000 records](app-migration/question-actions.json), [checks](app-migration/question-actions-checks.json) |
 | 7E | Plan link and learner-progress migration | Completed planning map; three exact signal gaps explicit | [Plan](app-migration/link-and-progress-map.md), [structured rules](app-migration/link-and-progress-map.json), [checks](app-migration/link-and-progress-checks.json) |
 | 7F | Prepare implementation backlog and preview handoff | Completed planning; 68 handoff checks pass | [Backlog](app-migration/implementation-backlog.md), [all question assignments](app-migration/implementation-backlog.json), [preview handoff](app-migration/preview-handoff.md), [exact content](app-migration/preview-content.json), [checks](app-migration/handoff-checks.json) |
-| 7G | Verify complete migration package | Completed; 58/60 cross-stage checks pass, no planning blockers | [Review](app-migration/verification.md), [machine-readable results and input manifest](app-migration/verification.json), [reproducible verifier](app-migration/verify_migration_package.py) |
+| 7G | Verify complete migration package | Completed; 60/60 cross-stage checks pass, no planning blockers | [Review](app-migration/verification.md), [machine-readable results and input manifest](app-migration/verification.json), [reproducible verifier](app-migration/verify_migration_package.py) |
 
 ## Step 8 substep tracker
 
@@ -102,6 +102,16 @@ Each preview requires imagegen and explicit user approval before the next design
 | 8M | Preview missing-results and setup recovery | Completed; v1 explicitly approved | [Wide/phone recovery preview](app-design/8m/review.md) |
 | 8N | Assemble the app design specification | Completed consolidation; final package approval pending 8O | [Specification](app-design-spec.md), [index/checks](app-design/8n/package-index.json) |
 | 8O | Verify the design package and obtain final approval | Completed; complete package explicitly approved | [Final review](app-design-review.md), [checks](app-design/8o/verification.json) |
+
+## Step 9 substep tracker
+
+9A–9O group labels retain the migration backlog references. Execute only the requested numbered task; completion does not start another task.
+
+| Substep | Work | Status | Deliverable / next requirement |
+|---|---|---|---|
+| 9A1 | Freeze and check approved inputs | Completed; no blocking drift | [Baseline](app-migration/implementation-evidence/9A1/input-baseline.json), [readiness](app-migration/implementation-evidence/9A1/readiness.md), [review](app-migration/implementation-evidence/9A1/review.md); 1,174 matching bindings and 21 passing checks |
+| 9A2 | Define typed content contract | Not started | Separate request; use 9A1 frozen inputs |
+| Remaining step 9 tasks | Content, questions, routes, UI, state and platform evidence | Not started | Follow exact task dependencies in the [implementation plan](implementation-plan.md#9-implement-the-approved-app-changes) |
 
 ## Completed work
 
@@ -335,7 +345,7 @@ The step 3 manuscript applies these requirements. App changes remain future work
 | 5E illustration direction | Accepted | User said “Looks great, go ahead with 5F” on 3 October 2026; known corrections and unseen scene approvals remain open |
 | Execute 5F | Authorised; consolidation performed | [Specification and completion review](pdf-design-review.md) saved 3 October 2026; complete-package approval remains pending |
 | Finished curriculum PDF | Approved screen edition | User: “OK approve 6N and move forward to 7C”, 14 October 2026; print masters explicitly deferred |
-| App design | Not yet submitted | Step 8 has not started |
+| App design | Complete package explicitly approved | User: “yes approved”, 15 October 2026; [8O final approval](app-design-review.md) |
 
 Design revisions require renewed explicit approval before implementation, as specified in the plan.
 
@@ -683,3 +693,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **15 October — 8O and step 8 approved:** User explicitly said “yes approved”, approving the complete specification/indexed preview package and final-review dispositions. Recorded final approval; 8O and step 8 complete. Existing content/scoring, source-currency, exact-artwork/38 delivery holds and device/runtime requirements remain unchanged. No implementation started; step 9 requires a separate request. [Final approval](app-design-review.md).
+
+
+**15 October — 9A1 completed:** Compared 1,174 retained input bindings across the source/app baseline, bundled assets, migration package, design records and approved release copies; every identity matches. Saved 1,055 unique file identities and 21 passing readiness checks. Confirmed the final design approval and retained all question/delivery/source/device holds. Corrected stale tracker summaries for 7G (60/60) and app-design approval. No live app/question/asset/PDF or prior approval/audit edits. 9A2 remains separately requested. [Readiness](app-migration/implementation-evidence/9A1/readiness.md), [execution review](app-migration/implementation-evidence/9A1/review.md).
