@@ -472,6 +472,8 @@ Use imagegen to show the exact SIG16–18 unavailable message, official-descript
 **Deliverable:** `app-design/8l/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves both unavailable states and their recovery actions.
 
+**Execution record — 15 October 2026:** 8L v1 explicitly approved: “approved”. Signal/generic unavailable wide/phone directions complete; see [preview and approval record](app-design/8l/review.md). 8M has not started.
+
 ### 8M. Preview missing-results and setup recovery
 
 Use imagegen to show the exact missing-results/setup fixture and its permitted recovery actions. Carry forward existing route and saved-state limitations; do not add persistence or new deep links.

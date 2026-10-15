@@ -1,0 +1,122 @@
+{
+  "step": "8L",
+  "prepared_on": "2026-10-15",
+  "revision": "v1",
+  "status": "approved",
+  "tool": "built-in image_gen",
+  "fixture_path": "docs/curriculum/app-migration/preview-content.json",
+  "fixture_sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f",
+  "signal_cases": [
+    {
+      "id": "7E-SIGN-SIG16",
+      "kind": "no exact approved internal sign destination",
+      "legacy_code": "SIG16",
+      "legacy_external_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-blinkande-ljus2/",
+      "target_id": null,
+      "related_target_ids": [
+        "M03-L02"
+      ],
+      "resolution": "unavailable_exact_entry",
+      "learner_message": "This signal has no entry in the current curriculum. Open its recorded official description or browse related signal teaching.",
+      "action_for_7F": "Decide whether to verify and add the exact entry through the content/asset workflow or keep its internal route unavailable. Never alias to a visually similar signal."
+    },
+    {
+      "id": "7E-SIGN-SIG17",
+      "kind": "no exact approved internal sign destination",
+      "legacy_code": "SIG17",
+      "legacy_external_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-fast-ljus/",
+      "target_id": null,
+      "related_target_ids": [
+        "M03-L02"
+      ],
+      "resolution": "unavailable_exact_entry",
+      "learner_message": "This signal has no entry in the current curriculum. Open its recorded official description or browse related signal teaching.",
+      "action_for_7F": "Decide whether to verify and add the exact entry through the content/asset workflow or keep its internal route unavailable. Never alias to a visually similar signal."
+    },
+    {
+      "id": "7E-SIGN-SIG18",
+      "kind": "no exact approved internal sign destination",
+      "legacy_code": "SIG18",
+      "legacy_external_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/gult-blinkande-ljus-for-pakallande-av-sarskild-forsiktighet/",
+      "target_id": null,
+      "related_target_ids": [
+        "M03-L02"
+      ],
+      "resolution": "unavailable_exact_entry",
+      "learner_message": "This signal has no entry in the current curriculum. Open its recorded official description or browse related signal teaching.",
+      "action_for_7F": "Decide whether to verify and add the exact entry through the content/asset workflow or keep its internal route unavailable. Never alias to a visually similar signal."
+    }
+  ],
+  "representative_visual_case": "SIG16; same presentation with distinct exact URL for SIG17 and SIG18",
+  "exact_copy": {
+    "unavailable_title": "Content unavailable",
+    "library_action": "Open learning library"
+  },
+  "generic_compatibility_examples": [
+    {
+      "id": "retired-question",
+      "kind": "synthetic test only; not a baseline removal",
+      "before": {
+        "question_id": "fixture-retired-question"
+      },
+      "after": {
+        "kind": "unavailable",
+        "reason": "retired; no replacement"
+      },
+      "expected": "No first-chapter fallback, new selection or automatic progress. production_tombstones remains empty."
+    },
+    {
+      "id": "gap-page",
+      "kind": "synthetic compatibility input",
+      "before": {
+        "namespace": "legacy-app-4768933c3d9a",
+        "page": 13
+      },
+      "after": {
+        "kind": "unavailable"
+      },
+      "expected": "Do not clamp to page 12 or silently open the next/first chapter."
+    }
+  ],
+  "proposed_action_label": "Open official description",
+  "route_contract": [
+    "Recorded official URL only for the exact requested SIG code.",
+    "Optional related M03-L02 is not an exact signal replacement.",
+    "Never alias SIG16–18 to SIG1, SIG5 or Y1 or add unverified internal assets/entries.",
+    "Generic unavailable offers library only when no validated replacement/source exists.",
+    "No auto-redirect, first-content fallback, guessed routes or completion credit.",
+    "External failure leaves unavailable state, related/library actions usable; no false network diagnosis.",
+    "Preserve unfinished-test guard and valid return context across internal/external actions.",
+    "Retired/no-replacement fixture is synthetic; production question removals/tombstones remain zero."
+  ],
+  "conceptual_frame_widths": [
+    1280,
+    390
+  ],
+  "reference_inspected": "docs/curriculum/app-design/8k/legacy-chooser-v2.png",
+  "reference_image_supplied_to_generation": false,
+  "outputs": [
+    {
+      "path": "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+      "sha256": "6cd86d0d0920dbdd907de5fa51b3f2eb66e83e4c41b07eae4575a8b3b7115e0d",
+      "dimensions_px": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/content-unavailable-v1.png",
+      "sha256": "3fd9ae7636315436826adb5ac240d08c05cd622541c3f008a759104338c30359",
+      "dimensions_px": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "approval_record": {
+    "date": "2026-10-15",
+    "user_statement": "approved",
+    "revision": "v1",
+    "scope": "Both 8L unavailable-state previews; exact URL/no-substitution and runtime requirements retained; no implementation started"
+  }
+}
