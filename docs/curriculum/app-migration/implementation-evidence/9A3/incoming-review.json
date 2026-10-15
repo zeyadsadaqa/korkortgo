@@ -1,0 +1,14 @@
+{
+  "step": "9A3",
+  "scope": "Bounded review of incoming model import/formatting and preserved legacy generator body",
+  "previous_tool_sha256": "c1f8d8c1190df414c51dc8f840153b0c2086aac287cfc3ef37206a7e9d5ca904",
+  "legacy_ast_sha256": "03d1a696a7155852cdf78832eae20874bb0fcf60b3c954b1903b5f9806bef7ee",
+  "quiz_predecessor_sha256": "b28265fed1057be62752fd923d64246e2b16a3f503b41f6f2d93e4b83a9e07d7",
+  "quiz_incoming_sha256": "8205957e87a88b5a563d6a865b940cba4e2f901a8bde951bd9f0089acb8afc81",
+  "quiz_normalized_sha256": "b28265fed1057be62752fd923d64246e2b16a3f503b41f6f2d93e4b83a9e07d7",
+  "reviewed_quiz_changes": [
+    "Explicit kotlin.jvm.JvmInline import",
+    "Split OptionId annotation onto its own line"
+  ],
+  "quiz_changed_by_9A3": false
+}

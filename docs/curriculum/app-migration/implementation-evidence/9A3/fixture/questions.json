@@ -1,0 +1,190 @@
+{
+  "questions": [
+    {
+      "acceptance": {
+        "content_review": null,
+        "delivery_proof": [],
+        "description_reviews": [],
+        "eligibility": "unreviewed",
+        "open_holds": []
+      },
+      "category": "rules",
+      "concept_id": "situation-001",
+      "feedback": {
+        "correct_option_id": "situation-001-option-1",
+        "english_label": null,
+        "explanation": [
+          {
+            "text": "A police officer's directions take precedence over traffic signals, signs and general rules.",
+            "type": "text"
+          }
+        ],
+        "option_feedback": [
+          {
+            "english_label": null,
+            "explanation": [
+              {
+                "text": "A police officer's directions take precedence over traffic signals, signs and general rules.",
+                "type": "text"
+              }
+            ],
+            "option_id": "situation-001-option-1",
+            "sign_code": null,
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M03",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          {
+            "english_label": null,
+            "explanation": [
+              {
+                "text": "The officer's instruction has higher priority than the light.",
+                "type": "text"
+              }
+            ],
+            "option_id": "situation-001-option-2",
+            "sign_code": null,
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M03",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          {
+            "english_label": null,
+            "explanation": [
+              {
+                "text": "The police instruction is sufficient.",
+                "type": "text"
+              }
+            ],
+            "option_id": "situation-001-option-3",
+            "sign_code": null,
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M03",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          {
+            "english_label": null,
+            "explanation": [
+              {
+                "text": "A clear road does not cancel the instruction.",
+                "type": "text"
+              }
+            ],
+            "option_id": "situation-001-option-4",
+            "sign_code": null,
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M03",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          }
+        ],
+        "target_sign_code": null
+      },
+      "image": null,
+      "key": {
+        "question_id": "situation-001",
+        "revision": "retained-fixture-r1"
+      },
+      "options": [
+        {
+          "id": "situation-001-option-1",
+          "image": null,
+          "text": [
+            {
+              "text": "Stop as directed by the officer.",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "situation-001-option-2",
+          "image": null,
+          "text": [
+            {
+              "text": "Follow the green light",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "situation-001-option-3",
+          "image": null,
+          "text": [
+            {
+              "text": "Stop only if there is a stop sign",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "id": "situation-001-option-4",
+          "image": null,
+          "text": [
+            {
+              "text": "Continue if the road looks clear",
+              "type": "text"
+            }
+          ]
+        }
+      ],
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "prompt": [
+        {
+          "text": "A police officer signals you to stop while your traffic light is green. What should you do?",
+          "type": "text"
+        }
+      ],
+      "relationship": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "retain",
+        "primary_lesson_id": "M03-L02",
+        "reference_ids": [],
+        "related_lesson_ids": [],
+        "source_ids": [
+          "source-traffic-law"
+        ],
+        "source_uses": [
+          {
+            "editorial_inference": false,
+            "locator": "Retained approved M03 passage and its source evidence.",
+            "reference_id": "REF-9f4b74a976fa03fb",
+            "scope_id": "M03",
+            "source_id": "source-traffic-law"
+          }
+        ]
+      }
+    }
+  ],
+  "schema_version": 1
+}

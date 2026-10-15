@@ -1,0 +1,802 @@
+{
+  "anchors": [],
+  "assets": [
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/sign-captions.json",
+              "sha256": "80de2bfe133635215eabbc00b8a1bef079ca4def6a8459782869618869529a9b"
+            },
+            "locator": "json:/captions/34",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-02"
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+        "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+      },
+      "caption_id": "CAP-B1",
+      "code_or_illustration_id": "B1",
+      "id": "ASSET-7671a42456af532b",
+      "kind": "official_sign",
+      "original": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+        "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+      },
+      "rendering": {
+        "contain_without_crop": true,
+        "maximum_print_size_mm": {
+          "height": "142.9",
+          "width": "161.0"
+        },
+        "notes": [
+          "Use verified render of official EPS for clearer reproduction.",
+          "Fixture binds the retained source file; it does not deliver an app resource or prove legibility."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the verified reuse conditions and official artwork unchanged.",
+          "credit": "Transportstyrelsen",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/sign-reuse.md",
+              "sha256": "62e639a9c6ec473926792d5ffd5ea7fa1063b5cafc26b63e28fdb55bc226f9fb"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "Give way. Inverted triangular give-way sign.",
+      "translation_status": "editorial_english",
+      "variant": "Inverted triangular give-way sign."
+    }
+  ],
+  "documents": [
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:## 3. Read the road before acting",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Reading a road means combining instructions, movement, visibility and uncertainty. A sign tells you something important; it rarely tells you everything needed for the next decision.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03",
+      "kind": "module_introduction",
+      "module_id": null,
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [],
+      "title": "Read the road before acting"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [
+        "ASSET-7671a42456af532b"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03-L01/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:### M03-L01 · Recognise what a sign asks",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "**Your goal:** Classify the main sign families and describe the decision each one prompts.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M03-L01/fixture-B1",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-migration/preview-content.json",
+                "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+              },
+              "locator": "json:/sign_reference",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "ASSET-7671a42456af532b",
+            "caption": [
+              {
+                "text": "Yield to vehicles on the crossing road or route. With a distance or stop-ahead panel, this can instead be advance information.",
+                "type": "text"
+              }
+            ],
+            "type": "image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M03-L01/fixture-families",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "line:11-17",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "caption": null,
+            "columns": [
+              {
+                "heading": [
+                  {
+                    "text": "Family",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "text": "What to establish",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "text": "A useful driving question",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "A — warning",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "The nature of a hazard ahead",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "What might be hidden, and how much space do I need?",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "B — priority",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "A duty or relationship at a conflict point",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Must I yield or stop, and to whom?",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "C — prohibition/restriction",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "What movement, vehicle or limit is restricted",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Does this apply to my vehicle and journey?",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "D — mandatory instruction",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "The required route, side or permitted traffic",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Which path must I take?",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "E — instruction",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "A road or area with a particular meaning or regime",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Which rules begin or end here?",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "type": "table"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L01",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 1,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [],
+      "title": "Recognise what a sign asks"
+    },
+    {
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M03-L02/fixture-answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+                    "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+                  },
+                  "locator": "json:/answer",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "text": "No. The rule is to stop; the exception concerns an unsafe stop after the change, not a wish to save time.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M03-L02/fixture-answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+                "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+              },
+              "locator": "json:/answer",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03-L02/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:### M03-L02 · Combine the instructions",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "**Your goal:** Interpret signs, panels, markings and signals together, including authorised directions.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M03-L02/fixture-requirement",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+                "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+              },
+              "locator": "json:/requirements_opening",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M03",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "text": "Follow the traffic instructions that apply to you. Where an instruction differs from a general traffic rule, the instruction governs. A steady traffic-light indication takes precedence over a yield or stop sign; a police officer's direction takes precedence over the rules and ordinary traffic instructions. This is not a rule that a green signal cancels every other restriction. Authorised guards also give traffic directions that must be followed.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M03-L02/fixture-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+                "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+              },
+              "locator": "json:/question",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "Retained approved M03 passage and its source evidence.",
+                "reference_id": "REF-af5cd6fe8800ad98",
+                "scope_id": "M03",
+                "source_id": "source-sign-law"
+              }
+            ]
+          },
+          "payload": {
+            "answer_id": "M03-L02/fixture-answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M03-L02/fixture-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+                      "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+                    },
+                    "locator": "json:/question",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "text": "Does amber mean accelerate to beat red?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L02",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [
+        "source-traffic-law",
+        "source-sign-law"
+      ],
+      "title": "Combine the instructions"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03-L03/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:### M03-L03 · Find your way without rushing",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "**Your goal:** Use direction, facility and service signs to prepare route choices early.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L03",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 3,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [],
+      "title": "Find your way without rushing"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03-L04/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:### M03-L04 · Leave room to respond",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "**Your goal:** Explain how observation, speed, reaction, braking, grip and following space affect your options.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-L04",
+      "kind": "lesson",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 4,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [],
+      "title": "Leave room to respond"
+    },
+    {
+      "answer_blocks": [],
+      "asset_bindings": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M03-R/fixture-opening",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+                "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+              },
+              "locator": "heading:### M03-R · Review and self-assessment",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "**Scenario:** You approach an unfamiliar junction with an advance direction sign, a supplementary panel, a changing signal and a queue beyond it.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
+      "content_version": "screen-2026-10-14-78a89d8ffbb8",
+      "id": "M03-R",
+      "kind": "module_review",
+      "module_id": "M03",
+      "objectives": [],
+      "order": 5,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "related_content": [],
+      "revision": "fixture-r1",
+      "source_ids": [],
+      "title": "Review and self-assessment"
+    }
+  ],
+  "lesson_category_tags": {
+    "M03-L01": [
+      "rules"
+    ],
+    "M03-L02": [
+      "rules",
+      "safety"
+    ],
+    "M03-L03": [
+      "rules",
+      "safety"
+    ],
+    "M03-L04": [
+      "personal",
+      "rules",
+      "safety",
+      "vehicle"
+    ]
+  },
+  "modules": [
+    {
+      "id": "M03",
+      "lesson_ids": [
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04"
+      ],
+      "order": 3,
+      "review_id": "M03-R",
+      "title": "Read the road before acting"
+    }
+  ],
+  "reading_order": [
+    "M03",
+    "M03-L01",
+    "M03-L02",
+    "M03-L03",
+    "M03-L04",
+    "M03-R"
+  ],
+  "reference_groups": [
+    {
+      "body_blocks": [],
+      "entry_ids": [
+        "sign-B1"
+      ],
+      "id": "RB02",
+      "order": 2,
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/65",
+        "pdf_evidence_page": null
+      },
+      "revision": "fixture-r1",
+      "title": "Yield, stop and priority roads"
+    }
+  ],
+  "schema_version": 1,
+  "sign_entries": [
+    {
+      "asset_id": "ASSET-7671a42456af532b",
+      "caption": [
+        {
+          "text": "Yield to vehicles on the crossing road or route. With a distance or stop-ahead panel, this can instead be advance information.",
+          "type": "text"
+        }
+      ],
+      "caption_id": "CAP-B1",
+      "code": "B1",
+      "english_label": "Give way",
+      "id": "sign-B1",
+      "limitations": [],
+      "official_name_sv": "Väjningsplikt",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "source_uses": [
+        {
+          "editorial_inference": false,
+          "locator": "Retained approved M03 passage and its source evidence.",
+          "reference_id": "REF-af5cd6fe8800ad98",
+          "scope_id": "M03",
+          "source_id": "source-sign-law"
+        }
+      ],
+      "translation_status": "editorial_english"
+    }
+  ],
+  "source_curriculum": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8",
+    "pdf": {
+      "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+      "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+    }
+  }
+}

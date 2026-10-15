@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 15 October 2026 (9A2 typed content contract complete)
-**Current position:** Steps 1–8 complete for the approved tagged screen edition; print masters deferred. Step 9 is in progress: 9A1 verified the incoming inputs, and 9A2 defined the common Kotlin content/assessment contract and [documented schema](app-migration/implementation-evidence/9A2/content-contract.md). Final desktop/common compilation and all 11 tests pass, including six existing quiz regressions. The [9A2 review](app-migration/implementation-evidence/9A2/review.md) records the intentional model changes against the retained 9A1 baseline. Complete app design approval remains recorded in [8O](app-design-review.md). Runtime content/quiz/UI migration and later scoring, artwork delivery, source-currency and device requirements remain future work.
-**Next action:** 9A3 — implement deterministic generation and validation using the typed contract and exact fixtures. Execute only when separately requested; 9A3 and step 10 have not started.
+**Last updated:** 15 October 2026 (9A3 deterministic compiler complete)
+**Current position:** Steps 1–8 complete for the approved tagged screen edition; print masters deferred. Step 9 is in progress: 9A1–9A3 are complete. The typed models now have an explicit deterministic compiler with source-authority validation and traceable staged Kotlin output. All 44 compiler tests and 12 configured Kotlin/desktop tests pass; repeated saved fixture generation is byte-identical. The [9A3 review](app-migration/implementation-evidence/9A3/review.md) records an unscored partial fixture, preserved incoming model formatting and unchanged live bank/assets/approved teaching. Complete app design approval remains recorded in [8O](app-design-review.md). Real curriculum import, question acceptance, artwork delivery and runtime/device checks remain future work.
+**Next action:** 9B1 — import introductions and reading structure using the typed contract, deterministic compiler and approved sources. Execute only when separately requested; 9B1 and step 10 have not started.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -19,7 +19,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
-| 9 | Implement the approved app changes | In progress; 9A1–9A2 complete | [Typed contract/schema](app-migration/implementation-evidence/9A2/content-contract.md), [review](app-migration/implementation-evidence/9A2/review.md); 9A3 separately requested |
+| 9 | Implement the approved app changes | In progress; 9A1–9A3 complete | [Compiler/fixture](app-migration/implementation-evidence/9A3/README.md), [review](app-migration/implementation-evidence/9A3/review.md); 9B1 separately requested |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
 ## Step 4 substep tracker
@@ -111,7 +111,8 @@ Each preview requires imagegen and explicit user approval before the next design
 |---|---|---|---|
 | 9A1 | Freeze and check approved inputs | Completed; no blocking drift | [Baseline](app-migration/implementation-evidence/9A1/input-baseline.json), [readiness](app-migration/implementation-evidence/9A1/readiness.md), [review](app-migration/implementation-evidence/9A1/review.md); 1,174 matching bindings and 21 passing checks |
 | 9A2 | Define typed content contract | Completed; desktop/common build and 11 tests pass | [Schema](app-migration/implementation-evidence/9A2/content-contract.md), [review](app-migration/implementation-evidence/9A2/review.md), [checks](app-migration/implementation-evidence/9A2/verification.json) |
-| 9A3 | Implement deterministic generation/validation | Not started | Separate request; use 9A2 models/schema and exact fixtures |
+| 9A3 | Implement deterministic generation/validation | Completed; 44 compiler and 12 Kotlin/desktop tests pass | [Compiler usage/fixture](app-migration/implementation-evidence/9A3/README.md), [review](app-migration/implementation-evidence/9A3/review.md), [checks](app-migration/implementation-evidence/9A3/verification.json) |
+| 9B1 | Import introductions and reading structure | Not started | Separate request; use approved sources and staged generation |
 | Remaining step 9 tasks | Content, questions, routes, UI, state and platform evidence | Not started | Follow exact task dependencies in the [implementation plan](implementation-plan.md#9-implement-the-approved-app-changes) |
 
 ## Completed work
@@ -700,3 +701,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **15 October — 9A2 completed:** Added typed common Kotlin content, source/asset, manifest, assessment/eligibility and snapshot models; documented schema roots, field mappings and non-circular manifest hashing. Incoming 9A1 verification passed before edits; the existing Quiz.kt implementation prefix and all other protected app/content/source/asset/approval inputs remain unchanged. Final JDK 17 offline desktop build and all 11 tests pass (five contract tests plus six existing quiz tests). No runtime import, bank edit, design, new persistence or UI integration. 9A3 remains separately requested. [Schema](app-migration/implementation-evidence/9A2/content-contract.md), [review](app-migration/implementation-evidence/9A2/review.md).
+
+
+**15 October — 9A3 completed:** Extended the content tool with an explicit schema-1 compile command, typed/cross-record and frozen-source validation, deterministic staged Kotlin parts and exact source/output trace. Preserved the historical generation body behind an explicit legacy command, with import/no-argument safety. The partial unscored M03/B1/question/source fixture passes 44 compiler tests and 12 configured Kotlin/desktop tests; repeated generation is byte-identical. Reviewed and preserved incoming Quiz.kt import/formatting changes; live bank, assets, PDF and prior approvals/audits remain unchanged. No full import or release/device acceptance claimed. 9B1 remains separately requested. [Usage/fixture](app-migration/implementation-evidence/9A3/README.md), [review](app-migration/implementation-evidence/9A3/review.md).

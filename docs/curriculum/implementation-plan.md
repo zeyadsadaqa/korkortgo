@@ -560,9 +560,11 @@ Extend tools/build_content.py to validate the contract and emit Kotlin plus sour
 
 **Done when:** Repeated generation is byte-identical; duplicate IDs, unknown bindings and invalid option identities fail with useful errors.
 
+**Execution record — 15 October 2026:** 9A3 completed: explicit schema-1 compile entrypoint, frozen-source validation, bounded Kotlin constructor generation and source/output trace implemented. All 44 compiler tests and 12 configured Kotlin/desktop tests pass; repeated fixture outputs are byte-identical. The [saved fixture](app-migration/implementation-evidence/9A3/README.md) is unscored and partial; the live bank/assets remain unchanged. See [review](app-migration/implementation-evidence/9A3/review.md) and [verification](app-migration/implementation-evidence/9A3/verification.json). 9B1 requires a separate request.
+
 ### 9B. Import the approved teaching
 
-Use 9A3 for every import. Preserve exact approved text/order, complete blocks, origin locators and final production corrections. Import tasks produce data, not screen designs; unresolved cross-import references are tracked until 9B17.
+Use 9A3 for every import. Generated payload constructors use `GeneratedCurriculum.kt` and numbered parts in an explicit staging/build directory; `Curriculum.kt` retains the handwritten models. Preserve exact approved text/order, complete blocks, origin locators and final production corrections. Import tasks produce data, not screen designs; unresolved cross-import references are tracked until 9B17.
 
 #### 9B1. Import introductions and reading structure
 
@@ -570,7 +572,7 @@ Import approved introductory content, the learning-aid disclaimer and the 60-nod
 
 **Input:** 9A3 and approved production sources / 7B structure.
 
-**Output:** Opening content and canonical reading-order records in content/curriculum.json and generated Curriculum.kt.
+**Output:** Opening content and canonical reading-order records in content/curriculum.json and staged GeneratedCurriculum.kt/parts.
 
 **Done when:** Titles, order, disclaimer and origin locators match the approved sources.
 

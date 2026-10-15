@@ -1,0 +1,5 @@
+package se.korkort
+import kotlin.test.Test
+class GeneratedFixtureTest {
+    @Test fun generatedValuesMatchTheApprovedFixture() { main() }
+}

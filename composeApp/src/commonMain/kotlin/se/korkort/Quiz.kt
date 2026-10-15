@@ -1,5 +1,6 @@
 package se.korkort
 
+import kotlin.jvm.JvmInline
 import kotlin.math.floor
 import kotlin.random.Random
 
@@ -61,7 +62,8 @@ data class QuizSession(val questions: List<Question>, val feedback: Feedback, va
 @JvmInline value class QuestionId(val value: String) {
     init { require(value.isNotBlank()) }
 }
-@JvmInline value class OptionId(val value: String) {
+@JvmInline
+value class OptionId(val value: String) {
     init { require(value.isNotBlank()) }
 }
 

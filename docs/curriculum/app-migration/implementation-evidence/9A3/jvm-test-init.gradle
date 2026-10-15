@@ -1,0 +1,6 @@
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.project(':composeApp')
+    def tests = app.extensions.getByName('kotlin').sourceSets.getByName('desktopTest')
+    tests.kotlin.srcDir(new File(app.rootProject.projectDir, 'docs/curriculum/app-migration/implementation-evidence/9A3'))
+    tests.kotlin.srcDir('/tmp/korkort-9A3-tests')
+}

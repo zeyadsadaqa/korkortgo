@@ -1,0 +1,3251 @@
+{
+  "outputs": [
+    {
+      "path": "GeneratedCurriculum.kt",
+      "sha256": "4d3ab5fd50afe8b5b1325c1ccf189d378fc9e28b850ecae3362dbc2d40a7d607"
+    },
+    {
+      "path": "GeneratedCurriculumPart0000.kt",
+      "sha256": "4d512bb0ae9f0fd598de11987a6e963c144cd3446102745c8bdb365dbfb05465"
+    },
+    {
+      "path": "GeneratedCurriculumPart0001.kt",
+      "sha256": "55b96a15e8a4a43ad587832ba2a7e038a81b4a27c29b4133d5669ccb6a635031"
+    },
+    {
+      "path": "GeneratedCurriculumPart0002.kt",
+      "sha256": "0e149269ec382c0fe415a3723ded4ea472394de68c1e29e18d3575c4ce7320ec"
+    },
+    {
+      "path": "GeneratedCurriculumPart0003.kt",
+      "sha256": "bb95df30a10c2f3fc91112ca51cec268dc58b1dd88eaa36483259a71d0532cb1"
+    },
+    {
+      "path": "GeneratedCurriculumPart0004.kt",
+      "sha256": "5932e81cb04a259f67b8d0183c6b8fd87f02fce62429d186bf680b8f21467805"
+    },
+    {
+      "path": "GeneratedCurriculumPart0005.kt",
+      "sha256": "b024335a1f00b73c3ac982e1155ebd2460315c9b25c6e5c33b0f552618624b78"
+    },
+    {
+      "path": "GeneratedCurriculumPart0006.kt",
+      "sha256": "508bfd86ae16c7a66978288431452e9c153f3041b90f43d2328d673b6c8bfa43"
+    }
+  ],
+  "package_identity": {
+    "content_version": "fixture-9A3-unscored",
+    "manifest_sha256": "67106ab29289446417e4ca1992fdf2276f1b1e2c86e40e5f6799add3fa6fbecd"
+  },
+  "profile": "fixture",
+  "records": [
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/identity",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000000"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/source_curriculum/pdf",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000001"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/source_curriculum",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000002"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000003"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/1",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000004"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/2",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000005"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/3",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000006"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/4",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000007"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/5",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000008"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/6",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000009"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/7",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000010"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/8",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000011"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/9",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000012"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/10",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000013"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/inputs/11",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000014"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/0/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000015"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000016"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/1/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000017"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/1",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000018"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/2/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000019"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/2",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000020"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/3/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000021"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/3",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000022"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/4/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000023"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/payloads/4",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000024"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000025"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/1",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000026"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/2",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000027"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/3",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000028"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/4",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000029"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/5",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000030"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/6",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000031"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/7",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000032"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/8",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000033"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/canonical_revisions/9",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000034"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/question_revisions/0/key",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000035"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/question_revisions/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000036"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/source_bindings/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000037"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/source_bindings/1",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000038"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/asset_bindings/0/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0000.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000039"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#/asset_bindings/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000040"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/manifest.json#",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000041"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/source_curriculum/pdf",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000042"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/source_curriculum",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000043"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/modules/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000044"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000045"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000046"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000047"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000048"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000049"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000050"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000051"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000052"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:## 3. Read the road before acting",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000053"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000054"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000055"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000056"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000057"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000058"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000059"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000060"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000061"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000062"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1/payload/caption/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000063"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000064"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000065"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000066"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000067"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000068"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/0/heading/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000069"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000070"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/1/heading/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000071"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000072"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/2/heading/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000073"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/columns/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000074"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/0/cells/0/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000075"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/0/cells/1/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000076"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/0/cells/2/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000077"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000078"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/1/cells/0/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0001.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000079"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/1/cells/1/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000080"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/1/cells/2/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000081"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000082"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/2/cells/0/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000083"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/2/cells/1/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000084"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/2/cells/2/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000085"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000086"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/3/cells/0/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000087"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/3/cells/1/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000088"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/3/cells/2/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000089"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/3",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000090"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/4/cells/0/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000091"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/4/cells/1/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000092"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/4/cells/2/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000093"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload/rows/4",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000094"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000095"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/body_blocks/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "line:11-17",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000096"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000097"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000098"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L01 · Recognise what a sign asks",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000099"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000100"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000101"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000102"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000103"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000104"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000105"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000106"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000107"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/metadata/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000108"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000109"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000110"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000111"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+          "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0"
+        },
+        "locator": "json:/requirements_opening",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000112"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000113"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000114"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/metadata/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000115"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000116"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000117"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000118"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0002.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000119"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000120"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000121"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload/prompts/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000122"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000123"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/body_blocks/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/question",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000124"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000125"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000126"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000127"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000128"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000129"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000130"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000131"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000132"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0/blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000133"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/answer_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+          "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2"
+        },
+        "locator": "json:/answer",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000134"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000135"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000136"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L02 · Combine the instructions",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000137"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000138"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000139"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000140"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000141"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000142"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000143"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000144"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000145"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/3",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L03 · Find your way without rushing",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000146"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000147"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000148"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000149"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000150"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000151"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000152"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000153"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000154"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/4",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-L04 · Leave room to respond",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000155"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0/metadata/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000156"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0/metadata/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000157"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0/metadata",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000158"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0/payload/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0003.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000159"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0/payload",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000160"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/body_blocks/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000161"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000162"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000163"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/documents/5",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/chapter-source.md",
+          "sha256": "6b276d64642dc02f9ef7f4f4b6e5533cb216087937e58dc35480cd70252c0e61"
+        },
+        "locator": "heading:### M03-R · Review and self-assessment",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000164"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/reference_groups/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/65",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000165"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/reference_groups/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/65",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000166"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/reference_groups/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/65",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000167"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/sign_entries/0/caption/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000168"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/sign_entries/0/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000169"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/sign_entries/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000170"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/sign_entries/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000171"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/sign_entries/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000172"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/original",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000173"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/bundled",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000174"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/reuse/0/evidence/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000175"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/reuse/0/evidence",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000176"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/reuse/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000177"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/rendering/maximum_print_size_mm",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000178"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/rendering",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000179"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/approval/0/record/file",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000180"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/approval/0/record",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000181"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0/approval/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000182"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#/assets/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000183"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json#",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000184"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/key",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000185"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/prompt/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000186"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/0/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000187"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000188"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/1/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000189"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000190"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/2/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000191"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000192"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/3/text/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000193"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/options/3",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000194"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/explanation/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000195"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/0/explanation/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000196"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/0/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000197"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000198"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/1/explanation/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0004.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000199"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/1/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000200"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000201"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/2/explanation/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000202"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/2/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000203"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/2",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000204"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/3/explanation/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000205"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/3/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000206"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback/option_feedback/3",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 11,
+      "symbol": "fixture9A3Node000207"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/feedback",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 12,
+      "symbol": "fixture9A3Node000208"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/relationship/source_uses/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 13,
+      "symbol": "fixture9A3Node000209"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/relationship",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 14,
+      "symbol": "fixture9A3Node000210"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/acceptance",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 15,
+      "symbol": "fixture9A3Node000211"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 16,
+      "symbol": "fixture9A3Node000212"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 17,
+      "symbol": "fixture9A3Node000213"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#/questions/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "content/questions.json",
+          "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+        },
+        "locator": "json:/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 18,
+      "symbol": "fixture9A3Node000214"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json#",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 19,
+      "symbol": "fixture9A3Node000215"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/0/scoped_urls/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/52",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 20,
+      "symbol": "fixture9A3Node000216"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/52",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 21,
+      "symbol": "fixture9A3Node000217"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/52",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 22,
+      "symbol": "fixture9A3Node000218"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/52",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 23,
+      "symbol": "fixture9A3Node000219"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/1/scoped_urls/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/40",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 24,
+      "symbol": "fixture9A3Node000220"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/1/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/40",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 25,
+      "symbol": "fixture9A3Node000221"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/1/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/40",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 26,
+      "symbol": "fixture9A3Node000222"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/destinations/1",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/source_destinations/40",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 27,
+      "symbol": "fixture9A3Node000223"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/0/evidence/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/2",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 28,
+      "symbol": "fixture9A3Node000224"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/0/evidence/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/2",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 29,
+      "symbol": "fixture9A3Node000225"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/0/evidence/0/dates",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/2",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 30,
+      "symbol": "fixture9A3Node000226"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/0/evidence/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/2",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 31,
+      "symbol": "fixture9A3Node000227"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/0",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 32,
+      "symbol": "fixture9A3Node000228"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/1/evidence/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 33,
+      "symbol": "fixture9A3Node000229"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/1/evidence/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 34,
+      "symbol": "fixture9A3Node000230"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/1/evidence/0/dates",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 35,
+      "symbol": "fixture9A3Node000231"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/1/evidence/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/preview-content.json",
+          "sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f"
+        },
+        "locator": "json:/sign_reference",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 36,
+      "symbol": "fixture9A3Node000232"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/1",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 37,
+      "symbol": "fixture9A3Node000233"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/2/evidence/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/1",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 38,
+      "symbol": "fixture9A3Node000234"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/2/evidence/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/1",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 39,
+      "symbol": "fixture9A3Node000235"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/2/evidence/0/dates",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/1",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 40,
+      "symbol": "fixture9A3Node000236"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/2/evidence/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/chapters/M03/source-checks.json",
+          "sha256": "f4af91cbf7267b04bc4561366acb281e2aad69500dea8a4009404bcac772b2af"
+        },
+        "locator": "json:/sources/1",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 41,
+      "symbol": "fixture9A3Node000237"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#/references/2",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 42,
+      "symbol": "fixture9A3Node000238"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json#",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0005.kt",
+      "output_line": 43,
+      "symbol": "fixture9A3Node000239"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0/lookup",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 4,
+      "symbol": "fixture9A3Node000240"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0/outcome/target",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 5,
+      "symbol": "fixture9A3Node000241"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0/outcome",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 6,
+      "symbol": "fixture9A3Node000242"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0/origin/file",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 7,
+      "symbol": "fixture9A3Node000243"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0/origin",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 8,
+      "symbol": "fixture9A3Node000244"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#/aliases/0",
+      "origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        "locator": "json:/questions/0",
+        "pdf_evidence_page": null
+      },
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 9,
+      "symbol": "fixture9A3Node000245"
+    },
+    {
+      "input": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json#",
+      "origin": null,
+      "output_file": "GeneratedCurriculumPart0006.kt",
+      "output_line": 10,
+      "symbol": "fixture9A3Node000246"
+    }
+  ],
+  "schema_version": 1,
+  "totals": {
+    "assets": 1,
+    "destinations": 10,
+    "profile": "fixture",
+    "questions": 1
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "asset_bindings": [
+    {
+      "file": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+        "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+      },
+      "id": "ASSET-7671a42456af532b"
+    }
+  ],
+  "canonical_revisions": [
+    {
+      "id": "M03",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "M03-L01",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "M03-L02",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "M03-L03",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "M03-L04",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "M03-R",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "RB02",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "sign-B1",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "source-traffic-law",
+      "revision": "fixture-r1"
+    },
+    {
+      "id": "source-sign-law",
+      "revision": "fixture-r1"
+    }
+  ],
+  "identity": {
+    "content_version": "fixture-9A3-unscored",
+    "manifest_sha256": "67106ab29289446417e4ca1992fdf2276f1b1e2c86e40e5f6799add3fa6fbecd"
+  },
+  "inputs": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A1/input-baseline.json",
+      "sha256": "4b065682b873df88cd698889eeacdc39d8bfe3dccdc2b2d0b3c7f0186251978d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/link-and-progress-map.json",
+      "sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda"
+    },
+    {
+      "path": "docs/curriculum/app-migration/curriculum-map.json",
+      "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/baseline.json",
+      "sha256": "8e80ed26571a87e6a1b9ef1238c2cc2fabed4369f1adef94a7982c376e8ab43e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/question-actions.json",
+      "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/question-map.json",
+      "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+      "sha256": "f5815d5f455736d29ab951e475e62dff9924e218fcc549a4142963e0bf24511f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "sha256": "8205957e87a88b5a563d6a865b940cba4e2f901a8bde951bd9f0089acb8afc81"
+    },
+    {
+      "path": "tools/build_content.py",
+      "sha256": "504cde9a99ea6d5869a001fb29ea08ed3e2738b84c59f3da28e8535582aeaaf3"
+    },
+    {
+      "path": "tools/content_schema.py",
+      "sha256": "252b089c006b2e3561be734f5efecf318a8afeb18ff96ceffbc3e05b733f150e"
+    },
+    {
+      "path": "tools/compile_curriculum.py",
+      "sha256": "b222fe0a6640c6b0be245f90b112f39f5173d56e438479a905ba090d62c7f993"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/content-contract.md",
+      "sha256": "8d809eede9f1a409cb54362a171f81fbd477aeac054b30657db6f5876b504a36"
+    }
+  ],
+  "payloads": [
+    {
+      "file": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/curriculum.json",
+        "sha256": "78669a677472be943d1e586c68dd994ec1a6d8809a0834f92d3aa916f2e67a3c"
+      },
+      "kind": "curriculum"
+    },
+    {
+      "file": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/questions.json",
+        "sha256": "d48e42ecb41587e40867e84d06e7f173c0b1f5969f080cc4e873d1da6d3f9009"
+      },
+      "kind": "questions"
+    },
+    {
+      "file": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/sources.json",
+        "sha256": "f8ce546e35dfa1011b0f398a2c896b42308a5ae0de37b1599f6a7b4a7cc69b59"
+      },
+      "kind": "sources"
+    },
+    {
+      "file": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A3/fixture/legacy_aliases.json",
+        "sha256": "6ba5acca1bc0c49ad31a899176819bf1372a85f8da6bb2623b24067b1fc8b217"
+      },
+      "kind": "legacy_aliases"
+    },
+    {
+      "file": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+        "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+      },
+      "kind": "asset"
+    }
+  ],
+  "question_revisions": [
+    {
+      "eligibility": "unreviewed",
+      "key": {
+        "question_id": "situation-001",
+        "revision": "retained-fixture-r1"
+      }
+    }
+  ],
+  "schema_version": 1,
+  "source_bindings": [
+    {
+      "reference_id": "REF-9f4b74a976fa03fb",
+      "scope_id": "M03",
+      "source_id": "source-traffic-law"
+    },
+    {
+      "reference_id": "REF-af5cd6fe8800ad98",
+      "scope_id": "M03",
+      "source_id": "source-sign-law"
+    }
+  ],
+  "source_curriculum": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8",
+    "pdf": {
+      "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+      "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+    }
+  }
+}
