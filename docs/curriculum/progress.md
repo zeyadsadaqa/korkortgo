@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 15 October 2026 (8M v1 approved; 8M complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F v1 is explicitly approved and complete; 8G v1 is explicitly approved and complete; 8H v1 is explicitly approved and complete; 8I v1 is explicitly approved and complete; 8J v1 is explicitly approved and complete; 8K previews are explicitly approved and complete; 8L v1 is explicitly approved and complete; 8M v1 is explicitly approved and complete; 8N–8O and steps 9–10 have not started.
-**Next action:** 8N — assemble the app design specification from the approved 8B–8M previews and their exact bindings. Execute only when separately requested; implementation remains gated on the complete approved design package.
+**Last updated:** 15 October 2026 (8N specification complete; 8O next)
+**Current position:** Steps 1–7 complete for the approved tagged screen edition; print masters deferred. Step 8 is in progress: 8A–8N complete, with all 8B–8M previews individually approved. The [design specification](app-design-spec.md) binds twelve approval records and sixteen boards; visual-consistency decisions and future delivery/runtime checks remain explicit. 8O complete-package verification/final approval and steps 9–10 have not started.
+**Next action:** 8O — verify the complete design package and obtain explicit final approval, including disposition of documented visual variants. Execute only when separately requested; step 9 remains gated on that approval and a separate implementation request.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | In progress; 8A–8M complete | [Approved 8M recovery preview](app-design/8m/review.md); 8N next |
+| 8 | Generate previews of the revised app | In progress; 8A–8N complete | [Design specification](app-design-spec.md), [approval/image index](app-design/8n/package-index.json); 8O next |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -100,7 +100,7 @@ Each preview requires imagegen and explicit user approval before the next design
 | 8K | Preview ambiguous and moved legacy links | Completed; chooser v2/moved v1 explicitly approved | [Wide/phone chooser and moved notice](app-design/8k/review.md) |
 | 8L | Preview unavailable destinations | Completed; v1 explicitly approved | [Signal/generic wide and phone previews](app-design/8l/review.md) |
 | 8M | Preview missing-results and setup recovery | Completed; v1 explicitly approved | [Wide/phone recovery preview](app-design/8m/review.md) |
-| 8N | Assemble the app design specification | Not started | See implementation plan |
+| 8N | Assemble the app design specification | Completed consolidation; final package approval pending 8O | [Specification](app-design-spec.md), [index/checks](app-design/8n/package-index.json) |
 | 8O | Verify the design package and obtain final approval | Not started | See implementation plan |
 
 ## Completed work
@@ -674,3 +674,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **15 October — 8M v1 approved:** User explicitly said “approved”. Recorded approval against the saved missing-results/setup-recovery preview and exact bindings; 8M is complete. State/validation/runtime requirements remain documented. 8N is next only when separately requested; no implementation started. [Approval record](app-design/8m/review.md).
+
+
+**15 October — 8N completed:** Consolidated all twelve individually approved preview tasks/sixteen boards into the app design specification and hashed package index. Recorded typography/colour/spacing constraints, responsive/large-text intent, exact content/source/asset/route bindings, accessibility/session rules and step 9/T01–T10 acceptance ownership. All recorded preview and applicable input/source/asset identities and local links pass the bounded consolidation checks. Existing chip/icon variants, large-text limitations and 38 delivery holds remain explicit; no new common visual was silently chosen. No new image generation or app/question/asset/PDF change. 8O final review/approval remains separately requested; implementation has not started. [Specification](app-design-spec.md), [index/checks](app-design/8n/package-index.json).

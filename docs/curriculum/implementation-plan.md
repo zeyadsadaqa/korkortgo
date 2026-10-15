@@ -492,6 +492,8 @@ Index the approved preview revisions and record shared typography, colour, spaci
 **Deliverable:** `app-design-spec.md`.  
 **Done when:** Every required state has an approved revision and an implementation requirement; unresolved issues are listed.
 
+**Execution record — 15 October 2026:** 8N consolidation complete: [design specification](app-design-spec.md) and [approved-revision index/checks](app-design/8n/package-index.json) bind twelve approval records and sixteen boards. Visual variants and future acceptance requirements remain explicit; no new visual/implementation generated. 8O has not started; complete-package approval remains pending.
+
 ### 8O. Verify the design package and obtain final approval
 
 Cross-check the brief, exact fixtures, approved revisions and specification for complete library, reader, answer-review, source, reference and fallback coverage. Confirm learner copy contains no third-party book names, borrowed chapter labels or source-book folios, while preserving legitimate source publishers. Present the complete package for explicit approval.
