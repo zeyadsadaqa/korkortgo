@@ -103,6 +103,22 @@ data class ContentBlock(val metadata: BlockMetadata, val payload: BlockPayload)
 data class TableColumn(val heading: RichText)
 data class TableRow(val cells: List<RichText>)
 
+/** Approved contextual artwork window, in source pixels; never applied to official signs. */
+data class ApprovedImageRegion(
+    val left: Int,
+    val top: Int,
+    val right: Int,
+    val bottom: Int,
+    val sourceWidth: Int,
+    val sourceHeight: Int,
+) {
+    init {
+        require(left >= 0 && top >= 0)
+        require(right > left && bottom > top)
+        require(right <= sourceWidth && bottom <= sourceHeight)
+    }
+}
+
 /** Typed payloads retain structure needed for reading, reflow and accessibility. */
 sealed interface BlockPayload {
     data class Heading(val level: Int, val text: RichText) : BlockPayload {
@@ -140,6 +156,12 @@ sealed interface BlockPayload {
         val answerId: BlockId,
     ) : BlockPayload
     data class Image(val assetId: AssetId, val caption: RichText) : BlockPayload
+    /** Clip the original sheet to this window, then contain the complete window without distortion. */
+    data class CroppedImage(
+        val assetId: AssetId,
+        val region: ApprovedImageRegion,
+        val caption: RichText,
+    ) : BlockPayload
     data class RelatedLinks(val links: List<InlineContent.Link>) : BlockPayload
 }
 
@@ -198,7 +220,7 @@ data class PublishedAnchor(
 )
 
 enum class SourceClassification {
-    SWEDISH_LEGISLATION, SWEDISH_AUTHORITY_GUIDANCE, RESEARCH,
+    SWEDISH_LEGISLATION, SWEDISH_PARLIAMENTARY_MATERIAL, SWEDISH_AUTHORITY_GUIDANCE, RESEARCH,
     FOREIGN_PUBLIC_AUTHORITY, SWEDISH_PUBLIC_SERVICE, MANUFACTURER,
     COMMERCIAL_TEACHING, EDITORIAL_APPLICATION,
 }

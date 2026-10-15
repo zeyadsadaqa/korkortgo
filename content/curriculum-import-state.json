@@ -1,4 +1,57 @@
 {
+  "completed_module_imports": [
+    {
+      "document_ids": [
+        "M01",
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M01-R"
+      ],
+      "module_id": "M01",
+      "production_sources": [
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+          "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/source-checks.json",
+          "sha256": "17d4faa2e6d2433fcfd8ddf66757d9e01272fa208298f3551b0666e37a2f1a0b"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+          "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/navigation.json",
+          "sha256": "df0ad802a93f96662c4758eaea36b8d413d7ab11bfc65a3d910a5c6d60071f18"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+          "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+        },
+        {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        {
+          "path": "docs/curriculum/app-migration/link-and-progress-map.json",
+          "sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda"
+        }
+      ],
+      "revision": "module-M01-9B2-v1",
+      "step": "9B2"
+    }
+  ],
   "content_payload": "content/curriculum.json",
   "deferred": [
     {
@@ -101,132 +154,6 @@
     "status": "imported"
   },
   "pending_reading_nodes": [
-    {
-      "asset_register": null,
-      "body_owner": "9B2",
-      "exact_title": "Choose to drive responsibly",
-      "id": "M01",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:1",
-        "pdf_evidence_page": 5
-      },
-      "required_source_ids": [],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
-      "body_owner": "9B2",
-      "exact_title": "Your route into driving",
-      "id": "M01-L01",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:5",
-        "pdf_evidence_page": 6
-      },
-      "required_source_ids": [
-        "source-b",
-        "source-supervisor",
-        "source-risk",
-        "source-validity",
-        "source-test"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
-      "body_owner": "9B2",
-      "exact_title": "Am I ready today?",
-      "id": "M01-L02",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:25",
-        "pdf_evidence_page": 8
-      },
-      "required_source_ids": [
-        "source-traffic-law",
-        "source-drink-law",
-        "source-alcohol",
-        "source-medical",
-        "source-microsleep",
-        "source-drowsy-driving",
-        "source-stimulant-confidence",
-        "source-stimulant-fatigue"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
-      "body_owner": "9B2",
-      "exact_title": "Pressure is a driving risk",
-      "id": "M01-L03",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:51",
-        "pdf_evidence_page": 11
-      },
-      "required_source_ids": [
-        "source-syllabus",
-        "source-traffic-law",
-        "source-vision-zero"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
-      "body_owner": "9B2",
-      "exact_title": "Plan the journey before the ignition",
-      "id": "M01-L04",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:71",
-        "pdf_evidence_page": 13
-      },
-      "required_source_ids": [
-        "source-planning",
-        "source-syllabus"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
-      "body_owner": "9B2",
-      "exact_title": "Review and self-assessment",
-      "id": "M01-R",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
-          "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
-        },
-        "locator": "line:87",
-        "pdf_evidence_page": 15
-      },
-      "required_source_ids": [
-        "source-syllabus"
-      ],
-      "status": "structure_only"
-    },
     {
       "asset_register": null,
       "body_owner": "9B3",
@@ -1416,6 +1343,6 @@
       "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
     }
   ],
-  "status": "opening_text_and_reading_structure_imported",
-  "step": "9B1"
+  "status": "opening_and_M01_imported; remaining_modules_pending",
+  "step": "9B2"
 }

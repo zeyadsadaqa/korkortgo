@@ -588,6 +588,8 @@ Import only M01: its introduction, four complete lessons and module review, incl
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
 
+**Execution record — 15 October 2026:** 9B2 completed: M01 introduction, four full lessons and review imported into the cumulative payload, with five hidden answers, four approved illustration windows and sixteen scoped sources. All 216 normalized source/PDF parity checks, 59 Python regression tests and 14 configured Kotlin/desktop tests pass; fresh/repeated Kotlin generation is byte-identical. Other 58 documents remain unchanged and 54 reading bodies remain pending. See [review](app-migration/implementation-evidence/9B2/review.md), [module parity](app-migration/implementation-evidence/9B2/module-parity.json) and [reproduction notes](app-migration/implementation-evidence/9B2/README.md). Asset delivery/source-directory/runtime work remains assigned later steps. 9B3 requires a separate request.
+
 #### 9B3. Import module M02
 
 Import only M02: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.

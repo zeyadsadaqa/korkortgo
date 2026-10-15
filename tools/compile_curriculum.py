@@ -181,6 +181,10 @@ class Validator:
             elif target == 'PhysicalSizeMm':
                 if any(not re.fullmatch(r'(?:0|[1-9]\d*)(?:\.\d+)?', v) or float(v) <= 0 for v in value.values()):
                     fail(where, 'print dimensions must be positive decimal strings')
+            elif target == 'ApprovedImageRegion':
+                if not (0 <= value['left'] < value['right'] <= value['source_width'] and
+                        0 <= value['top'] < value['bottom'] <= value['source_height']):
+                    fail(where, 'approved image region exceeds source pixel bounds')
             for field, _, _ in fields:
                 if field.endswith('_on') and value[field] is not None:
                     try:
@@ -338,7 +342,22 @@ class Validator:
                 if refs[binding['reference_id']]['url']!=url:fail(id,'URL differs from approved scope binding')
         approved_refs={r['id']:r for r in question_map['source_registry']}
         for id,row in refs.items():
-            if id not in approved_refs or row['url']!=approved_refs[id]['url']:fail(id,'unknown or changed approved source URL record')
+            if id in approved_refs:
+                if row['url']!=approved_refs[id]['url']:fail(id,'unknown or changed approved source URL record')
+            else:
+                # 7C covers question URLs only. Curriculum-only URLs must match a
+                # retained 7B scope and an exact, frozen source-check record.
+                registered = any(b['reference_id']==id and
+                    row['url']==known[sid].get('scoped_urls',{}).get(b['scope_id'],known[sid]['url'])
+                    for sid,s in sources.items() for b in s['scoped_urls'])
+                retained = False
+                for evidence in row['evidence']:
+                    loc=evidence['origin'];path=loc['file']['path']
+                    if path in self.approved and path.endswith('/source-checks.json') and loc['locator'].startswith('json:'):
+                        record=pointer(read_json(self.root/path),loc['locator'][5:],id)
+                        retained |= isinstance(record,dict) and record.get('url')==row['url']
+                if id!='REF-'+hashlib.sha256(row['url'].encode()).hexdigest()[:16] or not registered or not retained:
+                    fail(id,'unknown or changed approved source URL record')
             url=urlparse(row['url'])
             if url.scheme not in ('http','https') or not url.netloc or not row['classifications'] or not row['evidence']:
                 fail(id,'source requires registered URL, classification and scoped evidence')
@@ -366,6 +385,8 @@ class Validator:
                 if set(value)=={'content_id','block_id'}:target(value,where)
                 if value.get('type')=='external_source' and value['reference_id'] not in refs:fail(where,'unknown external source')
                 if 'asset_id' in value and value['asset_id'] not in assets:fail(where,'unknown asset binding')
+                if value.get('type') == 'cropped_image' and assets[value['asset_id']]['kind'] != 'contextual_illustration':
+                    fail(where, 'approved image regions are limited to contextual illustrations')
                 for field in ['source_ids']:
                     for id in value.get(field,[]):
                         if id not in sources:fail(where,f'unknown source destination {id}')

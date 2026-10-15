@@ -1,6 +1,275 @@
 {
   "anchors": [],
-  "assets": [],
+  "assets": [
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+              "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+            },
+            "locator": "json:/assets/M01-L02",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "caption_id": "M01-L02/illustration-caption",
+      "code_or_illustration_id": "M01-v2",
+      "id": "M01-L02/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 118.3 ppi."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "A tired learner and a companion pause beside a parked car. The keys remain on the bench.",
+      "translation_status": "not_applicable",
+      "variant": "M01-L02"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+              "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+            },
+            "locator": "json:/assets/M01-L03",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "caption_id": "M01-L03/illustration-caption",
+      "code_or_illustration_id": "M01-v2",
+      "id": "M01-L03/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 115.6 ppi."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "A passenger talks to the driver. In the road view, the car remains behind a van near a crest. Illustration, not a scale diagram of following distance.",
+      "translation_status": "not_applicable",
+      "variant": "M01-L03"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+              "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+            },
+            "locator": "json:/assets/M01-L04",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/F06-v4.png",
+        "sha256": "3032f54e79e3793951f29c333aa417d6d58ac6ef7ad6d994b047d07f21426f08"
+      },
+      "caption_id": "M01-L04/illustration-caption",
+      "code_or_illustration_id": "F06-v4",
+      "id": "M01-L04/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/F06-v4.png",
+        "sha256": "3032f54e79e3793951f29c333aa417d6d58ac6ef7ad6d994b047d07f21426f08"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 102.6 ppi."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "Viewed over their shoulders, two people study a digital map on a tablet facing them. Rain falls outside. The map is illustrative, not live route guidance.",
+      "translation_status": "not_applicable",
+      "variant": "M01-L04"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+              "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+            },
+            "locator": "json:/assets/M01-R",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "caption_id": "M01-R/illustration-caption",
+      "code_or_illustration_id": "M01-v2",
+      "id": "M01-R/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M01-v2.png",
+        "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 115.9 ppi."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M01/review.md",
+              "sha256": "7112323d15112e083fe0c8cbbf1e2737628be8326b863fcf79039557a16b9d13"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "Three conditions to consider: tiredness, an appointment and worsening weather. No choice is shown.",
+      "translation_status": "not_applicable",
+      "variant": "M01-R"
+    }
+  ],
   "documents": [
     {
       "answer_blocks": [],
@@ -1234,7 +1503,233 @@
     {
       "answer_blocks": [],
       "asset_bindings": [],
-      "body_blocks": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01/introduction",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:3-3",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:3-3",
+                "reference_id": "REF-03b94c6bc7fbe66d",
+                "scope_id": "M01",
+                "source_id": "source-vision-zero"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Driving begins with a choice: whether this person, this vehicle and this journey are ready to go together. Sweden’s Vision Zero (Nollvisionen) aims for no one to be killed or seriously injured in traffic. The choices taught here contribute to that aim. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: Vision Zero",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-03b94c6bc7fbe66d",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " Learning rules matters, but so does recognising when a different plan is safer. This module helps you build both habits.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01/contents-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:64-64",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "In this chapter",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01/contents",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:64-64",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "links": [
+              {
+                "label": [
+                  {
+                    "text": "M01-L01 · Your route into driving",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M01-L01"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M01-L02 · Am I ready today?",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M01-L02"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M01-L03 · Pressure is a driving risk",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M01-L03"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M01-L04 · Plan the journey before the ignition",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M01-L04"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M01-R · Review and self-assessment",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M01-R"
+                  },
+                  "type": "internal"
+                }
+              }
+            ],
+            "type": "related_links"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01/disclaimer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:8-8",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "disclaimer",
+            "text": [
+              {
+                "text": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01/source-dates",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:116-116",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "source_limit",
+            "text": [
+              {
+                "text": "Original sources checked 4 October 2026; G1 additions checked 12 October 2026. Consult current official guidance and applicable rules.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01",
       "kind": "module_introduction",
@@ -1251,19 +1746,607 @@
         "pdf_evidence_page": 5
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-vision-zero"
+      ],
       "title": "Choose to drive responsibly"
     },
     {
-      "answer_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M01-L01/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                    "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                  },
+                  "locator": "line:21-21",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M01-L01/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:21-21",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
       "asset_bindings": [],
-      "body_blocks": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01-L01/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:7-7",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Build a personal preparation checklist covering entitlement, permits, supervised practice, risk training and examinations.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/requirements",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:9-9",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:9-9",
+                "reference_id": "REF-a6fdf41e5fb86af6",
+                "scope_id": "M01",
+                "source_id": "source-b"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirements.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " For an ordinary new category B licence, you need a valid learner permit, permanent residence in Sweden or at least six months of study here, the minimum age of 18, valid car risk training, and successful theory and practical tests. Holding another EEA licence affects the application route. Category B normally covers a passenger car or light goods vehicle with a registered maximum weight of no more than 3,500 kg; trailers are explained in module 8. Check any conditions on your entitlement, including an automatic-transmission restriction. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: category B",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-a6fdf41e5fb86af6",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/private-practice",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:11-11",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:11-11",
+                "reference_id": "REF-a6fdf41e5fb86af6",
+                "scope_id": "M01",
+                "source_id": "source-b"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "text": "Private practice requires an approved supervisor for the particular learner. The learner normally needs a group 1 permit. Practice in a passenger car can begin at 16; the minimum is 17 years and 6 months for practice with a light goods vehicle or a light trailer. The supervisor is legally treated as the driver, must carry proof of approval, and the practice sign must be clearly visible from behind. Exceptions concerning an existing entitlement must be checked against your own circumstances. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: category B",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-a6fdf41e5fb86af6",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/current-changes",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:13-13",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-c24899e35492e564",
+                "scope_id": "M01",
+                "source_id": "source-supervisor"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-f2e96bf01856511f",
+                "scope_id": "M01",
+                "source_id": "source-risk"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-d1b9e081d8a60885",
+                "scope_id": "M01",
+                "source_id": "source-validity"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-64a8c6a618915c71",
+                "scope_id": "M01",
+                "source_id": "source-test"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Current changes, checked 1 October 2026.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " The introductory-course requirement for private practice ended on 1 August 2026. Supervisor approval still applies. This change does not remove mandatory risk training. A theory test passed on or after 19 August 2026 is valid for one year. Tests passed before that date retain the earlier rules; Trafikverket describes the ordinary earlier validity as four months. Check your own result and any approved extension rather than adding a year yourself. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Supervisor requirements",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-c24899e35492e564",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Risk training",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-f2e96bf01856511f",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Test validity amendment",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-d1b9e081d8a60885",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: B tests",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-64a8c6a618915c71",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:93-93",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/risk-training",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:15-15",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:15-15",
+                "reference_id": "REF-f2e96bf01856511f",
+                "scope_id": "M01",
+                "source_id": "source-risk"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Risk training has two parts: the first covers alcohol, drugs, fatigue and other risky behaviour; the second covers speed, safety and differing road/weather conditions, including slippery-road training. It must be completed before the tests and remains valid until the licence is obtained or for at most five years. Car and motorcycle risk training are not interchangeable. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: risk training",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-f2e96bf01856511f",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/checklist",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:17-17",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Build your checklist.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Record your permit, supervisor approval if practising privately, entitlement conditions, risk-training status, test preparation and any support application. Use actual expiry dates from your records. Schedule practice around skills you need to improve, not only around an available test slot.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:19-19",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-L01/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:19-19",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Noor plans to practise privately in September 2026. Her relative says no approvals are needed because a course was abolished. Noor checks the current supervisor page and waits for supervisor approval. The removed course and the retained approval are different requirements.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:21-21",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M01-L01/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M01-L01/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:21-21",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Does a theory pass from July 2026 automatically become valid for a year?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L01/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:23-23",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Plan the administrative route and the learning route together.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01-L01",
       "kind": "lesson",
       "module_id": "M01",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Build a personal preparation checklist covering entitlement, permits, supervised practice, risk training and examinations.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 1,
       "origin": {
         "evidence_ids": [],
@@ -1275,19 +2358,864 @@
         "pdf_evidence_page": 6
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-b",
+        "source-supervisor",
+        "source-risk",
+        "source-validity",
+        "source-test"
+      ],
       "title": "Your route into driving"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M01-L02/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                    "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                  },
+                  "locator": "line:47-47",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " (1) No. The driver must still be capable of driving safely. The prescription exception to the narcotics rule does not excuse unsafe impairment. (2) Microsleep is a brief unintended sleep episode, not a deliberate action. (3) No. Adequate sleep addresses sleep deprivation; stimulation can mask fatigue and produce overconfidence without safe judgement.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M01-L02/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:47-47",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M01-L02/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01-L02/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:27-27",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Decide whether to drive when tiredness, illness, medication, alcohol or drugs may affect you, and explain a safer alternative.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/fitness-requirement",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:29-29",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:29-29",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M01",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirement.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " You must not drive when illness, exhaustion, alcohol, other substances or another condition prevents safe control. A legal alcohol threshold is not a guarantee that you are capable of driving safely. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Traffic Regulation, chapter 3 §1",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-9f4b74a976fa03fb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/alcohol-limits",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:31-31",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:31-31",
+                "reference_id": "REF-e60a63c3f8983251",
+                "scope_id": "M01",
+                "source_id": "source-drink-law"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:31-31",
+                "reference_id": "REF-16280dcecc55e002",
+                "scope_id": "M01",
+                "source_id": "source-alcohol"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Trafikverket states that the blood-alcohol limit for drink-driving is 0.2 per mille. For an aggravated offence, factors include at least 1.0 per mille, substantial impairment, or driving that creates a clear traffic danger. Non-prescribed narcotics are subject to a zero-tolerance rule. Properly prescribed medication does not make impaired driving acceptable. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: drink-driving law",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-e60a63c3f8983251",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Alcohol, drugs and medication",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-16280dcecc55e002",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/impairment",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:33-33",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:33-33",
+                "reference_id": "REF-16280dcecc55e002",
+                "scope_id": "M01",
+                "source_id": "source-alcohol"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Alcohol can affect judgement, attention, vision, reactions and coordination. Feeling normal does not measure those effects. Performance can remain impaired the next day. Do not use a fixed number of hours, a shower, coffee or a calculation as a personal clearance to drive. Ask your prescriber or pharmacist about medicines and driving; do not change a prescribed treatment simply to make a journey. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: effects of alcohol and medicines",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-16280dcecc55e002",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/readiness",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:35-35",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:35-35",
+                "reference_id": "REF-2b993e2c85ae94c9",
+                "scope_id": "M01",
+                "source_id": "source-medical"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Before taking the keys, ask: Can I stay alert? Can I see and move well enough? Has anything changed since I last drove? Can I concentrate on several developing situations? If the answers are uncertain, make a different travel plan and resolve the uncertainty first. Medical eligibility and day-to-day readiness are related but different: having a licence does not mean you are fit for every journey. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Medical requirements",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-2b993e2c85ae94c9",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/sleep-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:89-89",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Sleep and safe judgement",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/microsleep",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:37-37",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": true,
+                "locator": "line:37-37",
+                "reference_id": "REF-4c8313a9f060c341",
+                "scope_id": "M01",
+                "source_id": "source-microsleep"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Medical explanation · Sleep and awareness.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Microsleep (mikrosömn) is a brief, unintended episode of sleep. You do not choose it or reliably prevent it by deciding to try harder. For a deliberately hypothetical two-second lapse at a constant 90 km/h, distance = speed × time: 90 ÷ 3.6 = 25 metres per second; 25 × 2 = 50 metres travelled while asleep. Two seconds is an example, not a prediction of how long a microsleep lasts. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "CDC/NIOSH: microsleeps",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4c8313a9f060c341",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/sleep-advice",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:39-39",
+              "pdf_evidence_page": null
+            },
+            "related_content": [
+              {
+                "block_id": null,
+                "content_id": "M07-L03"
+              }
+            ],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:39-39",
+                "reference_id": "REF-f45c8a4a2cd16a96",
+                "scope_id": "M01",
+                "source_id": "source-drowsy-driving"
+              }
+            ]
+          },
+          "payload": {
+            "role": "recommendation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Official safety advice · Replace missing sleep with sleep.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Adequate sleep is the fundamental remedy for sleep deprivation. Coffee or an energy drink may briefly make you feel more alert, but does not replace the sleep you need; serious sleep deprivation can still lead to microsleep. Music, an open window or willpower should not be treated as a clearance to drive: they do not provide the missing sleep. Do not start when you cannot stay awake; if sleepiness develops, stop somewhere safe and arrange rest or another way to travel. See ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "M07-L03",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M07-L03"
+                  },
+                  "type": "internal"
+                },
+                "type": "link"
+              },
+              {
+                "text": " for planning around fatigue on a journey. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "NHTSA: drowsy driving",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-f45c8a4a2cd16a96",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/stimulants",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:41-41",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:41-41",
+                "reference_id": "REF-77212b94c06f7430",
+                "scope_id": "M01",
+                "source_id": "source-stimulant-confidence"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:41-41",
+                "reference_id": "REF-3640f80c5bf11c26",
+                "scope_id": "M01",
+                "source_id": "source-stimulant-fatigue"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Medical explanation · Stimulation is not safe judgement.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Stimulant misuse, for example involving amphetamine or cocaine, can produce overconfidence while judgement and concentration are impaired. Some stimulant effects can reduce the feeling of fatigue or drowsiness: tiredness may be masked rather than the need for sleep removed. Feeling energetic is therefore not proof of safe driving ability. Effects vary with substance, dose and individual circumstances; this does not mean every prescribed stimulant treatment has the same effect. Ask your prescriber about your treatment and driving. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Swedish Government: stimulant confidence and judgement",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-77212b94c06f7430",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "NHTSA: stimulant effects",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-3640f80c5bf11c26",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/practice-example",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:43-43",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-L02/practice-example/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:43-43",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Practice example.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Lina slept too little before an evening journey. She suggests an energy drink and loud music; her friend suggests a stimulant to make her feel confident. The missing sleep remains unresolved, and a stronger feeling of alertness cannot certify safe judgement. She postpones the drive or arranges an alert driver, and makes time for adequate sleep before driving again.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:93-93",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+                "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+              },
+              "locator": "json:/assets/M01-L02",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M01-L02/illustration",
+            "caption": [
+              {
+                "text": "A tired learner and a companion pause beside a parked car. The keys remain on the bench.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 501,
+              "left": 35,
+              "right": 827,
+              "source_height": 941,
+              "source_width": 1671,
+              "top": 171
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:45-45",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-L02/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:45-45",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " A driver has taken a new medicine and feels unusually drowsy. A passenger offers to keep talking to help them stay awake. The safer choice is to arrange another driver or transport and ask for medication advice. Conversation does not resolve the impairment.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:47-47",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M01-L02/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M01-L02/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:47-47",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " (1) Is driving automatically acceptable if a medicine was prescribed correctly? (2) How does microsleep differ from choosing to close your eyes? (3) A sleep-deprived driver feels energetic and unusually confident after taking a stimulant. Has the missing sleep been remedied, and does that feeling establish safe judgement?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L02/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:49-49",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Decide fitness before deciding convenience.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01-L02",
       "kind": "lesson",
       "module_id": "M01",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Decide whether to drive when tiredness, illness, medication, alcohol or drugs may affect you, and explain a safer alternative.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 2,
       "origin": {
         "evidence_ids": [],
@@ -1298,20 +3226,563 @@
         "locator": "line:25",
         "pdf_evidence_page": 8
       },
-      "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "related_content": [
+        {
+          "block_id": null,
+          "content_id": "M07-L03"
+        }
+      ],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-traffic-law",
+        "source-drink-law",
+        "source-alcohol",
+        "source-medical",
+        "source-microsleep",
+        "source-drowsy-driving",
+        "source-stimulant-confidence",
+        "source-stimulant-fatigue"
+      ],
       "title": "Am I ready today?"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M01-L03/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                    "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                  },
+                  "locator": "line:67-67",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " (1) Observed performance. Confidence is useful only when it agrees with what you can actually do. (2) Its central aim is that no one should be killed or seriously injured in traffic. Safer driver choices contribute to that aim.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M01-L03/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:67-67",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M01-L03/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01-L03/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:53-53",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Identify how peers, impulses, confidence and personal circumstances can change a decision, and rehearse a refusal or alternative.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/syllabus",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:55-55",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:55-55",
+                "reference_id": "REF-7530106233dee341",
+                "scope_id": "M01",
+                "source_id": "source-syllabus"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "The official education syllabus asks learners to reflect on social influence, impulsive decisions, personal motives and their own limitations. These are skills to practise, not labels to attach to an age group or personality. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Category B syllabus, chapter 5",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-7530106233dee341",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/motives",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:57-57",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Separate the journey's purpose from the feeling of the moment. “Get everyone home” is a purpose. “Show that I can handle this bend quickly” is a different motive. When a passenger's request changes your speed, following distance or willingness to overtake, name the change before acting on it.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/boundaries",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:59-59",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "A useful personal boundary is a sentence you can use without debate: “I will stop somewhere safe before changing the route”; “I am not passing here”; or “We need another way home.” These are original rehearsal tools, not official scripts. Practise them before a difficult situation, and agree that passengers will help with navigation only when asked.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/care-requirement",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:61-61",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:61-61",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M01",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirement.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " You still owe care to other road users and must adapt speed to conditions. Cooperation does not authorise ignoring a traffic rule because another person is impatient. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Traffic Regulation, chapter 2 §1 and chapter 3 §14",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-9f4b74a976fa03fb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/vision-zero",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:63-63",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:63-63",
+                "reference_id": "REF-03b94c6bc7fbe66d",
+                "scope_id": "M01",
+                "source_id": "source-vision-zero"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Official policy aim · Vision Zero.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Nollvisionen means no one should be killed or seriously injured in traffic. It is not a promise that nobody will ever make a mistake. Trafikverket describes shared responsibility: road users must show consideration and judgement and follow traffic rules, while system designers have ultimate responsibility for the system’s safety. Your part includes choosing safe speed and margins and refusing a pressured manoeuvre; road and vehicle design also contribute. For example, staying behind a vehicle near a hidden crest helps protect people even when a passenger dislikes the delay. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: Vision Zero",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-03b94c6bc7fbe66d",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:93-93",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+                "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+              },
+              "locator": "json:/assets/M01-L03",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M01-L03/illustration",
+            "caption": [
+              {
+                "text": "A passenger talks to the driver. In the road view, the car remains behind a van near a crest. Illustration, not a scale diagram of following distance.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 501,
+              "left": 857,
+              "right": 1631,
+              "source_height": 941,
+              "source_width": 1671,
+              "top": 158
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:65-65",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-L03/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:65-65",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Friends laugh when Amir stays behind a slow vehicle on a road with a hidden crest. He recognises the urge to prove himself, maintains space and waits for a genuinely suitable opportunity. His decision protects the purpose of the trip: arriving safely. There is no need to “win” the interaction.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:67-67",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M01-L03/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M01-L03/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:67-67",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " (1) Which is better evidence of readiness: feeling confident, or repeatedly identifying hazards and responding safely during supervised practice? (2) Does Vision Zero aim only to reduce minor collisions, or to prevent deaths and serious injuries?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L03/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:69-69",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " A decision can be socially uncomfortable and still be the correct driving decision.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01-L03",
       "kind": "lesson",
       "module_id": "M01",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Identify how peers, impulses, confidence and personal circumstances can change a decision, and rehearse a refusal or alternative.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 3,
       "origin": {
         "evidence_ids": [],
@@ -1323,19 +3794,490 @@
         "pdf_evidence_page": 11
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-syllabus",
+        "source-traffic-law",
+        "source-vision-zero"
+      ],
       "title": "Pressure is a driving risk"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M01-L04/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                    "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                  },
+                  "locator": "line:83-83",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " The arrival expectation. Inform the people waiting, choose a different mode or postpone if necessary. A late start does not change the rules or stopping space needed.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M01-L04/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:83-83",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M01-L04/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01-L04/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:73-73",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Compare route, departure time, travel mode and passenger choices for safety, accessibility and environmental impact.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/advice-attribution",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:84-84",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "credit",
+            "text": [
+              {
+                "text": "Official advice · Trafikverket",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/journey-advice",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:75-75",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:75-75",
+                "reference_id": "REF-254a36987682400e",
+                "scope_id": "M01",
+                "source_id": "source-planning"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:75-75",
+                "reference_id": "REF-7530106233dee341",
+                "scope_id": "M01",
+                "source_id": "source-syllabus"
+              }
+            ]
+          },
+          "payload": {
+            "role": "recommendation",
+            "text": [
+              {
+                "text": "Trafikverket recommends checking forecasts and traffic conditions, allowing time, taking breaks on longer trips and preparing supplies appropriate to the season. The education syllabus also asks you to consider whether a car is the right means of transport and how passengers or timing affect a journey. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Journey advice",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-254a36987682400e",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Syllabus, chapters 4–5",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-7530106233dee341",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/planning",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:77-77",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Plan a usable journey rather than an ideal arrival time. Check where you can rest, refuel or charge as appropriate to the vehicle, and stop legally at the destination. Arrange restraints and space for passengers before departure. If the route has unfamiliar junctions or restrictions, identify them while parked.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/alternatives",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:79-79",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Compare realistic alternatives. Walking, cycling or public transport may suit some journeys; a car may be necessary for others. Consider access needs, luggage, the return trip and the conditions at the time you will actually travel. A plan that depends on rushing after a late appointment is already fragile.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:93-93",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+                "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+              },
+              "locator": "json:/assets/M01-L04",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M01-L04/illustration",
+            "caption": [
+              {
+                "text": "Viewed over their shoulders, two people study a digital map on a tablet facing them. Rain falls outside. The map is illustrative, not live route guidance.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 507,
+              "left": 28,
+              "right": 715,
+              "source_height": 1054,
+              "source_width": 1492,
+              "top": 153
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:81-81",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-L04/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:81-81",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " A learner and supervisor can practise on a familiar route in daylight or travel through an unfamiliar town during a forecast snow shower. They choose daylight practice today and plan a later lesson for more demanding conditions with suitable preparation. This is staged learning, not an assumption that difficult conditions can always be avoided.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:83-83",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M01-L04/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M01-L04/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:83-83",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " You are delayed before leaving. What should change first: the arrival expectation or the safety margin?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-L04/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:85-85",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Keep a fallback plan that does not depend on taking extra risk.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01-L04",
       "kind": "lesson",
       "module_id": "M01",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Compare route, departure time, travel mode and passenger choices for safety, accessibility and environmental impact.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 4,
       "origin": {
         "evidence_ids": [],
@@ -1347,14 +4289,287 @@
         "pdf_evidence_page": 13
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-planning",
+        "source-syllabus"
+      ],
       "title": "Plan the journey before the ignition"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M01-R/review-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                    "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                  },
+                  "locator": "line:91-91",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Review guide:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " Include legal permission, actual fitness, vehicle/passenger readiness, conditions and a workable alternative. Permission to practise is only one part of the decision.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M01-R/review-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:91-91",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M01-R/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M01-R/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/illustrations.json",
+                "sha256": "185f3313c75dade2b88f930fb1e5d0007e980b176db03dc09344137d6de6f733"
+              },
+              "locator": "json:/assets/M01-R",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M01-R/illustration",
+            "caption": [
+              {
+                "text": "Three conditions to consider: tiredness, an appointment and worsening weather. No choice is shown.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 755,
+              "left": 855,
+              "right": 1631,
+              "source_height": 941,
+              "source_width": 1671,
+              "top": 615
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-R/scenario",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:89-89",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M01-R/scenario/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:89-89",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "exercise_assumption",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Scenario:",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " You intend to practise after a long workday, collect a friend and reach an appointment on time. Your supervisor is approved, but the road forecast has worsened.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-R/review-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:91-91",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M01-R/review-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M01-R/review-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                      "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+                    },
+                    "locator": "line:91-91",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "text": "Explain what you would check before leaving, which circumstances could make you cancel, and how you would respond if your friend urged you to hurry.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-R/reflection-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/build_chapter.py",
+                "sha256": "8d861a98791e1a06b0f9cde846a136cc053643b01b7fd290d23f3f195bf60190"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Keep a practice record",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M01-R/reflection",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M01/chapter-source.md",
+                "sha256": "5cbbf372b1936c85225523e083a726887c0942fc6796524c44cfeb901a4456b1"
+              },
+              "locator": "line:93-93",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:93-93",
+                "reference_id": "REF-7530106233dee341",
+                "scope_id": "M01",
+                "source_id": "source-syllabus"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Write one decision you are uncertain about, its possible consequences, and the official reference or supervised practice activity that would help. Keep the entry and revisit it after your next practice session. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Syllabus self-assessment, chapters 4–5 §3",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-7530106233dee341",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M01-R",
       "kind": "module_review",
@@ -1371,8 +4586,10 @@
         "pdf_evidence_page": 15
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M01-9B2-v1",
+      "source_ids": [
+        "source-syllabus"
+      ],
       "title": "Review and self-assessment"
     },
     {

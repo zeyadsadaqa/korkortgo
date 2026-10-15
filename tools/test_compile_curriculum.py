@@ -20,6 +20,16 @@ class CompilerTest(unittest.TestCase):
     def setUp(self):
         self.p={k:read_json(p) for k,p in PATHS.items()}
         self.m=read_json(FIXTURE/'manifest.json')
+        # Keep retained 9A3 evidence immutable while testing evolving tool/model bytes.
+        for record in self.m['inputs']:
+            if record['path'] in {*__import__('content_schema').MODEL_PATHS, 'tools/compile_curriculum.py', 'tools/content_schema.py', 'tools/build_content.py'}:
+                record['sha256']=hashlib.sha256((ROOT/record['path']).read_bytes()).hexdigest()
+        self.m['identity']['manifest_sha256']=manifest_digest(self.m)
+        (ROOT/'tmp').mkdir(exist_ok=True)
+        self.temp=tempfile.TemporaryDirectory(dir=ROOT/'tmp')
+        self.addCleanup(self.temp.cleanup)
+        self.manifest_path=Path(self.temp.name)/'manifest.json'
+        self.manifest_path.write_text(json.dumps(self.m))
 
     def validate(self,profile='fixture'):
         self.m['identity']['manifest_sha256']=manifest_digest(self.m)
@@ -172,9 +182,9 @@ class CompilerTest(unittest.TestCase):
     def test_determinism_trace_and_staging_ownership(self):
         with tempfile.TemporaryDirectory() as tmp:
             out=Path(tmp)/'kotlin';trace=Path(tmp)/'trace.json'
-            compile_files(PATHS,FIXTURE/'manifest.json',out,trace,symbol='fixture9A3')
+            compile_files(PATHS,self.manifest_path,out,trace,symbol='fixture9A3')
             first={p.name:p.read_bytes() for p in out.glob('*.kt')};trace_bytes=trace.read_bytes()
-            compile_files(PATHS,FIXTURE/'manifest.json',out,trace,symbol='fixture9A3')
+            compile_files(PATHS,self.manifest_path,out,trace,symbol='fixture9A3')
             self.assertEqual(first,{p.name:p.read_bytes() for p in out.glob('*.kt')})
             self.assertEqual(trace_bytes,trace.read_bytes())
             for record in json.loads(trace_bytes)['records']:
@@ -183,19 +193,19 @@ class CompilerTest(unittest.TestCase):
                 line=(out/record['output_file']).read_text().splitlines()[record['output_line']-1]
                 self.assertIn('fun '+record['symbol']+'(',line)
             (out/'GeneratedCurriculumPart9999.kt').write_text('human-authored')
-            with self.assertRaisesRegex(ContentError,'non-generated'):compile_files(PATHS,FIXTURE/'manifest.json',out,trace)
+            with self.assertRaisesRegex(ContentError,'non-generated'):compile_files(PATHS,self.manifest_path,out,trace)
             self.assertEqual(first['GeneratedCurriculum.kt'],(out/'GeneratedCurriculum.kt').read_bytes())
 
     def test_outputs_cannot_overwrite_live_content(self):
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaisesRegex(ContentError,'staging/build directory'):
-                compile_files(PATHS,FIXTURE/'manifest.json',ROOT/'composeApp/src/commonMain',Path(tmp)/'trace.json')
+                compile_files(PATHS,self.manifest_path,ROOT/'composeApp/src/commonMain',Path(tmp)/'trace.json')
 
     def test_payload_hash_must_match_manifest(self):
         with tempfile.TemporaryDirectory(dir=EVIDENCE) as tmp:
             p=Path(tmp)/'questions.json';p.write_text(json.dumps(self.p['questions']))
             with self.assertRaisesRegex(ContentError,'matching questions payload'):
-                compile_files({**PATHS,'questions':p},FIXTURE/'manifest.json',Path(tmp)/'out',Path(tmp)/'trace.json')
+                compile_files({**PATHS,'questions':p},self.manifest_path,Path(tmp)/'out',Path(tmp)/'trace.json')
 
     def test_kotlin_strings_escape_interpolation_and_controls(self):
         self.assertEqual('"\\${notCode}\\n\\\"\\\\\\u000c"',kotlin_string('${notCode}\n"\\\f'))
