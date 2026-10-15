@@ -452,6 +452,8 @@ Use imagegen to show the registered B1 study/reference entry, Swedish official n
 **Deliverable:** `app-design/8j/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the reference layout and zoom treatment. All 38 image-delivery holds remain uncleared until actual delivery tests.
 
+**Execution record — 15 October 2026:** 8J v1 explicitly approved: “approved”. B1 reference/framing/zoom direction complete with exact official artwork bound separately; all 38 delivery holds remain open. See [preview and approval record](app-design/8j/review.md). 8K has not started.
+
 ### 8K. Preview ambiguous and moved legacy links
 
 Use imagegen to show the canonical destination chooser and moved-passage notice. Document the exact page-46 question-context examples using the handoff, with canonical lesson labels in learner copy. Do not imply equivalence between old folios and approved PDF pages.
