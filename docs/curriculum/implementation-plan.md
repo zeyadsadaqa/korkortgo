@@ -482,6 +482,8 @@ Use imagegen to show the exact missing-results/setup fixture and its permitted r
 **Deliverable:** `app-design/8m/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves the recovery state and its actions.
 
+**Execution record — 15 October 2026:** 8M v1 explicitly approved: “approved”. Missing-results/setup-recovery wide/phone direction complete; see [preview and approval record](app-design/8m/review.md). 8N has not started.
+
 ### 8N. Assemble the app design specification
 
 Index the approved preview revisions and record shared typography, colour, spacing, navigation, responsive/large-text intent, exact content bindings and accessibility requirements. Map each required handoff state to its approved preview and future implementation work item. If consolidation needs a visual change, revise the affected imagegen preview and obtain approval again.
