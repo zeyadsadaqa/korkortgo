@@ -1,0 +1,215 @@
+{
+  "step": "9A2",
+  "date": "2026-10-15",
+  "authorization": "User: “ok next” after completed 9A1; next planned task is 9A2.",
+  "status": "complete",
+  "schema_version": 1,
+  "scope": "Typed model/schema declarations, local contract tests and retained-input scope verification. No runtime import/loader/UI integration.",
+  "baseline": {
+    "path": "docs/curriculum/app-migration/implementation-evidence/9A1/input-baseline.json",
+    "sha256": "4b065682b873df88cd698889eeacdc39d8bfe3dccdc2b2d0b3c7f0186251978d",
+    "incoming_check": "9A1 --check passed before any changes; 1174 bindings, 21 checks"
+  },
+  "intended_baseline_changes": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "before_sha256": "5b2840d0f31c62dd32ef240b62bd0d92cfc80eba706be8a5840030f98a610256",
+      "after_sha256": "b28265fed1057be62752fd923d64246e2b16a3f503b41f6f2d93e4b83a9e07d7"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "before_sha256": "945a69e66d8578573ae848aa7199f8b95d9cf25cbc712010570d6cc381487225",
+      "after_sha256": "6af9601f5a756b816703cf222bacd6759025795ceb315c582f67aaa60a35ef71"
+    }
+  ],
+  "new_source_paths": [
+    "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+    "composeApp/src/commonTest/kotlin/se/korkort/CurriculumContractTest.kt"
+  ],
+  "artifacts": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "sha256": "b28265fed1057be62752fd923d64246e2b16a3f503b41f6f2d93e4b83a9e07d7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+      "sha256": "f5815d5f455736d29ab951e475e62dff9924e218fcc549a4142963e0bf24511f"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/CurriculumContractTest.kt",
+      "sha256": "d9e714b36c869baf1624affb93fa01a1b7bb39d83452b8ffd55c2c805d7bb0f2"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "sha256": "6af9601f5a756b816703cf222bacd6759025795ceb315c582f67aaa60a35ef71"
+    },
+    {
+      "path": "docs/curriculum/progress.md",
+      "sha256": "05d80d5503cf4f1780fa59b470db694ab81a192c0176b09d974fb4005589f905"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A1/input-baseline.json",
+      "sha256": "4b065682b873df88cd698889eeacdc39d8bfe3dccdc2b2d0b3c7f0186251978d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/content-contract.md",
+      "sha256": "8d809eede9f1a409cb54362a171f81fbd477aeac054b30657db6f5876b504a36"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/review.md",
+      "sha256": "d4fc3651440b88cefd1f4310d9d8796a2173c98d7f85b270061f8cb5c576d35f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/verify_contract.py",
+      "sha256": "5a339be2163fe7c5c89660bac4f608fef303b0ece75a0e53ce753400a098b1b8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "0314d02b32a73a05736ee229ef2406891280be17259d5af954fe04e3d0c038a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9A2/TEST-se.korkort.QuizTest.xml",
+      "sha256": "6829f4182c55f35553ed65b29ecc66e56817a0c18d94638b809a1a91c2f7ab4b"
+    }
+  ],
+  "build": {
+    "command": "JAVA_HOME='/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home' ./gradlew :composeApp:desktopTest --offline --no-daemon",
+    "exit_code": 0,
+    "tests": 11,
+    "contract_tests": 5,
+    "existing_quiz_tests": 6,
+    "limitations": "Desktop/common compilation only; no Android/iOS/wasm/device/accessibility certification."
+  },
+  "checks": [
+    {
+      "name": "9A1 accepted entry record",
+      "passed": true,
+      "evidence": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A1/input-baseline.json",
+        "sha256": "4b065682b873df88cd698889eeacdc39d8bfe3dccdc2b2d0b3c7f0186251978d"
+      }
+    },
+    {
+      "name": "Only declared existing baseline inputs changed",
+      "passed": true,
+      "evidence": [
+        {
+          "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+          "before_sha256": "5b2840d0f31c62dd32ef240b62bd0d92cfc80eba706be8a5840030f98a610256",
+          "after_sha256": "b28265fed1057be62752fd923d64246e2b16a3f503b41f6f2d93e4b83a9e07d7"
+        },
+        {
+          "path": "docs/curriculum/implementation-plan.md",
+          "before_sha256": "945a69e66d8578573ae848aa7199f8b95d9cf25cbc712010570d6cc381487225",
+          "after_sha256": "6af9601f5a756b816703cf222bacd6759025795ceb315c582f67aaa60a35ef71"
+        }
+      ]
+    },
+    {
+      "name": "Original quiz implementation byte-identical",
+      "passed": true,
+      "evidence": {
+        "legacy_prefix_sha256": "5b2840d0f31c62dd32ef240b62bd0d92cfc80eba706be8a5840030f98a610256",
+        "expected": "5b2840d0f31c62dd32ef240b62bd0d92cfc80eba706be8a5840030f98a610256"
+      }
+    },
+    {
+      "name": "Only declared Kotlin source additions",
+      "passed": true,
+      "evidence": [
+        "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+        "composeApp/src/commonTest/kotlin/se/korkort/CurriculumContractTest.kt"
+      ]
+    },
+    {
+      "name": "Gradle/dependency declarations unchanged",
+      "passed": true,
+      "evidence": "Existing standard-library/common-test dependencies only"
+    },
+    {
+      "name": "Prior audit/approval and source payload identities retained",
+      "passed": true,
+      "evidence": {
+        "unchanged_files": 1053,
+        "includes": "question bank, assets, manuscript, production corrections, source registries, design approvals/previews, 9A1 checker and original audit manifests"
+      }
+    },
+    {
+      "name": "CurriculumContractTest saved test suite passed",
+      "passed": true,
+      "evidence": {
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A2/TEST-se.korkort.CurriculumContractTest.xml",
+        "sha256": "0314d02b32a73a05736ee229ef2406891280be17259d5af954fe04e3d0c038a5",
+        "test_names": [
+          "knowledgeCheckAnswersAreSeparateFromVisibleBody[desktop]",
+          "duplicateOrIncompleteAssessmentIdentityIsRejected[desktop]",
+          "snapshotPinsExactRevisionPackageAndOptionOrder[desktop]",
+          "acceptedQuestionsCannotContainUnreviewedImagesOrOpenHolds[desktop]",
+          "tableAndSourceMetadataPreserveRequiredDistinctions[desktop]"
+        ]
+      }
+    },
+    {
+      "name": "CurriculumContractTest build report matches retained run",
+      "passed": true,
+      "evidence": {
+        "build_report": "composeApp/build/test-results/desktopTest/TEST-se.korkort.CurriculumContractTest.xml"
+      }
+    },
+    {
+      "name": "QuizTest saved test suite passed",
+      "passed": true,
+      "evidence": {
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "path": "docs/curriculum/app-migration/implementation-evidence/9A2/TEST-se.korkort.QuizTest.xml",
+        "sha256": "6829f4182c55f35553ed65b29ecc66e56817a0c18d94638b809a1a91c2f7ab4b",
+        "test_names": [
+          "invalidCountsRejected[desktop]",
+          "bankIntegrity[desktop]",
+          "everyLengthAndSeed[desktop]",
+          "shufflingPreservesAnswer[desktop]",
+          "answerAndFinishAreGuarded[desktop]",
+          "fullTestAllocation[desktop]"
+        ]
+      }
+    },
+    {
+      "name": "QuizTest build report matches retained run",
+      "passed": true,
+      "evidence": {
+        "build_report": "composeApp/build/test-results/desktopTest/TEST-se.korkort.QuizTest.xml"
+      }
+    },
+    {
+      "name": "content-contract.md local links resolve",
+      "passed": true,
+      "evidence": []
+    },
+    {
+      "name": "review.md local links resolve",
+      "passed": true,
+      "evidence": []
+    }
+  ],
+  "totals": {
+    "checks": 12,
+    "passed": 12,
+    "tests": 11
+  },
+  "remaining_work": [
+    "9A3 deterministic validation/generation",
+    "9B/9C full content/source/assets import",
+    "9D identities/reveal integration and descriptions",
+    "9E–9J content/delivery/active-pool acceptance",
+    "9K–9O routing/UI/state/platform work",
+    "step 10 finished-app verification"
+  ],
+  "next_step": "9A3, separately requested"
+}

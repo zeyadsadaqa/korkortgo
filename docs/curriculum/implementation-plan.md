@@ -548,6 +548,8 @@ Define canonical IDs, block variants, answer visibility, source/asset bindings, 
 
 **Done when:** The contract represents every approved block and state without a runtime JSON loader or new persistence.
 
+**Execution record — 15 October 2026:** 9A2 completed: common Kotlin content/assessment models and the [documented schema](app-migration/implementation-evidence/9A2/content-contract.md) define complete block/answer/source/asset/version/eligibility contracts. Final desktop/common compilation and all 11 tests pass; the original live quiz code/data remains intact. See [review](app-migration/implementation-evidence/9A2/review.md) and [verification](app-migration/implementation-evidence/9A2/verification.json). No runtime import/UI migration performed; 9A3 requires a separate request.
+
 #### 9A3. Implement deterministic generation and validation
 
 Extend tools/build_content.py to validate the contract and emit Kotlin plus source-to-output locators to explicit paths. Start with a small exact fixture.
