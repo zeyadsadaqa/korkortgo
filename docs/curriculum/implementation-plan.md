@@ -502,6 +502,10 @@ Cross-check the brief, exact fixtures, approved revisions and specification for 
 **Deliverable:** `app-design-review.md and updated progress.md`.  
 **Done when:** The user explicitly approves the complete app design package and no design blockers remain. Record approval only after it is given; step 9 still requires a separate request.
 
+**Execution record — 15 October 2026:** 8O technical verification passes 681/681 checks; [complete-package review](app-design-review.md) and [results](app-design/8o/verification.json) saved. Final package approval remains pending; 8O/step 8 are not complete and step 9 has not started.
+
+**Final package approval — 15 October 2026:** User explicitly said “yes approved”, approving the complete design package and documented dispositions. 8O and step 8 are complete; see [final approval](app-design-review.md). Implementation has not started; request step 9 separately.
+
 All deliverables are saved under `docs/curriculum/`. Update the [progress tracker](progress.md) after each executed substep with artifact links, approval status and outstanding issues. Step 8 is complete only after 8A–8O meet their completion criteria; implementation begins only after explicit design approval and a separate request for step 9.
 
 ## 9. Implement the approved app changes
