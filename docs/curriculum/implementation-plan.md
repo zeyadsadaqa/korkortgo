@@ -462,6 +462,8 @@ Use imagegen to show the canonical destination chooser and moved-passage notice.
 **Deliverable:** `app-design/8k/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves chooser and moved-passage presentation, with context-specific destinations recorded.
 
+**Execution record — 15 October 2026:** 8K chooser v2 and moved-passage v1 explicitly approved: “OK approved”. See [preview and approval record](app-design/8k/review.md). 8L has not started.
+
 ### 8L. Preview unavailable destinations
 
 Use imagegen to show the exact SIG16–18 unavailable message, official-description action and optional Combine the instructions action. Also show the generic unavailable/library fallback. Do not substitute another signal or invent an approved internal destination.

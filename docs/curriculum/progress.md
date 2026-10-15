@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 15 October 2026 (8J v1 approved; 8J complete)
-**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F v1 is explicitly approved and complete; 8G v1 is explicitly approved and complete; 8H v1 is explicitly approved and complete; 8I v1 is explicitly approved and complete; 8J v1 is explicitly approved and complete; 8K–8O and steps 9–10 have not started.
-**Next action:** 8K — preview ambiguous and moved legacy links using the exact chooser/destination fixtures. Execute only when separately requested; implementation remains gated on the complete approved design package.
+**Last updated:** 15 October 2026 (8K approved; 8K complete)
+**Current position:** Steps 1–7 complete for the explicitly approved tagged screen edition; print masters deferred. The full 7A–7F migration package passes 7G with no blocking migration-planning issues. All question changes and 38 image-delivery holds have implementation owners; SIG16–18 retain explicit unavailable internal routes with recorded official-source/related-teaching actions. Step 8 is in progress: 8A preparation is complete; 8B v1 is explicitly approved and complete; 8C v1 previews are explicitly approved and complete; 8D v1 is explicitly approved and complete; 8E v2 is explicitly approved and complete; 8F v1 is explicitly approved and complete; 8G v1 is explicitly approved and complete; 8H v1 is explicitly approved and complete; 8I v1 is explicitly approved and complete; 8J v1 is explicitly approved and complete; 8K previews are explicitly approved and complete; 8L–8O and steps 9–10 have not started.
+**Next action:** 8L — preview unavailable destinations using the exact SIG16–18 and generic fallback fixtures. Execute only when separately requested; implementation remains gated on the complete approved design package.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Seven of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -18,7 +18,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 5 | Generate a PDF design preview | Completed for approved visual direction | All current previews approved; chapter artwork/typography/render checks remain in step 6 |
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
-| 8 | Generate previews of the revised app | In progress; 8A–8J complete | [Approved 8J sign-reference preview](app-design/8j/review.md); 8K next |
+| 8 | Generate previews of the revised app | In progress; 8A–8K complete | [Approved 8K chooser/moved previews](app-design/8k/review.md); 8L next |
 | 9 | Implement the approved app changes | Not started | Approved curriculum and app design required |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
@@ -97,7 +97,7 @@ Each preview requires imagegen and explicit user approval before the next design
 | 8H | Preview the calculation answer review | Completed; v1 explicitly approved | [Wide/phone calculation review](app-design/8h/review.md) |
 | 8I | Preview the sources area | Completed; v1 explicitly approved | [Directory/detail wide and phone previews](app-design/8i/review.md) |
 | 8J | Preview the road-sign reference | Completed; v1 explicitly approved | [B1 detail/zoom layout and exact asset binding](app-design/8j/review.md) |
-| 8K | Preview ambiguous and moved legacy links | Not started | See implementation plan |
+| 8K | Preview ambiguous and moved legacy links | Completed; chooser v2/moved v1 explicitly approved | [Wide/phone chooser and moved notice](app-design/8k/review.md) |
 | 8L | Preview unavailable destinations | Not started | See implementation plan |
 | 8M | Preview missing-results and setup recovery | Not started | See implementation plan |
 | 8N | Assemble the app design specification | Not started | See implementation plan |
@@ -656,3 +656,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **15 October — 8J v1 approved:** User explicitly said “approved”. Recorded approval against the B1 reference/zoom layout and exact asset bindings; 8J is complete. All 38 delivery holds and actual asset/size/accessibility checks remain open; no unbound-menu functionality inferred. 8K is next only when separately requested; no implementation started. [Approval record](app-design/8j/review.md).
+
+
+**15 October — 8K previews generated:** Saved built-in imagegen chooser v2 and moved-passage v1 boards, each wide/phone. Verified exact page-46 canonical choice order, situation-017/M04-L03 versus situation-103/M04-L01 precedence and known-parent missing-block policy. Production M03-L04 source hash matches. Saved prompts, bindings and review; initial chooser header corrected internally. Awaiting explicit approval; 8L unstarted. No implementation, live questions, official assets or PDF changes. [Preview/review](app-design/8k/review.md).
+
+
+**15 October — 8K approved:** User explicitly said “OK approved”. Recorded approval for chooser v2 and moved-passage v1 in review and exact bindings; 8K is complete. Routing/quiz-guard/runtime requirements remain documented. 8L is next only when separately requested; no implementation started. [Approval record](app-design/8k/review.md).
