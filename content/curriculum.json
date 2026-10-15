@@ -268,6 +268,414 @@
       "study_alt_text": "Three conditions to consider: tiredness, an appointment and worsening weather. No choice is shown.",
       "translation_status": "not_applicable",
       "variant": "M01-R"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-L01",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "caption_id": "M02-L01/illustration-caption",
+      "code_or_illustration_id": "M02-v3",
+      "id": "M02-L01/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 115.8 ppi.",
+          "Production placement width: 170 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "A learner consults the vehicle handbook beside a parked car. Establish the actual controls before driving; no universal dashboard layout is shown.",
+      "translation_status": "not_applicable",
+      "variant": "M02-L01"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-L02",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "caption_id": "M02-L02/illustration-caption",
+      "code_or_illustration_id": "M02-v3",
+      "id": "M02-L02/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 120.3 ppi.",
+          "Production placement width: 170 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "A companion checks the rear of a stationary car and trailer. Check the trailer lights directly before moving.",
+      "translation_status": "not_applicable",
+      "variant": "M02-L02"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-L03",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "caption_id": "M02-L03/illustration-caption",
+      "code_or_illustration_id": "M02-v3",
+      "id": "M02-L03/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 109.7 ppi.",
+          "Production placement width: 170 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "An adult and child stand beside an open rear door. The empty booster and rear bench face forwards. This scene does not demonstrate installation or belt fit; follow the child-restraint and vehicle instructions.",
+      "translation_status": "not_applicable",
+      "variant": "M02-L03"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-L04-cabin",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "caption_id": "M02-L04-cabin/illustration-caption",
+      "code_or_illustration_id": "M02-v3",
+      "id": "M02-L04-cabin/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/M02-v3.png",
+        "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 185.3 ppi.",
+          "Production placement width: 115 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "The driver is in the left-hand seat and looks around before moving. Controls are illustrative; learn the actual vehicle.",
+      "translation_status": "not_applicable",
+      "variant": "M02-L04-cabin"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-L04",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/parking-v3.png",
+        "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a"
+      },
+      "caption_id": "M02-L04/illustration-caption",
+      "code_or_illustration_id": "parking-v3",
+      "id": "M02-L04/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/parking-v3.png",
+        "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 130.4 ppi.",
+          "Production placement width: 120 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "A car and van occupy adjacent bays. A pedestrian is on the footway between the bays and the access lane. Consider what the driver may lose sight of. Diagram not to scale.",
+      "translation_status": "not_applicable",
+      "variant": "M02-L04"
+    },
+    {
+      "approval": [
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+              "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+            },
+            "locator": "json:/assets/M02-R",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        },
+        {
+          "record": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": null
+        }
+      ],
+      "bundled": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/parking-v3.png",
+        "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a"
+      },
+      "caption_id": "M02-R/illustration-caption",
+      "code_or_illustration_id": "parking-v3",
+      "id": "M02-R/illustration",
+      "kind": "contextual_illustration",
+      "original": {
+        "path": "docs/curriculum/pdf-design/gap-resolution/parking-v3.png",
+        "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a"
+      },
+      "rendering": {
+        "contain_without_crop": false,
+        "maximum_print_size_mm": null,
+        "notes": [
+          "Apply only the typed approved pixel window; aspect-fit the entire window. Source sheet is retained byte-for-byte.",
+          "Production effective resolution: 145.4 ppi.",
+          "Production placement width: 120 mm; not an app size or a print-size ceiling."
+        ],
+        "preserve_geometry_and_colours": true
+      },
+      "reuse": [
+        {
+          "conditions": "Retain the approved contextual scene and production crop; no generated lettering or sign substitution. App resource packaging remains 9C4.",
+          "credit": "KörkortGo; built-in imagegen artwork.",
+          "evidence": {
+            "evidence_ids": [],
+            "file": {
+              "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+              "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+            },
+            "locator": "whole-file",
+            "pdf_evidence_page": null
+          }
+        }
+      ],
+      "study_alt_text": "An unfamiliar car, a child with an adult, and confined parking beside a van. The footway separates the bays from the access lane. No manoeuvre is selected; diagram not to scale.",
+      "translation_status": "not_applicable",
+      "variant": "M02-R"
     }
   ],
   "documents": [
@@ -4595,7 +5003,208 @@
     {
       "answer_blocks": [],
       "asset_bindings": [],
-      "body_blocks": [],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02/introduction",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:3-3",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "A vehicle check connects what you notice with what you do next. Finding a defect is useful only if you recognise its significance, avoid an unsafe journey and obtain the right help.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02/contents-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:77-77",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "In this chapter",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02/contents",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:77-77",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "links": [
+              {
+                "label": [
+                  {
+                    "text": "M02-L01 · Know what the controls tell you",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M02-L01"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M02-L02 · A check before moving",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M02-L02"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M02-L03 · Protect everyone inside",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M02-L03"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M02-L04 · Move with control",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M02-L04"
+                  },
+                  "type": "internal"
+                }
+              },
+              {
+                "label": [
+                  {
+                    "text": "M02-R · Review and self-assessment",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M02-R"
+                  },
+                  "type": "internal"
+                }
+              }
+            ],
+            "type": "related_links"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02/disclaimer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/manuscript.md",
+                "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+              },
+              "locator": "line:8-8",
+              "pdf_evidence_page": 2
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "disclaimer",
+            "text": [
+              {
+                "text": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02/source-dates",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:129-129",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "source_limit",
+            "text": [
+              {
+                "text": "Original sources checked 4 October 2026; G2 additions checked 12 October 2026. Consult current official guidance and the actual vehicle instructions.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02",
       "kind": "module_introduction",
@@ -4611,20 +5220,1023 @@
         "locator": "line:1",
         "pdf_evidence_page": 22
       },
-      "related_content": [],
-      "revision": "structure-9B1-v1",
+      "related_content": [
+        {
+          "block_id": null,
+          "content_id": "M02-L01"
+        },
+        {
+          "block_id": null,
+          "content_id": "M02-L02"
+        },
+        {
+          "block_id": null,
+          "content_id": "M02-L03"
+        },
+        {
+          "block_id": null,
+          "content_id": "M02-L04"
+        },
+        {
+          "block_id": null,
+          "content_id": "M02-R"
+        }
+      ],
+      "revision": "module-M02-9B3-v1",
       "source_ids": [],
       "title": "Prepare a car that is ready"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M02-L01/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                    "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                  },
+                  "locator": "line:34-34",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " (1) No; establish operation while stationary. (2) A remaining circuit can retain some braking after one fails, with reduced capability. (3) Keep firm continuous pressure and steer as needed; normal ABS pulsation is not a reason to pump. (4) Sinking can suggest a hydraulic leak or fault; sponginess can suggest air. Obtain professional assessment before an unsafe journey. (5) Excessive current; the fuse interrupts the circuit.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M02-L01/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:34-34",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M02-L01/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02-L01/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:7-7",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Explain the purpose of core controls, warning indicators, braking and steering systems, and identify when further instructions are needed.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/safety-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:9-9",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:9-9",
+                "reference_id": "REF-4f119c98672b2997",
+                "scope_id": "M02",
+                "source_id": "source-practical"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "The practical test can include checking steering, brakes, tyres, lighting, fluids and warning systems. You should be able to explain why you check them and propose action if you find a problem. Before moving, adjust the seat, head restraint, steering wheel, mirrors and belt. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: safety check",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4f119c98672b2997",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/controls",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:11-11",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " While parked, locate the service brake, parking brake, transmission controls, indicators, lighting controls, wipers, washers, demisting and hazard lights. Explain what each control is for, then demonstrate it with your supervisor. “I can find it” and “I can use it without losing attention” are different learning stages.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/braking-steering",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:13-13",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M02",
+                "source_id": "source-traffic-law"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:13-13",
+                "reference_id": "REF-642e8e5d8ee346e2",
+                "scope_id": "M02",
+                "source_id": "source-friction"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "The service brake is used to reduce speed and stop; the parking brake helps secure a stationary vehicle. Steering changes the vehicle's direction, but the tyres and road must provide the forces needed to follow that direction. Braking and steering share the available friction: turning the wheel is not proof that the car can follow the intended path. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Traffic Regulation, chapter 3 §§14 and 50",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-9f4b74a976fa03fb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "VTI friction report, section 4.3",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-642e8e5d8ee346e2",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/vehicle-boundary",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:15-15",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "source_limit",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Vehicle-specific boundary.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Control layouts, warning meanings and system checks differ. Use the instructions for the actual vehicle before trying an unfamiliar function. This material does not prescribe a universal brake-servo test, fluid-opening procedure or response to every dashboard symbol. An unexplained warning is a reason to establish what is wrong before treating the car as ready.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/systems-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:103-103",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Brakes and protective circuits",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/brake-circuits",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:17-17",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:17-17",
+                "reference_id": "REF-66fbd15bbb99ea40",
+                "scope_id": "M02",
+                "source_id": "source-brake-circuits"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Technical explanation · Brakes and electrical protection.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Separate brake circuits provide a reserve: if one circuit fails, the remaining circuit can still provide some braking. This reduces the chance of losing all braking through one circuit fault. Remaining braking may be weaker; it is not permission to continue normally. The technical requirements distinguish the surviving capability from full service-brake performance. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: brake circuits",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-66fbd15bbb99ea40",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/abs",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:19-19",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:19-19",
+                "reference_id": "REF-4994ae5272945c4d",
+                "scope_id": "M02",
+                "source_id": "source-abs-driving"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:19-19",
+                "reference_id": "REF-c3819c318bed3d3e",
+                "scope_id": "M02",
+                "source_id": "source-abs-feedback"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "ABS in an emergency.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Anti-lock braking helps prevent wheel locking and can preserve steering control. During an emergency stop with ABS, keep firm, continuous pressure on the brake pedal and steer as necessary; do not pump the pedal. Pulsation or vibration through the pedal during ABS operation can be normal feedback as the system regulates braking. This differs from a changed pedal feel in ordinary braking. ABS does not guarantee a shorter stop or create grip that the tyres lack. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "UK Government: ABS instruction, Rule 120",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4994ae5272945c4d",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Ford: normal ABS feedback, 2011 Explorer",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-c3819c318bed3d3e",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/symptoms",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:21-21",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:21-21",
+                "reference_id": "REF-c87fad052c02560a",
+                "scope_id": "M02",
+                "source_id": "source-brake-inspection"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:21-21",
+                "reference_id": "REF-4068cfdceb05560c",
+                "scope_id": "M02",
+                "source_id": "source-vehicle-faults"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Recognise a symptom, then act.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " The table gives possibilities, not diagnoses. A sinking pedal can suggest internal leakage, although some servo/pump behaviour can resemble it. Air can cause hydraulic pedal sponginess. Obtain professional assessment for an unexplained change. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: brake inspection",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-c87fad052c02560a",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Northern Ireland government: vehicle faults",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4068cfdceb05560c",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/symptom-table",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:23-28",
+              "pdf_evidence_page": null
+            },
+            "related_content": [
+              {
+                "block_id": null,
+                "content_id": "M02-L02"
+              }
+            ],
+            "source_uses": []
+          },
+          "payload": {
+            "caption": null,
+            "columns": [
+              {
+                "heading": [
+                  {
+                    "text": "Symptom",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "text": "Possible cause",
+                    "type": "text"
+                  }
+                ]
+              },
+              {
+                "heading": [
+                  {
+                    "text": "Action",
+                    "type": "text"
+                  }
+                ]
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "Pulsating pedal during an emergency ABS stop",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Normal ABS operation",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Keep firm continuous pressure; steer as needed.",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "Pedal slowly sinks under steady pressure",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Hydraulic leakage or another brake fault",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Do not start an unsafe journey; obtain professional help.",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "Hydraulic pedal feels unusually springy or spongy",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Air in the brake system",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Have it checked before moving; do not rely on normal braking.",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              },
+              {
+                "cells": [
+                  [
+                    {
+                      "text": "Steering vibrates at certain speeds",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Wheel imbalance; other faults are possible",
+                      "type": "text"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Have tyres, wheels and steering assessed; see ",
+                      "type": "text"
+                    },
+                    {
+                      "label": [
+                        {
+                          "text": "M02-L02",
+                          "type": "text"
+                        }
+                      ],
+                      "target": {
+                        "target": {
+                          "block_id": null,
+                          "content_id": "M02-L02"
+                        },
+                        "type": "internal"
+                      },
+                      "type": "link"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "type": "table"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/fuse",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:30-30",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:30-30",
+                "reference_id": "REF-eb5927f35a097b23",
+                "scope_id": "M02",
+                "source_id": "source-fuse-protection"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "What a fuse does.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " A fuse protects an electrical circuit by interrupting excessive current during an overload or short circuit. Investigate faults under the actual vehicle's instructions. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: fuse protection principle",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-eb5927f35a097b23",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-L01",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-L01/illustration",
+            "caption": [
+              {
+                "text": "A learner consults the vehicle handbook beside a parked car. Establish the actual controls before driving; no universal dashboard layout is shown.",
+                "type": "text"
+              }
+            ],
+            "polygon": [
+              {
+                "x": 32,
+                "y": 166
+              },
+              {
+                "x": 525,
+                "y": 166
+              },
+              {
+                "x": 540,
+                "y": 142
+              },
+              {
+                "x": 807,
+                "y": 142
+              },
+              {
+                "x": 807,
+                "y": 470
+              },
+              {
+                "x": 32,
+                "y": 470
+              }
+            ],
+            "region": {
+              "bottom": 470,
+              "left": 32,
+              "right": 807,
+              "source_height": 941,
+              "source_width": 1670,
+              "top": 142
+            },
+            "type": "polygon_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:32-32",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L01/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:32-32",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Leila starts a borrowed car and sees a warning she cannot identify. Instead of driving to see whether it disappears, she stays parked, consults the vehicle instructions and seeks help. The lesson is to resolve uncertainty, not to guess from a warning's colour alone.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:34-34",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M02-L01/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M02-L01/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:34-34",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " (1) Does a familiar selector guarantee familiar operation? (2) Why separate brake circuits? (3) What should you do when the pedal pulsates during emergency ABS braking? (4) What might a sinking or unusually spongy pedal suggest? (5) What does a fuse protect against?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L01/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:36-36",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Learn a function, its limitations and the appropriate response—not only its button.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02-L01",
       "kind": "lesson",
       "module_id": "M02",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Explain the purpose of core controls, warning indicators, braking and steering systems, and identify when further instructions are needed.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 1,
       "origin": {
         "evidence_ids": [],
@@ -4635,20 +6247,746 @@
         "locator": "line:5",
         "pdf_evidence_page": 23
       },
-      "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "related_content": [
+        {
+          "block_id": null,
+          "content_id": "M02-L02"
+        }
+      ],
+      "revision": "module-M02-9B3-v1",
+      "source_ids": [
+        "source-practical",
+        "source-traffic-law",
+        "source-friction",
+        "source-brake-circuits",
+        "source-abs-driving",
+        "source-abs-feedback",
+        "source-brake-inspection",
+        "source-vehicle-faults",
+        "source-fuse-protection"
+      ],
       "title": "Know what the controls tell you"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M02-L02/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                    "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                  },
+                  "locator": "line:56-56",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " (1) No; condition and suitability also matter. Have the defect assessed. (2) Wheel imbalance is one possibility; assessment is needed because other faults can cause vibration. (3) The actual vehicle/spare maximum speed, distance or use restrictions, and required pressure; no universal limit can be assumed.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M02-L02/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:56-56",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M02-L02/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02-L02/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:40-40",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Organise a safety check of tyres, lights, visibility and vehicle condition, and distinguish a defect from a reason to seek help.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/walkaround",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:42-42",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:42-42",
+                "reference_id": "REF-4f119c98672b2997",
+                "scope_id": "M02",
+                "source_id": "source-practical"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Work around the car, then through the driving position. Look for damaged tyres, an unusual stance, leaks or obstructions; confirm that windows and mirrors permit a useful view. Check required lights and indicators, and ask for help where a second person is useful. Check washers and wipers before you need them in poor weather. Use the actual vehicle's instructions for fluid levels and service checks. These groups reflect the official practical-test safety check; they are not a guarantee that a quick walkaround detects every defect. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: safety check",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4f119c98672b2997",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/tyre-requirements",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:44-44",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:44-44",
+                "reference_id": "REF-32256a46ed1c6028",
+                "scope_id": "M02",
+                "source_id": "source-tyres"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirements.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Tyres must be suitable for the vehicle, including load capacity and applicable speed capability. The registration information and approved vehicle requirements matter when changing tyre sizes. Do not assume any wheel that physically fits is suitable. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: tyre requirements",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-32256a46ed1c6028",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/lighting",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:46-46",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:46-46",
+                "reference_id": "REF-e454ba2a4ddaffb3",
+                "scope_id": "M02",
+                "source_id": "source-lights"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Required lighting must work and be used appropriately. Some cars can run daytime lights without rear lights; the driver must ensure suitable front, rear and side lighting is on in darkness, twilight or poor weather. A trailer's lighting must be on during travel. Automatic settings may need manual intervention. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: vehicle lighting",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-e454ba2a4ddaffb3",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/steering-vibration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:48-48",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:48-48",
+                "reference_id": "REF-4068cfdceb05560c",
+                "scope_id": "M02",
+                "source_id": "source-vehicle-faults"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Technical explanation · Steering vibration.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Uneven mass distribution around a rotating wheel and tyre can cause steering vibration, sometimes most noticeable at particular speeds. Wheel imbalance is one possible cause, not a diagnosis: tyre damage and other wheel or steering defects may also be involved. Arrange assessment rather than testing the symptom by driving faster. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Northern Ireland government: wheel balance and vehicle faults",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4068cfdceb05560c",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/temporary-spare",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:50-50",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:50-50",
+                "reference_id": "REF-8994a6a11921a063",
+                "scope_id": "M02",
+                "source_id": "source-temporary-spare"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Vehicle instructions · A temporary spare.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Before using a temporary spare, read the actual car and spare-wheel instructions for maximum speed, distance or use restrictions, and required tyre pressure. Follow those limits and replace it with the normal wheel as instructed. Its pressure can differ from the road tyres. Volvo's 2019 V60 Twin Engine handbook gives one model's temporary-use, speed and pressure requirements; these cannot be assumed for every car. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Volvo: temporary spare, 2019 V60 Twin Engine",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-8994a6a11921a063",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-L02",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-L02/illustration",
+            "caption": [
+              {
+                "text": "A companion checks the rear of a stationary car and trailer. Check the trailer lights directly before moving.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 469,
+              "left": 833,
+              "right": 1638,
+              "source_height": 941,
+              "source_width": 1670,
+              "top": 146
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:54-54",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L02/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:54-54",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " A passenger notices that the trailer's rear lights are dark although the car's daytime lights are on. The driver checks the setting and connection before moving. “The dashboard looks normal” is not a check of the trailer lamps.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/practice-example",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:52-52",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L02/practice-example/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:52-52",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [
+                    {
+                      "block_id": null,
+                      "content_id": "M07-L02"
+                    },
+                    {
+                      "block_id": null,
+                      "content_id": "M10-L01"
+                    }
+                  ],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Practice example.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " Omar notices vibration on a journey and proposes fitting an unfamiliar temporary spare. He first obtains help to assess the symptom, then checks whether the spare is suitable and reads its limits. Changing a wheel does not establish the original cause. Handling and grip are developed in ",
+                      "type": "text"
+                    },
+                    {
+                      "label": [
+                        {
+                          "text": "M07-L02",
+                          "type": "text"
+                        }
+                      ],
+                      "target": {
+                        "target": {
+                          "block_id": null,
+                          "content_id": "M07-L02"
+                        },
+                        "type": "internal"
+                      },
+                      "type": "link"
+                    },
+                    {
+                      "text": ". For hot-coolant precautions during other vehicle checks, see ",
+                      "type": "text"
+                    },
+                    {
+                      "label": [
+                        {
+                          "text": "M10-L01",
+                          "type": "text"
+                        }
+                      ],
+                      "target": {
+                        "target": {
+                          "block_id": null,
+                          "content_id": "M10-L01"
+                        },
+                        "type": "internal"
+                      },
+                      "type": "link"
+                    },
+                    {
+                      "text": ".",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:56-56",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M02-L02/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M02-L02/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:56-56",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " (1) Is deep tread enough if a tyre has a defect? (2) What is one possible cause of steering vibration at certain speeds? (3) Which instructions must you check before using a temporary spare?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L02/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:58-58",
+              "pdf_evidence_page": null
+            },
+            "related_content": [
+              {
+                "block_id": null,
+                "content_id": "M07-L02"
+              }
+            ],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Use a repeatable order, then take a specific action for each concern. Detailed winter requirements are in ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "M07-L02",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "target": {
+                    "block_id": null,
+                    "content_id": "M07-L02"
+                  },
+                  "type": "internal"
+                },
+                "type": "link"
+              },
+              {
+                "text": ".",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02-L02",
       "kind": "lesson",
       "module_id": "M02",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Organise a safety check of tyres, lights, visibility and vehicle condition, and distinguish a defect from a reason to seek help.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 2,
       "origin": {
         "evidence_ids": [],
@@ -4659,20 +6997,921 @@
         "locator": "line:38",
         "pdf_evidence_page": 26
       },
-      "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "related_content": [
+        {
+          "block_id": null,
+          "content_id": "M07-L02"
+        },
+        {
+          "block_id": null,
+          "content_id": "M10-L01"
+        }
+      ],
+      "revision": "module-M02-9B3-v1",
+      "source_ids": [
+        "source-practical",
+        "source-tyres",
+        "source-lights",
+        "source-vehicle-faults",
+        "source-temporary-spare"
+      ],
       "title": "A check before moving"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M02-L03/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                    "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                  },
+                  "locator": "line:82-82",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " (1) No. Trip length does not make it safe. (2) It helps limit damaging head movement and reduce neck-injury risk, particularly in rear impacts. (3) The seat supports the relatively heavy head and body together and takes collision forces, protecting the vulnerable neck. (4) Controlled deformation absorbs energy and slows the compartment more gradually, reducing occupant forces.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M02-L03/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:82-82",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M02-L03/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02-L03/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:62-62",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Select suitable restraints for passengers and explain how belts, headrests and airbags work together.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/restraint-requirements",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:64-64",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:64-64",
+                "reference_id": "REF-2081963d3a6ed062",
+                "scope_id": "M02",
+                "source_id": "source-belts"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:64-64",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M02",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirements.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " In an ordinary car journey, occupants must use an available belt-equipped place and wear the belt. Children under 135 cm normally need an appropriate child restraint. The driver must take appropriate measures to ensure passengers under 15 use the required protection. Limited exceptions exist, including specified short occasional journeys, and should not become a routine travel plan. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Seat-belt rules",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-2081963d3a6ed062",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Traffic Regulation, chapter 4 §§10–10d",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-9f4b74a976fa03fb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/child-exceptions",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:66-66",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:66-66",
+                "reference_id": "REF-b7b53b24caa30874",
+                "scope_id": "M02",
+                "source_id": "source-child-rules"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "For a child aged three or more but shorter than 135 cm, an occasional short transport without an available child restraint is an exception only under the stated conditions: use the belt where possible and not the front seat of a passenger car or light goods vehicle. For a child under three, the exception is an occasional short taxi trip, also excluding the front seat. Plan with the correct restraint instead. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: child rules",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-b7b53b24caa30874",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/recommendations",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:68-68",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:68-68",
+                "reference_id": "REF-ba13434f02e5f2b7",
+                "scope_id": "M02",
+                "source_id": "source-child-advice"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:68-68",
+                "reference_id": "REF-b7b53b24caa30874",
+                "scope_id": "M02",
+                "source_id": "source-child-rules"
+              }
+            ]
+          },
+          "payload": {
+            "role": "recommendation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Official recommendations.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Trafikverket recommends rear-facing travel until at least four to five years, preferably longer. Transportstyrelsen's advice says as long as possible, normally around four. These are recommendations, not a single legal birthday on which to turn the seat. Choose equipment that fits the child and car and stays within its approved size and weight limits. Reaching 135 cm does not automatically produce good adult-belt fit. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: children in cars",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-ba13434f02e5f2b7",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: child protection",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-b7b53b24caa30874",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/airbags",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:70-70",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:70-70",
+                "reference_id": "REF-ba13434f02e5f2b7",
+                "scope_id": "M02",
+                "source_id": "source-child-advice"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:70-70",
+                "reference_id": "REF-2c2f5df0084a7b5a",
+                "scope_id": "M02",
+                "source_id": "source-airbags"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:70-70",
+                "reference_id": "REF-438ebf1c277f32bb",
+                "scope_id": "M02",
+                "source_id": "source-seats"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Never place a rear-facing child restraint in front of an active passenger airbag. Trafikverket advises at least 140 cm in front of an active airbag unless the manufacturer recommends otherwise; Transportstyrelsen gives more conservative advice for children in restraints. Resolve seating and airbag compatibility using the vehicle and restraint instructions before travelling. An airbag supplements a belt; it does not replace one. Adjust the head restraint for the person occupying the seat. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Children in cars",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-ba13434f02e5f2b7",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Airbags",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-2c2f5df0084a7b5a",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Seats and head restraints",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-438ebf1c277f32bb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/systems-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:103-103",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "How protection works",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/head-restraints",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:72-72",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:72-72",
+                "reference_id": "REF-438ebf1c277f32bb",
+                "scope_id": "M02",
+                "source_id": "source-seats"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Technical explanation · Head restraints.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " In a rear impact, the seat and torso can move while the head lags behind. A correctly designed and adjusted head restraint helps limit damaging head movement relative to the torso and reduce neck-injury risk. Trafikverket advises positioning the top at the crown of the head and keeping the gap behind the head as small as possible. Adjust it for the occupant before driving; a comfort setting is not the same as a protective setting. A head restraint cannot guarantee that injury will be avoided. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: seats and head restraints",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-438ebf1c277f32bb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/rear-facing",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:74-74",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:74-74",
+                "reference_id": "REF-ba13434f02e5f2b7",
+                "scope_id": "M02",
+                "source_id": "source-child-advice"
+              },
+              {
+                "editorial_inference": false,
+                "locator": "line:74-74",
+                "reference_id": "REF-b7b53b24caa30874",
+                "scope_id": "M02",
+                "source_id": "source-child-rules"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Why children face backwards.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " A young child's head is relatively heavy and the neck is vulnerable. In a frontal collision, a rear-facing seat supports the head and body together, takes up collision forces and distributes the load across the supported body. The neck does not have to restrain the heavy head on its own in the same way as when facing forwards. This is why the recommendations above concern protection, not only seat orientation. Follow the seat's size limits, fitting instructions and airbag compatibility. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: child head and neck protection",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-ba13434f02e5f2b7",
+                  "type": "external_source"
+                },
+                "type": "link"
+              },
+              {
+                "text": " · ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Transportstyrelsen: rear-facing collision protection",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-b7b53b24caa30874",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/crumple-zones",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:76-76",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:76-76",
+                "reference_id": "REF-0f023bf4ca18356c",
+                "scope_id": "M02",
+                "source_id": "source-crumple-zones"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Controlled deformation.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Crumple zones are parts of a vehicle designed to deform progressively in a collision, absorbing energy while the passenger compartment's structure protects the occupants' space. Spreading the deceleration over a longer time reduces forces acting on the people inside. A car remaining visually undamaged is not the objective: designed deformation can be part of its protection. Belts and suitable child restraints still matter, and no structure makes every collision survivable. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Western Australia government: structure and crumple zones",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-0f023bf4ca18356c",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/practice-example",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:78-78",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L03/practice-example/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:78-78",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Practice example.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " A family prepares a car for a child and an adult passenger. They check rear-facing seat fit and airbag compatibility, and adjust the adult's head restraint. After discussing crash protection, they recognise that the restraint, seat and deforming vehicle structure have different roles that work together.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-L03",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-L03/illustration",
+            "caption": [
+              {
+                "text": "An adult and child stand beside an open rear door. The empty booster and rear bench face forwards. This scene does not demonstrate installation or belt fit; follow the child-restraint and vehicle instructions.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 889,
+              "left": 33,
+              "right": 767,
+              "source_height": 941,
+              "source_width": 1670,
+              "top": 554
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:80-80",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L03/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:80-80",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " A child reaches the legal height threshold, but the belt still lies badly. The adult checks an appropriate approved booster rather than treating the threshold as an instruction to discard it.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:82-82",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M02-L03/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M02-L03/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:82-82",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " (1) Is a rear-facing seat safe in front of an active airbag for a short trip? (2) What does a head restraint do? (3) Why does rear-facing travel protect a small child? (4) Why are crumple zones designed to deform?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L03/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:84-84",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Legal minimums, official recommendations and equipment compatibility answer different questions.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02-L03",
       "kind": "lesson",
       "module_id": "M02",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Select suitable restraints for passengers and explain how belts, headrests and airbags work together.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 3,
       "origin": {
         "evidence_ids": [],
@@ -4684,19 +7923,509 @@
         "pdf_evidence_page": 28
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M02-9B3-v1",
+      "source_ids": [
+        "source-belts",
+        "source-traffic-law",
+        "source-child-rules",
+        "source-child-advice",
+        "source-airbags",
+        "source-seats",
+        "source-crumple-zones"
+      ],
       "title": "Protect everyone inside"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M02-L04/knowledge-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                    "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                  },
+                  "locator": "line:98-98",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Answer:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " No. Your obligation to check safety remains throughout the manoeuvre.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M02-L04/knowledge-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:98-98",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M02-L04/illustration",
+        "M02-L04-cabin/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02-L04/goal",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:88-88",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Your goal:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Plan observation and control for starting, stopping, reversing, hill starts and turning, and explain why supervised practice is needed.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/movement-requirements",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:90-90",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:90-90",
+                "reference_id": "REF-9f4b74a976fa03fb",
+                "scope_id": "M02",
+                "source_id": "source-traffic-law"
+              }
+            ]
+          },
+          "payload": {
+            "role": "requirement",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Requirements.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Before moving away from the edge, changing position or lane, you must ensure the movement can be made without danger or unnecessary obstruction. Turning around and reversing must be possible without danger or obstruction to other road users. Signal your intention where required, but a signal does not give you priority. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Traffic Regulation, chapter 3 §§43, 46 and 65–66",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-9f4b74a976fa03fb",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/observation",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:92-92",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Learning approach.",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Break a manoeuvre into preparation, observation, controlled movement and reassessment. Choose a place with enough room; check around the vehicle and along the intended path; move only while the space remains safe. Stop and reassess when the view changes. Looking once before starting is not continuous observation.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/hill-starts",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:94-94",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:94-94",
+                "reference_id": "REF-4f119c98672b2997",
+                "scope_id": "M02",
+                "source_id": "source-practical"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "A hill start is a control task: prevent unintended movement while coordinating the actual vehicle's transmission, brakes and accelerator. Do not copy pedal sequences between cars without instruction. Reversing, parking and turning also need practical feedback about vehicle dimensions and the path followed by its corners. The official practical test may examine these skills, including effective braking. Practise braking exercises only in suitable, supervised conditions—not as an experiment in ordinary traffic. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Trafikverket: manoeuvring and braking",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-4f119c98672b2997",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/cabin/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-L04-cabin",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-L04-cabin/illustration",
+            "caption": [
+              {
+                "text": "The driver is in the left-hand seat and looks around before moving. Controls are illustrative; learn the actual vehicle.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 888,
+              "left": 796,
+              "right": 1635,
+              "source_height": 941,
+              "source_width": 1670,
+              "top": 560
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/application-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:107-107",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Apply the learning",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-L04",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-L04/illustration",
+            "caption": [
+              {
+                "text": "A car and van occupy adjacent bays. A pedestrian is on the footway between the bays and the access lane. Consider what the driver may lose sight of. Diagram not to scale.",
+                "type": "text"
+              }
+            ],
+            "region": {
+              "bottom": 730,
+              "left": 102,
+              "right": 718,
+              "source_height": 1055,
+              "source_width": 1491,
+              "top": 194
+            },
+            "type": "cropped_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/worked-decision",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:96-96",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-L04/worked-decision/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:96-96",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "worked_example",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Worked decision.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " While reversing into a space, a driver loses sight of a person who was beside the car. The driver stops. The empty camera image is not enough to resolve where the person went; direct observation and an adequate overall view are still needed.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/knowledge-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:98-98",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M02-L04/knowledge-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M02-L04/knowledge-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:98-98",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Knowledge check.",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " If you have signalled and started moving, must another road user always make room?",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-L04/remember",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:100-100",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "role": "summary",
+            "text": [
+              {
+                "children": [
+                  {
+                    "text": "Remember:",
+                    "type": "text"
+                  }
+                ],
+                "type": "strong"
+              },
+              {
+                "text": " Slow control gives you opportunities to observe and stop; it does not remove the need to look.",
+                "type": "text"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02-L04",
       "kind": "lesson",
       "module_id": "M02",
-      "objectives": [],
+      "objectives": [
+        [
+          {
+            "text": "Plan observation and control for starting, stopping, reversing, hill starts and turning, and explain why supervised practice is needed.",
+            "type": "text"
+          }
+        ]
+      ],
       "order": 4,
       "origin": {
         "evidence_ids": [],
@@ -4708,14 +8437,313 @@
         "pdf_evidence_page": 31
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M02-9B3-v1",
+      "source_ids": [
+        "source-traffic-law",
+        "source-practical"
+      ],
       "title": "Move with control"
     },
     {
-      "answer_blocks": [],
-      "asset_bindings": [],
-      "body_blocks": [],
+      "answer_blocks": [
+        {
+          "blocks": [
+            {
+              "metadata": {
+                "id": "M02-R/review-check/answer/text",
+                "origin": {
+                  "evidence_ids": [],
+                  "file": {
+                    "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                    "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                  },
+                  "locator": "line:106-106",
+                  "pdf_evidence_page": null
+                },
+                "related_content": [],
+                "source_uses": []
+              },
+              "payload": {
+                "role": "explanation",
+                "text": [
+                  {
+                    "children": [
+                      {
+                        "text": "Review guide:",
+                        "type": "text"
+                      }
+                    ],
+                    "type": "strong"
+                  },
+                  {
+                    "text": " Establish control operation, vehicle condition, restraint and airbag compatibility, visibility and a safe manoeuvre plan. Do not improvise a technical check or reverse into an uncertain space.",
+                    "type": "text"
+                  }
+                ],
+                "type": "paragraph"
+              }
+            }
+          ],
+          "metadata": {
+            "id": "M02-R/review-check/answer",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:106-106",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "visibility": "after_deliberate_reveal"
+        }
+      ],
+      "asset_bindings": [
+        "M02-R/illustration"
+      ],
+      "body_blocks": [
+        {
+          "metadata": {
+            "id": "M02-R/illustration",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+                "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+              },
+              "locator": "json:/assets/M02-R",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "asset_id": "M02-R/illustration",
+            "caption": [
+              {
+                "text": "An unfamiliar car, a child with an adult, and confined parking beside a van. The footway separates the bays from the access lane. No manoeuvre is selected; diagram not to scale.",
+                "type": "text"
+              }
+            ],
+            "polygon": [
+              {
+                "x": 777,
+                "y": 156
+              },
+              {
+                "x": 1464,
+                "y": 156
+              },
+              {
+                "x": 1464,
+                "y": 729
+              },
+              {
+                "x": 844,
+                "y": 729
+              },
+              {
+                "x": 844,
+                "y": 446
+              },
+              {
+                "x": 777,
+                "y": 446
+              }
+            ],
+            "region": {
+              "bottom": 729,
+              "left": 777,
+              "right": 1464,
+              "source_height": 1055,
+              "source_width": 1491,
+              "top": 156
+            },
+            "type": "polygon_image"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-R/scenario",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:104-104",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "blocks": [
+              {
+                "metadata": {
+                  "id": "M02-R/scenario/text",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:104-104",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "exercise_assumption",
+                  "text": [
+                    {
+                      "children": [
+                        {
+                          "text": "Scenario:",
+                          "type": "text"
+                        }
+                      ],
+                      "type": "strong"
+                    },
+                    {
+                      "text": " You will drive an unfamiliar car with a child passenger, then reverse out of a confined space.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "title": null,
+            "type": "scenario"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-R/review-check",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:106-106",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "answer_id": "M02-R/review-check/answer",
+            "prompts": [
+              {
+                "metadata": {
+                  "id": "M02-R/review-check/prompt",
+                  "origin": {
+                    "evidence_ids": [],
+                    "file": {
+                      "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                      "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+                    },
+                    "locator": "line:106-106",
+                    "pdf_evidence_page": null
+                  },
+                  "related_content": [],
+                  "source_uses": []
+                },
+                "payload": {
+                  "role": "explanation",
+                  "text": [
+                    {
+                      "text": "Describe your preparation and the point at which you would stop and seek help.",
+                      "type": "text"
+                    }
+                  ],
+                  "type": "paragraph"
+                }
+              }
+            ],
+            "type": "knowledge_check"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-R/reflection-heading",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+                "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+              },
+              "locator": "line:120-120",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": []
+          },
+          "payload": {
+            "level": 2,
+            "text": [
+              {
+                "text": "Keep a practice record",
+                "type": "text"
+              }
+            ],
+            "type": "heading"
+          }
+        },
+        {
+          "metadata": {
+            "id": "M02-R/reflection",
+            "origin": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+                "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+              },
+              "locator": "line:108-108",
+              "pdf_evidence_page": null
+            },
+            "related_content": [],
+            "source_uses": [
+              {
+                "editorial_inference": false,
+                "locator": "line:108-108",
+                "reference_id": "REF-7530106233dee341",
+                "scope_id": "M02",
+                "source_id": "source-syllabus"
+              }
+            ]
+          },
+          "payload": {
+            "role": "explanation",
+            "text": [
+              {
+                "text": "Record one control or check you can explain but cannot yet perform reliably. Arrange supervised practice and review the result. ",
+                "type": "text"
+              },
+              {
+                "label": [
+                  {
+                    "text": "Syllabus self-assessment, chapter 2 §3",
+                    "type": "text"
+                  }
+                ],
+                "target": {
+                  "reference_id": "REF-7530106233dee341",
+                  "type": "external_source"
+                },
+                "type": "link"
+              }
+            ],
+            "type": "paragraph"
+          }
+        }
+      ],
       "content_version": "screen-2026-10-14-78a89d8ffbb8",
       "id": "M02-R",
       "kind": "module_review",
@@ -4732,8 +8760,10 @@
         "pdf_evidence_page": 33
       },
       "related_content": [],
-      "revision": "structure-9B1-v1",
-      "source_ids": [],
+      "revision": "module-M02-9B3-v1",
+      "source_ids": [
+        "source-syllabus"
+      ],
       "title": "Review and self-assessment"
     },
     {

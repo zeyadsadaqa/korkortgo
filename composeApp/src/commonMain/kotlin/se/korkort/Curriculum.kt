@@ -1,10 +1,13 @@
 package se.korkort
 
+import kotlin.jvm.JvmInline
+
 /** Published IDs share one namespace; the generator validates the registered destination kind. */
 @JvmInline value class ContentId(val value: String) {
     init { require(value.isNotBlank()) }
 }
-@JvmInline value class BlockId(val value: String) {
+@JvmInline
+value class BlockId(val value: String) {
     init { require(value.isNotBlank()) }
 }
 @JvmInline value class AssetId(val value: String) {
@@ -119,6 +122,9 @@ data class ApprovedImageRegion(
     }
 }
 
+/** Absolute source-pixel vertex, using the same top-left origin as ApprovedImageRegion. */
+data class SourcePixelPoint(val x: Int, val y: Int)
+
 /** Typed payloads retain structure needed for reading, reflow and accessibility. */
 sealed interface BlockPayload {
     data class Heading(val level: Int, val text: RichText) : BlockPayload {
@@ -162,6 +168,23 @@ sealed interface BlockPayload {
         val region: ApprovedImageRegion,
         val caption: RichText,
     ) : BlockPayload
+    /** Approved polygon mask inside region; outside pixels remain transparent. */
+    data class PolygonImage(
+        val assetId: AssetId,
+        val region: ApprovedImageRegion,
+        val polygon: List<SourcePixelPoint>,
+        val caption: RichText,
+    ) : BlockPayload {
+        init {
+            require(polygon.size >= 3 && polygon.distinct().size == polygon.size)
+            require(polygon.all { it.x in region.left..region.right && it.y in region.top..region.bottom })
+            require(polygon.indices.sumOf { i ->
+                val a = polygon[i]
+                val b = polygon[(i + 1) % polygon.size]
+                a.x.toLong() * b.y - b.x.toLong() * a.y
+            } != 0L)
+        }
+    }
     data class RelatedLinks(val links: List<InlineContent.Link>) : BlockPayload
 }
 

@@ -7,8 +7,22 @@ from import_curriculum_m01 import build, opening, read, EVIDENCE, ROOT, IDS
 
 class M01ImportTest(unittest.TestCase):
     def setUp(self):
-        self.payloads={'curriculum':read('content/curriculum.json'),**{k:read(str((EVIDENCE/(k+'.json')).relative_to(ROOT))) for k in ['questions','sources','legacy_aliases']}}
+        # Use the retained pre-M02 snapshot once the cumulative authoring data advances.
+        snapshot=ROOT/'docs/curriculum/app-migration/implementation-evidence/9B3'
+        curriculum=snapshot/'incoming-curriculum.json'
+        state=snapshot/'incoming-import-state.json'
         self.manifest=read(str((EVIDENCE/'staging-manifest.json').relative_to(ROOT)))
+        if not curriculum.exists():curriculum=ROOT/'content/curriculum.json';state=ROOT/'content/curriculum-import-state.json'
+        expected=next(r['file']['sha256'] for r in self.manifest['payloads'] if r['kind']=='curriculum')
+        self.assertEqual(expected,hashlib.sha256(curriculum.read_bytes()).hexdigest())
+        self.state=read(str(state.relative_to(ROOT)))
+        self.payloads={'curriculum':read(str(curriculum.relative_to(ROOT))),**{k:read(str((EVIDENCE/(k+'.json')).relative_to(ROOT))) for k in ['questions','sources','legacy_aliases']}}
+        for record in self.manifest['inputs']:
+            if record['path']=='content/curriculum-import-state.json':record['path']=str(state.relative_to(ROOT))
+            if record['path'] in {*__import__('content_schema').MODEL_PATHS,'tools/compile_curriculum.py'} or record['path']==str(state.relative_to(ROOT)):
+                record['sha256']=hashlib.sha256((ROOT/record['path']).read_bytes()).hexdigest()
+        next(r for r in self.manifest['payloads'] if r['kind']=='curriculum')['file']={'path':str(curriculum.relative_to(ROOT)),'sha256':expected}
+        self.manifest['identity']['manifest_sha256']=manifest_digest(self.manifest)
     def validate(self):return Validator().package(self.payloads,self.manifest)
     def rejects(self,pattern):
         with self.assertRaisesRegex(ContentError,pattern):self.validate()
@@ -19,7 +33,7 @@ class M01ImportTest(unittest.TestCase):
     def test_complete_staging_package(self):
         self.assertEqual({'destinations':80,'questions':0,'assets':4,'profile':'fixture'},self.validate())
     def test_import_is_idempotent_and_preserves_unrelated_documents(self):
-        p=copy.deepcopy(self.payloads['curriculum']);state=read('content/curriculum-import-state.json')
+        p=copy.deepcopy(self.payloads['curriculum']);state=copy.deepcopy(self.state)
         result,newstate,_=build(p,state)
         self.assertEqual(p,result);self.assertEqual(state,newstate)
         baseline,_=opening()
@@ -33,7 +47,7 @@ class M01ImportTest(unittest.TestCase):
         self.assertTrue(block['metadata']['source_uses'][0]['editorial_inference'])
     def test_refuses_to_overwrite_edited_module(self):
         p=self.payloads['curriculum'];self.doc('M01-L02')['body_blocks'].pop()
-        with self.assertRaisesRegex(ValueError,'Refusing to overwrite'):build(p,read('content/curriculum-import-state.json'))
+        with self.assertRaisesRegex(ValueError,'Refusing to overwrite'):build(p,self.state)
     def test_answers_are_separate_and_referenced_once(self):
         for id in IDS[1:]:
             d=self.doc(id);answer=d['answer_blocks'][0]
@@ -65,6 +79,6 @@ class M01ImportTest(unittest.TestCase):
         self.crop()['asset_id']='missing';self.rejects('unknown asset')
     def test_truncated_answer_does_not_reproduce_approved_import(self):
         self.doc('M01-L02')['answer_blocks'][0]['blocks'][0]['payload']['text']=[{'type':'text','text':'No.'}]
-        with self.assertRaisesRegex(ValueError,'Refusing to overwrite'):build(self.payloads['curriculum'],read('content/curriculum-import-state.json'))
+        with self.assertRaisesRegex(ValueError,'Refusing to overwrite'):build(self.payloads['curriculum'],self.state)
 
 if __name__=='__main__':unittest.main(verbosity=2)

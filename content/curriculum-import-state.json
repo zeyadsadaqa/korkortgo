@@ -50,6 +50,57 @@
       ],
       "revision": "module-M01-9B2-v1",
       "step": "9B2"
+    },
+    {
+      "document_ids": [
+        "M02",
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04",
+        "M02-R"
+      ],
+      "module_id": "M02",
+      "production_sources": [
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
+          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/build_chapter.py",
+          "sha256": "9c11dc1b7b4473670bae140256c85fba4b905228c0de5ea43033edeb3f6245de"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/source-checks.json",
+          "sha256": "c9c6f13be72a43f247abb058cbfaa8ecf0ed2a0ba7841efaeb5d58438385e2e1"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
+          "sha256": "026b42937eb975f0cd2c6b47c25c5ae85468179d3332c03024eac9621590c02a"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/navigation.json",
+          "sha256": "ba84d0ee57ddf08ff0f1f9b58b8dd9011b1e22e6647071f045cc80a33647db36"
+        },
+        {
+          "path": "docs/curriculum/pdf-production/chapters/M02/review.md",
+          "sha256": "ba9aba14fa818b1716b5642e2981b73f1f7191a82830c51039c88685c9378551"
+        },
+        {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        {
+          "path": "docs/curriculum/app-migration/question-map.json",
+          "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+        },
+        {
+          "path": "docs/curriculum/app-migration/link-and-progress-map.json",
+          "sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda"
+        }
+      ],
+      "revision": "module-M02-9B3-v1",
+      "step": "9B3"
     }
   ],
   "content_payload": "content/curriculum.json",
@@ -154,137 +205,6 @@
     "status": "imported"
   },
   "pending_reading_nodes": [
-    {
-      "asset_register": null,
-      "body_owner": "9B3",
-      "exact_title": "Prepare a car that is ready",
-      "id": "M02",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:1",
-        "pdf_evidence_page": 22
-      },
-      "required_source_ids": [],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
-      "body_owner": "9B3",
-      "exact_title": "Know what the controls tell you",
-      "id": "M02-L01",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:5",
-        "pdf_evidence_page": 23
-      },
-      "required_source_ids": [
-        "source-practical",
-        "source-traffic-law",
-        "source-friction",
-        "source-brake-circuits",
-        "source-abs-driving",
-        "source-abs-feedback",
-        "source-brake-inspection",
-        "source-vehicle-faults",
-        "source-fuse-protection"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
-      "body_owner": "9B3",
-      "exact_title": "A check before moving",
-      "id": "M02-L02",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:38",
-        "pdf_evidence_page": 26
-      },
-      "required_source_ids": [
-        "source-practical",
-        "source-tyres",
-        "source-lights",
-        "source-vehicle-faults",
-        "source-temporary-spare"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
-      "body_owner": "9B3",
-      "exact_title": "Protect everyone inside",
-      "id": "M02-L03",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:60",
-        "pdf_evidence_page": 28
-      },
-      "required_source_ids": [
-        "source-belts",
-        "source-traffic-law",
-        "source-child-rules",
-        "source-child-advice",
-        "source-airbags",
-        "source-seats",
-        "source-crumple-zones"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
-      "body_owner": "9B3",
-      "exact_title": "Move with control",
-      "id": "M02-L04",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:86",
-        "pdf_evidence_page": 31
-      },
-      "required_source_ids": [
-        "source-traffic-law",
-        "source-practical"
-      ],
-      "status": "structure_only"
-    },
-    {
-      "asset_register": "docs/curriculum/pdf-production/chapters/M02/illustrations.json",
-      "body_owner": "9B3",
-      "exact_title": "Review and self-assessment",
-      "id": "M02-R",
-      "origin": {
-        "evidence_ids": [],
-        "file": {
-          "path": "docs/curriculum/pdf-production/chapters/M02/chapter-source.md",
-          "sha256": "6ca3d5bd93d015db4f22df492b34483e3945be1a9a00032319d3ce1c327638fb"
-        },
-        "locator": "line:102",
-        "pdf_evidence_page": 33
-      },
-      "required_source_ids": [
-        "source-syllabus"
-      ],
-      "status": "structure_only"
-    },
     {
       "asset_register": null,
       "body_owner": "9B4",
@@ -1343,6 +1263,6 @@
       "sha256": "4335eb5e0260e0be77e23eb961489a9c3d82748719376786016352a86d02081d"
     }
   ],
-  "status": "opening_and_M01_imported; remaining_modules_pending",
-  "step": "9B2"
+  "status": "opening_M01_and_M02_imported; remaining_modules_pending",
+  "step": "9B3"
 }

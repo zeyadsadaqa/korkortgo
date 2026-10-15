@@ -185,6 +185,14 @@ class Validator:
                 if not (0 <= value['left'] < value['right'] <= value['source_width'] and
                         0 <= value['top'] < value['bottom'] <= value['source_height']):
                     fail(where, 'approved image region exceeds source pixel bounds')
+            elif target == 'BlockPayload.PolygonImage':
+                points=value['polygon'];region=value['region']
+                if len(points)<3 or len({(p['x'],p['y']) for p in points})!=len(points):
+                    fail(where, 'approved polygon requires three or more distinct vertices')
+                if any(not (region['left']<=p['x']<=region['right'] and region['top']<=p['y']<=region['bottom']) for p in points):
+                    fail(where, 'approved polygon exceeds region bounds')
+                if not sum(p['x']*points[(i+1)%len(points)]['y']-points[(i+1)%len(points)]['x']*p['y'] for i,p in enumerate(points)):
+                    fail(where, 'approved polygon must have nonzero area')
             for field, _, _ in fields:
                 if field.endswith('_on') and value[field] is not None:
                     try:
@@ -385,7 +393,7 @@ class Validator:
                 if set(value)=={'content_id','block_id'}:target(value,where)
                 if value.get('type')=='external_source' and value['reference_id'] not in refs:fail(where,'unknown external source')
                 if 'asset_id' in value and value['asset_id'] not in assets:fail(where,'unknown asset binding')
-                if value.get('type') == 'cropped_image' and assets[value['asset_id']]['kind'] != 'contextual_illustration':
+                if value.get('type') in ('cropped_image','polygon_image') and assets[value['asset_id']]['kind'] != 'contextual_illustration':
                     fail(where, 'approved image regions are limited to contextual illustrations')
                 for field in ['source_ids']:
                     for id in value.get(field,[]):
