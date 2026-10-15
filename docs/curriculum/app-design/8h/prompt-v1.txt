@@ -1,0 +1,16 @@
+Use case: ui-mockup. Asset: KörkortGo 8H v1 calculation answer-review board.
+High fidelity flat app UI, wide desktop frame on left and genuinely narrow tall phone frame on right, same answered item. Conceptual desktop 1280 logical pixels, phone 390. Make phone tall enough to read complete question, four choices, full explanation and lesson/source actions; no clipped content or tiny fonts. Labels outside frames "Wide view" / "Phone view".
+Approved style: Paper #F7F8F3, Forest #173E32, Ink #172C29, Sage #E7EEE5, borders #D5DED5. Serif headings inspired by Source Serif 4, sans body inspired by Source Sans 3. Selected wrong answer #9A332F on #FFEDEA. Correct answer dark Forest on Sage. No shadows, gradients, illustrations, photographed devices or perspective.
+Header "KörkortGo", navigation "Overview", "Learning library", "Practice" active. NO hamburger or language selectors.
+Category "Environment". Main heading "Answer review". x icon plus "Incorrect".
+Exact question: "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 150 km, how much fuel is saved? Give the exact result in litres; do not round."
+EXACT shuffled options:
+A. "0.375 litres" — pale red, x icon, written status "Your answer · Incorrect"
+B. "0.75 litres" — pale sage, tick icon, written status "Correct answer"
+C. "1.5 litres" — neutral white
+D. "1.125 litres" — neutral white
+Review rows not unanswered radio inputs. Phone puts status below choice. Below show panel heading "Explanation", full exact paragraph:
+"150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving."
+Keep calculation with × ÷ decimal point and units accurate, natural wrapping at operators without losing text. Do not change correct key to 0.8 or round any number.
+Related lesson card label "Related lesson", exact title "Use energy with foresight", right arrow. Separate Sources action with book icon. No generic official source badge; calculation uses editorial arithmetic and actual source details are a separate view.
+This preview is a proposed future item after answer reveal, not a live question acceptance. Do not print technical status in learner UI; review notes will record it. No saved history/earlier attempt screen, score, test counts, question ordinal, learner progress, completion badge, timer, vehicle diagram, fuel icon, page label, book citation, technical IDs, extra prose, or new settings. No confirm button. Same exact copy in both views.

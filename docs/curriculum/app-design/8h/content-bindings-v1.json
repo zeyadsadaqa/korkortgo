@@ -1,0 +1,163 @@
+{
+  "step": "8H",
+  "prepared_on": "2026-10-15",
+  "revision": "v1",
+  "status": "approved",
+  "tool": "built-in image_gen",
+  "fixture_path": "docs/curriculum/app-migration/preview-content.json",
+  "fixture_sha256": "76a35f393a8322ea692015ed9a172316451ecc5925666de68337bd68a13eea2f",
+  "fixture_pointer": "/answer_reviews/1",
+  "fixture": {
+    "question_id": "fuel-saving-150-0.5",
+    "origin": "question-actions.json#/questions/984/proposed_changes/draft_question",
+    "status": "7D proposed revision; not live or accepted for scoring",
+    "question": {
+      "id": "fuel-saving-150-0.5",
+      "concept": "fuel-saving-calculation",
+      "category": "ENVIRONMENT",
+      "prompt": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 150 km, how much fuel is saved? Give the exact result in litres; do not round.",
+      "options": [
+        {
+          "text": "0.75 litres",
+          "explanation": "150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+          "image": ""
+        },
+        {
+          "text": "0.375 litres",
+          "explanation": "0.375 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+          "image": ""
+        },
+        {
+          "text": "1.125 litres",
+          "explanation": "1.125 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+          "image": ""
+        },
+        {
+          "text": "1.5 litres",
+          "explanation": "1.5 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+          "image": ""
+        }
+      ],
+      "correct": 0,
+      "explanation": "150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+      "page": 314,
+      "source": "",
+      "image": ""
+    },
+    "primary_lesson": {
+      "id": "M09-L02",
+      "kind": "lesson",
+      "module_id": "M09",
+      "order": 2,
+      "title": "Use energy with foresight",
+      "objective": "Plan smooth, anticipatory driving while preserving safety margins and explain how driving technique can affect energy use.",
+      "source_location": {
+        "path": "docs/curriculum/pdf-production/chapters/M09/chapter-source.md",
+        "heading": "### M09-L02 · Use energy with foresight",
+        "line": 42,
+        "sha256": "e447e03344b993dd593ee5366b2b4639635829f6f82a014a8eb91946aaae5e6c"
+      },
+      "pdf_evidence_page": 296,
+      "source_destination_ids": [
+        "source-eco",
+        "source-traffic-law",
+        "source-heater-timer",
+        "source-cooling-safety",
+        "source-manual-eco",
+        "source-carried-mass"
+      ],
+      "source_scope": "M09",
+      "planning_evidence_ids": [
+        "SRC-4f119c98672b2997",
+        "SRC-7530106233dee341",
+        "G9-heater-timer",
+        "G9-cooling-safety",
+        "G9-manual-eco",
+        "G9-carried-mass"
+      ],
+      "asset_binding_register": "docs/curriculum/pdf-production/chapters/M09/illustrations.json",
+      "content_fields": [
+        "body_blocks",
+        "scenarios",
+        "knowledge_checks",
+        "answer_blocks"
+      ]
+    },
+    "display_option_order": [
+      1,
+      0,
+      3,
+      2
+    ],
+    "selected_original_option": 1,
+    "correct_display_index": 1,
+    "selected_display_index": 0,
+    "feedback_state": "answered incorrectly; feedback revealed",
+    "source_references": [
+      "REF-a7adb547fef9f80c"
+    ]
+  },
+  "display_options": [
+    {
+      "letter": "A",
+      "original_index": 1,
+      "text": "0.375 litres",
+      "explanation": "0.375 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+      "image": ""
+    },
+    {
+      "letter": "B",
+      "original_index": 0,
+      "text": "0.75 litres",
+      "explanation": "150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+      "image": ""
+    },
+    {
+      "letter": "C",
+      "original_index": 3,
+      "text": "1.5 litres",
+      "explanation": "1.5 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+      "image": ""
+    },
+    {
+      "letter": "D",
+      "original_index": 2,
+      "text": "1.125 litres",
+      "explanation": "1.125 litres is not the exact result of the stated calculation. 150 × 0.5 ÷ 100 = 0.75 litres exactly from the supplied assumptions. No display rounding is requested; this is not a guaranteed real-world saving.",
+      "image": ""
+    }
+  ],
+  "independent_exact_calculation": "Decimal(150) * Decimal(0.5) / Decimal(100) = Decimal(0.75)",
+  "content_status": "Proposed 7D revision; not live or accepted for scoring. Design approval does not change this.",
+  "historical_compatibility": {
+    "conditional_only": true,
+    "example": "An earlier 0.8-litre answer retains its original version, shuffled option snapshot, key and score if historical snapshots are separately supported. Never regrade against the proposed 0.75 key.",
+    "notice": "This attempt used an earlier question version. Its original answer and score are shown.",
+    "current_scope": "No durable attempt store exists; do not implement a history feature."
+  },
+  "source_reference_ids": [
+    "REF-a7adb547fef9f80c"
+  ],
+  "related_lesson_id": "M09-L02",
+  "feedback_contract": "Reuse 8G immediate/end-of-test reveal rules and unfinished-test guard; outgoing teaching/source actions in this board depict completed review.",
+  "reference_inspected": "docs/curriculum/app-design/8g/answer-review-v1.png",
+  "reference_image_supplied_to_generation": false,
+  "conceptual_frame_widths": [
+    1280,
+    390
+  ],
+  "output": {
+    "path": "docs/curriculum/app-design/8h/calculation-review-v1.png",
+    "sha256": "c8d006947cb830d4435b897b14d0eb39cbd224dc0c0163af969066644cddd830",
+    "dimensions_px": [
+      1536,
+      1024
+    ]
+  },
+  "approval_record": {
+    "date": "2026-10-15",
+    "user_statement": "approved",
+    "revision": "v1",
+    "scope": "8H calculation answer-review visual direction only; proposed question remains unapplied and unaccepted for scoring; no implementation started"
+  }
+}

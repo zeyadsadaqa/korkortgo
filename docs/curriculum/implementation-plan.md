@@ -432,6 +432,8 @@ Use imagegen to show the exact proposed fuel-saving-150-0.5 revision, shuffled o
 **Deliverable:** `app-design/8h/` — preview images, exact content/asset notes and `review.md`.  
 **Done when:** The user explicitly approves calculation feedback presentation; this does not accept the proposed question for live scoring.
 
+**Execution record — 15 October 2026:** 8H v1 explicitly approved: “approved”. Calculation answer-review visual direction complete; proposed question not accepted for live scoring. See [preview and approval record](app-design/8h/review.md). 8I has not started.
+
 ### 8I. Preview the sources area
 
 Use imagegen to show the legislation, commercial exercise-assumption and model-specific manufacturer examples from the handoff. Display their actual titles, publishers, retained dates and limitations; distinguish editorial arithmetic. Include entry from a lesson and return to the same reading position.
