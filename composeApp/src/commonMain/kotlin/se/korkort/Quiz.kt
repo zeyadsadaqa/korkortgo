@@ -12,7 +12,7 @@ enum class Category(val title: String, val short: String, val quota: Int) {
     PERSONAL("Personal conditions", "Personal conditions", 5)
 }
 data class Option(val text: String, val explanation: String, val image: String = "")
-data class Question(val id: String, val concept: String, val category: Category, val prompt: String, val options: List<Option>, val correct: Int, val explanation: String, val page: Int, val source: String = "", val image: String = "") {
+data class Question(val id: String, val concept: String, val category: Category, val prompt: String, val options: List<Option>, val correct: Int, val explanation: String, val page: Int, val source: String = "", val image: String = "", val assessment: AssessmentQuestion? = null) {
     fun shuffled(random: Random): Question {
         val order = options.indices.shuffled(random)
         return copy(options = order.map { options[it] }, correct = order.indexOf(correct))
@@ -36,7 +36,7 @@ object QuizEngine {
         val selected = mutableListOf<Question>()
         val used = mutableSetOf<String>()
         fun pick(pool: List<Question>, count: Int) {
-            val choices = pool.filter { it.concept !in used }.groupBy { it.concept }.values.shuffled(random)
+            val choices = pool.filter { it.concept !in used && (it.assessment == null || it.assessment.acceptance.eligibility == ScoringEligibility.ACCEPTED) }.groupBy { it.concept }.values.shuffled(random)
             require(choices.size >= count) { "Not enough distinct learning topics" }
             choices.take(count).forEach { variants -> val q=variants.random(random); used.add(q.concept); selected.add(q.shuffled(random)) }
         }
@@ -46,6 +46,7 @@ object QuizEngine {
     }
 }
 data class QuizSession(val questions: List<Question>, val feedback: Feedback, val answers: Map<String, Int> = emptyMap(), val index: Int = 0, val finished: Boolean = false) {
+    init { require(questions.all { it.assessment == null || it.assessment.acceptance.eligibility == ScoringEligibility.ACCEPTED }) }
     val current get() = questions[index]
     val score get() = questions.count { answers[it.id] == it.correct }
     fun answer(option: Int): QuizSession {
