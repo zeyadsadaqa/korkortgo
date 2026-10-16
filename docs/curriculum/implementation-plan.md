@@ -1350,6 +1350,8 @@ Check the exact X8 asset at the smallest implemented size, zoom/return and equiv
 
 ### 9G. Apply the eight scenario corrections
 
+**Execution 16 October 2026:** 9G1–9G8 applied and content-reviewed sequentially. All eight exact proposals retain IDs/concepts and original keys, with `scenario-r2` assessment metadata. [Evidence and source limitations](app-migration/implementation-evidence/9G/README.md). This does not clear 9F holds or constitute release acceptance.
+
 For each scenario, recheck affected time-sensitive guidance against primary sources, recording verification dates and refreshing changed decisions before acceptance. Review the complete stem, four options, key and all explanations; retain IDs/concepts and assign a semantic revision.
 
 #### 9G1. Correct situation-032 — weekday times

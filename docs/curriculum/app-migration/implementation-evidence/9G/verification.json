@@ -1,0 +1,37 @@
+{
+  "verified_on": "2026-10-16",
+  "python_tests": 122,
+  "desktop_tests": 40,
+  "failures": 0,
+  "exact_proposals": 8,
+  "ids_concepts_keys_retained": true,
+  "unrelated_records_changed": 0,
+  "9F_replacement_check": "passed; 38 original records remain held",
+  "release_acceptance": false,
+  "files": [
+    {
+      "path": "content/questions.json",
+      "sha256": "2e73141b562b455d2af3e726c8088cc21375f32267e63bb362389be08b40f115"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+      "sha256": "02cd5dd6861a8b129961890f8ae80fd4238e6e99219ce8c115a13bc780a38168"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ScenarioCorrections9G.kt",
+      "sha256": "f5080b125a27c9cb2580ab8ebc2c3e0bb4c873e30cb843559f3282702f601fcd"
+    },
+    {
+      "path": "tools/apply_scenario_corrections_9g.py",
+      "sha256": "1b8070af437d3ef8f35a532f8f8a7821a0be06d5c81e669185c297dfc30339e9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+      "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9G/question-acceptance.json",
+      "sha256": "90598035b075ed780e2ec7073085e9ef1c3c7546f2d3b50826139cb69bf3c0f8"
+    }
+  ]
+}
