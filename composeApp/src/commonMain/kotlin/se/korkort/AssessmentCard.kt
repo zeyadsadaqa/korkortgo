@@ -24,6 +24,7 @@ fun AssessmentCard(
         // Equivalent text remains available if a platform cannot yet deliver an exact image.
         Text(picture.description, modifier)
     },
+    onEnlargeImage: ((AssessmentImagePresentation, FocusRequester) -> Unit)? = null,
 ) {
     var pending by remember(presentation.key, presentation.choices.map { it.id }) { mutableStateOf<OptionId?>(null) }
     val feedbackFocus = remember(presentation.key) { FocusRequester() }
@@ -33,7 +34,11 @@ fun AssessmentCard(
     val selection = presentation.choices.singleOrNull { it.selected }?.id ?: pending
     Column(Modifier.semantics { isTraversalGroup = true }, verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(presentation.prompt, style = MaterialTheme.typography.headlineSmall)
-        presentation.image?.let { AssessmentPicture(it, Modifier.fillMaxWidth().heightIn(min = 180.dp), image) }
+        presentation.image?.let { picture ->
+            val focus=remember(presentation.key) {FocusRequester()}
+            AssessmentPicture(picture, Modifier.fillMaxWidth().heightIn(min = 180.dp), image)
+            if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus)) {Text("Enlarge question image")}
+        }
         Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             presentation.choices.forEach { choice ->
                 key(choice.id) {
@@ -53,6 +58,10 @@ fun AssessmentCard(
                             }
                             choice.feedback?.let { Text(it) }
                         }
+                    }
+                    choice.image?.let { picture ->
+                        val focus=remember(choice.id) {FocusRequester()}
+                        if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus)) {Text("Enlarge option ${choice.letter} image")}
                     }
                 }
             }
@@ -88,7 +97,7 @@ private fun AssessmentPicture(
     image: @Composable (AssessmentImagePresentation, Modifier) -> Unit,
 ) {
     // Enforce the assessment description even if the platform renderer supplies its own semantics.
-    Box(modifier.clearAndSetSemantics { contentDescription = picture.description }) {
+    Box(modifier.clearAndSetSemantics { contentDescription = picture.description }, propagateMinConstraints = true) {
         image(picture, Modifier.fillMaxWidth())
     }
 }
