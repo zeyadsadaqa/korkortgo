@@ -21,6 +21,7 @@ kotlin {
             implementation(compose.ui)
         }
         commonTest.dependencies { implementation(kotlin("test")) }
+        getByName("desktopTest").dependencies { implementation(compose.desktop.currentOs) }
         androidMain.dependencies { implementation("androidx.activity:activity-compose:1.11.0") }
     }
 }
