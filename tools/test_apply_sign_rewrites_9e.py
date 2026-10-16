@@ -11,6 +11,10 @@ class AllSignRewritesTest(unittest.TestCase):
     def setUpClass(cls):
         cls.stages={n:build(n) for n in range(2,13)}
         cls.live=read(Path('content/questions.json'))
+        # 9G owns these later scenario changes; compare 9E against its frozen stage.
+        from apply_scenario_corrections_9g import IDS
+        original={q['id']:q for q in cls.stages[12][0]}
+        cls.live=[original[q['id']] if q['id'] in IDS else q for q in cls.live]
         cls.actions={q['question_id']:q for q in read(Path('docs/curriculum/app-migration/question-actions.json'))['questions']}
     def test_each_batch_changes_only_exact_backlog_ids(self):
         for n in range(3,13):
@@ -21,7 +25,12 @@ class AllSignRewritesTest(unittest.TestCase):
     def test_final_bank_and_generated_kotlin_reproduce(self):
         self.assertEqual(self.live,self.stages[12][0])
         for path,value in split_kotlin(self.stages[12][1]).items():
-            self.assertEqual((ROOT/path).read_text(),value)
+            live=(ROOT/path).read_text()
+            if path.name=='Bank.kt':
+                from apply_scenario_corrections_9g import IDS
+                original_lines={line.split(',',1)[0]:line for line in value.splitlines(True) if line.startswith('Question(')}
+                live=''.join(original_lines[line.split(',',1)[0]] if any(line.startswith('Question(\"'+qid+'\",') for qid in IDS) else line for line in live.splitlines(True))
+            self.assertEqual(live,value)
     def test_all_578_rewrites_and_422_untouched(self):
         baseline=read(Path('docs/curriculum/app-migration/implementation-evidence/9E1/incoming-questions.json'))
         expected=[q['id'] for q in baseline if q['id'].startswith(('sign-meaning-','sign-recognise-')) and self.actions[q['id']]['disposition']=='rewrite']

@@ -1,0 +1,381 @@
+{
+  "reviewer": "Codex",
+  "method": "Fresh primary-source retrieval and full stem, four-option, key and feedback review. No legal scope broadened.",
+  "questions": [
+    {
+      "step": "9G1",
+      "question_id": "situation-032",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tidsangivelse/",
+      "locator": "T6 description",
+      "review": "Parentheses apply to weekdays before Sundays/public holidays; red hours and named-day overrides retained.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "Parentheses mean weekdays before Sundays and public holidays, including relevant holiday eves; they do not include a Sunday merely because it precedes a holiday."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Sundays and public holidays normally use red times."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "Ordinary weekday times are shown without parentheses."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "School holidays do not define these times."
+        }
+      ],
+      "acceptance_criteria": [
+        "Keep the correct option’s weekday restriction in every explanation.",
+        "Do not teach that a Sunday preceding a public holiday uses the bracketed weekday hours.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": []
+    },
+    {
+      "step": "9G2",
+      "question_id": "situation-045",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "locator": "3 kap. 71 §",
+      "review": "Passenger-car prohibition confirmed; daylight motorcycle exception remains explicitly outside the question.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "For the passenger car specified here, the combination is prohibited. Do not generalise this answer to the separate daylight-motorcycle exception."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Darkness does not permit that combination."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "Vehicle age does not change the rule."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "Overtaking creates no lighting exception."
+        }
+      ],
+      "acceptance_criteria": [
+        "Specify an ordinary passenger car in the stem.",
+        "Retain No as the keyed answer; do not describe the prohibition as exceptionless for every vehicle.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": [
+        {
+          "claim_id": "situation-045-C01",
+          "statement": "Explicitly prohibit dipped headlights plus front fog lights together.",
+          "classification": "legal requirement",
+          "scope_limits": "Swedish lighting rule. Current Fordonsbelysning page updated 8 May 2026 confirms dipped plus other lights prohibition; no foreign lighting law used.",
+          "sources": [
+            {
+              "alias": "lights-combinations",
+              "publisher": "Transportstyrelsen",
+              "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf",
+              "locator": "Printed pp.8–9, PDF page 5 of 7: Fog, heavy rain or snow"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "step": "9G3",
+      "question_id": "situation-105",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "locator": "3 kap. 24, 26, 29, 46 §§; 9 kap. 1–2 §§",
+      "review": "Conditional editorial planning inference only, subject to signs, geometry, access and safety. Historical Trafikverket URL now returns no article body; it is not refreshed as current routing advice. Current legal constraints independently support the retained conditional draft.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "A safe, permitted return route can avoid the hazardous left turn. If no suitable route exists, choose another route or postpone."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Following drivers may not react in time."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "You must not create that conflict."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "That introduces a dangerous manoeuvre."
+        }
+      ],
+      "acceptance_criteria": [
+        "Carry the conditional editorial classification and claim limits from 7C.",
+        "Do not imply that any nearby turning place or return/right turn is automatically lawful.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": [
+        {
+          "claim_id": "situation-105-C01",
+          "statement": "Explain continuing to a suitable safe turning place and returning for a right turn when a rural left turn is unsafe.",
+          "classification": "conditional editorial application of official example and legal rules",
+          "scope_limits": "Historical local closure example, not current route advice or a verbatim general recommendation about heavy rural traffic. Continuing, safely changing direction and returning for a right turn is an explicitly identified editorial planning inference, conditional on road geometry and Swedish rules. These provisions constrain the conditional editorial example; they do not explicitly recommend return-right routing. Other signs, access restrictions, controls and local rules remain applicable.",
+          "sources": [
+            {
+              "alias": "rural-turn-alternative",
+              "publisher": "Trafikverket",
+              "url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+              "locator": "Aktiviteter från vecka 7, final bullet: unavailable left turn into Kvarnbacken and identified alternative turning locations"
+            },
+            {
+              "alias": "traffic-law",
+              "publisher": "Swedish Government; published by Sveriges riksdag",
+              "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+              "locator": "Chapter 3 §§24, 26, 29 and 46; chapter 9 §§1–2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "step": "9G4",
+      "question_id": "situation-107",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+      "locator": "PDF p.83 Tailgating; Swedish Trafikförordning 3 kap. 16 §",
+      "review": "Gradual forward-gap adjustment is general safety advice, not imported taxi law or a guarantee. No two-second target imported; necessary emergency braking takes priority.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "Increase the gap gradually and avoid unnecessary abrupt braking; essential emergency braking still takes priority."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "That can trigger a rear-end collision."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "That leaves less time for a smooth response."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "That adds risk and does not solve the underlying problem."
+        }
+      ],
+      "acceptance_criteria": [
+        "Include gradual adjustment and unnecessary sudden braking.",
+        "State that necessary emergency braking must not be delayed.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": [
+        {
+          "claim_id": "situation-107-C01",
+          "statement": "Explain increasing the forward gap when followed too closely, allowing smoother braking.",
+          "classification": "safety advice",
+          "scope_limits": "Common defensive-driving advice only, not Northern Ireland taxi law. Risk reduction is not a guarantee; necessary emergency braking remains necessary. Its two-second target is not imported.",
+          "sources": [
+            {
+              "alias": "vehicle-faults",
+              "publisher": "Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government",
+              "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+              "locator": "Printed/PDF p.83: Tailgating (zero-based PDF index 82)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "step": "9G5",
+      "question_id": "situation-125",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "locator": "2 kap. 8 §",
+      "review": "Notify affected person or police as soon as possible for unattended damaged property; separate injury duties not conflated.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "Notify the owner or police promptly; looking for the owner must not become a reason to postpone notification."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Damage can be hidden and duties remain."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "The response should not be postponed."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "That does not inform the affected owner."
+        }
+      ],
+      "acceptance_criteria": [
+        "Use owner or police, and as soon as possible.",
+        "Keep the question about unattended property; do not conflate it with the additional injury-reporting duties.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": []
+    },
+    {
+      "step": "9G6",
+      "question_id": "situation-162",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsregler/Vikter/",
+      "locator": "Tjänstevikt bil; Totalvikt bil; Bruttovikt",
+      "review": "Driver included once in ready weight; passenger/goods maximum added; actual current gross weight distinct.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "Use the Swedish defined ready-for-service weight, which already includes the driver, plus the maximum passenger and goods load."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "That is only part of a load."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "That describes gross weight."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "Those quantities do not define weight."
+        }
+      ],
+      "acceptance_criteria": [
+        "Define tjänstevikt and distinguish totalvikt from current bruttovikt.",
+        "Do not add or subtract the driver a second time.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": []
+    },
+    {
+      "step": "9G7",
+      "question_id": "situation-172",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+      "locator": "Vad händer om jag inte besiktar i tid? Körförbud",
+      "review": "Automatic missed-deadline ban distinct from off-road registration and dangerous-condition ban. Appointment does not permit ordinary use; trip exceptions remain conditional.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "The missed deadline triggers an automatic ban. It does not register the vehicle off-road or permit normal use while you arrange an inspection."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Off-road status is a separate notification."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "A reminder is not required for the deadline to apply."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "Apparent condition does not remove the inspection requirement."
+        }
+      ],
+      "acceptance_criteria": [
+        "Keep the ban automatic and separate from off-road registration.",
+        "Do not say that a passed inspection is always necessary merely to end the original deadline ban, or that arranging an appointment permits normal use.",
+        "Retain the official registration/vehicle-condition limits on any exception.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": [
+        {
+          "claim_id": "situation-172-C01",
+          "statement": "Explain automatic driving prohibition following a missed inspection deadline and applicable conditions for addressing it.",
+          "classification": "legal requirement",
+          "scope_limits": "Inträtt körförbud due missed periodic deadline, not dangerous-condition meddelat körförbud. On-road: shortest suitable route to repair workshop/inspection; off-road and still banned: shortest suitable route to nearest inspection business. Does not grant general errands/commuting or waive other requirements. Periodic inspection example only. Inspection being carried out ends §15 deadline ban; not a guarantee the result permits ordinary driving, since defects may create new ban/order. No implication a pass is always required merely to end the original deadline ban. General off-road rule allows shortest suitable route to/from nearest inspection; when an overdue ban also applies, the additional ban restriction is to nearest inspection. Return is not automatically allowed while that ban continues. This is an explicit intersection of the agency conditions.",
+          "sources": [
+            {
+              "alias": "inspection-ban",
+              "publisher": "Transportstyrelsen",
+              "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+              "locator": "Opening owner responsibility; Vad händer om jag inte besiktar i tid? — Körförbud"
+            },
+            {
+              "alias": "vehicle-inspection-law",
+              "publisher": "Swedish Government; published by Sveriges riksdag",
+              "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+              "locator": "Chapter 6 §15: first calendar month after missed inspection month; §21: prohibition until inspection performed; §§16–17: defects/result"
+            },
+            {
+              "alias": "off-road-inspection",
+              "publisher": "Transportstyrelsen",
+              "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+              "locator": "Köra ett avställt fordon; opening: prohibition does not automatically create off-road status"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "step": "9G8",
+      "question_id": "situation-178",
+      "verified_on": "2026-10-16",
+      "primary_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikskadelag-19751410_sfs-1975-1410/",
+      "locator": "10–12 §§",
+      "review": "Driver/passenger injury included; qualifying third-party property distinct from own-car damage. No unconditional compensation guarantee.",
+      "decision": "Exact proposal remains supported; apply without wording changes.",
+      "option_verdicts": [
+        {
+          "option_index": 0,
+          "correct": true,
+          "reason": "Your own vehicle damage is outside this cover. Personal-injury cover includes the driver and passengers; it is not limited to other people."
+        },
+        {
+          "option_index": 1,
+          "correct": false,
+          "reason": "Personal injury is central to third-party cover."
+        },
+        {
+          "option_index": 2,
+          "correct": false,
+          "reason": "Third-party property damage is a main purpose."
+        },
+        {
+          "option_index": 3,
+          "correct": false,
+          "reason": "That is the type of damage it generally covers."
+        }
+      ],
+      "acceptance_criteria": [
+        "Keep own vehicle damage as the unique correct choice.",
+        "Do not imply that driver/passenger personal injury is excluded because the cover is called third-party insurance.",
+        "Recheck all four options/explanations together so exactly one answer remains correct. Preserve the mapped lesson and source limits."
+      ],
+      "retained_claim_limits": []
+    }
+  ]
+}

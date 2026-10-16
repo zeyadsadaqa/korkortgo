@@ -3,7 +3,7 @@ import kotlin.random.Random
 import kotlin.test.*
 
 class SignRewriteBatchTest {
-    private val rewritten get() = questionBank.filter { it.assessment != null }
+    private val rewritten get() = questionBank.filter { it.id.startsWith("sign-") && it.assessment != null }
     @Test fun exactBatchHasStableIdsRevisionsAndBindings() {
         assertEquals(578,rewritten.size)
         assertEquals(578,rewritten.map { it.id }.toSet().size)
@@ -22,7 +22,7 @@ class SignRewriteBatchTest {
         }
     }
     @Test fun heldRewritesCannotEnterLegacyOrNewScoredSessions() {
-        repeat(100) { seed -> assertTrue(QuizEngine.select(questionBank,70,Random(seed)).none { it.assessment != null || QuestionId(it.id) in replacementDeliveryHolds }) }
+        repeat(100) { seed -> assertTrue(QuizEngine.select(questionBank,70,Random(seed)).none { it.assessment?.acceptance?.eligibility == ScoringEligibility.HELD || QuestionId(it.id) in replacementDeliveryHolds }) }
         assertFailsWith<IllegalArgumentException> { QuizEngine.select(rewritten,1) }
         assertFailsWith<IllegalArgumentException> { QuizSession(listOf(rewritten.first()),Feedback.IMMEDIATE) }
         assertFailsWith<IllegalArgumentException> { AssessmentEngine.select(rewritten.map { it.assessment!! },1,ContentPackageIdentity("test",Sha256("a".repeat(64)))) }

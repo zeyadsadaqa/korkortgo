@@ -1030,7 +1030,7 @@
     "options": [
       {
         "text": "Weekdays before Sundays and public holidays.",
-        "explanation": "Parentheses cover the day before a Sunday or public holiday, not just ordinary Saturdays.",
+        "explanation": "Parentheses mean weekdays before Sundays and public holidays, including relevant holiday eves; they do not include a Sunday merely because it precedes a holiday.",
         "image": ""
       },
       {
@@ -1050,10 +1050,167 @@
       }
     ],
     "correct": 0,
-    "explanation": "Parentheses cover the day before a Sunday or public holiday, not just ordinary Saturdays.",
+    "explanation": "Parenthesised times apply on weekdays before Sundays and public holidays. Sundays and public holidays use the red times; a named day can override the usual category.",
     "page": 73,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-032",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-032",
+      "category": "rules",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "What do times in parentheses on a parking panel normally refer to?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-032-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Weekdays before Sundays and public holidays."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-032-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Only Sundays"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-032-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Every weekday"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-032-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Only school holidays"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-032-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "Parenthesised times apply on weekdays before Sundays and public holidays. Sundays and public holidays use the red times; a named day can override the usual category."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-032-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Parentheses mean weekdays before Sundays and public holidays, including relevant holiday eves; they do not include a Sunday merely because it precedes a holiday."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-032-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Sundays and public holidays normally use red times."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-032-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Ordinary weekday times are shown without parentheses."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-032-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "School holidays do not define these times."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M05-L03",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-sign-law",
+          "source-parking"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/0",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/31/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-033",
@@ -1455,11 +1612,11 @@
     "id": "situation-045",
     "concept": "situation-045",
     "category": "RULES",
-    "prompt": "May you use dipped headlights and front fog lights together?",
+    "prompt": "When driving an ordinary passenger car on the road, may you use dipped headlights and front fog lights together?",
     "options": [
       {
         "text": "No.",
-        "explanation": "This combination is prohibited; use the permitted lighting appropriate to visibility.",
+        "explanation": "For the passenger car specified here, the combination is prohibited. Do not generalise this answer to the separate daylight-motorcycle exception.",
         "image": ""
       },
       {
@@ -1479,10 +1636,166 @@
       }
     ],
     "correct": 0,
-    "explanation": "This combination is prohibited; use the permitted lighting appropriate to visibility.",
+    "explanation": "For this car, use the permitted lighting for visibility; dipped headlights and front fog lights must not be used together. The separate daylight-motorcycle exception is outside this scenario.",
     "page": 262,
     "source": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-045",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-045",
+      "category": "rules",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "When driving an ordinary passenger car on the road, may you use dipped headlights and front fog lights together?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-045-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "No."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-045-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Yes in all darkness"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-045-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Yes if your car is new"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-045-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Yes when overtaking"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-045-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "For this car, use the permitted lighting for visibility; dipped headlights and front fog lights must not be used together. The separate daylight-motorcycle exception is outside this scenario."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-045-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "For the passenger car specified here, the combination is prohibited. Do not generalise this answer to the separate daylight-motorcycle exception."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-045-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Darkness does not permit that combination."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-045-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Vehicle age does not change the rule."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-045-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Overtaking creates no lighting exception."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M07-L01",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-lights-combinations"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/1",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/44/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-046",
@@ -3438,8 +3751,8 @@
     "prompt": "Heavy traffic makes a country-road left turn unsafe. What is a sensible alternative?",
     "options": [
       {
-        "text": "Continue to a suitable turning place and return for a right turn.",
-        "explanation": "Avoiding a hazardous waiting position can reduce rear-end and crossing risks.",
+        "text": "Continue to a suitable permitted place or route, change direction safely, and return for a right turn if allowed and safe.",
+        "explanation": "A safe, permitted return route can avoid the hazardous left turn. If no suitable route exists, choose another route or postpone.",
         "image": ""
       },
       {
@@ -3459,10 +3772,167 @@
       }
     ],
     "correct": 0,
-    "explanation": "Avoiding a hazardous waiting position can reduce rear-end and crossing risks.",
+    "explanation": "This is a conditional planning alternative, not permission for an immediate U-turn. Check signs, access, visibility and turning restrictions; if no suitable return exists, choose another route or postpone.",
     "page": 79,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-105",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-105",
+      "category": "safety",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "Heavy traffic makes a country-road left turn unsafe. What is a sensible alternative?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-105-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Continue to a suitable permitted place or route, change direction safely, and return for a right turn if allowed and safe."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-105-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Stop suddenly without signalling"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-105-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Force an oncoming driver to brake"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-105-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Reverse back along the main road"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-105-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "This is a conditional planning alternative, not permission for an immediate U-turn. Check signs, access, visibility and turning restrictions; if no suitable return exists, choose another route or postpone."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-105-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "A safe, permitted return route can avoid the hazardous left turn. If no suitable route exists, choose another route or postpone."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-105-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Following drivers may not react in time."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-105-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "You must not create that conflict."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-105-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That introduces a dangerous manoeuvre."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M06-L01",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-rural-turn-alternative",
+          "source-traffic-law"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/2",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/104/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-106",
@@ -3504,8 +3974,8 @@
     "prompt": "A car follows you too closely. How can you reduce the risk?",
     "options": [
       {
-        "text": "Increase your gap to the vehicle ahead and avoid sudden braking.",
-        "explanation": "More space ahead lets you slow gradually, giving the following driver more time.",
+        "text": "Gradually increase your gap ahead and avoid unnecessary sudden braking; brake as needed in an emergency.",
+        "explanation": "Increase the gap gradually and avoid unnecessary abrupt braking; essential emergency braking still takes priority.",
         "image": ""
       },
       {
@@ -3525,10 +3995,166 @@
       }
     ],
     "correct": 0,
-    "explanation": "More space ahead lets you slow gradually, giving the following driver more time.",
+    "explanation": "More space ahead can help you slow more gently. Do not brake to punish the following driver, but do not delay necessary emergency braking.",
     "page": 81,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-107",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-107",
+      "category": "safety",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "A car follows you too closely. How can you reduce the risk?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-107-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Gradually increase your gap ahead and avoid unnecessary sudden braking; brake as needed in an emergency."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-107-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Brake sharply to teach them a lesson"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-107-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Close your own following gap"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-107-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Speed beyond the limit"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-107-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "More space ahead can help you slow more gently. Do not brake to punish the following driver, but do not delay necessary emergency braking."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-107-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Increase the gap gradually and avoid unnecessary abrupt braking; essential emergency braking still takes priority."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-107-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That can trigger a rear-end collision."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-107-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That leaves less time for a smooth response."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-107-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That adds risk and does not solve the underlying problem."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M03-L04",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-vehicle-faults"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/3",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/106/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-108",
@@ -4098,8 +4724,8 @@
     "prompt": "You accidentally strike an unattended parked car. What should you do?",
     "options": [
       {
-        "text": "Try to contact its owner and contact police if you cannot reach them.",
-        "explanation": "Leaving without dealing with the incident can constitute leaving the scene.",
+        "text": "Notify the owner or police as soon as possible and provide your details.",
+        "explanation": "Notify the owner or police promptly; looking for the owner must not become a reason to postpone notification.",
         "image": ""
       },
       {
@@ -4119,10 +4745,166 @@
       }
     ],
     "correct": 0,
-    "explanation": "Leaving without dealing with the incident can constitute leaving the scene.",
+    "explanation": "After damaging unattended property, notify the affected person or police as soon as possible. Do not leave without dealing with the incident.",
     "page": 177,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-125",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-125",
+      "category": "safety",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "You accidentally strike an unattended parked car. What should you do?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-125-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Notify the owner or police as soon as possible and provide your details."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-125-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Drive away if damage seems small"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-125-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Wait until next month to mention it"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-125-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Only photograph your own car"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-125-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "After damaging unattended property, notify the affected person or police as soon as possible. Do not leave without dealing with the incident."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-125-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Notify the owner or police promptly; looking for the owner must not become a reason to postpone notification."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-125-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Damage can be hidden and duties remain."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-125-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "The response should not be postponed."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-125-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That does not inform the affected owner."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M10-L02",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-traffic-law"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/4",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/124/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-126",
@@ -5316,11 +6098,11 @@
     "id": "situation-162",
     "concept": "situation-162",
     "category": "VEHICLE",
-    "prompt": "What is meant by registered total weight in the book's weight terminology?",
+    "prompt": "In Swedish vehicle terminology, how is a car’s registered total weight (totalvikt) defined?",
     "options": [
       {
-        "text": "Unladen weight plus maximum permitted load.",
-        "explanation": "It is the registered maximum loaded weight, distinct from actual gross weight.",
+        "text": "Ready-for-service weight (tjänstevikt), already including the driver, plus maximum passenger and goods load.",
+        "explanation": "Use the Swedish defined ready-for-service weight, which already includes the driver, plus the maximum passenger and goods load.",
         "image": ""
       },
       {
@@ -5340,10 +6122,166 @@
       }
     ],
     "correct": 0,
-    "explanation": "It is the registered maximum loaded weight, distinct from actual gross weight.",
+    "explanation": "Totalvikt combines the car’s defined ready-for-service weight and maximum passenger/goods load. The driver is included in tjänstevikt; actual current gross weight is a different quantity.",
     "page": 252,
     "source": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/lasta-dra/lastsakring/",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-162",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-162",
+      "category": "vehicle",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "In Swedish vehicle terminology, how is a car’s registered total weight (totalvikt) defined?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-162-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Ready-for-service weight (tjänstevikt), already including the driver, plus maximum passenger and goods load."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-162-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Only the current luggage weight"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-162-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "The weight shown by a scale today in every case"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-162-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "The maximum speed multiplied by fuel capacity"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-162-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "Totalvikt combines the car’s defined ready-for-service weight and maximum passenger/goods load. The driver is included in tjänstevikt; actual current gross weight is a different quantity."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-162-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Use the Swedish defined ready-for-service weight, which already includes the driver, plus the maximum passenger and goods load."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-162-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That is only part of a load."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-162-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That describes gross weight."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-162-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Those quantities do not define weight."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M08-L02",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-weights"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/5",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/161/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-163",
@@ -5649,8 +6587,8 @@
     "prompt": "What normally happens if the required inspection deadline is missed?",
     "options": [
       {
-        "text": "An automatic driving ban applies until the inspection requirements are addressed.",
-        "explanation": "Owners are responsible for meeting the deadline even without a reminder.",
+        "text": "An automatic missed-deadline driving ban begins.",
+        "explanation": "The missed deadline triggers an automatic ban. It does not register the vehicle off-road or permit normal use while you arrange an inspection.",
         "image": ""
       },
       {
@@ -5670,10 +6608,168 @@
       }
     ],
     "correct": 0,
-    "explanation": "Owners are responsible for meeting the deadline even without a reminder.",
+    "explanation": "Missing the periodic-inspection deadline causes an automatic ban, separate from off-road registration. Check the official conditions for any permitted workshop or inspection journey; a dangerous-condition ban has different rules.",
     "page": 280,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-172",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-172",
+      "category": "vehicle",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "What normally happens if the required inspection deadline is missed?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-172-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "An automatic missed-deadline driving ban begins."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-172-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "The car automatically becomes registered off-road"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-172-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "The deadline extends until a letter arrives"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-172-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Nothing if the engine runs well"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-172-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "Missing the periodic-inspection deadline causes an automatic ban, separate from off-road registration. Check the official conditions for any permitted workshop or inspection journey; a dangerous-condition ban has different rules."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-172-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "The missed deadline triggers an automatic ban. It does not register the vehicle off-road or permit normal use while you arrange an inspection."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-172-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Off-road status is a separate notification."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-172-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "A reminder is not required for the deadline to apply."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-172-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Apparent condition does not remove the inspection requirement."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M08-L03",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-inspection-ban",
+          "source-vehicle-inspection-law",
+          "source-off-road-inspection"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/6",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/171/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "situation-173",
@@ -5848,7 +6944,7 @@
     "options": [
       {
         "text": "Damage to your own vehicle.",
-        "explanation": "Third-party cover addresses personal injury and damage to other parties rather than own-car damage.",
+        "explanation": "Your own vehicle damage is outside this cover. Personal-injury cover includes the driver and passengers; it is not limited to other people.",
         "image": ""
       },
       {
@@ -5868,10 +6964,166 @@
       }
     ],
     "correct": 0,
-    "explanation": "Third-party cover addresses personal injury and damage to other parties rather than own-car damage.",
+    "explanation": "Compulsory traffic insurance covers personal injury, including driver and passengers, and qualifying damage to others’ property. It does not pay for damage to your own vehicle.",
     "page": 298,
     "source": "",
-    "image": ""
+    "image": "",
+    "assessment": {
+      "key": {
+        "question_id": "situation-178",
+        "revision": "scenario-r2"
+      },
+      "concept_id": "situation-178",
+      "category": "vehicle",
+      "prompt": [
+        {
+          "type": "text",
+          "text": "Which damage is normally outside your own compulsory third-party vehicle insurance cover?"
+        }
+      ],
+      "image": null,
+      "options": [
+        {
+          "id": "situation-178-option-1",
+          "text": [
+            {
+              "type": "text",
+              "text": "Damage to your own vehicle."
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-178-option-2",
+          "text": [
+            {
+              "type": "text",
+              "text": "Injury to another person"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-178-option-3",
+          "text": [
+            {
+              "type": "text",
+              "text": "Damage you cause to another car"
+            }
+          ],
+          "image": null
+        },
+        {
+          "id": "situation-178-option-4",
+          "text": [
+            {
+              "type": "text",
+              "text": "Damage you cause to someone else's property"
+            }
+          ],
+          "image": null
+        }
+      ],
+      "feedback": {
+        "target_sign_code": null,
+        "english_label": null,
+        "correct_option_id": "situation-178-option-1",
+        "explanation": [
+          {
+            "type": "text",
+            "text": "Compulsory traffic insurance covers personal injury, including driver and passengers, and qualifying damage to others’ property. It does not pay for damage to your own vehicle."
+          }
+        ],
+        "option_feedback": [
+          {
+            "option_id": "situation-178-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Your own vehicle damage is outside this cover. Personal-injury cover includes the driver and passengers; it is not limited to other people."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-178-option-2",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Personal injury is central to third-party cover."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-178-option-3",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "Third-party property damage is a main purpose."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          },
+          {
+            "option_id": "situation-178-option-4",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "That is the type of damage it generally covers."
+              }
+            ],
+            "sign_code": null,
+            "english_label": null,
+            "source_uses": []
+          }
+        ]
+      },
+      "relationship": {
+        "primary_lesson_id": "M08-L03",
+        "related_lesson_ids": [],
+        "reference_ids": [],
+        "source_ids": [
+          "source-insurance"
+        ],
+        "content_version": "screen-2026-10-14-78a89d8ffbb8",
+        "disposition": "rewrite",
+        "source_uses": []
+      },
+      "acceptance": {
+        "eligibility": "accepted",
+        "content_review": {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9G/source-review.json",
+              "sha256": "fddf1724bf387d92efd7e7c9413731c848783a0aece24b3fccb5e6cbbfb60d94"
+            },
+            "locator": "json:/questions/7",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-16"
+        },
+        "description_reviews": [],
+        "delivery_proof": [],
+        "open_holds": []
+      },
+      "origin": {
+        "file": {
+          "path": "docs/curriculum/app-migration/question-actions.json",
+          "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+        },
+        "locator": "json:/questions/177/proposed_changes/draft_question",
+        "evidence_ids": [],
+        "pdf_evidence_page": null
+      }
+    }
   },
   {
     "id": "sign-meaning-A1",
