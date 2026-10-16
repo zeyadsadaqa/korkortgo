@@ -1,0 +1,8 @@
+# Published curriculum PDFs exceed the normal GitHub blob-size limit.
+docs/curriculum/pdf-production/korkortgo-curriculum-review.pdf filter=lfs diff=lfs merge=lfs -text
+docs/curriculum/pdf-production/korkortgo-curriculum-tagged.pdf filter=lfs diff=lfs merge=lfs -text
+docs/curriculum/pdf-production/korkortgo-curriculum.pdf filter=lfs diff=lfs merge=lfs -text
+docs/curriculum/question-book-review/original-book-498-pages.pdf filter=lfs diff=lfs merge=lfs -text
+output/pdf/korkortgo-curriculum-review.pdf filter=lfs diff=lfs merge=lfs -text
+output/pdf/korkortgo-curriculum-tagged.pdf filter=lfs diff=lfs merge=lfs -text
+output/pdf/korkortgo-curriculum.pdf filter=lfs diff=lfs merge=lfs -text
