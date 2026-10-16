@@ -1,0 +1,404 @@
+{
+  "step": "9F6",
+  "application": "deferred until delivery acceptance",
+  "question_ids": [
+    "sign-meaning-S6",
+    "sign-recognise-S6"
+  ],
+  "questions": [
+    {
+      "question_id": "sign-meaning-S6",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/30"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+        "target_code_metadata": "S6",
+        "post_answer_explanation": "Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification.",
+        "post_answer_english_label": "Tractor and class II motorised-equipment symbol",
+        "original_option_codes": [
+          "S6",
+          "C32",
+          "F35",
+          "M16"
+        ],
+        "proposed_option_codes": [
+          "S6",
+          "C32",
+          "F35",
+          "M16"
+        ],
+        "options": [
+          {
+            "option_id": "sign-meaning-S6-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S6",
+            "meaning_option_text": "Tractor and class II motorised-equipment symbol",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+                "source_asset_id": "H3-EPS-S6",
+                "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 80,
+                "max_size_mm_at_300ppi": [
+                  80,
+                  48.395
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+                "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The tractor silhouette is not itself the prohibition indicated by C8.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification.",
+            "post_answer_label": "Tractor and class II motorised-equipment symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S6",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "2a2f176a1fd2338c0c7cb6778e6b5d24501b51e55d50d1779bcfd13cfa19881f",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/99fa468b3fe34387a399b9ae.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S6-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "C32",
+            "meaning_option_text": "End of temporary speed limit",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-649f5a49d79af22e.png",
+                "source_asset_id": "ASSET-649f5a49d79af22e",
+                "sha256": "ec4e9eeb9fe0b044d97643b67d4afdd51a16d6d9eb546ba3c3d7abe3fed1f0f6",
+                "max_size_mm_at_300ppi": [
+                  120.0,
+                  120.0
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "30 crossed by diagonal black lines: temporary 30 km/h limit ends.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "The temporary signed speed limit ends. Establish the speed limit that now applies rather than assuming there is none.",
+            "post_answer_label": "End of temporary speed limit",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-d74a04fcabf2ee16",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/tillfallig-hastighetsbegransning-upphor/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "44eaa9a8ea4f57121361cb49554492ab0f4a37a968d5295d317e926e807b5af1",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; C32"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S6-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "F35",
+            "meaning_option_text": "Walking or cycling destination table",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-5bf137e7986d9400.png",
+                "source_asset_id": "ASSET-5bf137e7986d9400",
+                "sha256": "8f271a0522ef31dd1fe53e4e1a39f4e1fc357d62b349dadb08fe7fbd10ce6036",
+                "max_size_mm_at_300ppi": [
+                  127.0,
+                  89.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Bicycle destinations: Kumla 5 km ahead; Haga 0.2 km left.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Directions and kilometre distances are given for the indicated road-user group.",
+            "post_answer_label": "Walking or cycling destination table",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-6317682d9bc282f4",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-gang-och-cykeltrafik/tabellvagvisare/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "596245945943d9fc875de62575fcfd70bd2be5715767184202c81c8c2615dfb9",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; F35"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S6-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M16",
+            "meaning_option_text": "Cycle passage or cycle crossing marking",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-beb0b3919541fe29.png",
+                "source_asset_id": "ASSET-beb0b3919541fe29",
+                "sha256": "0f4e92b6db518ec15effa2becd46659273a02b00030fea46e4feb67e29763280",
+                "max_size_mm_at_300ppi": [
+                  22.5,
+                  12.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Two parallel rows of white blocks marking the sides of a cycle passage or crossing.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "The blocks alone do not identify a cycle crossing. A cycle crossing also has B8 and the give-way marking M14; assess the controls and your movement.",
+            "post_answer_label": "Cycle passage or cycle crossing marking",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-c2367de89f1f6d63",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelpassage-eller-cykeloverfart/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "32a37088c6fe8b7995575b13ff9e2847bb61221e2e869c1503774343dbd6c1c1",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M16"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": {
+          "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+          "source_asset_id": "H3-EPS-S6",
+          "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+          "format": "PDF",
+          "minimum_reviewed_width_mm": 80,
+          "max_size_mm_at_300ppi": [
+            80,
+            48.395
+          ],
+          "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+          "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+          "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+          "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+          "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+          "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+        },
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    },
+    {
+      "question_id": "sign-recognise-S6",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/31"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which illustration identifies “Tractor and class II motorised-equipment symbol”?",
+        "target_code_metadata": "S6",
+        "post_answer_explanation": "Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification.",
+        "post_answer_english_label": "Tractor and class II motorised-equipment symbol",
+        "original_option_codes": [
+          "S6",
+          "C32",
+          "F35",
+          "M16"
+        ],
+        "proposed_option_codes": [
+          "S6",
+          "C32",
+          "F35",
+          "M16"
+        ],
+        "options": [
+          {
+            "option_id": "sign-recognise-S6-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S6",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s6.pdf",
+                "source_asset_id": "H3-EPS-S6",
+                "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 80,
+                "max_size_mm_at_300ppi": [
+                  80,
+                  48.395
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s06.-traktor-och-motorredskap-klass-ii/s6-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s6.eps",
+                "official_eps_sha256": "022f949861fa5248077d571e49c81a6c2e420cd537fb489b4178140c6424741e",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The tractor silhouette is not itself the prohibition indicated by C8.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies tractors and class II motorised equipment in the context of the containing sign or panel. Read that complete sign for the applicable information or qualification.",
+            "post_answer_label": "Tractor and class II motorised-equipment symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S6",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/traktor-och-motorredskap-klass-ii/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "2a2f176a1fd2338c0c7cb6778e6b5d24501b51e55d50d1779bcfd13cfa19881f",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/99fa468b3fe34387a399b9ae.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S6-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "C32",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-649f5a49d79af22e.png",
+                "source_asset_id": "ASSET-649f5a49d79af22e",
+                "sha256": "ec4e9eeb9fe0b044d97643b67d4afdd51a16d6d9eb546ba3c3d7abe3fed1f0f6",
+                "max_size_mm_at_300ppi": [
+                  120.0,
+                  120.0
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "30 crossed by diagonal black lines: temporary 30 km/h limit ends.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "The temporary signed speed limit ends. Establish the speed limit that now applies rather than assuming there is none.",
+            "post_answer_label": "End of temporary speed limit",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-d74a04fcabf2ee16",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/tillfallig-hastighetsbegransning-upphor/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "44eaa9a8ea4f57121361cb49554492ab0f4a37a968d5295d317e926e807b5af1",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; C32"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S6-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "F35",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-5bf137e7986d9400.png",
+                "source_asset_id": "ASSET-5bf137e7986d9400",
+                "sha256": "8f271a0522ef31dd1fe53e4e1a39f4e1fc357d62b349dadb08fe7fbd10ce6036",
+                "max_size_mm_at_300ppi": [
+                  127.0,
+                  89.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Bicycle destinations: Kumla 5 km ahead; Haga 0.2 km left.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Directions and kilometre distances are given for the indicated road-user group.",
+            "post_answer_label": "Walking or cycling destination table",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-6317682d9bc282f4",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-gang-och-cykeltrafik/tabellvagvisare/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "596245945943d9fc875de62575fcfd70bd2be5715767184202c81c8c2615dfb9",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; F35"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S6-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M16",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-beb0b3919541fe29.png",
+                "source_asset_id": "ASSET-beb0b3919541fe29",
+                "sha256": "0f4e92b6db518ec15effa2becd46659273a02b00030fea46e4feb67e29763280",
+                "max_size_mm_at_300ppi": [
+                  22.5,
+                  12.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Two parallel rows of white blocks marking the sides of a cycle passage or crossing.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "The blocks alone do not identify a cycle crossing. A cycle crossing also has B8 and the give-way marking M14; assess the controls and your movement.",
+            "post_answer_label": "Cycle passage or cycle crossing marking",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-c2367de89f1f6d63",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelpassage-eller-cykeloverfart/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "32a37088c6fe8b7995575b13ff9e2847bb61221e2e869c1503774343dbd6c1c1",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M16"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": null,
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    }
+  ]
+}

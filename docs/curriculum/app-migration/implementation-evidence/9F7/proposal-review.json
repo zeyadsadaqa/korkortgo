@@ -1,0 +1,394 @@
+{
+  "step": "9F7",
+  "application": "deferred until delivery acceptance",
+  "question_ids": [
+    "sign-meaning-S7",
+    "sign-recognise-S7"
+  ],
+  "questions": [
+    {
+      "question_id": "sign-meaning-S7",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/32"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+        "target_code_metadata": "S7",
+        "post_answer_explanation": "Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification.",
+        "post_answer_english_label": "Motorcycle and class I moped symbol",
+        "original_option_codes": [
+          "S7",
+          "A2",
+          "M17a",
+          "T16"
+        ],
+        "proposed_option_codes": [
+          "S7",
+          "A2",
+          "M17a",
+          "T16"
+        ],
+        "options": [
+          {
+            "option_id": "sign-meaning-S7-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S7",
+            "meaning_option_text": "Motorcycle and class I moped symbol",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+                "source_asset_id": "H3-EPS-S7",
+                "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 80,
+                "max_size_mm_at_300ppi": [
+                  80,
+                  48.395
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+                "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The motorcycle silhouette includes the stated class I mopeds; the symbol does not itself prohibit either class.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification.",
+            "post_answer_label": "Motorcycle and class I moped symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S7",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "e63d0614b77e3c26f3e971b4d94c0f9711ab83dc10c1e19c32fc23e5f18a4f0c",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c5ab056a19173b6432e204a8.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S7-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "A2",
+            "meaning_option_text": "Series of dangerous bends",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-0ad414e84c3e9af8.png",
+                "source_asset_id": "ASSET-0ad414e84c3e9af8",
+                "sha256": "ed13e7c646c4d2f1af8379817c6bd956d68c09830252cfe1711f72b90456397f",
+                "max_size_mm_at_300ppi": [
+                  161.0,
+                  142.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Series of bends, first to the left.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Several hazardous bends lie ahead. The symbol identifies the direction of the first bend.",
+            "post_answer_label": "Series of dangerous bends",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-ce74a0c3ca39997e",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-flera-farliga-kurvor/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "5c26dd8e848d801ff2a86b5f74b4c93e22f1ea97070636afacaabd00179ce0d0",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; A2"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S7-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M17a",
+            "meaning_option_text": "Bicycle box",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/originals/h3-m17a.png",
+                "source_asset_id": "H3-ASSET-M17a",
+                "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+                "max_size_mm_at_300ppi": [
+                  550.079,
+                  945.049
+                ],
+                "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+              },
+              "source_variant_description": "The question illustration shows a cycle symbol and an advanced marked area. It does not by itself grant priority over conflicting traffic.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Indicates a suitable position for cyclists and class II moped riders. The marking may be adapted to the conditions at the site.",
+            "post_answer_label": "Bicycle box",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-M17a",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "427186753c719ae5c5832ca6109826bbfd08d77095f70e3c7d5631c8fcafaabd",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ae2cbafa3fc197c2b7b990bf.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S7-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "T16",
+            "meaning_option_text": "Parking fee",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-641bf72f5ce81ee5.png",
+                "source_asset_id": "ASSET-641bf72f5ce81ee5",
+                "sha256": "e8ab0d1adf1390c498138aaf568b6e1dce4e9ae02864fec4c0f15966490a3bb1",
+                "max_size_mm_at_300ppi": [
+                  420.1,
+                  210.2
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Text Avgift: fee.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Pay according to the stated tariff and follow the other conditions at the payment facility. Read any time qualification.",
+            "post_answer_label": "Parking fee",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-03381d991341be61",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/avgift/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "57d3d65a98b761e992604a0168ec551aa746bdc421b890aa531b1d3d4fbf51df",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; T16"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": {
+          "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+          "source_asset_id": "H3-EPS-S7",
+          "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+          "format": "PDF",
+          "minimum_reviewed_width_mm": 80,
+          "max_size_mm_at_300ppi": [
+            80,
+            48.395
+          ],
+          "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+          "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+          "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+          "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+          "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+          "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+        },
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    },
+    {
+      "question_id": "sign-recognise-S7",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/33"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which illustration identifies “Motorcycle and class I moped symbol”?",
+        "target_code_metadata": "S7",
+        "post_answer_explanation": "Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification.",
+        "post_answer_english_label": "Motorcycle and class I moped symbol",
+        "original_option_codes": [
+          "S7",
+          "A2",
+          "M17a",
+          "T16"
+        ],
+        "proposed_option_codes": [
+          "S7",
+          "A2",
+          "M17a",
+          "T16"
+        ],
+        "options": [
+          {
+            "option_id": "sign-recognise-S7-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S7",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s7.pdf",
+                "source_asset_id": "H3-EPS-S7",
+                "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 80,
+                "max_size_mm_at_300ppi": [
+                  80,
+                  48.395
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s07.-motorcykel/s7-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s7.eps",
+                "official_eps_sha256": "25f60598278e2734ef76fd9db49286237ae82e77c369007f063d794bff53b342",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The motorcycle silhouette includes the stated class I mopeds; the symbol does not itself prohibit either class.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies two-wheeled motorcycles without sidecars and two-wheeled class I mopeds without sidecars. Read the containing sign or panel to determine its actual instruction or qualification.",
+            "post_answer_label": "Motorcycle and class I moped symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S7",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/motorcykel/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "e63d0614b77e3c26f3e971b4d94c0f9711ab83dc10c1e19c32fc23e5f18a4f0c",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c5ab056a19173b6432e204a8.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S7-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "A2",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-0ad414e84c3e9af8.png",
+                "source_asset_id": "ASSET-0ad414e84c3e9af8",
+                "sha256": "ed13e7c646c4d2f1af8379817c6bd956d68c09830252cfe1711f72b90456397f",
+                "max_size_mm_at_300ppi": [
+                  161.0,
+                  142.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Series of bends, first to the left.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Several hazardous bends lie ahead. The symbol identifies the direction of the first bend.",
+            "post_answer_label": "Series of dangerous bends",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-ce74a0c3ca39997e",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-flera-farliga-kurvor/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "5c26dd8e848d801ff2a86b5f74b4c93e22f1ea97070636afacaabd00179ce0d0",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; A2"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S7-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M17a",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/originals/h3-m17a.png",
+                "source_asset_id": "H3-ASSET-M17a",
+                "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+                "max_size_mm_at_300ppi": [
+                  550.079,
+                  945.049
+                ],
+                "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+              },
+              "source_variant_description": "The question illustration shows a cycle symbol and an advanced marked area. It does not by itself grant priority over conflicting traffic.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Indicates a suitable position for cyclists and class II moped riders. The marking may be adapted to the conditions at the site.",
+            "post_answer_label": "Bicycle box",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-M17a",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelbox/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "427186753c719ae5c5832ca6109826bbfd08d77095f70e3c7d5631c8fcafaabd",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/ae2cbafa3fc197c2b7b990bf.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S7-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "T16",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-641bf72f5ce81ee5.png",
+                "source_asset_id": "ASSET-641bf72f5ce81ee5",
+                "sha256": "e8ab0d1adf1390c498138aaf568b6e1dce4e9ae02864fec4c0f15966490a3bb1",
+                "max_size_mm_at_300ppi": [
+                  420.1,
+                  210.2
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Text Avgift: fee.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Pay according to the stated tariff and follow the other conditions at the payment facility. Read any time qualification.",
+            "post_answer_label": "Parking fee",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-03381d991341be61",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/avgift/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "57d3d65a98b761e992604a0168ec551aa746bdc421b890aa531b1d3d4fbf51df",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; T16"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": null,
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    }
+  ]
+}

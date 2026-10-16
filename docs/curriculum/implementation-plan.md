@@ -1154,6 +1154,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 ### 9F. Resolve faint-outline delivery holds
 
+**Execution record — 16 October 2026:** Reviewed all 9F1–9F19 and implemented required 9K1–9K4 navigation foundations plus 9L9–9L10 reference/viewer components. User selected iOS simulator scope. Retained 76 Android captures and all 19 iOS simulator/Wasm renders; 119 Python and 39 desktop tests pass. All 38 original replacement records remain unchanged and are now excluded from scoring. Twelve small previews remain faint; reader and complete delivery acceptance remain open. These are reviewed holds, not completed acceptances. [Results, decisions and replay](app-migration/implementation-evidence/9F/README.md).
+
 Use the approved framing/zoom implementation from 9L9–9L10. Each code task handles exactly two replacements plus occurrences of that same image in other option sets. Prove actual intended-size delivery and accessible equivalence on supported targets, light/dark surfaces and text scaling. Never thicken, recolour, redraw or substitute a similar sign; changed visual treatment requires an approved imagegen revision. Failed proof keeps the affected questions ineligible and requires an explicit content/ID decision.
 
 #### 9F1. Prove exact S1 delivery and accept its pair
@@ -1592,6 +1594,8 @@ Compare JSON/Kotlin output and exercise fixed seeds across all key positions and
 
 #### 9K1. Implement typed canonical destinations
 
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
+
 Create one internal resolver for curriculum, sign, source and supporting-anchor destinations. Validate parent/block targets without adding platform URL schemes.
 
 **Input:** 9B17 and the 7E routing contract.
@@ -1601,6 +1605,8 @@ Create one internal resolver for curriculum, sign, source and supporting-anchor 
 **Done when:** Every published ID resolves to its exact type; invalid IDs return an explicit unavailable result.
 
 #### 9K2. Import and resolve legacy aliases
+
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Import the frozen legacy-app-4768933c3d9a namespace, 39 chapter aliases, 361 integers including 38 gaps, 178 topics, 343 sign records and 1,000 question routes.
 
@@ -1612,6 +1618,8 @@ Import the frozen legacy-app-4768933c3d9a namespace, 39 chapter aliases, 361 int
 
 #### 9K3. Implement the shared quiz navigation guard
 
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
+
 Route all eight navigation states and twelve entry-point rules through the existing unfinished-quiz guard and related-reading restrictions.
 
 **Input:** 9K1–9K2 and 7E transitions.
@@ -1621,6 +1629,8 @@ Route all eight navigation states and twelve entry-point rules through the exist
 **Done when:** Every outbound action uses the same guard; cancellation preserves the current quiz and no new action bypasses unanswered-test restrictions.
 
 #### 9K4. Implement validated return context
+
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Carry content/block/reading position/focus through reference/source visits and restore only valid origins. Support moved, retired-one/many/none and unavailable resolver outcomes.
 
@@ -1716,6 +1726,8 @@ Render exact source titles/publishers, distinct date types, classifications and 
 
 #### 9L9. Build sign and reference details
 
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9L9/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
+
 Render exact sign bytes, official name/caption, English editorial notice, white framing and reference-group navigation.
 
 **Input:** 9C2–9C3, 9B16, 9K4 and approved 8J.
@@ -1725,6 +1737,8 @@ Render exact sign bytes, official name/caption, English editorial notice, white 
 **Done when:** Images preserve aspect/geometry and captions/credits; study meanings never become pre-answer descriptions. Layout completion does not clear delivery holds.
 
 #### 9L10. Implement the accessible image viewer
+
+**Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9L10/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Add fit, Zoom in/Zoom out/Reset, keyboard/pointer pan and Close; integrate the viewer into approved study and assessment contexts without revealing hidden meanings.
 

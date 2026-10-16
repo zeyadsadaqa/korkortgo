@@ -1,0 +1,9 @@
+<testsuite name="se.korkort.ImageViewportTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-16T17:00:21.940Z" hostname="&lt;host&gt;" time="0.001">
+  <properties />
+  <testcase name="panCannotLoseTheImageAndResetReturnsToFit[desktop]" classname="se.korkort.ImageViewportTest" time="0.0" />
+  <testcase name="assessmentViewerDoesNotUseStudyMeaningOrCode[desktop]" classname="se.korkort.ImageViewportTest" time="0.001" />
+  <testcase name="fitContainsWholeImageWithOneScale[desktop]" classname="se.korkort.ImageViewportTest" time="0.0" />
+  <testcase name="resourceHashMatchesStandardSha256Vectors[desktop]" classname="se.korkort.ImageViewportTest" time="0.0" />
+  <system-out />
+  <system-err />
+</testsuite>

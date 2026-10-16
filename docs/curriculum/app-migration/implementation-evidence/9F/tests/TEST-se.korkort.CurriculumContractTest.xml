@@ -1,0 +1,10 @@
+<testsuite name="se.korkort.CurriculumContractTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-16T17:00:20.048Z" hostname="&lt;host&gt;" time="0.003">
+  <properties />
+  <testcase name="knowledgeCheckAnswersAreSeparateFromVisibleBody[desktop]" classname="se.korkort.CurriculumContractTest" time="0.001" />
+  <testcase name="duplicateOrIncompleteAssessmentIdentityIsRejected[desktop]" classname="se.korkort.CurriculumContractTest" time="0.0" />
+  <testcase name="snapshotPinsExactRevisionPackageAndOptionOrder[desktop]" classname="se.korkort.CurriculumContractTest" time="0.0" />
+  <testcase name="acceptedQuestionsCannotContainUnreviewedImagesOrOpenHolds[desktop]" classname="se.korkort.CurriculumContractTest" time="0.0" />
+  <testcase name="tableAndSourceMetadataPreserveRequiredDistinctions[desktop]" classname="se.korkort.CurriculumContractTest" time="0.001" />
+  <system-out />
+  <system-err />
+</testsuite>

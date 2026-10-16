@@ -1,0 +1,1569 @@
+{
+  "checked_on": "2026-10-16",
+  "status": "implementation verified; delivery acceptance open",
+  "ios_scope": "User explicitly selected simulator instead of physical device",
+  "python_tests": 119,
+  "desktop_tests": 39,
+  "android_captures": 76,
+  "ios_simulator_codes": 19,
+  "wasm_codes": 19,
+  "delivery_acceptances": 0,
+  "held_originals": 38,
+  "faint_preview_codes": 12,
+  "painted_105px_regression": {
+    "painted_pixels": 1281,
+    "height_px": 105.0
+  },
+  "unchanged_since_621cfb4": [
+    "content/questions.json",
+    "content/curriculum.json",
+    "content/sources.json",
+    "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+    "composeApp/src/commonMain/composeResources/files/signs",
+    "composeApp/src/commonMain/composeResources/files/curriculum",
+    "docs/curriculum/sign-assets",
+    "docs/curriculum/app-migration/question-actions.json"
+  ],
+  "fingerprints": [
+    {
+      "path": "composeApp/build.gradle.kts",
+      "sha256": "f2b24f21e5da550f3b6778e2152944d396b92aba3faaa9920f87cba6f18671fa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AccessibleImageViewer.kt",
+      "sha256": "c08c3d3b6d33863aeaa7fbcc7165e53519d6a233439630564329d369b7d12573"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/App.kt",
+      "sha256": "d059731cfaa1e29d372ce8d8f4a3c51d92968cc1498f307006751ef4130d12d8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+      "sha256": "9e75df3339df6dde9ad1cacb4a9bc3a239bed733b589dcbb33c28c1ee342b90f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentWithImageViewer.kt",
+      "sha256": "b89241a1c26a4b0e7480522253a59f8a9b39651cfc3d771953fbdac9602796fa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssetDigest.kt",
+      "sha256": "a9dfd4b73855dbfe045ccab3ebc44008e266524476c66c2ac8547915255d4697"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedOfficialVectors.kt",
+      "sha256": "363c6e70146ba86ff24e8aaa6fee17541b8a2905a39c685e8a7c462bf94b4b3e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS1.kt",
+      "sha256": "ab283e9b8649972d517ae1f90d6164313873406ff664369f8afb292d568505d7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS10.kt",
+      "sha256": "626e4cac3bdc2b5182b9d5dc236c62b50661016175c16f2c9eaae6559f12422e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS11.kt",
+      "sha256": "83a4e69fe65becda527909965734ba182156e67cfe914ce1e7facc6bd8c103a0"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS12.kt",
+      "sha256": "a0df99514158129e5faa7aa486e1d713133effe7a13141169e48feb2feb90a2e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS13.kt",
+      "sha256": "24190a6a365e48cd89cac70229ae894d9337e8e645d1928434f411ada1115bd2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS2.kt",
+      "sha256": "51b8b565112a822165bb59191800e6d6ff7ece508a104c7a0a7f5b89edcd302e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS3.kt",
+      "sha256": "498c4eecef33bd9686b7a30209577f17d25e8b88128dae79f4e015d68aba7103"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS4.kt",
+      "sha256": "91bc92b34760deb354ce6fc82e87a5c54f007aef38d9bc0fd4c6105d89a3dbfb"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS5.kt",
+      "sha256": "9890be0a2592a99b14387edd69fbfcc0cd2ff162e4445d0fe2744dc6eed7d1c6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS6.kt",
+      "sha256": "138f7fcff64eb4c2b35158a3a1eca54d685b0a5aca8355aa37877c35fe49a5ac"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS7.kt",
+      "sha256": "01c488b33111f7c7bc6f9ba86bc208f080abfe5083832b5ea15de4aba864e288"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS8.kt",
+      "sha256": "2ef23c3aa54ff45caf4a09bf77af809e2f3da58d446fa1f291742c7836a13337"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorS9.kt",
+      "sha256": "b1e1efeabdfa610569143e1d319a15c541933ce126d3e085474098fc409cfede"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorT1.kt",
+      "sha256": "83930815a20a3e33ba197c78ded5c276fdf217ce0a3f89111651c409b26a0807"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorT2.kt",
+      "sha256": "ee0f04ed467068e89f52aa14b2c246351d67bc43846b91ea0e378ee5a873d281"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorT22.kt",
+      "sha256": "756293c5652a70c3d21b301f2ba76c53b01dcec41dcfa89e0ac2af0847c868a6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorT6.kt",
+      "sha256": "8982625cebff147099570e40526323759c4aac58224c578aba47c3991cb090df"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/DecodedVectorT8.kt",
+      "sha256": "4fd5995495fe438e269e848c288a16fd15337335760b5eb22eaf545ff35f5260"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ExactAssetImage.kt",
+      "sha256": "7801afdfca3eb44085e374dc9f92b251e1ec56e932b3e33469ec9b3d8c2be0aa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation.kt",
+      "sha256": "6e4c0ab484d01f81e07bb7f6dbaab097b50f787b92b665c54b2061ac875b5627"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart000.kt",
+      "sha256": "d21f769f5fac252485adea54056407f866d0b5ddf56291cbe61bc09bdf3a95d1"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart001.kt",
+      "sha256": "0cd38df28a2f3435663748351ccc5914b17fbcfc4df6dba032ae03338a685d9d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart002.kt",
+      "sha256": "6a7dc3ecdf61f3a0657dbef6000fdba7297bf74fd58cf7343d2db677fb733afe"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart003.kt",
+      "sha256": "e8787ab10102a48cde4e4d61b481743c661220925471b493b69191a9febde304"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart004.kt",
+      "sha256": "bdfdeafc7913f9764b6b437d75f3e8c6a91cd9ac43fd9006069f6efba3d51eff"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart005.kt",
+      "sha256": "15c8d3d04bf687e311642a85033e6c78d9fa2c77f5739f8fe7017e7be14c13ab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart006.kt",
+      "sha256": "cafe11efecb4679cde492999f0120ec8fb87fdfa19210161f041b22d0509f4a7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart007.kt",
+      "sha256": "fda984c4b8665afc22c357a7794c499d6a73ccb4e30a130199ba4a65c917a8ec"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart008.kt",
+      "sha256": "794e11d6b4ba099bf670999b3215c9a9331781fd22c94bddfbfbd450b24dc4ab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart009.kt",
+      "sha256": "140b05d754006db23db4dc6a042b989637a27d1e31c858e716df7caee8bc8d8d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart010.kt",
+      "sha256": "9d6f9d3567998c02b287d91dd206be166f5155e7aa6437389c1b887ec572af52"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart011.kt",
+      "sha256": "d92d904e96de4084a3332dff9a7cd27c0c6ca536e27ca2a573fb55a25f0d6510"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart012.kt",
+      "sha256": "40ac46d04ba828b3fc229351d3e8a8e8d96e22da6664c31369a39b9ea3d55c57"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart013.kt",
+      "sha256": "2d7559c3f827a0b140b898e5eed56a316487d7e84cf784d6e88bc0b23971d804"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart014.kt",
+      "sha256": "e3732af30ab4d48f3803638a8197bcf5c27e6c7010d3dcd1b6b1600e542aa889"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart015.kt",
+      "sha256": "dcd748ea02e5ed5bce245c19c88036fb38c2e941c260c7f4b56a11b1cf996960"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart016.kt",
+      "sha256": "cc70bf80c2584a5ae85b2a8a8101001eb079f676544ce0ad43adee0accb4a92e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart017.kt",
+      "sha256": "915c1d0304b9a6f7c68050a20e688f11ca365a96e6725a185d21461284623612"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart018.kt",
+      "sha256": "a81fd01ad78f09955b9e57a32e3dddd45f45befe0411393cc03cf02816364047"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart019.kt",
+      "sha256": "0aefe8a1e8a37b7c1d3828752f01556213ebd8e398266315c9f62a32ad9aace5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart020.kt",
+      "sha256": "ed13c574e9b3514876a588d94e51c9f7a480475a41031b81617cccfeee205e40"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart021.kt",
+      "sha256": "80fae1f19c6f680f4da58c05aedd406d2f0a354096448a9a4c26691d3b36940f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart022.kt",
+      "sha256": "48df2b72f34fea5e3653aa72345630a74e387a99728fbf168ab610d5ebdd26b2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart023.kt",
+      "sha256": "e1b267c5c311e45277ff506769d2c7d8035d663d0a03daff5d7e9c7d45460065"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart024.kt",
+      "sha256": "4d3ced98c66779241e12c3fa339a687e53b1048d7e8d17968ed05429b12afd98"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart025.kt",
+      "sha256": "7ffbb5fa9868a3d14f9886345983aac8d8cd7fdc3d7d358b8a1add7478e52487"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart026.kt",
+      "sha256": "f9e55b578a02653524b8c415981b185f5ce1af1f0eb14fe78af56a027ce063bc"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart027.kt",
+      "sha256": "5e2c94c557935e0b6ee9f41c6a2fe7712fc61c33df90eebba911285488b24e35"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart028.kt",
+      "sha256": "f467198dc7ed0f34ca1c2efb56050b7dc382ab12ce32f170a9406a9b8ecb951d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart029.kt",
+      "sha256": "99e1f6855855fec60f0d0191eb85b262aeb5010a65622c355615a8992905d66b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart030.kt",
+      "sha256": "8af7a8282a5e683e602a7f4637cdb9e6322c3b2a26bda0d17bf3750f0bd3eeb4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart031.kt",
+      "sha256": "b733d6bd48b106cc2a8c21c8cf6fb5bb691ca93b8aa69af905a407c895dd45de"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart032.kt",
+      "sha256": "e2a4c13a9eae6808f4ca167db82ae39709dc5e965688504dfd40d7565e5570cd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart033.kt",
+      "sha256": "48fc6ca4e15b35b5a1598a13a7745be04624e04e71c0b16fbe598426f6a5814d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart034.kt",
+      "sha256": "dbaa2ed4d11fc43147ef2f62cec2b15f252761c18c2db40abbd862f111e39b5d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart035.kt",
+      "sha256": "0366616009e320f5559894ae845b4fbbb80c199f58e003992b69582b2ab9379e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart036.kt",
+      "sha256": "8a54895cfe888f72be9daca2157df521d712316c4eb3f48b164aae705feec5fa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart037.kt",
+      "sha256": "cdc41f219092372189d5d080108047713e338d7188af40ff86e93c1b246ec6bd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart038.kt",
+      "sha256": "fd317197c44509855652505a529ddd91715968bb0f32694fa79e2aefd9a62624"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart039.kt",
+      "sha256": "f14081ec3490f8d3a56718ae71586bd6696f6f2893acc3cb475bcfc8c5db6d44"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart040.kt",
+      "sha256": "a38cbd360b711428dc51ab6e487c31534f733443ebf7fa83e1b5bbd4caf5165d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart041.kt",
+      "sha256": "55b56f557c8dc6e2216ad48c94b06e33acc01db6495b7637c1e14b7751e422b5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart042.kt",
+      "sha256": "ea9920283648825f40678ae4156f375734c6e2dead0b60bd6b34935201b455ac"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart043.kt",
+      "sha256": "7399149878407281f744281b5771455282b8f82447b78955f157821792f6919b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart044.kt",
+      "sha256": "f222ba2eece5dac33f6c35b4366d242fcc214e05d392c2b2d0734da661cf7e95"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart045.kt",
+      "sha256": "1cfa045ac9e340929483f7bf1a39184308d9df83caded3cc7657ebc33f4da676"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart046.kt",
+      "sha256": "119d59a9c50d7f2fe53b670d7fee7551e85b888678ffcee154625acd8450926a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart047.kt",
+      "sha256": "b8ff35d409209883b0f122e99314718c31b7f06e1836f63b66c8c703323f963a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart048.kt",
+      "sha256": "d3958415b9ff5c66d1c85118621c2887db9c0fdc4806db295f39bd5881a77e98"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart049.kt",
+      "sha256": "4e9a2b36e7996055ee9946e60719a403ed83ea026efda7640d2d3e9f2ea6f315"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart050.kt",
+      "sha256": "d93f300db121884829ff2d9842beccb80abf5e8dd2e13c30755a53fd003cb79d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart051.kt",
+      "sha256": "70f46f2063699d3bb1add7253c48c1b2f4dc3767a4c48eb22da7f22586a645fc"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart052.kt",
+      "sha256": "3a59f642fe1af2f2b3c6bce5ff7572843f9ab8a216b3138722856bc4183e0037"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart053.kt",
+      "sha256": "a89abadb7462fb23395a1ed7df755d32b23ae049a9425658974ee68b06eca6e1"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart054.kt",
+      "sha256": "35f75a281c4e0b7362e2ea1d23d5b15bffe7b2e6a90e6d746a81715a0bc8d17b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart055.kt",
+      "sha256": "c10e8d3d33d28192e79c6ce80d1a8730b0a7e41c6c5c9f9b0dc707237ec3d9ba"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart056.kt",
+      "sha256": "2f7813de61504b94204f912574c2749b31b96931d286a8849a780d1874addfc3"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart057.kt",
+      "sha256": "f29dbd8c2266c07699eaf13655b20ab1efdc41077f42281ecc8271c6514cc362"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart058.kt",
+      "sha256": "fddd1d21427e798750181862b07631422c0abbdc3913099f28a5356d05f18f13"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart059.kt",
+      "sha256": "5011607acba15a373b551f7a3ee844a21e69ba072e1a0b330a6a52224f012123"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart060.kt",
+      "sha256": "02aa55b3576aa810d3ed8d4417d56b89589e4f9d56d636c5c734fd839308f4e2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart061.kt",
+      "sha256": "0c2567199dadc573eb151c43d6ca62282025363489253e6a14a3f89aec880c63"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart062.kt",
+      "sha256": "88253dd79b02a701dbf8eaf924ebfc1ac6d8ad4d6043025c589ee6f4d797e574"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart063.kt",
+      "sha256": "97db3353710123d88c42099e212b095aa793ccf80da6f316be7aeace47eb217e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart064.kt",
+      "sha256": "83db3fc137849a4d5605bff7b972677ede988dad173ef55b8edba9f28ac21061"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart065.kt",
+      "sha256": "d530794994c5ded7120af4fb2c2b49b46a64f61990b46e502ced470a92b399f0"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart066.kt",
+      "sha256": "228563fe25d503414c25a99022cb36138dc97a011da43a349cb6da0e523b0163"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart067.kt",
+      "sha256": "7bb019211f2f2cb8d7059981fe0b53c6a4a5bde5962267bcda0a21b7fe494745"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart068.kt",
+      "sha256": "654077bbbfeea8b1396259232fd90d13fc9608696990afdcb48f19e32e21c055"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart069.kt",
+      "sha256": "4b3fd81d73e03343b834098d4dc11c0438d3bc37b82799efdc5c515ccd60ecc6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart070.kt",
+      "sha256": "01718b9989f8794f8efe80e8d6addec3331feb992a6fb30aff5e74c7a1c649a4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart071.kt",
+      "sha256": "840d931998b8d2ede40ba9de13b81a6b18dd451bc99372269d43a221b405c623"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart072.kt",
+      "sha256": "079593f3a024a800a4f5ea6c48c94342a8d915eb78a57f6dfcb5a32d07286512"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart073.kt",
+      "sha256": "865142d2411452231731efa8061538efd6fda0a5f27c2a1c886ce1e89cd4a29b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart074.kt",
+      "sha256": "8fbdc7f3a9d0d3a8a8bc9f7d2c0547f91fee32dc30d4e68e229575c9c64976c5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart075.kt",
+      "sha256": "51cbe5c23f1b5d338e76f50f267b14124d5a47a9cbcc61d54a0453cf7b632d04"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart076.kt",
+      "sha256": "94431794f0cbcc19e69b832f724c046a3ccc4ed27ff6e9f7ca0ba16ed26d0515"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart077.kt",
+      "sha256": "f1a9b8db22f6d20e3f344aea4212c9980a22413b60609fdaff94a716cd3e4e88"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart078.kt",
+      "sha256": "5de90bf1703c8d5cff5ad93f4e71d538cefee5a1b6160e695b4c4daf98c91154"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart079.kt",
+      "sha256": "1517fbb462c9aa1672a001ca1cb638bbbb5a21d93ce04e6f39da44b78d4b3b07"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart080.kt",
+      "sha256": "e03a1a13c88defa9e93b7f6e9657691b280077adccadf1b27fe9c513db3441b3"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart081.kt",
+      "sha256": "6f75defcba2a1fec1f413e169e44301b73508a33f497bcb28df17d2302d15fc8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart082.kt",
+      "sha256": "93f77fbed191dfa65e59eb9cb61e6925894397dcc60012943ea4882664830c9a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart083.kt",
+      "sha256": "5e34d49888af3f472a37df67ae30dfe93a4493724ae054023cece9ee850f73b2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart084.kt",
+      "sha256": "cb8036194912c215145b9d324e661b0ba7e43567c388bb29b72624353791fda6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart085.kt",
+      "sha256": "b554600f22eb67a7d08e6f48beafaa50fbde65b60a2c3236791c5346134aad21"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart086.kt",
+      "sha256": "5787b414a0854f7a71723628bd1ef8065cfa04db8ebaa3813fc28f018e4dc3b4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart087.kt",
+      "sha256": "65ee838e673b870b8420bef7359235fe921e50078b6d41fb38b1e9b1c6997857"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart088.kt",
+      "sha256": "3de47437bc7e0451f56ce359da985e046ff0bc4459024208a04524f19a9b57fb"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart089.kt",
+      "sha256": "80998202e32848160935f13455ddfc4fbb663eda506f6ac41a6e15b22f275e28"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart090.kt",
+      "sha256": "edd44f5f300671c30eb6119ad7a1f2243dcd165929dbfb9f1b3e8e8b4b7bd4b0"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart091.kt",
+      "sha256": "6b7fe13adc3655dbb41ed70682dcd0009bb837c70f949c7580bfee04e6871671"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart092.kt",
+      "sha256": "6678ddaaf28a50fb5a6ea920637f54a7a28b9be516d69294cb2c04630a3e37f2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart093.kt",
+      "sha256": "92530f0cd5db89af0718ea275c4eded0f4c7c5a56cb7e73eb325130cf45db96f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart094.kt",
+      "sha256": "c511ea850db11508151a36497fd11ccb11151ad0e56d6bec8e33e4b6641220a8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart095.kt",
+      "sha256": "f6175651b8555eb8c437999e4946532c56a556bd7ba60c13ba080b3333fe7745"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart096.kt",
+      "sha256": "d28fa7e8a8e5c781b47a194bcb5c83d941bc3dfbea16295f1ee16dac17c680a9"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart097.kt",
+      "sha256": "7e8979931b9e8a60be49301c624e9dd37024d8bf6b4275943f83884672aaf14d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart098.kt",
+      "sha256": "cf0b26d76c0b4f228159778ee9045167da039cdae949310d037e49cc3a3f8899"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart099.kt",
+      "sha256": "114ee57d4ae4b101b0d7a0218560c4fe3815b5d6cdfe636e08002469d7ef23d8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart100.kt",
+      "sha256": "2451cbca58c06b07a1ecb4116e114f1c2aac40d7dc50c6e238fe5a231577bb8a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart101.kt",
+      "sha256": "7a1d370d8dd4927bd9df1e342d73130ec2f3d3b264263d46f85ff90d761ffedf"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart102.kt",
+      "sha256": "e07a26dee9b3e08648805578c971af1228118f21c533bf536ec26bded7f10e5f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart103.kt",
+      "sha256": "bd98ebef75a40cc369e22ec252e8cb3aadd10c467090e26f9a47f87fec86b826"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ImageViewport.kt",
+      "sha256": "ebe5a5da964b831f72cef70ba4f72791390892df90b1eee193854b7eaeb04a24"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt",
+      "sha256": "85144e983fe333fe4cf611402bf3d6d53e37b7341f10484af48a3165ce0e94df"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "sha256": "4487d1b4aedf9320e4c6531e34d9bff7a12fe9f42bfb6ac9f04bb8e3852a2a14"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ReplacementDeliveryHolds.kt",
+      "sha256": "111bd4929c1cada2d0d2a48ae78bda6034ab56384a9af261458ce311e598ce51"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceDetail.kt",
+      "sha256": "6205eabbfe9020b77f140b492a36c21446ddb8acfe8184e03906d4183dcaa24d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceRoute.kt",
+      "sha256": "6b475309a9c1b24ced2cd1bc0bcda65d4dbd51552054e26b630004b46c139652"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/ImageViewportTest.kt",
+      "sha256": "3ef4977993a59371a55aaf504ed07148c0a3946e8521dc9f2550373197321685"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/NavigationTest.kt",
+      "sha256": "32ec82ba1988199783ef5e4558cf791e2899dfd104b70a645736d1f7b6aee30e"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/SignRewriteBatchTest.kt",
+      "sha256": "7dcdf37dfde8c5ecb9f2e0af0026382a890254479018e13da17e88c5b4ca7462"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/ExactVectorRenderingTest.kt",
+      "sha256": "1aebbb103a68a0e61016799d2eba69b51226d804ec77350aea0e90ff1200e4f6"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/ReferenceViewerSemanticsTest.kt",
+      "sha256": "66f1a61aaea8c0e4c13010fa27d9d6a2491641769785f667deea0c659af609d8"
+    },
+    {
+      "path": "composeApp/src/verificationAndroidMain/AndroidManifest.xml",
+      "sha256": "e07df060246b3837fa06c57ca1a37fefe566633ba7bbd56b4424220419130d80"
+    },
+    {
+      "path": "composeApp/src/verificationAndroidMain/kotlin/se/korkort/DeliveryProofActivity.kt",
+      "sha256": "8a5222eb0b299ce3a613c89a6b9a6a39a95ffe5b01c7842a7fe828459056acd0"
+    },
+    {
+      "path": "composeApp/src/verificationCommonMain/kotlin/se/korkort/DeliveryCandidates.kt",
+      "sha256": "6e5d3bc59a7f156dc63023e7d2d8928b41f698d3d1cd0ab70735619663da13e5"
+    },
+    {
+      "path": "composeApp/src/verificationCommonMain/kotlin/se/korkort/DeliveryProofScreen.kt",
+      "sha256": "05e56ecb0e32bfd3e74b61ee867c35b70042856ae9a6bdee707ec8dcdfdea26c"
+    },
+    {
+      "path": "composeApp/src/verificationIosMain/kotlin/se/korkort/MainViewController.kt",
+      "sha256": "d4cf4cea2e4e414bd2a8dbccadbbe03e1fbddbeb226be11cc33767380bc479d7"
+    },
+    {
+      "path": "composeApp/src/verificationWasmMain/kotlin/se/korkort/main.kt",
+      "sha256": "f02bf721d47a880eebb8a6421a3f22a89e7013421cc179e432d906a33aeb7fa4"
+    },
+    {
+      "path": "content/legacy-aliases.json",
+      "sha256": "a647b5798973a42ea1499809481cffd4d5c7cc98ca03c33e97c8901268370d71"
+    },
+    {
+      "path": "content/legacy-sources.json",
+      "sha256": "d621ad7a272ba09af5ac7ac2362fae394c4bef3542b483067c59e077b931042e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/README.md",
+      "sha256": "caaa07be969e9221c40d627513fec53a3a985aca4ed2845c813596c96cdafafd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.0-part-1.png",
+      "sha256": "7dafb7dbc2a2ad278b19edcd8b4cb3d529629c22bab68804b10b61c2364392e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.0-part-2.png",
+      "sha256": "ea924442042ea3140600b0b4d8ceb98c21d10f77a6cb76f6409da6070ebc28c7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.0-part-3.png",
+      "sha256": "800a54adfc1befb50847a115c496b9357e7de49590bb8e93f21f537117dcb801"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.0-part-4.png",
+      "sha256": "8bc53fb409b60c82a6a00f65cee383bb968b98d597204cb04b0ffb462c8d3727"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.6-part-1.png",
+      "sha256": "37a2d7a472153c4c660a9145c82d6fe6fcb3b771ba75eaf38feb6e3f37b8406e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.6-part-2.png",
+      "sha256": "a114cf94397fd0c303f07d76b33ddc12df44530f9285bc9a27b9df507aa70bed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.6-part-3.png",
+      "sha256": "01504ad4dbf56acbe0cf9c384113e466bee82ba5f30d325eda6c71eff7130933"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/dark-1.6-part-4.png",
+      "sha256": "e5c74106eb55297c747eff6d86cb62d2c2e02d3ac6efeb856c1b79619bd7942b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.0-part-1.png",
+      "sha256": "40a1095da86067f14dff061f942a142aad1fceb365e43dc7a72fbdc48d04c0d9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.0-part-2.png",
+      "sha256": "b293786877ae07ef4148e8f70df0ab3701661ff91275441a58ea3039fbe303df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.0-part-3.png",
+      "sha256": "84c870df8cf13770a9c41ea1a9debf9f0c2e2e52fdfa820e5d118190994b3afe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.0-part-4.png",
+      "sha256": "2f1b4aa526678103e76671709aad581dd5d3732cf35fe9b62c2dafe4db228201"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.6-part-1.png",
+      "sha256": "a7ef03f04ec03954605e8fb3d5e8eba359ddad37b09a8485e7965721caff9b0b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.6-part-2.png",
+      "sha256": "07754eb1421fe98baa84a51c8908a387fcfe39038360a60a31fc2b53ac110ff8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.6-part-3.png",
+      "sha256": "a000f39ffaac12c5313b00873aec6f08e06bc3b80520410392b2769558489a59"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android-review/light-1.6-part-4.png",
+      "sha256": "5916e1ead4c12cc5fa0ceb516cab645d2d07e90ea7df8bf8b4fe878cfd391b42"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-dark-1.0.png",
+      "sha256": "9e4a544b9a883ec7e4a7fb95a89d42e6b1fe5c923f2d72b17664456cb3bf9a6a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-dark-1.6.png",
+      "sha256": "e5bb5cd8dc68ada0d7774a01cfdb752d43399f2e6d077b967cf4ab37d73933f2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-light-1.0.png",
+      "sha256": "2d4ec15a5a73644a66adb44515ab15dfc77347a36f652828428f62aeeab3cd42"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-light-1.6.png",
+      "sha256": "2966164a971ae1c2de83bf0d61e2bf3a935cc687cf3ab03ccfe6c25e56c40e15"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S10-dark-1.0.png",
+      "sha256": "dee0b039dc38eb8e044cb36b77d559c35ad44640ea0349aee414cb0d16acdd0f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S10-dark-1.6.png",
+      "sha256": "b245bc4609b69ca7b4a3c5ea9b67e5efbb254366a19db86ddc08ec93514c8eae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S10-light-1.0.png",
+      "sha256": "ec5b63601f08b112e806be5600c047aa77220b440f1c794397dd853d310f8556"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S10-light-1.6.png",
+      "sha256": "4d4fe078a3d4f63c046a4e4a2d348b432847392950a29eed7237004a0cf9cf64"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S11-dark-1.0.png",
+      "sha256": "a663cbf786eac1ee4752535529806ccec5259d54637843d16007a56e4b3ade28"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S11-dark-1.6.png",
+      "sha256": "92a2a35f4977e675cfdf3ebca961093719666199cd62dc28d9a34b4a88d3ab53"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S11-light-1.0.png",
+      "sha256": "9af6023e8e55e251e862577426b7dff7668a8fc0ce141c3cb6cbf247cac559aa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S11-light-1.6.png",
+      "sha256": "51e9855c34facd62f0b9035fd5b12062df3c38668ccbc5efaa4e793ddbe974cc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S12-dark-1.0.png",
+      "sha256": "a7209521c2c9e3794abc37a46c23bc632d25713bf832e9855947894b917405d3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S12-dark-1.6.png",
+      "sha256": "ed822220afd89c04791812c11b244ce936cf505835a1b6e317575c16e0a7eecf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S12-light-1.0.png",
+      "sha256": "646a022d1c57af89fa47b2b8a5aa01ff3b6867940472ba3bd0f2a9a17b3b36a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S12-light-1.6.png",
+      "sha256": "b30b7fe03a85bbaf4204e20f391db791e3f4d9ffcdc78f9eb2c333d9253239eb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S13-dark-1.0.png",
+      "sha256": "572472fb36ea964c4716a593698c59bd00d1f4bb06ab75073b93cd37cbb458d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S13-dark-1.6.png",
+      "sha256": "7992c442c9fe9cea1a840d504d1f97f324d65a9fc6ce8c72cedd239ef4e5f8f9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S13-light-1.0.png",
+      "sha256": "6c9975b74bce1efa2a257d03cd612c0d0950831a0d9977328788367985808088"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S13-light-1.6.png",
+      "sha256": "603b1c198d6df0b97302d1dd0e2d2a71906949cc60d8e9144bc47ce35af7fafe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S2-dark-1.0.png",
+      "sha256": "37409ebe3fbe42090f8a5c5bb0c95932f2833df700413714834bacc840e9af90"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S2-dark-1.6.png",
+      "sha256": "09c17c95ccd30a977c06c5b96a31da645214b929f34d267e9334d038d7f7d09a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S2-light-1.0.png",
+      "sha256": "1f86dc1184a0132c8767571330d0488413561607fe269cbe09949d24e5ff7797"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S2-light-1.6.png",
+      "sha256": "ed2e12de9bce13418c722350f5b574ed46cd1f04b152000ce29e3e7ddfe89a7a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S3-dark-1.0.png",
+      "sha256": "d59ad97bf118934bd9e1c04e043800b1a1b755c9faf280636bb15b3d899dfb7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S3-dark-1.6.png",
+      "sha256": "ed8ba8dd747f181429e60d9490549981bc6de802046436ecfa98a0d7b31b2421"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S3-light-1.0.png",
+      "sha256": "0cfc40649cbf2421856551c654acb5949bc54570efab49c70cab0ebee3d1f8d4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S3-light-1.6.png",
+      "sha256": "747bc8a4e393503df439dedda5ddf3c459c66b76d780ce86f39ba07eb5244c5c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S4-dark-1.0.png",
+      "sha256": "4a759f5f5a19c2953396511738b45d42f3710b7aba84db3e696f46e1981d1543"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S4-dark-1.6.png",
+      "sha256": "9c9b637649b17e7e7459fc9649c663767dd89341c5dcf2025aff282bc5aa4114"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S4-light-1.0.png",
+      "sha256": "e080f6aeafd6887e02b3d10b0b1dafd5187cf021bd973f531510dcdf6a76f1a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S4-light-1.6.png",
+      "sha256": "1cba634ee0bb6994acd30b16b58e5366dbfe3846f64e6e4f4a8ad164646ceec9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S5-dark-1.0.png",
+      "sha256": "1fe6d098260a6fedbf482804bee7bd52816a125a48fc963dbaa7df2f9d28cd7e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S5-dark-1.6.png",
+      "sha256": "7a4f6c411ed289ccfc870adaab0f8b559b1dca6ccaea529226e09a44d22ff1fc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S5-light-1.0.png",
+      "sha256": "f5c21868e01403e22499d898df9f397009393094cfee7b0e416d7f696927c673"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S5-light-1.6.png",
+      "sha256": "6c5063559b9c8068af59687cd85ab90c78b7bec843549c592dbe76dcbf1d2b7b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S6-dark-1.0.png",
+      "sha256": "df18a136a87780792143c06772a8a80b2299c4eeb20a55fff1e1adada39a838f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S6-dark-1.6.png",
+      "sha256": "c3e57510ef9e829ed2cf9ca5290842b3e41cf420b1b7bc97528fd7093b16d32c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S6-light-1.0.png",
+      "sha256": "a5ef6bfdecdde06915592b03223e7504f1f44a3def5ddfef6debab480273f9f1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S6-light-1.6.png",
+      "sha256": "15595edb994db2d90bbfd801246b5b0b43a644469cfc9f2795803b65386636ed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S7-dark-1.0.png",
+      "sha256": "ca1fd0b70083967a9de28d2bd52cc78e98a1b22cbc05a8d18ef8d43b8eaf352c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S7-dark-1.6.png",
+      "sha256": "02c9eb4067dbccf09c8bb8516c2fd22a0972026c3058498f1093c9d78a935313"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S7-light-1.0.png",
+      "sha256": "3d57f4504782041b00987cfda5c85948da6bc796ffe0118135b54222e13b64a3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S7-light-1.6.png",
+      "sha256": "f305037d1ba30c6f44c7ea88b249c8d8a7c19a3fa05c0053c305dbaed31a942d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S8-dark-1.0.png",
+      "sha256": "fb42fbc1fc746b1d40e31be6d85f0e4d27de748d27e4d1644008a5c4ba323591"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S8-dark-1.6.png",
+      "sha256": "4212734e8d16620f78a8c135ec0f5da9754346eabea6c8dae8bd071afa00cf21"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S8-light-1.0.png",
+      "sha256": "40dd659f3bc023143ef0880e4e6290d86810a58732d11cd86a805001cad962c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S8-light-1.6.png",
+      "sha256": "febbdd1049b62fddd174638606e8c6a2f39e0a8b9b626d628a033585019958c7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S9-dark-1.0.png",
+      "sha256": "3e157a5ed2556b724f97f63a97b38850b3f0082375ecaf66272ddd03846370d7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S9-dark-1.6.png",
+      "sha256": "e7e53799002c30a3c189161280b3662839c3bd376eb46ef7bf62ea1f7400edf5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S9-light-1.0.png",
+      "sha256": "2b4406fa7f7c191f1ffd9949f6328ac1908427d3360e57a49d41937607cb6b7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S9-light-1.6.png",
+      "sha256": "4a1fcb6308a286815cdd4c7342029838868743dfd7e377821a8425a4120ce944"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T1-dark-1.0.png",
+      "sha256": "8f854a17aa4e7250c89c007ee7fd8524cf9f771393108d64facb6ef524d10272"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T1-dark-1.6.png",
+      "sha256": "7debdf92fdc7d29ae054721db0a97494fa0af8baee4c63c6e60d47be78874f1d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T1-light-1.0.png",
+      "sha256": "f8cb7a0dd68ea10021bee623e1dd8d2064bce3fdac60a07340efd19b9be92a7f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T1-light-1.6.png",
+      "sha256": "851937d2e10e19f2423a72ac191fe7a9d5c2919509d84c83f862f8dd82ab8fea"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-dark-1.0.png",
+      "sha256": "1a18bc8ee145d72491468ad4fb14ce751d3317a9f6859d889d083b0db8ce97da"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-dark-1.6.png",
+      "sha256": "27a60b20af7aa67d4080c15c31d3cd7d4274cf6db151fe897d8c92782ba2508c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-light-1.0.png",
+      "sha256": "d80df60b8820f0827b53290cd0c035576c8eda67901dce502445c57cc426aeeb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-light-1.6.png",
+      "sha256": "d2ad7f781d1bd4c4f6eb4890dfc43bf66cad0ea94fa7dbf4251dd3f56ae292c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T22-dark-1.0.png",
+      "sha256": "219269a62f88c2073005c748d0bd2dc4a5028d6023e7498971d93bb8d67980a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T22-dark-1.6.png",
+      "sha256": "00bf2332c3fd8517be14c3cf391fc4f8898d7a11091e254102be87d1ca429d84"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T22-light-1.0.png",
+      "sha256": "14566e17335e8d0d7051d39cf2e030e2202348e0e0ae6e478f1031d869a60f7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T22-light-1.6.png",
+      "sha256": "c97bbf8a949109c0f9b2177b93c72e4f57f9165fb3c7c8f6d5773d37db603f27"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T6-dark-1.0.png",
+      "sha256": "b232a2b8a1e370f7dfff203daac0cbdd273f95678c26174739a5d85d4df73885"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T6-dark-1.6.png",
+      "sha256": "6dd63c8ff60f7238bb200d257216f77230c3024c75436709bf71a2b1696f2f72"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T6-light-1.0.png",
+      "sha256": "e08c464f0732f3f55f9e6d0121aa62ae8d55538fea3aed552d1ab2c5a93e260e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T6-light-1.6.png",
+      "sha256": "7712b3a05e0aee97111eb358d4b178c47730bb68de02eb003c359a306632f846"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T8-dark-1.0.png",
+      "sha256": "c0a7fdcd879936ea16be5432f0272f4b6b6fdf4fe60b6776448150de9d7fa3ae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T8-dark-1.6.png",
+      "sha256": "4b7768ca6772e9479fb3b128f26bdfb168971cde9834e4213ea341809ad95f5c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T8-light-1.0.png",
+      "sha256": "6f76fc423aa35d6dbc9a7abb16c67ab6b83c4e6d9085cf8d60f22c2130822189"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T8-light-1.6.png",
+      "sha256": "2011ced84226ecff631e3fa859815c49528ba5d50165c55d5ca69441e0b1bc17"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/X8-dark-1.0.png",
+      "sha256": "a98b2c8b036ba05f4e1999cae5180bdf9c7f0eded818bd7201a6d0ba22a03118"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/X8-dark-1.6.png",
+      "sha256": "bb106bc7b155ac5ac97d44eb47294787bedd7f5664f3d41d89759ea5497722a0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/X8-light-1.0.png",
+      "sha256": "8f8796fb598a76aa0f08f2dff832ac8e3d5422cc4af7f316ae21cee29bc96a10"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/X8-light-1.6.png",
+      "sha256": "1c6fbee9aa7945df8ede6d885e02293045a838924c566f028ddc42c65c4af3e9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/capture-build.json",
+      "sha256": "c0c674ac8550e9d4503ee84dac3ca9523d3c82ad3630146f0ccefd1dba820269"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/complete.json",
+      "sha256": "cd6a686412fe20854d8057dedce05d88b3a9b4adcff97953a8dcf8522ea64a24"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/progress.json",
+      "sha256": "fe94ac8ccecddb6dac6bafadc7cc17dd738301bea748b0bf8ba1973532f0cab1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/compare_vectors.py",
+      "sha256": "435b0788dc9be16d22643e3d1f230c79b7e8c200e19f6c7e83af81167f4c82cb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/delivery-summary.json",
+      "sha256": "8fd4e5753319dcb1c10418ccc669171a8a86cf847bb9783d91611fa2bbc59047"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S1.png",
+      "sha256": "093400f3277e9a5797b7a54c95f270ce8c3bef135a59e5bdb9a3781601ad8bf0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S10.png",
+      "sha256": "59bb267e9c361d6ac963e6ed9ccc0f0a6a5d7e90c1bc061c314dc3d91bc3f92c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S11.png",
+      "sha256": "45c13fe92c500a93a69c38e67a3e8006d4cfde1b5e72e9482792c7b42634064b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S12.png",
+      "sha256": "80bf9fa8eeec5759ed9cef8252caf982a600eff6a4c1f49e88177237ccca9c36"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S13.png",
+      "sha256": "07e889b0d267e6ad7ee6b8f81ee9ff9f00adc74b023606e8cdf9cbc3f7f73081"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S2.png",
+      "sha256": "1bb3e653db8d37acda6e0fc1b4ffd116ac5d15056c59ac1c6c4f126d187ce2c7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S3.png",
+      "sha256": "3ae9609c705a8dc95dcabf5618014807b1acf8aa719a4f6be21ccc7328387209"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S4.png",
+      "sha256": "765fb5ffc4cc0c8284ac1df7fea1db5257e07960b4fd3ec5a5aedf63e6cbd3b3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S5.png",
+      "sha256": "9baeadcce1f7ab4cc1c8100f84f2dcbf5a99034ec97b2b8eae724d8112702af2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S6.png",
+      "sha256": "a23fb5e976eeed19e7c0b0a88319b04c02a650a50959e656fc9ac5d929e1c709"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S7.png",
+      "sha256": "0c9668525d5d7312866ae183e362eab4d35bb997dd81aaeff76eb4d2ab65f710"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S8.png",
+      "sha256": "2e71d196e4a0e30d47cf054bbc70aa28912cd82ae363b8fc17a6c9c63c2b48f5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S9.png",
+      "sha256": "58a86046717a5d583604c56350ccfe455b67d9cd136e6fede42c4cd45b7b952d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T1.png",
+      "sha256": "e17b360358550ec307b6c0452f99829b592b02559c7b4f15bf78b68097844bf3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T2.png",
+      "sha256": "8336f5c44b823e99186afef3df6891c5dd230ff4d7dcd1be7613ddce5dc20682"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T22.png",
+      "sha256": "7ef816da8a46b4e98c86ffa8fe85a5cd0e39df86bec8728016e0b1e3f20599b5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T6.png",
+      "sha256": "9e6c30fadab011ffe4d9b20da171eec48cf460d271ff50c181448ddee5ed4d0e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T8.png",
+      "sha256": "492ba92fff7eadd36ade357b1c9eacc79d115b67fbbc23307b0e27a688c76a3a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/X8-viewer-return.png",
+      "sha256": "9a49380c1d9bd77b8a4db0df53813a6b1c7e189d50193b349b7590d2f994e368"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/X8-viewer-zoom.png",
+      "sha256": "05753eabf9c1f8080819126230254e73662eaf87936d07b9333088e169fbf0aa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/X8.png",
+      "sha256": "2ff81bb44ddc62f837c13658ad397205e1b0782ad9b8bd1a4ab3f32c3dbe378a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/captures.json",
+      "sha256": "6fadedfcd4783f341915b6d55b26477fbe5f0cb3fd75e199a6803258a2e38131"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/review_captures.py",
+      "sha256": "3972ebb223d228f6a6914213d0b06960677864f00b200ea10fec58c5e83e980d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "37e68639f5274075ac306a8838d7efabd6eaa681c73860c8272319869a15eae8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "96c43bcda05a5282b8818cab89da7f881163907e2cc9e7ab13feed33ba7f1ecf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "e842a1696eda285f7fd85404b017a4feed89b62fc123ff3c86f87930a90d02cd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "sha256": "aea806a77448d508bf6426703051460350b89bb6ff9aaf1b96693b4ea4fe2ff8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.ImageViewportTest.xml",
+      "sha256": "e1adbb79773f6662892644df4ae5254136aba375b4db2b3642cdfb6245902d41"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.NavigationTest.xml",
+      "sha256": "6645fb5198c48e1fb208f2d472a4a5525087bf2afa83279b9bdafc9b2f719fb3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.QuizTest.xml",
+      "sha256": "169d9f98033cbaac221d1c7854ec296ffa191b0c1c414b712e74937f84cb3083"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "sha256": "f39d29864a27299b1236c3f7f432f5664418bc69315305ab66c023847ca6a3c4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "sha256": "75f79b7155879e8b36e07968e24b865ac204d3903802a29f64e1cf4f65a70a95"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/assessment-min-height-bounds.json",
+      "sha256": "21e1180a3cfdff3a24c420aaf814361a7d2bf61ddef3a76fc0e168483239e8e0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/assessment-min-height-pixels.json",
+      "sha256": "12553a0cb4c4515205407d9aeea8cd2efaccf3f957353b6b47edb3ea32aead6b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/assessment-min-height.png",
+      "sha256": "cfdb1b219c8107d479422fefead17444bcff55a0ec5a845993fd04d3ba535e73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/ios-simulator-build.txt",
+      "sha256": "c2073ab959d5829305f4a65923bbe24560524cf6769083c10d6479835cf0565a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/platform-build.txt",
+      "sha256": "17f64ef36b266ace5d71741f70a557f607e7e20e3ed507205a0153b241b76b1e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/tests/python-tests.txt",
+      "sha256": "db786d2cd0bc2e8171bd922b79e8ee5da7356d732bf2282c934dc70da3a24786"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/vector-comparison-sheet.png",
+      "sha256": "aef248e400c9f8db21a7765e582f76f2ce4bf7a40f22cd709d419546562bd287"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/vector-fidelity.json",
+      "sha256": "c5fec53b19a9d8a32c86ee8ae53090104bcbd0b61f4f92c802e0f46adca72b48"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/verify_delivery_work.py",
+      "sha256": "218d803336934ba90112cb0629a2e0efe26fb9b8b2656aee49456dc7b188c6b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S1-viewer-fit.png",
+      "sha256": "e5820de673fe13505f3d27423e9cc1688dcd444fce4cc28f6d4a0fd0711978d2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S1-viewer-zoom.png",
+      "sha256": "0ec9c465ef1d63af720c2f9cc2a15c275ba240b7e8ba478ad7ab31dd69a76bda"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S1.png",
+      "sha256": "6c5d22565f4a28cd923d30c62ca2481fbcc32b19ad615d005b9aaef98805e90b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S10.png",
+      "sha256": "db6f97fba28d0e90c94d1f866c250a9ae93a773e80169e4278edeac636fd7fcc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S11.png",
+      "sha256": "11f9b6c2f65cda93aa9dbade2ce2f0a45a3455f0ad059662ea77560256003111"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S12.png",
+      "sha256": "715a89ceead28a315e7d6228735c768b86da056d751a92e9f2473b36423abf42"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S13.png",
+      "sha256": "4cc178e034242537049abc51dcdc329bd1745fd6b800d0b1971650688ec0123f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S2.png",
+      "sha256": "81dca0822c155436d65724192e7e642d015f82822da6cc19692030f9e87113c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S3.png",
+      "sha256": "5663e1e099d53d59551bc8bfc3d2d058a63faf33303771ff4414146f0bbe7dbd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S4.png",
+      "sha256": "86c94080fa7291f89e02059df614b3864300834ea83080389dbf90aa3c1e3fa7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S5.png",
+      "sha256": "b8d9ed498706b88555c5fb96a1ebcf34a654b90902414b7be3f0542a7498fac0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S6.png",
+      "sha256": "3043b39b30eb6f67dfe3069101c83aabc410f20146c2473c7024cdaab4771ca5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S7.png",
+      "sha256": "163e73d8d6e417583ea2ada737bc9191d15ef603ea9d02b318a9bcbee2956414"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S8.png",
+      "sha256": "8e86a9680b565abcab8e3163b59e1fdf217bf045604af32bc6d23af9225d0025"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S9.png",
+      "sha256": "76531188ecfb5c1809f0c704fcaff0ec7d90e86ba872a08c2788f72c00a1aebe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T1.png",
+      "sha256": "611998c1854e26c73bf793db632c143a9e263853750678772e975d4826ee77f9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T2.png",
+      "sha256": "67b72ea13290c5832d531cea54fa915ccf31752007595d5951244744a275bcb5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T22.png",
+      "sha256": "9e05269c6612d82f159ce41a31ea3a7a2a9286989e1bc7ace8a002b8038cb55e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T6.png",
+      "sha256": "64c44d493cb64100854cf072e475adb21dbf39c29d471f03946a89e9bde86f1b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T8.png",
+      "sha256": "a478a4c2a54e11a073e835b5acf4635580eb7f5135687ff9aa84db9473fae34b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/X8.png",
+      "sha256": "d2385c6692c2aa1d865553fb3b5d17c8b282747c28249ee1855c9bebbad18c75"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/captures.json",
+      "sha256": "c380082afcc13165327229d93f068c5ffbf34231e083e8d7d07005db4370da9f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F1/README.md",
+      "sha256": "478c0dfd9d0e61dddeaa7c148528ee17a5f78b76953ba9ea89ded440a45aff8f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F1/check_readiness.py",
+      "sha256": "eb3334b3ff15f428b95dfa8b5686c9a972f7bbd7a61292511882cd488217548e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F1/delivery-proof.json",
+      "sha256": "ef9be51ba1405edf2a0e1e56ca004f9a82f0a0cfd36e0bffad8ddfce3a730ca0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F1/proposal-review.json",
+      "sha256": "49c980d928b360b7bb7e08aac6504e2d9b86c64161f15dc306b5a646c0feb84d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F10/README.md",
+      "sha256": "900e4091d7abf5012279a26c30dd469b15200acc6e33fbf48451139b926c5cf2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F10/delivery-proof.json",
+      "sha256": "eea1f3738e893068732da60a0b517e5bd218e2f93f2c92814f8fd738932adcfa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F10/proposal-review.json",
+      "sha256": "a35eca40f45fe0ac1c0a6b00863839e956f90bdf08f59431d79989f52275e21c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F11/README.md",
+      "sha256": "0cda31d824ad8527083258c7d65d6cf5c8e26618694136f241dd434925d1bb90"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F11/delivery-proof.json",
+      "sha256": "1f5c3bca30d3548543498987b7f376f3f6baa8d5f5bc92e02423916885baea77"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F11/proposal-review.json",
+      "sha256": "2988979a6f86bf955cba6344c7e717cade65201eab33f5bdeba7d91e46b07b0b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F12/README.md",
+      "sha256": "624fad5fb8272ad0c244cb4f813cf67793918a23e3844e047a79226ec5939e3f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F12/delivery-proof.json",
+      "sha256": "d2d7f2116df5880935814a6d2d23005ec5b4dda4cb235b2c08b61d984a2becb7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F12/proposal-review.json",
+      "sha256": "727fdfa8f815c823eab97b59df085054e31e8d1594ac9c5507308dafac0140f4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F13/README.md",
+      "sha256": "8d6076b94273cde1936b74b4e309a97312b28ab0d945676386ae49f24c8aee50"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F13/delivery-proof.json",
+      "sha256": "af44559a03d098a09e021a3df544333262e6eafa9e70973aa0c11abaa7962a54"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F13/proposal-review.json",
+      "sha256": "cdf706199869f1867199e5c319246e2cf8063c013ddf814cf698a192779bf32c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F14/README.md",
+      "sha256": "a43e4c6a70e1ab89e5a6ebfe364332465d420de7e549fbd71042b002a38eb1ac"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F14/delivery-proof.json",
+      "sha256": "d8cf1fe9ba59ae8165b45ccc84d5aeb06da800ed2befb99a52e2c1961b5ca5b5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F14/proposal-review.json",
+      "sha256": "cf7a2326740456f2ca3aa75a65a9b77381a8eeff0c96f3f2e907775ab468f7fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F15/README.md",
+      "sha256": "f3ec6abef7d1247a361bfe12b4508ab567756f6eb7a174d50e592dee5879b9d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F15/delivery-proof.json",
+      "sha256": "3bb9f9a03b2c8f2f29103cda29a7869db6e0c1703e226754ca67d7bd237e285f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F15/proposal-review.json",
+      "sha256": "4514b2205de1a37ed313058b542d14ba1c6503d5efa8cdf3a5ba53bf2749a231"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F16/README.md",
+      "sha256": "6e8392b306a230169f350fcecfa73189f997576c99fe71e42519166723ca7b2c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F16/delivery-proof.json",
+      "sha256": "7788726065c89800e709c59b6e966d5ab887382e69bc9c7358c6e6714faaeeed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F16/proposal-review.json",
+      "sha256": "5200ace1961e2c3fe37e38bbe431526dff8d38e940c249c65d1383a157dbc03b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F17/README.md",
+      "sha256": "2a6115fac7bcdbc67e95ce809963157324d3377c58601b5c4624dab4351a31df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F17/delivery-proof.json",
+      "sha256": "4c6e74c9370552067970f764bd3fa1585e549d4c3404a856f1de2de526d5f16a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F17/proposal-review.json",
+      "sha256": "b4e30437f38f9df1234882f04d9661fa6b85347690ef64c41887ba97b320d0c9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F18/README.md",
+      "sha256": "e81c671f403a1539eb95c4a8bef2a656329e2a3838d3c029d138890041a68b1e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F18/delivery-proof.json",
+      "sha256": "8590541b741333c48170f4e078c6ba9cf76377d22b1814d2864f49981298e803"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F18/proposal-review.json",
+      "sha256": "51ef0f2971ca8e7fe1aab46596ccd2f136d257a3c8cae13a913937ed0601892f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F19/README.md",
+      "sha256": "2569c052d8bd088f78960089d095cd0f49344500d2ec66bdd69d1f99e36ee66a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F19/delivery-proof.json",
+      "sha256": "85ec8ee11f7b88fc0d66114c4780bc1b78b6ace61c901fcb77b8039c3c996bfe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F19/proposal-review.json",
+      "sha256": "80daca6c406faaa41ffd77498af991f61736e7bea88ff022160bf7fc1a903b25"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F2/README.md",
+      "sha256": "fe2ada076db35b04f1f3e3686526ba252263a58066ba9cde09e870a4f117ceac"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F2/delivery-proof.json",
+      "sha256": "d5df8a9b56338aab79891719fbb95d7e4ef6a4e04b52e5a881ce4b23cb4c6c70"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F2/proposal-review.json",
+      "sha256": "1b5926184b4fcd414bd1b7c398f72c745501348e58a8e47eea57f89348314e46"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F3/README.md",
+      "sha256": "ca31fb096f16bcceb26378643ae3b7b8b02abb2fd540fca3f364da87035201c4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F3/delivery-proof.json",
+      "sha256": "5826c72a46cc3c12500d6b01441215d9ca91608ffc08e521bcc1c5706838e39c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F3/proposal-review.json",
+      "sha256": "20e818b2c032d8d30d2f4822999a2c72104e1ab7c5ee428c12ae26d932d14825"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F4/README.md",
+      "sha256": "9882eee6393cb45c0d0a7070c3825fa1e332aa9d320a0d4e60b94a01b3035bb7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F4/delivery-proof.json",
+      "sha256": "ef0e08d19b6677e98f192b2ffe8d0ff22abb77257def12c1e6ac843c45899f34"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F4/proposal-review.json",
+      "sha256": "a26ca903a414e87c195195c04d96a631a975283afa1574d5c679eaef32b867d3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F5/README.md",
+      "sha256": "86eed7f9ac461738cc20ee6ed790d0e549948985065c77dfb9fa971dd80180c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F5/delivery-proof.json",
+      "sha256": "2f307ac8b8309addc92d5c9c6066657b36df2c393ca744018ab4c6d40893c18a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F5/proposal-review.json",
+      "sha256": "3ad6758e06a08edd2274c69b568c5f8d8a0bf3a85e0e2f6cef61fb450f027774"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F6/README.md",
+      "sha256": "76699cde6989527ad9e1d1b44efe036b8456c0a60fb6629aba0ca2c47ced3172"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F6/delivery-proof.json",
+      "sha256": "94ca679d5465095f11aa608f6f31dd1153eb9f0127262e029a8e35d0d52a024b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F6/proposal-review.json",
+      "sha256": "f28ddb12d99b8fbfd4c80623c0d8706f16b5e530fccf83ea5fad676e775a2d50"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F7/README.md",
+      "sha256": "4032ef0f424eee4bdf4e6a412604cb8b826ee2051f31daec677e079b9684c8ae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F7/delivery-proof.json",
+      "sha256": "dd5295eeae56fd612f96822cac1524ed01be4cdc3a6586f6697af4c192cdc352"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F7/proposal-review.json",
+      "sha256": "d2a0b8b3d0c0725a53c100e61f6d78c06ece6345e4896ffa316ae32c084cdc85"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F8/README.md",
+      "sha256": "f1694f0800e2dec0ce781bbe43b907c7424bacfbc8015457d713cee586430512"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F8/delivery-proof.json",
+      "sha256": "6a1f1f4149c81ad45e1abfe2ed85c62bb420886168dbc0deac0e44f1ea8c2cf3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F8/proposal-review.json",
+      "sha256": "70587e6e33a2194868131966fa9b9b711da0c06dfe3c4fb8437acd35aa6ecb7c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F9/README.md",
+      "sha256": "b236be5d06fa2649ba7c944e86c33bc5222b9eac16f32167279580665585d86b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F9/delivery-proof.json",
+      "sha256": "03906609d55e9c1c55ee8876b2a69004cddd8ada00480f3643e95fbb5f979f1b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9F9/proposal-review.json",
+      "sha256": "d5108aaf7c69966ffb5802a02b3e50d47ca9f7d17164f67b862fea55c9265de8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K/README.md",
+      "sha256": "a44a80d195232db3c62020eee1b9f1267b4b01ca14bd0b95168fa38824412a66"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K1/README.md",
+      "sha256": "fef4834fae7abb78fa3d558468f7e378b4a8ea4f48e104149ef97db822319390"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K2/README.md",
+      "sha256": "19fca9b01dc42a56852b86c1c61a9546badb5cbd973adf0496457f9fa0a019f3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K3/README.md",
+      "sha256": "ac48954ddc76c76de54dbaaba0be40b8e6450e701ad4e4575208d315012a913d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K4/README.md",
+      "sha256": "dd85e3fc41fb011c61220df7c2242506ff1330714811d79f8b87caff1db36cff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9L10/README.md",
+      "sha256": "134fb6837bfea86a7ce6888a468c452333b771208891c17928f4da8a2fd04790"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9L10/vector-decoding.json",
+      "sha256": "f4e31d10c6099d031869104c7bc5121b38bf0e283149e049a2dafb0cb8a2d7a0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9L9/README.md",
+      "sha256": "b6f6815a9cdcb7e933ae4a926b4156bd335b7ed22a07780c51ffa63a24430535"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "sha256": "e7f88ee7e3ab1968942fc260bbf8ae9411c35cf3d573dd4cd3362eb521c55412"
+    },
+    {
+      "path": "docs/curriculum/progress.md",
+      "sha256": "4dc260ebd39bdc5a3e0889063079408755585b30ae42cd7e8837d0eee87e1c0b"
+    },
+    {
+      "path": "tools/build_navigation.py",
+      "sha256": "f084170b820a89ede3304a565a6791c0320d8d56235ce2f9ce1c21fcf58b0dd2"
+    },
+    {
+      "path": "tools/check_sign_delivery.py",
+      "sha256": "d7c111e7101d2b81e8407956538dfb984e64b699c2d125d038f305435291157c"
+    },
+    {
+      "path": "tools/extract_official_vectors.py",
+      "sha256": "cf2722abb114f5ca545fced8acf680545269e49684fb0c829257d914db53ff63"
+    },
+    {
+      "path": "tools/prepare_delivery_fixtures.py",
+      "sha256": "1afb5ef2e1755b25195b888183eee4f35d4b9954ce74d0b936c06dfc7303e684"
+    },
+    {
+      "path": "tools/requirements-vector-decoder.txt",
+      "sha256": "9ddb7bf015b0ad6fae8c07b4077a45498c7f5825315d65b20a0a071c7a5c88b7"
+    },
+    {
+      "path": "tools/test_build_navigation.py",
+      "sha256": "2e4d729391ed516a14e772df693fd8f96ff53c3c2e544be46fcc7b1839c3161c"
+    }
+  ]
+}

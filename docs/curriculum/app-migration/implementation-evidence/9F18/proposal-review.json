@@ -1,0 +1,413 @@
+{
+  "step": "9F18",
+  "application": "deferred until delivery acceptance",
+  "question_ids": [
+    "sign-meaning-T22",
+    "sign-recognise-T22"
+  ],
+  "questions": [
+    {
+      "question_id": "sign-meaning-T22",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D14/description-acceptance.json",
+          "sha256": "873d5e3372538f15f514649639e02de3a247b9c891db777d7aac1bf952b2de01"
+        },
+        "locator": "json:/questions/38"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+        "target_code_metadata": "T22",
+        "post_answer_explanation": "Read the text as a qualification of the sign above; it supplies information not expressed by the other panels.",
+        "post_answer_english_label": "Additional written instruction",
+        "original_option_codes": [
+          "T22",
+          "A37",
+          "F27",
+          "M5"
+        ],
+        "proposed_option_codes": [
+          "T22",
+          "A37",
+          "F27",
+          "M5"
+        ],
+        "options": [
+          {
+            "option_id": "sign-meaning-T22-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "T22",
+            "meaning_option_text": "Additional written instruction",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/official-poster/T22-official-vector.pdf",
+                "source_asset_id": "POSTER-T22",
+                "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871",
+                "max_size_mm_at_300ppi": [
+                  110.0,
+                  56.29
+                ],
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 110.0,
+                "reason": "Exact vector extraction from official poster. Preserve outline artwork at the reviewed width; do not use as a small raster thumbnail. Size field records reviewed dimensions, not a vector resolution ceiling."
+              },
+              "source_variant_description": null,
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Read the text as a qualification of the sign above; it supplies information not expressed by the other panels.",
+            "post_answer_label": "Additional written instruction",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-a8db097ec6653109",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/text/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "316d020c4e64297ffba5f0fe4979d0437025ddc462e3ceb52ee12eca5e8fcde6",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; T22"
+              },
+              {
+                "source_id": "TS-POSTER-2021-10",
+                "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/vagmarken/ts_poster70x100_2021-10-01_webb.pdf",
+                "retrieved_on": "2026-10-03",
+                "document_sha256": "009f425752e099baf13200ba253b160753bef6d81db8f1e68cb7073b38a083eb",
+                "locator": "Official poster, T22; exact vector box retained in vector-extraction.json"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-T22-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "A37",
+            "meaning_option_text": "Tram crossing without barriers",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-0c454ec27416069d.png",
+                "source_asset_id": "ASSET-0c454ec27416069d",
+                "sha256": "c481a52c68bb2d48ae720e222ce102b121e5082b7c2aa50b5e24624a9786fe00",
+                "max_size_mm_at_300ppi": [
+                  161.0,
+                  142.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Tram inside a warning triangle.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "A tramway crossing without barriers lies ahead.",
+            "post_answer_label": "Tram crossing without barriers",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-dc30abd5657dba2f",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-korsning-med-sparvag-utan-bommar/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "c5960ca3b14080b0d443f7d2d9df5d7a85cc10250f1b504039562383773a03e4",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; A37"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-T22-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "F27",
+            "meaning_option_text": "Interchange number",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-9dbec25c32c9563c.png",
+                "source_asset_id": "ASSET-9dbec25c32c9563c",
+                "sha256": "44b8f2db27fedadb3d6e60d1aff92df9708fa3af7582632673072f0e2e802cf9",
+                "max_size_mm_at_300ppi": [
+                  81.5,
+                  33.0
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Interchange number 75.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This identifies the interchange number and may include an exit designation.",
+            "post_answer_label": "Interchange number",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-bf5cd1391be245b3",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/trafikplatsnummer/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "6688b2b0110ba19c6d0d720c6c572d497a97cbf898505450aa5167ce007060f9",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; F27"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-T22-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M5",
+            "meaning_option_text": "Cycle-lane boundary",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-03ebbe58a1e4fb52.png",
+                "source_asset_id": "ASSET-03ebbe58a1e4fb52",
+                "sha256": "89651295da82f87f36b2f8c36d95481c6b2bdb1f1aa1711e500d898824699152",
+                "max_size_mm_at_300ppi": [
+                  41.2,
+                  12.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Closely spaced white cycle-lane boundary strokes.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This marks the boundary between a cycle lane and another lane.",
+            "post_answer_label": "Cycle-lane boundary",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-78b644f48a3925eb",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelfaltslinje/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "35dce1e862592e767a2e0737ef35e1adc9745c72890f55ea44c5bf508db8d6db",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M5"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": {
+          "path": "docs/curriculum/sign-assets/official-poster/T22-official-vector.pdf",
+          "source_asset_id": "POSTER-T22",
+          "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871",
+          "max_size_mm_at_300ppi": [
+            110.0,
+            56.29
+          ],
+          "format": "PDF",
+          "minimum_reviewed_width_mm": 110.0,
+          "reason": "Exact vector extraction from official poster. Preserve outline artwork at the reviewed width; do not use as a small raster thumbnail. Size field records reviewed dimensions, not a vector resolution ceiling."
+        },
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    },
+    {
+      "question_id": "sign-recognise-T22",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D14/description-acceptance.json",
+          "sha256": "873d5e3372538f15f514649639e02de3a247b9c891db777d7aac1bf952b2de01"
+        },
+        "locator": "json:/questions/39"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which illustration identifies “Additional written instruction”?",
+        "target_code_metadata": "T22",
+        "post_answer_explanation": "Read the text as a qualification of the sign above; it supplies information not expressed by the other panels.",
+        "post_answer_english_label": "Additional written instruction",
+        "original_option_codes": [
+          "T22",
+          "A37",
+          "F27",
+          "M5"
+        ],
+        "proposed_option_codes": [
+          "T22",
+          "A37",
+          "F27",
+          "M5"
+        ],
+        "options": [
+          {
+            "option_id": "sign-recognise-T22-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "T22",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/official-poster/T22-official-vector.pdf",
+                "source_asset_id": "POSTER-T22",
+                "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871",
+                "max_size_mm_at_300ppi": [
+                  110.0,
+                  56.29
+                ],
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 110.0,
+                "reason": "Exact vector extraction from official poster. Preserve outline artwork at the reviewed width; do not use as a small raster thumbnail. Size field records reviewed dimensions, not a vector resolution ceiling."
+              },
+              "source_variant_description": null,
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Read the text as a qualification of the sign above; it supplies information not expressed by the other panels.",
+            "post_answer_label": "Additional written instruction",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-a8db097ec6653109",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/text/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "316d020c4e64297ffba5f0fe4979d0437025ddc462e3ceb52ee12eca5e8fcde6",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; T22"
+              },
+              {
+                "source_id": "TS-POSTER-2021-10",
+                "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/vagmarken/ts_poster70x100_2021-10-01_webb.pdf",
+                "retrieved_on": "2026-10-03",
+                "document_sha256": "009f425752e099baf13200ba253b160753bef6d81db8f1e68cb7073b38a083eb",
+                "locator": "Official poster, T22; exact vector box retained in vector-extraction.json"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-T22-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "A37",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-0c454ec27416069d.png",
+                "source_asset_id": "ASSET-0c454ec27416069d",
+                "sha256": "c481a52c68bb2d48ae720e222ce102b121e5082b7c2aa50b5e24624a9786fe00",
+                "max_size_mm_at_300ppi": [
+                  161.0,
+                  142.9
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Tram inside a warning triangle.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "A tramway crossing without barriers lies ahead.",
+            "post_answer_label": "Tram crossing without barriers",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-dc30abd5657dba2f",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-korsning-med-sparvag-utan-bommar/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "c5960ca3b14080b0d443f7d2d9df5d7a85cc10250f1b504039562383773a03e4",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; A37"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-T22-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "F27",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-9dbec25c32c9563c.png",
+                "source_asset_id": "ASSET-9dbec25c32c9563c",
+                "sha256": "44b8f2db27fedadb3d6e60d1aff92df9708fa3af7582632673072f0e2e802cf9",
+                "max_size_mm_at_300ppi": [
+                  81.5,
+                  33.0
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Interchange number 75.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This identifies the interchange number and may include an exit designation.",
+            "post_answer_label": "Interchange number",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-bf5cd1391be245b3",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/trafikplatsnummer/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "6688b2b0110ba19c6d0d720c6c572d497a97cbf898505450aa5167ce007060f9",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; F27"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-T22-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M5",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-03ebbe58a1e4fb52.png",
+                "source_asset_id": "ASSET-03ebbe58a1e4fb52",
+                "sha256": "89651295da82f87f36b2f8c36d95481c6b2bdb1f1aa1711e500d898824699152",
+                "max_size_mm_at_300ppi": [
+                  41.2,
+                  12.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Closely spaced white cycle-lane boundary strokes.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This marks the boundary between a cycle lane and another lane.",
+            "post_answer_label": "Cycle-lane boundary",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-78b644f48a3925eb",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelfaltslinje/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "35dce1e862592e767a2e0737ef35e1adc9745c72890f55ea44c5bf508db8d6db",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M5"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": null,
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    }
+  ]
+}

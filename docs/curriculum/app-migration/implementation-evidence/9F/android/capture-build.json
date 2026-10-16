@@ -1,0 +1,19 @@
+{
+  "scope": "Final Android minimum-size verification fixture; not scoring or screen-reader acceptance",
+  "apk_sha256": "a8d0ff237259cc0768ac3cf81e3840b91bf6e322123de035f15f6cb6267f3416",
+  "capture_count": 76,
+  "render_inputs": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ExactAssetImage.kt",
+      "sha256": "7801afdfca3eb44085e374dc9f92b251e1ec56e932b3e33469ec9b3d8c2be0aa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ImageViewport.kt",
+      "sha256": "ebe5a5da964b831f72cef70ba4f72791390892df90b1eee193854b7eaeb04a24"
+    },
+    {
+      "path": "composeApp/src/verificationAndroidMain/kotlin/se/korkort/DeliveryProofActivity.kt",
+      "sha256": "8a5222eb0b299ce3a613c89a6b9a6a39a95ffe5b01c7842a7fe828459056acd0"
+    }
+  ]
+}

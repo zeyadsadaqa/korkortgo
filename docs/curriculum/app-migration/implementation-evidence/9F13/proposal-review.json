@@ -1,0 +1,394 @@
+{
+  "step": "9F13",
+  "application": "deferred until delivery acceptance",
+  "question_ids": [
+    "sign-meaning-S13",
+    "sign-recognise-S13"
+  ],
+  "questions": [
+    {
+      "question_id": "sign-meaning-S13",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/44"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+        "target_code_metadata": "S13",
+        "post_answer_explanation": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service.",
+        "post_answer_english_label": "Passenger-ferry symbol",
+        "original_option_codes": [
+          "S13",
+          "G2",
+          "H22",
+          "M1"
+        ],
+        "proposed_option_codes": [
+          "S13",
+          "G2",
+          "H22",
+          "M1"
+        ],
+        "options": [
+          {
+            "option_id": "sign-meaning-S13-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S13",
+            "meaning_option_text": "Passenger-ferry symbol",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+                "source_asset_id": "H3-EPS-S13",
+                "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 110,
+                "max_size_mm_at_300ppi": [
+                  110,
+                  68.547
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+                "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The passengers-on-a-ferry illustration is not a promise that a car may board. Compare G12 for the passenger-ferry facility sign.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service.",
+            "post_answer_label": "Passenger-ferry symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S13",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "d2d5c30af2a0a25f8b7c97921d74587dbd885ae517d35c541f914a66a9b8297d",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a90c5a922b955489ea30b501.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S13-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "G2",
+            "meaning_option_text": "Emergency telephone",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-311c623d7db9ee8f.png",
+                "source_asset_id": "ASSET-311c623d7db9ee8f",
+                "sha256": "1dd6a8ef18f0c8adf825a44533ccf20e71efa9714b1792480dc7aa0d147dfbf5",
+                "max_size_mm_at_300ppi": [
+                  160.0,
+                  198.6
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Telephone receiver above SOS.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This identifies a telephone for obtaining help.",
+            "post_answer_label": "Emergency telephone",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-8c647ecd657b0e4f",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/hjalptelefon/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "bf8defb2503c5a0f087a749203deb026cd10fdbc4ba821293b4793f8cb5efa1d",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; G2"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S13-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "H22",
+            "meaning_option_text": "Sight of national interest",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/originals/h2-h22.png",
+                "source_asset_id": "H2-ASSET-H22",
+                "sha256": "f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5",
+                "max_size_mm_at_300ppi": [
+                  38.608,
+                  38.608
+                ],
+                "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+              },
+              "source_variant_description": "The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies a sight of national interest. Information next to the sign states the nature of the sight.",
+            "post_answer_label": "Sight of national interest",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-H22",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "a9080d47e1848c3ac2d2d89cef729c444a6c253e15858a491b3b6e211288a5f1",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b8b785943425b2cf7b03db0e.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-meaning-S13-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M1",
+            "meaning_option_text": "Centre or lane line",
+            "recognition_pre_answer_label_policy": null,
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-9cc919907dd7eb08.png",
+                "source_asset_id": "ASSET-9cc919907dd7eb08",
+                "sha256": "980101fef48c994a938da8312ea6007d9bb859b93ae1cadaae0c8fd87c731b51",
+                "max_size_mm_at_300ppi": [
+                  41.2,
+                  37.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Two examples of a broken white line on a dark road background.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "A broken line separates opposing directions or adjacent lanes, depending on its position. It does not guarantee that crossing or overtaking is safe.",
+            "post_answer_label": "Centre or lane line",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-1153dc81ff6b7855",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/mittlinje-eller-korfaltslinje/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "fedf002f41a799e984bbe856e31cdcee58d5d6ef47c961cd96fe1738a8938515",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M1"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": {
+          "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+          "source_asset_id": "H3-EPS-S13",
+          "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+          "format": "PDF",
+          "minimum_reviewed_width_mm": 110,
+          "max_size_mm_at_300ppi": [
+            110,
+            68.547
+          ],
+          "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+          "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+          "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+          "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+          "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+          "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+        },
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    },
+    {
+      "question_id": "sign-recognise-S13",
+      "content_review": "exact approved proposal, options, key, labels and feedback checked; application deferred",
+      "neutral_description_review": {
+        "file": {
+          "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+          "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+        },
+        "locator": "json:/questions/45"
+      },
+      "original_record_unchanged": true,
+      "proposed_changes": {
+        "kind": "reviewable replacement/copy brief; not an import-ready bank payload",
+        "prompt": "Which illustration identifies “Passenger-ferry symbol”?",
+        "target_code_metadata": "S13",
+        "post_answer_explanation": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service.",
+        "post_answer_english_label": "Passenger-ferry symbol",
+        "original_option_codes": [
+          "S13",
+          "G2",
+          "H22",
+          "M1"
+        ],
+        "proposed_option_codes": [
+          "S13",
+          "G2",
+          "H22",
+          "M1"
+        ],
+        "options": [
+          {
+            "option_id": "sign-recognise-S13-option-1",
+            "is_correct": true,
+            "code_metadata_after_reveal": "S13",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/h3-s13.pdf",
+                "source_asset_id": "H3-EPS-S13",
+                "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+                "format": "PDF",
+                "minimum_reviewed_width_mm": 110,
+                "max_size_mm_at_300ppi": [
+                  110,
+                  68.547
+                ],
+                "reason": "Exact official EPS preserved as vectors; use established full-width vector-card layout and white background for legibility.",
+                "official_variant_image_sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+                "official_eps_url": "https://www.transportstyrelsen.se/globalassets/global/vag/vagmarken2/s.-symboler/s13.-personfarja/s13-1.eps",
+                "official_eps_path": "docs/curriculum/sign-assets/originals/h3-s13.eps",
+                "official_eps_sha256": "4a412efd3a100c71069c3d604634fee5d1f92c70908e898b01efc007d659e814",
+                "variant_proof": "docs/curriculum/sign-assets/proofs/h3-symbol-variants.png"
+              },
+              "source_variant_description": "The passengers-on-a-ferry illustration is not a promise that a car may board. Compare G12 for the passenger-ferry facility sign.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies a passenger-ferry landing or a destination reachable only by a ferry intended for passenger transport. Read it with the containing sign and check the actual service.",
+            "post_answer_label": "Passenger-ferry symbol",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-S13",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/symboler/personfarja/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "d2d5c30af2a0a25f8b7c97921d74587dbd885ae517d35c541f914a66a9b8297d",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a90c5a922b955489ea30b501.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S13-option-2",
+            "is_correct": false,
+            "code_metadata_after_reveal": "G2",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-311c623d7db9ee8f.png",
+                "source_asset_id": "ASSET-311c623d7db9ee8f",
+                "sha256": "1dd6a8ef18f0c8adf825a44533ccf20e71efa9714b1792480dc7aa0d147dfbf5",
+                "max_size_mm_at_300ppi": [
+                  160.0,
+                  198.6
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Telephone receiver above SOS.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "This identifies a telephone for obtaining help.",
+            "post_answer_label": "Emergency telephone",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-8c647ecd657b0e4f",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-allmanna-inrattningar-med-mera/hjalptelefon/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "bf8defb2503c5a0f087a749203deb026cd10fdbc4ba821293b4793f8cb5efa1d",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "2 kap.; G2"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S13-option-3",
+            "is_correct": false,
+            "code_metadata_after_reveal": "H22",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/originals/h2-h22.png",
+                "source_asset_id": "H2-ASSET-H22",
+                "sha256": "f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5",
+                "max_size_mm_at_300ppi": [
+                  38.608,
+                  38.608
+                ],
+                "reason": "Exact official PNG verified against H0 question variant; preserve bytes and 300 ppi size limits."
+              },
+              "source_variant_description": "The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "Identifies a sight of national interest. Information next to the sign states the nature of the sight.",
+            "post_answer_label": "Sight of national interest",
+            "official_sources": [
+              {
+                "source_id": "H0-SIGN-H22",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/",
+                "retrieved_on": "2026-10-13",
+                "html_sha256": "a9080d47e1848c3ac2d2d89cef729c444a6c253e15858a491b3b6e211288a5f1",
+                "locator": "Official heading, explanation and exact artwork; H0 verified snapshot",
+                "evidence_path": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b8b785943425b2cf7b03db0e.html.gz"
+              }
+            ]
+          },
+          {
+            "option_id": "sign-recognise-S13-option-4",
+            "is_correct": false,
+            "code_metadata_after_reveal": "M1",
+            "meaning_option_text": null,
+            "recognition_pre_answer_label_policy": "Position letter assigned after shuffle; authored physical description only; never Illustration <code>.",
+            "visual_description_brief": {
+              "exact_asset": {
+                "path": "docs/curriculum/sign-assets/rendered/ASSET-9cc919907dd7eb08.png",
+                "source_asset_id": "ASSET-9cc919907dd7eb08",
+                "sha256": "980101fef48c994a938da8312ea6007d9bb859b93ae1cadaae0c8fd87c731b51",
+                "max_size_mm_at_300ppi": [
+                  41.2,
+                  37.5
+                ],
+                "reason": "Use verified render of official EPS for clearer reproduction."
+              },
+              "source_variant_description": "Two examples of a broken white line on a dark road background.",
+              "authoring_requirement": "Describe only visible appearance/text of this exact asset without adding its classification, rule, source code or correctness. Study alt text may reveal the answer and must not be copied automatically."
+            },
+            "post_answer_explanation": "A broken line separates opposing directions or adjacent lanes, depending on its position. It does not guarantee that crossing or overtaking is safe.",
+            "post_answer_label": "Centre or lane line",
+            "official_sources": [
+              {
+                "source_id": "TS-SIGN-1153dc81ff6b7855",
+                "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/mittlinje-eller-korfaltslinje/",
+                "retrieved_on": "2026-10-01",
+                "html_sha256": "fedf002f41a799e984bbe856e31cdcee58d5d6ef47c961cd96fe1738a8938515",
+                "locator": "Official heading, explanation and artwork"
+              },
+              {
+                "source_id": "SFS-2007-90",
+                "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+                "reviewed_on": "2026-10-02",
+                "locator": "4 kap.; M1"
+              }
+            ]
+          }
+        ],
+        "question_image_asset": null,
+        "study_alt_text_is_not_automatically_safe_for_assessment": true
+      }
+    }
+  ]
+}

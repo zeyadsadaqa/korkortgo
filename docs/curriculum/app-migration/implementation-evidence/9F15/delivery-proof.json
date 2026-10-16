@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "step": "9F15",
+  "code": "T2",
+  "checked_on": "2026-10-16",
+  "status": "open_delivery_hold",
+  "delivery_accepted": false,
+  "scored_activation": false,
+  "question_changes_applied": false,
+  "question_pair": [
+    "sign-meaning-T2",
+    "sign-recognise-T2"
+  ],
+  "asset": {
+    "id": "official/T2",
+    "original": {
+      "path": "docs/curriculum/sign-assets/official-poster/T2-official-vector.pdf",
+      "sha256": "4377ceaae3e71deefa0b1de8f7d5f066118d0b19a9e47282611e038b7be16749"
+    },
+    "bundled": {
+      "path": "composeApp/src/commonMain/composeResources/files/curriculum/T2-official-vector.pdf",
+      "sha256": "4377ceaae3e71deefa0b1de8f7d5f066118d0b19a9e47282611e038b7be16749"
+    },
+    "rendering": {
+      "contain_without_crop": true,
+      "maximum_print_size_mm": {
+        "height": "43.78",
+        "width": "110.0"
+      },
+      "notes": [
+        "Exact vector extraction from official poster. Preserve outline artwork at the reviewed width; do not use as a small raster thumbnail. Size field records reviewed dimensions, not a vector resolution ceiling.",
+        "Minimum reviewed width (if retained): 110.0 mm; app delivery acceptance remains pending."
+      ],
+      "preserve_geometry_and_colours": true
+    }
+  },
+  "all_proposed_image_uses": [
+    {
+      "question_id": "sign-meaning-T2",
+      "slot": "stem"
+    },
+    {
+      "question_id": "sign-recognise-T2",
+      "slot": "sign-recognise-T2-option-1"
+    }
+  ],
+  "content_review": "passed for exact proposed content; not applied",
+  "neutral_description_review": "accepted existing 9D descriptions",
+  "platform_evidence": {
+    "android": {
+      "status": "captured, not final acceptance",
+      "records": [
+        {
+          "code": "T2",
+          "mode": "180dp stem and 105dp option",
+          "dark": false,
+          "font_scale": 1,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-light-1.0.png",
+            "sha256": "d80df60b8820f0827b53290cd0c035576c8eda67901dce502445c57cc426aeeb"
+          }
+        },
+        {
+          "code": "T2",
+          "mode": "180dp stem and 105dp option",
+          "dark": false,
+          "font_scale": 1.6,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-light-1.6.png",
+            "sha256": "d2ad7f781d1bd4c4f6eb4890dfc43bf66cad0ea94fa7dbf4251dd3f56ae292c1"
+          }
+        },
+        {
+          "code": "T2",
+          "mode": "180dp stem and 105dp option",
+          "dark": true,
+          "font_scale": 1,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-dark-1.0.png",
+            "sha256": "1a18bc8ee145d72491468ad4fb14ce751d3317a9f6859d889d083b0db8ce97da"
+          }
+        },
+        {
+          "code": "T2",
+          "mode": "180dp stem and 105dp option",
+          "dark": true,
+          "font_scale": 1.6,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/T2-dark-1.6.png",
+            "sha256": "27a60b20af7aa67d4080c15c31d3cd7d4274cf6db151fe897d8c92782ba2508c"
+          }
+        }
+      ]
+    },
+    "desktop": {
+      "status": "renderer, keyboard, focus and geometry checks; not final reader/delivery acceptance",
+      "evidence": "docs/curriculum/app-migration/implementation-evidence/9F/vector-fidelity.json"
+    },
+    "ios_simulator": {
+      "status": "render captured, not final acceptance",
+      "screenshot": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/T2.png",
+        "sha256": "8336f5c44b823e99186afef3df6891c5dd230ff4d7dcd1be7613ddce5dc20682"
+      }
+    },
+    "wasm_js": {
+      "status": "render captured, not final acceptance",
+      "screenshot": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/T2.png",
+        "sha256": "67b72ea13290c5832d531cea54fa915ccf31752007595d5951244744a275bcb5"
+      }
+    },
+    "ios_device": {
+      "status": "out of this run scope: user explicitly selected simulator on 2026-10-16",
+      "evidence": []
+    }
+  },
+  "blockers": [
+    "Representative platform screen-reader and complete per-question zoom/return/focus acceptance has not been signed off.",
+    "Smallest 105dp preview retains visibly faint outline/detail. Exact geometry is preserved; do not thicken/recolour to force a pass."
+  ],
+  "content_id_decision": "Retain both authored IDs and their delivery holds. Do not apply replacements or release scoring until all target and legibility checks pass; faint previews require an official legible exact-code rendition or a separately approved presentation/content-ID decision."
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "step": "9F1",
+  "code": "S1",
+  "checked_on": "2026-10-16",
+  "status": "open_delivery_hold",
+  "delivery_accepted": false,
+  "scored_activation": false,
+  "question_changes_applied": false,
+  "question_pair": [
+    "sign-meaning-S1",
+    "sign-recognise-S1"
+  ],
+  "asset": {
+    "id": "official/S1",
+    "original": {
+      "path": "docs/curriculum/sign-assets/official-poster/S1-official-vector.pdf",
+      "sha256": "70a71fb014a4f553d276a6b12ed4d156d875035f64dc6ef390aab396b322b775"
+    },
+    "bundled": {
+      "path": "composeApp/src/commonMain/composeResources/files/curriculum/S1-official-vector.pdf",
+      "sha256": "70a71fb014a4f553d276a6b12ed4d156d875035f64dc6ef390aab396b322b775"
+    },
+    "rendering": {
+      "contain_without_crop": true,
+      "maximum_print_size_mm": {
+        "height": "49.41",
+        "width": "80.0"
+      },
+      "notes": [
+        "Exact vector extraction from official poster. Preserve outline artwork at the reviewed width; do not use as a small raster thumbnail. Size field records reviewed dimensions, not a vector resolution ceiling.",
+        "Minimum reviewed width (if retained): 80.0 mm; app delivery acceptance remains pending."
+      ],
+      "preserve_geometry_and_colours": true
+    }
+  },
+  "all_proposed_image_uses": [
+    {
+      "question_id": "sign-meaning-S1",
+      "slot": "stem"
+    },
+    {
+      "question_id": "sign-recognise-S1",
+      "slot": "sign-recognise-S1-option-1"
+    }
+  ],
+  "content_review": "passed for exact proposed content; not applied",
+  "neutral_description_review": "accepted existing 9D descriptions",
+  "platform_evidence": {
+    "android": {
+      "status": "captured, not final acceptance",
+      "records": [
+        {
+          "code": "S1",
+          "mode": "180dp stem and 105dp option",
+          "dark": false,
+          "font_scale": 1,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-light-1.0.png",
+            "sha256": "2d4ec15a5a73644a66adb44515ab15dfc77347a36f652828428f62aeeab3cd42"
+          }
+        },
+        {
+          "code": "S1",
+          "mode": "180dp stem and 105dp option",
+          "dark": false,
+          "font_scale": 1.6,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-light-1.6.png",
+            "sha256": "2966164a971ae1c2de83bf0d61e2bf3a935cc687cf3ab03ccfe6c25e56c40e15"
+          }
+        },
+        {
+          "code": "S1",
+          "mode": "180dp stem and 105dp option",
+          "dark": true,
+          "font_scale": 1,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-dark-1.0.png",
+            "sha256": "9e4a544b9a883ec7e4a7fb95a89d42e6b1fe5c923f2d72b17664456cb3bf9a6a"
+          }
+        },
+        {
+          "code": "S1",
+          "mode": "180dp stem and 105dp option",
+          "dark": true,
+          "font_scale": 1.6,
+          "exact_assets_loaded": true,
+          "pixel_copy_result": 0,
+          "screenshot": {
+            "path": "docs/curriculum/app-migration/implementation-evidence/9F/android/S1-dark-1.6.png",
+            "sha256": "e5bb5cd8dc68ada0d7774a01cfdb752d43399f2e6d077b967cf4ab37d73933f2"
+          }
+        }
+      ]
+    },
+    "desktop": {
+      "status": "renderer, keyboard, focus and geometry checks; not final reader/delivery acceptance",
+      "evidence": "docs/curriculum/app-migration/implementation-evidence/9F/vector-fidelity.json"
+    },
+    "ios_simulator": {
+      "status": "render captured, not final acceptance",
+      "screenshot": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9F/ios-simulator/S1.png",
+        "sha256": "093400f3277e9a5797b7a54c95f270ce8c3bef135a59e5bdb9a3781601ad8bf0"
+      }
+    },
+    "wasm_js": {
+      "status": "render captured, not final acceptance",
+      "screenshot": {
+        "path": "docs/curriculum/app-migration/implementation-evidence/9F/wasm/S1.png",
+        "sha256": "6c5d22565f4a28cd923d30c62ca2481fbcc32b19ad615d005b9aaef98805e90b"
+      }
+    },
+    "ios_device": {
+      "status": "out of this run scope: user explicitly selected simulator on 2026-10-16",
+      "evidence": []
+    }
+  },
+  "blockers": [
+    "Representative platform screen-reader and complete per-question zoom/return/focus acceptance has not been signed off."
+  ],
+  "content_id_decision": "Retain both authored IDs and their delivery holds. Do not apply replacements or release scoring until all target and legibility checks pass; faint previews require an official legible exact-code rendition or a separately approved presentation/content-ID decision."
+}

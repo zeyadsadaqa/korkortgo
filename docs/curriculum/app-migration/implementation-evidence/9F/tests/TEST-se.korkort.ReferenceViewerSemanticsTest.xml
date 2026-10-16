@@ -1,0 +1,8 @@
+<testsuite name="se.korkort.ReferenceViewerSemanticsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-16T17:00:22.457Z" hostname="&lt;host&gt;" time="1.126">
+  <properties />
+  <testcase name="neutralS1ViewerSupportsKeyboardAndLargeTextOnLightAndDarkSurfaces[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.333" />
+  <testcase name="b1DetailUsesExactCaptionSourceAndReturnsFocusAfterZoom[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.363" />
+  <testcase name="assessmentZoomPreservesPendingChoiceAndDoesNotRevealMeaning[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.43" />
+  <system-out />
+  <system-err />
+</testsuite>
