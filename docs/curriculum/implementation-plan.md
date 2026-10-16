@@ -1502,6 +1502,8 @@ Apply only these five prompt drafts: `load-2400-450`, `load-2400-550`, `load-255
 
 ### 9I. Correct fuel calculations and unit wording
 
+**Execution 16 October 2026:** 9I1–9I5 applied sequentially: four exact Decimal answer corrections and six exact unit-wording drafts. Stable IDs/concepts/options receive `fuel-exact-r2` or `fuel-unit-r2` revisions. [Arithmetic evidence and draft limitations](app-migration/implementation-evidence/9I/README.md). No release approval or 9F hold clearance is implied.
+
 #### 9I1. Correct fuel-saving-150-0.5
 
 Apply the exact no-rounding draft; independently calculate the 0.75-litre key and check every alternative/explanation using decimal arithmetic.

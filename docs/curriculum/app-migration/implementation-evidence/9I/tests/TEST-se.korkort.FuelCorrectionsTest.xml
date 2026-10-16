@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.FuelCorrectionsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-10-16T20:31:56.666Z" hostname="Zeyads-MacBook-Pro.local" time="0.085">
+  <properties/>
+  <testcase name="sixUnitCorrectionsHaveStableAuthoredKeys[desktop]" classname="se.korkort.FuelCorrectionsTest" time="0.082"/>
+  <testcase name="exactKeysRejectLegacyRevisionAndSurviveAllShufflePositions[desktop]" classname="se.korkort.FuelCorrectionsTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
