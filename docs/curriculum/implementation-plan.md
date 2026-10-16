@@ -612,6 +612,8 @@ Import only M03: its introduction, four complete lessons and module review, incl
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
 
+**Execution record — 15 October 2026:** 9B4 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B4 evidence](app-migration/implementation-evidence/9B4/module-parity.json), [review](app-migration/implementation-evidence/9B4/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B5. Import module M04
 
 Import only M04: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.
@@ -621,6 +623,8 @@ Import only M04: its introduction, four complete lessons and module review, incl
 **Output:** M04 records in content/curriculum.json, generated Kotlin and module-parity.json.
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
+
+**Execution record — 15 October 2026:** 9B5 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B5 evidence](app-migration/implementation-evidence/9B5/module-parity.json), [review](app-migration/implementation-evidence/9B5/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B6. Import module M05
 
@@ -632,6 +636,8 @@ Import only M05: its introduction, four complete lessons and module review, incl
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
 
+**Execution record — 15 October 2026:** 9B6 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B6 evidence](app-migration/implementation-evidence/9B6/module-parity.json), [review](app-migration/implementation-evidence/9B6/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B7. Import module M06
 
 Import only M06: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.
@@ -641,6 +647,8 @@ Import only M06: its introduction, four complete lessons and module review, incl
 **Output:** M06 records in content/curriculum.json, generated Kotlin and module-parity.json.
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
+
+**Execution record — 15 October 2026:** 9B7 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B7 evidence](app-migration/implementation-evidence/9B7/module-parity.json), [review](app-migration/implementation-evidence/9B7/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B8. Import module M07
 
@@ -652,6 +660,8 @@ Import only M07: its introduction, four complete lessons and module review, incl
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
 
+**Execution record — 15 October 2026:** 9B8 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B8 evidence](app-migration/implementation-evidence/9B8/module-parity.json), [review](app-migration/implementation-evidence/9B8/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B9. Import module M08
 
 Import only M08: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.
@@ -661,6 +671,8 @@ Import only M08: its introduction, four complete lessons and module review, incl
 **Output:** M08 records in content/curriculum.json, generated Kotlin and module-parity.json.
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
+
+**Execution record — 15 October 2026:** 9B9 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B9 evidence](app-migration/implementation-evidence/9B9/module-parity.json), [review](app-migration/implementation-evidence/9B9/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B10. Import module M09
 
@@ -672,15 +684,19 @@ Import only M09: its introduction, four complete lessons and module review, incl
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
 
+**Execution record — 15 October 2026:** 9B10 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B10 evidence](app-migration/implementation-evidence/9B10/module-parity.json), [review](app-migration/implementation-evidence/9B10/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B11. Import module M10
 
 Import only M10: its introduction, four complete lessons and module review, including tables, examples, checks, hidden answers, illustrations and scoped references.
 
 **Input:** 9B1, M10 production sources/corrections, placements and 7B records.
 
-**Output:** M10 records in content/curriculum.json, generated Kotlin and module-parity.json.
+**Output:** M10 records in content/curriculum.json, generatBamBuser24624_ed Kotlin and module-parity.json.
 
 **Done when:** Normalized block-by-block comparison passes; no teaching is truncated or replaced by legacy summaries. Preserve the limited 1177 scope wherever present.
+
+**Execution record — 15 October 2026:** 9B11 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B11 evidence](app-migration/implementation-evidence/9B11/module-parity.json), [review](app-migration/implementation-evidence/9B11/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B12. Import appendix 1
 
@@ -692,6 +708,8 @@ Import only the 1th appendix in the approved canonical order, including its tabl
 
 **Done when:** Every approved appendix block and origin is retained, with no invented titles or destinations.
 
+**Execution record — 15 October 2026:** 9B12 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B12 evidence](app-migration/implementation-evidence/9B12/appendix-parity.json), [review](app-migration/implementation-evidence/9B12/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B13. Import appendix 2
 
 Import only the 2th appendix in the approved canonical order, including its tables, source links and supporting anchors.
@@ -701,6 +719,8 @@ Import only the 2th appendix in the approved canonical order, including its tabl
 **Output:** Appendix records in content/curriculum.json, generated Kotlin and appendix-parity.json.
 
 **Done when:** Every approved appendix block and origin is retained, with no invented titles or destinations.
+
+**Execution record — 15 October 2026:** 9B13 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B13 evidence](app-migration/implementation-evidence/9B13/appendix-parity.json), [review](app-migration/implementation-evidence/9B13/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B14. Import appendix 3
 
@@ -712,6 +732,8 @@ Import only the 3th appendix in the approved canonical order, including its tabl
 
 **Done when:** Every approved appendix block and origin is retained, with no invented titles or destinations.
 
+**Execution record — 15 October 2026:** 9B14 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B14 evidence](app-migration/implementation-evidence/9B14/appendix-parity.json), [review](app-migration/implementation-evidence/9B14/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B15. Import appendix 4
 
 Import only the 4th appendix in the approved canonical order, including its tables, source links and supporting anchors.
@@ -721,6 +743,8 @@ Import only the 4th appendix in the approved canonical order, including its tabl
 **Output:** Appendix records in content/curriculum.json, generated Kotlin and appendix-parity.json.
 
 **Done when:** Every approved appendix block and origin is retained, with no invented titles or destinations.
+
+**Execution record — 15 October 2026:** 9B15 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B15 evidence](app-migration/implementation-evidence/9B15/appendix-parity.json), [review](app-migration/implementation-evidence/9B15/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9B16. Import reference-group structure
 
@@ -732,6 +756,8 @@ Import the 24 reference groups and their canonical membership/order; bind sign a
 
 **Done when:** All 24 groups match the approved structure and every member has an explicit registry binding.
 
+**Execution record — 15 October 2026:** 9B16 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B16 evidence](app-migration/implementation-evidence/9B16/reference-group-parity.json), [review](app-migration/implementation-evidence/9B16/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9B17. Check complete import parity
 
 Cross-check all teaching, reference groups and supporting anchors, including the page-193 wildlife correction. Report missing or duplicate blocks.
@@ -741,6 +767,8 @@ Cross-check all teaching, reference groups and supporting anchors, including the
 **Output:** import-parity.json and review.md.
 
 **Done when:** All 1,123 published destinations resolve uniquely: 88 curriculum, 400 signs, 116 sources and 519 supporting anchors; full production-source parity passes.
+
+**Execution record — 15 October 2026:** 9B17 completed. Completed in the authorized remaining-9B batch, with complete production text/structure, source origins, canonical links and approved artwork bindings. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9B17 evidence](app-migration/implementation-evidence/9B17/import-parity.json), [review](app-migration/implementation-evidence/9B17/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 ### 9C. Import source records and verified artwork
 
@@ -754,6 +782,8 @@ Import the 116 source destinations and 404 question URL records. Retain exact UR
 
 **Done when:** All records resolve; commercial, manufacturer, foreign, research and editorial material is accurately labelled and unknown dates remain explicit.
 
+**Execution record — 15 October 2026:** 9C1 completed. Completed as an explicit prerequisite of the user-authorized 9B17; source/caption records and exact bundled artwork identities are retained. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9C1 evidence](app-migration/implementation-evidence/9C1/source-import.json), [review](app-migration/implementation-evidence/9C1/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9C2. Import sign captions and bindings
 
 Import the 400 exact sign/code/variant bindings, official Swedish names, captions, editorial-English notices and reuse/credit records.
@@ -763,6 +793,8 @@ Import the 400 exact sign/code/variant bindings, official Swedish names, caption
 **Output:** Sign metadata in content/curriculum.json and generated Kotlin.
 
 **Done when:** Every registered sign has the correct caption, code/variant and asset hash; case-sensitive F31a is preserved.
+
+**Execution record — 15 October 2026:** 9C2 completed. Completed as an explicit prerequisite of the user-authorized 9B17; source/caption records and exact bundled artwork identities are retained. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9C2 evidence](app-migration/implementation-evidence/9C2/sign-import.json), [review](app-migration/implementation-evidence/9C2/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 #### 9C3. Bundle the official sign files
 
@@ -774,6 +806,8 @@ Copy the verified files into composeApp/src/commonMain/composeResources/files/cu
 
 **Done when:** Bundled hashes equal approved hashes; no missing files, geometry changes or generated replacements exist.
 
+**Execution record — 15 October 2026:** 9C3 completed. Completed as an explicit prerequisite of the user-authorized 9B17; source/caption records and exact bundled artwork identities are retained. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9C3 evidence](app-migration/implementation-evidence/9C3/asset-parity.json), [review](app-migration/implementation-evidence/9C3/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
+
 #### 9C4. Bundle lesson illustrations
 
 Copy approved contextual illustrations and bind their captions, accessibility text, credits and lesson placements.
@@ -783,6 +817,8 @@ Copy approved contextual illustrations and bind their captions, accessibility te
 **Output:** Bundled lesson illustrations and manifest/placement entries.
 
 **Done when:** All required placements resolve to approved bytes and retained reuse evidence; missing or unapproved illustrations remain blockers.
+
+**Execution record — 15 October 2026:** 9C4 completed. Completed as an explicit prerequisite of the user-authorized 9B17; source/caption records and exact bundled artwork identities are retained. The cumulative package resolves all 1,123 destinations; all 2,538 independent checks, 83 Python tests and 15 configured Kotlin/desktop tests pass. See [9C4 evidence](app-migration/implementation-evidence/9C4/illustration-parity.json), [review](app-migration/implementation-evidence/9C4/review.md) and [shared generated package/reproduction](app-migration/implementation-evidence/9B17/README.md). Assessment/release/device acceptance remains later work.
 
 ### 9D. Implement assessment identity and neutral descriptions
 

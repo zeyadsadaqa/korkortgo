@@ -1,14 +1,26 @@
 """Cumulative M02 import and production-mask regressions."""
 import copy
+import hashlib
 import unittest
-from compile_curriculum import Validator,ContentError
+from compile_curriculum import Validator,ContentError,manifest_digest
 from import_curriculum_m02 import build, read, EVIDENCE, ROOT, IDS
 
 class M02ImportTest(unittest.TestCase):
     def setUp(self):
-        self.p={'curriculum':read('content/curriculum.json'),**{k:read(str((EVIDENCE/(k+'.json')).relative_to(ROOT))) for k in ['questions','sources','legacy_aliases']}}
+        snapshot=ROOT/'docs/curriculum/app-migration/implementation-evidence/9B17'
+        curriculum=snapshot/'incoming-curriculum.json';state=snapshot/'incoming-import-state.json'
+        if not curriculum.exists():curriculum=ROOT/'content/curriculum.json';state=ROOT/'content/curriculum-import-state.json'
+        self.p={'curriculum':read(str(curriculum.relative_to(ROOT))),**{k:read(str((EVIDENCE/(k+'.json')).relative_to(ROOT))) for k in ['questions','sources','legacy_aliases']}}
         self.m=read(str((EVIDENCE/'staging-manifest.json').relative_to(ROOT)))
-        self.state=read('content/curriculum-import-state.json')
+        record=next(r for r in self.m['payloads'] if r['kind']=='curriculum')
+        self.assertEqual(record['file']['sha256'],hashlib.sha256(curriculum.read_bytes()).hexdigest())
+        record['file']['path']=str(curriculum.relative_to(ROOT))
+        for record in self.m['inputs']:
+            if record['path']=='content/curriculum-import-state.json':record['path']=str(state.relative_to(ROOT))
+            if record['path'] in {*__import__('content_schema').MODEL_PATHS,'tools/compile_curriculum.py'} or record['path']==str(state.relative_to(ROOT)):
+                record['sha256']=hashlib.sha256((ROOT/record['path']).read_bytes()).hexdigest()
+        self.m['identity']['manifest_sha256']=manifest_digest(self.m)
+        self.state=read(str(state.relative_to(ROOT)))
     def doc(self,id):return next(d for d in self.p['curriculum']['documents'] if d['id']==id)
     def mask(self):return next(b['payload'] for b in self.doc('M02-R')['body_blocks'] if b['payload']['type']=='polygon_image')
     def validate(self):return Validator().package(self.p,self.m)

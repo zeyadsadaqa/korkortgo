@@ -1,0 +1,616 @@
+{
+  "full_parity": "../9B17/import-parity.json",
+  "generated_package": "../9B17/staging-manifest.json",
+  "records": [
+    {
+      "evidence": {
+        "import_sha256": "f9076c53b9c3a45cf65a47310ee083a75608562d791d55ca4d3ef701e40c4cd8",
+        "source_sha256": "f9076c53b9c3a45cf65a47310ee083a75608562d791d55ca4d3ef701e40c4cd8"
+      },
+      "name": "M08/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "0bc73c61adfc172629a22ed392cea370611ba8a436de70fe1e903ad2dc89ed52",
+        "source_sha256": "0bc73c61adfc172629a22ed392cea370611ba8a436de70fe1e903ad2dc89ed52"
+      },
+      "name": "M08-L01/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "5490316781c6abbea46057122fd50c51f177245c1eec6598d9434ed8d919242a",
+        "source_sha256": "5490316781c6abbea46057122fd50c51f177245c1eec6598d9434ed8d919242a"
+      },
+      "name": "M08-L01/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "577bde5254f3fb640385692071b28cecc4e2a9b283e45aa79a7f9656bd26ce7c",
+        "source_sha256": "577bde5254f3fb640385692071b28cecc4e2a9b283e45aa79a7f9656bd26ce7c"
+      },
+      "name": "M08-L01/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "d25b9a6549829bb3e88072c4c1ea00429bd0bce158c3c170bf2b40f7ace8f39f",
+        "source_sha256": "d25b9a6549829bb3e88072c4c1ea00429bd0bce158c3c170bf2b40f7ace8f39f"
+      },
+      "name": "M08-L01/teaching-004 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "70e0ebca232accb0c6d74bdb41f2b4b90d4a550faebf01f12c00b611fc49be8b",
+        "source_sha256": "70e0ebca232accb0c6d74bdb41f2b4b90d4a550faebf01f12c00b611fc49be8b"
+      },
+      "name": "M08-L01/teaching-005 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "5948f2b8be29f417ac7f101b713dcee3aa773e75834eff6ee996e4979ac13d6e",
+        "source_sha256": "5948f2b8be29f417ac7f101b713dcee3aa773e75834eff6ee996e4979ac13d6e"
+      },
+      "name": "M08-L01/teaching-006 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "b7c61d4228855e675c2bc291f0c5661229ab99fc0eb0ee04b5ff59769d3fa7f3",
+        "source_sha256": "b7c61d4228855e675c2bc291f0c5661229ab99fc0eb0ee04b5ff59769d3fa7f3"
+      },
+      "name": "M08-L01/teaching-007 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "b0317bd7a186ad4ca72ccf320ce20c30929b8a2f048222abce980da6dbc6aa37",
+        "source_sha256": "b0317bd7a186ad4ca72ccf320ce20c30929b8a2f048222abce980da6dbc6aa37"
+      },
+      "name": "M08-L01/teaching-008 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "17ac59c34ed41a541d5826dcd3cc62972b27b559e35d79b4e21b254b3d418a0f",
+        "source_sha256": "17ac59c34ed41a541d5826dcd3cc62972b27b559e35d79b4e21b254b3d418a0f"
+      },
+      "name": "M08-L01/teaching-009 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "7ceaede85484da852d9257ccb0117c020550a60773f19fce19d213fa7ee27781",
+        "source_sha256": "7ceaede85484da852d9257ccb0117c020550a60773f19fce19d213fa7ee27781"
+      },
+      "name": "M08-L02/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "140c45173154ceb45df49ce442b9656ba56466202647c6c3dcaa6545977b2c72",
+        "source_sha256": "140c45173154ceb45df49ce442b9656ba56466202647c6c3dcaa6545977b2c72"
+      },
+      "name": "M08-L02/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "e3203731fe92d8299eb67df020f881489d79528a21afa5819ec0b952085a2983",
+        "source_sha256": "e3203731fe92d8299eb67df020f881489d79528a21afa5819ec0b952085a2983"
+      },
+      "name": "M08-L02/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "fde1d077ad34e85670e5c9d04512a7c89261367371314b0b2e59e495e71e3ffc",
+        "source_sha256": "fde1d077ad34e85670e5c9d04512a7c89261367371314b0b2e59e495e71e3ffc"
+      },
+      "name": "M08-L02/teaching-004 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "12a93a72bcc12dd3b723d0b79d084d56c71efd5506f638b138dc8ed2e1739360",
+        "source_sha256": "12a93a72bcc12dd3b723d0b79d084d56c71efd5506f638b138dc8ed2e1739360"
+      },
+      "name": "M08-L02/teaching-005 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "703a2cbec7d9a52f8dbdb8e5599d7abeb150fc27df32a9580f944e0fcae6c6ab",
+        "source_sha256": "703a2cbec7d9a52f8dbdb8e5599d7abeb150fc27df32a9580f944e0fcae6c6ab"
+      },
+      "name": "M08-L02/teaching-006 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "c016ffb08e4dcada333fdc3df7e357173850cc769d918a3c5676bba47969742d",
+        "source_sha256": "c016ffb08e4dcada333fdc3df7e357173850cc769d918a3c5676bba47969742d"
+      },
+      "name": "M08-L02/teaching-007 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "0d0ab554d84445cdbda8af40903f8d96c5aa6034f7a4e8edacd80367841c7fcc",
+        "source_sha256": "0d0ab554d84445cdbda8af40903f8d96c5aa6034f7a4e8edacd80367841c7fcc"
+      },
+      "name": "M08-L02/teaching-008 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "ca32b41ead494862fb77d557f9a3bdeafb9f6b3042844663908c554821705d85",
+        "source_sha256": "ca32b41ead494862fb77d557f9a3bdeafb9f6b3042844663908c554821705d85"
+      },
+      "name": "M08-L02/teaching-009 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "dbfc9c06872f09393902aecac646dce115303d8464af44772b20fcf283600ae6",
+        "source_sha256": "dbfc9c06872f09393902aecac646dce115303d8464af44772b20fcf283600ae6"
+      },
+      "name": "M08-L02/teaching-010 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "3cb4aec100fd6fcaa003188a82c1e12c763068f82b26c729847420f7e65d5f2d",
+        "source_sha256": "3cb4aec100fd6fcaa003188a82c1e12c763068f82b26c729847420f7e65d5f2d"
+      },
+      "name": "M08-L02/teaching-011 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "e9def9c99a29a98350703009a8a856ed2700e9b73c56809a84a11ef8481bb3f2",
+        "source_sha256": "e9def9c99a29a98350703009a8a856ed2700e9b73c56809a84a11ef8481bb3f2"
+      },
+      "name": "M08-L02/teaching-012 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "52ee93d70aa8d0c03e9c9c2fcbf1e73327de52542cd3006579bfebd2335de5e5",
+        "source_sha256": "52ee93d70aa8d0c03e9c9c2fcbf1e73327de52542cd3006579bfebd2335de5e5"
+      },
+      "name": "M08-L02/teaching-013 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "a5f0524313600747f8020492ff3a9f97ec98b09a79f0dbd640d6be1e5efb1cd3",
+        "source_sha256": "a5f0524313600747f8020492ff3a9f97ec98b09a79f0dbd640d6be1e5efb1cd3"
+      },
+      "name": "M08-L02/teaching-014 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "9c709b9ee4520ed70949056c038337225d5a2147aefc1e33ee2ffd76a96eb609",
+        "source_sha256": "9c709b9ee4520ed70949056c038337225d5a2147aefc1e33ee2ffd76a96eb609"
+      },
+      "name": "M08-L03/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "9b3d66d6af9ae971cc617c16efea04c9a16c7da05e1d49ed1f3b15d0d73e2f76",
+        "source_sha256": "9b3d66d6af9ae971cc617c16efea04c9a16c7da05e1d49ed1f3b15d0d73e2f76"
+      },
+      "name": "M08-L03/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "7492ff354c6a74f3d44415ac5609091950ffc5f521f74b3b15e1f187038e94b9",
+        "source_sha256": "7492ff354c6a74f3d44415ac5609091950ffc5f521f74b3b15e1f187038e94b9"
+      },
+      "name": "M08-L03/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "a1cf9937c13f5851a6d9192f1dc5808b43fce76f3928e4f0cafb16eba739d5aa",
+        "source_sha256": "a1cf9937c13f5851a6d9192f1dc5808b43fce76f3928e4f0cafb16eba739d5aa"
+      },
+      "name": "M08-L03/teaching-004 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "b72a74745aaae9c4f2ded65d60248240e777c4babb547caa74db9b5d6afd6c1a",
+        "source_sha256": "b72a74745aaae9c4f2ded65d60248240e777c4babb547caa74db9b5d6afd6c1a"
+      },
+      "name": "M08-L03/teaching-005 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "b85a3fdcec1cb4bfa1545ef142b01e76d0bc61f9234d9e0d0f7dd18f5d750982",
+        "source_sha256": "b85a3fdcec1cb4bfa1545ef142b01e76d0bc61f9234d9e0d0f7dd18f5d750982"
+      },
+      "name": "M08-L03/teaching-006 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "a157b403a57f2bf37a040208a162faa1e4fb23b406f4abc0b3eea93b8212a049",
+        "source_sha256": "a157b403a57f2bf37a040208a162faa1e4fb23b406f4abc0b3eea93b8212a049"
+      },
+      "name": "M08-L03/teaching-007 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "9436dcdd18206fa6e849a9797e809b2a83781cc0e8d0cfedf3ac81676b64f5be",
+        "source_sha256": "9436dcdd18206fa6e849a9797e809b2a83781cc0e8d0cfedf3ac81676b64f5be"
+      },
+      "name": "M08-L03/teaching-008 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "23ad1697a2b6c164adb619fb5a3deb348eca7ab58af72802857b482840b4acd5",
+        "source_sha256": "23ad1697a2b6c164adb619fb5a3deb348eca7ab58af72802857b482840b4acd5"
+      },
+      "name": "M08-L03/teaching-009 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "6dcc7ab643beee50d2c5c9442ec1d691506d83a95c3f3bf24b3aef806611bee2",
+        "source_sha256": "6dcc7ab643beee50d2c5c9442ec1d691506d83a95c3f3bf24b3aef806611bee2"
+      },
+      "name": "M08-L03/teaching-010 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "39d0a719166bb5858fa2f0068af8bb81229feb5bcbe41fd2227d041f6cf3c942",
+        "source_sha256": "39d0a719166bb5858fa2f0068af8bb81229feb5bcbe41fd2227d041f6cf3c942"
+      },
+      "name": "M08-L03/teaching-011 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "3abd55c10bd50c1552384a789479630c731e7f9484732a7d393a54ef16c037c7",
+        "source_sha256": "3abd55c10bd50c1552384a789479630c731e7f9484732a7d393a54ef16c037c7"
+      },
+      "name": "M08-L04/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "9b689eb2b7ec7e97fe0a890b5b5f07402eb4b6846782f7204d26be7606d58663",
+        "source_sha256": "9b689eb2b7ec7e97fe0a890b5b5f07402eb4b6846782f7204d26be7606d58663"
+      },
+      "name": "M08-L04/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "e6e3bf680d28b5913fd1bccb3b1fe10742ea74b5d49a329e05e2c6e3c50e281c",
+        "source_sha256": "e6e3bf680d28b5913fd1bccb3b1fe10742ea74b5d49a329e05e2c6e3c50e281c"
+      },
+      "name": "M08-L04/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "de932dfb4f25f687fb095a9ef3f7af6be99477ccb36e423d788229fcf214776a",
+        "source_sha256": "de932dfb4f25f687fb095a9ef3f7af6be99477ccb36e423d788229fcf214776a"
+      },
+      "name": "M08-L04/teaching-004 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "e40ae42e1b6607a9f575e5308fc7ab608dca4fbd8c0bdbc76c5a9ec033c4b64c",
+        "source_sha256": "e40ae42e1b6607a9f575e5308fc7ab608dca4fbd8c0bdbc76c5a9ec033c4b64c"
+      },
+      "name": "M08-L04/teaching-005 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "5ef50731d69128a12e33fc5d9dfb9eed1be53e639a4c020b92cb37ec9830ec27",
+        "source_sha256": "5ef50731d69128a12e33fc5d9dfb9eed1be53e639a4c020b92cb37ec9830ec27"
+      },
+      "name": "M08-L04/teaching-006 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "44d866080f2c77f20d0cd5a9d1d90140004b631597a69508089b4838dcef334e",
+        "source_sha256": "44d866080f2c77f20d0cd5a9d1d90140004b631597a69508089b4838dcef334e"
+      },
+      "name": "M08-L04/teaching-007 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "abb134d73369b8a1520cab534e91534bf65c78ba3336f8c0d14b9c9f1e0f50cf",
+        "source_sha256": "abb134d73369b8a1520cab534e91534bf65c78ba3336f8c0d14b9c9f1e0f50cf"
+      },
+      "name": "M08-L04/teaching-008 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "1c2fbc48e86a705d00aa60459866ee6f90497db97a7c9f1e6f4850e141a539e5",
+        "source_sha256": "1c2fbc48e86a705d00aa60459866ee6f90497db97a7c9f1e6f4850e141a539e5"
+      },
+      "name": "M08-R/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "cd0b9d4b6f8d3bba19b9f7c19b563a24054eb8f1acbce6af043f1e37e577d7d7",
+        "source_sha256": "cd0b9d4b6f8d3bba19b9f7c19b563a24054eb8f1acbce6af043f1e37e577d7d7"
+      },
+      "name": "M08-R/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "2aa714b0bb19bc74db93b1b0184784aa424b6d0949d7cb9f4a9ead74420a6886",
+        "source_sha256": "2aa714b0bb19bc74db93b1b0184784aa424b6d0949d7cb9f4a9ead74420a6886"
+      },
+      "name": "M08-R/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 260
+      },
+      "name": "M08/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 262
+      },
+      "name": "M08-L01/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 263
+      },
+      "name": "M08-L01/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 265
+      },
+      "name": "M08-L02/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 266
+      },
+      "name": "M08-L02/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 267
+      },
+      "name": "M08-L02/production-0003 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 268
+      },
+      "name": "M08-L02/production-0004 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 269
+      },
+      "name": "M08-L02/production-0005 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 270
+      },
+      "name": "M08-L02/production-0006 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 271
+      },
+      "name": "M08-L02/production-0007 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 272
+      },
+      "name": "M08-L02/production-0008 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 273
+      },
+      "name": "M08-L02/production-0009 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 274
+      },
+      "name": "M08-L02/production-0010 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 275
+      },
+      "name": "M08-L02/production-0011 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 276
+      },
+      "name": "M08-L02/production-0012 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 278
+      },
+      "name": "M08-L03/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 279
+      },
+      "name": "M08-L03/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 281
+      },
+      "name": "M08-L04/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 281
+      },
+      "name": "M08-L04/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 282
+      },
+      "name": "M08-L04/production-0003 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 284
+      },
+      "name": "M08-R/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 286
+      },
+      "name": "M08-references/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 287
+      },
+      "name": "M08-references/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 288
+      },
+      "name": "M08-references/production-0003 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 289
+      },
+      "name": "M08-references/production-0004 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 290
+      },
+      "name": "M08-references/production-0005 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "path": "composeApp/src/commonMain/composeResources/files/curriculum/M08-v2.png",
+        "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc"
+      },
+      "name": "M08-L01/illustration exact bundled identity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "path": "composeApp/src/commonMain/composeResources/files/curriculum/M08-v2.png",
+        "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc"
+      },
+      "name": "M08-L02/illustration exact bundled identity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "path": "composeApp/src/commonMain/composeResources/files/curriculum/M08-v2.png",
+        "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc"
+      },
+      "name": "M08-L04/illustration exact bundled identity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "path": "composeApp/src/commonMain/composeResources/files/curriculum/M08-v2.png",
+        "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc"
+      },
+      "name": "M08-R/illustration exact bundled identity",
+      "passed": true
+    }
+  ],
+  "status": "complete",
+  "step": "9B9"
+}

@@ -1,0 +1,96 @@
+{
+  "full_parity": "../9B17/import-parity.json",
+  "generated_package": "../9B17/staging-manifest.json",
+  "records": [
+    {
+      "evidence": {
+        "import_sha256": "77ba65ab674906df3d850392cd0fb04db476e3c6ba02d13102dcfd5306e133fe",
+        "source_sha256": "77ba65ab674906df3d850392cd0fb04db476e3c6ba02d13102dcfd5306e133fe"
+      },
+      "name": "appendix-B/teaching-001 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "a9e2ebcdd10a6c371dd956849b2407b6f6ce5a6d04af855527b61efac1e99a37",
+        "source_sha256": "a9e2ebcdd10a6c371dd956849b2407b6f6ce5a6d04af855527b61efac1e99a37"
+      },
+      "name": "appendix-B/teaching-002 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "import_sha256": "7d542a170dc1d13ac9e155c7d81583df79021dde60287322337b4f5a1d74d058",
+        "source_sha256": "7d542a170dc1d13ac9e155c7d81583df79021dde60287322337b4f5a1d74d058"
+      },
+      "name": "appendix-B/teaching-003 full normalized source parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 347
+      },
+      "name": "appendix-B/production-0001 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 348
+      },
+      "name": "appendix-B/production-0002 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 349
+      },
+      "name": "appendix-B/production-0003 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 350
+      },
+      "name": "appendix-B/production-0004 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 351
+      },
+      "name": "appendix-B/production-0005 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 533
+      },
+      "name": "appendix-B/production-0006 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 534
+      },
+      "name": "appendix-B/production-0007 actual production fragment parity",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "normalization": "Only presentation whitespace, including annotation-bound URL wraps",
+        "page": 535
+      },
+      "name": "appendix-B/production-0008 actual production fragment parity",
+      "passed": true
+    }
+  ],
+  "status": "complete",
+  "step": "9B13"
+}
