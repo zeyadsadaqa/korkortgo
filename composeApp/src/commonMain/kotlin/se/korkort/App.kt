@@ -36,10 +36,15 @@ private val Line=Color(0xFFD5DED5)
 private val Ochre=Color(0xFFE7BD4A)
 private val Wrong=Color(0xFF9A332F)
 private val WrongBg=Color(0xFFFFEDEA)
+private val LocalOpenSource = staticCompositionLocalOf<(String) -> Unit> { error("Source navigation owner missing") }
 private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, SIGNS }
 
+@Composable internal fun KorkortTheme(content: @Composable () -> Unit) {
+    MaterialTheme(colorScheme=lightColorScheme(primary=Forest, onPrimary=Color.White, background=Paper, surface=Color.White, onSurface=Ink, secondary=Forest, secondaryContainer=Sage, onSecondaryContainer=Forest, surfaceVariant=Sage, outline=Line)) {content()}
+}
+
 @Composable fun App() {
-    MaterialTheme(colorScheme=lightColorScheme(primary=Forest, onPrimary=Color.White, background=Paper, surface=Color.White, onSurface=Ink, secondary=Forest, secondaryContainer=Sage, onSecondaryContainer=Forest, surfaceVariant=Sage, outline=Line)) {
+    KorkortTheme {
         var page by remember { mutableStateOf(Page.HOME) }
         var countText by remember { mutableStateOf("70") }
         var feedback by remember { mutableStateOf(Feedback.IMMEDIATE) }
@@ -49,8 +54,22 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
         var search by remember { mutableStateOf("") }
         var reviewFilter by remember { mutableStateOf("All") }
         var quitTarget by remember { mutableStateOf<Page?>(null) }
-        fun navigate(target: Page) { if(page==Page.QUIZ && session?.finished==false) quitTarget=target else page=target }
-        fun readPage(number: Int) { chapter=chapters.firstOrNull { number in it.page..it.endPage } ?: chapters.first(); page=Page.READER }
+        var sourceError by remember { mutableStateOf(false) }
+        var pendingSource by remember { mutableStateOf<String?>(null) }
+        val uri=LocalUriHandler.current
+        fun openSource(url: String) {
+            val s=session
+            val decision=QuizNavigationGuard.exitDecision(page==Page.QUIZ && s?.finished==false,true,s?.let { it.feedback==Feedback.IMMEDIATE && it.current.id in it.answers }==true,NavigationIntent.SOURCE)
+            if(decision==NavigationDecision.ConfirmDiscard) {pendingSource=url;quitTarget=Page.SETUP}
+            else if(decision==NavigationDecision.Allow) runCatching {uri.openUri(url)}.onFailure {sourceError=true}
+        }
+        fun navigate(target: Page) {
+            val decision=QuizNavigationGuard.exitDecision(page==Page.QUIZ && session?.finished==false,page==target,false)
+            if(decision==NavigationDecision.ConfirmDiscard) {pendingSource=null;quitTarget=target}
+            else if(decision==NavigationDecision.Allow) page=target
+        }
+        fun readPage(number: Int) { chapter=chapters.firstOrNull { number in it.page..it.endPage } ?: chapters.first(); navigate(Page.READER) }
+        CompositionLocalProvider(LocalOpenSource provides ::openSource) {
         Surface(Modifier.fillMaxSize(),color=Paper) {
             Column(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
                 Box(Modifier.fillMaxWidth().background(Paper),contentAlignment=Alignment.Center) {
@@ -79,15 +98,15 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                         Heading("Your road to\nconfidence.",large=true)
                                         Text("Learn the rules. Understand the why. Practise at your pace.",color=Muted,fontSize=18.sp,lineHeight=27.sp)
                                         Spacer(Modifier.height(24.dp))
-                                        Primary("Start a practice test  >") { page=Page.SETUP }
-                                        TextButton(onClick={page=Page.LIBRARY}) { Text("Explore the theory  >") }
+                                        Primary("Start a practice test  >") { navigate(Page.SETUP) }
+                                        TextButton(onClick={navigate(Page.LIBRARY)}) { Text("Explore the theory  >") }
                                     }, { RoadIllustration() }) }
                                     item { Panel(Sage) { FlowRow(horizontalArrangement=Arrangement.spacedBy(32.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
                                         Stat("1,000","practice questions"); Stat("5","knowledge areas"); Stat("2026","theory edition")
                                     } } }
                                     item { Heading("A little learning. A safer journey.") }
                                     item { FlowRow(horizontalArrangement=Arrangement.spacedBy(12.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
-                                        Category.entries.forEach { c -> Surface(onClick={category=c;search="";page=Page.LIBRARY},shape=RoundedCornerShape(14.dp),border=BorderStroke(1.dp,Line),color=Color.White,modifier=Modifier.widthIn(min=175.dp,max=210.dp).heightIn(min=125.dp)) {
+                                        Category.entries.forEach { c -> Surface(onClick={category=c;search="";navigate(Page.LIBRARY)},shape=RoundedCornerShape(14.dp),border=BorderStroke(1.dp,Line),color=Color.White,modifier=Modifier.widthIn(min=175.dp,max=210.dp).heightIn(min=125.dp)) {
                                             Column(Modifier.padding(20.dp)) { Text(categoryIcon(c),fontSize=24.sp,color=Forest); Spacer(Modifier.height(12.dp)); Text(c.title,fontWeight=FontWeight.SemiBold); Text("Explore  >",color=Forest,fontSize=12.sp,modifier=Modifier.padding(top=8.dp)) }
                                         }
                                     } } }
@@ -97,10 +116,10 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                     item { Eyebrow("THEORY LIBRARY"); Heading("Understand every journey."); Text("Explore ${chapters.size} chapters across the five knowledge areas.",color=Muted) }
                                     item { OutlinedTextField(search,{search=it},label={Text("Search topics, rules and road signs")},singleLine=true,modifier=Modifier.fillMaxWidth()) }
                                     item { CategoryFilters(category) { category=it } }
-                                    item { OutlinedButton(onClick={search="";page=Page.SIGNS},modifier=Modifier.fillMaxWidth()) { Text("Open the official road-sign catalogue  ·  ${roadSigns.size} illustrations  >") } }
+                                    item { OutlinedButton(onClick={search="";navigate(Page.SIGNS)},modifier=Modifier.fillMaxWidth()) { Text("Open the official road-sign catalogue  ·  ${roadSigns.size} illustrations  >") } }
                                     val filtered=chapters.filter { (category==null || it.category==category) && (it.title+it.summary).contains(search,true) }
                                     if(filtered.isEmpty()) item { EmptyState("No chapters found", "Try another search or choose All topics.") }
-                                    items(filtered,key={it.title}) { ch -> Surface(onClick={chapter=ch;page=Page.READER},color=Color.White,shape=RoundedCornerShape(14.dp),border=BorderStroke(1.dp,Line)) {
+                                    items(filtered,key={it.title}) { ch -> Surface(onClick={chapter=ch;navigate(Page.READER)},color=Color.White,shape=RoundedCornerShape(14.dp),border=BorderStroke(1.dp,Line)) {
                                         Row(Modifier.fillMaxWidth().padding(22.dp),verticalAlignment=Alignment.CenterVertically) {
                                             Column(Modifier.weight(1f)) { Eyebrow(ch.category.short); Text(ch.title,fontFamily=FontFamily.Serif,fontSize=24.sp,fontWeight=FontWeight.Bold); Text(ch.summary.substringBefore("\n").take(150)+"…",color=Muted,lineHeight=21.sp,modifier=Modifier.padding(top=8.dp)); Text("Book pages ${ch.page}–${ch.endPage}",fontSize=12.sp,color=Muted,modifier=Modifier.padding(top=10.dp)) }; Text(">",fontSize=24.sp,color=Forest)
                                         }
@@ -108,10 +127,10 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                     item { SourceFooter() }
                                 }
                                 Page.READER -> {
-                                    item { TextButton(onClick={page=Page.LIBRARY}) { Text("< Theory library") }; Eyebrow(chapter.category.title); Heading(chapter.title); Text("Theory Book 2026 · pages ${chapter.page}–${chapter.endPage}",color=Muted,fontSize=12.sp) }
+                                    item { TextButton(onClick={navigate(Page.LIBRARY)}) { Text("< Theory library") }; Eyebrow(chapter.category.title); Heading(chapter.title); Text("Theory Book 2026 · pages ${chapter.page}–${chapter.endPage}",color=Muted,fontSize=12.sp) }
                                     items(chapter.summary.split("\n\n")) { paragraph -> Text(paragraph,lineHeight=29.sp,fontSize=18.sp,color=Ink,modifier=Modifier.widthIn(max=820.dp)) }
-                                    if(chapter.title=="Road signs & markings") item { Primary("Explore official road signs  >") {search="";page=Page.SIGNS} }
-                                    item { Panel(Sage) { Text("Check your understanding",fontFamily=FontFamily.Serif,fontSize=25.sp,fontWeight=FontWeight.Bold); Text("Can you explain the rule and why it makes the road safer? Use the practice questions to apply what you have read.",color=Muted); Primary("Practise with a new test  >") {page=Page.SETUP} } }
+                                    if(chapter.title=="Road signs & markings") item { Primary("Explore official road signs  >") {search="";navigate(Page.SIGNS)} }
+                                    item { Panel(Sage) { Text("Check your understanding",fontFamily=FontFamily.Serif,fontSize=25.sp,fontWeight=FontWeight.Bold); Text("Can you explain the rule and why it makes the road safer? Use the practice questions to apply what you have read.",color=Muted); Primary("Practise with a new test  >") {navigate(Page.SETUP)} } }
                                     item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween) {
                                         val index=chapters.indexOf(chapter)
                                         TextButton(onClick={chapter=chapters[index-1]},enabled=index>0) { Text("< Previous chapter") }
@@ -120,7 +139,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                     item { SourceFooter() }
                                 }
                                 Page.SIGNS -> {
-                                    item { TextButton(onClick={page=Page.LIBRARY}) { Text("< Theory library") }; Heading("Read the road."); Text("Official artwork from Transportstyrelsen. Search by name or sign code.",color=Muted) }
+                                    item { TextButton(onClick={navigate(Page.LIBRARY)}) { Text("< Theory library") }; Heading("Read the road."); Text("Official artwork from Transportstyrelsen. Search by name or sign code.",color=Muted) }
                                     item { OutlinedTextField(search,{search=it},label={Text("Search signs, e.g. parking or B1")},singleLine=true,modifier=Modifier.fillMaxWidth()) }
                                     val signs=roadSigns.filter { (it.code+" "+it.title).contains(search,true) }
                                     if(signs.isEmpty()) item { EmptyState("No matching signs", "Try a sign code or a shorter search.") }
@@ -149,7 +168,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                             HorizontalDivider(color=Line)
                                             Row(Modifier.fillMaxWidth().padding(vertical=8.dp)) { Text("Random from any category",modifier=Modifier.weight(1f),fontSize=14.sp);Text(mix.random.toString(),fontWeight=FontWeight.Bold) }
                                             Text("The extra random questions can belong to any category. No repeated learning point within a test.",fontSize=12.sp,color=Muted,lineHeight=18.sp)
-                                            Primary("Start test  >",enabled=valid) { session=QuizSession(QuizEngine.select(questionBank,n!!),feedback);page=Page.QUIZ }
+                                            Primary("Start test  >",enabled=valid) { session=QuizSession(QuizEngine.select(questionBank,n!!),feedback);navigate(Page.QUIZ) }
                                             Text("No time pressure. All questions count towards your practice score.",fontSize=12.sp,color=Muted)
                                         }
                                     }) }
@@ -157,11 +176,11 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                 Page.QUIZ -> {
                                     val s=session
                                     if(s!=null) {
-                                        item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) { Eyebrow("PRACTICE TEST"); TextButton(onClick={quitTarget=Page.SETUP}) {Text("End test")}}; LinearProgressIndicator(progress={s.index.toFloat()/s.questions.size},modifier=Modifier.fillMaxWidth(),color=Forest,trackColor=Sage);Text("Question ${s.index+1} of ${s.questions.size}",color=Muted,modifier=Modifier.padding(top=12.dp)) }
+                                        item { Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween,verticalAlignment=Alignment.CenterVertically) { Eyebrow("PRACTICE TEST"); TextButton(onClick={navigate(Page.SETUP)}) {Text("End test")}}; LinearProgressIndicator(progress={s.index.toFloat()/s.questions.size},modifier=Modifier.fillMaxWidth(),color=Forest,trackColor=Sage);Text("Question ${s.index+1} of ${s.questions.size}",color=Muted,modifier=Modifier.padding(top=12.dp)) }
                                         item(key=s.current.id) { QuestionCard(s.current,s.answers[s.current.id],s.feedback==Feedback.IMMEDIATE && s.current.id in s.answers,onConfirm={i->session=s.answer(i)},onRead={readPage(it)},allowRead=false) }
                                         item { val answered=s.current.id in s.answers
                                             if(answered) { if(s.feedback==Feedback.AT_END) Panel(Sage) { Text("Answer saved. Your result will be revealed after the final question.") }
-                                                Spacer(Modifier.height(12.dp)); Primary(if(s.index==s.questions.lastIndex) "Finish test  >" else "Next question  >") { val next=s.next();session=next;if(next.finished) page=Page.RESULTS }
+                                                Spacer(Modifier.height(12.dp)); Primary(if(s.index==s.questions.lastIndex) "Finish test  >" else "Next question  >") { val next=s.next();session=next;if(next.finished) navigate(Page.RESULTS) }
                                             } else Text(if(s.feedback==Feedback.AT_END) "Answers revealed at the end" else "Answers explained after each question",color=Muted,fontSize=12.sp)
                                         }
                                     }
@@ -170,7 +189,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                     val s=session
                                     if(s!=null) {
                                         item { Eyebrow("TEST COMPLETE"); Heading("Every question is\na step forward.");Text("Take a moment to understand what you missed.",color=Muted) }
-                                        item { AdaptiveColumns({Panel(Sage) { Text("${s.score} / ${s.questions.size}",fontFamily=FontFamily.Serif,fontSize=64.sp,fontWeight=FontWeight.Bold,color=Forest);Text("${(100.0*s.score/s.questions.size).roundToInt()}% correct",fontSize=22.sp);Text("${s.score} correct · ${s.questions.size-s.score} to revisit",color=Muted);Primary("Review answers  >") {reviewFilter="All";page=Page.REVIEW};OutlinedButton(onClick={page=Page.SETUP},modifier=Modifier.fillMaxWidth()) {Text("Take another test")};Text("Practice score · not an official exam result",fontSize=12.sp,color=Muted)}},{Panel { Text("Results by category",fontFamily=FontFamily.Serif,fontSize=25.sp,fontWeight=FontWeight.Bold)
+                                        item { AdaptiveColumns({Panel(Sage) { Text("${s.score} / ${s.questions.size}",fontFamily=FontFamily.Serif,fontSize=64.sp,fontWeight=FontWeight.Bold,color=Forest);Text("${(100.0*s.score/s.questions.size).roundToInt()}% correct",fontSize=22.sp);Text("${s.score} correct · ${s.questions.size-s.score} to revisit",color=Muted);Primary("Review answers  >") {reviewFilter="All";navigate(Page.REVIEW)};OutlinedButton(onClick={navigate(Page.SETUP)},modifier=Modifier.fillMaxWidth()) {Text("Take another test")};Text("Practice score · not an official exam result",fontSize=12.sp,color=Muted)}},{Panel { Text("Results by category",fontFamily=FontFamily.Serif,fontSize=25.sp,fontWeight=FontWeight.Bold)
                                             Category.entries.forEach { c -> val qs=s.questions.filter {it.category==c}; val correct=qs.count {s.answers[it.id]==it.correct}
                                                 Row(Modifier.fillMaxWidth()) {Text(c.title,modifier=Modifier.weight(1f),fontSize=14.sp);Text("$correct / ${qs.size}",fontWeight=FontWeight.Bold)}
                                                 LinearProgressIndicator(progress={if(qs.isEmpty())0f else correct.toFloat()/qs.size},modifier=Modifier.fillMaxWidth().padding(bottom=12.dp),color=Forest,trackColor=Sage)
@@ -182,7 +201,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                 Page.REVIEW -> {
                                     val s=session
                                     if(s!=null) {
-                                        item { TextButton(onClick={page=Page.RESULTS}) {Text("< Results")};Heading("Turn mistakes into\nunderstanding."); Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {listOf("All","Incorrect","Correct").forEach { f -> FilterChip(selected=reviewFilter==f,onClick={reviewFilter=f},label={Text(f)})}} }
+                                        item { TextButton(onClick={navigate(Page.RESULTS)}) {Text("< Results")};Heading("Turn mistakes into\nunderstanding."); Row(horizontalArrangement=Arrangement.spacedBy(8.dp)) {listOf("All","Incorrect","Correct").forEach { f -> FilterChip(selected=reviewFilter==f,onClick={reviewFilter=f},label={Text(f)})}} }
                                         val qs=s.questions.filter { reviewFilter=="All" || (s.answers[it.id]==it.correct)==(reviewFilter=="Correct") }
                                         if(qs.isEmpty()) item { EmptyState("Nothing to revisit here", "Use another filter to explore your answers.") }
                                         items(qs,key={it.id}) { q -> var open by remember(q.id) {mutableStateOf(false)}
@@ -193,7 +212,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                                                 if(open) QuestionCard(q,s.answers[q.id],true,onConfirm={},onRead={readPage(it)},showPrompt=false)
                                             }
                                         }
-                                        item { Primary("Take another test  >") {page=Page.SETUP} }
+                                        item { Primary("Take another test  >") {navigate(Page.SETUP)} }
                                     }
                                 }
                             }
@@ -203,7 +222,9 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
                 }
             }
         }
-        if(quitTarget!=null) AlertDialog(onDismissRequest={quitTarget=null},title={Text("Leave this test?")},text={Text("Your unfinished answers will be discarded. You can start a fresh test whenever you are ready.")},confirmButton={TextButton(onClick={session=null;page=quitTarget!!;quitTarget=null}) {Text("Leave test")}},dismissButton={TextButton(onClick={quitTarget=null}) {Text("Keep practising")}})
+        }
+        if(sourceError) AlertDialog(onDismissRequest={sourceError=false},title={Text("Could not open the source")},text={Text("Your current page is still available. Return and try the link again.")},confirmButton={TextButton(onClick={sourceError=false}) {Text("Return")}})
+        if(quitTarget!=null) AlertDialog(onDismissRequest={quitTarget=null;pendingSource=null},title={Text("Leave this test?")},text={Text("Your unfinished answers will be discarded. You can start a fresh test whenever you are ready.")},confirmButton={TextButton(onClick={val source=pendingSource;session=null;page=quitTarget!!;quitTarget=null;pendingSource=null;if(source!=null)openSource(source)}) {Text("Leave test")}},dismissButton={TextButton(onClick={quitTarget=null;pendingSource=null}) {Text("Keep practising")}})
     }
 }
 
@@ -251,7 +272,7 @@ private enum class Page { HOME, LIBRARY, READER, SETUP, QUIZ, RESULTS, REVIEW, S
 @Composable private fun ModeCard(title:String,description:String,selected:Boolean,onClick:()->Unit) { Surface(onClick=onClick,color=if(selected)Sage else Color.White,border=BorderStroke(1.dp,if(selected)Forest else Line),shape=RoundedCornerShape(10.dp),modifier=Modifier.fillMaxWidth().semantics {role=Role.RadioButton;this.selected=selected}) {Row(Modifier.padding(16.dp),verticalAlignment=Alignment.CenterVertically) {RadioButton(selected=selected,onClick=null);Column(Modifier.padding(start=8.dp)) {Text(title,fontWeight=FontWeight.SemiBold);Text(description,fontSize=13.sp,lineHeight=19.sp,color=Muted)}}} }
 @Composable private fun CategoryFilters(selected:Category?,onSelect:(Category?)->Unit) { FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {FilterChip(selected=selected==null,onClick={onSelect(null)},label={Text("All topics")});Category.entries.forEach { c->FilterChip(selected=selected==c,onClick={onSelect(c)},label={Text(c.short)})}} }
 @Composable private fun EmptyState(title:String,body:String) {Panel(Sage) {Text(title,fontSize=22.sp,fontWeight=FontWeight.Bold);Text(body,color=Muted)} }
-@Composable private fun SourceLink(label:String,url:String) {val uri=LocalUriHandler.current;TextButton(onClick={uri.openUri(url)}) {Text(label,fontSize=12.sp)} }
+@Composable private fun SourceLink(label:String,url:String) {val open=LocalOpenSource.current;TextButton(onClick={open(url)}) {Text(label,fontSize=12.sp)} }
 @Composable private fun SourceFooter() {Panel(Sage) {Text("Your study sources",fontWeight=FontWeight.Bold);Text("Theory Book 2026 · edition 2026-1 · Körkortonline.se. Chapters here are original study summaries. Official road-sign artwork and additional rule guidance: Transportstyrelsen. Sources checked 26 September 2026.",fontSize=12.sp,color=Muted,lineHeight=19.sp);SourceLink("Transportstyrelsen · Rules and signs >","https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/")} }
 @Composable private fun ResourceImage(path:String,description:String,modifier:Modifier=Modifier) {
     val bitmap by produceState<ImageBitmap?>(null,path) { value=runCatching {Res.readBytes("files/$path").decodeToImageBitmap()}.getOrNull() }
