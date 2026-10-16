@@ -29,6 +29,24 @@ class CompilerTest(unittest.TestCase):
         self.temp=tempfile.TemporaryDirectory(dir=ROOT/'tmp')
         self.addCleanup(self.temp.cleanup)
         self.manifest_path=Path(self.temp.name)/'manifest.json'
+        # Historical fixtures bind the pre-rewrite question bytes, not the evolving live bank.
+        archive=ROOT/'docs/curriculum/app-migration/implementation-evidence/9E1/incoming-questions.json'
+        self.paths=dict(PATHS)
+        if archive.exists():
+            def relocate(value):
+                if isinstance(value,dict):
+                    if value.get('path')=='content/questions.json' and value.get('sha256')==hashlib.sha256(archive.read_bytes()).hexdigest():
+                        value['path']=str(archive.relative_to(ROOT))
+                    for child in value.values():relocate(child)
+                elif isinstance(value,list):
+                    for child in value:relocate(child)
+            relocate(self.p)
+            staged=Path(self.temp.name)/'questions.json'
+            staged.write_text(json.dumps(self.p['questions']))
+            self.paths['questions']=staged
+            record=next(r for r in self.m['payloads'] if r['kind']=='questions')
+            record['file']={'path':str(staged.relative_to(ROOT)),'sha256':hashlib.sha256(staged.read_bytes()).hexdigest()}
+            self.m['identity']['manifest_sha256']=manifest_digest(self.m)
         self.manifest_path.write_text(json.dumps(self.m))
 
     def validate(self,profile='fixture'):
@@ -191,9 +209,9 @@ class CompilerTest(unittest.TestCase):
     def test_determinism_trace_and_staging_ownership(self):
         with tempfile.TemporaryDirectory() as tmp:
             out=Path(tmp)/'kotlin';trace=Path(tmp)/'trace.json'
-            compile_files(PATHS,self.manifest_path,out,trace,symbol='fixture9A3')
+            compile_files(self.paths,self.manifest_path,out,trace,symbol='fixture9A3')
             first={p.name:p.read_bytes() for p in out.glob('*.kt')};trace_bytes=trace.read_bytes()
-            compile_files(PATHS,self.manifest_path,out,trace,symbol='fixture9A3')
+            compile_files(self.paths,self.manifest_path,out,trace,symbol='fixture9A3')
             self.assertEqual(first,{p.name:p.read_bytes() for p in out.glob('*.kt')})
             self.assertEqual(trace_bytes,trace.read_bytes())
             for record in json.loads(trace_bytes)['records']:
@@ -202,19 +220,19 @@ class CompilerTest(unittest.TestCase):
                 line=(out/record['output_file']).read_text().splitlines()[record['output_line']-1]
                 self.assertIn('fun '+record['symbol']+'(',line)
             (out/'GeneratedCurriculumPart9999.kt').write_text('human-authored')
-            with self.assertRaisesRegex(ContentError,'non-generated'):compile_files(PATHS,self.manifest_path,out,trace)
+            with self.assertRaisesRegex(ContentError,'non-generated'):compile_files(self.paths,self.manifest_path,out,trace)
             self.assertEqual(first['GeneratedCurriculum.kt'],(out/'GeneratedCurriculum.kt').read_bytes())
 
     def test_outputs_cannot_overwrite_live_content(self):
         with tempfile.TemporaryDirectory() as tmp:
             with self.assertRaisesRegex(ContentError,'staging/build directory'):
-                compile_files(PATHS,self.manifest_path,ROOT/'composeApp/src/commonMain',Path(tmp)/'trace.json')
+                compile_files(self.paths,self.manifest_path,ROOT/'composeApp/src/commonMain',Path(tmp)/'trace.json')
 
     def test_payload_hash_must_match_manifest(self):
         with tempfile.TemporaryDirectory(dir=EVIDENCE) as tmp:
             p=Path(tmp)/'questions.json';p.write_text(json.dumps(self.p['questions']))
             with self.assertRaisesRegex(ContentError,'matching questions payload'):
-                compile_files({**PATHS,'questions':p},self.manifest_path,Path(tmp)/'out',Path(tmp)/'trace.json')
+                compile_files({**self.paths,'questions':p},self.manifest_path,Path(tmp)/'out',Path(tmp)/'trace.json')
 
     def test_kotlin_strings_escape_interpolation_and_controls(self):
         self.assertEqual('"\\${notCode}\\n\\\"\\\\\\u000c"',kotlin_string('${notCode}\n"\\\f'))
