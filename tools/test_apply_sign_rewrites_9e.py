@@ -11,8 +11,10 @@ class AllSignRewritesTest(unittest.TestCase):
     def setUpClass(cls):
         cls.stages={n:build(n) for n in range(2,13)}
         cls.live=read(Path('content/questions.json'))
-        # 9G owns these later scenario changes; compare 9E against its frozen stage.
-        from apply_scenario_corrections_9g import IDS
+        # Later 9G/9H changes have independent scope tests; compare 9E with its frozen stage.
+        from apply_scenario_corrections_9g import IDS as SCENARIO_IDS
+        from apply_load_clarifications_9h import IDS as LOAD_IDS
+        IDS=SCENARIO_IDS+LOAD_IDS
         original={q['id']:q for q in cls.stages[12][0]}
         cls.live=[original[q['id']] if q['id'] in IDS else q for q in cls.live]
         cls.actions={q['question_id']:q for q in read(Path('docs/curriculum/app-migration/question-actions.json'))['questions']}
@@ -27,7 +29,9 @@ class AllSignRewritesTest(unittest.TestCase):
         for path,value in split_kotlin(self.stages[12][1]).items():
             live=(ROOT/path).read_text()
             if path.name=='Bank.kt':
-                from apply_scenario_corrections_9g import IDS
+                from apply_scenario_corrections_9g import IDS as SCENARIO_IDS
+                from apply_load_clarifications_9h import IDS as LOAD_IDS
+                IDS=SCENARIO_IDS+LOAD_IDS
                 original_lines={line.split(',',1)[0]:line for line in value.splitlines(True) if line.startswith('Question(')}
                 live=''.join(original_lines[line.split(',',1)[0]] if any(line.startswith('Question(\"'+qid+'\",') for qid in IDS) else line for line in live.splitlines(True))
             self.assertEqual(live,value)
