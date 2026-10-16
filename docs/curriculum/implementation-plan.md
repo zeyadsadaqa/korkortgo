@@ -1436,6 +1436,8 @@ Apply only the exact situation-178 proposal and verify the complete resulting qu
 
 ### 9H. Clarify load-question definitions
 
+**Execution 16 October 2026:** 9H1–9H6 applied sequentially, five questions each. All 30 exact drafts use driver-inclusive tjänstevikt, retain original supplied weights and numeric keys, and have unique-answer arithmetic receipts plus `load-r2` metadata. [Evidence](app-migration/implementation-evidence/9H/README.md). Release acceptance and 9F holds remain separate.
+
 These tasks cover the 30 exact backlog 9H IDs in six batches of five. Use the approved driver-inclusive tjänstevikt definition consistently. Independently recalculate all displayed inputs/options; retain existing numeric keys and record one-answer checks.
 
 #### 9H1. Clarify load prompts — batch 1

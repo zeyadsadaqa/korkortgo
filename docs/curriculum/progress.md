@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 16 October 2026 (9G1–9G8 scenario corrections)
-**Current position:** 9G1–9G8 are now applied in order with full question/source reviews and semantic revisions; [9G evidence](app-migration/implementation-evidence/9G/README.md). Earlier state:  Steps 1–8 complete for the approved screen edition. Step 9: 9A–9E data/assessment work completed with delivery holds retained; all 9F code tasks reviewed and necessary navigation/reference/viewer foundations implemented. 9F acceptance remains open for faint previews and complete reader/delivery evidence. [Latest results](app-migration/implementation-evidence/9F/README.md).
-**Next action:** 9H load-definition corrections are the next independent content tasks. The 38 sign replacements remain blocked by recorded 9F legibility and reader/delivery holds; user selected iOS simulator scope.
+**Last updated:** 16 October 2026 (9H1–9H6 load definitions)
+**Current position:** Steps 1–8 complete for the approved screen edition. Step 9: 9A–9E completed with sign delivery holds retained; 9F reviewed with acceptance still open. All 9G scenario corrections and 9H load clarifications are applied with semantic revisions. [9H results](app-migration/implementation-evidence/9H/README.md) · [9G results](app-migration/implementation-evidence/9G/README.md) · [9F holds](app-migration/implementation-evidence/9F/README.md).
+**Next action:** 9I fuel-calculation corrections are the next independent content tasks. The 38 sign replacements remain blocked by recorded 9F legibility and reader/delivery holds; user selected iOS simulator scope.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 

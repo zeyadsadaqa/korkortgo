@@ -1,0 +1,65 @@
+{
+  "verified_on": "2026-10-16",
+  "python_tests": 127,
+  "desktop_tests": 41,
+  "failures": 0,
+  "exact_drafts": 30,
+  "batches_completed_sequentially": 6,
+  "questions_per_batch": 5,
+  "unrelated_records_changed": 0,
+  "ids_concepts_option_ids_supplied_weights_numeric_keys_retained": true,
+  "one_correct_option_per_question": true,
+  "9G_reproduction": "passed",
+  "9F_replacement_check": "passed; 38 originals remain held",
+  "release_acceptance": false,
+  "files": [
+    {
+      "path": "content/questions.json",
+      "sha256": "7adddbc6f309d9b6a0275419c2c13d6b9d6b10b4b00fc9b8372d61784c8bba41"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+      "sha256": "1df3412824ca610064a30b49ad83f40f5381d611db0256eb112b8e329aca07fe"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LoadClarifications9H.kt",
+      "sha256": "ee2854a654b9afbdf5fe8851132c259f412b1cb81715988200792dbc835b9ec0"
+    },
+    {
+      "path": "tools/apply_load_clarifications_9h.py",
+      "sha256": "93e9f55d1e0bda283a3297ad70f8256d26a5445e447da07c6bc74e11a39f3c88"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/source-review.json",
+      "sha256": "325d102da38bed3051ff3ea0689475ec08282a0c5adb9a1e44fbd5aae8b79377"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/questions.json",
+      "sha256": "7119feb59b82a0eff2aea4b6b5763aa5450aa25f19904e1fb135870c5f6b6336"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H1/question-acceptance.json",
+      "sha256": "8bbfaf41236f36ff05b3d58a887d39b6b442665161db0a25cec4ba6e9b994340"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H2/question-acceptance.json",
+      "sha256": "4aa4cf8758327eb7f2c1758003057009b043a70b86bbfbe557d45e2d6cc1020e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H3/question-acceptance.json",
+      "sha256": "a33c91b43d582a4611fe4b0b5fa6d9ed309a1e981fb9aa2e3fc98254ecfedf1e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H4/question-acceptance.json",
+      "sha256": "0310dead8ccca012ab880eecbab656e519649bb5a36aaf2cbf990efd47118466"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H5/question-acceptance.json",
+      "sha256": "d8d61d4eb385192184e7b074499522717b8abf3497a353291f0649bc0dca9dbf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9H/9H6/question-acceptance.json",
+      "sha256": "6932a4ed228f1dd2363a6b6b796af9ceeccd778c430a4e24c20e5a7aa7ea1901"
+    }
+  ]
+}
