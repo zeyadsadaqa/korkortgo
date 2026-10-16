@@ -834,6 +834,8 @@ Use authored option IDs and semantic question revisions through generation, shuf
 
 **Done when:** All four display positions preserve the correct key and per-option feedback; uniqueness checks use identities and distinct assets rather than code-bearing labels.
 
+**Execution record — 16 October 2026:** 9D1 completed. Added executable assessment selection, authored-ID shuffling/confirmation/scoring and semantic-revision snapshots; generator validation binds option IDs to reviewed assignments. The saved ledger covers all 1,000 baseline questions and 4,000 options. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D1 evidence](app-migration/implementation-evidence/9D1/authored-identities.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D2. Implement pre-answer image and feedback semantics
 
 Implement neutral image-description fields and answer-gated feedback semantics in the assessment components. Keep code/meaning metadata out of pre-answer accessibility reading.
@@ -843,6 +845,8 @@ Implement neutral image-description fields and answer-gated feedback semantics i
 **Output:** Assessment component changes and hidden/revealed semantic checks.
 
 **Done when:** Both feedback modes enforce their reveal boundary with keyboard/focus and assistive-reading order preserved.
+
+**Execution record — 16 October 2026:** 9D2 completed. Added gated assessment presentation/component semantics, enforced neutral image descriptions and keyboard/focus handoff. Actual Compose semantics and Space/Tab/Enter tests pass for immediate and end feedback. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D2 evidence](app-migration/implementation-evidence/9D2/reviewed-descriptions.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D3. Review neutral descriptions — batch 1
 
@@ -854,6 +858,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D3 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D3 evidence](app-migration/implementation-evidence/9D3/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D4. Review neutral descriptions — batch 2
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -863,6 +869,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D4 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D4 evidence](app-migration/implementation-evidence/9D4/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D5. Review neutral descriptions — batch 3
 
@@ -874,6 +882,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D5 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D5 evidence](app-migration/implementation-evidence/9D5/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D6. Review neutral descriptions — batch 4
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -883,6 +893,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D6 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D6 evidence](app-migration/implementation-evidence/9D6/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D7. Review neutral descriptions — batch 5
 
@@ -894,6 +906,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D7 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D7 evidence](app-migration/implementation-evidence/9D7/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D8. Review neutral descriptions — batch 6
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -903,6 +917,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D8 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D8 evidence](app-migration/implementation-evidence/9D8/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D9. Review neutral descriptions — batch 7
 
@@ -914,6 +930,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D9 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D9 evidence](app-migration/implementation-evidence/9D9/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D10. Review neutral descriptions — batch 8
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -923,6 +941,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D10 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D10 evidence](app-migration/implementation-evidence/9D10/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D11. Review neutral descriptions — batch 9
 
@@ -934,6 +954,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D11 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D11 evidence](app-migration/implementation-evidence/9D11/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D12. Review neutral descriptions — batch 10
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -943,6 +965,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D12 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D12 evidence](app-migration/implementation-evidence/9D12/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 #### 9D13. Review neutral descriptions — batch 11
 
@@ -954,6 +978,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D13 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D13 evidence](app-migration/implementation-evidence/9D13/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D14. Review neutral descriptions — batch 12
 
 Author or reuse and review physical descriptions for every stem/option image used by the 50 assigned questions; inspect actual images and record per-ID results.
@@ -964,6 +990,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
 
+**Execution record — 16 October 2026:** 9D14 completed. Reviewed all 50 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D14 evidence](app-migration/implementation-evidence/9D14/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
+
 #### 9D15. Review neutral descriptions — batch 13
 
 Author or reuse and review physical descriptions for every stem/option image used by the 16 assigned questions; inspect actual images and record per-ID results.
@@ -973,6 +1001,8 @@ Author or reuse and review physical descriptions for every stem/option image use
 **Output:** Reviewed description records and description-acceptance.json for this batch.
 
 **Done when:** Descriptions identify visible features without leaking the correct meaning or target/option codes; every assigned image has review evidence.
+
+**Execution record — 16 October 2026:** 9D15 completed. Reviewed all 16 assigned questions against exact proposed stems/options and visible assets; per-ID acceptance binds physical descriptions to exact hashes and visual evidence. All 91 Python tests and 21 Kotlin/desktop tests pass across the group. Description acceptance does not release question/delivery holds or activate the bank. See [9D15 evidence](app-migration/implementation-evidence/9D15/description-acceptance.json) and [shared verification/reproduction](app-migration/implementation-evidence/9D1/README.md).
 
 ### 9E. Apply the 578 sign rewrites
 

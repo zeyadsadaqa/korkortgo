@@ -1,0 +1,1653 @@
+{
+  "schema_version": 1,
+  "step": "9D15",
+  "batch": 13,
+  "reviewed_on": "2026-10-16",
+  "inputs": [
+    {
+      "path": "docs/curriculum/app-migration/question-actions.json",
+      "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-backlog.json",
+      "sha256": "87de0754889d6ecb25ab9b9bb14fddd31ac3e0ba26f11ec5b542eac4feca2800"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/physical-descriptions.tsv",
+      "sha256": "f2b453f9284f36e01828669f2727d3ba1c8521252bf0c0c0f8a019a4dd8a2c3d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/question-review/asset-review.json",
+      "sha256": "0ce2151c58a082d5ba856939e77a275e4c616ac1b378e810b39421a639a271ad"
+    }
+  ],
+  "scope": "Neutral descriptions for exact 7D proposals; independent of content and delivery acceptance.",
+  "question_count": 16,
+  "image_occurrence_count": 40,
+  "questions": [
+    {
+      "question_id": "sign-meaning-X3",
+      "concept_id": "sign-X3",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X3-option-1",
+          "pre_answer_text": "Side-obstruction marker",
+          "post_answer_code": "X3",
+          "post_answer_label": "Side-obstruction marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X3-option-2",
+          "pre_answer_text": "Speed obstacle",
+          "post_answer_code": "M17",
+          "post_answer_label": "Speed obstacle",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X3-option-3",
+          "pre_answer_text": "Children ahead",
+          "post_answer_code": "A15",
+          "post_answer_label": "Children ahead",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X3-option-4",
+          "pre_answer_text": "Tunnel-category panel",
+          "post_answer_code": "T23",
+          "post_answer_label": "Tunnel-category panel",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X3",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-6614d9b0b84d08b4.png",
+            "sha256": "51c5ac4b49af4e627500496608b7e4fbe09f01c660650aeff12c11b5c5132185"
+          },
+          "description": "Tall narrow blue rectangle with two yellow diagonal bands rising to the right.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 13,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X3",
+      "concept_id": "sign-X3",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Side-obstruction marker”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X3-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X3",
+          "post_answer_label": "Side-obstruction marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X3-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "M17",
+          "post_answer_label": "Speed obstacle",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X3-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "A15",
+          "post_answer_label": "Children ahead",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X3-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "T23",
+          "post_answer_label": "Tunnel-category panel",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X3-option-1",
+          "description_code_metadata_only": "X3",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-6614d9b0b84d08b4.png",
+            "sha256": "51c5ac4b49af4e627500496608b7e4fbe09f01c660650aeff12c11b5c5132185"
+          },
+          "description": "Tall narrow blue rectangle with two yellow diagonal bands rising to the right.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 13,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X3-option-2",
+          "description_code_metadata_only": "M17",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/h3-m17.png",
+            "sha256": "6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb"
+          },
+          "description": "Black rectangle with two separated horizontal bands made of alternating white and black squares.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-08.png",
+              "sha256": "3ed86c2974801b41199f32602c5141f74e57824f6d339065859f3f669004d4fd"
+            },
+            "position": 18,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X3-option-3",
+          "description_code_metadata_only": "A15",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-99b8af0ab287bda5.png",
+            "sha256": "bc4c4845630a56b268378373053da075747a745728253701d008af8c5897aa9d"
+          },
+          "description": "Red-bordered yellow triangle with two black running children, one larger than the other.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-01.png",
+              "sha256": "479594a732e9156e91316c67327bf09d76af9804f694cbe0be27856c08153d11"
+            },
+            "position": 15,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X3-option-4",
+          "description_code_metadata_only": "T23",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/h3-t23.jpg",
+            "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248"
+          },
+          "description": "Red-bordered yellow rectangle with a large black letter B.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 8,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X4",
+      "concept_id": "sign-X4",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X4-option-1",
+          "pre_answer_text": "Exit separation marker",
+          "post_answer_code": "X4",
+          "post_answer_label": "Exit separation marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X4-option-2",
+          "pre_answer_text": "Skiers",
+          "post_answer_code": "A17",
+          "post_answer_label": "Skiers",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X4-option-3",
+          "pre_answer_text": "Grouped destinations",
+          "post_answer_code": "F9",
+          "post_answer_label": "Grouped destinations",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X4-option-4",
+          "pre_answer_text": "No studded-tyre motor vehicles except class II mopeds",
+          "post_answer_code": "C44",
+          "post_answer_label": "No studded-tyre motor vehicles except class II mopeds",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X4",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-14f8470292a2e8ec.png",
+            "sha256": "067eb45ca79b6537cc702158f2d7018b9b355d75ab87b81340715a1b03c1e4cf"
+          },
+          "description": "Tall blue rectangle with two white upward-pointing chevrons.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 14,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X4",
+      "concept_id": "sign-X4",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Exit separation marker”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X4-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X4",
+          "post_answer_label": "Exit separation marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X4-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "A17",
+          "post_answer_label": "Skiers",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X4-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "F9",
+          "post_answer_label": "Grouped destinations",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X4-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "C44",
+          "post_answer_label": "No studded-tyre motor vehicles except class II mopeds",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X4-option-1",
+          "description_code_metadata_only": "X4",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-14f8470292a2e8ec.png",
+            "sha256": "067eb45ca79b6537cc702158f2d7018b9b355d75ab87b81340715a1b03c1e4cf"
+          },
+          "description": "Tall blue rectangle with two white upward-pointing chevrons.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 14,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X4-option-2",
+          "description_code_metadata_only": "A17",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/h1-a17.png",
+            "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950"
+          },
+          "description": "Red-bordered yellow triangle with a black person on skis holding poles.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-01.png",
+              "sha256": "479594a732e9156e91316c67327bf09d76af9804f694cbe0be27856c08153d11"
+            },
+            "position": 17,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X4-option-3",
+          "description_code_metadata_only": "F9",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-2495332f803be7cb.png",
+            "sha256": "c4bb201b7f80b69157bf7d49546f14cd4c14c77d7a6eb509e8feb4ebde9a1218"
+          },
+          "description": "Blue rectangle with white PAJALA and ÖVERTORNEÅ inside a notched white outline, and KIRUNA below.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-05.png",
+              "sha256": "87c00f938a2b95027d4c47ab3947876292d604402b2332da55960936e48ebe6b"
+            },
+            "position": 21,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X4-option-4",
+          "description_code_metadata_only": "C44",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-17050dc49eb5e974.png",
+            "sha256": "ed0a844dc39f441eb2451dfd508b2ac89d17981bfc76d9e1177009a3b8ff87c7"
+          },
+          "description": "Red-bordered yellow circle with a black studded tyre shape crossed by a red diagonal bar.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-03.png",
+              "sha256": "1453dab51fb573d89caa4768f1809cfaf3e7a3b4fde63335c2908de2f74ea2d3"
+            },
+            "position": 29,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X5",
+      "concept_id": "sign-X5",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X5-option-1",
+          "pre_answer_text": "Illuminated pass-side arrow",
+          "post_answer_code": "X5",
+          "post_answer_label": "Illuminated pass-side arrow",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X5-option-2",
+          "pre_answer_text": "No motor vehicles with more than two wheels",
+          "post_answer_code": "C4",
+          "post_answer_label": "No motor vehicles with more than two wheels",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X5-option-3",
+          "pre_answer_text": "Cycle route",
+          "post_answer_code": "F38",
+          "post_answer_label": "Cycle route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X5-option-4",
+          "pre_answer_text": "Golf course",
+          "post_answer_code": "H20",
+          "post_answer_label": "Golf course",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X5",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-ad18a9cb8bb656b0.png",
+            "sha256": "3131fc7c45d7c8f54f087fb13525d57a877c274c52586a8f1a3c22a28c23b492"
+          },
+          "description": "Black rectangle with two yellow arrows pointing diagonally down and outward.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 15,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X5",
+      "concept_id": "sign-X5",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Illuminated pass-side arrow”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X5-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X5",
+          "post_answer_label": "Illuminated pass-side arrow",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X5-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "C4",
+          "post_answer_label": "No motor vehicles with more than two wheels",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X5-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "F38",
+          "post_answer_label": "Cycle route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X5-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "H20",
+          "post_answer_label": "Golf course",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X5-option-1",
+          "description_code_metadata_only": "X5",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-ad18a9cb8bb656b0.png",
+            "sha256": "3131fc7c45d7c8f54f087fb13525d57a877c274c52586a8f1a3c22a28c23b492"
+          },
+          "description": "Black rectangle with two yellow arrows pointing diagonally down and outward.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 15,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X5-option-2",
+          "description_code_metadata_only": "C4",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/h1-c4.png",
+            "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9"
+          },
+          "description": "Red-bordered yellow circle with a front-view black car crossed by a red diagonal bar.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-02.png",
+              "sha256": "8979addf33e654b1a14d1bdbbf25705505ba2b1bf8482a10d83c84f1180863fa"
+            },
+            "position": 21,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X5-option-3",
+          "description_code_metadata_only": "F38",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-e4c21ee2e4cac04c.png",
+            "sha256": "ba2c95e88c5b6432cd23a8d881c2371ff49db5fdd970edf478d76465a0886a91"
+          },
+          "description": "Yellow black-bordered rectangle with a black bicycle.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-06.png",
+              "sha256": "f8b84d540afe1a3193b0a08c84092c277df65fa09990ebf33a9d58f7a671f56f"
+            },
+            "position": 19,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X5-option-4",
+          "description_code_metadata_only": "H20",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/h2-h20.png",
+            "sha256": "c4d4bb07bab9b8d5a9b2f7a4cbad90d6d5b2c582c79d1f894ad4f2c378d15531"
+          },
+          "description": "Blue square with a white inset containing a black person raising a golf club behind their head.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-07.png",
+              "sha256": "c3d17c1e06f239d47859bb7e7bdc6ad1a93efa4f5aed9134a871177ba2098f89"
+            },
+            "position": 19,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X6",
+      "concept_id": "sign-X6",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X6-option-1",
+          "pre_answer_text": "Temporary obstruction warning device",
+          "post_answer_code": "X6",
+          "post_answer_label": "Temporary obstruction warning device",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X6-option-2",
+          "pre_answer_text": "End of designated path or lane",
+          "post_answer_code": "D11",
+          "post_answer_label": "End of designated path or lane",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X6-option-3",
+          "pre_answer_text": "Give way",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X6-option-4",
+          "pre_answer_text": "Emergency telephone",
+          "post_answer_code": "G2",
+          "post_answer_label": "Emergency telephone",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X6",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-1b32b052ad9aa2f8.png",
+            "sha256": "63264c4ff944229ead9be6179c8f934982372a02d8043215b77d57cfd6bc4342"
+          },
+          "description": "Red outlined triangle with an orange and white inner rim, crossed by a black horizontal band reading Olycka in white.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 16,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X6",
+      "concept_id": "sign-X6",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Temporary obstruction warning device”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X6-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X6",
+          "post_answer_label": "Temporary obstruction warning device",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X6-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "D11",
+          "post_answer_label": "End of designated path or lane",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X6-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X6-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "G2",
+          "post_answer_label": "Emergency telephone",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X6-option-1",
+          "description_code_metadata_only": "X6",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-1b32b052ad9aa2f8.png",
+            "sha256": "63264c4ff944229ead9be6179c8f934982372a02d8043215b77d57cfd6bc4342"
+          },
+          "description": "Red outlined triangle with an orange and white inner rim, crossed by a black horizontal band reading Olycka in white.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 16,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X6-option-2",
+          "description_code_metadata_only": "D11",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-0e5fbc9f1b6d5662.png",
+            "sha256": "7f96cd5d4c8dc1f16ca70e7130d27c751d7ea29ea817f15eb302fcc68e6c988b"
+          },
+          "description": "Blue circle with a white bus crossed by a red diagonal bar.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-04.png",
+              "sha256": "6343bc335aef720fe2d5599ff83afed80571933fbc739cad1aa2ee3f63996ab1"
+            },
+            "position": 10,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X6-option-3",
+          "description_code_metadata_only": "B1",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+            "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+          },
+          "description": "Red-bordered yellow triangle pointing downward.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-02.png",
+              "sha256": "8979addf33e654b1a14d1bdbbf25705505ba2b1bf8482a10d83c84f1180863fa"
+            },
+            "position": 10,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X6-option-4",
+          "description_code_metadata_only": "G2",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-311c623d7db9ee8f.png",
+            "sha256": "1dd6a8ef18f0c8adf825a44533ccf20e71efa9714b1792480dc7aa0d147dfbf5"
+          },
+          "description": "Blue rectangle with a black telephone handset in a white inset and the white letters SOS beneath.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-06.png",
+              "sha256": "f8b84d540afe1a3193b0a08c84092c277df65fa09990ebf33a9d58f7a671f56f"
+            },
+            "position": 21,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X7",
+      "concept_id": "sign-X7",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X7-option-1",
+          "pre_answer_text": "Road barrier",
+          "post_answer_code": "X7",
+          "post_answer_label": "Road barrier",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X7-option-2",
+          "pre_answer_text": "Give way",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X7-option-3",
+          "pre_answer_text": "Rest area",
+          "post_answer_code": "H13",
+          "post_answer_label": "Rest area",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X7-option-4",
+          "pre_answer_text": "Priority-road layout at the junction",
+          "post_answer_code": "T15",
+          "post_answer_label": "Priority-road layout at the junction",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X7",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-4b7938b41c795874.png",
+            "sha256": "4a6437282dec1cbcd3b4d6a5ab0be0303bace000c41a051c47a6658b123a02b1"
+          },
+          "description": "Thin horizontal barrier arm with alternating red and yellow sections, supported by a narrow upright at the right.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 17,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X7",
+      "concept_id": "sign-X7",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Road barrier”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X7-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X7",
+          "post_answer_label": "Road barrier",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X7-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X7-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "H13",
+          "post_answer_label": "Rest area",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X7-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "T15",
+          "post_answer_label": "Priority-road layout at the junction",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X7-option-1",
+          "description_code_metadata_only": "X7",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-4b7938b41c795874.png",
+            "sha256": "4a6437282dec1cbcd3b4d6a5ab0be0303bace000c41a051c47a6658b123a02b1"
+          },
+          "description": "Thin horizontal barrier arm with alternating red and yellow sections, supported by a narrow upright at the right.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 17,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X7-option-2",
+          "description_code_metadata_only": "B1",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+            "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+          },
+          "description": "Red-bordered yellow triangle pointing downward.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-02.png",
+              "sha256": "8979addf33e654b1a14d1bdbbf25705505ba2b1bf8482a10d83c84f1180863fa"
+            },
+            "position": 10,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X7-option-3",
+          "description_code_metadata_only": "H13",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-4407e2090d148783.png",
+            "sha256": "765a51edef3c2bd8e9a706b15e0aae48003fd33f7054b7238af2b3d699b48a09"
+          },
+          "description": "Blue square with a white inset containing a black picnic table beside a fir tree.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-07.png",
+              "sha256": "c3d17c1e06f239d47859bb7e7bdc6ad1a93efa4f5aed9134a871177ba2098f89"
+            },
+            "position": 12,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X7-option-4",
+          "description_code_metadata_only": "T15",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-c72b6bd4be7b4819.png",
+            "sha256": "5cd5ab6baa17d59247cc8431c22b6c7343a0add845c497467b162baf28051cb3"
+          },
+          "description": "Red-bordered yellow rectangle with a thick black line bending from top to right, joined by thin lines from the left and bottom.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-09.png",
+              "sha256": "b41147287917c06908748f6d79010c1679dd631fa76b7c2ef58057b4df7e0aff"
+            },
+            "position": 32,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X8",
+      "concept_id": "sign-X8",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X8-option-1",
+          "pre_answer_text": "Temporary cancellation of direction information",
+          "post_answer_code": "X8",
+          "post_answer_label": "Temporary cancellation of direction information",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X8-option-2",
+          "pre_answer_text": "Landmark",
+          "post_answer_code": "I3",
+          "post_answer_label": "Landmark",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X8-option-3",
+          "pre_answer_text": "No stopping or parking edge marking",
+          "post_answer_code": "M21",
+          "post_answer_label": "No stopping or parking edge marking",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X8-option-4",
+          "pre_answer_text": "Roundabout ahead",
+          "post_answer_code": "A30",
+          "post_answer_label": "Roundabout ahead",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X8",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-323a46cb66b8460e.png",
+            "sha256": "a95df3a25449c98bcf417312e0bfabdc937bfbde44a8d2b8ca4ed70dbb3e8ca4"
+          },
+          "description": "Very thin outlined rectangular panel with a faint outlined letter P, crossed by two red diagonal lines forming a large X.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 18,
+            "detail_sheet": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/vector-and-detail-review.png",
+              "sha256": "0bf36ca6765d2e7666aebc714b874bcbb83a7c236536ef9612199bbeb6b59f1a"
+            },
+            "result": "accepted physical description"
+          },
+          "delivery_hold": true,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [
+        "X8"
+      ],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X8",
+      "concept_id": "sign-X8",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Temporary cancellation of direction information”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X8-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X8",
+          "post_answer_label": "Temporary cancellation of direction information",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X8-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "I3",
+          "post_answer_label": "Landmark",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X8-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "M21",
+          "post_answer_label": "No stopping or parking edge marking",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X8-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "A30",
+          "post_answer_label": "Roundabout ahead",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X8-option-1",
+          "description_code_metadata_only": "X8",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-323a46cb66b8460e.png",
+            "sha256": "a95df3a25449c98bcf417312e0bfabdc937bfbde44a8d2b8ca4ed70dbb3e8ca4"
+          },
+          "description": "Very thin outlined rectangular panel with a faint outlined letter P, crossed by two red diagonal lines forming a large X.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 18,
+            "detail_sheet": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/vector-and-detail-review.png",
+              "sha256": "0bf36ca6765d2e7666aebc714b874bcbb83a7c236536ef9612199bbeb6b59f1a"
+            },
+            "result": "accepted physical description"
+          },
+          "delivery_hold": true,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X8-option-2",
+          "description_code_metadata_only": "I3",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/222347010f3d45c7-i3-1.png",
+            "sha256": "e16c450129a53853a887346daeacb59b36f1a75b5acc38c1b26e26b6e255f707"
+          },
+          "description": "Brown rectangle with a white inset containing a brown standing robed figure; Heliga Birgitta below.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-07.png",
+              "sha256": "c3d17c1e06f239d47859bb7e7bdc6ad1a93efa4f5aed9134a871177ba2098f89"
+            },
+            "position": 30,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X8-option-3",
+          "description_code_metadata_only": "M21",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-af5356033d1b82c3.png",
+            "sha256": "3d50ba3405c9c939d6a90548375bd90785ba4b8a420d17269927599816594895"
+          },
+          "description": "Black strip above a grey lower strip, with a continuous yellow horizontal line along their boundary.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-08.png",
+              "sha256": "3ed86c2974801b41199f32602c5141f74e57824f6d339065859f3f669004d4fd"
+            },
+            "position": 23,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X8-option-4",
+          "description_code_metadata_only": "A30",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-68f1ea2002c2c50e.png",
+            "sha256": "3d95eae279ee91c629979ff227fddffba59f0a54089e591d4676fa6f3ecacccf"
+          },
+          "description": "Red-bordered yellow triangle with three black curved arrows arranged in a circle.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-01.png",
+              "sha256": "479594a732e9156e91316c67327bf09d76af9804f694cbe0be27856c08153d11"
+            },
+            "position": 30,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [
+        "X8"
+      ],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X9",
+      "concept_id": "sign-X9",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X9-option-1",
+          "pre_answer_text": "Roundabout centre marker",
+          "post_answer_code": "X9",
+          "post_answer_label": "Roundabout centre marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X9-option-2",
+          "pre_answer_text": "Compulsory off-road vehicle route",
+          "post_answer_code": "D9",
+          "post_answer_label": "Compulsory off-road vehicle route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X9-option-3",
+          "pre_answer_text": "Give way",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X9-option-4",
+          "pre_answer_text": "Two-way traffic ahead",
+          "post_answer_code": "A25",
+          "post_answer_label": "Two-way traffic ahead",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X9",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+            "sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3"
+          },
+          "description": "Long blue horizontal panel with three white right-pointing arrows joined along a thin white line.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 19,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X9",
+      "concept_id": "sign-X9",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Roundabout centre marker”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X9-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X9",
+          "post_answer_label": "Roundabout centre marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X9-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "D9",
+          "post_answer_label": "Compulsory off-road vehicle route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X9-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "B1",
+          "post_answer_label": "Give way",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X9-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "A25",
+          "post_answer_label": "Two-way traffic ahead",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X9-option-1",
+          "description_code_metadata_only": "X9",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+            "sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3"
+          },
+          "description": "Long blue horizontal panel with three white right-pointing arrows joined along a thin white line.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 19,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X9-option-2",
+          "description_code_metadata_only": "D9",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/originals/h1-d9.png",
+            "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23"
+          },
+          "description": "Blue circle with a white rider on a tracked vehicle with front skis.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-04.png",
+              "sha256": "6343bc335aef720fe2d5599ff83afed80571933fbc739cad1aa2ee3f63996ab1"
+            },
+            "position": 8,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X9-option-3",
+          "description_code_metadata_only": "B1",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7671a42456af532b.png",
+            "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b"
+          },
+          "description": "Red-bordered yellow triangle pointing downward.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-02.png",
+              "sha256": "8979addf33e654b1a14d1bdbbf25705505ba2b1bf8482a10d83c84f1180863fa"
+            },
+            "position": 10,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X9-option-4",
+          "description_code_metadata_only": "A25",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-9c0e6efdf0ee7d52.png",
+            "sha256": "42b17b2e0d995554b44f058b455226c778b1f9d60e6ffee77b00e9b4d7de7780"
+          },
+          "description": "Red-bordered yellow triangle with a black downward arrow on the left and upward arrow on the right.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-01.png",
+              "sha256": "479594a732e9156e91316c67327bf09d76af9804f694cbe0be27856c08153d11"
+            },
+            "position": 25,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-meaning-X10",
+      "concept_id": "sign-X10",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+      "options": [
+        {
+          "option_id": "sign-meaning-X10-option-1",
+          "pre_answer_text": "Signpost visibility marker",
+          "post_answer_code": "X10",
+          "post_answer_label": "Signpost visibility marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-meaning-X10-option-2",
+          "pre_answer_text": "Place name on a walking or cycling route",
+          "post_answer_code": "F36",
+          "post_answer_label": "Place name on a walking or cycling route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X10-option-3",
+          "pre_answer_text": "Shared pedestrian and cycle path",
+          "post_answer_code": "D6",
+          "post_answer_label": "Shared pedestrian and cycle path",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-meaning-X10-option-4",
+          "pre_answer_text": "Walking or cycling destination table",
+          "post_answer_code": "F35",
+          "post_answer_label": "Walking or cycling destination table",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "stem",
+          "description_code_metadata_only": "X10",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-56052100e0de8d42.png",
+            "sha256": "6a795b63fbcc6af23615350175027c26c89029834a49e825660063a1d7a13ccf"
+          },
+          "description": "Narrow upright post with alternating blue and white rectangular bands and a faint rounded top.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 20,
+            "detail_sheet": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/vector-and-detail-review.png",
+              "sha256": "0bf36ca6765d2e7666aebc714b874bcbb83a7c236536ef9612199bbeb6b59f1a"
+            },
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    },
+    {
+      "question_id": "sign-recognise-X10",
+      "concept_id": "sign-X10",
+      "reviewed_context": "7D proposed stem and all four proposed options; legacy wording is not approved by this review",
+      "prompt": "Which illustration identifies “Signpost visibility marker”?",
+      "options": [
+        {
+          "option_id": "sign-recognise-X10-option-1",
+          "pre_answer_text": "",
+          "post_answer_code": "X10",
+          "post_answer_label": "Signpost visibility marker",
+          "is_correct_after_reveal_only": true
+        },
+        {
+          "option_id": "sign-recognise-X10-option-2",
+          "pre_answer_text": "",
+          "post_answer_code": "F36",
+          "post_answer_label": "Place name on a walking or cycling route",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X10-option-3",
+          "pre_answer_text": "",
+          "post_answer_code": "D6",
+          "post_answer_label": "Shared pedestrian and cycle path",
+          "is_correct_after_reveal_only": false
+        },
+        {
+          "option_id": "sign-recognise-X10-option-4",
+          "pre_answer_text": "",
+          "post_answer_code": "F35",
+          "post_answer_label": "Walking or cycling destination table",
+          "is_correct_after_reveal_only": false
+        }
+      ],
+      "images": [
+        {
+          "slot": "sign-recognise-X10-option-1",
+          "description_code_metadata_only": "X10",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-56052100e0de8d42.png",
+            "sha256": "6a795b63fbcc6af23615350175027c26c89029834a49e825660063a1d7a13ccf"
+          },
+          "description": "Narrow upright post with alternating blue and white rectangular bands and a faint rounded top.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-10.png",
+              "sha256": "a977b9a98f0a496f07198e8ac8dbd735b7f24a3427205ea79046483f80ae58cf"
+            },
+            "position": 20,
+            "detail_sheet": {
+              "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/vector-and-detail-review.png",
+              "sha256": "0bf36ca6765d2e7666aebc714b874bcbb83a7c236536ef9612199bbeb6b59f1a"
+            },
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X10-option-2",
+          "description_code_metadata_only": "F36",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-2cc5361a79da5af7.png",
+            "sha256": "2207c4488a5d6afab702bab5ee1bcbee4e6b2830a3fdbc714985e7a401c3da2c"
+          },
+          "description": "Blue rectangle with the white word Lundby.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-06.png",
+              "sha256": "f8b84d540afe1a3193b0a08c84092c277df65fa09990ebf33a9d58f7a671f56f"
+            },
+            "position": 17,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X10-option-3",
+          "description_code_metadata_only": "D6",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-7a3f818421eab792.png",
+            "sha256": "4f10c3579fab4d8f10ea0d8a1544df4694a16089ac2567c96b0cae5992912cf3"
+          },
+          "description": "Blue circle with a white adult and child above a white bicycle.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-04.png",
+              "sha256": "6343bc335aef720fe2d5599ff83afed80571933fbc739cad1aa2ee3f63996ab1"
+            },
+            "position": 5,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        },
+        {
+          "slot": "sign-recognise-X10-option-4",
+          "description_code_metadata_only": "F35",
+          "asset": {
+            "path": "docs/curriculum/sign-assets/rendered/ASSET-5bf137e7986d9400.png",
+            "sha256": "8f271a0522ef31dd1fe53e4e1a39f4e1fc357d62b349dadb08fe7fbd10ce6036"
+          },
+          "description": "Stacked blue panels: a white bicycle above an upward arrow with Kumla 5, and a left-bending arrow with Haga 0,2 below.",
+          "review": {
+            "reviewed_on": "2026-10-16",
+            "reviewer": "Codex",
+            "method": "Visual inspection of approved image in retained paired proof sheet; vector and fine-text details freshly rendered/enlarged where needed. Physical wording separately authored; no automatic study-caption reuse.",
+            "proof_sheet": {
+              "path": "docs/curriculum/app-migration/question-review/assets/sheet-06.png",
+              "sha256": "f8b84d540afe1a3193b0a08c84092c277df65fa09990ebf33a9d58f7a671f56f"
+            },
+            "position": 16,
+            "detail_sheet": null,
+            "result": "accepted physical description"
+          },
+          "delivery_hold": false,
+          "context_result": "physical appearance only; no source-code label, interpretation or correctness added"
+        }
+      ],
+      "description_result": "accepted",
+      "context_review": "Physical descriptions checked against the stem and all four options. Meaning questions describe only the stem; recognition choices have no code-bearing text. Descriptions provide the visible features, not a rule or the keyed response.",
+      "open_delivery_holds": [],
+      "question_content_acceptance": "deferred to 9E/9F",
+      "scored_activation": false
+    }
+  ]
+}

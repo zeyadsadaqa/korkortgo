@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "checked_on": "2026-10-16",
+  "completed_steps": [
+    "9D1",
+    "9D2",
+    "9D3",
+    "9D4",
+    "9D5",
+    "9D6",
+    "9D7",
+    "9D8",
+    "9D9",
+    "9D10",
+    "9D11",
+    "9D12",
+    "9D13",
+    "9D14",
+    "9D15"
+  ],
+  "counts": {
+    "baseline_questions": 1000,
+    "authored_option_ids": 4000,
+    "sign_questions": 616,
+    "review_batches": 13,
+    "physical_descriptions": 308,
+    "image_occurrences": 1540,
+    "open_target_delivery_holds": 38,
+    "python_tests": 91,
+    "kotlin_desktop_tests": 21
+  },
+  "test_suites": [
+    {
+      "suite": "se.korkort.AssessmentSemanticsTest",
+      "tests": 1
+    },
+    {
+      "suite": "se.korkort.AssessmentTest",
+      "tests": 8
+    },
+    {
+      "suite": "se.korkort.CurriculumContractTest",
+      "tests": 5
+    },
+    {
+      "suite": "se.korkort.GeneratedAssessmentIdentityTest",
+      "tests": 1
+    },
+    {
+      "suite": "se.korkort.QuizTest",
+      "tests": 6
+    }
+  ],
+  "protected_baseline_revision": "5264f7c1187d6cd26a2ece977523404d1ee3fa24",
+  "unchanged_inputs": [
+    {
+      "path": "content/questions.json",
+      "sha256": "303519698e564c9fb9aa835a29acd743d2038bca54be87cc71efd11951c4a3bb"
+    },
+    {
+      "path": "content/curriculum.json",
+      "sha256": "ac442d84f25cf60f91bd128a6f3471bf73cb2fc65e81bc2d93da9c013a6b5b78"
+    },
+    {
+      "path": "content/signs.json",
+      "sha256": "00f6c282e8163ca52e0b98374b514076ff9574b6c129ad859d4f8511476df80f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+      "sha256": "65fa8623b07c95a1ba0ee54839cf965e332f67322552ce40d08324fd039bbf9b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/question-actions.json",
+      "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-backlog.json",
+      "sha256": "87de0754889d6ecb25ab9b9bb14fddd31ac3e0ba26f11ec5b542eac4feca2800"
+    }
+  ],
+  "scored_activation": false,
+  "device_acceptance": false,
+  "scope": "Identity, component reveal/keyboard/semantics, and per-ID physical-description review. Full question and image delivery acceptance remain 9E/9F/9L/9O.",
+  "files": [
+    {
+      "path": "composeApp/build.gradle.kts",
+      "sha256": "330d0593c82148312dc9f431361f70af345be2b466152dafa700e2ad9ab3d51a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Assessment.kt",
+      "sha256": "7927d8968a8778f0f447f795457a768a570b801d04c13c3f7af4b7026520b199"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+      "sha256": "2c397d74366bcb1c3bf1dec2de29d3c4b07d4e792b69d6e3b223bd0c8083bf3e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "sha256": "6e8db330d9ff8d67c81df726bee5c6c3b77b8d474c6aa9ab357d8379205c0baa"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/AssessmentTest.kt",
+      "sha256": "edc1936b86e4b7a65575af7b6e2eb8a9bcd07001eea17e60eb832566941c9408"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/AssessmentSemanticsTest.kt",
+      "sha256": "cb9e8f8226d8ba9003857ba05402915bc86872f941230eeeedf54aeaf96e4cb8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/GeneratedAssessmentIdentityTest.kt",
+      "sha256": "7285f02417727c965a4fa6ba2079ffff76f1f610f15739c1009942fa993aaec0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/README.md",
+      "sha256": "cd8359be35343e0aa6e0d6e08c5b4fbf89cc89d8b6eec2bac6512107fb547a4a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "3f0c7f2d5a2507976c59e325a93ba886be861674b6b8b7d241f59c2fcf7c399b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "750918703ded46b12029421156fbde1fae71192971174ceafe2376be4201ea43"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "4dfd06d0591eac44cb2e9adf607bf4813d8194227cf78ff452626469a2dff9ac"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/TEST-se.korkort.GeneratedAssessmentIdentityTest.xml",
+      "sha256": "6ffb47e73ca14c48096166f6df9fa3c3de5527ba36cf558cd535ff43af6a18b9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/TEST-se.korkort.QuizTest.xml",
+      "sha256": "9e11ea124c791ac516eccdfed8a73b1c20b39320412187148c0730d10d33099d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/authored-identities.json",
+      "sha256": "d356c8a439f75f3ed5e1d3993e7155a14e0d522ff4d7d14845d30b2771ad7f36"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/build_fixture.py",
+      "sha256": "779e2375a6f7315587b9dd580c643baf8ecc3efcf18acd947e06197a9a9820fa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculum.kt",
+      "sha256": "d94d80134986ed74d8a8a4c33ebea800833b6dedeacad9aa9033782e052293e1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0000.kt",
+      "sha256": "47f20e09ad255180b7b2b1bcb604efae603b67b0a55ba4756489d8001bfd9a99"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0001.kt",
+      "sha256": "abcebb27fb0e10d3e6bb31a2c14541a11b47830ed49a002ef8d84d82b023b476"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0002.kt",
+      "sha256": "064e36327aacd9388db197d34a10d8590e68864e252aea63ffb0b18e3e5a0e7f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0003.kt",
+      "sha256": "a45abfc93f0e1bf2bd086615649d0a5adc214566c7b76abda6ee5ac970fbb9e4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0004.kt",
+      "sha256": "cbdaa9e0a24f9056097b40366545afce269ada01d87ee9f209c084d7b6c9309e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0005.kt",
+      "sha256": "6a2c2fdcf7642e82c4fe338ca9e86910d1beea3798dde5d446c20a801c128930"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/generated/GeneratedCurriculumPart0006.kt",
+      "sha256": "688eeb9d8261d3b611085b1d15a03e503453776ac7ab67cde65571cc40c98409"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/gradle-tests.txt",
+      "sha256": "097f058114b0ee8c222214aa783175653f682feb71b561cf46c195a6b88ddc28"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/jvm-test-init.gradle",
+      "sha256": "b958d98794066153a7d4b499ba61dfdcd6ec4c7e262f4061099fcdebdb3423d8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/python-tests.txt",
+      "sha256": "e89f84b69cd8ba318b74b81c1b054ba54d1b4d715b6b8ebb656515b4d65c1bf5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/review.md",
+      "sha256": "138da7d7cd07258b2f7a8cf1c0a9df5f8d0b4fb4876abb0dd236ecdb89056938"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/staging-manifest.json",
+      "sha256": "28b80fafd1dbf1446c2281555435d4af145f78f28d8575573bdddcce45def3ed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/trace.json",
+      "sha256": "2e7147a9cc494e136693bac78a8be7bf88bacf68bb2dd39259fa9fc47f911790"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D1/verify_assessment.py",
+      "sha256": "38c12835095cbb47f87537b2dff4418e20d2241340f2a306cd021d995305cea4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D10/description-acceptance.json",
+      "sha256": "7cc309beb54a8e9f747b9c97da4c7519777fd11adbc6ff8668c9b660c70d0094"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D10/review.md",
+      "sha256": "6a7d7a60bc8202ecbc5e1ebb2264ef0efa78e5e9ed45f7e0f8de2463a35c1950"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D11/description-acceptance.json",
+      "sha256": "11ed715fa0a44a9051748069fcae0c7c040e70570f92099c57bbbbb0fe6c334b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D11/review.md",
+      "sha256": "cde20a2b39180469bc1d54c9fed9ed532854e29dcba4de3c1f55c1d42fb24605"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D12/description-acceptance.json",
+      "sha256": "239ec10d8ce63a49e2ca7e84b89d363c83f2a2fd7843379e4214c10bdd3d9214"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D12/review.md",
+      "sha256": "a72539e91e9eaabf5522329d45943d92a5d53902c11fefa6958a30c70063c097"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D13/description-acceptance.json",
+      "sha256": "ef633330526d5c3ece1ad58179052ad28479bf71d83ce8b1d52ce5294dcf4de9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D13/review.md",
+      "sha256": "3963c95280c5404c2bd5bfeb67712057c186fd5c3ad4650debd2fd633802ace5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D14/description-acceptance.json",
+      "sha256": "873d5e3372538f15f514649639e02de3a247b9c891db777d7aac1bf952b2de01"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D14/review.md",
+      "sha256": "dca8b2e112c3d39c682a93f9f724a34403e8b012b39a9c1dbfd5d1b02f78051f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D15/description-acceptance.json",
+      "sha256": "29408f40be6616ac4947d4b6f4474e7df60515963539cdf31101654f05514239"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D15/review.md",
+      "sha256": "9fadd00f369255325c2cc9a86a44c15a8b20c29022ac0e7e5f9c44ed28047431"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/physical-descriptions.tsv",
+      "sha256": "f2b453f9284f36e01828669f2727d3ba1c8521252bf0c0c0f8a019a4dd8a2c3d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/render_review.py",
+      "sha256": "74ea4b60a661824c42a06d931203f2141212e40b614d09527702a20259aea2fa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/review.md",
+      "sha256": "ec2975c8733319df1783c1bf4323cda72300d3f5bda86910adbff6130ac159ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/reviewed-descriptions.json",
+      "sha256": "13a73193b5a39d34baa91fed2a56e4b473cc131d0d6fe9790b19c47a8c84dca3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S1.png",
+      "sha256": "9ab48c742d9d24a4dcddcf9884673c63faebfd8d79fdf80f3e1d8b7d2f388abb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S10.png",
+      "sha256": "a92a5a0c8c12dff7e669eaedfb8e724bd2237e11eab6936a0e257823b08fd6cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S11.png",
+      "sha256": "b26701991469ac7031c756caa38d0cc0aa6daedd45e9278fed46d38d2e1ad8e3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S12.png",
+      "sha256": "146a01826480cab9a64f3d48d0f5ba78d6ac21eea0bb51738037ba28ddc28f81"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S13.png",
+      "sha256": "3aef94752a1fa039294fb0e9f57f5016c9ad9858b157013abc6e55c792d9c08c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S2.png",
+      "sha256": "4458a55afe47bcf2f2a999a79c792894c610dfa9e9195a505a8b0b9f095f6a68"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S3.png",
+      "sha256": "42292f65af67000093fec0beac8a70111431b79fdb504baa8c2dbc7a79e8deda"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S4.png",
+      "sha256": "077f87a008b5bc4fa5d9391512fa6eae38bee90f5707befe512b1e1fa8a1ccd0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S5.png",
+      "sha256": "97175391bc53f81978cf6e144f883270e5aab5207d339b0c332b1d1d10912ecd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S6.png",
+      "sha256": "1329069019d826a8c06d247ba3e620f7b034585e9b4e1dc3ed563a86845316d4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S7.png",
+      "sha256": "ed22455bd83e8a2f41996e9e517441405f4de7bf82cd952a888257b32134d4f7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S8.png",
+      "sha256": "5670fc7593b2cf3b36f0bbbf47518fd9a8d76cb1e9fcb5a6388977c002ec515f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/S9.png",
+      "sha256": "7edcec65fc6de1841892849f1c064f0dc28672e344e445674e653993f6cbec0f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/T1.png",
+      "sha256": "14cd0e28bed3a9e18b6a98bc6a12a637de72af18eb669e9c01c316c448fb08f3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/T2.png",
+      "sha256": "60f47612b7699f9faa4e1579aef90a718c1a78de09a0f91b9fe3b271af0e364d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/T22.png",
+      "sha256": "414836721991183eed06b7c6645fabcef7a5876b899910578c5c3c20935ffb0d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/T6.png",
+      "sha256": "d00cbb1246ff9d5cda381e53c4d8239cd705df9d845e8a7f0d1a3530c24b75c9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/T8.png",
+      "sha256": "4314d961f8a2368ac1d6eea359a56f0181bec4fbdd963ea241671f519d081243"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D2/visual-review/vector-and-detail-review.png",
+      "sha256": "0bf36ca6765d2e7666aebc714b874bcbb83a7c236536ef9612199bbeb6b59f1a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D3/description-acceptance.json",
+      "sha256": "f490b76608c7a73fef8f8e641a062e716c75936bcbadc08bf40336c38f7d9ac6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D3/review.md",
+      "sha256": "8dde35a8fc0cb264fe3235d0fe7959dfe238f194b7f90ca3d7d4e4a2c1ae6025"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D4/description-acceptance.json",
+      "sha256": "9a3dac2772038b4fc0c892463d575f3552f143e10228620f5d7e4eb9cd53532b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D4/review.md",
+      "sha256": "56fb3ba4e65c730e3a3ae9f957dd15efe4e6d22e9bce8c5f05d2ad75f03cc8fc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D5/description-acceptance.json",
+      "sha256": "51aaff9c86129fd4ce447e690f878b2bcb0330d1a77df8d5c73a04c39764a11c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D5/review.md",
+      "sha256": "bcde9643568415783e58b9e34475a722bab40a07b7bec3403ce0a440cb4473cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D6/description-acceptance.json",
+      "sha256": "828d03fe6184c3c2bd6848ca028717b12e6e7a8d6b75f4d923ebfa2e74e31494"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D6/review.md",
+      "sha256": "b1dbc0051966c0ffd5c19dd2f46fb73b9935e6f345bc01fe45d75dc054fc5d9a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D7/description-acceptance.json",
+      "sha256": "52aeeb9acc7eaf399167fabfb0e986349de1741715ce4d4253c0ab6a0cb58d6e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D7/review.md",
+      "sha256": "5c8b1174056792b6af26eaeaa63151700bb7a61153de7348d37571688dcd9f43"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D8/description-acceptance.json",
+      "sha256": "b0367cae5b4a91f42ae0b7c09114e596183508c37e518fc56bbd6a31e481e09a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D8/review.md",
+      "sha256": "f7cc53ac5989738817f83dc7a8936180f78209d745495abaf7e14254a40feee7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D9/description-acceptance.json",
+      "sha256": "56d6fff804052a13ee186a4319bdcf7cf9c35467f6b69316f722e2144d5129c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9D9/review.md",
+      "sha256": "a03eee11ac45cbcc5f32d7fc4136b4116918be6293d657e0dccbbc8b8c090efd"
+    },
+    {
+      "path": "tools/compile_curriculum.py",
+      "sha256": "f9e861953e94d3d6473dd00e1936258b005a041994960786d147f78443af6562"
+    },
+    {
+      "path": "tools/prepare_assessment_9d.py",
+      "sha256": "a1f75a72a8f818b71b7ed06411ffb87e381fa1ea01a8b4d5dc7b37f40ad2512a"
+    },
+    {
+      "path": "tools/test_compile_curriculum.py",
+      "sha256": "2c3a4daae8419ceec185d98a242dbb9b253e04ba73892b5c5c0f1bfb03952cd7"
+    },
+    {
+      "path": "tools/test_prepare_assessment_9d.py",
+      "sha256": "d65a9a09385666fa754ef9f3087180131724571b026a9a18ce846d8d59b45b67"
+    }
+  ]
+}
