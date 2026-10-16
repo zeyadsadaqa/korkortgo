@@ -1030,6 +1030,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E2 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E2/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E3. Apply sign rewrite batch 3 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1039,6 +1041,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 **Output:** Updated content/questions.json, generated Bank.kt and batch-acceptance.json.
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
+
+**Execution record — 16 October 2026:** 9E3 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E3/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
 
 #### 9E4. Apply sign rewrite batch 4 — 50 questions
 
@@ -1050,6 +1054,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E4 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E4/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E5. Apply sign rewrite batch 5 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1059,6 +1065,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 **Output:** Updated content/questions.json, generated Bank.kt and batch-acceptance.json.
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
+
+**Execution record — 16 October 2026:** 9E5 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E5/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
 
 #### 9E6. Apply sign rewrite batch 6 — 50 questions
 
@@ -1070,6 +1078,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E6 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E6/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E7. Apply sign rewrite batch 7 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1079,6 +1089,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 **Output:** Updated content/questions.json, generated Bank.kt and batch-acceptance.json.
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
+
+**Execution record — 16 October 2026:** 9E7 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E7/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
 
 #### 9E8. Apply sign rewrite batch 8 — 50 questions
 
@@ -1090,6 +1102,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E8 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E8/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E9. Apply sign rewrite batch 9 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1099,6 +1113,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 **Output:** Updated content/questions.json, generated Bank.kt and batch-acceptance.json.
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
+
+**Execution record — 16 October 2026:** 9E9 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E9/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
 
 #### 9E10. Apply sign rewrite batch 10 — 50 questions
 
@@ -1110,6 +1126,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E10 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E10/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E11. Apply sign rewrite batch 11 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1120,6 +1138,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E11 completed. Applied the exact 50 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E11/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
+
 #### 9E12. Apply sign rewrite batch 12 — 28 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
@@ -1129,6 +1149,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 **Output:** Updated content/questions.json, generated Bank.kt and batch-acceptance.json.
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
+
+**Execution record — 16 October 2026:** 9E12 completed. Applied the exact 28 backlog rewrites with stable authored identity, `rewrite-r2`, exact 7D content/key/feedback and reviewed 9D artwork/description bindings. Other question records are unchanged at this batch boundary. Content checks pass; all assigned rewrites remain delivery-held and excluded from scoring. [Per-ID acceptance and diff](app-migration/implementation-evidence/9E12/README.md) · [Combined package/test verification](app-migration/implementation-evidence/9E/README.md).
 
 ### 9F. Resolve faint-outline delivery holds
 

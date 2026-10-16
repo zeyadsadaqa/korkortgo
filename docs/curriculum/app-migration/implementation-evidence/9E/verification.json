@@ -1,0 +1,487 @@
+{
+  "status": "passed",
+  "checked_on": "2026-10-16",
+  "baseline_revision": "0b9ef0a",
+  "counts": {
+    "new_rewrites": 528,
+    "all_9E_rewrites": 578,
+    "untouched_questions": 422,
+    "image_occurrences": 1445,
+    "distractor_change_records": 128,
+    "delivery_held": 578,
+    "scored_activation": 0,
+    "python_tests": 113,
+    "kotlin_desktop_tests": 23
+  },
+  "batches": [
+    {
+      "step": "9E2",
+      "rewritten": 50,
+      "distractor_change_records": 10
+    },
+    {
+      "step": "9E3",
+      "rewritten": 50,
+      "distractor_change_records": 12
+    },
+    {
+      "step": "9E4",
+      "rewritten": 50,
+      "distractor_change_records": 12
+    },
+    {
+      "step": "9E5",
+      "rewritten": 50,
+      "distractor_change_records": 12
+    },
+    {
+      "step": "9E6",
+      "rewritten": 50,
+      "distractor_change_records": 8
+    },
+    {
+      "step": "9E7",
+      "rewritten": 50,
+      "distractor_change_records": 12
+    },
+    {
+      "step": "9E8",
+      "rewritten": 50,
+      "distractor_change_records": 8
+    },
+    {
+      "step": "9E9",
+      "rewritten": 50,
+      "distractor_change_records": 14
+    },
+    {
+      "step": "9E10",
+      "rewritten": 50,
+      "distractor_change_records": 12
+    },
+    {
+      "step": "9E11",
+      "rewritten": 50,
+      "distractor_change_records": 6
+    },
+    {
+      "step": "9E12",
+      "rewritten": 28,
+      "distractor_change_records": 10
+    }
+  ],
+  "package": {
+    "destinations": 1123,
+    "questions": 578,
+    "assets": 484,
+    "profile": "fixture"
+  },
+  "test_suites": [
+    {
+      "name": "se.korkort.AssessmentSemanticsTest",
+      "tests": 1
+    },
+    {
+      "name": "se.korkort.AssessmentTest",
+      "tests": 8
+    },
+    {
+      "name": "se.korkort.CurriculumContractTest",
+      "tests": 5
+    },
+    {
+      "name": "se.korkort.QuizTest",
+      "tests": 6
+    },
+    {
+      "name": "se.korkort.SignRewriteBatchTest",
+      "tests": 3
+    }
+  ],
+  "limitations": [
+    "All rewritten questions remain held until exact-asset delivery and assessment route integration acceptance.",
+    "38 replacement questions remain separate 9F work."
+  ],
+  "files": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+      "sha256": "67c8c70c88a7f660406e5200cb1d9cc1585f3962a8feed6ab01eeaf6d44d54ee"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E1.kt",
+      "sha256": "896609037bdb8b409bc9e9dec41413d602914918f7a16ad1e4c11a31e3e7119e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E10.kt",
+      "sha256": "9247b62dc2d5990acb751442c9f5186f78994baa3cf2ecf9553b507a8b34ee58"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E11.kt",
+      "sha256": "97ee6e6a53d0373df81e2213486b9c07e596e92b60d5ed3f056da933039a6534"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E12.kt",
+      "sha256": "d16748bf2e5ac2e1ce516e9745843209099e3764b9b09c975991389443613764"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E2.kt",
+      "sha256": "9f73ed90893ec1507ef3a27f6c5f8630866036be1b6bc743acd52dd6aa0d770c"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E3.kt",
+      "sha256": "db76a2cf1fd18b84f6341c64b40c8405e27f0a6198ef3dc992aa31a499bf7a19"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E4.kt",
+      "sha256": "14079730ff8ac17527dd26498fc60d425d417a8d11bf5540df43add47b2716e9"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E5.kt",
+      "sha256": "467c80af8ea4d07454c13aeb2a7487fdd572a352eb2aa4e11351397f23d1b7bd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E6.kt",
+      "sha256": "51ae48ebb334ccbac298c47351a041a2be7a3888dc78106f1dc9601e0645ac76"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E7.kt",
+      "sha256": "79609a62622a78c75d15be9d0025f6166546f448751cfd190bd775324930c902"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E8.kt",
+      "sha256": "016426fc63967a4c0fbe33986bda6ab23622a0608760535987ebcd458c2b4c38"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E9.kt",
+      "sha256": "1d1befefc30fb789bece157810e0388e033a02dac4b029d96f426c97d4379592"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/SignRewriteBatchTest.kt",
+      "sha256": "f756b123a1bd2035f0a9672b98922d4c66f067e7d7148d6c38cb083767cedbb6"
+    },
+    {
+      "path": "content/questions.json",
+      "sha256": "920aa903f0058055f9008ba26d50d9b210388eb00cb4332cdecd259d000dd14f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/README.md",
+      "sha256": "1c9a607e0f82a1677a885dc4d9faaeda3dc91bb64004f9684a94ce7c627f2f2a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "1a82c2ffb0d5a426a2174b6d901565d4a768da0ef8cd2809b8a6f0de21b1c349"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "97527066c598cfdefa7c6682c487fe0e1bdf90876620cc711d8aa82685a3664f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "fdbd1239d8bf033ea7a50f168e6b908877d2e5856bd63b13e2320b3aaa423651"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/TEST-se.korkort.QuizTest.xml",
+      "sha256": "1e5f619b2ee39a299462715801afc3822576534cee0ef0e26807fe257681da9d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "sha256": "07eedd376e96e1b19fa44e11806790e5155fc47deab59f25418e61018d5d418f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/gradle-tests.txt",
+      "sha256": "edec3301d3ed134337ff8a88c03a5a7aa09f4528059025ee16511480a80e94ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/package-validation.json",
+      "sha256": "171dc92bd38d7f1e22c6870d0b96d9a426aaec788d51d98ac110b692eeb99b65"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/python-tests.txt",
+      "sha256": "64356524a5c770913c59b96882969b244a459d61cffec56bd9847c2a3f8a4fac"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/questions.json",
+      "sha256": "eee230bd00c48b7ed3a9350ceeb82709e81f81c89fee7790f1a775a6fa229f8f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/validate_package.py",
+      "sha256": "e233e99bcc739091feee29e359a181704d743b7ca711186693e755435a64cd49"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/validation-manifest.json",
+      "sha256": "1f3cfb8f4046036bb2be5835a8447fa07398e7a78df294104c05ea1d563becbd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E/verify_all.py",
+      "sha256": "972c91ec6cab816a3a6773a8079e8f6b4f59a440a3e3317ec9a80c04fc20dd17"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E10/README.md",
+      "sha256": "45343cbca6f633ce93b4fd483b79a3d0781736419a46c4ab5cce5922211d3d8a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E10/batch-acceptance.json",
+      "sha256": "a849201a49fe976290322e8e007ccc85728659a9b701dd5757b5e5e71ffd48cc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E10/before-after.diff",
+      "sha256": "d5cd947c23331b3ac420d9aacce49bf85258899af0b1b5340b66f8b23c4948e3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E10/content-review.json",
+      "sha256": "2cdae673e677d21e28e8da5cfe8d7bf6de71ed032c57b3be06abf71bca7fac42"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E10/questions.json",
+      "sha256": "e2877a9c0ee614b38d7d0154a26c90854f2ec879a422ffa6f4ee942a90d1e25c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E11/README.md",
+      "sha256": "637c95880378d3b2723d9e0a32496225c04a3f3041e85a052a322d4c11c4fbc4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E11/batch-acceptance.json",
+      "sha256": "99c52977617ba5b73fa4a035e63b0198e67afc50d7b681ddc829a259241f0318"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E11/before-after.diff",
+      "sha256": "238723ec0c191d2eccb9ddd981d68b14cec298131739ce2434025baefe752bd6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E11/content-review.json",
+      "sha256": "e6e5247e3232e02030bcfb593506f4a5a81c359428f5c1983a873eeef759748b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E11/questions.json",
+      "sha256": "3ac3401a8f54371a4ce0b45b657e5b05814ca03232844c0a1aa2993b2ec8ff5f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E12/README.md",
+      "sha256": "7682e1ffaada93265bc9ec7c3008409db9a270fa617875ff8ff00523b4b61011"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E12/batch-acceptance.json",
+      "sha256": "33e6583fdf49eb47f21f369ef9949fe5a7cea72836259444985824a0d4f5e2f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E12/before-after.diff",
+      "sha256": "dd3be46580f7fc448c0d7f60205a3d16e47bff001aac90f15c8e0fd70b9a157b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E12/content-review.json",
+      "sha256": "2ee9a859859a70ab15e569c151a47afcc42e886440893e3930e0cdfce6725183"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E12/questions.json",
+      "sha256": "351ec17246057989a3c8794cfcc75e4b0b0682d1befcb43795e6ac1919a889a7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/README.md",
+      "sha256": "5c8a1396c5c08d9b7d671fe762cc05876d536939685a2738dc687b7750920f23"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/batch-acceptance.json",
+      "sha256": "d9b00c742df28cf9d684136cfa30f82865af6d7ca31d7fbc29d97161b04e79eb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/before-after.diff",
+      "sha256": "79c6e8db354da0686d769d466a669e0df7a04898e2b708f54515344ec6eb1ed6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/content-review.json",
+      "sha256": "624e1ada399d8363819edd7cf6df9243b78d116a441a603a6948b9b574af6c1b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/incoming-bank.kt.txt",
+      "sha256": "dd7de0a52a003ce26ee70f6525429eb1c55755007d2796a02edebb5b9047f619"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/incoming-questions.json",
+      "sha256": "0f535a50e2817694c1f0a5a18c930d7dff90f96701f4e1bfaaa25a60cbdaf5d5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/package-validation.json",
+      "sha256": "a2909819adf51c9fd89302be85b438112b9a0a10dc349d77f33449176061add3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/questions.json",
+      "sha256": "feca9527c0be5d280ab8a6d21abd08b08e156fd0bb8d0ebf6bd4f90a88df8438"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/validate_package.py",
+      "sha256": "d617baa3e2e43e3f6c840bed7b0719c430701f4fffbe57ad68d627c6815a9d40"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E2/validation-manifest.json",
+      "sha256": "12a0a27f18d63cfe89ed731cb26dd6c6f70bd57fea8e803143af3eaa30f4cca3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E3/README.md",
+      "sha256": "e93e1c9b377b7d7a3164671e4e35d0b2d52d15a98e58c5fc4f2717ca21e9c827"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E3/batch-acceptance.json",
+      "sha256": "c25e98fcfb9bb3155ec8cae3742af2be64d58bd4bc92be31e8f1f28cf1e02cb6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E3/before-after.diff",
+      "sha256": "71339c9c8aa13930ec23056a7eb0cc5e3f2c412c485538aa20a145ff6d93259a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E3/content-review.json",
+      "sha256": "aa23b2d0c952565bdde3fbfb433be5173f498f6e403e369cada487f781f6e1ad"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E3/questions.json",
+      "sha256": "bab472ebdd869cb74dfcd1e86acaf4fe13d18a859e8d6d38712dcf4991394fe3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E4/README.md",
+      "sha256": "2e971562a04ae9ccb661b40429e328c03162503876270829ac6c728450989efb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E4/batch-acceptance.json",
+      "sha256": "0176173b6738a5f466535b7f646bd23fbb85c74f3ffa8d270823d04f5168c8c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E4/before-after.diff",
+      "sha256": "31b761ace29dbac90d0b5639ad716c23a0d83b1c9060c1eec762ae619eaf3248"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E4/content-review.json",
+      "sha256": "716295749cfd4f9af9641ca62df8e961b50c42d4c34ff83a7b5a8bb481d1e679"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E4/questions.json",
+      "sha256": "460873e6903167b2a2eae653f6156a4d645a0785c31db2a3aafc13fba1029838"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E5/README.md",
+      "sha256": "6c761ee77a7d589b2aedba2e7cdcbe8389409139c327bec0bb73e14b163934bb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E5/batch-acceptance.json",
+      "sha256": "a4a4a1a6cf12a96eeca970d268d97fee7ef9d51332438bbf37c8c89a7f912bb1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E5/before-after.diff",
+      "sha256": "4fc16e7503a86d1a69efb3fa9891b4242852a67a4b3eba8be3912cf9c8abe3b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E5/content-review.json",
+      "sha256": "cb4bbb69d105e652a4ddd7d7646e4ffb8c4a725ad501ff06a10e850c5311b16a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E5/questions.json",
+      "sha256": "60263e6b8fef18bd6259fd6c3470b1e0706376bed8a91f2a102cc114e65adab9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E6/README.md",
+      "sha256": "a8edefe5edd9d276d82c683ae517862009d796ae743ff3d582f21e8a13fa02df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E6/batch-acceptance.json",
+      "sha256": "285d0f0a1363d300e23da23e24e9794215a2e004dca6f41c2ee64bb928520911"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E6/before-after.diff",
+      "sha256": "b8b9740d05434f3c5b71e98c90843ae83fe66bc219c408e98bb9afe449efba3d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E6/content-review.json",
+      "sha256": "731dad224d14626116fcbba53280fbc566ec7626e7bed0c895a5511e12236c95"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E6/questions.json",
+      "sha256": "678ac5e8c0cf1c73c867d2638ea6b568e5232dadcc0e31f12e3a29b520d088a4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E7/README.md",
+      "sha256": "5b32cc4042f63002defb3351bb08b8ae4be2c36696a8a65f99ae4d00f043bf98"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E7/batch-acceptance.json",
+      "sha256": "32f210a6dc95ebadc8c635f43fa7698b9430eedd73e32c160a92c7ee91101f35"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E7/before-after.diff",
+      "sha256": "f07bc2c2f4cf3a54d7b944f914439e8d212b13810a965d0f4d557cd2b29bc03d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E7/content-review.json",
+      "sha256": "4a9c64b7d41744f2f64cc71fda1befa16d9ecf2fd4f4d370a509817b51485b03"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E7/questions.json",
+      "sha256": "c79b7335407c9a2d5d05cbafe8ecd636e8bb1df748bb4bd5585ae1710de7b080"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E8/README.md",
+      "sha256": "91a4c9f7fdf7a7f00525d59a4da93f3c9ccdf46f4586af787f18fbf962d8968b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E8/batch-acceptance.json",
+      "sha256": "49c6d0a75906e6416a1228d35b99ca57b6887806f2de0ffdc357761ce5e0520d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E8/before-after.diff",
+      "sha256": "e3f23f0aa998a9c2e327aefde4f3e98d597e08ca3984d3c9757cd503cf34c83d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E8/content-review.json",
+      "sha256": "d5cd23f991f8534cd59a305605106641f693ed71cd7ce0543a781f6f5c36a813"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E8/questions.json",
+      "sha256": "b515589bd9773058788ea35cd80d055859bd38e97882857eddfa273e45f1ddb7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E9/README.md",
+      "sha256": "26d0075ee8eb8524ca8db69d85edb7f786fa066ac8f75361f4519003bdc5df7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E9/batch-acceptance.json",
+      "sha256": "395ed6ca81c514885ddbbadf73d3c0f2d5751a7be5369cb6c97c82341e964f2b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E9/before-after.diff",
+      "sha256": "89a35a9c8afe42dc3989b0f73ce6151216d69d86a8a9892014529f944aced083"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E9/content-review.json",
+      "sha256": "cb6a66f566acc5fc2395adcedee583127babb22d575b85ca4354e96e345ce216"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9E9/questions.json",
+      "sha256": "e1ca835cb7a2500a364503a0af744954ddda3176a3be0bc19f5d5a580feebf42"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "sha256": "b6bb8e4100bc16ac4c5d9a391a60ab2d44f4899ba44d907008504fdffbbb21b3"
+    },
+    {
+      "path": "docs/curriculum/progress.md",
+      "sha256": "aac4ca45a1b7331f9c6fc215f3841e893b127d28de16bee21fdce324f77aa572"
+    },
+    {
+      "path": "tools/apply_sign_rewrite_9e2.py",
+      "sha256": "560fdc1c82d49ac209960dcfeeef9901a4d90254e3c4c62bda9545bda4f360e2"
+    },
+    {
+      "path": "tools/apply_sign_rewrites_9e.py",
+      "sha256": "1a79b9081a26867428a2aeaf8b2a9a3aa2fdc10e47343279be5230ba3f5d557d"
+    },
+    {
+      "path": "tools/test_apply_sign_rewrite_9e1.py",
+      "sha256": "f4445ad593766a1e8093d969e63cac09c9361afef389a6f1f8bca8f22a9c5c7a"
+    },
+    {
+      "path": "tools/test_apply_sign_rewrite_9e2.py",
+      "sha256": "ae9f1e46afc86ece6fefdb12b700442bc4797b678414c1dacfc81aefc567930a"
+    },
+    {
+      "path": "tools/test_apply_sign_rewrites_9e.py",
+      "sha256": "1a549a9c7e52b8b8b2d78d9527d15761f4f8d485861f3b1929a2a7e9b99e923d"
+    }
+  ]
+}
