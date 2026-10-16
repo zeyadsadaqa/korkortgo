@@ -125,6 +125,17 @@ data class ApprovedImageRegion(
 /** Absolute source-pixel vertex, using the same top-left origin as ApprovedImageRegion. */
 data class SourcePixelPoint(val x: Int, val y: Int)
 
+/** Production overlay coordinates are absolute source pixels, before clipping/scaling. */
+data class IllustrationOverlay(
+    val left: Int,
+    val top: Int,
+    val right: Int,
+    val bottom: Int,
+    val assetId: AssetId?,
+    val label: RichText,
+    val insetPixels: Int,
+)
+
 /** Typed payloads retain structure needed for reading, reflow and accessibility. */
 sealed interface BlockPayload {
     data class Heading(val level: Int, val text: RichText) : BlockPayload {
@@ -186,6 +197,15 @@ sealed interface BlockPayload {
         }
     }
     data class RelatedLinks(val links: List<InlineContent.Link>) : BlockPayload
+    /** Exact official examples resolve through shared sign metadata/artwork. */
+    data class SignExamples(val entryIds: List<ContentId>) : BlockPayload
+    /** White overlay backing, then contained official artwork or editable text; retain source order. */
+    data class CompositeImage(
+        val assetId: AssetId,
+        val region: ApprovedImageRegion,
+        val overlays: List<IllustrationOverlay>,
+        val caption: RichText,
+    ) : BlockPayload
 }
 
 enum class AnswerVisibility { AFTER_DELIBERATE_REVEAL }

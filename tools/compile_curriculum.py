@@ -90,9 +90,15 @@ class Validator:
         self.root = root.resolve()
         self.schema = Schema(root)
         self.files = {}
+        self.json_files = {}
         self.authority_path = str(source_authority)
         self.approved = {r['path']:r['sha256'] for r in read_json(safe_path(self.root,self.authority_path,'source authority'))['input_manifest']}
         self.evolving = {*MODEL_PATHS, 'tools/build_content.py', 'tools/content_schema.py', 'tools/compile_curriculum.py', 'docs/curriculum/implementation-plan.md', 'docs/curriculum/progress.md'}
+
+    def json_file(self, path):
+        if path not in self.json_files:
+            self.json_files[path] = read_json(path)
+        return self.json_files[path]
 
     def identity(self, obj, where):
         path = safe_path(self.root, obj['path'], where)
@@ -168,7 +174,7 @@ class Validator:
                 loc = value['locator']
                 path = self.root/value['file']['path']
                 if loc.startswith('json:'):
-                    pointer(read_json(path), loc[5:], where)
+                    pointer(self.json_file(path), loc[5:], where)
                 elif loc.startswith('line:'):
                     match = re.fullmatch(r'line:(\d+)(?:-(\d+))?', loc)
                     if not match or not 1 <= int(match[1]) <= int(match[2] or match[1]) <= len(path.read_text().splitlines()):
@@ -193,6 +199,11 @@ class Validator:
                     fail(where, 'approved polygon exceeds region bounds')
                 if not sum(p['x']*points[(i+1)%len(points)]['y']-points[(i+1)%len(points)]['x']*p['y'] for i,p in enumerate(points)):
                     fail(where, 'approved polygon must have nonzero area')
+            elif target == 'IllustrationOverlay':
+                if not (0 <= value['left'] < value['right'] and 0 <= value['top'] < value['bottom']) or value['inset_pixels'] < 0:
+                    fail(where, 'overlay requires valid source coordinates and inset')
+                if (value['asset_id'] is None) == (not value['label']):
+                    fail(where, 'overlay requires exactly one official asset or text label')
             for field, _, _ in fields:
                 if field.endswith('_on') and value[field] is not None:
                     try:
@@ -361,9 +372,16 @@ class Validator:
                 retained = False
                 for evidence in row['evidence']:
                     loc=evidence['origin'];path=loc['file']['path']
-                    if path in self.approved and path.endswith('/source-checks.json') and loc['locator'].startswith('json:'):
+                    if path in self.approved and (path.endswith('/source-checks.json') or path=='docs/curriculum/manuscript-sources.json') and loc['locator'].startswith('json:'):
                         record=pointer(read_json(self.root/path),loc['locator'][5:],id)
                         retained |= isinstance(record,dict) and record.get('url')==row['url']
+                    elif path=='docs/curriculum/sign-captions.json' and path in self.approved and loc['locator'].startswith('json:/captions/'):
+                        record=pointer(self.json_file(self.root/path),loc['locator'][5:],id)
+                        cap_index=int(loc['locator'].split('/')[2])
+                        cap=self.json_file(self.root/path)['captions'][cap_index]
+                        if 'sign-'+cap['code'] in signs and isinstance(record,dict) and record.get('url')==row['url']:
+                            registered=True
+                            retained=True
                 if id!='REF-'+hashlib.sha256(row['url'].encode()).hexdigest()[:16] or not registered or not retained:
                     fail(id,'unknown or changed approved source URL record')
             url=urlparse(row['url'])
@@ -392,9 +410,13 @@ class Validator:
                         if not any(b['scope_id']==value['scope_id'] and b['reference_id']==value['reference_id'] for b in bindings):fail(where,'source use does not match exact scoped URL')
                 if set(value)=={'content_id','block_id'}:target(value,where)
                 if value.get('type')=='external_source' and value['reference_id'] not in refs:fail(where,'unknown external source')
-                if 'asset_id' in value and value['asset_id'] not in assets:fail(where,'unknown asset binding')
-                if value.get('type') in ('cropped_image','polygon_image') and assets[value['asset_id']]['kind'] != 'contextual_illustration':
+                if 'asset_id' in value and value['asset_id'] is not None and value['asset_id'] not in assets:fail(where,'unknown asset binding')
+                if value.get('type') in ('cropped_image','polygon_image','composite_image') and assets[value['asset_id']]['kind'] != 'contextual_illustration':
                     fail(where, 'approved image regions are limited to contextual illustrations')
+                if value.get('type') == 'sign_examples':
+                    for id in value['entry_ids']:target({'content_id':id,'block_id':None},where,{'sign'})
+                if set(value)=={'left','top','right','bottom','asset_id','label','inset_pixels'} and value['asset_id'] is not None and assets[value['asset_id']]['kind']!='official_sign':
+                    fail(where, 'illustration overlays require exact official sign assets')
                 for field in ['source_ids']:
                     for id in value.get(field,[]):
                         if id not in sources:fail(where,f'unknown source destination {id}')
