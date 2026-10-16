@@ -22,7 +22,7 @@ class SignRewriteBatchTest {
         }
     }
     @Test fun heldRewritesCannotEnterLegacyOrNewScoredSessions() {
-        repeat(100) { seed -> assertTrue(QuizEngine.select(questionBank,70,Random(seed)).none { it.assessment != null }) }
+        repeat(100) { seed -> assertTrue(QuizEngine.select(questionBank,70,Random(seed)).none { it.assessment != null || QuestionId(it.id) in replacementDeliveryHolds }) }
         assertFailsWith<IllegalArgumentException> { QuizEngine.select(rewritten,1) }
         assertFailsWith<IllegalArgumentException> { QuizSession(listOf(rewritten.first()),Feedback.IMMEDIATE) }
         assertFailsWith<IllegalArgumentException> { AssessmentEngine.select(rewritten.map { it.assessment!! },1,ContentPackageIdentity("test",Sha256("a".repeat(64)))) }
@@ -47,4 +47,14 @@ class SignRewriteBatchTest {
             assertEquals(setOf(0,1,2,3),positions)
         }
     }
+    @Test fun all38UnacceptedLegacyReplacementsStayOutOfScoredSessions() {
+        assertEquals(38,replacementDeliveryHolds.size)
+        val replacements=questionBank.filter {QuestionId(it.id) in replacementDeliveryHolds}
+        assertEquals(38,replacements.size)
+        assertTrue(replacements.all {it.assessment==null})
+        replacements.forEach {q->assertFailsWith<IllegalArgumentException> {QuizSession(listOf(q),Feedback.IMMEDIATE)}}
+        assertFailsWith<IllegalArgumentException> {QuizEngine.select(replacements,1)}
+        assertEquals(384,questionBank.count {it.eligibleForScoring()})
+    }
+
 }

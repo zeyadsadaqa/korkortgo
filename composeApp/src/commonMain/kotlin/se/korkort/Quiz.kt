@@ -36,7 +36,7 @@ object QuizEngine {
         val selected = mutableListOf<Question>()
         val used = mutableSetOf<String>()
         fun pick(pool: List<Question>, count: Int) {
-            val choices = pool.filter { it.concept !in used && (it.assessment == null || it.assessment.acceptance.eligibility == ScoringEligibility.ACCEPTED) }.groupBy { it.concept }.values.shuffled(random)
+            val choices = pool.filter { it.concept !in used && it.eligibleForScoring() }.groupBy { it.concept }.values.shuffled(random)
             require(choices.size >= count) { "Not enough distinct learning topics" }
             choices.take(count).forEach { variants -> val q=variants.random(random); used.add(q.concept); selected.add(q.shuffled(random)) }
         }
@@ -46,7 +46,7 @@ object QuizEngine {
     }
 }
 data class QuizSession(val questions: List<Question>, val feedback: Feedback, val answers: Map<String, Int> = emptyMap(), val index: Int = 0, val finished: Boolean = false) {
-    init { require(questions.all { it.assessment == null || it.assessment.acceptance.eligibility == ScoringEligibility.ACCEPTED }) }
+    init { require(questions.all { it.eligibleForScoring() }) }
     val current get() = questions[index]
     val score get() = questions.count { answers[it.id] == it.correct }
     fun answer(option: Int): QuizSession {
@@ -173,3 +173,8 @@ data class SessionQuestionSnapshot(
     }
 }
 data class SnapshotAnswer(val question: QuestionRevisionKey, val selectedOptionId: OptionId)
+
+/** Untyped legacy replacements cannot bypass their pending exact-image delivery acceptance. */
+internal fun Question.eligibleForScoring(): Boolean = assessment?.let {
+    it.acceptance.eligibility == ScoringEligibility.ACCEPTED
+} ?: (QuestionId(id) !in replacementDeliveryHolds)
