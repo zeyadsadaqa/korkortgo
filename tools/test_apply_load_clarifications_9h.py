@@ -7,10 +7,11 @@ from apply_load_clarifications_9h import ROOT, BASE, ACTIONS, IDS, BATCHES, read
 from compile_curriculum import Validator
 from apply_sign_rewrites_9e import build
 from apply_scenario_corrections_9g import IDS as SCENARIO_IDS
+from apply_fuel_corrections_9i import IDS as FUEL_IDS
 class LoadClarificationsTest(unittest.TestCase):
  def test_only_thirty_authorized_records_change_after_9g(self):
   before=build(12)[0];after=read(Path('content/questions.json'))
-  self.assertEqual(IDS,[a['id'] for a,b in zip(before,after) if a!=b and a['id'] not in SCENARIO_IDS])
+  self.assertEqual(IDS,[a['id'] for a,b in zip(before,after) if a!=b and a['id'] not in SCENARIO_IDS+FUEL_IDS])
   self.assertEqual([q['id'] for q in before],[q['id'] for q in after])
  def test_six_batch_boundaries_and_exact_proposals(self):
   actions={q['question_id']:q for q in read(ACTIONS)['questions']};live={q['id']:q for q in read(Path('content/questions.json'))}

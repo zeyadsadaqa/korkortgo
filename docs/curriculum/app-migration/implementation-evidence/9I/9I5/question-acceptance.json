@@ -1,0 +1,1630 @@
+{
+  "schema_version": 1,
+  "step": "9I5",
+  "question_ids": [
+    "fuel-40-5",
+    "fuel-saving-100-0.5",
+    "fuel-saving-100-1",
+    "fuel-saving-100-2",
+    "fuel-saving-200-0.5",
+    "fuel-saving-200-1"
+  ],
+  "questions": [
+    {
+      "step": "9I5",
+      "question_id": "fuel-40-5",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-40-5-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "40",
+        "supplied_rate_l_per_100km": "5",
+        "exact_result_l": "2",
+        "equation": "40 × 5 ÷ 100 = 2",
+        "rounding": "none",
+        "old_key": "2 litres",
+        "new_key": "2 litres",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-40-5-option-1",
+            "value_l": "2",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-40-5-option-2",
+            "value_l": "1",
+            "equals_result": false,
+            "difference_from_result_l": "-1"
+          },
+          {
+            "option_id": "fuel-40-5-option-3",
+            "value_l": "3",
+            "equals_result": false,
+            "difference_from_result_l": "1"
+          },
+          {
+            "option_id": "fuel-40-5-option-4",
+            "value_l": "4",
+            "equals_result": false,
+            "difference_from_result_l": "2"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-40-5",
+        "concept": "fuel-trip-consumption",
+        "category": "ENVIRONMENT",
+        "prompt": "A car averages 5 litres per 100 km over a 40 km journey. Approximately how much fuel does the journey use?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "1 litres",
+            "explanation": "1 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+        "page": 312,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-40-5",
+        "concept": "fuel-trip-consumption",
+        "category": "ENVIRONMENT",
+        "prompt": "A car averages 5 litres per 100 km over a 40 km journey. Approximately how much fuel does the journey use?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "1 litre",
+            "explanation": "1 litre is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions.",
+        "page": 312,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-40-5",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-trip-consumption",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "A car averages 5 litres per 100 km over a 40 km journey. Approximately how much fuel does the journey use?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-40-5-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "2 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-40-5-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-40-5-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "3 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-40-5-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "4 litres"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-40-5-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-40-5-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-40-5-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1 litre is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-40-5-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "3 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-40-5-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "4 litres is not the result of the stated calculation. 40 × 5 ÷ 100 = 2 litres. Actual use depends on driving and conditions."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/960/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "9I5",
+      "question_id": "fuel-saving-100-0.5",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-saving-100-0.5-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "100",
+        "supplied_rate_l_per_100km": "0.5",
+        "exact_result_l": "0.5",
+        "equation": "100 × 0.5 ÷ 100 = 0.5",
+        "rounding": "none",
+        "old_key": "0.5 litres",
+        "new_key": "0.5 litres",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-saving-100-0.5-option-1",
+            "value_l": "0.5",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-saving-100-0.5-option-2",
+            "value_l": "0.2",
+            "equals_result": false,
+            "difference_from_result_l": "-0.3"
+          },
+          {
+            "option_id": "fuel-saving-100-0.5-option-3",
+            "value_l": "0.8",
+            "equals_result": false,
+            "difference_from_result_l": "0.3"
+          },
+          {
+            "option_id": "fuel-saving-100-0.5-option-4",
+            "value_l": "1",
+            "equals_result": false,
+            "difference_from_result_l": "0.5"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-saving-100-0.5",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "0.5 litres",
+            "explanation": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.2 litres",
+            "explanation": "0.2 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.8 litres",
+            "explanation": "0.8 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litres",
+            "explanation": "1 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-saving-100-0.5",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "0.5 litres",
+            "explanation": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.2 litres",
+            "explanation": "0.2 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.8 litres",
+            "explanation": "0.8 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litre",
+            "explanation": "1 litre is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-saving-100-0.5",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-saving-calculation",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 100 km, how much fuel is saved?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-saving-100-0.5-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "0.5 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-0.5-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "0.2 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-0.5-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "0.8 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-0.5-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-saving-100-0.5-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-saving-100-0.5-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-0.5-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "0.2 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-0.5-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "0.8 litres is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-0.5-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1 litre is not the result of the stated calculation. 100 × 0.5 ÷ 100 = 0.5 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/980/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "9I5",
+      "question_id": "fuel-saving-100-1",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-saving-100-1-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "100",
+        "supplied_rate_l_per_100km": "1",
+        "exact_result_l": "1",
+        "equation": "100 × 1 ÷ 100 = 1",
+        "rounding": "none",
+        "old_key": "1 litres",
+        "new_key": "1 litre",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-saving-100-1-option-1",
+            "value_l": "1",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-saving-100-1-option-2",
+            "value_l": "0.5",
+            "equals_result": false,
+            "difference_from_result_l": "-0.5"
+          },
+          {
+            "option_id": "fuel-saving-100-1-option-3",
+            "value_l": "1.5",
+            "equals_result": false,
+            "difference_from_result_l": "0.5"
+          },
+          {
+            "option_id": "fuel-saving-100-1-option-4",
+            "value_l": "2",
+            "equals_result": false,
+            "difference_from_result_l": "1"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-saving-100-1",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "1 litres",
+            "explanation": "100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.5 litres",
+            "explanation": "0.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1.5 litres",
+            "explanation": "1.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "2 litres",
+            "explanation": "2 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-saving-100-1",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "1 litre",
+            "explanation": "100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.5 litres",
+            "explanation": "0.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1.5 litres",
+            "explanation": "1.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "2 litres",
+            "explanation": "2 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-saving-100-1",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-saving-calculation",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 100 km, how much fuel is saved?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-saving-100-1-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-1-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "0.5 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-1-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1.5 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-1-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "2 litres"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-saving-100-1-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "100 × 1 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-saving-100-1-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-1-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "0.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-1-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1.5 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-1-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "2 litres is not the result of the stated calculation. 100 × 1 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/981/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "9I5",
+      "question_id": "fuel-saving-100-2",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-saving-100-2-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "100",
+        "supplied_rate_l_per_100km": "2",
+        "exact_result_l": "2",
+        "equation": "100 × 2 ÷ 100 = 2",
+        "rounding": "none",
+        "old_key": "2 litres",
+        "new_key": "2 litres",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-saving-100-2-option-1",
+            "value_l": "2",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-saving-100-2-option-2",
+            "value_l": "1",
+            "equals_result": false,
+            "difference_from_result_l": "-1"
+          },
+          {
+            "option_id": "fuel-saving-100-2-option-3",
+            "value_l": "3",
+            "equals_result": false,
+            "difference_from_result_l": "1"
+          },
+          {
+            "option_id": "fuel-saving-100-2-option-4",
+            "value_l": "4",
+            "equals_result": false,
+            "difference_from_result_l": "2"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-saving-100-2",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 2 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litres",
+            "explanation": "1 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-saving-100-2",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 2 litres per 100 km. Over 100 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litre",
+            "explanation": "1 litre is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-saving-100-2",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-saving-calculation",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "Smoother driving reduces measured consumption by 2 litres per 100 km. Over 100 km, how much fuel is saved?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-saving-100-2-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "2 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-2-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-2-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "3 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-100-2-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "4 litres"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-saving-100-2-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-saving-100-2-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-2-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1 litre is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-2-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "3 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-100-2-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "4 litres is not the result of the stated calculation. 100 × 2 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/983/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "9I5",
+      "question_id": "fuel-saving-200-0.5",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-saving-200-0.5-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "200",
+        "supplied_rate_l_per_100km": "0.5",
+        "exact_result_l": "1",
+        "equation": "200 × 0.5 ÷ 100 = 1",
+        "rounding": "none",
+        "old_key": "1 litres",
+        "new_key": "1 litre",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-saving-200-0.5-option-1",
+            "value_l": "1",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-saving-200-0.5-option-2",
+            "value_l": "0.5",
+            "equals_result": false,
+            "difference_from_result_l": "-0.5"
+          },
+          {
+            "option_id": "fuel-saving-200-0.5-option-3",
+            "value_l": "1.5",
+            "equals_result": false,
+            "difference_from_result_l": "0.5"
+          },
+          {
+            "option_id": "fuel-saving-200-0.5-option-4",
+            "value_l": "2",
+            "equals_result": false,
+            "difference_from_result_l": "1"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-saving-200-0.5",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 200 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "1 litres",
+            "explanation": "200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.5 litres",
+            "explanation": "0.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1.5 litres",
+            "explanation": "1.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "2 litres",
+            "explanation": "2 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-saving-200-0.5",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 200 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "1 litre",
+            "explanation": "200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "0.5 litres",
+            "explanation": "0.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1.5 litres",
+            "explanation": "1.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "2 litres",
+            "explanation": "2 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-saving-200-0.5",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-saving-calculation",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "Smoother driving reduces measured consumption by 0.5 litres per 100 km. Over 200 km, how much fuel is saved?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-saving-200-0.5-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-0.5-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "0.5 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-0.5-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1.5 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-0.5-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "2 litres"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-saving-200-0.5-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "200 × 0.5 ÷ 100 = 1 litres saved. Never compromise safety to achieve a fuel saving."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-saving-200-0.5-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-0.5-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "0.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-0.5-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1.5 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-0.5-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "2 litres is not the result of the stated calculation. 200 × 0.5 ÷ 100 = 1 litre saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/988/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    },
+    {
+      "step": "9I5",
+      "question_id": "fuel-saving-200-1",
+      "before_revision": "legacy-r1",
+      "after_revision": "fuel-unit-r2",
+      "content_acceptance": "passed",
+      "one_correct_answer": true,
+      "correct_option_id": "fuel-saving-200-1-option-1",
+      "all_explanations_reviewed": true,
+      "arithmetic": {
+        "distance_km": "200",
+        "supplied_rate_l_per_100km": "1",
+        "exact_result_l": "2",
+        "equation": "200 × 1 ÷ 100 = 2",
+        "rounding": "none",
+        "old_key": "2 litres",
+        "new_key": "2 litres",
+        "numeric_key_changed": false,
+        "option_checks": [
+          {
+            "option_id": "fuel-saving-200-1-option-1",
+            "value_l": "2",
+            "equals_result": true,
+            "difference_from_result_l": "0"
+          },
+          {
+            "option_id": "fuel-saving-200-1-option-2",
+            "value_l": "1",
+            "equals_result": false,
+            "difference_from_result_l": "-1"
+          },
+          {
+            "option_id": "fuel-saving-200-1-option-3",
+            "value_l": "3",
+            "equals_result": false,
+            "difference_from_result_l": "1"
+          },
+          {
+            "option_id": "fuel-saving-200-1-option-4",
+            "value_l": "4",
+            "equals_result": false,
+            "difference_from_result_l": "2"
+          }
+        ]
+      },
+      "content_review": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json#/decision",
+      "before": {
+        "id": "fuel-saving-200-1",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 200 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litres",
+            "explanation": "1 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": ""
+      },
+      "after": {
+        "id": "fuel-saving-200-1",
+        "concept": "fuel-saving-calculation",
+        "category": "ENVIRONMENT",
+        "prompt": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 200 km, how much fuel is saved?",
+        "options": [
+          {
+            "text": "2 litres",
+            "explanation": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "1 litre",
+            "explanation": "1 litre is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "3 litres",
+            "explanation": "3 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          },
+          {
+            "text": "4 litres",
+            "explanation": "4 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+            "image": ""
+          }
+        ],
+        "correct": 0,
+        "explanation": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving.",
+        "page": 314,
+        "source": "",
+        "image": "",
+        "assessment": {
+          "key": {
+            "question_id": "fuel-saving-200-1",
+            "revision": "fuel-unit-r2"
+          },
+          "concept_id": "fuel-saving-calculation",
+          "category": "environment",
+          "prompt": [
+            {
+              "type": "text",
+              "text": "Smoother driving reduces measured consumption by 1 litres per 100 km. Over 200 km, how much fuel is saved?"
+            }
+          ],
+          "image": null,
+          "options": [
+            {
+              "id": "fuel-saving-200-1-option-1",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "2 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-1-option-2",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "1 litre"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-1-option-3",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "3 litres"
+                }
+              ],
+              "image": null
+            },
+            {
+              "id": "fuel-saving-200-1-option-4",
+              "text": [
+                {
+                  "type": "text",
+                  "text": "4 litres"
+                }
+              ],
+              "image": null
+            }
+          ],
+          "feedback": {
+            "target_sign_code": null,
+            "english_label": null,
+            "correct_option_id": "fuel-saving-200-1-option-1",
+            "explanation": [
+              {
+                "type": "text",
+                "text": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+              }
+            ],
+            "option_feedback": [
+              {
+                "option_id": "fuel-saving-200-1-option-1",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-1-option-2",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "1 litre is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-1-option-3",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "3 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              },
+              {
+                "option_id": "fuel-saving-200-1-option-4",
+                "explanation": [
+                  {
+                    "type": "text",
+                    "text": "4 litres is not the result of the stated calculation. 200 × 1 ÷ 100 = 2 litres saved. Never compromise safety to achieve a fuel saving."
+                  }
+                ],
+                "sign_code": null,
+                "english_label": null,
+                "source_uses": []
+              }
+            ]
+          },
+          "relationship": {
+            "primary_lesson_id": "M09-L02",
+            "related_lesson_ids": [],
+            "reference_ids": [],
+            "source_ids": [
+              "source-eco"
+            ],
+            "content_version": "screen-2026-10-14-78a89d8ffbb8",
+            "disposition": "rewrite",
+            "source_uses": []
+          },
+          "acceptance": {
+            "eligibility": "accepted",
+            "content_review": {
+              "record": {
+                "file": {
+                  "path": "docs/curriculum/app-migration/implementation-evidence/9I/content-review.json",
+                  "sha256": "093fb42211437813940efab08da49177201523ec87576e4c39c11a3208b1db8d"
+                },
+                "locator": "json:/decision",
+                "evidence_ids": [],
+                "pdf_evidence_page": null
+              },
+              "reviewed_on": "2026-10-16"
+            },
+            "description_reviews": [],
+            "delivery_proof": [],
+            "open_holds": []
+          },
+          "origin": {
+            "file": {
+              "path": "docs/curriculum/app-migration/question-actions.json",
+              "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+            },
+            "locator": "json:/questions/989/proposed_changes/draft_question",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          }
+        }
+      }
+    }
+  ],
+  "content_acceptance": "passed",
+  "release_acceptance": false
+}

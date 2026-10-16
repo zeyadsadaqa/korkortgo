@@ -1,0 +1,8 @@
+{
+  "reviewed_on": "2026-10-16",
+  "reviewer": "Codex",
+  "decision": "Apply four exact no-rounding drafts and six exact litre-unit grammar drafts. Arithmetic derives only from the supplied distance and measured rate; no real-world saving is guaranteed.",
+  "scope": "Complete stems, four options, keys and all feedback reviewed. Decimal multiplication/division without quantisation for the four exact tasks. Six grammar drafts preserve every numeric option and key.",
+  "history_policy": "Use fuel-exact-r2 for changed numeric answers and fuel-unit-r2 for unit wording. Never rescore a legacy-r1 snapshot using the current bank. Persistence/package integration remains later work.",
+  "draft_limit": "Exact 9I5 drafts leave existing “1 litres” in some stems and general explanations; no extra unapproved wording patch is silently added."
+}

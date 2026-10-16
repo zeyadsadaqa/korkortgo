@@ -9,8 +9,9 @@ class ScenarioCorrectionsTest(unittest.TestCase):
  def test_only_eight_records_change_from_9e(self):
   before=build(12)[0];after=read(Path('content/questions.json'))
   from apply_load_clarifications_9h import IDS as LOAD_IDS
+  from apply_fuel_corrections_9i import IDS as FUEL_IDS
   original={q['id']:q for q in before}
-  after=[original[q['id']] if q['id'] in LOAD_IDS else q for q in after]
+  after=[original[q['id']] if q['id'] in LOAD_IDS+FUEL_IDS else q for q in after]
   self.assertEqual(IDS,[a['id'] for a,b in zip(before,after) if a!=b])
   self.assertEqual([q['id'] for q in before],[q['id'] for q in after])
  def test_exact_proposals_typed_contract_and_feedback(self):

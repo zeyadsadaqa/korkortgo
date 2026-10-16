@@ -11,10 +11,11 @@ class AllSignRewritesTest(unittest.TestCase):
     def setUpClass(cls):
         cls.stages={n:build(n) for n in range(2,13)}
         cls.live=read(Path('content/questions.json'))
-        # Later 9G/9H changes have independent scope tests; compare 9E with its frozen stage.
+        # Later 9G/9H/9I changes have independent scope tests; compare 9E with its frozen stage.
         from apply_scenario_corrections_9g import IDS as SCENARIO_IDS
         from apply_load_clarifications_9h import IDS as LOAD_IDS
-        IDS=SCENARIO_IDS+LOAD_IDS
+        from apply_fuel_corrections_9i import IDS as FUEL_IDS
+        IDS=SCENARIO_IDS+LOAD_IDS+FUEL_IDS
         original={q['id']:q for q in cls.stages[12][0]}
         cls.live=[original[q['id']] if q['id'] in IDS else q for q in cls.live]
         cls.actions={q['question_id']:q for q in read(Path('docs/curriculum/app-migration/question-actions.json'))['questions']}
@@ -31,7 +32,8 @@ class AllSignRewritesTest(unittest.TestCase):
             if path.name=='Bank.kt':
                 from apply_scenario_corrections_9g import IDS as SCENARIO_IDS
                 from apply_load_clarifications_9h import IDS as LOAD_IDS
-                IDS=SCENARIO_IDS+LOAD_IDS
+                from apply_fuel_corrections_9i import IDS as FUEL_IDS
+                IDS=SCENARIO_IDS+LOAD_IDS+FUEL_IDS
                 original_lines={line.split(',',1)[0]:line for line in value.splitlines(True) if line.startswith('Question(')}
                 live=''.join(original_lines[line.split(',',1)[0]] if any(line.startswith('Question(\"'+qid+'\",') for qid in IDS) else line for line in live.splitlines(True))
             self.assertEqual(live,value)
