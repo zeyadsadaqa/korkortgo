@@ -103,7 +103,9 @@ data class QuestionRelationship(
 )
 
 /** Separate from study alt text; the recorded review must establish physical-feature neutrality. */
-data class NeutralImageDescription(val text: String, val review: ReviewEvidence)
+data class NeutralImageDescription(val text: String, val review: ReviewEvidence) {
+    init { require(text.isNotBlank()) }
+}
 data class AssessmentImageBinding(
     val assetId: AssetId,
     val neutralDescription: NeutralImageDescription?,
@@ -146,6 +148,8 @@ data class AssessmentQuestion(
     init {
         val ids = options.map { it.id }
         require(options.size == 4 && ids.distinct().size == 4)
+        val optionAssets = options.mapNotNull { it.image?.assetId }
+        require(optionAssets.distinct().size == optionAssets.size) { "Repeated visual choices" }
         require(feedback.correctOptionId in ids)
         require(feedback.optionFeedback.map { it.optionId }.let { it.size == 4 && it.toSet() == ids.toSet() })
         if (acceptance.eligibility == ScoringEligibility.ACCEPTED) {

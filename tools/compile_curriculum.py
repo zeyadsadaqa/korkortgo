@@ -431,6 +431,10 @@ class Validator:
         for id,row in questions.items():
             if id not in original or row['concept_id']!=original[id]['concept'] or row['category']!=original[id]['category'].lower():fail(id,'question/concept/category differs from baseline')
             options=self.unique(row['options'],'id',id+'/options')
+            proposal=decisions[id]['proposed_changes']
+            authored_ids=([o['option_id'] for o in proposal['options']] if id.startswith('sign-')
+                          else [f'{id}-option-{n}' for n in range(1,5)])
+            if set(options)!=set(authored_ids):fail(id,'option identities differ from authored assignment')
             if len(options)!=4 or row['feedback']['correct_option_id'] not in options:fail(id,'requires four authored option identities and a valid key')
             feedback=self.unique(row['feedback']['option_feedback'],'option_id',id+'/feedback')
             if set(feedback)!=set(options):fail(id,'option feedback identities do not cover options')

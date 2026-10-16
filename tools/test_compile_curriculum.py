@@ -69,6 +69,15 @@ class CompilerTest(unittest.TestCase):
     def test_key_must_be_authored_option_identity(self):
         self.p['questions']['questions'][0]['feedback']['correct_option_id']='A';self.rejects('authored option identities')
 
+    def test_relabelled_option_identity_is_rejected_even_if_key_and_feedback_agree(self):
+        q=self.p['questions']['questions'][0]
+        old=q['options'][0]['id']
+        q['options'][0]['id']='display-A'
+        for item in q['feedback']['option_feedback']:
+            if item['option_id']==old:item['option_id']='display-A'
+        if q['feedback']['correct_option_id']==old:q['feedback']['correct_option_id']='display-A'
+        self.rejects('authored assignment')
+
     def test_duplicate_visual_choices_even_with_distinct_option_ids(self):
         q=self.p['questions']['questions'][0]
         img={'asset_id':self.p['curriculum']['assets'][0]['id'],'neutral_description':None}
