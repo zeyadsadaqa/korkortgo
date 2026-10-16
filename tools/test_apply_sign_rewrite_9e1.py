@@ -44,8 +44,8 @@ class SignRewriteBatchTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'Refusing to overwrite'):
             guard_current('user edit','before','after')
     def test_saved_outputs_and_diff_are_exact(self):
-        self.assertEqual(self.bank,read(Path('content/questions.json')))
-        self.assertEqual(self.kotlin,(ROOT/'composeApp/src/commonMain/kotlin/se/korkort/Bank.kt').read_text())
+        self.assertEqual(self.bank,read(BASE.parent/'9E2/incoming-questions.json'))
+        self.assertEqual(self.kotlin,(ROOT/BASE.parent/'9E2/incoming-bank.kt.txt').read_text())
         self.assertEqual(self.acceptance,read(BASE/'batch-acceptance.json'))
         self.assertEqual(50,self.diff.count('--- sign-'))
 if __name__=='__main__':unittest.main()

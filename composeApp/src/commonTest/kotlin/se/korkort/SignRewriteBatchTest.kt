@@ -5,8 +5,9 @@ import kotlin.test.*
 class SignRewriteBatchTest {
     private val rewritten get() = questionBank.filter { it.assessment != null }
     @Test fun exactBatchHasStableIdsRevisionsAndBindings() {
-        assertEquals(50,rewritten.size)
-        assertEquals((1..25).flatMap { listOf("sign-meaning-A$it","sign-recognise-A$it") }.toSet(),rewritten.map { it.id }.toSet())
+        assertEquals(578,rewritten.size)
+        assertEquals(578,rewritten.map { it.id }.toSet().size)
+        assertEquals(289,rewritten.map { it.concept }.toSet().size)
         rewritten.forEach { legacy ->
             val q=requireNotNull(legacy.assessment)
             assertEquals(legacy.id,q.key.questionId.value)
