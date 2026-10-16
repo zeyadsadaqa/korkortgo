@@ -1018,6 +1018,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 **Done when:** Every assigned rewrite passes content/key/feedback checks; unresolved delivery requirements are recorded and prevent active eligibility.
 
+**Execution record — 16 October 2026:** 9E1 completed. Applied the exact 50 A1–A25 rewrites to content/questions.json and generated Bank.kt, preserving question/concept/option IDs and assigning `rewrite-r2`. Reviewed all options/explanations, 12 overlapping distractor-change records and 125 exact artwork/neutral-description bindings. The other 950 question rows are unchanged. Full typed package checks, 98 Python tests and 23 Kotlin/desktop tests pass. All 50 rewrites remain delivery-held and are excluded from both legacy and new scored selection; 9L/9O delivery/integration acceptance is still required. See [per-ID before/after and acceptance](app-migration/implementation-evidence/9E1/batch-acceptance.json), [review](app-migration/implementation-evidence/9E1/review.md) and [reproduction](app-migration/implementation-evidence/9E1/README.md).
+
 #### 9E2. Apply sign rewrite batch 2 — 50 questions
 
 Apply and check this batch only, including exact caption/source meanings and paired-direction distractor consistency.
