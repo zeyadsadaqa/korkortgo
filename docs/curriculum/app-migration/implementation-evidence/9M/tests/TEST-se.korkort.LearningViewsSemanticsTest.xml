@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.LearningViewsSemanticsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2026-10-17T13:35:31.412Z" hostname="Zeyads-MacBook-Pro.local" time="11.635">
+  <properties/>
+  <testcase name="exactFuelReviewUsesASelectedBCorrectAndSelectableUnroundedExplanation[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.372"/>
+  <testcase name="sourceReturnRestoresTheExactTriggerWithoutFabricatedPosition[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="2.708"/>
+  <testcase name="approvedContextualCropCannotPaintIntoFollowingContent[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.338"/>
+  <testcase name="calculationAndTableRetainFullTextAtSameViewportAndLargeScale[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.941"/>
+  <testcase name="deliberateRevealRemovesHiddenAnswerAndRestoresToggleFocus[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.189"/>
+  <testcase name="libraryClearActionsPreserveTheOtherInput[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.909"/>
+  <testcase name="chooserRequiresDeliberateChoiceAndMovedPassageShowsParentNotice[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.637"/>
+  <testcase name="unavailableExternalFailureKeepsAllRecoveryActions[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.198"/>
+  <testcase name="reviewUsesShuffledSnapshotAndWithholdsFeedbackUntilAllowed[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.546"/>
+  <testcase name="libraryAndReaderRenderAtPhoneWideAndActualLargeText[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="3.632"/>
+  <testcase name="missingResultRequiresDeliberateSetupAction[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.163"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

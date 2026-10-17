@@ -1558,6 +1558,8 @@ Apply only fuel-40-5, fuel-saving-100-0.5, fuel-saving-100-1, fuel-saving-100-2,
 
 **Execution 16 October 2026:** 9J1 complete for all 1,000 IDs. 9J2 assembled as a held candidate: 384 accepted records and 616 delivery-held records; release validation correctly blocks completion. 9J3–9J4 validate the candidate capacity/parity/shuffling, without weakening quotas or activating held records. Exact integer remainders fix tie drift at shorter lengths. [Evidence and remaining acceptance conditions](app-migration/implementation-evidence/9J/README.md).
 
+**Joint checkpoint — 17 October 2026:** Delivery and 9M3 candidate checks proceed together through the isolated real-candidate verification host. All 616 held revisions pass the desktop light/dark × 100%/160% text matrix (2,464 question runs; 6,160 image zoom/returns). The twelve faint assets affect 24 questions; the other 592 can progress independently through native/route acceptance. Two actual S5 candidate contexts have simulator AX/modal/selection evidence. Native reader, complete platform/route and faint-preview legibility acceptance remain open; no hold is cleared. [Per-question readiness and next inputs/outputs](app-migration/implementation-evidence/9J-followup/README.md).
+
 #### 9J1. Bind canonical relationships for all questions
 
 Apply exact primary/related lesson IDs, source IDs and URL-record references for all 1,000 baseline IDs from the validated map; keep retained assessment fields unchanged.
@@ -1797,10 +1799,10 @@ Render No saved result is available. and Set up a practice test. from the approv
 Resolve these prerequisites before executing 9L14:
 
 - **9J release acceptance:** The candidate still contains 616 held questions: 578 sign rewrites and 38 unapplied replacement proposals. Twelve minimum previews remain faint (S5, S6, S7, S11, S12, S13, T1, T2, T6, T8, T22 and X8); representative screen-reader and complete per-question delivery/zoom/return/focus evidence remain open. Close the recorded 9F acceptance conditions and rerun 9J release validation; component rendering or compilation cannot clear these holds. Preserve exact official artwork and the original held replacement records. [9J blockers](app-migration/implementation-evidence/9J/README.md) · [9F delivery decisions](app-migration/implementation-evidence/9F/README.md).
-- **9M1–9M3 transient state:** Complete pinned session/review identity, setup/reset/missing-session behaviour and all 22 recorded state contracts. 9M1–9M2 may use exact fixtures independently; final 9M3 verification requires the accepted 9J package. The 9L13 recovery component does not establish completed preference/reset integration.
+- **9M1–9M3 transient state:** 9M1–9M2 model/component work is implemented and fixture/candidate checked. All 22 contracts are recorded: 18 current checks pass and four future-store cases remain conditional. Final 9M3 verification still requires the accepted 9J package; production preference/reset integration remains part of 9L14. [9M results and scope](app-migration/implementation-evidence/9M/README.md).
 - **Remaining view acceptance:** Retain explicit follow-up for supported-platform assistive interaction, inline-link focus return and per-illustration visual delivery. The 25 desktop component captures and Android/iOS simulator/Wasm compilation are bounded evidence; full integrated acceptance remains 9O. iOS testing uses the user's selected simulator scope. [9L results and open checks](app-migration/implementation-evidence/9L/README.md).
 
-**Execution order:** Implement the independent 9M1–9M2 prerequisites and complete the 9F/9J delivery acceptance work; verify 9M3 against the accepted package; then execute 9L14 and the integrated 9O checks. Until the prerequisites pass, keep activation, the fourteen label replacements, removal of the 39 summaries/178 Topic payloads and manifest-derived learner counts pending together.
+**Execution order:** 9M1–9M2 model prerequisites are implemented. Work through 9F/9J delivery acceptance and 9M3 candidate verification together, using isolated verification routes before production activation. After acceptance, repeat 9M3 against the final package; then execute 9L14 and the integrated 9O checks. Delivery/route evidence can be gathered before activation; it must not depend on enabling held questions in production. Until the prerequisites pass, keep activation, the fourteen label replacements, removal of the 39 summaries/178 Topic payloads and manifest-derived learner counts pending together.
 
 Connect the new views to the accepted package; apply all fourteen learner-label replacements, remove 39 old summaries and unused 178 Topic payloads, and derive counts from the manifest.
 
@@ -1812,7 +1814,11 @@ Connect the new views to the accepted package; apply all fourteen learner-label 
 
 ### 9M. Preserve transient quiz state
 
+**Execution record — 17 October 2026:** 9M1–9M2 model/component work is implemented with exact session tokens, pinned review/filter state, guarded discard, missing-context recovery, process-reset defaults and release/capacity validation. 9M3 records all 22 audited contracts with fixture/candidate evidence; final release verification awaits acceptance of 9J's 616 held questions; its fixture/candidate checks can proceed alongside 9J. No production activation or persistence was added. [Evidence, reproduction and integration scope](app-migration/implementation-evidence/9M/README.md).
+
 #### 9M1. Preserve session and review identity
+
+**Status — 17 October 2026:** Model/component implementation and checks pass; production wiring remains 9L14.
 
 Carry question revision, package identity, shuffled option IDs, selection, key, feedback and score through quiz/results/review. Keep both feedback modes and review-filter position.
 
@@ -1824,6 +1830,8 @@ Carry question revision, package identity, shuffled option IDs, selection, key, 
 
 #### 9M2. Preserve reset and missing-session rules
 
+**Status — 17 October 2026:** Model implementation and checks pass, including rejected production start for the held candidate; production wiring remains 9L14.
+
 Implement the audited restart, missing-result and setup validation rules using existing transient state only.
 
 **Input:** 9A2, 9K3 and 7E state contracts.
@@ -1833,6 +1841,8 @@ Implement the audited restart, missing-result and setup validation rules using e
 **Done when:** Restart clears state as before; same-process preferences survive only where valid, fresh defaults remain 70/existing feedback, and starting requires valid 1–70 capacity.
 
 #### 9M3. Verify all transient-state contracts
+
+**Status — 17 October 2026:** [All 22 contracts recorded](app-migration/implementation-evidence/9M/state-contract-results.json). Eighteen current checks pass on fixtures/candidate; four future-store cases are conditional. **Awaiting final release verification against accepted 9J content.** Continue delivery acceptance and transient-state checks together; candidate results do not waive release acceptance.
 
 Exercise the 22 recorded contracts against the accepted package, including guards, review filters, quit/restart and version compatibility limits.
 

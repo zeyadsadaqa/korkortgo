@@ -1,5 +1,7 @@
 # 9J — Complete question-package candidate
 
+Later execution: [17 October joint 9J/9M checkpoint](../9J-followup/README.md) adds exhaustive held-candidate desktop delivery checks and two real-candidate simulator contexts. This original assembly receipt remains historical; release acceptance is still open.
+
 Executed 9J1–9J4 in order on 16 October 2026. **This is a structurally valid held candidate, not an accepted release.** Existing sign-delivery holds remain binding.
 
 | Step | Result | Evidence |

@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-17",
+  "status": "9M1–9M2 model checks passed; 9M3 awaiting final release verification",
+  "source": "docs/curriculum/app-migration/link-and-progress-map.json",
+  "source_sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda",
+  "contracts": [
+    {
+      "id": "7E-STATE-01",
+      "field": "App.page",
+      "baseline": "in-memory enum",
+      "migration_rule": "Map all eight states through navigation_routes; require valid content/session context. Missing session never recreates old results.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.NavigationTest.allEightStatesUseTheSameGuardAndPreservePendingTargets",
+        "se.korkort.TransientQuizStateTest.missingContextsNeverFabricateResultsAndSetupDoesNotAutoStart"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-02",
+      "field": "App.countText",
+      "baseline": "in-memory raw text",
+      "migration_rule": "Preserve valid setup preference in the same process; validate 1–70 as today. Fresh launch default remains 70; do not silently turn invalid input into a running test.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.setupPreflightsEveryQuotaAndRandomSlotWithoutWeakeningReleaseGate",
+        "se.korkort.TransientQuizStateTest.missingContextsNeverFabricateResultsAndSetupDoesNotAutoStart"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-03",
+      "field": "App.feedback",
+      "baseline": "in-memory enum",
+      "migration_rule": "Preserve IMMEDIATE/AT_END preference; active QuizSession.feedback is pinned and does not change with setup edits.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.draftConfirmationAndBothFeedbackModesPinAuthoredIdentity",
+        "se.korkort.TransientQuizStateTest.setupPreflightsEveryQuotaAndRandomSlotWithoutWeakeningReleaseGate"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-04",
+      "field": "App.session",
+      "baseline": "in-memory QuizSession?",
+      "migration_rule": "No durable session exists. Pin the complete versioned snapshot until finish or deliberate quit; normal app restart loses transient state as today.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.newSessionResetsReviewAndSnapshotScoresNeverConsultRevisedBank",
+        "se.korkort.TransientPractice9MTest.heldCandidateCannotStartProductionAndAllSupportedFixtureSizesPreserveIdentity"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-05",
+      "field": "App.chapter",
+      "baseline": "in-memory Chapter object",
+      "migration_rule": "Resolve known legacy title/range within the frozen namespace to a canonical ID or topic chooser; never carry the old Chapter object into the new reader.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.NavigationTest.allFrozenAliasesResolveWithoutGuessing"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-06",
+      "field": "App.category",
+      "baseline": "in-memory Category?",
+      "migration_rule": "Retain the five enum values; null remains All. Unknown values reset to All with no inferred module conversion.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.missingContextsNeverFabricateResultsAndSetupDoesNotAutoStart",
+        "se.korkort.LearningViewsTest.canonicalLibraryContainsEveryLessonAndRetainsNumbersWhenFiltered"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-07",
+      "field": "App.search",
+      "baseline": "in-memory string",
+      "migration_rule": "Preserve a transient query when staying in the library; re-run against canonical content/tags. Optional legacy-title lookup returns canonical choices only. Fresh launch empty.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.LearningViewsSemanticsTest.libraryClearActionsPreserveTheOtherInput",
+        "se.korkort.TransientQuizStateTest.missingContextsNeverFabricateResultsAndSetupDoesNotAutoStart"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-08",
+      "field": "App.reviewFilter",
+      "baseline": "in-memory string",
+      "migration_rule": "Retain All/Incorrect/Correct for the same pinned session. New/missing session resets to All; filter snapshot correctness, not revised current keys.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.reviewFilterPositionExpansionAndScoreSurviveTeachingAndSourceVisits",
+        "se.korkort.TransientQuizStateTest.newSessionResetsReviewAndSnapshotScoresNeverConsultRevisedBank"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-09",
+      "field": "App.quitTarget",
+      "baseline": "in-memory Page?",
+      "migration_rule": "Validate the pending destination; dismiss keeps the session, confirm discards it and navigates atomically. Reset pending target on content/session replacement.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.unfinishedGuardsPreserveDraftAndBindTheExactPendingAttempt",
+        "se.korkort.NavigationTest.sessionReplacementInvalidatesPendingDiscardRatherThanDiscardingNewAnswers"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-10",
+      "field": "QuestionCard.selected",
+      "baseline": "remember(question.id), unconfirmed shuffled option index",
+      "migration_rule": "Keep only for the same session, question revision and shuffle snapshot. Change identity to include session/revision. Never reinterpret the index against newly ordered options.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.draftConfirmationAndBothFeedbackModesPinAuthoredIdentity",
+        "se.korkort.TransientPractice9MTest.reusedQuestionAndOrderCannotCarryUnconfirmedRadioSelectionIntoAnotherAttempt"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-11",
+      "field": "Review.open",
+      "baseline": "remember(question.id), expansion state",
+      "migration_rule": "Retain only within the same session/revision; reset on new session/content revision.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.reviewFilterPositionExpansionAndScoreSurviveTeachingAndSourceVisits",
+        "se.korkort.TransientQuizStateTest.newSessionResetsReviewAndSnapshotScoresNeverConsultRevisedBank"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-12",
+      "field": "QuizSession.questions",
+      "baseline": "in-memory shuffled List<Question>",
+      "migration_rule": "Keep original prompt, options/order, correct key, explanations, question revisions and package identity as the session snapshot.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientPractice9MTest.heldCandidateCannotStartProductionAndAllSupportedFixtureSizesPreserveIdentity",
+        "se.korkort.TransientQuizStateTest.newSessionResetsReviewAndSnapshotScoresNeverConsultRevisedBank"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-13",
+      "field": "QuizSession.feedback",
+      "baseline": "in-memory Feedback",
+      "migration_rule": "Pinned at session creation; independent of later global setup preference.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.setupPreflightsEveryQuotaAndRandomSlotWithoutWeakeningReleaseGate"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-14",
+      "field": "QuizSession.answers",
+      "baseline": "in-memory Map<question_id, shuffled option index>",
+      "migration_rule": "Evaluate only against that session’s exact shuffled question. No mapping from a stored index to current-bank index is valid without the original order.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.draftConfirmationAndBothFeedbackModesPinAuthoredIdentity",
+        "se.korkort.TransientPractice9MTest.reusedQuestionAndOrderCannotCarryUnconfirmedRadioSelectionIntoAnotherAttempt"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-15",
+      "field": "QuizSession.index",
+      "baseline": "in-memory integer",
+      "migration_rule": "Keep for same snapshot and bounds; never use as curriculum progress or question identity.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.draftConfirmationAndBothFeedbackModesPinAuthoredIdentity",
+        "se.korkort.TransientPractice9MTest.heldCandidateCannotStartProductionAndAllSupportedFixtureSizesPreserveIdentity"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-16",
+      "field": "QuizSession.finished",
+      "baseline": "in-memory boolean",
+      "migration_rule": "Keep with same session; do not infer finished from route or from importing content.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientPractice9MTest.heldCandidateCannotStartProductionAndAllSupportedFixtureSizesPreserveIdentity"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-17",
+      "field": "QuizSession.current",
+      "baseline": "derived property",
+      "migration_rule": "Derive from the pinned questions/index; if context is missing, route explicitly to setup rather than fabricating a question.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.missingContextsNeverFabricateResultsAndSetupDoesNotAutoStart",
+        "se.korkort.TransientPractice9MTest.heldCandidateCannotStartProductionAndAllSupportedFixtureSizesPreserveIdentity"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-18",
+      "field": "QuizSession.score",
+      "baseline": "derived property",
+      "migration_rule": "Compute only with pinned answers and keys; never rescore a historical snapshot using revised bank content.",
+      "status": "passed_fixture_and_candidate_checks",
+      "tests": [
+        "se.korkort.TransientQuizStateTest.reviewFilterPositionExpansionAndScoreSurviveTeachingAndSourceVisits",
+        "se.korkort.TransientQuizStateTest.newSessionResetsReviewAndSnapshotScoresNeverConsultRevisedBank"
+      ],
+      "acceptance_scope": "Current transient model and retained fixtures/candidate subset; integrated accepted-release rerun remains required."
+    },
+    {
+      "id": "7E-STATE-19",
+      "field": "bookmarks",
+      "baseline": "no implementation found",
+      "migration_rule": "No records to convert or create in this migration. If a future separately authorised store exists, exact canonical ID/block aliases may preserve a bookmark; removed block falls back to its known parent with notice, removed content stays unavailable/tombstoned.",
+      "status": "conditional_future_scope",
+      "tests": [],
+      "acceptance_scope": "No existing store or imported records. Future persistence/hot replacement needs separate authorisation and compatibility verification."
+    },
+    {
+      "id": "7E-STATE-20",
+      "field": "completed_lessons",
+      "baseline": "no implementation found",
+      "migration_rule": "No completion data to convert. Future records require content version plus lesson semantic revision; unchanged lessons may keep credit, changed/split/merged lessons need explicit compatibility review. Old chapter/page coverage never awards new lesson completion.",
+      "status": "conditional_future_scope",
+      "tests": [],
+      "acceptance_scope": "No existing store or imported records. Future persistence/hot replacement needs separate authorisation and compatibility verification."
+    },
+    {
+      "id": "7E-STATE-21",
+      "field": "question_history",
+      "baseline": "no implementation found",
+      "migration_rule": "No history dataset to migrate. Future history needs question ID/revision, option identity/order and original score snapshot. Preserve old outcomes as historical; rewrite/replace does not automatically transfer current mastery.",
+      "status": "conditional_future_scope",
+      "tests": [],
+      "acceptance_scope": "No existing store or imported records. Future persistence/hot replacement needs separate authorisation and compatibility verification."
+    },
+    {
+      "id": "7E-STATE-22",
+      "field": "persistent_storage_schema",
+      "baseline": "no implementation/dependency found",
+      "migration_rule": "No schema migration, new database or cloud sync is authorised by 7E. Unknown imported storage is unsupported until separately audited; do not invent progress or infer it from chapter/page references.",
+      "status": "conditional_future_scope",
+      "tests": [],
+      "acceptance_scope": "No existing store or imported records. Future persistence/hot replacement needs separate authorisation and compatibility verification."
+    }
+  ],
+  "totals": {
+    "recorded": 22,
+    "current_transient_checks_passed": 18,
+    "conditional_future_scope": 4,
+    "desktop_tests_in_run": 78
+  },
+  "candidate": {
+    "questions": 1000,
+    "accepted": 384,
+    "held": 616,
+    "production_start_allowed": false,
+    "fixture_sizes_checked": [
+      1,
+      70
+    ]
+  },
+  "remaining": [
+    "9J accepted release required for final 9M3 rerun",
+    "9L14 production integration and integrated 9O acceptance"
+  ],
+  "persistence_added": false,
+  "production_activated": false
+}

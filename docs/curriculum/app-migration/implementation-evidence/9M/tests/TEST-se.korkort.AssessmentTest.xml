@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.AssessmentTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-17T13:31:11.641Z" hostname="Zeyads-MacBook-Pro.local" time="0.059">
+  <properties/>
+  <testcase name="allTwentyFourPermutationsPreserveKeyAndFeedback[desktop]" classname="se.korkort.AssessmentTest" time="0.013"/>
+  <testcase name="selectionUsesAcceptedConceptsAndPinsPackageAndRevision[desktop]" classname="se.korkort.AssessmentTest" time="0.033"/>
+  <testcase name="immediateRevealRequiresConfirmationAndFeedbackFollowsDisplayedIdentity[desktop]" classname="se.korkort.AssessmentTest" time="0.009"/>
+  <testcase name="spokenMathSurvivesAndLinkTargetsAreNeverReadAsMetadata[desktop]" classname="se.korkort.AssessmentTest" time="0.003"/>
+  <testcase name="confirmationAndSnapshotConsistencyAreGuarded[desktop]" classname="se.korkort.AssessmentTest" time="0.0"/>
+  <testcase name="scoresRejectForeignOptionAndStaleRevision[desktop]" classname="se.korkort.AssessmentTest" time="0.001"/>
+  <testcase name="duplicateVisualChoicesRejectedWhileEqualLearnerLabelsRemainValid[desktop]" classname="se.korkort.AssessmentTest" time="0.0"/>
+  <testcase name="endModeNeverRevealsEvenConfirmedAnswersUntilFinished[desktop]" classname="se.korkort.AssessmentTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

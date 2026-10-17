@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 17 October 2026 (9L isolated view implementation)
-**Current position:** Steps 1–8 complete for the approved screen edition. Step 9: 9L1–9L13 view components implemented against approved fixtures, with complete teaching compilation, filter/reveal/review/source/reference and recovery checks. [9L evidence and acceptance limits](app-migration/implementation-evidence/9L/README.md). 9J still contains 384 accepted and 616 held records; 9K foundations remain in place.
-**Next action:** 9L14 integrated activation is blocked by 9J release acceptance and 9M1–9M3. Complete those prerequisites and outstanding platform interaction/reader/delivery checks before activating the new learner flow or removing legacy summaries/topics. User selected iOS simulator scope.
+**Last updated:** 17 October 2026 (joint 9J delivery and 9M transient-state checks)
+**Current position:** Joint delivery/state checkpoint passes 144 Python and 78 desktop tests; [616-question delivery readiness](app-migration/implementation-evidence/9J-followup/README.md) is recorded. Steps 1–8 complete for the approved screen edition. Step 9: 9M1–9M2 session/review/setup model and component prerequisites implemented. 9M3 records all 22 audited contracts: 18 current checks pass on fixtures/candidate and four future-store cases remain conditional. [9M evidence and remaining gate](app-migration/implementation-evidence/9M/README.md). The 9J candidate still has 384 accepted and 616 held records; 9L views remain isolated.
+**Next action:** Run 9F/9J isolated delivery acceptance and 9M3 candidate checks together. After content acceptance, repeat 9M3 against the final package, then execute 9L14 and integrated 9O checks. Production activation, legacy removal and full platform acceptance remain pending. User selected iOS simulator scope.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -19,7 +19,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
-| 9 | Implement the approved app changes | In progress; 9L isolated components implemented, 9L14 blocked | [9L outputs and acceptance limits](app-migration/implementation-evidence/9L/README.md); [9J release holds](app-migration/implementation-evidence/9J/README.md) and 9M prerequisites remain |
+| 9 | Implement the approved app changes | In progress; 9M1–9M2 prerequisites implemented, 9M3 awaiting release verification; 9L14 acceptance pending | [9M model/contract results](app-migration/implementation-evidence/9M/README.md); [9J release holds](app-migration/implementation-evidence/9J/README.md) remain |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
 ## Step 4 substep tracker
@@ -731,3 +731,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **17 October — 9L isolated views:** Implemented the approved 9L1–9L13 components and a verification-only learning route. Complete compiled teaching parity retains all document/answer/artwork metadata; canonical library search/filter and 60-node reading navigation, reveal semantics, shuffled standard/fuel reviews, source details/return, exact sign/viewer reuse and recovery states are covered by focused checks. 137 Python and 68 desktop tests pass; Android, iOS simulator and WebAssembly compilation pass. No new design, live-bank change, scoring acceptance or production activation. 9L14 remains blocked by 9J/9M prerequisites; mobile assistive and complete delivery acceptance remain open. [Evidence and reproduction](app-migration/implementation-evidence/9L/README.md).
+
+
+**17 October — 9M1–9M3 execution:** Added a pure transient owner and session-keyed assessment wrapper, exact draft identity, pinned review/filter/expansion state, atomic guarded discard, missing-context recovery, default/reset and accepted-capacity checks. The production start rejects the held 9J candidate; fixture checks cover all lengths 1–70 without held questions. All 22 contracts have explicit results; final 9M3 acceptance remains blocked until 9J passes. 140 Python and 77 desktop tests pass; Android, iOS simulator and WebAssembly compilation pass. No app activation, durable state, content change or earlier receipt recertification. [Evidence and reproduction](app-migration/implementation-evidence/9M/README.md).
+
+
+**17 October — joint 9J/9M delivery checkpoint:** Added a verification-only host for real held candidate records and an exhaustive desktop matrix: 616 revisions × four surface/text settings, with 6,160 exact-image zoom/returns, neutral pre-answer projection, authored selection preservation and trigger focus. Native simulator AX/modal/selection evidence covers two actual S5 contexts. A per-question report separates 24 questions using known faint assets from 592 without them. Candidate 9M3 checks proceed alongside delivery work; final release verification still awaits real acceptance. No artwork, question, eligibility or production route changed. [Readiness, limits and next executable checks](app-migration/implementation-evidence/9J-followup/README.md).
