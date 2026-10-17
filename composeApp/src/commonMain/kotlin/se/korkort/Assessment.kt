@@ -108,7 +108,8 @@ private fun AssessmentImageBinding.presentation(): AssessmentImagePresentation {
     return AssessmentImagePresentation(assetId, description.text)
 }
 
-private fun SessionQuestionSnapshot.presentation(answer: SnapshotAnswer?, revealed: Boolean, canConfirm: Boolean): AssessmentPresentation {
+// Also used by isolated delivery verification. Projection does not create a scored session.
+internal fun SessionQuestionSnapshot.presentation(answer: SnapshotAnswer?, revealed: Boolean, canConfirm: Boolean): AssessmentPresentation {
     answer?.let { isCorrect(it) } // Reject stale revisions/foreign IDs even in an unscored fixture.
     return AssessmentPresentation(question.key, question.prompt.assessmentText(), question.image?.presentation(),
         displayedOptionIds.indices.map { position ->

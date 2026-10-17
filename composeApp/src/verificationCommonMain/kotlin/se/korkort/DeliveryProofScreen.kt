@@ -12,6 +12,7 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.unit.dp
+import kotlin.random.Random
 
 /** Build-time-only verification host. No accepted session, score, history or production route. */
 @Composable
@@ -32,8 +33,17 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
             Column(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {
                     Text("Unscored verification fixture",Modifier.padding(8.dp))
-                    TextButton(onClick={code=deliveryFixtureCodes[(deliveryFixtureCodes.indexOf(code)+1)%deliveryFixtureCodes.size]}) {Text("Next fixture")}
-                    listOf("reference","meaning","recognise").forEach {value->TextButton(onClick={mode=value}) {Text(value)}}
+                    TextButton(onClick={
+                        val ids=if(mode=="candidate") candidateQuestions9J.filter {it.acceptance.eligibility==ScoringEligibility.HELD}.map {it.key.questionId.value} else deliveryFixtureCodes
+                        code=ids[(ids.indexOf(code)+1)%ids.size]
+                    }) {Text("Next fixture")}
+                    listOf("reference","meaning","recognise").forEach {value->TextButton(onClick={
+                        if(mode=="candidate") {
+                            val target=candidateQuestions9J.single {it.key.questionId.value==code}.feedback.targetSignCode
+                            code=deliveryFixtureCodes.firstOrNull {it==target} ?: deliveryFixtureCodes.first()
+                        }
+                        mode=value
+                    }) {Text(value)}}
                 }
                 key(code,mode) {
                     if(mode=="delivery") {
@@ -59,7 +69,11 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
                         SignReferenceDetail(sign,navigationAssets.single {it.id==sign.assetId},navigationSources.references,{}, {ref->runCatching {uri.openUri(ref.url)}.isSuccess})
                     } else {
                         Column(Modifier.weight(1f).padding(16.dp)) {
-                            Box(Modifier.weight(1f)) {AssessmentWithImageViewer(deliveryCandidate(code,mode),{selected=true},navigationAssets)}
+                            val presentation = if (mode == "candidate") {
+                                candidateQuestions9J.single { it.key.questionId.value == code }
+                                    .snapshot(candidateIdentity9J, Random(9)).presentation(null, false, true)
+                            } else deliveryCandidate(code,mode)
+                            Box(Modifier.weight(1f)) {AssessmentWithImageViewer(presentation,{selected=true},navigationAssets)}
                             if(selected)Text("Selection recorded for this unscored verification fixture.")
                         }
                     }
