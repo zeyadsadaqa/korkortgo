@@ -39,6 +39,12 @@ compose.resources { packageOfResClass = "se.korkort.resources"; publicResClass =
 // Opt-in verification binaries contain held renderer fixtures, never scored content/routes.
 val referenceProof = providers.gradleProperty("referenceProof").isPresent
 if (referenceProof) {
+    android.defaultConfig.testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    kotlin.sourceSets.getByName("androidInstrumentedTest").dependencies {
+        implementation("androidx.test:runner:1.6.1")
+        implementation("junit:junit:4.13.2")
+    }
+    kotlin.sourceSets.getByName("androidInstrumentedTest").kotlin.srcDir("src/verificationAndroidTest/kotlin")
     require(gradle.startParameter.taskNames.none {it.contains("release",ignoreCase=true)}) {"Verification fixtures must not be included in a release build"}
     gradle.taskGraph.whenReady {
         require(allTasks.none {it.name.contains("release",ignoreCase=true) || it.name.contains("publish",ignoreCase=true)}) {"Verification fixtures must not be released or published"}

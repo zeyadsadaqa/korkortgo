@@ -21,9 +21,17 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
     var mode by remember {mutableStateOf(initialMode)}
     var selected by remember(code,mode) {mutableStateOf(false)}
     val uri=LocalUriHandler.current
-    if(initialMode=="learning") {
+    if(initialMode.startsWith("learning")) {
+        val initial=remember(initialCode,initialMode) {when(initialMode) {
+            "learning-question" -> canonicalResolver.lookup(questionId=QuestionId(initialCode))
+            "learning-chapter" -> canonicalResolver.legacy(LegacyLookup.Chapter("legacy-app-4768933c3d9a",initialCode))
+            "learning-sign" -> canonicalResolver.legacy(LegacyLookup.Sign("legacy-app-4768933c3d9a",initialCode))
+            else -> if(initialCode=="S1")null else canonicalResolver.canonical(ContentTarget(ContentId(initialCode)))
+        }}
         Box(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
-            LearningRoute {reference->runCatching{uri.openUri(reference.url)}.isSuccess}
+            CompositionLocalProvider(LocalDensity provides Density(LocalDensity.current.density,fontScale)) {
+                LearningRoute(initial) {reference->runCatching{uri.openUri(reference.url)}.isSuccess}
+            }
         }
         return
     }
