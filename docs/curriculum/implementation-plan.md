@@ -1556,6 +1556,8 @@ Apply only fuel-40-5, fuel-saving-100-0.5, fuel-saving-100-1, fuel-saving-100-2,
 
 ### 9J. Assemble and validate the accepted question package
 
+**Execution 16 October 2026:** 9J1 complete for all 1,000 IDs. 9J2 assembled as a held candidate: 384 accepted records and 616 delivery-held records; release validation correctly blocks completion. 9J3–9J4 validate the candidate capacity/parity/shuffling, without weakening quotas or activating held records. Exact integer remainders fix tie drift at shorter lengths. [Evidence and remaining acceptance conditions](app-migration/implementation-evidence/9J/README.md).
+
 #### 9J1. Bind canonical relationships for all questions
 
 Apply exact primary/related lesson IDs, source IDs and URL-record references for all 1,000 baseline IDs from the validated map; keep retained assessment fields unchanged.
