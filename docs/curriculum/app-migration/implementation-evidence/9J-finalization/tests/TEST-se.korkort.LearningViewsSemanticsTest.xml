@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.LearningViewsSemanticsTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2026-10-17T16:17:49.232Z" hostname="Zeyads-MacBook-Pro.local" time="12.373">
+  <properties/>
+  <testcase name="exactFuelReviewUsesASelectedBCorrectAndSelectableUnroundedExplanation[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.17"/>
+  <testcase name="sourceReturnRestoresTheExactTriggerWithoutFabricatedPosition[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="2.82"/>
+  <testcase name="approvedContextualCropCannotPaintIntoFollowingContent[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.317"/>
+  <testcase name="routeRetainsLibrarySearchExpansionAndAccessibleFieldState[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.275"/>
+  <testcase name="calculationAndTableRetainFullTextAtSameViewportAndLargeScale[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.914"/>
+  <testcase name="deliberateRevealRemovesHiddenAnswerAndRestoresToggleFocus[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.198"/>
+  <testcase name="libraryClearActionsPreserveTheOtherInput[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.735"/>
+  <testcase name="referenceBackUsesCatalogueRatherThanLibrary[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.059"/>
+  <testcase name="chooserRequiresDeliberateChoiceAndMovedPassageShowsParentNotice[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.609"/>
+  <testcase name="unavailableExternalFailureKeepsAllRecoveryActions[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.198"/>
+  <testcase name="reviewUsesShuffledSnapshotAndWithholdsFeedbackUntilAllowed[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.542"/>
+  <testcase name="libraryAndReaderRenderAtPhoneWideAndActualLargeText[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="3.375"/>
+  <testcase name="missingResultRequiresDeliberateSetupAction[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.16"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
