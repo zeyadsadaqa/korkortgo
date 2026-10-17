@@ -1575,6 +1575,9 @@ Apply exact primary/related lesson IDs, source IDs and URL-record references for
 
 #### 9J2. Assemble accepted eligibility and package identity
 
+**Finalization attempt — 17 October 2026:** Fresh structural validation and all 41 focused package/state/navigation/reader tests pass. Direct release validation still rejects the exact manifest with 384 accepted / 616 held questions. The fresh 9M3 rerun records 18 passing current contracts and four conditional future-store contracts against this manifest; accepted-release verification remains open. No holds, replacements or release flag were changed. [Finalization result and required acceptance work](app-migration/implementation-evidence/9J-finalization/README.md).
+
+
 Merge per-ID results for 336 retained assessments, 626 rewrites and 38 replacements. Bind accepted content, sources, assets and aliases into a release manifest digest.
 
 **Input:** 9J1, all 9E–9I acceptance records, 9K2 aliases and reviewed 9D descriptions.
