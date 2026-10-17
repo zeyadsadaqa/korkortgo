@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "question_count": 1000,
+  "exact_mapped_primary_related_reference_source_ids": true,
+  "exact_source_reference_order": true,
+  "all_targets_resolve": true,
+  "retained_assessment_fields_unchanged": true,
+  "replacement_originals_unchanged": 38,
+  "map": {
+    "path": "docs/curriculum/app-migration/question-map.json",
+    "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+  },
+  "relationships": {
+    "path": "content/question-relationships.json",
+    "sha256": "6f66e4967416601aa287bec5882def61d1c7ad635f2ac956d5298ac63c2eebbb"
+  }
+}

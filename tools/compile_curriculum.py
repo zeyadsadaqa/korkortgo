@@ -360,6 +360,7 @@ class Validator:
                 url=official.get('scoped_urls',{}).get(binding['scope_id'],official['url'])
                 if refs[binding['reference_id']]['url']!=url:fail(id,'URL differs from approved scope binding')
         approved_refs={r['id']:r for r in question_map['source_registry']}
+        compatibility_refs=set()
         for id,row in refs.items():
             if id in approved_refs:
                 if row['url']!=approved_refs[id]['url']:fail(id,'unknown or changed approved source URL record')
@@ -382,6 +383,14 @@ class Validator:
                         if 'sign-'+cap['code'] in signs and isinstance(record,dict) and record.get('url')==row['url']:
                             registered=True
                             retained=True
+                # Frozen 7E official actions for SIG16–18 are URL-only compatibility
+                # evidence. They cannot become teaching sources or image approvals.
+                for evidence in row['evidence']:
+                    loc=evidence['origin']
+                    if loc['file']['path']=='docs/curriculum/app-migration/link-and-progress-map.json' and loc['locator'].startswith('json:/unresolved_destinations/'):
+                        gap=pointer(link_map,loc['locator'][5:],id)
+                        if gap.get('legacy_code') in ('SIG16','SIG17','SIG18') and row['url']==gap['legacy_external_url'] and evidence['dates']=={'checked_on':None,'retrieved_on':None,'published_on':None}:
+                            compatibility_refs.add(id);registered=True;retained=True
                 if id!='REF-'+hashlib.sha256(row['url'].encode()).hexdigest()[:16] or not registered or not retained:
                     fail(id,'unknown or changed approved source URL record')
             url=urlparse(row['url'])
@@ -403,6 +412,7 @@ class Validator:
             elif isinstance(value,dict):
                 if set(value)=={'reference_id','source_id','scope_id','locator','editorial_inference'}:
                     if value['reference_id'] not in refs:fail(where,'unknown source reference')
+                    if value['reference_id'] in compatibility_refs:fail(where,'compatibility-only URL cannot certify teaching source use')
                     if value['scope_id'] is not None:target({'content_id':value['scope_id'],'block_id':None},where)
                     if value['source_id'] is not None:
                         if value['source_id'] not in sources:fail(where,'unknown source destination')
@@ -410,6 +420,7 @@ class Validator:
                         if not any(b['scope_id']==value['scope_id'] and b['reference_id']==value['reference_id'] for b in bindings):fail(where,'source use does not match exact scoped URL')
                 if set(value)=={'content_id','block_id'}:target(value,where)
                 if value.get('type')=='external_source' and value['reference_id'] not in refs:fail(where,'unknown external source')
+                if value.get('type')=='external_source' and value['reference_id'] in compatibility_refs:fail(where,'compatibility-only URL is restricted to unavailable legacy actions')
                 if 'asset_id' in value and value['asset_id'] is not None and value['asset_id'] not in assets:fail(where,'unknown asset binding')
                 if value.get('type') in ('cropped_image','polygon_image','composite_image') and assets[value['asset_id']]['kind'] != 'contextual_illustration':
                     fail(where, 'approved image regions are limited to contextual illustrations')
