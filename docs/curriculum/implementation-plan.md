@@ -1652,6 +1652,8 @@ Carry content/block/reading position/focus through reference/source visits and r
 
 ### 9L. Implement one approved view or interaction at a time
 
+**Execution record — 17 October 2026:** Implemented isolated 9L1–9L13 components in sequence using the approved designs: complete typed teaching renderer, library filtering, deliberate reveal, snapshot reviews, sources, reference/viewer reuse and recovery states. [Outputs, checks and remaining acceptance](app-migration/implementation-evidence/9L/README.md). This is component implementation, not release/platform acceptance. **9L14 remains blocked** by the unaccepted 9J candidate and unfinished 9M state prerequisites; production activation and legacy payload removal were not performed.
+
 Use the exact approved revisions and final 8O dispositions, including accepted state-specific visual variants. UI tasks may use imported content and the exact preview fixtures before the final scored bank is accepted; only 9L14 activates the integrated flow after 9J passes. This dependency refinement permits actual renderer/zoom work before 9F delivery proof without clearing any scoring hold. Each task verifies its own rendering, keyboard/focus and accessibility behaviour; changed design requires a new approved preview.
 
 #### 9L1. Build the library overview
@@ -1789,6 +1791,16 @@ Render No saved result is available. and Set up a practice test. from the approv
 **Done when:** No result is fabricated, setup does not auto-start a test and valid same-process setup preferences remain intact.
 
 #### 9L14. Connect the accepted package and remove legacy learner content
+
+**Status — 17 October 2026: Blocked; production activation and legacy removal have not started.** The 9L1–9L13 components are implemented in an isolated verification flow; their desktop checks and target compilation do not constitute full platform acceptance.
+
+Resolve these prerequisites before executing 9L14:
+
+- **9J release acceptance:** The candidate still contains 616 held questions: 578 sign rewrites and 38 unapplied replacement proposals. Twelve minimum previews remain faint (S5, S6, S7, S11, S12, S13, T1, T2, T6, T8, T22 and X8); representative screen-reader and complete per-question delivery/zoom/return/focus evidence remain open. Close the recorded 9F acceptance conditions and rerun 9J release validation; component rendering or compilation cannot clear these holds. Preserve exact official artwork and the original held replacement records. [9J blockers](app-migration/implementation-evidence/9J/README.md) · [9F delivery decisions](app-migration/implementation-evidence/9F/README.md).
+- **9M1–9M3 transient state:** Complete pinned session/review identity, setup/reset/missing-session behaviour and all 22 recorded state contracts. 9M1–9M2 may use exact fixtures independently; final 9M3 verification requires the accepted 9J package. The 9L13 recovery component does not establish completed preference/reset integration.
+- **Remaining view acceptance:** Retain explicit follow-up for supported-platform assistive interaction, inline-link focus return and per-illustration visual delivery. The 25 desktop component captures and Android/iOS simulator/Wasm compilation are bounded evidence; full integrated acceptance remains 9O. iOS testing uses the user's selected simulator scope. [9L results and open checks](app-migration/implementation-evidence/9L/README.md).
+
+**Execution order:** Implement the independent 9M1–9M2 prerequisites and complete the 9F/9J delivery acceptance work; verify 9M3 against the accepted package; then execute 9L14 and the integrated 9O checks. Until the prerequisites pass, keep activation, the fourteen label replacements, removal of the 39 summaries/178 Topic payloads and manifest-derived learner counts pending together.
 
 Connect the new views to the accepted package; apply all fourteen learner-label replacements, remove 39 old summaries and unused 178 Topic payloads, and derive counts from the manifest.
 

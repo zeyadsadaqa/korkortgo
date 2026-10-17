@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 17 October 2026 (9K navigation verification and hardening)
-**Current position:** Steps 1–8 complete for the approved screen edition. Step 9: 9G–9I corrections complete; 9J candidate structurally valid with 384 accepted and 616 held records. 9K1–9K4 navigation foundations revalidated and hardened; full canonical screen integration remains 9L. [9K results](app-migration/implementation-evidence/9K/README.md) · [9J blockers](app-migration/implementation-evidence/9J/README.md).
-**Next action:** 9L approved view/interaction implementation can proceed independently. Integrated activation in 9L14 remains gated by 9J release acceptance and recorded 9F/9L/9O delivery holds. User selected iOS simulator scope.
+**Last updated:** 17 October 2026 (9L isolated view implementation)
+**Current position:** Steps 1–8 complete for the approved screen edition. Step 9: 9L1–9L13 view components implemented against approved fixtures, with complete teaching compilation, filter/reveal/review/source/reference and recovery checks. [9L evidence and acceptance limits](app-migration/implementation-evidence/9L/README.md). 9J still contains 384 accepted and 616 held records; 9K foundations remain in place.
+**Next action:** 9L14 integrated activation is blocked by 9J release acceptance and 9M1–9M3. Complete those prerequisites and outstanding platform interaction/reader/delivery checks before activating the new learner flow or removing legacy summaries/topics. User selected iOS simulator scope.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -19,7 +19,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
-| 9 | Implement the approved app changes | In progress; 9A, all 9B and 9C data prerequisites complete | [Complete import](app-migration/implementation-evidence/9B17/README.md), [parity](app-migration/implementation-evidence/9B17/import-parity.json); 9D1 next |
+| 9 | Implement the approved app changes | In progress; 9L isolated components implemented, 9L14 blocked | [9L outputs and acceptance limits](app-migration/implementation-evidence/9L/README.md); [9J release holds](app-migration/implementation-evidence/9J/README.md) and 9M prerequisites remain |
 | 10 | Verify the finished app | Not started | Verify the implementation and save the results |
 
 ## Step 4 substep tracker
@@ -728,3 +728,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **16 October — 9F1–9F19 reviewed; acceptance open:** Implemented 9K1–9K4 canonical/legacy resolution and guarded returns, plus approved 9L9–9L10 reference/viewer components. Exact PDF vector decoding preserves source geometry; fixed zero-height artwork in scrolling assessment cards. All 119 Python and 39 desktop tests pass, along with Android/Wasm/iOS simulator builds. Retained 76 Android captures and all 19 simulator/Wasm renders. User chose simulator instead of physical iPhone. All 38 originals remain unchanged and are excluded from scoring; 12 previews remain faint and full reader/delivery acceptance remains open. No hold released, replacement applied or route activation claimed. [Detailed results and replay](app-migration/implementation-evidence/9F/README.md).
+
+
+**17 October — 9L isolated views:** Implemented the approved 9L1–9L13 components and a verification-only learning route. Complete compiled teaching parity retains all document/answer/artwork metadata; canonical library search/filter and 60-node reading navigation, reveal semantics, shuffled standard/fuel reviews, source details/return, exact sign/viewer reuse and recovery states are covered by focused checks. 137 Python and 68 desktop tests pass; Android, iOS simulator and WebAssembly compilation pass. No new design, live-bank change, scoring acceptance or production activation. 9L14 remains blocked by 9J/9M prerequisites; mobile assistive and complete delivery acceptance remain open. [Evidence and reproduction](app-migration/implementation-evidence/9L/README.md).
