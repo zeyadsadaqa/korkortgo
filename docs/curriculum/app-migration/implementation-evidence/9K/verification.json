@@ -1,0 +1,477 @@
+{
+  "verified_on": "2026-10-17",
+  "scope": "9K1–9K4 navigation foundation; canonical UI activation remains 9L",
+  "python_tests": 137,
+  "desktop_tests": 52,
+  "navigation_tests": 11,
+  "failures": 0,
+  "canonical_destinations_and_anchors": 1123,
+  "frozen_aliases": 1921,
+  "entry_point_contracts_reviewed": 12,
+  "entry_point_integration_scope": "docs/curriculum/app-migration/implementation-evidence/9K/entry-point-checks.json",
+  "production_tombstones": 0,
+  "canonical_and_alias_generation": "byte-identical",
+  "missing_session_recovery": "passed",
+  "moved_target_normalisation_and_notice": "passed",
+  "pending_session_replacement_and_stale_discard": "passed",
+  "exact_source_reference_and_discard_recovery": "passed",
+  "return_positions_focus_and_retirement_outcomes": "passed",
+  "9J_candidate_reproduction": "passed; 384 accepted, 616 held; release blocked",
+  "9F_replacement_check": "passed; all 38 originals remain unchanged and held",
+  "ui_activation": false,
+  "release_accepted": false,
+  "files": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt",
+      "sha256": "c0b5e234971a6bd9d4dd10e2900a58a1d58d66edc04c94db85fd09bd4fce6ea6"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/NavigationTest.kt",
+      "sha256": "7e270bba3014aa302f8631cdf75ff195609ce6c52cae41f71e6d560476c572f1"
+    },
+    {
+      "path": "tools/build_navigation.py",
+      "sha256": "f084170b820a89ede3304a565a6791c0320d8d56235ce2f9ce1c21fcf58b0dd2"
+    },
+    {
+      "path": "tools/test_build_navigation.py",
+      "sha256": "2e4d729391ed516a14e772df693fd8f96ff53c3c2e544be46fcc7b1839c3161c"
+    },
+    {
+      "path": "content/legacy-aliases.json",
+      "sha256": "a647b5798973a42ea1499809481cffd4d5c7cc98ca03c33e97c8901268370d71"
+    },
+    {
+      "path": "content/legacy-sources.json",
+      "sha256": "d621ad7a272ba09af5ac7ac2362fae394c4bef3542b483067c59e077b931042e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/link-and-progress-map.json",
+      "sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9K/entry-point-checks.json",
+      "sha256": "7c3a21d431020bb061409e86c31db8a848b16a7e658929769493c8a9d7da9d5c"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation.kt",
+      "sha256": "6e4c0ab484d01f81e07bb7f6dbaab097b50f787b92b665c54b2061ac875b5627"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart000.kt",
+      "sha256": "d21f769f5fac252485adea54056407f866d0b5ddf56291cbe61bc09bdf3a95d1"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart001.kt",
+      "sha256": "0cd38df28a2f3435663748351ccc5914b17fbcfc4df6dba032ae03338a685d9d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart002.kt",
+      "sha256": "6a7dc3ecdf61f3a0657dbef6000fdba7297bf74fd58cf7343d2db677fb733afe"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart003.kt",
+      "sha256": "e8787ab10102a48cde4e4d61b481743c661220925471b493b69191a9febde304"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart004.kt",
+      "sha256": "bdfdeafc7913f9764b6b437d75f3e8c6a91cd9ac43fd9006069f6efba3d51eff"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart005.kt",
+      "sha256": "15c8d3d04bf687e311642a85033e6c78d9fa2c77f5739f8fe7017e7be14c13ab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart006.kt",
+      "sha256": "cafe11efecb4679cde492999f0120ec8fb87fdfa19210161f041b22d0509f4a7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart007.kt",
+      "sha256": "fda984c4b8665afc22c357a7794c499d6a73ccb4e30a130199ba4a65c917a8ec"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart008.kt",
+      "sha256": "794e11d6b4ba099bf670999b3215c9a9331781fd22c94bddfbfbd450b24dc4ab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart009.kt",
+      "sha256": "140b05d754006db23db4dc6a042b989637a27d1e31c858e716df7caee8bc8d8d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart010.kt",
+      "sha256": "9d6f9d3567998c02b287d91dd206be166f5155e7aa6437389c1b887ec572af52"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart011.kt",
+      "sha256": "d92d904e96de4084a3332dff9a7cd27c0c6ca536e27ca2a573fb55a25f0d6510"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart012.kt",
+      "sha256": "40ac46d04ba828b3fc229351d3e8a8e8d96e22da6664c31369a39b9ea3d55c57"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart013.kt",
+      "sha256": "2d7559c3f827a0b140b898e5eed56a316487d7e84cf784d6e88bc0b23971d804"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart014.kt",
+      "sha256": "e3732af30ab4d48f3803638a8197bcf5c27e6c7010d3dcd1b6b1600e542aa889"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart015.kt",
+      "sha256": "dcd748ea02e5ed5bce245c19c88036fb38c2e941c260c7f4b56a11b1cf996960"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart016.kt",
+      "sha256": "cc70bf80c2584a5ae85b2a8a8101001eb079f676544ce0ad43adee0accb4a92e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart017.kt",
+      "sha256": "915c1d0304b9a6f7c68050a20e688f11ca365a96e6725a185d21461284623612"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart018.kt",
+      "sha256": "a81fd01ad78f09955b9e57a32e3dddd45f45befe0411393cc03cf02816364047"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart019.kt",
+      "sha256": "0aefe8a1e8a37b7c1d3828752f01556213ebd8e398266315c9f62a32ad9aace5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart020.kt",
+      "sha256": "ed13c574e9b3514876a588d94e51c9f7a480475a41031b81617cccfeee205e40"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart021.kt",
+      "sha256": "80fae1f19c6f680f4da58c05aedd406d2f0a354096448a9a4c26691d3b36940f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart022.kt",
+      "sha256": "48df2b72f34fea5e3653aa72345630a74e387a99728fbf168ab610d5ebdd26b2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart023.kt",
+      "sha256": "e1b267c5c311e45277ff506769d2c7d8035d663d0a03daff5d7e9c7d45460065"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart024.kt",
+      "sha256": "4d3ced98c66779241e12c3fa339a687e53b1048d7e8d17968ed05429b12afd98"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart025.kt",
+      "sha256": "7ffbb5fa9868a3d14f9886345983aac8d8cd7fdc3d7d358b8a1add7478e52487"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart026.kt",
+      "sha256": "f9e55b578a02653524b8c415981b185f5ce1af1f0eb14fe78af56a027ce063bc"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart027.kt",
+      "sha256": "5e2c94c557935e0b6ee9f41c6a2fe7712fc61c33df90eebba911285488b24e35"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart028.kt",
+      "sha256": "f467198dc7ed0f34ca1c2efb56050b7dc382ab12ce32f170a9406a9b8ecb951d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart029.kt",
+      "sha256": "99e1f6855855fec60f0d0191eb85b262aeb5010a65622c355615a8992905d66b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart030.kt",
+      "sha256": "8af7a8282a5e683e602a7f4637cdb9e6322c3b2a26bda0d17bf3750f0bd3eeb4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart031.kt",
+      "sha256": "b733d6bd48b106cc2a8c21c8cf6fb5bb691ca93b8aa69af905a407c895dd45de"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart032.kt",
+      "sha256": "e2a4c13a9eae6808f4ca167db82ae39709dc5e965688504dfd40d7565e5570cd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart033.kt",
+      "sha256": "48fc6ca4e15b35b5a1598a13a7745be04624e04e71c0b16fbe598426f6a5814d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart034.kt",
+      "sha256": "dbaa2ed4d11fc43147ef2f62cec2b15f252761c18c2db40abbd862f111e39b5d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart035.kt",
+      "sha256": "0366616009e320f5559894ae845b4fbbb80c199f58e003992b69582b2ab9379e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart036.kt",
+      "sha256": "8a54895cfe888f72be9daca2157df521d712316c4eb3f48b164aae705feec5fa"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart037.kt",
+      "sha256": "cdc41f219092372189d5d080108047713e338d7188af40ff86e93c1b246ec6bd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart038.kt",
+      "sha256": "fd317197c44509855652505a529ddd91715968bb0f32694fa79e2aefd9a62624"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart039.kt",
+      "sha256": "f14081ec3490f8d3a56718ae71586bd6696f6f2893acc3cb475bcfc8c5db6d44"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart040.kt",
+      "sha256": "a38cbd360b711428dc51ab6e487c31534f733443ebf7fa83e1b5bbd4caf5165d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart041.kt",
+      "sha256": "55b56f557c8dc6e2216ad48c94b06e33acc01db6495b7637c1e14b7751e422b5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart042.kt",
+      "sha256": "ea9920283648825f40678ae4156f375734c6e2dead0b60bd6b34935201b455ac"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart043.kt",
+      "sha256": "7399149878407281f744281b5771455282b8f82447b78955f157821792f6919b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart044.kt",
+      "sha256": "f222ba2eece5dac33f6c35b4366d242fcc214e05d392c2b2d0734da661cf7e95"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart045.kt",
+      "sha256": "1cfa045ac9e340929483f7bf1a39184308d9df83caded3cc7657ebc33f4da676"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart046.kt",
+      "sha256": "119d59a9c50d7f2fe53b670d7fee7551e85b888678ffcee154625acd8450926a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart047.kt",
+      "sha256": "b8ff35d409209883b0f122e99314718c31b7f06e1836f63b66c8c703323f963a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart048.kt",
+      "sha256": "d3958415b9ff5c66d1c85118621c2887db9c0fdc4806db295f39bd5881a77e98"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart049.kt",
+      "sha256": "4e9a2b36e7996055ee9946e60719a403ed83ea026efda7640d2d3e9f2ea6f315"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart050.kt",
+      "sha256": "d93f300db121884829ff2d9842beccb80abf5e8dd2e13c30755a53fd003cb79d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart051.kt",
+      "sha256": "70f46f2063699d3bb1add7253c48c1b2f4dc3767a4c48eb22da7f22586a645fc"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart052.kt",
+      "sha256": "3a59f642fe1af2f2b3c6bce5ff7572843f9ab8a216b3138722856bc4183e0037"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart053.kt",
+      "sha256": "a89abadb7462fb23395a1ed7df755d32b23ae049a9425658974ee68b06eca6e1"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart054.kt",
+      "sha256": "35f75a281c4e0b7362e2ea1d23d5b15bffe7b2e6a90e6d746a81715a0bc8d17b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart055.kt",
+      "sha256": "c10e8d3d33d28192e79c6ce80d1a8730b0a7e41c6c5c9f9b0dc707237ec3d9ba"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart056.kt",
+      "sha256": "2f7813de61504b94204f912574c2749b31b96931d286a8849a780d1874addfc3"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart057.kt",
+      "sha256": "f29dbd8c2266c07699eaf13655b20ab1efdc41077f42281ecc8271c6514cc362"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart058.kt",
+      "sha256": "fddd1d21427e798750181862b07631422c0abbdc3913099f28a5356d05f18f13"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart059.kt",
+      "sha256": "5011607acba15a373b551f7a3ee844a21e69ba072e1a0b330a6a52224f012123"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart060.kt",
+      "sha256": "02aa55b3576aa810d3ed8d4417d56b89589e4f9d56d636c5c734fd839308f4e2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart061.kt",
+      "sha256": "0c2567199dadc573eb151c43d6ca62282025363489253e6a14a3f89aec880c63"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart062.kt",
+      "sha256": "88253dd79b02a701dbf8eaf924ebfc1ac6d8ad4d6043025c589ee6f4d797e574"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart063.kt",
+      "sha256": "97db3353710123d88c42099e212b095aa793ccf80da6f316be7aeace47eb217e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart064.kt",
+      "sha256": "83db3fc137849a4d5605bff7b972677ede988dad173ef55b8edba9f28ac21061"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart065.kt",
+      "sha256": "d530794994c5ded7120af4fb2c2b49b46a64f61990b46e502ced470a92b399f0"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart066.kt",
+      "sha256": "228563fe25d503414c25a99022cb36138dc97a011da43a349cb6da0e523b0163"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart067.kt",
+      "sha256": "7bb019211f2f2cb8d7059981fe0b53c6a4a5bde5962267bcda0a21b7fe494745"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart068.kt",
+      "sha256": "654077bbbfeea8b1396259232fd90d13fc9608696990afdcb48f19e32e21c055"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart069.kt",
+      "sha256": "4b3fd81d73e03343b834098d4dc11c0438d3bc37b82799efdc5c515ccd60ecc6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart070.kt",
+      "sha256": "01718b9989f8794f8efe80e8d6addec3331feb992a6fb30aff5e74c7a1c649a4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart071.kt",
+      "sha256": "840d931998b8d2ede40ba9de13b81a6b18dd451bc99372269d43a221b405c623"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart072.kt",
+      "sha256": "079593f3a024a800a4f5ea6c48c94342a8d915eb78a57f6dfcb5a32d07286512"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart073.kt",
+      "sha256": "865142d2411452231731efa8061538efd6fda0a5f27c2a1c886ce1e89cd4a29b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart074.kt",
+      "sha256": "8fbdc7f3a9d0d3a8a8bc9f7d2c0547f91fee32dc30d4e68e229575c9c64976c5"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart075.kt",
+      "sha256": "51cbe5c23f1b5d338e76f50f267b14124d5a47a9cbcc61d54a0453cf7b632d04"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart076.kt",
+      "sha256": "94431794f0cbcc19e69b832f724c046a3ccc4ed27ff6e9f7ca0ba16ed26d0515"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart077.kt",
+      "sha256": "f1a9b8db22f6d20e3f344aea4212c9980a22413b60609fdaff94a716cd3e4e88"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart078.kt",
+      "sha256": "5de90bf1703c8d5cff5ad93f4e71d538cefee5a1b6160e695b4c4daf98c91154"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart079.kt",
+      "sha256": "1517fbb462c9aa1672a001ca1cb638bbbb5a21d93ce04e6f39da44b78d4b3b07"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart080.kt",
+      "sha256": "e03a1a13c88defa9e93b7f6e9657691b280077adccadf1b27fe9c513db3441b3"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart081.kt",
+      "sha256": "6f75defcba2a1fec1f413e169e44301b73508a33f497bcb28df17d2302d15fc8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart082.kt",
+      "sha256": "93f77fbed191dfa65e59eb9cb61e6925894397dcc60012943ea4882664830c9a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart083.kt",
+      "sha256": "5e34d49888af3f472a37df67ae30dfe93a4493724ae054023cece9ee850f73b2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart084.kt",
+      "sha256": "cb8036194912c215145b9d324e661b0ba7e43567c388bb29b72624353791fda6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart085.kt",
+      "sha256": "b554600f22eb67a7d08e6f48beafaa50fbde65b60a2c3236791c5346134aad21"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart086.kt",
+      "sha256": "5787b414a0854f7a71723628bd1ef8065cfa04db8ebaa3813fc28f018e4dc3b4"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart087.kt",
+      "sha256": "65ee838e673b870b8420bef7359235fe921e50078b6d41fb38b1e9b1c6997857"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart088.kt",
+      "sha256": "3de47437bc7e0451f56ce359da985e046ff0bc4459024208a04524f19a9b57fb"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart089.kt",
+      "sha256": "80998202e32848160935f13455ddfc4fbb663eda506f6ac41a6e15b22f275e28"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart090.kt",
+      "sha256": "edd44f5f300671c30eb6119ad7a1f2243dcd165929dbfb9f1b3e8e8b4b7bd4b0"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart091.kt",
+      "sha256": "6b7fe13adc3655dbb41ed70682dcd0009bb837c70f949c7580bfee04e6871671"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart092.kt",
+      "sha256": "6678ddaaf28a50fb5a6ea920637f54a7a28b9be516d69294cb2c04630a3e37f2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart093.kt",
+      "sha256": "92530f0cd5db89af0718ea275c4eded0f4c7c5a56cb7e73eb325130cf45db96f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart094.kt",
+      "sha256": "c511ea850db11508151a36497fd11ccb11151ad0e56d6bec8e33e4b6641220a8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart095.kt",
+      "sha256": "f6175651b8555eb8c437999e4946532c56a556bd7ba60c13ba080b3333fe7745"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart096.kt",
+      "sha256": "d28fa7e8a8e5c781b47a194bcb5c83d941bc3dfbea16295f1ee16dac17c680a9"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart097.kt",
+      "sha256": "7e8979931b9e8a60be49301c624e9dd37024d8bf6b4275943f83884672aaf14d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart098.kt",
+      "sha256": "cf0b26d76c0b4f228159778ee9045167da039cdae949310d037e49cc3a3f8899"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart099.kt",
+      "sha256": "114ee57d4ae4b101b0d7a0218560c4fe3815b5d6cdfe636e08002469d7ef23d8"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart100.kt",
+      "sha256": "2451cbca58c06b07a1ecb4116e114f1c2aac40d7dc50c6e238fe5a231577bb8a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart101.kt",
+      "sha256": "7a1d370d8dd4927bd9df1e342d73130ec2f3d3b264263d46f85ff90d761ffedf"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart102.kt",
+      "sha256": "e07a26dee9b3e08648805578c971af1228118f21c533bf536ec26bded7f10e5f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigationPart103.kt",
+      "sha256": "bd98ebef75a40cc369e22ec252e8cb3aadd10c467090e26f9a47f87fec86b826"
+    }
+  ]
+}

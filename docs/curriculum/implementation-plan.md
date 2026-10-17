@@ -1600,6 +1600,8 @@ Compare JSON/Kotlin output and exercise fixed seeds across all key positions and
 
 ### 9K. Implement canonical navigation and legacy resolution
 
+**Execution 17 October 2026:** Revalidated 9K1–9K4 foundations against 9J. Added missing-session recovery, normalised moved-block requests, preserved exact pending source references, and rejected stale discard confirmations after session replacement. All twelve entry-point contracts have explicit verification/integration scope. [Results](app-migration/implementation-evidence/9K/README.md). Full canonical view activation remains 9L14 and does not clear 9J/9F holds.
+
 #### 9K1. Implement typed canonical destinations
 
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).

@@ -1,0 +1,91 @@
+{
+  "checked_on": "2026-10-17",
+  "entry_point_count": 12,
+  "integration_scope": "No claim that all canonical UI callbacks are activated; 9L14 remains gated by accepted 9J.",
+  "entry_points": [
+    {
+      "entry": "App.navigate / all direct page assignments",
+      "rule": "Use one typed navigation transition and the existing unfinished-test guard; validate the full pending content/session target, not only a Page enum.",
+      "evidence": "NavigationTest.allEightStatesUseTheSameGuardAndPreservePendingTargets; cancellationPreservesSessionAndDiscardKeepsExactPendingReturn",
+      "scope": "Canonical guard and current legacy page bridge verified; integrated canonical screens remain 9L.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "App.readPage / QuestionCard onRead",
+      "rule": "Replace integer page routing with known question ID → question_routes. Unknown question does not fall through to a page guess.",
+      "evidence": "NavigationTest.allFrozenAliasesResolveWithoutGuessing",
+      "scope": "Exact question-ID precedence verified. Replacing remaining legacy readPage renderer is 9L3/9L14.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "App library item keys/category/search",
+      "rule": "Key by canonical ID; use category_routes/lesson tags, canonical titles and explicit technical legacy-title lookup only.",
+      "evidence": "NavigationTest.everyPublishedDestinationAndBlockResolvesExactly",
+      "scope": "Canonical IDs/tags imported. Library/search rendering is 9L1–9L2.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "Reader previous/next and chapter-title signs shortcut",
+      "rule": "Use reading_order and typed sign_catalogue/appendix-B action; remove list-index/title conditions.",
+      "evidence": "NavigationTest.everyPublishedDestinationAndBlockResolvesExactly",
+      "scope": "Canonical targets and 60-node reading order available. Reader callbacks are 9L3/9L14.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "QuestionCard source attribution / SourceFooter",
+      "rule": "Replace source-book strings/page badges with canonical teaching and accurately classified source metadata; preserve disclaimer and exact asset credits.",
+      "evidence": "QuestionPackage9JTest.everyCompiledRecordMatchesFullJsonIncludingSourcesHoldsAndFeedback",
+      "scope": "Canonical source relationships verified. Footer rendering is 9L.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "SourceLink / LocalUriHandler",
+      "rule": "Open the selected reviewed URL from source_routes or sign_routes, with actual publisher/scope. Do not construct URLs from old page fields.",
+      "evidence": "NavigationTest.exactSourceReferenceSurvivesConfirmationAndInvalidSourceCannotLeaveQuiz",
+      "scope": "Known source reference validated and preserved through guard; current legacy URL exit shares guard.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "SignCard / roadSigns",
+      "rule": "Exact code and caption-bound asset/source; 340 legacy codes resolve internally and SIG16–18 remain explicit gaps. Preserve signal motion/audio limitations and source-code case such as F31a.",
+      "evidence": "NavigationTest.allFrozenAliasesResolveWithoutGuessing",
+      "scope": "Exact sign identity/case and SIG16–18 fallback verified; canonical catalogue activation is 9L.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "QuizEngine.select / Category allocation",
+      "rule": "Use accepted active question revisions; preserve question/concept identity, category quotas, random slots and answer remapping after shuffle.",
+      "evidence": "QuestionPackage9JTest.everyLengthAndSeedPreserveQuotasConceptUniquenessAndResidualPicks",
+      "scope": "Accepted candidate subset capacity verified. Release scoring activation is blocked by 9J2 holds.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "QuizSession / results / answer review",
+      "rule": "Pin original ordered option/key snapshot and use its score. Keep valid return context; no result/session means explicit setup fallback.",
+      "evidence": "NavigationTest.missingCurrentSessionsRecoverWithoutInventingResults; QuestionPackage9JTest.allKeysVisitEveryPositionAndBothFeedbackModesStayGuarded",
+      "scope": "Missing sessions and pinned candidate snapshots verified; integrated result/review screens are 9L.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "ResourceImage / Compose resources",
+      "rule": "Use verified manifest bindings and 7D assessment-specific semantics/display acceptance; a matching code is not a blanket asset-delivery waiver.",
+      "evidence": "ExactVectorRenderingTest; NavigationTest.allEightStatesUseTheSameGuardAndPreservePendingTargets",
+      "scope": "In-place image-viewer guard and exact resource renderer verified; 9F acceptance holds remain.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "Bank.kt / tools/build_content.py / Topic.page",
+      "rule": "Generate the reviewed versioned package deterministically. Retire unused old Topic summaries and all old page-based source/route generation. Do not run the old compiler as a migration shortcut.",
+      "evidence": "tools.assemble_question_package_9j; tools.build_navigation",
+      "scope": "Deterministic candidate/alias generators verified. Removal of remaining legacy Topic/reader code is 9L14.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    },
+    {
+      "entry": "Android MainActivity, iOS MainViewController, web main",
+      "rule": "Continue launching shared App; no external content deep-link parser was found. Aliases do not authorise a new URI scheme or platform storage feature.",
+      "evidence": "Existing Android/iOS/Wasm shared App entry points; no public URI parser added",
+      "scope": "Launch contract preserved; no platform scheme, persistence or external parser introduced.",
+      "status": "contract/foundation verified; view integration follows 9L where stated"
+    }
+  ]
+}
