@@ -8,6 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.unit.dp
@@ -34,7 +35,7 @@ internal fun lessonSources(document:CurriculumDocument): List<SourceReference> {
         Text("Sources",style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
         TextButton(onReturn){Text(if(document==null)"Learning library" else "Return to ${document.title}")}
         references.forEach{reference->OutlinedCard(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp)){
-            TextButton({onOpen(reference.id)},Modifier.focusRequester(focus.getValue(reference.id))){Text(reference.title)}
+            TextButton({onOpen(reference.id)},Modifier.focusRequester(focus.getValue(reference.id)).focusProperties{canFocus=true}){Text(reference.title)}
             Text(reference.publisher);Text(reference.classificationNote)
         }}}
     }

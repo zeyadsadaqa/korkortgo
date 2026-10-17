@@ -8,6 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
@@ -53,7 +54,7 @@ fun SignReferenceDetail(
             }
             @Composable fun artwork() {
                 ExactAssetImage(asset,asset.studyAltText,Modifier.fillMaxWidth().heightIn(min=180.dp).height(if(wide) 380.dp else 220.dp))
-                OutlinedButton(shape=RoundedCornerShape(6.dp), onClick={openedViewer=true;viewer=true},modifier=Modifier.fillMaxWidth().heightIn(min=48.dp).focusRequester(enlargeFocus)) {Text("Enlarge image")}
+                OutlinedButton(shape=RoundedCornerShape(6.dp), onClick={openedViewer=true;viewer=true},modifier=Modifier.fillMaxWidth().heightIn(min=48.dp).focusRequester(enlargeFocus).focusProperties{canFocus=true}) {Text("Enlarge image")}
             }
             @Composable fun description() {
                 Text(entry.caption.assessmentText(),style=MaterialTheme.typography.bodyLarge)

@@ -6,6 +6,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.semantics.*
@@ -42,7 +43,7 @@ import androidx.compose.ui.unit.dp
     var restore by remember(image){mutableStateOf(false)}
     val focus=remember{FocusRequester()}
     ExactAssetImage(readerAssets.single{it.id==image.assetId},image.description,Modifier.fillMaxWidth().height(180.dp))
-    OutlinedButton({enlarged=true},Modifier.focusRequester(focus)){Text(label)}
+    OutlinedButton({enlarged=true},Modifier.focusRequester(focus).focusProperties{canFocus=true}){Text(label)}
     if(enlarged) AccessibleImageViewer(ImageViewerContent.assessment(image,readerAssets)){enlarged=false;restore=true}
     LaunchedEffect(enlarged,restore){if(!enlarged && restore){withFrameNanos{};focus.requestFocus();restore=false}}
 }

@@ -8,6 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.text.*
@@ -93,7 +94,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
                 if(onSources!=null) TextButton({onSources(context())}){Text("Sources",style=MaterialTheme.typography.titleLarge)} else Text("Sources",style=MaterialTheme.typography.titleLarge,modifier=Modifier.semantics{heading()})
             }
             items(sources,key={"source:${it.id.value}"}){source->
-                TextButton({onSource(source.id,context("source:${source.id.value}"))},modifier=Modifier.focusRequester(sourceFocus.getValue(source.id))){Text(source.title)}
+                TextButton({onSource(source.id,context("source:${source.id.value}"))},modifier=Modifier.focusRequester(sourceFocus.getValue(source.id)).focusProperties{canFocus=true}){Text(source.title)}
             }
             item("neighbours") {
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(12.dp)) {
@@ -132,7 +133,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
             val focus=remember{FocusRequester()}
             OutlinedCard(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
                 p.prompts.forEach{TeachingBlock(it,answers,onLink)}
-                TextButton({ if(expanded) focus.requestFocus();expanded=!expanded },modifier=Modifier.focusRequester(focus).semantics{stateDescription=if(expanded)"Expanded" else "Collapsed"}){Text(if(expanded)"Hide answer" else "Show answer")}
+                TextButton({ if(expanded) focus.requestFocus();expanded=!expanded },modifier=Modifier.focusRequester(focus).focusProperties{canFocus=true}.semantics{stateDescription=if(expanded)"Expanded" else "Collapsed"}){Text(if(expanded)"Hide answer" else "Show answer")}
                 if(expanded) Column(Modifier.semantics{paneTitle="Answer"}) { answers.getValue(p.answerId).blocks.forEach{TeachingBlock(it,answers,onLink)} }
             }}
         }
@@ -150,7 +151,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
     var restore by remember(asset.id){mutableStateOf(false)}
     val focus=remember{FocusRequester()}
     ExactAssetImage(asset,asset.studyAltText,Modifier.fillMaxWidth().height(180.dp))
-    OutlinedButton({enlarged=true},Modifier.focusRequester(focus)){Text(label)}
+    OutlinedButton({enlarged=true},Modifier.focusRequester(focus).focusProperties{canFocus=true}){Text(label)}
     if(enlarged)AccessibleImageViewer(ImageViewerContent(asset,"Road signs and reference",asset.studyAltText)){enlarged=false;restore=true}
     LaunchedEffect(enlarged,restore){if(!enlarged && restore){withFrameNanos{};focus.requestFocus();restore=false}}
 }

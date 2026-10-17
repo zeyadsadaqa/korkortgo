@@ -8,6 +8,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.unit.dp
@@ -37,7 +38,7 @@ fun AssessmentCard(
         presentation.image?.let { picture ->
             val focus=remember(presentation.key) {FocusRequester()}
             AssessmentPicture(picture, Modifier.fillMaxWidth().heightIn(min = 180.dp), image)
-            if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus)) {Text("Enlarge question image")}
+            if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus).focusProperties{canFocus=true}) {Text("Enlarge question image")}
         }
         Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             presentation.choices.forEach { choice ->
@@ -61,7 +62,7 @@ fun AssessmentCard(
                     }
                     choice.image?.let { picture ->
                         val focus=remember(choice.id) {FocusRequester()}
-                        if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus)) {Text("Enlarge option ${choice.letter} image")}
+                        if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus).focusProperties{canFocus=true}) {Text("Enlarge option ${choice.letter} image")}
                     }
                 }
             }

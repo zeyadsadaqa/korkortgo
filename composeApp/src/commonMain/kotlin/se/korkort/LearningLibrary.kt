@@ -9,6 +9,10 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalFocusManager
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.text.KeyboardActions
+import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.unit.dp
 
@@ -41,13 +45,22 @@ internal fun ContentBlock.searchText(): String = when(val p=payload) {
     is BlockPayload.SignExamples -> p.entryIds.joinToString(" "){id->navigationSigns.single{it.id==id}.englishLabel}
 }
 
+/** Retained by the route owner while a lesson, source or reference is open. */
+internal class LearningLibraryState {
+    var expanded by mutableStateOf(setOf(ContentId("M03")))
+    var filter by mutableStateOf(LibraryFilter())
+    val scroll = androidx.compose.foundation.ScrollState(0)
+}
+
 @Composable internal fun LearningLibrary(
     onOpen: (ContentTarget)->Unit,
     onSources: ()->Unit,
     onReferences: ()->Unit,
+    state: LearningLibraryState = remember { LearningLibraryState() },
 ) {
-    var expanded by remember { mutableStateOf(setOf(ContentId("M03"))) }
-    var filter by remember { mutableStateOf(LibraryFilter()) }
+    val expanded=state.expanded
+    val filter=state.filter
+    val focus=LocalFocusManager.current
     val documents=remember {readerDocuments.associateBy{it.id}}
     val filtering=filter.query.isNotBlank() || filter.category!=null
     val visible=readerModules.sortedBy{it.order}.map { module ->
@@ -55,27 +68,29 @@ internal fun ContentBlock.searchText(): String = when(val p=payload) {
             if(filtering) it.kind==DocumentKind.LESSON && filter.matches(it,readerTags) else true
         }
     }.filter { it.second.isNotEmpty() }
-    Column(Modifier.widthIn(max=900.dp).fillMaxWidth().verticalScroll(rememberScrollState()).padding(24.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
+    Column(Modifier.widthIn(max=900.dp).fillMaxWidth().verticalScroll(state.scroll).padding(24.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
         Text("Learning library",style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
         Text("${readerModules.size} modules · ${readerModules.sumOf{it.lessonIds.size}} lessons")
         FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
             OutlinedButton(onClick=onSources){Text("Sources")}
             OutlinedButton(onClick=onReferences){Text("Road signs and reference")}
         }
-        OutlinedTextField(filter.query,{filter=filter.copy(query=it)},label={Text("Search lessons")},modifier=Modifier.fillMaxWidth())
+        OutlinedTextField(filter.query,{state.filter=filter.copy(query=it)},label={Text("Search lessons")},singleLine=true,
+            keyboardOptions=KeyboardOptions(imeAction=ImeAction.Search),keyboardActions=KeyboardActions(onSearch={focus.clearFocus()}),
+            modifier=Modifier.fillMaxWidth().semantics{contentDescription="Search lessons";stateDescription=filter.query})
         FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
-            FilterChip(filter.category==null,{filter=filter.clearCategory()},label={Text("All topics")})
-            Category.entries.forEach { category -> FilterChip(filter.category==category,{filter=filter.copy(category=category)},label={Text(category.title)}) }
+            FilterChip(filter.category==null,{state.filter=filter.clearCategory()},label={Text("All topics")})
+            Category.entries.forEach { category -> FilterChip(filter.category==category,{state.filter=filter.copy(category=category)},label={Text(category.title)}) }
         }
         FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
-            TextButton({filter=filter.clearQuery()}){Text("Clear search")}
-            TextButton({filter=filter.clearCategory()}){Text("Clear filters")}
+            TextButton({state.filter=filter.clearQuery()}){Text("Clear search")}
+            TextButton({state.filter=filter.clearCategory()}){Text("Clear filters")}
         }
         if(visible.isEmpty()) Text("No matching lessons.",Modifier.semantics{liveRegion=LiveRegionMode.Polite})
         visible.forEach { (module,children) ->
             OutlinedCard(Modifier.fillMaxWidth()) {
                 Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
-                    Text("${module.order}. ${module.title}",style=MaterialTheme.typography.headlineSmall,modifier=Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.secondaryContainer).clickable{expanded=if(module.id in expanded)expanded-module.id else expanded+module.id}.padding(12.dp).semantics{heading();role=Role.Button;stateDescription=if(module.id in expanded || filtering)"Expanded" else "Collapsed"})
+                    Text("${module.order}. ${module.title}",style=MaterialTheme.typography.headlineSmall,modifier=Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.secondaryContainer).clickable{state.expanded=if(module.id in expanded)expanded-module.id else expanded+module.id}.padding(12.dp).semantics{heading();role=Role.Button;stateDescription=if(module.id in expanded || filtering)"Expanded" else "Collapsed"})
                     if(module.id in expanded || filtering) children.forEach { document ->
                         TextButton({onOpen(ContentTarget(document.id))},modifier=Modifier.fillMaxWidth()) {
                             Column(Modifier.fillMaxWidth()) {

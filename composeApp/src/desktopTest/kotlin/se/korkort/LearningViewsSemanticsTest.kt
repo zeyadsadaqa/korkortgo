@@ -220,4 +220,32 @@ class LearningViewsSemanticsTest {
             h.click("Set up a practice test");assertTrue(setup)
         }
     }
+    @Test fun routeRetainsLibrarySearchExpansionAndAccessibleFieldState(){
+        Harness(800,1800).use{h->
+            h.scene.setContent{LearningRoute{false}};h.render()
+            h.click("1. Choose to drive responsibly")
+            val title="Your route into driving"
+            val edit=h.nodes().single{it.config.getOrNull(SemanticsActions.SetText)!=null}
+            assertTrue(edit.config[SemanticsActions.SetText].action!!.invoke(androidx.compose.ui.text.AnnotatedString(title)))
+            h.render();h.click(title)
+            h.awaitCondition{h.nodes().any{it.config.getOrNull(SemanticsProperties.Heading)!=null && it.config.getOrNull(SemanticsProperties.Text)?.any{t->t.text==title}==true}}
+            h.click("Learning library")
+            val restored=h.nodes().single{it.config.getOrNull(SemanticsActions.SetText)!=null}
+            assertEquals(title,restored.config[SemanticsProperties.EditableText].text)
+            assertEquals(listOf("Search lessons"),restored.config[SemanticsProperties.ContentDescription])
+            assertEquals(title,restored.config[SemanticsProperties.StateDescription])
+            h.click("Clear search")
+            assertTrue(h.nodes().any{it.config.getOrNull(SemanticsProperties.StateDescription)=="Expanded" && it.config.getOrNull(SemanticsProperties.Text)?.any{t->t.text=="1. Choose to drive responsibly"}==true})
+        }
+    }
+    @Test fun referenceBackUsesCatalogueRatherThanLibrary(){
+        Harness(800,1800).use{h->
+            val target=canonicalResolver.canonical(ContentTarget(navigationSigns.single{it.code=="B1"}.id))
+            h.scene.setContent{LearningRoute(target){false}};h.render()
+            h.click("‹ Road signs and reference")
+            assertFalse(h.nodes().any{it.config.getOrNull(SemanticsActions.SetText)!=null})
+            assertTrue(h.text().contains(navigationReferenceGroups.first().title))
+        }
+    }
+
 }
