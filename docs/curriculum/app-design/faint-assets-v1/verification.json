@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-17",
+  "approval_status": "pending",
+  "generator": "built-in image_gen",
+  "purpose": "layout preview only; no official artwork generation",
+  "assets_verified": 12,
+  "affected_questions": 24,
+  "implementation_started": false,
+  "holds_cleared": 0,
+  "files": [
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/asset-bindings.json",
+      "sha256": "4d5ba9418feeefe67bd96cae43dc5d5a28daab286332bb61c2093a22c3beba70"
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/preview.png",
+      "sha256": "8ff751b7211984231d06fd08af0f241d7bc3e27b5c7e2c82ffa31decba792136"
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/prompt.txt",
+      "sha256": "ac6f8cf4ff9ecfd9557bc2d51f021fe19a939dfabb6cd187ff12a069444fbc6b"
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/review.md",
+      "sha256": "bbf37abb14687242ed129033328090baa21a3585f524618162c87226a940668f"
+    }
+  ]
+}
