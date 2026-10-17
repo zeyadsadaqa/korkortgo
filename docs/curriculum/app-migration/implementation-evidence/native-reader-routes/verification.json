@@ -1,0 +1,745 @@
+{
+  "date": "2026-10-17",
+  "base_commit": "62ffdc072a3b9e6abf82411e5396efec1547c463",
+  "scope": "isolated native reader/route checkpoint; no production or content acceptance",
+  "checks": {
+    "desktop": {
+      "tests": 80,
+      "failures": 0
+    },
+    "python": {
+      "tests": 144,
+      "failures": 0
+    },
+    "android_native": {
+      "tests": 5,
+      "failures": 0,
+      "device": "Pixel 10 Pro emulator API 36.1",
+      "source_return_keyboard_focus": true
+    },
+    "ios_native": {
+      "tests": 5,
+      "failures": 0,
+      "device": "iPhone 17 simulator iOS 26.5",
+      "audits": [
+        "sufficientElementDescription",
+        "trait"
+      ],
+      "voiceover_listening": false
+    },
+    "talkback": "real native emulator pointer swipes; visible focus screenshots reviewed; no audio listening claim",
+    "compilation": [
+      "Android debug",
+      "iOS simulator arm64",
+      "WasmJs"
+    ],
+    "generators": [
+      "build_reader --check",
+      "build_navigation --check",
+      "assemble_question_package_9j --check"
+    ]
+  },
+  "candidate": {
+    "accepted": 384,
+    "held": 616,
+    "faint_assets": 12,
+    "holds_cleared": 0,
+    "production_activation": false
+  },
+  "sources": [
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+      "bytes": 5577,
+      "sha256": "2f7a399d34d31a6f25774261d8b2ca8217fbc412c376b6b9e9913ecc8035ca27"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "bytes": 4296,
+      "sha256": "fbe3535e2aa026d9e75fbb37fc1e646e749325b4b337eb5ce91a728393ed063e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+      "bytes": 4458,
+      "sha256": "4df52729a3d4cf9de5a3a84dc607f9fdc32dbf1562c8f7447ef9635a23f0799f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "bytes": 11238,
+      "sha256": "71760c3fc6d1283dd72b043c0430cfdc9192bcb912288b61e84756f01fb6727b"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceDetail.kt",
+      "bytes": 5632,
+      "sha256": "bd9c1293b41614d6ebb15a0249f7a10bbf74b841c0ac889f79970e29b9d65165"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningLibrary.kt",
+      "bytes": 7025,
+      "sha256": "816989f34282a07dd8a2cb20725add06849de215d466b4845dcd86a142737748"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt",
+      "bytes": 3407,
+      "sha256": "c88acde26c2bc441988e0092a88cf085651dfe6a8742b00ae6c8547028deb4dc"
+    },
+    {
+      "path": "composeApp/src/verificationCommonMain/kotlin/se/korkort/DeliveryProofScreen.kt",
+      "bytes": 6162,
+      "sha256": "4d2f07034ed057a943b3f7c26154641281bfbbc12828f42297b5543024f360e2"
+    },
+    {
+      "path": "composeApp/src/verificationAndroidTest/kotlin/se/korkort/NativeReaderRouteTest.kt",
+      "bytes": 8543,
+      "sha256": "1aae9841f8fb6a46b6355795d718418ce4813c191970322e21f19e7228a2a7e7"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/LearningViewsSemanticsTest.kt",
+      "bytes": 17578,
+      "sha256": "46d7a7a7f1ba50a21f8dee27076edf89cce8cebd0b96ea5a5578e3d3a5f1647b"
+    },
+    {
+      "path": "iosApp/NativeRouteTests.swift",
+      "bytes": 6978,
+      "sha256": "48633c95bd3e93aab3c8192f8cc612d139c9f379c9380bc20ff970581f3d705d"
+    },
+    {
+      "path": "tools/run_native_reader_android.py",
+      "bytes": 3898,
+      "sha256": "d8ea898a3656369fdd9d2a3d9ca44de502002b6b93184c407da87699def01cee"
+    },
+    {
+      "path": "composeApp/build.gradle.kts",
+      "bytes": 3521,
+      "sha256": "6f50d139cac86047d1f7005889ffb9e43dbabaa8b79e8203431521f530047b6f"
+    },
+    {
+      "path": "iosApp/Korkort.xcodeproj/project.pbxproj",
+      "bytes": 10747,
+      "sha256": "03125f0298911f94834f1cf1596a05c084025ac08b2bd4a255adcadd17cba81f"
+    },
+    {
+      "path": "iosApp/Korkort.xcodeproj/xcshareddata/xcschemes/NativeRouteTests.xcscheme",
+      "bytes": 1112,
+      "sha256": "46894aa59a13def132873f50a7d665b3e8bc645ab5db6ab0d5da9ccdc8e0e53e"
+    }
+  ],
+  "binaries": [
+    {
+      "path": "composeApp/build/outputs/apk/debug/composeApp-debug.apk",
+      "bytes": 91798664,
+      "sha256": "8b3ef789d418aa5d195ba6ddd9cbe37f3ba3169b194104b9a0bdfd006175e6d0"
+    },
+    {
+      "path": "composeApp/build/outputs/apk/androidTest/debug/composeApp-debug-androidTest.apk",
+      "bytes": 343807,
+      "sha256": "5444ee8c06c566b9d2c1f2dfb753b46e92d94bbf643f425aecef762e6fb37bef"
+    },
+    {
+      "path": "/private/tmp/korkort-native-step1-ios/Build/Products/Debug-iphonesimulator/Korkort.app/Korkort",
+      "bytes": 98945656,
+      "sha256": "87660fba33fb594d2ad8cc01b968a36ffff122319a6b67569cb20562a173d7d8"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/README.md",
+      "bytes": 6821,
+      "sha256": "c9e7b4eaa5d5358db1888ff152d7adaf4ca57976e39fc9bb98601b57f0af893f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/answer-hidden.json",
+      "bytes": 12898,
+      "sha256": "069c2b73c386af348440a8a50561bb28e2a1048b1c81cc9f3384dd8c8c151ec7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/answer-hidden.png",
+      "bytes": 223212,
+      "sha256": "99b6719e75108d22649ec1bd4550a17226968448c180877d909799dbf56bbfeb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/answer-revealed.json",
+      "bytes": 12112,
+      "sha256": "b0c2e0087745ec99764423ceb975003ad1cdbb26bbee3ac4198a60f5717977bb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/answer-revealed.png",
+      "bytes": 248898,
+      "sha256": "4abf1eda9fc8edcd5ee5de0c1915687563807ba3c93b15df45c39fae21905be6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/candidate-modal.json",
+      "bytes": 7716,
+      "sha256": "1eb27dba47ad136da6bbf64c391d5e1f88749207713b9a32cedbbd1e73c3207e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/candidate-modal.png",
+      "bytes": 216895,
+      "sha256": "f68a8f0e4fdf7dc14adae6df1aba732b647573cd2d66a4a7660137268d5e410d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/candidate-return.json",
+      "bytes": 16231,
+      "sha256": "9eb50699bf9e4d82360d9e670916eb92391ef573c5bb85bbabc09c5de13c901a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/candidate-return.png",
+      "bytes": 133373,
+      "sha256": "b9943700faa5ab8a791d1f6fcc9691fab7c7413719da890b5110e0343632d2f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/chooser-destination.json",
+      "bytes": 9510,
+      "sha256": "d16d0aeaf5c3bc4d3ed11ebc786a1ca2a73780c51a2ae3d5a2fb364be40f4eab"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/chooser-destination.png",
+      "bytes": 278307,
+      "sha256": "ca8c641a4bccae048137b7d63a0c73f01aba98ea7e06889df9fc31cf228b45c6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/legacy-chooser.json",
+      "bytes": 6178,
+      "sha256": "47d853c14739e0a2691b67149165ca3b8d379f31ef2a8ac532533343ec2ddb46"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/legacy-chooser.png",
+      "bytes": 74804,
+      "sha256": "ebcb7c51202abbef0b8743b90cb7de6c507c0604d6b12d35f7b4314268913bd9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/library-return.json",
+      "bytes": 21970,
+      "sha256": "fbd3c2868ab4ade6ef39340d28e1b3a8c7a53de226ce404132d5421c783d7ad1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/library-return.png",
+      "bytes": 139305,
+      "sha256": "cbcfcdb0007939a76434fe09405922c0480450c929221a08df4559fb292a60ed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/next-reading.json",
+      "bytes": 6316,
+      "sha256": "770102a5be2e71977b776f2fffdceadbae088b311c99025e8d6849755d002a3e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/next-reading.png",
+      "bytes": 298372,
+      "sha256": "b724c374f3c4193e080abb9cbd6c03e9b0d3ffd8ca6feaa08787c8042ae5f442"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reader-opening.json",
+      "bytes": 8276,
+      "sha256": "ea7114d3dfe35bcebd2799637e2b5dabb4e3d864db0f5d7dc849e0574ac20a8e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reader-opening.png",
+      "bytes": 356571,
+      "sha256": "c2137cbb1ed616fac61b11fde2aae91c9443ad3ca186cf166ba03258dd66ca31"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-back.json",
+      "bytes": 21876,
+      "sha256": "7421f9418b302cb0804a59499402d680e29a06ffc7f892fde40aef2269a48ad7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-back.png",
+      "bytes": 205888,
+      "sha256": "fa6219c27cc6484f0161aaf93c047dc0e024f5919579905402d59b0aa1dd4fb0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-modal-return.json",
+      "bytes": 9137,
+      "sha256": "ef086830cbbc7e9881d4b29ee791706b00d5ce9810aa3f1138a08fa8062e713b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-modal-return.png",
+      "bytes": 190185,
+      "sha256": "382668896f52ec2c8c4db0e8d8d73235b031d0582955278599ff86a788532482"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-modal.json",
+      "bytes": 7639,
+      "sha256": "21a81b2f7b774fb084ea471fe301b33820190ae4e313b0ba4b1ff7113cccc497"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/reference-modal.png",
+      "bytes": 86181,
+      "sha256": "97e574d9b745d7a71ab16c4b033b1047335837232ea594a3fdd7af57cabbdb96"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/source-detail.json",
+      "bytes": 11599,
+      "sha256": "56d62f8a873994d292988ed08398e59fb5485c19c097d1bcca757342c3adbfce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/source-detail.png",
+      "bytes": 222947,
+      "sha256": "f0466ff3877aacf126226b5f6e68ae3ba581a76706e576dd1334bc940f45eeec"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/source-return.json",
+      "bytes": 14824,
+      "sha256": "6ba0f0ea014ae2c928f071c52af6d5ec4b4666bf33878f965d6546206ba8461e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/source-return.png",
+      "bytes": 235309,
+      "sha256": "9414108d3e92f7e65c6caf2918ae3b3600b5cd8425632d63d7deb153897a5f9f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/unknown-question.json",
+      "bytes": 3408,
+      "sha256": "9925e182cf0b016d11fe3210bb291517d83dd9c3155c40abdd5d009007e4e661"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/routes/unknown-question.png",
+      "bytes": 44826,
+      "sha256": "b69aec4b10ea77cf9f011b6f6250c54965f8437456a2bf00dfbc09bbbc1fe8a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/accessibility-service.txt",
+      "bytes": 1038,
+      "sha256": "606730af73a213a7c5c48e8540052c5972cd7ed7ff9b9fc2580266e36aae8bbc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-00.png",
+      "bytes": 147571,
+      "sha256": "2ea041de5584402053686eb5d0061fda3c39baa87551c6ab04e9694208b2560a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-01.png",
+      "bytes": 147279,
+      "sha256": "f761a862bf4a2e28228ae8435b3789c7a774c082e06ecf8a06b49dec860bb85d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-02.png",
+      "bytes": 147268,
+      "sha256": "f5170d532fe5e6fbc089f5e3913c826ce1e9daf3bc8c2af88cd836f6d71cf995"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-03.png",
+      "bytes": 147254,
+      "sha256": "c9dd4e92b9c2cb7306a432762cb7fd225082fd2df31abc43db2e3af64b55d906"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-04.png",
+      "bytes": 147240,
+      "sha256": "8943b0be91eae5a256df612de825b46dc27f86a064bbdaed64c02638dfe99da1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-05.png",
+      "bytes": 147224,
+      "sha256": "c15d02819f2ddeed4c072a3dbfd8bed01bec9ec12e1eb6a283b51a44fdfec9a6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-06.png",
+      "bytes": 148143,
+      "sha256": "1cd81a42071b1f0514c9c61f11692f075e88c56df8a4bc7200ae741f17baedb3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-07.png",
+      "bytes": 146798,
+      "sha256": "96d49affcb600032cd9134e9b3811166356977ecd6c6ebf2a548a0546c76733e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-08.png",
+      "bytes": 147243,
+      "sha256": "fc98551f34f1fc35a001434121a3fe0845e195817602beca893fefdeb834a42e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-09.png",
+      "bytes": 146827,
+      "sha256": "a25cac134f4f3a78444004303926965624957afdf61135fbade8307344106c98"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-10.png",
+      "bytes": 147272,
+      "sha256": "4bd8f0be3fc9438bbc5e8131d6e30c0cd5dbd9c7eee80796cae22c2521965a2f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-11.png",
+      "bytes": 146886,
+      "sha256": "4a7f9349eed8335638c36adf6c21c85caceecb82360522607438959ec315b38d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-12.png",
+      "bytes": 133666,
+      "sha256": "cccce51ca5a7819b8333a1e333cccd490a7fce67d62870f6bca09840d1aa906e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/focus-13.png",
+      "bytes": 128299,
+      "sha256": "2f5c91c6505890f9e6c877315b8b50e2e19943446346f8e16fc94fb31efd5212"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-candidate/traversal.json",
+      "bytes": 1610,
+      "sha256": "b7a2d1c22c3164495b9e38c8b81608298bca892074e3c3d3cc07a930cc35eacc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/accessibility-service.txt",
+      "bytes": 1038,
+      "sha256": "606730af73a213a7c5c48e8540052c5972cd7ed7ff9b9fc2580266e36aae8bbc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-00.png",
+      "bytes": 390911,
+      "sha256": "4b46fc29760978460d668a7203650734623b78f6fa6cc220a4dcc7427b2cb7a7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-01.png",
+      "bytes": 389993,
+      "sha256": "924b750be34f89a21728ef49d3b4ceaabe63ac2c269d952b16587d2490e43cfb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-02.png",
+      "bytes": 390828,
+      "sha256": "50656f7628a2f9214b3a789d7ec128433b4bdbfc0ddb9edfc37d820c5ecdc1c5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-03.png",
+      "bytes": 388661,
+      "sha256": "b9a7ced90b310607645d2c72124a7e9b69a96c27b43c9b848f48cb4bf6df0a48"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-04.png",
+      "bytes": 388615,
+      "sha256": "042bbbeff8144c37b5b3b79e66ffa0ee125b82df3c2648d575ab22408ad080bd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-05.png",
+      "bytes": 388735,
+      "sha256": "776e8a62412cd2f991edb4c7e3d1d1e38eeb52d0f2befd7a4733f98ade5fbdfc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-06.png",
+      "bytes": 389002,
+      "sha256": "2b09504f9e72a5ded1f7fdcbd9175d673398fb733e6328526ab1ab8c410c7f22"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-07.png",
+      "bytes": 399639,
+      "sha256": "5a4bfaf4381852c5bcd438716b68f1181ab2d8480607ac108ace6b05b05b857c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-08.png",
+      "bytes": 399220,
+      "sha256": "e9da99a68f479aa82c5a0965b19c09094c370ff84989a17b9d780244940c092a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-09.png",
+      "bytes": 294502,
+      "sha256": "df1a889362be0029b751b3305432487560e15de1dfa244dc91ef207d9920c2c3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-10.png",
+      "bytes": 294891,
+      "sha256": "5bc3f13b8125ff64b662f426056d9edbf8d432239e21f20dfb3c8581499434f3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/focus-11.png",
+      "bytes": 294526,
+      "sha256": "38b7e6c88fa11677453f521cabe789de8bb18d6bfdd9de01fc8d7326b03a34d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-lesson/traversal.json",
+      "bytes": 1378,
+      "sha256": "04a7791e7cd9eb286c27deccce231c3ff7816bf590bd78f80aa16495c13fe645"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/accessibility-service.txt",
+      "bytes": 1038,
+      "sha256": "606730af73a213a7c5c48e8540052c5972cd7ed7ff9b9fc2580266e36aae8bbc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/focus-00.png",
+      "bytes": 188834,
+      "sha256": "6e0ad9e925ac57e25305427b0f64994dfce2bc6a80a77f82a9faa404483aafc6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/focus-01.png",
+      "bytes": 189846,
+      "sha256": "6c61ba27dbb255a85c6d8293832fbff7040050eaac5bba56208f8bc95216e946"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/focus-02.png",
+      "bytes": 190483,
+      "sha256": "d974729af977ea1afd772b5fd92e36f3f881e936383b055ed903c51d4e1b4a7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/focus-03.png",
+      "bytes": 190427,
+      "sha256": "aac362091959a34b39ce95f45f39f0b01db140154b62866c78a5c4293b7bd45f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/focus-04.png",
+      "bytes": 189268,
+      "sha256": "ada6f0e01564dd29cb3ed5552c5130639317a2b693c0612ea49a04c7132dcf69"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android/talkback-library/traversal.json",
+      "bytes": 570,
+      "sha256": "a413260705e5cc8e3d2a83cc872efbdf0e432f960ac33f6f8cb2cf27054e4b1b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/answer-revealed-tree.txt",
+      "bytes": 4810,
+      "sha256": "2ff9a0a1c9425495b0a150d7f74bd885452c21549296a932e5010e3b6b06a9f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/answer-revealed.png",
+      "bytes": 241980,
+      "sha256": "bc8f28ab8941aef8ea274fa53f9662bdcc9c44d9250e87a5a3f8af9dbd3d05e1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/candidate-neutral-modal-tree.txt",
+      "bytes": 3262,
+      "sha256": "d290af4e3e5ada42794e80eb9e832cff8e47eade3e552077658193db1f7768b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/candidate-neutral-modal.png",
+      "bytes": 270887,
+      "sha256": "902ec430214fd2e77de1e1fc15740f759d1f419cec994c3eca18b985c1d55046"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/candidate-pending-return-tree.txt",
+      "bytes": 5336,
+      "sha256": "0df687f2e98db8a6e4612e7bcece84f7ed181597a800c16468c07341edbf0579"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/candidate-pending-return.png",
+      "bytes": 187067,
+      "sha256": "57cab0dd392faecbcb6e122ad8f42bf49c43bbf3786cbb69f97ce43c6800bec4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/chooser-reading-tree.txt",
+      "bytes": 5098,
+      "sha256": "67af3ff399a7cff6eed38243ff69f712d7d7595face8504cbded6eceec50be62"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/chooser-reading.png",
+      "bytes": 347343,
+      "sha256": "48a2cf135e845648b32afe4b06f618519d7e5783d82f9912c1643e1508bc0dd4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/legacy-chooser-tree.txt",
+      "bytes": 2454,
+      "sha256": "c2a7c5349f9c5fa34bf9be6c4705d906a2442cafaaf0a4d64dd712d60878cb8d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/legacy-chooser.png",
+      "bytes": 141022,
+      "sha256": "4c2956886dbd3d6e521e9dcc8e1595ccc621f974ff186b30f5591f707a32b8d5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/library-query-return-tree.txt",
+      "bytes": 8389,
+      "sha256": "05ba7d47924121cb50a13847266239c08aaf76206bee50a29abf869269d401e9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/library-query-return.png",
+      "bytes": 206887,
+      "sha256": "7c52ce108516393f222d8e1cdd47ad022c0f27c4669fbc2fc10d62cf5b343595"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reader-opening-tree.txt",
+      "bytes": 4277,
+      "sha256": "4df0498117c9b51519fa1edd5202d972fecf08e2db45d4c7b991302f235f409f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reader-opening.png",
+      "bytes": 442697,
+      "sha256": "4bd800d56be7d274b0710d660660ec11a36c6c7bd4d0e385f58beda31c55127a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reading-next-tree.txt",
+      "bytes": 2983,
+      "sha256": "1eee4325063ccd44bb63167fc18ada2d581f6004ef0f539eaa54039522f5852f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reading-next.png",
+      "bytes": 322155,
+      "sha256": "c889b43e0fccb20477770ed576881095ab722057e638be23d687399c8d6ed696"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reference-catalogue-return-tree.txt",
+      "bytes": 6026,
+      "sha256": "85f5710c8ba4a4911903ba57933b8399f95921ca8c4783bee7a36496f582e904"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reference-catalogue-return.png",
+      "bytes": 265414,
+      "sha256": "566b76c7676daeb4f046306e72ee58d8489ada02e6a106e4263d7463e1d29d3c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reference-modal-tree.txt",
+      "bytes": 3187,
+      "sha256": "22db7d59ca38cfd05da32c37a7d0802e75bd5201eb974d069560f127000fe8e2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/reference-modal.png",
+      "bytes": 152917,
+      "sha256": "c2b1e5341b0f715093246ff5e4fa22fb8b4404fb980f0d41fde179deb93dbb49"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/source-detail-tree.txt",
+      "bytes": 4314,
+      "sha256": "1fcd6033329eca49dff0f8c4649c85b90d62b9e7b01ac69536821674684b14f9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/source-detail.png",
+      "bytes": 320772,
+      "sha256": "3c364e20e07c7e6ba0ab94923deea9b08213988f93155bd8573892e1724a8891"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/source-return-tree.txt",
+      "bytes": 5066,
+      "sha256": "d5fc728c82603793b1ae520bc2ed4155ca013146f8d81c42f33b70d85777fd18"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/source-return.png",
+      "bytes": 204045,
+      "sha256": "b17eacf696d9e01a2d93878c176b734cb00ebddd333fd33636e36e6ce110d1c2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/unavailable-tree.txt",
+      "bytes": 1740,
+      "sha256": "a04f6124199c1568afbb5873713b0ac6631ec2617eafd4c30179b856c4fa9e03"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/ios/unavailable.png",
+      "bytes": 91935,
+      "sha256": "e55b71ecac4bcaf2679dec2f633abea4db709fd5eca0b1afc394be224c935d19"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "bytes": 479,
+      "sha256": "e572464c7f79ff90fc495ca6dd3288696aa4286f013d3e331da2067b92114d79"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.AssessmentTest.xml",
+      "bytes": 1401,
+      "sha256": "0c4a8f54b845e4d7878a949ad7cdb65c97f309bccd0970ba8999ec3becd5b5d5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.CandidateDelivery9JTest.xml",
+      "bytes": 506,
+      "sha256": "adebdac30cd8df6166a84fca7b4911c36f21b322c470407b0b0eaf69660f01d2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.CurriculumContractTest.xml",
+      "bytes": 1029,
+      "sha256": "e1774e89b7e8000507c3f356607169c5beaae815f6958731b67b0e902ca29c40"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "bytes": 624,
+      "sha256": "c0474bb2b611eedc433dde98bd486978452b7d687fb12ac32a7fa43e8b5c4d67"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.FuelCorrectionsTest.xml",
+      "bytes": 602,
+      "sha256": "dcafafc70eac3f4e67df3924e47cca1d4d231c37faf22bda2a1876ae6fcf2080"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.ImageViewportTest.xml",
+      "bytes": 820,
+      "sha256": "a3d6dc1e57697a31e265de72163f057430a87fff8866156758fec8e1f9e1e48e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.LearningReaderParityTest.xml",
+      "bytes": 476,
+      "sha256": "35b41fb4fd63f0795f07e258b4a2c73992d5b69e4b6d1d60ea93ee22046499f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "bytes": 2259,
+      "sha256": "74c2573911c1165bf348b9fe4b895cf90d75ccbe19f56f469e95d75b78efaf46"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.LearningViewsTest.xml",
+      "bytes": 886,
+      "sha256": "e3251b5cd6c7a810742fefc4e7b3139e56003019548b12f163b7d98615d43f92"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.LoadClarificationsTest.xml",
+      "bytes": 472,
+      "sha256": "b716af17f59bd8e786b2f9669f3b9f8b5eef5d34e97d8f02ad1eb08375109aa2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.NavigationTest.xml",
+      "bytes": 1821,
+      "sha256": "c2dbd493afd28ceb05168e16af806c404587747aee85d82e1fc4bf8736091bb9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.QuestionPackage9JTest.xml",
+      "bytes": 940,
+      "sha256": "dad7f5be493767e93b22d37af56fa3f7b939b1c18d522d951b3f28756ac564d7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.QuizTest.xml",
+      "bytes": 890,
+      "sha256": "ebf32ecfca5527931d86b32bc5c4b3495cf433a8f768c1f95d727d3ddf20e27d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "bytes": 805,
+      "sha256": "c591dceefe27b782ec0fdbe8d3feeb1bba300a280d446c6b64081f9300b9a74e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.ScenarioCorrectionsTest.xml",
+      "bytes": 482,
+      "sha256": "2455b92207f4e2e841b44294dfe3c64e95e97d1849cceb09d662d76a5d061cd7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "bytes": 894,
+      "sha256": "e9dc3048267cd6a6d4764f7717f98b6e9159aa5fe58676d5aa038ca28569e80f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.TransientPractice9MTest.xml",
+      "bytes": 669,
+      "sha256": "51c3e7d5da2040e2b2528ab9058e8808cc1da004566acff24c50f71a4dcce061"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/TEST-se.korkort.TransientQuizStateTest.xml",
+      "bytes": 1386,
+      "sha256": "7514ecf965d7ee404cd49e007aa6893eaf22b54e1296e212d3162db6583f9008"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/android-tests.txt",
+      "bytes": 3290,
+      "sha256": "300dd9f9b09fa4b809d1362015d616fb58b0fb8ad5c670368dd3e4fea4ec4b5f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/ios-tests.txt",
+      "bytes": 45269,
+      "sha256": "b52975f95fb19d6aa1aa0063184162b56634ec250f78c8e83fe582ef7ace2c45"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/python-tests.txt",
+      "bytes": 245,
+      "sha256": "1d08c8e0a5259b8fdff2fafeac20709eb3b32a45f3cc965a2e4ae8eda9386d85"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/shared-build.txt",
+      "bytes": 5871,
+      "sha256": "ee0e48819b05b4ec199b5b20bf5c9c164af8bbcc36bf8ce5f8141f6e8a824f48"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/talkback-candidate.txt",
+      "bytes": 617,
+      "sha256": "a08cc548a4fb4406e46a6d9636418190fe05b2ee919089a20038b298b013b223"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/talkback-lesson.txt",
+      "bytes": 545,
+      "sha256": "4ea38a34bb965c367da76a52dce05f9eac0f4de17032ed4a5ca34a6a94c402cc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/tests/talkback-library.txt",
+      "bytes": 297,
+      "sha256": "f8d95fef74d692027c7eae7e024276af2e73c95262295fcde2f1735728712014"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+Optional(Attributes: Application, 0x117db8dc0, pid: 21479, label: 'Körkort'
+Element subtree:
+ →Application, 0x117db8dc0, pid: 21479, label: 'Körkort'
+    Window (Main), 0x117db8f00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117db8b40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117db8c80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117db97c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117db9900, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117db9540, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117db9680, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117db92c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117db9400, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117db9040, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117db9180, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117dbb200, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x117dbb340, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x117dbb480, {{0.0, 62.0}, {402.0, 778.0}}
+                        Button, 0x117dbb5c0, {{24.0, 86.0}, {121.3, 48.0}}, label: 'Learning library'
+                          StaticText, 0x117dbb700, {{36.0, 100.0}, {97.3, 20.0}}, label: 'Learning library'
+                        StaticText, 0x117dbb840, {{24.0, 146.0}, {214.7, 24.0}}, label: '1. Choose to drive responsibly'
+                        Other, 0x117dbb980, {{24.0, 182.0}, {337.0, 40.0}}, label: 'Your route into driving'
+                        StaticText, 0x117dbbac0, {{24.0, 238.0}, {354.0, 72.0}}, label: 'Your goal: Build a personal preparation checklist covering entitlement, permits, supervised practice, risk training and examinations.'
+                        Other, 0x117dbbc00, {{24.0, 238.0}, {354.0, 72.0}}
+                        StaticText, 0x117dbbd40, {{24.0, 326.0}, {354.0, 336.0}}, label: 'Requirements. For an ordinary new category B licence, you need a valid learner permit, permanent residence in Sweden or at least six months of study here, the minimum age of 18, valid car risk training, and successful theory and practical tests. Holding another EEA licence affects the application route. Category B normally covers a passenger car or light goods vehicle with a registered maximum weight of no more than 3,500 kg; trailers are explained in module 8. Check any conditions on your entitlement, including an automatic-transmission restriction. Transportstyrelsen: category B'
+                        Other, 0x117dbbe80, {{24.0, 326.0}, {354.0, 336.0}}
+                        StaticText, 0x106a2f700, {{24.0, 678.0}, {354.0, 162.0}}, label: 'Private practice requires an approved supervisor for the particular learner. The learner normally needs a group 1 permit. Practice in a passenger car can begin at 16; the minimum is 17 years and 6 months for practice with a light goods vehicle or a light trailer. The supervisor is legally treated as the driver, must carry proof of approval, and the practice sign must be clearly visible from behind. Exceptions concerning an existing entitlement must be checked against your own circumstances. Transportstyrelsen: category B'
+                        Other, 0x106a2fac0, {{24.0, 678.0}, {354.0, 162.0}}
+                        Button, 0x106a2fd40, {{24.0, 614.0}, {320.0, 48.0}}
+                        Button, 0x106a2fe80, {{134.3, 918.0}, {217.7, 24.0}}
+                        Button, 0x106a2fc00, {{189.0, 1198.0}, {177.0, 24.0}}
+                        Button, 0x106a2f840, {{24.0, 1222.0}, {89.3, 24.0}}
+                        Button, 0x10aa93840, {{125.3, 1222.0}, {176.3, 24.0}}
+                        Button, 0x10aa93ac0, {{24.0, 1246.0}, {141.3, 24.0}}
+                        Other, 0x10aa92f80, {{24.0, 1286.0}, {201.3, 32.0}}, label: 'Apply the learning'
+                        Button, 0x10aa935c0, {{24.0, 1526.0}, {228.0, 24.0}}
+    Window, 0x10aa93340, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10aa93480, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10aa930c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117db8dc0, pid: 21479, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x10aa93200, pid: 21479, label: 'Körkort'
+  }
+)

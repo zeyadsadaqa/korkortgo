@@ -1,0 +1,49 @@
+Optional(Attributes: Application, 0x10aa92940, pid: 21595, label: 'Körkort'
+Element subtree:
+ →Application, 0x10aa92940, pid: 21595, label: 'Körkort'
+    Window (Main), 0x10aa90140, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10aa926c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10aa908c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10aa91cc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10aa90a00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10aa93980, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10aa91f40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10aa90500, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10aa92d00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10aa93480, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10aa91180, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10aa90c80, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x10aa93e80, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x10aa91b80, {{0.0, 62.0}, {402.0, 778.0}}
+                        Button, 0x10aa90280, {{24.0, 86.0}, {121.3, 48.0}}, label: 'Learning library'
+                          StaticText, 0x10aa91400, {{36.0, 100.0}, {97.3, 20.0}}, label: 'Learning library'
+                        StaticText, 0x10aa92440, {{24.0, 146.0}, {214.3, 24.0}}, label: '3. Read the road before acting'
+                        Other, 0x10aa92300, {{24.0, 182.0}, {354.0, 80.0}}, label: 'Combine the instructions'
+                        StaticText, 0x10aa91900, {{24.0, 278.0}, {354.0, 48.0}}, label: 'Your goal: Interpret signs, panels, markings and signals together, including authorised directions.'
+                        Other, 0x10aa92080, {{24.0, 278.0}, {354.0, 48.0}}
+                        StaticText, 0x10aa90dc0, {{24.0, 342.0}, {354.0, 264.0}}, label: 'Requirements. Follow the traffic instructions that apply to you. Where an instruction differs from a general traffic rule, the instruction governs. A steady traffic-light indication takes precedence over a yield or stop sign; a police officer's direction takes precedence over the rules and ordinary traffic instructions. This is not a rule that a green signal cancels every other restriction. Authorised guards also give traffic directions that must be followed. Traffic Regulation, chapter 2 §§2–4'
+                        Other, 0x10aa921c0, {{24.0, 342.0}, {354.0, 264.0}}
+                        StaticText, 0x10aa91040, {{24.0, 622.0}, {354.0, 72.0}}, label: 'Authorised directions Separate examples. A static picture does not show the complete movement; read the description and the official instruction.'
+                        Other, 0x10aa93840, {{24.0, 622.0}, {354.0, 72.0}}
+                        Image, 0x10aa93200, {{24.0, 710.0}, {354.0, 130.0}}, label: 'Police stop instruction — front and rear. Officer faces the viewer with one arm extended sideways.'
+                        Button, 0x10aa92f80, {{24.0, 558.0}, {288.7, 48.0}}
+                        Button, 0x10aa93ac0, {{24.0, 890.0}, {354.0, 56.0}}, label: 'Enlarge Police stop instruction — front and rear image'
+                        StaticText, 0x10aa935c0, {{24.0, 946.0}, {354.0, 144.0}}, label: 'Traffic approaching the officer from the front or rear must stop; traffic approaching from the sides may proceed. The officer's continuing orientation matters even after the arm movement. Officer faces the viewer with one arm extended sideways.'
+                        StaticText, 0x10aa930c0, {{24.0, 1106.0}, {155.3, 24.0}}, label: 'Continue the learning'
+                        Image, 0x10aa91680, {{24.0, 1146.0}, {354.0, 180.0}}, label: 'Police stop instruction — palm facing you. Officer raises a palm towards approaching traffic.'
+                        Button, 0x10aa92e40, {{24.0, 1326.0}, {354.0, 56.0}}, label: 'Enlarge Police stop instruction — palm facing you image'
+                        StaticText, 0x10aa917c0, {{24.0, 1382.0}, {354.0, 72.0}}, label: 'Stop if the officer's palm faces you. A stop paddle may be used instead. Officer raises a palm towards approaching traffic.'
+                        Image, 0x10aa90000, {{24.0, 1470.0}, {354.0, 180.0}}, label: 'Traffic guard — stop. Guard faces approaching traffic and holds a red flag sideways.'
+                        Button, 0x10aa93c00, {{24.0, 1654.0}, {258.7, 40.0}}, label: 'Enlarge Traffic guard — stop image'
+                        StaticText, 0x10aa93d40, {{24.0, 1698.0}, {354.0, 96.0}}, label: 'Stop if the guard faces you. A red lamp is used in darkness; an authorised stop sign marked Vakt may also be used. Guard faces approaching traffic and holds a red flag sideways.'
+    Window, 0x10aa92580, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a2fc00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a2fd40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10aa92940, pid: 21595, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x106a2fac0, pid: 21595, label: 'Körkort'
+  }
+)
