@@ -743,3 +743,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **17 October — requested 9J finalization / 9M3 rerun:** Reran deterministic assembly/readiness/sign checks, direct structural and release validation, 41 focused desktop tests and three report-generator tests. Structural/parity/state checks pass; release validation rejects the unchanged 384-accepted/616-held manifest. The fresh 22-contract 9M3 result is bound to that exact manifest (18 current passes, four future-store conditional cases). Accepted-release finalization remains blocked by unresolved per-ID delivery acceptance, including the twelve faint assets and unapplied replacements. [Fresh results and remaining prerequisites](app-migration/implementation-evidence/9J-finalization/README.md).
+
+
+**17 October — faint-asset presentation preview:** Prepared an imagegen layout proposal with larger equally sized image-choice areas, unchanged white-backed official artwork in both themes and accessible viewer controls. Verified all twelve original/bundled asset identities and recorded the 24 affected question/slot bindings. **Awaiting explicit preview approval before implementation.** No artwork, question, eligibility or release decision changed; layout approval alone will not establish actual-size legibility. [Preview and review](app-design/faint-assets-v1/review.md).
