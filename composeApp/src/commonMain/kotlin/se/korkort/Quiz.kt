@@ -1,7 +1,6 @@
 package se.korkort
 
 import kotlin.jvm.JvmInline
-import kotlin.math.floor
 import kotlin.random.Random
 
 enum class Category(val title: String, val short: String, val quota: Int) {
@@ -25,9 +24,9 @@ object QuizEngine {
     fun allocation(size: Int): Allocation {
         require(size in 1..70)
         val weights = Category.entries.map { it.quota } + 5
-        val raw = weights.map { size * it / 70.0 }
-        val counts = raw.map { floor(it).toInt() }.toMutableList()
-        val order = raw.indices.sortedWith(compareByDescending<Int> { raw[it] - counts[it] }.thenBy { it })
+        val counts = weights.map { size * it / 70 }.toMutableList()
+        // Integer remainders preserve exact ties; enum order is the specified tie-break.
+        val order = weights.indices.sortedWith(compareByDescending<Int> { size * weights[it] % 70 }.thenBy { it })
         repeat(size - counts.sum()) { counts[order[it]]++ }
         return Allocation(Category.entries.associateWith { counts[it.ordinal] }, counts.last())
     }
