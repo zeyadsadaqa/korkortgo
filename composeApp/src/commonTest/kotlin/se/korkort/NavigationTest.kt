@@ -91,4 +91,65 @@ class NavigationTest {
         assertEquals(NavigationDecision.ConfirmDiscard,sourceDecision)
     }
 
+    @Test fun missingCurrentSessionsRecoverWithoutInventingResults() {
+        val missingStates=listOf(AppDestination.Quiz("gone"),AppDestination.Results("gone"),AppDestination.Review("gone"))
+        missingStates.forEach { current ->
+            listOf<SessionNavigation?>(null,SessionNavigation("other",true,true)).forEach { session ->
+                assertIs<NavigationDecision.MissingSession>(QuizNavigationGuard.decide(current,AppDestination.Library,session))
+                assertEquals(NavigationDecision.Allow,QuizNavigationGuard.decide(current,AppDestination.QuizSetup,session))
+            }
+        }
+    }
+    @Test fun movedTargetsAreNormalisedBeforeNavigationOrPendingConfirmation() {
+        val entry=canonicalEntries.first {it.blocks.isNotEmpty()}
+        val target=NavigationRequest(AppDestination.Content(ContentTarget(entry.id,BlockId("removed-block"))))
+        val (idle,decision)=GuardedNavigation(AppDestination.Library,null).request(target,resolver)
+        assertEquals(NavigationDecision.Allow,decision)
+        assertEquals(AppDestination.Content(ContentTarget(entry.id)),idle.current)
+        assertNotNull(idle.notice)
+        val start=GuardedNavigation(AppDestination.Quiz("live"),SessionNavigation("live",false,true))
+        val (pending,_)=start.request(target,resolver)
+        assertEquals(AppDestination.Content(ContentTarget(entry.id)),pending.pending!!.destination)
+        assertEquals(start,pending.cancel())
+        assertEquals(AppDestination.Content(ContentTarget(entry.id)),pending.discard().current)
+        assertNotNull(pending.discard().notice)
+    }
+    @Test fun sessionReplacementInvalidatesPendingDiscardRatherThanDiscardingNewAnswers() {
+        val start=GuardedNavigation(AppDestination.Quiz("live"),SessionNavigation("live",false,true))
+        val (pending,_)=start.request(NavigationRequest(AppDestination.Library),resolver)
+        val replacement=SessionNavigation("new",false,false)
+        assertNull(pending.withSession(replacement).pending)
+        assertFailsWith<IllegalArgumentException> { pending.copy(session=replacement).discard() }
+        assertFailsWith<IllegalArgumentException> { pending.withSession(replacement).discard() }
+    }
+    @Test fun returnChoicesAndUnknownOriginsNeverInventPositionOrFocus() {
+        val origin=navigationAliases.aliases.first().origin
+        val tomb=ContentTombstone(ContentId("retired"),canonicalEntries.take(2).map {it.id},"Reviewed",ReviewEvidence(origin,null))
+        val retired=CanonicalResolver(canonicalEntries,canonicalAnchors,LegacyAliasPayload(1,emptyList(),listOf(tomb)))
+        val restored=retired.restore(ReturnContext(ContentTarget(tomb.retiredId),ReadingPosition(BlockId("old/block"),7),"old-focus"),setOf("old-focus"))
+        assertIs<Resolution.Choices>(restored.resolution)
+        assertNull(restored.position);assertNull(restored.focusId)
+        assertFailsWith<IllegalArgumentException> { ReadingPosition(BlockId("block"),-1) }
+        val anchor=canonicalAnchors.entries.first()
+        val conflicting=resolver.canonical(ContentTarget(anchor.key,BlockId("unrelated")))
+        assertIs<Resolution.Unavailable>(conflicting)
+    }
+
+    @Test fun exactSourceReferenceSurvivesConfirmationAndInvalidSourceCannotLeaveQuiz() {
+        val source=navigationSources.references.first().id
+        val current=AppDestination.Quiz("live")
+        val start=GuardedNavigation(current,SessionNavigation("live",false,true))
+        val request=NavigationRequest(current,NavigationIntent.SOURCE,sourceReferenceId=source)
+        val (pending,decision)=start.request(request,resolver)
+        assertEquals(NavigationDecision.ConfirmDiscard,decision)
+        assertEquals(request,pending.pending);assertNull(pending.sourceToOpen)
+        assertEquals(start,pending.cancel())
+        assertEquals(source,pending.discard().sourceToOpen)
+        assertEquals(AppDestination.QuizSetup,pending.discard().current)
+        assertNull(pending.discard().session)
+        val (unchanged,invalid)=start.request(request.copy(sourceReferenceId=SourceReferenceId("REF-unknown")),resolver)
+        assertEquals(start,unchanged);assertIs<NavigationDecision.Denied>(invalid)
+        assertIs<NavigationDecision.Denied>(start.request(request.copy(intent=NavigationIntent.GENERAL),resolver).second)
+    }
+
 }

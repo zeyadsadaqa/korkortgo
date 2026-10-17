@@ -100,6 +100,14 @@ sealed interface NavigationDecision {
 }
 object QuizNavigationGuard {
     fun decide(current: AppDestination, target: AppDestination, session: SessionNavigation?, intent: NavigationIntent = NavigationIntent.GENERAL): NavigationDecision {
+        val currentSessionId = when (current) {
+            is AppDestination.Quiz -> current.sessionId
+            is AppDestination.Results -> current.sessionId
+            is AppDestination.Review -> current.sessionId
+            else -> null
+        }
+        if (currentSessionId != null && (session == null || currentSessionId != session.id) && target != AppDestination.QuizSetup)
+            return NavigationDecision.MissingSession()
         val requested = when (target) {
             is AppDestination.Quiz -> target.sessionId
             is AppDestination.Results -> target.sessionId
@@ -137,26 +145,42 @@ fun CanonicalResolver.restore(context: ReturnContext, validFocusIds: Set<String>
 }
 
 /** Full pending requests survive the discard prompt; cancellation changes no session or reading state. */
-data class NavigationRequest(val destination: AppDestination, val intent: NavigationIntent = NavigationIntent.GENERAL, val returnContext: ReturnContext? = null)
+data class NavigationRequest(val destination: AppDestination, val intent: NavigationIntent = NavigationIntent.GENERAL, val returnContext: ReturnContext? = null, val sourceReferenceId: SourceReferenceId? = null)
 data class GuardedNavigation(
     val current: AppDestination,
     val session: SessionNavigation?,
     val pending: NavigationRequest? = null,
     val returnContext: ReturnContext? = null,
+    val notice: String? = null,
+    val pendingSession: SessionNavigation? = null,
+    val pendingNotice: String? = null,
+    val sourceToOpen: SourceReferenceId? = null,
 ) {
-    fun request(request: NavigationRequest, resolver: CanonicalResolver): Pair<GuardedNavigation, NavigationDecision> {
-        if(request.destination is AppDestination.Content && resolver.canonical(request.destination.target) !is Resolution.Found)
-            return this to NavigationDecision.Denied("This content is unavailable.")
-        val decision=QuizNavigationGuard.decide(current,request.destination,session,request.intent)
+    fun request(request: NavigationRequest, resolver: CanonicalResolver, sources: List<SourceReference> = navigationSources.references): Pair<GuardedNavigation, NavigationDecision> {
+        if (request.sourceReferenceId != null && (request.intent != NavigationIntent.SOURCE || sources.none { it.id == request.sourceReferenceId }))
+            return this to NavigationDecision.Denied("This source is unavailable.")
+        val resolved = (request.destination as? AppDestination.Content)?.let { resolver.canonical(it.target) }
+        if (resolved != null && resolved !is Resolution.Found)
+            return this to NavigationDecision.Denied("This content is unavailable. Resolve any offered replacement choice before navigating.")
+        val validated = if (resolved is Resolution.Found) request.copy(destination = AppDestination.Content(resolved.target)) else request
+        val decision=QuizNavigationGuard.decide(current,validated.destination,session,validated.intent)
         return when(decision) {
-            NavigationDecision.Allow -> copy(current=request.destination,pending=null,returnContext=request.returnContext) to decision
-            NavigationDecision.ConfirmDiscard -> copy(pending=request) to decision
+            NavigationDecision.Allow -> copy(current=validated.destination,pending=null,pendingSession=null,pendingNotice=null,returnContext=validated.returnContext,notice=(resolved as? Resolution.Found)?.notice,sourceToOpen=validated.sourceReferenceId) to decision
+            NavigationDecision.ConfirmDiscard -> copy(pending=validated,pendingSession=session,pendingNotice=(resolved as? Resolution.Found)?.notice,sourceToOpen=null) to decision
             else -> this to decision
         }
     }
-    fun cancel()=copy(pending=null)
+    fun cancel()=copy(pending=null,pendingSession=null,pendingNotice=null)
+    /** Replacing a pinned session invalidates a decision made against the previous session. */
+    fun withSession(replacement: SessionNavigation?) = copy(session=replacement,pending=null,pendingSession=null,pendingNotice=null,notice=null,sourceToOpen=null)
     fun discard(): GuardedNavigation {
         val request=requireNotNull(pending)
-        return copy(current=request.destination,session=null,pending=null,returnContext=request.returnContext)
+        require(session == pendingSession) { "The session changed while navigation confirmation was open" }
+        val destination = when (request.destination) {
+            is AppDestination.Quiz, is AppDestination.Results, is AppDestination.Review -> AppDestination.QuizSetup
+            else -> request.destination
+        }
+        return copy(current=destination,session=null,pending=null,pendingSession=null,pendingNotice=null,returnContext=request.returnContext,notice=pendingNotice,sourceToOpen=request.sourceReferenceId)
     }
+
 }
