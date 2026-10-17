@@ -6,3 +6,6 @@ docs/curriculum/question-book-review/original-book-498-pages.pdf filter=lfs diff
 output/pdf/korkortgo-curriculum-review.pdf filter=lfs diff=lfs merge=lfs -text
 output/pdf/korkortgo-curriculum-tagged.pdf filter=lfs diff=lfs merge=lfs -text
 output/pdf/korkortgo-curriculum.pdf filter=lfs diff=lfs merge=lfs -text
+
+# Preserve upstream font licence bytes and their recorded SHA-256 identities.
+composeApp/src/commonMain/composeResources/files/font-licenses/*.md -text

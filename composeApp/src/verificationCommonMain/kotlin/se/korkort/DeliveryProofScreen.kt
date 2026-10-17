@@ -20,6 +20,12 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
     var mode by remember {mutableStateOf(initialMode)}
     var selected by remember(code,mode) {mutableStateOf(false)}
     val uri=LocalUriHandler.current
+    if(initialMode=="learning") {
+        Box(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
+            LearningRoute {reference->runCatching{uri.openUri(reference.url)}.isSuccess}
+        }
+        return
+    }
     val density=LocalDensity.current
     @Composable fun content() {
         Surface(Modifier.fillMaxSize()) {
