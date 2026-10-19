@@ -1909,11 +1909,13 @@ Exercise the 22 recorded contracts against the accepted package, including guard
 
 ### 9N. Prepare the three assessment-coverage briefs
 
-**Next stage — 19 October 2026:** Prior 9J/9K/9L/9M closure is recorded above. 9N1–9N3 remain unstarted; each produces a brief, not new scored IDs.
+**Next stage — 19 October 2026:** Prior 9J/9K/9L/9M closure is recorded above. 9N1 is complete; 9N2–9N3 remain unstarted. Each produces a brief, not new scored IDs.
 
 Each task writes one reviewable brief only. State the objective, sources, proposed format, plausible mistakes and acceptance rubric. Additional scored IDs require a separate content decision; retain all teaching and the baseline bank.
 
 #### 9N1. Write the M01-L01 assessment brief
+
+**Status — 19 October 2026: Complete.** The [M01-L01 assessment brief](app-migration/assessment-coverage-briefs.md#m01-l01--your-route-into-driving--9n1) records the zero-primary/zero-related gap, lesson objective, current official requirement checks, proposed checklist format, plausible mistakes and six checkable rubric criteria. The brief adds no scored item or baseline ID; the accepted bank and teaching remain unchanged.
 
 Prepare only the brief for preparation, entitlement and training checklist; recheck current official requirements.
 
