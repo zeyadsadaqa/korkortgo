@@ -2027,6 +2027,8 @@ Check the configured iosArm64 framework and physical-device runtime: package res
 
 #### 9O7. Check the web candidate
 
+**Status — 20 October 2026: Complete for the available browser/static web scope.** [Web evidence](app-migration/implementation-evidence/9O7/README.md) binds the unchanged 9O2 manifest: normal production distribution, all 484 artwork bindings/fonts/licences and representative real-bank deferred quiz/review plus library/reader/source/reference/recovery checks pass. Stable modal trees exclude background content; keyboard dismissal, neutral zoom, retained query/review/count and fresh defaults are recorded. A stale browser origin was excluded; fresh-origin evidence and cache guidance are explicit. Static hosting is required; no service-worker/cold-offline, cross-engine, screen-reader-listening or external-site availability claim. Temporary tab/servers closed; no production changes.
+
 Check the configured wasmJs build/resources and browser runtime: package resources, offline teaching/assets and representative library/reader/quiz/source/reference/recovery paths.
 
 **Input:** 9O2 candidate, configured toolchain and target runtime.
