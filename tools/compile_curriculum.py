@@ -28,6 +28,18 @@ def fail(where, message):
     raise ContentError(f'{where}: {message}')
 
 
+def delivery_platforms(policy=None):
+    """Keep the original five-target default; bind the user's explicit simulator scope."""
+    if policy is None:
+        return {'android','desktop','ios_device','ios_simulator','wasm_js'}
+    expected = {'schema_version': 1, 'ios_scope': 'simulator',
+                'authorization': 'User selected iOS simulator instead of physical iPhone on 16 October 2026.',
+                'required_platforms': ['android','desktop','ios_simulator','wasm_js']}
+    if policy != expected:
+        fail('delivery targets', 'unknown or incomplete authorized target policy')
+    return set(policy['required_platforms'])
+
+
 def canonical(value):
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(',', ':'), allow_nan=False).encode('utf-8')
 
@@ -479,6 +491,8 @@ class Validator:
             if active and all_images and not accept['description_reviews']:fail(id,'missing description acceptance evidence')
             if active and any(assets[i['asset_id']]['code_or_illustration_id'] in held_codes for i in all_images) and not accept['delivery_proof']:
                 fail(id,'faint-image use requires exact delivery proof')
+        policy_path = 'content/delivery-targets.json'
+        required_delivery_platforms = delivery_platforms(read_json(self.root/policy_path) if policy_path in inp else None)
         def delivery_record(proof):
             loc=proof['record']
             if not loc['locator'].startswith('json:'):return None
@@ -490,7 +504,7 @@ class Validator:
                 asset=assets[image['asset_id']]
                 if asset['code_or_illustration_id'] not in held_codes:continue
                 records=[delivery_record(p) for p in row['acceptance']['delivery_proof']]
-                good=[r for r in records if isinstance(r,dict) and r.get('status')=='passed' and r.get('asset_sha256')==asset['bundled']['sha256'] and set(r.get('platforms',[]))=={'android','desktop','ios_device','ios_simulator','wasm_js'}]
+                good=[r for r in records if isinstance(r,dict) and r.get('status')=='passed' and r.get('asset_sha256')==asset['bundled']['sha256'] and set(r.get('platforms',[]))==required_delivery_platforms]
                 if not good:fail(id,'delivery proof must bind the exact asset hash and every configured target')
         lookups=set()
         for alias in aliases['aliases']:

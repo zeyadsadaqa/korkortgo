@@ -5,5 +5,5 @@ internal val questionRelationships9J: Map<String, QuestionRelationship> by lazy 
 internal val Question.canonicalRelationship: QuestionRelationship get() = questionRelationships9J.getValue(id)
 private val additionalQuestions9J: Map<String, AssessmentQuestion> by lazy { package9JNode010047() + package9JNode010048() + package9JNode010049() + package9JNode010050() + package9JNode010051() + package9JNode010052() + package9JNode010053() + package9JNode010054() + package9JNode010055() + package9JNode010056() + package9JNode010057() + package9JNode010058() + package9JNode010059() + package9JNode010060() + package9JNode010061() + package9JNode010062() + package9JNode010063() + package9JNode010064() + package9JNode010065() }
 internal val candidateQuestions9J: List<AssessmentQuestion> by lazy { questionBank.map { row -> (row.assessment ?: additionalQuestions9J.getValue(row.id)).copy(relationship = questionRelationships9J.getValue(row.id)) } }
-internal val candidateIdentity9J = ContentPackageIdentity("screen-2026-10-14-78a89d8ffbb8-candidate-9j", Sha256("3b2c75af239cdfebe00a25139b49e74c789a409bc96dfd4d1ecb17e034b378f6"))
+internal val candidateIdentity9J = ContentPackageIdentity("screen-2026-10-14-78a89d8ffbb8-candidate-9j", Sha256("c7893870a63a3ab9071849f38b07d7995624b813e5ac4a00c6f5c1ebba1a125a"))
 internal const val candidateReleaseAccepted9J: Boolean = false

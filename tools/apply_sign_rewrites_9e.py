@@ -106,7 +106,9 @@ def build(batch):
 def split_kotlin(kotlin):
     """Keep the legacy facade small enough for JVM constant-pool limits."""
     parts=re.split(r'\n// 9E(\d+): generated typed assessment metadata; delivery-held questions are excluded from scoring.\n',kotlin)
-    outputs={Path('composeApp/src/commonMain/kotlin/se/korkort/Bank.kt'):parts[0]}
+    # Historical receipt text stays intact; removed learner tables are not re-emitted.
+    facade=parts[0].split('val studyTopics = listOf(',1)[0]
+    outputs={Path('composeApp/src/commonMain/kotlin/se/korkort/Bank.kt'):facade}
     for offset in range(1,len(parts),2):
         batch,body=parts[offset:offset+2]
         path=Path(f'composeApp/src/commonMain/kotlin/se/korkort/SignRewrite9E{batch}.kt')

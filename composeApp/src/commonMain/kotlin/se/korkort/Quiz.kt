@@ -17,7 +17,6 @@ data class Question(val id: String, val concept: String, val category: Category,
         return copy(options = order.map { options[it] }, correct = order.indexOf(correct))
     }
 }
-data class Topic(val title: String, val category: Category, val text: String, val page: Int)
 enum class Feedback { IMMEDIATE, AT_END }
 data class Allocation(val categories: Map<Category, Int>, val random: Int)
 object QuizEngine {

@@ -41,12 +41,12 @@ internal fun lessonSources(document:CurriculumDocument): List<SourceReference> {
     }
 }
 
-@Composable internal fun SourceDetail(id:SourceReferenceId,onBack:()->Unit,onReturn:()->Unit,onExternal:(SourceReference)->Boolean) {
+@Composable internal fun SourceDetail(id:SourceReferenceId,onBack:()->Unit,onReturn:()->Unit,onExternal:(SourceReference)->Boolean,backLabel:String="Back to Sources",returnLabel:String="Return to reading") {
     val source=navigationSources.references.singleOrNull{it.id==id}
     if(source==null){Text("This source is unavailable.");TextButton(onBack){Text("Sources")};return}
     var failed by remember(id){mutableStateOf(false)}
     Column(Modifier.widthIn(max=800.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
-        TextButton(onBack){Text("Back to Sources")}
+        TextButton(onBack){Text(backLabel)}
         Text(source.title,style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
         Text(source.publisher)
         Text(source.classifications.joinToString(" · "){it.name.lowercase().replace('_',' ')})
@@ -60,6 +60,6 @@ internal fun lessonSources(document:CurriculumDocument): List<SourceReference> {
         }
         Button({failed=!onExternal(source)}){Text("Open source")}
         if(failed)Text("The source could not be opened. You can return to Sources or your reading.",Modifier.semantics{liveRegion=LiveRegionMode.Polite})
-        TextButton(onReturn){Text("Return to reading")}
+        TextButton(onReturn){Text(returnLabel)}
     }
 }

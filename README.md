@@ -1,4 +1,4 @@
-# Körkort
+# KörkortGo
 
 An English-language Swedish category B theory app built with Kotlin Multiplatform and Compose Multiplatform. One shared UI, question bank and test engine run on Android, iOS and the web.
 
@@ -8,9 +8,9 @@ An English-language Swedish category B theory app built with Kotlin Multiplatfor
 - Five knowledge areas using the requested category names.
 - Any test length from **1 to 70**.
 - Immediate feedback or answers revealed only after completing the test.
-- Results by category, filtered answer review, related chapters and another-test flow.
-- 37 original study chapters covering the supplied book's chapter structure.
-- 343 official Transportstyrelsen sign, marking and signal illustrations, available offline in the native apps and bundled with the website.
+- Results by category, filtered answer review, related lessons and another-test flow.
+- 10 original modules, 40 lessons, module reviews, appendices and a searchable learning library.
+- 400 official sign, marking and signal reference entries, available offline in the native apps and bundled with the website.
 - Responsive layouts, accessible labels and explicit correct/incorrect states.
 
 ### Selection rules
@@ -50,26 +50,33 @@ The browser uses WebAssembly GC, supported by modern Chrome, Edge, Firefox and S
 ## Content and provenance
 
 - `content/concepts.tsv`: 178 authored situation questions and misconception-specific explanations.
-- `content/questions.json`: the complete reviewable 1,000-question bank.
+- `content/accepted-assessment-questions.json`: the accepted, reviewable 1,000-question production bank.
+- `content/accepted-content-manifest.json`: validated release identity, payload hashes and counts.
+- `content/assessment-questions.json`: retained historical candidate and hold evidence.
+- `content/curriculum.json`: canonical teaching, references, exact artwork and source evidence.
 - `content/signs.json`: official sign URLs, image URLs, retrieval dates and SHA-256 hashes.
 - `content/source-manifest.json`: the official catalogue and rules pages visited.
 - `content/quality-report.json`: counts and content composition.
-- `composeApp/src/commonMain/kotlin/se/korkort/Chapters.kt`: original study summaries.
-- `tools/build_content.py`: deterministic content compiler, including explicit calculation models.
+- `composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt`: integrated canonical learning and practice routes.
+- `tools/finalize_question_package_9j.py`: accepted package assembly and release validation.
+- `tools/build_content.py`: historical question compiler, including explicit calculation models.
 - `tools/scrape_sources.py`: bounded downloader for the public Transportstyrelsen section.
 
 The bank contains **178 situation questions, 616 two-direction sign-recognition questions and 206 calculation scenarios**, representing **500 distinct learning concepts**. It does not present reworded copies as independent learning concepts. The distribution of the stored bank is not the distribution of a test; the engine enforces the requested test allocation.
 
-The supplied *Theory Book 2026*, edition 2026-1 (Körkortonline.se / Hagberg Media AB), is a research source with page references. **No book images, page scans or PDF are bundled in the app.** Every road-sign image in the application was downloaded from Transportstyrelsen. The user's source PDF remains in the workspace only. Still-image signal previews link to their official descriptions; signals requiring motion are excluded from static-image practice questions.
+The original research and migration provenance remains in `docs/curriculum/`; learner routes use the original KörkortGo curriculum and classified supporting sources. Official sign artwork retains its exact source bytes and attribution. Approved editorial illustrations are separately identified. Source dates and scope limits are retained; this integration does not claim a new universal source check.
 
 Calculations are labelled with assumptions. Approximate braking models are educational estimates, not guaranteed stopping distances. Rules and source links should be maintained as the source material changes.
 
-To regenerate Kotlin data after editing the TSV or sign index:
+To verify the current candidate and accepted package without changing acceptance decisions:
 
 ```sh
-python3 tools/build_content.py
+python3 tools/assemble_question_package_9j.py --check
+python3 tools/finalize_question_package_9j.py --check
 ./gradlew :composeApp:desktopTest
 ```
+
+Do not run the historical `build_content.py` over the accepted release. Content changes require renewed parity, delivery and release validation.
 
 To refresh official assets, install `beautifulsoup4`, then run `python3 tools/scrape_sources.py`. The downloader only follows the requested public website section and stores a source manifest; review updated wording before regenerating the bank.
 

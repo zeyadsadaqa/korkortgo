@@ -2,7 +2,7 @@
   "schema_version": 1,
   "identity": {
     "content_version": "screen-2026-10-14-78a89d8ffbb8-candidate-9j",
-    "manifest_sha256": "3b2c75af239cdfebe00a25139b49e74c789a409bc96dfd4d1ecb17e034b378f6"
+    "manifest_sha256": "c7893870a63a3ab9071849f38b07d7995624b813e5ac4a00c6f5c1ebba1a125a"
   },
   "source_curriculum": {
     "content_version": "screen-2026-10-14-78a89d8ffbb8",
@@ -42,7 +42,7 @@
     },
     {
       "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
-      "sha256": "d7a3746cebf54daca5f6ec5d919c3517a5dd454064710d64838e402fa335de0f"
+      "sha256": "933295069487174684e5dbf1c860df6c4abd2ccbe34f08f3cf834fc291441777"
     },
     {
       "path": "tools/assemble_question_package_9j.py",
@@ -50,7 +50,7 @@
     },
     {
       "path": "tools/compile_curriculum.py",
-      "sha256": "39e976d92dbd0206446d797680840391fea1e06efdb7ea656cefc10d6f13832e"
+      "sha256": "f4c635cab9e16f7f71c3be068fa192acf54543a38939df7c5cb2ae8ffd539400"
     },
     {
       "path": "tools/content_schema.py",
