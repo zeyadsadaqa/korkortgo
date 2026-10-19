@@ -764,3 +764,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **19 October — 9N3 completed; 9N briefs closed:** Wrote the M10-L03 whole-journey review/reflection brief from the 9B17 teaching and 7D zero-primary/zero-related gap. Rechecked the relevant traffic provisions; specified explicit scene facts, five journey stages, evidence-based rationale, missed-hazard/safer-alternative analysis and six observable criteria, including process versus outcome and actionable reflection. All three briefs are complete. Bank sampling gaps remain recorded; no scored IDs, teaching, runtime or accepted-package inputs changed. [Brief](app-migration/assessment-coverage-briefs.md#m10-l03--explain-a-whole-journey--9n3).
+
+
+**19 October — 9O1 completed:** Updated README feature/provenance guidance and added accepted-content regeneration/resource packaging documentation. Inventoried the accepted identity, 1,000 accepted questions/500 concepts, 10 modules/40 lessons, 400 reference entries and all 484 artwork bindings/419 resource files. Preserved exact per-asset credits/reuse evidence, source dates/classifications, learning-aid disclaimer and bundled font licences. No runtime or accepted-package changes; subsequent common/platform checks remain separate. [Inventory](app-migration/provenance-inventory.md), [build guide](../development/content.md).

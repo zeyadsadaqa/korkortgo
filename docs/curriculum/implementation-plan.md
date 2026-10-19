@@ -1955,6 +1955,8 @@ Platform tasks validate the same candidate manifest. Record exact commands, tool
 
 #### 9O1. Update documentation and provenance
 
+**Status — 19 October 2026: Complete.** Updated [README](../../README.md), added [accepted-content build/regeneration guidance](../development/content.md) and a [provenance/credit inventory](app-migration/provenance-inventory.md) with a hash-bound machine inventory. Counts match the accepted package; all 484 artwork bindings retain their source/reuse records and bundled font licences. Verification/restoration is separated from changed-content acceptance and historical candidate output. No runtime, accepted payload or source-date change; 9O2 onward remains separate work.
+
 Replace stale README book/chapter/feature claims using the accepted manifest, and document regeneration, resource packaging and retained credits.
 
 **Input:** 9L14, 9J4, 9N1–9N3 and accepted source/reuse records.
