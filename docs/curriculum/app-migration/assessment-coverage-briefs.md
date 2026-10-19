@@ -1,6 +1,6 @@
 # Assessment coverage briefs
 
-These briefs propose future assessment content. They do not add scored items, allocate question IDs, change coverage counts or authorize implementation. The accepted baseline remains 1,000 questions; all existing teaching is retained. 9N2 and 9N3 are not started.
+These briefs propose future assessment content. They do not add scored items, allocate question IDs, change coverage counts or authorize implementation. The accepted baseline remains 1,000 questions; all existing teaching is retained. 9N1 and 9N2 are complete; 9N3 is not started.
 
 ## M01-L01 · Your route into driving — 9N1
 
@@ -61,3 +61,57 @@ For each row below, mark **met / needs revision** and cite the learner's checkli
 ### Output boundary and subsequent decision
 
 9N1 is satisfied by this objective, dated source check, proposed format, mistake analysis and rubric. The bank coverage gap remains recorded until separately approved content is authored and accepted. Any future scored proposal needs explicit approval, new identity/count/coverage decisions and the normal source, scoring, accessibility and delivery checks; unrelated baseline IDs must not be replaced. No runtime, release manifest, generated package, teaching passage or baseline question changes are part of this brief.
+
+## M07-L04 · Change the plan when risk grows — 9N2
+
+**Status:** Brief complete, 19 October 2026; proposed content requires a separate content decision before authoring or integration.
+
+### Input and objective
+
+Use the [M07-L04 objective and teaching](../manuscript.md#m07-l04--change-the-plan-when-risk-grows), C058 in the [evidence register](../manuscript-evidence.md#c058--m07-l04), and the complete [9B17 import](implementation-evidence/9B17/README.md). The [7D gap carried into the backlog](implementation-backlog.md#9n--close-assessment-coverage-briefs-without-changing-the-baseline-bank) records **zero primary and one related question**. In the [question map](question-map.json), `situation-053` is primarily M01-L04 and related to M07-L04; retain that assignment. Related coverage does not demonstrate a learner reassessing an evolving journey. The existing cancellation knowledge check alone does not demonstrate that skill either.
+
+Assess whether the learner can reassess a trip as weather, darkness, delays and passenger pressure accumulate, explain how the combination reduces available margins, and choose a justified adaptation, safe stop or route/journey change. The learner must distinguish a manageable change from circumstances in which continued driving is unsafe, without a numerical risk formula.
+
+### Sources and scope rechecked 19 October 2026
+
+| Source | Basis for the proposed assessment |
+| --- | --- |
+| [Traffic Regulation, chapter 3 §§1 and 14](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/) | Inability to drive safely, including from fatigue, prevents continued driving. Speed must suit conditions and preserve control and stopping within the visible road before foreseeable obstacles. These are constraints, not permission to continue whenever speed is reduced. |
+| [Category B syllabus, TSFS 2011:20, chapters 4–5 §§2–3](https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf) | Journey choices, conditions, stress/fatigue, personal motives and passenger influence support reasoned planning and self-assessment. The exercise and rubric below are original teaching proposals, not an agency-prescribed test. |
+
+These checks support this brief only; frozen teaching, release source dates and legal classifications remain intact. Future authors must recheck the cited provisions. Do not introduce weather thresholds, fixed safe speeds, fatigue recovery times or numerical risk totals unsupported by this lesson.
+
+### Proposed format, supplied input and learner output
+
+Propose one **unscored, staged text scenario with explained review**, using existing practice/reflection conventions. This specifies content only, without proposing a screen or artwork. A future author supplies an initial journey plan and three successive decision points. Each point states driver fitness, vehicle readiness, visibility/weather, route information, remaining time, passenger demands and available safe stopping/alternative options. Changed facts must be explicit; unknown route information must be labelled unknown. Keep the driver and vehicle initially fit and suitable so the first decision can assess adaptation rather than automatic cancellation.
+
+The learner produces a short decision record at each point: **what changed / how the risks interact / chosen action and immediate safe execution / rejected alternative and reason / next reassessment trigger**. Finish with a brief reflection on which warning prompted replanning and how arrival pressure was handled. Decisions use only information available at that point; later facts must not retrospectively make a defensible earlier answer wrong.
+
+### Required authoring cases and plausible mistakes
+
+| Decision point | Facts the author must supply | Required reasoning and mistake to diagnose |
+| --- | --- | --- |
+| Adapt while margins remain | Darkness and rain develop; driver remains alert, vehicle suitable, and observation/control remain possible with changed speed and spacing | Justify an appropriate adaptation and monitoring trigger. Diagnose treating the posted limit or original arrival time as a target. Do not make cancellation the only acceptable answer in this case. |
+| Stop to reassess and choose a route | A closure adds delay; passenger urges an unfamiliar shortcut; a safe legal stopping place is available before the decision, and the alternative route's suitability is unknown | Stop safely to check options and revise timing. A route change needs evidence of suitability; neither a shorter route nor staying on the original route is automatically safer. Diagnose changing navigation while driving or accepting passenger urgency as route evidence. |
+| End this driver's continuation | New facts explicitly establish that the driver cannot remain alert/control the vehicle safely; the vehicle is already at a safe stopping place | Do not resume with this driver in that state. Consider a lawful, fit replacement driver only if supplied, or alternative transport/postponement/cancellation. Diagnose “nearly there”, coffee, reduced speed or a route change being used to excuse unresolved inability. |
+
+The second point must retain the first point's darkness/weather and add delay/pressure, so the task tests accumulation rather than three unrelated hazards. The final point begins safely stopped; it must not require continuing to a distant rest area despite inability to drive safely. Any alternative driver must have explicit suitable entitlement, fitness and availability. A proposed route is checked while stopped; if its suitability remains unknown, the learner may reject it and choose another feasible safe alternative. Include at least one feasible fallback in every decision point.
+
+### Checkable acceptance rubric
+
+Mark each row **met / needs revision**, citing the decision record. All six must be met to demonstrate the objective. These are review criteria, not an app score or an official pass threshold.
+
+| Criterion | Observable evidence needed for “met” |
+| --- | --- |
+| Detect change | Identifies the new facts at every point and carries forward relevant earlier conditions; revisits driver, vehicle, route and time rather than treating the plan as fixed. |
+| Explain combined risk | Connects at least two concurrent factors to a concrete loss of margin, such as darkness/rain reducing observation while delay and passenger demands encourage rushing; a hazard list alone is insufficient. |
+| Adapt proportionately | At the manageable first point, gives a defensible adaptation and reassessment trigger without claiming a universal safe speed or that the speed limit guarantees safety. A more cautious feasible choice is acceptable if explained. |
+| Reassess and choose alternatives | Uses the supplied safe stop, checks route suitability and chooses a feasible next plan; explains why an unverified shortcut or arrival-driven choice is unsuitable. |
+| Respect the continuation boundary | At the final point explicitly refuses to resume with the unfit driver; any replacement/transport choice meets supplied conditions. Slowing down, proximity or a different road cannot compensate for inability to drive safely. |
+| Explain and reflect | Gives a reason for each action, rejects a tempting unsafe alternative, revises the arrival expectation and names a future reassessment trigger. Reflection identifies an early warning and the influence of pressure without treating cancellation as failure. |
+
+**Reviewer acceptance of future authored content:** A model review must cover all three stages and explain each mistake. Two reviewers must independently agree on the final no-continuation boundary and on which earlier alternatives are defensible from supplied facts. Accept equivalent safe plans with sound reasoning; do not require a single route choice where facts support several. Reject a response that resumes unsafe driving even if its other checklist entries are correct. No hidden weather, vehicle, stopping-place or replacement-driver fact may determine acceptance.
+
+### Output boundary and subsequent decision
+
+9N2 is satisfied by this objective, source check, staged format, mistake analysis and rubric. The zero-primary/one-related bank gap remains recorded until separately authorized content is authored and accepted. No scored item or baseline ID is added, replaced or remapped; all teaching and the accepted 1,000-question package remain unchanged. Any future scored proposal requires a separate explicit content decision and the normal identity/count/coverage, source, scoring, accessibility and delivery checks. 9N3 remains pending.
