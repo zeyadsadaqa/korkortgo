@@ -60,7 +60,13 @@ class NativeReaderRouteTest {
         waitFor("No native search field"){nodes().any{it.isEditable}}
         val title="Your route into driving"
         val input=nodes().first{it.isEditable};assertTrue(input.performAction(Node.ACTION_SET_TEXT,Bundle().apply{putCharSequence(Node.ACTION_ARGUMENT_SET_TEXT_CHARSEQUENCE,title)}))
-        click(title);waitFor("Reader title missing"){nodes().any{it.isHeading && it.text?.toString()==title}};dump("reader-opening")
+        // The search input and matching lesson share text; activate the result, not EditText.
+        waitFor("Matching lesson row missing"){nodes().any{it.isVisibleToUser && !it.isEditable && it.text?.toString()==title}}
+        var lessonRow=nodes().first{it.isVisibleToUser && !it.isEditable && it.text?.toString()==title}
+        while(!lessonRow.isClickable && lessonRow.parent!=null)lessonRow=lessonRow.parent
+        assertTrue("Cannot activate lesson result",lessonRow.performAction(Node.ACTION_CLICK))
+        instrumentation.waitForIdleSync()
+        waitFor("Reader title missing"){nodes().any{it.isHeading && it.text?.toString()==title}};dump("reader-opening")
         val doc=readerDocuments.single{it.id.value=="M01-L01"};val source=lessonSources(doc).first()
         scrollTo(source.title);click(source.title);waitFor("Source detail missing"){find("Back to Sources")!=null};dump("source-detail")
         scrollTo("Return to reading");click("Return to reading");waitFor("Source row not restored"){find("Back to Sources")==null && find(source.title)!=null}; waitFor("Source trigger did not regain native keyboard focus"){var n=find(source.title);var focused=false;while(n!=null){focused=focused || n.isFocused;n=n.parent};focused};dump("source-return")
