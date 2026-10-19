@@ -1967,6 +1967,8 @@ Replace stale README book/chapter/feature claims using the accepted manifest, an
 
 #### 9O2. Run common integration checks
 
+**Status — 19 October 2026: Complete.** [Fresh common integration evidence](app-migration/implementation-evidence/9O2/README.md) records 150 passing Python tests, a forced full JVM run (85 tests / 22 suites, zero failures/errors/skips), complete generation/delivery checks, 932 referenced file hashes and all 484 original/bundled artwork bindings. All 18 applicable accepted-state contracts pass; four future-store cases remain conditional. Commands, logs, XML and exact accepted-manifest identity/digest are retained. No payload/runtime changes; platform checks remain 9O3 onward.
+
 Run meaningful common tests plus full generation, resource and origin-parity checks on the integrated candidate.
 
 **Input:** 9O1, 9B17, 9J4, 9K/9L/9M completed outputs.
