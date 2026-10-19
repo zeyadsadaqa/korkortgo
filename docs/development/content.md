@@ -31,6 +31,8 @@ Shared files live in `composeApp/src/commonMain/composeResources/`: `files/signs
 
 Normal builds omit `-PreferenceProof`. That opt-in property selects verification fixtures and an Android application suffix; those binaries must not be published. Android bundles files under APK `assets/composeResources/se.korkort.resources/`. Xcode embeds the shared framework and Compose resources in the iOS app's `compose-resources/`. Wasm distribution copies resources with the generated site; deploy the whole distribution over HTTP(S), preserving paths. Desktop processed resources support the JVM test harness, not a shipped desktop product.
 
+For web deployments, revalidate HTML and the fixed-name `composeApp.js` when publishing a new distribution; cache hashed Wasm assets by content identity. Verify the visible release on a fresh origin or after cache revalidation. A stale executable can otherwise retain the previous UI even when the host title has changed. This static website has no service-worker/offline-install mechanism: bundled local resources remove external content-service dependencies, but do not guarantee a cold reload when the site host is unavailable.
+
 Build commands and output locations are in README. Exact byte parity can be checked after producing all four development/test bundles:
 
 ```sh
