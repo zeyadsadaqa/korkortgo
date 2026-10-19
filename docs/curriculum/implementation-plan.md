@@ -1979,6 +1979,8 @@ Run meaningful common tests plus full generation, resource and origin-parity che
 
 #### 9O3. Check the Android candidate
 
+**Status — 19 October 2026: Complete for the available Android emulator.** [Android evidence](app-migration/implementation-evidence/9O3/README.md) binds the unchanged 9O2 manifest: normal build/launcher, all 484 APK artwork bindings and font licences, offline home and six native route/production checks pass. Fixed only a test selector that confused search input text with the lesson row; its initial failure and focused passing rerun remain recorded. Normal APK and original connectivity restored. Fresh native accessibility/focus checks and retained TalkBack/delivery evidence have explicit limits; no physical-device or new speech audit claim. No unresolved required check within the available emulator scope; later platform/release gates remain separate.
+
 Check the configured Android build/resources and available device or emulator: package resources, offline teaching/assets and representative library/reader/quiz/source/reference/recovery paths.
 
 **Input:** 9O2 candidate, configured toolchain and target runtime.
