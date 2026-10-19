@@ -1,0 +1,359 @@
+{
+  "status": "passed",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "python_tests": 150,
+  "shared": {
+    "suite_count": 22,
+    "tests": 85,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "fresh_full_suite": true,
+    "suites": [
+      {
+        "suite": "se.korkort.AcceptedQuestionParityTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.578
+      },
+      {
+        "suite": "se.korkort.AcceptedReleaseStateTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 2.48
+      },
+      {
+        "suite": "se.korkort.AssessmentSemanticsTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.788
+      },
+      {
+        "suite": "se.korkort.AssessmentTest",
+        "tests": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.049
+      },
+      {
+        "suite": "se.korkort.CandidateDelivery9JTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 297.683
+      },
+      {
+        "suite": "se.korkort.CurriculumAppFlowTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 3.242
+      },
+      {
+        "suite": "se.korkort.CurriculumContractTest",
+        "tests": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.001
+      },
+      {
+        "suite": "se.korkort.ExactVectorRenderingTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 1.584
+      },
+      {
+        "suite": "se.korkort.FuelCorrectionsTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.004
+      },
+      {
+        "suite": "se.korkort.ImageViewportTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.001
+      },
+      {
+        "suite": "se.korkort.LearningReaderParityTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.096
+      },
+      {
+        "suite": "se.korkort.LearningViewsSemanticsTest",
+        "tests": 13,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 10.889
+      },
+      {
+        "suite": "se.korkort.LearningViewsTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.005
+      },
+      {
+        "suite": "se.korkort.LoadClarificationsTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.006
+      },
+      {
+        "suite": "se.korkort.NavigationTest",
+        "tests": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.102
+      },
+      {
+        "suite": "se.korkort.QuestionPackage9JTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.527
+      },
+      {
+        "suite": "se.korkort.QuizTest",
+        "tests": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.118
+      },
+      {
+        "suite": "se.korkort.ReferenceViewerSemanticsTest",
+        "tests": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.678
+      },
+      {
+        "suite": "se.korkort.ScenarioCorrectionsTest",
+        "tests": 1,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.001
+      },
+      {
+        "suite": "se.korkort.SignRewriteBatchTest",
+        "tests": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.1
+      },
+      {
+        "suite": "se.korkort.TransientPractice9MTest",
+        "tests": 2,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.062
+      },
+      {
+        "suite": "se.korkort.TransientQuizStateTest",
+        "tests": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "seconds": 0.004
+      }
+    ]
+  },
+  "state_contracts": {
+    "applicable_passed": 18,
+    "conditional_future_store_cases": 4
+  },
+  "generation_checks": 6,
+  "origin_file_hash_pairs": 932,
+  "artwork_bindings": 484,
+  "initial_attempt": "Sandbox prevented Gradle cache lock access; same command passed after permitted cache access.",
+  "toolchain": {
+    "jdk": "Microsoft OpenJDK 17.0.16",
+    "gradle": "8.14.3",
+    "kotlin": "2.2.20",
+    "compose": "1.9.3"
+  },
+  "scope": "Common integrated package; subsequent platform and step 10 work are not certified here.",
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/README.md",
+      "sha256": "fb18b5adaa14a609d9239e538a8ce7693ede8aeb081c3c182c11c04ea8e33911"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/accepted.txt",
+      "sha256": "ffeeae2e68bb28de3215c2fdd7c30d5328d6d28d07001f5d6c9a8e91824db82a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/candidate.json",
+      "sha256": "c49d6ae2b82913856ec6cae5daa7643ba6000eba0fd1c05ceb165fc0008e6671"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/candidate.txt",
+      "sha256": "8451eafb61bd4a8110ffb44ea1b8d408640cb4157613eef6a579fe70a419e6cb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/cleanup.json",
+      "sha256": "2d8a1cc9f362145600cc1a552c974524f44b152bfdb685ea639b6bdbe6bd75ca"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/common-commands.json",
+      "sha256": "42031fc545f7d5bf85daa48856433449ce8ec57cc7354ef7bc73e13063040ceb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/delivery.txt",
+      "sha256": "f19b9bbcdde41ef68475feeb1d020d6cec1e4fc38d2126d528b5d15df4736b90"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/import.txt",
+      "sha256": "6720bdf98cbd1b28861e464f7620cf3aa31a89cea7e71431efc57f81bc1eaa19"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/navigation.txt",
+      "sha256": "03a887d49f506908a402c46560f10d5bbd795afc51229d727ee744b0e5766b97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/python-tests.txt",
+      "sha256": "44f399d923c3a83372eada80bcef9bf9f0879063cd8d4d2069cbc8c6507715ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/reader.txt",
+      "sha256": "f0f90d38eda9bcd9fb1aa23c6f20d54ad154342951d45153e150590b9973f880"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/resource-origin-parity.json",
+      "sha256": "5a18af24f4f92acd0a54e5c20a637fc860d42646938f0ea9b8817f5890ce869a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/shared-build-retry.txt",
+      "sha256": "65b58d1f8b40ea025987a93575fd66e73f5ef4d51fb89822f798c18c8add2873"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/state-contract-check.txt",
+      "sha256": "ec593601f0c951cd5571a24a5d7ff8e81dc86c30a2411c328973b22e30201e69"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.AcceptedQuestionParityTest.xml",
+      "sha256": "620e905ad90d8bc8e30c9aa2a4b83b4d12defc5dc50314fdd84083bcac1d7a47"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.AcceptedReleaseStateTest.xml",
+      "sha256": "76fd4f0dcb6df3657b3712998183c8e1205b05b0fb26a42ba24105c63ca5b26b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "c841d5d749a5745684ce1d0563d8e53bf88250f36aad1cb666d2303812d9e318"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "c3dccdb6ece035b5af1f9944a498f70d8085715b3aa2fec6e120796b8f24cfa1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.CandidateDelivery9JTest.xml",
+      "sha256": "f2a87d600cc2617a6f658fe2b74f9e95407a32c974530064a1a07aea8fc191b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.CurriculumAppFlowTest.xml",
+      "sha256": "63b28b2b849b50a5ff25c6e55ea9268100044f300c75d92b33c95209be1d7ae0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "f333d7c18de158c6a58cc7a82b899092a2d744b69d5c6f714b1e41398e57d857"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "sha256": "0bec6e3f39357496fa8d57a5804c932afcfde913e121ac45c5b0db9a683f8fe3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.FuelCorrectionsTest.xml",
+      "sha256": "4b3c84afc5882d247114e498617c5b8caf78159e5993a65d480224ec61ed4873"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.ImageViewportTest.xml",
+      "sha256": "e60528dbfddb43cddca6b2f3151e21ac1adc283479b12ece8fad871de38a5b2b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.LearningReaderParityTest.xml",
+      "sha256": "9175a257caa7f029eb00f9fd7be28959eaf8188a029d6e4d77056b1cf7ca050a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "sha256": "61457df19ae6ad0cbaf5f3b4366575a27c256be22636435241739ac5d1a1a1ca"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.LearningViewsTest.xml",
+      "sha256": "eb20373141a523b413d4d38e72869147d794a3cd0fe4c191dceb4b84d8aaa7ed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.LoadClarificationsTest.xml",
+      "sha256": "64bd2c3224fa35da80cec93df4058e3eac0d9e57eae0f33a39c38cde455db21f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.NavigationTest.xml",
+      "sha256": "e968d50b77701520ed8d83e8b7bf1d69d3dc60f5361e2ca2e9ab2a07c5e407c0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.QuestionPackage9JTest.xml",
+      "sha256": "36160883b32f8cd1c584125cbf7b23ced7e3186a4a3e4142b1db33930dd6f651"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.QuizTest.xml",
+      "sha256": "b46acfd0e901af7b40c90d0cf5b194afd608284ac607c56519012c9d1a0bfebd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "sha256": "cd8ef4e6a6f014e152490db75bcdeb7d1073c525d872bfb897a5e3eb7c89a7e4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.ScenarioCorrectionsTest.xml",
+      "sha256": "1c449039075848a0fcd16f8a097058281dbf330e03b4320c75955d79a1a6f219"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "sha256": "9724fec58e0438525cab208b975fa6645d9aa0d97e6c6e5ae343dd64784c37fd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.TransientPractice9MTest.xml",
+      "sha256": "a2583ea47c21b800b02cf748a5f6bd796f63fb36973a9aad020c340e369fb32d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O2/tests/TEST-se.korkort.TransientQuizStateTest.xml",
+      "sha256": "4a608b84cb0e760d6c134c5dd5df5655f84096aa1aa17d092b8e78cd57c525e2"
+    }
+  ]
+}

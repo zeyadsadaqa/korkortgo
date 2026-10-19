@@ -1,0 +1,15 @@
+{
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "git_head_before_checks": "b632122e4d2a7fad4d794b8a05e79e822e2b80c9",
+  "python": "3.14.7",
+  "platform": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "gradle_command": "JAVA_HOME=/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home ./gradlew :composeApp:desktopTest --rerun-tasks --offline --no-daemon --max-workers=1 -Pkotlin.compiler.execution.strategy=in-process '-Dorg.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8'"
+}
