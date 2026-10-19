@@ -13,14 +13,12 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.drawscope.clipRect
 import androidx.compose.ui.graphics.drawscope.withTransform
-import androidx.compose.ui.graphics.painter.BitmapPainter
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.semantics.*
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
-import org.jetbrains.compose.resources.decodeToImageBitmap
 import se.korkort.resources.Res
 import kotlin.coroutines.cancellation.CancellationException
 
@@ -28,6 +26,11 @@ internal class ExactVectorPainter(private val drawing: ExactVectorPicture): Pain
     override val intrinsicSize=Size(drawing.width,drawing.height)
     override fun androidx.compose.ui.graphics.drawscope.DrawScope.onDraw() { drawing.draw(this) }
 }
+
+/** Receives the same pixel scale used by the shared draw transform. */
+internal interface RasterResolutionAwarePainter { fun setRasterScale(scale: Float) }
+
+internal expect fun decodeExactRaster(bytes: ByteArray): Painter
 
 internal suspend fun loadExactAsset(asset: CurriculumAsset): Painter {
     require(asset.bundled.sha256==asset.original.sha256)
@@ -39,7 +42,7 @@ internal suspend fun loadExactAsset(asset: CurriculumAsset): Painter {
         val vector=requireNotNull(decodedOfficialVector(asset.bundled.sha256)) {"This PDF has no verified shared decoder yet"}
         require(vector.sourceSha256==asset.bundled.sha256) { "This PDF has no verified shared decoder yet" }
         ExactVectorPainter(vector)
-    } else BitmapPainter(bytes.decodeToImageBitmap())
+    } else decodeExactRaster(bytes)
 }
 
 /** Approved common frame: every option gets the same area, regardless of its meaning. */
@@ -86,6 +89,7 @@ fun ExactAssetImage(
                 val source=p.intrinsicSize
                 val v=viewport.clamp(source.width,source.height,size.width,size.height)
                 val scale=v.fit(source.width,source.height,size.width,size.height)*v.zoom
+                (p as? RasterResolutionAwarePainter)?.setRasterScale(scale)
                 clipRect {
                     withTransform({
                         translate((size.width-source.width*scale)/2f+v.pan.x,(size.height-source.height*scale)/2f+v.pan.y)

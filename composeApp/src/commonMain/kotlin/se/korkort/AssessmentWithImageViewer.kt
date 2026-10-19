@@ -14,6 +14,7 @@ fun AssessmentWithImageViewer(
     onConfirm: (OptionId) -> Unit,
     assets: List<CurriculumAsset>,
     onImageLoaded: (AssetId, Boolean) -> Unit = { _, _ -> },
+    trailingContent: @Composable () -> Unit = {},
     viewerHost: @Composable (ImageViewerContent, () -> Unit) -> Unit = {content,close->AccessibleImageViewer(content,close)},
 ) {
     var picture by remember(presentation.key) {mutableStateOf<AssessmentImagePresentation?>(null)}
@@ -24,6 +25,7 @@ fun AssessmentWithImageViewer(
         AssessmentCard(presentation,onConfirm,image={image,modifier->
             ExactAssetImage(assets.single {it.id==image.assetId},image.description,modifier,onLoaded={onImageLoaded(image.assetId,it)})
         },onEnlargeImage={image,focus->originFocus=focus;picture=image})
+        trailingContent()
         }
         picture?.let { image ->
             viewerHost(ImageViewerContent.assessment(image,assets)) {picture=null;restore=true}

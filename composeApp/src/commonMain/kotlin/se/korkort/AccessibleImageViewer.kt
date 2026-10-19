@@ -79,7 +79,7 @@ internal fun ImageViewerSurface(content: ImageViewerContent, onClose: () -> Unit
 
 @Composable
 fun AccessibleImageViewer(content: ImageViewerContent, onClose: () -> Unit) {
-    Dialog(onDismissRequest=onClose,properties=DialogProperties(usePlatformDefaultWidth=false)) {
+    RootPlatformDialog(onDismissRequest=onClose,fullWidth=true) {
         ImageViewerSurface(content,onClose)
     }
 }
