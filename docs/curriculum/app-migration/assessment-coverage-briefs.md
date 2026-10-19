@@ -1,6 +1,6 @@
 # Assessment coverage briefs
 
-These briefs propose future assessment content. They do not add scored items, allocate question IDs, change coverage counts or authorize implementation. The accepted baseline remains 1,000 questions; all existing teaching is retained. 9N1 and 9N2 are complete; 9N3 is not started.
+These briefs propose future assessment content. They do not add scored items, allocate question IDs, change coverage counts or authorize implementation. The accepted baseline remains 1,000 questions; all existing teaching is retained. 9N1–9N3 briefs are complete.
 
 ## M01-L01 · Your route into driving — 9N1
 
@@ -114,4 +114,63 @@ Mark each row **met / needs revision**, citing the decision record. All six must
 
 ### Output boundary and subsequent decision
 
-9N2 is satisfied by this objective, source check, staged format, mistake analysis and rubric. The zero-primary/one-related bank gap remains recorded until separately authorized content is authored and accepted. No scored item or baseline ID is added, replaced or remapped; all teaching and the accepted 1,000-question package remain unchanged. Any future scored proposal requires a separate explicit content decision and the normal identity/count/coverage, source, scoring, accessibility and delivery checks. 9N3 remains pending.
+9N2 is satisfied by this objective, source check, staged format, mistake analysis and rubric. The zero-primary/one-related bank gap remains recorded until separately authorized content is authored and accepted. No scored item or baseline ID is added, replaced or remapped; all teaching and the accepted 1,000-question package remain unchanged. Any future scored proposal requires a separate explicit content decision and the normal identity/count/coverage, source, scoring, accessibility and delivery checks. 9N3 is recorded below.
+
+## M10-L03 · Explain a whole journey — 9N3
+
+**Status:** Brief complete, 19 October 2026; proposed content requires a separate content decision before authoring or integration.
+
+### Input and objective
+
+Use the [M10-L03 objective, scenario and reflection](../manuscript.md#m10-l03--explain-a-whole-journey), C084 in the [evidence register](../manuscript-evidence.md#c084--m10-l03), and the complete [9B17 import](implementation-evidence/9B17/README.md). The [7D gap carried into the backlog](implementation-backlog.md#9n--close-assessment-coverage-briefs-without-changing-the-baseline-bank) records **zero primary and zero related questions**. Retain the existing scenario and knowledge check. Their presence as teaching does not establish bank sampling or independently assessed whole-journey reasoning.
+
+Assess whether the learner can review a mixed outward/return journey, justify decisions from the facts and relevant teaching, identify missed hazards and propose specific safer alternatives. The response must examine the decision process, including an apparently successful outcome that depended on luck, and finish with an actionable reflection.
+
+### Sources and rationale rechecked 19 October 2026
+
+The lesson is an original integrative exercise, not an official test question or a verified court case. Its principal source is the [Traffic Regulation, chapters 2–3](https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/), read alongside the explanations in M02–M07. Relevant locators include chapter 2 §1 (care), chapter 3 §§2 and 14 (gap, speed/control), §22 (roundabout entry), §§32 and 36 (safe overtaking and clear path), and §§50 and 53(1) (safe exit and stopping restrictions at/before crossings). Rechecked these provisions for this brief; future authors must recheck them and any additional rules needed by their exact scene.
+
+The original scenario leaves some facts unspecified. A space described merely as “before a crossing” is not enough to decide whether it falls within the ten-metre restriction. The future exercise must state distance, travel direction and applicable restrictions. Likewise, a bend needs an explicit visibility/path description; do not imply that every bend creates an identical prohibition. This brief turns the existing teaching into an assessable proposal by requiring evidence, linked rationale and reflection across all stages, rather than forcing one MCQ. It does not refresh frozen source dates or certify learner readiness to drive.
+
+### Proposed format and supplied input
+
+Propose one **unscored, text-based journey review and reflection**, using the existing practice/reflection approach. This is a content brief, without a new screen, artwork, recording feature or stored learner history. No account, personal journey or real driving performance is required.
+
+A future author supplies a fictional journey record based on the existing rural-appointment scenario: unfamiliar car, passenger, residential street, roundabout, faster road, later rain, destination stop and delayed return with pressure to overtake. Include a chronological account of the driver's actual choices, observable hazards and outcomes. Include at least one explicitly supported missed hazard and one safe decision; do not let “find the mistake” imply every action was wrong. Supply these details:
+
+- Predeparture fitness/entitlement and vehicle/passenger readiness facts, unfamiliar controls, route and fallback information; mark any unresolved fact explicitly.
+- Residential signs/speed, sight obstructions and crossing users; roundabout layout, lane markings, destination and other traffic. Do not require guessing a lane or priority from an absent diagram.
+- Faster-road observation/gap and changes in rain/visibility, with enough facts to explain adaptation without an invented exact safe speed.
+- A proposed destination space explicitly within ten metres before a pedestrian crossing in the direction of travel, ordinary conditions with no applicable exception, plus a lawful feasible alternative and passenger-exit conditions.
+- A return overtaking proposal whose full clear path cannot be established, pressure/delay facts and a feasible wait/replan alternative. Include one no-collision outcome whose record explicitly shows reliance on another road user's avoidance or an unjustified margin.
+
+The learner returns a five-stage review with **observed fact / decision and rationale / missed hazard or remaining uncertainty / safer alternative**, then a short reflection stating **trigger noticed or missed / influence on the decision / specific action to practise next time**. Accept concise bullets or prose; assess reasoning rather than writing length. Cite the relevant lesson or rule explanation; memorised provision numbers are not required.
+
+### Required coverage and plausible mistakes
+
+| Journey stage | Evidence the response must explain | Plausible mistake to diagnose |
+| --- | --- | --- |
+| Before departure | Resolve the supplied readiness/controls/route issues before setting off; explain why each matters | Assume entitlement alone proves fitness or that familiarity with another car removes the need to locate controls |
+| Residential area and roundabout | Anticipate the supplied hidden/crossing hazards and explain entry, lane and exit decisions separately using the stated layout | Treat a clear immediate view as proof no one can emerge, or treat entry priority as permission for any lane change/exit |
+| Faster road and rain | Explain how observation, gap, speed and lighting need reassessment as conditions change | Treat the posted limit or unchanged vehicle capability as proof the original margins remain adequate |
+| Destination | Reject the explicitly restricted space and describe the feasible lawful stop/manoeuvre and safe passenger exit | Choose convenience or a quick drop-off as an exemption from a stopping restriction |
+| Delayed return | Reject overtaking without a complete clear path; manage pressure and change arrival expectations | Treat a slow lead vehicle, urgency or the absence of a collision as evidence an unjustified manoeuvre was sound |
+
+### Checkable acceptance rubric
+
+Mark each criterion **met / needs revision**, citing a passage in the learner's review. All six must be met to demonstrate the objective. This is a review rubric, not an app score, official test threshold or permission to drive.
+
+| Criterion | Observable evidence needed for “met” |
+| --- | --- |
+| Whole-journey coverage | Addresses all five stages, including predeparture and return; explains at least one sound decision as well as a missed hazard. |
+| Evidence and rationale | Connects each decision to a supplied fact and the relevant teaching/rule; separates observation from assumption and flags unresolved information rather than inventing it. |
+| Hazard recognition | Identifies the deliberately supplied missed hazard and explains who could be harmed/how the margin was lost; also reassesses the changed rain/visibility conditions. |
+| Safe alternatives | Gives a feasible action at every identified unsafe decision, including a lawful destination stop and refusal of the unjustified overtaking proposal. Does not trade away stopping, priority or control duties for convenience. |
+| Process versus outcome | Explains why the specified no-collision outcome does not validate the decision, identifying the actual dependence on luck/avoidance or an unjustified margin from the record. |
+| Actionable reflection | Names a specific trigger and the pressure/attention issue, then states an observable next-time action, such as voicing the decision to wait before considering a pass. “Be more careful” alone is insufficient. |
+
+**Reviewer acceptance of future authored content:** Provide an explained model review for all five stages, linked teaching references and feedback for each listed mistake. Two reviewers must independently identify the deliberately unsafe stop, unjustified overtake and missed hazard from the supplied facts. Accept alternative lawful, feasible plans with evidence-based reasoning. An endorsed prohibited stop or unsafe overtake prevents acceptance regardless of other strengths. Do not require a collision to recognise failure, reject a safe decision solely because of a later outcome, or infer actual driving competence from a written reflection. Facts must determine the decisions without hidden geometry, traffic rules or vehicle assumptions.
+
+### Output boundary and subsequent decision
+
+9N3 is satisfied by this objective, sources, proposed review/reflection format, rationale, mistake analysis and checkable rubric. All three 9N briefs are now complete; their bank sampling gaps remain recorded until separately authorized content is authored and accepted. No scored item, baseline ID, assignment, teaching, runtime or accepted-package input changes. Additional scored content requires a separate explicit decision and the normal source, identity/count/coverage, scoring, accessibility and delivery checks.
