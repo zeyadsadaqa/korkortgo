@@ -1,0 +1,120 @@
+{
+  "status": "passed_configured_desktop_harness",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "shared_runtime_tests": 35,
+  "suite_count": 8,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "asset_bindings": 484,
+  "fonts": 4,
+  "font_licenses": 2,
+  "unresolved_required_harness_checks": [],
+  "limits": [
+    "No configured standalone desktop application or native desktop window/accessibility bridge",
+    "Production-owner UI uses one accepted fixture; full accepted bank verified by parity/state suites",
+    "Local bundled resource runtime, not OS network isolation",
+    "No macOS screen-reader or real browser launch claim"
+  ],
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/README.md",
+      "sha256": "8bbe8767b11bd30fe492e93da292e7ce00d9821fc8f4311d74c6b8a7cb791da8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/candidate.json",
+      "sha256": "744ae2dfe00cf85f6c4c89eaa91468e5c1e1c8222a1e08878b307a7aa679c7e6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/cleanup.json",
+      "sha256": "a08e82f964a37e8906206be88b86017c8b4f3382c7b7732ddecc4986e575c877"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/desktop-build-tests.txt",
+      "sha256": "faf2fb381a687b4164690757775c1be63f123f9d13cd210efb74d36793d14260"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/package-resources.json",
+      "sha256": "2fd46e4066c0efd75090846b02a6af7166eda32ad040f648ce2e58727d62e003"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/deferred-review.png",
+      "sha256": "ff69294673425248023d862c4b7dc17079c90f5088da12daf2c997d4e7261a51"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/discarded-library.png",
+      "sha256": "ace737ab0c4f1c6d10fd64a45e266857abd540bb136d713c52955ffaa27a4e97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/library-wide.png",
+      "sha256": "8106ff5f8a6e30651604043dfe9a29dce38e17e5300888f6bfad2a7a2e0d4aa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/reader-wide-large-text.png",
+      "sha256": "2e32b7c370a0555f799cec81c166627ce9b69403e7fc0b44f9e3ba6d914c6d03"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/reference-dark-zoom.png",
+      "sha256": "c62cb4888424dccec1def73533df3c62c907f7464e702efa7375d3d4691c729e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/reference-detail.png",
+      "sha256": "a1f1bce47bc7e2d059c1db0dac0962226d93a93fa85043f2f60a9248fcf4af71"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/source-failure.png",
+      "sha256": "a747c10aabae38c399794338b1aa66c5228a767c24b3cb57d43811c265df4d97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/source-return-focus.png",
+      "sha256": "f5a01b574ed16a4c8e3ec020ba069e0dd9f499f0e75f4e8f232d6cb34329479b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/screenshots/unavailable-recovery.png",
+      "sha256": "ac8538d141699a3efeb4590605784161943b02e1ad644aafc5ca0f35c47f0a0a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/test-summary.json",
+      "sha256": "bc28aa22afe05f895bcf3bf261eb4b18f5891622f35a649d6a8d58fa3cff065b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.AcceptedQuestionParityTest.xml",
+      "sha256": "afaba78b807f110bec5c7c49f776e6977f059f0c36a14e644adadb43a210d6a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.AcceptedReleaseStateTest.xml",
+      "sha256": "090b409cd274b1ca02017517f0b51c93a1475078b915849a84ed739f435988bd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.CurriculumAppFlowTest.xml",
+      "sha256": "60566f0f3f4a4a9760f13dce7a2a8e2c07496bf4c0e0142349e9a60fea617aaf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "sha256": "75df0ecc00c971bd875175aca6b954b7087ba44291e389b42be2ef0fb0274334"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.LearningReaderParityTest.xml",
+      "sha256": "09646ead913205546eb70e09b1a1095af00261405faac7e10b4fc00565a225b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "sha256": "14b9ed232e72496926ed33102bea50d0424f882d88fa93ac37de81b65a2056ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.NavigationTest.xml",
+      "sha256": "f089966cd1d68bbc0b30a32de3e9bfd8fe69df7e2f2c99718eee1de0dd9a2022"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O4/tests/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "sha256": "93118a56da56525714da25b03672d3c243085ed8ea62506d472bf65dcb2a95ff"
+    }
+  ]
+}

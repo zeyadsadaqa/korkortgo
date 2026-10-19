@@ -1,0 +1,81 @@
+{
+  "status": "passed",
+  "tests": 35,
+  "suites": [
+    {
+      "suite": "se.korkort.AcceptedQuestionParityTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:49.736Z"
+    },
+    {
+      "suite": "se.korkort.AcceptedReleaseStateTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:50.326Z"
+    },
+    {
+      "suite": "se.korkort.CurriculumAppFlowTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:52.867Z"
+    },
+    {
+      "suite": "se.korkort.ExactVectorRenderingTest",
+      "tests": 2,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:56.963Z"
+    },
+    {
+      "suite": "se.korkort.LearningReaderParityTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:58.756Z"
+    },
+    {
+      "suite": "se.korkort.LearningViewsSemanticsTest",
+      "tests": 13,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:15:58.870Z"
+    },
+    {
+      "suite": "se.korkort.NavigationTest",
+      "tests": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:16:09.987Z"
+    },
+    {
+      "suite": "se.korkort.ReferenceViewerSemanticsTest",
+      "tests": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp": "2026-10-19T15:16:10.094Z"
+    }
+  ],
+  "screenshots": {
+    "library-wide": "9L/library-1280-1.0.png",
+    "reader-wide-large-text": "9L/reader-1280-1.5.png",
+    "source-failure": "9L/source-detail-failure.png",
+    "source-return-focus": "9L/source-return-focus.png",
+    "unavailable-recovery": "9L/signal-unavailable.png",
+    "reference-detail": "9L10/b1-detail-wide.png",
+    "reference-dark-zoom": "9L10/s1-viewer-dark-large-text.png",
+    "deferred-review": "9L14/at_end-expanded-review.png",
+    "discarded-library": "9L14/at_end-discarded-library.png"
+  }
+}
