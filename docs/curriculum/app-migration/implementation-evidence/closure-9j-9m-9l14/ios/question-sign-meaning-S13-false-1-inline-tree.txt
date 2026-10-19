@@ -1,0 +1,60 @@
+Optional(Attributes: Application, 0x106a070c0, pid: 54972, label: 'Körkort'
+Element subtree:
+ →Application, 0x106a070c0, pid: 54972, label: 'Körkort'
+    Window (Main), 0x106a07700, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a066c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a075c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x106a06d00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x106a06300, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x106a05cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106a05680, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x106a05f40, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x106a07200, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x106a04640, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x106a07d40, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x106a04000, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x106a07340, {{8.0, 70.0}, {228.3, 24.0}}, label: 'Unscored verification fixture'
+                      StaticText, 0x106a06940, {{0.0, 102.0}, {212.0, 24.0}}, label: 'Fixture: sign-meaning-S13'
+                      StaticText, 0x106a04500, {{0.0, 126.0}, {230.3, 24.0}}, label: 'Exact question images ready'
+                      Button, 0x106a04c80, {{234.3, 126.0}, {104.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x106a057c0, {{246.3, 140.0}, {80.3, 20.0}}, label: 'Next fixture'
+                      Button, 0x106a05040, {{0.0, 174.0}, {90.0, 48.0}}, label: 'reference'
+                        StaticText, 0x106a052c0, {{12.0, 188.0}, {66.0, 20.0}}, label: 'reference'
+                      Button, 0x106a04780, {{94.0, 174.0}, {82.7, 48.0}}, label: 'meaning'
+                        StaticText, 0x106a043c0, {{106.0, 188.0}, {58.7, 20.0}}, label: 'meaning'
+                      Button, 0x106a06080, {{180.7, 174.0}, {91.7, 48.0}}, label: 'recognise'
+                        StaticText, 0x106a07ac0, {{192.7, 188.0}, {67.7, 20.0}}, label: 'recognise'
+                      Other, 0x106a05b80, {{16.0, 238.0}, {370.0, 586.0}}
+                        Other, 0x106a05900, {{16.0, 238.0}, {370.0, 586.0}}
+                        Other, 0x106a04140, {{16.0, 238.0}, {370.0, 586.0}}
+                          StaticText, 0x106a06a80, {{16.0, 238.0}, {370.0, 96.0}}, label: 'Which description identifies this illustrated Swedish sign, symbol or road marking?'
+                          Other, 0x106a04b40, {{16.0, 348.0}, {370.0, 246.7}}, label: 'White rectangle with a very thin outline of a boat containing people beneath a flat canopy.'
+                          Button, 0x106a05a40, {{16.0, 608.7}, {208.3, 48.0}}, label: 'Enlarge question image'
+                            StaticText, 0x106a07980, {{40.0, 622.7}, {160.3, 20.0}}, label: 'Enlarge question image'
+                          Other, 0x106a04280, {{16.0, 670.7}, {370.0, 84.0}}
+                          Button, 0x106a07840, {{16.0, 670.7}, {370.0, 84.0}}, label: 'A
+Emergency telephone'
+                            StaticText, 0x106a05400, {{34.0, 688.7}, {11.3, 24.0}}, label: 'A'
+                            StaticText, 0x106a06bc0, {{34.0, 712.7}, {173.7, 24.0}}, label: 'Emergency telephone'
+                          Other, 0x106a05180, {{16.0, 670.7}, {370.0, 153.3}}
+                          Button, 0x106a06440, {{16.0, 768.7}, {370.0, 79.3}}, label: 'B
+Centre or lane line'
+                            StaticText, 0x106a06f80, {{34.0, 786.7}, {11.3, 24.0}}, label: 'B'
+                            StaticText, 0x106a05e00, {{34.0, 810.7}, {147.3, 13.3}}, label: 'Centre or lane line'
+                          Other, 0x106a04dc0, {{16.0, 768.7}, {370.0, 55.3}}
+                          Button, 0x106a07480, {{16.0, 866.7}, {370.0, 84.0}}, label: 'C
+Sight of national interest'
+                          Button, 0x106a04f00, {{16.0, 964.7}, {370.0, 84.0}}, label: 'D
+Passenger-ferry symbol'
+                          Button, 0x106a07c00, {{16.0, 1062.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x106a07e80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x106a06580, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x106a061c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x106a070c0, pid: 54972, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x106a06800, pid: 54972, label: 'Körkort'
+  }
+)

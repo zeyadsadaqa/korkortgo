@@ -1,0 +1,52 @@
+Optional(Attributes: Application, 0x1178cfc00, pid: 65451, label: 'Körkort'
+Element subtree:
+ →Application, 0x1178cfc00, pid: 65451, label: 'Körkort'
+    Window (Main), 0x1178cd680, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1178cdf40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1178cd040, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1178cee40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1178cebc0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1178cf340, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1178cfac0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1178cc140, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1178cf700, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1178cd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1178cfe80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1178cea80, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1178cf200, {{4.0, 66.0}, {215.7, 38.3}}, label: 'Unscored verification fixture'
+                      StaticText, 0x1178ced00, {{0.0, 108.3}, {201.0, 38.3}}, label: 'Fixture: sign-recognise-T6'
+                      StaticText, 0x1178cdb80, {{0.0, 146.7}, {216.7, 38.3}}, label: 'Exact question images ready'
+                      Button, 0x1178cf5c0, {{220.7, 146.7}, {152.7, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1178ce580, {{232.7, 154.7}, {128.7, 32.0}}, label: 'Next fixture'
+                      Other, 0x1178cd180, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1178ce940, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1178cc780, {{16.0, 210.7}, {370.0, 613.3}}
+                          Button, 0x1178cd7c0, {{16.0, 1062.7}, {300.7, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x1178cc3c0, {{16.0, 210.7}, {370.0, 154.0}}, label: 'Which illustration identifies “Time qualification”?'
+                          Other, 0x1178cdcc0, {{16.0, 378.7}, {370.0, 297.0}}
+                          Button, 0x1178ce300, {{16.0, 378.7}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with a black antlered moose facing left.'
+                            StaticText, 0x1178cca00, {{34.0, 396.7}, {18.3, 38.3}}, label: 'A'
+                            Other, 0x1178cfd40, {{34.0, 435.0}, {334.0, 222.7}}, label: 'Red-bordered yellow triangle with a black antlered moose facing left.'
+                          Other, 0x1178cf0c0, {{16.0, 378.7}, {370.0, 445.3}}
+                          Button, 0x1178cde00, {{16.0, 689.7}, {301.3, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x1178cc500, {{40.0, 697.7}, {253.3, 32.0}}, label: 'Enlarge option A image'
+                          Button, 0x1178ccf00, {{16.0, 751.7}, {370.0, 96.3}}, label: 'Red-bordered yellow triangle with three black curved arrows arranged in a circle.'
+                            StaticText, 0x1178ce6c0, {{34.0, 769.7}, {17.7, 38.3}}, label: 'B'
+                            Other, 0x1178ccb40, {{34.0, 808.0}, {334.0, 16.0}}, label: 'Red-bordered yellow triangle with three black curved arrows arranged in a circle.'
+                          Other, 0x1178ce440, {{16.0, 751.7}, {370.0, 72.3}}
+                          Button, 0x1178cf840, {{16.0, 1124.7}, {370.0, 297.0}}, label: 'Blue square with a white inset containing a black fish beside a fishing line and hook.'
+                          Button, 0x1178cef80, {{16.0, 1435.7}, {302.0, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1178cc280, {{16.0, 1497.7}, {370.0, 297.0}}, label: 'White rectangular panel with three rows: thin outlined 8–17, outlined (8–14), and red 8–13.'
+                          Button, 0x1178cd540, {{16.0, 1808.7}, {302.0, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1178ccc80, {{16.0, 1870.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1178cf980, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1178ccdc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1178cc8c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1178cfc00, pid: 65451, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1178cc000, pid: 65451, label: 'Körkort'
+  }
+)

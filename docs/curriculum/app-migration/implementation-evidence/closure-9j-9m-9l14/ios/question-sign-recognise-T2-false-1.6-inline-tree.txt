@@ -1,0 +1,51 @@
+Optional(Attributes: Application, 0x1094b3d40, pid: 65048, label: 'Körkort'
+Element subtree:
+ →Application, 0x1094b3d40, pid: 65048, label: 'Körkort'
+    Window (Main), 0x1094b30c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1094b35c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1094b12c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1094b0140, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1094b1e00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1094b1040, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1094b3e80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1094b1680, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1094b0640, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1094b3840, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1094b2bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1094b0dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1094b2a80, {{4.0, 66.0}, {215.7, 38.3}}, label: 'Unscored verification fixture'
+                      StaticText, 0x1094b3480, {{0.0, 108.3}, {201.0, 38.3}}, label: 'Fixture: sign-recognise-T2'
+                      StaticText, 0x1094b1180, {{0.0, 146.7}, {216.7, 38.3}}, label: 'Exact question images ready'
+                      Button, 0x1094b2d00, {{220.7, 146.7}, {152.7, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1094b0280, {{232.7, 154.7}, {128.7, 32.0}}, label: 'Next fixture'
+                      Other, 0x1094b3200, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1094b2440, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1094b3980, {{16.0, 210.7}, {370.0, 613.3}}
+                          StaticText, 0x1094b1f40, {{16.0, 210.7}, {370.0, 205.3}}, label: 'Which illustration identifies “Distance to the signed feature”?'
+                          Other, 0x1094b0780, {{16.0, 430.0}, {370.0, 297.0}}
+                          Button, 0x1094b08c0, {{16.0, 430.0}, {370.0, 297.0}}, label: 'Blue circle with a red border and a red diagonal cross.'
+                            StaticText, 0x1094b3340, {{34.0, 448.0}, {18.3, 38.3}}, label: 'A'
+                            Other, 0x1094b0000, {{34.0, 486.3}, {334.0, 222.7}}, label: 'Blue circle with a red border and a red diagonal cross.'
+                          Other, 0x1094b3c00, {{16.0, 430.0}, {370.0, 394.0}}
+                          Button, 0x1094b0b40, {{16.0, 741.0}, {301.3, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x1094b0a00, {{40.0, 749.0}, {253.3, 32.0}}, label: 'Enlarge option A image'
+                          Button, 0x1094b03c0, {{16.0, 803.0}, {370.0, 45.0}}, label: 'Red-bordered yellow triangle with two black running children, one larger than the other.'
+                            StaticText, 0x1094b17c0, {{34.0, 821.0}, {17.7, 3.0}}, label: 'B'
+                          Other, 0x1094b1540, {{16.0, 803.0}, {370.0, 21.0}}
+                          Button, 0x1094b2f80, {{16.0, 1114.0}, {300.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x1094b0c80, {{16.0, 1176.0}, {370.0, 297.0}}, label: 'Blue square with a white inset containing a black skier holding a diagonal overhead tow line.'
+                          Button, 0x1094b3ac0, {{16.0, 1487.0}, {302.0, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1094b2e40, {{16.0, 1549.0}, {370.0, 297.0}}, label: 'White outlined rectangular panel with thin outlined text 100 m.'
+                          Button, 0x1094b1400, {{16.0, 1860.0}, {302.0, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1094b2940, {{16.0, 1922.0}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1094b1cc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1094b0f00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1094b0500, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1094b3d40, pid: 65048, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1094b3700, pid: 65048, label: 'Körkort'
+  }
+)

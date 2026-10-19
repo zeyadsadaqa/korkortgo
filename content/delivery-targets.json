@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "ios_scope": "simulator",
+  "authorization": "User selected iOS simulator instead of physical iPhone on 16 October 2026.",
+  "required_platforms": [
+    "android",
+    "desktop",
+    "ios_simulator",
+    "wasm_js"
+  ]
+}

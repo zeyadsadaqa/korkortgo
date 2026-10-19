@@ -1,0 +1,51 @@
+Optional(Attributes: Application, 0x1178cc3c0, pid: 65451, label: 'Körkort'
+Element subtree:
+ →Application, 0x1178cc3c0, pid: 65451, label: 'Körkort'
+    Window (Main), 0x1178ce940, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1178cef80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1178cf980, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1178cc780, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1178cd180, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1178cd680, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1178ce300, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1178cfac0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1178cf700, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1178cea80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1178cc8c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1178cc280, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1178cdf40, {{4.0, 66.0}, {215.7, 38.3}}, label: 'Unscored verification fixture'
+                      StaticText, 0x1178cf480, {{0.0, 108.3}, {210.3, 38.3}}, label: 'Fixture: sign-recognise-T22'
+                      StaticText, 0x1178cfc00, {{0.0, 146.7}, {216.7, 38.3}}, label: 'Exact question images ready'
+                      Button, 0x1178ccf00, {{220.7, 146.7}, {152.7, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1178cf840, {{232.7, 154.7}, {128.7, 32.0}}, label: 'Next fixture'
+                      Other, 0x1178cdb80, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1178cf200, {{16.0, 210.7}, {370.0, 613.3}}
+                        Other, 0x1178ccb40, {{16.0, 210.7}, {370.0, 613.3}}
+                          StaticText, 0x1178ce6c0, {{16.0, 210.7}, {370.0, 205.3}}, label: 'Which illustration identifies “Additional written instruction”?'
+                          Other, 0x1178ce800, {{16.0, 430.0}, {370.0, 297.0}}
+                          Button, 0x1178cd7c0, {{16.0, 430.0}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with a black tram, overhead diamond and wheels.'
+                            StaticText, 0x1178ced00, {{34.0, 448.0}, {18.3, 38.3}}, label: 'A'
+                            Other, 0x1178cca00, {{34.0, 486.3}, {334.0, 222.7}}, label: 'Red-bordered yellow triangle with a black tram, overhead diamond and wheels.'
+                          Other, 0x1178cf340, {{16.0, 430.0}, {370.0, 394.0}}
+                          Button, 0x1178cc500, {{16.0, 741.0}, {301.3, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x1178ccc80, {{40.0, 749.0}, {253.3, 32.0}}, label: 'Enlarge option A image'
+                          Button, 0x1178cde00, {{16.0, 803.0}, {370.0, 45.0}}, label: 'Black horizontal strip with a row of closely spaced tiny white rectangular dashes.'
+                            StaticText, 0x1178cd040, {{34.0, 821.0}, {17.7, 3.0}}, label: 'B'
+                          Other, 0x1178ce440, {{16.0, 803.0}, {370.0, 21.0}}
+                          Button, 0x1178ce580, {{16.0, 1114.0}, {300.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x1178cc000, {{16.0, 1176.0}, {370.0, 297.0}}, label: 'Rounded yellow black-bordered panel with two black tapering upright strips, the right strip branching into an up-right arrow, beside the number 75.'
+                          Button, 0x1178cdcc0, {{16.0, 1487.0}, {302.0, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1178cfe80, {{16.0, 1549.0}, {370.0, 297.0}}, label: 'White outlined rectangular panel with the thin outlined word Text.'
+                          Button, 0x1178cf0c0, {{16.0, 1860.0}, {302.0, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1178cfd40, {{16.0, 1922.0}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1178ccdc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1178cd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1178cd540, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1178cc3c0, pid: 65451, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1178cd400, pid: 65451, label: 'Körkort'
+  }
+)
