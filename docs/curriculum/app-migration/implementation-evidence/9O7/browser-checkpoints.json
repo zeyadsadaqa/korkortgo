@@ -1,0 +1,139 @@
+[
+  {
+    "name": "home",
+    "accessibility_file": "home.txt",
+    "screenshot": "home.png"
+  },
+  {
+    "name": "reader",
+    "accessibility_file": "reader.txt",
+    "screenshot": "reader.png"
+  },
+  {
+    "name": "answer-hidden",
+    "accessibility_file": "answer-hidden.txt",
+    "screenshot": "answer-hidden.png"
+  },
+  {
+    "name": "answer-revealed",
+    "accessibility_file": "answer-revealed.txt",
+    "screenshot": "answer-revealed.png"
+  },
+  {
+    "name": "source-detail",
+    "accessibility_file": "source-detail.txt",
+    "screenshot": "source-detail.png"
+  },
+  {
+    "name": "source-return",
+    "accessibility_file": "source-return.txt",
+    "screenshot": "source-return.png"
+  },
+  {
+    "name": "library-return",
+    "accessibility_file": "library-return.txt",
+    "screenshot": "library-return.png"
+  },
+  {
+    "name": "reference-zoom",
+    "accessibility_file": "reference-zoom.txt",
+    "screenshot": "reference-zoom.png"
+  },
+  {
+    "name": "reference-return",
+    "accessibility_file": "reference-return.txt",
+    "screenshot": "reference-return.png"
+  },
+  {
+    "name": "setup",
+    "accessibility_file": "setup.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "quiz",
+    "accessibility_file": "quiz.txt",
+    "screenshot": "quiz.png"
+  },
+  {
+    "name": "guard",
+    "accessibility_file": "guard.txt",
+    "screenshot": "guard.png"
+  },
+  {
+    "name": "guard-return",
+    "accessibility_file": "guard-return.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "assessment-zoom",
+    "accessibility_file": "assessment-zoom.txt",
+    "screenshot": "assessment-zoom.png"
+  },
+  {
+    "name": "assessment-return",
+    "accessibility_file": "assessment-return.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "confirmed-deferred",
+    "accessibility_file": "confirmed-deferred.txt",
+    "screenshot": "confirmed-deferred.png"
+  },
+  {
+    "name": "results",
+    "accessibility_file": "results.txt",
+    "screenshot": "results.png"
+  },
+  {
+    "name": "expanded-review",
+    "accessibility_file": "expanded-review.txt",
+    "screenshot": "expanded-review.png"
+  },
+  {
+    "name": "related-teaching",
+    "accessibility_file": "related-teaching.txt",
+    "screenshot": "related-teaching.png"
+  },
+  {
+    "name": "review-return",
+    "accessibility_file": "review-return.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "review-source",
+    "accessibility_file": "review-source.txt",
+    "screenshot": "review-source.png"
+  },
+  {
+    "name": "review-source-return",
+    "accessibility_file": "review-source-return.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "setup-return",
+    "accessibility_file": "setup-return.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "empty-library",
+    "accessibility_file": "empty-library.txt",
+    "screenshot": "empty-library.png"
+  },
+  {
+    "name": "library-recovered",
+    "accessibility_file": "library-recovered.txt",
+    "screenshot": null,
+    "retention_note": "Accessibility snapshot retained; repetitive screenshot removed during cleanup."
+  },
+  {
+    "name": "fresh-defaults",
+    "accessibility_file": "fresh-defaults.txt",
+    "screenshot": "fresh-defaults.png"
+  }
+]

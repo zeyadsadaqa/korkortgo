@@ -1,0 +1,323 @@
+{
+  "status": "passed_available_browser_scope",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "build": "wasmJsBrowserDistribution passed",
+  "asset_bindings": 484,
+  "fonts": 4,
+  "font_licenses": 2,
+  "browser": "Codex in-app browser on macOS",
+  "verified_origin": "http://127.0.0.1:8773/",
+  "checkpoint_assertions": {
+    "home": [
+      "1000 practice questions 10 modules 40 lessons"
+    ],
+    "answer-hidden": [
+      "Show answer"
+    ],
+    "answer-revealed": [
+      "Hide answer",
+      "The amendment has transitional rules"
+    ],
+    "library-return": [
+      "Value: Your route into driving"
+    ],
+    "reference-zoom": [
+      "150%"
+    ],
+    "quiz": [
+      "Red-bordered yellow triangle with a single black rounded hump"
+    ],
+    "guard": [
+      "Leave this test?",
+      "Keep practising"
+    ],
+    "assessment-zoom": [
+      "150%",
+      "Question illustration"
+    ],
+    "confirmed-deferred": [
+      "Answer saved."
+    ],
+    "results": [
+      "0 / 1"
+    ],
+    "expanded-review": [
+      "Correct answer",
+      "Your answer",
+      "Read the rural road"
+    ],
+    "review-return": [
+      "Hide explanation"
+    ],
+    "review-source": [
+      "Varning f\u00f6r farthinder"
+    ],
+    "review-source-return": [
+      "Hide explanation"
+    ],
+    "setup-return": [
+      "text entry area (settable) 1"
+    ],
+    "empty-library": [
+      "No matching lessons."
+    ],
+    "library-recovered": [
+      "Your route into driving Lesson"
+    ],
+    "fresh-defaults": [
+      "text entry area (settable) 70"
+    ]
+  },
+  "deferred_sessions_completed": 1,
+  "observed_result": "0/1",
+  "modal_background_exclusion": "passed in stable native accessibility snapshots",
+  "unresolved_required_checks_for_current_static_web_scope": [],
+  "limits": [
+    "One available browser; no cross-engine/mobile-browser claim",
+    "Representative session/images, not a new full question/theme/text matrix",
+    "No browser screen-reader listening audit",
+    "External Open source callback/site availability not exercised in this browser run",
+    "Static local-resource delivery; no service worker or guaranteed offline cold reload"
+  ],
+  "runtime_cleanup": {
+    "temporary_tab": "closed",
+    "servers": [
+      {
+        "port": 8772,
+        "pid": 24831,
+        "status": "stopped_task_local_server"
+      },
+      {
+        "port": 8773,
+        "pid": 25101,
+        "status": "stopped_task_local_server"
+      }
+    ],
+    "user_browser_tabs_modified": false
+  },
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/README.md",
+      "sha256": "63bcdda33f57027e4f7111f7ece7dac5c9cee4b161fe726b808f7dbd53af335e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/accepted-release-check.txt",
+      "sha256": "ffeeae2e68bb28de3215c2fdd7c30d5328d6d28d07001f5d6c9a8e91824db82a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/answer-hidden.png",
+      "sha256": "a0323c5987e173bc4f4ef553d5656f9a997be90790e48bba2c00154039958ba5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/answer-hidden.txt",
+      "sha256": "54bfa875d6c2af818dc1909db485c780a91c6523658924e6f3e3a5c831e808ec"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/answer-revealed.png",
+      "sha256": "917c1e849cc856d75c82fd84444091bf076b779a4ca82d9906d75c87491e99b8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/answer-revealed.txt",
+      "sha256": "c529c9b3a147e3d1f14f23a5491ba250be9d0ca9ec52c423c362d15efe05ba9f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/assessment-return.txt",
+      "sha256": "3075f05c68a1816c00bb902a303c7a637f575889a41bddf1ab35f38c4dc54259"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/assessment-zoom.png",
+      "sha256": "6a2baf4c524ddcd4dc7860046a07f9bec2e92c796d5c45f2f00b1e5120e0d467"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/assessment-zoom.txt",
+      "sha256": "bd0a6a982be094513b825ea1e23480f6b34df6f73d9b26f2bd2fe7a898e7ca07"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/browser-checkpoints.json",
+      "sha256": "ed7eba9fa55c0d078dcb02fb7fe79a3d6b85b3f834d1c26b3b294d247d0a2e39"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/candidate.json",
+      "sha256": "6b523875d7551ca06da44142883698c346e16f3c8b4fdf5707138c14bd958513"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/cleanup.json",
+      "sha256": "d8468b4e1e2fe30e196306619993c7d7b1d6820b9936e4cd7435bbe654cc0727"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/confirmed-deferred.png",
+      "sha256": "8e9c90875e5afcb1e5c0d913ca0c794371ddc2b00af28bfb91189443928cbe52"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/confirmed-deferred.txt",
+      "sha256": "5ac5164280f59bdc20d297ff55c66855632cd47fdec90b1762877fb937e1f158"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/empty-library.png",
+      "sha256": "45d25df32d2561405b3bb6e89b80b9e7b79cf50652628e4b190543852cfecbb3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/empty-library.txt",
+      "sha256": "e66b3cdab79a1e0b88d8f13f0a62f246e8ebaa8ff03c6af4251166b6080ad58e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/expanded-review.png",
+      "sha256": "1998d62c7106d37f149f8bcf9775efdd143a0e64d92fb94c7d0f5c41f5e8f167"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/expanded-review.txt",
+      "sha256": "dd721a56443d996a3068ebbed76dc91fb48a3ca14b04a04093c46c16752f6fb5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/fresh-defaults.png",
+      "sha256": "ce3d34fc9b56c68452650e6146467949c9758e55740682902bad222d013289dd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/fresh-defaults.txt",
+      "sha256": "f335f0a74c4f98b004282beffba002daa3415e024ea8af064afa66438e0f802f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/guard-return.txt",
+      "sha256": "3075f05c68a1816c00bb902a303c7a637f575889a41bddf1ab35f38c4dc54259"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/guard.png",
+      "sha256": "b5557a59c574e9f837d0ecaa0deb47992aa4e670eff61f7d49a51f342a622c43"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/guard.txt",
+      "sha256": "9df143cc38e90e360064ecc9e8dfd641199327f48cf98d76d5d7e7945761a102"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/home.png",
+      "sha256": "5edc52484177c244d45d3baaee8d91350ff4c3a4979f03661d97fc7933cdb438"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/home.txt",
+      "sha256": "eee09c9da795c740fcedc2730ba1e142c0a14e9f3438c261c866bd5140c796b8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/http-parity.json",
+      "sha256": "859d2f04f6b422699469a6041d202c47b22aacc381238b4cf70e8b4eb1ec48c6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/library-recovered.txt",
+      "sha256": "00dfd0adc7f3794476c96c756bd599e3494c3d932a828a00a30442a17ccca875"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/library-return.png",
+      "sha256": "e1f264a1710d55be6a94af6d88badd4d985d981fa89b0e4b6d6187f346f028ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/library-return.txt",
+      "sha256": "be0c2d43cf070fb2c35f2848985948b925ab258b7aef8f53a2b7364275aa2b3a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/package-resources.json",
+      "sha256": "8484f70b36461c30b952aa7ce67c3cb6c0e5e8f01a9884e76d7b9f2967152fd7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/quiz.png",
+      "sha256": "3dd051410001d9cc38ae8a3d25bec5ba7315c048449b71b64a8b6150f1add496"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/quiz.txt",
+      "sha256": "beff1c92aee1b8552f0ee37873abf83cd2829129a76b8598dc4d90d15304cac2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reader.png",
+      "sha256": "b35e8d768b8ea68a10354d6bd3792146c71720b7feda6bbead9b2aab62ada362"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reader.txt",
+      "sha256": "7b958250a072007219ca8c76f30809e368c6f2ea4202102cea65d860b07780c0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reference-return.png",
+      "sha256": "512cceaf389d769abc430a9894d37d7883d3bc5e5607b9b7c861bd2fe6d0c898"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reference-return.txt",
+      "sha256": "357fc25bc874d94403a621785b3243ed2ef56ebaf69515a793dc32a7e8b9af32"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reference-zoom.png",
+      "sha256": "452b804de5cce63f3e3c7429d40fc2343e54e44c4c6b65a97e60bafbd748277d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/reference-zoom.txt",
+      "sha256": "e68149dce53ea3904a7760ad95155dce2a61eb28f63cc985e3b97de01bf9541d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/related-teaching.png",
+      "sha256": "b0b8c48f7ce76a78179b4b32dafd2a22b9e01434a4e680a8b467cfca0db17ea6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/related-teaching.txt",
+      "sha256": "ddc3c5717ce7b5f396afb9666550a259a3127d1bb78fe78cb1326bd9e5222049"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/results.png",
+      "sha256": "0579a3094d0c0cf44138b8819c1690cba3a2e08e6a7f1902b5368ea30e2b84f7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/results.txt",
+      "sha256": "3670ae9739f50c8bf3b570a908d08dfb6f4330834785ace2736177ce62ffcca1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/review-return.txt",
+      "sha256": "0b919d1a952ba40443be508c07e7ce5f48cef9b1fa79f2bb0abcf7d4b84e77f3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/review-source-return.txt",
+      "sha256": "abef75379e1367b42893b99c1c03a7a379bbe7f6b078979631d9f74e09b9203b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/review-source.png",
+      "sha256": "b10573df2486d8ed598160977e56d191a57dba8a77ea266d629113be8b66abcc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/review-source.txt",
+      "sha256": "1b5dc3eb0efa26803a14350897d14e37ac269ee01babb5464ef2103030fb432d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/runtime-cleanup.json",
+      "sha256": "1848a91a4f1a137e9c27941353b318813b58ded6bbef3a1549e1174504a929d2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/setup-return.txt",
+      "sha256": "5d438adea6b7f8c098684637d444f79c7731c475ab8e7644e9cc7555dfae5d3d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/setup.txt",
+      "sha256": "7fe96da2594526615a7cca26df7affde1fa2b5bf026a32293fa388ea5acdbb6a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/source-detail.png",
+      "sha256": "fefa7e936527d52bf31152c7e84ed9d50685fc82265358ec9a65682a2c43030f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/source-detail.txt",
+      "sha256": "1d8a68edd6d3866373c9a5fa7e210206ac010211a2e2150428d03558470494a3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/source-return.png",
+      "sha256": "a0323c5987e173bc4f4ef553d5656f9a997be90790e48bba2c00154039958ba5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/source-return.txt",
+      "sha256": "e9e3980027b563bc5f069a5f8a606f84ac1ebf4cb9aac7aa219de2df8d6a384d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O7/web-build.txt",
+      "sha256": "a78164680ce9310cecfc131db13bf62ddcabddf8fbd87a5ff720633b6c29706e"
+    }
+  ]
+}
