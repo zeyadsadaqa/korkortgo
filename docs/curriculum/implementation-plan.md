@@ -510,6 +510,8 @@ All deliverables are saved under `docs/curriculum/`. Update the [progress tracke
 
 ## 9. Implement the approved app changes
 
+**Current status — 20 October 2026: Implementation complete within the accepted scope; ready for separately requested step 10.** The [implementation handoff](app-migration/implementation-evidence/implementation-review.md) and [evidence index](app-migration/implementation-evidence/evidence-index.json) account for all 125 executable records and 1,000 accepted IDs with no active holds. Physical iPhone runtime remains excluded/unperformed under the bound simulator-only policy; desktop is the configured JVM harness and web uses static hosting. Scope limits, conditional future-store cases and pending independent T01–T10 verification are explicit. Historical checkpoints below are retained; this status does not certify step 10 or authorize publication.
+
 Execute the numbered tasks below separately, using their saved inputs. **9A–9O are groups matching the existing migration backlog; the executable steps are 9A1, 9A2, and so on.** A request such as “Execute step 9E3” selects one bounded task, not its entire group. Completing a task does not automatically start another. This breakdown is planning only; it does not start implementation or mark any task complete.
 
 **Entry requirements:** Completed 7G and explicit complete-package approval in [8O](app-design-review.md), plus a separate implementation request. Recheck input identity before work: the recorded approval does not establish that today's files still match. Any new or changed visual design requires an imagegen preview and explicit approval before implementation.
@@ -2038,6 +2040,8 @@ Check the configured wasmJs build/resources and browser runtime: package resourc
 **Done when:** Build/resource checks and available runtime checks pass for this exact manifest; missing required device/accessibility/delivery evidence is explicit and remains a release blocker.
 
 #### 9O8. Assemble the implementation handoff
+
+**Status — 20 October 2026: Complete within the accepted scope.** [Review](app-migration/implementation-evidence/implementation-review.md), [machine index](app-migration/implementation-evidence/evidence-index.json) and [handoff checks](app-migration/implementation-evidence/9O8/results.json) cross-check all 125 executable steps, 1,000 per-ID accepted records (336 retained / 626 rewritten / 38 replaced), source/assets, current platform evidence and all ten future verification gates. Six final generation/delivery/release checks reproduce the unchanged accepted package. Four expected historical snapshot differences are documented, not hidden. No current implementation blocker under the bound policy; physical runtime and other scoped limitations remain unperformed/excluded as stated. Step 10 is not started and requires a separate user request.
 
 Cross-check every executable step, per-ID acceptance, source/asset evidence, platform results and T01–T10 coverage. Record the exact candidate, reproduction commands and remaining issues for independent verification.
 
