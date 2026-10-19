@@ -1,0 +1,10 @@
+{
+  "status": "passed_build_only",
+  "framework": "composeApp/build/bin/iosArm64/debugFramework/KorkortKit.framework",
+  "executable_sha256": "d45d30385e0659467b47cd59cad6d99f57d0e1dd3094f678e03af52de3b859db",
+  "architecture": "arm64",
+  "platform": "iOS device, not simulator",
+  "framework_plist_sha256": "feba096274ee5609ec99aaeffd8695baa40151b89d5e63b6394fa863826fbad5",
+  "bundle_id": "se.korkort.KorkortKit",
+  "physical_device_installation_or_runtime": "not executed; excluded by accepted simulator-only policy"
+}

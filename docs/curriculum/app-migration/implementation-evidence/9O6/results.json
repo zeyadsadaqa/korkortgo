@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-20",
+  "status": "build_resources_passed_physical_runtime_excluded_by_policy",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "framework_build": "passed",
+  "device_resource_aggregation": "passed",
+  "resource_bindings": 484,
+  "fonts": 4,
+  "font_licenses": 2,
+  "binary_metadata": {
+    "architecture": "arm64",
+    "format": "Static framework archive, as configured by isStatic=true",
+    "object_build_platforms": [
+      "2"
+    ],
+    "platform_definition": "Mach-O platform 2 = iOS device; simulator is platform 7",
+    "objects_with_platform_metadata": 2837,
+    "inspection": "lipo -archs plus otool -l (vtool cannot inspect the static archive container directly)"
+  },
+  "physical_checks": [
+    {
+      "check": "device signing and installation",
+      "status": "not_executed_excluded_by_existing_policy"
+    },
+    {
+      "check": "offline teaching and assets on physical device",
+      "status": "not_executed_excluded_by_existing_policy"
+    },
+    {
+      "check": "library reader quiz source reference recovery on physical device",
+      "status": "not_executed_excluded_by_existing_policy"
+    },
+    {
+      "check": "VoiceOver and physical-device legibility",
+      "status": "not_executed_excluded_by_existing_policy"
+    }
+  ],
+  "unresolved_required_build_resource_checks": [],
+  "physical_device_accepted": false,
+  "current_required_scope_blockers": [],
+  "policy": {
+    "path": "content/delivery-targets.json",
+    "sha256": "cc4247ccc70720b3637eb54d9629e614c165f28b858eb7f4c3abc71af5662d60",
+    "value": {
+      "schema_version": 1,
+      "ios_scope": "simulator",
+      "authorization": "User selected iOS simulator instead of physical iPhone on 16 October 2026.",
+      "required_platforms": [
+        "android",
+        "desktop",
+        "ios_simulator",
+        "wasm_js"
+      ]
+    }
+  },
+  "simulator_evidence": "docs/curriculum/app-migration/implementation-evidence/9O5/results.json",
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/README.md",
+      "sha256": "00130889fd92f32a0c8639204e82a37752bfd4be34dd080d7248ffaddec1fa09"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/device-binary-metadata.json",
+      "sha256": "db96ccc3b85a1f6cb9fad18790e3709d58d14ae74a8b3af055895e68a6167c01"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/device-framework-build.txt",
+      "sha256": "8c5ea9180332402fbcce1f0d1f4730498a098f824d189fda8a12d0cb29cc084b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/device-package.json",
+      "sha256": "c8a4ffc57f37207fdc56d5c41edf265873424abdde8542c681f1872b99fc67a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/device-resources-build.txt",
+      "sha256": "d22e431f477cfe4b1d6cc762122b69439ca623f08f1cb45d739c39078e75ca0e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/resource-parity.json",
+      "sha256": "0625875491a819895beb70ddb1eeadd9802e36baadefebe8b497d115c26cb8d7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O6/scope.json",
+      "sha256": "86f730ca3cd9659a77f29339fe86d3c77f3ced7823ea17ea4d9fd3eeaabd3d6e"
+    }
+  ]
+}
