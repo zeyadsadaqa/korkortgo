@@ -758,3 +758,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **19 October — 9N1 completed:** Wrote the M01-L01 preparation/entitlement/training assessment brief from the 9B17 lesson and 7D zero-primary/zero-related gap. Rechecked official B eligibility, practice, risk training and theory-validity transition sources. Specified a fictional dossier, unscored checklist response, plausible mistakes and six observable acceptance criteria. No scored IDs, teaching, runtime or accepted-package inputs changed; 9N2–9N3 remain unstarted. [Brief](app-migration/assessment-coverage-briefs.md#m01-l01--your-route-into-driving--9n1).
+
+
+**19 October — 9N2 completed:** Wrote the M07-L04 combined-risk assessment brief from the 9B17 teaching and 7D zero-primary/one-related gap, preserving `situation-053` and its mapping. Rechecked the cited traffic rules and category B syllabus. Specified a staged unscored scenario, explicit supplied facts, adaptation/stop/route alternatives, an unsafe-continuation boundary, plausible mistakes and six checkable criteria. No teaching, scored IDs, runtime or accepted-package inputs changed; 9N3 remains unstarted. [Brief](app-migration/assessment-coverage-briefs.md#m07-l04--change-the-plan-when-risk-grows--9n2).
