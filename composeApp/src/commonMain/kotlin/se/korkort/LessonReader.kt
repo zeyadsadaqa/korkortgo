@@ -150,7 +150,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
     var enlarged by remember(asset.id){mutableStateOf(false)}
     var restore by remember(asset.id){mutableStateOf(false)}
     val focus=remember{FocusRequester()}
-    ExactAssetImage(asset,asset.studyAltText,Modifier.fillMaxWidth().height(180.dp))
+    ExactAssetImage(asset,asset.studyAltText,Modifier.readableArtworkFrame())
     OutlinedButton({enlarged=true},Modifier.focusRequester(focus).focusProperties{canFocus=true}){Text(label)}
     if(enlarged)AccessibleImageViewer(ImageViewerContent(asset,"Road signs and reference",asset.studyAltText)){enlarged=false;restore=true}
     LaunchedEffect(enlarged,restore){if(!enlarged && restore){withFrameNanos{};focus.requestFocus();restore=false}}

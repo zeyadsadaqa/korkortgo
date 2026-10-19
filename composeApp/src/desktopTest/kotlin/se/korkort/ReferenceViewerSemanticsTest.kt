@@ -57,7 +57,8 @@ class ReferenceViewerSemanticsTest {
                 val pixel=bitmap.getRGB(x,y)
                 if((pixel ushr 24)>0 && (pixel and 255)<220)painted++
             }
-            assertEquals(105f,b.height)
+            assertTrue(b.height>=220f,"Approved larger artwork frame must remain usable: $b")
+            assertTrue(b.width>=700f,"Artwork should use the available option width: $b")
             assertTrue(painted>100,"The image has semantics but no painted artwork: $painted pixels")
             File("build/verification/9L10/$name-pixels.json").writeText("{\"painted_pixels\":$painted,\"height_px\":${b.height}}")
         }

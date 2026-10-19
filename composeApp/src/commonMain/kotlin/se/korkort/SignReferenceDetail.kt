@@ -53,7 +53,7 @@ fun SignReferenceDetail(
                 Text(entry.officialNameSv,style=MaterialTheme.typography.headlineSmall)
             }
             @Composable fun artwork() {
-                ExactAssetImage(asset,asset.studyAltText,Modifier.fillMaxWidth().heightIn(min=180.dp).height(if(wide) 380.dp else 220.dp))
+                ExactAssetImage(asset,asset.studyAltText,Modifier.readableArtworkFrame(if(wide) 380.dp else 220.dp))
                 OutlinedButton(shape=RoundedCornerShape(6.dp), onClick={openedViewer=true;viewer=true},modifier=Modifier.fillMaxWidth().heightIn(min=48.dp).focusRequester(enlargeFocus).focusProperties{canFocus=true}) {Text("Enlarge image")}
             }
             @Composable fun description() {

@@ -37,7 +37,7 @@ fun AssessmentCard(
         Text(presentation.prompt, style = MaterialTheme.typography.headlineSmall)
         presentation.image?.let { picture ->
             val focus=remember(presentation.key) {FocusRequester()}
-            AssessmentPicture(picture, Modifier.fillMaxWidth().heightIn(min = 180.dp), image)
+            AssessmentPicture(picture, Modifier.readableArtworkFrame(), image)
             if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus).focusProperties{canFocus=true}) {Text("Enlarge question image")}
         }
         Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(14.dp)) {
@@ -53,7 +53,7 @@ fun AssessmentCard(
                         ).semantics(mergeDescendants = true) {}.padding(18.dp)) {
                             Text(choice.letter)
                             if (choice.text.isNotEmpty()) Text(choice.text)
-                            choice.image?.let { AssessmentPicture(it, Modifier.fillMaxWidth().heightIn(min = 105.dp), image) }
+                            choice.image?.let { AssessmentPicture(it, Modifier.readableArtworkFrame(), image) }
                             choice.correct?.let { correct ->
                                 Text(if (correct) "Correct answer" else if (choice.selected) "Your answer · Incorrect" else "Incorrect option")
                             }

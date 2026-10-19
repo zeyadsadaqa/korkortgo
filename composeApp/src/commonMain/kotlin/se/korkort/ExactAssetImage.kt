@@ -18,6 +18,8 @@ import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.layout.onSizeChanged
 import androidx.compose.ui.semantics.*
+import androidx.compose.ui.unit.Dp
+import androidx.compose.ui.unit.dp
 import org.jetbrains.compose.resources.decodeToImageBitmap
 import se.korkort.resources.Res
 import kotlin.coroutines.cancellation.CancellationException
@@ -39,6 +41,10 @@ internal suspend fun loadExactAsset(asset: CurriculumAsset): Painter {
         ExactVectorPainter(vector)
     } else BitmapPainter(bytes.decodeToImageBitmap())
 }
+
+/** Approved common frame: every option gets the same area, regardless of its meaning. */
+internal fun Modifier.readableArtworkFrame(minimumHeight: Dp = 220.dp): Modifier =
+    fillMaxWidth().heightIn(min = minimumHeight).aspectRatio(1.5f)
 
 /** Complete image at fit; zoom clips only the viewport. The source path/colour is never altered. */
 @Composable

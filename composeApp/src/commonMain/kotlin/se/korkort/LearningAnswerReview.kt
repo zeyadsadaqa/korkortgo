@@ -42,7 +42,7 @@ import androidx.compose.ui.unit.dp
     var enlarged by remember(image){mutableStateOf(false)}
     var restore by remember(image){mutableStateOf(false)}
     val focus=remember{FocusRequester()}
-    ExactAssetImage(readerAssets.single{it.id==image.assetId},image.description,Modifier.fillMaxWidth().height(180.dp))
+    ExactAssetImage(readerAssets.single{it.id==image.assetId},image.description,Modifier.readableArtworkFrame())
     OutlinedButton({enlarged=true},Modifier.focusRequester(focus).focusProperties{canFocus=true}){Text(label)}
     if(enlarged) AccessibleImageViewer(ImageViewerContent.assessment(image,readerAssets)){enlarged=false;restore=true}
     LaunchedEffect(enlarged,restore){if(!enlarged && restore){withFrameNanos{};focus.requestFocus();restore=false}}
