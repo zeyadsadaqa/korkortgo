@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-20",
+  "status": "passed_implementation_handoff_with_recorded_scope_limits",
+  "checks": {
+    "executable_steps": 125,
+    "accepted_question_ids": 1000,
+    "active_holds": 0,
+    "concepts": 500,
+    "question_dispositions": {
+      "retain": 336,
+      "rewrite": 626,
+      "replace": 38
+    },
+    "canonical_destinations": 1123,
+    "legacy_aliases": 1921,
+    "platform_result_sets": 6,
+    "indexed_current_file_fingerprints": 1067,
+    "historical_expected_file_differences": 4,
+    "future_step10_gates_indexed": 10
+  },
+  "accepted_manifest": {
+    "file": {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "current_implementation_blockers": [],
+  "independent_step10": "not_started; separate user request required; all T01\u2013T10 remain pending",
+  "new_full_suite_or_platform_runtime_run_claimed": false,
+  "fresh_commands": [
+    {
+      "command": [
+        "python3",
+        "tools/import_curriculum_remaining.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/import_curriculum_remaining.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_navigation.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/build_navigation.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_reader.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/build_reader.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/assemble_question_package_9j.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/assemble_question_package_9j.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/review_question_delivery_9j.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/review_question_delivery_9j.txt"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/finalize_question_package_9j.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log": "docs/curriculum/app-migration/implementation-evidence/9O8/finalize_question_package_9j.txt"
+    }
+  ],
+  "scope_exclusions": [
+    "Physical iPhone runtime/signing/VoiceOver not executed; excluded by accepted simulator policy",
+    "Desktop configured JVM harness, not a native desktop product/window",
+    "Web static hosting required; no guaranteed offline cold reload, full browser-engine matrix or fresh screen-reader listening audit",
+    "No universal source freshness or external-site availability certification",
+    "Three briefs do not add scored questions; four future-store/hot-replacement cases remain conditional"
+  ],
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/implementation-review.md",
+      "sha256": "35063d98b2d6bc95e520b8b1095c66f138bc61ac5034434bb326f06c5c10f1ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/evidence-index.json",
+      "sha256": "8502a710ca36a855d6c058dca09eeef78d57e4a6bf58ee9415ff61046f32d4a6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/assemble_question_package_9j.txt",
+      "sha256": "8451eafb61bd4a8110ffb44ea1b8d408640cb4157613eef6a579fe70a419e6cb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/build_handoff.py",
+      "sha256": "db97488afa5ed9f02e1c9732b95b0f05f51a5a720ff832a3aaee7f1310f10116"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/build_navigation.txt",
+      "sha256": "03a887d49f506908a402c46560f10d5bbd795afc51229d727ee744b0e5766b97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/build_reader.txt",
+      "sha256": "f0f90d38eda9bcd9fb1aa23c6f20d54ad154342951d45153e150590b9973f880"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/commands.json",
+      "sha256": "2afd5f175f09cf83e4cb84584052f3a0d8b99c21c4d61b45814626d55d01cbe5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/finalize_question_package_9j.txt",
+      "sha256": "ffeeae2e68bb28de3215c2fdd7c30d5328d6d28d07001f5d6c9a8e91824db82a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/handoff-check.txt",
+      "sha256": "0f20f80e64acf54ee3529ce8bb38bd9af415ffa8b22bc91e7825f00ee9f9c588"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/import_curriculum_remaining.txt",
+      "sha256": "6720bdf98cbd1b28861e464f7620cf3aa31a89cea7e71431efc57f81bc1eaa19"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O8/review_question_delivery_9j.txt",
+      "sha256": "f19b9bbcdde41ef68475feeb1d020d6cec1e4fc38d2126d528b5d15df4736b90"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "command": [
+      "python3",
+      "tools/import_curriculum_remaining.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/import_curriculum_remaining.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/build_navigation.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/build_navigation.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/build_reader.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/build_reader.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/assemble_question_package_9j.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/assemble_question_package_9j.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/review_question_delivery_9j.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/review_question_delivery_9j.txt"
+  },
+  {
+    "command": [
+      "python3",
+      "tools/finalize_question_package_9j.py",
+      "--check"
+    ],
+    "exit_code": 0,
+    "log": "docs/curriculum/app-migration/implementation-evidence/9O8/finalize_question_package_9j.txt"
+  }
+]
