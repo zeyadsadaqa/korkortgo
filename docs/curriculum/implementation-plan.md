@@ -2003,6 +2003,8 @@ Check the configured JVM desktop package and desktop runtime: package resources,
 
 #### 9O5. Check the iOS simulator candidate
 
+**Status — 19 October 2026: Complete for the authorized simulator scope.** [Fresh iOS evidence](app-migration/implementation-evidence/9O5/README.md) binds the unchanged 9O2 manifest: normal/proof/restored framework/app builds, all 484 packaged artwork bindings, fonts/licences and six native tests pass on iPhone 17 / iOS 26.5. Both production feedback modes and four scoped description/trait audits pass. Added the missing shared `Korkort` app scheme so documented normal Build/Run works; no runtime/content change. Original simulator retained and normal app restored. No unresolved required simulator check; physical-device, VoiceOver listening and network-isolation claims are excluded.
+
 Check the configured iosSimulatorArm64 framework and simulator runtime: package resources, offline teaching/assets and representative library/reader/quiz/source/reference/recovery paths.
 
 **Input:** 9O2 candidate, configured toolchain and target runtime.
