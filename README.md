@@ -5,7 +5,7 @@ An English-language Swedish category B theory app built with Kotlin Multiplatfor
 ## Features
 
 - **1,000 questions**, four options each, with a correct answer and an explanation for every option.
-- Five knowledge areas using the requested category names.
+- Five knowledge areas: vehicle knowledge, environment, traffic safety, traffic rules and personal conditions.
 - Any test length from **1 to 70**.
 - Immediate feedback or answers revealed only after completing the test.
 - Results by category, filtered answer review, related lessons and another-test flow.
@@ -49,11 +49,15 @@ The browser uses WebAssembly GC, supported by modern Chrome, Edge, Firefox and S
 
 ## Content and provenance
 
+See [accepted-content build and regeneration guidance](docs/development/content.md) and the [provenance and credit inventory](docs/curriculum/app-migration/provenance-inventory.md).
+
 - `content/concepts.tsv`: 178 authored situation questions and misconception-specific explanations.
 - `content/accepted-assessment-questions.json`: the accepted, reviewable 1,000-question production bank.
 - `content/accepted-content-manifest.json`: validated release identity, payload hashes and counts.
 - `content/assessment-questions.json`: retained historical candidate and hold evidence.
 - `content/curriculum.json`: canonical teaching, references, exact artwork and source evidence.
+- `content/package-sources.json`: the accepted manifest’s classified source references, dates and scope limits.
+- `content/delivery-targets.json`: explicit platform acceptance policy, including simulator-scoped iOS evidence.
 - `content/signs.json`: official sign URLs, image URLs, retrieval dates and SHA-256 hashes.
 - `content/source-manifest.json`: the official catalogue and rules pages visited.
 - `content/quality-report.json`: counts and content composition.
@@ -78,11 +82,13 @@ python3 tools/finalize_question_package_9j.py --check
 
 Do not run the historical `build_content.py` over the accepted release. Content changes require renewed parity, delivery and release validation.
 
-To refresh official assets, install `beautifulsoup4`, then run `python3 tools/scrape_sources.py`. The downloader only follows the requested public website section and stores a source manifest; review updated wording before regenerating the bank.
+Official asset refreshes require a separate source/reuse review and renewed hash, delivery and release checks. The historical scraper is documented in the build guide; running it alone does not update the accepted release.
+
+Road-sign illustrations: Transportstyrelsen. English labels and explanations are editorial translations. Contextual illustrations: KörkortGo, built-in imagegen artwork. Source Sans 3 and Source Serif 4 ship with their SIL Open Font License texts; retain them with redistributed font resources. Exact per-asset credits, reuse conditions, approval records and licence locations are listed in the provenance inventory.
 
 ## Design
 
-The approved ImageGen boards are in `design/mockups/`, with the full prompts in `prompts.md`. They cover overview, library, reader, setup, question, feedback, results and review, including mobile adaptations. They are design references; the app uses actual UI components and official sign assets, not mockup images as screens.
+Original ImageGen boards are in `design/mockups/`, with prompts in `prompts.md`; the curriculum migration’s approved screen references and bindings are in `docs/curriculum/app-design/`. They cover overview, library, reader, setup, question, feedback, results and review, including mobile adaptations. They are design references; the app uses actual UI components and official sign assets, not mockup images as screens.
 
 ## Project structure
 
