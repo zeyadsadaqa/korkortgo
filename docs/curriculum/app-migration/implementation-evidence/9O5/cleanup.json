@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-20",
+  "scope": "New 9O5 evidence only",
+  "removed": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/normal-xcode-build.txt",
+      "bytes": 843,
+      "sha256": "78f694e1683c05bf01068c15ae57ae084c97582d4905415c55c1eb708a60f003"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/normal-xcode-retry-build.txt",
+      "bytes": 967,
+      "sha256": "91163c707b913104ecf0589413b57185ab531c9b9dde055afd05ae25c25433ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/normal-xcode-testing-build.txt",
+      "bytes": 138242,
+      "sha256": "7cdc524e863853d4a4d8bdb9be1c9c07a20c82f02ef249c65c01c2fcd034af20"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/attachment-export.txt",
+      "bytes": 6418,
+      "sha256": "ae2ce3297e6e84cc7b3d089d6556c867b9368e31eb603b8162f5cec0bbfac2bc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/native/production-false-results.png",
+      "bytes": 226336,
+      "sha256": "612d5147652f76e03f63597e0b59150b72d18c00d0e28c6159496af2f693b705"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/native/production-false-setup-return.png",
+      "bytes": 218277,
+      "sha256": "2c50f3f7fbfa8111d29e7b03771dc5fadccf2831a7802830d4b39dd1409bb40d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O5/native/production-true-setup-return.png",
+      "bytes": 218021,
+      "sha256": "159d1bf931316798c777b54158baa2b6ef08d6ae10913043d7626f071be26125"
+    }
+  ],
+  "removed_bytes": 809104,
+  "runtime_or_accepted_inputs_removed": false,
+  "retention": "Native trees, passing summary/log, representative screenshots, source/resource identities and final normal build/launch evidence preserved."
+}

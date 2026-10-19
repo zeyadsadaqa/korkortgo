@@ -1,0 +1,74 @@
+Optional(Attributes: Application, 0x10b6c6940, pid: 21255, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x10b6c6940, pid: 21255, label: 'KörkortGo'
+    Window (Main), 0x10b6c6a80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10b6c6bc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10b6c5e00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10b6c5f40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10b6c6080, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10b6c61c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10b6c6300, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10b6c6440, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10b6c6580, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10b6c66c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10b6c6800, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10b6c6d00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Button, 0x10b6c6e40, {{24.0, 78.7}, {236.7, 75.3}}, label: 'KörkortGo'
+                        StaticText, 0x10b6c6f80, {{36.0, 86.7}, {212.7, 59.3}}, label: 'KörkortGo'
+                      StaticText, 0x10b6c70c0, {{260.7, 78.0}, {117.3, 76.7}}, label: 'ENGLISH · CATEGORY B'
+                      Button, 0x10b6c7200, {{24.0, 154.7}, {113.3, 48.0}}, label: 'Overview'
+                        StaticText, 0x10b6c7340, {{36.0, 162.7}, {89.3, 32.0}}, label: 'Overview'
+                      Button, 0x10b6c7480, {{145.3, 154.7}, {174.0, 48.0}}, label: 'Learning library'
+                        StaticText, 0x10b6c75c0, {{157.3, 162.7}, {150.0, 32.0}}, label: 'Learning library'
+                      Button, 0x10b6c7700, {{24.0, 202.7}, {103.0, 48.0}}, label: 'Practice'
+                        StaticText, 0x10b6c7840, {{36.0, 210.7}, {79.0, 32.0}}, label: 'Practice'
+                      Other, 0x10b6c7980, {{0.0, 267.7}, {402.0, 572.3}}
+                        Other, 0x10b6c7ac0, {{0.0, 267.7}, {402.0, 572.3}}
+                        StaticText, 0x10b6c7c00, {{24.0, 291.7}, {143.0, 38.3}}, label: 'PRACTICE TEST'
+                        Other, 0x10b6c7d40, {{24.0, 340.0}, {354.0, 206.0}}, label: 'Make every question count.'
+                        Other, 0x10b6c7e80, {{24.0, 582.0}, {354.0, 258.0}}
+                        StaticText, 0x10b6bfd40, {{48.0, 606.0}, {306.0, 76.7}}, label: '1. How many questions?'
+                        TextView, 0x10b6bf700, {{48.0, 696.7}, {306.0, 83.0}}, label: '1'
+                          Other, 0x10b6bf5c0, {{48.0, 709.3}, {306.0, 70.3}}
+                          StaticText, 0x10b6bfe80, {{64.0, 696.7}, {238.0, 25.7}}, label: 'Number of questions (1–70)'
+                          Other, 0x10b6bf480, {{64.0, 720.7}, {274.0, 48.0}}
+                        Button, 0x10b6bf340, {{48.0, 793.7}, {55.3, 48.0}}, label: '10'
+                          StaticText, 0x10b6bd7c0, {{64.0, 801.7}, {23.3, 32.0}}, label: '10'
+                        Button, 0x10b6bfac0, {{111.3, 793.7}, {55.3, 48.0}}, label: '20'
+                          StaticText, 0x10b6bcdc0, {{127.3, 801.7}, {23.3, 32.0}}, label: '20'
+                        Button, 0x10b6bebc0, {{174.7, 793.7}, {55.3, 48.0}}, label: '40'
+                          StaticText, 0x10b6bea80, {{190.7, 801.7}, {23.3, 32.0}}, label: '40'
+                        Button, 0x10b6bfc00, {{238.0, 793.7}, {55.3, 48.0}}, label: '70'
+                          StaticText, 0x10b6bf840, {{254.0, 801.7}, {23.3, 32.0}}, label: '70'
+                        StaticText, 0x10b6bf980, {{48.0, 905.7}, {306.0, 76.7}}, label: '2. Reveal the answers'
+                        Button, 0x10b705540, {{48.0, 996.3}, {306.0, 161.3}}, label: 'After each question
+See the answer and all four explanations as you go.', Selected
+                        Button, 0x10b705400, {{48.0, 1171.7}, {306.0, 169.3}}, label: 'At the end of the test
+Finish the test first, then review every answer.'
+                        StaticText, 0x10b7052c0, {{48.0, 1413.0}, {306.0, 95.3}}, label: 'Your question mix'
+                        StaticText, 0x10b706300, {{340.3, 1522.3}, {13.7, 38.3}}, label: '0'
+                        StaticText, 0x10b705f40, {{48.0, 1522.3}, {292.3, 76.7}}, label: 'Vehicle knowledge & maneuvering'
+                        StaticText, 0x10b705e00, {{48.0, 1613.0}, {292.3, 38.3}}, label: 'Environment'
+                        StaticText, 0x10b705cc0, {{340.3, 1613.0}, {13.7, 38.3}}, label: '0'
+                        StaticText, 0x10b705900, {{48.0, 1665.3}, {292.3, 38.3}}, label: 'Traffic safety'
+                        StaticText, 0x10b7057c0, {{340.3, 1665.3}, {13.7, 38.3}}, label: '0'
+                        StaticText, 0x10b705680, {{48.0, 1717.7}, {292.3, 38.3}}, label: 'Traffic rules'
+                        StaticText, 0x10b704000, {{340.3, 1717.7}, {13.7, 38.3}}, label: '1'
+                        StaticText, 0x10b707e80, {{48.0, 1770.0}, {292.3, 38.3}}, label: 'Personal conditions'
+                        StaticText, 0x10b707d40, {{340.3, 1770.0}, {13.7, 38.3}}, label: '0'
+                        StaticText, 0x10b707c00, {{340.3, 1822.3}, {13.7, 38.3}}, label: '0'
+                        StaticText, 0x10b707ac0, {{48.0, 1822.3}, {292.3, 76.7}}, label: 'Random from any category'
+                        StaticText, 0x10b707980, {{48.0, 1913.0}, {306.0, 153.3}}, label: 'The extra random questions can belong to any category. No repeated learning point within a test.'
+                        Button, 0x10b707840, {{48.0, 2080.3}, {158.7, 64.0}}, label: 'Start test  >'
+                        StaticText, 0x10b707700, {{48.0, 2158.3}, {306.0, 76.7}}, label: 'No time pressure. All questions count towards your practice score.'
+    Window, 0x10b7075c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10b707480, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10b707200, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10b6c6940, pid: 21255, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x10b707340, pid: 21255, label: 'KörkortGo'
+  }
+)

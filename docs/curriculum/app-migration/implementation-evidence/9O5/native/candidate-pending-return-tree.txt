@@ -1,0 +1,55 @@
+Optional(Attributes: Application, 0x10ad217c0, pid: 21660, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x10ad217c0, pid: 21660, label: 'KörkortGo'
+    Window (Main), 0x10ad20640, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10ad230c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10ad22940, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10ad21180, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10ad221c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10ad20b40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10ad21f40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10ad22440, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10ad23840, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10ad22d00, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10ad20140, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10ad22bc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x10ad21400, {{4.0, 66.0}, {135.0, 24.0}}, label: 'Unscored verification fixture'
+                      StaticText, 0x10ad21540, {{147.0, 62.0}, {125.0, 24.0}}, label: 'Fixture: sign-recognise-A1'
+                      StaticText, 0x10ad21680, {{0.0, 94.0}, {135.3, 24.0}}, label: 'Exact question images ready'
+                      Button, 0x10ad235c0, {{139.3, 94.0}, {104.3, 40.0}}, label: 'Next fixture'
+                        StaticText, 0x10ad226c0, {{151.3, 108.0}, {80.3, 20.0}}, label: 'Next fixture'
+                      Other, 0x10ad23ac0, {{16.0, 158.0}, {370.0, 666.0}}
+                        Other, 0x10ad20280, {{16.0, 158.0}, {370.0, 666.0}}
+                        Other, 0x10ad208c0, {{16.0, 158.0}, {370.0, 666.0}}
+                          StaticText, 0x10ad23e80, {{16.0, -181.7}, {370.0, 64.0}}, label: 'Which illustration identifies “Dangerous bend”?'
+                          Other, 0x10ad22300, {{16.0, 158.0}, {370.0, 21.0}}
+                          Button, 0x10ad20780, {{16.0, 134.0}, {370.0, 45.0}}, label: 'Red-bordered yellow circle with a black rider on a tracked vehicle with front skis, crossed by a red diagonal bar.'
+                            Other, 0x10ad21a40, {{34.0, 158.0}, {334.0, 3.0}}, label: 'Red-bordered yellow circle with a black rider on a tracked vehicle with front skis, crossed by a red diagonal bar.'
+                          Other, 0x10ad23200, {{16.0, 158.0}, {370.0, 666.0}}
+                          Button, 0x10ad22080, {{16.0, 193.0}, {206.3, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x10ad22e40, {{40.0, 207.0}, {158.3, 20.0}}, label: 'Enlarge option A image'
+                          Button, 0x10ad212c0, {{16.0, 255.0}, {370.0, 282.7}}, label: 'Black rectangle with a white seated figure and large wheel symbol.'
+                            StaticText, 0x10ad23d40, {{34.0, 273.0}, {11.3, 24.0}}, label: 'B'
+                            Other, 0x10ad20c80, {{34.0, 297.0}, {334.0, 222.7}}, label: 'Black rectangle with a white seated figure and large wheel symbol.'
+                          Other, 0x10ad20500, {{16.0, 255.0}, {370.0, 282.7}}
+                          Button, 0x10ad21cc0, {{16.0, 551.7}, {206.0, 48.0}}, label: 'Enlarge option B image'
+                            StaticText, 0x10ad23980, {{40.0, 565.7}, {158.0, 20.0}}, label: 'Enlarge option B image'
+                          Button, 0x10b704c80, {{16.0, 613.7}, {370.0, 234.3}}, label: 'Orange black-bordered rectangle with two upward black arrows; the left bends right, with a dashed lower divider and black diagonal wedge at upper left.', Selected
+                            StaticText, 0x10b704b40, {{34.0, 631.7}, {12.0, 24.0}}, label: 'C'
+                            Other, 0x10b704a00, {{34.0, 655.7}, {334.0, 168.3}}, label: 'Orange black-bordered rectangle with two upward black arrows; the left bends right, with a dashed lower divider and black diagonal wedge at upper left.'
+                          Other, 0x10b7048c0, {{16.0, 613.7}, {370.0, 210.3}}
+                          Button, 0x10b7061c0, {{16.0, 910.3}, {206.7, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x10b706440, {{16.0, 972.3}, {370.0, 282.7}}, label: 'Red-bordered yellow triangle with a thick black line rising from the bottom and bending left.'
+                          Button, 0x10b706300, {{16.0, 1269.0}, {207.0, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x10b705540, {{16.0, 1331.0}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x10b7052c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10b705180, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10b705040, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10ad217c0, pid: 21660, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x10b704f00, pid: 21660, label: 'KörkortGo'
+  }
+)
