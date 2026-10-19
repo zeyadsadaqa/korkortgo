@@ -2015,6 +2015,8 @@ Check the configured iosSimulatorArm64 framework and simulator runtime: package 
 
 #### 9O6. Check the iOS device candidate
 
+**Status — 20 October 2026: Build/resource checks complete; physical runtime excluded by existing accepted policy.** [9O6 evidence](app-migration/implementation-evidence/9O6/README.md) binds the unchanged 9O2 manifest and `content/delivery-targets.json`: normal `iosArm64` framework and resource aggregation pass, device ARM64/platform metadata is verified, and all 484 resource bindings plus fonts/licences match. Physical installation, signing, runtime, VoiceOver and legibility are **not executed / not passed**. The user-selected simulator scope remains in force; 9O5 supplies simulator evidence only. No current policy blocker, but physical-device acceptance remains unperformed and would require separate evidence if brought into scope.
+
 Check the configured iosArm64 framework and physical-device runtime: package resources, offline teaching/assets and representative library/reader/quiz/source/reference/recovery paths.
 
 **Input:** 9O2 candidate, configured toolchain and target runtime.
