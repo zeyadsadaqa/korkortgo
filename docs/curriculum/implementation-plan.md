@@ -1991,6 +1991,8 @@ Check the configured Android build/resources and available device or emulator: p
 
 #### 9O4. Check the desktop candidate
 
+**Status — 19 October 2026: Complete for the configured JVM desktop harness.** [Desktop evidence](app-migration/implementation-evidence/9O4/README.md) records a fresh desktop JAR build and 35 passing runtime/parity/state tests across eight suites against the unchanged 9O2 manifest. All 484 JAR/classpath artwork bindings, four fonts and both licences match; representative captures are retained. Local-resource, fixture/full-bank and accessibility limits are explicit. The configured target has no desktop app launcher/distribution or native window bridge; those are not claimed. No unresolved required harness check or production change.
+
 Check the configured JVM desktop package and desktop runtime: package resources, offline teaching/assets and representative library/reader/quiz/source/reference/recovery paths.
 
 **Input:** 9O2 candidate, configured toolchain and target runtime.
