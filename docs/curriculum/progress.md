@@ -761,3 +761,6 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **19 October — 9N2 completed:** Wrote the M07-L04 combined-risk assessment brief from the 9B17 teaching and 7D zero-primary/one-related gap, preserving `situation-053` and its mapping. Rechecked the cited traffic rules and category B syllabus. Specified a staged unscored scenario, explicit supplied facts, adaptation/stop/route alternatives, an unsafe-continuation boundary, plausible mistakes and six checkable criteria. No teaching, scored IDs, runtime or accepted-package inputs changed; 9N3 remains unstarted. [Brief](app-migration/assessment-coverage-briefs.md#m07-l04--change-the-plan-when-risk-grows--9n2).
+
+
+**19 October — 9N3 completed; 9N briefs closed:** Wrote the M10-L03 whole-journey review/reflection brief from the 9B17 teaching and 7D zero-primary/zero-related gap. Rechecked the relevant traffic provisions; specified explicit scene facts, five journey stages, evidence-based rationale, missed-hazard/safer-alternative analysis and six observable criteria, including process versus outcome and actionable reflection. All three briefs are complete. Bank sampling gaps remain recorded; no scored IDs, teaching, runtime or accepted-package inputs changed. [Brief](app-migration/assessment-coverage-briefs.md#m10-l03--explain-a-whole-journey--9n3).
