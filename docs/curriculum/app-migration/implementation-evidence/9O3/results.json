@@ -1,0 +1,369 @@
+{
+  "status": "passed_available_android_emulator_scope",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "runtime": {
+    "wifi_on": "1",
+    "mobile_data": "1",
+    "enabled_accessibility_services": "null",
+    "device": "sdk_gphone64_arm64",
+    "api": "36",
+    "android": "16"
+  },
+  "normal_apk": {
+    "status": "passed",
+    "apk_sha256": "e6bc295cd28072eeb1385197a95bb4195c6c4b7bdc91d8c036e4870670d4d354",
+    "package": "se.korkort.study",
+    "launcher": "se.korkort.MainActivity",
+    "proof_activity_present": false,
+    "asset_bindings_rechecked": 484
+  },
+  "native_checks": [
+    {
+      "method": "librarySearchSurvivesLessonAndNativeSourceReturn",
+      "status": "passed",
+      "phase": "focused corrected-selector rerun"
+    },
+    {
+      "method": "unknownQuestionAndLegacyChooserNeverGuessReading",
+      "status": "passed",
+      "phase": "initial six-test run"
+    },
+    {
+      "method": "referenceBackAndNativeModalPreserveContext",
+      "status": "passed",
+      "phase": "initial six-test run"
+    },
+    {
+      "method": "pendingCandidateSelectionSurvivesNativeZoom",
+      "status": "passed",
+      "phase": "initial six-test run"
+    },
+    {
+      "method": "nativeKnowledgeCheckRevealAndReadingNeighbours",
+      "status": "passed",
+      "phase": "initial six-test run"
+    },
+    {
+      "method": "productionPracticeAndReviewUseAcceptedPackage",
+      "status": "passed",
+      "phase": "initial six-test run"
+    }
+  ],
+  "initial_run": {
+    "tests": 6,
+    "passed": 5,
+    "failed": 1,
+    "failure": "Harness selected search EditText rather than matching lesson result; corrected only the affected test selector."
+  },
+  "focused_rerun": {
+    "tests": 1,
+    "passed": 1,
+    "failed": 0
+  },
+  "offline": {
+    "wifi_disabled": true,
+    "mobile_data_disabled": true,
+    "scope": "Normal launch and all native route tests; bundled source pages, not remote website availability."
+  },
+  "accessibility": {
+    "fresh": "Native AccessibilityNodeInfo actions, source keyboard-focus restoration, hidden-answer boundaries and neutral modal selection return.",
+    "prior_supporting_evidence": "docs/curriculum/app-migration/implementation-evidence/native-reader-routes/android",
+    "fresh_talkback_speech_or_traversal_claim": false
+  },
+  "unresolved_required_checks_for_available_emulator": [],
+  "limits": [
+    "No physical Android-device run",
+    "Prior accepted full delivery matrices retained; this step is representative native flow verification plus exhaustive APK byte parity",
+    "No fresh TalkBack speech comprehension or exhaustive spoken traversal",
+    "External websites are outside offline availability scope",
+    "9O4 onward and step 10 remain separate"
+  ],
+  "changes": "Verification test selector only; no production/runtime/content/asset changes.",
+  "toolchain": {
+    "java": "Microsoft OpenJDK 17.0.16",
+    "gradle": "8.14.3",
+    "android_api": "36",
+    "adb_target": "emulator-5554"
+  },
+  "restoration": {
+    "status": "passed",
+    "restored": {
+      "wifi_on": "1",
+      "mobile_data": "1"
+    },
+    "accessibility_settings_changed": false
+  },
+  "artifacts": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/README.md",
+      "sha256": "b382e401ea5d673bb06f8814e75973495ebb0a299614432cb431db108ba9cecb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/accepted-release-check.txt",
+      "sha256": "ffeeae2e68bb28de3215c2fdd7c30d5328d6d28d07001f5d6c9a8e91824db82a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/android-final-normal-build.txt",
+      "sha256": "a4784d98bb92f5947903176ec4f9d22353704f75b64f1a8280a96aca1013d6df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/android-normal-build.txt",
+      "sha256": "8d49717a2da058569ea07fb68e6d2beacb7d5151abd756fc11987beb4d0b4665"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/android-proof-build.txt",
+      "sha256": "de093d8fae4f4866e6cb7558e423a76ff4b5e6a5f23851abe3945253e00a604a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/android-proof-retry-build.txt",
+      "sha256": "84e6f811528b27e94241c8ea5db6cb6096299fa44dea332bc58bed746970d301"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/cleanup.json",
+      "sha256": "79de7d1af5f0bea3a3e3ef5a5ac862c6557572f82abcc18b9428d293c399da5a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/final-normal-manifest.txt",
+      "sha256": "45ad38c8eaaea410cfa52ab44d0c78f1e7d33905f0f3b112f711d20212dc2206"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/final-normal-package.json",
+      "sha256": "3ee049f22f4e8c2293c52ea1bb10f0dbbd6da0e9aa5041380594b4b1176bd4f2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/answer-hidden.json",
+      "sha256": "bca2fc0afb2bf7ab6096042e336c7a90e60cca8a8aef9e8de872b485ea351390"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/answer-hidden.png",
+      "sha256": "fa760e3981080adfd8a51fa914ac963c881e8f53a901dcc37cf867b76104107e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/answer-revealed.json",
+      "sha256": "d8874d56330fd0a404f9ec845a455d4f5cd090106c417d3a48dde394f1fe521c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/answer-revealed.png",
+      "sha256": "c72db3c82e596b875bbb45c50d4eaab606fcca9e34209ae1ad2df46b79ba8e7b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/candidate-modal.json",
+      "sha256": "1a026c529f0cfa22dc29d1c30ba9c9c192e8ecb3bd84408b9f18c4360e0d6fe1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/candidate-modal.png",
+      "sha256": "a206e0a4d97d5d8dd4deb0d09c6773b7b306398a2c7b89b6fabc5b16595e52e5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/candidate-return.json",
+      "sha256": "469a50c73805c815325a8679e675d8cf63910878b1d9fd4fcf48a7c55608e297"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/candidate-return.png",
+      "sha256": "6d788bd6b6d9f05f0949c05fad6708d0ac3f420f8a0abb07d51c07604536c5f2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/chooser-destination.json",
+      "sha256": "b8b4088b6eb510c3bc82f431192797133160021a80631d69f2351a8f46bba5fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/chooser-destination.png",
+      "sha256": "d7762567cef243c36fcbdf9430cf4aa8948cd2319d676d4ef230e04743f0322f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/failure.json",
+      "sha256": "8c45cd1e39b471418c7beb7ec7ee3d5404654b3e204137f76704f44b4d4e0baa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/failure.png",
+      "sha256": "55ae6e624df26885a6b10d94049f9e88903f0d0542e188e681836fb0e10231a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/legacy-chooser.json",
+      "sha256": "68e7cc9a1434a76b3f49c9203ea0e39f5a6f57564c87f22a4a489c8338927143"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/legacy-chooser.png",
+      "sha256": "b2b671c24dbbce6076cca65331be1cacd82b4907a62fad198297f754e7a955f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/next-reading.json",
+      "sha256": "770102a5be2e71977b776f2fffdceadbae088b311c99025e8d6849755d002a3e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/next-reading.png",
+      "sha256": "75085dbddd9b5c527228f4c598ec149f09e465477e9f8778e481bfc8362f8312"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-results.json",
+      "sha256": "d143dc95be736ba9ff130a100801e30a369358a6802d4140de9f357c2c39b339"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-results.png",
+      "sha256": "958e92244763e21778e5915e444f84ec2e25c4a275c40c8cd9764899e9d73def"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-review.json",
+      "sha256": "51f75e9752a26f39d34cd4bd402c8a06f18736b11830ba4833a8a5a506e7394d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-review.png",
+      "sha256": "6d7e47c6002a888b80e77da2a8c2d41a66b7b24f628cd1ff7543978b44024739"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-setup-return.json",
+      "sha256": "5745a39614a28b745643262e1d8374c128aa1da150863f4836e349835b747a0c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-teaching.json",
+      "sha256": "59c579f68d185ec11de799374d55bdf55ff7440aaefcc9d53ebb511090473e28"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-teaching.png",
+      "sha256": "32954199e40573271aad30cb52ddf2202c2b7ecd1e50639767328e9684c06925"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-results.json",
+      "sha256": "d143dc95be736ba9ff130a100801e30a369358a6802d4140de9f357c2c39b339"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-review.json",
+      "sha256": "c22b119b90e1f50147035469c5f11ac7d40b776264c95ff3c5b0b44dd434f8ba"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-review.png",
+      "sha256": "ad6acd53604c61a819fd5f7e9127b3f016377295adab48dfdb8071651d6a3ddf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-setup-return.json",
+      "sha256": "0231ad3b37b6aef1f0f694021f928097b6edf5d87cbf3044760bd7c4196d2acd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-teaching.json",
+      "sha256": "32d4dbf629842826f2429652929910dc51d5d32269568699b5f4eb86c5bbd9f0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-teaching.png",
+      "sha256": "d413be05c065b7a336207a020fe0dcc6e0693d977db59549fb8b24b446f3b4e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-back.json",
+      "sha256": "0fad95368815897013f6dc0d6556ac9f65788967af1789f25f54d448d59e43cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-back.png",
+      "sha256": "192d293eabf5f56ac786e2a239280e05075a5c9c3d247a278ee2486253972f25"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-modal-return.json",
+      "sha256": "bbcb5e3d766919412a71df02cac4cea45f878576b875c4c1006aa8bb457eb574"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-modal-return.png",
+      "sha256": "bb34abb34de412876407b31211a7e817b32fbda33e43a3015190d0169254103f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-modal.json",
+      "sha256": "9297a2f28c8e6d49d049d1f3430de8468b8604649dd19ec9cc1cb2e94bece268"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/reference-modal.png",
+      "sha256": "4fa075d16077426f6bc5d99c80df6558c4d9aecd9a1bf66b45271e7c79e610e4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/unknown-question.json",
+      "sha256": "9e1bae565a618f4dca9af10ae22e04f273e5a2c3aff04b35668c9b7ebc09c573"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/unknown-question.png",
+      "sha256": "01c24f1e605c112b1cdcd62c8130715b44b33a4d108a0471a3dfd34c61c7335b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-command.json",
+      "sha256": "05269ae746fb98904aa7206cc6906cf6b92072465fb5a789c61fdd7d0d92a950"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/library-return.json",
+      "sha256": "fbd3c2868ab4ade6ef39340d28e1b3a8c7a53de226ce404132d5421c783d7ad1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/library-return.png",
+      "sha256": "7259819a4138389d2998eba07d329b2a67fbf55af61f6e0158bd0929595e4611"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/reader-opening.json",
+      "sha256": "ea7114d3dfe35bcebd2799637e2b5dabb4e3d864db0f5d7dc849e0574ac20a8e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/reader-opening.png",
+      "sha256": "de143a4d9fe36929a017d6f80be49f74b4ca6bded21d7b526d79095b6238af00"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/source-detail.json",
+      "sha256": "56d62f8a873994d292988ed08398e59fb5485c19c097d1bcca757342c3adbfce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/source-detail.png",
+      "sha256": "a6f5d382f45a76c2a4f51e23520d41c9ff15166550742b1e2131fff8a06fb280"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/source-return.json",
+      "sha256": "6ba0f0ea014ae2c928f071c52af6d5ec4b4666bf33878f965d6546206ba8461e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry/source-return.png",
+      "sha256": "2785a56e9a11320c7d65d3f6a2b681f90323253306984f16206945945515fdce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-retry-tests.txt",
+      "sha256": "5dc579f964563d3eb4a856f236fd31f0aa2034140c32a9b1aae1ce022186e494"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native-tests.txt",
+      "sha256": "23859c44d5727621ea27b78f3e097e6850bfd7d3ed4cdf91849620ed754ea86e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/normal-apk-badging.txt",
+      "sha256": "92d620f3ccdc290426b16cc5f46e41a6d4d323f28af5cd4380cb2c1ebcd47cc3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/normal-offline-home.png",
+      "sha256": "ac2917af750ea8a6cd20493990602714801ce9e3210c6683c992dee739b9fbb8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/normal-offline-home.xml",
+      "sha256": "cc186f06ed0b78a731daf3134eb83486c367e4af50aa0275fd158b72c157f15e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/package-resources.json",
+      "sha256": "13dcf21f80beba3f2731be862f7032a295e93ed9d4b5ee843b6bf9d91f36592e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/proof-apk.json",
+      "sha256": "b900851a6d362cf9775617e74a66e8898ea4ac8af8e20d524ce34ea43367e7ed"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/runtime-environment.json",
+      "sha256": "7eb5f3f624693b197ebfb46d6bf3a2eef4edfc829070fe930a40ffba1d907263"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/runtime-restored.json",
+      "sha256": "8d853526f8c668e701766649863786daae6c22ae6ca40c5b34883acdaa3c6765"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/test-inputs-final.json",
+      "sha256": "e6ef9302418dcfd15c80caffa3a72a15086b1049d487a068afdd76e98d5972be"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/test-inputs.json",
+      "sha256": "ab808bdda5e2506a09544191490451d1f71801b031d5a5180d87820f00f5d598"
+    }
+  ]
+}

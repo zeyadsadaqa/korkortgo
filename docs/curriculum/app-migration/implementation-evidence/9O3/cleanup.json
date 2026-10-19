@@ -1,0 +1,28 @@
+{
+  "scope": "New 9O3 evidence only",
+  "removed": [
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/android-normal-restored-build.txt",
+      "bytes": 3988,
+      "sha256": "bc5832b2fb46433881c22f7c4da0a28ba0612668ce68cff778a77804e46a4223"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-results.png",
+      "bytes": 193493,
+      "sha256": "5ad6bb928775d4400e734d043a6b35c5aa370b4a5883221bdbf8f0bacf5a9c8e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-IMMEDIATE-setup-return.png",
+      "bytes": 182203,
+      "sha256": "efe9a3d4eab79ebefa5c8588734fa262179211f783519d97709fcec991f62b94"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9O3/native/production-AT_END-setup-return.png",
+      "bytes": 181997,
+      "sha256": "1c98da0732725d89b394afb5126c83802889f7eeab98cac2c6e3997bb537c4f3"
+    }
+  ],
+  "removed_bytes": 561681,
+  "retained": "All native trees, passing/failure/rerun logs, representative screenshots, source/manifest/resource fingerprints and final normal restoration.",
+  "runtime_or_accepted_inputs_removed": false
+}
