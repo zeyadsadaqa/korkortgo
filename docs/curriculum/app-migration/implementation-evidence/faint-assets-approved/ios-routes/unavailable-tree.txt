@@ -1,0 +1,30 @@
+Optional(Attributes: Application, 0x1162b0c80, pid: 34218, label: 'Körkort'
+Element subtree:
+ →Application, 0x1162b0c80, pid: 34218, label: 'Körkort'
+    Window (Main), 0x1162b1900, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1162b2e40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1162b3ac0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1162b08c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1162b0140, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1162b3980, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1162b2580, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1162b1a40, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1162b2800, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1162b2300, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1162b2940, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1162b2440, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x1162b1f40, {{24.0, 86.0}, {217.7, 32.0}}, label: 'Content unavailable'
+                      StaticText, 0x1162b2080, {{24.0, 134.0}, {216.3, 24.0}}, label: 'This legacy link is unavailable.'
+                      Button, 0x1162b21c0, {{24.0, 174.0}, {153.7, 48.0}}, label: 'Open learning library'
+                        StaticText, 0x1162b1cc0, {{36.0, 188.0}, {129.7, 20.0}}, label: 'Open learning library'
+    Window, 0x1162b1b80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1162b1e00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1162b3c00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1162b0c80, pid: 34218, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1162b2f80, pid: 34218, label: 'Körkort'
+  }
+)

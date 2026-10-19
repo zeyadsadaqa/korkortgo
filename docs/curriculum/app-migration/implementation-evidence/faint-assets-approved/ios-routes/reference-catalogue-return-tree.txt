@@ -1,0 +1,68 @@
+Optional(Attributes: Application, 0x10931c780, pid: 34146, label: 'Körkort'
+Element subtree:
+ →Application, 0x10931c780, pid: 34146, label: 'Körkort'
+    Window (Main), 0x10931c500, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10931c3c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10931ed00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10931d180, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10931cc80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10931ca00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10931cb40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10931c000, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10931c140, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10931c280, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10931c640, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10931ee40, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x10931ef80, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x10931f0c0, {{0.0, 62.0}, {402.0, 778.0}}
+                        Button, 0x10931f200, {{24.0, 86.0}, {179.3, 48.0}}, label: 'Learning library'
+                          StaticText, 0x10931f340, {{36.0, 94.0}, {155.3, 32.0}}, label: 'Learning library'
+                        Button, 0x10931f480, {{24.0, 134.0}, {354.0, 80.0}}, label: 'Warning families and narrow roads'
+                          StaticText, 0x10931f5c0, {{36.0, 142.0}, {330.0, 64.0}}, label: 'Warning families and narrow roads'
+                        Button, 0x10931f700, {{24.0, 214.0}, {305.3, 48.0}}, label: 'Yield, stop and priority roads'
+                          StaticText, 0x10931f840, {{36.0, 222.0}, {281.3, 32.0}}, label: 'Yield, stop and priority roads'
+                        Button, 0x10931f980, {{24.0, 262.0}, {251.0, 48.0}}, label: 'Traffic-light indications'
+                          StaticText, 0x10931fac0, {{36.0, 270.0}, {227.0, 32.0}}, label: 'Traffic-light indications'
+                        Button, 0x10931fc00, {{24.0, 310.0}, {146.7, 48.0}}, label: 'Lane control'
+                          StaticText, 0x10931fd40, {{36.0, 318.0}, {122.7, 32.0}}, label: 'Lane control'
+                        Button, 0x10931fe80, {{24.0, 358.0}, {243.0, 48.0}}, label: 'Lines and manoeuvres'
+                          StaticText, 0x10522f700, {{36.0, 366.0}, {219.0, 32.0}}, label: 'Lines and manoeuvres'
+                        Button, 0x10522f840, {{24.0, 406.0}, {221.0, 48.0}}, label: 'Panel interpretation'
+                          StaticText, 0x10522fc00, {{36.0, 414.0}, {197.0, 32.0}}, label: 'Panel interpretation'
+                        Button, 0x10522fd40, {{24.0, 454.0}, {329.0, 48.0}}, label: 'Directions and advance choices'
+                          StaticText, 0x10522fe80, {{36.0, 462.0}, {305.0, 32.0}}, label: 'Directions and advance choices'
+                        Button, 0x10522f980, {{24.0, 502.0}, {320.3, 48.0}}, label: 'Directions for other road users'
+                          StaticText, 0x115b4a440, {{36.0, 510.0}, {296.3, 32.0}}, label: 'Directions for other road users'
+                        Button, 0x115b4a300, {{24.0, 550.0}, {323.7, 48.0}}, label: 'Facilities, services and tourism'
+                          StaticText, 0x115b4a1c0, {{36.0, 558.0}, {299.7, 32.0}}, label: 'Facilities, services and tourism'
+                        Button, 0x115b4a080, {{24.0, 598.0}, {263.0, 48.0}}, label: 'Information and detours'
+                          StaticText, 0x115b4a6c0, {{36.0, 606.0}, {239.0, 32.0}}, label: 'Information and detours'
+                        Button, 0x115b4a800, {{24.0, 646.0}, {259.0, 48.0}}, label: 'Speed and road regimes'
+                          StaticText, 0x115b48000, {{36.0, 654.0}, {235.0, 32.0}}, label: 'Speed and road regimes'
+                        Button, 0x115b48140, {{24.0, 694.0}, {267.7, 48.0}}, label: 'Access and required path'
+                          StaticText, 0x115b48500, {{36.0, 702.0}, {243.7, 32.0}}, label: 'Access and required path'
+                        Button, 0x115b48640, {{24.0, 742.0}, {325.7, 48.0}}, label: 'Crossings and vulnerable users'
+                          StaticText, 0x115b48780, {{36.0, 750.0}, {301.7, 32.0}}, label: 'Crossings and vulnerable users'
+                        Button, 0x115b48a00, {{24.0, 790.0}, {283.0, 48.0}}, label: 'Roundabouts and merging'
+                          StaticText, 0x115b49040, {{36.0, 798.0}, {259.0, 32.0}}, label: 'Roundabouts and merging'
+                        Button, 0x115b4af80, {{24.0, 838.0}, {286.3, 26.0}}, label: 'Street-purpose boundaries'
+                        Button, 0x115b48f00, {{24.0, 886.0}, {234.0, 48.0}}, label: 'Stopping and parking'
+                        Button, 0x115b4b0c0, {{24.0, 934.0}, {354.0, 80.0}}, label: 'Country-road hazards and passing'
+                        Button, 0x115b4ae40, {{24.0, 1014.0}, {282.3, 48.0}}, label: 'Motorway and expressway'
+                        Button, 0x115b4b840, {{24.0, 1062.0}, {157.3, 48.0}}, label: 'Rail crossings'
+                        Button, 0x115b4b980, {{24.0, 1110.0}, {354.0, 80.0}}, label: 'Roadworks and authorised instructions'
+                        Button, 0x115b49e00, {{24.0, 1190.0}, {287.7, 48.0}}, label: 'Winter and surface hazards'
+                        Button, 0x115b4a940, {{24.0, 1238.0}, {253.3, 48.0}}, label: 'Vehicle and route limits'
+                        Button, 0x115b497c0, {{24.0, 1286.0}, {354.0, 80.0}}, label: 'Environmental zones and charging'
+                        Button, 0x115b49900, {{24.0, 1366.0}, {338.3, 48.0}}, label: 'Breakdown, tunnel and collision'
+    Window, 0x115b48b40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x115b48c80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x115b49cc0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10931c780, pid: 34146, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x115b49180, pid: 34146, label: 'Körkort'
+  }
+)

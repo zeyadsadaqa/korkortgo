@@ -1,0 +1,56 @@
+Optional(Attributes: Application, 0x10931da40, pid: 34155, label: 'Körkort'
+Element subtree:
+ →Application, 0x10931da40, pid: 34155, label: 'Körkort'
+    Window (Main), 0x10931db80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10931dcc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10931c500, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10931c3c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x10931c280, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x10931c140, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10931c000, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10931d540, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10931d680, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10931d7c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10931d900, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10931ee40, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x10931ef80, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x10931f0c0, {{24.0, -552.0}, {201.3, 32.0}}, label: 'Apply the learning'
+                        Button, 0x10931f200, {{24.0, -312.0}, {228.0, 24.0}}
+                        StaticText, 0x10931f340, {{24.0, -272.0}, {354.0, 168.0}}, label: 'Build your checklist. Record your permit, supervisor approval if practising privately, entitlement conditions, risk-training status, test preparation and any support application. Use actual expiry dates from your records. Schedule practice around skills you need to improve, not only around an available test slot.'
+                        Other, 0x10931f480, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x10931f5c0, {{24.0, 62.0}, {354.0, 18.0}}
+                        StaticText, 0x10931f700, {{24.0, 62.0}, {354.0, 18.0}}, label: 'Worked decision. Noor plans to practise privately in September 2026. Her relative says no approvals are needed because a course was abolished. Noor checks the current supervisor page and waits for supervisor approval. The removed course and the retained approval are different requirements.'
+                        Other, 0x10931f840, {{24.0, 96.0}, {354.0, 160.0}}
+                        Other, 0x10931f980, {{40.0, 112.0}, {322.0, 72.0}}
+                        StaticText, 0x10931fac0, {{40.0, 112.0}, {322.0, 72.0}}, label: 'Knowledge check. Does a theory pass from July 2026 automatically become valid for a year?'
+                        Button, 0x10931fc00, {{40.0, 192.0}, {105.3, 48.0}}, label: 'Show answer', value: Collapsed
+                          StaticText, 0x10931fd40, {{52.0, 206.0}, {81.3, 20.0}}, label: 'Show answer'
+                        StaticText, 0x10931fe80, {{24.0, 272.0}, {354.0, 48.0}}, label: 'Remember: Plan the administrative route and the learning route together.'
+                        Other, 0x10522f840, {{24.0, 272.0}, {354.0, 48.0}}
+                        Button, 0x10522fe80, {{24.0, 336.0}, {98.7, 48.0}}, label: 'Sources'
+                          StaticText, 0x10522fd40, {{36.0, 346.0}, {74.7, 28.0}}, label: 'Sources'
+                        Button, 0x10522fc00, {{24.0, 400.0}, {210.7, 48.0}}, label: 'Transportstyrelsen: category B'
+                          StaticText, 0x10522f700, {{36.0, 414.0}, {186.7, 20.0}}, label: 'Transportstyrelsen: category B'
+                        Button, 0x10522f980, {{24.0, 464.0}, {176.0, 48.0}}, label: 'Supervisor requirements'
+                          StaticText, 0x115b48b40, {{36.0, 478.0}, {152.0, 20.0}}, label: 'Supervisor requirements'
+                        Button, 0x115b4b840, {{24.0, 528.0}, {101.0, 48.0}}, label: 'Risk training'
+                          StaticText, 0x115b4aa80, {{36.0, 542.0}, {77.0, 20.0}}, label: 'Risk training'
+                        Button, 0x115b4b480, {{24.0, 592.0}, {175.0, 48.0}}, label: 'Test validity amendment'
+                          StaticText, 0x115b49400, {{36.0, 606.0}, {151.0, 20.0}}, label: 'Test validity amendment'
+                        Button, 0x115b4abc0, {{24.0, 656.0}, {145.7, 48.0}}, label: 'Trafikverket: B tests'
+                          StaticText, 0x115b4a940, {{36.0, 670.0}, {121.7, 20.0}}, label: 'Trafikverket: B tests'
+                        Button, 0x115b4b980, {{24.0, 720.0}, {253.0, 48.0}}, label: 'Previous: Choose to drive responsibly'
+                          StaticText, 0x115b497c0, {{36.0, 734.0}, {229.0, 20.0}}, label: 'Previous: Choose to drive responsibly'
+                        Button, 0x115b49900, {{24.0, 768.0}, {167.7, 48.0}}, label: 'Next: Am I ready today?'
+                          StaticText, 0x115b49cc0, {{36.0, 782.0}, {143.7, 20.0}}, label: 'Next: Am I ready today?'
+    Window, 0x115b48c80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x115b4a800, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x115b4a080, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10931da40, pid: 34155, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x115b4b5c0, pid: 34155, label: 'Körkort'
+  }
+)

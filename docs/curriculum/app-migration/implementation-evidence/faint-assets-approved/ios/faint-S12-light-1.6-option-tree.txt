@@ -1,0 +1,43 @@
+Optional(Attributes: Application, 0x113d4b0c0, pid: 32551, label: 'Körkort'
+Element subtree:
+ →Application, 0x113d4b0c0, pid: 32551, label: 'Körkort'
+    Window (Main), 0x113d49180, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113d4bd40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113d4bac0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113d4b700, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113d48280, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113d483c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113d4be80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113d4abc0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x113d4b200, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113d4ad00, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113d4b340, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113d4a6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x113d497c0, {{8.0, 70.0}, {365.3, 38.3}}, label: 'Unscored verification fixture'
+                      Button, 0x113d492c0, {{0.0, 116.3}, {152.7, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x113d48a00, {{12.0, 124.3}, {128.7, 32.0}}, label: 'Next fixture'
+                      Button, 0x113d4ae40, {{156.7, 116.3}, {129.3, 48.0}}, label: 'reference'
+                        StaticText, 0x113d49cc0, {{168.7, 124.3}, {105.3, 32.0}}, label: 'reference'
+                      Button, 0x113d48dc0, {{0.0, 164.3}, {117.7, 48.0}}, label: 'meaning'
+                        StaticText, 0x113d4af80, {{12.0, 172.3}, {93.7, 32.0}}, label: 'meaning'
+                      Button, 0x113d49680, {{121.7, 164.3}, {132.0, 48.0}}, label: 'recognise'
+                        StaticText, 0x113d4a940, {{133.7, 172.3}, {108.0, 32.0}}, label: 'recognise'
+                      Other, 0x113d48b40, {{0.0, 212.3}, {402.0, 627.7}}
+                        StaticText, 0x113d49900, {{16.0, 158.0}, {199.7, 38.3}}, label: 'Question image'
+                        Other, 0x113d4aa80, {{0.0, 212.3}, {402.0, 627.7}}
+                        Image, 0x113e31900, {{16.0, 212.3}, {370.0, 242.7}}, label: 'White rectangle with a very thin outline of a motor caravan viewed from the side, facing left.'
+                        StaticText, 0x113e33c00, {{16.0, 467.0}, {171.0, 38.3}}, label: 'Option image'
+                        Image, 0x113e31f40, {{16.0, 517.3}, {370.0, 246.7}}, label: 'White rectangle with a very thin outline of a motor caravan viewed from the side, facing left.'
+                        Button, 0x113e32d00, {{16.0, 776.0}, {203.3, 48.0}}, label: 'Enlarge image'
+                          StaticText, 0x113e330c0, {{40.0, 784.0}, {155.3, 32.0}}, label: 'Enlarge image'
+    Window, 0x113e31b80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113e335c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113e31180, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113d4b0c0, pid: 32551, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x113e31400, pid: 32551, label: 'Körkort'
+  }
+)

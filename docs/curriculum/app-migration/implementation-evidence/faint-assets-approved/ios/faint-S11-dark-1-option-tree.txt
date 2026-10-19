@@ -1,0 +1,43 @@
+Optional(Attributes: Application, 0x113deb700, pid: 32942, label: 'Körkort'
+Element subtree:
+ →Application, 0x113deb700, pid: 32942, label: 'Körkort'
+    Window (Main), 0x113debe80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113de8640, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113de9b80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113de9400, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113dea800, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113deb5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113deb840, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113de8dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x113deb200, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113deb980, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113de8280, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113de8c80, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x113deabc0, {{8.0, 70.0}, {228.3, 24.0}}, label: 'Unscored verification fixture'
+                      Button, 0x113de9e00, {{248.3, 62.0}, {104.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x113de9f40, {{260.3, 76.0}, {80.3, 20.0}}, label: 'Next fixture'
+                      Button, 0x113debc00, {{0.0, 110.0}, {90.0, 48.0}}, label: 'reference'
+                        StaticText, 0x113de8140, {{12.0, 124.0}, {66.0, 20.0}}, label: 'reference'
+                      Button, 0x113de9180, {{94.0, 110.0}, {82.7, 48.0}}, label: 'meaning'
+                        StaticText, 0x113deb340, {{106.0, 124.0}, {58.7, 20.0}}, label: 'meaning'
+                      Button, 0x113dead00, {{180.7, 110.0}, {91.7, 48.0}}, label: 'recognise'
+                        StaticText, 0x113de9540, {{192.7, 124.0}, {67.7, 20.0}}, label: 'recognise'
+                      Other, 0x113de8f00, {{0.0, 158.0}, {402.0, 682.0}}
+                        Other, 0x113de83c0, {{0.0, 158.0}, {402.0, 682.0}}
+                        StaticText, 0x113deb480, {{16.0, 174.0}, {125.0, 24.0}}, label: 'Question image'
+                        Image, 0x113dea300, {{16.0, 210.0}, {370.0, 246.7}}, label: 'White rectangle with a very thin outline of a seated figure and large wheel symbol.'
+                        StaticText, 0x113dea580, {{16.0, 468.7}, {107.0, 24.0}}, label: 'Option image'
+                        Image, 0x113debac0, {{16.0, 504.7}, {370.0, 246.7}}, label: 'White rectangle with a very thin outline of a seated figure and large wheel symbol.'
+                        Button, 0x113deae40, {{16.0, 763.3}, {145.0, 48.0}}, label: 'Enlarge image'
+                          StaticText, 0x113de97c0, {{40.0, 777.3}, {97.0, 20.0}}, label: 'Enlarge image'
+    Window, 0x113dea6c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113deaa80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113de8000, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113deb700, pid: 32942, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x113debd40, pid: 32942, label: 'Körkort'
+  }
+)

@@ -1,5 +1,5 @@
 {
-  "approval_status": "pending",
+  "approval_status": "approved",
   "assets": [
     {
       "code": "T1",
@@ -12,7 +12,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/T1-official-vector.pdf",
         "sha256": "8d6939e56bd271b174617640cd731840dfd7908385ee95e9a6584c3f79a5450a"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "T2",
@@ -25,7 +25,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/T2-official-vector.pdf",
         "sha256": "4377ceaae3e71deefa0b1de8f7d5f066118d0b19a9e47282611e038b7be16749"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "T6",
@@ -38,7 +38,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/T6-official-vector.pdf",
         "sha256": "1625cefd3695263c6dc570e90b9e4183340542a28ec774f6adc78821e8647910"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "T8",
@@ -51,7 +51,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/T8-official-vector.pdf",
         "sha256": "d3ec73144665f793214a6ea36c6ac47ed7a718075efa5e3861324396e7232ba2"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "T22",
@@ -64,7 +64,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/T22-official-vector.pdf",
         "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S5",
@@ -77,7 +77,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/h3-s5.pdf",
         "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S6",
@@ -90,7 +90,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/h3-s6.pdf",
         "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S7",
@@ -103,7 +103,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/h3-s7.pdf",
         "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S11",
@@ -116,7 +116,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/h3-s11.pdf",
         "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S13",
@@ -129,7 +129,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/h3-s13.pdf",
         "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "X8",
@@ -142,7 +142,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/ASSET-323a46cb66b8460e.png",
         "sha256": "a95df3a25449c98bcf417312e0bfabdc937bfbde44a8d2b8ca4ed70dbb3e8ca4"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     },
     {
       "code": "S12",
@@ -155,7 +155,7 @@
         "path": "composeApp/src/commonMain/composeResources/files/curriculum/S12-official-vector.pdf",
         "sha256": "d4b6831a3c46b0e3413bd6e6a177d967a8dbb4259325b22dabd864eb0ae540e6"
       },
-      "decision": "retain exact artwork; proposed larger presentation awaits approval and actual-size proof"
+      "decision": "retain exact artwork; larger presentation approved; actual-size verification required"
     }
   ],
   "affected_questions": [
@@ -424,5 +424,6 @@
       ]
     }
   ],
-  "holds_cleared": 0
+  "holds_cleared": 0,
+  "approval_record": "User message: approved, 17 October 2026"
 }

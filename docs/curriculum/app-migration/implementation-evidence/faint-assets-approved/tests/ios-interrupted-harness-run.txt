@@ -1,0 +1,1679 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test-without-building -xctestrun /private/tmp/korkort-faint-approved-ios/Build/Products/NativeRouteTests_iphonesimulator26.5-arm64.xctestrun -destination id=F6E93C4B-958D-4CBB-B95E-537B4FB8070C -resultBundlePath /private/tmp/korkort-faint-approved-ios-route-results -parallel-testing-enabled NO "-skip-testing:NativeRouteTests/NativeRouteTests/testFaintArtworkDeliveryMatrix"
+
+2026-10-17 19:47:23.788 xcodebuild[33651:6852667] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+Writing result bundle at path:
+	/private/tmp/korkort-faint-approved-ios-route-results
+
+2026-10-17 19:47:23.794 xcodebuild[33651:6852667] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-17 19:47:24.566 xcodebuild[33651:6852667] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-17 19:47:26.170884+0200 NativeRouteTests-Runner[33673:6852987] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-17 7:47:26.395 PM.
+Test Suite 'NativeRouteTests.xctest' started at 2026-10-17 7:47:26.396 PM.
+Test Suite 'NativeRouteTests' started at 2026-10-17 7:47:26.396 PM.
+Test Case '-[NativeRouteTests.NativeRouteTests testDeliberateAnswerAndNextReading]' started.
+    t =     0.00s Start Test at 2026-10-17 7:47:26.397 PM
+    t =     0.02s Set Up
+    t =     0.02s Open se.korkort.study
+    t =     0.02s     Launch se.korkort.study
+2026-10-17 19:47:26.462 xcodebuild[33651:6852667] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-17 19:47:26.462 xcodebuild[33651:6852667] [MT] IDELaunchParametersSnapshot: no debugger version
+objc[33673]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x1095b0310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x107e3c398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.08s         Setting up automation session
+    t =     1.87s         Wait for se.korkort.study to idle
+    t =     3.33s Wait for se.korkort.study to become Running Foreground
+    t =     3.33s Checking existence of `"Study tools for your driving licence" StaticText`
+    t =     3.37s Find the Target Application 'se.korkort.study'
+    t =     3.38s Checking existence of `Button (First Match)`
+    t =     3.40s Checking existence of `Button (First Match)`
+    t =     3.42s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =     3.42s     Wait for se.korkort.study to idle
+    t =     3.42s     Find the Target Application 'se.korkort.study'
+    t =     3.43s     Check for interrupting elements affecting "Körkort" Application
+    t =     3.44s     Synthesize event
+    t =     3.44s         Find the Target Application 'se.korkort.study'
+    t =     3.45s         Find the Target Application 'se.korkort.study'
+    t =     3.46s         Find the Target Application 'se.korkort.study'
+    t =     3.46s         Find the Target Application 'se.korkort.study'
+    t =     3.47s         Find the Target Application 'se.korkort.study'
+    t =     5.51s     Wait for se.korkort.study to idle
+    t =     5.51s Checking existence of `Button (First Match)`
+    t =     5.53s Checking existence of `Button (First Match)`
+    t =     5.55s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =     5.55s     Wait for se.korkort.study to idle
+    t =     5.55s     Find the Target Application 'se.korkort.study'
+    t =     5.56s     Check for interrupting elements affecting "Körkort" Application
+    t =     5.57s     Synthesize event
+    t =     5.58s         Find the Target Application 'se.korkort.study'
+    t =     5.58s         Find the Target Application 'se.korkort.study'
+    t =     5.59s         Find the Target Application 'se.korkort.study'
+    t =     5.60s         Find the Target Application 'se.korkort.study'
+    t =     5.61s         Find the Target Application 'se.korkort.study'
+    t =     7.65s     Wait for se.korkort.study to idle
+    t =     7.66s Checking existence of `Button (First Match)`
+    t =     7.68s Checking existence of `Button (First Match)`
+    t =     7.70s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =     7.70s     Wait for se.korkort.study to idle
+    t =     7.70s     Find the Target Application 'se.korkort.study'
+    t =     7.71s     Check for interrupting elements affecting "Körkort" Application
+    t =     7.72s     Synthesize event
+    t =     7.72s         Find the Target Application 'se.korkort.study'
+    t =     7.73s         Find the Target Application 'se.korkort.study'
+    t =     7.74s         Find the Target Application 'se.korkort.study'
+    t =     7.75s         Find the Target Application 'se.korkort.study'
+    t =     7.76s         Find the Target Application 'se.korkort.study'
+    t =     9.80s     Wait for se.korkort.study to idle
+    t =     9.81s Checking existence of `Button (First Match)`
+    t =     9.82s Checking existence of `Button (First Match)`
+    t =     9.84s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =     9.84s     Wait for se.korkort.study to idle
+    t =     9.85s     Find the Target Application 'se.korkort.study'
+    t =     9.86s     Check for interrupting elements affecting "Körkort" Application
+    t =     9.87s     Synthesize event
+    t =     9.87s         Find the Target Application 'se.korkort.study'
+    t =     9.88s         Find the Target Application 'se.korkort.study'
+    t =     9.89s         Find the Target Application 'se.korkort.study'
+    t =     9.89s         Find the Target Application 'se.korkort.study'
+    t =     9.90s         Find the Target Application 'se.korkort.study'
+    t =    11.95s     Wait for se.korkort.study to idle
+    t =    11.95s Checking existence of `Button (First Match)`
+    t =    11.97s Checking existence of `Button (First Match)`
+    t =    11.98s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    11.98s     Wait for se.korkort.study to idle
+    t =    11.99s     Find the Target Application 'se.korkort.study'
+    t =    12.00s     Check for interrupting elements affecting "Körkort" Application
+    t =    12.01s     Synthesize event
+    t =    12.01s         Find the Target Application 'se.korkort.study'
+    t =    12.02s         Find the Target Application 'se.korkort.study'
+    t =    12.03s         Find the Target Application 'se.korkort.study'
+    t =    12.04s         Find the Target Application 'se.korkort.study'
+    t =    12.05s         Find the Target Application 'se.korkort.study'
+    t =    14.09s     Wait for se.korkort.study to idle
+    t =    14.09s Checking existence of `Button (First Match)`
+    t =    14.11s Checking existence of `Button (First Match)`
+    t =    14.13s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    14.13s     Wait for se.korkort.study to idle
+    t =    14.14s     Find the Target Application 'se.korkort.study'
+    t =    14.15s     Check for interrupting elements affecting "Körkort" Application
+    t =    14.16s     Synthesize event
+    t =    14.16s         Find the Target Application 'se.korkort.study'
+    t =    14.17s         Find the Target Application 'se.korkort.study'
+    t =    14.18s         Find the Target Application 'se.korkort.study'
+    t =    14.18s         Find the Target Application 'se.korkort.study'
+    t =    14.19s         Find the Target Application 'se.korkort.study'
+    t =    16.24s     Wait for se.korkort.study to idle
+    t =    16.24s Checking existence of `Button (First Match)`
+    t =    16.26s Checking existence of `Button (First Match)`
+    t =    16.27s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    16.27s     Wait for se.korkort.study to idle
+    t =    16.28s     Find the Target Application 'se.korkort.study'
+    t =    16.29s     Check for interrupting elements affecting "Körkort" Application
+    t =    16.30s     Synthesize event
+    t =    16.30s         Find the Target Application 'se.korkort.study'
+    t =    16.31s         Find the Target Application 'se.korkort.study'
+    t =    16.32s         Find the Target Application 'se.korkort.study'
+    t =    16.32s         Find the Target Application 'se.korkort.study'
+    t =    16.34s         Find the Target Application 'se.korkort.study'
+    t =    18.38s     Wait for se.korkort.study to idle
+    t =    18.38s Checking existence of `Button (First Match)`
+    t =    18.40s Find the Button (First Match)
+    t =    18.43s Checking existence of `"Show answer" Button`
+    t =    18.45s Find the "Show answer" Button
+    t =    18.47s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    18.47s     Wait for se.korkort.study to idle
+    t =    18.47s     Find the Target Application 'se.korkort.study'
+    t =    18.48s     Check for interrupting elements affecting "Körkort" Application
+    t =    18.49s     Synthesize event
+    t =    18.49s         Find the Target Application 'se.korkort.study'
+    t =    18.50s         Find the Target Application 'se.korkort.study'
+    t =    18.51s         Find the Target Application 'se.korkort.study'
+    t =    18.52s         Find the Target Application 'se.korkort.study'
+    t =    18.53s         Find the Target Application 'se.korkort.study'
+    t =    20.57s     Wait for se.korkort.study to idle
+    t =    20.58s Checking existence of `"Show answer" Button`
+    t =    20.60s Find the "Show answer" Button
+    t =    20.63s Checking existence of `"Show answer" Button`
+    t =    20.64s Find the "Show answer" Button
+    t =    20.66s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    20.66s     Wait for se.korkort.study to idle
+    t =    20.66s     Find the Target Application 'se.korkort.study'
+    t =    20.68s     Check for interrupting elements affecting "Körkort" Application
+    t =    20.69s     Synthesize event
+    t =    20.69s         Find the Target Application 'se.korkort.study'
+    t =    20.70s         Find the Target Application 'se.korkort.study'
+    t =    20.71s         Find the Target Application 'se.korkort.study'
+    t =    20.72s         Find the Target Application 'se.korkort.study'
+    t =    20.73s         Find the Target Application 'se.korkort.study'
+    t =    22.77s     Wait for se.korkort.study to idle
+    t =    22.78s Checking existence of `"Show answer" Button`
+    t =    22.79s Find the "Show answer" Button
+    t =    22.82s Checking existence of `"Show answer" Button`
+    t =    22.84s Find the "Show answer" Button
+    t =    22.86s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    22.86s     Wait for se.korkort.study to idle
+    t =    22.86s     Find the Target Application 'se.korkort.study'
+    t =    22.87s     Check for interrupting elements affecting "Körkort" Application
+    t =    22.88s     Synthesize event
+    t =    22.88s         Find the Target Application 'se.korkort.study'
+    t =    22.89s         Find the Target Application 'se.korkort.study'
+    t =    22.90s         Find the Target Application 'se.korkort.study'
+    t =    22.91s         Find the Target Application 'se.korkort.study'
+    t =    22.92s         Find the Target Application 'se.korkort.study'
+    t =    24.96s     Wait for se.korkort.study to idle
+    t =    24.96s Checking existence of `"Show answer" Button`
+    t =    24.98s Find the "Show answer" Button
+    t =    25.01s Checking existence of `"Show answer" Button`
+    t =    25.03s Find the "Show answer" Button
+    t =    25.05s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    25.05s     Wait for se.korkort.study to idle
+    t =    25.05s     Find the Target Application 'se.korkort.study'
+    t =    25.06s     Check for interrupting elements affecting "Körkort" Application
+    t =    25.07s     Synthesize event
+    t =    25.07s         Find the Target Application 'se.korkort.study'
+    t =    25.08s         Find the Target Application 'se.korkort.study'
+    t =    25.09s         Find the Target Application 'se.korkort.study'
+    t =    25.10s         Find the Target Application 'se.korkort.study'
+    t =    25.11s         Find the Target Application 'se.korkort.study'
+    t =    27.15s     Wait for se.korkort.study to idle
+    t =    27.16s Checking existence of `"Show answer" Button`
+    t =    27.17s Checking existence of `"Show answer" Button`
+    t =    27.19s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    27.19s     Wait for se.korkort.study to idle
+    t =    27.19s     Find the Target Application 'se.korkort.study'
+    t =    27.21s     Check for interrupting elements affecting "Körkort" Application
+    t =    27.22s     Synthesize event
+    t =    27.22s         Find the Target Application 'se.korkort.study'
+    t =    27.23s         Find the Target Application 'se.korkort.study'
+    t =    27.24s         Find the Target Application 'se.korkort.study'
+    t =    27.24s         Find the Target Application 'se.korkort.study'
+    t =    27.25s         Find the Target Application 'se.korkort.study'
+    t =    29.29s     Wait for se.korkort.study to idle
+    t =    29.29s Checking existence of `"Show answer" Button`
+    t =    29.31s Find the "Show answer" Button
+    t =    29.34s Find the "Show answer" Button
+    t =    29.36s Find the "Show answer" Button
+    t =    29.49s Find the "Show answer" Button
+    t =    29.61s Find the "Show answer" Button
+    t =    29.74s Find the "Show answer" Button
+    t =    29.76s Find the "Show answer" Button
+    t =    29.79s Checking existence of `Any (First Match)`
+    t =    29.81s Requesting snapshot of accessibility hierarchy for app with pid 33692
+    t =    29.87s Requesting snapshot of accessibility hierarchy for app with pid 33692
+    t =    29.88s Added attachment named 'answer-hidden-tree'
+    t =    29.88s Find the Target Application 'se.korkort.study'
+    t =    29.99s Added attachment named 'answer-hidden'
+    t =    29.99s Tap "Show answer" Button
+    t =    29.99s     Wait for se.korkort.study to idle
+    t =    29.99s     Find the "Show answer" Button
+    t =    30.01s     Check for interrupting elements affecting "Show answer" Button
+    t =    30.03s     Synthesize event
+    t =    30.32s     Wait for se.korkort.study to idle
+    t =    30.32s Waiting 5.0s for Button (First Match) to exist
+    t =    31.36s     Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    31.36s         Checking existence of `Button (First Match)`
+    t =    31.38s Find the Target Application 'se.korkort.study'
+    t =    31.39s Checking existence of `Any (First Match)`
+    t =    31.40s Find the Any (First Match)
+    t =    31.43s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    31.45s Checking existence of `"Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText`
+    t =    31.47s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    31.49s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    31.49s     Wait for se.korkort.study to idle
+    t =    31.49s     Find the Target Application 'se.korkort.study'
+    t =    31.50s     Check for interrupting elements affecting "Körkort" Application
+    t =    31.51s     Synthesize event
+    t =    31.52s         Find the Target Application 'se.korkort.study'
+    t =    31.52s         Find the Target Application 'se.korkort.study'
+    t =    31.54s         Find the Target Application 'se.korkort.study'
+    t =    31.54s         Find the Target Application 'se.korkort.study'
+    t =    31.56s         Find the Target Application 'se.korkort.study'
+    t =    33.60s     Wait for se.korkort.study to idle
+    t =    33.61s Checking existence of `"Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText`
+    t =    33.62s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    33.65s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    33.67s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    33.80s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    33.92s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    34.05s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    34.07s Find the "Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText
+    t =    34.10s Checking existence of `"Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText`
+    t =    34.11s Requesting snapshot of accessibility hierarchy for app with pid 33692
+    t =    34.17s Requesting snapshot of accessibility hierarchy for app with pid 33692
+    t =    34.19s Added attachment named 'answer-revealed-tree'
+    t =    34.19s Find the Target Application 'se.korkort.study'
+    t =    34.29s Added attachment named 'answer-revealed'
+    t =    34.29s Find the Target Application 'se.korkort.study'
+    t =    34.29s Checking existence of `Button (First Match)`
+    t =    34.31s Find the Button (First Match)
+    t =    34.34s Find the "Hide answer" Button
+    t =    34.36s Find the "Hide answer" Button
+    t =    34.48s Find the "Hide answer" Button
+    t =    34.60s Find the "Hide answer" Button
+    t =    34.73s Find the "Hide answer" Button
+    t =    34.75s Find the "Hide answer" Button
+    t =    34.77s Tap "Hide answer" Button
+    t =    34.77s     Wait for se.korkort.study to idle
+    t =    34.77s     Find the "Hide answer" Button
+    t =    34.79s     Check for interrupting elements affecting "Hide answer" Button
+    t =    34.81s     Synthesize event
+    t =    35.10s     Wait for se.korkort.study to idle
+    t =    35.10s Checking existence of `"Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information." StaticText`
+    t =    35.12s Find the Target Application 'se.korkort.study'
+    t =    35.13s Checking existence of `Button (First Match)`
+    t =    35.15s Find the Button (First Match)
+    t =    35.18s Checking existence of `"Next: Am I ready today?" Button`
+    t =    35.19s Find the "Next: Am I ready today?" Button
+    t =    35.22s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    35.22s     Wait for se.korkort.study to idle
+    t =    35.22s     Find the Target Application 'se.korkort.study'
+    t =    35.23s     Check for interrupting elements affecting "Körkort" Application
+    t =    35.24s     Synthesize event
+    t =    35.24s         Find the Target Application 'se.korkort.study'
+    t =    35.25s         Find the Target Application 'se.korkort.study'
+    t =    35.26s         Find the Target Application 'se.korkort.study'
+    t =    35.27s         Find the Target Application 'se.korkort.study'
+    t =    35.29s         Find the Target Application 'se.korkort.study'
+    t =    37.32s     Wait for se.korkort.study to idle
+    t =    37.33s Checking existence of `"Next: Am I ready today?" Button`
+    t =    37.35s Find the "Next: Am I ready today?" Button
+    t =    37.38s Find the "Next: Am I ready today?" Button
+    t =    37.41s Checking existence of `"Next: Am I ready today?" Button`
+    t =    37.42s Find the "Next: Am I ready today?" Button
+    t =    37.45s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    37.45s     Wait for se.korkort.study to idle
+    t =    37.45s     Find the Target Application 'se.korkort.study'
+    t =    37.46s     Check for interrupting elements affecting "Körkort" Application
+    t =    37.47s     Synthesize event
+    t =    37.47s         Find the Target Application 'se.korkort.study'
+    t =    37.48s         Find the Target Application 'se.korkort.study'
+    t =    37.49s         Find the Target Application 'se.korkort.study'
+    t =    37.50s         Find the Target Application 'se.korkort.study'
+    t =    37.51s         Find the Target Application 'se.korkort.study'
+    t =    39.56s     Wait for se.korkort.study to idle
+    t =    39.56s Checking existence of `"Next: Am I ready today?" Button`
+    t =    39.58s Find the "Next: Am I ready today?" Button
+    t =    39.61s Find the "Next: Am I ready today?" Button
+    t =    39.64s Find the "Next: Am I ready today?" Button
+    t =    39.77s Find the "Next: Am I ready today?" Button
+    t =    39.90s Find the "Next: Am I ready today?" Button
+    t =    40.03s Find the "Next: Am I ready today?" Button
+    t =    40.15s Find the "Next: Am I ready today?" Button
+    t =    40.18s Find the "Next: Am I ready today?" Button
+    t =    40.31s Find the "Next: Am I ready today?" Button
+    t =    40.33s Find the "Next: Am I ready today?" Button
+    t =    40.47s Find the "Next: Am I ready today?" Button
+    t =    40.50s Find the "Next: Am I ready today?" Button
+    t =    40.63s Find the "Next: Am I ready today?" Button
+    t =    40.65s Find the "Next: Am I ready today?" Button
+    t =    40.79s Find the "Next: Am I ready today?" Button
+    t =    40.81s Find the "Next: Am I ready today?" Button
+    t =    40.95s Find the "Next: Am I ready today?" Button
+    t =    40.98s Find the "Next: Am I ready today?" Button
+    t =    41.11s Find the "Next: Am I ready today?" Button
+    t =    41.13s Find the "Next: Am I ready today?" Button
+    t =    41.27s Find the "Next: Am I ready today?" Button
+    t =    41.29s Find the "Next: Am I ready today?" Button
+    t =    41.43s Find the "Next: Am I ready today?" Button
+    t =    41.46s Find the "Next: Am I ready today?" Button
+    t =    41.59s Find the "Next: Am I ready today?" Button
+    t =    41.61s Find the "Next: Am I ready today?" Button
+    t =    41.75s Find the "Next: Am I ready today?" Button
+    t =    41.77s Find the "Next: Am I ready today?" Button
+    t =    41.91s Find the "Next: Am I ready today?" Button
+    t =    41.94s Find the "Next: Am I ready today?" Button
+    t =    42.07s Find the "Next: Am I ready today?" Button
+    t =    42.10s Find the "Next: Am I ready today?" Button
+    t =    42.23s Find the "Next: Am I ready today?" Button
+    t =    42.26s Find the "Next: Am I ready today?" Button
+    t =    42.39s Find the "Next: Am I ready today?" Button
+    t =    42.41s Find the "Next: Am I ready today?" Button
+    t =    42.54s Find the "Next: Am I ready today?" Button
+    t =    42.57s Find the "Next: Am I ready today?" Button
+    t =    42.70s Find the "Next: Am I ready today?" Button
+    t =    42.73s Find the "Next: Am I ready today?" Button
+    t =    42.87s Find the "Next: Am I ready today?" Button
+    t =    42.89s Find the "Next: Am I ready today?" Button
+    t =    43.02s Find the "Next: Am I ready today?" Button
+    t =    43.05s Find the "Next: Am I ready today?" Button
+    t =    43.18s Find the "Next: Am I ready today?" Button
+    t =    43.21s Find the "Next: Am I ready today?" Button
+    t =    43.34s Find the "Next: Am I ready today?" Button
+    t =    43.37s Find the "Next: Am I ready today?" Button
+    t =    43.50s Find the "Next: Am I ready today?" Button
+    t =    43.53s Find the "Next: Am I ready today?" Button
+    t =    43.66s Find the "Next: Am I ready today?" Button
+    t =    43.69s Find the "Next: Am I ready today?" Button
+    t =    43.82s Find the "Next: Am I ready today?" Button
+    t =    43.85s Find the "Next: Am I ready today?" Button
+    t =    43.98s Find the "Next: Am I ready today?" Button
+    t =    44.01s Find the "Next: Am I ready today?" Button
+    t =    44.14s Find the "Next: Am I ready today?" Button
+    t =    44.16s Find the "Next: Am I ready today?" Button
+    t =    44.30s Find the "Next: Am I ready today?" Button
+    t =    44.32s Find the "Next: Am I ready today?" Button
+    t =    44.35s Checking existence of `"Next: Am I ready today?" Button`
+    t =    44.37s Find the "Next: Am I ready today?" Button
+    t =    44.39s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    44.39s     Wait for se.korkort.study to idle
+    t =    44.39s     Find the Target Application 'se.korkort.study'
+    t =    44.40s     Check for interrupting elements affecting "Körkort" Application
+    t =    44.42s     Synthesize event
+    t =    44.42s         Find the Target Application 'se.korkort.study'
+    t =    44.43s         Find the Target Application 'se.korkort.study'
+    t =    44.44s         Find the Target Application 'se.korkort.study'
+    t =    44.45s         Find the Target Application 'se.korkort.study'
+    t =    44.46s         Find the Target Application 'se.korkort.study'
+    t =    46.50s     Wait for se.korkort.study to idle
+    t =    46.51s Checking existence of `"Next: Am I ready today?" Button`
+    t =    46.52s Find the "Next: Am I ready today?" Button
+    t =    46.55s Find the "Next: Am I ready today?" Button
+    t =    46.58s Find the "Next: Am I ready today?" Button
+    t =    46.71s Find the "Next: Am I ready today?" Button
+    t =    46.84s Find the "Next: Am I ready today?" Button
+    t =    46.97s Find the "Next: Am I ready today?" Button
+    t =    47.10s Find the "Next: Am I ready today?" Button
+    t =    47.23s Find the "Next: Am I ready today?" Button
+    t =    47.25s Find the "Next: Am I ready today?" Button
+    t =    47.39s Find the "Next: Am I ready today?" Button
+    t =    47.41s Find the "Next: Am I ready today?" Button
+    t =    47.55s Find the "Next: Am I ready today?" Button
+    t =    47.57s Find the "Next: Am I ready today?" Button
+    t =    47.71s Find the "Next: Am I ready today?" Button
+    t =    47.74s Find the "Next: Am I ready today?" Button
+    t =    47.87s Find the "Next: Am I ready today?" Button
+    t =    47.89s Find the "Next: Am I ready today?" Button
+    t =    48.03s Find the "Next: Am I ready today?" Button
+    t =    48.06s Find the "Next: Am I ready today?" Button
+    t =    48.19s Find the "Next: Am I ready today?" Button
+    t =    48.22s Find the "Next: Am I ready today?" Button
+    t =    48.35s Find the "Next: Am I ready today?" Button
+    t =    48.38s Find the "Next: Am I ready today?" Button
+    t =    48.52s Find the "Next: Am I ready today?" Button
+    t =    48.55s Find the "Next: Am I ready today?" Button
+    t =    48.68s Find the "Next: Am I ready today?" Button
+    t =    48.70s Find the "Next: Am I ready today?" Button
+    t =    48.83s Find the "Next: Am I ready today?" Button
+    t =    48.86s Find the "Next: Am I ready today?" Button
+    t =    48.99s Find the "Next: Am I ready today?" Button
+    t =    49.02s Find the "Next: Am I ready today?" Button
+    t =    49.15s Find the "Next: Am I ready today?" Button
+    t =    49.18s Find the "Next: Am I ready today?" Button
+    t =    49.32s Find the "Next: Am I ready today?" Button
+    t =    49.34s Find the "Next: Am I ready today?" Button
+    t =    49.48s Find the "Next: Am I ready today?" Button
+    t =    49.50s Find the "Next: Am I ready today?" Button
+    t =    49.64s Find the "Next: Am I ready today?" Button
+    t =    49.66s Find the "Next: Am I ready today?" Button
+    t =    49.81s Find the "Next: Am I ready today?" Button
+    t =    49.83s Find the "Next: Am I ready today?" Button
+    t =    49.97s Find the "Next: Am I ready today?" Button
+    t =    49.99s Find the "Next: Am I ready today?" Button
+    t =    50.12s Find the "Next: Am I ready today?" Button
+    t =    50.15s Find the "Next: Am I ready today?" Button
+    t =    50.29s Find the "Next: Am I ready today?" Button
+    t =    50.31s Find the "Next: Am I ready today?" Button
+    t =    50.45s Find the "Next: Am I ready today?" Button
+    t =    50.48s Find the "Next: Am I ready today?" Button
+    t =    50.61s Find the "Next: Am I ready today?" Button
+    t =    50.64s Find the "Next: Am I ready today?" Button
+    t =    50.77s Find the "Next: Am I ready today?" Button
+    t =    50.79s Find the "Next: Am I ready today?" Button
+    t =    50.92s Find the "Next: Am I ready today?" Button
+    t =    50.95s Find the "Next: Am I ready today?" Button
+    t =    51.09s Find the "Next: Am I ready today?" Button
+    t =    51.11s Find the "Next: Am I ready today?" Button
+    t =    51.25s Find the "Next: Am I ready today?" Button
+    t =    51.27s Find the "Next: Am I ready today?" Button
+    t =    51.30s Checking existence of `"Next: Am I ready today?" Button`
+    t =    51.32s Find the "Next: Am I ready today?" Button
+    t =    51.34s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    51.34s     Wait for se.korkort.study to idle
+    t =    51.34s     Find the Target Application 'se.korkort.study'
+    t =    51.35s     Check for interrupting elements affecting "Körkort" Application
+    t =    51.37s     Synthesize event
+    t =    51.37s         Find the Target Application 'se.korkort.study'
+    t =    51.38s         Find the Target Application 'se.korkort.study'
+    t =    51.39s         Find the Target Application 'se.korkort.study'
+    t =    51.40s         Find the Target Application 'se.korkort.study'
+    t =    51.41s         Find the Target Application 'se.korkort.study'
+    t =    53.45s     Wait for se.korkort.study to idle
+    t =    53.46s Checking existence of `"Next: Am I ready today?" Button`
+    t =    53.48s Find the "Next: Am I ready today?" Button
+    t =    53.51s Find the "Next: Am I ready today?" Button
+    t =    53.53s Find the "Next: Am I ready today?" Button
+    t =    53.66s Find the "Next: Am I ready today?" Button
+    t =    53.79s Find the "Next: Am I ready today?" Button
+    t =    53.92s Find the "Next: Am I ready today?" Button
+    t =    54.06s Find the "Next: Am I ready today?" Button
+    t =    54.09s Find the "Next: Am I ready today?" Button
+    t =    54.22s Find the "Next: Am I ready today?" Button
+    t =    54.25s Find the "Next: Am I ready today?" Button
+    t =    54.38s Find the "Next: Am I ready today?" Button
+    t =    54.41s Find the "Next: Am I ready today?" Button
+    t =    54.54s Find the "Next: Am I ready today?" Button
+    t =    54.57s Find the "Next: Am I ready today?" Button
+    t =    54.70s Find the "Next: Am I ready today?" Button
+    t =    54.73s Find the "Next: Am I ready today?" Button
+    t =    54.87s Find the "Next: Am I ready today?" Button
+    t =    54.90s Find the "Next: Am I ready today?" Button
+    t =    55.03s Find the "Next: Am I ready today?" Button
+    t =    55.05s Find the "Next: Am I ready today?" Button
+    t =    55.19s Find the "Next: Am I ready today?" Button
+    t =    55.23s Find the "Next: Am I ready today?" Button
+    t =    55.36s Find the "Next: Am I ready today?" Button
+    t =    55.38s Find the "Next: Am I ready today?" Button
+    t =    55.52s Find the "Next: Am I ready today?" Button
+    t =    55.54s Find the "Next: Am I ready today?" Button
+    t =    55.67s Find the "Next: Am I ready today?" Button
+    t =    55.70s Find the "Next: Am I ready today?" Button
+    t =    55.84s Find the "Next: Am I ready today?" Button
+    t =    55.86s Find the "Next: Am I ready today?" Button
+    t =    55.99s Find the "Next: Am I ready today?" Button
+    t =    56.02s Find the "Next: Am I ready today?" Button
+    t =    56.16s Find the "Next: Am I ready today?" Button
+    t =    56.19s Find the "Next: Am I ready today?" Button
+    t =    56.32s Find the "Next: Am I ready today?" Button
+    t =    56.34s Find the "Next: Am I ready today?" Button
+    t =    56.49s Find the "Next: Am I ready today?" Button
+    t =    56.51s Find the "Next: Am I ready today?" Button
+    t =    56.65s Find the "Next: Am I ready today?" Button
+    t =    56.68s Find the "Next: Am I ready today?" Button
+    t =    56.81s Find the "Next: Am I ready today?" Button
+    t =    56.84s Find the "Next: Am I ready today?" Button
+    t =    56.97s Find the "Next: Am I ready today?" Button
+    t =    57.00s Find the "Next: Am I ready today?" Button
+    t =    57.14s Find the "Next: Am I ready today?" Button
+    t =    57.16s Find the "Next: Am I ready today?" Button
+    t =    57.29s Find the "Next: Am I ready today?" Button
+    t =    57.32s Find the "Next: Am I ready today?" Button
+    t =    57.45s Find the "Next: Am I ready today?" Button
+    t =    57.48s Find the "Next: Am I ready today?" Button
+    t =    57.61s Find the "Next: Am I ready today?" Button
+    t =    57.63s Find the "Next: Am I ready today?" Button
+    t =    57.77s Find the "Next: Am I ready today?" Button
+    t =    57.79s Find the "Next: Am I ready today?" Button
+    t =    57.92s Find the "Next: Am I ready today?" Button
+    t =    57.95s Find the "Next: Am I ready today?" Button
+    t =    58.09s Find the "Next: Am I ready today?" Button
+    t =    58.11s Find the "Next: Am I ready today?" Button
+    t =    58.24s Find the "Next: Am I ready today?" Button
+    t =    58.27s Find the "Next: Am I ready today?" Button
+    t =    58.30s Checking existence of `"Next: Am I ready today?" Button`
+    t =    58.31s Find the "Next: Am I ready today?" Button
+    t =    58.34s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    58.34s     Wait for se.korkort.study to idle
+    t =    58.34s     Find the Target Application 'se.korkort.study'
+    t =    58.35s     Check for interrupting elements affecting "Körkort" Application
+    t =    58.36s     Synthesize event
+    t =    58.36s         Find the Target Application 'se.korkort.study'
+    t =    58.37s         Find the Target Application 'se.korkort.study'
+    t =    58.38s         Find the Target Application 'se.korkort.study'
+    t =    58.39s         Find the Target Application 'se.korkort.study'
+    t =    58.40s         Find the Target Application 'se.korkort.study'
+    t =    60.45s     Wait for se.korkort.study to idle
+    t =    60.45s Checking existence of `"Next: Am I ready today?" Button`
+    t =    60.47s Find the "Next: Am I ready today?" Button
+    t =    60.51s Find the "Next: Am I ready today?" Button
+    t =    60.53s Find the "Next: Am I ready today?" Button
+    t =    60.66s Find the "Next: Am I ready today?" Button
+    t =    60.79s Find the "Next: Am I ready today?" Button
+    t =    60.92s Find the "Next: Am I ready today?" Button
+    t =    61.05s Find the "Next: Am I ready today?" Button
+    t =    61.08s Find the "Next: Am I ready today?" Button
+    t =    61.21s Find the "Next: Am I ready today?" Button
+    t =    61.23s Find the "Next: Am I ready today?" Button
+    t =    61.37s Find the "Next: Am I ready today?" Button
+    t =    61.40s Find the "Next: Am I ready today?" Button
+    t =    61.53s Find the "Next: Am I ready today?" Button
+    t =    61.55s Find the "Next: Am I ready today?" Button
+    t =    61.68s Find the "Next: Am I ready today?" Button
+    t =    61.71s Find the "Next: Am I ready today?" Button
+    t =    61.84s Find the "Next: Am I ready today?" Button
+    t =    61.87s Find the "Next: Am I ready today?" Button
+    t =    62.00s Find the "Next: Am I ready today?" Button
+    t =    62.03s Find the "Next: Am I ready today?" Button
+    t =    62.16s Find the "Next: Am I ready today?" Button
+    t =    62.18s Find the "Next: Am I ready today?" Button
+    t =    62.32s Find the "Next: Am I ready today?" Button
+    t =    62.35s Find the "Next: Am I ready today?" Button
+    t =    62.48s Find the "Next: Am I ready today?" Button
+    t =    62.50s Find the "Next: Am I ready today?" Button
+    t =    62.64s Find the "Next: Am I ready today?" Button
+    t =    62.66s Find the "Next: Am I ready today?" Button
+    t =    62.80s Find the "Next: Am I ready today?" Button
+    t =    62.83s Find the "Next: Am I ready today?" Button
+    t =    62.96s Find the "Next: Am I ready today?" Button
+    t =    62.98s Find the "Next: Am I ready today?" Button
+    t =    63.12s Find the "Next: Am I ready today?" Button
+    t =    63.14s Find the "Next: Am I ready today?" Button
+    t =    63.28s Find the "Next: Am I ready today?" Button
+    t =    63.30s Find the "Next: Am I ready today?" Button
+    t =    63.44s Find the "Next: Am I ready today?" Button
+    t =    63.46s Find the "Next: Am I ready today?" Button
+    t =    63.60s Find the "Next: Am I ready today?" Button
+    t =    63.62s Find the "Next: Am I ready today?" Button
+    t =    63.75s Find the "Next: Am I ready today?" Button
+    t =    63.78s Find the "Next: Am I ready today?" Button
+    t =    63.91s Find the "Next: Am I ready today?" Button
+    t =    63.93s Find the "Next: Am I ready today?" Button
+    t =    64.06s Find the "Next: Am I ready today?" Button
+    t =    64.09s Find the "Next: Am I ready today?" Button
+    t =    64.22s Find the "Next: Am I ready today?" Button
+    t =    64.24s Find the "Next: Am I ready today?" Button
+    t =    64.37s Find the "Next: Am I ready today?" Button
+    t =    64.40s Find the "Next: Am I ready today?" Button
+    t =    64.53s Find the "Next: Am I ready today?" Button
+    t =    64.55s Find the "Next: Am I ready today?" Button
+    t =    64.69s Find the "Next: Am I ready today?" Button
+    t =    64.71s Find the "Next: Am I ready today?" Button
+    t =    64.84s Find the "Next: Am I ready today?" Button
+    t =    64.87s Find the "Next: Am I ready today?" Button
+    t =    65.00s Find the "Next: Am I ready today?" Button
+    t =    65.03s Find the "Next: Am I ready today?" Button
+    t =    65.16s Find the "Next: Am I ready today?" Button
+    t =    65.19s Find the "Next: Am I ready today?" Button
+    t =    65.21s Checking existence of `"Next: Am I ready today?" Button`
+    t =    65.23s Find the "Next: Am I ready today?" Button
+    t =    65.25s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    65.25s     Wait for se.korkort.study to idle
+    t =    65.25s     Find the Target Application 'se.korkort.study'
+    t =    65.27s     Check for interrupting elements affecting "Körkort" Application
+    t =    65.28s     Synthesize event
+    t =    65.28s         Find the Target Application 'se.korkort.study'
+    t =    65.29s         Find the Target Application 'se.korkort.study'
+    t =    65.30s         Find the Target Application 'se.korkort.study'
+    t =    65.31s         Find the Target Application 'se.korkort.study'
+    t =    65.32s         Find the Target Application 'se.korkort.study'
+    t =    67.36s     Wait for se.korkort.study to idle
+    t =    67.37s Checking existence of `"Next: Am I ready today?" Button`
+    t =    67.39s Find the "Next: Am I ready today?" Button
+    t =    67.42s Find the "Next: Am I ready today?" Button
+    t =    67.44s Find the "Next: Am I ready today?" Button
+    t =    67.57s Find the "Next: Am I ready today?" Button
+    t =    67.70s Find the "Next: Am I ready today?" Button
+    t =    67.83s Find the "Next: Am I ready today?" Button
+    t =    67.96s Find the "Next: Am I ready today?" Button
+    t =    68.09s Find the "Next: Am I ready today?" Button
+    t =    68.11s Find the "Next: Am I ready today?" Button
+    t =    68.25s Find the "Next: Am I ready today?" Button
+    t =    68.27s Find the "Next: Am I ready today?" Button
+    t =    68.41s Find the "Next: Am I ready today?" Button
+    t =    68.43s Find the "Next: Am I ready today?" Button
+    t =    68.57s Find the "Next: Am I ready today?" Button
+    t =    68.59s Find the "Next: Am I ready today?" Button
+    t =    68.72s Find the "Next: Am I ready today?" Button
+    t =    68.75s Find the "Next: Am I ready today?" Button
+    t =    68.88s Find the "Next: Am I ready today?" Button
+    t =    68.91s Find the "Next: Am I ready today?" Button
+    t =    69.05s Find the "Next: Am I ready today?" Button
+    t =    69.07s Find the "Next: Am I ready today?" Button
+    t =    69.20s Find the "Next: Am I ready today?" Button
+    t =    69.23s Find the "Next: Am I ready today?" Button
+    t =    69.37s Find the "Next: Am I ready today?" Button
+    t =    69.40s Find the "Next: Am I ready today?" Button
+    t =    69.53s Find the "Next: Am I ready today?" Button
+    t =    69.56s Find the "Next: Am I ready today?" Button
+    t =    69.69s Find the "Next: Am I ready today?" Button
+    t =    69.72s Find the "Next: Am I ready today?" Button
+    t =    69.85s Find the "Next: Am I ready today?" Button
+    t =    69.88s Find the "Next: Am I ready today?" Button
+    t =    70.00s Find the "Next: Am I ready today?" Button
+    t =    70.03s Find the "Next: Am I ready today?" Button
+    t =    70.16s Find the "Next: Am I ready today?" Button
+    t =    70.19s Find the "Next: Am I ready today?" Button
+    t =    70.32s Find the "Next: Am I ready today?" Button
+    t =    70.35s Find the "Next: Am I ready today?" Button
+    t =    70.48s Find the "Next: Am I ready today?" Button
+    t =    70.50s Find the "Next: Am I ready today?" Button
+    t =    70.63s Find the "Next: Am I ready today?" Button
+    t =    70.66s Find the "Next: Am I ready today?" Button
+    t =    70.80s Find the "Next: Am I ready today?" Button
+    t =    70.82s Find the "Next: Am I ready today?" Button
+    t =    70.95s Find the "Next: Am I ready today?" Button
+    t =    70.97s Find the "Next: Am I ready today?" Button
+    t =    71.10s Find the "Next: Am I ready today?" Button
+    t =    71.13s Find the "Next: Am I ready today?" Button
+    t =    71.26s Find the "Next: Am I ready today?" Button
+    t =    71.29s Find the "Next: Am I ready today?" Button
+    t =    71.42s Find the "Next: Am I ready today?" Button
+    t =    71.44s Find the "Next: Am I ready today?" Button
+    t =    71.57s Find the "Next: Am I ready today?" Button
+    t =    71.59s Find the "Next: Am I ready today?" Button
+    t =    71.73s Find the "Next: Am I ready today?" Button
+    t =    71.75s Find the "Next: Am I ready today?" Button
+    t =    71.88s Find the "Next: Am I ready today?" Button
+    t =    71.91s Find the "Next: Am I ready today?" Button
+    t =    72.04s Find the "Next: Am I ready today?" Button
+    t =    72.06s Find the "Next: Am I ready today?" Button
+    t =    72.09s Checking existence of `"Next: Am I ready today?" Button`
+    t =    72.11s Find the "Next: Am I ready today?" Button
+    t =    72.13s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    72.13s     Wait for se.korkort.study to idle
+    t =    72.13s     Find the Target Application 'se.korkort.study'
+    t =    72.14s     Check for interrupting elements affecting "Körkort" Application
+    t =    72.16s     Synthesize event
+    t =    72.16s         Find the Target Application 'se.korkort.study'
+    t =    72.17s         Find the Target Application 'se.korkort.study'
+    t =    72.18s         Find the Target Application 'se.korkort.study'
+    t =    72.19s         Find the Target Application 'se.korkort.study'
+    t =    72.20s         Find the Target Application 'se.korkort.study'
+    t =    74.25s     Wait for se.korkort.study to idle
+    t =    74.26s Checking existence of `"Next: Am I ready today?" Button`
+    t =    74.27s Find the "Next: Am I ready today?" Button
+    t =    74.30s Find the "Next: Am I ready today?" Button
+    t =    74.33s Find the "Next: Am I ready today?" Button
+    t =    74.45s Find the "Next: Am I ready today?" Button
+    t =    74.58s Find the "Next: Am I ready today?" Button
+    t =    74.71s Find the "Next: Am I ready today?" Button
+    t =    74.84s Find the "Next: Am I ready today?" Button
+    t =    74.97s Find the "Next: Am I ready today?" Button
+    t =    75.00s Find the "Next: Am I ready today?" Button
+    t =    75.13s Find the "Next: Am I ready today?" Button
+    t =    75.15s Find the "Next: Am I ready today?" Button
+    t =    75.28s Find the "Next: Am I ready today?" Button
+    t =    75.31s Find the "Next: Am I ready today?" Button
+    t =    75.44s Find the "Next: Am I ready today?" Button
+    t =    75.47s Find the "Next: Am I ready today?" Button
+    t =    75.60s Find the "Next: Am I ready today?" Button
+    t =    75.63s Find the "Next: Am I ready today?" Button
+    t =    75.76s Find the "Next: Am I ready today?" Button
+    t =    75.79s Find the "Next: Am I ready today?" Button
+    t =    75.92s Find the "Next: Am I ready today?" Button
+    t =    75.95s Find the "Next: Am I ready today?" Button
+    t =    76.09s Find the "Next: Am I ready today?" Button
+    t =    76.11s Find the "Next: Am I ready today?" Button
+    t =    76.24s Find the "Next: Am I ready today?" Button
+    t =    76.27s Find the "Next: Am I ready today?" Button
+    t =    76.41s Find the "Next: Am I ready today?" Button
+    t =    76.43s Find the "Next: Am I ready today?" Button
+    t =    76.56s Find the "Next: Am I ready today?" Button
+    t =    76.59s Find the "Next: Am I ready today?" Button
+    t =    76.72s Find the "Next: Am I ready today?" Button
+    t =    76.74s Find the "Next: Am I ready today?" Button
+    t =    76.88s Find the "Next: Am I ready today?" Button
+    t =    76.90s Find the "Next: Am I ready today?" Button
+    t =    77.03s Find the "Next: Am I ready today?" Button
+    t =    77.06s Find the "Next: Am I ready today?" Button
+    t =    77.18s Find the "Next: Am I ready today?" Button
+    t =    77.21s Find the "Next: Am I ready today?" Button
+    t =    77.34s Find the "Next: Am I ready today?" Button
+    t =    77.37s Find the "Next: Am I ready today?" Button
+    t =    77.50s Find the "Next: Am I ready today?" Button
+    t =    77.52s Find the "Next: Am I ready today?" Button
+    t =    77.65s Find the "Next: Am I ready today?" Button
+    t =    77.68s Find the "Next: Am I ready today?" Button
+    t =    77.81s Find the "Next: Am I ready today?" Button
+    t =    77.84s Find the "Next: Am I ready today?" Button
+    t =    77.97s Find the "Next: Am I ready today?" Button
+    t =    77.99s Find the "Next: Am I ready today?" Button
+    t =    78.12s Find the "Next: Am I ready today?" Button
+    t =    78.15s Find the "Next: Am I ready today?" Button
+    t =    78.29s Find the "Next: Am I ready today?" Button
+    t =    78.31s Find the "Next: Am I ready today?" Button
+    t =    78.44s Find the "Next: Am I ready today?" Button
+    t =    78.47s Find the "Next: Am I ready today?" Button
+    t =    78.60s Find the "Next: Am I ready today?" Button
+    t =    78.63s Find the "Next: Am I ready today?" Button
+    t =    78.76s Find the "Next: Am I ready today?" Button
+    t =    78.79s Find the "Next: Am I ready today?" Button
+    t =    78.92s Find the "Next: Am I ready today?" Button
+    t =    78.94s Find the "Next: Am I ready today?" Button
+    t =    78.97s Checking existence of `"Next: Am I ready today?" Button`
+    t =    78.99s Find the "Next: Am I ready today?" Button
+    t =    79.01s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    79.01s     Wait for se.korkort.study to idle
+    t =    79.01s     Find the Target Application 'se.korkort.study'
+    t =    79.03s     Check for interrupting elements affecting "Körkort" Application
+    t =    79.04s     Synthesize event
+    t =    79.04s         Find the Target Application 'se.korkort.study'
+    t =    79.05s         Find the Target Application 'se.korkort.study'
+    t =    79.06s         Find the Target Application 'se.korkort.study'
+    t =    79.07s         Find the Target Application 'se.korkort.study'
+    t =    79.08s         Find the Target Application 'se.korkort.study'
+    t =    81.12s     Wait for se.korkort.study to idle
+    t =    81.12s Checking existence of `"Next: Am I ready today?" Button`
+    t =    81.14s Find the "Next: Am I ready today?" Button
+    t =    81.17s Find the "Next: Am I ready today?" Button
+    t =    81.19s Find the "Next: Am I ready today?" Button
+    t =    81.32s Find the "Next: Am I ready today?" Button
+    t =    81.45s Find the "Next: Am I ready today?" Button
+    t =    81.58s Find the "Next: Am I ready today?" Button
+    t =    81.71s Find the "Next: Am I ready today?" Button
+    t =    81.73s Find the "Next: Am I ready today?" Button
+    t =    81.86s Find the "Next: Am I ready today?" Button
+    t =    81.88s Find the "Next: Am I ready today?" Button
+    t =    82.03s Find the "Next: Am I ready today?" Button
+    t =    82.05s Find the "Next: Am I ready today?" Button
+    t =    82.19s Find the "Next: Am I ready today?" Button
+    t =    82.21s Find the "Next: Am I ready today?" Button
+    t =    82.34s Find the "Next: Am I ready today?" Button
+    t =    82.37s Find the "Next: Am I ready today?" Button
+    t =    82.50s Find the "Next: Am I ready today?" Button
+    t =    82.53s Find the "Next: Am I ready today?" Button
+    t =    82.66s Find the "Next: Am I ready today?" Button
+    t =    82.68s Find the "Next: Am I ready today?" Button
+    t =    82.82s Find the "Next: Am I ready today?" Button
+    t =    82.85s Find the "Next: Am I ready today?" Button
+    t =    82.98s Find the "Next: Am I ready today?" Button
+    t =    83.00s Find the "Next: Am I ready today?" Button
+    t =    83.13s Find the "Next: Am I ready today?" Button
+    t =    83.15s Find the "Next: Am I ready today?" Button
+    t =    83.29s Find the "Next: Am I ready today?" Button
+    t =    83.31s Find the "Next: Am I ready today?" Button
+    t =    83.45s Find the "Next: Am I ready today?" Button
+    t =    83.48s Find the "Next: Am I ready today?" Button
+    t =    83.61s Find the "Next: Am I ready today?" Button
+    t =    83.63s Find the "Next: Am I ready today?" Button
+    t =    83.76s Find the "Next: Am I ready today?" Button
+    t =    83.79s Find the "Next: Am I ready today?" Button
+    t =    83.92s Find the "Next: Am I ready today?" Button
+    t =    83.95s Find the "Next: Am I ready today?" Button
+    t =    84.10s Find the "Next: Am I ready today?" Button
+    t =    84.12s Find the "Next: Am I ready today?" Button
+    t =    84.25s Find the "Next: Am I ready today?" Button
+    t =    84.28s Find the "Next: Am I ready today?" Button
+    t =    84.41s Find the "Next: Am I ready today?" Button
+    t =    84.44s Find the "Next: Am I ready today?" Button
+    t =    84.56s Find the "Next: Am I ready today?" Button
+    t =    84.59s Find the "Next: Am I ready today?" Button
+    t =    84.72s Find the "Next: Am I ready today?" Button
+    t =    84.75s Find the "Next: Am I ready today?" Button
+    t =    84.88s Find the "Next: Am I ready today?" Button
+    t =    84.90s Find the "Next: Am I ready today?" Button
+    t =    85.03s Find the "Next: Am I ready today?" Button
+    t =    85.06s Find the "Next: Am I ready today?" Button
+    t =    85.19s Find the "Next: Am I ready today?" Button
+    t =    85.22s Find the "Next: Am I ready today?" Button
+    t =    85.35s Find the "Next: Am I ready today?" Button
+    t =    85.38s Find the "Next: Am I ready today?" Button
+    t =    85.51s Find the "Next: Am I ready today?" Button
+    t =    85.53s Find the "Next: Am I ready today?" Button
+    t =    85.66s Find the "Next: Am I ready today?" Button
+    t =    85.69s Find the "Next: Am I ready today?" Button
+    t =    85.82s Find the "Next: Am I ready today?" Button
+    t =    85.84s Find the "Next: Am I ready today?" Button
+    t =    85.87s Checking existence of `"Next: Am I ready today?" Button`
+    t =    85.89s Find the "Next: Am I ready today?" Button
+    t =    85.91s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    85.91s     Wait for se.korkort.study to idle
+    t =    85.91s     Find the Target Application 'se.korkort.study'
+    t =    85.93s     Check for interrupting elements affecting "Körkort" Application
+    t =    85.94s     Synthesize event
+    t =    85.94s         Find the Target Application 'se.korkort.study'
+    t =    85.95s         Find the Target Application 'se.korkort.study'
+    t =    85.96s         Find the Target Application 'se.korkort.study'
+    t =    85.97s         Find the Target Application 'se.korkort.study'
+    t =    85.98s         Find the Target Application 'se.korkort.study'
+    t =    88.03s     Wait for se.korkort.study to idle
+    t =    88.04s Checking existence of `"Next: Am I ready today?" Button`
+    t =    88.06s Find the "Next: Am I ready today?" Button
+    t =    88.09s Find the "Next: Am I ready today?" Button
+    t =    88.11s Find the "Next: Am I ready today?" Button
+    t =    88.24s Find the "Next: Am I ready today?" Button
+    t =    88.36s Find the "Next: Am I ready today?" Button
+    t =    88.49s Find the "Next: Am I ready today?" Button
+    t =    88.61s Find the "Next: Am I ready today?" Button
+    t =    88.74s Find the "Next: Am I ready today?" Button
+    t =    88.76s Find the "Next: Am I ready today?" Button
+    t =    88.90s Find the "Next: Am I ready today?" Button
+    t =    88.93s Find the "Next: Am I ready today?" Button
+    t =    89.06s Find the "Next: Am I ready today?" Button
+    t =    89.09s Find the "Next: Am I ready today?" Button
+    t =    89.22s Find the "Next: Am I ready today?" Button
+    t =    89.24s Find the "Next: Am I ready today?" Button
+    t =    89.38s Find the "Next: Am I ready today?" Button
+    t =    89.41s Find the "Next: Am I ready today?" Button
+    t =    89.54s Find the "Next: Am I ready today?" Button
+    t =    89.56s Find the "Next: Am I ready today?" Button
+    t =    89.70s Find the "Next: Am I ready today?" Button
+    t =    89.72s Find the "Next: Am I ready today?" Button
+    t =    89.86s Find the "Next: Am I ready today?" Button
+    t =    89.89s Find the "Next: Am I ready today?" Button
+    t =    90.02s Find the "Next: Am I ready today?" Button
+    t =    90.05s Find the "Next: Am I ready today?" Button
+    t =    90.18s Find the "Next: Am I ready today?" Button
+    t =    90.20s Find the "Next: Am I ready today?" Button
+    t =    90.34s Find the "Next: Am I ready today?" Button
+    t =    90.36s Find the "Next: Am I ready today?" Button
+    t =    90.49s Find the "Next: Am I ready today?" Button
+    t =    90.51s Find the "Next: Am I ready today?" Button
+    t =    90.65s Find the "Next: Am I ready today?" Button
+    t =    90.67s Find the "Next: Am I ready today?" Button
+    t =    90.81s Find the "Next: Am I ready today?" Button
+    t =    90.83s Find the "Next: Am I ready today?" Button
+    t =    90.96s Find the "Next: Am I ready today?" Button
+    t =    90.99s Find the "Next: Am I ready today?" Button
+    t =    91.12s Find the "Next: Am I ready today?" Button
+    t =    91.15s Find the "Next: Am I ready today?" Button
+    t =    91.28s Find the "Next: Am I ready today?" Button
+    t =    91.30s Find the "Next: Am I ready today?" Button
+    t =    91.43s Find the "Next: Am I ready today?" Button
+    t =    91.46s Find the "Next: Am I ready today?" Button
+    t =    91.59s Find the "Next: Am I ready today?" Button
+    t =    91.62s Find the "Next: Am I ready today?" Button
+    t =    91.75s Find the "Next: Am I ready today?" Button
+    t =    91.78s Find the "Next: Am I ready today?" Button
+    t =    91.90s Find the "Next: Am I ready today?" Button
+    t =    91.93s Find the "Next: Am I ready today?" Button
+    t =    92.06s Find the "Next: Am I ready today?" Button
+    t =    92.09s Find the "Next: Am I ready today?" Button
+    t =    92.23s Find the "Next: Am I ready today?" Button
+    t =    92.25s Find the "Next: Am I ready today?" Button
+    t =    92.38s Find the "Next: Am I ready today?" Button
+    t =    92.41s Find the "Next: Am I ready today?" Button
+    t =    92.54s Find the "Next: Am I ready today?" Button
+    t =    92.56s Find the "Next: Am I ready today?" Button
+    t =    92.70s Find the "Next: Am I ready today?" Button
+    t =    92.72s Find the "Next: Am I ready today?" Button
+    t =    92.75s Checking existence of `"Next: Am I ready today?" Button`
+    t =    92.77s Find the "Next: Am I ready today?" Button
+    t =    92.79s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    92.79s     Wait for se.korkort.study to idle
+    t =    92.79s     Find the Target Application 'se.korkort.study'
+    t =    92.80s     Check for interrupting elements affecting "Körkort" Application
+    t =    92.81s     Synthesize event
+    t =    92.82s         Find the Target Application 'se.korkort.study'
+    t =    92.83s         Find the Target Application 'se.korkort.study'
+    t =    92.84s         Find the Target Application 'se.korkort.study'
+    t =    92.85s         Find the Target Application 'se.korkort.study'
+    t =    92.86s         Find the Target Application 'se.korkort.study'
+    t =    94.91s     Wait for se.korkort.study to idle
+    t =    94.91s Checking existence of `"Next: Am I ready today?" Button`
+    t =    94.93s Find the "Next: Am I ready today?" Button
+    t =    94.96s Find the "Next: Am I ready today?" Button
+    t =    94.99s Find the "Next: Am I ready today?" Button
+    t =    95.11s Find the "Next: Am I ready today?" Button
+    t =    95.24s Find the "Next: Am I ready today?" Button
+    t =    95.36s Find the "Next: Am I ready today?" Button
+    t =    95.49s Find the "Next: Am I ready today?" Button
+    t =    95.61s Find the "Next: Am I ready today?" Button
+    t =    95.64s Find the "Next: Am I ready today?" Button
+    t =    95.77s Find the "Next: Am I ready today?" Button
+    t =    95.80s Find the "Next: Am I ready today?" Button
+    t =    95.93s Find the "Next: Am I ready today?" Button
+    t =    95.96s Find the "Next: Am I ready today?" Button
+    t =    96.10s Find the "Next: Am I ready today?" Button
+    t =    96.13s Find the "Next: Am I ready today?" Button
+    t =    96.26s Find the "Next: Am I ready today?" Button
+    t =    96.29s Find the "Next: Am I ready today?" Button
+    t =    96.42s Find the "Next: Am I ready today?" Button
+    t =    96.45s Find the "Next: Am I ready today?" Button
+    t =    96.58s Find the "Next: Am I ready today?" Button
+    t =    96.60s Find the "Next: Am I ready today?" Button
+    t =    96.73s Find the "Next: Am I ready today?" Button
+    t =    96.76s Find the "Next: Am I ready today?" Button
+    t =    96.89s Find the "Next: Am I ready today?" Button
+    t =    96.91s Find the "Next: Am I ready today?" Button
+    t =    97.05s Find the "Next: Am I ready today?" Button
+    t =    97.08s Find the "Next: Am I ready today?" Button
+    t =    97.22s Find the "Next: Am I ready today?" Button
+    t =    97.24s Find the "Next: Am I ready today?" Button
+    t =    97.37s Find the "Next: Am I ready today?" Button
+    t =    97.40s Find the "Next: Am I ready today?" Button
+    t =    97.54s Find the "Next: Am I ready today?" Button
+    t =    97.56s Find the "Next: Am I ready today?" Button
+    t =    97.69s Find the "Next: Am I ready today?" Button
+    t =    97.72s Find the "Next: Am I ready today?" Button
+    t =    97.85s Find the "Next: Am I ready today?" Button
+    t =    97.87s Find the "Next: Am I ready today?" Button
+    t =    98.01s Find the "Next: Am I ready today?" Button
+    t =    98.03s Find the "Next: Am I ready today?" Button
+    t =    98.16s Find the "Next: Am I ready today?" Button
+    t =    98.18s Find the "Next: Am I ready today?" Button
+    t =    98.31s Find the "Next: Am I ready today?" Button
+    t =    98.34s Find the "Next: Am I ready today?" Button
+    t =    98.47s Find the "Next: Am I ready today?" Button
+    t =    98.50s Find the "Next: Am I ready today?" Button
+    t =    98.62s Find the "Next: Am I ready today?" Button
+    t =    98.65s Find the "Next: Am I ready today?" Button
+    t =    98.78s Find the "Next: Am I ready today?" Button
+    t =    98.81s Find the "Next: Am I ready today?" Button
+    t =    98.94s Find the "Next: Am I ready today?" Button
+    t =    98.96s Find the "Next: Am I ready today?" Button
+    t =    99.09s Find the "Next: Am I ready today?" Button
+    t =    99.12s Find the "Next: Am I ready today?" Button
+    t =    99.25s Find the "Next: Am I ready today?" Button
+    t =    99.28s Find the "Next: Am I ready today?" Button
+    t =    99.41s Find the "Next: Am I ready today?" Button
+    t =    99.43s Find the "Next: Am I ready today?" Button
+    t =    99.56s Find the "Next: Am I ready today?" Button
+    t =    99.59s Find the "Next: Am I ready today?" Button
+    t =    99.62s Checking existence of `"Next: Am I ready today?" Button`
+    t =    99.64s Find the "Next: Am I ready today?" Button
+    t =    99.66s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =    99.66s     Wait for se.korkort.study to idle
+    t =    99.66s     Find the Target Application 'se.korkort.study'
+    t =    99.67s     Check for interrupting elements affecting "Körkort" Application
+    t =    99.68s     Synthesize event
+    t =    99.69s         Find the Target Application 'se.korkort.study'
+    t =    99.70s         Find the Target Application 'se.korkort.study'
+    t =    99.71s         Find the Target Application 'se.korkort.study'
+    t =    99.71s         Find the Target Application 'se.korkort.study'
+    t =    99.73s         Find the Target Application 'se.korkort.study'
+    t =   101.77s     Wait for se.korkort.study to idle
+    t =   101.78s Checking existence of `"Next: Am I ready today?" Button`
+    t =   101.79s Find the "Next: Am I ready today?" Button
+    t =   101.83s Find the "Next: Am I ready today?" Button
+    t =   101.85s Find the "Next: Am I ready today?" Button
+    t =   101.99s Find the "Next: Am I ready today?" Button
+    t =   102.11s Find the "Next: Am I ready today?" Button
+    t =   102.24s Find the "Next: Am I ready today?" Button
+    t =   102.36s Find the "Next: Am I ready today?" Button
+    t =   102.39s Find the "Next: Am I ready today?" Button
+    t =   102.52s Find the "Next: Am I ready today?" Button
+    t =   102.54s Find the "Next: Am I ready today?" Button
+    t =   102.68s Find the "Next: Am I ready today?" Button
+    t =   102.70s Find the "Next: Am I ready today?" Button
+    t =   102.83s Find the "Next: Am I ready today?" Button
+    t =   102.85s Find the "Next: Am I ready today?" Button
+    t =   102.99s Find the "Next: Am I ready today?" Button
+    t =   103.01s Find the "Next: Am I ready today?" Button
+    t =   103.15s Find the "Next: Am I ready today?" Button
+    t =   103.18s Find the "Next: Am I ready today?" Button
+    t =   103.31s Find the "Next: Am I ready today?" Button
+    t =   103.34s Find the "Next: Am I ready today?" Button
+    t =   103.47s Find the "Next: Am I ready today?" Button
+    t =   103.50s Find the "Next: Am I ready today?" Button
+    t =   103.63s Find the "Next: Am I ready today?" Button
+    t =   103.66s Find the "Next: Am I ready today?" Button
+    t =   103.79s Find the "Next: Am I ready today?" Button
+    t =   103.83s Find the "Next: Am I ready today?" Button
+    t =   104.00s Find the "Next: Am I ready today?" Button
+    t =   104.03s Find the "Next: Am I ready today?" Button
+    t =   104.16s Find the "Next: Am I ready today?" Button
+    t =   104.18s Find the "Next: Am I ready today?" Button
+    t =   104.31s Find the "Next: Am I ready today?" Button
+    t =   104.34s Find the "Next: Am I ready today?" Button
+    t =   104.48s Find the "Next: Am I ready today?" Button
+    t =   104.50s Find the "Next: Am I ready today?" Button
+    t =   104.63s Find the "Next: Am I ready today?" Button
+    t =   104.66s Find the "Next: Am I ready today?" Button
+    t =   104.79s Find the "Next: Am I ready today?" Button
+    t =   104.81s Find the "Next: Am I ready today?" Button
+    t =   104.95s Find the "Next: Am I ready today?" Button
+    t =   104.97s Find the "Next: Am I ready today?" Button
+    t =   105.10s Find the "Next: Am I ready today?" Button
+    t =   105.13s Find the "Next: Am I ready today?" Button
+    t =   105.25s Find the "Next: Am I ready today?" Button
+    t =   105.28s Find the "Next: Am I ready today?" Button
+    t =   105.41s Find the "Next: Am I ready today?" Button
+    t =   105.44s Find the "Next: Am I ready today?" Button
+    t =   105.57s Find the "Next: Am I ready today?" Button
+    t =   105.59s Find the "Next: Am I ready today?" Button
+    t =   105.72s Find the "Next: Am I ready today?" Button
+    t =   105.75s Find the "Next: Am I ready today?" Button
+    t =   105.88s Find the "Next: Am I ready today?" Button
+    t =   105.90s Find the "Next: Am I ready today?" Button
+    t =   106.03s Find the "Next: Am I ready today?" Button
+    t =   106.06s Find the "Next: Am I ready today?" Button
+    t =   106.19s Find the "Next: Am I ready today?" Button
+    t =   106.22s Find the "Next: Am I ready today?" Button
+    t =   106.35s Find the "Next: Am I ready today?" Button
+    t =   106.37s Find the "Next: Am I ready today?" Button
+    t =   106.50s Find the "Next: Am I ready today?" Button
+    t =   106.53s Find the "Next: Am I ready today?" Button
+    t =   106.56s Checking existence of `"Next: Am I ready today?" Button`
+    t =   106.57s Find the "Next: Am I ready today?" Button
+    t =   106.60s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =   106.60s     Wait for se.korkort.study to idle
+    t =   106.60s     Find the Target Application 'se.korkort.study'
+    t =   106.61s     Check for interrupting elements affecting "Körkort" Application
+    t =   106.62s     Synthesize event
+    t =   106.62s         Find the Target Application 'se.korkort.study'
+    t =   106.63s         Find the Target Application 'se.korkort.study'
+    t =   106.64s         Find the Target Application 'se.korkort.study'
+    t =   106.65s         Find the Target Application 'se.korkort.study'
+    t =   106.66s         Find the Target Application 'se.korkort.study'
+    t =   108.71s     Wait for se.korkort.study to idle
+    t =   108.71s Checking existence of `"Next: Am I ready today?" Button`
+    t =   108.73s Find the "Next: Am I ready today?" Button
+    t =   108.76s Find the "Next: Am I ready today?" Button
+    t =   108.78s Find the "Next: Am I ready today?" Button
+    t =   108.91s Find the "Next: Am I ready today?" Button
+    t =   109.04s Find the "Next: Am I ready today?" Button
+    t =   109.17s Find the "Next: Am I ready today?" Button
+    t =   109.29s Find the "Next: Am I ready today?" Button
+    t =   109.42s Find the "Next: Am I ready today?" Button
+    t =   109.45s Find the "Next: Am I ready today?" Button
+    t =   109.58s Find the "Next: Am I ready today?" Button
+    t =   109.60s Find the "Next: Am I ready today?" Button
+    t =   109.74s Find the "Next: Am I ready today?" Button
+    t =   109.77s Find the "Next: Am I ready today?" Button
+    t =   109.90s Find the "Next: Am I ready today?" Button
+    t =   109.93s Find the "Next: Am I ready today?" Button
+    t =   110.06s Find the "Next: Am I ready today?" Button
+    t =   110.09s Find the "Next: Am I ready today?" Button
+    t =   110.22s Find the "Next: Am I ready today?" Button
+    t =   110.25s Find the "Next: Am I ready today?" Button
+    t =   110.38s Find the "Next: Am I ready today?" Button
+    t =   110.40s Find the "Next: Am I ready today?" Button
+    t =   110.54s Find the "Next: Am I ready today?" Button
+    t =   110.57s Find the "Next: Am I ready today?" Button
+    t =   110.70s Find the "Next: Am I ready today?" Button
+    t =   110.73s Find the "Next: Am I ready today?" Button
+    t =   110.86s Find the "Next: Am I ready today?" Button
+    t =   110.88s Find the "Next: Am I ready today?" Button
+    t =   111.02s Find the "Next: Am I ready today?" Button
+    t =   111.04s Find the "Next: Am I ready today?" Button
+    t =   111.18s Find the "Next: Am I ready today?" Button
+    t =   111.21s Find the "Next: Am I ready today?" Button
+    t =   111.34s Find the "Next: Am I ready today?" Button
+    t =   111.36s Find the "Next: Am I ready today?" Button
+    t =   111.50s Find the "Next: Am I ready today?" Button
+    t =   111.52s Find the "Next: Am I ready today?" Button
+    t =   111.65s Find the "Next: Am I ready today?" Button
+    t =   111.68s Find the "Next: Am I ready today?" Button
+    t =   111.81s Find the "Next: Am I ready today?" Button
+    t =   111.84s Find the "Next: Am I ready today?" Button
+    t =   111.97s Find the "Next: Am I ready today?" Button
+    t =   111.99s Find the "Next: Am I ready today?" Button
+    t =   112.12s Find the "Next: Am I ready today?" Button
+    t =   112.15s Find the "Next: Am I ready today?" Button
+    t =   112.28s Find the "Next: Am I ready today?" Button
+    t =   112.30s Find the "Next: Am I ready today?" Button
+    t =   112.43s Find the "Next: Am I ready today?" Button
+    t =   112.46s Find the "Next: Am I ready today?" Button
+    t =   112.59s Find the "Next: Am I ready today?" Button
+    t =   112.62s Find the "Next: Am I ready today?" Button
+    t =   112.75s Find the "Next: Am I ready today?" Button
+    t =   112.78s Find the "Next: Am I ready today?" Button
+    t =   112.90s Find the "Next: Am I ready today?" Button
+    t =   112.93s Find the "Next: Am I ready today?" Button
+    t =   113.07s Find the "Next: Am I ready today?" Button
+    t =   113.09s Find the "Next: Am I ready today?" Button
+    t =   113.22s Find the "Next: Am I ready today?" Button
+    t =   113.24s Find the "Next: Am I ready today?" Button
+    t =   113.38s Find the "Next: Am I ready today?" Button
+    t =   113.40s Find the "Next: Am I ready today?" Button
+    t =   113.43s Checking existence of `"Next: Am I ready today?" Button`
+    t =   113.45s Find the "Next: Am I ready today?" Button
+    t =   113.47s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =   113.47s     Wait for se.korkort.study to idle
+    t =   113.48s     Find the Target Application 'se.korkort.study'
+    t =   113.49s     Check for interrupting elements affecting "Körkort" Application
+    t =   113.50s     Synthesize event
+    t =   113.50s         Find the Target Application 'se.korkort.study'
+    t =   113.51s         Find the Target Application 'se.korkort.study'
+    t =   113.52s         Find the Target Application 'se.korkort.study'
+    t =   113.53s         Find the Target Application 'se.korkort.study'
+    t =   113.54s         Find the Target Application 'se.korkort.study'
+    t =   115.58s     Wait for se.korkort.study to idle
+    t =   115.59s Checking existence of `"Next: Am I ready today?" Button`
+    t =   115.60s Find the "Next: Am I ready today?" Button
+    t =   115.64s Find the "Next: Am I ready today?" Button
+    t =   115.66s Find the "Next: Am I ready today?" Button
+    t =   115.79s Find the "Next: Am I ready today?" Button
+    t =   115.92s Find the "Next: Am I ready today?" Button
+    t =   116.05s Find the "Next: Am I ready today?" Button
+    t =   116.17s Find the "Next: Am I ready today?" Button
+    t =   116.19s Find the "Next: Am I ready today?" Button
+    t =   116.32s Find the "Next: Am I ready today?" Button
+    t =   116.35s Find the "Next: Am I ready today?" Button
+    t =   116.49s Find the "Next: Am I ready today?" Button
+    t =   116.51s Find the "Next: Am I ready today?" Button
+    t =   116.64s Find the "Next: Am I ready today?" Button
+    t =   116.67s Find the "Next: Am I ready today?" Button
+    t =   116.81s Find the "Next: Am I ready today?" Button
+    t =   116.83s Find the "Next: Am I ready today?" Button
+    t =   116.97s Find the "Next: Am I ready today?" Button
+    t =   116.99s Find the "Next: Am I ready today?" Button
+    t =   117.13s Find the "Next: Am I ready today?" Button
+    t =   117.16s Find the "Next: Am I ready today?" Button
+    t =   117.29s Find the "Next: Am I ready today?" Button
+    t =   117.32s Find the "Next: Am I ready today?" Button
+    t =   117.45s Find the "Next: Am I ready today?" Button
+    t =   117.48s Find the "Next: Am I ready today?" Button
+    t =   117.61s Find the "Next: Am I ready today?" Button
+    t =   117.63s Find the "Next: Am I ready today?" Button
+    t =   117.77s Find the "Next: Am I ready today?" Button
+    t =   117.79s Find the "Next: Am I ready today?" Button
+    t =   117.93s Find the "Next: Am I ready today?" Button
+    t =   117.95s Find the "Next: Am I ready today?" Button
+    t =   118.08s Find the "Next: Am I ready today?" Button
+    t =   118.11s Find the "Next: Am I ready today?" Button
+    t =   118.24s Find the "Next: Am I ready today?" Button
+    t =   118.26s Find the "Next: Am I ready today?" Button
+    t =   118.40s Find the "Next: Am I ready today?" Button
+    t =   118.43s Find the "Next: Am I ready today?" Button
+    t =   118.55s Find the "Next: Am I ready today?" Button
+    t =   118.58s Find the "Next: Am I ready today?" Button
+    t =   118.71s Find the "Next: Am I ready today?" Button
+    t =   118.74s Find the "Next: Am I ready today?" Button
+    t =   118.88s Find the "Next: Am I ready today?" Button
+    t =   118.90s Find the "Next: Am I ready today?" Button
+    t =   119.04s Find the "Next: Am I ready today?" Button
+    t =   119.06s Find the "Next: Am I ready today?" Button
+    t =   119.19s Find the "Next: Am I ready today?" Button
+    t =   119.22s Find the "Next: Am I ready today?" Button
+    t =   119.36s Find the "Next: Am I ready today?" Button
+    t =   119.38s Find the "Next: Am I ready today?" Button
+    t =   119.51s Find the "Next: Am I ready today?" Button
+    t =   119.54s Find the "Next: Am I ready today?" Button
+    t =   119.67s Find the "Next: Am I ready today?" Button
+    t =   119.70s Find the "Next: Am I ready today?" Button
+    t =   119.83s Find the "Next: Am I ready today?" Button
+    t =   119.85s Find the "Next: Am I ready today?" Button
+    t =   119.98s Find the "Next: Am I ready today?" Button
+    t =   120.01s Find the "Next: Am I ready today?" Button
+    t =   120.14s Find the "Next: Am I ready today?" Button
+    t =   120.16s Find the "Next: Am I ready today?" Button
+    t =   120.30s Find the "Next: Am I ready today?" Button
+    t =   120.32s Find the "Next: Am I ready today?" Button
+    t =   120.35s Checking existence of `"Next: Am I ready today?" Button`
+    t =   120.37s Find the "Next: Am I ready today?" Button
+    t =   120.39s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds
+    t =   120.39s     Wait for se.korkort.study to idle
+    t =   120.39s     Find the Target Application 'se.korkort.study'
+    t =   120.40s     Check for interrupting elements affecting "Körkort" Application
+    t =   120.42s     Synthesize event
+    t =   120.42s         Find the Target Application 'se.korkort.study'
+    t =   120.43s         Find the Target Application 'se.korkort.study'
+    t =   120.44s         Find the Target Application 'se.korkort.study'
+    t =   120.45s         Find the Target Application 'se.korkort.study'
+    t =   120.46s         Find the Target Application 'se.korkort.study'
+Testing started
+In flight operation:   <DVTOperationGroup: 0x8b122a700; state = AREfc>
+     <DVTOperationGroup: 0x8b122a880; state = AREfc>
+         <DVTOperation: 0x8b1ad1400; name = 'Remove Log If Needed', state = aReFc>
+         <DVTOperationGroup: 0x8b122a580; state = AREfc>
+             <DVTOperationGroup: 0x8b122a400; state = AREfc>
+                 <__DVTSwiftAsyncOperation: 0x8b122a280; state = AReFc>
+                 <DVTOperation: 0x8b1ad1040; state = aReFc>
+                 <DVTOperation: 0x8b1ad12c0; state = arefc>
+                 <IDESchemeActionResultOperation: 0x8b1228a80; state = Arefc>
+                 <__DVTSwiftAsyncOperation: 0x8b122a100; state = AReFc>
+                 <__DVTSwiftAsyncOperation: 0x8b1229080; state = AReFc>
+                 <DVTOperation: 0x8b1ad0b40; state = aReFc>
+                 <__DVTSwiftAsyncOperation: 0x8b1229680; state = AReFc>
+                 <DVTOperation: 0x8b1ad1180; state = arefc>
+                 <DVTOperationGroup: 0x8b1228900; state = AREf!c, blocking { Blocking finish to clean up test session. }>
+                     <DVTOperation: 0x8b1ad08c0; state = aReFc>
+                     <XCTHOperationGroup: 0x8b1228300>
+                         <XCTHOperationGroup: 0x8b1228c00>
+                             <XCTHOperationGroup: 0x8b1229380>
+                                 <XCTHOperationGroup: 0x8b1228d80>{name = 'com.apple.dt.xctest.target-runner'}(Finishing blocked for reasons:
+  waiting for workers to materialize
+  )
+                                     <XCTHOperationGroup: 0x8b122b000>
+                                         <XCTHOperationGroup: 0x8b122b600>
+                                             <IDERunOperation: 0x8b122aa00; state = aReF!c, blocking { XCTHTestOperationCoordinator processing delay, Blocking finish to allow restarting of crashed test operations., Waiting for -runningDidFinish call. }>
+                                             worker: <IDERunOperationWorkerGroup: 0x8b3ec1800, unfinished subworkers :
+					<_IDEInstalliPhoneSimulatorWorker: 0x8b3022bc0 -- ExtensionIdentifier: Xcode.IDEiPhoneSimulatorSupport.DeviceService.Install>
+					<IDELaunchiPhoneSimulatorLauncher: 0x8b1a63560 -- ExtensionIdentifier: Xcode.IDEiPhoneSimulatorSupport.Launch>
+				 >
+
+                                             tracker: <IDEExecutionOperationTracker: 0x8b1311810: Testing workspace Korkort with scheme NativeRouteTests
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x8b40faa00: subtrackers=none>"
+)>
+
+                             <XCTHOperation: 0x8b1ad0dc0>
+         <_IDETestingFinalizeLogsOperation: 0x8b1ad1540; name = 'Finalize test log', state = aref!c, blocking { waiting for test log to finish recording }>
+In flight operation:   <IDERunOperation: 0x8b117cf00; state = aReF!c, blocking { Waiting for -runningDidFinish call. }>
+  worker: <IDERunOperationWorkerGroup: 0x8b3ec2a00, unfinished subworkers :
+					<_IDEInstalliPhoneSimulatorWorker: 0x8b3023340 -- ExtensionIdentifier: Xcode.IDEiPhoneSimulatorSupport.DeviceService.Install>
+					<IDELaunchiPhoneSimulatorLauncher: 0x8b1a09180 -- ExtensionIdentifier: Xcode.IDEiPhoneSimulatorSupport.Launch>
+				 >
+
+  tracker: <IDEExecutionOperationTracker: 0x8b1b12a00: Launch application se.korkort.study for UI testing.
+	subtrackers=(
+    "<IDEExecutionRunnableTracker: 0x8b40fb6c0: subtrackers=none>"
+)>
+
+<DVTOperationGroup: 0x8b122a700; state = AREfc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[DVTOperationGroup init] (in DVTFoundation)
+  2   +[DVTOperationGroup operationGroupWithSuboperations:] (in DVTFoundation)
+  3   -[IDEScheme _groupAndImposeDependenciesForOrderedOperations:] (in IDEFoundation)
+  4   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  5   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  6   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  9   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 10   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 14   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 15   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 16   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 17   main (in xcodebuild)
+ 18   start (in dyld)
+
+<DVTOperationGroup: 0x8b122a880; state = AREfc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[DVTOperationGroup init] (in DVTFoundation)
+  2   +[DVTOperationGroup operationGroupWithSuboperations:] (in DVTFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<DVTOperation: 0x8b1ad1400; name = 'Remove Log If Needed', state = aReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDETestSchemeAction _removeLogIfNeededOperationWithLogStore:logRecord:buildOperation:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<DVTOperationGroup: 0x8b122a580; state = AREfc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[DVTOperationGroup init] (in DVTFoundation)
+  2   +[DVTOperationGroup operationGroupWithSuboperations:] (in DVTFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<DVTOperationGroup: 0x8b122a400; state = AREfc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[DVTOperationGroup init] (in DVTFoundation)
+  2   +[DVTOperationGroup operationGroupWithSuboperations:] (in DVTFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<__DVTSwiftAsyncOperation: 0x8b122a280; state = AReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   @objc DVTAsyncOperation.init() (in DVTFoundation)
+  2   static DVTOperation.awaiting(_:) (in DVTFoundation)
+  3   @objc static IDESchemeAction.operationToWaitForFinishedLoadingOperation(of:) (in IDEFoundation)
+  4   -[IDESchemeAction _setUpOperationsForPackageLoadingInWorkspace:handlePreActionsActivityLogSection:isCleanOperation:] (in IDEFoundation)
+  5   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  6   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  7   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  8   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  9   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+ 11   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 12   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 13   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 16   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 17   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 18   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 19   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 20   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 21   main (in xcodebuild)
+ 22   start (in dyld)
+
+<DVTOperation: 0x8b1ad1040; state = aReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<DVTOperation: 0x8b1ad12c0; state = arefc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<IDESchemeActionResultOperation: 0x8b1228a80; state = Arefc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[IDESchemeActionResultOperation schemeActionResultOperationWithSchemeActionRecord:trackingExecutionOfOperation:actionCallbackBlock:schemeActionResultComputationBlock:] (in IDEFoundation)
+  2   -[IDETestRunSession testOperationForTestRunSpecificationGroups:executionEnvironment:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  3   -[IDETestManager testOperationForTestRunSpecificationGroups:executionEnvironment:runDestinationPool:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  4   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  5   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  6   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  7   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 11   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 16   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 17   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 18   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 19   main (in xcodebuild)
+ 20   start (in dyld)
+
+<__DVTSwiftAsyncOperation: 0x8b122a100; state = AReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   @objc DVTAsyncOperation.init() (in DVTFoundation)
+  2   @objc static DVTOperation.operationWithMainThreadBlock(_:) (in DVTFoundation)
+  3   -[IDESchemeAction _setUpOperationsForPackageLoadingInWorkspace:handlePreActionsActivityLogSection:isCleanOperation:] (in IDEFoundation)
+  4   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  5   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  7   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  8   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 11   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 12   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 16   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 17   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 18   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 19   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 20   main (in xcodebuild)
+ 21   start (in dyld)
+
+<__DVTSwiftAsyncOperation: 0x8b1229080; state = AReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   @objc DVTAsyncOperation.init() (in DVTFoundation)
+  2   static DVTOperation.awaiting(_:) (in DVTFoundation)
+  3   @objc static IDESchemeAction.operationToWaitForFinishedLoadingOperation(of:) (in IDEFoundation)
+  4   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  5   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  7   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  8   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 11   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 12   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 16   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 17   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 18   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 19   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 20   main (in xcodebuild)
+ 21   start (in dyld)
+
+<DVTOperation: 0x8b1ad0b40; state = aReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<__DVTSwiftAsyncOperation: 0x8b1229680; state = AReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   @objc DVTAsyncOperation.init() (in DVTFoundation)
+  2   @objc static DVTOperation.operationWithMainThreadBlock(_:) (in DVTFoundation)
+  3   -[IDESchemeAction _setUpOperationsForPackageLoadingInWorkspace:handlePreActionsActivityLogSection:isCleanOperation:] (in IDEFoundation)
+  4   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  5   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  7   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  8   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 11   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 12   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 16   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 17   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 18   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 19   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 20   main (in xcodebuild)
+ 21   start (in dyld)
+
+<DVTOperation: 0x8b1ad1180; state = arefc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDESchemeAction setUpActionDependenciesForCorePhaseOperation:shouldRunPostActionsBlock:prePhaseEnvironmentPopulationBlock:postPhaseEnvironmentPopulationBlock:handlePreActionsActivityLogSection:handlePostActionsActivityLogSection:buildParameters:schemeActionResultOperation:error:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<DVTOperationGroup: 0x8b1228900; state = AREf!c> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[DVTOperationGroup init] (in DVTFoundation)
+  2   -[IDETestRunSession testOperationForTestRunSpecificationGroups:executionEnvironment:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  3   -[IDETestManager testOperationForTestRunSpecificationGroups:executionEnvironment:runDestinationPool:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  4   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  5   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  6   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  7   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 11   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 16   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 17   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 18   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 19   main (in xcodebuild)
+ 20   start (in dyld)
+
+<DVTOperation: 0x8b1ad08c0; state = aReFc> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDETestRunSession testOperationForTestRunSpecificationGroups:executionEnvironment:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  3   -[IDETestManager testOperationForTestRunSpecificationGroups:executionEnvironment:runDestinationPool:invocationRecord:actionRecord:schemeIdentifier:outSchemeActionResultOperation:launchParametersBlock:actionCallbackBlock:error:] (in IDEFoundation)
+  4   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  5   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  6   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  7   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+ 10   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+ 11   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 15   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 16   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 17   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 18   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 19   main (in xcodebuild)
+ 20   start (in dyld)
+
+<IDERunOperation: 0x8b122aa00; state = aReF!c> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[IDERunOperation initWithWorker:] (in IDEFoundation)
+  2   +[IDETestRunnerLaunchOperationFactory testRunOperationWithLaunchParameters:testRunSpecification:testConfiguration:executionEnvironment:schemeActionRecord:runDestination:localDeviceRunDestination:error:] (in IDEFoundation)
+  3   __110+[IDETestRunnerLaunchOperationFactory makeLaunchOperationProviderWithExecutionEnvironment:schemeActionRecord:]_block_invoke (in IDEFoundation)
+  4   thunk for @escaping @callee_unowned @convention(block) (@unowned XCTHRunDestination, @unowned XCTHTestRunSpecification, @unowned XCTestConfiguration, @unowned XCTHLaunchParameters, @unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@autoreleased (NSOperation & XCTHRunOperation)?) (in XCTHarness)
+  5   thunk for @escaping @callee_guaranteed (@guaranteed XCTHRunDestination, @guaranteed XCTHTestRunSpecification, @guaranteed XCTestConfiguration, @guaranteed XCTHLaunchParameters, @unowned AutoreleasingUnsafeMutablePointer<NSError?>?) -> (@owned (NSOperation & XCTHRunOperation)?) (in XCTHarness)
+  6   -[XCTHTestRunner _testRunOperationWithError:] (in XCTHarness)
+  7   -[XCTHTestRunner _addTestRunOperation:] (in XCTHarness)
+  8   -[XCTHTestRunner testOperationWithError:] (in XCTHarness)
+  9   -[XCTHTestTargetRunner workerWasProvided:] (in XCTHarness)
+ 10   __40-[XCTHTestTargetRunner requestNewWorker]_block_invoke (in XCTHarness)
+ 11   __45-[XCTHFuture observeFinishOnQueue:withBlock:]_block_invoke_2 (in XCTHarness)
+ 12   __XCTHAsyncPerformBlockOnMainRunLoop_block_invoke (in XCTHarness)
+ 13   __CFRUNLOOP_IS_CALLING_OUT_TO_A_BLOCK__ (in CoreFoundation)
+ 14   __CFRunLoopDoBlocks (in CoreFoundation)
+ 15   __CFRunLoopRun (in CoreFoundation)
+ 16   _CFRunLoopRunSpecificWithOptions (in CoreFoundation)
+ 17   CFRunLoopRun (in CoreFoundation)
+ 18   -[Xcode3CommandLineBuildTool waitForBuildWithBuildLog:buildActionTimingSection:executionEnvironment:title:operationToEnqueue:error:] (in Xcode3Core)
+ 19   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 20   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 21   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 22   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 23   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 24   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 25   main (in xcodebuild)
+ 26   start (in dyld)
+
+<_IDETestingFinalizeLogsOperation: 0x8b1ad1540; name = 'Finalize test log', state = aref!c> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   +[DVTOperation(DVTConveniences) operationWithBlock:] (in DVTFoundation)
+  2   -[IDETestSchemeAction _finalizeLogOperationWithRecorder:launchLogsSectionRecorder:] (in IDEFoundation)
+  3   -[IDETestSchemeAction testOperationWithSchemeOperationParameters:testManager:buildOperation:buildParameters:schemeCommand:actionRecord:testPlanRunSpecifications:deviceAvailableChecker:outError:actionCallbackBlock:] (in IDEFoundation)
+  4   -[IDEScheme(TestSchemeAction) executionOperationForTestSchemeActionWithOperationParameters:command:buildOperationVariantSpecifiers:buildOperationGroup:schemeActionResult:buildParameters:shouldOnlyBuild:runDestination:orderedOperations:schemeActionRecord:deviceAvailableChecker:actionCallbackBlock:error:] (in IDEFoundation)
+  5   -[IDEScheme _executionOperationForSchemeOperationParameters:build:onlyBuild:buildParameters:title:buildLog:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:actionCallbackBlock:] (in IDEFoundation)
+  6   -[IDEScheme(TestSchemeAction) schemeTestActionOperationForSchemeOperationParameters:onlyBuild:buildLog:deviceAvailableChecker:buildParameters:shouldBuild:restorePersistedBuildResults:error:completionBlock:] (in IDEFoundation)
+  7   -[IDEScheme buildAndActionTaskForSchemeOperationParameters:shouldBuild:onlyBuild:buildParameters:buildLog:deviceAvailableChecker:restorePersistedBuildResults:dontActuallyRunCommands:error:completionBlock:] (in IDEFoundation)
+  8   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:deviceAvailableChecker:error:completionBlock:] (in IDEFoundation)
+  9   -[IDEScheme schemeOperationForSchemeOperationParameters:buildLog:overridingProperties:overridingBuildConfiguration:dontActuallyRunCommands:restorePersistedBuildResults:error:completio
+
+*** If you believe this error represents a bug, please attach the log file at /tmp/korkort-faint-approved-ios-route-results/Staging/1_Test/Diagnostics/NativeRouteTests-CF86C2C4-AB88-4519-8B20-F443D9F42CE7-Configuration-Test Scheme Action-Iteration-1/NativeRouteTests-DE2A979F-F602-41F2-8BD0-A169E4131F59/Session-NativeRouteTests-2026-10-17_74724 PM-qqWLZO.log
+
+2026-10-17 19:49:39.805 xcodebuild[33651:6852667] [MT] IDETestOperationsObserverDebug: 135.236 elapsed -- Testing started completed.
+2026-10-17 19:49:39.806 xcodebuild[33651:6852667] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-17 19:49:39.806 xcodebuild[33651:6852667] [MT] IDETestOperationsObserverDebug: 135.236 sec, +135.236 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/korkort-faint-approved-ios-route-results
+
+** TEST EXECUTE INTERRUPTED **
+
+2026-10-17 19:50:10.792 xcodebuild[33651:6852667] [MT] IDEResultKit: Warning: While writing a result bundle to /tmp/korkort-faint-approved-ios-route-results, not all contents have been imported, as the Staging directory still contains the following files/directories: ["1_Test"]
+Error saving invocation record to resultBundlePath:Error Domain=IDEFoundationErrorDomain Code=12 "The result bundle could not be saved due to an error: Could not write the 1_Test action log because the log hasn't finished recording after waiting 30 seconds." UserInfo={NSLocalizedDescription=The result bundle could not be saved due to an error: Could not write the 1_Test action log because the log hasn't finished recording after waiting 30 seconds., NSUnderlyingError=0x8ae21e430 {Error Domain=IDEFoundationErrorDomain Code=10 "Could not write the 1_Test action log because the log hasn't finished recording after waiting 30 seconds." UserInfo={NSLocalizedDescription=Could not write the 1_Test action log because the log hasn't finished recording after waiting 30 seconds.}}}
+nBlock:] (in IDEFoundation)
+ 10   -[Xcode3CommandLineBuildTool(TestSchemeAction) buildForTestSchemeCommandWantsSkip:buildAction:isProjectBuild:title:buildLog:isMoreDestinationsPending:runDestinations:runDestination:schemeCommand:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 11   -[Xcode3CommandLineBuildTool doSchemeBuildWithRunDestinations:runDestinationIdx:wantsSkip:buildActionTimingSection:timingSection:buildAction:isMoreDesinationsPending:actionResultBlock:title:buildLog:executionEnvironment:restorePersistedBuildResults:operationToEnqueue:error:] (in Xcode3Core)
+ 12   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 13   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 14   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 15   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 16   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 17   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 18   main (in xcodebuild)
+ 19   start (in dyld)
+
+<IDERunOperation: 0x8b117cf00; state = aReF!c> created at:
+  0   -[DVTOperation init] (in DVTFoundation)
+  1   -[IDERunOperation initWithWorker:] (in IDEFoundation)
+  2   -[IDERunDestination runOperationForLaunchSession:error:] (in IDEFoundation)
+  3   -[IDETargetAppLaunchCoordinator launchProcessWithParameters:token:completion:] (in IDEFoundation)
+  4   -[IDETargetAppLaunchCoordinator launchProcessWithParameters:completion:] (in IDEFoundation)
+  5   -[XCTHTestOperationCoordinator testRunnerSession:launchProcessWithParameters:completion:] (in XCTHarness)
+  6   __91-[XCTTestRunnerSession _XCT_launchProcessWithPath:bundleID:arguments:environmentVariables:]_block_invoke (in XCTDaemonControl)
+  7   _dispatch_call_block_and_release (in libdispatch.dylib)
+  8   _dispatch_client_callout (in libdispatch.dylib)
+  9   _dispatch_main_queue_drain.cold.5 (in libdispatch.dylib)
+ 10   _dispatch_main_queue_drain (in libdispatch.dylib)
+ 11   _dispatch_main_queue_callback_4CF (in libdispatch.dylib)
+ 12   __CFRUNLOOP_IS_SERVICING_THE_MAIN_DISPATCH_QUEUE__ (in CoreFoundation)
+ 13   __CFRunLoopRun (in CoreFoundation)
+ 14   _CFRunLoopRunSpecificWithOptions (in CoreFoundation)
+ 15   CFRunLoopRun (in CoreFoundation)
+ 16   -[Xcode3CommandLineBuildTool waitForBuildWithBuildLog:buildActionTimingSection:executionEnvironment:title:operationToEnqueue:error:] (in Xcode3Core)
+ 17   -[Xcode3CommandLineBuildTool doBuildForBuildAction:timingSection:colorize:colorizeFailure:error:] (in Xcode3Core)
+ 18   -[Xcode3CommandLineBuildTool _buildWithTimingSection:] (in Xcode3Core)
+ 19   -[Xcode3CommandLineBuildTool run] (in Xcode3Core)
+ 20   XcodeBuildMain (in libxcodebuildLoader.dylib)
+ 21   -[XcodebuildPreIDEHandler loadXcode3ProjectSupportAndRunXcode3CommandLineBuildToolWithArguments:] (in xcodebuild)
+ 22   -[XcodebuildPreIDEHandler runWithArguments:] (in xcodebuild)
+ 23   main (in xcodebuild)
+ 24   start (in dyld)
+

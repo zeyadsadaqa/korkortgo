@@ -1,16 +1,16 @@
 {
   "date": "2026-10-17",
-  "approval_status": "pending",
+  "approval_status": "approved",
   "generator": "built-in image_gen",
   "purpose": "layout preview only; no official artwork generation",
   "assets_verified": 12,
   "affected_questions": 24,
-  "implementation_started": false,
+  "implementation_started": true,
   "holds_cleared": 0,
   "files": [
     {
       "path": "docs/curriculum/app-design/faint-assets-v1/asset-bindings.json",
-      "sha256": "4d5ba9418feeefe67bd96cae43dc5d5a28daab286332bb61c2093a22c3beba70"
+      "sha256": "a9308bcc991ecfab2f730ca2896f4f1757780bc1f1694866e5b80a40ee5aef9e"
     },
     {
       "path": "docs/curriculum/app-design/faint-assets-v1/preview.png",
@@ -22,7 +22,10 @@
     },
     {
       "path": "docs/curriculum/app-design/faint-assets-v1/review.md",
-      "sha256": "bbf37abb14687242ed129033328090baa21a3585f524618162c87226a940668f"
+      "sha256": "4d6a8c123d916acfbf1785abe1353e7a3e2c3ad9e5411da63fb20fed92b8b1b9"
     }
-  ]
+  ],
+  "approval_record": "User explicitly replied approved on 17 October 2026",
+  "implementation_verified": true,
+  "implementation_evidence": "docs/curriculum/app-migration/implementation-evidence/faint-assets-approved/README.md"
 }

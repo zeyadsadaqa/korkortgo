@@ -1,6 +1,6 @@
 # Faint asset presentation preview v1
 
-17 October 2026. **Awaiting explicit user approval. No implementation or hold clearance.**
+17 October 2026. **Approved by the user on 17 October 2026 (message: “approved”). Implementation authorized; delivery holds remain until verified.**
 
 ## Proposal
 
@@ -22,4 +22,12 @@ Built-in image_gen, ui-mockup. Full prompt saved as prompt.txt; reference inputs
 
 The generated board shows matching light/dark option frames, white image backing and a neutral viewer with visible Zoom in, Zoom out, Reset and Close. It contains no generated sign artwork. Decorative progress/header/back-arrow details are illustrative context and do not authorize new navigation or scoring behavior. Layout placeholders and review-board annotations are never production text. Exact component sizing, touch/keyboard/screen-reader behavior and legibility remain implementation verification after approval.
 
-Preview: [preview.png](preview.png). Approval status: **pending**.
+Preview: [preview.png](preview.png). Approval status: **approved**.
+
+## Approval record
+
+The user explicitly approved this preview in the current conversation. Implementation may proceed within the described presentation scope. Approval does not approve artwork substitutions, change assessment content, or clear delivery/scoring holds.
+
+## Implementation follow-up
+
+The approved frame treatment is implemented and verified. [Actual-size captures and remaining acceptance scope](../../app-migration/implementation-evidence/faint-assets-approved/README.md). Original artwork hashes and question eligibility are unchanged.

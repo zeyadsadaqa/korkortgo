@@ -94,6 +94,8 @@ B1 uses sign-B1/CAP-B1, Väjningsplikt, exact caption and editorial-English noti
 
 180 dp is 8J’s candidate reference width for later intended-size review, not a proven universal minimum. Viewer starts fit; labelled Zoom in/Zoom out/Reset, keyboard/pointer pan and Close must work without pinch-only access. Close restores sign-detail context and Enlarge image focus. Preserve aspect ratio, no crop/mask/thickening/redraw/recolour. All 38 faint-outline delivery holds remain open for exact-code device/light-dark/accessibility proof; B1 layout approval clears none.
 
+**Approved follow-up — 17 October 2026:** The user approved the [larger artwork preview](app-design/faint-assets-v1/review.md). Implement a common full-width 3:2 frame with a 220 dp minimum for assessment stems and all image options, and reuse it in lesson/review images; retain the existing wide-reference 380 dp minimum. All options use the same rule regardless of asset or correctness. Preserve white backing, original geometry/colours and fit behavior. [Implemented delivery evidence](app-migration/implementation-evidence/faint-assets-approved/README.md) records native/browser captures. Layout approval and exact loading do not clear question-level scoring holds or certify the original fine strokes' contrast.
+
 ## Canonical routes and recovery
 
 Known question identity precedes a frozen legacy-page alias. Old page 46 with situation-017 → M04-L03, with situation-103 → M04-L01. Page alone in legacy-app-4768933c3d9a opens the approved four-choice chooser: M04-L01, M04-L02, M04-L03, M05-L01. Unknown question/namespace/page never guesses first/nearest content. Choices require deliberate activation; no completion credit or PDF-equivalence claim.
