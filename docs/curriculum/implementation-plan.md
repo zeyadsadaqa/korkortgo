@@ -1154,6 +1154,8 @@ Apply and check this batch only, including exact caption/source meanings and pai
 
 ### 9F. Resolve faint-outline delivery holds
 
+**Current status — 19 October 2026: Complete within the user-selected simulator scope.** The twelve faint-asset decisions and exact-revision delivery evidence are accepted through the final 9J release. See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md); the dated attempts below remain historical.
+
 **Execution record — 16 October 2026:** Reviewed all 9F1–9F19 and implemented required 9K1–9K4 navigation foundations plus 9L9–9L10 reference/viewer components. User selected iOS simulator scope. Retained 76 Android captures and all 19 iOS simulator/Wasm renders; 119 Python and 39 desktop tests pass. All 38 original replacement records remain unchanged and are now excluded from scoring. Twelve small previews remain faint; reader and complete delivery acceptance remain open. These are reviewed holds, not completed acceptances. [Results, decisions and replay](app-migration/implementation-evidence/9F/README.md).
 
 Use the approved framing/zoom implementation from 9L9–9L10. Each code task handles exactly two replacements plus occurrences of that same image in other option sets. Prove actual intended-size delivery and accessible equivalence on supported targets, light/dark surfaces and text scaling. Never thicken, recolour, redraw or substitute a similar sign; changed visual treatment requires an approved imagegen revision. Failed proof keeps the affected questions ineligible and requires an explicit content/ID decision.
@@ -1556,6 +1558,8 @@ Apply only fuel-40-5, fuel-saving-100-0.5, fuel-saving-100-1, fuel-saving-100-2,
 
 ### 9J. Assemble and validate the accepted question package
 
+**Current status — 19 October 2026: Complete (9J1–9J4).** The separate accepted release passes validation with 1,000 accepted questions, zero held and 500 concepts. Exact-revision decisions close the 616 delivery holds, including 38 approved replacements; original question semantics and official artwork bytes are preserved. Coverage is exhaustive shared (616 × four settings), representative native full-question coverage (38 × four settings on each platform), and 484-resource byte parity on four targets. User-selected iOS simulator scope applies. Historical candidate checkpoints below remain dated evidence; their 384/616 split is not the production bank. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Approved artwork presentation — 17 October 2026:** Implemented the explicitly approved larger frames while preserving all official bytes and neutral semantics. All 80 desktop and 144 Python tests pass; Android's six native tests and iOS's 48-context artwork matrix plus five corrected route tests pass. Each target has all twelve assets at light/dark and 100%/160% text; 48 actual browser contexts are also captured. All 24 affected question revisions pass four shared delivery runs. Native asset fixtures are not full-question native acceptance, and original fine strokes remain pale in narrow browser views; no scoring hold was cleared. [Exact evidence, visual review and remaining scope](app-migration/implementation-evidence/faint-assets-approved/README.md).
 
 
@@ -1568,6 +1572,8 @@ Apply only fuel-40-5, fuel-saving-100-0.5, fuel-saving-100-1, fuel-saving-100-2,
 
 #### 9J1. Bind canonical relationships for all questions
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Apply exact primary/related lesson IDs, source IDs and URL-record references for all 1,000 baseline IDs from the validated map; keep retained assessment fields unchanged.
 
 **Input:** 9B17, 9D1, question-map.json and exhaustive question assignments.
@@ -1578,6 +1584,8 @@ Apply exact primary/related lesson IDs, source IDs and URL-record references for
 
 #### 9J2. Assemble accepted eligibility and package identity
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Finalization attempt — 17 October 2026:** Fresh structural validation and all 41 focused package/state/navigation/reader tests pass. Direct release validation still rejects the exact manifest with 384 accepted / 616 held questions. The fresh 9M3 rerun records 18 passing current contracts and four conditional future-store contracts against this manifest; accepted-release verification remains open. No holds, replacements or release flag were changed. [Finalization result and required acceptance work](app-migration/implementation-evidence/9J-finalization/README.md).
 
 
@@ -1585,11 +1593,13 @@ Merge per-ID results for 336 retained assessments, 626 rewrites and 38 replaceme
 
 **Input:** 9J1, all 9E–9I acceptance records, 9K2 aliases and reviewed 9D descriptions.
 
-**Output:** content/content-manifest.json, generated Bank.kt and eligibility-audit.json.
+**Output:** content/accepted-content-manifest.json, content/accepted-assessment-questions.json, generated AcceptedQuestionPackage9J and release-validation.json. The held candidate remains separate audit data.
 
 **Done when:** All 1,000 IDs / 500 concepts are accounted for, each active item has complete acceptance and retained fields remain unchanged; unresolved holds block completion.
 
 #### 9J3. Verify quiz selection capacity
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Exercise every test length 1–70, category allocation, residual random picks and concept uniqueness using the accepted pool.
 
@@ -1601,6 +1611,8 @@ Exercise every test length 1–70, category allocation, residual random picks an
 
 #### 9J4. Verify generated question parity and shuffling
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Compare JSON/Kotlin output and exercise fixed seeds across all key positions and both feedback modes.
 
 **Input:** 9J2–9J3 and generated bank.
@@ -1611,9 +1623,13 @@ Compare JSON/Kotlin output and exercise fixed seeds across all key positions and
 
 ### 9K. Implement canonical navigation and legacy resolution
 
+**Current status — 19 October 2026: Complete (9K1–9K4).** Canonical routes, compatibility recovery, guarded practice exits and contextual review/teaching/source returns are integrated into the accepted production root. Native reader/route evidence is supplemented by complete accepted-bank production-flow checks on Android and iOS simulator, plus the normal browser entry. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution 17 October 2026:** Revalidated 9K1–9K4 foundations against 9J. Added missing-session recovery, normalised moved-block requests, preserved exact pending source references, and rejected stale discard confirmations after session replacement. All twelve entry-point contracts have explicit verification/integration scope. [Results](app-migration/implementation-evidence/9K/README.md). Full canonical view activation remains 9L14 and does not clear 9J/9F holds.
 
 #### 9K1. Implement typed canonical destinations
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
@@ -1627,6 +1643,8 @@ Create one internal resolver for curriculum, sign, source and supporting-anchor 
 
 #### 9K2. Import and resolve legacy aliases
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Import the frozen legacy-app-4768933c3d9a namespace, 39 chapter aliases, 361 integers including 38 gaps, 178 topics, 343 sign records and 1,000 question routes.
@@ -1638,6 +1656,8 @@ Import the frozen legacy-app-4768933c3d9a namespace, 39 chapter aliases, 361 int
 **Done when:** Question identity beats page; ambiguous values return all canonical choices; unknown inputs never guess first/nearest content. SIG16–18 remain explicit unavailable routes.
 
 #### 9K3. Implement the shared quiz navigation guard
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
@@ -1651,6 +1671,8 @@ Route all eight navigation states and twelve entry-point rules through the exist
 
 #### 9K4. Implement validated return context
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9K/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Carry content/block/reading position/focus through reference/source visits and restore only valid origins. Support moved, retired-one/many/none and unavailable resolver outcomes.
@@ -1663,11 +1685,15 @@ Carry content/block/reading position/focus through reference/source visits and r
 
 ### 9L. Implement one approved view or interaction at a time
 
+**Current status — 19 October 2026: Complete (9L1–9L14).** The accepted package is active in the normal app. Native large-text review and browser modal accessibility defects found during integration are corrected; complete-flow checks pass. Legacy summaries and unused tables are removed, fourteen learner-copy rules are applied and counts derive from the accepted payload. Later independent 9O/10 verification remains separate. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution record — 17 October 2026:** Implemented isolated 9L1–9L13 components in sequence using the approved designs: complete typed teaching renderer, library filtering, deliberate reveal, snapshot reviews, sources, reference/viewer reuse and recovery states. [Outputs, checks and remaining acceptance](app-migration/implementation-evidence/9L/README.md). This is component implementation, not release/platform acceptance. **9L14 remains blocked** by the unaccepted 9J candidate and unfinished 9M state prerequisites; production activation and legacy payload removal were not performed.
 
 Use the exact approved revisions and final 8O dispositions, including accepted state-specific visual variants. UI tasks may use imported content and the exact preview fixtures before the final scored bank is accepted; only 9L14 activates the integrated flow after 9J passes. This dependency refinement permits actual renderer/zoom work before 9F delivery proof without clearing any scoring hold. Each task verifies its own rendering, keyboard/focus and accessibility behaviour; changed design requires a new approved preview.
 
 #### 9L1. Build the library overview
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Render ten modules, forty lessons, reviews and reference/source entry actions using canonical titles/order.
 
@@ -1679,6 +1705,8 @@ Render ten modules, forty lessons, reviews and reference/source entry actions us
 
 #### 9L2. Add library search and category filters
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Add query/category intersection, five mapped categories, clear-query/clear-category actions and the exact empty state.
 
 **Input:** 9L1, 7E tags and approved 8C.
@@ -1688,6 +1716,8 @@ Add query/category intersection, five mapped categories, clear-query/clear-categ
 **Done when:** Canonical order survives filtering; no-primary-question lessons remain discoverable and each clear action resets only its own input.
 
 #### 9L3. Build the lesson-reader opening and navigation
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Render exact module context, title, goal and complete prose blocks; wire previous/next through all 60 reading nodes.
 
@@ -1699,6 +1729,8 @@ Render exact module context, title, goal and complete prose blocks; wire previou
 
 #### 9L4. Add deliberate knowledge-check reveal
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Add Show answer/Hide answer with expanded state, answer association and safe focus restoration on collapse.
 
 **Input:** 9L3 and approved 8E.
@@ -1708,6 +1740,8 @@ Add Show answer/Hide answer with expanded state, answer association and safe foc
 **Done when:** Hidden answers are absent from accessibility reading until deliberate reveal; no new scoring or completion state is created.
 
 #### 9L5. Render long content, tables and calculations
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Implement full tables, selectable equations, illustrations and long-content scrolling with the approved body family and actual user text scaling.
 
@@ -1719,6 +1753,8 @@ Implement full tables, selectable equations, illustrations and long-content scro
 
 #### 9L6. Build the standard answer review
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Render selected/correct shuffled options, main and per-option explanations, sources and related-lesson actions after permitted reveal.
 
 **Input:** 9D2, 9K4 and approved 8G / exact situation-001 fixture.
@@ -1728,6 +1764,8 @@ Render selected/correct shuffled options, main and per-option explanations, sour
 **Done when:** Identity, displayed order and feedback remain aligned; related teaching cannot bypass the unfinished-test guard.
 
 #### 9L7. Add calculation answer-review rendering
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Render the exact fuel calculation fixture through the shared review component, retaining assumptions, units and complete explanations.
 
@@ -1739,6 +1777,8 @@ Render the exact fuel calculation fixture through the shared review component, r
 
 #### 9L8. Build the source directory and detail
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Render exact source titles/publishers, distinct date types, classifications and scope; wire external actions and validated return.
 
 **Input:** 9C1, 9K4, 9L3 and approved 8I.
@@ -1748,6 +1788,8 @@ Render exact source titles/publishers, distinct date types, classifications and 
 **Done when:** Lesson-scoped bindings are exact, external failure retains usable recovery and Back restores directory/lesson position and focus.
 
 #### 9L9. Build sign and reference details
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9L9/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
@@ -1761,6 +1803,8 @@ Render exact sign bytes, official name/caption, English editorial notice, white 
 
 #### 9L10. Implement the accessible image viewer
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution record — 16 October 2026:** Implemented and verified the prerequisite foundation/component for 9F. Full route activation and outstanding platform reader/delivery acceptance are separate. [Implementation scope](app-migration/implementation-evidence/9L10/README.md) · [Verification](app-migration/implementation-evidence/9F/README.md).
 
 Add fit, Zoom in/Zoom out/Reset, keyboard/pointer pan and Close; integrate the viewer into approved study and assessment contexts without revealing hidden meanings.
@@ -1773,6 +1817,8 @@ Add fit, Zoom in/Zoom out/Reset, keyboard/pointer pan and Close; integrate the v
 
 #### 9L11. Build ambiguous and moved-link states
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Render deliberate canonical choices and the known-parent moved-passage notice with the exact page-46 context fixtures.
 
 **Input:** 9K2–9K4, 9L3 and approved 8K.
@@ -1782,6 +1828,8 @@ Render deliberate canonical choices and the known-parent moved-passage notice wi
 **Done when:** situation-017 opens M04-L03, situation-103 opens M04-L01, page alone offers four approved choices; no old-PDF equivalence is implied.
 
 #### 9L12. Build unavailable-destination states
+
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Render exact SIG16–18 messages with their distinct official actions, optional M03-L02 and library action; add the generic unavailable fallback.
 
@@ -1793,6 +1841,8 @@ Render exact SIG16–18 messages with their distinct official actions, optional 
 
 #### 9L13. Build missing-results recovery
 
+**Completed — 19 October 2026.** See [closure evidence](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 Render No saved result is available. and Set up a practice test. from the approved fixture.
 
 **Input:** 9K3, 9M2 and approved 8M.
@@ -1803,31 +1853,27 @@ Render No saved result is available. and Set up a practice test. from the approv
 
 #### 9L14. Connect the accepted package and remove legacy learner content
 
-**Status — 17 October 2026: Blocked; production activation and legacy removal have not started.** The 9L1–9L13 components are implemented in an isolated verification flow; their desktop checks and target compilation do not constitute full platform acceptance.
+**Status — 19 October 2026: Complete.** Accepted release validation and the accepted-package 9M3 rerun pass. The normal entry launches the canonical production root; all fourteen learner-label rules are applied. Removed 39 summaries, 178 unused Topic rows and 343 unused legacy catalogue rows while preserving all 1,000 original question declarations and compatibility aliases. Manifest-derived counts, full teaching, source classifications/dates, exact artwork credits and the learning-aid disclaimer remain available.
 
-Resolve these prerequisites before executing 9L14:
-
-- **9J release acceptance:** The candidate still contains 616 held questions: 578 sign rewrites and 38 unapplied replacement proposals. The approved larger presentation for S5, S6, S7, S11, S12, S13, T1, T2, T6, T8, T22 and X8 is implemented with full native/browser asset captures; per-question scored-use legibility and remaining native question acceptance still need explicit decisions; representative native reader/route evidence is now recorded in the [native closure checkpoint](app-migration/implementation-evidence/native-reader-routes/README.md). Final package delivery acceptance still requires the faint-asset decisions and reconciliation of the per-question readiness evidence. Close the recorded 9F acceptance conditions and rerun 9J release validation; component rendering or compilation cannot clear these holds. Preserve exact official artwork and the original held replacement records. [9J blockers](app-migration/implementation-evidence/9J/README.md) · [9F delivery decisions](app-migration/implementation-evidence/9F/README.md).
-- **9M1–9M3 transient state:** 9M1–9M2 model/component work is implemented and fixture/candidate checked. All 22 contracts are recorded: 18 current checks pass and four future-store cases remain conditional. Final 9M3 verification still requires the accepted 9J package; production preference/reset integration remains part of 9L14. [9M results and scope](app-migration/implementation-evidence/9M/README.md).
-- **Remaining view acceptance:** Representative Android TalkBack and iOS simulator native interaction plus inline source-trigger return are now verified in the [native closure checkpoint](app-migration/implementation-evidence/native-reader-routes/README.md). Retain per-illustration visual acceptance and complete integrated production-flow checks for their remaining stages. The 25 desktop component captures and Android/iOS simulator/Wasm compilation are bounded evidence; full integrated acceptance remains 9O. iOS testing uses the user's selected simulator scope. [9L results and open checks](app-migration/implementation-evidence/9L/README.md).
-
-**Execution order:** 9M1–9M2 model prerequisites are implemented. Work through 9F/9J delivery acceptance and 9M3 candidate verification together, using isolated verification routes before production activation. After acceptance, repeat 9M3 against the final package; then execute 9L14 and the integrated 9O checks. Delivery/route evidence can be gathered before activation; it must not depend on enabling held questions in production. Until the prerequisites pass, keep activation, the fourteen label replacements, removal of the 39 summaries/178 Topic payloads and manifest-derived learner counts pending together.
+**Verification:** Both feedback modes complete the real accepted-bank flow on Android and iOS simulator: setup → pending selection → guard/cancel → confirmation → score → filtered/expanded review → related teaching → review → retained setup. Shared production-owner tests additionally check exact source dispatch/focus, library-query return and deliberate discard/reset. The normal browser entry verifies guard/image modal return and completed practice/review. Large-text review headings scroll with answers; browser modals preserve the root accessibility tree. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md) and its explicit coverage limits. Independent 9O and step 10 acceptance remain later work.
 
 Connect the new views to the accepted package; apply all fourteen learner-label replacements, remove 39 old summaries and unused 178 Topic payloads, and derive counts from the manifest.
 
 **Input:** 9L1–9L13, 9J4 and 9M1–9M3.
 
-**Output:** Integrated App.kt / Chapters.kt / Curriculum.kt and learner-copy checks.
+**Output:** Integrated App.kt / CurriculumApp.kt / Curriculum.kt, removed Chapters.kt, accepted package and learner-copy checks.
 
 **Done when:** No old book names, borrowed chapter labels, source folios or court-case narratives remain in learner payloads; legitimate publishers/credits and full teaching remain available.
 
 ### 9M. Preserve transient quiz state
 
+**Current status — 19 October 2026: Complete (9M1–9M3, applicable transient scope).** All 18 applicable contracts pass against the exact accepted manifest after integration; four future-store/hot-replacement cases remain conditional as the plan specifies. Actual accepted-bank tests cover every length 1–70, twenty seeds and both feedback modes. Production preserves setup preferences, guards and pinned review/source context; process reset restores defaults. No durable storage was added. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
+
 **Execution record — 17 October 2026:** 9M1–9M2 model/component work is implemented with exact session tokens, pinned review/filter state, guarded discard, missing-context recovery, process-reset defaults and release/capacity validation. 9M3 records all 22 audited contracts with fixture/candidate evidence; final release verification awaits acceptance of 9J's 616 held questions; its fixture/candidate checks can proceed alongside 9J. No production activation or persistence was added. [Evidence, reproduction and integration scope](app-migration/implementation-evidence/9M/README.md).
 
 #### 9M1. Preserve session and review identity
 
-**Status — 17 October 2026:** Model/component implementation and checks pass; production wiring remains 9L14.
+**Status — 19 October 2026: Complete.** Model/component checks and accepted production integration pass; same-process preferences, deliberate setup and process-reset defaults are verified.
 
 Carry question revision, package identity, shuffled option IDs, selection, key, feedback and score through quiz/results/review. Keep both feedback modes and review-filter position.
 
@@ -1839,7 +1885,7 @@ Carry question revision, package identity, shuffled option IDs, selection, key, 
 
 #### 9M2. Preserve reset and missing-session rules
 
-**Status — 17 October 2026:** Model implementation and checks pass, including rejected production start for the held candidate; production wiring remains 9L14.
+**Status — 19 October 2026: Complete.** Pinned accepted-package identity, exact question/option snapshots and review context are integrated. Historical held candidates remain rejected as production inputs.
 
 Implement the audited restart, missing-result and setup validation rules using existing transient state only.
 
@@ -1851,7 +1897,7 @@ Implement the audited restart, missing-result and setup validation rules using e
 
 #### 9M3. Verify all transient-state contracts
 
-**Status — 17 October 2026:** [All 22 contracts recorded](app-migration/implementation-evidence/9M/state-contract-results.json). Eighteen current checks pass on fixtures/candidate; four future-store cases are conditional. **Awaiting final release verification against accepted 9J content.** Continue delivery acceptance and transient-state checks together; candidate results do not waive release acceptance.
+**Status — 19 October 2026: Complete for all applicable contracts.** [Final accepted-manifest results](app-migration/implementation-evidence/closure-9j-9m-9l14/accepted-state-contract-results.json): eighteen applicable passes, four separately conditional future-store cases. Exact compiled/JSON parity and all 1–70 lengths at twenty seeds in both feedback modes pass. The rerun follows final accepted assembly and legacy cleanup; production flow checks supplement the model contracts. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
 
 Exercise the 22 recorded contracts against the accepted package, including guards, review filters, quit/restart and version compatibility limits.
 
@@ -1862,6 +1908,8 @@ Exercise the 22 recorded contracts against the accepted package, including guard
 **Done when:** Every applicable contract passes; conditional future-store/hot-replacement cases remain documented separate scope, with no invented database or attempt history.
 
 ### 9N. Prepare the three assessment-coverage briefs
+
+**Next stage — 19 October 2026:** Prior 9J/9K/9L/9M closure is recorded above. 9N1–9N3 remain unstarted; each produces a brief, not new scored IDs.
 
 Each task writes one reviewable brief only. State the objective, sources, proposed format, plausible mistakes and acceptance rubric. Additional scored IDs require a separate content decision; retain all teaching and the baseline bank.
 

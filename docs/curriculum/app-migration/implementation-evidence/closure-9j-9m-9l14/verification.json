@@ -1,0 +1,2756 @@
+{
+  "date": "2026-10-19",
+  "status": "passed",
+  "completed": [
+    "9J1–9J4 accepted release",
+    "9M3 final accepted-manifest rerun",
+    "9L14 production integration and legacy cleanup"
+  ],
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+  },
+  "questions": {
+    "accepted": 1000,
+    "held": 0,
+    "concepts": 500
+  },
+  "tests": {
+    "python": 150,
+    "shared_full_suite": 85,
+    "final_affected_shared_rerun": 5,
+    "shared_scope": "Full suite first; affected accepted-state, compiled parity and root-flow XML replaced after final changes. No invented second full-suite run.",
+    "android_final_selected": 3,
+    "ios_simulator_final_selected": 3,
+    "native_production_feedback_modes": 2,
+    "browser_normal_production_flow": "passed"
+  },
+  "delivery": {
+    "shared_held_revisions": 616,
+    "shared_question_runs": 2464,
+    "shared_zoom_returns": 6160,
+    "native_replacement_questions_per_platform": 38,
+    "native_contexts_per_platform": 152,
+    "native_zoom_returns_per_platform": 380,
+    "exact_resources_per_target": 484,
+    "targets": [
+      "android",
+      "desktop",
+      "ios_simulator",
+      "wasm_js"
+    ],
+    "scope": "Exhaustive shared per-revision execution plus representative native full-question/reader/accessibility evidence; no separate native recording of all 616 revisions."
+  },
+  "transient_contracts": {
+    "applicable_passed": 18,
+    "conditional_future_store": 4
+  },
+  "legacy_cleanup": {
+    "date": "2026-10-19",
+    "production_entry": "App -> CurriculumApp(acceptedPracticeBank9J, acceptedCurriculumSummary9J)",
+    "removed_chapter_summaries": 39,
+    "removed_unused_topic_rows": 178,
+    "removed_unused_legacy_sign_catalogue_rows": 343,
+    "legacy_question_declarations_preserved": 1000,
+    "question_declaration_digest": "24177a435b49bdf2c95cd490cbbb5d66b9f30b10d46bc0ff44e13169d4d2ade5",
+    "canonical_teaching_and_source_credits_preserved": true,
+    "durable_storage_added": false,
+    "review_heading_scrolls_with_answers_at_large_text": true,
+    "browser_modal_scope": "Production root uses one scene for guards and image modals; native hosts retain platform Dialog."
+  },
+  "normal_build_outputs_restored": true,
+  "ios_scope": "User-selected simulator; no physical-device pass claimed",
+  "next": "9N1–9N3 assessment briefs; independent 9O/10 acceptance remains planned",
+  "limits": [
+    "Original official artwork bytes/geometry retained; no contrast certification or universal source recheck claimed.",
+    "No durable storage, new scored IDs, hot package replacement or publication.",
+    "Native verification artifact paths are ephemeral; their observed hashes are recorded separately before restoring normal outputs."
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "b62b766e82e5082bf13a8fca4a5e9705bcc3b4666053b9945909f50a30437a74"
+    },
+    {
+      "path": "composeApp/src/androidMain/AndroidManifest.xml",
+      "sha256": "7db68c9cc5fe98e416a462c68a49111ecd2496cdbb8e3092788bcabda7569d08"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/se/korkort/ExactRaster.kt",
+      "sha256": "315200d26c0aaa742d179fbc5680efe525a4c03ea9645628d161f7d923f2ab88"
+    },
+    {
+      "path": "composeApp/src/androidMain/kotlin/se/korkort/RootModalPlatform.kt",
+      "sha256": "4c7492bbdb3240836234b653c098b564140f9aa322f397f76de5a4f1a08329a1"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9J.kt",
+      "sha256": "ff828da348303c6584a24f664d3970b56030b905417865fbabfcde0cddf1955c"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart000.kt",
+      "sha256": "89f05bd9250a1d470314c7563e483f529f3a54b2cdafcba034a42c8fa6586ed9"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart001.kt",
+      "sha256": "e1589243107514a9a80464ec266ea63e1c1f06a540668e1ed0972287d83b5bef"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart002.kt",
+      "sha256": "3f207ce371345ddc0a918ec2691f661d5669bb77963bbdcf5ffa1c91f591bacb"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart003.kt",
+      "sha256": "1d386d8ec97283a00967e12892ca3466ba0ac9aa753762a1bbb64e3d6ffb7722"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart004.kt",
+      "sha256": "a1670efa61acb4c1f40995c0d24ea818e1f5167dbefdfaa1a33cb9b013c4c068"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart005.kt",
+      "sha256": "cc52cb44d7338648d082389dc4bdba8a8003868b5bafcddaa99775164e37ba56"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart006.kt",
+      "sha256": "41a784ca044002682baea23bab875bee4f04fcfa9e6f89079a5a7116c14d0ae7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart007.kt",
+      "sha256": "c539763e1b749b3e87ffb353060c7cf6db32fdc221e971c0876b3d8beaa0b8db"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart008.kt",
+      "sha256": "4beb4088996cd10983d301d5104e45d6b8d9be76a38e17c33cca21372f66e7e7"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart009.kt",
+      "sha256": "7caf055f84da37d7cbc9c13854b16676fc4052cf954ad935cbde64ae6bc28f28"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart010.kt",
+      "sha256": "586b128e9330a9b661f8c25c3ae3077e67f0b212434a520c54f6a4cbfa641afb"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart011.kt",
+      "sha256": "422ab86d83fb7fd98a5a9c707c413d8ebfc2976d9cb59af04ff257eb4a38b3e2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart012.kt",
+      "sha256": "d7b5df232121a2157cfc1c19c2703c07436ba6b00b8e9dc3ac8a7642a2d4d619"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart013.kt",
+      "sha256": "64b37a2e81a56a5b6a2e3328c1634df90eb272df20cd0af80f041c22c21bf735"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart014.kt",
+      "sha256": "4af53939f56dd5e17621230872bd91e0b8403cd9b5f9930e3c1a1f011c9e16ab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart015.kt",
+      "sha256": "e774d75d205fd9cfc5cd9f3d40bdbe74e70313c310401da90764eb57bad4df9e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart016.kt",
+      "sha256": "f31cb13f1c63820022b353fcc595f6dd9411dd48ad3c2ba23c891e272dc68b82"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart017.kt",
+      "sha256": "835e5fc38b6cf97f9595029a37b3661e6dafedfff9e55a3e7669d478ae061f7e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AcceptedQuestionPackage9JPart018.kt",
+      "sha256": "ac278c4ee5ea6f8235aaccc0186d1e54fee610ae7ff65a97afc60cc2ff2b07fc"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AccessibleImageViewer.kt",
+      "sha256": "d0b0f1e2a6c23396f7623a90b60161e65ba64cd392d92e3876592abfe10e905a"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/App.kt",
+      "sha256": "49536ac5813295d2c99aab92f5d7ee6d6fd5e5f08772615fd9534bb68977faab"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentWithImageViewer.kt",
+      "sha256": "037b91916c245125b00b8bc19c8bfd5128cd0e6678fa94fc0adf6d61d63d9e7f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Bank.kt",
+      "sha256": "57638a083abe29cd2d612336862c585248f1b5da88fa8c98da46b4a29fbce1a2"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "sha256": "cff574c42e724909c67688539e64d0b6a7b9ccb96e1ab13263401fce8faeb1bd"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumSummary.kt",
+      "sha256": "ecb129b3530085cf3344aee4512ca0f50771f25734229d6f119072662b6787a6"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/ExactAssetImage.kt",
+      "sha256": "a09cbd23fe578674525868f7c25f77ab97f44ef95f8aa5b1277b0aefeab84167"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt",
+      "sha256": "b43d8a1266891c3c60b4eb7f43072eb3cea50aacad181efdfd8cb40512ff0e20"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+      "sha256": "fc2be09ec0b9c3889c647cb1890a9a08f7ae93bddb387431107132cb6a7fe05e"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "sha256": "dc230b86bc46a2a31e1fcd1bfd13067480ff25b18f892b4db47333e37e53a47d"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/PinnedAssessmentCard.kt",
+      "sha256": "7d866592f7ec11c1ece3ac3065e281ef79d2709441ffb35f08aaead64c762e2f"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/QuestionPackage9J.kt",
+      "sha256": "91a2d9b6f3d5c52ceb96886c12ddf1f5cc976d22da20fdef82438b4f1bcb7c9c"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/Quiz.kt",
+      "sha256": "933295069487174684e5dbf1c860df6c4abd2ccbe34f08f3cf834fc291441777"
+    },
+    {
+      "path": "composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt",
+      "sha256": "56f0953e8cb31a181a8b7aba5c086543d7f62ffd89dde92ffb6b9b4f230a9ac7"
+    },
+    {
+      "path": "composeApp/src/commonTest/kotlin/se/korkort/AcceptedReleaseStateTest.kt",
+      "sha256": "8efafc5d1eecca75c7653c3eaa8766601a8a40a7bb7aa34dcfb391d5633c75c3"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/se/korkort/ExactRaster.kt",
+      "sha256": "56cb781cba6266de615acb7553bc06bae8f192c082be2db3fb5520641e27e7b2"
+    },
+    {
+      "path": "composeApp/src/desktopMain/kotlin/se/korkort/RootModalPlatform.kt",
+      "sha256": "4c7492bbdb3240836234b653c098b564140f9aa322f397f76de5a4f1a08329a1"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/AcceptedQuestionParityTest.kt",
+      "sha256": "cefbfcc933a65f53a5971674631528171d4cd2a88ae1b46b274665367bdd6c09"
+    },
+    {
+      "path": "composeApp/src/desktopTest/kotlin/se/korkort/CurriculumAppFlowTest.kt",
+      "sha256": "db3a7b934b9d80bd6937a7e659d6794e27a0af7c999ed3e1699d7cb95b2e9f32"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/se/korkort/ExactRaster.kt",
+      "sha256": "56cb781cba6266de615acb7553bc06bae8f192c082be2db3fb5520641e27e7b2"
+    },
+    {
+      "path": "composeApp/src/iosMain/kotlin/se/korkort/RootModalPlatform.kt",
+      "sha256": "4c7492bbdb3240836234b653c098b564140f9aa322f397f76de5a4f1a08329a1"
+    },
+    {
+      "path": "composeApp/src/verificationAndroidTest/kotlin/se/korkort/NativeReaderRouteTest.kt",
+      "sha256": "06d46ac09c1d2951d4c1cf68a5dff3d4cfb99678d6585483b5a5ae78bd8cd02b"
+    },
+    {
+      "path": "composeApp/src/verificationCommonMain/kotlin/se/korkort/DeliveryProofScreen.kt",
+      "sha256": "4cc74c8a79eb85d75bbdc3c6c41ded63498062c9786d004012f2654a3afbf5ff"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/se/korkort/ExactRaster.kt",
+      "sha256": "56cb781cba6266de615acb7553bc06bae8f192c082be2db3fb5520641e27e7b2"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/kotlin/se/korkort/RootModalPlatform.kt",
+      "sha256": "d450c08851b0c37e950d19205c3ce10b3d0a08c65faed2d5ccc6280f2e4c2df6"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/index.html",
+      "sha256": "e72f0eb44d328dc798b753332fd87bd60d3fc3b9323ecc22009a7ffb78ce0853"
+    },
+    {
+      "path": "composeApp/src/wasmJsMain/resources/site.webmanifest",
+      "sha256": "7d8383936eb944a72528afcd3be0b83221ef20ad1dcc444fa3ed55409646ed3c"
+    },
+    {
+      "path": "content/accepted-assessment-questions.json",
+      "sha256": "a08b8033609f2329ef38d92e15c484a7043d184943a9920c0c7c05c7d0741e00"
+    },
+    {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    {
+      "path": "content/content-manifest.json",
+      "sha256": "eb6798a04c26f6a74bf6652014fbbc4b4193b584a3ecdef5a86d51ac072d1785"
+    },
+    {
+      "path": "content/delivery-targets.json",
+      "sha256": "cc4247ccc70720b3637eb54d9629e614c165f28b858eb7f4c3abc71af5662d60"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/9J/package-validation.json",
+      "sha256": "28ca71b1e0394778a0cb7831127b05d239ab7f12c26f89037fba443eeda96a5c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/README.md",
+      "sha256": "a94df805eb8f47529b5c2c408e4fdc0d4755ee0351700e4a6f1dbc7e561354df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/accepted-compiled-parity.json",
+      "sha256": "47f3618154bd809d30ed0a75d8c164dc2769f444741c0206d8b5ce3a163fc765"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/accepted-question-parity.tsv",
+      "sha256": "989f749f3cb54cfae21566488650f868882426f3ec7827b0abcc2739a3cda178"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/accepted-root-fixtures.json",
+      "sha256": "ab071dbdde906ebaa92dea6a524fad76bd4a0dd0621e7ca5dfac33a0fcbb205e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/accepted-state-contract-results.json",
+      "sha256": "34e5ec4ecd4c561ee68492901242429a5cb3bed9d2ace068dae079fefc2c80e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-large-raster-matrix.json",
+      "sha256": "4b2ed0e1be2e0bece6a4eff5dc9527b1cf28369362d457dc955349471de9acf2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/candidate-modal.json",
+      "sha256": "1a026c529f0cfa22dc29d1c30ba9c9c192e8ecb3bd84408b9f18c4360e0d6fe1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/candidate-modal.png",
+      "sha256": "4a26280fd5812b6bda47d9126179d60a99c4c841c6c76b20b6e777f536ba2841"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/candidate-return.json",
+      "sha256": "469a50c73805c815325a8679e675d8cf63910878b1d9fd4fcf48a7c55608e297"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/candidate-return.png",
+      "sha256": "cfc4b2969534bf1f6c38a238e3ed538e82f5793a1b21f8500a17b8380fb71fc5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-results.json",
+      "sha256": "d143dc95be736ba9ff130a100801e30a369358a6802d4140de9f357c2c39b339"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-results.png",
+      "sha256": "9c82e4fc79d437b97f4dd5242c88a5306173ed2cf8190f7474865e4e17eee007"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-review.json",
+      "sha256": "efb8807529c49e130461899a3b020c340cf946d1561e6d92e77ace2a2850524f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-review.png",
+      "sha256": "a7e411ec27dbe3354641bdfeb883dae3c533a96eaf88ff064af80c34d4698bdd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-setup-return.json",
+      "sha256": "5745a39614a28b745643262e1d8374c128aa1da150863f4836e349835b747a0c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-setup-return.png",
+      "sha256": "0e9b0114d5087b0140e30455c87e304a55f6e8ce51d05aca9704ef70ad4edac7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-teaching.json",
+      "sha256": "14da2a2a88b072cb4d69ee8113ae435bcbae7c8af9938b47320e63cd547d4446"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-AT_END-teaching.png",
+      "sha256": "817ef1fbb4d91d492d578b03e54e19910c7da8ebd3fc1bd7755c326120695173"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-results.json",
+      "sha256": "d143dc95be736ba9ff130a100801e30a369358a6802d4140de9f357c2c39b339"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-results.png",
+      "sha256": "7788c4d2f24c5a298fc2b51dfd682c76bb264642773c026a11f78f4fb718cc2c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-review.json",
+      "sha256": "40a9bd6060e2eb5b58600d8248986fdae217330fb98739719dae2d97dc1c2e1d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-review.png",
+      "sha256": "50441c103babe8ec4f15cb65e0563996bee966f1d8135b1be8a5480ce53ec9ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-setup-return.json",
+      "sha256": "0231ad3b37b6aef1f0f694021f928097b6edf5d87cbf3044760bd7c4196d2acd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-setup-return.png",
+      "sha256": "cfebeae217845754323ff524780c8f64ad7272a9fd0989ae21dbde8dfd8c987b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-teaching.json",
+      "sha256": "7253ba25a77a6b59b51c9586fec338b3a1b043ca56077e92d3832c03c9da8f3c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/production-IMMEDIATE-teaching.png",
+      "sha256": "bdc88ce4c39dfdb83454cc41f64b007845c53c262a50392c297c532164843de3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-back.json",
+      "sha256": "0fad95368815897013f6dc0d6556ac9f65788967af1789f25f54d448d59e43cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-back.png",
+      "sha256": "2311756e67a2254f5436bc83624c01c8b01ddbba2ffeee544b3d44d0bc004e70"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-modal-return.json",
+      "sha256": "bbcb5e3d766919412a71df02cac4cea45f878576b875c4c1006aa8bb457eb574"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-modal-return.png",
+      "sha256": "2841e92d25b79a23abb9f0673b335a7d869f9478317be64f4fc51e1ffde2c60c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-modal.json",
+      "sha256": "9297a2f28c8e6d49d049d1f3430de8468b8604649dd19ec9cc1cb2e94bece268"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-production/reference-modal.png",
+      "sha256": "d3c96af3f9d0d7e11e20b222a4d13fb32369b8b17b60d4f7b18ae82c0f9b1b5b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-question-matrix.json",
+      "sha256": "a0716619994ffd311b00770c8d686b8abf2cf4f184bb69e77f30cece78d0e2c3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.0-Enlarge question image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.0-Enlarge question image-zoom.png",
+      "sha256": "b552c4a5edc178a454767494e38af2bd01ee71b0435a036ca0e46613a1624075"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.0-inline.json",
+      "sha256": "a0a57b554d43ffa70e07a9a0713490f6e1fb72d19d53281ee5279804b9f05e08"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.0-inline.png",
+      "sha256": "5a774cf2a5af0123105fc6814bc423dc3251c82d20d62ea88d90857b3f1d7a9b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.6-Enlarge question image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.6-Enlarge question image-zoom.png",
+      "sha256": "4a996c93e6489a13b532a24601262c9b99b2731b574cdd028946143601401667"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.6-inline.json",
+      "sha256": "6e1e2013ac09f7dcf2ba5d41f7645ec29264d1a6c34d7252072d7e4f50fd59ea"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-dark-1.6-inline.png",
+      "sha256": "5cfc88375ba01c917f1e4641a2b0ef95153f9a4ccb7fd440ac5843f1b544662f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.0-Enlarge question image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.0-Enlarge question image-zoom.png",
+      "sha256": "cc57a4cb5f4ff7c7f7ac61b43eece4cc07f04c7fb27636d58ff141cff0f385fa"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.0-inline.json",
+      "sha256": "a0a57b554d43ffa70e07a9a0713490f6e1fb72d19d53281ee5279804b9f05e08"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.0-inline.png",
+      "sha256": "31750e0d438b901d8de083cec198b5c56a83a77cbdc5dae7c94f64acc3f340cb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.6-Enlarge question image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.6-Enlarge question image-zoom.png",
+      "sha256": "4a7a3c549ff17d28709aee96fbe3545d604f5b1fccd0a0e0a3079330fd52f688"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.6-inline.json",
+      "sha256": "6e1e2013ac09f7dcf2ba5d41f7645ec29264d1a6c34d7252072d7e4f50fd59ea"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-meaning-M17a-light-1.6-inline.png",
+      "sha256": "c5818020d14dce718289b0f643370392245f0807134700e254882b70ab385fce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option A image-zoom.json",
+      "sha256": "be8d7658224169b20fac1754fac41dc85027059d92ec7c224baec63248421ea5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option A image-zoom.png",
+      "sha256": "2ce5774577317225baf975f34367e52a6d0108817ab9f7fe8a94e912f0bc9a2f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option B image-zoom.json",
+      "sha256": "d3dfe98d81dbe7033addacb4d1a7efd33082e24e66ad93730dad92ab2dc57620"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option B image-zoom.png",
+      "sha256": "e0f30f96917fbe5d6dd08c57110dfe37a57211f709944c4068d867dd1b094a80"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option C image-zoom.json",
+      "sha256": "95f764bc6f9ff7a6fe7d68bd83ead16a826b21673d3fb12a32691559883e68cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option C image-zoom.png",
+      "sha256": "2241dfe686df4bf4cccf90107824489bcc1dffe19d418779e6147e25bef509b3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option D image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-Enlarge option D image-zoom.png",
+      "sha256": "b552c4a5edc178a454767494e38af2bd01ee71b0435a036ca0e46613a1624075"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-inline.json",
+      "sha256": "6daf74c2bfab9ae90d58ad8827ca6b96af7770e630c157c265d8e40a226b18fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.0-inline.png",
+      "sha256": "01950dc92cad266217cb786bfaf4c4e0cd9513e618def6f87bd4a574853fe6fc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option A image-zoom.json",
+      "sha256": "be8d7658224169b20fac1754fac41dc85027059d92ec7c224baec63248421ea5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option A image-zoom.png",
+      "sha256": "e15081866774935025805b7986866567457b74a1b0347537687242b1babaac99"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option B image-zoom.json",
+      "sha256": "d3dfe98d81dbe7033addacb4d1a7efd33082e24e66ad93730dad92ab2dc57620"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option B image-zoom.png",
+      "sha256": "6a5aad0535927ff4b28e2ee67ee6abaefa4876271aa43f28bc41132001e56d80"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option C image-zoom.json",
+      "sha256": "95f764bc6f9ff7a6fe7d68bd83ead16a826b21673d3fb12a32691559883e68cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option C image-zoom.png",
+      "sha256": "26d89a2114724ef50ae16f51b29c10c383c05e6be7851f2ff939fb28270067e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option D image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-Enlarge option D image-zoom.png",
+      "sha256": "c781ca57889f545aa788f4833c3b048ea2ada50713200896b4576bfd3d718b8e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-inline.json",
+      "sha256": "be32163fde1e2d90e61b2f0f7dffaac8bbdb8aefc45b77f869506cf2e2753ef0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-dark-1.6-inline.png",
+      "sha256": "6b8b8cfcea7bcb3b78726d5bad99f9c2a0159792ede32c13d91c4898fe26a888"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option A image-zoom.json",
+      "sha256": "be8d7658224169b20fac1754fac41dc85027059d92ec7c224baec63248421ea5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option A image-zoom.png",
+      "sha256": "9fb0fa58f9be66678fc7b24bdd99b8fa0abfe68c151fe2678677da79819a18ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option B image-zoom.json",
+      "sha256": "d3dfe98d81dbe7033addacb4d1a7efd33082e24e66ad93730dad92ab2dc57620"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option B image-zoom.png",
+      "sha256": "5f2c79f05cd0de000014be98adbe1b638a349d6f5526a7644dd6fb3ee1eb4af3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option C image-zoom.json",
+      "sha256": "95f764bc6f9ff7a6fe7d68bd83ead16a826b21673d3fb12a32691559883e68cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option C image-zoom.png",
+      "sha256": "dfa0d6767813afbb9e4fbb59f92047ed22b33648d568955797ec0a58b5e74086"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option D image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-Enlarge option D image-zoom.png",
+      "sha256": "f53df7ed7a5aa0458cdf2ad9b95374282c524c20101e3d7c2214bb9f77fc39b7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-inline.json",
+      "sha256": "6daf74c2bfab9ae90d58ad8827ca6b96af7770e630c157c265d8e40a226b18fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.0-inline.png",
+      "sha256": "282fa64394bbf2bfcef9beeafb2d7502f36ccc2a07840b0a9eeba13008d60352"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option A image-zoom.json",
+      "sha256": "be8d7658224169b20fac1754fac41dc85027059d92ec7c224baec63248421ea5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option A image-zoom.png",
+      "sha256": "5cde9e73a9038523c0c8ecb54a9b0da6eb15b54d55e1fa96c4b32ffa24dec28c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option B image-zoom.json",
+      "sha256": "d3dfe98d81dbe7033addacb4d1a7efd33082e24e66ad93730dad92ab2dc57620"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option B image-zoom.png",
+      "sha256": "3b4d0eb59ef1ff1d59896a39f2a5d9a35e183d6e1050f55bc81f386f2582a6e4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option C image-zoom.json",
+      "sha256": "95f764bc6f9ff7a6fe7d68bd83ead16a826b21673d3fb12a32691559883e68cf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option C image-zoom.png",
+      "sha256": "a7ed11a05e161be98bfca80a6a421daf56215868091adfdaf1b204f4282cf3b2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option D image-zoom.json",
+      "sha256": "85ae55820f530cf4829a5b8c2fd4ac0d5cf013357e0fb9e2cf828cf5ec660fa0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-Enlarge option D image-zoom.png",
+      "sha256": "4a7a3c549ff17d28709aee96fbe3545d604f5b1fccd0a0e0a3079330fd52f688"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-inline.json",
+      "sha256": "be32163fde1e2d90e61b2f0f7dffaac8bbdb8aefc45b77f869506cf2e2753ef0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-raster-regression/question-sign-recognise-M17a-light-1.6-inline.png",
+      "sha256": "aaf2b2742dd6e05e8ee4e8729cebc6d847628b7f99c73d4724c748969183e55a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android-x8-capture-refresh.json",
+      "sha256": "94410d087dcd5a6f17de11564b88c2e7bb32a0fb5485d8de783b4526907de6e8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-dark-1.0-inline.json",
+      "sha256": "d2d947867db44386fa9ea7242c94de18e8f9cb61ff33cb4dfe2a31e9e8f4e4d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-dark-1.0-inline.png",
+      "sha256": "4177bbcd645ef12651063de2f6673aac949b364b8202b563849bdbf10872f6b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-dark-1.6-inline.json",
+      "sha256": "2fd0e659a6cdece8308d302b77b21f9221c4bc133730cb41ab05a13f67da2464"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-dark-1.6-inline.png",
+      "sha256": "13417f619aab83f0e355aa89cf51e094b865e3d13bef5ff3d521fc6f134a312b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-light-1.0-inline.json",
+      "sha256": "d2d947867db44386fa9ea7242c94de18e8f9cb61ff33cb4dfe2a31e9e8f4e4d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-light-1.0-inline.png",
+      "sha256": "adb8a016d0c22ef7fa803f2d6086b36a4cc79449286d4e98f1924efe382628a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-light-1.6-inline.json",
+      "sha256": "2fd0e659a6cdece8308d302b77b21f9221c4bc133730cb41ab05a13f67da2464"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S11-light-1.6-inline.png",
+      "sha256": "58d90e59119792138739621af0a5c298eb432399798204b83d833b5e7b5b96fd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-dark-1.0-inline.json",
+      "sha256": "122dcc1adfc57164e1baf0a1e68e6810ec3aee31a1065eadf656c5a17cefbce6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-dark-1.0-inline.png",
+      "sha256": "e84f9296080096f7b7dbef43f10dd2927d61cc35ef33cadc438c6460ffe0ee74"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-dark-1.6-inline.json",
+      "sha256": "94a03699b0abd0357e29dfe3a9b49e2b85dd55817cb4e4b313c0f9d91bc7eb41"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-dark-1.6-inline.png",
+      "sha256": "4396f7273f07398a9404ac9005315e98d3038987731a6692090102106631905f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-light-1.0-inline.json",
+      "sha256": "122dcc1adfc57164e1baf0a1e68e6810ec3aee31a1065eadf656c5a17cefbce6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-light-1.0-inline.png",
+      "sha256": "d547fb836ffb502c0cf6ad80eadb4d9433695e3e602bc84a8c5d31f6039cd998"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-light-1.6-inline.json",
+      "sha256": "94a03699b0abd0357e29dfe3a9b49e2b85dd55817cb4e4b313c0f9d91bc7eb41"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S12-light-1.6-inline.png",
+      "sha256": "3fabb2084ec048bf0257d99a2db95695448ed4640f43ee4bede0f598faae434a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-dark-1.0-inline.json",
+      "sha256": "14aa54a38b46cac370c4162de1272c5e8bf99f2002b8a2060f99381cb1b0e5fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-dark-1.0-inline.png",
+      "sha256": "416ec06657430b663347e95a3027cd67b76b8a98dd6a390c0ab676a5e6b45957"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-dark-1.6-inline.json",
+      "sha256": "5708e99d7a8047a667d125e7db55776c1c39fa0e793c960569468f8b55b8476f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-dark-1.6-inline.png",
+      "sha256": "06e1a7692807d24f5fbd67dcbc7f800fb1bd66a65d07628da92372bde7d4139b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-light-1.0-inline.json",
+      "sha256": "14aa54a38b46cac370c4162de1272c5e8bf99f2002b8a2060f99381cb1b0e5fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-light-1.0-inline.png",
+      "sha256": "87103020b4c48b3a6126824084c853e5352359250bfd7e4e90f28bafae0b67e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-light-1.6-inline.json",
+      "sha256": "5708e99d7a8047a667d125e7db55776c1c39fa0e793c960569468f8b55b8476f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S13-light-1.6-inline.png",
+      "sha256": "687985e96b8efcb5500ef60d25ddd53a6058239e895c95515cc1ab51d2b5e3eb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-dark-1.0-inline.json",
+      "sha256": "e65e63de4c1cc5ca5f3a67b3610f00b0aad35d495e8947bdb88c22ee5be01b12"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-dark-1.0-inline.png",
+      "sha256": "5f9b0e5cc1ca48b4418c36c669887a775bf5753a9d8d7dc4a240f41443401e0d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-dark-1.6-inline.json",
+      "sha256": "51cc0454c4ebd8ae2a73a6763bad61a8f00f2b186d8c8a6885f85336881922de"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-dark-1.6-inline.png",
+      "sha256": "ab449b8a9cf1df36fb60792d7a3b45880c5aad73c5785994fb068e9eb96eed76"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-light-1.0-inline.json",
+      "sha256": "e65e63de4c1cc5ca5f3a67b3610f00b0aad35d495e8947bdb88c22ee5be01b12"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-light-1.0-inline.png",
+      "sha256": "da69e8f6a3ffb558f8ec7853d749ead6e5cf172582f8e7bde2660f960d61b3a7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-light-1.6-inline.json",
+      "sha256": "51cc0454c4ebd8ae2a73a6763bad61a8f00f2b186d8c8a6885f85336881922de"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S5-light-1.6-inline.png",
+      "sha256": "fe850d1e673ebe0515e61a7d83157004555fb979dc0ed14fc48dc3d484330276"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-dark-1.0-inline.json",
+      "sha256": "d059374dadfebf51d442a6852fa4933a020feb4eb81bb32e092f805edbe875b1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-dark-1.0-inline.png",
+      "sha256": "f1598fcb3cfc5d9d6702a0d0fc9e1e8ec47c033d0aee60fb7adaa87d34dc7257"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-dark-1.6-inline.json",
+      "sha256": "aa817aaff0e7728d8c51a94ee851272b2b33e84ad2c16f05fddfb82ebaf3fd73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-dark-1.6-inline.png",
+      "sha256": "c449d7af41e03be8930680ac4143cc0dce944fa2d605b5ce5543e9018d68a280"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-light-1.0-inline.json",
+      "sha256": "d059374dadfebf51d442a6852fa4933a020feb4eb81bb32e092f805edbe875b1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-light-1.0-inline.png",
+      "sha256": "b8876ab54b93976d4230b2afe7924e3676f4eca891f80094b01b6de65baf4a4e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-light-1.6-inline.json",
+      "sha256": "aa817aaff0e7728d8c51a94ee851272b2b33e84ad2c16f05fddfb82ebaf3fd73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S6-light-1.6-inline.png",
+      "sha256": "071319c531e6214fb63c1788efc541a98e59b1220cb42db8b8995f1c9ab1072d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-dark-1.0-inline.json",
+      "sha256": "143b6003169558c729cb530856a94f29370b6ea0805437522de0c3bc11238887"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-dark-1.0-inline.png",
+      "sha256": "a77ee3d9aa7260b8df737f0baaf1c65ce545b6fb923899a38aa34cf79cc64539"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-dark-1.6-inline.json",
+      "sha256": "620105e0f40cf3bf41be911cb5ae809242459caea7404ac73a286ac2ef8794a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-dark-1.6-inline.png",
+      "sha256": "a7345ae40c29177c5bbf21677f89353707863784749b1009283ee01497120d88"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-light-1.0-inline.json",
+      "sha256": "143b6003169558c729cb530856a94f29370b6ea0805437522de0c3bc11238887"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-light-1.0-inline.png",
+      "sha256": "c930abb7bac15597889347057d3a3a3b2b28504482a4c92ec5cefb8cc656579b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-light-1.6-inline.json",
+      "sha256": "620105e0f40cf3bf41be911cb5ae809242459caea7404ac73a286ac2ef8794a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-S7-light-1.6-inline.png",
+      "sha256": "bb80dfa5769520f8693a8a058f2e3fc4243d1ce41134a74375477b426b56de91"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-dark-1.0-inline.json",
+      "sha256": "eb3ba4bf70cb8fb4afed6c1af9228965c1a990395e50f68e98b65bcbfbd4cd73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-dark-1.0-inline.png",
+      "sha256": "5534ca24a1beba5311777120c099239541eedfc3742aa65da9bd4a4b0a55c853"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-dark-1.6-inline.json",
+      "sha256": "88b75788aea4b95f2410b76e82fea643560c697502aa76d2847b145c0560e82c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-dark-1.6-inline.png",
+      "sha256": "6c6a9f283cafa60028e6871b8bda78da72ef234fb479566d35c64ca12cc445e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-light-1.0-inline.json",
+      "sha256": "eb3ba4bf70cb8fb4afed6c1af9228965c1a990395e50f68e98b65bcbfbd4cd73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-light-1.0-inline.png",
+      "sha256": "792458dc9692328a24350659b5bc0f0836e1819459f480b44dbccecb6f06ad09"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-light-1.6-inline.json",
+      "sha256": "88b75788aea4b95f2410b76e82fea643560c697502aa76d2847b145c0560e82c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T1-light-1.6-inline.png",
+      "sha256": "6d3145ebdd20a798742877b6df9ea9d17a177a3048c9f96b5ff38b9c28efab8c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-dark-1.0-inline.json",
+      "sha256": "738a03304af3d3bf9142bef35d81c82d1172b23e03fb18922223f6f862706dbf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-dark-1.0-inline.png",
+      "sha256": "07932de4d02e83975733288dc9443ffe1a45189fd74d32d49f6ba01830217188"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-dark-1.6-inline.json",
+      "sha256": "6b7faab7515b7a87de0f57e0385d30d645ff03a996d80cfa50162f0bf12574a1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-dark-1.6-inline.png",
+      "sha256": "d90a96af8970a4de12c13046fec4c03e0a06b633fcb88f8072ccb3e15b18f5e3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-light-1.0-inline.json",
+      "sha256": "738a03304af3d3bf9142bef35d81c82d1172b23e03fb18922223f6f862706dbf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-light-1.0-inline.png",
+      "sha256": "7b65581cdb47054ecb7aee00ef89aa9c9fa0aacdaaaca7d47cb9cd18add9ec54"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-light-1.6-inline.json",
+      "sha256": "6b7faab7515b7a87de0f57e0385d30d645ff03a996d80cfa50162f0bf12574a1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T2-light-1.6-inline.png",
+      "sha256": "c65ea5b342e10d4b0d78c5c8858aa414352092f8fc407f41f78b92b1365a3361"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-dark-1.0-inline.json",
+      "sha256": "71b2e46efc7091881ae2b4d217ee4d0db66b316498ead3847ca3ded09fde63fd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-dark-1.0-inline.png",
+      "sha256": "a84ee181a65c090a4afb68724522fa1d6bb533c7795fce73c80f8c1ed0fbd445"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-dark-1.6-inline.json",
+      "sha256": "7a1f69b827e7374db55382a90bc3c588736586b27e8551207685f99a0f5e1fb0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-dark-1.6-inline.png",
+      "sha256": "a52811c31e0513b29a95acd1c53a8d57b5154dad17ce4ca721ff844aa372eab3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-light-1.0-inline.json",
+      "sha256": "71b2e46efc7091881ae2b4d217ee4d0db66b316498ead3847ca3ded09fde63fd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-light-1.0-inline.png",
+      "sha256": "4da16b2ff5c898651fb1452530f1bcdb2bd75c873c3febbd3d4c60e57a60b4d8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-light-1.6-inline.json",
+      "sha256": "7a1f69b827e7374db55382a90bc3c588736586b27e8551207685f99a0f5e1fb0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T22-light-1.6-inline.png",
+      "sha256": "1f96c2e65c23be2a7417afb02d1dbd357ed051e5e674a6f8c10422f5e3bd56be"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-dark-1.0-inline.json",
+      "sha256": "719727739f8c6429f13653d128a054794cc995c9cd2cfb55c2b0cddd36e80d81"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-dark-1.0-inline.png",
+      "sha256": "ea46bebefa36649101640d2d4c7d83818b53b08c36c046e259122a3906e49dcf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-dark-1.6-inline.json",
+      "sha256": "0b0045edd495d6ad1ac0f1bfb2fdd24888f8fd6f44ec059be69512fa0fcc48b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-dark-1.6-inline.png",
+      "sha256": "54e47e66c5883a90b63d10fe7707406e9f06fde8198ea5f57c316ec3cf01f733"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-light-1.0-inline.json",
+      "sha256": "719727739f8c6429f13653d128a054794cc995c9cd2cfb55c2b0cddd36e80d81"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-light-1.0-inline.png",
+      "sha256": "c82d99351e809b05a17f59ec268542ebfb94d783c7b711c2f8d7b44602c1943c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-light-1.6-inline.json",
+      "sha256": "0b0045edd495d6ad1ac0f1bfb2fdd24888f8fd6f44ec059be69512fa0fcc48b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T6-light-1.6-inline.png",
+      "sha256": "4e6bc3e043f29ed4c249329b8bfbcead6387ec261abcba28c5a25655ee2cea33"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-dark-1.0-inline.json",
+      "sha256": "83e35447fc22bd2881195454c2ec1d44697b4ed892435432365e9c089b1818c3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-dark-1.0-inline.png",
+      "sha256": "d1672c3b06f75f6a82266b0d0c41dcba7fa5c015a9e7921b3463a55b2dd33034"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-dark-1.6-inline.json",
+      "sha256": "fe64e461fc9187e9fb56dae27817be3552ffe849628e4ccb3718869b41f394b1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-dark-1.6-inline.png",
+      "sha256": "6f486a15ee7da66f2d93ea38db3e864434290a058077452718a1dfd32ae49ad3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-light-1.0-inline.json",
+      "sha256": "83e35447fc22bd2881195454c2ec1d44697b4ed892435432365e9c089b1818c3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-light-1.0-inline.png",
+      "sha256": "8bc9864a0328a9e580d36b956df68ef33925d90eb1fedf2288b34fdefd340ded"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-light-1.6-inline.json",
+      "sha256": "fe64e461fc9187e9fb56dae27817be3552ffe849628e4ccb3718869b41f394b1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-T8-light-1.6-inline.png",
+      "sha256": "3719bc50ce57589594543527c23653bd7c6f1dd66c8584d9bc81b9fa38b23074"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-dark-1.0-inline.json",
+      "sha256": "b4a1392fdd86734613d074df0cc4c9de530d13d19978f31f2bb4330543c34d23"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-dark-1.0-inline.png",
+      "sha256": "3756dc233882376bf85496e8d8b9176aefabe6076f3e2e57d96d72a56b0131da"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-dark-1.6-inline.json",
+      "sha256": "21e847b749dde2f5e588d65f6220bbf128e68febcaf2b61dc4808b560a10b887"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-dark-1.6-inline.png",
+      "sha256": "8ae5f61748452de8c0d2d0019beca8b152aa581ef17b549e10bc197853ed0d3f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-light-1.0-inline.json",
+      "sha256": "b4a1392fdd86734613d074df0cc4c9de530d13d19978f31f2bb4330543c34d23"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-light-1.0-inline.png",
+      "sha256": "df81333cde4f2ece9567d00b21217c6368f3671a7212dec2550e9df40b591acf"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-light-1.6-inline.json",
+      "sha256": "21e847b749dde2f5e588d65f6220bbf128e68febcaf2b61dc4808b560a10b887"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-meaning-X8-light-1.6-inline.png",
+      "sha256": "30dd9d3f93afacaf4133d7e47ba0c6585101dac95560ed3055fece9523cc8a08"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-dark-1.0-inline.json",
+      "sha256": "4570f7b08fa962d680d124f8c75376a29b6ddc8b5bb88058ba948589d1099790"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-dark-1.0-inline.png",
+      "sha256": "ad8b23fcbe44ea6c6238c8daa764d7a4d2d377bcab7d0dcbefa700b2026b6953"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-dark-1.6-inline.json",
+      "sha256": "f9a71425c8bd0e81ae57df71bc90f8cb20a3970e3090071a1d9953e142b2ade6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-dark-1.6-inline.png",
+      "sha256": "e359d6bff6945e669517aa88024b78a2bc8aa6ce397eb43b95b0dcac9e55e308"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-light-1.0-inline.json",
+      "sha256": "4570f7b08fa962d680d124f8c75376a29b6ddc8b5bb88058ba948589d1099790"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-light-1.0-inline.png",
+      "sha256": "add3bfd3870dff8d21b0f7071d29f708d5af75db1c7bd7ed0f748bc258c44727"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-light-1.6-inline.json",
+      "sha256": "f9a71425c8bd0e81ae57df71bc90f8cb20a3970e3090071a1d9953e142b2ade6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S11-light-1.6-inline.png",
+      "sha256": "e2ca56143165bb2420b37df90b43a18ba5525da234eb711bcc6b702cbb7f1540"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-dark-1.0-inline.json",
+      "sha256": "df6e5651826ee76f0b1803e0ca10c3b96a2ae165972061ef8e04dd672a61b166"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-dark-1.0-inline.png",
+      "sha256": "118daed57174fd1fed0dd804aaf4e90b03e2380ece74f8f7a604f0d1988a60ca"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-dark-1.6-inline.json",
+      "sha256": "6e674d14dff84346112133bbe4f2d9a86c8e3a7f4fb70c1791a60ef14bf0f3ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-dark-1.6-inline.png",
+      "sha256": "f62619f770173d2765fdf5ed79411658d7ca06331bdfed637ffdf5ce62ba9b4c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-light-1.0-inline.json",
+      "sha256": "df6e5651826ee76f0b1803e0ca10c3b96a2ae165972061ef8e04dd672a61b166"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-light-1.0-inline.png",
+      "sha256": "3cd00a18859b2761651bcc8b4e0288aedaf68d365083f8ee1afac7679a3a9826"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-light-1.6-inline.json",
+      "sha256": "6e674d14dff84346112133bbe4f2d9a86c8e3a7f4fb70c1791a60ef14bf0f3ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S12-light-1.6-inline.png",
+      "sha256": "025bc15d810dae3d3d1fe4407312671d5462f1fc664905e8b5bfd9eabd44154e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-dark-1.0-inline.json",
+      "sha256": "f7bfbf0a1515f7afbc04905dd4e4d95d84bb63250a715be0ae8bd98dbb4e4a35"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-dark-1.0-inline.png",
+      "sha256": "8876d1263e038145ae06e5f884115f13039bf3b6ac2dc02486380ff978083913"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-dark-1.6-inline.json",
+      "sha256": "d7821e37d282361555cb70a8a37855564492369896f3ba21ec30aee87c79a424"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-dark-1.6-inline.png",
+      "sha256": "2b65f2fe9127d521c0d3a2c8e59c73c506905c6e0a1c410e61ce4a29f31adb53"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-light-1.0-inline.json",
+      "sha256": "f7bfbf0a1515f7afbc04905dd4e4d95d84bb63250a715be0ae8bd98dbb4e4a35"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-light-1.0-inline.png",
+      "sha256": "8c55e75af0183808bd9d0e7eb6a53e1a2de97c69db23a7199902a51827bb479d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-light-1.6-inline.json",
+      "sha256": "d7821e37d282361555cb70a8a37855564492369896f3ba21ec30aee87c79a424"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S13-light-1.6-inline.png",
+      "sha256": "0984ad8b310ac3b2af9fbe9564925dec1c4ce9c952014c2dd712f36ee3e80f43"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-dark-1.0-inline.json",
+      "sha256": "7cdf9dd697cfb32dfb896467dc5c41f1c8209b876d5f01df3571d8c3469de4ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-dark-1.0-inline.png",
+      "sha256": "e0e01eb2cbd43daee7afcca00d472aef51ef2663b5414082fc57268fb9e1ce75"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-dark-1.6-inline.json",
+      "sha256": "4bfef1b90c4e602df55c92ee93c8fed7b56194dd9fcb0343ee1c393235228153"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-dark-1.6-inline.png",
+      "sha256": "533c5135aec7936ebe27ade5f8675128ad9e45037f8f2ab45b6686621fd1177c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-light-1.0-inline.json",
+      "sha256": "7cdf9dd697cfb32dfb896467dc5c41f1c8209b876d5f01df3571d8c3469de4ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-light-1.0-inline.png",
+      "sha256": "44d55b89ccb1c59ca4b4588adbc6097cc5f735b425227213ad7a6a1cd9c6fdc4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-light-1.6-inline.json",
+      "sha256": "4bfef1b90c4e602df55c92ee93c8fed7b56194dd9fcb0343ee1c393235228153"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S5-light-1.6-inline.png",
+      "sha256": "13f75504adc2193ac460bd677452e0d223ff4f6817f80c899dae6a8a1c0a70dd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-dark-1.0-inline.json",
+      "sha256": "8da85dc937a44132615664548b75c802833f61b22c1438369e58fec3adc65196"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-dark-1.0-inline.png",
+      "sha256": "8ad332db4acf936caa4f281e328749ba16423f6f32998f35406010b3beb21191"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-dark-1.6-inline.json",
+      "sha256": "45b5eb3832a10269829ae3292430fe27dc3df4f1105822b6423622d59d7735ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-dark-1.6-inline.png",
+      "sha256": "608357a6390b699963d4c0b43a5a0d2fac72c1a672f854c449a1df37b78cd536"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-light-1.0-inline.json",
+      "sha256": "8da85dc937a44132615664548b75c802833f61b22c1438369e58fec3adc65196"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-light-1.0-inline.png",
+      "sha256": "afe1573ab38df2325a2d35aca13026380ede4dbc166bafbd6bfbd6ede28db2af"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-light-1.6-inline.json",
+      "sha256": "45b5eb3832a10269829ae3292430fe27dc3df4f1105822b6423622d59d7735ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S6-light-1.6-inline.png",
+      "sha256": "77d82c012c0dc47046a8822e249e57a00c8308aab64e634f76ae3c05b618a309"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-dark-1.0-inline.json",
+      "sha256": "77a693869aa8a9c71c9ce96ecc5732ff7ac4fde5742454e683b7cea9508134a6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-dark-1.0-inline.png",
+      "sha256": "74113f79c55e72cc0f0be6d627b24a737cee1a4f190e4a4270c057008b3e3e98"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-dark-1.6-inline.json",
+      "sha256": "cb142575541fc89fd1d41cbe398bfadd962ee7a6464fe999a9042653da849181"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-dark-1.6-inline.png",
+      "sha256": "eb866dd16e8fd00d1099b92d71b60c97091d6419cea90dcae129155ce6e6b0e7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-light-1.0-inline.json",
+      "sha256": "77a693869aa8a9c71c9ce96ecc5732ff7ac4fde5742454e683b7cea9508134a6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-light-1.0-inline.png",
+      "sha256": "aa2d47e07093970795008e213befc46c0defb1252514d1ebabb7b0599ac9b712"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-light-1.6-inline.json",
+      "sha256": "cb142575541fc89fd1d41cbe398bfadd962ee7a6464fe999a9042653da849181"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-S7-light-1.6-inline.png",
+      "sha256": "e0cbab70ca84f1ad448b5c7d76a491248e4a394456367087d1db54eda4aea193"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-dark-1.0-inline.json",
+      "sha256": "e5656b2e0567fa9d0ec410a26b45f631ff0d76743ca3f18a5d0afdf033fc2f76"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-dark-1.0-inline.png",
+      "sha256": "894d843e52cb2f9642fe061c06b791ba6b956284fd0a1631674307d7274905ec"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-dark-1.6-inline.json",
+      "sha256": "84787d8492bc15e20d241e19643aab7007f99aab421d9b720b9db395c21b8ded"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-dark-1.6-inline.png",
+      "sha256": "425c94674cb855d69dbe75e9de7af4af74389244fdb3cacb76134cf817ae6cb7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-light-1.0-inline.json",
+      "sha256": "e5656b2e0567fa9d0ec410a26b45f631ff0d76743ca3f18a5d0afdf033fc2f76"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-light-1.0-inline.png",
+      "sha256": "7e7a15fe5e55e6ba1093bca55d9e0b1aaacfc22d40408d08593023680138660c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-light-1.6-inline.json",
+      "sha256": "84787d8492bc15e20d241e19643aab7007f99aab421d9b720b9db395c21b8ded"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T1-light-1.6-inline.png",
+      "sha256": "f33fcc82761f36cc5a218bc2ffae4f7069771a0db262f697587a299e9eae2fa4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-dark-1.0-inline.json",
+      "sha256": "04e24bb44441fe4398955291ca34d30944f2fce799b367b7c6f68d59bcf88aee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-dark-1.0-inline.png",
+      "sha256": "4c587fe0ca68deb5866aaa1c4deca38407f8d0a16a844abd416a8441057dabd2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-dark-1.6-inline.json",
+      "sha256": "440575b868c3441399944df4e18b2f8bd1a705b4c7e1a5ed01190264bcddc7c8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-dark-1.6-inline.png",
+      "sha256": "41cfd686bf5982d9223253ec0f9830b1d60d2f20bb5695944d1870a0f81522f1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-light-1.0-inline.json",
+      "sha256": "04e24bb44441fe4398955291ca34d30944f2fce799b367b7c6f68d59bcf88aee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-light-1.0-inline.png",
+      "sha256": "22f04323bb862bd7790fd6554442d94ca7c1cae7a52926cf882cc1744f8401b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-light-1.6-inline.json",
+      "sha256": "440575b868c3441399944df4e18b2f8bd1a705b4c7e1a5ed01190264bcddc7c8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T2-light-1.6-inline.png",
+      "sha256": "7fe574b41b554604569772941cd91a35c334db37b4a225e076042e2d0980d2ae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-dark-1.0-inline.json",
+      "sha256": "44c5211e975dfa18f014a5ab425c5318454626a731af528be0287febb0906215"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-dark-1.0-inline.png",
+      "sha256": "92205454c0d15672c841d12d2d5f7317319aed9fb3d2d9f83aefca8c11fe9cf8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-dark-1.6-inline.json",
+      "sha256": "f43706761d4f937a91932dd57ddb91419198c566cce34121d910d44c5e5d0406"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-dark-1.6-inline.png",
+      "sha256": "0d87cdded4aeb47752965c469005417fa49b8ad8eb63ce45320849b024a139f1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-light-1.0-inline.json",
+      "sha256": "44c5211e975dfa18f014a5ab425c5318454626a731af528be0287febb0906215"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-light-1.0-inline.png",
+      "sha256": "141a9bf7b1f7855e09ed3b2fc42cc75e4d7f3dc35e88e048941d7730dcd0aa5f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-light-1.6-inline.json",
+      "sha256": "f43706761d4f937a91932dd57ddb91419198c566cce34121d910d44c5e5d0406"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T22-light-1.6-inline.png",
+      "sha256": "713faa3709eb32e6339746311cfb0a1838224803892bcb21ab9d43eff03bad64"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-dark-1.0-inline.json",
+      "sha256": "ae213c96bbc8929fdb171090b1fa252055e33300dacaf00677cc6c9e2e516fb3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-dark-1.0-inline.png",
+      "sha256": "a5ad272fbfd469f25a2c81b441ceb815fd66dfd6d5050acea6f981aea835312c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-dark-1.6-inline.json",
+      "sha256": "4b1c6b7f248f03ff43a03f1cc31f222feb1144a3fa28d4b6da775bc5f3e66c5c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-dark-1.6-inline.png",
+      "sha256": "5908fd85446fe1bb48d69925d3acf62aba5229f3f455c1703622af199a26e894"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-light-1.0-inline.json",
+      "sha256": "ae213c96bbc8929fdb171090b1fa252055e33300dacaf00677cc6c9e2e516fb3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-light-1.0-inline.png",
+      "sha256": "96eab84d481aea0e3335ad9954f1a5af83db20e2effab0776f5af22553746d78"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-light-1.6-inline.json",
+      "sha256": "4b1c6b7f248f03ff43a03f1cc31f222feb1144a3fa28d4b6da775bc5f3e66c5c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T6-light-1.6-inline.png",
+      "sha256": "068d1be922c04d2b5bd532ac5638e3dc1308b27812d733d8548a8ca6857d092c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-dark-1.0-inline.json",
+      "sha256": "63a25873120d95c88f4bfad8c5e9ddefca2e945842e266426192da818e4c3f7f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-dark-1.0-inline.png",
+      "sha256": "d55f00d964e4f3187621a673f5baff54fb9e0571f6b5259aaeb41bff7a6e55e3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-dark-1.6-inline.json",
+      "sha256": "75a14ea8c1c93b5a01f8c33333abeb76463aa55be7ca2f331bc12b33551b2303"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-dark-1.6-inline.png",
+      "sha256": "88f31f76c0b30ce857e867be4fc67e67d0737a31a0858b9febfb6ad656567cd0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-light-1.0-inline.json",
+      "sha256": "63a25873120d95c88f4bfad8c5e9ddefca2e945842e266426192da818e4c3f7f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-light-1.0-inline.png",
+      "sha256": "67d43cd3f281442985ecb5bc73658758c280dbaa71367ae8bb1f862e27132330"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-light-1.6-inline.json",
+      "sha256": "75a14ea8c1c93b5a01f8c33333abeb76463aa55be7ca2f331bc12b33551b2303"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-T8-light-1.6-inline.png",
+      "sha256": "08d64c1c43a24b61a7b798ee47ecfeefa1c1332f05e1bb5ba84d00a760d8f8c5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-dark-1.0-inline.json",
+      "sha256": "3edf6be03d4fa852a4d0b0791a1daa346264c734dfa36bf7703289cfc4146847"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-dark-1.0-inline.png",
+      "sha256": "99d83cec1c88a3e55e29ba06ab8f3eec017f491e01814e823a418568ab7cb019"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-dark-1.6-inline.json",
+      "sha256": "ad5586b207b89c68397b3f0e40c9a85f1f31b5eaa862de83560b591a2b088ca1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-dark-1.6-inline.png",
+      "sha256": "ae0954c7f64df8d1ec3f9dd2f040f19d121b80dc1607d05daf6a98499bda70e8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-light-1.0-inline.json",
+      "sha256": "3edf6be03d4fa852a4d0b0791a1daa346264c734dfa36bf7703289cfc4146847"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-light-1.0-inline.png",
+      "sha256": "3fe3fe228badfeada2ee7f5caedd314375a9e60d6fa335a0143eee3277b95009"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-light-1.6-inline.json",
+      "sha256": "ad5586b207b89c68397b3f0e40c9a85f1f31b5eaa862de83560b591a2b088ca1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/android/question-sign-recognise-X8-light-1.6-inline.png",
+      "sha256": "64ec4fe0ede7c90c69d07756c1488b5a530fd4962336cf76ed4b0afbbf80ea53"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/asset-legibility-review.json",
+      "sha256": "a273c620731484fe50aff659495ad6cc4d9e0105db578c417dd31a97b70e2b1f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-large-raster-fit.png",
+      "sha256": "d4b62929c7828256342d73f7657feebad5292f8d59f1ad6ada7e91e34ae44f01"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-large-raster-zoom.png",
+      "sha256": "9bb3096a28db3ab002dfbe2f6d66bec363c51e7af24aee7c17a15f60d744d521"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-flow.json",
+      "sha256": "9c4344a2eb976e8e954f60ed2d36dc4a5ae611a7f16e8810fce19f6c413b84a8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-guard-tree.txt",
+      "sha256": "3f9c2ec83bc3c5b2dc4683519bb97bf8c41a0d27144934c6a2cb2436dcf89ece"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-guard.png",
+      "sha256": "a087598b1ed69c8485cb69fdebf5fb42fbcc3625e85d99456275f30333f4884a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-home.png",
+      "sha256": "c4f2a9b829d974c322566a3bf96e37dd3908371836da9092799b528377a6dfd1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-results-tree.txt",
+      "sha256": "6dde844621aa78918bff368e36f7fa82b732df1a1e45f31db530c41e1f0def68"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-results.png",
+      "sha256": "deb1f23a90de75cd9342666cd09304dff27b636e6af343c6026ce020f4441e11"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-review-tree.txt",
+      "sha256": "e4c5bb56e54564c8215fd6a678ed7bb4a9ddf602b4c31b777e5e0aa0ce47f92f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-review.png",
+      "sha256": "7c27557883c1fe5ebf4d29078c63d416e2d8572a28dbdf9f2009afaf8c452928"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-setup-return-tree.txt",
+      "sha256": "05a1e8425cc6469981b50da90cdd7deda23a5c55696e0748fd5a3b694dd4a176"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-source-tree.txt",
+      "sha256": "5b82f20fe9b7ef55c6eccfa4953a519243ae7bd8867875b6b15c803f1f65ead1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-viewer-tree.txt",
+      "sha256": "92087147f5394b172baeea3e1c2b53179f9a445a9c4977e13ebd7c3c8f7c0c3f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/browser-production-viewer.png",
+      "sha256": "7240db0f2e880dbe4d8978152301c3c10092b9c926a3859a2f7bd23df64eaa77"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/cleanup.json",
+      "sha256": "58c79d669ae0bbb7f1e2252f838422031b041d8ad1635e6cc4a09d86a868c51a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/delivery-acceptance.json",
+      "sha256": "3bb0d5e343cdbd128519f97cd26e000ae0fc649aa2f18cdff4330bcf45280a98"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-confirmed.png",
+      "sha256": "7671af49ef3cf791b2472be25463f047cb28964386aaab6aaad753136766977a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-discarded-library.png",
+      "sha256": "ace737ab0c4f1c6d10fd64a45e266857abd540bb136d713c52955ffaa27a4e97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-expanded-review.png",
+      "sha256": "06f711226405c8694d1be31ad35a972d82136bc1fe80cf7c828341fd9dc51382"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-home.png",
+      "sha256": "39ca2b503594b6aa8980aee52e09912353dfe017371e1b4797ac51b9033fc95b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-related-teaching.png",
+      "sha256": "4113b436f9c3e0ab943a548b3e6f783d11cacfe937bbf158508d3876212432b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-results.png",
+      "sha256": "f3c4e47992a48384d639791df79fe6e8cbe5bcaa2eca31eeb3fd96fdd97cbd59"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/at_end-setup.png",
+      "sha256": "9e782e2cd05895a23861e428611042f006564946e03a68a669a97202c776ea09"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-confirmed.png",
+      "sha256": "1b7d547341342273b37bd42b49bcf8b9a7c4c590050c3052460e780a86d268e2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-discarded-library.png",
+      "sha256": "ace737ab0c4f1c6d10fd64a45e266857abd540bb136d713c52955ffaa27a4e97"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-expanded-review.png",
+      "sha256": "bf7b1900a7d09e18b39a3a292de9f9e867aa838d085c16ae7c96f7476d5208de"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-home.png",
+      "sha256": "39ca2b503594b6aa8980aee52e09912353dfe017371e1b4797ac51b9033fc95b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-related-teaching.png",
+      "sha256": "4113b436f9c3e0ab943a548b3e6f783d11cacfe937bbf158508d3876212432b4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-results.png",
+      "sha256": "f3c4e47992a48384d639791df79fe6e8cbe5bcaa2eca31eeb3fd96fdd97cbd59"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/desktop-production/immediate-setup.png",
+      "sha256": "741ea29fb8cebbd1776c89ebf404c54161ce3c67e1a2815896970e3d00e962d3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/final-ios-test-summary.json",
+      "sha256": "f87392e977b7ffb0aa7350e2feeb1e9e54e9be20cc2d54a8b1b3c96bc3286610"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/final-native-artifacts.json",
+      "sha256": "b4a43e80d13c6ceef20ac809d9b4d92cdb3a0a8f0b78543b5a44da6804072d28"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-attachment-map.json",
+      "sha256": "908c05619d01edc5704fcb16e2cecec6876f8b971c182e529906d8c06549370c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production-attachment-map.json",
+      "sha256": "be2f89f50c2b77ad74f94af39e60f26152f03bc7d034cdf211e7077d6b640a68"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/candidate-neutral-modal-tree.txt",
+      "sha256": "100b1da9508cf0ed57882ec0f2f73c353c787ed46424503a66846a9b169b0929"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/candidate-neutral-modal.png",
+      "sha256": "f5ed012db09be4b49c33cf509fbc96e74685595695c5f16a3d42a06ef858fe2e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/candidate-pending-return-tree.txt",
+      "sha256": "1f5d310eee26e8616eb39346862ac7a9b6e74109c22e1c799a3eca9a2ba6dfb0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/candidate-pending-return.png",
+      "sha256": "1947d2338d994f762820f0d1fddd51c705b17beda17f3bf5da1bc6b48a41094d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-results-tree.txt",
+      "sha256": "22dc9d76a43bb06af414ec372cfb880c57d13d4fecfa9fd9b8daae07c17cd715"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-results.png",
+      "sha256": "8841d7dfc60ad1f62fc87672e73354c8098d4c04c0a23e449da990bf5cf7c6e6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-review-tree.txt",
+      "sha256": "019b27e3fe42463f9209422f2607e9383e5933fe2611adbc9aff70ad2998aa94"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-review.png",
+      "sha256": "62484c8ad5df66817378657dd81027ed15b71a7d8a4f31a2447d1dd7647cfb44"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-setup-return-tree.txt",
+      "sha256": "319c8d181f127d14b51daebf73cc23d3aa14c6dc7f0b0acbcd9913bc1362d3ff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-setup-return.png",
+      "sha256": "37cffd7abd86f01626c303867dfe55b3882beeb0eba0e56eb7923443ef77f5cc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-teaching-tree.txt",
+      "sha256": "16539fafb937f1078f04afba80433bbc85b6f83de1a01c83357ac32948d5abdd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-false-teaching.png",
+      "sha256": "e50cc0bd1e8cca942193f48068cc264b8eef846a8153f7b687e5c46dfca70681"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-results-tree.txt",
+      "sha256": "b43b50e0204225843caee6e699dea1a0aab8ef1047b7ba3aa4e9889f0ab79eab"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-results.png",
+      "sha256": "b9f72ddb30a2c460a1c2b2781b42c731db29efdd533d30bebfeca3b59577c60a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-review-tree.txt",
+      "sha256": "95ebde777c3bf46a1ac5095747dc819f518b0c47a4410873129c468554c46f7d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-review.png",
+      "sha256": "7a5baef920961068939dd69ce805b564b420c728937f4bcd1c062ec3ccfc890f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-setup-return-tree.txt",
+      "sha256": "81e056af8723cf8eb7cb270872137d924b049abe6ea4932148b94c51e950cf5a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-setup-return.png",
+      "sha256": "18f4a977793537141f5eabf08442396a5e7e3019ec91a1ae6061cfdea13c9b35"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-teaching-tree.txt",
+      "sha256": "ef0d52c5af4bddbcf2b577e37b22299742ba68e730de9fa87c62acbd04098598"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/production-true-teaching.png",
+      "sha256": "b71fd21b4841eff5553d28b3f971ae082ab56f51d823bde4aa74cde9eac5da7a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/reference-catalogue-return-tree.txt",
+      "sha256": "015ba8a4634a381b54210f0fda15757e87cceb2ec3465607ea8fef630da6b426"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/reference-catalogue-return.png",
+      "sha256": "574b8c9ff8bc69039aa778e04c16ba5a1dc9bcb7d45f100bb2d1cb123a3f1254"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/reference-modal-tree.txt",
+      "sha256": "e83d11113f2441167f1b15c592007326aef16ebe549d20f9e7cc76e6611bbb17"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-production/reference-modal.png",
+      "sha256": "c204c1c0a04264a892f11d03839bf3788042cae6c72eb4aecfca6ef9f35d4099"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios-question-matrix.json",
+      "sha256": "5ccd233fe58b4562ab436e9f6491d7d319df8d88b9ddcdb1a8c79cc9874ec513"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-false-1-inline-tree.txt",
+      "sha256": "0c441693c01f3497158fa382b4c06adefb63a13b1c43c8abc2cd51aae369337e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-false-1-inline.png",
+      "sha256": "9160ec33572079d4a680bc7de22dcd6f6120aa83c85e91050f9602e801587b5a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-false-1.6-inline-tree.txt",
+      "sha256": "c81a59a3602824893e222b00a381c56211939bea4edd9ce59f0cc9d958f93009"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-false-1.6-inline.png",
+      "sha256": "94ac75ba391a115c06464df55282f4d32eece7a98d75e4fcd184f136352e56df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-true-1-inline-tree.txt",
+      "sha256": "d0987816690ab9a043bbbfc1c3d6649b9acc4131f66814e24d6d9cc1f39d7d82"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-true-1-inline.png",
+      "sha256": "4379b867c1018b4221282ec69ab98f3d86e00131db38e59fd119caa2a3ba955a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-true-1.6-inline-tree.txt",
+      "sha256": "64fdeeb8291a0c988da3b29df5d4ddaf88eaa2421b309ac74f32629a5bda065d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S11-true-1.6-inline.png",
+      "sha256": "4c1aeb5afac7e9130e719dc283d0cd5040597773f5003c068ece53037957f40b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-false-1-inline-tree.txt",
+      "sha256": "f629d143c571c4439cf0d95f83e4fa767b61bf8502e5216b661876b447ec16e8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-false-1-inline.png",
+      "sha256": "d943eb3843eebeb2c63b6bb1e1a1f06ce8accd4e07674d8bfcc97c16931d5376"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-false-1.6-inline-tree.txt",
+      "sha256": "ad7827d6557bd3a518609c31bc315678451ca4e40381754150bcd88cb1d1cade"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-false-1.6-inline.png",
+      "sha256": "fce894aa709a1f57d8a912ea531feff575bfbd26bc4bbdd1b4de9c5102ae0bec"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-true-1-inline-tree.txt",
+      "sha256": "c2c0f121d2deaadc9a81415423eab779ba75f06493955cd66b424355ebf1db15"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-true-1-inline.png",
+      "sha256": "dff1c3eb53dcb5358b21d348b35132ae36c2cf95c76c408dc229edd976a0a32a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-true-1.6-inline-tree.txt",
+      "sha256": "19379f6e6e2f8dce0b895b3b303beffab08a4fafd0fde66cff51f42062f6c409"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S12-true-1.6-inline.png",
+      "sha256": "af1ee15972a2879bc8f7a9ab6c22b8171a0632cfa496e4e0af59ff600f4e5abb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-false-1-inline-tree.txt",
+      "sha256": "97f8244ab8426e046b13dbdd4ca8b879ec7634b98782685db0c113965b873663"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-false-1-inline.png",
+      "sha256": "cca8f134105b2a21ae5004d01663a227a37c64b83d55ffa46a8390af403889ae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-false-1.6-inline-tree.txt",
+      "sha256": "b8811d017906233ff2e15cf1c6a9fe7b257e7e6baaa04ff4864e69a373136f69"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-false-1.6-inline.png",
+      "sha256": "6c3944cb08fe60a3350a48b44f6ab3099966db5eeab793f12ac93102bc5ff80d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-true-1-inline-tree.txt",
+      "sha256": "0ab35c0206c42e941e193b99809ef455a589812736021a8f4a376d9d2e53a7c2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-true-1-inline.png",
+      "sha256": "eabac663ceaa3d64acf482ac94a3240c61770ce8f8f40038d4323d63d6c926df"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-true-1.6-inline-tree.txt",
+      "sha256": "ebcb96d151b432155de2e5fc2c5eb5e1b1e6d4c44ad60c524d79e283f60660b6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S13-true-1.6-inline.png",
+      "sha256": "c1e67e2e3dc5c640e6b36e18d2e72ff9fd5e534ec971615d223a9820e3905b93"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-false-1-inline-tree.txt",
+      "sha256": "56e38e20176358b84e41a84a2078b93a178091952751f911accc0d5037db9866"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-false-1-inline.png",
+      "sha256": "7eb5f269c7bb2765a4d37636bcebf7dd691ee38d7bdfc0b480c652520431ae73"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-false-1.6-inline-tree.txt",
+      "sha256": "314f9bb9efd9d0b61e815255824070bab473af08dc7a77d2ddad14faefcb6782"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-false-1.6-inline.png",
+      "sha256": "63c7df379588f2d15b1a64192dec053478569af375c104b20338a8edafe7e808"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-true-1-inline-tree.txt",
+      "sha256": "a78e3f1221ac59b917cd5ba8aea3cae380fe6c73ca3a5e66c6cf68d1f1f41b3b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-true-1-inline.png",
+      "sha256": "834bfbc2b9b28824ef84df68b4193d5b437fc107a458225131eb3cfa87c853ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-true-1.6-inline-tree.txt",
+      "sha256": "eb27b0d5ed07620593bf87a8dec427b9c3a4cfda5248836f837a7b171ef47a89"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S5-true-1.6-inline.png",
+      "sha256": "60526cb515a862319ad997f48df3ed160a068ae25c1ec738f23acd5151d168a4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-false-1-inline-tree.txt",
+      "sha256": "5c1b65475479fe974bf2e55e1a8c76e813439274f0ede88da565973019933d33"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-false-1-inline.png",
+      "sha256": "563119f7e0cc75a6071f2cfc13d8bd3d2c502e0fc16b186093dd3a19e3bcc7c5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-false-1.6-inline-tree.txt",
+      "sha256": "59491975d9b87f9163659db7f99f3d6fb9d68ee737002a7063e4d72ea39ffae6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-false-1.6-inline.png",
+      "sha256": "8b1e640f8b1bc6888db24b4dae467a3a1816bc38a1ca67b0ca2bd6ff353d0979"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-true-1-inline-tree.txt",
+      "sha256": "03b10f244f9e4888f5575e15f3e49b5868bccaff01bd30bd4b526512e5117717"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-true-1-inline.png",
+      "sha256": "b2b2c40018fc34a5b37b28d1bf707864699759cbb3f256453a5c2953d1e083c4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-true-1.6-inline-tree.txt",
+      "sha256": "fae7b3bc7090e217488cf1d8863a030a5a4cd6a32968bb74c2ef7474c3fb86fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S6-true-1.6-inline.png",
+      "sha256": "b84968dc0df1b19cd4ccf20f9c7fe8f9e3c9df86386cc234b07a702630e25709"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-false-1-inline-tree.txt",
+      "sha256": "d5e086920ab21555a25404066b21f112f38c6135661883e29a44b0c5dc8a33db"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-false-1-inline.png",
+      "sha256": "8011217da198085bed080e99c0c9d77d0f49eb4f68fd48e6b44e716492fc79d8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-false-1.6-inline-tree.txt",
+      "sha256": "0bcf265a06ba53f432aa244bb3f993950dd500e1baa186d7fb31f078c79d5973"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-false-1.6-inline.png",
+      "sha256": "22c04374576c6dcdce9a8979869b87b8f630bf66c4ae250c4e6ba4d6ce83a9b5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-true-1-inline-tree.txt",
+      "sha256": "dd59e4fdeee7d8cb0c5de54f84cb7c156d7d95fc5e2bd2906deaf066a45e0f21"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-true-1-inline.png",
+      "sha256": "ab142852f29becc668da4df3f3a2b5154aa5480ce5ec075711476d9e20de03c4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-true-1.6-inline-tree.txt",
+      "sha256": "26cc12048e2ea4746a2a6eea5133e6cf4bd705751d7875400a7bfbcab4a0201b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-S7-true-1.6-inline.png",
+      "sha256": "94373f9e25e3c7b3114bc90b3184ce38d6965c9efdd3fcb1685ee6b17f4a35c4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-false-1-inline-tree.txt",
+      "sha256": "56d0e96b4ee97663cdc5359376c46cee39b91710437770283a86a655299e8e17"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-false-1-inline.png",
+      "sha256": "5dec01b5a4eaf4bda23ae8efec869c9bcdeb9072cc127b58751fbedd437a0b71"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-false-1.6-inline-tree.txt",
+      "sha256": "b91aadc8d16a5efc012eec2048e23d2667cbaa529ff4f39dae7067d4fe1bb400"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-false-1.6-inline.png",
+      "sha256": "e36731d13053e11fabc9d898e73c50f32537b64176c1798b34aae518fdb73a71"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-true-1-inline-tree.txt",
+      "sha256": "26256383f9a5e2e5cdceb6b403981372b837af4c7003a9e8d606f27d0261fe32"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-true-1-inline.png",
+      "sha256": "3cc7a62d4d2ffb1294f69cf35bb2bf7dcf3676cbb3196ac4446c07e5f5bfe766"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-true-1.6-inline-tree.txt",
+      "sha256": "254be001604e2a6ca842c45b6eed8001cc9d2951ab1899413b6c1c1b9125c22c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T1-true-1.6-inline.png",
+      "sha256": "f02aa4daf77feeee270f2005338fd433392c02082fbd19c88b006f2f425c93fc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-false-1-inline-tree.txt",
+      "sha256": "fa533fe6d355e61b944419d3199561006e4e2e3f5f1eb5f3d23816427d5a8680"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-false-1-inline.png",
+      "sha256": "e3cdbbd45fc36c8b1fce9f5bee9122f356a3eabfc26aed5a46efc57d0f145bd6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-false-1.6-inline-tree.txt",
+      "sha256": "27f943a2b494d76ba1aaab820414c3cd7ef2f94acae77af976444ae869ed0b7c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-false-1.6-inline.png",
+      "sha256": "ef398169470ca9918b0f5b65c480ba5a72d8aa5ba105c409685b4e8ef1b7a96e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-true-1-inline-tree.txt",
+      "sha256": "3ebe1fd5e5fd550feef960102b6df19e5c6ea8e5be5cd234264560fac026bfd4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-true-1-inline.png",
+      "sha256": "38f3c044615fc0fd4beefd9fe008273326eb078faab7df2a758e981a8dd98db9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-true-1.6-inline-tree.txt",
+      "sha256": "bb054fc4cdb68de7d5fc8c64fcf43016dbb2b219d495602b6b8b1a2fc6b377ba"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T2-true-1.6-inline.png",
+      "sha256": "c2159396c4530ef3498ac4bae7627f03360c265433bf3b51dabd1c7eefc70d46"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-false-1-inline-tree.txt",
+      "sha256": "e82f387d5003fed93aab345eaedd44ec38ca5562493e2242142065991fcd7059"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-false-1-inline.png",
+      "sha256": "a484572a1f382b4a58098d404be24c90b6975a8d13f63b3838be70fa6e948cb4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-false-1.6-inline-tree.txt",
+      "sha256": "957fc754f2bbff26d5230cf026d09b1f3f6f37355ba7c35750e02e2a5dfc470a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-false-1.6-inline.png",
+      "sha256": "6486fd837bd8f8eb36f32b79ead99ab4b2d470242681dd7863b479d188f6074f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-true-1-inline-tree.txt",
+      "sha256": "cc0696886cb08e7e2a9a69327d23878bc127681da4b98e7998e4cd3f392611f0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-true-1-inline.png",
+      "sha256": "04c9b7b0d8927109c1cd605463c8fcd0b55dbdf5f6e7662f6bd7dae29e1ca8ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-true-1.6-inline-tree.txt",
+      "sha256": "3dce9ed77e56383f5ea2381925f9915d6bf5d89c1eebfcb357b39df6066e89be"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T22-true-1.6-inline.png",
+      "sha256": "e35c4ac21c657c3be5f39c8bafb9e36351a35d54ec936007ab0dc0dc47812b4d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-false-1-inline-tree.txt",
+      "sha256": "7494755985e4a297f7f77b52fecc43eb5c26283ca0e0db361c3c8713951d113d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-false-1-inline.png",
+      "sha256": "7dbb039183585678730bc1b759877cecf648a0148fb312167e9c12217f05d7ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-false-1.6-inline-tree.txt",
+      "sha256": "351f52e3ebc04ea58c7dcab6f10c5d33f4bb10f80c238850ccc2151d206bb524"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-false-1.6-inline.png",
+      "sha256": "b42b720d7ed6987edd15c3744baf9bda1ec880296761cf827a6d188b2280ecf7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-true-1-inline-tree.txt",
+      "sha256": "198de2d7231dd48a5087c5d80e845452ec614d86198d569382404b204f95e406"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-true-1-inline.png",
+      "sha256": "0debe88e5b713059637e31afab0abb1611a06ade8c1bec7a27413290b91cacdb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-true-1.6-inline-tree.txt",
+      "sha256": "41e0930cc7ec9d974b384b3be2909e7e9b18532ef5a934c55af524a9b1e22e6d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T6-true-1.6-inline.png",
+      "sha256": "aada380ff5be4ede4bd27296f4f081305b8e2a839456d9791dcc8b804d872fa2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-false-1-inline-tree.txt",
+      "sha256": "25374f5a78c4c284273b57566d254b72811e6f120bf571b36de97a9376efced6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-false-1-inline.png",
+      "sha256": "44d3e887a66cd163ebccfefdb4460cf9521dc8e0ab47cdfe553cc10eda03adac"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-false-1.6-inline-tree.txt",
+      "sha256": "f3d807f85170abea93480f4dae947f5c53ea9af300b26dcd365ab3ffc04fb8f2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-false-1.6-inline.png",
+      "sha256": "3340343ec92e72bcca678ce352ba0d1f2f37521608d7987ea135b421562d382b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-true-1-inline-tree.txt",
+      "sha256": "73cb560fd059fffb27347cac345cd6eed810e13c84b196544aa376177cf3f8d6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-true-1-inline.png",
+      "sha256": "09bc0d19c61f4aae5e10daef83a1faec8c3aa8bb7a79231adcf61a3ad23feb41"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-true-1.6-inline-tree.txt",
+      "sha256": "23fa05c98294d546b21e73c0b169c438b65e607ce7e0697a8aa4d6a64c82dc9a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-T8-true-1.6-inline.png",
+      "sha256": "1e96f5fed0625398f94d086fa54e4bcf29787fb0c66445aa808e606d434e22fb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-false-1-inline-tree.txt",
+      "sha256": "4280df4c31e2fbf7fa6c390501ae10ebb2f9a9771492896aadb229a70b7b829e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-false-1-inline.png",
+      "sha256": "c806f2bc161aac4d91c12c44e5f88985977dd1ecced9c92c58a45dec31ec0a51"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-false-1.6-inline-tree.txt",
+      "sha256": "42557d8c7325cf33947a42bb2287e8784a01029a1f97ca4301c86a9dc20656a2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-false-1.6-inline.png",
+      "sha256": "f829352d6cae4dddece9bb1d9dc0eb773eb9b4abc705f541e314d37221e8603e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-true-1-inline-tree.txt",
+      "sha256": "4435fc1ad07ca6ad16c4073c90ba585f57db3f53f86f7552dd1e40cabbca9951"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-true-1-inline.png",
+      "sha256": "99a706995f07c66f1e6f9c1a7379e63d763fb6076684beb3969dad1d5d612a90"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-true-1.6-inline-tree.txt",
+      "sha256": "618706d85cb4650bfeea38fc376d549ac3a57835b7865ffa78575287604da264"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-meaning-X8-true-1.6-inline.png",
+      "sha256": "028072cee728a9718bcdb7248ed092e937e63c6d2fe4a793c3ea2f58198ba427"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-false-1-inline-tree.txt",
+      "sha256": "e76757cd8bbd2d1cf1ee33901a246c6dd41c551e3db76400126692fd2f1f1d6d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-false-1-inline.png",
+      "sha256": "619832ace18b2a70b068363a97adce1af14b3a9f60955b5c45d6cc195f9fb833"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-false-1.6-inline-tree.txt",
+      "sha256": "90feeaca99c1eeb4c12e982cd810713253d124e030832c3e5aa52059c42762b7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-false-1.6-inline.png",
+      "sha256": "8ea50f171c2feca5fadedbe611888ca5abe524b3a1dab3d9d5dc324d4b001d65"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-true-1-inline-tree.txt",
+      "sha256": "ae626373ce68b645824780f7ba73382704bb903591763e36ec2df56d60a97a77"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-true-1-inline.png",
+      "sha256": "8193d5ca5c2befa8764b6b40aa809c2ecfdad1f4b87356accd600910aa1b005b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-true-1.6-inline-tree.txt",
+      "sha256": "46448efd17b04fcd628d796606c8a786c8a7e5b8b831dd7755827ba3d18bd001"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S11-true-1.6-inline.png",
+      "sha256": "d46632aa735631c0d5eb73eb87c49c1aaf2ee8f3655f3f2af2e2c727e0ac1ecd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-false-1-inline-tree.txt",
+      "sha256": "13eba8debe7391060b0cb9880d38e59b3fb38ba6f57f1df62fa83b31472341a3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-false-1-inline.png",
+      "sha256": "7dd39087307ead5b1b4d343c82af1395b18121e16b9a948e1227fbb7f414bc49"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-false-1.6-inline-tree.txt",
+      "sha256": "4332094e5851e939330b751ef0edc725d571207e6314b41ac853ff4895c61274"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-false-1.6-inline.png",
+      "sha256": "3d8b35d50be9b50667e573ec0ff00b0bb55fc97fcead1c6899e403591a5e9d01"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-true-1-inline-tree.txt",
+      "sha256": "16ba1f645b2768e69d1e46782252d4e299bfa6bba0303d4cfb17b58cf4754654"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-true-1-inline.png",
+      "sha256": "dfdcca63989fc6e831782762f9af53cdf8e26492337db7930adfb76b92f7cb0c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-true-1.6-inline-tree.txt",
+      "sha256": "5a7af83b5316584160cb0c59ead4a59abe8cd035e94e5ac93ce7e9a0c6c4fde4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S12-true-1.6-inline.png",
+      "sha256": "2e5e424820d56e8f2f90929abe0eee9ae85985d53e3db690871c34a0a6fb6025"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-false-1-inline-tree.txt",
+      "sha256": "5cb3dd9e05940561f011fe558cdbce8824fe9e35da8388d7de9c43599c140346"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-false-1-inline.png",
+      "sha256": "93963a57a11409857420ed1b3ab621bc09d7ac46d2894316de33abcb783335d1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-false-1.6-inline-tree.txt",
+      "sha256": "76b9588f3cdc4c930b9c45a32abbf4b231edb7561a0c37ea43dd53c5d301072b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-false-1.6-inline.png",
+      "sha256": "e34c5ad17862ecf49fc45e35873b77371a88faabfa8711207e129277a53f4de3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-true-1-inline-tree.txt",
+      "sha256": "0ff23ee46c22e9fbfe2d7026567d5f395767084bbebc28c58ada7e18211b23f2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-true-1-inline.png",
+      "sha256": "b66bb3118d76b5302f44d7e4beba6fae37ed55306a5f5f0e6c93f9f275dce0f4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-true-1.6-inline-tree.txt",
+      "sha256": "ea70a9bf6fcf98c4eb321aef5f1533837ae757dac8c7ce2ee2f02a30e0f69f34"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S13-true-1.6-inline.png",
+      "sha256": "24d537d4c176d84432b733ac55eb54b34da9b3fcfb59f5c8b6319df6f3bc0085"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-false-1-inline-tree.txt",
+      "sha256": "51ea6f9a419e2916898a7cb78e3f6201ba74375515c57eb1c5c4d6d1cb2a7ce3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-false-1-inline.png",
+      "sha256": "8019e0a38d8a5c5c7fa46d1b499a58455808044650a6da358a6ca7995a1e8499"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-false-1.6-inline-tree.txt",
+      "sha256": "2a402b6f49d4ad211d3dc42be0b1b7bdad9e0251f6780d9d0af7e40f7bada62d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-false-1.6-inline.png",
+      "sha256": "80a48b12517201e4de2cb47667a3d26c438747a834a259c8ba3a4ac11e0dc1d3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-true-1-inline-tree.txt",
+      "sha256": "d0936869f7e8b0b841d33351194e070debf0df90bc8d543ea2fb601e06a2e4a5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-true-1-inline.png",
+      "sha256": "053253e3234851913ebaacc60d661e37c7d60a45ad4b1f7669af451a5e4ce111"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-true-1.6-inline-tree.txt",
+      "sha256": "647706ef7df9b1772e6aeb08b7f173cb6fc50749e28ccf958792149169a2a14d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S5-true-1.6-inline.png",
+      "sha256": "dddc9c7255f0ca84f8d4e324de54da6193e1dcdc73f9292e8785af1ce0554be3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-false-1-inline-tree.txt",
+      "sha256": "64f909c9d8f87da73b6b08d81b7184226d15f31db36414ab6f6d9daecff384e2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-false-1-inline.png",
+      "sha256": "1f5cb087a8962765fbbcd20eac47fd814d0941408fdfab3702207ba9bd025169"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-false-1.6-inline-tree.txt",
+      "sha256": "c086c8f43bed639d7adbb529c9681a57904e697f4bb0fd684ed86ec48cfe48b1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-false-1.6-inline.png",
+      "sha256": "8227dc6fef42ce3e9836021dba127f0be7c5091ca5477bba0e98a1bc22740c66"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-true-1-inline-tree.txt",
+      "sha256": "c72d1f28c56d7cad4a100064e932dfe3838908c64dab9fd6d2eec194eec76966"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-true-1-inline.png",
+      "sha256": "87e4668e673dc838a4a463ecf55c751ca4de0eac0ed532770901eabec91754ae"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-true-1.6-inline-tree.txt",
+      "sha256": "c1d08a1bff712484a2598be40904b2a0e0159844e08b3cf9946607543d0df998"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S6-true-1.6-inline.png",
+      "sha256": "03b5fe0e6d62a8023759d0f59b1561d06bb5ffa0bfc5f62333b86e349f2d3838"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-false-1-inline-tree.txt",
+      "sha256": "edace1c5dbe77a24b5d2bd4a1ee4ad893741ff44bf0066c595baa30b3171b09b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-false-1-inline.png",
+      "sha256": "772ff75fdea907a321f3c1622cc1a2f9c78f26ac1f2467db2a773691bed2f1f8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-false-1.6-inline-tree.txt",
+      "sha256": "d3e6c295a614e63c9329500b67e0b3b70a81008ec9afbea671fa0ff652dfff14"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-false-1.6-inline.png",
+      "sha256": "9b19dbd1edbe071f7ec1778069cc56920c4ac456b5315e7b30284cf5f51e14ee"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-true-1-inline-tree.txt",
+      "sha256": "07da169d909039ae3a1464d50681cf0ff1e00b8a4ab0bfc880c64e5a461290ea"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-true-1-inline.png",
+      "sha256": "8b6a9bebe21d72181358fd1c24f3df3f0fa028ed12ae8d0adcbdf7209758c42d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-true-1.6-inline-tree.txt",
+      "sha256": "0c216f895491d1bde5b53763566eaca6a28719b7157afaa876f52f0a169fdccb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-S7-true-1.6-inline.png",
+      "sha256": "8f3a8f4963418dc5d1e1d78f825df9f43b3af64d65e148f7580e7214ebbc0fce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-false-1-inline-tree.txt",
+      "sha256": "d84fae400704c5b1707b6a4c7bc21a42f002736e19b318adc6cd132614c48659"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-false-1-inline.png",
+      "sha256": "5a66e25bc583e22763044c080ba5cc27c9b53ef06617ba21f30ae9c545d6f763"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-false-1.6-inline-tree.txt",
+      "sha256": "67495fd56a596775cd49fd430eb5813f9a76a4d9767a2af1c19dd66472e96e6a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-false-1.6-inline.png",
+      "sha256": "795d885b566ffc3037c339674ed12e0fad512c466b48489291c03c792d07eb70"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-true-1-inline-tree.txt",
+      "sha256": "a6d449f2cfda82830e0bbb0b67c3687c7d0390ca2b7c85efbbf4a18f2cfb6e48"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-true-1-inline.png",
+      "sha256": "245bac5e1d17e0a16d564432821cbdaae0d7b84456e71d5e26bbac3490119ba1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-true-1.6-inline-tree.txt",
+      "sha256": "11ace18c64fab2262d1571c86a71b9595ea208290aea8e1ee843356179971afd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T1-true-1.6-inline.png",
+      "sha256": "7b1934bba112c24cf6910bf29d205b1833f0c794d829998f6d18d20852649fff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-false-1-inline-tree.txt",
+      "sha256": "5fc61ae133b093b1dce04bd4c20431961d74f9343a9738c42ed4ee3526a67f9b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-false-1-inline.png",
+      "sha256": "b3e5e482d23e623c0ff053b34cea6a2240415d8f49d256d61957b91857d18f53"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-false-1.6-inline-tree.txt",
+      "sha256": "fb3be99d92ed5c1899cedaccbcb926f35ebbbcd66aca5604ab73a02b6a56f09f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-false-1.6-inline.png",
+      "sha256": "ff4c45b10158142b7553c6221fd741cd1c9fc5b4e0552d6cbdf02f862231f7e9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-true-1-inline-tree.txt",
+      "sha256": "90780a7f85e0050033d141d61ad4b354fe88012d8e344265b93e0d0fd4d1fbc2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-true-1-inline.png",
+      "sha256": "a2f92dc3e19c8a335be9f0c72e1653ca9cfb240e37ce3ba346ab5538e01a26fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-true-1.6-inline-tree.txt",
+      "sha256": "f71d13476bbe71bd397f17912ffaf7e044f2c35d913c62169598f6b90389eec2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T2-true-1.6-inline.png",
+      "sha256": "5c932fd785b07085ee7fa6ccd56f5fc445844d9be9d274486bf902858d2ef5f6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-false-1-inline-tree.txt",
+      "sha256": "9df201abd5069772bd17daca382431826d120426b074092f77ca89bc0885b77a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-false-1-inline.png",
+      "sha256": "3dc49ab43802723cc76120cfc2e79e24838e815069f9901da168ca5eda48324e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-false-1.6-inline-tree.txt",
+      "sha256": "1a739b26c7d3e9d451c2abe7862f21a18dde38ba6216808961aea16f13ccdf75"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-false-1.6-inline.png",
+      "sha256": "f887c6d9394626758060cffdff10d7d1202e60de2896ff27dd3b2e4bce42f14e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-true-1-inline-tree.txt",
+      "sha256": "67c66d2aa181837a531743707c0068437d8dba3c7637e7b0eb53ddc0620ead49"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-true-1-inline.png",
+      "sha256": "49cc4332d07dc0aaf8e5a02f476d65f151bef8f7ace639e5715717467b985ed8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-true-1.6-inline-tree.txt",
+      "sha256": "b45071932695fc118dbfff119f2dc7c7b29759281915b39add77c3f99445478d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T22-true-1.6-inline.png",
+      "sha256": "128450822fca14244ac3221de425391d895984350beaf552ef503dfe6e2f8aff"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-false-1-inline-tree.txt",
+      "sha256": "7fc313667e76b36bb26bc22e147918866e072b71d7062ec1309fbfc011693ab3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-false-1-inline.png",
+      "sha256": "f92387f1aefb3db7eb9f7b9c75cba5b5765760f0de81fa61e77095896f9d93ab"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-false-1.6-inline-tree.txt",
+      "sha256": "212554e61e42001dc43de11ac15577c76a3c9215fc2839734f4d0ef6a01ad0ce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-false-1.6-inline.png",
+      "sha256": "f4b894429dcae66a34b2f36f6646fe9dff8e1bd4f19f5242b9ad8d68f8a52f92"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-true-1-inline-tree.txt",
+      "sha256": "8bd2a1cef38e629df88f05e697a202e06ebc9fcdb4f3a05f935dba2a024d16c5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-true-1-inline.png",
+      "sha256": "ee2a52f5e61ae12157e8e87c3b9b1f36d640d75215bdd404d58b54ddc5010f6b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-true-1.6-inline-tree.txt",
+      "sha256": "0ef69bd0b510975e47ee78ca5e97623e0380308690ac862f686bce335e8c0617"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T6-true-1.6-inline.png",
+      "sha256": "f2c1a79323ac39e9606fc9c1e081e4f7d2a8edbbae592863d877e6cde4a2aae7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-false-1-inline-tree.txt",
+      "sha256": "28d8ab7f4ea0cd3fbc3608af7850ec05cb72daac168e226b96a0f9e8f32f7b24"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-false-1-inline.png",
+      "sha256": "ddfdb7e61e1f9ec74b4fdb7c196aea2d317dc44578264cd5e941afe8d43fc11f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-false-1.6-inline-tree.txt",
+      "sha256": "590a7ca76f712589897c3b5e20d29e396a99989a264833f1e8ea0b2f3a21370a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-false-1.6-inline.png",
+      "sha256": "a0222a78b9fa5822413c23464e26f35adfed79862f3aecb8bec5689f4cefb794"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-true-1-inline-tree.txt",
+      "sha256": "815a93469be29f2b869543b12b09839c20f00bff666a7b4282cfcb918f47af04"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-true-1-inline.png",
+      "sha256": "66648c9381d86287cbe6c4b0de88a310d5698437ef075352d539d282a9fc2b83"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-true-1.6-inline-tree.txt",
+      "sha256": "1b35a33065245f0eccc0b8a9c68ae62b569899f28d770e8042ec88a4fc6c39ef"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-T8-true-1.6-inline.png",
+      "sha256": "52091c79581cb23946d5b91acbd6dcf80d69520245f1ba5c7b56a0ba023652cb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-false-1-inline-tree.txt",
+      "sha256": "1bfe91258043ed597c657652e0a9c57bd4cb6086a5f25eb75a203ae9b04212a2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-false-1-inline.png",
+      "sha256": "3c51090907ec7f0f1f120c696e60e8db61d43b8d109a3a1958de893f6cdd1c2d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-false-1.6-inline-tree.txt",
+      "sha256": "535cd20ae0eafea575ab067097497eb02e2162f3a37d8ff066e9c36757380f1d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-false-1.6-inline.png",
+      "sha256": "307c332d60d9d11e6f3fdd7968889bf118204168e9d59530657c319a665cfc2d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-true-1-inline-tree.txt",
+      "sha256": "d7df0e8be3f2322aa0e7f0b22b2642ab3eec2053b3d461eeea2e4466ad7876ce"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-true-1-inline.png",
+      "sha256": "fa5062141aad7fb1821c0272d526401cc3b4f7d1fa8211074be967b73dd6d0e6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-true-1.6-inline-tree.txt",
+      "sha256": "35f9ced10b7b3ddde106957f25c9fb963e07743c2f13e3111db41d1929fbf240"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/ios/question-sign-recognise-X8-true-1.6-inline.png",
+      "sha256": "acec91a88439f49b20d5921db15fd3e46a4cd923207f634689e733d7177e8ad7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/large-dark-test-summary.json",
+      "sha256": "5a42b2c3cae42647af312beee36a77083bc610568e469203477d0eee679a0f08"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/large-light-test-summary.json",
+      "sha256": "748db4cff4ca62ce49254c889d52aa51ff1baf23cf5cdeb8a795b454f5d8d49e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/learner-copy-audit.json",
+      "sha256": "395a09fa2d65f5e84b62179e1b93734c03f33d0992304529bf2b9b69cafd3284"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/legacy-cleanup.json",
+      "sha256": "d7145149230cd68c1da6a013ee9cad2fdcf6af307ec4b9b77d6b68623c54dadd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-matrix-artifacts-precompact.json",
+      "sha256": "38e4dd2ef665d167a680e1b421892af67535d470437c23607d6e7c08c0715ca5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-matrix-candidate-manifest.json",
+      "sha256": "4659db5a23e7dfbc11038bdaa1be9a71ceaea5bb097b38cd1c6baaf761943b63"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/android-matrix.txt",
+      "sha256": "ac6c2a31fce3add6ed8dd9eba64e22dc8eca9d2bd35f94f10f4d453784dabb55"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/android-raster.txt",
+      "sha256": "00fa1a7925e60331925fc31e1b57fb71a56fce5917c071eeb40b939f2fd419e2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/android-x8-refresh.txt",
+      "sha256": "8d3fa120ad2a822f786ee2e9c4aa178984c0e1fd379bd362beabaeac68be2b39"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-android.txt",
+      "sha256": "af3d5755334673e97951a2ae8c8c6c203d2a5f589392993efe3963c1ff48c2c6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-ios-label-build.txt",
+      "sha256": "99a2d4d5e538689042ddcc371f93fc9861431e65fc60c2a9320f93defae12b0e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-ios.txt",
+      "sha256": "223a22844af2a2c07f69cf1eb456f2e29aeaf87a464a591b57288731314ffbf3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-native-build.txt",
+      "sha256": "e737f0b660878e060d12646dc69f2242174ac94792010ce0db4036202ef7dea4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-normal-build.txt",
+      "sha256": "43d2111a4ca9fe90e855247e46edd37aa1b2c3f5a91ab8354e1e625fe2a54780"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-python.txt",
+      "sha256": "1b3a00ee2422fd855a1d6bbc66ea5376814cc13a98c1fad69175d8a1c147e938"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-shared-build.txt",
+      "sha256": "a8c72572321eadcc00953347491d22b68f65c425d02e58afbf15008dbd0aa64b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/final-shared-web-regressions.txt",
+      "sha256": "db7b59819bba07a84949ff26e14e8a86a8c376df7d68977966520f2fba938a77"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/ios-large-dark.txt",
+      "sha256": "6ea2b5dd8bdc64437573193e94d9f8608bc4906845061a36d4a4b09fddd93764"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/ios-large-light.txt",
+      "sha256": "aad146b6f103666dbe3900454c90a224b0614ebcc16060225da57ebf7497f1e2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/ios-normal-dark.txt",
+      "sha256": "9466ba4c22624cf19a05e81a722e6753bea567812cac496ed99915dea0e9e3fd"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/native-test-logs/ios-normal-light.txt",
+      "sha256": "b6802a14ff34d26f66f6b5dabac79435ca81335262f5166302194037a1859e4a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/normal-build-artifacts.json",
+      "sha256": "99dc318afc717906b313f159356f9da27614bfe82e3219173a396db2023e4bf0"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/normal-dark-test-summary.json",
+      "sha256": "6345670495c54ec5cd151d2ef2cd120d47936e2886d4818549d7e7aabbc9a7f7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/normal-light-test-summary.json",
+      "sha256": "4c5f9ffc2450de5cd89a487b17a7a5c386dff9571e56c4c0fa23ec82af50a0e6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/release-validation.json",
+      "sha256": "86d7865e5f529a791aa84c9f5b5fe7a2cde1d74670d499f815a4218f586c88e3"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/resource-inventory.json",
+      "sha256": "ceb258e33471dbe93e7a782e19bbf04d152d9d92774c1918ae46949ee05d12c2"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/android-False-1.0.png",
+      "sha256": "b8df03ea55d8c193af736372f59772f18dcdbf8898bda72dcd6c97d57360597e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/android-False-1.6.png",
+      "sha256": "aa4140e3c745b5a1c78bc04dc0c096f760c9d78e58efe6589b4b76ad0f6b9deb"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/android-True-1.0.png",
+      "sha256": "aa2e24b8ada50a057be67f7ed250e7954de18e755b2c852b4d0697d38f7b8396"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/android-True-1.6.png",
+      "sha256": "b79b9ca0138731184e81dd28bce00bd17e8dd9bd0b187b8b7c3a61c240a7e4a9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/ios-False-1.0.png",
+      "sha256": "1e36fa579310be592c84c1149d455ee8ac43fd8442cd3273a89ff055b61de59c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/ios-False-1.6.png",
+      "sha256": "05d91f21d7d7f4fb195c028968bd5ce1cd505bf38e7ef5cb4835fe5d1bdfcf39"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/ios-True-1.0.png",
+      "sha256": "4131ceb00964b409ecb37140b281ffc3b546612237b69c91fd9f04b89f89257d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/review-sheets/ios-True-1.6.png",
+      "sha256": "f4717ab8f45d9595265ec97a884aca4b9c89f7f834cf1eb15864a742084b8b9f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/shared-question-delivery.json",
+      "sha256": "9f6be337937177114640ebbe3bd3d87370b5d21ae976d8698aa7d3af1ecd3d64"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.AcceptedQuestionParityTest.xml",
+      "sha256": "6d3455d2e2fdf751bbc75902f09196daf238a77dc0feb61527358b0be8f7bdd9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.AcceptedReleaseStateTest.xml",
+      "sha256": "3b42bb1bcd825b006203a311fdd8c5db753a813143f13b73bd77cada81b381a4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "da7e3baf96e4dd76cfad01828e994833fa352db3efadaaf9c150444d0fe41da4"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "0b1460e6f4133eacf0f367c181495ba20c035c0ee681858a21cd733ef927b073"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.CandidateDelivery9JTest.xml",
+      "sha256": "c9958fd4f7d26b4e9cd1310c7361c7e35aed3c95b7708ac5e43c9dcacd1fb6c9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.CurriculumAppFlowTest.xml",
+      "sha256": "c50cd8bd0cbd570b5c45e28dcda0795c3a433599878a7e2b0c5820719baae22f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "808416130582dc1b1eb91c9811a73476b1b1ab4767da2ade0a2ec5a9a08ab776"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "sha256": "5b3381156a19f0c2886a41ac8add30221808aabf2e9235f892963b5d934a8ad9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.FuelCorrectionsTest.xml",
+      "sha256": "b3d745392e2adc121687a9a0540ca2f8d230838ac7d7046874b2d607a4cd2f84"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.ImageViewportTest.xml",
+      "sha256": "0916f983823840defeeb790fd4042de22c8ad1bcb5654e6c6d26f418dd5530d6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.LearningReaderParityTest.xml",
+      "sha256": "ca8108dfa9952a19e7ba55b5d8664365d7863447678690634e55ec829d9bc0c1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "sha256": "41883c66ca36e66662a70913b1b8466e3c84b13cb2152981c95d67971471879f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.LearningViewsTest.xml",
+      "sha256": "e4c281857fb73a8bbda9f25ebdd3e62fe8708b1ee62503f9b053055ce2cd996f"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.LoadClarificationsTest.xml",
+      "sha256": "bbbaa324e03ecbc7072dd1e8e05f141aec37bf9116a63439f377b911220c040c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.NavigationTest.xml",
+      "sha256": "2561c456f5eccfc3875787438aae8a7fa14ce053c8f0920a09835c577782dcab"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.QuestionPackage9JTest.xml",
+      "sha256": "ff714ce0648b53cddcc18f2aacac00ba4416d6640004c6849e83ca77999c11fe"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.QuizTest.xml",
+      "sha256": "fa49477672785e17d13e42bf1df5f8f745b641bae76ed338a2d616472ea1fa6d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "sha256": "726195df974cc317a3ee91cd2c532e81ec137976adeb99589ee567aded3871b8"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.ScenarioCorrectionsTest.xml",
+      "sha256": "f52d90f71bed34d042df65ad67952620c14b7768d25e4dcd66be5a7afedb8e33"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "sha256": "5d459b9ed60c266a79ab75c858d3c9b9ac2967ac599baefc674915535d1f3f7a"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.TransientPractice9MTest.xml",
+      "sha256": "4a8bbd13b7ed68f737b27c9f4a1b97fac6ae8966f028d38fa5b9c05d5bbe9603"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-final-shared/TEST-se.korkort.TransientQuizStateTest.xml",
+      "sha256": "5a5f9bd57c3c2b3bde3a7c388fdcffdd67ad4992ef1dc1946a46e377d6b93035"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14/tests-preintegration/TEST-se.korkort.CurriculumAppFlowTest.xml",
+      "sha256": "d93bcab725cafc8e1bf0bee8e10e192e5b6fad667dcd89897e8fce40afedff27"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "sha256": "dfc2d73e998a6aae44e7d3ae00f1fe41d7c1dc0214327284bf1ef7d0eaacd438"
+    },
+    {
+      "path": "docs/curriculum/progress.md",
+      "sha256": "5daba256d04da1f49ca8b61157797dcd98f035750dc786dddf63f503f444b882"
+    },
+    {
+      "path": "iosApp/Info.plist",
+      "sha256": "be3a8546f97091ff0f0b01cc7b451f988244c2d0d3e72d43cb3386739d64e2cf"
+    },
+    {
+      "path": "iosApp/Korkort.xcodeproj/project.pbxproj",
+      "sha256": "aa855feb00b8b713b6d3fce6fa59b0619313d7f822f468fe3de02ce9f9d51c42"
+    },
+    {
+      "path": "iosApp/NativeRouteTests.swift",
+      "sha256": "1dcfcb3e74c2512521b4eeb126981dd2c08a6e6890af4e8ac9b88f660b3fa1ce"
+    },
+    {
+      "path": "tools/apply_sign_rewrites_9e.py",
+      "sha256": "02fd756b8123f938efbbf9b06e89220c6a9b155bfdcd63faea150e96d55f3fce"
+    },
+    {
+      "path": "tools/build_content.py",
+      "sha256": "48fbc58422eaf8693f4e47ea82631aa91ba6d08e1d3b00c1ea3c7a0e51f98665"
+    },
+    {
+      "path": "tools/collect_ios_delivery_9j.py",
+      "sha256": "90bb06c9fe7b339146c71ddf74f498e8578a143af9765048ec9ece1f0f110a69"
+    },
+    {
+      "path": "tools/compile_curriculum.py",
+      "sha256": "f4c635cab9e16f7f71c3be068fa192acf54543a38939df7c5cb2ae8ffd539400"
+    },
+    {
+      "path": "tools/finalize_question_package_9j.py",
+      "sha256": "480f4ecec12b203697491615cba7003916e8087371e471531091a30646404bdb"
+    },
+    {
+      "path": "tools/prepare_native_root_fixture.py",
+      "sha256": "bc2a5948ea5d12c8bccd62c554d404d65bfacbc2a26ba6d1e63ff3b4f877cf68"
+    },
+    {
+      "path": "tools/review_question_delivery_9j.py",
+      "sha256": "624cce03b836e99ac187649c1ea4344afe7693dc3f7190fc161d081fdf262734"
+    },
+    {
+      "path": "tools/test_build_navigation.py",
+      "sha256": "26d70d192ee44013369d0144d2e9db6fa7259112a6ef1766e76f868e836623ec"
+    },
+    {
+      "path": "tools/test_delivery_scope.py",
+      "sha256": "d37bf3b92f324c7055a1277c5fc33b6dbb33851b66dcd3add959dc385d165a94"
+    },
+    {
+      "path": "tools/test_finalize_question_package_9j.py",
+      "sha256": "7341565c1037463b2271dd168b677245f52c53c29d7d852984ecb44679e46786"
+    },
+    {
+      "path": "tools/verify_accepted_transient_state_9m.py",
+      "sha256": "2d4eaa312ce7fd43f4fe370cac0ba63feee6c12f4c94f40d28c58791c86666d0"
+    },
+    {
+      "path": "tools/verify_resource_delivery_9j.py",
+      "sha256": "ce584f1d0019328f2fc8d5daf9342f1208f49b94e5b1425057123d94db39d50d"
+    }
+  ],
+  "removed_files": [
+    "composeApp/src/commonMain/kotlin/se/korkort/Chapters.kt"
+  ],
+  "retention": {
+    "date": "2026-10-19",
+    "removed_files": 1011,
+    "removed_bytes": 79034965,
+    "scope": [
+      "Repetitive native per-option zoom/return screenshots and trees; retain every inline question context and final representative modal/raster proof",
+      "Superseded preintegration reports and copied test sources",
+      "Failed-run diagnostics and nonacceptance pixel-comparison output"
+    ],
+    "preserved": [
+      "Release and question acceptance inputs, original artwork and historical tracked audit records",
+      "All four native context matrices and passing logs/summaries",
+      "Inline full-question evidence for faint assets, legibility contact sheets and final production regressions",
+      "Final shared test XML and the hash-bound preintegration fixture XML"
+    ],
+    "runtime_or_release_inputs_removed": false,
+    "validation_after_cleanup": [
+      "150 Python tests pass",
+      "Exact delivery and accepted release regeneration checks pass",
+      "All 18 applicable transient contracts still pass"
+    ]
+  }
+}

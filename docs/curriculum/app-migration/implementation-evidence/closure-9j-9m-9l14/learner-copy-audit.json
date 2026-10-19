@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-19",
+  "status": "passed",
+  "scope": "Fourteen 7E learner-copy rules applied to production routes; source/evidence page locators and legitimate publishers remain audit/attribution data. No assertion that provenance was deleted.",
+  "rules": [
+    {
+      "rule": "home_attribution",
+      "required_copy_or_behavior": "KörkortGo original curriculum and explained practice. This is a learning aid, not an official examination.",
+      "implementation": "CurriculumApp.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "edition_stat",
+      "required_copy_or_behavior": "Use the accepted curriculum release’s human-readable label; module/lesson/question counts come from its manifest.",
+      "implementation": "CurriculumApp.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "chapter_count",
+      "required_copy_or_behavior": "Explore 10 modules and 40 lessons; render actual accepted manifest counts. Five quiz areas remain filters.",
+      "implementation": "CurriculumApp.kt / LearningLibrary.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "chapter_page_badge",
+      "required_copy_or_behavior": "Canonical module/lesson title and optional objective; remove old book page ranges.",
+      "implementation": "LearningLibrary.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "reader_attribution",
+      "required_copy_or_behavior": "KörkortGo · canonical module/lesson title. Source/evidence folios remain metadata, not routing labels.",
+      "implementation": "LessonReader.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "question_attribution",
+      "required_copy_or_behavior": "Related learning: exact canonical lesson title, plus separately classified supporting sources.",
+      "implementation": "CurriculumApp.kt / LearningAnswerReview.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "source_footer",
+      "required_copy_or_behavior": "Use the complete approved learning-aid disclaimer, official artwork credits, editorial-English notice and per-source dates/classifications; do not claim a universal new check date.",
+      "implementation": "LearningLibrary.kt / imported introduction and artwork-credits documents",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "question_source_label",
+      "required_copy_or_behavior": "Use each actual publisher and classification from the 7C source evidence; distinguish legislation, official advice/research, manufacturer guidance and commercial/editorial teaching.",
+      "implementation": "LearningSources.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "related_learning_button",
+      "required_copy_or_behavior": "Read the related lesson; route by question ID → canonical primary_lesson_id.",
+      "implementation": "CurriculumApp.kt / LearningAnswerReview.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "previous_next",
+      "required_copy_or_behavior": "Previous / Next in canonical reading_order; explicit module review boundary and reference return context.",
+      "implementation": "LessonReader.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "old_sign_chapter_condition",
+      "required_copy_or_behavior": "Use typed sign-catalogue action / appendix-B ID; do not branch on a retired title.",
+      "implementation": "LearningRoute.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "sign_catalogue_label",
+      "required_copy_or_behavior": "Road signs and signals; verified official artwork with editorial English teaching. Derive current count from accepted entries.",
+      "implementation": "LearningRoute.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "chapter_empty_state",
+      "required_copy_or_behavior": "No matching learning material; offer category/query reset without opening an unrelated first lesson.",
+      "implementation": "LearningLibrary.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    },
+    {
+      "rule": "home_summary",
+      "required_copy_or_behavior": "Original modules, lessons and references; do not imply the old 39 summaries are the finished curriculum.",
+      "implementation": "CurriculumApp.kt",
+      "status": "applied",
+      "verification": "Canonical view/state checks and integrated production flow; source labels/credits retained as legitimate attribution."
+    }
+  ],
+  "manifest_derived_counts": {
+    "modules": 10,
+    "lessons": 40,
+    "questions": 1000,
+    "sign_entries": 400
+  },
+  "legacy_summary_and_unused_table_removal": "legacy-cleanup.json"
+}
