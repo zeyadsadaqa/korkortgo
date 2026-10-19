@@ -25,8 +25,8 @@ class NativeReaderRouteTest {
     private fun label(n:Node)=listOfNotNull(n.text?.toString(),n.contentDescription?.toString()).joinToString(" | ")
     private fun find(text:String)=nodes().firstOrNull{it.isVisibleToUser && !it.isEditable && (it.text?.toString()==text || it.contentDescription?.toString()==text)}
     private fun waitFor(message:String,condition:()->Boolean){val end=SystemClock.uptimeMillis()+10000;while(SystemClock.uptimeMillis()<end){if(condition())return;SystemClock.sleep(75)};dump("failure");error(message+"\n"+nodes().joinToString("\n",transform=::label))}
-    private fun launch(mode:String,code:String="S1",scale:Float=1f){
-        instrumentation.startActivitySync(Intent().setClassName(instrumentation.targetContext.packageName,"se.korkort.DeliveryProofActivity").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK).putExtra("mode",mode).putExtra("code",code).putExtra("fontScale",scale))
+    private fun launch(mode:String,code:String="S1",scale:Float=1f,dark:Boolean=false){
+        instrumentation.startActivitySync(Intent().setClassName(instrumentation.targetContext.packageName,"se.korkort.DeliveryProofActivity").addFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK).putExtra("mode",mode).putExtra("code",code).putExtra("fontScale",scale).putExtra("dark",dark))
         instrumentation.waitForIdleSync();waitFor("App did not expose native nodes"){nodes().any{it.packageName==instrumentation.targetContext.packageName}}
     }
     private fun click(text:String){waitFor("Missing $text"){find(text)!=null};var n=find(text)!!;while(!n.isClickable && n.parent!=null)n=n.parent;assertTrue("Cannot activate $text",n.performAction(Node.ACTION_CLICK));instrumentation.waitForIdleSync()}
@@ -86,4 +86,21 @@ class NativeReaderRouteTest {
         scrollTo("Next: $nextTitle");click("Next: $nextTitle");waitFor("Next used wrong reading order"){nodes().any{it.isHeading && it.text?.toString()==nextTitle}};dump("next-reading")
     }
 
+    @Test fun allTwelveFaintAssetsHaveNativeDeliveryAndZoomProof() {
+        val codes=listOf("S5","S6","S7","S11","S12","S13","T1","T2","T6","T8","T22","X8")
+        for(dark in listOf(false,true)) for(scale in listOf(1f,1.6f)) for(code in codes) {
+            launch("delivery",code,scale,dark)
+            val description=requireNotNull(deliveryCandidate(code,"meaning").image).description
+            waitFor("Missing exact $code illustration"){find(description)!=null}
+            waitFor("Exact artwork still loading: $code"){nodes().none{label(it).contains("Loading image") || label(it).contains("Image unavailable")}}
+            val name="faint-$code-${if(dark) "dark" else "light"}-$scale"
+            dump("$name-inline")
+            scrollTo("Enlarge image");dump("$name-option")
+            click("Enlarge image");waitFor("Missing $code viewer"){find("Close")!=null}
+            click("Zoom in");waitFor("Zoom did not enlarge $code"){nodes().any{label(it).contains("150%")}}
+            dump("$name-zoom")
+            click("Reset");waitFor("Reset did not fit $code"){nodes().any{label(it).contains("100%")}};click("Close")
+            waitFor("Lost enlarge trigger for $code"){find("Enlarge image")!=null}
+        }
+    }
 }

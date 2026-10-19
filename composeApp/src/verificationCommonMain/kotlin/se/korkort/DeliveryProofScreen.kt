@@ -64,9 +64,9 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
                         val focus=remember {FocusRequester()}
                         Column(Modifier.weight(1f).verticalScroll(rememberScrollState()).padding(16.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
                             Text("Question image")
-                            ExactAssetImage(asset,picture.description,Modifier.fillMaxWidth().height(180.dp),onLoaded={first=it})
+                            ExactAssetImage(asset,picture.description,Modifier.readableArtworkFrame(),onLoaded={first=it})
                             Text("Option image")
-                            ExactAssetImage(asset,picture.description,Modifier.fillMaxWidth().height(105.dp),onLoaded={second=it})
+                            ExactAssetImage(asset,picture.description,Modifier.readableArtworkFrame(),onLoaded={second=it})
                             OutlinedButton(onClick={opened=true;viewer=true},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus)) {Text("Enlarge image")}
                         }
                         if(viewer)AccessibleImageViewer(ImageViewerContent.assessment(picture,navigationAssets)) {viewer=false}

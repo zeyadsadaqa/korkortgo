@@ -37,7 +37,7 @@ class DeliveryProofActivity: ComponentActivity() {
             val name="$code-${if(dark) "dark" else "light"}-$scale.png"
             if(status==PixelCopy.SUCCESS)File(folder,name).outputStream().use {bitmap.compress(Bitmap.CompressFormat.PNG,100,it)}
             bitmap.recycle()
-            results.put(JSONObject().put("code",code).put("mode","180dp stem and 105dp option").put("dark",dark).put("font_scale",scale).put("exact_assets_loaded",loaded).put("pixel_copy_result",status).put("screenshot",name))
+            results.put(JSONObject().put("code",code).put("mode","approved equal full-width artwork frames, minimum 220dp").put("dark",dark).put("font_scale",scale).put("exact_assets_loaded",loaded).put("pixel_copy_result",status).put("screenshot",name))
             File(folder,"progress.json").writeText(results.toString(2))
         }
         File(folder,"complete.json").writeText(JSONObject().put("status","captures complete; no legibility or scoring acceptance").put("captures",results).toString(2))
