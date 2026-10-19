@@ -1,0 +1,50 @@
+Optional(Attributes: Application, 0x117adc140, pid: 82707, label: 'Körkort'
+Element subtree:
+ →Application, 0x117adc140, pid: 82707, label: 'Körkort'
+    Window (Main), 0x117adc000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117addcc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117add400, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117adcb40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117adca00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117adc8c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117adc780, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117adc640, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117adc500, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117adc3c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117adc280, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117add680, {{0.0, 0.0}, {402.0, 874.0}}
+                      Button, 0x117ade080, {{24.0, 78.7}, {236.7, 75.3}}, label: 'KörkortGo'
+                        StaticText, 0x117ade1c0, {{36.0, 86.7}, {212.7, 59.3}}, label: 'KörkortGo'
+                      StaticText, 0x117ade300, {{260.7, 78.0}, {117.3, 76.7}}, label: 'ENGLISH · CATEGORY B'
+                      Button, 0x117ade440, {{24.0, 154.7}, {113.3, 48.0}}, label: 'Overview'
+                        StaticText, 0x117ade580, {{36.0, 162.7}, {89.3, 32.0}}, label: 'Overview'
+                      Button, 0x117ade6c0, {{145.3, 154.7}, {179.3, 48.0}}, label: 'Learning library'
+                        StaticText, 0x117ade800, {{157.3, 162.7}, {155.3, 32.0}}, label: 'Learning library'
+                      Button, 0x117ade940, {{24.0, 202.7}, {100.7, 48.0}}, label: 'Practice'
+                        StaticText, 0x117adea80, {{36.0, 210.7}, {76.7, 32.0}}, label: 'Practice'
+                      Button, 0x117adebc0, {{0.0, 267.7}, {261.7, 48.0}}, label: 'Return to answer review'
+                        StaticText, 0x117aded00, {{12.0, 275.7}, {237.7, 32.0}}, label: 'Return to answer review'
+                      Other, 0x117adee40, {{0.0, 315.7}, {402.0, 524.3}}
+                      Other, 0x117adef80, {{0.0, 315.7}, {402.0, 524.3}}
+                        Other, 0x117adf0c0, {{0.0, 315.7}, {402.0, 524.3}}
+                        Button, 0x117adf200, {{24.0, 339.7}, {179.3, 48.0}}, label: 'Learning library'
+                          StaticText, 0x117adf340, {{36.0, 347.7}, {155.3, 32.0}}, label: 'Learning library'
+                        StaticText, 0x117adf480, {{24.0, 399.7}, {354.0, 76.7}}, label: '8. Take responsibility for the vehicle and load'
+                        Other, 0x117adf5c0, {{24.0, 488.3}, {354.0, 192.0}}, label: 'Understand what you may drive'
+                        StaticText, 0x117adf700, {{24.0, 696.3}, {354.0, 143.7}}, label: 'Your goal: Use entitlement and vehicle information to assess a car or trailer combination.'
+                        Other, 0x117adf840, {{24.0, 696.3}, {354.0, 143.7}}
+                        Button, 0x117adf980, {{156.7, 1440.7}, {124.0, 38.3}}
+                        Button, 0x117adfac0, {{24.0, 1440.7}, {320.3, 76.7}}
+                        Button, 0x117adfc00, {{24.0, 2108.3}, {327.3, 76.7}}
+                        Button, 0x117adfd40, {{24.0, 2622.7}, {339.0, 76.7}}
+    Window, 0x117adfe80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10ad33200, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10ad312c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117adc140, pid: 82707, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x10ad32080, pid: 82707, label: 'Körkort'
+  }
+)

@@ -12,6 +12,7 @@ import androidx.compose.ui.unit.Density
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import kotlin.random.Random
 
 /** Build-time-only verification host. No accepted session, score, history or production route. */
@@ -19,8 +20,15 @@ import kotlin.random.Random
 fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meaning", dark: Boolean = false, fontScale: Float = 1f, onReady: (Boolean) -> Unit = {}) {
     var code by remember {mutableStateOf(initialCode)}
     var mode by remember {mutableStateOf(initialMode)}
+    var loadedAssets by remember(code,mode) {mutableStateOf(setOf<AssetId>())}
     var selected by remember(code,mode) {mutableStateOf(false)}
     val uri=LocalUriHandler.current
+    if(initialMode=="production") {
+        CompositionLocalProvider(LocalDensity provides Density(LocalDensity.current.density,fontScale)) {
+            CurriculumApp(acceptedPracticeBank9J,acceptedCurriculumSummary9J)
+        }
+        return
+    }
     if(initialMode.startsWith("learning")) {
         val initial=remember(initialCode,initialMode) {when(initialMode) {
             "learning-question" -> canonicalResolver.lookup(questionId=QuestionId(initialCode))
@@ -40,13 +48,20 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
         Surface(Modifier.fillMaxSize()) {
             Column(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(4.dp)) {
-                    Text("Unscored verification fixture",Modifier.padding(8.dp))
+                    if(!mode.startsWith("candidate"))Text("Unscored verification fixture",Modifier.padding(8.dp))
+                    else Text("Unscored verification fixture",Modifier.padding(4.dp),fontSize=9.sp,maxLines=1)
+                    if(mode.startsWith("candidate")) {
+                        val question=candidateQuestions9J.single {it.key.questionId.value==code}
+                        val expected=(listOfNotNull(question.image)+question.options.mapNotNull{it.image}).map{it.assetId}.toSet()
+                        Text("Fixture: $code",fontSize=9.sp,maxLines=1)
+                        Text(if(loadedAssets.containsAll(expected)) "Exact question images ready" else "Question images loading",fontSize=9.sp,maxLines=1)
+                    }
                     TextButton(onClick={
-                        val ids=if(mode=="candidate") candidateQuestions9J.filter {it.acceptance.eligibility==ScoringEligibility.HELD}.map {it.key.questionId.value} else deliveryFixtureCodes
+                        val ids=if(mode.startsWith("candidate")) candidateQuestions9J.filter {it.acceptance.eligibility==ScoringEligibility.HELD && (mode!="candidate-replacements" || it.key.revision.value=="replacement-candidate-r2")}.map {it.key.questionId.value} else deliveryFixtureCodes
                         code=ids[(ids.indexOf(code)+1)%ids.size]
                     }) {Text("Next fixture")}
-                    listOf("reference","meaning","recognise").forEach {value->TextButton(onClick={
-                        if(mode=="candidate") {
+                    if(!mode.startsWith("candidate"))listOf("reference","meaning","recognise").forEach {value->TextButton(onClick={
+                        if(mode.startsWith("candidate")) {
                             val target=candidateQuestions9J.single {it.key.questionId.value==code}.feedback.targetSignCode
                             code=deliveryFixtureCodes.firstOrNull {it==target} ?: deliveryFixtureCodes.first()
                         }
@@ -77,11 +92,11 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
                         SignReferenceDetail(sign,navigationAssets.single {it.id==sign.assetId},navigationSources.references,{}, {ref->runCatching {uri.openUri(ref.url)}.isSuccess})
                     } else {
                         Column(Modifier.weight(1f).padding(16.dp)) {
-                            val presentation = if (mode == "candidate") {
+                            val presentation = if (mode.startsWith("candidate")) {
                                 candidateQuestions9J.single { it.key.questionId.value == code }
                                     .snapshot(candidateIdentity9J, Random(9)).presentation(null, false, true)
                             } else deliveryCandidate(code,mode)
-                            Box(Modifier.weight(1f)) {AssessmentWithImageViewer(presentation,{selected=true},navigationAssets)}
+                            Box(Modifier.weight(1f)) {AssessmentWithImageViewer(presentation,{selected=true},navigationAssets,onImageLoaded={id,ok->if(ok)loadedAssets=loadedAssets+id})}
                             if(selected)Text("Selection recorded for this unscored verification fixture.")
                         }
                     }

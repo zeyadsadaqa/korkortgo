@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "scope": "Verification artifacts observed before restoring normal build outputs. Their paths are ephemeral and may later contain normal artifacts. The subsequent iOS metadata-only build changes the display name; the shared framework and question identity are unchanged.",
+  "accepted_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "artifacts": [
+    {
+      "path": "/Users/zeyad/Desktop/korkort/composeApp/build/outputs/apk/debug/composeApp-debug.apk",
+      "sha256": "a3d1a64faa33eab4f7171361c5b690299e539c96c9091a3f7d07d53bebe02071"
+    },
+    {
+      "path": "/Users/zeyad/Desktop/korkort/composeApp/build/outputs/apk/androidTest/debug/composeApp-debug-androidTest.apk",
+      "sha256": "24f3ed70802fbe5a9a091bf2f340d653c5b760d688a5cf2df2141de6de2fe422"
+    },
+    {
+      "path": "/Users/zeyad/Desktop/korkort/composeApp/build/bin/iosSimulatorArm64/debugFramework/KorkortKit.framework/KorkortKit",
+      "sha256": "56f8984361307a7887bb54f93e7a4db40ed963067fc3a279c44e3986f7c5d8ae"
+    },
+    {
+      "path": "/tmp/korkort-closure-ios/Build/Products/Debug-iphonesimulator/Korkort.app/Korkort",
+      "sha256": "cfa316a9e9fcd3d5d4798461063c8145a0559b960d2cc9e6536ca91b02f22538"
+    },
+    {
+      "path": "/tmp/korkort-closure-ios/Build/Products/Debug-iphonesimulator/NativeRouteTests-Runner.app/PlugIns/NativeRouteTests.xctest/NativeRouteTests",
+      "sha256": "54b8a13098dd402d3bcb947772936303462778887d890b87ad556951f04a967b"
+    }
+  ]
+}

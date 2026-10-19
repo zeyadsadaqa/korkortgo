@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-19",
+  "status": "passed",
+  "build": "Normal browser entry; no referenceProof flag",
+  "accepted_manifest": {
+    "path": "content/accepted-content-manifest.json",
+    "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "context": {
+    "surface": "light",
+    "font_scale": 1.0,
+    "viewport": [
+      1280,
+      720
+    ]
+  },
+  "checks": [
+    "Home shows 1000 questions / 10 modules / 40 lessons",
+    "Single-question setup and deferred feedback",
+    "Guard excludes background accessibility; Tab/Escape restores quiz tree",
+    "Exact neutral image viewer: 100%, 150%, reset, Escape return; background excluded",
+    "Deferred confirmation hides correct answer until completion",
+    "Wrong answer scores 0/1",
+    "Incorrect-filter expanded review retains all four explanations",
+    "Exact primary lesson and contextual review return preserve expansion",
+    "Source detail retains publisher/classification and original date fields; contextual review return",
+    "Same-process setup count remains 1"
+  ],
+  "capture_prefix": "browser-production-",
+  "limits": "One real accepted-bank browser smoke flow, not replay of all 1000 questions. Broader independent 9O accessibility/release matrix remains planned."
+}

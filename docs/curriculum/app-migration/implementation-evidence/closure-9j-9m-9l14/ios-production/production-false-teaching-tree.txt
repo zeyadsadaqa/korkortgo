@@ -1,0 +1,56 @@
+Optional(Attributes: Application, 0x117b192c0, pid: 82505, label: 'Körkort'
+Element subtree:
+ →Application, 0x117b192c0, pid: 82505, label: 'Körkort'
+    Window (Main), 0x117b19400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117b19180, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117b1a6c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117b19e00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117b19cc0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117b19b80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117b19a40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117b19900, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117b197c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117b19680, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117b19540, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117b1a940, {{0.0, 0.0}, {402.0, 874.0}}
+                      Button, 0x117b18dc0, {{24.0, 78.7}, {236.7, 75.3}}, label: 'KörkortGo'
+                        StaticText, 0x117b18c80, {{36.0, 86.7}, {212.7, 59.3}}, label: 'KörkortGo'
+                      StaticText, 0x117b18b40, {{260.7, 78.0}, {117.3, 76.7}}, label: 'ENGLISH · CATEGORY B'
+                      Button, 0x117b18a00, {{24.0, 154.7}, {113.3, 48.0}}, label: 'Overview'
+                        StaticText, 0x117b188c0, {{36.0, 162.7}, {89.3, 32.0}}, label: 'Overview'
+                      Button, 0x117b18780, {{145.3, 154.7}, {179.3, 48.0}}, label: 'Learning library'
+                        StaticText, 0x117b18640, {{157.3, 162.7}, {155.3, 32.0}}, label: 'Learning library'
+                      Button, 0x117b18500, {{24.0, 202.7}, {100.7, 48.0}}, label: 'Practice'
+                        StaticText, 0x117b183c0, {{36.0, 210.7}, {76.7, 32.0}}, label: 'Practice'
+                      Button, 0x117b18280, {{0.0, 267.7}, {261.7, 48.0}}, label: 'Return to answer review'
+                        StaticText, 0x117b18140, {{12.0, 275.7}, {237.7, 32.0}}, label: 'Return to answer review'
+                      Other, 0x117b18000, {{0.0, 315.7}, {402.0, 524.3}}
+                      Other, 0x117b1af80, {{0.0, 315.7}, {402.0, 524.3}}
+                        Other, 0x117b1b0c0, {{0.0, 315.7}, {402.0, 524.3}}
+                        Button, 0x117b1b200, {{24.0, 339.7}, {179.3, 48.0}}, label: 'Learning library'
+                          StaticText, 0x117b1b340, {{36.0, 347.7}, {155.3, 32.0}}, label: 'Learning library'
+                        StaticText, 0x117b1b480, {{24.0, 399.7}, {342.7, 38.3}}, label: '3. Read the road before acting'
+                        Other, 0x117b1b5c0, {{24.0, 450.0}, {354.0, 192.0}}, label: 'Find your way without rushing'
+                        StaticText, 0x117b1b700, {{24.0, 658.0}, {354.0, 115.0}}, label: 'Your goal: Use direction, facility and service signs to prepare route choices early.'
+                        Other, 0x117b1b840, {{24.0, 658.0}, {354.0, 115.0}}
+                        StaticText, 0x117b1b980, {{24.0, 789.0}, {354.0, 51.0}}, label: 'Direction information appears before and at decision points. An advance direction sign helps you understand a junction or exit before reaching it; lane direction information helps you select a suitable lane. Direction signs for walking and cycling serve those modes and should not be mistaken for a car route. Facility, service and tourism signs help locate destinations; they do not cancel restrictions on access. Road Signs Regulation, chapter 2, F/G/H/I families'
+                        Other, 0x117b1bac0, {{24.0, 789.0}, {354.0, 51.0}}
+                        Button, 0x117b1bc00, {{24.0, 1325.7}, {345.0, 115.0}}
+                        StaticText, 0x117b1bd40, {{24.0, 1456.7}, {354.0, 191.7}}, label: 'Advance directions and lane choice Sample destinations are independent examples. They do not describe one continuous route.'
+                        Image, 0x117b1be80, {{24.0, 1664.3}, {354.0, 236.0}}, label: 'Advance direction diagram. Advance diagram: route 50 towards Falun ahead; Lindesberg to the right.'
+                        Button, 0x107233480, {{24.0, 1900.3}, {354.0, 80.0}}, label: 'Enlarge Advance direction diagram image'
+                        StaticText, 0x107233980, {{24.0, 1980.3}, {354.0, 230.0}}, label: 'Use this advance junction or roundabout diagram to plan your route before the decision point. Advance diagram: route 50 towards Falun ahead; Lindesberg to the right.'
+                        Image, 0x117ad5400, {{24.0, 2226.3}, {354.0, 236.0}}, label: 'Advance direction diagram — alternative. Roundabout advance diagram: Örebro ahead, Kumla left and Katrineholm right.'
+                        Button, 0x117ad7340, {{24.0, 2462.3}, {354.0, 80.0}}, label: 'Enlarge Advance direction diagram — alternative image'
+                        StaticText, 0x117ad7480, {{24.0, 2542.3}, {354.0, 268.3}}, label: 'This is an alternative advance-direction layout. Read the destinations and the junction diagram before choosing your route. Roundabout advance diagram: Örebro ahead, Kumla left and Katrineholm right.'
+    Window, 0x117ad7e80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117ad7d40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117ad7700, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117b192c0, pid: 82505, label: 'Körkort'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x117ad75c0, pid: 82505, label: 'Körkort'
+  }
+)
