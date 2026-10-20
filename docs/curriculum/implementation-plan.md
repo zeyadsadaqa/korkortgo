@@ -2055,9 +2055,795 @@ All 9A–9O outputs must satisfy the original backlog acceptance criteria as wel
 
 ## 10. Verify the finished app
 
-Check navigation, question-to-lesson links, learning coverage, sign accuracy, and consistency with the approved PDF. Confirm that learner-facing content contains no third-party book names, original chapter labels, or source-book page numbers.
+**Planning status — 20 October 2026: Breakdown prepared; verification not started.** Step 9 is complete within its recorded scope. This plan turns the existing T01–T10 specification into independently requestable tasks; it does not certify the app, run the checks or authorize publication.
 
-**Deliverable:** Verification report and any necessary fixes.
+Execute exact task IDs such as **10A1** or **10B2**. **10A–10M are groups, not single executable tasks.** Complete the requested task, save its evidence and update [progress.md](progress.md); starting another task requires a separate request unless the user explicitly requests a sequence. All outputs below are planned deliverables, not existing results.
+
+**Binding inputs:** [Step 9 handoff](app-migration/implementation-evidence/implementation-review.md), [machine evidence index](app-migration/implementation-evidence/evidence-index.json), [original T01–T10 specification](app-migration/implementation-backlog.md#step-10-verification-specification), [question assignments](app-migration/implementation-backlog.json), [question decisions](app-migration/question-actions.json), [curriculum registry](app-migration/curriculum-map.json), [link/state contracts](app-migration/link-and-progress-map.json), [approved app design](app-design-review.md), [design specification](app-design-spec.md), [approved faint-artwork revision](app-design/faint-assets-v1/review.md), [content build guide](../development/content.md) and [delivery policy](../../content/delivery-targets.json). The frozen planning JSON and historical acceptance receipts remain intact; these tasks refine execution without replacing their requirements.
+
+**Entry baseline:** The 9O8 handoff identifies 1,000 accepted questions / 500 concepts, zero active holds, 336 retained / 626 rewritten / 38 replaced, 10 modules / 40 lessons / 10 reviews, four appendices, 24 reference groups, 1,123 destinations, 400 official entries and 484 artwork bindings over 419 files. These are expected baseline values to verify in 10A1, not new verification results. Preserve the approved PDF identity and page-193 correction. Historical 384-accepted / 616-held outputs remain audit records, not the production bank.
+
+### Verification rules and evidence contract
+
+- Save new evidence under `docs/curriculum/app-migration/verification-evidence/<task-id>/`. Every task produces `review.md` and `results.json` plus its named outputs. Record exact inputs and hashes, app revision/working-tree diff, accepted manifest file hash and package digest, commands and exit codes, expected/observed results, environment/device/build identity, case IDs, attachments, failures and scope limits. Use relative attachment paths and hash the retained evidence. Never overwrite step 7–9 receipts to make a new run pass.
+- The machine result for each case is `pass`, `fail`, `blocked`, `not_run`, `excluded_by_policy` or `conditional_future_scope`, with a reason and evidence locator. A task is complete only when every required case passes and all other dispositions are justified by the bound scope. A failed review can be saved without calling the task complete. Unavailable required tooling/runtime remains blocked; it is not silently excluded.
+- Verify independently against approved source blocks, exact question decisions, arithmetic and route/state contracts. Existing tests and prior captures guide reproduction; copying a step 9 pass is not a step 10 result. Run fresh checks, identify any retained supporting evidence and distinguish exhaustive data checks from sampled rendered journeys. Fixtures and proof builds must be labelled; confirm representative flows in the normal production root using the real accepted bank.
+- Keep the existing scope: Android emulator; configured JVM desktop harness; iOS simulator; normal iOS device framework/resource build; available browser with static hosting. Physical iPhone execution is excluded by the existing simulator policy and remains unperformed. Desktop has no shipped launcher/native accessibility bridge; web has no service-worker cold-offline guarantee. Do not infer screen-reader listening from semantic audits. Do not expand or reduce these boundaries silently; record required versus excluded checks in 10A2.
+- Keep all approved teaching, question IDs, exact official artwork, legitimate publishers/credits, both feedback modes, quotas and transient behaviour. Additional scored questions, persistence, completion/bookmark/history stores, hot replacement, public deep links, new platforms and print production remain separate scope. Three assessment briefs and four future-store contracts stay explicit.
+- Verification captures compare existing approved designs. Any new or changed visual design discovered during fixes requires the imagegen skill, a preview and explicit user approval before implementation; requested revisions require approval again. No preview is needed to write this verification plan.
+- Log defects as they are found and use 10L to resolve them. Unaffected tasks may proceed; tasks relying on a failed prerequisite wait. A content/runtime/resource change creates a new candidate fingerprint and invalidates affected evidence. Keep the old run, record impact and rerun the required dependent checks; do not treat unchanged content hashes as proof that changed runtime code was tested.
+
+### Gate ownership and execution order
+
+| Original gate | Executable group | Required coverage |
+|---|---|---|
+| T01 | 10B | Approved PDF/import parity, destinations, exact assets and deterministic generation |
+| T02 | 10C | Scoped sources, exact URLs, dates, classifications and external-link behaviour |
+| T03 | 10D, with 10E batch reviews and 10K runtime evidence | Every revised sign/description, 134 overlapping distractor changes, 38 formerly held replacements, legibility/accessibility |
+| T04 | 10E | All 1,000 dispositions, every rewrite/replacement and independent calculations |
+| T05 | 10F | Lengths 1–70, quotas/capacity, shuffle identity, feedback/scoring and historical snapshots |
+| T06 | 10G | Complete legacy aliases, contextual resolution and unknown/unavailable cases |
+| T07 | 10H | All states/entry points, reading edges, returns, guards and transient contracts |
+| T08 | 10I | Full teaching/library coverage, filters/tags and three assessment gaps |
+| T09 | 10J | Approved design revisions and all fourteen copy rules in visible/accessible text |
+| T10 | 10K | Common checks, configured platform builds, installed resources and runtime evidence |
+| All gates | 10A, 10L, 10M | Baseline/scope, defect repair and retest, final report and closure |
+
+Start with **10A1 → 10A2 → 10A3**. Then follow each task's named dependencies, not alphabetical order: module and question batches can be requested independently once their common inputs pass. Data/content reviews inform the platform case matrix; 10K captures also supply final runtime proof for 10C/10D/10H/10J. Their preparation tasks do not require those later captures to begin, and their final gates remain open until the captures pass. Run 10L as needed after any finding; finish with **10K7 → 10M1 → 10M2** after all required checks and retests pass.
+
+### 10A. Establish the verification baseline
+
+Freeze the candidate and scope before creating any new acceptance claim.
+
+#### 10A1. Reconcile the current candidate with the implementation handoff
+
+Compare the current accepted manifest, PDF, content, generated code, assets, runtime/test code, design approvals and policy to 9O8. Record commit and uncommitted changes, including this planning-only documentation update. Classify drift rather than rewriting historical hashes.
+
+**Input:** 9O8 handoff/index and current repository.
+
+**Output:** candidate-baseline.json, input-drift.md.
+
+**Done when:** Every relevant input has a current fingerprint; expected documentation drift is explained and unexplained acceptance-affecting drift is resolved or blocks dependent checks.
+
+#### 10A2. Record the required platform and accessibility scope
+
+Build a case matrix separating build, packaged bytes, runtime, offline delivery, external links, visual legibility, keyboard, semantic/focus audits and actual assistive-technology use. Carry forward the existing exclusions and four future-store cases. Map unavailable required checks to blockers.
+
+**Input:** 10A1 and the existing delivery policy/platform reports.
+
+**Output:** scope-matrix.json, environment-readiness.md.
+
+**Done when:** Every target/check has a requirement, method and availability status; no physical-device or listening pass is inferred and no existing requirement is silently waived.
+
+#### 10A3. Prepare the case index and defect register
+
+Map every T01–T10 clause to task IDs and case IDs. Freeze exact question batch memberships from 9E/9F records, all route/state families and a reproducible runtime matrix: real-bank flows, high-risk artwork, themes, smallest approved size, large text and input modes. Define defect severity, reproduction, owner, impacted gates and closure fields.
+
+**Input:** 10A1–10A2, original verification specification and exact 7D/7E/9E/9F records.
+
+**Output:** verification-case-index.json, defects.json, reproduction.md.
+
+**Done when:** Coverage is exhaustive at the required data/ID level, rendered sampling and high-risk coverage are explicit, and every case has an owner and oracle independent of observed output.
+
+### 10B. Verify the complete imported curriculum — T01
+
+Use block-by-block comparisons to approved production origins and the approved PDF, not a count-only check. Every module task covers its introduction, four full lessons, module review, examples, tables, checks/answers, approved illustration crops, sign bindings and scoped references. Inspect the corresponding app reader output for content omissions; final cross-platform presentation is 10K. Modules may be verified independently after 10A3.
+
+#### 10B1. Verify opening material and canonical structure
+
+Compare opening text and the exact learning-aid disclaimer. Check module titles, 60 reading nodes, front-matter placement and all 1,123 destination identities, uniqueness and resolution against the registry.
+
+**Input:** 10A3, approved opening sources and curriculum registry.
+
+**Output:** opening-parity.json, destination-parity.json.
+
+**Done when:** No opening text or required destination is missing, duplicated, renamed incorrectly or routed by an old source-book folio.
+
+#### 10B2. Verify module M01
+
+Apply the shared module verification to M01-L01–M01-L04 and M01-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M01 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M01-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B3. Verify module M02
+
+Apply the shared module verification to M02-L01–M02-L04 and M02-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M02 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M02-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B4. Verify module M03
+
+Apply the shared module verification to M03-L01–M03-L04 and M03-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M03 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M03-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B5. Verify module M04
+
+Apply the shared module verification to M04-L01–M04-L04 and M04-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M04 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M04-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B6. Verify module M05
+
+Apply the shared module verification to M05-L01–M05-L04 and M05-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M05 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M05-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B7. Verify module M06
+
+Apply the shared module verification to M06-L01–M06-L04 and M06-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M06 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M06-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B8. Verify module M07
+
+Apply the shared module verification to M07-L01–M07-L04 and M07-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M07 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M07-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B9. Verify module M08
+
+Apply the shared module verification to M08-L01–M08-L04 and M08-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M08 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M08-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B10. Verify module M09
+
+Apply the shared module verification to M09-L01–M09-L04 and M09-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M09 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M09-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B11. Verify module M10
+
+Apply the shared module verification to M10-L01–M10-L04 and M10-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
+
+**Input:** 10A3 and M10 approved production sources/PDF pages, import origins and compiled app content.
+
+**Output:** M10-parity.json, reader-observations.md.
+
+**Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
+
+#### 10B12. Verify all four appendices
+
+Check complete appendix content, tables, answer separation, source links and related reading against approved source blocks. Keep catalogue/reference entry checks traceable to 10B13 rather than omitting them.
+
+**Input:** 10A3 and approved appendix sources/current compiled records.
+
+**Output:** appendix-parity.json.
+
+**Done when:** All four appendices and their destinations are complete, correctly ordered and source-located; no legacy summary substitutes for teaching.
+
+#### 10B13. Verify the sign/reference package
+
+Compare all 24 groups, 400 official entries, names, editorial English labels, captions, accessibility text and code/variant bindings. Verify all 484 artwork bindings/419 files and approved scene crops against source/reuse records, plus four fonts and both licences; distinguish exact official artwork from contextual illustrations.
+
+**Input:** 10A3, sign/caption/placement registries, provenance inventory and accepted assets.
+
+**Output:** reference-parity.json, artwork-origin-parity.json.
+
+**Done when:** Every required entry and binding matches its approved identity, bytes and meaning; no generated substitute, unapproved crop or missing credit is accepted.
+
+#### 10B14. Close full import and generation parity
+
+Run the six read-only generation/release checks in the content build guide and independently reconcile approved sources → imported JSON → compiled Kotlin. Check the approved page-193 correction at its actual origin, all block totals and complete manifest references. If determinism needs a write run, use isolated temporary outputs and compare two runs.
+
+**Input:** 10B1–10B13 and 10A1 candidate fingerprint.
+
+**Output:** generation-commands.json, complete-import-parity.json, logs/.
+
+**Done when:** All checks pass for one candidate, including the separate 1,000/0 accepted release; repeated generation is byte-identical and production outputs/historical receipts are not overwritten.
+
+### 10C. Verify sources and reference behaviour — T02
+
+Source freshness is claim-specific. Use official/primary sources when rechecking affected facts; a successful URL request alone does not verify its content.
+
+#### 10C1. Audit exact source bindings and classifications
+
+Compare all exact question URL records and scoped aliases with 7C/current acceptance evidence, including 404 recorded URL entries and 116 canonical source destinations at baseline. Inspect law, foreign guidance, research, commercial shortcuts, manufacturer cautions and editorial arithmetic; preserve publishers, dates, jurisdiction and scope limits.
+
+**Input:** 10A3, source inventory, accepted per-ID records and source routes.
+
+**Output:** source-binding-audit.json, classification-review.md.
+
+**Done when:** Every source binding resolves to its intended record; representative classifications are justified and no universal new verification date or official endorsement is invented.
+
+#### 10C2. Recheck affected and time-sensitive source claims
+
+Create a risk-based list from the source register, 9N briefs and discovered discrepancies. Visit the actual primary pages for current requirements and every factual claim proposed for correction; record checked claims, date, URL, changes and unreachable pages. Audit the three briefs without adding scored questions.
+
+**Input:** 10C1 and current issue list; coordinate factual findings with 10E.
+
+**Output:** source-currency-review.md, checked-claims.json.
+
+**Done when:** Every selected high-risk/affected claim has dated evidence or an unresolved blocker; unchecked claims retain their original dates and are not represented as freshly verified.
+
+#### 10C3. Verify source opening, failure and return context
+
+Exercise in-app source details and the external Open source callback with representative actual URLs from the approved source classes. Check valid return to reader/review, offline/unreachable URLs and missing-source recovery. Prepare executable cases first; use fresh per-target observations from 10K2–10K6 for closure.
+
+**Input:** 10C1, 10A3 case matrix and current source routes; 10K evidence required for final closure.
+
+**Output:** source-runtime-results.json, captures/.
+
+**Done when:** All required source-link/return/failure cases pass on supported runtimes; browser launching is distinguished from third-party availability and unsupported harness behaviour is explicit.
+
+### 10D. Verify assessment artwork and accessibility — T03
+
+10E2–10E14 inspect exact question batches. This group reconciles their exhaustive semantic/variant checks and specifies actual rendering/accessibility proof; 10K supplies fresh platform observations.
+
+#### 10D1. Audit every sign description, variant and distractor change
+
+Reconcile the 578 sign rewrites and 38 replacements with exact official code/variant, neutral physical descriptions, authored option IDs and paired-direction semantics. Account for all 134 overlapping distractor changes without counting them as extra questions. Review visible and accessible pre-answer projections for code/name/key leaks.
+
+**Input:** 10E2–10E14, 10B13 and shared assessment contracts.
+
+**Output:** sign-semantics-audit.json, distractor-change-audit.json.
+
+**Done when:** All 616 revised sign questions and 134 distractor changes have individual results; no unreviewed variant, answer leak or ambiguous duplicate option remains.
+
+#### 10D2. Verify the thirty-eight former holds and faint-artwork cases
+
+Reconcile all 19 exact-code replacement pairs with their accepted revisions and approval evidence. Identify all twelve faint assets and 24 affected questions, overlaps and every required full-question context; prepare intended-size/zoom comparison sheets using unchanged official files.
+
+**Input:** 10D1 and exact 9F/9J delivery/legibility records.
+
+**Output:** replacement-delivery-matrix.json, faint-artwork-matrix.json.
+
+**Done when:** All 38 former holds and faint-asset contexts have exact current bindings and explicit platform checks; old hold records remain historical and acceptance is not copied onto changed revisions.
+
+#### 10D3. Verify visual delivery at approved sizes
+
+Review fresh full-question and zoom observations for the 10A3 matrix, including every replacement and faint-artwork case, both themes, large text and smallest approved display. Check geometry, fine strokes, equal option presentation, clipping, scrolling, selection and zoom return.
+
+**Input:** 10D2, approved faint-layout revision and fresh 10K platform captures.
+
+**Output:** visual-delivery-results.json, reviewed-contact-sheets/.
+
+**Done when:** All required contexts are legible and preserve exact artwork/selection; every observation names its actual platform and size, with no compile-only or contact-sheet-only device claim.
+
+#### 10D4. Verify accessible assessment interaction
+
+Inspect hidden/visible answer semantics, neutral option names, selection/feedback, reading/focus order, modal background exclusion, keyboard controls and return focus. Run supported assistive checks per 10A2; record actual TalkBack/listening separately from native node audits and simulator VoiceOver limitations.
+
+**Input:** 10D1, 10A2 scope and fresh 10K native/browser/harness evidence.
+
+**Output:** assessment-accessibility-results.json.
+
+**Done when:** Every required accessible interaction passes for its supported surface; excluded speech/physical checks remain explicit and no answer is exposed before the allowed feedback stage.
+
+### 10E. Verify every question disposition and calculation — T04
+
+Use exact IDs and current revisions from 7D/9J; do not regroup by current array position. For every reviewed item record the prompt/options/key/feedback, concept/category, primary/related teaching, scoped sources, semantic revision and accepted status. Sign batch tasks also inspect exact artwork/neutral descriptions, paired directions and assigned distractor changes for 10D1. These audits do not authorize new assessment IDs or altered quotas.
+
+#### 10E1. Verify the retained bank and complete ID accounting
+
+Diff all 1,000 IDs against frozen baseline/disposition records. Confirm the 336 retained assessment payloads are unchanged while distinguishing approved routing/provenance metadata changes. Account for all 626 rewrites and 38 replacements, no removals or active holds.
+
+**Input:** 10A3, baseline question bank, question decisions and accepted compiled/JSON records.
+
+**Output:** question-disposition-audit.json, retained-payload-diff.json.
+
+**Done when:** All IDs and 500 concepts are accounted for exactly once by disposition; all 336 retained payloads match and every changed item has an exact owner/revision/acceptance locator.
+
+#### 10E2. Verify sign rewrite batch 1 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E1 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E1 membership and 7D decisions.
+
+**Output:** batch-01-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E3. Verify sign rewrite batch 2 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E2 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E2 membership and 7D decisions.
+
+**Output:** batch-02-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E4. Verify sign rewrite batch 3 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E3 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E3 membership and 7D decisions.
+
+**Output:** batch-03-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E5. Verify sign rewrite batch 4 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E4 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E4 membership and 7D decisions.
+
+**Output:** batch-04-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E6. Verify sign rewrite batch 5 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E5 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E5 membership and 7D decisions.
+
+**Output:** batch-05-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E7. Verify sign rewrite batch 6 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E6 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E6 membership and 7D decisions.
+
+**Output:** batch-06-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E8. Verify sign rewrite batch 7 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E7 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E7 membership and 7D decisions.
+
+**Output:** batch-07-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E9. Verify sign rewrite batch 8 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E8 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E8 membership and 7D decisions.
+
+**Output:** batch-08-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E10. Verify sign rewrite batch 9 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E9 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E9 membership and 7D decisions.
+
+**Output:** batch-09-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E11. Verify sign rewrite batch 10 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E10 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E10 membership and 7D decisions.
+
+**Output:** batch-10-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E12. Verify sign rewrite batch 11 — 50 questions
+
+Independently review the exact 50 IDs assigned to 9E11 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E11 membership and 7D decisions.
+
+**Output:** batch-11-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E13. Verify sign rewrite batch 12 — 28 questions
+
+Independently review the exact 28 IDs assigned to 9E12 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
+
+**Input:** 10E1, 10B13, exact 9E12 membership and 7D decisions.
+
+**Output:** batch-12-question-review.json.
+
+**Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
+
+#### 10E14. Verify all thirty-eight replacement assessments
+
+Review the exact 9F1–9F19 pairs against per-ID approved content, authored identities and current delivery receipts. Validate intended assessment meaning and distinct options; carry required fresh visual checks into 10D2–10D4.
+
+**Input:** 10E1, 10B13 and replacement decisions/accepted 9J receipts.
+
+**Output:** replacement-question-review.json.
+
+**Done when:** All 38 replacement payloads and acceptance bindings pass; no similar-sign substitution or silent ID replacement occurred. Fresh delivery proof remains separately required by T03.
+
+#### 10E15. Verify the eight scenario corrections
+
+Review situation-032, -045, -105, -107, -125, -162, -172 and -178 against their exact 9G decisions and source scope. Independently check conditions, exceptions, recommendations versus requirements, options, feedback and lesson routing. Recheck affected legal facts through 10C2.
+
+**Input:** 10E1, 9G records and relevant primary references.
+
+**Output:** scenario-review.json.
+
+**Done when:** All eight scenarios preserve approved meaning and have supported keys/feedback; newly identified source conflicts become defects rather than unreviewed edits.
+
+#### 10E16. Verify thirty driver-inclusive load definitions
+
+Recompute all 30 accepted load questions using the stated ready-weight/driver assumptions and units. Check prompts, values, distinct options, correct keys and explanations independently of production helpers.
+
+**Input:** 10E1, 9H1–9H6 exact assignments and accepted questions.
+
+**Output:** load-calculation-audit.json.
+
+**Done when:** All 30 definitions explicitly include the driver as approved and each independent calculation agrees with its displayed key and explanation.
+
+#### 10E17. Verify the four exact fuel-saving keys
+
+Independently calculate fuel-saving-150-0.5, -150-1.5, -250-0.5 and -250-1.5 from their prompts. Compare exact values, precision, units, distractors and feedback; distinguish these revisions from old rounded-answer snapshots.
+
+**Input:** 10E1 and 9I1–9I4 approved questions/decisions.
+
+**Output:** fuel-calculation-audit.json.
+
+**Done when:** All four exact calculations agree with the accepted authored keys and explanations; no historical rounded key is reused or historical score changed.
+
+#### 10E18. Verify the six unit-wording changes and close content accounting
+
+Inspect the six exact 9I5 drafts, documenting the known residual “1 litres” wording without claiming a broader grammar repair. Reconcile every 10E review with 336 + 578 + 38 + 8 + 30 + 4 + 6 = 1,000 IDs and all original acceptance criteria. Route any justified editorial correction through 10L.
+
+**Input:** 10E1–10E17, 9I5 exact drafts and accepted manifest.
+
+**Output:** unit-wording-review.json, complete-question-review.json.
+
+**Done when:** Every ID has an independent disposition result; all 626 rewrites/38 replacements pass required content checks, residual limitations are explicit and no unaccepted item is active.
+
+### 10F. Verify quiz generation, scoring and answer identity — T05
+
+Use the actual accepted bank for exhaustive structural checks, plus small labelled fixtures for controlled edge cases. Oracles for quotas/arithmetic must not simply call the same production helper being tested.
+
+#### 10F1. Verify every supported quiz length and quota
+
+Check lengths 1–70, existing largest-remainder rounding/tie rules, category capacity after quota selection, residual random selection and unique concepts. At 70 preserve VEHICLE 7, ENVIRONMENT 5, SAFETY 16, RULES 32, PERSONAL 5 plus five random. Use recorded deterministic seeds, at least the prior twenty-seed coverage, and controlled boundary fixtures.
+
+**Input:** 10A3, 10E1 and accepted-bank engine contracts.
+
+**Output:** length-quota-capacity-results.json.
+
+**Done when:** Every length/seed satisfies the independent allocation, capacity and uniqueness oracle; insufficient/held/retired fixtures fail explicitly without borrowing ineligible items or weakening quotas.
+
+#### 10F2. Verify shuffled options and both feedback modes
+
+Exercise every key position, authored-to-display option mapping, selection locking, next/end, immediate/deferred feedback and result totals. Use standard, image and all four exact-fuel questions; compare selection and scoring through review filters.
+
+**Input:** 10F1 and accepted assessment/session models.
+
+**Output:** shuffle-feedback-scoring-results.json.
+
+**Done when:** Selections retain authored identity and expected scores in both modes across all supported lengths; displaying or filtering review never rebinds the key to bank order.
+
+#### 10F3. Verify immutable session snapshots and invalid-bank rejection
+
+Exercise old rounded-answer snapshots against newer teaching without regrading. Check pinned manifest/revision/options/answer/feedback, missing or mismatched identities and rejected held/historical candidate inputs. Future hot replacement remains a conditional model case, not a new runtime feature.
+
+**Input:** 10F2 and 7E/9M version contracts.
+
+**Output:** snapshot-identity-results.json.
+
+**Done when:** Historical scores/options remain original; invalid inputs cannot start scored sessions and tests do not imply a durable attempt-history or package-switch feature exists.
+
+#### 10F4. Verify real-bank quiz journeys
+
+Run setup → start → answer → finish → results → filtered review → related lesson/source → return in both feedback modes on required runtime targets. Include short sessions and a 70-question engine run, all result-filter states and displayed accepted counts. Distinguish real-bank production flows from fixture tests.
+
+**Input:** 10F1–10F3; fresh 10K platform runs supply runtime cases.
+
+**Output:** production-quiz-results.json.
+
+**Done when:** All required journeys preserve answers, scores, question count and return context against one candidate, with 1,000 accepted / zero held derived from the active manifest.
+
+### 10G. Verify all legacy and unknown routes — T06
+
+Compatibility resolution stays internal; no public deep-link scheme or old book navigation is introduced.
+
+#### 10G1. Verify the complete alias tables
+
+Run all 39 chapter, 361 numeric-page, 178 topic and 343 sign alias records plus all 1,000 question routes. Check exact scoped targets/choosers/unavailable outcomes against 7E and registry, not just whether a destination exists.
+
+**Input:** 10A3, 10B1 and typed resolver/7E oracle.
+
+**Output:** complete-alias-results.json.
+
+**Done when:** All 1,921 compatibility records have their expected outcomes; every real question resolves to the reviewed primary/related teaching and no page-only guess is used.
+
+#### 10G2. Verify ambiguous, malformed and missing routes
+
+Run every 7E actual/synthetic example, including old page 46 with situation-017 versus situation-103, page gaps, unknown questions, wrong namespace, invalid numbers and case-sensitive F31a. Exercise chooser and recovery actions.
+
+**Input:** 10G1 and exact 7E fixtures.
+
+**Output:** route-edge-results.json.
+
+**Done when:** Context selects the two correct different lessons; malformed/missing routes never clamp to the first/adjacent lesson or alias a differently cased sign.
+
+#### 10G3. Verify SIG16–SIG18 unavailable actions
+
+Check each signal retains its explicit unavailable_exact_entry state, exact official URL and optional M03-L02 teaching action. Verify return/recovery and actual external-link handling through 10C3/10K.
+
+**Input:** 10G1–10G2, exact recorded signal policies and runtime source-link evidence.
+
+**Output:** unavailable-sign-results.json.
+
+**Done when:** None resolves to SIG1/SIG5/Y1 or another substitute; each required action works and no unapproved official asset/destination is added.
+
+### 10H. Verify navigation and transient state — T07
+
+Exercise real production routes where present and clearly labelled synthetic cases for moved/retired data. Model fixtures do not imply that a persistence or retirement feature exists in production.
+
+#### 10H1. Verify state transitions and reading neighbours
+
+Check all eight states/twelve entry points and every previous/next edge in the 60-node reading sequence, including boundaries. Verify related lesson/reference/sign/source routes preserve valid origin, library query/filter, reading position and review context.
+
+**Input:** 10A3, 10B1, 10G1 and 7E contracts.
+
+**Output:** navigation-transition-results.json, reading-edge-results.json.
+
+**Done when:** Every recorded state/entry/edge has the expected destination and return behaviour; missing boundaries do not wrap or jump into unrelated content.
+
+#### 10H2. Verify guards and recovery states
+
+Exercise unfinished-test cancel/confirm discard, missing results/session → explicit setup, moved block → known parent notice, unknown parent and synthetic retirement with zero/one/multiple replacements. Check focus/modal background behaviour and prevent related reading as a pre-answer shortcut.
+
+**Input:** 10H1, 10G2 and fresh production/runtime evidence from 10K.
+
+**Output:** guard-recovery-results.json.
+
+**Done when:** Every required branch is safe, reachable and context-preserving; cancelled exit retains the exact session and confirmed exit clears only the intended transient state.
+
+#### 10H3. Verify all twenty-two state contracts
+
+Rerun the eighteen applicable contracts for the accepted identity: same-process setup preferences, review/filter/expansion state, deliberate new sessions, reset/relaunch defaults and missing contexts. Record the four future-store/hot-replacement contracts separately with their conditional basis.
+
+**Input:** 10H1–10H2, 10F3 and 7E/9M contracts.
+
+**Output:** state-contract-results.json.
+
+**Done when:** All eighteen applicable contracts pass; all 22 have dispositions, fresh defaults match the existing 70-question/feedback contract and no migrated progress, durable history or auto-credit is invented.
+
+### 10I. Verify library and teaching availability — T08
+
+Full teaching coverage and bank sampling coverage are different requirements. A lesson remains discoverable even if it has no scored question.
+
+#### 10I1. Verify complete library and reading access
+
+Confirm 10 modules/40 lessons/10 reviews, all four appendices and 24 reference groups are reachable in canonical order with correct titles. Exercise scenario/check/answer reveal, tables and illustrations without truncation or premature answer exposure.
+
+**Input:** 10B1–10B14 and 10H1.
+
+**Output:** teaching-reachability-results.json.
+
+**Done when:** Every approved teaching unit is discoverable and renders its complete content; module/review boundaries and deliberate answer reveal work.
+
+#### 10I2. Verify search, categories, tags and empty states
+
+Exercise all five category filters and forty lesson tag records, representative combined searches, query reset, filter reset and empty matches. Compare results/order to registry-derived expected sets; check navigation away/back retains valid search context.
+
+**Input:** 10I1, 7E category/tag mapping and library implementation.
+
+**Output:** library-search-filter-results.json.
+
+**Done when:** Every filter/tag has the correct ordered membership; empty results offer explicit recovery and never silently open an unrelated lesson.
+
+#### 10I3. Verify the three assessment-gap disclosures
+
+Check discoverability of M01-L01 and M10-L03 with zero primary/related questions, and M07-L04 with zero primary/one related. Review all three 9N briefs and rubrics, verifying they have not become scored questions or unsupported completion claims.
+
+**Input:** 10I2, 10E18 and assessment-coverage-briefs.md.
+
+**Output:** coverage-gap-review.json.
+
+**Done when:** All three lessons remain fully available; sampling gaps and proposed briefs are explicit while the baseline ID set and accepted counts remain unchanged.
+
+### 10J. Verify approved presentation and learner-facing copy — T09
+
+Compare implemented states with the exact approved revisions, including the later faint-artwork layout approval. This is an audit of existing designs; design changes follow the user’s preview/approval workflow.
+
+#### 10J1. Map approved previews to implemented states
+
+Build a comparison index covering home/setup, library, reader, review, source, reference/viewer, chooser, guards, empty and recovery states. Record applicable preview revision, approved deviations and required current captures.
+
+**Input:** 10A3, step 8 approval/specification, faint-artwork approval and current screen inventory.
+
+**Output:** design-comparison-index.json.
+
+**Done when:** Every implemented state in the approved package has an exact design reference or an explicit unresolved mismatch; no unseen revision is called approved.
+
+#### 10J2. Compare rendered layout and interaction states
+
+Inspect current 10K captures against 10J1: typography, hierarchy, spacing, text/asset sizing, scrolling, selected/feedback states, themes and large text. Separate fidelity defects from proposals for a new visual design.
+
+**Input:** 10J1 and fresh required-platform captures.
+
+**Output:** design-fidelity-review.md, annotated-comparisons/.
+
+**Done when:** Every required state has a reviewed comparison; unresolved visual/readability defects remain open and new design proposals are not implemented without approval.
+
+#### 10J3. Audit all fourteen learner-copy rules and provenance
+
+Scan rendered/visible text and accessibility semantics for every 7E replacement rule: old book names, original chapter labels and source-book folios. Check manifest-derived counts, full disclaimer, actual source publishers, editorial-English notices, credits and licences. Allow technical provenance/compatibility records outside learner copy.
+
+**Input:** 10J1, 7E copy rules, provenance inventory and fresh runtime semantics.
+
+**Output:** learner-copy-results.json, provenance-review.md.
+
+**Done when:** All fourteen rules pass in visible and accessible surfaces; obsolete learner labels are absent while legitimate publisher/credit information and complete teaching remain.
+
+### 10K. Run the final configured platform matrix — T10
+
+Use the 10A3 case index and the cases prepared by 10C/10D/10F/10G/10H/10I/10J. Do not require their final platform-dependent closure before collecting these runs. Reuse current-run evidence across gates by case ID rather than duplicating checks. Each platform task records commands, versions, target/runtime, normal/proof build identities, installed/distributed resource hashes, screenshots/semantic observations, source-link results and cleanup/restoration. Normal production builds must omit verification-only `-PreferenceProof`; proof binaries remain labelled and are never treated as release artifacts.
+
+#### 10K1. Run fresh common integration and generation checks
+
+Run the six non-mutating generation/release commands from the content guide, full Python unittest discovery and forced fresh JVM desktop tests. Compare compiled/JSON parity, origins, source/artwork bindings and state results. Save actual totals rather than assuming the historical 150/85 counts are current.
+
+**Input:** 10B14, 10E18, 10F1–10F3, 10G1–10G2 and available shared-case checks.
+
+**Output:** commands.json, common-results.json, logs/, test-reports/.
+
+**Done when:** All required fresh common checks pass against the candidate; skips/failures and cache reuse are explicit and historical candidate versus accepted-release statuses remain distinct.
+
+#### 10K2. Verify the Android emulator build and runtime
+
+Build/install the normal Android APK on the available configured emulator; inspect packaged artwork/fonts/licences, offline launch/teaching/assets and real-bank flows in both feedback modes. Execute source/failure, library/reader/reference/recovery, artwork and scoped keyboard/accessibility cases. Restore original connectivity and normal app after proof runs.
+
+**Input:** 10K1, Android scope/toolchain and prepared runtime/artwork case matrix.
+
+**Output:** android-results.json, package-resource-parity.json, native-evidence/.
+
+**Done when:** All required Android cases pass for the installed candidate; emulator/device and fresh versus retained TalkBack evidence are clearly distinguished.
+
+#### 10K3. Verify the configured JVM desktop harness
+
+Build the normal desktop JAR/processed resources; run current Compose runtime, parity, session, route, reader and artwork cases. Verify every packaged binding and font/licence. Identify fixture production-owner flows separately from actual accepted-bank checks and record unsupported native window/external-launch behaviour.
+
+**Input:** 10K1 and configured desktop harness/case matrix.
+
+**Output:** desktop-results.json, jar-resource-parity.json, harness-evidence/.
+
+**Done when:** All required configured harness cases pass; no installer, standalone launcher, native accessibility bridge or unobserved external browser callback is claimed.
+
+#### 10K4. Verify the iOS simulator build and runtime
+
+Use the shared Korkort scheme for a normal app/framework build on the configured simulator. Verify installed resources, both real-bank feedback flows, reader/library/reference/source/recovery and required artwork/trait/focus cases. Distinguish local bundled-resource access from network isolation; restore the normal app after labelled proof runs.
+
+**Input:** 10K1, simulator policy/toolchain and prepared runtime/artwork matrix.
+
+**Output:** ios-simulator-results.json, bundle-resource-parity.json, native-evidence/.
+
+**Done when:** All required simulator cases pass; description/trait audits are not described as VoiceOver listening or physical-device acceptance.
+
+#### 10K5. Verify the iOS device framework and scope exclusion
+
+Build the normal iosArm64 framework and resource aggregation; verify device ARM64/platform metadata and all resource/font/licence bytes. Carry the bound simulator-only policy into results for signing, installation, physical runtime, VoiceOver and legibility.
+
+**Input:** 10K1, iOS build configuration and existing delivery policy.
+
+**Output:** ios-device-build-results.json, physical-scope-record.json.
+
+**Done when:** Required device-target build/resource checks pass; physical runtime remains explicitly excluded/unperformed rather than passed. Any later scope change requires its own evidence.
+
+#### 10K6. Verify the production web distribution and browser runtime
+
+Build the production Wasm distribution and verify all artwork/fonts/licences and served paths. Use a fresh origin/cache state and the real production bank for both feedback modes, keyboard/modal, reader/source/reference/recovery and required artwork cases. Exercise actual external-link callbacks and failure handling. Record static-host dependency; clean up temporary servers/tabs.
+
+**Input:** 10K1, available browser/static-host scope and prepared runtime matrix.
+
+**Output:** web-results.json, distribution-resource-parity.json, browser-evidence/.
+
+**Done when:** All required browser cases pass for the current executable/resources; stale origins are excluded and no cold-offline, cross-engine or screen-reader-listening claim is invented.
+
+#### 10K7. Reconcile platform and cross-gate results
+
+Bind each platform output to the same final content and runtime fingerprint. Link fresh cases back to T02/T03/T05/T06/T07/T08/T09 and distinguish platform-specific build changes from shared input drift. Inventory unresolved required checks, excluded/conditional cases and source-link limitations.
+
+**Input:** 10K1–10K6, completed dependent gate reviews and any 10L retest records.
+
+**Output:** platform-matrix.json, final-candidate-fingerprint.json.
+
+**Done when:** Every required platform/cross-gate case passes for the final candidate; no stale evidence is used after relevant changes and every non-pass disposition has a valid scope basis.
+
+### 10L. Fix defects and rerun affected verification
+
+Use this loop whenever a finding prevents completion; it need not wait for every audit. Execute one bounded issue or coherent fix batch per request and retain run-specific records under `<task-id>/<issue-or-batch-id>/`. No defect means these tasks still produce a reviewed no-fix/no-retest-needed disposition, not an invented patch.
+
+#### 10L1. Triage findings and define a bounded fix
+
+Deduplicate the defect register; record severity, expected/actual behaviour, reproducible case, exact affected IDs/files and gate dependencies. Separate implementation regressions, source/content corrections, visual design changes and outside-scope feature proposals. Define an observable acceptance check and necessary evidence invalidation for each fix.
+
+**Input:** Any failed/blocked 10B–10K case and the current candidate.
+
+**Output:** defect-triage.md, fix-scope.json, updated defects.json.
+
+**Done when:** Each finding has a bounded action, owner/dependencies and severity; blocking versus acceptable documented limitation is justified, and scope exclusions are not used to hide failures.
+
+#### 10L2. Apply one bounded correction
+
+Implement the selected necessary correction within existing authorization. Refresh affected authored inputs/generated outputs and acceptance records through their supported workflows; never patch generated output alone or overwrite historical evidence. Recheck affected primary sources. If the fix changes visual design, first generate an imagegen preview and obtain explicit approval; keep that fix pending until approval.
+
+**Input:** 10L1 fix scope and any required content/design decision or approval.
+
+**Output:** fix-review.md, changed-files-and-ids.json, patch and updated candidate fingerprint.
+
+**Done when:** The bounded correction is implemented with its required focused checks and provenance; no unrelated feature, ID removal or unauthorized design change is included. An unresolved required decision keeps this task blocked, with the reason recorded.
+
+#### 10L3. Retest the fix and its dependent gates
+
+Rerun the original failing case and targeted regressions, generation/parity/acceptance checks for changed content, and affected platform builds/runtime cases for shared code/resources. Add meaningful regression coverage where it catches the defect. Retain failed runs and link superseding evidence; document which unaffected results remain valid and why.
+
+**Input:** 10L2, fix impact map and existing verification case index.
+
+**Output:** retest-results.json, evidence-invalidation-map.json, updated defects.json.
+
+**Done when:** The original defect and affected dependent gates pass for the new candidate, all stale claims are invalidated and only then is the issue closed. Unrelated checks are not repeated without an impact reason.
+
+### 10M. Assemble the final verification report and close step 10
+
+Completion is specific to the tested candidate and accepted scope. It does not authorize publishing, merging, store submission or expanding delivery claims.
+
+#### 10M1. Assemble and audit the complete verification report
+
+Cross-check every executable task, every T01–T10 clause, 1,000 per-ID outcomes, curriculum/source/asset results, platform cases, approvals, defects and retests. Verify evidence links/hashes and rerunnable commands. Report required-case counts and the exact excluded/conditional limitations, including assessment gaps and known editorial limits.
+
+**Input:** All 10A–10K task records, 10K7 final candidate and 10L dispositions/retests.
+
+**Output:** `docs/curriculum/app-migration/verification-evidence/verification-report.md` and `docs/curriculum/app-migration/verification-evidence/evidence-index.json`.
+
+**Done when:** All ten gates have independent evidence and no unresolved required failure/blocker/not-run case; report claims match actual observations. Otherwise save a blocked/incomplete report and keep step 10 open.
+
+#### 10M2. Record the final candidate and completion status
+
+Perform a final input-fingerprint check against 10M1, confirm no code/content/resource change occurred after the last relevant run and verify all report links. Update the plan and progress with the candidate identity, scoped result, limitations and final report. Summarize any separate future decisions without claiming they are completed.
+
+**Input:** Passing 10M1 report and current repository/candidate.
+
+**Output:** completion-record.json, updated implementation-plan.md and progress.md.
+
+**Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
+
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10A1 — reconcile the current candidate with the implementation handoff.**
 
 ## Content principle
 
@@ -2067,7 +2853,7 @@ The work will use independently written material and appropriately sourced illus
 
 ## Execution
 
-Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production, app migration planning, app previews or app implementation, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1), “Execute step 7A”, “Execute step 8B” or “Execute step 9A1”. Step 9 group labels (9A–9O) contain smaller executable tasks; request the exact task ID to keep work bounded. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
+Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production, app migration planning, app previews, app implementation or final app verification, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1), “Execute step 7A”, “Execute step 8B”, “Execute step 9A1” or “Execute step 10A1”. Step 9 and step 10 group labels (9A–9O and 10A–10M) contain smaller executable tasks; request the exact task ID to keep work bounded. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
 
 
 **Sequencing update — 2 October 2026:** Following the 5A blocker notice, the user directly requested execution of 5B. A limited cover/opening-page preview without sign artwork was prepared under that instruction and is [awaiting approval](pdf-design/5b/review.md). The 13 required sign gaps and 4F completion gate remain unresolved; this exception does not clear sign-dependent layouts or final PDF production.
