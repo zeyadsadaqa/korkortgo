@@ -2055,7 +2055,7 @@ All 9A–9O outputs must satisfy the original backlog acceptance criteria as wel
 
 ## 10. Verify the finished app
 
-**Current status — 20 October 2026: 10A1–10A3 complete; independent T01–T10 execution remains pending.** [Preparation review](app-migration/verification-evidence/10A3/review.md) binds the unchanged accepted candidate, required scope and complete case/defect indexes. Step 9 remains complete within its recorded scope. Preparation completion does not certify the app or authorize publication.
+**Current status — 20 October 2026: 10A1–10B14 complete; T01 import verification passed, T02–T10 remain pending.** [T01 verification](app-migration/verification-evidence/10B14/review.md) records complete approved-source/PDF/compiled-content parity, shared reader/reference observations and deterministic generation for the unchanged accepted candidate. [10A preparation](app-migration/verification-evidence/10A3/review.md) binds its baseline and scope. Other gates and final step-10 closure remain pending; no publication is authorized.
 
 Execute exact task IDs such as **10A1** or **10B2**. **10A–10M are groups, not single executable tasks.** Complete the requested task, save its evidence and update [progress.md](progress.md); starting another task requires a separate request unless the user explicitly requests a sequence. Outputs below remain planned unless a dated execution record links their completed evidence.
 
@@ -2137,6 +2137,8 @@ Use block-by-block comparisons to approved production origins and the approved P
 
 #### 10B1. Verify opening material and canonical structure
 
+**Status — 20 October 2026: Complete.** [10B1 verification](app-migration/verification-evidence/10B1/review.md): 209 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Compare opening text and the exact learning-aid disclaimer. Check module titles, 60 reading nodes, front-matter placement and all 1,123 destination identities, uniqueness and resolution against the registry.
 
 **Input:** 10A3, approved opening sources and curriculum registry.
@@ -2146,6 +2148,8 @@ Compare opening text and the exact learning-aid disclaimer. Check module titles,
 **Done when:** No opening text or required destination is missing, duplicated, renamed incorrectly or routed by an old source-book folio.
 
 #### 10B2. Verify module M01
+
+**Status — 20 October 2026: Complete.** [10B2 verification](app-migration/verification-evidence/10B2/review.md): 233 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Apply the shared module verification to M01-L01–M01-L04 and M01-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
@@ -2157,6 +2161,8 @@ Apply the shared module verification to M01-L01–M01-L04 and M01-R; retain a re
 
 #### 10B3. Verify module M02
 
+**Status — 20 October 2026: Complete.** [10B3 verification](app-migration/verification-evidence/10B3/review.md): 261 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Apply the shared module verification to M02-L01–M02-L04 and M02-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
 **Input:** 10A3 and M02 approved production sources/PDF pages, import origins and compiled app content.
@@ -2166,6 +2172,8 @@ Apply the shared module verification to M02-L01–M02-L04 and M02-R; retain a re
 **Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
 
 #### 10B4. Verify module M03
+
+**Status — 20 October 2026: Complete.** [10B4 verification](app-migration/verification-evidence/10B4/review.md): 704 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Apply the shared module verification to M03-L01–M03-L04 and M03-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
@@ -2177,6 +2185,8 @@ Apply the shared module verification to M03-L01–M03-L04 and M03-R; retain a re
 
 #### 10B5. Verify module M04
 
+**Status — 20 October 2026: Complete.** [10B5 verification](app-migration/verification-evidence/10B5/review.md): 519 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Apply the shared module verification to M04-L01–M04-L04 and M04-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
 **Input:** 10A3 and M04 approved production sources/PDF pages, import origins and compiled app content.
@@ -2186,6 +2196,8 @@ Apply the shared module verification to M04-L01–M04-L04 and M04-R; retain a re
 **Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
 
 #### 10B6. Verify module M05
+
+**Status — 20 October 2026: Complete.** [10B6 verification](app-migration/verification-evidence/10B6/review.md): 550 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Apply the shared module verification to M05-L01–M05-L04 and M05-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
@@ -2197,6 +2209,8 @@ Apply the shared module verification to M05-L01–M05-L04 and M05-R; retain a re
 
 #### 10B7. Verify module M06
 
+**Status — 20 October 2026: Complete.** [10B7 verification](app-migration/verification-evidence/10B7/review.md): 632 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Apply the shared module verification to M06-L01–M06-L04 and M06-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
 **Input:** 10A3 and M06 approved production sources/PDF pages, import origins and compiled app content.
@@ -2206,6 +2220,8 @@ Apply the shared module verification to M06-L01–M06-L04 and M06-R; retain a re
 **Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
 
 #### 10B8. Verify module M07
+
+**Status — 20 October 2026: Complete.** [10B8 verification](app-migration/verification-evidence/10B8/review.md): 322 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Apply the shared module verification to M07-L01–M07-L04 and M07-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
@@ -2217,6 +2233,8 @@ Apply the shared module verification to M07-L01–M07-L04 and M07-R; retain a re
 
 #### 10B9. Verify module M08
 
+**Status — 20 October 2026: Complete.** [10B9 verification](app-migration/verification-evidence/10B9/review.md): 341 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Apply the shared module verification to M08-L01–M08-L04 and M08-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
 **Input:** 10A3 and M08 approved production sources/PDF pages, import origins and compiled app content.
@@ -2226,6 +2244,8 @@ Apply the shared module verification to M08-L01–M08-L04 and M08-R; retain a re
 **Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
 
 #### 10B10. Verify module M09
+
+**Status — 20 October 2026: Complete.** [10B10 verification](app-migration/verification-evidence/10B10/review.md): 340 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Apply the shared module verification to M09-L01–M09-L04 and M09-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
@@ -2237,6 +2257,8 @@ Apply the shared module verification to M09-L01–M09-L04 and M09-R; retain a re
 
 #### 10B11. Verify module M10
 
+**Status — 20 October 2026: Complete.** [10B11 verification](app-migration/verification-evidence/10B11/review.md): 309 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
+
 Apply the shared module verification to M10-L01–M10-L04 and M10-R; retain a result for every source block, answer and asset binding. Locate and check any approved corrections assigned to this module by the origin ledger. Preserve the limited 1177 first-aid scope wherever present.
 
 **Input:** 10A3 and M10 approved production sources/PDF pages, import origins and compiled app content.
@@ -2246,6 +2268,8 @@ Apply the shared module verification to M10-L01–M10-L04 and M10-R; retain a re
 **Done when:** All required module blocks and meanings match their approved origins; reader content is complete and differences have a recorded approved basis or remain defects.
 
 #### 10B12. Verify all four appendices
+
+**Status — 20 October 2026: Complete.** [10B12 verification](app-migration/verification-evidence/10B12/review.md): 120 checks pass; independent approved-source/PDF/compiled-content parity; actual shared reader content and answer checks pass.
 
 Check complete appendix content, tables, answer separation, source links and related reading against approved source blocks. Keep catalogue/reference entry checks traceable to 10B13 rather than omitting them.
 
@@ -2257,6 +2281,8 @@ Check complete appendix content, tables, answer separation, source links and rel
 
 #### 10B13. Verify the sign/reference package
 
+**Status — 20 October 2026: Complete.** [10B13 verification](app-migration/verification-evidence/10B13/review.md): 3784 checks pass; independent approved-source/PDF/compiled-content parity.
+
 Compare all 24 groups, 400 official entries, names, editorial English labels, captions, accessibility text and code/variant bindings. Verify all 484 artwork bindings/419 files and approved scene crops against source/reuse records, plus four fonts and both licences; distinguish exact official artwork from contextual illustrations.
 
 **Input:** 10A3, sign/caption/placement registries, provenance inventory and accepted assets.
@@ -2266,6 +2292,8 @@ Compare all 24 groups, 400 official entries, names, editorial English labels, ca
 **Done when:** Every required entry and binding matches its approved identity, bytes and meaning; no generated substitute, unapproved crop or missing credit is accepted.
 
 #### 10B14. Close full import and generation parity
+
+**Status — 20 October 2026: Complete.** [10B14 verification](app-migration/verification-evidence/10B14/review.md): 5604 checks pass; independent approved-source/PDF/compiled-content parity.
 
 Run the six read-only generation/release checks in the content build guide and independently reconcile approved sources → imported JSON → compiled Kotlin. Check the approved page-193 correction at its actual origin, all block totals and complete manifest references. If determinism needs a write run, use isolated temporary outputs and compare two runs.
 
@@ -2849,7 +2877,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10B1 — verify opening material and canonical structure.**
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10C1 — audit exact source bindings and classifications.**
 
 ## Content principle
 

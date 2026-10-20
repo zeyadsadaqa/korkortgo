@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 20 October 2026 (10A1–10A3 verification preparation completed)
+**Last updated:** 20 October 2026 (10A preparation and all 10B import verification completed)
 **Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
-**Next action:** Separately request **10B1** to verify opening material and canonical structure. **10A1–10A3 are complete**: candidate baseline, platform/accessibility scope, exhaustive case index and defect register are saved in the [preparation evidence](app-migration/verification-evidence/10A3/review.md). Independent T01–T10 app checks remain unrun. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
+**Next action:** Separately request **10C1** to audit exact source bindings and classifications. **10A1–10B14 are complete**; the [T01 import verification](app-migration/verification-evidence/10B14/review.md) passes for the unchanged accepted candidate. T02–T10 and final step-10 closure remain pending. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -20,7 +20,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
 | 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
-| 10 | Verify the finished app | In progress; 10A1–10A3 complete | [Preparation evidence](app-migration/verification-evidence/10A3/review.md); T01–T10 remain pending; next is 10B1 |
+| 10 | Verify the finished app | In progress; 10A–10B complete | [T01 import verification](app-migration/verification-evidence/10B14/review.md); T02–T10 remain pending; next is 10C1 |
 
 ## Step 4 substep tracker
 
@@ -116,27 +116,27 @@ Each preview requires imagegen and explicit user approval before the next design
 
 ## Step 10 substep tracker
 
-**Current status — 20 October 2026:** 10A1–10A3 completed sequentially under the user’s request. All other tasks remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. Preparation checks establish identity, scope and case coverage, not T01–T10 functional acceptance. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
+**Current status — 20 October 2026:** 10A1–10B14 completed under the user’s requested sequences. T01 import verification passes; all 10C–10M tasks remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. 10A preparation establishes identity, scope and case coverage; 10B records the independently executed T01 import/content gate. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
 
 | Task | Work | Status |
 |---|---|---|
 | 10A1 | Reconcile the current candidate with the implementation handoff | Completed; [nine baseline checks pass](app-migration/verification-evidence/10A1/review.md) |
 | 10A2 | Record the required platform and accessibility scope | Completed; [54-row scope and readiness matrix](app-migration/verification-evidence/10A2/review.md) |
 | 10A3 | Prepare the case index and defect register | Completed; [34 preparation checks and complete case/defect indexes](app-migration/verification-evidence/10A3/review.md) |
-| 10B1 | Verify opening material and canonical structure | Not started |
-| 10B2 | Verify module M01 | Not started |
-| 10B3 | Verify module M02 | Not started |
-| 10B4 | Verify module M03 | Not started |
-| 10B5 | Verify module M04 | Not started |
-| 10B6 | Verify module M05 | Not started |
-| 10B7 | Verify module M06 | Not started |
-| 10B8 | Verify module M07 | Not started |
-| 10B9 | Verify module M08 | Not started |
-| 10B10 | Verify module M09 | Not started |
-| 10B11 | Verify module M10 | Not started |
-| 10B12 | Verify all four appendices | Not started |
-| 10B13 | Verify the sign/reference package | Not started |
-| 10B14 | Close full import and generation parity | Not started |
+| 10B1 | Verify opening material and canonical structure | Completed; [209 checks pass](app-migration/verification-evidence/10B1/review.md) |
+| 10B2 | Verify module M01 | Completed; [233 checks pass](app-migration/verification-evidence/10B2/review.md) |
+| 10B3 | Verify module M02 | Completed; [261 checks pass](app-migration/verification-evidence/10B3/review.md) |
+| 10B4 | Verify module M03 | Completed; [704 checks pass](app-migration/verification-evidence/10B4/review.md) |
+| 10B5 | Verify module M04 | Completed; [519 checks pass](app-migration/verification-evidence/10B5/review.md) |
+| 10B6 | Verify module M05 | Completed; [550 checks pass](app-migration/verification-evidence/10B6/review.md) |
+| 10B7 | Verify module M06 | Completed; [632 checks pass](app-migration/verification-evidence/10B7/review.md) |
+| 10B8 | Verify module M07 | Completed; [322 checks pass](app-migration/verification-evidence/10B8/review.md) |
+| 10B9 | Verify module M08 | Completed; [341 checks pass](app-migration/verification-evidence/10B9/review.md) |
+| 10B10 | Verify module M09 | Completed; [340 checks pass](app-migration/verification-evidence/10B10/review.md) |
+| 10B11 | Verify module M10 | Completed; [309 checks pass](app-migration/verification-evidence/10B11/review.md) |
+| 10B12 | Verify all four appendices | Completed; [120 checks pass](app-migration/verification-evidence/10B12/review.md) |
+| 10B13 | Verify the sign/reference package | Completed; [3784 checks pass](app-migration/verification-evidence/10B13/review.md) |
+| 10B14 | Close full import and generation parity | Completed; [5604 checks pass](app-migration/verification-evidence/10B14/review.md) |
 | 10C1 | Audit exact source bindings and classifications | Not started |
 | 10C2 | Recheck affected and time-sensitive source claims | Not started |
 | 10C3 | Verify source opening, failure and return context | Not started |
@@ -871,3 +871,33 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **20 October — 10A2 completed:** Recorded 54 scope rows and four conditional future-store cases. Python/JDK/Gradle/Xcode/SDK, running Android emulator, original bootable iOS simulator and in-app browser are available; sandbox service denials resolved via host-permitted read-only queries. All 37 required future checks remain unrun. Existing simulator/harness/static-web limits and actual TalkBack versus semantics distinctions are explicit. [Evidence](app-migration/verification-evidence/10A2/review.md). Continuing to 10A3.
 
 **20 October — 10A3 completed; requested 10A sequence closed:** Prepared all ten gates as 42 observable clauses, 36 original coverage families, 6,848 data cases and all 1,000 question cases with exact rewrite/replacement membership. Frozen matrix includes 2,920 artwork contexts and deterministic engine/source/reflow/production cases. All 34 preparation checks pass, including 9,921 oracle locators and an acyclic 70-task completion graph; no app/runtime case is marked passed. Defect register retains the resolved preparation-tool diagnostic and known limits. Historical receipts/runtime/content remain unchanged. [Evidence and reproduction](app-migration/verification-evidence/10A3/review.md). Stopped before 10B1.
+
+**20 October — 10B1 completed:** 105 independent content/import checks passed; 37 recursive blocks accounted for. Fresh shared-reader observations cover 23 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B1/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B2 completed:** 233 independent content/import checks passed; 77 recursive blocks accounted for. Fresh shared-reader observations cover 61 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B2/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B3 completed:** 261 independent content/import checks passed; 86 recursive blocks accounted for. Fresh shared-reader observations cover 69 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B3/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B4 completed:** 704 independent content/import checks passed; 234 recursive blocks accounted for. Fresh shared-reader observations cover 218 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B4/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B5 completed:** 519 independent content/import checks passed; 170 recursive blocks accounted for. Fresh shared-reader observations cover 154 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B5/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B6 completed:** 550 independent content/import checks passed; 181 recursive blocks accounted for. Fresh shared-reader observations cover 166 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B6/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B7 completed:** 632 independent content/import checks passed; 210 recursive blocks accounted for. Fresh shared-reader observations cover 193 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B7/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B8 completed:** 322 independent content/import checks passed; 107 recursive blocks accounted for. Fresh shared-reader observations cover 90 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B8/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B9 completed:** 341 independent content/import checks passed; 113 recursive blocks accounted for. Fresh shared-reader observations cover 96 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B9/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B10 completed:** 340 independent content/import checks passed; 112 recursive blocks accounted for. Fresh shared-reader observations cover 97 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B10/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B11 completed:** 309 independent content/import checks passed; 103 recursive blocks accounted for. Fresh shared-reader observations cover 82 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B11/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B12 completed:** 120 independent content/import checks passed; 41 recursive blocks accounted for. Fresh shared-reader observations cover 31 top-level blocks and answer reveals. [Evidence](app-migration/verification-evidence/10B12/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B13 completed:** 3784 independent content/import checks passed; 1017 recursive blocks accounted for. [Evidence](app-migration/verification-evidence/10B13/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B14 completed:** 5604 independent content/import checks passed; 2488 recursive blocks accounted for. [Evidence](app-migration/verification-evidence/10B14/review.md). Continuing within the requested 10B sequence.
+
+**20 October — 10B sequence completed:** All fourteen tasks passed, including exhaustive approved-source/PDF/compiled-content parity, fresh shared-reader and 400-sign/24-group observations, exact assets/fonts/licences, all six read-only generation/release checks and two byte-identical isolated generation runs. All prepared T01 cases have mapped execution evidence. Verification-tool diagnostics were corrected and retained; no production input or historical receipt changed. T02–T10 and final step-10 closure remain pending. [Complete evidence](app-migration/verification-evidence/10B14/review.md). Stopped before 10C1.
