@@ -1,0 +1,27 @@
+[
+  {
+    "argv": [
+      "/Users/zeyad/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+      "docs/curriculum/app-migration/verification-evidence/10C2/probe_primary.py"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "exit_code": 0,
+    "log": "primary-probe-run.txt",
+    "log_sha256": "8bca1cb27df1371a67b5f20005266263400ab553750fdb02478c956ec3f57fb3",
+    "observation_times": "primary-fetch-observations.json: per URL observed_utc",
+    "note": "Primary text inspected separately; web fallbacks and indexed corroboration are recorded in checked-claims.json. Probe success does not alone prove claims."
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10C2/record_review.py"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:15:48.999726+00:00",
+    "ended_utc": "2026-10-20T18:15:49.125638+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "review-record-run.txt",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

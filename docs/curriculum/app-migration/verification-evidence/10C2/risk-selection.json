@@ -1,0 +1,316 @@
+{
+  "task": "10C2",
+  "date": "2026-10-20",
+  "selection_basis": "Frozen source register, all three 9N briefs, seasonal/licensing/vehicle/safety risk and the six 10C1 discrepancies. This is a selected claim audit, not a blanket refresh of 519 records.",
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "claims": [
+    {
+      "case_id": "10C2-CLAIM-01",
+      "claim_to_check": "Ordinary B eligibility, supervised-practice ages and supervisor responsibility",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/",
+      "risk_basis": "Licensing/practice boundaries; brief 9N1",
+      "affected_locations": [
+        "M01-L01",
+        "9N1"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-02",
+      "claim_to_check": "Introduction-course requirement ended 1 August 2026; private supervisor/permit/age/ID requirements remain",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/ovningskora/",
+      "risk_basis": "Recent administrative transition; brief 9N1",
+      "affected_locations": [
+        "M01-L01",
+        "9N1"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-03",
+      "claim_to_check": "Both car risk-training parts precede tests; validity ends on licensing or at five years",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/",
+      "risk_basis": "Licensing prerequisites and expiry; brief 9N1",
+      "affected_locations": [
+        "M01-L01",
+        "9N1"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-04",
+      "claim_to_check": "One-year theory validity from 19 August 2026; earlier tests retain earlier provisions",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf",
+      "risk_basis": "Recent binding amendment and transition; brief 9N1",
+      "affected_locations": [
+        "M01-L01",
+        "9N1"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-05",
+      "claim_to_check": "Earlier ordinary B theory validity was four months; actual recorded expiry/extensions control",
+      "url": "https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/",
+      "risk_basis": "Transition boundary; brief 9N1",
+      "affected_locations": [
+        "M01-L01",
+        "9N1"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-06",
+      "claim_to_check": "Category B syllabus supports planning, conditions, personal influences and self-assessment",
+      "url": "https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf",
+      "risk_basis": "Three assessment briefs must have scoped curricular support",
+      "affected_locations": [
+        "9N1",
+        "9N2",
+        "9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-07",
+      "claim_to_check": "Fatigue/illness preventing safe driving forbids driving",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:1",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-08",
+      "claim_to_check": "Adapt speed to conditions, control, visible road and foreseeable obstacles",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:14",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-09",
+      "claim_to_check": "Following distance avoids rear collision when the lead vehicle slows/stops",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:2",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-10",
+      "claim_to_check": "Roundabout entering traffic yields as specified",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:22",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-11",
+      "claim_to_check": "Overtaking needs a sufficiently clear and safe path",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:32,36",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-12",
+      "claim_to_check": "Safe exit and the restriction at/within ten metres before pedestrian crossings",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 3:50,53(1)",
+        "9N2/9N3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-13",
+      "claim_to_check": "Police directions and specified traffic instructions take priority",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "risk_basis": "High-consequence traffic duty; source locators used by briefs/questions",
+      "affected_locations": [
+        "Traffic Regulation 2:2–3",
+        "situation-001"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-14",
+      "claim_to_check": "Passenger-car winter tyres, seasonal dates, tread depth and studded-tyre window",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/",
+      "risk_basis": "Seasonal/time-sensitive duty",
+      "affected_locations": [
+        "M02-L02",
+        "M07-L03"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-15",
+      "claim_to_check": "Ordinary light-car inspection intervals and expiry basis",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/",
+      "risk_basis": "Time-sensitive vehicle legality",
+      "affected_locations": [
+        "M08-L02"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-16",
+      "claim_to_check": "Child restraint height boundary and applicable exceptions",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/",
+      "risk_basis": "High-consequence occupant safety",
+      "affected_locations": [
+        "M02-L03"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-17",
+      "claim_to_check": "Illustrative 2019 Volvo Temporary Spare speed/use/pressure limits remain model-specific",
+      "url": "https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/",
+      "risk_basis": "Manufacturer scope must not become universal law",
+      "affected_locations": [
+        "M02-L02"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-18",
+      "claim_to_check": "Kia MQ4/2022 coolant and fan warnings are model-specific manufacturer guidance",
+      "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html",
+      "risk_basis": "Safety warning and discovered attribution defect",
+      "affected_locations": [
+        "M08",
+        "DEF-10C-006"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-19",
+      "claim_to_check": "CDC/NIOSH microsleep definition is foreign physiological guidance",
+      "url": "https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/03.html",
+      "risk_basis": "Representative foreign-source scope",
+      "affected_locations": [
+        "M01-L02"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-20",
+      "claim_to_check": "VTI friction research supports a physical principle, not a Swedish rule or guaranteed stopping distance",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "risk_basis": "Research-versus-authority distinction",
+      "affected_locations": [
+        "M02",
+        "M03-L04",
+        "M07"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-21",
+      "claim_to_check": "Trafiko one-second reaction and 0.4 braking shortcuts retain model/road assumptions",
+      "url": "https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka",
+      "risk_basis": "Commercial model scope",
+      "affected_locations": [
+        "M03-L04"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-22",
+      "claim_to_check": "20/3.6×0.5 is editorial supplied-input arithmetic; research URL is contextual",
+      "url": "https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf",
+      "risk_basis": "Do not invent official endorsement or an editorial URL",
+      "affected_locations": [
+        "reaction-20-0.5"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-23",
+      "claim_to_check": "1177 is a limited public-health reference, without importing a clinical procedure",
+      "url": "https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/",
+      "risk_basis": "Medical source boundary",
+      "affected_locations": [
+        "M10-L02"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-24",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Gagnefs kommun is Swedish municipal advice, not foreign guidance.",
+      "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-496b85361fc1b2c5"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-25",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Göteborgs Stad environmental guidance is Swedish municipal advice.",
+      "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-2816f9478f49eea3"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-26",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Named Swedish Energy Agency/municipal energy advice is domestic guidance.",
+      "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-56e38aa92cb10d3e"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-27",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Named MFD guidance is from a Swedish public agency.",
+      "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-6ca8f251127184be"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-28",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Trafikverket-hosted DiVA report is passage-specific research; host location does not make it foreign government guidance.",
+      "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-b3162b40db29d9bd"
+      ],
+      "status": "not_run"
+    },
+    {
+      "case_id": "10C2-CLAIM-29",
+      "claim_to_check": "Confirm publisher/jurisdiction/type: Kia MQ4/2022 owner handbook is model-specific manufacturer guidance, not a public authority.",
+      "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html",
+      "risk_basis": "10C1 classification defect",
+      "affected_locations": [
+        "REF-52a2a9e7d845ad8f"
+      ],
+      "status": "not_run"
+    }
+  ]
+}
