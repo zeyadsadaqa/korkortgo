@@ -1,0 +1,16 @@
+{
+  "task": "10B1",
+  "status": "pass",
+  "checks": 209,
+  "report": "opening-parity.json",
+  "report_sha256": "0a0bff1bc0f9f3fbbbefe03a960640809879d754005844cfc76d4bd14d002d03",
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "source_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "candidate_entry_commit": "24ee146",
+  "runtime": {
+    "path": "reader-runtime.json",
+    "sha256": "7a4f8cbcd284791938d687f4f4dbc9d54b6131aff1f8104920d7cf4ca9715461",
+    "observations": 57,
+    "passed": 57
+  }
+}

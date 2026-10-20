@@ -1,0 +1,2928 @@
+{
+  "task": "10B1",
+  "date": "2026-10-20",
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "status": "pass",
+  "checks": [
+    {
+      "case_id": "10B1-00001",
+      "name": "Candidate PDF freshly extracted without text drift",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00002",
+      "name": "Accepted candidate manifest unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00003",
+      "name": "All 1123 identities exact and unique",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00004",
+      "name": "Actual compiled resolver resolves every destination",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00005",
+      "name": "Reading order matches registry module/lesson/review order",
+      "passed": true,
+      "details": [
+        "M01",
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M01-R",
+        "M02",
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04",
+        "M02-R",
+        "M03",
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04",
+        "M03-R",
+        "M04",
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04",
+        "M04-R",
+        "M05",
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04",
+        "M05-R",
+        "M06",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M06-R",
+        "M07",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04",
+        "M07-R",
+        "M08",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04",
+        "M08-R",
+        "M09",
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04",
+        "M09-R",
+        "M10",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04",
+        "M10-R"
+      ]
+    },
+    {
+      "case_id": "10B1-00006",
+      "name": "All sixty reading nodes have full bodies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00007",
+      "name": "M01 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Choose to drive responsibly",
+        "observed": "Choose to drive responsibly"
+      }
+    },
+    {
+      "case_id": "10B1-00008",
+      "name": "M02 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Prepare a car that is ready",
+        "observed": "Prepare a car that is ready"
+      }
+    },
+    {
+      "case_id": "10B1-00009",
+      "name": "M03 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Read the road before acting",
+        "observed": "Read the road before acting"
+      }
+    },
+    {
+      "case_id": "10B1-00010",
+      "name": "M04 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Negotiate shared space",
+        "observed": "Negotiate shared space"
+      }
+    },
+    {
+      "case_id": "10B1-00011",
+      "name": "M05 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Make room in busy streets",
+        "observed": "Make room in busy streets"
+      }
+    },
+    {
+      "case_id": "10B1-00012",
+      "name": "M06 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Travel beyond the town",
+        "observed": "Travel beyond the town"
+      }
+    },
+    {
+      "case_id": "10B1-00013",
+      "name": "M07 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Adapt when conditions change",
+        "observed": "Adapt when conditions change"
+      }
+    },
+    {
+      "case_id": "10B1-00014",
+      "name": "M08 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Take responsibility for the vehicle and load",
+        "observed": "Take responsibility for the vehicle and load"
+      }
+    },
+    {
+      "case_id": "10B1-00015",
+      "name": "M09 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Reduce the impact of each journey",
+        "observed": "Reduce the impact of each journey"
+      }
+    },
+    {
+      "case_id": "10B1-00016",
+      "name": "M10 exact module title",
+      "passed": true,
+      "details": {
+        "expected": "Respond, reflect and keep learning",
+        "observed": "Respond, reflect and keep learning"
+      }
+    },
+    {
+      "case_id": "10B1-00017",
+      "name": "Exact approved learning-aid disclaimer",
+      "passed": true,
+      "details": {
+        "expected": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.",
+        "observed": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules."
+      }
+    },
+    {
+      "case_id": "10B1-00018",
+      "name": "Front matter precedes reading bodies",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00019",
+      "name": "Compiled order and modules exactly match authoring",
+      "passed": true,
+      "details": null
+    },
+    {
+      "case_id": "10B1-00020",
+      "name": "cover compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "c90234c2429cec59f6a39a64cb1f0ce98df9efa39b43d26b6751d76093d21269",
+        "compiled_sha256": "c90234c2429cec59f6a39a64cb1f0ce98df9efa39b43d26b6751d76093d21269"
+      }
+    },
+    {
+      "case_id": "10B1-00021",
+      "name": "cover/title origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:107-107",
+        "pdf_evidence_page": 1
+      }
+    },
+    {
+      "case_id": "10B1-00022",
+      "name": "cover/title production text literal",
+      "passed": true,
+      "details": {
+        "observed": "KörkortGo",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:107-107",
+          "pdf_evidence_page": 1
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00023",
+      "name": "cover/subtitle origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:108-108",
+        "pdf_evidence_page": 1
+      }
+    },
+    {
+      "case_id": "10B1-00024",
+      "name": "cover/subtitle production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Swedish category B learning guide",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:108-108",
+          "pdf_evidence_page": 1
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00025",
+      "name": "cover/learning-aid origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:109-109",
+        "pdf_evidence_page": 1
+      }
+    },
+    {
+      "case_id": "10B1-00026",
+      "name": "cover/learning-aid production text literal",
+      "passed": true,
+      "details": {
+        "observed": "A learning aid",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:109-109",
+          "pdf_evidence_page": 1
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00027",
+      "name": "cover/edition origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:110-110",
+        "pdf_evidence_page": 1
+      }
+    },
+    {
+      "case_id": "10B1-00028",
+      "name": "cover/edition production text literal",
+      "passed": true,
+      "details": {
+        "observed": "2026 version",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:110-110",
+          "pdf_evidence_page": 1
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00029",
+      "name": "cover/illustration origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:99-106",
+        "pdf_evidence_page": 1
+      }
+    },
+    {
+      "case_id": "10B1-00030",
+      "name": "introduction compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "2ab43484677b395bd813fd3ee68de47ee72548b0d34f980ce5247e1e203fd5e8",
+        "compiled_sha256": "2ab43484677b395bd813fd3ee68de47ee72548b0d34f980ce5247e1e203fd5e8"
+      }
+    },
+    {
+      "case_id": "10B1-00031",
+      "name": "introduction/title origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:112-112",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00032",
+      "name": "introduction/title production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Before you begin",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:112-112",
+          "pdf_evidence_page": 2
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00033",
+      "name": "introduction/disclaimer origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:8-8",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00034",
+      "name": "introduction/disclaimer complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules.",
+        "observed": "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules."
+      }
+    },
+    {
+      "case_id": "10B1-00035",
+      "name": "introduction/audience origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:10-10",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00036",
+      "name": "introduction/audience complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "This book is for English-speaking learners preparing for ordinary Swedish category B driving. It connects rules with decisions you can explain and practise. It does not grant permission to drive, replace mandatory training or supervised practice, reproduce official examination questions, or guarantee a test result.",
+        "observed": "This book is for English-speaking learners preparing for ordinary Swedish category B driving. It connects rules with decisions you can explain and practise. It does not grant permission to drive, replace mandatory training or supervised practice, reproduce official examination questions, or guarantee a test result."
+      }
+    },
+    {
+      "case_id": "10B1-00037",
+      "name": "introduction/how-to-use origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:119-119",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00038",
+      "name": "introduction/how-to-use production text literal",
+      "passed": true,
+      "details": {
+        "observed": "How to use this book",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:119-119",
+          "pdf_evidence_page": 2
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00039",
+      "name": "introduction/learning-sequence origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:14-14",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00040",
+      "name": "introduction/learning-sequence complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "Begin with modules 1–3. They establish personal readiness, vehicle preparation and road interpretation. Use modules 4–7 to apply that foundation in traffic and changing conditions. Modules 8–9 develop responsibility for the vehicle, its load and the journey's impact. Module 10 brings the learning together.",
+        "observed": "Begin with modules 1–3. They establish personal readiness, vehicle preparation and road interpretation. Use modules 4–7 to apply that foundation in traffic and changing conditions. Modules 8–9 develop responsibility for the vehicle, its load and the journey's impact. Module 10 brings the learning together."
+      }
+    },
+    {
+      "case_id": "10B1-00041",
+      "name": "introduction/study-method origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:16-16",
+        "pdf_evidence_page": 2
+      }
+    },
+    {
+      "case_id": "10B1-00042",
+      "name": "introduction/study-method complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "Each lesson contains a goal, an explanation, an original worked situation, a knowledge check with its answer, and a short reminder. After each module, write a reflection and use it to plan your next study or supervised practice session. Explain the answer before reading it; then change one condition in the example and consider whether your decision would change.",
+        "observed": "Each lesson contains a goal, an explanation, an original worked situation, a knowledge check with its answer, and a short reminder. After each module, write a reflection and use it to plan your next study or supervised practice session. Explain the answer before reading it; then change one condition in the example and consider whether your decision would change."
+      }
+    },
+    {
+      "case_id": "10B1-00043",
+      "name": "study-guide compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "ebea59dd94eff6f38ac9837cf4559434d5b581b38721386944a36833a719cdcf",
+        "compiled_sha256": "ebea59dd94eff6f38ac9837cf4559434d5b581b38721386944a36833a719cdcf"
+      }
+    },
+    {
+      "case_id": "10B1-00044",
+      "name": "study-guide/title origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:120-120",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00045",
+      "name": "study-guide/title production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Read, reflect and practise",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:120-120",
+          "pdf_evidence_page": 3
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00046",
+      "name": "study-guide/labels-heading origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:121-121",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00047",
+      "name": "study-guide/labels-heading production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Read the labels",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:121-121",
+          "pdf_evidence_page": 3
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00048",
+      "name": "study-guide/labels origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:18-18",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00049",
+      "name": "study-guide/labels complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "Requirements describe applicable duties or conditions, with official references. Official recommendations/advice describe the named authority's guidance. Learning approaches, worked decisions and review guides are original teaching material. They help you apply the principles; they are not additional laws. English explanations are written for learning and do not replace the Swedish legal wording.",
+        "observed": "Requirements describe applicable duties or conditions, with official references. Official recommendations/advice describe the named authority's guidance. Learning approaches, worked decisions and review guides are original teaching material. They help you apply the principles; they are not additional laws. English explanations are written for learning and do not replace the Swedish legal wording."
+      }
+    },
+    {
+      "case_id": "10B1-00050",
+      "name": "study-guide/references-heading origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:121-121",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00051",
+      "name": "study-guide/references-heading production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Use the official references",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:121-121",
+          "pdf_evidence_page": 3
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00052",
+      "name": "study-guide/references origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:20-20",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00053",
+      "name": "study-guide/references complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Official legislation and other public authorities supply details missing from the main agency guidance. Selected manufacturer handbooks supply missing technical cautions and are listed separately. The lessons identify source limits and distinguish recommendations, research and teaching inferences from legal duties. Use the handbook for the actual vehicle; a generic example is not its operating procedure.",
+        "observed": "References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Official legislation and other public authorities supply details missing from the main agency guidance. Selected manufacturer handbooks supply missing technical cautions and are listed separately. The lessons identify source limits and distinguish recommendations, research and teaching inferences from legal duties. Use the handbook for the actual vehicle; a generic example is not its operating procedure."
+      }
+    },
+    {
+      "case_id": "10B1-00054",
+      "name": "study-guide/current-guidance-heading origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:121-121",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00055",
+      "name": "study-guide/current-guidance-heading production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Check current guidance",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:121-121",
+          "pdf_evidence_page": 3
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00056",
+      "name": "study-guide/current-guidance origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/manuscript.md",
+          "sha256": "64c3a3592b027473ff55c67f570a71f343dc1fc8a4fda4b1ee32b6a5da1bb204"
+        },
+        "locator": "line:22-22",
+        "pdf_evidence_page": 3
+      }
+    },
+    {
+      "case_id": "10B1-00057",
+      "name": "study-guide/current-guidance complete source text parity",
+      "passed": true,
+      "details": {
+        "expected": "Original licensing, examination and vehicle checks are dated 1 October 2026; added passages have their own checks on 12–13 October. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance.",
+        "observed": "Original licensing, examination and vehicle checks are dated 1 October 2026; added passages have their own checks on 12–13 October. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance."
+      }
+    },
+    {
+      "case_id": "10B1-00058",
+      "name": "contents compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "31b71a6ff0e89480af67b7ee8a3d5ce98bdc8a0fed954e5da90fed127a4fed0a",
+        "compiled_sha256": "31b71a6ff0e89480af67b7ee8a3d5ce98bdc8a0fed954e5da90fed127a4fed0a"
+      }
+    },
+    {
+      "case_id": "10B1-00059",
+      "name": "contents/title origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:125-125",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00060",
+      "name": "contents/title production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Your learning journey",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:125-125",
+          "pdf_evidence_page": 4
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00061",
+      "name": "contents/modules origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00062",
+      "name": "contents/module-M01 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/0",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00063",
+      "name": "contents/module-M02 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/1",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00064",
+      "name": "contents/module-M03 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/2",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00065",
+      "name": "contents/module-M04 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/3",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00066",
+      "name": "contents/module-M05 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/4",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00067",
+      "name": "contents/module-M06 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/5",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00068",
+      "name": "contents/module-M07 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/6",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00069",
+      "name": "contents/module-M08 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/7",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00070",
+      "name": "contents/module-M09 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/8",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00071",
+      "name": "contents/module-M10 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/modules/9",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00072",
+      "name": "contents/appendices-heading origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:131-131",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00073",
+      "name": "contents/appendices-heading production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Keep these close",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:131-131",
+          "pdf_evidence_page": 4
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00074",
+      "name": "contents/appendices origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00075",
+      "name": "contents/appendix-A origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/60",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00076",
+      "name": "contents/appendix-B origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/61",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00077",
+      "name": "contents/appendix-C origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/62",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00078",
+      "name": "contents/appendix-D origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/app-migration/curriculum-map.json",
+          "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+        },
+        "locator": "json:/curriculum_nodes/63",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00079",
+      "name": "contents/source-heading origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/build.py",
+          "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+        },
+        "locator": "line:134-134",
+        "pdf_evidence_page": 4
+      }
+    },
+    {
+      "case_id": "10B1-00080",
+      "name": "contents/source-heading production text literal",
+      "passed": true,
+      "details": {
+        "observed": "Sources and references",
+        "origin": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/build.py",
+            "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+          },
+          "locator": "line:134-134",
+          "pdf_evidence_page": 4
+        }
+      }
+    },
+    {
+      "case_id": "10B1-00081",
+      "name": "official-references compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "6ea2a5388b3b6b9c99c3d507f3ae69d00c798b9680bfa49f178bd0d7f082b6bb",
+        "compiled_sha256": "6ea2a5388b3b6b9c99c3d507f3ae69d00c798b9680bfa49f178bd0d7f082b6bb"
+      }
+    },
+    {
+      "case_id": "10B1-00082",
+      "name": "official-references/production-0001 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 545
+      }
+    },
+    {
+      "case_id": "10B1-00083",
+      "name": "official-references/production-0001 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 545,
+        "offset": 23,
+        "characters": 1297,
+        "expected_sha256": "3dafebb9262cc1cdbd5456d25abcbf68a5b39d2c35e15258a446a7dc97fe7017",
+        "observed_sha256": "3dafebb9262cc1cdbd5456d25abcbf68a5b39d2c35e15258a446a7dc97fe7017"
+      }
+    },
+    {
+      "case_id": "10B1-00084",
+      "name": "official-references/production-0002 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 546
+      }
+    },
+    {
+      "case_id": "10B1-00085",
+      "name": "official-references/production-0002 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 546,
+        "offset": 0,
+        "characters": 859,
+        "expected_sha256": "056aaf35ff947351046afb74ff6e4bbf9854b0530368593d2f0ae72629779c32",
+        "observed_sha256": "056aaf35ff947351046afb74ff6e4bbf9854b0530368593d2f0ae72629779c32"
+      }
+    },
+    {
+      "case_id": "10B1-00086",
+      "name": "official-references/production-0003 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 547
+      }
+    },
+    {
+      "case_id": "10B1-00087",
+      "name": "official-references/production-0003 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 547,
+        "offset": 0,
+        "characters": 813,
+        "expected_sha256": "e8356c53d436155eb6c804bfdd8d73fc037c120cf2417d2982f56c88d3a60c71",
+        "observed_sha256": "e8356c53d436155eb6c804bfdd8d73fc037c120cf2417d2982f56c88d3a60c71"
+      }
+    },
+    {
+      "case_id": "10B1-00088",
+      "name": "official-references/production-0004 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 548
+      }
+    },
+    {
+      "case_id": "10B1-00089",
+      "name": "official-references/production-0004 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 548,
+        "offset": 0,
+        "characters": 867,
+        "expected_sha256": "57ac3e5355e70654a75b22cb39bf04f3574d5e90bdaa0199c9019f344c9dcbe4",
+        "observed_sha256": "57ac3e5355e70654a75b22cb39bf04f3574d5e90bdaa0199c9019f344c9dcbe4"
+      }
+    },
+    {
+      "case_id": "10B1-00090",
+      "name": "official-references/production-0005 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 549
+      }
+    },
+    {
+      "case_id": "10B1-00091",
+      "name": "official-references/production-0005 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 549,
+        "offset": 0,
+        "characters": 991,
+        "expected_sha256": "363f745cd1c5dadf039ce53c2c0c4f5bb3a44076e683e1c31926d61b08323850",
+        "observed_sha256": "363f745cd1c5dadf039ce53c2c0c4f5bb3a44076e683e1c31926d61b08323850"
+      }
+    },
+    {
+      "case_id": "10B1-00092",
+      "name": "official-references/production-0006 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 550
+      }
+    },
+    {
+      "case_id": "10B1-00093",
+      "name": "official-references/production-0006 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 550,
+        "offset": 0,
+        "characters": 785,
+        "expected_sha256": "d2b67792475cdd55561a9c8e6bafb39654acfacf29a49c9eb99d146b62e5aa64",
+        "observed_sha256": "d2b67792475cdd55561a9c8e6bafb39654acfacf29a49c9eb99d146b62e5aa64"
+      }
+    },
+    {
+      "case_id": "10B1-00094",
+      "name": "official-references/production-0007 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 551
+      }
+    },
+    {
+      "case_id": "10B1-00095",
+      "name": "official-references/production-0007 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 551,
+        "offset": 0,
+        "characters": 667,
+        "expected_sha256": "db2d46158c057f5239941f7dcb48dd8564bcdd4de23298baf701a32a5e3ca68a",
+        "observed_sha256": "db2d46158c057f5239941f7dcb48dd8564bcdd4de23298baf701a32a5e3ca68a"
+      }
+    },
+    {
+      "case_id": "10B1-00096",
+      "name": "official-references/production-0008 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 552
+      }
+    },
+    {
+      "case_id": "10B1-00097",
+      "name": "official-references/production-0008 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 552,
+        "offset": 0,
+        "characters": 944,
+        "expected_sha256": "08aca2daca70448166942b4d6a97eac9285281fdbfffa3e85b4fd2ed90843b4d",
+        "observed_sha256": "08aca2daca70448166942b4d6a97eac9285281fdbfffa3e85b4fd2ed90843b4d"
+      }
+    },
+    {
+      "case_id": "10B1-00098",
+      "name": "official-references/production-0009 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 553
+      }
+    },
+    {
+      "case_id": "10B1-00099",
+      "name": "official-references/production-0009 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 553,
+        "offset": 0,
+        "characters": 768,
+        "expected_sha256": "420cd8b6efa7363bd2a8afba3610f1e45345285ec711c448d220fe4010e1700c",
+        "observed_sha256": "420cd8b6efa7363bd2a8afba3610f1e45345285ec711c448d220fe4010e1700c"
+      }
+    },
+    {
+      "case_id": "10B1-00100",
+      "name": "official-references/production-0010 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 554
+      }
+    },
+    {
+      "case_id": "10B1-00101",
+      "name": "official-references/production-0010 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 554,
+        "offset": 0,
+        "characters": 808,
+        "expected_sha256": "d3966176fab3a315863b05f15746f857258abea5f0f4d8a821a2d3c592e88cbb",
+        "observed_sha256": "d3966176fab3a315863b05f15746f857258abea5f0f4d8a821a2d3c592e88cbb"
+      }
+    },
+    {
+      "case_id": "10B1-00102",
+      "name": "official-references/production-0011 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 555
+      }
+    },
+    {
+      "case_id": "10B1-00103",
+      "name": "official-references/production-0011 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 555,
+        "offset": 0,
+        "characters": 904,
+        "expected_sha256": "670fbbe9100b0aba088be58b19bc1247bd1962bd57c6f1c1ac6d1403df43adb0",
+        "observed_sha256": "670fbbe9100b0aba088be58b19bc1247bd1962bd57c6f1c1ac6d1403df43adb0"
+      }
+    },
+    {
+      "case_id": "10B1-00104",
+      "name": "official-references/production-0012 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 556
+      }
+    },
+    {
+      "case_id": "10B1-00105",
+      "name": "official-references/production-0012 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 556,
+        "offset": 0,
+        "characters": 720,
+        "expected_sha256": "e7d2b236a8bc9e5a732f6916d40e6e08f6aa45a3f18aec93df870fa7f3d469f6",
+        "observed_sha256": "e7d2b236a8bc9e5a732f6916d40e6e08f6aa45a3f18aec93df870fa7f3d469f6"
+      }
+    },
+    {
+      "case_id": "10B1-00106",
+      "name": "official-references/production-0013 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 557
+      }
+    },
+    {
+      "case_id": "10B1-00107",
+      "name": "official-references/production-0013 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 557,
+        "offset": 0,
+        "characters": 742,
+        "expected_sha256": "4dcb68f7cddb1a8972d5d17a476e8855b30edf687afcc35ac1bf5a9f8fbc510a",
+        "observed_sha256": "4dcb68f7cddb1a8972d5d17a476e8855b30edf687afcc35ac1bf5a9f8fbc510a"
+      }
+    },
+    {
+      "case_id": "10B1-00108",
+      "name": "official-references/production-0014 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 558
+      }
+    },
+    {
+      "case_id": "10B1-00109",
+      "name": "official-references/production-0014 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 558,
+        "offset": 0,
+        "characters": 853,
+        "expected_sha256": "3b1ca34eef9667542276dc90a5295e277c86382b951f6d6bb52f8c17f4de1755",
+        "observed_sha256": "3b1ca34eef9667542276dc90a5295e277c86382b951f6d6bb52f8c17f4de1755"
+      }
+    },
+    {
+      "case_id": "10B1-00110",
+      "name": "official-references/production-0015 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 559
+      }
+    },
+    {
+      "case_id": "10B1-00111",
+      "name": "official-references/production-0015 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 559,
+        "offset": 0,
+        "characters": 644,
+        "expected_sha256": "9ccf065e465d7e3f0c41572647db1f2d0f26b75c3db3039084232f1e54450ea5",
+        "observed_sha256": "9ccf065e465d7e3f0c41572647db1f2d0f26b75c3db3039084232f1e54450ea5"
+      }
+    },
+    {
+      "case_id": "10B1-00112",
+      "name": "official-references/production-0016 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 560
+      }
+    },
+    {
+      "case_id": "10B1-00113",
+      "name": "official-references/production-0016 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 560,
+        "offset": 0,
+        "characters": 727,
+        "expected_sha256": "4820b767dd69e44f3d855c5c21ef079dde6b2000ca16026752c12ce3225cc7fd",
+        "observed_sha256": "4820b767dd69e44f3d855c5c21ef079dde6b2000ca16026752c12ce3225cc7fd"
+      }
+    },
+    {
+      "case_id": "10B1-00114",
+      "name": "official-references/production-0017 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 561
+      }
+    },
+    {
+      "case_id": "10B1-00115",
+      "name": "official-references/production-0017 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 561,
+        "offset": 0,
+        "characters": 343,
+        "expected_sha256": "30dcf9680d27c38bd9ea3e8e6d2d172a224117b3362470827a79150802d07bc5",
+        "observed_sha256": "30dcf9680d27c38bd9ea3e8e6d2d172a224117b3362470827a79150802d07bc5"
+      }
+    },
+    {
+      "case_id": "10B1-00116",
+      "name": "official-references/production-0018 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 562
+      }
+    },
+    {
+      "case_id": "10B1-00117",
+      "name": "official-references/production-0018 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 562,
+        "offset": 0,
+        "characters": 1070,
+        "expected_sha256": "8c4275ca8868336f66782063e74fc176157fc420d5be90deb75767dc98415157",
+        "observed_sha256": "8c4275ca8868336f66782063e74fc176157fc420d5be90deb75767dc98415157"
+      }
+    },
+    {
+      "case_id": "10B1-00118",
+      "name": "official-references/production-0019 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 563
+      }
+    },
+    {
+      "case_id": "10B1-00119",
+      "name": "official-references/production-0019 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 563,
+        "offset": 0,
+        "characters": 912,
+        "expected_sha256": "e312e8aee5e51eaf4a16635d61272bb6d3b0ab06450f046b06cfd0b885b28da9",
+        "observed_sha256": "e312e8aee5e51eaf4a16635d61272bb6d3b0ab06450f046b06cfd0b885b28da9"
+      }
+    },
+    {
+      "case_id": "10B1-00120",
+      "name": "official-references/production-0020 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 564
+      }
+    },
+    {
+      "case_id": "10B1-00121",
+      "name": "official-references/production-0020 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 564,
+        "offset": 0,
+        "characters": 1185,
+        "expected_sha256": "d1edb54397441f796e3dd9868d034638612d86ba1ffa9f40cb47304352655c1c",
+        "observed_sha256": "d1edb54397441f796e3dd9868d034638612d86ba1ffa9f40cb47304352655c1c"
+      }
+    },
+    {
+      "case_id": "10B1-00122",
+      "name": "official-references/production-0021 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 565
+      }
+    },
+    {
+      "case_id": "10B1-00123",
+      "name": "official-references/production-0021 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 565,
+        "offset": 0,
+        "characters": 1102,
+        "expected_sha256": "2d35df4d8e13100db4918994aa3d9a5563d3db9d90f9636c1fa434dbabc62a4f",
+        "observed_sha256": "2d35df4d8e13100db4918994aa3d9a5563d3db9d90f9636c1fa434dbabc62a4f"
+      }
+    },
+    {
+      "case_id": "10B1-00124",
+      "name": "official-references/production-0022 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 566
+      }
+    },
+    {
+      "case_id": "10B1-00125",
+      "name": "official-references/production-0022 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 566,
+        "offset": 0,
+        "characters": 1257,
+        "expected_sha256": "bb4b9d4a0868fcf25a59ec61c925afa06e46a5b00585948e35f25656ea65df48",
+        "observed_sha256": "bb4b9d4a0868fcf25a59ec61c925afa06e46a5b00585948e35f25656ea65df48"
+      }
+    },
+    {
+      "case_id": "10B1-00126",
+      "name": "official-references/production-0023 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 567
+      }
+    },
+    {
+      "case_id": "10B1-00127",
+      "name": "official-references/production-0023 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 567,
+        "offset": 0,
+        "characters": 1029,
+        "expected_sha256": "f53058e5052e64cb3adad326cf683884788aea140ff1b09c652a3fd8cbb99a3b",
+        "observed_sha256": "f53058e5052e64cb3adad326cf683884788aea140ff1b09c652a3fd8cbb99a3b"
+      }
+    },
+    {
+      "case_id": "10B1-00128",
+      "name": "official-references/production-0024 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 568
+      }
+    },
+    {
+      "case_id": "10B1-00129",
+      "name": "official-references/production-0024 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 568,
+        "offset": 0,
+        "characters": 1208,
+        "expected_sha256": "21f7aa249b2a3b2e83deef291f9c354d7643a38621b9eeca00b3a61ab08048cb",
+        "observed_sha256": "21f7aa249b2a3b2e83deef291f9c354d7643a38621b9eeca00b3a61ab08048cb"
+      }
+    },
+    {
+      "case_id": "10B1-00130",
+      "name": "official-references/production-0025 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 569
+      }
+    },
+    {
+      "case_id": "10B1-00131",
+      "name": "official-references/production-0025 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 569,
+        "offset": 0,
+        "characters": 1018,
+        "expected_sha256": "a109632ee0a46aea23259a3c72ea1ac6edc19a1bd10098b84a4f2424c1070acc",
+        "observed_sha256": "a109632ee0a46aea23259a3c72ea1ac6edc19a1bd10098b84a4f2424c1070acc"
+      }
+    },
+    {
+      "case_id": "10B1-00132",
+      "name": "official-references/production-0026 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 570
+      }
+    },
+    {
+      "case_id": "10B1-00133",
+      "name": "official-references/production-0026 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 570,
+        "offset": 0,
+        "characters": 988,
+        "expected_sha256": "f3814d571268823c62f3711347b18442a325a6e23d3d00243d8926499400e4d1",
+        "observed_sha256": "f3814d571268823c62f3711347b18442a325a6e23d3d00243d8926499400e4d1"
+      }
+    },
+    {
+      "case_id": "10B1-00134",
+      "name": "official-references/production-0027 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 571
+      }
+    },
+    {
+      "case_id": "10B1-00135",
+      "name": "official-references/production-0027 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 571,
+        "offset": 0,
+        "characters": 940,
+        "expected_sha256": "1ffc3801949ab7ee6fde7ebceae844522054458d5fbae5514ff42160364c32ed",
+        "observed_sha256": "1ffc3801949ab7ee6fde7ebceae844522054458d5fbae5514ff42160364c32ed"
+      }
+    },
+    {
+      "case_id": "10B1-00136",
+      "name": "official-references/production-0028 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 572
+      }
+    },
+    {
+      "case_id": "10B1-00137",
+      "name": "official-references/production-0028 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 572,
+        "offset": 0,
+        "characters": 1102,
+        "expected_sha256": "2ff05dffb5b446b659e190b55c7c2821c19e18c6347357e0858bb4356a672fad",
+        "observed_sha256": "2ff05dffb5b446b659e190b55c7c2821c19e18c6347357e0858bb4356a672fad"
+      }
+    },
+    {
+      "case_id": "10B1-00138",
+      "name": "official-references/production-0029 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 573
+      }
+    },
+    {
+      "case_id": "10B1-00139",
+      "name": "official-references/production-0029 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 573,
+        "offset": 0,
+        "characters": 678,
+        "expected_sha256": "ca94b1b58a67c6d5492f5d81910e37e394b7f7bccfb60226e396a692771cff3a",
+        "observed_sha256": "ca94b1b58a67c6d5492f5d81910e37e394b7f7bccfb60226e396a692771cff3a"
+      }
+    },
+    {
+      "case_id": "10B1-00140",
+      "name": "official-references/production-0030 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 574
+      }
+    },
+    {
+      "case_id": "10B1-00141",
+      "name": "official-references/production-0030 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 574,
+        "offset": 0,
+        "characters": 539,
+        "expected_sha256": "daea3bf757db161072412ec293d0db44478d56e3b9790e535fa1f559130da698",
+        "observed_sha256": "daea3bf757db161072412ec293d0db44478d56e3b9790e535fa1f559130da698"
+      }
+    },
+    {
+      "case_id": "10B1-00142",
+      "name": "official-references/production-0031 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 575
+      }
+    },
+    {
+      "case_id": "10B1-00143",
+      "name": "official-references/production-0031 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 575,
+        "offset": 0,
+        "characters": 881,
+        "expected_sha256": "aec792f202e94e4d4f3fcc12c9bd51d631e8eeff28be69f200ee6b53ef561208",
+        "observed_sha256": "aec792f202e94e4d4f3fcc12c9bd51d631e8eeff28be69f200ee6b53ef561208"
+      }
+    },
+    {
+      "case_id": "10B1-00144",
+      "name": "official-references/production-0032 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 576
+      }
+    },
+    {
+      "case_id": "10B1-00145",
+      "name": "official-references/production-0032 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 576,
+        "offset": 0,
+        "characters": 1100,
+        "expected_sha256": "ca84e170754499bb8d0b4062f66f9c4eeed097d4735eb5985783aa6770b3e94d",
+        "observed_sha256": "ca84e170754499bb8d0b4062f66f9c4eeed097d4735eb5985783aa6770b3e94d"
+      }
+    },
+    {
+      "case_id": "10B1-00146",
+      "name": "official-references/production-0033 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 577
+      }
+    },
+    {
+      "case_id": "10B1-00147",
+      "name": "official-references/production-0033 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 577,
+        "offset": 0,
+        "characters": 500,
+        "expected_sha256": "6032cae6e2dfe60765b6df8c48d39d01e613b51ad80308d10f8a95386a94db92",
+        "observed_sha256": "6032cae6e2dfe60765b6df8c48d39d01e613b51ad80308d10f8a95386a94db92"
+      }
+    },
+    {
+      "case_id": "10B1-00148",
+      "name": "artwork-credits compiled complete object parity",
+      "passed": true,
+      "details": {
+        "authoring_sha256": "9e59fb81b82d1264538f408342237057a0cc8b8d10960ec41ff791b4f39a877e",
+        "compiled_sha256": "9e59fb81b82d1264538f408342237057a0cc8b8d10960ec41ff791b4f39a877e"
+      }
+    },
+    {
+      "case_id": "10B1-00149",
+      "name": "artwork-credits/production-0001 origin bytes",
+      "passed": true,
+      "details": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/pdf-production/korkortgo-curriculum.pdf",
+          "sha256": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581"
+        },
+        "locator": "whole-file",
+        "pdf_evidence_page": 578
+      }
+    },
+    {
+      "case_id": "10B1-00150",
+      "name": "artwork-credits/production-0001 exact approved PDF passage",
+      "passed": true,
+      "details": {
+        "page": 578,
+        "offset": 27,
+        "characters": 1003,
+        "expected_sha256": "6d738c6e72a6298ac4a7d753beb089ac3e27c4271c76f8786495dd581bfd89a8",
+        "observed_sha256": "6d738c6e72a6298ac4a7d753beb089ac3e27c4271c76f8786495dd581bfd89a8"
+      }
+    },
+    {
+      "case_id": "10B1-00151",
+      "name": "Actual reader visited every top-level block",
+      "passed": true,
+      "details": {
+        "expected": 57,
+        "observed": 57
+      }
+    },
+    {
+      "case_id": "10B1-00152",
+      "name": "cover/title reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "cover/title",
+        "document_id": "cover",
+        "expected_segments": [
+          "KörkortGo"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "070d57ad1f75f36f570000561d5c9073d862bc6b15b8fadec67c9e55264b499f"
+      }
+    },
+    {
+      "case_id": "10B1-00153",
+      "name": "cover/subtitle reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "cover/subtitle",
+        "document_id": "cover",
+        "expected_segments": [
+          "Swedish category B learning guide"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "070d57ad1f75f36f570000561d5c9073d862bc6b15b8fadec67c9e55264b499f"
+      }
+    },
+    {
+      "case_id": "10B1-00154",
+      "name": "cover/learning-aid reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "cover/learning-aid",
+        "document_id": "cover",
+        "expected_segments": [
+          "A learning aid"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "070d57ad1f75f36f570000561d5c9073d862bc6b15b8fadec67c9e55264b499f"
+      }
+    },
+    {
+      "case_id": "10B1-00155",
+      "name": "cover/edition reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "cover/edition",
+        "document_id": "cover",
+        "expected_segments": [
+          "2026 version"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "070d57ad1f75f36f570000561d5c9073d862bc6b15b8fadec67c9e55264b499f"
+      }
+    },
+    {
+      "case_id": "10B1-00156",
+      "name": "cover/illustration reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "cover/illustration",
+        "document_id": "cover",
+        "expected_segments": [],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "070d57ad1f75f36f570000561d5c9073d862bc6b15b8fadec67c9e55264b499f"
+      }
+    },
+    {
+      "case_id": "10B1-00157",
+      "name": "introduction/title reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/title",
+        "document_id": "introduction",
+        "expected_segments": [
+          "Before you begin"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00158",
+      "name": "introduction/disclaimer reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/disclaimer",
+        "document_id": "introduction",
+        "expected_segments": [
+          "This material is a learning aid to help you understand Swedish driving theory. It is not an official source and cannot replace official information from Trafikverket and Transportstyrelsen. Always consult their current guidance and the applicable rules."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00159",
+      "name": "introduction/audience reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/audience",
+        "document_id": "introduction",
+        "expected_segments": [
+          "This book is for English-speaking learners preparing for ordinary Swedish category B driving. It connects rules with decisions you can explain and practise. It does not grant permission to drive, replace mandatory training or supervised practice, reproduce official examination questions, or guarantee a test result."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00160",
+      "name": "introduction/how-to-use reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/how-to-use",
+        "document_id": "introduction",
+        "expected_segments": [
+          "How to use this book"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00161",
+      "name": "introduction/learning-sequence reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/learning-sequence",
+        "document_id": "introduction",
+        "expected_segments": [
+          "Begin with modules 1–3. They establish personal readiness, vehicle preparation and road interpretation. Use modules 4–7 to apply that foundation in traffic and changing conditions. Modules 8–9 develop responsibility for the vehicle, its load and the journey's impact. Module 10 brings the learning together."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00162",
+      "name": "introduction/study-method reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "introduction/study-method",
+        "document_id": "introduction",
+        "expected_segments": [
+          "Each lesson contains a goal, an explanation, an original worked situation, a knowledge check with its answer, and a short reminder. After each module, write a reflection and use it to plan your next study or supervised practice session. Explain the answer before reading it; then change one condition in the example and consider whether your decision would change."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "0abef7af06a074ab55e69325823163ce28d3e3e44aec0e6226c29e87760b60d4"
+      }
+    },
+    {
+      "case_id": "10B1-00163",
+      "name": "study-guide/title reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/title",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Read, reflect and practise"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00164",
+      "name": "study-guide/labels-heading reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/labels-heading",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Read the labels"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00165",
+      "name": "study-guide/labels reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/labels",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Requirements describe applicable duties or conditions, with official references. Official recommendations/advice describe the named authority's guidance. Learning approaches, worked decisions and review guides are original teaching material. They help you apply the principles; they are not additional laws. English explanations are written for learning and do not replace the Swedish legal wording."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00166",
+      "name": "study-guide/references-heading reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/references-heading",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Use the official references"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00167",
+      "name": "study-guide/references reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/references",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "References appear beside factual material. Trafikverket and Transportstyrelsen provide the main guidance. Official legislation and other public authorities supply details missing from the main agency guidance. Selected manufacturer handbooks supply missing technical cautions and are listed separately. The lessons identify source limits and distinguish recommendations, research and teaching inferences from legal duties. Use the handbook for the actual vehicle; a generic example is not its operating procedure."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00168",
+      "name": "study-guide/current-guidance-heading reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/current-guidance-heading",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Check current guidance"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00169",
+      "name": "study-guide/current-guidance reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "study-guide/current-guidance",
+        "document_id": "study-guide",
+        "expected_segments": [
+          "Original licensing, examination and vehicle checks are dated 1 October 2026; added passages have their own checks on 12–13 October. Check current official information before using a time-sensitive rule. Hypothetical numbers in examples are identified as such and are not measurements of your vehicle or personal performance."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e3098dc8afe8bd7888fb1dd34cd0f2dabeaec5e6bb72ba29847f3ec489c0ab22"
+      }
+    },
+    {
+      "case_id": "10B1-00170",
+      "name": "contents/title reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "contents/title",
+        "document_id": "contents",
+        "expected_segments": [
+          "Your learning journey"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "811b82d5e0c58e20c7b425d18f7e00ecfa8abd1ca7417d401a2c47e8185ac62c"
+      }
+    },
+    {
+      "case_id": "10B1-00171",
+      "name": "contents/modules reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "contents/modules",
+        "document_id": "contents",
+        "expected_segments": [
+          "Choose to drive responsibly",
+          "Prepare a car that is ready",
+          "Read the road before acting",
+          "Negotiate shared space",
+          "Make room in busy streets",
+          "Travel beyond the town",
+          "Adapt when conditions change",
+          "Take responsibility for the vehicle and load",
+          "Reduce the impact of each journey",
+          "Respond, reflect and keep learning"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "811b82d5e0c58e20c7b425d18f7e00ecfa8abd1ca7417d401a2c47e8185ac62c"
+      }
+    },
+    {
+      "case_id": "10B1-00172",
+      "name": "contents/appendices-heading reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "contents/appendices-heading",
+        "document_id": "contents",
+        "expected_segments": [
+          "Keep these close"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "811b82d5e0c58e20c7b425d18f7e00ecfa8abd1ca7417d401a2c47e8185ac62c"
+      }
+    },
+    {
+      "case_id": "10B1-00173",
+      "name": "contents/appendices reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "contents/appendices",
+        "document_id": "contents",
+        "expected_segments": [
+          "A Put the learning into practice",
+          "B Learn signs by the decision they require",
+          "C A practical Swedish–English glossary",
+          "D Personal practice record"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "811b82d5e0c58e20c7b425d18f7e00ecfa8abd1ca7417d401a2c47e8185ac62c"
+      }
+    },
+    {
+      "case_id": "10B1-00174",
+      "name": "contents/source-heading reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "contents/source-heading",
+        "document_id": "contents",
+        "expected_segments": [
+          "Sources and references"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "811b82d5e0c58e20c7b425d18f7e00ecfa8abd1ca7417d401a2c47e8185ac62c"
+      }
+    },
+    {
+      "case_id": "10B1-00175",
+      "name": "official-references/production-0001 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0001",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Original source checks are dated 1 October 2026. Chapter additions retain their individual 12–13 October checks below and in the evidence records. Official agency, legal, public-health and research references are distinguished from manufacturer technical handbooks. Use current guidance and the actual vehicle handbook; references do not make this book official. Chapter evidence records exact passages, dates and limitations. G11 assembles these records without claiming a new factual audit of every old source. Trafikverket vill se säkrare lastbilssläp efter nya krocktester — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/om-oss/nyheter/nationella-nyheter/2026/juni/trafikverket-vill-se-sakrare-lastbilsslap-efter-nya-krocktester/ Luftkvalitet - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/miljo/luftkvaliet-i-tatorter/ Krockkudde - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krockkudde/ Alkohol - så påverkar den - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/alkohol---sa-paverkar-den/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "201e2ba6fba1c527c2df7221153c9301f2a09b5053aa4099707e5a0f274f8df2"
+      }
+    },
+    {
+      "case_id": "10B1-00176",
+      "name": "official-references/production-0002 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0002",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references B – Personbil och lätt lastbil - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/valj-behorighet/personbil-och-latt-lastbil/b-personbil-och-latt-lastbil/ Bältesregler - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/ Om du får stopp på bilen – varna, lämna och larma - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/ Barn som färdas i bil - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/barn-i-bil/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "c08fede03e9a5bf80488eb54169bccb42dc988190c3af6b8c550faa43d22f667"
+      }
+    },
+    {
+      "case_id": "10B1-00177",
+      "name": "official-references/production-0003 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0003",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Så skyddar du barnen – regler och tips - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/sa-skyddar-du-barnen---regler-och-tips/ Klimat och energi - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/ Krocksäkerhet - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/krocksakerhet/ Cykelpassage och cykelöverfart - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/cykeloverfart/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "d8296f6991d54b334378d3ff4b26a557c81c128c803638fb1428e3c92a2f2d33"
+      }
+    },
+    {
+      "case_id": "10B1-00178",
+      "name": "official-references/production-0004 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0004",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Vad säger lagen om rattfylleri? — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/alkohol-och-narkotika-i-vagtrafiken/vad-sager-lagen-om-rattfylleri/ Sparsam körning — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/miljo/klimat-och-energi/sparsam-korning/ Akuta råd – första hjälpen — 1177 — Swedish public healthcare information; checked 2026-10-01. https://www.1177.se/olyckor--skador/akuta-rad---forsta-hjalpen/ VTI rapport 980 (2020): Krav på belagda väg-, cykel- och gångbanors friktionsegenskaper vid barmarksförhållanden — VTI; hosted by Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/globalassets/global/regler/jarnvag/plan-och-byggregler-for-vagar-och-sparbunden-trafik/vti-rapport-friktionsegenskaper.pdf"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "8f2f7d65e92f5924f18e5a9b1ae08be3036ac10f8947a45e0f5c002c18b85348"
+      }
+    },
+    {
+      "case_id": "10B1-00179",
+      "name": "official-references/production-0005 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0005",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Hästar i trafiken - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/hastar-i-trafiken/ Förändrad viktningsfaktor för nya laddhybrider — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2026/forandrad-viktningsfaktor-for-nya-laddhybrider/ Hastighet och krockvåld - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-krockvald/ Kontrollbesiktning av personbil och lastbil som inte överstiger 3500 kg i totalvikt - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/besiktningsregler/personbil-och-lastbil-som-inte-overstiger-3500-kg-i-totalvikt/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "9a9037572c652c44cf67220cd84e8e925f93cbd91f0540c45f5164a34ea23d37"
+      }
+    },
+    {
+      "case_id": "10B1-00180",
+      "name": "official-references/production-0006 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0006",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Trafikförsäkring - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/trafikforsakring/ Teoriprovet på annat språk - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/teoriprovet-pa-annat-sprak/ Fordonsbelysning - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/fordonsbelysning/ Lasta bilen säkert - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "461f9e9cc02de9d33fa238594145fcffe937e2b35164b75eebe59c79be390242"
+      }
+    },
+    {
+      "case_id": "10B1-00181",
+      "name": "official-references/production-0007 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0007",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Medicinska krav - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/medicinska-krav/ Buller - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/miljo/buller/ Ägarbyte av fordon - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/agarbyte/ Tilläggstavlor - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "b47494a95c1d6b369fbc518fc31e270d7314538878826b5fb5317b4f6102c751"
+      }
+    },
+    {
+      "case_id": "10B1-00182",
+      "name": "official-references/production-0008 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0008",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Stanna och parkera - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/ Parkeringstillstånd för rörelsehindrade - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/parkeringstillstand-for-rorelsehindrade/ Övergångsställe - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/overgangsstalle/ Mobilanvändning och annan kommunikationsutrustning - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/regler-for-mobilanvandning-och-kommunikationsutrustning/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "319868c5cb61457ed612f83094ac8172f3ccb9728e247e2916dfc3b06465c065"
+      }
+    },
+    {
+      "case_id": "10B1-00183",
+      "name": "official-references/production-0009 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0009",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Goda råd på vägen vid storhelger - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/goda-rad-for-bilkorning-vid-storhelger/ Så går körprovet till - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/sa-gar-korprovet-till/ Högerregeln - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/hogerregeln/ Säkerhet vid plankorsningar — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/contentassets/e9665c2ef2134eb68306c0c45338f1ef/sakra-plankorsningar.pdf"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "3447de935652d514abc7ba73d8e4dcf731b9ababce38fbc691daa491a1fbf39b"
+      }
+    },
+    {
+      "case_id": "10B1-00184",
+      "name": "official-references/production-0010 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0010",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Registreringsbevis - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/registreringsbevis/ Riskutbildning för personbil - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/riskutbildning/riskutbildning-bil/ Att köra i cirkulationsplats — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/att-koera-i-cirkulationsplats-a5-webb.pdf Säten och huvudstöd - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/saten-och-huvudstod/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "386932a8c1e53bb643093b58104730e88f76d995e8a201d3149be2259abb2d00"
+      }
+    },
+    {
+      "case_id": "10B1-00185",
+      "name": "official-references/production-0011 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0011",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Vägmärkesförordning (2007:90) — Sveriges riksdag — official SFS consolidation; checked 2026-10-01. https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/ Vägmärken - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/ Säkerhet på fyrhjuling, mopedbil, traktor och motorredskap - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-pa-fyrhjuling-mopedbil-traktor-och-motorredskap/ Gågata, cykelgata och gångfartsområde - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "5a03c34b373b5c7184a19ae5f7db10b1f7a99ddcd7809d340d9466cc8e7c1182"
+      }
+    },
+    {
+      "case_id": "10B1-00186",
+      "name": "official-references/production-0012 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0012",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Ställ av eller på ditt fordon - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/ Svensk trafikföreskriftssamling — Transportstyrelsen; checked 2026-10-01. https://rdt.transportstyrelsen.se/rdt/Default.aspx?UseStfs=1 Handledare - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/korkort/ta-korkort/handledarskap-och-ovningskorning/handledare/ Teoriprov och yrkesprov med stöd - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/korkort/ta-korkort/teoriprov-och-yrkesprov-med-stod/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "d8c75efa89876bf8ee5dfd4554faec56718e9522938a7cc087cf332e9a331c4a"
+      }
+    },
+    {
+      "case_id": "10B1-00187",
+      "name": "official-references/production-0013 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0013",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references TSFS 2011:20 - category B syllabus — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/TSFS/TSFS%202011_20.pdf Personbil och lätt lastbil - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/korkort/ta-korkort/personbil-och-latt-lastbil/ Hastighet och restid - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-restid/ Vikter att ta hänsyn till när du drar en släpvagn - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/vikter/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "07f675a601eaa5fd08933c3a430d4ad72ea1904faefbd26893f72d26d40e7050"
+      }
+    },
+    {
+      "case_id": "10B1-00188",
+      "name": "official-references/production-0014 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0014",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Trafikförordning (1998:1276) — Sveriges riksdag — official SFS consolidation; checked 2026-10-01. https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/ Personbil med släp - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/korkort/har-korkort/fordon-du-far-kora/personbil-med-slap/ Köra personbil eller lätt lastbil med släp- eller husvagn - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/slap/slapvagn-husvagn/ Säkerhet i vägtunnlar - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "cd59d246bc1de16a5a0f8aadfbc8aebf91adc084209b6af210f404f587d2ee11"
+      }
+    },
+    {
+      "case_id": "10B1-00189",
+      "name": "official-references/production-0015 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0015",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Däck - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/dack/ Däck - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/ Krav på däck för personbil - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/dackbyte-pa-personbil/ TSFS 2026:47 - amendment to driving-test validity — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/TSFS/TSFS%202026_47.pdf"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "5d4af5468c7382cda7f07b0e0b313c3be992620b85a30bf6e24080a4264699ba"
+      }
+    },
+    {
+      "case_id": "10B1-00190",
+      "name": "official-references/production-0016 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0016",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Vikter - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/vikter/ Trafikregler för rullstolsburna - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/gaende-rullstolsburen-rullskridskor/trafikregler-for-rullstolsburna/ Se upp för vilt på vägarna - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/ Vinterdäck - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/vinterdack"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "3759168275ed3d7dfe37bd5616e1464debbe2229f9a50ac8eedc4c31b6aff2a5"
+      }
+    },
+    {
+      "case_id": "10B1-00191",
+      "name": "official-references/production-0017 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0017",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Sources and references Säkerhet vid vägarbeten - www.trafikverket.se — Trafikverket; checked 2026-10-01. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-vid-vagarbeten/ Miljözoner - Transportstyrelsen — Transportstyrelsen; checked 2026-10-01. https://www.transportstyrelsen.se/sv/vagtrafik/miljo/miljozoner/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "3d1de09af22e053c2a5e63a37f9e7c467e62afc7519abf81cc3ca0c0fec77504"
+      }
+    },
+    {
+      "case_id": "10B1-00192",
+      "name": "official-references/production-0018 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0018",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Keep each reference within the scope stated in its lesson and evidence record. Nollvisionen – tillsammans räddar vi liv — Trafikverket; checked 2026-10-12; Last updated/reviewed 5 November 2024. https://bransch.trafikverket.se/for-dig-i-branschen/samarbete-med-branschen/Samarbeten-for-trafiksakerhet/tillsammans-for-nollvisionen/ Drowsy Driving — NHTSA (United States government); checked 2026-10-12; Live page; publication date not displayed in retrieved passage. https://www.nhtsa.gov/risky-driving/drowsy-driving Microsleeps — Module 3, Negative Impacts on Sleep — CDC/NIOSH (United States government); checked 2026-10-12; Last reviewed 31 March 2020; Module 3, page 3 of 28. https://www.cdc.gov/niosh/work-hour-training-for-nurses/longhours/mod3/03.html Drograttfylleri och sjöfylleri — proposition 1998/99:43 — Swedish Government; published by Sveriges riksdag; checked 2026-10-12; Proposition 1998/99:43. https://www.riksdagen.se/sv/dokument-och-lagar/dokument/proposition/drograttfylleri-och-sjofylleri_gm0343/html/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "e329ccfa83bb0721079894031e6eabbdc54c0462e0be3d4a903d86fc543ebd46"
+      }
+    },
+    {
+      "case_id": "10B1-00193",
+      "name": "official-references/production-0019 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0019",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Drugs and Human Performance Fact Sheets — NHTSA (United States government); checked 2026-10-12; DOT HS 809 725, April 2004. https://www.nhtsa.gov/sites/nhtsa.gov/files/809725-drugshumanperformfs.pdf TSFS 2013:63 – vehicle technical requirements — Transportstyrelsen; checked 2026-10-12; Consolidated through TSFS 2025:6 (effective 2 June 2025). https://www.transportstyrelsen.se/TSFS/TSFS%202013_63k.pdf TSFS 2017:54 – control inspection — Transportstyrelsen; checked 2026-10-12; Consolidated through TSFS 2026:1 (effective 5 January 2026). https://www.transportstyrelsen.se/TSFS/TSFS%202017_54k.pdf Taxi Driver Manual — Department for Infrastructure / Driver & Vehicle Agency, Northern Ireland government; checked 2026-10-12; Version 2.1 March 2024; hosted file August 2025. https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00194",
+      "name": "official-references/production-0020 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0020",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions The Highway Code – Rule 120 — UK Government – Department for Transport; checked 2026-10-12; Updated 22 October 2025. https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158 New or used vehicle buyers — Government of Western Australia – Road Safety Commission; checked 2026-10-12; Live page; publication date not displayed in inspected passage. https://www.wa.gov.au/organisation/road-safety-commission/new-or-used-vehicle-buyers Elektrisk utrustning och elinstallationer — Transportstyrelsen; checked 2026-10-12; Live supplementary guidance; retrieved 12 October 2026. https://www.transportstyrelsen.se/sv/om-oss/dina-rattigheter-lagar-och-regler/lagar-och-regler/regler-for-sjofart/regler-for-nationell-sjofart/regler-kompletterade-upplysningar/elektrisk-utrustning-och-elinstallationer/ Safe stopping distance — Transport for NSW / NSW Government (Australia); checked 2026-10-12; Live guidance; publication date not displayed in inspected passage. https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/safe-stopping-distance"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00195",
+      "name": "official-references/production-0021 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0021",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Hastighet och stoppsträcka — Trafikverket; checked 2026-10-13. Supports reaction plus braking and dependence on speed/conditions, not the exercise shortcut constants. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/stoppstracka/ KRAV Grundvärden, Vägar och gators utformning (VGU) — Trafikverket; checked 2026-10-12; TRV publication 2024:148, version 1.0; recognised by current Trafikverket VGU overview as part of current framework. https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf Driver’s Manual, Chapter 5: Intersections and Turns — New York State Department of Motor Vehicles (government); checked 2026-10-13; Live official driver manual; publication/update date not displayed in inspected passage. https://dmv.ny.gov/new-york-state-drivers-manual-and-practice-tests/chapter-5-intersections-and-turns Fakta om ledarhundar — Myndigheten för delaktighet (MFD); checked 2026-10-13; Last updated 30 April 2026. https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00196",
+      "name": "official-references/production-0022 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0022",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Cykel — Transportstyrelsen; checked 2026-10-13; Last updated 16 February 2026. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/cykel/ Complex Driving Skills — Online Parent Guide to Teen Driving — Oregon Department of Transportation, Driver and Motor Vehicle Services; checked 2026-10-13; Live official guide; publication/update date not displayed in inspected passage. https://www.oregon.gov/odot/dmv/pages/online_parent_guide_to_teen_driving/08_complex_driving_skills.aspx Avstängning för förberedande arbeten — E4 Förbifart Stockholm — Trafikverket; checked 2026-10-13; Published 7 February 2025; historical works notice. https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/ Gestaltningsprogram — Väg 26/47 Jönköping–Mullsjö, Hedenstorp–Månseryd — Trafikverket; project authors Charlotta Gard, Liselott Nykvist, Rebecka Olsson and Lovisa Norlin, Sweco; checked 2026-10-13; Version 2.0; 30 June 2023, revised 11 April 2025; TRV 2021/46509. https://bransch.trafikverket.se/contentassets/2f37f57af38d4d38b7a961b71b7e8988/gestaltningsprogram.pdf"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00197",
+      "name": "official-references/production-0023 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0023",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Choose the right vehicle lighting — Transportstyrelsen; checked 2026-10-13; TS 201621, first edition August 2016; current agency publication link and live lighting page checked. https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf Vision Impairment and DMV Requirements — California Department of Motor Vehicles; checked 2026-10-13; Live page; update date not displayed. https://www.dmv.ca.gov/portal/driver-education-and-safety/medical-conditions-and-driving/vision-conditions/ Halvljus – vanligaste felet vid besiktning — Transportstyrelsen; checked 2026-10-13; Updated 11 April 2025. https://www.transportstyrelsen.se/sv/om-oss/pressrum/nyhetsarkiv/2025/halvljus--vanligaste-felet-vid-besiktning/ Winter Driving — Bridges Freeze First — NOAA National Weather Service; checked 2026-10-13; Live safety page; date not displayed. https://www.weather.gov/wrn/winter-driving-sm"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00198",
+      "name": "official-references/production-0024 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0024",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions På glid? Nej! Så jobbar vi mot halka — Trafikverket; checked 2026-10-13; Published 21 November 2025. https://www.trafikverket.se/om-oss/nyheter/lansnyheter/stockholm/2025/2025-11/pa-glid-nej-sa-jobbar-vi-mot-halka-i-stockholmstrakten/ Arrive safely with these winter driving safety tips — San Bernardino County Fire; checked 2026-10-13; Published 4 December 2019. https://main.sbcounty.gov/2019/12/04/arrive-safely-with-these-winter-driving-safety-tips/ Överstyrning på is och snö med olika vinterdäck — VTI rapport 708 — VTI; report hosted by Trafikverket, funded by Skyltfonden; checked 2026-10-13; Hjort, Bruzelius and Andersson; May 2011; publication approved 23 May 2011. https://fudinfo.trafikverket.se/fudinfoexternwebb/Publikationer/Publikationer_001601_001700/Publikation_001666/overstyrn-pa-is-o%20sno-med-olika-vinterdack.pdf Electronic Stability Control Systems — final-rule technical appendix — US Department of Transportation, NHTSA; checked 2026-10-13; Docket NHTSA–2007–27662; 2007 prepublication final-rule PDF, 327 pages. https://www.nhtsa.gov/document/final-rule-federal-motor-vehicle-safety-standards-electronic-stability-control-systems-0"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00199",
+      "name": "official-references/production-0025 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0025",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Managing Speed — Online Driver’s Manual, Chapter 3 — Pennsylvania Department of Transportation (PennDOT); checked 2026-10-13; Live official manual; update date not displayed. https://www.pa.gov/agencies/dmv/driver-services/pennsylvania-drivers-manual/online-drivers-manual/everyday-driving-skills/managing-speed Lastbil — Transportstyrelsen; checked 2026-10-13; Updated 31 October 2025. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/regler-for-olika-fordonsslag/personbil-lastbil-och-buss/lastbil/ Towing a Trailer in Oregon — Being Equipped for Safety — Oregon Department of Transportation; checked 2026-10-13; Live agency-hosted 32-page brochure; publication date not printed in inspected text. https://www.oregon.gov/odot/Safety/Documents/TowingATrailer.pdf Besiktning av fordon — Transportstyrelsen; checked 2026-10-13; Updated 8 October 2025. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00200",
+      "name": "official-references/production-0026 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0026",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Vehicle Regulation (2009:211) — Swedish Government; published by Sveriges riksdag; checked 2026-10-13; Consolidated live text; chapter 6 §§15–21 checked 13 October 2026. https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/ Ställa av ditt fordon — Transportstyrelsen; checked 2026-10-13; Live page; checked 13 October 2026. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/ Kolets kretslopp rubbas — Naturvårdsverket; checked 2026-10-13; Reviewed 7 January 2025. https://www.naturvardsverket.se/amnesomraden/klimatforandringar/darfor-blir-det-varmare/kolets-kretslopp-rubbas/ Hastighet och hållbarhet — Trafikverket; checked 2026-10-13; Updated 31 March 2022. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/hastighetsgranser-pa-vag/hastighet-och-hallbarhet/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00201",
+      "name": "official-references/production-0027 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0027",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Åtgärder mot manipulering av viss fordonsutrustning – avgasrening och vägmätare — Transportstyrelsen; checked 2026-10-13; 27 June 2022, TSG 2021-3376. https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/atgarder-mot-manipulering-av-viss-fordonsutrustning.pdf Vägtrafikens luftföroreningar — Trafikverket; checked 2026-10-13; Reviewed 11 November 2021. https://bransch.trafikverket.se/for-dig-i-branschen/miljo---for-dig-i-branschen/luftkvalitet/vagtrafikens-luftfororeningar/ Elfordon – så funkar det — Trafikverket; checked 2026-10-13; Updated 19 April 2024. https://www.trafikverket.se/om-oss/skydda-klimat-miljo-och-halsa-i-vart-arbete/elfordon--sa-funkar-det/ Energi- och klimatrådgivning — Gagnefs kommun; checked 2026-10-13; Updated 19 August 2026. https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00202",
+      "name": "official-references/production-0028 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0028",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Features that affect the environment — NZ Transport Agency Waka Kotahi; checked 2026-10-13; Live official page; no editorial revision date shown. https://nzta.govt.nz/vehicles/choosing-the-right-vehicle/features-that-affect-the-environment Fuel efficient driving tips — UK Vehicle Certification Agency; checked 2026-10-13; Live government agency page; editorial revision date not shown. https://www.vehicle-certification-agency.gov.uk/fuel-consumption-co2/fuel-consumption-guide/fuel-efficient-driving-tips/ Sparsam körning — Energimyndigheten / municipal Energi- och klimatrådgivningen; checked 2026-10-13; Live advisory page; no editorial revision date shown. https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html Tvätta bilen rätt — Göteborgs Stad, Miljöförvaltningen; checked 2026-10-13; Live municipal guidance; article revision date not shown (site-wide maintenance banner has its own unrelated date). https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00203",
+      "name": "official-references/production-0029 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0029",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Official agency, legal and research additions Uppdrag att utreda när det ska vara tillåtet att använda dubbdäck — Transportstyrelsen; checked 2026-10-13; 16 August 2024, TSG 2023-7800. https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/rapporter/vagtrafik/utredning-om-nar-det-ska-vara-tillatet-att-anvanda-dubbdack.pdf C44 Förbud mot trafik med annat motordrivet fordon med dubbdäck än moped klass II — Transportstyrelsen; checked 2026-10-13; Updated 5 November 2024. https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-trafik-med-annat-motordrivet-fordon-med-dubbdack-an-moped-klass-ii/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00204",
+      "name": "official-references/production-0030 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0030",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Supplementary commercial teaching references Keep each reference within the scope stated in its lesson and evidence record. Approximate stopping-distance method — Trafiko, commercial teaching source; checked 2026-10-13. Limited to the one-second reaction shortcut and 0.4 braking shortcut under good-brake/good-tyre/dry-asphalt assumptions. Variable reaction time is editorial proportional arithmetic; not official agency guidance or a real-world stopping prediction. https://trafiko.se/faktabank/stoppstracka-reaktionsstracka-bromsstracka"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00205",
+      "name": "official-references/production-0031 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0031",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Manufacturer technical references These are manufacturer technical handbooks, not official agency or legal references. V60 Twin Engine – Reservhjul — Volvo Cars (manufacturer); checked 2026-10-12; V60 Twin Engine model-year 2019 / 18w46; updated 19 March 2020. https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/ 2011 Explorer Owner’s Guide — Ford Motor Company (manufacturer); checked 2026-10-12; 2011 Explorer, 4th Printing, USA. https://www.fordservicecontent.com/Ford_Content/catalog/owner_guides/11expog4e.pdf Kontrollera kylarvätskenivån — Kia, manufacturer owner handbook; checked 2026-10-13; MQ4 / 2022 / Swedish manual; live manufacturer edition, no revision date shown. https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00206",
+      "name": "official-references/production-0032 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0032",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Later checks of existing references Keep each reference within the scope stated in its lesson and evidence record. Se upp för vilt på vägarna - www.trafikverket.se — Trafikverket; additional passage checks: 2026-10-13; original check retained above. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/se-upp-for-vilt-pa-vagarna/ Lasta bilen säkert - www.trafikverket.se — Trafikverket; additional passage checks: 2026-10-13; original check retained above. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-bil/lasta-bilen-sakert/ Om du får stopp på bilen – varna, lämna och larma - www.trafikverket.se — Trafikverket; additional passage checks: 2026-10-13; original check retained above. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/om-du-far-stopp-pa-bilen--varna-lamna-och-larma/ Säkerhet i vägtunnlar - www.trafikverket.se — Trafikverket; additional passage checks: 2026-10-13; original check retained above. https://www.trafikverket.se/resa-och-trafik/trafiksakerhet/sakerhet-pa-vag/sakerhet-i-vagtunnlar/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00207",
+      "name": "official-references/production-0033 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "official-references/production-0033",
+        "document_id": "official-references",
+        "expected_segments": [
+          "Later checks of existing references Trafikförordning (1998:1276) — Sveriges riksdag — official SFS consolidation; additional passage checks: 2026-10-13; original check retained above. https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/ Däck - Transportstyrelsen — Transportstyrelsen; additional passage checks: 2026-10-13; original check retained above. https://www.transportstyrelsen.se/sv/vagtrafik/fordon/fordonsregler/dack/"
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "79513b591c2a538e717ea6d2e456ff21da7cb2cc15724e8d90fbf1759dfa2574"
+      }
+    },
+    {
+      "case_id": "10B1-00208",
+      "name": "artwork-credits/production-0001 reader content and answer reveal",
+      "passed": true,
+      "details": {
+        "block_id": "artwork-credits/production-0001",
+        "document_id": "artwork-credits",
+        "expected_segments": [
+          "Road-sign illustrations: Transportstyrelsen. Source links and verification dates are recorded in the official references. English sign labels and explanations are editorial translations. The sign reference uses official catalogue artwork in its teaching context. This learning material is not endorsed by Transportstyrelsen. Individual sign-caption checks are dated in each entry. Original entries: source pages retrieved on 1 October 2026, captions reviewed on 2 October and resolved official vectors verified on 3 October. H1/H2/H3 additions: exact official source pages, artwork and captions checked on 13 October 2026. Original artwork is preserved. Transportstyrelsen · road-sign reuse guidance https://www.transportstyrelsen.se/sv/om-oss/pressrum/pressbilder/ Transportstyrelsen · official sign catalogue https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/ The first-aid reference is limited to 1177 public healthcare guidance. No clinical procedure is reproduced."
+        ],
+        "missing_answer_segments": [],
+        "missing_segments": [],
+        "passed": true,
+        "semantics_sha256": "6250d10b5ac6c910d40be02dcb26647e19c16f429d533b385ad3c07eb5d426e6"
+      }
+    },
+    {
+      "case_id": "10B1-00209",
+      "name": "cover/illustration original/bundled bytes and provenance",
+      "passed": true,
+      "details": {
+        "original": {
+          "path": "docs/curriculum/pdf-design/5b/cover-opening-v4.png",
+          "sha256": "9d2f3359961b9e7b3623d8980ae9ce630155fbe72503748daecaae096fd152f9"
+        },
+        "bundled": {
+          "path": "composeApp/src/commonMain/composeResources/files/curriculum/cover-opening-v4.png",
+          "sha256": "9d2f3359961b9e7b3623d8980ae9ce630155fbe72503748daecaae096fd152f9"
+        },
+        "kind": "contextual_illustration",
+        "reuse": [
+          {
+            "conditions": "Retain the exact approved production polygon; generated typography stays outside the visible region.",
+            "credit": "KörkortGo; built-in imagegen artwork.",
+            "evidence": {
+              "evidence_ids": [],
+              "file": {
+                "path": "docs/curriculum/pdf-production/build.py",
+                "sha256": "aa822d3ebdd1cb378a8bc9c835e3964f53bbf42718d8b4b759bc09b88b5af152"
+              },
+              "locator": "line:99-106",
+              "pdf_evidence_page": 1
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "totals": {
+    "checks": 209,
+    "passed": 209,
+    "documents": 6,
+    "blocks_recursive": 71
+  },
+  "limits": [
+    "Content/import/shared-reader verification; final cross-platform presentation is 10K.",
+    "Fresh primary-source currency review belongs to 10C."
+  ]
+}

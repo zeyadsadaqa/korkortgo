@@ -1,0 +1,139 @@
+@file:OptIn(androidx.compose.ui.InternalComposeUiApi::class)
+package se.korkort
+
+import androidx.compose.runtime.*
+import androidx.compose.runtime.snapshots.Snapshot
+import androidx.compose.ui.graphics.asComposeCanvas
+import androidx.compose.ui.input.key.*
+import androidx.compose.ui.platform.PlatformContext
+import androidx.compose.ui.scene.CanvasLayersComposeScene
+import androidx.compose.ui.semantics.*
+import androidx.compose.ui.unit.IntSize
+import org.jetbrains.skia.EncodedImageFormat
+import org.jetbrains.skia.Surface
+import java.io.File
+import java.lang.reflect.Modifier
+import java.nio.file.Files
+import java.nio.file.Path
+import kotlin.test.*
+
+/** Fresh compiled-object export and actual reader semantics. Expected data is checked independently by verify_10b.py. */
+class ImportVerification10BTest {
+    private val root: Path get() = generateSequence(Path.of(System.getProperty("user.dir"))) { it.parent }.first { Files.exists(it.resolve("content/curriculum.json")) }
+    private fun quote(text: String): String = buildString {
+        append('"')
+        text.forEach { c -> when (c) {
+            '"' -> append("\\\""); '\\' -> append("\\\\"); '\n' -> append("\\n"); '\r' -> append("\\r"); '\t' -> append("\\t")
+            else -> if (c.code < 32) append("\\u%04x".format(c.code)) else append(c)
+        } }
+        append('"')
+    }
+    private fun canonical(value: Any?): String = when (value) {
+        null -> "null"
+        is String -> quote(value)
+        is Number, is Boolean -> value.toString()
+        is Enum<*> -> quote(value.name.lowercase())
+        is Iterable<*> -> value.joinToString(",", "[", "]") { canonical(it) }
+        is Map<*, *> -> value.entries.sortedBy { it.key.toString() }.joinToString(",", "{", "}") { canonical(it.key) + ":" + canonical(it.value) }
+        else -> {
+            val fields = value.javaClass.declaredFields.filter { !Modifier.isStatic(it.modifiers) && !it.isSynthetic }.associate { field ->
+                field.isAccessible = true
+                field.name.replace(Regex("([A-Z])")) { "_" + it.value.lowercase() } to field.get(value)
+            }.toMutableMap()
+            if (fields.keys == setOf("value")) canonical(fields.getValue("value")) else {
+                if(value is BlockPayload.RelatedLinks) fields["links"]=value.links.map{mapOf("label" to it.label,"target" to it.target)}
+                if (value is InlineContent || value is BlockPayload || value is TeachingLink)
+                    fields["type"] = value.javaClass.simpleName.replace(Regex("([a-z])([A-Z])"),"$1_$2").lowercase()
+                canonical(fields)
+            }
+        }
+    }
+    private inner class Harness(width: Int, height: Int): AutoCloseable {
+        private var owner: SemanticsOwner?=null
+        private val listener=object: PlatformContext.SemanticsOwnerListener {
+            override fun onSemanticsOwnerAppended(semanticsOwner: SemanticsOwner) {owner=semanticsOwner}
+            override fun onSemanticsOwnerRemoved(semanticsOwner: SemanticsOwner) {owner=null}
+            override fun onSemanticsChange(semanticsOwner: SemanticsOwner) {}
+            override fun onLayoutChange(semanticsOwner: SemanticsOwner,semanticsNodeId:Int) {}
+        }
+        val scene=CanvasLayersComposeScene(size=IntSize(width,height),platformContext=object:PlatformContext by PlatformContext.Empty {override val semanticsOwnerListener=listener})
+        private val surface=Surface.makeRasterN32Premul(width,height)
+        private var frame=0L
+        fun render() {Snapshot.sendApplyNotifications();repeat(4) {scene.render(surface.canvas.asComposeCanvas(),++frame*16_666_667)}}
+        fun nodes(unmerged:Boolean=false):List<SemanticsNode> {
+            fun walk(n:SemanticsNode):List<SemanticsNode> = listOf(n)+n.children.flatMap {walk(it)}
+            val o=requireNotNull(owner)
+            return walk(if(unmerged)o.unmergedRootSemanticsNode else o.rootSemanticsNode)
+        }
+        fun text()=nodes().joinToString(" | ") {n->n.config.getOrNull(SemanticsProperties.Text)?.joinToString {it.text}.orEmpty()+n.config.getOrNull(SemanticsProperties.ContentDescription)?.joinToString().orEmpty()}
+        fun click(label:String) {
+            val node=nodes().first {n->n.config.getOrNull(SemanticsProperties.Text)?.any {it.text==label}==true && n.config.getOrNull(SemanticsActions.OnClick)!=null}
+            assertTrue(node.config[SemanticsActions.OnClick].action!!.invoke());render()
+        }
+        fun key(key:Key) {scene.sendKeyEvent(KeyEvent(key,KeyEventType.KeyDown));scene.sendKeyEvent(KeyEvent(key,KeyEventType.KeyUp));render()}
+        fun awaitCondition(condition:()->Boolean) {repeat(200) {render();if(condition())return;Thread.sleep(5)};error("Image decoding did not finish")}
+        fun screenshot(name:String) {repeat(20){render();Thread.sleep(5)};val f=root.resolve("docs/curriculum/app-migration/verification-evidence/${System.getProperty("verificationTask")}/captures/$name.png").toFile();f.parentFile.mkdirs();f.writeBytes(surface.makeImageSnapshot().encodeToData(EncodedImageFormat.PNG)!!.bytes)}
+        override fun close() {scene.close();surface.close()}
+    }
+
+    private fun segments(p:BlockPayload):List<String> = when(p) {
+        is BlockPayload.Heading -> listOf(p.text.assessmentText())
+        is BlockPayload.Paragraph -> listOf(p.text.assessmentText())
+        is BlockPayload.Table -> p.columns.map{it.heading.assessmentText()} + p.rows.flatMap{it.cells.map{c->c.assessmentText()}} + listOfNotNull(p.caption?.assessmentText())
+        is BlockPayload.ListItems -> p.items.flatten().flatMap{segments(it.payload)}
+        is BlockPayload.Scenario -> listOfNotNull(p.title?.assessmentText())+p.blocks.flatMap{segments(it.payload)}
+        is BlockPayload.Callout -> listOfNotNull(p.title?.assessmentText())+p.blocks.flatMap{segments(it.payload)}
+        is BlockPayload.KnowledgeCheck -> p.prompts.flatMap{segments(it.payload)}
+        is BlockPayload.Equation -> listOf(p.expression,p.assumptions.assessmentText())
+        is BlockPayload.RelatedLinks -> p.links.map{it.label.assessmentText()}
+        is BlockPayload.Image -> listOf(p.caption.assessmentText())
+        is BlockPayload.CroppedImage -> listOf(p.caption.assessmentText())
+        is BlockPayload.PolygonImage -> listOf(p.caption.assessmentText())
+        is BlockPayload.CompositeImage -> listOf(p.caption.assessmentText())
+        is BlockPayload.SignExamples -> p.entryIds.flatMap{id->val s=navigationSigns.single{it.id==id};listOf(s.caption.assessmentText(),readerAssets.single{it.id==s.assetId}.studyAltText)}
+    }.filter{it.isNotBlank()}
+    @Test fun executeRequestedTask() {
+        val task=System.getProperty("verificationTask")
+        val out=root.resolve("docs/curriculum/app-migration/verification-evidence/$task").toFile().apply{mkdirs()}
+        if(task=="10B1") {
+            File(out,"compiled-content.json").writeText(canonical(mapOf("modules" to readerModules,"documents" to readerDocuments,"reading_order" to readerOrder,"lesson_category_tags" to readerTags,"assets" to readerAssets,"sign_entries" to navigationSigns,"reference_groups" to navigationReferenceGroups,"sources" to navigationSources,"anchors" to canonicalAnchors,"entries" to canonicalEntries)))
+            val resolutions=(canonicalEntries.map{it.id}+canonicalAnchors.keys).map{id->
+                val r=canonicalResolver.canonical(ContentTarget(id)) as? Resolution.Found
+                mapOf("id" to id.value,"target" to r?.target,"notice" to r?.notice)
+            }
+            File(out,"compiled-destinations.json").writeText(canonical(resolutions))
+        }
+        val number=task.removePrefix("10B").toInt()
+        val docs=when(number) {
+            1->readerDocuments.filter{it.id.value in listOf("cover","introduction","study-guide","contents","official-references","artwork-credits")}
+            in 2..11->readerDocuments.filter{it.id.value=="M%02d".format(number-1) || it.id.value.startsWith("M%02d-".format(number-1))}
+            12->readerDocuments.filter{it.id.value.startsWith("appendix-")}
+            else->emptyList()
+        }
+        val observations=mutableListOf<Map<String,Any?>>()
+        Harness(1280,4096).use{h->
+            for(doc in docs) {
+                h.scene.setContent{LearningTheme{LessonReader(ContentTarget(doc.id),{},{_,_->},{})}}
+                repeat(12){h.render()}
+                for((i,b) in doc.bodyBlocks.withIndex()) {
+                    val scroll=h.nodes().first{it.config.getOrNull(SemanticsActions.ScrollToIndex)!=null}
+                    assertTrue(scroll.config[SemanticsActions.ScrollToIndex].action!!.invoke(i+1))
+                    repeat(6){h.render()}
+                    val before=h.text()
+                    val expected=segments(b.payload)
+                    val missing=expected.filter{!before.contains(it)}
+                    var answerMissing=emptyList<String>()
+                    if(b.payload is BlockPayload.KnowledgeCheck) {
+                        h.click("Show answer")
+                        val answer=doc.answerBlocks.single{it.metadata.id==(b.payload as BlockPayload.KnowledgeCheck).answerId}
+                        answerMissing=answer.blocks.flatMap{segments(it.payload)}.filter{!h.text().contains(it)}
+                    }
+                    observations.add(mapOf("document_id" to doc.id.value,"block_id" to b.metadata.id.value,"expected_segments" to expected,"missing_segments" to missing,"missing_answer_segments" to answerMissing,"semantics_sha256" to java.security.MessageDigest.getInstance("SHA-256").digest(before.toByteArray()).joinToString(""){"%02x".format(it)},"passed" to (missing.isEmpty() && answerMissing.isEmpty())))
+                }
+                h.screenshot(doc.id.value)
+            }
+        }
+        File(out,"reader-runtime.json").writeText(canonical(mapOf("task" to task,"target" to "desktop shared CanvasLayersComposeScene; actual LessonReader; 1280x4096; light/default text","observations" to observations)))
+        assertTrue(observations.all{it["passed"]==true},"Reader omissions; see reader-runtime.json")
+    }
+}

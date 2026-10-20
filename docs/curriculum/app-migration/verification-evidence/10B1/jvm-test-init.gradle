@@ -1,0 +1,9 @@
+gradle.projectsEvaluated {
+    def app = gradle.rootProject.project(':composeApp')
+    app.extensions.getByName('kotlin').sourceSets.getByName('desktopTest').kotlin.srcDir(
+        new File(app.rootProject.projectDir, 'docs/curriculum/app-migration/verification-evidence/10B1')
+    )
+    app.tasks.withType(Test).configureEach {
+        systemProperty 'verificationTask', gradle.startParameter.projectProperties.get('verificationTask') ?: '10B1'
+    }
+}

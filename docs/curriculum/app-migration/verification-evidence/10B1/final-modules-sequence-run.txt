@@ -1,0 +1,73 @@
+START 10B8
+10B8 reader-gradle 0
+10B8 audit-run 0
+10B8 CLOSED: 322 checks; 107 blocks
+START 10B9
+10B9 reader-gradle 0
+10B9 audit-run 0
+10B9 CLOSED: 341 checks; 113 blocks
+START 10B10
+10B10 reader-gradle 0
+10B10 audit-run 0
+10B10 CLOSED: 340 checks; 112 blocks
+START 10B11
+10B11 reader-gradle 0
+10B11 audit-run 1
+{
+  "task": "10B11",
+  "status": "fail",
+  "totals": {
+    "checks": 309,
+    "passed": 304,
+    "documents": 8,
+    "blocks_recursive": 103
+  },
+  "failures": [
+    {
+      "case_id": "10B11-00133",
+      "name": "M10-L03/teaching-005/item-1 complete source text parity",
+      "passed": false,
+      "details": {
+        "expected": "1. Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives. 2. In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions. 3. On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed. 4. At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit. 5. On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin.",
+        "observed": "Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives."
+      }
+    },
+    {
+      "case_id": "10B11-00135",
+      "name": "M10-L03/teaching-005/item-2 complete source text parity",
+      "passed": false,
+      "details": {
+        "expected": "1. Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives. 2. In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions. 3. On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed. 4. At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit. 5. On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin.",
+        "observed": "In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions."
+      }
+    },
+    {
+      "case_id": "10B11-00137",
+      "name": "M10-L03/teaching-005/item-3 complete source text parity",
+      "passed": false,
+      "details": {
+        "expected": "1. Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives. 2. In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions. 3. On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed. 4. At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit. 5. On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin.",
+        "observed": "On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed."
+      }
+    },
+    {
+      "case_id": "10B11-00139",
+      "name": "M10-L03/teaching-005/item-4 complete source text parity",
+      "passed": false,
+      "details": {
+        "expected": "1. Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives. 2. In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions. 3. On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed. 4. At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit. 5. On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin.",
+        "observed": "At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit."
+      }
+    },
+    {
+      "case_id": "10B11-00141",
+      "name": "M10-L03/teaching-005/item-5 complete source text parity",
+      "passed": false,
+      "details": {
+        "expected": "1. Before leaving, establish fitness, entitlement, vehicle readiness, passenger protection and the controls you may need. Check the route and alternatives. 2. In the residential area, identify crossings, people hidden by parked vehicles and the applicable speed. At the roundabout, separate entry, lane and exit decisions. 3. On the faster section, preserve a following gap and a view ahead. If the weather worsens, reassess both lighting and speed. 4. At the destination, apply the stopping restrictions before considering convenience. Choose a lawful place with a safe manoeuvre and passenger exit. 5. On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin.",
+        "observed": "On the return trip, reject an overtaking attempt without a complete clear path. Change the arrival expectation instead of the safety margin."
+      }
+    }
+  ]
+}
+
