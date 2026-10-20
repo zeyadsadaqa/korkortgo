@@ -1,0 +1,221 @@
+[
+  {
+    "id": "host",
+    "command": [
+      "sw_vers"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.02,
+    "log": "host.txt"
+  },
+  {
+    "id": "python",
+    "command": [
+      "python3",
+      "--version"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.02,
+    "log": "python.txt"
+  },
+  {
+    "id": "jdk",
+    "command": [
+      "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home/bin/java",
+      "-version"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.13,
+    "log": "jdk.txt"
+  },
+  {
+    "id": "xcode",
+    "command": [
+      "xcodebuild",
+      "-version"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.3,
+    "log": "xcode.txt"
+  },
+  {
+    "id": "sdk",
+    "command": [
+      "xcodebuild",
+      "-showsdks"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.34,
+    "log": "sdk.txt"
+  },
+  {
+    "id": "simulators",
+    "command": [
+      "xcrun",
+      "simctl",
+      "list",
+      "devices",
+      "available",
+      "--json"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 1.5,
+    "log": "simulators.txt"
+  },
+  {
+    "id": "adb",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "devices",
+      "-l"
+    ],
+    "exit_code": 1,
+    "elapsed_seconds": 0.76,
+    "log": "adb.txt"
+  },
+  {
+    "id": "android-sdk",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "version"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.02,
+    "log": "android-sdk.txt"
+  },
+  {
+    "id": "simulators-host",
+    "command": [
+      "xcrun",
+      "simctl",
+      "list",
+      "devices",
+      "available",
+      "--json"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 1.94,
+    "log": "simulators-host.txt",
+    "access": "host permission after sandbox service denial"
+  },
+  {
+    "id": "adb-host",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "devices",
+      "-l"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.03,
+    "log": "adb-host.txt",
+    "access": "host permission after sandbox service denial"
+  },
+  {
+    "id": "gradle",
+    "command": [
+      "./gradlew",
+      "--version",
+      "--offline"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.53,
+    "log": "gradle.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "id": "android-target",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "emulator-5554",
+      "shell",
+      "getprop",
+      "ro.build.version.sdk"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.04,
+    "log": "android-target.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "id": "android-size",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "emulator-5554",
+      "shell",
+      "wm",
+      "size"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.06,
+    "log": "android-size.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "id": "android-density",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "emulator-5554",
+      "shell",
+      "wm",
+      "density"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.07,
+    "log": "android-density.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "id": "android-accessibility-services",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "emulator-5554",
+      "shell",
+      "settings",
+      "get",
+      "secure",
+      "enabled_accessibility_services"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.07,
+    "log": "android-accessibility-services.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "id": "android-talkback-package",
+    "command": [
+      "/Users/zeyad/Library/Android/sdk/platform-tools/adb",
+      "-s",
+      "emulator-5554",
+      "shell",
+      "pm",
+      "path",
+      "com.google.android.marvin.talkback"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.07,
+    "log": "android-talkback-package.txt",
+    "access": "host permission",
+    "environment_override": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  }
+]

@@ -1,0 +1,192 @@
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/vm/sql06hhs7gj5qkm6_ttbvmq00000gn/T//adb.501.log
+Server had pid: 15120
+--- adb starting (pid 15120) ---
+10-20 13:32:19.769 15120 452603 I adb     : main.cpp:65 Android Debug Bridge version 1.0.41
+10-20 13:32:19.769 15120 452603 I adb     : main.cpp:65 Version 37.0.1-15733141
+10-20 13:32:19.769 15120 452603 I adb     : main.cpp:65 Installed as /Users/zeyad/Library/Android/sdk/platform-tools/adb
+10-20 13:32:19.769 15120 452603 I adb     : main.cpp:65 Running on Darwin 25.3.0 (arm64)
+10-20 13:32:19.769 15120 452603 I adb     : main.cpp:65 
+10-20 13:32:19.866  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:19.866  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "FJ7M5939Q4.local", addr: fe80::1080:c8ae:d627:ad90 }
+10-20 13:32:19.866  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "FJ7M5939Q4.local", addr: 172.20.41.53 }
+10-20 13:32:19.866  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:19.866  1438 13549 D adb     : zero_config.rs:461 Next attention in 363ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:19.866  1438 13549 D adb     : zero_config_driver.rs:270 Processing command DnsQueries { questions: [DnsQuery { name: "Android_OQGB3ATB.local", qtype: TYPE(A), qclass: ANY }, DnsQuery { name: "Android_OQGB3ATB.local", qtype: TYPE(AAAA), qclass: ANY }, DnsQuery { name: "e60822ab-77fc-4d9b-ba17-26adf221530c.local", qtype: TYPE(A), qclass: ANY }] }
+10-20 13:32:19.866  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=363ms
+10-20 13:32:19.867  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:19.867  1438 13549 D adb     : zero_config.rs:461 Next attention in 362ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:19.867  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=362ms
+10-20 13:32:19.875  1438 13549 D adb     : zero_config.rs:384 Processing 7 records from mDNS packet
+10-20 13:32:19.875  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Sonos-48A6B880C2EC.local", addr: 172.20.42.195 }
+10-20 13:32:19.875  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Sonos-48A6B880C2EC.local", addr: fe80::4aa6:b8ff:fe80:c2ec }
+10-20 13:32:19.875  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:19.875  1438 13549 D adb     : zero_config.rs:461 Next attention in 353ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:19.875  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=353ms
+10-20 13:32:19.890  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:19.890  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "F9PQV4QH9C.local", addr: fe80::1ced:8f89:eeb9:ad09 }
+10-20 13:32:19.891  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "F9PQV4QH9C.local", addr: 172.20.41.184 }
+10-20 13:32:19.891  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:19.891  1438 13549 D adb     : zero_config.rs:461 Next attention in 338ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:19.891  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=338ms
+10-20 13:32:19.951  1438 13549 D adb     : zero_config.rs:384 Processing 2 records from mDNS packet
+10-20 13:32:19.952  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:19.952  1438 13549 D adb     : zero_config.rs:461 Next attention in 277ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:19.952  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.062  1438 13549 D adb     : zero_config.rs:384 Processing 1 records from mDNS packet
+10-20 13:32:20.063  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:20.063  1438 13549 D adb     : zero_config.rs:461 Next attention in 166ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:20.063  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.076  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:20.076  1438 13549 D adb     : zero_config.rs:461 Next attention in 152ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:20.076  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.077  1438 13549 D adb     : zero_config.rs:384 Processing 4 records from mDNS packet
+10-20 13:32:20.077  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:20.077  1438 13549 D adb     : zero_config.rs:461 Next attention in 152ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:20.077  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.187  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.187  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "PJ-M237TH9LGP-2.local", addr: fe80::14ff:aea0:9272:100c }
+10-20 13:32:20.187  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "PJ-M237TH9LGP-2.local", addr: 172.20.40.246 }
+10-20 13:32:20.188  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:20.188  1438 13549 D adb     : zero_config.rs:461 Next attention in 42ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:20.188  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.192  1438 13549 D adb     : zero_config.rs:443 Store size=428, attention size=428
+10-20 13:32:20.192  1438 13549 D adb     : zero_config.rs:461 Next attention in 37ms for RR { attention_needed_on: Instant { tv_sec: 13379, tv_nsec: 87215125 }, created_on: Instant { tv_sec: 13259, tv_nsec: 87215125 }, ttl: 120s, lifecycle_state: Probed95, payload: AAAA { name: "3267418c-5d4e-4e6a-a1de-0393f0065d90.local", addr: :: } }
+10-20 13:32:20.192  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=300ms
+10-20 13:32:20.230  1438 13549 D adb     : zero_config.rs:384 Processing 5 records from mDNS packet
+10-20 13:32:20.230  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "PJ-PF-4NT3J9.local", addr: 172.20.40.56 }
+10-20 13:32:20.230  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "PJ-PF-4NT3J9.local", addr: fe80::c902:83ce:3dcf:c8ee }
+10-20 13:32:20.230  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.230  1438 13549 D adb     : zero_config.rs:461 Next attention in 1596ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.230  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1596ms
+10-20 13:32:20.261  1438 13549 D adb     : zero_config.rs:384 Processing 4 records from mDNS packet
+10-20 13:32:20.262  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "FF98F08DDD1AAA32747BCEE2.local", addr: 172.20.41.215 }
+10-20 13:32:20.262  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.262  1438 13549 D adb     : zero_config.rs:461 Next attention in 1564ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.262  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1564ms
+10-20 13:32:20.266  1438 13549 D adb     : zero_config.rs:384 Processing 5 records from mDNS packet
+10-20 13:32:20.266  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "PF6C7BM0.local", addr: 172.20.40.61 }
+10-20 13:32:20.266  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "PF6C7BM0.local", addr: fe80::8114:e6ba:5fd0:2759 }
+10-20 13:32:20.266  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.266  1438 13549 D adb     : zero_config.rs:461 Next attention in 1560ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.266  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1560ms
+10-20 13:32:20.268  1438 13549 D adb     : zero_config.rs:384 Processing 9 records from mDNS packet
+10-20 13:32:20.268  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "iMac-som-tillhor-magnus.local", addr: fe80::14e0:7ad3:c53:ba27 }
+10-20 13:32:20.268  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "iMac-som-tillhor-magnus.local", addr: 172.20.41.179 }
+10-20 13:32:20.268  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.268  1438 13549 D adb     : zero_config.rs:461 Next attention in 1558ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.268  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1558ms
+10-20 13:32:20.269  1438 13549 D adb     : zero_config.rs:384 Processing 5 records from mDNS packet
+10-20 13:32:20.269  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "PF6C5N1Y.local", addr: 172.20.40.185 }
+10-20 13:32:20.269  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "PF6C5N1Y.local", addr: fe80::4a5d:bb6e:ce32:96b0 }
+10-20 13:32:20.269  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.269  1438 13549 D adb     : zero_config.rs:461 Next attention in 1557ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.269  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1557ms
+10-20 13:32:20.274  1438 13549 D adb     : zero_config.rs:384 Processing 5 records from mDNS packet
+10-20 13:32:20.274  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Pontus.local", addr: 172.20.40.112 }
+10-20 13:32:20.274  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Pontus.local", addr: fe80::852f:9b47:3122:ab59 }
+10-20 13:32:20.274  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.274  1438 13549 D adb     : zero_config.rs:461 Next attention in 1552ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.274  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1552ms
+10-20 13:32:20.287  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.287  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Q2-ELIND-M779PXNF0C.local", addr: fe80::e9:f468:28d:d918 }
+10-20 13:32:20.287  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Q2-ELIND-M779PXNF0C.local", addr: 172.20.41.62 }
+10-20 13:32:20.287  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.287  1438 13549 D adb     : zero_config.rs:461 Next attention in 1539ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.287  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1539ms
+10-20 13:32:20.301  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:20.301  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Zeyads-MacBook-Pro.local", addr: fe80::14a3:defe:14d6:9b21 }
+10-20 13:32:20.301  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Zeyads-MacBook-Pro.local", addr: 172.20.41.148 }
+10-20 13:32:20.301  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:461 Next attention in 1524ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.302  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1524ms
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:384 Processing 9 records from mDNS packet
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Pro-som-tillhor-Christopher.local", addr: 172.20.40.216 }
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Pro-som-tillhor-Christopher.local", addr: fe80::144d:199a:38f4:74a6 }
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.302  1438 13549 D adb     : zero_config.rs:461 Next attention in 1523ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.302  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1523ms
+10-20 13:32:20.313  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.313  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Antons-MacBook-Pro-3.local", addr: fe80::1410:c449:fbae:8009 }
+10-20 13:32:20.313  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Antons-MacBook-Pro-3.local", addr: 172.20.40.120 }
+10-20 13:32:20.313  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.313  1438 13549 D adb     : zero_config.rs:461 Next attention in 1513ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.313  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1513ms
+10-20 13:32:20.323  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Pro-som-tillhor-Zuperdatan.local", addr: fe80::c33:711d:6b28:7260 }
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Pro-som-tillhor-Zuperdatan.local", addr: 172.20.42.232 }
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Seemanta.local", addr: fe80::1493:7f1:6265:a0e1 }
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Seemanta.local", addr: 172.20.40.169 }
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.324  1438 13549 D adb     : zero_config.rs:461 Next attention in 1503ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.324  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1503ms
+10-20 13:32:20.366  1438 13549 D adb     : zero_config.rs:384 Processing 5 records from mDNS packet
+10-20 13:32:20.367  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Ruben.local", addr: 172.20.40.34 }
+10-20 13:32:20.367  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Ruben.local", addr: fe80::c0cb:578b:4ff3:7118 }
+10-20 13:32:20.367  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.367  1438 13549 D adb     : zero_config.rs:461 Next attention in 1459ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.367  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1459ms
+10-20 13:32:20.369  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:20.369  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Nikes-MacBook-Pro.local", addr: fe80::1cb4:dcc2:bb5f:f81 }
+10-20 13:32:20.369  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Nikes-MacBook-Pro.local", addr: 172.20.41.170 }
+10-20 13:32:20.369  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.369  1438 13549 D adb     : zero_config.rs:461 Next attention in 1457ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.369  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1457ms
+10-20 13:32:20.382  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:20.382  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Pro-82.local", addr: fe80::b:f7bc:590:3070 }
+10-20 13:32:20.382  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Pro-82.local", addr: 172.20.40.250 }
+10-20 13:32:20.382  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.382  1438 13549 D adb     : zero_config.rs:461 Next attention in 1444ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.382  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1444ms
+10-20 13:32:20.387  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.387  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Air-som-tillhor-Elin-2.local", addr: fe80::94:c689:61b0:b2bc }
+10-20 13:32:20.387  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Air-som-tillhor-Elin-2.local", addr: 172.20.41.133 }
+10-20 13:32:20.387  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.387  1438 13549 D adb     : zero_config.rs:461 Next attention in 1439ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.387  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1439ms
+10-20 13:32:20.392  1438 13549 D adb     : zero_config.rs:384 Processing 8 records from mDNS packet
+10-20 13:32:20.392  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Air-som-tillhor-Gustav.local", addr: fe80::4aa:b0d4:1c83:ff9b }
+10-20 13:32:20.392  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Air-som-tillhor-Gustav.local", addr: 172.20.41.183 }
+10-20 13:32:20.392  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.392  1438 13549 D adb     : zero_config.rs:461 Next attention in 1433ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.392  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1433ms
+10-20 13:32:20.395 15120 452603 F adb     : main.cpp:168 could not install *smartsocket* listener: Operation not permitted
+10-20 13:32:20.403  1438 13549 D adb     : zero_config.rs:384 Processing 7 records from mDNS packet
+10-20 13:32:20.403  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "PJ-GFTFW3CQ90.local", addr: fe80::189f:e14a:911d:6ebc }
+10-20 13:32:20.403  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "PJ-GFTFW3CQ90.local", addr: 172.20.41.22 }
+10-20 13:32:20.403  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.404  1438 13549 D adb     : zero_config.rs:461 Next attention in 1422ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.404  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1422ms
+10-20 13:32:20.427  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.428  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Q2-STEFAN-GJ6XVKFPDF.local", addr: fe80::1878:b077:ab2e:a393 }
+10-20 13:32:20.428  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Q2-STEFAN-GJ6XVKFPDF.local", addr: 172.20.40.244 }
+10-20 13:32:20.428  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.428  1438 13549 D adb     : zero_config.rs:461 Next attention in 1398ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.428  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1398ms
+10-20 13:32:20.432  1438 13549 D adb     : zero_config.rs:384 Processing 12 records from mDNS packet
+10-20 13:32:20.432  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Air---Jakob.local", addr: fe80::14c1:ec6a:11fe:eb8e }
+10-20 13:32:20.432  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Air---Jakob.local", addr: 172.20.41.24 }
+10-20 13:32:20.432  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.432  1438 13549 D adb     : zero_config.rs:461 Next attention in 1394ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.432  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1394ms
+10-20 13:32:20.433  1438 13549 D adb     : zero_config.rs:384 Processing 12 records from mDNS packet
+10-20 13:32:20.433  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "MacBook-Pro-5.local", addr: fe80::7f:89d0:6d16:5cc5 }
+10-20 13:32:20.433  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "MacBook-Pro-5.local", addr: 172.20.40.249 }
+10-20 13:32:20.433  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.433  1438 13549 D adb     : zero_config.rs:461 Next attention in 1393ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.433  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1393ms
+10-20 13:32:20.459  1438 13549 D adb     : zero_config.rs:384 Processing 11 records from mDNS packet
+10-20 13:32:20.459  1438 13549 D adb     : zero_config.rs:214 Processing RR: AAAA { name: "Irmas-MacBook-Air-2.local", addr: fe80::1cbd:7b14:9575:1d4c }
+10-20 13:32:20.459  1438 13549 D adb     : zero_config.rs:214 Processing RR: A { name: "Irmas-MacBook-Air-2.local", addr: 172.20.40.78 }
+10-20 13:32:20.459  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.459  1438 13549 D adb     : zero_config.rs:461 Next attention in 1367ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.459  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1367ms
+10-20 13:32:20.461  1438 13549 D adb     : zero_config.rs:384 Processing 1 records from mDNS packet
+10-20 13:32:20.461  1438 13549 D adb     : zero_config.rs:443 Store size=427, attention size=427
+10-20 13:32:20.461  1438 13549 D adb     : zero_config.rs:461 Next attention in 1365ms for RR { attention_needed_on: Instant { tv_sec: 13380, tv_nsec: 684502541 }, created_on: Instant { tv_sec: 13266, tv_nsec: 684502541 }, ttl: 120s, lifecycle_state: Probed90, payload: A { name: "d7d3f38c-ffa2-428d-afdb-ef076e9655a6.local", addr: 172.20.42.20 } }
+10-20 13:32:20.461  1438 13549 D adb     : zero_config_driver.rs:243 ZeroConfigDriver polling with timeout=1365ms
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon

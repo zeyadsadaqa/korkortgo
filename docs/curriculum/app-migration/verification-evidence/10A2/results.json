@@ -1,0 +1,58 @@
+{
+  "task": "10A2",
+  "status": "pass",
+  "candidate": {
+    "file": {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "checks": [
+    {
+      "id": "10A2-ENV",
+      "status": "pass",
+      "expected": "required toolchains and runtime targets available or bootable",
+      "observed": "recorded versions; running Android emulator; original iOS simulator available/shutdown; IAB available",
+      "evidence": "environment-commands.json"
+    },
+    {
+      "id": "10A2-SCOPE",
+      "status": "pass",
+      "expected": 54,
+      "observed": 54,
+      "evidence": "scope-matrix.json#/rows"
+    },
+    {
+      "id": "10A2-POLICY",
+      "status": "pass",
+      "expected": "simulator-only iOS plus configured harness/static web",
+      "observed": "preserved without scope mutation",
+      "evidence": "scope-matrix.json#/basis"
+    },
+    {
+      "id": "10A2-CONDITIONAL",
+      "status": "pass",
+      "expected": 4,
+      "observed": 4,
+      "evidence": "scope-matrix.json#/conditional_state_contracts"
+    },
+    {
+      "id": "10A2-UNAVAILABLE",
+      "status": "pass",
+      "expected": 0,
+      "observed": 0,
+      "evidence": "scope-matrix.json#/required_unavailable_checks"
+    }
+  ],
+  "rows": 54,
+  "required_rows": 37,
+  "excluded_rows": 17,
+  "conditional_future_cases": 4,
+  "runtime_passes_claimed": 0,
+  "sandbox_retry": "Initial simctl/adb service queries failed under sandbox; host-permitted read-only retries succeeded. Both phases retained.",
+  "readiness_limits": "iOS simulator must be booted at execution; TalkBack currently disabled and requires scoped enable/restore; browser app/build and external callbacks are not yet exercised."
+}
