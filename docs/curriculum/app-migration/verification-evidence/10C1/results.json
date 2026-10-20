@@ -1,0 +1,18 @@
+{
+  "task": "10C1",
+  "status": "fail",
+  "audit_executed": true,
+  "counts": {
+    "references": 519,
+    "canonical_sources": 116,
+    "original_question_URLs": 404,
+    "questions": 1000,
+    "uses": 8166,
+    "checks": 19121,
+    "passed": 19115,
+    "failed": 6
+  },
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "open_findings": 6,
+  "next_within_requested_sequence": "10C2: recheck affected and time-sensitive claims"
+}

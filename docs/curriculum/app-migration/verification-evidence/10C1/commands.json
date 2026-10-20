@@ -1,0 +1,38 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10C1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.SourceBindingVerification10CTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "env": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    },
+    "test_timestamp_utc": "2026-10-20T18:00:38.755Z",
+    "exit_code": 0,
+    "log": "compiled-source-test.txt",
+    "log_sha256": "c9dc711a910ed307c512eea065557d18f0a66ec3dcaf7d8ae704c40437101487",
+    "time_provenance": "JUnit test timestamp; command wall-clock start/end not captured in initial invocation",
+    "original_log_sha256": "b4bc518c12578b5e0d0d82990f3613c3ae62eb38141c5dac0a18582b03618a2f",
+    "log_normalization": "Removed trailing whitespace from the Gradle daemon status line before commit; command messages and result unchanged."
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:15:47.049636+00:00",
+    "ended_utc": "2026-10-20T18:15:48.999001+00:00",
+    "exit_code": 1,
+    "expected_exit_code": 1,
+    "log": "source-audit-run.txt",
+    "log_sha256": "103d454c5121fc7c6809a0ec6b826f51b2649f54114b4956f754a0bf09bb9088"
+  }
+]
