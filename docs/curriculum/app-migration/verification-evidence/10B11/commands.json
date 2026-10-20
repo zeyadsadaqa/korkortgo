@@ -1,0 +1,55 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10B1/jvm-test-init.gradle",
+      "-PverificationTask=10B11",
+      "--tests",
+      "se.korkort.ImportVerification10BTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:20:14.911149+00:00",
+    "ended_utc": "2026-10-20T17:20:44.602859+00:00",
+    "exit_code": 0,
+    "log": "reader-gradle.txt",
+    "log_sha256": "295dbab4cdd58e6dcab22242ce1d3cd24c349b6f821b3fc6c9e6e169462eb72f",
+    "verifier_sha256": "4df4f2af1f82d48bfc75b2517fdf901adfae0a728c7cfa25b55711d24547059d",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py",
+      "10B11"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:20:44.605155+00:00",
+    "ended_utc": "2026-10-20T17:20:44.971643+00:00",
+    "exit_code": 1,
+    "log": "initial-list-diagnostic.txt",
+    "log_sha256": "c60768719f11f2baeab9fe59a066e460b20862befe268b44c3a34a612509a225",
+    "verifier_sha256": "4df4f2af1f82d48bfc75b2517fdf901adfae0a728c7cfa25b55711d24547059d",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9",
+    "original_log_name": "audit-run.txt",
+    "retention_note": "Original failed output retained at its diagnostic filename before the successful rerun."
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py",
+      "10B11"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:21:54.230153+00:00",
+    "ended_utc": "2026-10-20T17:21:54.551140+00:00",
+    "exit_code": 0,
+    "log": "audit-run.txt",
+    "log_sha256": "1b25f88faf2b4fe6ce60e01e2827d7555afa14ff4c0a47cf5eb14d31b12ba6c0",
+    "verifier_sha256": "48062ea12f23e31a729a1646251d973f7471c6c686608fdfbea939e5298ebb83",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  }
+]
