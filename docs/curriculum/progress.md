@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 20 October 2026 (10C source audits and available shared runtime checks executed)
+**Last updated:** 20 October 2026 (10D artwork audits and shared keyboard/runtime checks executed)
 **Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
-**Next action:** The next planned sequence is **10D1**. [10C results](app-migration/verification-evidence/10C3/review.md) leave T02 open: six classification fixes need the bounded 10L workflow, one Volvo current-source check is unresolved, and 10C3 awaits fresh 10K platform observations. **10A1–10B14 remain complete** for the unchanged candidate; T01 passes. T02–T10 and final step-10 closure remain pending. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
+**Next action:** The next planned sequence is **10E1**. [10D results](app-migration/verification-evidence/10D4/review.md) leave T03 open for DEF-10D-001 (pending selection has no visible indication), required independent 10E semantic reconciliation and fresh 10K platform/assistive evidence. [10C/T02 blockers](app-migration/verification-evidence/10C3/review.md) remain open. **10A1–10B14 remain complete** for the unchanged candidate; T01 passes. No accepted input or production renderer changed during 10C/10D verification.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -20,7 +20,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
 | 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
-| 10 | Verify the finished app | In progress; 10A–10B complete | [T01 import verification](app-migration/verification-evidence/10B14/review.md); [10C evidence and blockers](app-migration/verification-evidence/10C3/review.md); next planned sequence is 10D1 |
+| 10 | Verify the finished app | In progress; 10A–10B complete | [T01 import verification](app-migration/verification-evidence/10B14/review.md); [10C blockers](app-migration/verification-evidence/10C3/review.md) and [10D evidence/blockers](app-migration/verification-evidence/10D4/review.md); next planned sequence is 10E1 |
 
 ## Step 4 substep tracker
 
@@ -116,7 +116,7 @@ Each preview requires imagegen and explicit user approval before the next design
 
 ## Step 10 substep tracker
 
-**Current status — 20 October 2026:** 10A1–10B14 completed under the user’s requested sequences. T01 import verification passes. 10C1 and 10C2 audits executed with findings; 10C3 has 18 shared desktop matrix passes and three supplemental checks, with native/browser closure pending 10K. Six metadata defects and one current-source blocker keep T02 open; 10D–10M remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. 10A preparation establishes identity, scope and case coverage; 10B records the independently executed T01 import/content gate. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
+**Current status — 20 October 2026:** 10A1–10B14 completed under the user’s requested sequences. T01 import verification passes. 10C1 and 10C2 audits executed with findings; 10C3 has 18 shared desktop matrix passes and three supplemental checks, with native/browser closure pending 10K. Six metadata defects and one current-source blocker keep T02 open. 10D data and available shared checks are executed: 15,094 data checks, 2,464 artwork contexts and 160 keyboard/gate observations; a new visible-selection defect and 10E/10K requirements keep T03 open. 10E–10M remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. 10A preparation establishes identity, scope and case coverage; 10B records the independently executed T01 import/content gate. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
 
 | Task | Work | Status |
 |---|---|---|
@@ -140,10 +140,10 @@ Each preview requires imagegen and explicit user approval before the next design
 | 10C1 | Audit exact source bindings and classifications | Audit executed; [six classification failures](app-migration/verification-evidence/10C1/review.md), acceptance open |
 | 10C2 | Recheck affected and time-sensitive source claims | [Executed: 29 claims and three briefs](app-migration/verification-evidence/10C2/source-currency-review.md); one currency blocker |
 | 10C3 | Verify source opening, failure and return context | [18 shared desktop matrix passes + 3 supplemental checks](app-migration/verification-evidence/10C3/review.md); 54 cases and final closure pending 10K |
-| 10D1 | Audit every sign description, variant and distractor change | Not started |
-| 10D2 | Verify the thirty-eight former holds and faint-artwork cases | Not started |
-| 10D3 | Verify visual delivery at approved sizes | Not started |
-| 10D4 | Verify accessible assessment interaction | Not started |
+| 10D1 | Audit every sign description, variant and distractor change | [15,094 data checks pass](app-migration/verification-evidence/10D1/review.md); independent semantic reconciliation pending 10E2–10E14 |
+| 10D2 | Verify the thirty-eight former holds and faint-artwork cases | [19 pairs / twelve assets / 24 slots reconciled](app-migration/verification-evidence/10D2/review.md); comparison sheets and platform cases prepared |
+| 10D3 | Verify visual delivery at approved sizes | [2,464 shared contexts / 6,160 zoom returns](app-migration/verification-evidence/10D3/review.md); visible-selection defect and fresh visual/platform acceptance open |
+| 10D4 | Verify accessible assessment interaction | [160 shared keyboard/feedback checks pass](app-migration/verification-evidence/10D4/review.md); actual platform modality/TalkBack and T03 closure pending |
 | 10E1 | Verify the retained bank and complete ID accounting | Not started |
 | 10E2 | Verify sign rewrite batch 1 — 50 questions | Not started |
 | 10E3 | Verify sign rewrite batch 2 — 50 questions | Not started |
@@ -905,3 +905,5 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **20 October — 10C1 audit executed:** All 404 question URL records, 116 canonical source destinations, 519 compiled source records and 8,166 accepted question/option source uses resolve correctly. Independent publisher/jurisdiction/type review found six records wrongly classified as foreign public-authority guidance. Task acceptance/T02 remain open; no production input or source date changed. [Findings](app-migration/verification-evidence/10C1/classification-review.md). Continuing to 10C2 within the requested sequence.
 
 **20 October — 10C sequence audited:** 10C1 resolved all exact bindings but found six source-classification defects; 10C2 inspected 29 selected claims and all three briefs, confirming those defects and retaining an unresolved direct Volvo handbook check. 10C3 prepared 72 source cases, passed 18 shared desktop matrix cases and three supplemental recovery/return checks; 54 native/browser cases and production-owner/platform closure await fresh 10K evidence. No accepted inputs or historical source dates changed. T02 remains open with [findings, dependencies and retest handoff](app-migration/verification-evidence/10C3/review.md). No 10D work executed.
+
+**20 October — 10D sequence checked:** 10D1 reconciled all 616 sign revisions, 1,540 image occurrences and 134 overlapping distractor changes in 15,094 checks; independent 10E semantic reviews remain required. 10D2 reconciled all 19 replacement pairs and twelve faint assets/24 slots, prepared 2,920 original platform contexts and inspected six unchanged-artwork comparison sheets. 10D3 completed 2,464 shared artwork contexts and 6,160 image zoom returns but found DEF-10D-001: a selected visible choice has no persistent visual indication. 10D4 passed 160 accepted-question keyboard/feedback checks at 390px and diagnostic 320px. No native/browser/TalkBack result was inferred; required fresh 10K observations, full visual reviews and bounded 10L fix/retest remain open. Production inputs, official artwork and historical receipts are unchanged. [Evidence and T03 handoff](app-migration/verification-evidence/10D4/review.md). No 10E work executed.

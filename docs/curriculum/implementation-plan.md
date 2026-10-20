@@ -2349,6 +2349,8 @@ Exercise in-app source details and the external Open source callback with repres
 
 #### 10D1. Audit every sign description, variant and distractor change
 
+**Status — 20 October 2026: Data audit passes; semantic reconciliation pending 10E2–10E14.** [616 revisions / 15,094 checks](app-migration/verification-evidence/10D1/review.md), including all 134 overlapping distractor changes and fresh gated compiled projections. Exact proposal/provenance parity is not an independent semantic/variant signoff.
+
 Reconcile the 578 sign rewrites and 38 replacements with exact official code/variant, neutral physical descriptions, authored option IDs and paired-direction semantics. Account for all 134 overlapping distractor changes without counting them as extra questions. Review visible and accessible pre-answer projections for code/name/key leaks.
 
 **Input:** 10E2–10E14, 10B13 and shared assessment contracts.
@@ -2358,6 +2360,8 @@ Reconcile the 578 sign rewrites and 38 replacements with exact official code/var
 **Done when:** All 616 revised sign questions and 134 distractor changes have individual results; no unreviewed variant, answer leak or ambiguous duplicate option remains.
 
 #### 10D2. Verify the thirty-eight former holds and faint-artwork cases
+
+**Status — 20 October 2026: Binding/comparison preparation executed.** [19 pairs, twelve assets and 24 slots](app-migration/verification-evidence/10D2/review.md) reconcile to exact accepted revisions. All 2,920 frozen platform contexts are prepared; six 1:1 comparison sheets were inspected. Fresh full-question/platform delivery remains 10D3/10K.
 
 Reconcile all 19 exact-code replacement pairs with their accepted revisions and approval evidence. Identify all twelve faint assets and 24 affected questions, overlaps and every required full-question context; prepare intended-size/zoom comparison sheets using unchanged official files.
 
@@ -2369,6 +2373,8 @@ Reconcile all 19 exact-code replacement pairs with their accepted revisions and 
 
 #### 10D3. Verify visual delivery at approved sizes
 
+**Status — 20 October 2026: Shared behaviour checked; visual acceptance open.** [2,464 contexts and 6,160 image zoom returns](app-migration/verification-evidence/10D3/review.md) pass shared assertions. DEF-10D-001 records invisible pending selection; no final visual pass is claimed. All 456 native/browser replacement contexts and representative supplements require fresh 10K evidence.
+
 Review fresh full-question and zoom observations for the 10A3 matrix, including every replacement and faint-artwork case, both themes, large text and smallest approved display. Check geometry, fine strokes, equal option presentation, clipping, scrolling, selection and zoom return.
 
 **Input:** 10D2, approved faint-layout revision and fresh 10K platform captures.
@@ -2378,6 +2384,8 @@ Review fresh full-question and zoom observations for the 10A3 matrix, including 
 **Done when:** All required contexts are legible and preserve exact artwork/selection; every observation names its actual platform and size, with no compile-only or contact-sheet-only device claim.
 
 #### 10D4. Verify accessible assessment interaction
+
+**Status — 20 October 2026: Shared keyboard/gate checks executed; T03 open.** [160 checks](app-migration/verification-evidence/10D4/review.md) pass on ten accepted questions, both feedback modes, four settings and 390/320px shared widths. Visible selection needs bounded 10L repair/retest; actual platform/modal checks and Android TalkBack remain 10K requirements.
 
 Inspect hidden/visible answer semantics, neutral option names, selection/feedback, reading/focus order, modal background exclusion, keyboard controls and return focus. Run supported assistive checks per 10A2; record actual TalkBack/listening separately from native node audits and simulator VoiceOver limitations.
 
@@ -2883,7 +2891,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10D1 — audit every sign description, variant and distractor change.** 10C audits and shared checks are recorded; T02 remains open for the bounded 10L corrections/currency disposition and fresh 10K observations listed in the [10C review](app-migration/verification-evidence/10C3/review.md).
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10E1 — verify the retained bank and complete ID accounting.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. T02/T03 remain open for the bounded 10L corrections, source-currency disposition, required 10E reconciliation and fresh 10K observations.
 
 ## Content principle
 
