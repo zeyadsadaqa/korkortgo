@@ -1,11 +1,11 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 19 October 2026 (9J acceptance, accepted-package 9M3 and 9L14 closure)
-**Current position:** Steps 1–8 remain complete for the approved screen edition. 9J/9K/9L/9M are complete for their defined scope: 1,000 accepted questions, zero holds; all 18 applicable transient contracts pass, four future-store cases remain conditional; canonical production integration and legacy cleanup pass. All 150 Python and 85 shared tests pass, with focused final regressions and complete accepted-bank native/browser flow evidence. iOS testing uses the user's selected simulator scope. See [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md).
-**Next action:** 9N1–9N3 assessment-coverage briefs, followed by independent 9O and step 10 verification. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
+**Last updated:** 20 October 2026 (9O8 handoff reconciled; step 10 execution plan prepared)
+**Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
+**Next action:** Separately request **10A1** to reconcile the current candidate with the handoff. The detailed [step 10 plan](implementation-plan.md#10-verify-the-finished-app) is prepared; no independent step 10 verification has run. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
 
-This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Eight of ten steps have cleared their requirements for the chosen screen-edition scope; print production is deferred. This is a step count, not an estimate of total effort completed.
+This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
 ## Status overview
 
@@ -19,8 +19,8 @@ This file records actual work and approvals. It does not authorise the next step
 | 6 | Produce and verify the curriculum PDF | Completed for screen edition | [Approved release](pdf-production/korkortgo-curriculum.pdf), [verification](pdf-production/verification.md), [approval/scope](pdf-production/final-review/screen-release.json); print masters deferred |
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
-| 9 | Implement the approved app changes | In progress; 9J/9K/9L/9M closed; 9N next | [closure evidence and reproduction](app-migration/implementation-evidence/closure-9j-9m-9l14/README.md); 9N briefs and later 9O remain |
-| 10 | Verify the finished app | Not started | Verify the implementation and save the results |
+| 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
+| 10 | Verify the finished app | Planned; execution not started | [10A–10M plan](implementation-plan.md#10-verify-the-finished-app): 70 executable tasks; next is 10A1 |
 
 ## Step 4 substep tracker
 
@@ -105,16 +105,91 @@ Each preview requires imagegen and explicit user approval before the next design
 
 ## Step 9 substep tracker
 
-9A–9O group labels retain the migration backlog references. Execute only the requested numbered task; completion does not start another task.
+**Current summary — 20 October 2026:** All 125 executable tasks are complete within the accepted scope. The [implementation plan](implementation-plan.md#9-implement-the-approved-app-changes) retains individual task statuses and dated checkpoints; the [9O8 evidence index](app-migration/implementation-evidence/evidence-index.json) is the full per-task/per-ID inventory. This summary supersedes the earlier partial tracker without rewriting historical execution records.
 
-| Substep | Work | Status | Deliverable / next requirement |
-|---|---|---|---|
-| 9A1 | Freeze and check approved inputs | Completed; no blocking drift | [Baseline](app-migration/implementation-evidence/9A1/input-baseline.json), [readiness](app-migration/implementation-evidence/9A1/readiness.md), [review](app-migration/implementation-evidence/9A1/review.md); 1,174 matching bindings and 21 passing checks |
-| 9A2 | Define typed content contract | Completed; desktop/common build and 11 tests pass | [Schema](app-migration/implementation-evidence/9A2/content-contract.md), [review](app-migration/implementation-evidence/9A2/review.md), [checks](app-migration/implementation-evidence/9A2/verification.json) |
-| 9A3 | Implement deterministic generation/validation | Completed; 44 compiler and 12 Kotlin/desktop tests pass | [Compiler usage/fixture](app-migration/implementation-evidence/9A3/README.md), [review](app-migration/implementation-evidence/9A3/review.md), [checks](app-migration/implementation-evidence/9A3/verification.json) |
-| 9B1 | Import introductions and reading structure | Completed; 86 checks and 14 JVM tests pass | [Authoring payload](../../content/curriculum.json), [ledger](../../content/curriculum-import-state.json), [review](app-migration/implementation-evidence/9B1/review.md) |
-| 9B2 | Import module M01 | Not started | Separate request; preserve 9B1 opening IDs and cumulative import state |
-| Remaining step 9 tasks | Content, questions, routes, UI, state and platform evidence | Not started | Follow exact task dependencies in the [implementation plan](implementation-plan.md#9-implement-the-approved-app-changes) |
+| Group | Status | Evidence / boundary |
+|---|---|---|
+| 9A–9I | Completed | Input/import/assets and all assigned question changes; exact task records in the 9O8 index |
+| 9J–9M | Completed for applicable scope | 1,000 accepted / zero holds, production integration and eighteen passing transient contracts; four future-store cases conditional |
+| 9N1–9N3 | Completed | Three assessment briefs; no additional scored IDs |
+| 9O1–9O8 | Completed within accepted scope | [Handoff](app-migration/implementation-evidence/implementation-review.md); physical-device and other scoped limits remain explicit |
+
+## Step 10 substep tracker
+
+**Planning only — 20 October 2026.** Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app). No verification result is implied. Dependencies and completion criteria are in the plan. Planned evidence belongs under `app-migration/verification-evidence/<task-id>/`; outputs do not exist merely because they are listed here. 10L tasks are the bounded repair/retest loop and record an explicit no-fix disposition when none is required.
+
+| Task | Work | Status |
+|---|---|---|
+| 10A1 | Reconcile the current candidate with the implementation handoff | Not started |
+| 10A2 | Record the required platform and accessibility scope | Not started |
+| 10A3 | Prepare the case index and defect register | Not started |
+| 10B1 | Verify opening material and canonical structure | Not started |
+| 10B2 | Verify module M01 | Not started |
+| 10B3 | Verify module M02 | Not started |
+| 10B4 | Verify module M03 | Not started |
+| 10B5 | Verify module M04 | Not started |
+| 10B6 | Verify module M05 | Not started |
+| 10B7 | Verify module M06 | Not started |
+| 10B8 | Verify module M07 | Not started |
+| 10B9 | Verify module M08 | Not started |
+| 10B10 | Verify module M09 | Not started |
+| 10B11 | Verify module M10 | Not started |
+| 10B12 | Verify all four appendices | Not started |
+| 10B13 | Verify the sign/reference package | Not started |
+| 10B14 | Close full import and generation parity | Not started |
+| 10C1 | Audit exact source bindings and classifications | Not started |
+| 10C2 | Recheck affected and time-sensitive source claims | Not started |
+| 10C3 | Verify source opening, failure and return context | Not started |
+| 10D1 | Audit every sign description, variant and distractor change | Not started |
+| 10D2 | Verify the thirty-eight former holds and faint-artwork cases | Not started |
+| 10D3 | Verify visual delivery at approved sizes | Not started |
+| 10D4 | Verify accessible assessment interaction | Not started |
+| 10E1 | Verify the retained bank and complete ID accounting | Not started |
+| 10E2 | Verify sign rewrite batch 1 — 50 questions | Not started |
+| 10E3 | Verify sign rewrite batch 2 — 50 questions | Not started |
+| 10E4 | Verify sign rewrite batch 3 — 50 questions | Not started |
+| 10E5 | Verify sign rewrite batch 4 — 50 questions | Not started |
+| 10E6 | Verify sign rewrite batch 5 — 50 questions | Not started |
+| 10E7 | Verify sign rewrite batch 6 — 50 questions | Not started |
+| 10E8 | Verify sign rewrite batch 7 — 50 questions | Not started |
+| 10E9 | Verify sign rewrite batch 8 — 50 questions | Not started |
+| 10E10 | Verify sign rewrite batch 9 — 50 questions | Not started |
+| 10E11 | Verify sign rewrite batch 10 — 50 questions | Not started |
+| 10E12 | Verify sign rewrite batch 11 — 50 questions | Not started |
+| 10E13 | Verify sign rewrite batch 12 — 28 questions | Not started |
+| 10E14 | Verify all thirty-eight replacement assessments | Not started |
+| 10E15 | Verify the eight scenario corrections | Not started |
+| 10E16 | Verify thirty driver-inclusive load definitions | Not started |
+| 10E17 | Verify the four exact fuel-saving keys | Not started |
+| 10E18 | Verify the six unit-wording changes and close content accounting | Not started |
+| 10F1 | Verify every supported quiz length and quota | Not started |
+| 10F2 | Verify shuffled options and both feedback modes | Not started |
+| 10F3 | Verify immutable session snapshots and invalid-bank rejection | Not started |
+| 10F4 | Verify real-bank quiz journeys | Not started |
+| 10G1 | Verify the complete alias tables | Not started |
+| 10G2 | Verify ambiguous, malformed and missing routes | Not started |
+| 10G3 | Verify SIG16–SIG18 unavailable actions | Not started |
+| 10H1 | Verify state transitions and reading neighbours | Not started |
+| 10H2 | Verify guards and recovery states | Not started |
+| 10H3 | Verify all twenty-two state contracts | Not started |
+| 10I1 | Verify complete library and reading access | Not started |
+| 10I2 | Verify search, categories, tags and empty states | Not started |
+| 10I3 | Verify the three assessment-gap disclosures | Not started |
+| 10J1 | Map approved previews to implemented states | Not started |
+| 10J2 | Compare rendered layout and interaction states | Not started |
+| 10J3 | Audit all fourteen learner-copy rules and provenance | Not started |
+| 10K1 | Run fresh common integration and generation checks | Not started |
+| 10K2 | Verify the Android emulator build and runtime | Not started |
+| 10K3 | Verify the configured JVM desktop harness | Not started |
+| 10K4 | Verify the iOS simulator build and runtime | Not started |
+| 10K5 | Verify the iOS device framework and scope exclusion | Not started |
+| 10K6 | Verify the production web distribution and browser runtime | Not started |
+| 10K7 | Reconcile platform and cross-gate results | Not started |
+| 10L1 | Triage findings and define a bounded fix | Not started |
+| 10L2 | Apply one bounded correction | Not started |
+| 10L3 | Retest the fix and its dependent gates | Not started |
+| 10M1 | Assemble and audit the complete verification report | Not started |
+| 10M2 | Record the final candidate and completion status | Not started |
 
 ## Completed work
 
@@ -788,3 +863,5 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 
 
 **20 October — 9O8 / step 9 implementation handoff completed within accepted scope:** Assembled the implementation review and reproducible evidence index for all 125 executable steps and all 1,000 accepted IDs (336 retained, 626 rewritten, 38 replaced; no holds). Cross-checked source/asset receipts, three coverage briefs, configured platform results and T01–T10 ownership. Six final generation/delivery/release checks reproduce the unchanged candidate; four documented later documentation/test-selector differences from the historical closure snapshot remain explicit. Physical iPhone runtime is unperformed/excluded by existing simulator policy; desktop/web/accessibility limits and four conditional future-store cases remain recorded. No current implementation blocker; independent step 10 is not started and requires a separate request. [Handoff](app-migration/implementation-evidence/implementation-review.md), [index](app-migration/implementation-evidence/evidence-index.json).
+
+**20 October — step 10 planning breakdown prepared:** Expanded the existing T01–T10 specification into 70 separately executable tasks across 10A–10M, covering input/scope checks, per-module and per-question-batch reviews, sources, artwork/accessibility, quiz/state/routes/library/copy, configured platform runs, bounded fixes/retests and final verification closure. Added explicit evidence, dependency and completion rules and preserved the existing simulator/harness/static-web limits and design approval workflow. Reconciled the stale tracker summary with the completed 9O8 handoff. Planning only: no app/content edits, verification execution, new design, acceptance decision or publication. Next: 10A1, separately requested.
