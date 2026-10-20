@@ -1,0 +1,38 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10B1/jvm-test-init.gradle",
+      "-PverificationTask=10B8",
+      "--tests",
+      "se.korkort.ImportVerification10BTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:18:53.678921+00:00",
+    "ended_utc": "2026-10-20T17:19:23.855979+00:00",
+    "exit_code": 0,
+    "log": "reader-gradle.txt",
+    "log_sha256": "295dbab4cdd58e6dcab22242ce1d3cd24c349b6f821b3fc6c9e6e169462eb72f",
+    "verifier_sha256": "d2a6262d24c1c8d7d84a26d5369ce855075197e1b1f700eb7bc11f122beaf0dd",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py",
+      "10B8"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:19:23.858239+00:00",
+    "ended_utc": "2026-10-20T17:19:24.256533+00:00",
+    "exit_code": 0,
+    "log": "audit-run.txt",
+    "log_sha256": "1bfd253551f43c6f6255bdfa0e0d061856fc9b34248e47a464075f10989c6ea1",
+    "verifier_sha256": "d2a6262d24c1c8d7d84a26d5369ce855075197e1b1f700eb7bc11f122beaf0dd",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  }
+]
