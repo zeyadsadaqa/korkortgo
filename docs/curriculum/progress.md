@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 20 October 2026 (9O8 handoff reconciled; step 10 execution plan prepared)
+**Last updated:** 20 October 2026 (10A1–10A3 verification preparation completed)
 **Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
-**Next action:** Separately request **10A1** to reconcile the current candidate with the handoff. The detailed [step 10 plan](implementation-plan.md#10-verify-the-finished-app) is prepared; no independent step 10 verification has run. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
+**Next action:** Separately request **10B1** to verify opening material and canonical structure. **10A1–10A3 are complete**: candidate baseline, platform/accessibility scope, exhaustive case index and defect register are saved in the [preparation evidence](app-migration/verification-evidence/10A3/review.md). Independent T01–T10 app checks remain unrun. The historical 384 accepted / 616 held candidate remains audit data, not the production bank.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -20,7 +20,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
 | 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
-| 10 | Verify the finished app | Planned; execution not started | [10A–10M plan](implementation-plan.md#10-verify-the-finished-app): 70 executable tasks; next is 10A1 |
+| 10 | Verify the finished app | In progress; 10A1–10A3 complete | [Preparation evidence](app-migration/verification-evidence/10A3/review.md); T01–T10 remain pending; next is 10B1 |
 
 ## Step 4 substep tracker
 
@@ -116,13 +116,13 @@ Each preview requires imagegen and explicit user approval before the next design
 
 ## Step 10 substep tracker
 
-**Planning only — 20 October 2026.** Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app). No verification result is implied. Dependencies and completion criteria are in the plan. Planned evidence belongs under `app-migration/verification-evidence/<task-id>/`; outputs do not exist merely because they are listed here. 10L tasks are the bounded repair/retest loop and record an explicit no-fix disposition when none is required.
+**Current status — 20 October 2026:** 10A1–10A3 completed sequentially under the user’s request. All other tasks remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. Preparation checks establish identity, scope and case coverage, not T01–T10 functional acceptance. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
 
 | Task | Work | Status |
 |---|---|---|
-| 10A1 | Reconcile the current candidate with the implementation handoff | Not started |
-| 10A2 | Record the required platform and accessibility scope | Not started |
-| 10A3 | Prepare the case index and defect register | Not started |
+| 10A1 | Reconcile the current candidate with the implementation handoff | Completed; [nine baseline checks pass](app-migration/verification-evidence/10A1/review.md) |
+| 10A2 | Record the required platform and accessibility scope | Completed; [54-row scope and readiness matrix](app-migration/verification-evidence/10A2/review.md) |
+| 10A3 | Prepare the case index and defect register | Completed; [34 preparation checks and complete case/defect indexes](app-migration/verification-evidence/10A3/review.md) |
 | 10B1 | Verify opening material and canonical structure | Not started |
 | 10B2 | Verify module M01 | Not started |
 | 10B3 | Verify module M02 | Not started |
@@ -865,3 +865,9 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **20 October — 9O8 / step 9 implementation handoff completed within accepted scope:** Assembled the implementation review and reproducible evidence index for all 125 executable steps and all 1,000 accepted IDs (336 retained, 626 rewritten, 38 replaced; no holds). Cross-checked source/asset receipts, three coverage briefs, configured platform results and T01–T10 ownership. Six final generation/delivery/release checks reproduce the unchanged candidate; four documented later documentation/test-selector differences from the historical closure snapshot remain explicit. Physical iPhone runtime is unperformed/excluded by existing simulator policy; desktop/web/accessibility limits and four conditional future-store cases remain recorded. No current implementation blocker; independent step 10 is not started and requires a separate request. [Handoff](app-migration/implementation-evidence/implementation-review.md), [index](app-migration/implementation-evidence/evidence-index.json).
 
 **20 October — step 10 planning breakdown prepared:** Expanded the existing T01–T10 specification into 70 separately executable tasks across 10A–10M, covering input/scope checks, per-module and per-question-batch reviews, sources, artwork/accessibility, quiz/state/routes/library/copy, configured platform runs, bounded fixes/retests and final verification closure. Added explicit evidence, dependency and completion rules and preserved the existing simulator/harness/static-web limits and design approval workflow. Reconciled the stale tracker summary with the completed 9O8 handoff. Planning only: no app/content edits, verification execution, new design, acceptance decision or publication. Next: 10A1, separately requested.
+
+**20 October — 10A1 completed:** Reconciled the accepted candidate with 9O8, fingerprinted 7,461 tracked inputs and verified 932 accepted file/hash pairs plus all 484 original/bundled artwork bindings. Only plan/progress differ, traced to the two planning commits; no runtime/content/approval/policy drift. Retained the corrected historical-commit-locator diagnostic. [Evidence](app-migration/verification-evidence/10A1/review.md). Continuing to 10A2 within the requested sequence.
+
+**20 October — 10A2 completed:** Recorded 54 scope rows and four conditional future-store cases. Python/JDK/Gradle/Xcode/SDK, running Android emulator, original bootable iOS simulator and in-app browser are available; sandbox service denials resolved via host-permitted read-only queries. All 37 required future checks remain unrun. Existing simulator/harness/static-web limits and actual TalkBack versus semantics distinctions are explicit. [Evidence](app-migration/verification-evidence/10A2/review.md). Continuing to 10A3.
+
+**20 October — 10A3 completed; requested 10A sequence closed:** Prepared all ten gates as 42 observable clauses, 36 original coverage families, 6,848 data cases and all 1,000 question cases with exact rewrite/replacement membership. Frozen matrix includes 2,920 artwork contexts and deterministic engine/source/reflow/production cases. All 34 preparation checks pass, including 9,921 oracle locators and an acyclic 70-task completion graph; no app/runtime case is marked passed. Defect register retains the resolved preparation-tool diagnostic and known limits. Historical receipts/runtime/content remain unchanged. [Evidence and reproduction](app-migration/verification-evidence/10A3/review.md). Stopped before 10B1.

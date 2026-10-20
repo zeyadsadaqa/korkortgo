@@ -2055,9 +2055,9 @@ All 9A–9O outputs must satisfy the original backlog acceptance criteria as wel
 
 ## 10. Verify the finished app
 
-**Planning status — 20 October 2026: Breakdown prepared; verification not started.** Step 9 is complete within its recorded scope. This plan turns the existing T01–T10 specification into independently requestable tasks; it does not certify the app, run the checks or authorize publication.
+**Current status — 20 October 2026: 10A1–10A3 complete; independent T01–T10 execution remains pending.** [Preparation review](app-migration/verification-evidence/10A3/review.md) binds the unchanged accepted candidate, required scope and complete case/defect indexes. Step 9 remains complete within its recorded scope. Preparation completion does not certify the app or authorize publication.
 
-Execute exact task IDs such as **10A1** or **10B2**. **10A–10M are groups, not single executable tasks.** Complete the requested task, save its evidence and update [progress.md](progress.md); starting another task requires a separate request unless the user explicitly requests a sequence. All outputs below are planned deliverables, not existing results.
+Execute exact task IDs such as **10A1** or **10B2**. **10A–10M are groups, not single executable tasks.** Complete the requested task, save its evidence and update [progress.md](progress.md); starting another task requires a separate request unless the user explicitly requests a sequence. Outputs below remain planned unless a dated execution record links their completed evidence.
 
 **Binding inputs:** [Step 9 handoff](app-migration/implementation-evidence/implementation-review.md), [machine evidence index](app-migration/implementation-evidence/evidence-index.json), [original T01–T10 specification](app-migration/implementation-backlog.md#step-10-verification-specification), [question assignments](app-migration/implementation-backlog.json), [question decisions](app-migration/question-actions.json), [curriculum registry](app-migration/curriculum-map.json), [link/state contracts](app-migration/link-and-progress-map.json), [approved app design](app-design-review.md), [design specification](app-design-spec.md), [approved faint-artwork revision](app-design/faint-assets-v1/review.md), [content build guide](../development/content.md) and [delivery policy](../../content/delivery-targets.json). The frozen planning JSON and historical acceptance receipts remain intact; these tasks refine execution without replacing their requirements.
 
@@ -2097,6 +2097,8 @@ Freeze the candidate and scope before creating any new acceptance claim.
 
 #### 10A1. Reconcile the current candidate with the implementation handoff
 
+**Status — 20 October 2026: Complete.** [Baseline reconciliation](app-migration/verification-evidence/10A1/review.md) passes nine checks: 1,065 matching handoff files, two explained documentation differences, 932 accepted hash references and all 484 original/bundled artwork bindings; 7,461 tracked inputs fingerprinted. No unexplained candidate drift.
+
 Compare the current accepted manifest, PDF, content, generated code, assets, runtime/test code, design approvals and policy to 9O8. Record commit and uncommitted changes, including this planning-only documentation update. Classify drift rather than rewriting historical hashes.
 
 **Input:** 9O8 handoff/index and current repository.
@@ -2107,6 +2109,8 @@ Compare the current accepted manifest, PDF, content, generated code, assets, run
 
 #### 10A2. Record the required platform and accessibility scope
 
+**Status — 20 October 2026: Complete.** [Scope/readiness review](app-migration/verification-evidence/10A2/review.md) records 54 target/check rows, 37 required future checks, 17 explicit exclusions/non-surface rows and four conditional contracts. Required targets are available/bootable; existing delivery limits are preserved. No app/runtime pass is claimed.
+
 Build a case matrix separating build, packaged bytes, runtime, offline delivery, external links, visual legibility, keyboard, semantic/focus audits and actual assistive-technology use. Carry forward the existing exclusions and four future-store cases. Map unavailable required checks to blockers.
 
 **Input:** 10A1 and the existing delivery policy/platform reports.
@@ -2116,6 +2120,8 @@ Build a case matrix separating build, packaged bytes, runtime, offline delivery,
 **Done when:** Every target/check has a requirement, method and availability status; no physical-device or listening pass is inferred and no existing requirement is silently waived.
 
 #### 10A3. Prepare the case index and defect register
+
+**Status — 20 October 2026: Complete.** [Case and defect preparation](app-migration/verification-evidence/10A3/review.md) covers 42 gate clauses, all 36 original coverage families, 6,848 data cases, all 1,000 question IDs, exact rewrite/replacement batches and 2,920 artwork contexts. Thirty-four preparation checks validate locators, membership and acyclic dependencies; all functional cases remain unrun or explicitly conditional/excluded. No open preparation blocker.
 
 Map every T01–T10 clause to task IDs and case IDs. Freeze exact question batch memberships from 9E/9F records, all route/state families and a reproducible runtime matrix: real-bank flows, high-risk artwork, themes, smallest approved size, large text and input modes. Define defect severity, reproduction, owner, impacted gates and closure fields.
 
@@ -2843,7 +2849,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10A1 — reconcile the current candidate with the implementation handoff.**
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10B1 — verify opening material and canonical structure.**
 
 ## Content principle
 
