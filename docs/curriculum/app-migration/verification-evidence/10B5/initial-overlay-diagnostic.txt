@@ -1,0 +1,20 @@
+/Users/zeyad/Desktop/korkort/docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py:138: DeprecationWarning: 'maxsplit' is passed as positional argument
+  if '/prompt' in id:expected=re.split(r'\*\*(?:Answer|Review guide):\*\*',raw,1)[0];expected=markdown(expected)
+{
+  "task": "10B5",
+  "status": "fail",
+  "totals": {
+    "checks": 519,
+    "passed": 518,
+    "documents": 8,
+    "blocks_recursive": 170
+  },
+  "failures": [
+    {
+      "case_id": "10B5-00077",
+      "name": "M04-L01/illustration/M04-L01-priority exact ordered overlays",
+      "passed": false,
+      "details": null
+    }
+  ]
+}

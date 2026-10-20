@@ -1,0 +1,74 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10B1/jvm-test-init.gradle",
+      "-PverificationTask=10B5",
+      "--tests",
+      "se.korkort.ImportVerification10BTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:12:18.725539+00:00",
+    "ended_utc": "2026-10-20T17:13:24.165611+00:00",
+    "exit_code": 0,
+    "log": "reader-gradle.txt",
+    "log_sha256": "c0b396fe99b2faf98f3e661a7f84ad9b88d4176c8e5a12da30139f1856e901de",
+    "reader_harness_snapshot": "../10B1/reader-harness-initial.kt.txt",
+    "reader_harness_sha256": "9c1ff7ab49d9d0b494afbe24c2edeb22318a0b8f4a0ba2320ced7528efee23e4"
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py",
+      "10B5"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:13:24.167380+00:00",
+    "ended_utc": "2026-10-20T17:13:24.755653+00:00",
+    "exit_code": 1,
+    "log": "initial-overlay-diagnostic.txt",
+    "log_sha256": "6d7b6bff4212edbf1a811f0a609b98285a52699ab4cfca01af3638644c26885c",
+    "original_log_name": "audit-run.txt",
+    "retention_note": "Original failed output retained at its diagnostic filename before the successful rerun."
+  },
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10B1/jvm-test-init.gradle",
+      "-PverificationTask=10B5",
+      "--tests",
+      "se.korkort.ImportVerification10BTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:14:38.485052+00:00",
+    "ended_utc": "2026-10-20T17:15:43.903122+00:00",
+    "exit_code": 0,
+    "log": "reader-gradle.txt",
+    "log_sha256": "c0b396fe99b2faf98f3e661a7f84ad9b88d4176c8e5a12da30139f1856e901de",
+    "verifier_sha256": "fa80c3857e3e80e1e404100c0af690a35f73b126433bb58b7d709421c4b90ebd",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10B1/verify_10b.py",
+      "10B5"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T17:15:43.904195+00:00",
+    "ended_utc": "2026-10-20T17:15:44.470955+00:00",
+    "exit_code": 0,
+    "log": "audit-run.txt",
+    "log_sha256": "307e302228a16c51e16101db71e640020607c25a1a665b1fbf23651c94a7ed44",
+    "verifier_sha256": "fa80c3857e3e80e1e404100c0af690a35f73b126433bb58b7d709421c4b90ebd",
+    "reader_harness_sha256": "45f5f2d0219452ed786408fc4f9acf8e256c5bacae582bb5092837db2175cdc9"
+  }
+]
