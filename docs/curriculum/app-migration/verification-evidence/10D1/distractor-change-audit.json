@@ -1,0 +1,3357 @@
+{
+  "task": "10D1",
+  "count": 134,
+  "status": "data_audit_pass_pending_10E",
+  "questions": [
+    {
+      "question_id": "sign-meaning-A4",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A4",
+        "S12",
+        "M8",
+        "T17"
+      ],
+      "proposed_codes": [
+        "A4",
+        "B1",
+        "M8",
+        "T17"
+      ],
+      "accepted_codes": [
+        "A4",
+        "B1",
+        "M8",
+        "T17"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A4",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A4",
+        "S12",
+        "M8",
+        "T17"
+      ],
+      "proposed_codes": [
+        "A4",
+        "B1",
+        "M8",
+        "T17"
+      ],
+      "accepted_codes": [
+        "A4",
+        "B1",
+        "M8",
+        "T17"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A7",
+        "X8",
+        "C32",
+        "M28"
+      ],
+      "proposed_codes": [
+        "A7",
+        "B1",
+        "C32",
+        "M28"
+      ],
+      "accepted_codes": [
+        "A7",
+        "B1",
+        "C32",
+        "M28"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A7",
+        "X8",
+        "C32",
+        "M28"
+      ],
+      "proposed_codes": [
+        "A7",
+        "B1",
+        "C32",
+        "M28"
+      ],
+      "accepted_codes": [
+        "A7",
+        "B1",
+        "C32",
+        "M28"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A8",
+        "E34",
+        "T1",
+        "C23"
+      ],
+      "proposed_codes": [
+        "A8",
+        "E34",
+        "B1",
+        "C23"
+      ],
+      "accepted_codes": [
+        "A8",
+        "E34",
+        "B1",
+        "C23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A8",
+        "E34",
+        "T1",
+        "C23"
+      ],
+      "proposed_codes": [
+        "A8",
+        "E34",
+        "B1",
+        "C23"
+      ],
+      "accepted_codes": [
+        "A8",
+        "E34",
+        "B1",
+        "C23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A9",
+        "G7",
+        "T1",
+        "F7"
+      ],
+      "proposed_codes": [
+        "A9",
+        "G7",
+        "B1",
+        "F7"
+      ],
+      "accepted_codes": [
+        "A9",
+        "G7",
+        "B1",
+        "F7"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A9",
+        "G7",
+        "T1",
+        "F7"
+      ],
+      "proposed_codes": [
+        "A9",
+        "G7",
+        "B1",
+        "F7"
+      ],
+      "accepted_codes": [
+        "A9",
+        "G7",
+        "B1",
+        "F7"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A12",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "T22"
+      ],
+      "proposed_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "B1"
+      ],
+      "accepted_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A12",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "T22"
+      ],
+      "proposed_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "B1"
+      ],
+      "accepted_codes": [
+        "A12",
+        "F34",
+        "E29",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A16",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A16",
+        "S12",
+        "S7",
+        "T19"
+      ],
+      "proposed_codes": [
+        "A16",
+        "B1",
+        "B2",
+        "T19"
+      ],
+      "accepted_codes": [
+        "A16",
+        "B1",
+        "B2",
+        "T19"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-recognise-A16",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A16",
+        "S12",
+        "S7",
+        "T19"
+      ],
+      "proposed_codes": [
+        "A16",
+        "B1",
+        "B2",
+        "T19"
+      ],
+      "accepted_codes": [
+        "A16",
+        "B1",
+        "B2",
+        "T19"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E2"
+    },
+    {
+      "question_id": "sign-meaning-A34",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A34",
+        "E23",
+        "T1",
+        "F20"
+      ],
+      "proposed_codes": [
+        "A34",
+        "E23",
+        "B1",
+        "F20"
+      ],
+      "accepted_codes": [
+        "A34",
+        "E23",
+        "B1",
+        "F20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-recognise-A34",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A34",
+        "E23",
+        "T1",
+        "F20"
+      ],
+      "proposed_codes": [
+        "A34",
+        "E23",
+        "B1",
+        "F20"
+      ],
+      "accepted_codes": [
+        "A34",
+        "E23",
+        "B1",
+        "F20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-meaning-A35",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A35",
+        "F6",
+        "T1",
+        "A15"
+      ],
+      "proposed_codes": [
+        "A35",
+        "F6",
+        "B1",
+        "A15"
+      ],
+      "accepted_codes": [
+        "A35",
+        "F6",
+        "B1",
+        "A15"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-recognise-A35",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "A35",
+        "F6",
+        "T1",
+        "A15"
+      ],
+      "proposed_codes": [
+        "A35",
+        "F6",
+        "B1",
+        "A15"
+      ],
+      "accepted_codes": [
+        "A35",
+        "F6",
+        "B1",
+        "A15"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-meaning-B2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B2",
+        "F15",
+        "T6",
+        "F27"
+      ],
+      "proposed_codes": [
+        "B2",
+        "F15",
+        "B1",
+        "F27"
+      ],
+      "accepted_codes": [
+        "B2",
+        "F15",
+        "B1",
+        "F27"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-recognise-B2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B2",
+        "F15",
+        "T6",
+        "F27"
+      ],
+      "proposed_codes": [
+        "B2",
+        "F15",
+        "B1",
+        "F27"
+      ],
+      "accepted_codes": [
+        "B2",
+        "F15",
+        "B1",
+        "F27"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-meaning-B3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "S10"
+      ],
+      "proposed_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "B1"
+      ],
+      "accepted_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-recognise-B3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "S10"
+      ],
+      "proposed_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "B1"
+      ],
+      "accepted_codes": [
+        "B3",
+        "F5",
+        "M18",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-meaning-B7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B7",
+        "M3",
+        "S2",
+        "H13"
+      ],
+      "proposed_codes": [
+        "B7",
+        "M3",
+        "B1",
+        "H13"
+      ],
+      "accepted_codes": [
+        "B7",
+        "M3",
+        "B1",
+        "H13"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-recognise-B7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "B7",
+        "M3",
+        "S2",
+        "H13"
+      ],
+      "proposed_codes": [
+        "B7",
+        "M3",
+        "B1",
+        "H13"
+      ],
+      "accepted_codes": [
+        "B7",
+        "M3",
+        "B1",
+        "H13"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E3"
+    },
+    {
+      "question_id": "sign-meaning-C7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C7",
+        "E5",
+        "T8",
+        "S6"
+      ],
+      "proposed_codes": [
+        "C7",
+        "E5",
+        "B1",
+        "B2"
+      ],
+      "accepted_codes": [
+        "C7",
+        "E5",
+        "B1",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C7",
+        "E5",
+        "T8",
+        "S6"
+      ],
+      "proposed_codes": [
+        "C7",
+        "E5",
+        "B1",
+        "B2"
+      ],
+      "accepted_codes": [
+        "C7",
+        "E5",
+        "B1",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C8",
+        "S13",
+        "A41",
+        "H6"
+      ],
+      "proposed_codes": [
+        "C8",
+        "B1",
+        "A41",
+        "H6"
+      ],
+      "accepted_codes": [
+        "C8",
+        "B1",
+        "A41",
+        "H6"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C8",
+        "S13",
+        "A41",
+        "H6"
+      ],
+      "proposed_codes": [
+        "C8",
+        "B1",
+        "A41",
+        "H6"
+      ],
+      "accepted_codes": [
+        "C8",
+        "B1",
+        "A41",
+        "H6"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C14",
+        "S2",
+        "F8",
+        "S13"
+      ],
+      "proposed_codes": [
+        "C14",
+        "B1",
+        "F8",
+        "B2"
+      ],
+      "accepted_codes": [
+        "C14",
+        "B1",
+        "F8",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C14",
+        "S2",
+        "F8",
+        "S13"
+      ],
+      "proposed_codes": [
+        "C14",
+        "B1",
+        "F8",
+        "B2"
+      ],
+      "accepted_codes": [
+        "C14",
+        "B1",
+        "F8",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C15",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C15",
+        "X8",
+        "A11",
+        "F31a"
+      ],
+      "proposed_codes": [
+        "C15",
+        "B1",
+        "A11",
+        "F31a"
+      ],
+      "accepted_codes": [
+        "C15",
+        "B1",
+        "A11",
+        "F31a"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C15",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C15",
+        "X8",
+        "A11",
+        "F31a"
+      ],
+      "proposed_codes": [
+        "C15",
+        "B1",
+        "A11",
+        "F31a"
+      ],
+      "accepted_codes": [
+        "C15",
+        "B1",
+        "A11",
+        "F31a"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C17",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C17",
+        "S9",
+        "M12",
+        "D11"
+      ],
+      "proposed_codes": [
+        "C17",
+        "B1",
+        "M12",
+        "D11"
+      ],
+      "accepted_codes": [
+        "C17",
+        "B1",
+        "M12",
+        "D11"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C17",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C17",
+        "S9",
+        "M12",
+        "D11"
+      ],
+      "proposed_codes": [
+        "C17",
+        "B1",
+        "M12",
+        "D11"
+      ],
+      "accepted_codes": [
+        "C17",
+        "B1",
+        "M12",
+        "D11"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C21",
+        "M31",
+        "S9",
+        "A34"
+      ],
+      "proposed_codes": [
+        "C21",
+        "M31",
+        "B1",
+        "A34"
+      ],
+      "accepted_codes": [
+        "C21",
+        "M31",
+        "B1",
+        "A34"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-recognise-C21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C21",
+        "M31",
+        "S9",
+        "A34"
+      ],
+      "proposed_codes": [
+        "C21",
+        "M31",
+        "B1",
+        "A34"
+      ],
+      "accepted_codes": [
+        "C21",
+        "M31",
+        "B1",
+        "A34"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E4"
+    },
+    {
+      "question_id": "sign-meaning-C27",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C27",
+        "H27",
+        "S8",
+        "M23"
+      ],
+      "proposed_codes": [
+        "C27",
+        "H27",
+        "B1",
+        "M23"
+      ],
+      "accepted_codes": [
+        "C27",
+        "H27",
+        "B1",
+        "M23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-C27",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C27",
+        "H27",
+        "S8",
+        "M23"
+      ],
+      "proposed_codes": [
+        "C27",
+        "H27",
+        "B1",
+        "M23"
+      ],
+      "accepted_codes": [
+        "C27",
+        "H27",
+        "B1",
+        "M23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-C36",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "S12"
+      ],
+      "proposed_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "B1"
+      ],
+      "accepted_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-C36",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "S12"
+      ],
+      "proposed_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "B1"
+      ],
+      "accepted_codes": [
+        "C36",
+        "C4",
+        "F33",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-C39",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C39",
+        "F4",
+        "T8",
+        "F36"
+      ],
+      "proposed_codes": [
+        "C39",
+        "F4",
+        "B1",
+        "F36"
+      ],
+      "accepted_codes": [
+        "C39",
+        "F4",
+        "B1",
+        "F36"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-C39",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C39",
+        "F4",
+        "T8",
+        "F36"
+      ],
+      "proposed_codes": [
+        "C39",
+        "F4",
+        "B1",
+        "F36"
+      ],
+      "accepted_codes": [
+        "C39",
+        "F4",
+        "B1",
+        "F36"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-C44",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C44",
+        "D1",
+        "S8",
+        "A10"
+      ],
+      "proposed_codes": [
+        "C44",
+        "D1",
+        "B1",
+        "A10"
+      ],
+      "accepted_codes": [
+        "C44",
+        "D1",
+        "B1",
+        "A10"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-C44",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C44",
+        "D1",
+        "S8",
+        "A10"
+      ],
+      "proposed_codes": [
+        "C44",
+        "D1",
+        "B1",
+        "A10"
+      ],
+      "accepted_codes": [
+        "C44",
+        "D1",
+        "B1",
+        "A10"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-C46",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C46",
+        "X7",
+        "T2",
+        "H17"
+      ],
+      "proposed_codes": [
+        "C46",
+        "X7",
+        "B1",
+        "H17"
+      ],
+      "accepted_codes": [
+        "C46",
+        "X7",
+        "B1",
+        "H17"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-C46",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "C46",
+        "X7",
+        "T2",
+        "H17"
+      ],
+      "proposed_codes": [
+        "C46",
+        "X7",
+        "B1",
+        "H17"
+      ],
+      "accepted_codes": [
+        "C46",
+        "X7",
+        "B1",
+        "H17"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-D3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D3",
+        "S7",
+        "C7",
+        "T20"
+      ],
+      "proposed_codes": [
+        "D3",
+        "B1",
+        "C7",
+        "T20"
+      ],
+      "accepted_codes": [
+        "D3",
+        "B1",
+        "C7",
+        "T20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-recognise-D3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D3",
+        "S7",
+        "C7",
+        "T20"
+      ],
+      "proposed_codes": [
+        "D3",
+        "B1",
+        "C7",
+        "T20"
+      ],
+      "accepted_codes": [
+        "D3",
+        "B1",
+        "C7",
+        "T20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E5"
+    },
+    {
+      "question_id": "sign-meaning-D7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D7",
+        "M26",
+        "T1",
+        "X10"
+      ],
+      "proposed_codes": [
+        "D7",
+        "M26",
+        "B1",
+        "X10"
+      ],
+      "accepted_codes": [
+        "D7",
+        "M26",
+        "B1",
+        "X10"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-D7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D7",
+        "M26",
+        "T1",
+        "X10"
+      ],
+      "proposed_codes": [
+        "D7",
+        "M26",
+        "B1",
+        "X10"
+      ],
+      "accepted_codes": [
+        "D7",
+        "M26",
+        "B1",
+        "X10"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-D8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D8",
+        "C42",
+        "S11",
+        "A23"
+      ],
+      "proposed_codes": [
+        "D8",
+        "C42",
+        "B1",
+        "A23"
+      ],
+      "accepted_codes": [
+        "D8",
+        "C42",
+        "B1",
+        "A23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-D8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D8",
+        "C42",
+        "S11",
+        "A23"
+      ],
+      "proposed_codes": [
+        "D8",
+        "C42",
+        "B1",
+        "A23"
+      ],
+      "accepted_codes": [
+        "D8",
+        "C42",
+        "B1",
+        "A23"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-D9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D9",
+        "E6",
+        "X8",
+        "F31a"
+      ],
+      "proposed_codes": [
+        "D9",
+        "E6",
+        "B1",
+        "F31a"
+      ],
+      "accepted_codes": [
+        "D9",
+        "E6",
+        "B1",
+        "F31a"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-D9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "D9",
+        "E6",
+        "X8",
+        "F31a"
+      ],
+      "proposed_codes": [
+        "D9",
+        "E6",
+        "B1",
+        "F31a"
+      ],
+      "accepted_codes": [
+        "D9",
+        "E6",
+        "B1",
+        "F31a"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-E3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "S3"
+      ],
+      "proposed_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-E3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "S3"
+      ],
+      "proposed_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E3",
+        "C31",
+        "A4",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-E7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "T8"
+      ],
+      "proposed_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-E7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "T8"
+      ],
+      "proposed_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E7",
+        "G7",
+        "I2",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-E14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "S3"
+      ],
+      "proposed_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-recognise-E14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "S3"
+      ],
+      "proposed_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E14",
+        "F31",
+        "C15",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E6"
+    },
+    {
+      "question_id": "sign-meaning-E19",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "S1"
+      ],
+      "proposed_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-recognise-E19",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "S1"
+      ],
+      "proposed_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E19",
+        "A40",
+        "F36",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-meaning-E25",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E25",
+        "E22",
+        "S2",
+        "A25"
+      ],
+      "proposed_codes": [
+        "E25",
+        "E22",
+        "B1",
+        "A25"
+      ],
+      "accepted_codes": [
+        "E25",
+        "E22",
+        "B1",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-recognise-E25",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E25",
+        "E22",
+        "S2",
+        "A25"
+      ],
+      "proposed_codes": [
+        "E25",
+        "E22",
+        "B1",
+        "A25"
+      ],
+      "accepted_codes": [
+        "E25",
+        "E22",
+        "B1",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-meaning-E33",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "S4"
+      ],
+      "proposed_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-recognise-E33",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "S4"
+      ],
+      "proposed_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "B1"
+      ],
+      "accepted_codes": [
+        "E33",
+        "M13",
+        "C38",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-meaning-E34",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E34",
+        "H12",
+        "S11",
+        "H20"
+      ],
+      "proposed_codes": [
+        "E34",
+        "H12",
+        "B1",
+        "H20"
+      ],
+      "accepted_codes": [
+        "E34",
+        "H12",
+        "B1",
+        "H20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-recognise-E34",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "E34",
+        "H12",
+        "S11",
+        "H20"
+      ],
+      "proposed_codes": [
+        "E34",
+        "H12",
+        "B1",
+        "H20"
+      ],
+      "accepted_codes": [
+        "E34",
+        "H12",
+        "B1",
+        "H20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E7"
+    },
+    {
+      "question_id": "sign-meaning-F13",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F13",
+        "C6",
+        "S2",
+        "J3"
+      ],
+      "proposed_codes": [
+        "F13",
+        "C6",
+        "B1",
+        "J3"
+      ],
+      "accepted_codes": [
+        "F13",
+        "C6",
+        "B1",
+        "J3"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F13",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F13",
+        "C6",
+        "S2",
+        "J3"
+      ],
+      "proposed_codes": [
+        "F13",
+        "C6",
+        "B1",
+        "J3"
+      ],
+      "accepted_codes": [
+        "F13",
+        "C6",
+        "B1",
+        "J3"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-F14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "S2"
+      ],
+      "proposed_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "B1"
+      ],
+      "accepted_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "S2"
+      ],
+      "proposed_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "B1"
+      ],
+      "accepted_codes": [
+        "F14",
+        "X6",
+        "A26",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-F16",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F16",
+        "S11",
+        "F37",
+        "E25"
+      ],
+      "proposed_codes": [
+        "F16",
+        "B1",
+        "F37",
+        "E25"
+      ],
+      "accepted_codes": [
+        "F16",
+        "B1",
+        "F37",
+        "E25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F16",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F16",
+        "S11",
+        "F37",
+        "E25"
+      ],
+      "proposed_codes": [
+        "F16",
+        "B1",
+        "F37",
+        "E25"
+      ],
+      "accepted_codes": [
+        "F16",
+        "B1",
+        "F37",
+        "E25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-F26",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F26",
+        "S13",
+        "E18",
+        "J2"
+      ],
+      "proposed_codes": [
+        "F26",
+        "B1",
+        "E18",
+        "J2"
+      ],
+      "accepted_codes": [
+        "F26",
+        "B1",
+        "E18",
+        "J2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F26",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F26",
+        "S13",
+        "E18",
+        "J2"
+      ],
+      "proposed_codes": [
+        "F26",
+        "B1",
+        "E18",
+        "J2"
+      ],
+      "accepted_codes": [
+        "F26",
+        "B1",
+        "E18",
+        "J2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-F30",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F30",
+        "S10",
+        "M12",
+        "A25"
+      ],
+      "proposed_codes": [
+        "F30",
+        "B1",
+        "M12",
+        "A25"
+      ],
+      "accepted_codes": [
+        "F30",
+        "B1",
+        "M12",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F30",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F30",
+        "S10",
+        "M12",
+        "A25"
+      ],
+      "proposed_codes": [
+        "F30",
+        "B1",
+        "M12",
+        "A25"
+      ],
+      "accepted_codes": [
+        "F30",
+        "B1",
+        "M12",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-F31",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F31",
+        "J3",
+        "S6",
+        "F4"
+      ],
+      "proposed_codes": [
+        "F31",
+        "J3",
+        "B1",
+        "F4"
+      ],
+      "accepted_codes": [
+        "F31",
+        "J3",
+        "B1",
+        "F4"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-recognise-F31",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "F31",
+        "J3",
+        "S6",
+        "F4"
+      ],
+      "proposed_codes": [
+        "F31",
+        "J3",
+        "B1",
+        "F4"
+      ],
+      "accepted_codes": [
+        "F31",
+        "J3",
+        "B1",
+        "F4"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E8"
+    },
+    {
+      "question_id": "sign-meaning-G1",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G1",
+        "F19",
+        "T2",
+        "A11"
+      ],
+      "proposed_codes": [
+        "G1",
+        "F19",
+        "B1",
+        "A11"
+      ],
+      "accepted_codes": [
+        "G1",
+        "F19",
+        "B1",
+        "A11"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-recognise-G1",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G1",
+        "F19",
+        "T2",
+        "A11"
+      ],
+      "proposed_codes": [
+        "G1",
+        "F19",
+        "B1",
+        "A11"
+      ],
+      "accepted_codes": [
+        "G1",
+        "F19",
+        "B1",
+        "A11"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-meaning-G8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "S7"
+      ],
+      "proposed_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "B1"
+      ],
+      "accepted_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-recognise-G8",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "S7"
+      ],
+      "proposed_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "B1"
+      ],
+      "accepted_codes": [
+        "G8",
+        "F2",
+        "E21",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-meaning-G9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "X8"
+      ],
+      "proposed_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "B1"
+      ],
+      "accepted_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-recognise-G9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "X8"
+      ],
+      "proposed_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "B1"
+      ],
+      "accepted_codes": [
+        "G9",
+        "C25",
+        "T21",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-meaning-H2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H2",
+        "B1",
+        "T6",
+        "F19"
+      ],
+      "proposed_codes": [
+        "H2",
+        "B1",
+        "B2",
+        "F19"
+      ],
+      "accepted_codes": [
+        "H2",
+        "B1",
+        "B2",
+        "F19"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-recognise-H2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H2",
+        "B1",
+        "T6",
+        "F19"
+      ],
+      "proposed_codes": [
+        "H2",
+        "B1",
+        "B2",
+        "F19"
+      ],
+      "accepted_codes": [
+        "H2",
+        "B1",
+        "B2",
+        "F19"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E9"
+    },
+    {
+      "question_id": "sign-meaning-H15",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "T1"
+      ],
+      "proposed_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "B1"
+      ],
+      "accepted_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H15",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "T1"
+      ],
+      "proposed_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "B1"
+      ],
+      "accepted_codes": [
+        "H15",
+        "F6",
+        "F20",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-H18",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H18",
+        "C34",
+        "T2",
+        "D8"
+      ],
+      "proposed_codes": [
+        "H18",
+        "C34",
+        "B1",
+        "D8"
+      ],
+      "accepted_codes": [
+        "H18",
+        "C34",
+        "B1",
+        "D8"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H18",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H18",
+        "C34",
+        "T2",
+        "D8"
+      ],
+      "proposed_codes": [
+        "H18",
+        "C34",
+        "B1",
+        "D8"
+      ],
+      "accepted_codes": [
+        "H18",
+        "C34",
+        "B1",
+        "D8"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-H21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H21",
+        "H12",
+        "S9",
+        "X8"
+      ],
+      "proposed_codes": [
+        "H21",
+        "H12",
+        "B1",
+        "B2"
+      ],
+      "accepted_codes": [
+        "H21",
+        "H12",
+        "B1",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H21",
+        "H12",
+        "S9",
+        "X8"
+      ],
+      "proposed_codes": [
+        "H21",
+        "H12",
+        "B1",
+        "B2"
+      ],
+      "accepted_codes": [
+        "H21",
+        "H12",
+        "B1",
+        "B2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-H24",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "T22"
+      ],
+      "proposed_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "B1"
+      ],
+      "accepted_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H24",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "T22"
+      ],
+      "proposed_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "B1"
+      ],
+      "accepted_codes": [
+        "H24",
+        "H14",
+        "D10",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-H27",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H27",
+        "S1",
+        "M24",
+        "C2"
+      ],
+      "proposed_codes": [
+        "H27",
+        "B1",
+        "M24",
+        "C2"
+      ],
+      "accepted_codes": [
+        "H27",
+        "B1",
+        "M24",
+        "C2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H27",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H27",
+        "S1",
+        "M24",
+        "C2"
+      ],
+      "proposed_codes": [
+        "H27",
+        "B1",
+        "M24",
+        "C2"
+      ],
+      "accepted_codes": [
+        "H27",
+        "B1",
+        "M24",
+        "C2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-H28",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H28",
+        "T4",
+        "S13",
+        "T12"
+      ],
+      "proposed_codes": [
+        "H28",
+        "T4",
+        "B1",
+        "T12"
+      ],
+      "accepted_codes": [
+        "H28",
+        "T4",
+        "B1",
+        "T12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-H28",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "H28",
+        "T4",
+        "S13",
+        "T12"
+      ],
+      "proposed_codes": [
+        "H28",
+        "T4",
+        "B1",
+        "T12"
+      ],
+      "accepted_codes": [
+        "H28",
+        "T4",
+        "B1",
+        "T12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-I2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "I2",
+        "G7",
+        "S9",
+        "M8"
+      ],
+      "proposed_codes": [
+        "I2",
+        "G7",
+        "B1",
+        "M8"
+      ],
+      "accepted_codes": [
+        "I2",
+        "G7",
+        "B1",
+        "M8"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-recognise-I2",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "I2",
+        "G7",
+        "S9",
+        "M8"
+      ],
+      "proposed_codes": [
+        "I2",
+        "G7",
+        "B1",
+        "M8"
+      ],
+      "accepted_codes": [
+        "I2",
+        "G7",
+        "B1",
+        "M8"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E10"
+    },
+    {
+      "question_id": "sign-meaning-M3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M3",
+        "S5",
+        "F38",
+        "G3"
+      ],
+      "proposed_codes": [
+        "M3",
+        "B1",
+        "F38",
+        "G3"
+      ],
+      "accepted_codes": [
+        "M3",
+        "B1",
+        "F38",
+        "G3"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M3",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M3",
+        "S5",
+        "F38",
+        "G3"
+      ],
+      "proposed_codes": [
+        "M3",
+        "B1",
+        "F38",
+        "G3"
+      ],
+      "accepted_codes": [
+        "M3",
+        "B1",
+        "F38",
+        "G3"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M4",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M4",
+        "S5",
+        "C27",
+        "M5"
+      ],
+      "proposed_codes": [
+        "M4",
+        "B1",
+        "C27",
+        "M5"
+      ],
+      "accepted_codes": [
+        "M4",
+        "B1",
+        "C27",
+        "M5"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M4",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M4",
+        "S5",
+        "C27",
+        "M5"
+      ],
+      "proposed_codes": [
+        "M4",
+        "B1",
+        "C27",
+        "M5"
+      ],
+      "accepted_codes": [
+        "M4",
+        "B1",
+        "C27",
+        "M5"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M6",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M6",
+        "T2",
+        "A31",
+        "D7"
+      ],
+      "proposed_codes": [
+        "M6",
+        "B1",
+        "A31",
+        "D7"
+      ],
+      "accepted_codes": [
+        "M6",
+        "B1",
+        "A31",
+        "D7"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M6",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M6",
+        "T2",
+        "A31",
+        "D7"
+      ],
+      "proposed_codes": [
+        "M6",
+        "B1",
+        "A31",
+        "D7"
+      ],
+      "accepted_codes": [
+        "M6",
+        "B1",
+        "A31",
+        "D7"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "S10"
+      ],
+      "proposed_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "S10"
+      ],
+      "proposed_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M9",
+        "H1",
+        "A25",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "S2"
+      ],
+      "proposed_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M14",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "S2"
+      ],
+      "proposed_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M14",
+        "A28",
+        "M16",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M24",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M24",
+        "S13",
+        "B2",
+        "T12"
+      ],
+      "proposed_codes": [
+        "M24",
+        "B1",
+        "B2",
+        "T12"
+      ],
+      "accepted_codes": [
+        "M24",
+        "B1",
+        "B2",
+        "T12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-recognise-M24",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M24",
+        "S13",
+        "B2",
+        "T12"
+      ],
+      "proposed_codes": [
+        "M24",
+        "B1",
+        "B2",
+        "T12"
+      ],
+      "accepted_codes": [
+        "M24",
+        "B1",
+        "B2",
+        "T12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E11"
+    },
+    {
+      "question_id": "sign-meaning-M25",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "S9"
+      ],
+      "proposed_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-recognise-M25",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "S9"
+      ],
+      "proposed_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "B1"
+      ],
+      "accepted_codes": [
+        "M25",
+        "A32",
+        "X9",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-meaning-S2",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "S2",
+        "T22",
+        "M5",
+        "H28"
+      ],
+      "proposed_codes": [
+        "S2",
+        "B1",
+        "M5",
+        "H28"
+      ],
+      "accepted_codes": [
+        "S2",
+        "B1",
+        "M5",
+        "H28"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-recognise-S2",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "S2",
+        "T22",
+        "M5",
+        "H28"
+      ],
+      "proposed_codes": [
+        "S2",
+        "B1",
+        "M5",
+        "H28"
+      ],
+      "accepted_codes": [
+        "S2",
+        "B1",
+        "M5",
+        "H28"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-meaning-S12",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "S12",
+        "X9",
+        "S9",
+        "X4"
+      ],
+      "proposed_codes": [
+        "S12",
+        "X9",
+        "B1",
+        "X4"
+      ],
+      "accepted_codes": [
+        "S12",
+        "X9",
+        "B1",
+        "X4"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-recognise-S12",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "S12",
+        "X9",
+        "S9",
+        "X4"
+      ],
+      "proposed_codes": [
+        "S12",
+        "X9",
+        "B1",
+        "X4"
+      ],
+      "accepted_codes": [
+        "S12",
+        "X9",
+        "B1",
+        "X4"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-meaning-T1",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "T1",
+        "C3",
+        "T22",
+        "H20"
+      ],
+      "proposed_codes": [
+        "T1",
+        "C3",
+        "B1",
+        "H20"
+      ],
+      "accepted_codes": [
+        "T1",
+        "C3",
+        "B1",
+        "H20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-recognise-T1",
+      "revision": "replacement-candidate-r2",
+      "original_codes": [
+        "T1",
+        "C3",
+        "T22",
+        "H20"
+      ],
+      "proposed_codes": [
+        "T1",
+        "C3",
+        "B1",
+        "H20"
+      ],
+      "accepted_codes": [
+        "T1",
+        "C3",
+        "B1",
+        "H20"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E14"
+    },
+    {
+      "question_id": "sign-meaning-T9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T9",
+        "S1",
+        "A39",
+        "X9"
+      ],
+      "proposed_codes": [
+        "T9",
+        "B1",
+        "A39",
+        "X9"
+      ],
+      "accepted_codes": [
+        "T9",
+        "B1",
+        "A39",
+        "X9"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-recognise-T9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T9",
+        "S1",
+        "A39",
+        "X9"
+      ],
+      "proposed_codes": [
+        "T9",
+        "B1",
+        "A39",
+        "X9"
+      ],
+      "accepted_codes": [
+        "T9",
+        "B1",
+        "A39",
+        "X9"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-meaning-T18",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "S12"
+      ],
+      "proposed_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "B1"
+      ],
+      "accepted_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-recognise-T18",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "S12"
+      ],
+      "proposed_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "B1"
+      ],
+      "accepted_codes": [
+        "T18",
+        "F14",
+        "M4",
+        "B1"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E12"
+    },
+    {
+      "question_id": "sign-meaning-T21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T21",
+        "S6",
+        "I4",
+        "F12"
+      ],
+      "proposed_codes": [
+        "T21",
+        "B1",
+        "I4",
+        "F12"
+      ],
+      "accepted_codes": [
+        "T21",
+        "B1",
+        "I4",
+        "F12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-recognise-T21",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "T21",
+        "S6",
+        "I4",
+        "F12"
+      ],
+      "proposed_codes": [
+        "T21",
+        "B1",
+        "I4",
+        "F12"
+      ],
+      "accepted_codes": [
+        "T21",
+        "B1",
+        "I4",
+        "F12"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-meaning-X1",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X1",
+        "T6",
+        "I4",
+        "M31"
+      ],
+      "proposed_codes": [
+        "X1",
+        "B1",
+        "I4",
+        "M31"
+      ],
+      "accepted_codes": [
+        "X1",
+        "B1",
+        "I4",
+        "M31"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-recognise-X1",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X1",
+        "T6",
+        "I4",
+        "M31"
+      ],
+      "proposed_codes": [
+        "X1",
+        "B1",
+        "I4",
+        "M31"
+      ],
+      "accepted_codes": [
+        "X1",
+        "B1",
+        "I4",
+        "M31"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-meaning-X6",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X6",
+        "D11",
+        "S8",
+        "G2"
+      ],
+      "proposed_codes": [
+        "X6",
+        "D11",
+        "B1",
+        "G2"
+      ],
+      "accepted_codes": [
+        "X6",
+        "D11",
+        "B1",
+        "G2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-recognise-X6",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X6",
+        "D11",
+        "S8",
+        "G2"
+      ],
+      "proposed_codes": [
+        "X6",
+        "D11",
+        "B1",
+        "G2"
+      ],
+      "accepted_codes": [
+        "X6",
+        "D11",
+        "B1",
+        "G2"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-meaning-X7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X7",
+        "S2",
+        "H13",
+        "T15"
+      ],
+      "proposed_codes": [
+        "X7",
+        "B1",
+        "H13",
+        "T15"
+      ],
+      "accepted_codes": [
+        "X7",
+        "B1",
+        "H13",
+        "T15"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-recognise-X7",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X7",
+        "S2",
+        "H13",
+        "T15"
+      ],
+      "proposed_codes": [
+        "X7",
+        "B1",
+        "H13",
+        "T15"
+      ],
+      "accepted_codes": [
+        "X7",
+        "B1",
+        "H13",
+        "T15"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-meaning-X9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X9",
+        "D9",
+        "T6",
+        "A25"
+      ],
+      "proposed_codes": [
+        "X9",
+        "D9",
+        "B1",
+        "A25"
+      ],
+      "accepted_codes": [
+        "X9",
+        "D9",
+        "B1",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    },
+    {
+      "question_id": "sign-recognise-X9",
+      "revision": "rewrite-r2",
+      "original_codes": [
+        "X9",
+        "D9",
+        "T6",
+        "A25"
+      ],
+      "proposed_codes": [
+        "X9",
+        "D9",
+        "B1",
+        "A25"
+      ],
+      "accepted_codes": [
+        "X9",
+        "D9",
+        "B1",
+        "A25"
+      ],
+      "status": "pass",
+      "counts_as_extra_question": false,
+      "semantic_review_owner": "10E13"
+    }
+  ]
+}

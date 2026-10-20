@@ -1,0 +1,38 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10D1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.ArtworkContract10DTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    },
+    "exit_code": 0,
+    "test_started_utc": "2026-10-20T18:25:07.723Z",
+    "test_elapsed_seconds": 0.474,
+    "time_provenance": "Fresh JUnit timestamp/duration; Gradle wrapper wall-clock start/end not captured in the initial command.",
+    "log": "compiled-contract-test.txt",
+    "log_sha256": "bf388ace3ef17ed00f65f89d66f819176ae14004768d66d87f771de5ada91157",
+    "original_log_sha256": "ba43dc68d1aa1a481c50732dc83d2443146a660c91d9fc58ebd8a4405962963e",
+    "log_normalization": "Trailing whitespace stripped from the Gradle daemon status line before packaging; messages/results unchanged."
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10D1/audit_semantics.py"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:43:06.846812+00:00",
+    "ended_utc": "2026-10-20T18:43:08.294041+00:00",
+    "exit_code": 0,
+    "log": "audit-run.txt",
+    "log_sha256": "cbd273a6969847c6dc6ac8702955f52e8b2fa590eaee51f630bde4dc38ea6a05"
+  }
+]
