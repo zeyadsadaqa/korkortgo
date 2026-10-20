@@ -1,0 +1,139 @@
+{
+  "schema_version": 1,
+  "task": "10D4",
+  "date": "2026-10-20",
+  "continues": "../10C3/defects.json",
+  "severity_policy": {
+    "P0": "Unsafe/wrong scored rule or key, corrupted acceptance/input, lost answer identity or release of held item; block every affected gate.",
+    "P1": "Required content/route/runtime/accessibility unavailable, broken package/source dispatch or material approved-design/readability failure; block affected gates.",
+    "P2": "Reproducible lesser correctness/usability/editorial defect; block its required acceptance case until fixed/retested or explicitly dispositioned under existing approved scope.",
+    "P3": "Optional polish or new feature request; record separate scope, do not silently change approved design."
+  },
+  "required_record_fields": [
+    "id",
+    "severity",
+    "state",
+    "type",
+    "detected_in_task",
+    "case_ids",
+    "candidate",
+    "expected",
+    "observed",
+    "reproduction",
+    "evidence",
+    "affected_ids_files",
+    "owners",
+    "impacted_gates",
+    "fix_scope",
+    "approval_if_required",
+    "invalidation",
+    "retest",
+    "closure_reason"
+  ],
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006"
+  ],
+  "open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001"
+  ],
+  "inherited_blockers_reference": "../10C3/defects.json#/open_verification_blockers",
+  "open_verification_blockers": [
+    {
+      "id": "BLOCK-10D-SEMANTIC-RECONCILIATION",
+      "status": "open",
+      "owner": "10E2–10E14",
+      "expected": "Independent per-ID semantic/variant/description/distractor reviews, then reconcile 10D1; proposal parity is not independent rule correctness.",
+      "gate": "T03"
+    },
+    {
+      "id": "BLOCK-10D-PLATFORM",
+      "status": "open",
+      "owner": "10K2–10K6",
+      "expected": "456 replacement native/browser artwork contexts plus supplementary representative contexts, native modality/background exclusion, keyboard/return and actual Android TalkBack traversal. Desktop source observations are shared proof support only.",
+      "gate": "T03"
+    }
+  ],
+  "findings": [
+    {
+      "id": "DEF-10D-001",
+      "severity": "P1",
+      "state": "open",
+      "type": "visible_selection",
+      "detected_in_task": "10D3",
+      "case_ids": [
+        "T03-ART-desktop-sign-recognise-S5-light-100",
+        "10D4-desktop-selection_confirmation"
+      ],
+      "candidate": {
+        "entry_commit": "bc5a13f",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "A pending choice is identifiable both visibly and in accessibility semantics, with neutral pre-evaluation styling and deliberate confirmation.",
+      "observed": "Selected B is visible in the shared 390x844 light-100 capture, yet full pre/pending images are pixel-identical; semantic selection and later confirmation still work.",
+      "reproduction": {
+        "test": "ArtworkRuntime10DTest; accepted sign-recognise-S5, Random(10), shared 390x844, light/100%, select displayed B without confirmation",
+        "pre": "captures/sign-recognise-S5-light-100-pre.png",
+        "pending": "captures/sign-recognise-S5-light-100-pending.png",
+        "pixel_comparison": "Full images have identical RGB pixels although B is visible and selected semantics/confirmed authored ID are preserved.",
+        "source": "AssessmentCard.kt Surface/selectable at lines 47–53 records selected state without persistent selection rendering."
+      },
+      "evidence": [
+        "../10D3/selection-visual-finding.json",
+        "../10D3/reviewed-contact-sheets/S5-visible-selection-failure.png",
+        "../10D3/shared-artwork-observations.json",
+        "shared-accessibility-observations.json",
+        "docs/curriculum/app-design-spec.md:51,65"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+        "Shared pre-confirmation assessment choices, including text and image questions",
+        "All affected supported platform/settings must be enumerated in 10L; one exact visible pixel counterexample is recorded, not a fabricated visual review of every case."
+      ],
+      "owners": [
+        "10L1",
+        "10D3",
+        "10D4",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T09"
+      ],
+      "fix_scope": "Restore persistent visible neutral selection within the approved assessment design, preserve authored IDs, accessibility selected state, equal artwork frames and confirmation/reveal gates. No official artwork change or correctness styling before evaluation.",
+      "approval_if_required": "A bounded restoration to approved selected-state behaviour belongs in 10L; a new visual design would require the user design-preview approval workflow. No production fix was applied by this verification run.",
+      "invalidation": "A renderer change changes runtime fingerprint and invalidates affected selection, artwork/focus/keyboard/theme observations; preserve this failed candidate record and enumerate T03/T05/T09/10K retests.",
+      "retest": {
+        "status": "not_run",
+        "required": [
+          "Visible before/pending/after selection at intended/narrow sizes in both themes and scales",
+          "Accessible selected state and stable authored-ID confirmation",
+          "Image zoom/reset/return selection/focus",
+          "Immediate and end feedback gates",
+          "Actual affected Android/iOS-simulator/Wasm/desktop methods in 10K"
+        ]
+      },
+      "closure_reason": null
+    }
+  ],
+  "verification_only_corrections": [
+    {
+      "task": "10D2",
+      "observation": "Historical delivery summary stores rows under steps, not tasks/codes; corrected the preparer and reran all exact assertions. No product defect."
+    },
+    {
+      "task": "10D3",
+      "observation": "Stopped the initial partial shared run to add an explicit dark background Surface. Only the final complete 2464-context run is counted; initial-harness-run.txt retained."
+    }
+  ]
+}

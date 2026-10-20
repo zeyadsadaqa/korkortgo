@@ -1,0 +1,355 @@
+{
+  "task": "10D4",
+  "scope": "../10A2/scope-matrix.json",
+  "cases": [
+    {
+      "case_id": "10D4-android-pre_answer_projection",
+      "target": "android",
+      "interaction": "pre_answer_projection",
+      "expected": "Inspect visible text and native accessibility nodes before selection and confirmation; neutral descriptions only, no metadata/answer/key leak.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-selection_confirmation",
+      "target": "android",
+      "interaction": "selection_confirmation",
+      "expected": "Traverse prompt/options in order; select without confirming; identify selection visibly and accessibly; confirm exactly the selected authored ID.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-feedback_modes",
+      "target": "android",
+      "interaction": "feedback_modes",
+      "expected": "Immediate mode reveals only after confirmation; end mode saves without revealing until finish. Check disabled choices, polite announcement and deliberate focus.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-viewer_modal_exclusion",
+      "target": "android",
+      "interaction": "viewer_modal_exclusion",
+      "expected": "Open each supplied slot. Inspect native/browser modal tree, hide background, trap keyboard/assistive focus and ensure labels remain neutral.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-viewer_controls_return",
+      "target": "android",
+      "interaction": "viewer_controls_return",
+      "expected": "Use actual keyboard/touch/accessibility controls for fit,150%,pan,Reset,Close; preserve selected authored ID/revision/order and return to exact trigger.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-large_text_geometry",
+      "target": "android",
+      "interaction": "large_text_geometry",
+      "expected": "Use all four 10A3 settings, actual viewport/insets/density and approved >=220dp equal option frames; scroll to every required control without shrinking text.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-android-listening",
+      "target": "android",
+      "interaction": "screen_reader_listening",
+      "scope_requirement": "required",
+      "method": "Fresh representative TalkBack traversal, selection, modal/return and feedback; capture observation separately from instrumentation.",
+      "status": "not_run_pending_10K",
+      "expected_evidence": "Actual listening/traversal observation if required; accessibility nodes alone do not prove speech."
+    },
+    {
+      "case_id": "10D4-desktop-pre_answer_projection",
+      "target": "desktop",
+      "interaction": "pre_answer_projection",
+      "expected": "Inspect visible text and native accessibility nodes before selection and confirmation; neutral descriptions only, no metadata/answer/key leak.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-selection_confirmation",
+      "target": "desktop",
+      "interaction": "selection_confirmation",
+      "expected": "Traverse prompt/options in order; select without confirming; identify selection visibly and accessibly; confirm exactly the selected authored ID.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-feedback_modes",
+      "target": "desktop",
+      "interaction": "feedback_modes",
+      "expected": "Immediate mode reveals only after confirmation; end mode saves without revealing until finish. Check disabled choices, polite announcement and deliberate focus.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-viewer_modal_exclusion",
+      "target": "desktop",
+      "interaction": "viewer_modal_exclusion",
+      "expected": "Open each supplied slot. Inspect native/browser modal tree, hide background, trap keyboard/assistive focus and ensure labels remain neutral.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-viewer_controls_return",
+      "target": "desktop",
+      "interaction": "viewer_controls_return",
+      "expected": "Use actual keyboard/touch/accessibility controls for fit,150%,pan,Reset,Close; preserve selected authored ID/revision/order and return to exact trigger.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-large_text_geometry",
+      "target": "desktop",
+      "interaction": "large_text_geometry",
+      "expected": "Use all four 10A3 settings, actual viewport/insets/density and approved >=220dp equal option frames; scroll to every required control without shrinking text.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-desktop-listening",
+      "target": "desktop",
+      "interaction": "screen_reader_listening",
+      "scope_requirement": "excluded_by_policy",
+      "method": "No listening pass claimed; execute required semantics/focus row.",
+      "status": "excluded_by_existing_scope",
+      "expected_evidence": "Actual listening/traversal observation if required; accessibility nodes alone do not prove speech."
+    },
+    {
+      "case_id": "10D4-ios_simulator-pre_answer_projection",
+      "target": "ios_simulator",
+      "interaction": "pre_answer_projection",
+      "expected": "Inspect visible text and native accessibility nodes before selection and confirmation; neutral descriptions only, no metadata/answer/key leak.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-selection_confirmation",
+      "target": "ios_simulator",
+      "interaction": "selection_confirmation",
+      "expected": "Traverse prompt/options in order; select without confirming; identify selection visibly and accessibly; confirm exactly the selected authored ID.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-feedback_modes",
+      "target": "ios_simulator",
+      "interaction": "feedback_modes",
+      "expected": "Immediate mode reveals only after confirmation; end mode saves without revealing until finish. Check disabled choices, polite announcement and deliberate focus.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-viewer_modal_exclusion",
+      "target": "ios_simulator",
+      "interaction": "viewer_modal_exclusion",
+      "expected": "Open each supplied slot. Inspect native/browser modal tree, hide background, trap keyboard/assistive focus and ensure labels remain neutral.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-viewer_controls_return",
+      "target": "ios_simulator",
+      "interaction": "viewer_controls_return",
+      "expected": "Use actual keyboard/touch/accessibility controls for fit,150%,pan,Reset,Close; preserve selected authored ID/revision/order and return to exact trigger.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-large_text_geometry",
+      "target": "ios_simulator",
+      "interaction": "large_text_geometry",
+      "expected": "Use all four 10A3 settings, actual viewport/insets/density and approved >=220dp equal option frames; scroll to every required control without shrinking text.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-ios_simulator-listening",
+      "target": "ios_simulator",
+      "interaction": "screen_reader_listening",
+      "scope_requirement": "excluded_by_policy",
+      "method": "No listening pass claimed; execute required semantics/focus row.",
+      "status": "excluded_by_existing_scope",
+      "expected_evidence": "Actual listening/traversal observation if required; accessibility nodes alone do not prove speech."
+    },
+    {
+      "case_id": "10D4-wasm_js-pre_answer_projection",
+      "target": "wasm_js",
+      "interaction": "pre_answer_projection",
+      "expected": "Inspect visible text and native accessibility nodes before selection and confirmation; neutral descriptions only, no metadata/answer/key leak.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-selection_confirmation",
+      "target": "wasm_js",
+      "interaction": "selection_confirmation",
+      "expected": "Traverse prompt/options in order; select without confirming; identify selection visibly and accessibly; confirm exactly the selected authored ID.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-feedback_modes",
+      "target": "wasm_js",
+      "interaction": "feedback_modes",
+      "expected": "Immediate mode reveals only after confirmation; end mode saves without revealing until finish. Check disabled choices, polite announcement and deliberate focus.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-viewer_modal_exclusion",
+      "target": "wasm_js",
+      "interaction": "viewer_modal_exclusion",
+      "expected": "Open each supplied slot. Inspect native/browser modal tree, hide background, trap keyboard/assistive focus and ensure labels remain neutral.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-viewer_controls_return",
+      "target": "wasm_js",
+      "interaction": "viewer_controls_return",
+      "expected": "Use actual keyboard/touch/accessibility controls for fit,150%,pan,Reset,Close; preserve selected authored ID/revision/order and return to exact trigger.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-large_text_geometry",
+      "target": "wasm_js",
+      "interaction": "large_text_geometry",
+      "expected": "Use all four 10A3 settings, actual viewport/insets/density and approved >=220dp equal option frames; scroll to every required control without shrinking text.",
+      "required_question_contexts": "../10D2/artwork-platform-cases.json: target cases plus eight 10A3 representative IDs at four settings",
+      "status": "not_run_pending_10K",
+      "shared_support": "../10D3/shared-artwork-observations.json and shared-accessibility-observations.json (when executed); no native modal or speech inference",
+      "method": "Actual target keyboard/native or browser accessibility-node observations, with separate real TalkBack traversal on Android."
+    },
+    {
+      "case_id": "10D4-wasm_js-listening",
+      "target": "wasm_js",
+      "interaction": "screen_reader_listening",
+      "scope_requirement": "excluded_by_policy",
+      "method": "No listening pass claimed; execute required semantics/focus row.",
+      "status": "excluded_by_existing_scope",
+      "expected_evidence": "Actual listening/traversal observation if required; accessibility nodes alone do not prove speech."
+    }
+  ],
+  "source_representatives": [
+    {
+      "question_id": "situation-001",
+      "revision": "legacy-r1",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "situation-017",
+      "revision": "legacy-r1",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "situation-103",
+      "revision": "legacy-r1",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "fuel-saving-150-1.5",
+      "revision": "fuel-exact-r2",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "sign-meaning-A1",
+      "revision": "rewrite-r2",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "sign-recognise-A1",
+      "revision": "rewrite-r2",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "sign-meaning-M17a",
+      "revision": "rewrite-r2",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    },
+    {
+      "question_id": "sign-recognise-M17a",
+      "revision": "rewrite-r2",
+      "expected": "Source/classification/key/selected option remains exact; for M17a preserve tiled geometry during zoom without Android canvas crash.",
+      "status": "not_run"
+    }
+  ],
+  "settings": [
+    {
+      "id": "light-100",
+      "theme": "light",
+      "font_scale": 1.0
+    },
+    {
+      "id": "light-160",
+      "theme": "light",
+      "font_scale": 1.6
+    },
+    {
+      "id": "dark-100",
+      "theme": "dark",
+      "font_scale": 1.0
+    },
+    {
+      "id": "dark-160",
+      "theme": "dark",
+      "font_scale": 1.6
+    }
+  ],
+  "physical_iOS": "excluded_by_existing_user_simulator_policy"
+}

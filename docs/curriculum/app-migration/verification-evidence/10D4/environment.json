@@ -1,0 +1,36 @@
+{
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "surface": "Shared Compose/Skia 390x844 and diagnostic 320x844, density 1; light and controlled dark palette; 1.0/1.6 fonts; two feedback modes",
+  "proof_test_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$Harness$listener$1.class",
+      "sha256": "0b12055ad5174b542ac4f8a719eca22ccc074b8dcaf07c1248bfcd0d5ec5fddb"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$Harness$scene$1.class",
+      "sha256": "1bf51f459205bbb5b2b21d3f68018244ecaf15cf00eb52390519589a8770cd8b"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$Harness.class",
+      "sha256": "0cdc488dd3c12be9016f76a019020ab10857e7e44ce17cb335a8887f1f12cbb5"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$canonical$$inlined$sortedBy$1.class",
+      "sha256": "08cc6abc1c4d65f2fa1026b75bdcbcc359356159f0c1ffd0db6ef6d063a85702"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$keyboardAndRevealGatesUseAcceptedQuestionIdentity$1$1$1$1$1$1$1$1.class",
+      "sha256": "de44fc8705361e6196fbe5d4435f05aa78f08341fd7713b817a0d8ea715ea55a"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest$keyboardAndRevealGatesUseAcceptedQuestionIdentity$1$1$1$1$1$1$2.class",
+      "sha256": "8af5dbde9efe07b72c5a0b4567a0f754399b4d631880a7c8bdf35f8dc5fa9c95"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/AssessmentAccessibility10DTest.class",
+      "sha256": "61d22bbd35e622084bbf7c1663a6926ffd2dbc1414009876a8cde6ce229c31e3"
+    }
+  ],
+  "production_changed": false,
+  "native_or_speech_pass_claimed": false
+}

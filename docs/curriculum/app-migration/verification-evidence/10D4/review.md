@@ -1,0 +1,18 @@
+# 10D sequence / T03 review — 20 October 2026
+
+The requested sequence's independent data and available shared runtime work has been executed. **T03 remains open** for a new visible-selection defect, the specified 10E semantic reconciliation and fresh 10K platform/assistive observations. Production code, official artwork, accepted content and historical receipts are unchanged.
+
+| Task | Executed evidence | Remaining acceptance |
+| --- | --- | --- |
+| 10D1 | 15,094 checks across 616 sign revisions, 1,540 image occurrences and 134 overlapping distractor changes | Reconcile independent per-ID semantics/variant/description/distractor reviews from 10E2–10E14 |
+| 10D2 | 19 replacement pairs/38 exact revisions; twelve unchanged faint assets/24 slots; 2,920 platform cases; twelve fresh frame/150% comparisons and six inspected sheets | Full-question/actual-platform delivery remains in 10D3/10K |
+| 10D3 | 2,464 shared question/settings contexts and 6,160 image zoom returns; 496 indexed logical captures | Fix/retest DEF-10D-001; required full visual reviews and 456 native/browser replacement contexts plus representative supplements |
+| 10D4 | 160 keyboard/feedback checks on ten accepted questions, two feedback modes, four settings and two widths | Actual platform modal exclusion/accessibility nodes; Android TalkBack traversal/listening; bounded visible-selection fix/retest |
+
+The fresh 10D4 checks use actual `AssessmentSession` and `AssessmentWithImageViewer`: Space selects without confirming, Tab follows every expected radio/enlarge/Confirm control in order, Enter confirms the authored ID, immediate feedback reveals only after confirmation and end feedback stays hidden until finish. Confirmed options become disabled and a polite feedback/save region appears. Exact revision, displayed order and answer identity remain pinned. Both 390×844 and diagnostic 320×844 shared widths were exercised. Dark is a controlled Material3 palette with actual production fonts, not a native OS-theme observation.
+
+The exhaustive shared pre-answer tree, resource, viewer/keyboard pan/reset/close and exact-trigger return support comes from 10D3. Single-scene `ImageViewerSurface` seams do **not** prove native/browser modal background exclusion or screen-reader speech. [Accessibility platform cases](accessibility-platform-cases.json) retain 24 required target interactions, required Android listening and three existing listening exclusions. Physical iOS remains excluded by the user's simulator policy; simulator accessibility nodes do not become VoiceOver listening evidence. No native/browser/listening pass is recorded by this run.
+
+[Accessibility results](assessment-accessibility-results.json), [visual failure evidence](../10D3/selection-visual-finding.json), [defect register](defects.json). The register continues all six open 10C source defects and its blockers, adds DEF-10D-001 and records the 10E/10K dependencies. Its new P1 finding must enter bounded 10L correction/invalidation/retest; a new visual design would still require the user's preview/approval workflow. No new design is proposed or implemented here.
+
+Reproduction is recorded per task in `commands.json`; proof class hashes and actual shared surface details are recorded in `environment.json`. Python checks reconcile original proposals, source byte hashes, review locators, exact IDs and observations; JVM init scripts add verification-only source sets without product build-file changes. The full 10D3 matrix takes several minutes. Run `10D4/verify_evidence.py --check-manifests` for accounting/hash checks. A passing evidence-integrity report certifies truthful accounting, not T03 closure. The next planned sequence is 10E1; no 10E or 10K task was executed by this run.
