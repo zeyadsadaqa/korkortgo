@@ -1,0 +1,1884 @@
+{
+  "schema_version": 1,
+  "task": "10A3",
+  "status": "prepared_not_executed",
+  "candidate": {
+    "file": {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "source_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "oracles": {
+    "backlog": {
+      "path": "docs/curriculum/app-migration/implementation-backlog.json",
+      "sha256": "87de0754889d6ecb25ab9b9bb14fddd31ac3e0ba26f11ec5b542eac4feca2800"
+    },
+    "actions": {
+      "path": "docs/curriculum/app-migration/question-actions.json",
+      "sha256": "f2167370a8b749bfa6f707f5ff4ed685f8ad61c4faeae866a1184134360912b4"
+    },
+    "links": {
+      "path": "docs/curriculum/app-migration/link-and-progress-map.json",
+      "sha256": "d20fcc812f406caf86f721b896c7b79b4659e062889a68f0ae2b8286c41ecbda"
+    },
+    "registry": {
+      "path": "docs/curriculum/app-migration/curriculum-map.json",
+      "sha256": "68287f1a50df76d03a45041edeafc5092c305a378ca42fb49d64cddf1e246f6a"
+    },
+    "question_map": {
+      "path": "docs/curriculum/app-migration/question-map.json",
+      "sha256": "30f7dff4215c44adce1c8a8a1ef969f352ca2f1ef766514ef3b1e045eb771772"
+    },
+    "accepted": {
+      "path": "content/accepted-assessment-questions.json",
+      "sha256": "a08b8033609f2329ef38d92e15c484a7043d184943a9920c0c7c05c7d0741e00"
+    },
+    "curriculum": {
+      "path": "content/curriculum.json",
+      "sha256": "ac442d84f25cf60f91bd128a6f3471bf73cb2fc65e81bc2d93da9c013a6b5b78"
+    },
+    "manifest": {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    "sources": {
+      "path": "content/package-sources.json",
+      "sha256": "5fe362ae3be44718d3b814f4433595da793a6274da18a9ed97982089bca5aad6"
+    },
+    "handoff": {
+      "path": "docs/curriculum/app-migration/implementation-evidence/evidence-index.json",
+      "sha256": "8502a710ca36a855d6c058dca09eeef78d57e4a6bf58ee9415ff61046f32d4a6"
+    },
+    "faint": {
+      "path": "docs/curriculum/app-design/faint-assets-v1/asset-bindings.json",
+      "sha256": "a9308bcc991ecfab2f730ca2896f4f1757780bc1f1694866e5b80a40ee5aef9e"
+    },
+    "scope": {
+      "path": "docs/curriculum/app-migration/verification-evidence/10A2/scope-matrix.json",
+      "sha256": "db81d06922352bfc64dec18be5cb05a41fc4bc9186b1e52856a674eb0b5e236d"
+    },
+    "design_package": {
+      "path": "docs/curriculum/app-design/8n/package-index.json",
+      "sha256": "af59cfe2ae6a4e9f2b85e9e184cc5ddeb96d8d336d8952452664a0b287739c01"
+    }
+  },
+  "gate_clauses": [
+    {
+      "case_id": "T01-CLAUSE-01",
+      "gate": "T01",
+      "owners": [
+        "10B1"
+      ],
+      "expected": "All 1,123 canonical IDs unique/resolving; titles/order/opening disclaimer exact.",
+      "oracle": "registry",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare complete imported blocks with production-source origins; all 1,123 IDs unique/resolving, 400 exact signs, all illustrations/tables/answer blocks, correct titles/order and approved page-193 correction. Verify deterministic generated Kotlin and packaged hashes.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T01-CLAUSE-02",
+      "gate": "T01",
+      "owners": [
+        "10B2",
+        "10B3",
+        "10B4",
+        "10B5",
+        "10B6",
+        "10B7",
+        "10B8",
+        "10B9",
+        "10B10",
+        "10B11"
+      ],
+      "expected": "All ten modules, forty lessons and ten reviews: complete explanations/scenarios/tables/answer blocks and approved scenes, via teaching_blocks.",
+      "oracle": "registry",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare complete imported blocks with production-source origins; all 1,123 IDs unique/resolving, 400 exact signs, all illustrations/tables/answer blocks, correct titles/order and approved page-193 correction. Verify deterministic generated Kotlin and packaged hashes.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T01-CLAUSE-03",
+      "gate": "T01",
+      "owners": [
+        "10B12"
+      ],
+      "expected": "All four appendices complete and correctly linked.",
+      "oracle": "registry",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare complete imported blocks with production-source origins; all 1,123 IDs unique/resolving, 400 exact signs, all illustrations/tables/answer blocks, correct titles/order and approved page-193 correction. Verify deterministic generated Kotlin and packaged hashes.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T01-CLAUSE-04",
+      "gate": "T01",
+      "owners": [
+        "10B13"
+      ],
+      "expected": "All 400 official entries, 24 groups and 484 artwork bindings preserve exact official geometry, crops, caption/reuse evidence.",
+      "oracle": "registry",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare complete imported blocks with production-source origins; all 1,123 IDs unique/resolving, 400 exact signs, all illustrations/tables/answer blocks, correct titles/order and approved page-193 correction. Verify deterministic generated Kotlin and packaged hashes.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T01-CLAUSE-05",
+      "gate": "T01",
+      "owners": [
+        "10B14"
+      ],
+      "expected": "Approved page-193 correction explicitly checked at its mapped origin, full JSON/Kotlin parity and deterministic generation.",
+      "oracle": "question_map",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare complete imported blocks with production-source origins; all 1,123 IDs unique/resolving, 400 exact signs, all illustrations/tables/answer blocks, correct titles/order and approved page-193 correction. Verify deterministic generated Kotlin and packaged hashes.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T02-CLAUSE-01",
+      "gate": "T02",
+      "owners": [
+        "10C1"
+      ],
+      "expected": "All 404 exact question-source URL entries, 116 canonical aliases and 519 package references preserve scoped publisher/date/limits.",
+      "oracle": "question_map",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Exercise official law, foreign guidance, research, commercial shortcut, manufacturer and editorial arithmetic. Compare all exact question source-reference URLs and scoped canonical aliases to retained evidence; actual publisher/date/limits, valid return context, offline/unreachable external URL behaviour.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T02-CLAUSE-02",
+      "gate": "T02",
+      "owners": [
+        "10C2"
+      ],
+      "expected": "Claim-specific primary-source recheck for selected high-risk/affected rules; no universal freshness claim.",
+      "oracle": "sources",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Exercise official law, foreign guidance, research, commercial shortcut, manufacturer and editorial arithmetic. Compare all exact question source-reference URLs and scoped canonical aliases to retained evidence; actual publisher/date/limits, valid return context, offline/unreachable external URL behaviour.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T02-CLAUSE-03",
+      "gate": "T02",
+      "owners": [
+        "10C3"
+      ],
+      "expected": "Official law, foreign guidance, research, commercial shortcut, manufacturer and editorial arithmetic: details, exact external callback, unreachable/offline path and same return context.",
+      "oracle": "sources",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Exercise official law, foreign guidance, research, commercial shortcut, manufacturer and editorial arithmetic. Compare all exact question source-reference URLs and scoped canonical aliases to retained evidence; actual publisher/date/limits, valid return context, offline/unreachable external URL behaviour.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T03-CLAUSE-01",
+      "gate": "T03",
+      "owners": [
+        "10D1"
+      ],
+      "expected": "Every revised sign/variant/neutral physical description and 134 overlapping distractor changes inspected in both paired directions.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Inspect every revised sign asset/variant/physical description, all 134 distractor changes and 38 holds. Test smallest approved size, zoom, light/dark, keyboard/screen reader and large text on supported platforms; no code/answer leak pre-answer, no generated replacement artwork.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T03-CLAUSE-02",
+      "gate": "T03",
+      "owners": [
+        "10D2"
+      ],
+      "expected": "All 38 formerly held replacements and twelve faint assets/24 affected questions bind exact accepted revisions.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Inspect every revised sign asset/variant/physical description, all 134 distractor changes and 38 holds. Test smallest approved size, zoom, light/dark, keyboard/screen reader and large text on supported platforms; no code/answer leak pre-answer, no generated replacement artwork.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T03-CLAUSE-03",
+      "gate": "T03",
+      "owners": [
+        "10D3"
+      ],
+      "expected": "Fresh four-setting full-question/fit/zoom/return legibility matrix, equal option sizes, 220 dp minimum frames and narrow reflow; never generate substitute official art.",
+      "oracle": "faint",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Inspect every revised sign asset/variant/physical description, all 134 distractor changes and 38 holds. Test smallest approved size, zoom, light/dark, keyboard/screen reader and large text on supported platforms; no code/answer leak pre-answer, no generated replacement artwork.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T03-CLAUSE-04",
+      "gate": "T03",
+      "owners": [
+        "10D4"
+      ],
+      "expected": "No pre-answer code/key/classification leak; keyboard/semantics/required TalkBack, modal exclusion and exact trigger return; distinguish exclusions.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Inspect every revised sign asset/variant/physical description, all 134 distractor changes and 38 holds. Test smallest approved size, zoom, light/dark, keyboard/screen reader and large text on supported platforms; no code/answer leak pre-answer, no generated replacement artwork.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-01",
+      "gate": "T04",
+      "owners": [
+        "10E1"
+      ],
+      "expected": "All 1,000 IDs accounted; 336 retained assessment payloads unchanged, no unaccepted active item.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-02",
+      "gate": "T04",
+      "owners": [
+        "10E2",
+        "10E3",
+        "10E4",
+        "10E5",
+        "10E6",
+        "10E7",
+        "10E8",
+        "10E9",
+        "10E10",
+        "10E11",
+        "10E12",
+        "10E13"
+      ],
+      "expected": "All 578 sign rewrites meet independent per-ID approved drafts, including distractor/description/source checks.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-03",
+      "gate": "T04",
+      "owners": [
+        "10E14"
+      ],
+      "expected": "All 38 replacements meet approved payload and acceptance rules; fresh delivery remains T03.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-04",
+      "gate": "T04",
+      "owners": [
+        "10E15"
+      ],
+      "expected": "Eight scoped scenario corrections supported with exact conditions/exceptions.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-05",
+      "gate": "T04",
+      "owners": [
+        "10E16"
+      ],
+      "expected": "Thirty driver-inclusive load calculations independently recomputed.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-06",
+      "gate": "T04",
+      "owners": [
+        "10E17"
+      ],
+      "expected": "Four fuel keys independently computed from decimal prompt values and units; no old rounded-key reuse.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T04-CLAUSE-07",
+      "gate": "T04",
+      "owners": [
+        "10E18"
+      ],
+      "expected": "Six bounded unit drafts and known residual wording reviewed; all 626 rewrites + 38 replacements reconciled.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Diff all 1,000 assigned IDs, assert 336 assessment payloads unchanged, review all 626 rewrites/38 replacements against per-ID acceptance; independent numeric audit including four exact keys, 30 driver-inclusive definitions, six grammar fixes and eight scoped scenarios. No unaccepted active item.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T05-CLAUSE-01",
+      "gate": "T05",
+      "owners": [
+        "10F1"
+      ],
+      "expected": "Every length 1–70, seeds 0–19, both modes: independent largest-remainder quota/tie oracle, concept capacity after category picks, five residual slots at 70, uniqueness.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Check every length 1–70, category quotas/rounding, concept capacity after quota picks, random residual, unique concepts and stable shuffled option identities. Both feedback modes, all key positions, next/end/results/review filters and actual accepted counts; old rounded-answer snapshot retains its own score.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T05-CLAUSE-02",
+      "gate": "T05",
+      "owners": [
+        "10F2"
+      ],
+      "expected": "All key positions and authored/display shuffle identities, immediate/deferred boundaries, next/end/results/filter/score persist.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Check every length 1–70, category quotas/rounding, concept capacity after quota picks, random residual, unique concepts and stable shuffled option identities. Both feedback modes, all key positions, next/end/results/review filters and actual accepted counts; old rounded-answer snapshot retains its own score.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T05-CLAUSE-03",
+      "gate": "T05",
+      "owners": [
+        "10F3"
+      ],
+      "expected": "Old rounded-answer snapshot retains original score/order/key/feedback; invalid, held and mismatched package inputs rejected.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Check every length 1–70, category quotas/rounding, concept capacity after quota picks, random residual, unique concepts and stable shuffled option identities. Both feedback modes, all key positions, next/end/results/review filters and actual accepted counts; old rounded-answer snapshot retains its own score.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T05-CLAUSE-04",
+      "gate": "T05",
+      "owners": [
+        "10F4"
+      ],
+      "expected": "Real accepted-bank production journeys in both modes preserve count, scores, review/filter/source/teaching context; distinguish harness fixtures.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Check every length 1–70, category quotas/rounding, concept capacity after quota picks, random residual, unique concepts and stable shuffled option identities. Both feedback modes, all key positions, next/end/results/review filters and actual accepted counts; old rounded-answer snapshot retains its own score.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T06-CLAUSE-01",
+      "gate": "T06",
+      "owners": [
+        "10G1"
+      ],
+      "expected": "Exhaustive 39/361/178/343 alias families and all 1,000 question routes resolve to exact expected outcomes.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Run all 7E actual/synthetic examples plus full 39/361/178/343 alias tables. Same old page 46 with two question IDs gives different correct lessons; gaps, unknown question, wrong namespace, invalid number and case-sensitive F31a. SIG16–18 unavailable with exact official actions, never SIG1/SIG5/Y1 substitutions.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T06-CLAUSE-02",
+      "gate": "T06",
+      "owners": [
+        "10G2"
+      ],
+      "expected": "Every 7E example plus page46 context pairs, page gaps, unknown question, wrong namespace, invalid number and case-sensitive F31a.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Run all 7E actual/synthetic examples plus full 39/361/178/343 alias tables. Same old page 46 with two question IDs gives different correct lessons; gaps, unknown question, wrong namespace, invalid number and case-sensitive F31a. SIG16–18 unavailable with exact official actions, never SIG1/SIG5/Y1 substitutions.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T06-CLAUSE-03",
+      "gate": "T06",
+      "owners": [
+        "10G3"
+      ],
+      "expected": "SIG16–18 unavailable, exact official actions and optional M03-L02; never SIG1/SIG5/Y1 substitutes.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Run all 7E actual/synthetic examples plus full 39/361/178/343 alias tables. Same old page 46 with two question IDs gives different correct lessons; gaps, unknown question, wrong namespace, invalid number and case-sensitive F31a. SIG16–18 unavailable with exact official actions, never SIG1/SIG5/Y1 substitutions.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T07-CLAUSE-01",
+      "gate": "T07",
+      "owners": [
+        "10H1"
+      ],
+      "expected": "All eight states/twelve entry rules and sixty reading-node previous/next edges preserve context including related/reference return.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All eight states/twelve entry points, 60 reading-node previous/next edges and related/reference return contexts. Exit unfinished test guard, missing session setup, moved block parent notice, retired one/many/none. Restart clears only existing transient state; no fabricated migrated progress or auto-credit.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T07-CLAUSE-02",
+      "gate": "T07",
+      "owners": [
+        "10H2"
+      ],
+      "expected": "Cancel/confirm unfinished-test exit, missing-session setup, moved-block parent notice, retired zero/one/many, no pre-answer reading shortcut.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All eight states/twelve entry points, 60 reading-node previous/next edges and related/reference return contexts. Exit unfinished test guard, missing session setup, moved block parent notice, retired one/many/none. Restart clears only existing transient state; no fabricated migrated progress or auto-credit.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T07-CLAUSE-03",
+      "gate": "T07",
+      "owners": [
+        "10H3"
+      ],
+      "expected": "All eighteen applicable transient contracts pass; four absent-store cases conditional. Same-process preferences and fresh-process defaults/reset; no fabricated progress or auto-credit.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All eight states/twelve entry points, 60 reading-node previous/next edges and related/reference return contexts. Exit unfinished test guard, missing session setup, moved block parent notice, retired one/many/none. Restart clears only existing transient state; no fabricated migrated progress or auto-credit.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T08-CLAUSE-01",
+      "gate": "T08",
+      "owners": [
+        "10I1"
+      ],
+      "expected": "10/40/10 teaching units, four appendices and 24 groups discoverable and complete, with deliberate reveal.",
+      "oracle": "registry",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All ten modules/forty lessons/ten reviews, four appendices and 24 reference groups; all five filters and forty tags preserve canonical order. Search/empty states; zero-question lessons remain available and three additional-assessment briefs explicit, no new baseline IDs.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T08-CLAUSE-02",
+      "gate": "T08",
+      "owners": [
+        "10I2"
+      ],
+      "expected": "All five category filters/forty tags and combined search/empty/reset states retain canonical order and query context.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All ten modules/forty lessons/ten reviews, four appendices and 24 reference groups; all five filters and forty tags preserve canonical order. Search/empty states; zero-question lessons remain available and three additional-assessment briefs explicit, no new baseline IDs.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T08-CLAUSE-03",
+      "gate": "T08",
+      "owners": [
+        "10I3"
+      ],
+      "expected": "Three zero/low-question lessons remain discoverable; three assessment briefs explicit and no new baseline IDs.",
+      "oracle": "actions",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "All ten modules/forty lessons/ten reviews, four appendices and 24 reference groups; all five filters and forty tags preserve canonical order. Search/empty states; zero-question lessons remain available and three additional-assessment briefs explicit, no new baseline IDs.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T09-CLAUSE-01",
+      "gate": "T09",
+      "owners": [
+        "10J1"
+      ],
+      "expected": "Every approved preview revision maps to implemented home/setup/library/reader/review/source/reference/fallback/guard state including faint-layout revision.",
+      "oracle": "faint",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare implemented library/reader/review and fallback/source states with explicitly approved step 8 preview revision. Check every one of fourteen replacement rules across visible copy and accessibility semantics; no old book name/chapter labels/folios. Legitimate source publisher names remain in sources/credits.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T09-CLAUSE-02",
+      "gate": "T09",
+      "owners": [
+        "10J2"
+      ],
+      "expected": "Current rendering matches approved hierarchy/type/spacing/size/scroll/interaction in themes/large text; any design fix awaits preview approval.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare implemented library/reader/review and fallback/source states with explicitly approved step 8 preview revision. Check every one of fourteen replacement rules across visible copy and accessibility semantics; no old book name/chapter labels/folios. Legitimate source publisher names remain in sources/credits.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T09-CLAUSE-03",
+      "gate": "T09",
+      "owners": [
+        "10J3"
+      ],
+      "expected": "All fourteen copy rules in visible and accessibility text; no legacy book names/chapter labels/folios, legitimate publishers/licences/credits/disclaimer retained.",
+      "oracle": "links",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Compare implemented library/reader/review and fallback/source states with explicitly approved step 8 preview revision. Check every one of fourteen replacement rules across visible copy and accessibility semantics; no old book name/chapter labels/folios. Legitimate source publisher names remain in sources/credits.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-01",
+      "gate": "T10",
+      "owners": [
+        "10K1"
+      ],
+      "expected": "Fresh common suites and six generation/release checks, accepted identity and source/resource parity.",
+      "oracle": "manifest",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-02",
+      "gate": "T10",
+      "owners": [
+        "10K2"
+      ],
+      "expected": "Android normal/proof distinction, APK/resources/offline/native/production/source/legibility/assistive checks and restoration.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-03",
+      "gate": "T10",
+      "owners": [
+        "10K3"
+      ],
+      "expected": "Configured desktop JAR/classpath/harness/keyboard/semantic checks; no native product/bridge claim.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-04",
+      "gate": "T10",
+      "owners": [
+        "10K4"
+      ],
+      "expected": "Normal iOS simulator framework/app/resources, native cases, description/trait audits, existing device restored; no listening/device claim.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-05",
+      "gate": "T10",
+      "owners": [
+        "10K5"
+      ],
+      "expected": "Normal iOS device ARM64/framework/resource build; physical execution excluded, not passed.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-06",
+      "gate": "T10",
+      "owners": [
+        "10K6"
+      ],
+      "expected": "Normal production Wasm distribution, fresh-origin source callbacks/runtime/keyboard/artwork; static host and excluded cold-offline/speech limits.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    },
+    {
+      "case_id": "T10-CLAUSE-07",
+      "gate": "T10",
+      "owners": [
+        "10K7"
+      ],
+      "expected": "Commands/toolchains/devices/binary hashes/candidate fingerprint match final cross-gate evidence; unavailable required execution blocks closure.",
+      "oracle": "scope",
+      "status": "not_run",
+      "observed": null,
+      "evidence": [],
+      "original_procedure": "Build/test Android, desktop, iOS device/simulator and wasm as configured; installed resource/offline and source-link smoke checks, image legibility/accessibility on actual supported devices. Save commands, versions, devices and evidence; unsupported execution stays open, no success inferred from compilation.",
+      "required_artifacts": [
+        "review.md",
+        "results.json",
+        "commands or steps with environment",
+        "hash-bound captures/logs"
+      ],
+      "close_rule": "All required cases in the mapped exhaustive families and runtime matrix pass on the final candidate; original clause remains open otherwise."
+    }
+  ],
+  "original_coverage_crosswalk": [
+    {
+      "original_family": "7B/curriculum_nodes",
+      "owners": [
+        "10B1",
+        "10B13",
+        "10B14"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7B~1curriculum_nodes",
+        "record_sha256": "0c17be2c51338cbc1a8e62deaaccc24d686f5ef3d5ac31cd525173015aa2ea0b"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7B/source_destinations",
+      "owners": [
+        "10B1",
+        "10B13",
+        "10B14"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7B~1source_destinations",
+        "record_sha256": "e87d030728d653370996f5a7289cd46879d83a437945e97b08d5a7dd1d053ca9"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7B/sign_entries",
+      "owners": [
+        "10B1",
+        "10B13",
+        "10B14"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7B~1sign_entries",
+        "record_sha256": "dffb19a3d917b7647c47418584a7b3c88c2dd8ed8ea90963122c2db03f0ead15"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7B/supporting_destinations",
+      "owners": [
+        "10B1",
+        "10B13",
+        "10B14"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7B~1supporting_destinations",
+        "record_sha256": "4a81d8716e156547976683a74f2a9856392974babd0f46ce87f9eb6669113c00"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/category_routes",
+      "owners": [
+        "10I2"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1category_routes",
+        "record_sha256": "2ae564d67447dee95e9e4017bedfa06fbe4d12d9661ea0d9251ea1a4fc99da10"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/lesson_category_tags",
+      "owners": [
+        "10I2"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1lesson_category_tags",
+        "record_sha256": "b0fb6ee07e35f2a80b28b0e389c4c7d22d2262b23d59216339f0bf5f31683d17"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/navigation_routes",
+      "owners": [
+        "10H1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1navigation_routes",
+        "record_sha256": "c48bd3d50fb734abaaa0d08b513e9ff438bfd61c7a56158771ee2a0df9761668"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/reading_order",
+      "owners": [
+        "10H1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1reading_order",
+        "record_sha256": "2d5d3cd2379b2fc27c8d15aa55a880c3dee772340a1bb72ff54f85b37aed2df0"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/chapter_aliases",
+      "owners": [
+        "10G1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1chapter_aliases",
+        "record_sha256": "9da37ac2e33b40017eb07e3a92adc36bd0d8e63bd7e1293c5a4b07985c544ecc"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/legacy_page_aliases",
+      "owners": [
+        "10G1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1legacy_page_aliases",
+        "record_sha256": "d1919451197b535783c81694befb8811c176f409fe326a7e03cbc79859590929"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/question_routes",
+      "owners": [
+        "10G1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1question_routes",
+        "record_sha256": "6315b3ab82011f06a34cd96fcd7c7f6aff48657c895166adb75b86fc6c606acb"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/unused_topic_routes",
+      "owners": [
+        "10G1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1unused_topic_routes",
+        "record_sha256": "af7b3d4fc6d7f342a8a42c04e6286e5275eb96187d00cf0645f5cb068a617fda"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/sign_routes",
+      "owners": [
+        "10G1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1sign_routes",
+        "record_sha256": "c7c5e491b1ca50cd3b449f15a0cdb79dfd3b99e7ad7945b37c60c508ddedddb1"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/source_routes",
+      "owners": [
+        "10C1",
+        "10C3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1source_routes",
+        "record_sha256": "ce938c65d118ee42ed6c6d8dd4ec6cba9982104ca1d8af189236f31882063fe3"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/state_rules",
+      "owners": [
+        "10H3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1state_rules",
+        "record_sha256": "4b33659637566c39b530787b570e1f7e0eda346cb910885b551f203b89373141"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/entry_point_rules",
+      "owners": [
+        "10H1"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1entry_point_rules",
+        "record_sha256": "a4cbc78d5b1bf57a4ad6ad89f5a2b294a779d2096df577727edbb62ef2371ebf"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/labels_to_replace",
+      "owners": [
+        "10G2",
+        "10H3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1labels_to_replace",
+        "record_sha256": "2907b62f2cd7af0dfdbdf9ee940263dc53c2c30ca92f87173851a5cfedf80ea4"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/supporting_document_updates",
+      "owners": [
+        "10J3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1supporting_document_updates",
+        "record_sha256": "e57b49ba405b83a7b5ebbbb1b14abe7d745f6bff7d830d05fbbc116b9b7b0639"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/resolution_policy",
+      "owners": [
+        "10G2"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1resolution_policy",
+        "record_sha256": "d5d92502434e25de33107057806a3136304502664520210db7fd46fc04b92a47"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/version_transition",
+      "owners": [
+        "10F3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1version_transition",
+        "record_sha256": "ae0b7e70ded4fe2d35b42a1197c653c2d96f5f315f934e1dd0cb5bb33934115d"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7E/unresolved_destinations",
+      "owners": [
+        "10G3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7E~1unresolved_destinations",
+        "record_sha256": "c873231666bd8bf9d5907824c0e0bd0f8a1eff3a355446712d18514986819fc3"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SCENARIO-SCOPE-OR-EXPLANATION",
+      "owners": [
+        "10E15"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SCENARIO-SCOPE-OR-EXPLANATION",
+        "record_sha256": "be10f8840251a895987f7972505ed8edf4685cd15af311a89f77be6ab51c336d"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SIGN-QUESTION-COPY",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SIGN-QUESTION-COPY",
+        "record_sha256": "4268842ef83bdf1238b8dc91715a41e4dc52542a8450c401ce0579d0310a1d7b"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SIGN-PREANSWER-SEMANTICS",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SIGN-PREANSWER-SEMANTICS",
+        "record_sha256": "4268842ef83bdf1238b8dc91715a41e4dc52542a8450c401ce0579d0310a1d7b"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SIGN-RECOGNITION-CODE-CUE",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SIGN-RECOGNITION-CODE-CUE",
+        "record_sha256": "c25639905167b7847843d538c7c025e066c2fd5d07074588bafc982fb6894c62"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SIGN-OUTLINE-DISTRACTOR",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SIGN-OUTLINE-DISTRACTOR",
+        "record_sha256": "9836e446e1009c95f4c0e74d76c709e3215788cd8e7dc2e795876f17e7f9b390"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/SIGN-OUTLINE-DELIVERY",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1SIGN-OUTLINE-DELIVERY",
+        "record_sha256": "63360c8ed69158b6fa1739fe7c707483f855065d25ca460c4f69ac46f6c3357a"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/LOAD-WEIGHT-CONVENTION",
+      "owners": [
+        "10E16"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1LOAD-WEIGHT-CONVENTION",
+        "record_sha256": "ac5089242bfca9287c4803ae042339308fe8e8086598f3249722eaa28480ffd2"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/FUEL-UNIT-GRAMMAR",
+      "owners": [
+        "10E18"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1FUEL-UNIT-GRAMMAR",
+        "record_sha256": "863704745004b08d2d80c10363237bfb182058e856fe9a85564f78672b4d02ed"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/FUEL-ROUNDING",
+      "owners": [
+        "10E17"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1FUEL-ROUNDING",
+        "record_sha256": "fe19edff0b15bf6a46bd8f8d9bf432150daae21216eb4273d48a671d74630b38"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/7D-IMG-SEMANTICS",
+      "owners": [
+        "10D1",
+        "10D2",
+        "10D3",
+        "10D4"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~17D-IMG-SEMANTICS",
+        "record_sha256": "72ac1dd12df1e6f53004747568e8128fb8b1922c9e6818a91bd2cd6cef3f8d1a"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/7D-SOURCE-LINKS",
+      "owners": [
+        "10C1",
+        "10C3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~17D-SOURCE-LINKS",
+        "record_sha256": "7be2dc6c8c74924ced5e918a8f5bcecbde47e74220faba51a0128ee28dc8bb15"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/7D-SHUFFLE",
+      "owners": [
+        "10F2"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~17D-SHUFFLE",
+        "record_sha256": "186b78964bf70ba8ae8fa85d5b2f2b46adc21e9a8155272f38eea16ae4ef7871"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/coverage/M01-L01",
+      "owners": [
+        "10I3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1coverage~1M01-L01",
+        "record_sha256": "1c5689f0445be20867c9ecac7c63e8080359adf80cd4f56b6e35e2f1b4979bdc"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/coverage/M07-L04",
+      "owners": [
+        "10I3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1coverage~1M07-L04",
+        "record_sha256": "2928eddc82fbcd9f80fce2403b7468d5dea5792d2e22f8b2d26df65d4dad58e3"
+      },
+      "status": "not_run"
+    },
+    {
+      "original_family": "7D/coverage/M10-L03",
+      "owners": [
+        "10I3"
+      ],
+      "oracle": {
+        "oracle": "backlog",
+        "pointer": "/coverage/7D~1coverage~1M10-L03",
+        "record_sha256": "bbfed16bf564c99facbbd37a94bbeffd638c7433608694dc07826ac7f3bebdf9"
+      },
+      "status": "not_run"
+    }
+  ],
+  "task_dependencies": {
+    "10A1": [],
+    "10A2": [
+      "10A1"
+    ],
+    "10A3": [
+      "10A1",
+      "10A2"
+    ],
+    "10B1": [
+      "10A3"
+    ],
+    "10B2": [
+      "10A3"
+    ],
+    "10B3": [
+      "10A3"
+    ],
+    "10B4": [
+      "10A3"
+    ],
+    "10B5": [
+      "10A3"
+    ],
+    "10B6": [
+      "10A3"
+    ],
+    "10B7": [
+      "10A3"
+    ],
+    "10B8": [
+      "10A3"
+    ],
+    "10B9": [
+      "10A3"
+    ],
+    "10B10": [
+      "10A3"
+    ],
+    "10B11": [
+      "10A3"
+    ],
+    "10B12": [
+      "10A3"
+    ],
+    "10B13": [
+      "10A3"
+    ],
+    "10B14": [
+      "10B1",
+      "10B2",
+      "10B3",
+      "10B4",
+      "10B5",
+      "10B6",
+      "10B7",
+      "10B8",
+      "10B9",
+      "10B10",
+      "10B11",
+      "10B12",
+      "10B13"
+    ],
+    "10C1": [
+      "10A3"
+    ],
+    "10C2": [
+      "10C1"
+    ],
+    "10C3": [
+      "10C1",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10D1": [
+      "10E2",
+      "10E3",
+      "10E4",
+      "10E5",
+      "10E6",
+      "10E7",
+      "10E8",
+      "10E9",
+      "10E10",
+      "10E11",
+      "10E12",
+      "10E13",
+      "10E14",
+      "10B13"
+    ],
+    "10D2": [
+      "10D1"
+    ],
+    "10D3": [
+      "10D2",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10D4": [
+      "10D1",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10E1": [
+      "10A3"
+    ],
+    "10E2": [
+      "10E1",
+      "10B13"
+    ],
+    "10E3": [
+      "10E1",
+      "10B13"
+    ],
+    "10E4": [
+      "10E1",
+      "10B13"
+    ],
+    "10E5": [
+      "10E1",
+      "10B13"
+    ],
+    "10E6": [
+      "10E1",
+      "10B13"
+    ],
+    "10E7": [
+      "10E1",
+      "10B13"
+    ],
+    "10E8": [
+      "10E1",
+      "10B13"
+    ],
+    "10E9": [
+      "10E1",
+      "10B13"
+    ],
+    "10E10": [
+      "10E1",
+      "10B13"
+    ],
+    "10E11": [
+      "10E1",
+      "10B13"
+    ],
+    "10E12": [
+      "10E1",
+      "10B13"
+    ],
+    "10E13": [
+      "10E1",
+      "10B13"
+    ],
+    "10E14": [
+      "10E1",
+      "10B13"
+    ],
+    "10E15": [
+      "10E1"
+    ],
+    "10E16": [
+      "10E1"
+    ],
+    "10E17": [
+      "10E1"
+    ],
+    "10E18": [
+      "10E1",
+      "10E2",
+      "10E3",
+      "10E4",
+      "10E5",
+      "10E6",
+      "10E7",
+      "10E8",
+      "10E9",
+      "10E10",
+      "10E11",
+      "10E12",
+      "10E13",
+      "10E14",
+      "10E15",
+      "10E16",
+      "10E17"
+    ],
+    "10F1": [
+      "10A3",
+      "10E1"
+    ],
+    "10F2": [
+      "10F1"
+    ],
+    "10F3": [
+      "10F2"
+    ],
+    "10F4": [
+      "10F1",
+      "10F2",
+      "10F3",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10G1": [
+      "10A3",
+      "10B1"
+    ],
+    "10G2": [
+      "10G1"
+    ],
+    "10G3": [
+      "10G1",
+      "10G2",
+      "10C3"
+    ],
+    "10H1": [
+      "10A3",
+      "10B1",
+      "10G1"
+    ],
+    "10H2": [
+      "10H1",
+      "10G2",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10H3": [
+      "10H1",
+      "10H2",
+      "10F3"
+    ],
+    "10I1": [
+      "10B14",
+      "10H1"
+    ],
+    "10I2": [
+      "10I1"
+    ],
+    "10I3": [
+      "10I2",
+      "10E18"
+    ],
+    "10J1": [
+      "10A3"
+    ],
+    "10J2": [
+      "10J1",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10J3": [
+      "10J1",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K6"
+    ],
+    "10K1": [
+      "10B14",
+      "10E18",
+      "10F1",
+      "10F2",
+      "10F3",
+      "10G1",
+      "10G2"
+    ],
+    "10K2": [
+      "10K1"
+    ],
+    "10K3": [
+      "10K1"
+    ],
+    "10K4": [
+      "10K1"
+    ],
+    "10K5": [
+      "10K1"
+    ],
+    "10K6": [
+      "10K1"
+    ],
+    "10K7": [
+      "10C1",
+      "10C2",
+      "10C3",
+      "10D1",
+      "10D2",
+      "10D3",
+      "10D4",
+      "10E1",
+      "10E2",
+      "10E3",
+      "10E4",
+      "10E5",
+      "10E6",
+      "10E7",
+      "10E8",
+      "10E9",
+      "10E10",
+      "10E11",
+      "10E12",
+      "10E13",
+      "10E14",
+      "10E15",
+      "10E16",
+      "10E17",
+      "10E18",
+      "10F1",
+      "10F2",
+      "10F3",
+      "10F4",
+      "10G1",
+      "10G2",
+      "10G3",
+      "10H1",
+      "10H2",
+      "10H3",
+      "10I1",
+      "10I2",
+      "10I3",
+      "10J1",
+      "10J2",
+      "10J3",
+      "10K1",
+      "10K2",
+      "10K3",
+      "10K4",
+      "10K5",
+      "10K6"
+    ],
+    "10L1": [
+      "10A3"
+    ],
+    "10L2": [
+      "10L1"
+    ],
+    "10L3": [
+      "10L2"
+    ],
+    "10M1": [
+      "10K7",
+      "10L3"
+    ],
+    "10M2": [
+      "10M1"
+    ]
+  },
+  "valid_completion_order": [
+    "10A1",
+    "10A2",
+    "10A3",
+    "10B1",
+    "10B2",
+    "10B3",
+    "10B4",
+    "10B5",
+    "10B6",
+    "10B7",
+    "10B8",
+    "10B9",
+    "10B10",
+    "10B11",
+    "10B12",
+    "10B13",
+    "10C1",
+    "10E1",
+    "10J1",
+    "10L1",
+    "10B14",
+    "10C2",
+    "10E2",
+    "10E3",
+    "10E4",
+    "10E5",
+    "10E6",
+    "10E7",
+    "10E8",
+    "10E9",
+    "10E10",
+    "10E11",
+    "10E12",
+    "10E13",
+    "10E14",
+    "10E15",
+    "10E16",
+    "10E17",
+    "10F1",
+    "10G1",
+    "10L2",
+    "10D1",
+    "10E18",
+    "10F2",
+    "10G2",
+    "10H1",
+    "10L3",
+    "10D2",
+    "10F3",
+    "10I1",
+    "10I2",
+    "10K1",
+    "10I3",
+    "10K2",
+    "10K3",
+    "10K4",
+    "10K5",
+    "10K6",
+    "10C3",
+    "10D3",
+    "10D4",
+    "10F4",
+    "10H2",
+    "10J2",
+    "10J3",
+    "10G3",
+    "10H3",
+    "10K7",
+    "10M1",
+    "10M2"
+  ],
+  "supporting_file_oracles": [
+    {
+      "path": "docs/curriculum/app-design-review.md",
+      "sha256": "d86c80309cfe269a69e23c8aea4a4ba01b117da98a5728846eeed94e13e40ca2"
+    },
+    {
+      "path": "docs/curriculum/app-design-spec.md",
+      "sha256": "edf414c9ef888f78e0875f3168da785f739e25d131f9dbb18a698f9016139c4f"
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/review.md",
+      "sha256": "4d6a8c123d916acfbf1785abe1353e7a3e2c3ad9e5411da63fb20fed92b8b1b9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/assessment-coverage-briefs.md",
+      "sha256": "a4a12bb8b792e26490484ff8a8e0099230b6e424db974e9bcd753f8e85e45012"
+    },
+    {
+      "path": "docs/curriculum/app-migration/implementation-backlog.md",
+      "sha256": "c69eed2daacc53c3392decd959056e2c4471a0e42d9c42f49e4c06a97035d038"
+    },
+    {
+      "path": "docs/curriculum/pdf-production/final-review/screen-release.json",
+      "sha256": "09b2cd80b7b883d325a838863f3d4bf23d97c77d5d1e9b216e118d19ae4eee12"
+    }
+  ],
+  "platform_preparation_rule": "10C3/10D3/10D4/10F4/10G3/10H2/10J2/10J3 can prepare their cases before 10K, but complete only after fresh 10K evidence. 10K uses prepared cases without requiring their final closure. 10L is a conditional fix loop; no-fix disposition permitted. Changes invalidate affected prior results.",
+  "case_files": {
+    "data-cases.json": "exhaustive content/source/route/state/copy families",
+    "question-batches.json": "all 1,000 IDs, exact 12 rewrite batches and 19 replacement pairs, distractors and faint slots",
+    "runtime-matrix.json": "explicit high-risk contexts plus fully specified Cartesian engine/source/reflow/journey sets"
+  },
+  "future_case_status": "not_run except four explicit conditional state cases and scope exclusions; no functional pass inferred",
+  "evidence_contract": {
+    "status_values": [
+      "pass",
+      "fail",
+      "blocked",
+      "not_run",
+      "excluded_by_policy",
+      "conditional_future_scope"
+    ],
+    "required_fields": [
+      "case_id",
+      "candidate_content_identity",
+      "runtime_fingerprint",
+      "input_refs",
+      "command_or_reproduction_steps",
+      "expected",
+      "observed",
+      "status",
+      "environment",
+      "attachments_and_hashes",
+      "limitations",
+      "defect_id_if_failed"
+    ],
+    "failure_rule": "Required fail/blocked/not_run prevents affected gate closure. Retain original evidence and link fresh superseding results after a fix."
+  }
+}
