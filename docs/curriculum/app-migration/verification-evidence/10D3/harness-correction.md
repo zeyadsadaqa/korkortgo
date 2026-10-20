@@ -1,0 +1,1 @@
+Initial shared run stopped deliberately after light-setting checks: the dark scheme override needed its own full-size Surface so the parent light background was not retained. Added the dark background Surface before the final complete run. This is a verification-only correction; no product or historical evidence changed. The partial run is not counted.

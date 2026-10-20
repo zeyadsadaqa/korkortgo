@@ -1,0 +1,14 @@
+{
+  "case_id": "T03-ART-desktop-sign-recognise-S5-light-100",
+  "expected": "Persistent neutral visible selection indication on selected option B; selected state is not correctness feedback.",
+  "observed": "Selected B is visible in the shared 390x844 light-100 capture, yet full pre/pending images are pixel-identical; semantic selection and later confirmation still work.",
+  "pre_capture": "captures/sign-recognise-S5-light-100-pre.png",
+  "pending_capture": "captures/sign-recognise-S5-light-100-pending.png",
+  "pre_file_sha256": "05fbc460625d3b2024258433491b5054e3351a96e422d7d4da3ee0873fd9e5ae",
+  "pending_file_sha256": "05fbc460625d3b2024258433491b5054e3351a96e422d7d4da3ee0873fd9e5ae",
+  "pixel_changed_bounds": null,
+  "selected_authored_option_id": "sign-recognise-S5-option-1",
+  "supporting_code": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt:47–53: selected passed to selectable semantics, no persistent selection rendering in Surface/card.",
+  "defect_id": "DEF-10D-001",
+  "limits": "An accessible selected property and enabling Confirm do not supply a visible selected-choice indicator. Other cases require affected-surface retests; not all were independently pixel-reviewed."
+}
