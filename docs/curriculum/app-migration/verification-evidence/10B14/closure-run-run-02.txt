@@ -1,0 +1,14 @@
+/Users/zeyad/Desktop/korkort/docs/curriculum/app-migration/verification-evidence/10B1/verify_closure.py:12: DeprecationWarning: 'maxsplit' is passed as positional argument
+  path=f'docs/curriculum/pdf-production/chapters/M{module:02d}/chapter-source.md';raw=(ROOT/path).read_text();teaching=re.split(r'^\[[^]]+\]: ',raw,1,flags=re.M)[0].strip()
+{
+  "status": "pass",
+  "totals": {
+    "checks": 6590,
+    "passed": 6590,
+    "manifest_references": 932,
+    "pdf_pages": 538,
+    "production_generated_outputs": 229,
+    "full_package_generated_outputs": 2725
+  },
+  "failures": []
+}

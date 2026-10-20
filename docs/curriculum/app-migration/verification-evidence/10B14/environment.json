@@ -1,0 +1,45 @@
+{
+  "recorded_utc": "2026-10-20T17:26:16.862723+00:00",
+  "commands": [
+    {
+      "argv": [
+        "git",
+        "rev-parse",
+        "HEAD"
+      ],
+      "exit_code": 0,
+      "output": "24ee146011e377ed4e3202e37e7292225b6cb4d4\n"
+    },
+    {
+      "argv": [
+        "uname",
+        "-a"
+      ],
+      "exit_code": 0,
+      "output": "Darwin Zeyads-MacBook-Pro.local 25.3.0 Darwin Kernel Version 25.3.0: Wed Jan 28 20:53:05 PST 2026; root:xnu-12377.81.4~5/RELEASE_ARM64_T6020 arm64\n"
+    },
+    {
+      "argv": [
+        "python3",
+        "--version"
+      ],
+      "exit_code": 0,
+      "output": "Python 3.14.7\n"
+    },
+    {
+      "argv": [
+        "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home/bin/java",
+        "-version"
+      ],
+      "exit_code": 0,
+      "output": "openjdk version \"17.0.16\" 2025-07-15 LTS\nOpenJDK Runtime Environment Microsoft-11926164 (build 17.0.16+8-LTS)\nOpenJDK 64-Bit Server VM Microsoft-11926164 (build 17.0.16+8-LTS, mixed mode, sharing)\n"
+    }
+  ],
+  "gradle": "8.14.3, repository wrapper; offline desktopTest invocations retained per task",
+  "pdf_python": "/Users/zeyad/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+  "pdf_extractor": "10B1/fresh-pdf-parity.json records exact pypdf version",
+  "verification_scope": "shared desktop CanvasLayersComposeScene, 1280x4096; production LessonReader, SignReferenceDetail and LearningRoute components; light/default text",
+  "candidate_manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "package_digest": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a",
+  "candidate_diff": "Only implementation-plan.md/progress.md tracked changes plus new 10B verification evidence; no product/input/historical receipt edits."
+}

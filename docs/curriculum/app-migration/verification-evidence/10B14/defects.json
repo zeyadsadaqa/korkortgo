@@ -1,0 +1,320 @@
+{
+  "continues": "../10A3/defects.json",
+  "open_product_defects": [],
+  "open_verification_blockers": [],
+  "schema_version": 1,
+  "task": "10B14",
+  "date": "2026-10-20",
+  "severity_policy": {
+    "P0": "Unsafe/wrong scored rule or key, corrupted acceptance/input, lost answer identity or release of held item; block every affected gate.",
+    "P1": "Required content/route/runtime/accessibility unavailable, broken package/source dispatch or material approved-design/readability failure; block affected gates.",
+    "P2": "Reproducible lesser correctness/usability/editorial defect; block its required acceptance case until fixed/retested or explicitly dispositioned under existing approved scope.",
+    "P3": "Optional polish or new feature request; record separate scope, do not silently change approved design."
+  },
+  "required_record_fields": [
+    "id",
+    "severity",
+    "state",
+    "type",
+    "detected_in_task",
+    "case_ids",
+    "candidate",
+    "expected",
+    "observed",
+    "reproduction",
+    "evidence",
+    "affected_ids_files",
+    "owners",
+    "impacted_gates",
+    "fix_scope",
+    "approval_if_required",
+    "invalidation",
+    "retest",
+    "closure_reason"
+  ],
+  "findings": [
+    {
+      "id": "DEF-10B-001",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verifier",
+      "detected_in_task": "10B1",
+      "case_ids": [
+        "T01-BLOCK-0007"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "Markdown blockquote marker treated as content in opening disclaimer comparison",
+      "reproduction": {
+        "condition": "Markdown blockquote marker treated as content in opening disclaimer comparison",
+        "retained_diagnostic": "../10B1/initial-audit-diagnostic.txt"
+      },
+      "evidence": [
+        "../10B1/initial-audit-diagnostic.txt"
+      ],
+      "affected_ids_files": [
+        "introduction/disclaimer"
+      ],
+      "owners": [
+        "10B1"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Strip the Markdown quote delimiter; exact disclaimer text independently matches manuscript and reader.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B1",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B1/opening-parity.json"
+      },
+      "closure_reason": "Strip the Markdown quote delimiter; exact disclaimer text independently matches manuscript and reader."
+    },
+    {
+      "id": "DEF-10B-002",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verification harness",
+      "detected_in_task": "10B1",
+      "case_ids": [
+        "T01-CLAUSE-01"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "Nested screenshot helper initially could not access repository root",
+      "reproduction": {
+        "condition": "Nested screenshot helper initially could not access repository root",
+        "retained_diagnostic": "../10B1/reader-gradle-final.txt"
+      },
+      "evidence": [
+        "../10B1/reader-gradle-final.txt"
+      ],
+      "affected_ids_files": [
+        "10B1/ImportVerification10BTest.kt"
+      ],
+      "owners": [
+        "10B1"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Use an inner harness class; rerun successfully with captures under the task evidence.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B1",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B1/opening-parity.json"
+      },
+      "closure_reason": "Use an inner harness class; rerun successfully with captures under the task evidence."
+    },
+    {
+      "id": "DEF-10B-003",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verifier",
+      "detected_in_task": "10B5",
+      "case_ids": [
+        "T01-BLOCK-0470"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "Editable B4 overlay label is rich linked text, not a plain text node",
+      "reproduction": {
+        "condition": "Editable B4 overlay label is rich linked text, not a plain text node",
+        "retained_diagnostic": "../10B5/initial-overlay-diagnostic.txt"
+      },
+      "evidence": [
+        "../10B5/initial-overlay-diagnostic.txt"
+      ],
+      "affected_ids_files": [
+        "M04-L01/illustration/M04-L01-priority"
+      ],
+      "owners": [
+        "10B5"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Compare exact visible label, artwork IDs, order, inset and coordinates; compiled full-object parity separately preserves links.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B5",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B5/M04-parity.json"
+      },
+      "closure_reason": "Compare exact visible label, artwork IDs, order, inset and coordinates; compiled full-object parity separately preserves links."
+    },
+    {
+      "id": "DEF-10B-004",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verification coverage",
+      "detected_in_task": "10B1",
+      "case_ids": [
+        "T01-BLOCK-1505",
+        "T01-BLOCK-1506",
+        "T01-BLOCK-1507",
+        "T01-BLOCK-1508",
+        "T01-BLOCK-1509",
+        "T01-BLOCK-1510",
+        "T01-BLOCK-1511",
+        "T01-BLOCK-1512",
+        "T01-BLOCK-1513",
+        "T01-BLOCK-1514",
+        "T01-BLOCK-1515",
+        "T01-BLOCK-1516",
+        "T01-BLOCK-1517",
+        "T01-BLOCK-1518",
+        "T01-BLOCK-1519",
+        "T01-BLOCK-1520",
+        "T01-BLOCK-1521",
+        "T01-BLOCK-1522",
+        "T01-BLOCK-1523",
+        "T01-BLOCK-1524",
+        "T01-BLOCK-1525",
+        "T01-BLOCK-1526",
+        "T01-BLOCK-1527",
+        "T01-BLOCK-1528",
+        "T01-BLOCK-1529",
+        "T01-BLOCK-1530",
+        "T01-BLOCK-1531",
+        "T01-BLOCK-1532",
+        "T01-BLOCK-1533",
+        "T01-BLOCK-1534",
+        "T01-BLOCK-1535",
+        "T01-BLOCK-1536",
+        "T01-BLOCK-1537"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "Opening owner includes source/credit blocks in the prepared index",
+      "reproduction": {
+        "condition": "Opening owner includes source/credit blocks in the prepared index",
+        "retained_diagnostic": "../10B1/opening-supplement-run.txt"
+      },
+      "evidence": [
+        "../10B1/opening-supplement-run.txt"
+      ],
+      "affected_ids_files": [
+        "official-references/"
+      ],
+      "owners": [
+        "10B1"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Supplement and rerun 10B1 for official-references and artwork-credits; all 71 assigned blocks covered.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B1",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B1/opening-parity.json"
+      },
+      "closure_reason": "Supplement and rerun 10B1 for official-references and artwork-credits; all 71 assigned blocks covered."
+    },
+    {
+      "id": "DEF-10B-005",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verifier",
+      "detected_in_task": "10B7",
+      "case_ids": [
+        "T01-BLOCK-0836"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "PDF line wrap split the approved small waterways phrase",
+      "reproduction": {
+        "condition": "PDF line wrap split the approved small waterways phrase",
+        "retained_diagnostic": "../10B7/initial-correction-diagnostic.txt"
+      },
+      "evidence": [
+        "../10B7/initial-correction-diagnostic.txt"
+      ],
+      "affected_ids_files": [
+        "M06-L01/teaching-009"
+      ],
+      "owners": [
+        "10B7"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Normalize presentation whitespace; exact source block, normalized PDF text and actual reader passage agree.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B7",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B7/M06-parity.json"
+      },
+      "closure_reason": "Normalize presentation whitespace; exact source block, normalized PDF text and actual reader passage agree."
+    },
+    {
+      "id": "DEF-10B-006",
+      "severity": "P2",
+      "state": "closed",
+      "type": "verifier",
+      "detected_in_task": "10B11",
+      "case_ids": [
+        "T01-BLOCK-1394",
+        "T01-BLOCK-1395",
+        "T01-BLOCK-1396",
+        "T01-BLOCK-1397",
+        "T01-BLOCK-1398",
+        "T01-BLOCK-1399"
+      ],
+      "candidate": {
+        "entry_commit": "24ee146",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Verifier models the approved representation and covers every assigned case.",
+      "observed": "Ordered-list children share the full source-list origin",
+      "reproduction": {
+        "condition": "Ordered-list children share the full source-list origin",
+        "retained_diagnostic": "../10B11/initial-list-diagnostic.txt"
+      },
+      "evidence": [
+        "../10B11/initial-list-diagnostic.txt"
+      ],
+      "affected_ids_files": [
+        "M10-L03/teaching-005"
+      ],
+      "owners": [
+        "10B11"
+      ],
+      "impacted_gates": [
+        "T01"
+      ],
+      "fix_scope": "Compare each child to its numbered source line; compare parent to the complete ordered list.",
+      "approval_if_required": "No new design or product change; verification-only repair within the authorized 10B run.",
+      "invalidation": "Supersedes the affected failed verification attempt; product candidate and historical acceptance receipts unchanged.",
+      "retest": {
+        "task": "10B11",
+        "status": "pass",
+        "evidence": "docs/curriculum/app-migration/verification-evidence/10B11/M10-parity.json"
+      },
+      "closure_reason": "Compare each child to its numbered source line; compare parent to the complete ordered list."
+    }
+  ]
+}
