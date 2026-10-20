@@ -1,0 +1,102 @@
+[
+  {
+    "path": "SourceRuntimeVerification10CTest.kt",
+    "sha256": "374621a5ff1c858a58be3e7ef920ee8ccfccbd942fc8bc730252c5284df2fc0b"
+  },
+  {
+    "path": "TEST-se.korkort.SourceRuntimeVerification10CTest.xml",
+    "sha256": "3d8d706229ccc217dd43dd6746d0251396b5baf532c5ae452ecda9960d45fb5c"
+  },
+  {
+    "path": "baseline-exit.json",
+    "sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b"
+  },
+  {
+    "path": "captures/commercial_shortcut-failure.png",
+    "sha256": "a9ee70ff9acc0996d38779ff9be7a7c0c0fab8e7166504d19841292b0746bd3f"
+  },
+  {
+    "path": "captures/foreign_guidance-failure.png",
+    "sha256": "336dd6c8eacf5084350251196c95071a700c2b1f1afe8f0efdaaeba6bb6577fe"
+  },
+  {
+    "path": "captures/manufacturer_caution-failure.png",
+    "sha256": "fdd719d0612c3eb244501605f6b7ea38e3da779a67b03f8cfee02d1782d2a1bc"
+  },
+  {
+    "path": "captures/missing-source-recovery.png",
+    "sha256": "d801e84c3a4e8ddd10d7fbd7c8876b73cdd291467272df145c85e3f752032bbf"
+  },
+  {
+    "path": "captures/reader-source-return-focus.png",
+    "sha256": "65481e7074e592ac684b1f1c0ae755560ea06236b864d97fdea3c6dae633a4a4"
+  },
+  {
+    "path": "captures/research-failure.png",
+    "sha256": "1c19bda361e46241060f907f521e72f3a60ea98ad75eb22b74c789596c7caa31"
+  },
+  {
+    "path": "captures/review-source-return-focus.png",
+    "sha256": "63b13f80813aacdb8010ad6848a5ef55c98a5ab9bb1e317756c49e3e04db59b4"
+  },
+  {
+    "path": "captures/swedish_legislation-failure.png",
+    "sha256": "996223358a58a8f2dfe0a5a9f550a551c7823605ef9a3234e7c46288a92e7375"
+  },
+  {
+    "path": "cleanup.json",
+    "sha256": "ed456f13805ba01307deb334eddda142b2e497d3b51b08c14753456b55468797"
+  },
+  {
+    "path": "commands.json",
+    "sha256": "ab471f8e8e20eb8e05f8d5438b13205404016b3cf453fc4799ada0cccc574f23"
+  },
+  {
+    "path": "defects.json",
+    "sha256": "09fdaa4e525a9773661ab855adb11fae944ed2354e1f8b58d1bea5a145658530"
+  },
+  {
+    "path": "desktop-source-observations.json",
+    "sha256": "2dfc8c66367f7d41bfab5e736f9f28fc8334f67b41e297f8512a66454abd97d1"
+  },
+  {
+    "path": "desktop-test.txt",
+    "sha256": "dc942ca1499a5710575ee60bd4e133d7c87a47e0385b988a0759db386f855ebb"
+  },
+  {
+    "path": "environment.json",
+    "sha256": "c6a60e982256bed164b0bae4aefa523499b1be927357c27206c4df403cc3e22c"
+  },
+  {
+    "path": "evidence-integrity.json",
+    "sha256": "d49ab7c7880c6d30339aca1c8574ddfdada6c4c6638cdc5ec5cd000507f94d1c"
+  },
+  {
+    "path": "jvm-test-init.gradle",
+    "sha256": "74aff56a2e150ba63c11d94ea92cc33b587faea80387f4e4353f6ee5a09c56d2"
+  },
+  {
+    "path": "reconcile_runtime.py",
+    "sha256": "6aaaf39df5ca90f5b65ca07189229f234e4d908ac2873266a56ad933a296f7a2"
+  },
+  {
+    "path": "review.md",
+    "sha256": "bde198110078b5e80ea36aefae680da35380d4d6fe7c2abf3ab3a7f4bbf3138c"
+  },
+  {
+    "path": "runtime-reconciliation.txt",
+    "sha256": "3679567e8fad38f4eaa82f80a45ad59ee89d17afa2763e176cc0d09cd56c43ae"
+  },
+  {
+    "path": "source-cases.json",
+    "sha256": "5abe5f5d2aa020494e92ffb512f9a93d292aad637db3945a82b6dfd1e9b6710d"
+  },
+  {
+    "path": "source-runtime-results.json",
+    "sha256": "f8d1884cf5aa50d31b7604dd7179ccab5ec4abaf5f3e7599296ae9fe3cab035e"
+  },
+  {
+    "path": "verify_evidence.py",
+    "sha256": "2ec2da3bfd01992c605d3ffde51ca8f258d78cd26fef1866b0c3adfdb3f0f6be"
+  }
+]

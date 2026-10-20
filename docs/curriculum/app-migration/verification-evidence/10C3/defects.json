@@ -1,0 +1,485 @@
+{
+  "continues": "../10B14/defects.json",
+  "open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006"
+  ],
+  "open_verification_blockers": [
+    {
+      "id": "BLOCK-10C-CURRENCY",
+      "state": "open",
+      "type": "source_currency",
+      "case_ids": [
+        "10C2-CLAIM-17"
+      ],
+      "reference_id": "REF-8994a6a11921a063",
+      "observed": "Direct original URL HTTP 403; web open cache miss; exact-model indexed content corroborates prior scope only.",
+      "next_action": "Fresh direct primary inspection or explicit bounded disposition under 10L; preserve historical dates and exact model/edition.",
+      "impacted_gates": [
+        "T02"
+      ]
+    },
+    {
+      "id": "BLOCK-10C-RUNTIME",
+      "state": "open",
+      "type": "planned_dependency",
+      "case_ids": "source-cases.json: all 54 not_run_pending_10K cases; remaining production-owner/platform closure requirements",
+      "observed": "18 desktop shared matrix passes and three supplemental shared checks; no fresh Android/iOS/Wasm or production-owner/native URI observations in this task.",
+      "next_action": "Use executable cases in fresh 10K2–10K6 runs, then reconcile 10C3 and retest any bounded fixes.",
+      "impacted_gates": [
+        "T02"
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "task": "10C3",
+  "date": "2026-10-20",
+  "severity_policy": {
+    "P0": "Unsafe/wrong scored rule or key, corrupted acceptance/input, lost answer identity or release of held item; block every affected gate.",
+    "P1": "Required content/route/runtime/accessibility unavailable, broken package/source dispatch or material approved-design/readability failure; block affected gates.",
+    "P2": "Reproducible lesser correctness/usability/editorial defect; block its required acceptance case until fixed/retested or explicitly dispositioned under existing approved scope.",
+    "P3": "Optional polish or new feature request; record separate scope, do not silently change approved design."
+  },
+  "required_record_fields": [
+    "id",
+    "severity",
+    "state",
+    "type",
+    "detected_in_task",
+    "case_ids",
+    "candidate",
+    "expected",
+    "observed",
+    "reproduction",
+    "evidence",
+    "affected_ids_files",
+    "owners",
+    "impacted_gates",
+    "fix_scope",
+    "approval_if_required",
+    "invalidation",
+    "retest",
+    "closure_reason"
+  ],
+  "findings": [
+    {
+      "id": "DEF-10C-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19110",
+        "10C2-CLAIM-24"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_public_service",
+        "basis": "Gagnefs kommun is Swedish municipal advice, not foreign guidance."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Gagnefs kommun",
+        "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-496b85361fc1b2c5",
+        "situation-079"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10C-002",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19111",
+        "10C2-CLAIM-25"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_public_service",
+        "basis": "Göteborgs Stad environmental guidance is Swedish municipal advice."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Göteborgs Stad, Miljöförvaltningen",
+        "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-2816f9478f49eea3",
+        "situation-083"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10C-003",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19112",
+        "10C2-CLAIM-26"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Named Swedish Energy Agency/municipal energy advice is domestic guidance."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Energimyndigheten / municipal Energi- och klimatrådgivningen",
+        "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-56e38aa92cb10d3e",
+        "situation-099"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10C-004",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19113",
+        "10C2-CLAIM-27"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Named MFD guidance is from a Swedish public agency."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Myndigheten för delaktighet (MFD)",
+        "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-6ca8f251127184be",
+        "situation-119"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10C-005",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19114",
+        "10C2-CLAIM-28"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Primary PDF identifies Trafikverket KRAV Grundvärden VGU, publication 2024:148, version 1.0; domestic infrastructure requirements, not foreign guidance, research, or general driver legislation."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Trafikverket",
+        "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-b3162b40db29d9bd",
+        "situation-138",
+        "braking-5-2",
+        "braking-5-3",
+        "braking-8-2",
+        "braking-8-3",
+        "braking-10-2",
+        "braking-10-3",
+        "braking-12-2",
+        "braking-12-3",
+        "braking-15-2",
+        "braking-15-3",
+        "braking-18-2",
+        "braking-18-3",
+        "braking-20-2",
+        "braking-20-3",
+        "braking-25-2",
+        "braking-25-3",
+        "braking-30-2",
+        "braking-30-3",
+        "braking-35-2",
+        "braking-35-3"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10C-006",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19115",
+        "10C2-CLAIM-29"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "manufacturer",
+        "basis": "Kia MQ4/2022 owner handbook is model-specific manufacturer guidance, not a public authority."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Kia, manufacturer owner handbook",
+        "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-52a2a9e7d845ad8f",
+        "situation-174"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null
+    }
+  ],
+  "verification_notes": [
+    {
+      "type": "verification_only_correction",
+      "status": "closed",
+      "observation": "Initial C2 brief-count code used nonexistent primary/related keys; replaced with exact primary_lesson_id/related_lesson_ids and asserted all expected counts. No product defect."
+    },
+    {
+      "type": "verification_only_correction",
+      "status": "closed",
+      "observation": "Initial C3 reconciler root locator was one parent too high; switched to repository discovery by content/curriculum.json, rerun yields 72 cases/18 passes. No product defect."
+    },
+    {
+      "type": "review_refinement",
+      "status": "closed",
+      "observation": "Initial C1 DiVA research hypothesis replaced after C2 inspected actual Trafikverket publication identity; six foreign-classification failures unchanged."
+    }
+  ]
+}

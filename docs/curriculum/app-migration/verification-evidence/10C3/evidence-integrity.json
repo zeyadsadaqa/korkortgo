@@ -1,0 +1,91 @@
+{
+  "task": "10C evidence accounting",
+  "status": "pass",
+  "gate_T02": "open",
+  "checks": [
+    {
+      "name": "C1 exact count accounting with six explicit classification failures",
+      "status": "pass"
+    },
+    {
+      "name": "Every prepared T02 data case has actual linked execution checks",
+      "status": "pass"
+    },
+    {
+      "name": "C2 every selected claim explicitly supported, defective or blocked",
+      "status": "pass"
+    },
+    {
+      "name": "C2 actual counts match stated summary",
+      "status": "pass"
+    },
+    {
+      "name": "All three briefs retain exact coverage and future unscored boundary",
+      "status": "pass"
+    },
+    {
+      "name": "Editorial arithmetic independently recomputed",
+      "status": "pass"
+    },
+    {
+      "name": "C3 exactly 72 uniquely identified prepared cases",
+      "status": "pass"
+    },
+    {
+      "name": "Only actual shared desktop matrix cases pass; remaining 54 pending 10K",
+      "status": "pass"
+    },
+    {
+      "name": "Three actual supplemental recovery/return observations pass",
+      "status": "pass"
+    },
+    {
+      "name": "10C1 fresh JVM execution receipt passes",
+      "status": "pass"
+    },
+    {
+      "name": "10C3 fresh JVM execution receipt passes",
+      "status": "pass"
+    },
+    {
+      "name": "Six open source defects and two explicit closure blockers retained",
+      "status": "pass"
+    },
+    {
+      "name": "Candidate identity unchanged",
+      "status": "pass"
+    },
+    {
+      "name": "Baseline entry/exit prove no input or historical receipt drift",
+      "status": "pass"
+    },
+    {
+      "name": "10C1 command/log receipt compiled-source-test.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C1 command/log receipt source-audit-run.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C2 command/log receipt primary-probe-run.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C2 command/log receipt review-record-run.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C3 command/log receipt desktop-test.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C3 command/log receipt runtime-reconciliation.txt",
+      "status": "pass"
+    },
+    {
+      "name": "10C3 command/log receipt baseline-exit.json",
+      "status": "pass"
+    }
+  ]
+}

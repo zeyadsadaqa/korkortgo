@@ -1,0 +1,50 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10C3/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.SourceRuntimeVerification10CTest"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:15:49.126145+00:00",
+    "ended_utc": "2026-10-20T18:16:01.418347+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "desktop-test.txt",
+    "log_sha256": "dc942ca1499a5710575ee60bd4e133d7c87a47e0385b988a0759db386f855ebb",
+    "original_log_sha256": "40b777f01364c88408b6a2eee314ced44421992d9dd5d43e05fe13830facb739",
+    "log_normalization": "Removed trailing whitespace from the Gradle daemon status line before commit; command messages and result unchanged."
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10C3/reconcile_runtime.py"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:16:01.419725+00:00",
+    "ended_utc": "2026-10-20T18:16:02.339326+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "runtime-reconciliation.txt",
+    "log_sha256": "3679567e8fad38f4eaa82f80a45ad59ee89d17afa2763e176cc0d09cd56c43ae"
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10A1/verify_baseline.py",
+      "--check"
+    ],
+    "cwd": "/Users/zeyad/Desktop/korkort",
+    "started_utc": "2026-10-20T18:16:02.339832+00:00",
+    "ended_utc": "2026-10-20T18:16:05.759495+00:00",
+    "exit_code": 0,
+    "expected_exit_code": 0,
+    "log": "baseline-exit.json",
+    "log_sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b"
+  }
+]
