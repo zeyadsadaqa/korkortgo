@@ -1,0 +1,30 @@
+{
+  "task": "10B7",
+  "status": "fail",
+  "totals": {
+    "checks": 632,
+    "passed": 631,
+    "documents": 8,
+    "blocks_recursive": 210
+  },
+  "failures": [
+    {
+      "case_id": "10B7-00632",
+      "name": "Approved page-193 correction at exact origin",
+      "passed": false,
+      "details": {
+        "block_id": "M06-L01/teaching-009",
+        "source": {
+          "evidence_ids": [],
+          "file": {
+            "path": "docs/curriculum/pdf-production/chapters/M06/chapter-source.md",
+            "sha256": "195bb5b2d0b6e28ad3556af30ea7270dfb940fc861a7a9c72baece46c731bb94"
+          },
+          "locator": "line:23-23",
+          "pdf_evidence_page": null
+        },
+        "page": 193
+      }
+    }
+  ]
+}
