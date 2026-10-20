@@ -2309,6 +2309,8 @@ Source freshness is claim-specific. Use official/primary sources when rechecking
 
 #### 10C1. Audit exact source bindings and classifications
 
+**Status — 20 October 2026: Audit executed; acceptance open.** [10C1 findings](app-migration/verification-evidence/10C1/review.md): 19,115 checks pass; six source classifications require correction and retest. Exact bindings/compiled metadata match; no accepted input changed.
+
 Compare all exact question URL records and scoped aliases with 7C/current acceptance evidence, including 404 recorded URL entries and 116 canonical source destinations at baseline. Inspect law, foreign guidance, research, commercial shortcuts, manufacturer cautions and editorial arithmetic; preserve publishers, dates, jurisdiction and scope limits.
 
 **Input:** 10A3, source inventory, accepted per-ID records and source routes.
@@ -2319,6 +2321,8 @@ Compare all exact question URL records and scoped aliases with 7C/current accept
 
 #### 10C2. Recheck affected and time-sensitive source claims
 
+**Status — 20 October 2026: Review executed with findings.** [29 selected claim checks and three briefs](app-migration/verification-evidence/10C2/source-currency-review.md): 22 scoped supports, six classification defects and one unresolved Volvo handbook check. Original production dates remain unchanged.
+
 Create a risk-based list from the source register, 9N briefs and discovered discrepancies. Visit the actual primary pages for current requirements and every factual claim proposed for correction; record checked claims, date, URL, changes and unreachable pages. Audit the three briefs without adding scored questions.
 
 **Input:** 10C1 and current issue list; coordinate factual findings with 10E.
@@ -2328,6 +2332,8 @@ Create a risk-based list from the source register, 9N briefs and discovered disc
 **Done when:** Every selected high-risk/affected claim has dated evidence or an unresolved blocker; unchecked claims retain their original dates and are not represented as freshly verified.
 
 #### 10C3. Verify source opening, failure and return context
+
+**Status — 20 October 2026: Shared checks executed; closure pending 10K.** [72 prepared cases and results](app-migration/verification-evidence/10C3/review.md): 18 shared desktop matrix passes plus three supplemental recovery/return checks; 54 native/browser cases remain unrun. T02 is open for six classification defects, one selected source-currency blocker and required fresh platform observations.
 
 Exercise in-app source details and the external Open source callback with representative actual URLs from the approved source classes. Check valid return to reader/review, offline/unreachable URLs and missing-source recovery. Prepare executable cases first; use fresh per-target observations from 10K2–10K6 for closure.
 
@@ -2877,7 +2883,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next separately requestable task: 10C1 — audit exact source bindings and classifications.**
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10D1 — audit every sign description, variant and distractor change.** 10C audits and shared checks are recorded; T02 remains open for the bounded 10L corrections/currency disposition and fresh 10K observations listed in the [10C review](app-migration/verification-evidence/10C3/review.md).
 
 ## Content principle
 
