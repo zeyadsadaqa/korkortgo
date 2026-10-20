@@ -1,0 +1,135 @@
+{
+  "task": "10A1",
+  "status": "pass",
+  "candidate": {
+    "file": {
+      "path": "content/accepted-content-manifest.json",
+      "sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+    },
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    }
+  },
+  "source_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "checks": [
+    {
+      "id": "10A1-HANDOFF",
+      "status": "pass",
+      "expected": 0,
+      "observed": 0,
+      "evidence": "candidate-baseline.json#/handoff_file_comparison"
+    },
+    {
+      "id": "10A1-DOC-DRIFT",
+      "status": "pass",
+      "expected": true,
+      "observed": true,
+      "evidence": "candidate-baseline.json#/documented_drift"
+    },
+    {
+      "id": "10A1-COMMITTED-SCOPE",
+      "status": "pass",
+      "expected": true,
+      "observed": true,
+      "evidence": "candidate-baseline.json#/git/changed_since_handoff"
+    },
+    {
+      "id": "10A1-MANIFEST",
+      "status": "pass",
+      "expected": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+      "observed": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+      "evidence": "candidate-baseline.json#/accepted_manifest"
+    },
+    {
+      "id": "10A1-IDENTITY",
+      "status": "pass",
+      "expected": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "observed": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "evidence": "candidate-baseline.json#/accepted_manifest"
+    },
+    {
+      "id": "10A1-BOUND-FILES",
+      "status": "pass",
+      "expected": 0,
+      "observed": 0,
+      "evidence": "candidate-baseline.json#/accepted_bound_file_checks"
+    },
+    {
+      "id": "10A1-ARTWORK",
+      "status": "pass",
+      "expected": 0,
+      "observed": 0,
+      "evidence": "candidate-baseline.json#/artwork_origin_checks"
+    },
+    {
+      "id": "10A1-COUNTS",
+      "status": "pass",
+      "expected": {
+        "questions": 1000,
+        "concepts": 500,
+        "accepted": 1000,
+        "active_holds": 0,
+        "dispositions": {
+          "retain": 336,
+          "rewrite": 626,
+          "replace": 38
+        },
+        "modules": 10,
+        "lessons": 40,
+        "reading_nodes": 60,
+        "reviews": 10,
+        "appendices": 4,
+        "reference_groups": 24,
+        "canonical_destinations": 1123,
+        "official_entries": 400,
+        "artwork_bindings": 484,
+        "artwork_files": 419
+      },
+      "observed": {
+        "questions": 1000,
+        "concepts": 500,
+        "accepted": 1000,
+        "active_holds": 0,
+        "dispositions": {
+          "retain": 336,
+          "rewrite": 626,
+          "replace": 38
+        },
+        "modules": 10,
+        "lessons": 40,
+        "reading_nodes": 60,
+        "reviews": 10,
+        "appendices": 4,
+        "reference_groups": 24,
+        "canonical_destinations": 1123,
+        "official_entries": 400,
+        "artwork_bindings": 484,
+        "artwork_files": 419
+      },
+      "evidence": "candidate-baseline.json#/observed_counts"
+    },
+    {
+      "id": "10A1-PDF",
+      "status": "pass",
+      "expected": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581",
+      "observed": "78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581",
+      "evidence": "candidate-baseline.json#/approved_pdf"
+    }
+  ],
+  "counts": {
+    "handoff_files": 1067,
+    "matching_handoff_files": 1065,
+    "expected_documentation_differences": 2,
+    "accepted_file_hash_pairs": 932,
+    "artwork_origin_checks": 968,
+    "tracked_inputs_fingerprinted": 7461
+  },
+  "functional_verification": "T01–T10 remain not_run; this task establishes input identity only."
+}
