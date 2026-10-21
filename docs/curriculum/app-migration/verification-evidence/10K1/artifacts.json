@@ -1,0 +1,209 @@
+{
+  "task": "10K1",
+  "files": [
+    {
+      "path": "baseline-entry.json",
+      "sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b",
+      "bytes": 262
+    },
+    {
+      "path": "commands.json",
+      "sha256": "063feb2ed2f2515356e9e891ab982407999050109726b2b9e5eac3901baafec1",
+      "bytes": 3816
+    },
+    {
+      "path": "common-results.json",
+      "sha256": "863ceb0e907d7a8f421d34c53b92ee0e65f15c10ac204c17f5bf59c937f5cba2",
+      "bytes": 5013
+    },
+    {
+      "path": "environment.json",
+      "sha256": "d929fbb1f96deef2087d253796bc3b51f6941ac9e7a48a12cff2577e3117eb28",
+      "bytes": 647
+    },
+    {
+      "path": "logs/01-import_curriculum_remaining.txt",
+      "sha256": "6720bdf98cbd1b28861e464f7620cf3aa31a89cea7e71431efc57f81bc1eaa19",
+      "bytes": 300
+    },
+    {
+      "path": "logs/02-build_navigation.txt",
+      "sha256": "03a887d49f506908a402c46560f10d5bbd795afc51229d727ee744b0e5766b97",
+      "bytes": 94
+    },
+    {
+      "path": "logs/03-build_reader.txt",
+      "sha256": "f0f90d38eda9bcd9fb1aa23c6f20d54ad154342951d45153e150590b9973f880",
+      "bytes": 90
+    },
+    {
+      "path": "logs/04-assemble_question_package_9j.txt",
+      "sha256": "8451eafb61bd4a8110ffb44ea1b8d408640cb4157613eef6a579fe70a419e6cb",
+      "bytes": 86
+    },
+    {
+      "path": "logs/05-review_question_delivery_9j.txt",
+      "sha256": "f19b9bbcdde41ef68475feeb1d020d6cec1e4fc38d2126d528b5d15df4736b90",
+      "bytes": 114
+    },
+    {
+      "path": "logs/06-finalize_question_package_9j.txt",
+      "sha256": "ffeeae2e68bb28de3215c2fdd7c30d5328d6d28d07001f5d6c9a8e91824db82a",
+      "bytes": 80
+    },
+    {
+      "path": "logs/07-python-unittest.txt",
+      "sha256": "bc527d48ab3affc9a74c366395ce84ceed10ccd134d0928d5eb5aa88ba1ce75b",
+      "bytes": 251
+    },
+    {
+      "path": "logs/08-fresh-desktop-tests.txt",
+      "sha256": "b24dafbe96c92abccb688968f6905828c931824fcd4443b2cd55c84a93f2dc33",
+      "bytes": 2522
+    },
+    {
+      "path": "logs/task-inventory.txt",
+      "sha256": "2353dab71061899420f93aceed5396e5c33f303b7fe7d234637868acf04a13ee",
+      "bytes": 28724
+    },
+    {
+      "path": "review.md",
+      "sha256": "bdf30f9fd2e5d984b3efb9962ef26076812cf3990fc44e8492e9926c97be5f3e",
+      "bytes": 1216
+    },
+    {
+      "path": "run_common.py",
+      "sha256": "3a645607c1803160e34965f6cfdbff483774e27232555f404f9eb476ad4c6696",
+      "bytes": 2655
+    },
+    {
+      "path": "run_logged.py",
+      "sha256": "21dead7f348f56b62d1543659eaf80c1c397e798bf1634ef8a48e7f945a86c8f",
+      "bytes": 1163
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.AcceptedQuestionParityTest.xml",
+      "sha256": "0e20b39c2a61573099621c811bc45c06eb685317994d6adb6054b27b47791913",
+      "bytes": 497
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.AcceptedReleaseStateTest.xml",
+      "sha256": "d01ad04135fe996159adb69a1fcd4ac63d25be8f2051e5595541c13cf121c408",
+      "bytes": 656
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.AssessmentSemanticsTest.xml",
+      "sha256": "cd998f9500a5f33c6680251b5aa72db870bd5d11735a8d035a37bdf44c1c99d5",
+      "bytes": 481
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.AssessmentTest.xml",
+      "sha256": "d5186c2706b2178cf173fd78345c54ebed389b3887376a56f3ec23813e793704",
+      "bytes": 1401
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.CandidateDelivery9JTest.xml",
+      "sha256": "59a25c5eab03e9839725df5ae3e13c5402f3115160648bebd227cba0abdf230a",
+      "bytes": 508
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.CurriculumAppFlowTest.xml",
+      "sha256": "a80cb55009341e4015e383b0fb061c0a8deb47c601689cbcac10e41e5bb1d6d6",
+      "bytes": 655
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.CurriculumContractTest.xml",
+      "sha256": "288d88645eabac0b6cbce05b1b23eaf67207017bf974965078ac2ed3ce61ab0f",
+      "bytes": 1026
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.ExactVectorRenderingTest.xml",
+      "sha256": "ef912e4fdbdce90c4863adac124fb830fbe2eac81e084e5137941a9d24dca11e",
+      "bytes": 624
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.FuelCorrectionsTest.xml",
+      "sha256": "beae0421288cfa3a063972f6e64d4c612aa0ea250fee63e33a0305b51460b61c",
+      "bytes": 602
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.ImageViewportTest.xml",
+      "sha256": "a6b78720ea549997ac03165efcf508056fb595886d46730af53a3758176f003a",
+      "bytes": 816
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.LearningReaderParityTest.xml",
+      "sha256": "8b6491566f5b3739985f3a609fd9173914644ba9ded0f190ef12da3125ebd591",
+      "bytes": 476
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "sha256": "7b025d8d7147d677cc1371c5279d533252837759a1c42a48f23eb495e2060be6",
+      "bytes": 2262
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.LearningViewsTest.xml",
+      "sha256": "f3d05f40c9b0bb29d99710b4b56a5ca329f0a2a8657df3e0a78ae637446e3617",
+      "bytes": 886
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.LoadClarificationsTest.xml",
+      "sha256": "ad35d55a09f1fce83d53bb82120297cafb44e29f767242116749659680109a5e",
+      "bytes": 472
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.NavigationTest.xml",
+      "sha256": "4535465dd771881e5a826d104cb3a9ab2ac297cb3bda9d6766f78c214765c9bc",
+      "bytes": 1817
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.QuestionPackage9JTest.xml",
+      "sha256": "2aa268f2b1c44b367cc298d253321c299bd52743da5e5a4d7a907657e68ecef5",
+      "bytes": 940
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.QuizTest.xml",
+      "sha256": "f0afb8b499760f3f3c208160fa8d153a65fecc0559c645bb68b447313996c000",
+      "bytes": 888
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "sha256": "d724a9dec31825a450d1d2186077653c4755c1d764ddb7f8583e6aa23069d3b7",
+      "bytes": 804
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.ScenarioCorrectionsTest.xml",
+      "sha256": "39a0898d079f8e2de16606ed8348d97913703135717d89a160b8d440f827194f",
+      "bytes": 482
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.SignRewriteBatchTest.xml",
+      "sha256": "75c34b92c06fc25323db9ae18b80b980761dd566d94d96bcdc849fb72a2bb1ff",
+      "bytes": 892
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.TransientPractice9MTest.xml",
+      "sha256": "41986d71c2ded14a23daa0f35a50631515570174a4a380562215900bc97c01a1",
+      "bytes": 668
+    },
+    {
+      "path": "test-reports/TEST-se.korkort.TransientQuizStateTest.xml",
+      "sha256": "d082cb1d4c432f5e0754700200eb678eaa76b8d99023c9c3d79b7e88eeb122c9",
+      "bytes": 1382
+    },
+    {
+      "path": "test-reports/desktop-artwork-observations.json",
+      "sha256": "4c1f3e4750d7f6713a2e4f6ad3fbc0b2ecf93dbf51079a879e77f76a0312f5dd",
+      "bytes": 320650
+    },
+    {
+      "path": "verify_packaged_resources.py",
+      "sha256": "152116ff686286aad7d5ad55ddc70da0eb45fac53b38088aaa794bc64f878999",
+      "bytes": 2260
+    }
+  ],
+  "excluded": [
+    "artifacts.json",
+    "integrity-results.json"
+  ]
+}
