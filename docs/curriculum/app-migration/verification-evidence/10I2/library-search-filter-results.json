@@ -1,0 +1,1402 @@
+{
+  "task": "10I2",
+  "status": "pass_compiled_and_shared_scope",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "totals": {
+    "search_cases": 288,
+    "category_filters": 5,
+    "tag_records": 40,
+    "checks": 344
+  },
+  "checks": [
+    {
+      "check": "all288orderedcases",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-001",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-002",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-003",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-004",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-005",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-006",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-007",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-008",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-009",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-010",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-011",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-012",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-013",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-014",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-015",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-016",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-017",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-018",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-019",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-020",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-021",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-022",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-023",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-024",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-025",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-026",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-027",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-028",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-029",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-030",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-031",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-032",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-033",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-034",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-035",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-036",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-037",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-038",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-039",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-040",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-041",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-042",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-043",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-044",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-045",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-046",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-047",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-048",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-049",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-050",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-051",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-052",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-053",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-054",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-055",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-056",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-057",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-058",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-059",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-060",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-061",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-062",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-063",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-064",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-065",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-066",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-067",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-068",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-069",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-070",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-071",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-072",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-073",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-074",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-075",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-076",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-077",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-078",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-079",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-080",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-081",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-082",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-083",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-084",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-085",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-086",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-087",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-088",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-089",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-090",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-091",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-092",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-093",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-094",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-095",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-096",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-097",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-098",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-099",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-100",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-101",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-102",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-103",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-104",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-105",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-106",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-107",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-108",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-109",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-110",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-111",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-112",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-113",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-114",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-115",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-116",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-117",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-118",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-119",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-120",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-121",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-122",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-123",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-124",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-125",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-126",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-127",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-128",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-129",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-130",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-131",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-132",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-133",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-134",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-135",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-136",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-137",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-138",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-139",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-140",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-141",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-142",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-143",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-144",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-145",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-146",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-147",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-148",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-149",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-150",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-151",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-152",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-153",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-154",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-155",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-156",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-157",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-158",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-159",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-160",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-161",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-162",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-163",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-164",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-165",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-166",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-167",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-168",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-169",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-170",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-171",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-172",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-173",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-174",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-175",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-176",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-177",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-178",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-179",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-180",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-181",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-182",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-183",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-184",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-185",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-186",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-187",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-188",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-189",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-190",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-191",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-192",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-193",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-194",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-195",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-196",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-197",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-198",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-199",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-200",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-201",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-202",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-203",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-204",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-205",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-206",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-207",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-208",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-209",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-210",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-211",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-212",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-213",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-214",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-215",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-216",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-217",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-218",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-219",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-220",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-221",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-222",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-223",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-224",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-225",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-226",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-227",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-228",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-229",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-230",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-231",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-232",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-233",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-234",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-235",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-236",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-237",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-238",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-239",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-240",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-241",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-242",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-243",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-244",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-245",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-246",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-247",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-248",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-249",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-250",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-251",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-252",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-253",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-254",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-255",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-256",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-257",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-258",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-259",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-260",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-261",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-262",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-263",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-264",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-265",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-266",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-267",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-268",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-269",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-270",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-271",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-272",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-273",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-274",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-275",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-276",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-277",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-278",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-279",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-280",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-281",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-282",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-283",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-284",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-285",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-286",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-287",
+      "pass": true
+    },
+    {
+      "check": "10I-SEARCH-288",
+      "pass": true
+    },
+    {
+      "check": "all40tagrecords",
+      "pass": true
+    },
+    {
+      "check": "M01-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M01-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M01-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M01-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M02-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M02-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M02-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M02-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M03-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M03-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M03-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M03-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M04-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M04-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M04-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M04-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M05-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M05-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M05-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M05-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M06-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M06-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M06-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M06-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M07-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M07-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M07-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M07-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M08-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M08-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M08-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M08-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M09-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M09-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M09-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M09-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M10-L01 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M10-L02 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M10-L03 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "M10-L04 frozen tags",
+      "pass": true
+    },
+    {
+      "check": "VEHICLE frozen ordered membership",
+      "pass": true
+    },
+    {
+      "check": "VEHICLE displayedtitle",
+      "pass": true
+    },
+    {
+      "check": "ENVIRONMENT frozen ordered membership",
+      "pass": true
+    },
+    {
+      "check": "ENVIRONMENT displayedtitle",
+      "pass": true
+    },
+    {
+      "check": "SAFETY frozen ordered membership",
+      "pass": true
+    },
+    {
+      "check": "SAFETY displayedtitle",
+      "pass": true
+    },
+    {
+      "check": "RULES frozen ordered membership",
+      "pass": true
+    },
+    {
+      "check": "RULES displayedtitle",
+      "pass": true
+    },
+    {
+      "check": "PERSONAL frozen ordered membership",
+      "pass": true
+    },
+    {
+      "check": "PERSONAL displayedtitle",
+      "pass": true
+    },
+    {
+      "check": "clear only owninput",
+      "pass": true
+    },
+    {
+      "check": "allchips keepquery",
+      "pass": true
+    },
+    {
+      "check": "emptystate neverautoopens",
+      "pass": true
+    },
+    {
+      "check": "combinedroundtrip querycategoryexpansion",
+      "pass": true
+    }
+  ],
+  "input": "search-oracle.json / frozen7E plus authored teaching search fields",
+  "observations": [
+    "compiled-search-observations.json",
+    "search-return-observations.json"
+  ],
+  "empty_state_recovery": "No matching lessons. plus existing Clear search/Clear filters controls; no unrelated lesson opens. Supporting/front-matter/appendix links remain available separately under filters.",
+  "limits": [
+    "Semantic button/set-text actions and state-backed render checks, not native pointer/IME traversal.",
+    "Library search covers title/objectives/body fields, not hidden answers, asset metadata or arbitrary IDs; no full-text search feature was invented."
+  ]
+}

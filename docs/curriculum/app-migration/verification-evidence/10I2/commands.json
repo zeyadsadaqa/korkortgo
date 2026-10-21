@@ -1,0 +1,17 @@
+{
+  "base_command": "JAVA_HOME='/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home' ./gradlew :composeApp:desktopTest --offline --no-daemon --init-script docs/curriculum/app-migration/verification-evidence/10I1/jvm-test-init.gradle",
+  "test_filters": [
+    "se.korkort.Search10ITest"
+  ],
+  "sequence": "10I1 allfive methods; correct route count and rerun route;10I2;10I3; follow-up10I1 exact duplicate-title key verification. JUnit receipts copied between runs.",
+  "audits": [
+    "python3 .../10I2/prepare_search.py",
+    "python3 .../10I2/audit_search.py"
+  ],
+  "logs": [
+    {
+      "path": "desktop-test.txt",
+      "sha256": "40b777f01364c88408b6a2eee314ced44421992d9dd5d43e05fe13830facb739"
+    }
+  ]
+}

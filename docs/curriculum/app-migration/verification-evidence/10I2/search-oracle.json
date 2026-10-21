@@ -1,0 +1,2628 @@
+{
+  "scope": "Independent frozen7E tags/categories + authoredcontent search fields, only lesson membership; supporting material remains available separately.",
+  "lesson_order": [
+    "M01-L01",
+    "M01-L02",
+    "M01-L03",
+    "M01-L04",
+    "M02-L01",
+    "M02-L02",
+    "M02-L03",
+    "M02-L04",
+    "M03-L01",
+    "M03-L02",
+    "M03-L03",
+    "M03-L04",
+    "M04-L01",
+    "M04-L02",
+    "M04-L03",
+    "M04-L04",
+    "M05-L01",
+    "M05-L02",
+    "M05-L03",
+    "M05-L04",
+    "M06-L01",
+    "M06-L02",
+    "M06-L03",
+    "M06-L04",
+    "M07-L01",
+    "M07-L02",
+    "M07-L03",
+    "M07-L04",
+    "M08-L01",
+    "M08-L02",
+    "M08-L03",
+    "M08-L04",
+    "M09-L01",
+    "M09-L02",
+    "M09-L03",
+    "M09-L04",
+    "M10-L01",
+    "M10-L02",
+    "M10-L03",
+    "M10-L04"
+  ],
+  "tags": {
+    "M01-L01": [
+      "RULES",
+      "PERSONAL"
+    ],
+    "M01-L02": [
+      "PERSONAL",
+      "SAFETY"
+    ],
+    "M01-L03": [
+      "PERSONAL",
+      "SAFETY"
+    ],
+    "M01-L04": [
+      "PERSONAL",
+      "SAFETY",
+      "ENVIRONMENT"
+    ],
+    "M02-L01": [
+      "VEHICLE",
+      "SAFETY",
+      "PERSONAL"
+    ],
+    "M02-L02": [
+      "VEHICLE",
+      "SAFETY"
+    ],
+    "M02-L03": [
+      "SAFETY",
+      "VEHICLE",
+      "RULES"
+    ],
+    "M02-L04": [
+      "VEHICLE",
+      "SAFETY",
+      "RULES"
+    ],
+    "M03-L01": [
+      "RULES"
+    ],
+    "M03-L02": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M03-L03": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M03-L04": [
+      "SAFETY",
+      "RULES",
+      "PERSONAL",
+      "VEHICLE"
+    ],
+    "M04-L01": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M04-L02": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M04-L03": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M04-L04": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M05-L01": [
+      "RULES",
+      "SAFETY",
+      "VEHICLE"
+    ],
+    "M05-L02": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M05-L03": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M05-L04": [
+      "RULES",
+      "SAFETY"
+    ],
+    "M06-L01": [
+      "SAFETY",
+      "RULES"
+    ],
+    "M06-L02": [
+      "SAFETY",
+      "RULES"
+    ],
+    "M06-L03": [
+      "RULES",
+      "SAFETY",
+      "PERSONAL"
+    ],
+    "M06-L04": [
+      "RULES",
+      "SAFETY",
+      "PERSONAL"
+    ],
+    "M07-L01": [
+      "RULES",
+      "VEHICLE",
+      "SAFETY",
+      "PERSONAL"
+    ],
+    "M07-L02": [
+      "VEHICLE",
+      "SAFETY",
+      "RULES"
+    ],
+    "M07-L03": [
+      "PERSONAL",
+      "SAFETY"
+    ],
+    "M07-L04": [
+      "SAFETY",
+      "PERSONAL"
+    ],
+    "M08-L01": [
+      "RULES",
+      "VEHICLE"
+    ],
+    "M08-L02": [
+      "VEHICLE",
+      "RULES",
+      "SAFETY"
+    ],
+    "M08-L03": [
+      "VEHICLE",
+      "RULES"
+    ],
+    "M08-L04": [
+      "VEHICLE",
+      "SAFETY"
+    ],
+    "M09-L01": [
+      "ENVIRONMENT"
+    ],
+    "M09-L02": [
+      "ENVIRONMENT",
+      "VEHICLE",
+      "SAFETY"
+    ],
+    "M09-L03": [
+      "ENVIRONMENT",
+      "PERSONAL"
+    ],
+    "M09-L04": [
+      "ENVIRONMENT",
+      "RULES"
+    ],
+    "M10-L01": [
+      "SAFETY",
+      "VEHICLE",
+      "RULES"
+    ],
+    "M10-L02": [
+      "SAFETY",
+      "RULES"
+    ],
+    "M10-L03": [
+      "VEHICLE",
+      "ENVIRONMENT",
+      "SAFETY",
+      "RULES",
+      "PERSONAL"
+    ],
+    "M10-L04": [
+      "PERSONAL",
+      "RULES"
+    ]
+  },
+  "queries": [
+    {
+      "id": "10I-SEARCH-001",
+      "query": "",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04",
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04",
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-002",
+      "query": "green",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M04-L03",
+        "M09-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-003",
+      "query": "guard",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M06-L04",
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-004",
+      "query": "tyre",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M03-L01",
+        "M03-L03",
+        "M03-L04",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L03",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04",
+        "M09-L01",
+        "M09-L02",
+        "M09-L04",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-005",
+      "query": "risk",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M01-L03",
+        "M01-L04",
+        "M02-L03",
+        "M04-L02",
+        "M05-L01",
+        "M06-L01",
+        "M06-L02",
+        "M07-L02",
+        "M07-L04",
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-006",
+      "query": "  STOP  ",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M02-L04",
+        "M03-L01",
+        "M03-L02",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M05-L01",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04",
+        "M08-L02",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-007",
+      "query": "zzzxq10I",
+      "category": "ALL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-008",
+      "query": "M01-L01",
+      "category": "ALL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-009",
+      "query": "Your route into driving",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-010",
+      "query": "Am I ready today?",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-011",
+      "query": "Pressure is a driving risk",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-012",
+      "query": "Plan the journey before the ignition",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M01-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-013",
+      "query": "Know what the controls tell you",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M02-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-014",
+      "query": "A check before moving",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M02-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-015",
+      "query": "Protect everyone inside",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M02-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-016",
+      "query": "Move with control",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M02-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-017",
+      "query": "Recognise what a sign asks",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-018",
+      "query": "Combine the instructions",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-019",
+      "query": "Find your way without rushing",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-020",
+      "query": "Leave room to respond",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M03-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-021",
+      "query": "Decide who goes first",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M04-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-022",
+      "query": "Turn with a complete picture",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M04-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-023",
+      "query": "Crossings belong to people",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M04-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-024",
+      "query": "Choose a safe path through a roundabout",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M04-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-025",
+      "query": "See the person behind the movement",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M05-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-026",
+      "query": "When the street changes purpose",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M05-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-027",
+      "query": "Choose a lawful place to stop",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M05-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-028",
+      "query": "Manoeuvre where people may appear",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M05-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-029",
+      "query": "Read the rural road",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M06-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-030",
+      "query": "Is passing worth the risk?",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M06-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-031",
+      "query": "Join faster traffic calmly",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M06-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-032",
+      "query": "Expect an interrupted route",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M06-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-033",
+      "query": "Drive within what you can see",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M07-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-034",
+      "query": "Grip is a changing resource",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M07-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-035",
+      "query": "Protect your attention",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M07-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-036",
+      "query": "Change the plan when risk grows",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M07-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-037",
+      "query": "Understand what you may drive",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M08-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-038",
+      "query": "Make the load part of the safety check",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M08-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-039",
+      "query": "Keep the car legally ready",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M08-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-040",
+      "query": "Know what assistance cannot do",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-041",
+      "query": "Look beyond the exhaust",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M09-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-042",
+      "query": "Use energy with foresight",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M09-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-043",
+      "query": "Choose the journey as well as the car",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M09-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-044",
+      "query": "Check where the vehicle can go",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M09-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-045",
+      "query": "When the car cannot continue",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-046",
+      "query": "When someone may be hurt",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M10-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-047",
+      "query": "Explain a whole journey",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-048",
+      "query": "Make a realistic readiness plan",
+      "category": "ALL",
+      "expected_lesson_ids": [
+        "M10-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-049",
+      "query": "",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04",
+        "M03-L04",
+        "M05-L01",
+        "M07-L01",
+        "M07-L02",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-050",
+      "query": "green",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-051",
+      "query": "guard",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-052",
+      "query": "tyre",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M03-L04",
+        "M05-L01",
+        "M07-L01",
+        "M07-L02",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-053",
+      "query": "risk",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L03",
+        "M05-L01",
+        "M07-L02",
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-054",
+      "query": "  STOP  ",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L01",
+        "M02-L04",
+        "M03-L04",
+        "M05-L01",
+        "M07-L01",
+        "M07-L02",
+        "M08-L02",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-055",
+      "query": "zzzxq10I",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-056",
+      "query": "M01-L01",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-057",
+      "query": "Your route into driving",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-058",
+      "query": "Am I ready today?",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-059",
+      "query": "Pressure is a driving risk",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-060",
+      "query": "Plan the journey before the ignition",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-061",
+      "query": "Know what the controls tell you",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-062",
+      "query": "A check before moving",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-063",
+      "query": "Protect everyone inside",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-064",
+      "query": "Move with control",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M02-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-065",
+      "query": "Recognise what a sign asks",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-066",
+      "query": "Combine the instructions",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-067",
+      "query": "Find your way without rushing",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-068",
+      "query": "Leave room to respond",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M03-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-069",
+      "query": "Decide who goes first",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-070",
+      "query": "Turn with a complete picture",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-071",
+      "query": "Crossings belong to people",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-072",
+      "query": "Choose a safe path through a roundabout",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-073",
+      "query": "See the person behind the movement",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M05-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-074",
+      "query": "When the street changes purpose",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-075",
+      "query": "Choose a lawful place to stop",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-076",
+      "query": "Manoeuvre where people may appear",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-077",
+      "query": "Read the rural road",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-078",
+      "query": "Is passing worth the risk?",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-079",
+      "query": "Join faster traffic calmly",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-080",
+      "query": "Expect an interrupted route",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-081",
+      "query": "Drive within what you can see",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M07-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-082",
+      "query": "Grip is a changing resource",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M07-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-083",
+      "query": "Protect your attention",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-084",
+      "query": "Change the plan when risk grows",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-085",
+      "query": "Understand what you may drive",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M08-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-086",
+      "query": "Make the load part of the safety check",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M08-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-087",
+      "query": "Keep the car legally ready",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M08-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-088",
+      "query": "Know what assistance cannot do",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-089",
+      "query": "Look beyond the exhaust",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-090",
+      "query": "Use energy with foresight",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M09-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-091",
+      "query": "Choose the journey as well as the car",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-092",
+      "query": "Check where the vehicle can go",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-093",
+      "query": "When the car cannot continue",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-094",
+      "query": "When someone may be hurt",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-095",
+      "query": "Explain a whole journey",
+      "category": "VEHICLE",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-096",
+      "query": "Make a realistic readiness plan",
+      "category": "VEHICLE",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-097",
+      "query": "",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M01-L04",
+        "M09-L01",
+        "M09-L02",
+        "M09-L03",
+        "M09-L04",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-098",
+      "query": "green",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-099",
+      "query": "guard",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-100",
+      "query": "tyre",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L01",
+        "M09-L02",
+        "M09-L04",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-101",
+      "query": "risk",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M01-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-102",
+      "query": "  STOP  ",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M01-L04",
+        "M09-L02",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-103",
+      "query": "zzzxq10I",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-104",
+      "query": "M01-L01",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-105",
+      "query": "Your route into driving",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-106",
+      "query": "Am I ready today?",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-107",
+      "query": "Pressure is a driving risk",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-108",
+      "query": "Plan the journey before the ignition",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M01-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-109",
+      "query": "Know what the controls tell you",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-110",
+      "query": "A check before moving",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-111",
+      "query": "Protect everyone inside",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-112",
+      "query": "Move with control",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-113",
+      "query": "Recognise what a sign asks",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-114",
+      "query": "Combine the instructions",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-115",
+      "query": "Find your way without rushing",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-116",
+      "query": "Leave room to respond",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-117",
+      "query": "Decide who goes first",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-118",
+      "query": "Turn with a complete picture",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-119",
+      "query": "Crossings belong to people",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-120",
+      "query": "Choose a safe path through a roundabout",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-121",
+      "query": "See the person behind the movement",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-122",
+      "query": "When the street changes purpose",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-123",
+      "query": "Choose a lawful place to stop",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-124",
+      "query": "Manoeuvre where people may appear",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-125",
+      "query": "Read the rural road",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-126",
+      "query": "Is passing worth the risk?",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-127",
+      "query": "Join faster traffic calmly",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-128",
+      "query": "Expect an interrupted route",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-129",
+      "query": "Drive within what you can see",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-130",
+      "query": "Grip is a changing resource",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-131",
+      "query": "Protect your attention",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-132",
+      "query": "Change the plan when risk grows",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-133",
+      "query": "Understand what you may drive",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-134",
+      "query": "Make the load part of the safety check",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-135",
+      "query": "Keep the car legally ready",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-136",
+      "query": "Know what assistance cannot do",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-137",
+      "query": "Look beyond the exhaust",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-138",
+      "query": "Use energy with foresight",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-139",
+      "query": "Choose the journey as well as the car",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-140",
+      "query": "Check where the vehicle can go",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M09-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-141",
+      "query": "When the car cannot continue",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-142",
+      "query": "When someone may be hurt",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-143",
+      "query": "Explain a whole journey",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-144",
+      "query": "Make a realistic readiness plan",
+      "category": "ENVIRONMENT",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-145",
+      "query": "",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M02-L04",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04",
+        "M08-L02",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-146",
+      "query": "green",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M04-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-147",
+      "query": "guard",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M06-L04",
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-148",
+      "query": "tyre",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M02-L01",
+        "M02-L02",
+        "M02-L03",
+        "M03-L03",
+        "M03-L04",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L03",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M08-L02",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-149",
+      "query": "risk",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L03",
+        "M01-L04",
+        "M02-L03",
+        "M04-L02",
+        "M05-L01",
+        "M06-L01",
+        "M06-L02",
+        "M07-L02",
+        "M07-L04",
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-150",
+      "query": "  STOP  ",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M02-L04",
+        "M03-L02",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M05-L01",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M07-L03",
+        "M07-L04",
+        "M08-L02",
+        "M08-L04",
+        "M09-L02",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-151",
+      "query": "zzzxq10I",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-152",
+      "query": "M01-L01",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-153",
+      "query": "Your route into driving",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-154",
+      "query": "Am I ready today?",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-155",
+      "query": "Pressure is a driving risk",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-156",
+      "query": "Plan the journey before the ignition",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M01-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-157",
+      "query": "Know what the controls tell you",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M02-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-158",
+      "query": "A check before moving",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M02-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-159",
+      "query": "Protect everyone inside",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M02-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-160",
+      "query": "Move with control",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M02-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-161",
+      "query": "Recognise what a sign asks",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-162",
+      "query": "Combine the instructions",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M03-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-163",
+      "query": "Find your way without rushing",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M03-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-164",
+      "query": "Leave room to respond",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M03-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-165",
+      "query": "Decide who goes first",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M04-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-166",
+      "query": "Turn with a complete picture",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M04-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-167",
+      "query": "Crossings belong to people",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M04-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-168",
+      "query": "Choose a safe path through a roundabout",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M04-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-169",
+      "query": "See the person behind the movement",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M05-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-170",
+      "query": "When the street changes purpose",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M05-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-171",
+      "query": "Choose a lawful place to stop",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M05-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-172",
+      "query": "Manoeuvre where people may appear",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M05-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-173",
+      "query": "Read the rural road",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M06-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-174",
+      "query": "Is passing worth the risk?",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M06-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-175",
+      "query": "Join faster traffic calmly",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M06-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-176",
+      "query": "Expect an interrupted route",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M06-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-177",
+      "query": "Drive within what you can see",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M07-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-178",
+      "query": "Grip is a changing resource",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M07-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-179",
+      "query": "Protect your attention",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M07-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-180",
+      "query": "Change the plan when risk grows",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M07-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-181",
+      "query": "Understand what you may drive",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-182",
+      "query": "Make the load part of the safety check",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M08-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-183",
+      "query": "Keep the car legally ready",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-184",
+      "query": "Know what assistance cannot do",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M08-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-185",
+      "query": "Look beyond the exhaust",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-186",
+      "query": "Use energy with foresight",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M09-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-187",
+      "query": "Choose the journey as well as the car",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-188",
+      "query": "Check where the vehicle can go",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-189",
+      "query": "When the car cannot continue",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-190",
+      "query": "When someone may be hurt",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M10-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-191",
+      "query": "Explain a whole journey",
+      "category": "SAFETY",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-192",
+      "query": "Make a realistic readiness plan",
+      "category": "SAFETY",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-193",
+      "query": "",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M02-L03",
+        "M02-L04",
+        "M03-L01",
+        "M03-L02",
+        "M03-L03",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L02",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M09-L04",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03",
+        "M10-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-194",
+      "query": "green",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M04-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-195",
+      "query": "guard",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L02",
+        "M06-L04",
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-196",
+      "query": "tyre",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M02-L03",
+        "M03-L01",
+        "M03-L03",
+        "M03-L04",
+        "M04-L03",
+        "M04-L04",
+        "M05-L01",
+        "M05-L03",
+        "M07-L01",
+        "M07-L02",
+        "M08-L01",
+        "M08-L02",
+        "M08-L03",
+        "M09-L04",
+        "M10-L01",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-197",
+      "query": "risk",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M02-L03",
+        "M04-L02",
+        "M05-L01",
+        "M06-L01",
+        "M06-L02",
+        "M07-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-198",
+      "query": "  STOP  ",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M02-L04",
+        "M03-L01",
+        "M03-L02",
+        "M03-L04",
+        "M04-L01",
+        "M04-L02",
+        "M05-L01",
+        "M05-L03",
+        "M05-L04",
+        "M06-L01",
+        "M06-L02",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L02",
+        "M08-L02",
+        "M10-L01",
+        "M10-L02",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-199",
+      "query": "zzzxq10I",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-200",
+      "query": "M01-L01",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-201",
+      "query": "Your route into driving",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M01-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-202",
+      "query": "Am I ready today?",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-203",
+      "query": "Pressure is a driving risk",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-204",
+      "query": "Plan the journey before the ignition",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-205",
+      "query": "Know what the controls tell you",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-206",
+      "query": "A check before moving",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-207",
+      "query": "Protect everyone inside",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M02-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-208",
+      "query": "Move with control",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M02-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-209",
+      "query": "Recognise what a sign asks",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-210",
+      "query": "Combine the instructions",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-211",
+      "query": "Find your way without rushing",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-212",
+      "query": "Leave room to respond",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M03-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-213",
+      "query": "Decide who goes first",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M04-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-214",
+      "query": "Turn with a complete picture",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M04-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-215",
+      "query": "Crossings belong to people",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M04-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-216",
+      "query": "Choose a safe path through a roundabout",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M04-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-217",
+      "query": "See the person behind the movement",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M05-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-218",
+      "query": "When the street changes purpose",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M05-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-219",
+      "query": "Choose a lawful place to stop",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M05-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-220",
+      "query": "Manoeuvre where people may appear",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M05-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-221",
+      "query": "Read the rural road",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M06-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-222",
+      "query": "Is passing worth the risk?",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M06-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-223",
+      "query": "Join faster traffic calmly",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M06-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-224",
+      "query": "Expect an interrupted route",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M06-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-225",
+      "query": "Drive within what you can see",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M07-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-226",
+      "query": "Grip is a changing resource",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M07-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-227",
+      "query": "Protect your attention",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-228",
+      "query": "Change the plan when risk grows",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-229",
+      "query": "Understand what you may drive",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M08-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-230",
+      "query": "Make the load part of the safety check",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M08-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-231",
+      "query": "Keep the car legally ready",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M08-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-232",
+      "query": "Know what assistance cannot do",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-233",
+      "query": "Look beyond the exhaust",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-234",
+      "query": "Use energy with foresight",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-235",
+      "query": "Choose the journey as well as the car",
+      "category": "RULES",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-236",
+      "query": "Check where the vehicle can go",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M09-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-237",
+      "query": "When the car cannot continue",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M10-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-238",
+      "query": "When someone may be hurt",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M10-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-239",
+      "query": "Explain a whole journey",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-240",
+      "query": "Make a realistic readiness plan",
+      "category": "RULES",
+      "expected_lesson_ids": [
+        "M10-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-241",
+      "query": "",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M03-L04",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L03",
+        "M07-L04",
+        "M09-L03",
+        "M10-L03",
+        "M10-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-242",
+      "query": "green",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-243",
+      "query": "guard",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M06-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-244",
+      "query": "tyre",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M02-L01",
+        "M03-L04",
+        "M07-L01",
+        "M07-L03",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-245",
+      "query": "risk",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L01",
+        "M01-L03",
+        "M01-L04",
+        "M07-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-246",
+      "query": "  STOP  ",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L02",
+        "M01-L03",
+        "M01-L04",
+        "M02-L01",
+        "M03-L04",
+        "M06-L03",
+        "M06-L04",
+        "M07-L01",
+        "M07-L03",
+        "M07-L04",
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-247",
+      "query": "zzzxq10I",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-248",
+      "query": "M01-L01",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-249",
+      "query": "Your route into driving",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-250",
+      "query": "Am I ready today?",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L02"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-251",
+      "query": "Pressure is a driving risk",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-252",
+      "query": "Plan the journey before the ignition",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M01-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-253",
+      "query": "Know what the controls tell you",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M02-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-254",
+      "query": "A check before moving",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-255",
+      "query": "Protect everyone inside",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-256",
+      "query": "Move with control",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-257",
+      "query": "Recognise what a sign asks",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-258",
+      "query": "Combine the instructions",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-259",
+      "query": "Find your way without rushing",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-260",
+      "query": "Leave room to respond",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M03-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-261",
+      "query": "Decide who goes first",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-262",
+      "query": "Turn with a complete picture",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-263",
+      "query": "Crossings belong to people",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-264",
+      "query": "Choose a safe path through a roundabout",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-265",
+      "query": "See the person behind the movement",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-266",
+      "query": "When the street changes purpose",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-267",
+      "query": "Choose a lawful place to stop",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-268",
+      "query": "Manoeuvre where people may appear",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-269",
+      "query": "Read the rural road",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-270",
+      "query": "Is passing worth the risk?",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-271",
+      "query": "Join faster traffic calmly",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M06-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-272",
+      "query": "Expect an interrupted route",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M06-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-273",
+      "query": "Drive within what you can see",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M07-L01"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-274",
+      "query": "Grip is a changing resource",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-275",
+      "query": "Protect your attention",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M07-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-276",
+      "query": "Change the plan when risk grows",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M07-L04"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-277",
+      "query": "Understand what you may drive",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-278",
+      "query": "Make the load part of the safety check",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-279",
+      "query": "Keep the car legally ready",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-280",
+      "query": "Know what assistance cannot do",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-281",
+      "query": "Look beyond the exhaust",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-282",
+      "query": "Use energy with foresight",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-283",
+      "query": "Choose the journey as well as the car",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M09-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-284",
+      "query": "Check where the vehicle can go",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-285",
+      "query": "When the car cannot continue",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-286",
+      "query": "When someone may be hurt",
+      "category": "PERSONAL",
+      "expected_lesson_ids": []
+    },
+    {
+      "id": "10I-SEARCH-287",
+      "query": "Explain a whole journey",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M10-L03"
+      ]
+    },
+    {
+      "id": "10I-SEARCH-288",
+      "query": "Make a realistic readiness plan",
+      "category": "PERSONAL",
+      "expected_lesson_ids": [
+        "M10-L04"
+      ]
+    }
+  ]
+}

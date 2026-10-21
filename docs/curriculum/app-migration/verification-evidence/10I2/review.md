@@ -1,0 +1,11 @@
+# 10I2 — search, categories, tags and empty recovery
+
+Executed after10I1 on21 October2026; both final JVM methods and all344 independent assertions pass. No new product defect found. T08 native/current target closure remains pending10K.
+
+`prepare_search.py` reads authored teaching and frozen7E category/tag records without importing Kotlin helpers. It produces288 ordered expected sets:48 queries × six category settings (All plusfive categories). Queries include all40 lesson titles, blank, green/guard/tyre/risk, a padded uppercase STOP query, an explicit no-match query and an ID-shaped term. Search fields are title/objectives/body; hidden answers, technical metadata and IDs are not assumed to be searchable merely because they exist.
+
+`Search10ITest.independentExpectedSetsMatchModelsAndActualLibrarySemantics` compares every expected set with the actual LibraryFilter model and actual LearningLibrary rendered lesson order. Allfive category membership lists and display titles match7E exactly; all40 compiled lesson tags match frozen records. Clear search preserves the category; Clear filters preserves the query; allfive category chips and All topics preserve the query. Empty lessons display “No matching lessons.” alongside existing explicit clear controls and never automatically open content. Supporting/front-matter/appendix links remain separately available under a filter; they are not falsely counted as matching lessons.
+
+`actualRouteRoundTripPreservesCombinedSearchAndExpansion` enters M01-L01 through actual LearningRoute and returns to the library, preserving the combined personal/query filter, M01/M07 expansion and accessible editable query. State-backed exhaustive rendering is supplemented by actual semantic input/chip/reset actions. It does not prove native pointer/IME/keyboard traversal or physical scroll restoration.
+
+Captures show each category, empty recovery and combined-query return at1000×1800/defaultlight/font1. The empty state was visually inspected; full native/large-font/theme delivery remains10K. Reproduce prepare_search.py, the Search10ITest class via10I1/jvm-test-init.gradle, then audit_search.py. No production filtering, teaching tags or content changed. Next executed task was10I3.
