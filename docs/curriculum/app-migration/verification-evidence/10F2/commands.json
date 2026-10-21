@@ -1,0 +1,21 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10F1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.Scoring10FTest"
+    ],
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    },
+    "exit_code": 0,
+    "log": "desktop-test.txt",
+    "log_sha256": "09b6831bce381ef3128e2e1b614446230100505ea1a38f606cf297da5a115d79",
+    "outcome": "passed"
+  }
+]
