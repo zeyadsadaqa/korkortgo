@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "proof_only": true,
+  "actual_native_touch_actions": [
+    {
+      "tap": [
+        500,
+        2526
+      ]
+    },
+    {
+      "tap": [
+        405,
+        537
+      ]
+    },
+    {
+      "tap": [
+        313,
+        481
+      ]
+    }
+  ],
+  "observed": [
+    "B1 sign detail",
+    "catalogue Return to reading",
+    "original B1 teaching passage restored"
+  ],
+  "scope": "One actual native Android route; broader font/theme/TalkBack matrix remains open."
+}

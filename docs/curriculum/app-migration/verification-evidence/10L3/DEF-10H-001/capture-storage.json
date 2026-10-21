@@ -1,0 +1,23 @@
+{
+  "purpose": "Resolve byte-identical logical captures to one retained file without changing original raw attachment manifests.",
+  "aliases": [
+    {
+      "logical_path": "web-normal-reading-before.png",
+      "stored_path": "web-normal-return.png",
+      "sha256": "7745997e1e266ffedf449d31f267e230778772dff20b67ee341555d52636e9ce",
+      "bytes": 72194
+    },
+    {
+      "logical_path": "web-proof-reading-before.png",
+      "stored_path": "web-proof-return.png",
+      "sha256": "c84475941dca86942e9055cab3a38dca730020cd4a074a83cf083226b10be3d5",
+      "bytes": 61866
+    },
+    {
+      "logical_path": "ios-native-evidence/6DA7484C-CA97-49F4-AF0C-F53943F066DA.png",
+      "stored_path": "ios-native-evidence/43A10F85-B958-48D8-A9ED-0D0B50093411.png",
+      "sha256": "2c34d603f955d6901046eef9cf7491628cbcf055f00b4aff510d79ad11894538",
+      "bytes": 408284
+    }
+  ]
+}

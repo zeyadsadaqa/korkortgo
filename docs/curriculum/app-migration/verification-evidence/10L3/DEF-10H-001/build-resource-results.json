@@ -1,0 +1,56 @@
+{
+  "status": "pass_scoped_build_resource_checks",
+  "resources": [
+    {
+      "label": "proof-android",
+      "checks": 490,
+      "report": "proof-android-resources.json"
+    },
+    {
+      "label": "proof-web",
+      "checks": 490,
+      "report": "proof-web-resources.json"
+    },
+    {
+      "label": "proof-ios",
+      "checks": 490,
+      "report": "proof-ios-resources.json"
+    },
+    {
+      "label": "normal-android",
+      "checks": 490,
+      "report": "normal-android-resources.json"
+    },
+    {
+      "label": "normal-desktop",
+      "checks": 490,
+      "report": "normal-desktop-resources.json"
+    },
+    {
+      "label": "normal-ios",
+      "checks": 490,
+      "report": "normal-ios-resources.json"
+    },
+    {
+      "label": "normal-ios-device",
+      "checks": 490,
+      "report": "normal-ios-device-resources.json"
+    },
+    {
+      "label": "normal-web",
+      "checks": 490,
+      "report": "normal-web-resources.json"
+    }
+  ],
+  "normal_http_files": 783,
+  "device_framework": {
+    "architecture": "arm64",
+    "platforms": {
+      "2": 2837
+    },
+    "sha256": "a8f4c48ebacf2697585d87c9dab3b711dd920ce7b372e53b650cb3174c84e027",
+    "physical_runtime": "excluded_unperformed_under_unchanged_simulator_policy"
+  },
+  "normal_jar_proof_classes": false,
+  "scope": "Shared source correction rebuilt configured normal targets; cached tasks explicit in logs. Resources/content unchanged; no complete gate acceptance."
+}

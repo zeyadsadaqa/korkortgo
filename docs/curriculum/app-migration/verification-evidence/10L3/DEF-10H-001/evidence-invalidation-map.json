@@ -1,0 +1,52 @@
+{
+  "batch": "DEF-10H-001",
+  "old_source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "new_source_runtime_fingerprint": "5e102de5de291b5e976dd6a206bb8ba3b8b57800d4af2e5b7c7c9bf45269dabd",
+  "changed_source_inputs": [
+    "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+    "composeApp/src/desktopTest/kotlin/se/korkort/LearningViewsSemanticsTest.kt"
+  ],
+  "historical_receipts_modified": false,
+  "accepted_content_and_resource_input_hashes_unchanged": true,
+  "dispositions": [
+    {
+      "evidence": "10H/10K3 old failing reader-sign-catalogue return",
+      "status": "superseded_for_this_issue",
+      "replacement": [
+        "original-case-after.xml",
+        "shared-test-reports/TEST-se.korkort.LearningViewsSemanticsTest.xml",
+        "android-route-result.json",
+        "ios-native-result.json",
+        "web-normal-route-result.json"
+      ]
+    },
+    {
+      "evidence": "10K target executables and target runtime captures",
+      "status": "historical_not_final_candidate_acceptance",
+      "replacement": "Fresh normal/proof build logs, executable/resource receipts and exact bounded runtime routes in this batch; no blanket matrix pass."
+    },
+    {
+      "evidence": "T01, source/question/content/asset/generator/Python input checks",
+      "status": "unchanged_input_evidence_retained",
+      "reason": "Only route and regression source changed; all other protected source files hash-identical. Accepted compiled parity/state tests rerun among38. No authored/generated content, identity, legal claim or resource changed; no fresh six-command/Python run claimed."
+    },
+    {
+      "evidence": "Other18 product findings and required unperformed matrices",
+      "status": "open_unchanged",
+      "reason": "Not fixed or waived; visual proposals still require preview/approval, source currency remains unresolved."
+    },
+    {
+      "evidence": "Physical iOS runtime and four future-store contracts",
+      "status": "excluded_unperformed_or_conditional_unchanged",
+      "reason": "Delivery scope unchanged; normal device framework build/resource metadata rechecked."
+    }
+  ],
+  "gate_dispositions": {
+    "T01": "Passing unchanged content/input scope; accepted parity/state rerun",
+    "T02-T06": "Open inherited findings and remaining required cases",
+    "T07": "Selected catalogue-return defect closed; remaining state/focus/modal/native matrix still open",
+    "T08-T09": "Data evidence unchanged; required target/fidelity acceptance remains open",
+    "T10": "Open full matrix; new bounded builds/resources/runtime observations do not close entire gate"
+  },
+  "old_baseline_checker": "Expected fail on exactly2 declared source files; original baseline never rewritten."
+}

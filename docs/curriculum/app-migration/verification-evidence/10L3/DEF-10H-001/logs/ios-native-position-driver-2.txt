@@ -1,0 +1,109 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test-without-building -xctestrun /tmp/korkort-10l-h001-ios-proof/Build/Products/10L-diagnostic.xctestrun -destination id=F6E93C4B-958D-4CBB-B95E-537B4FB8070C -parallel-testing-enabled NO -resultBundlePath /tmp/korkort-10l-h001-ios-diagnostic-2.xcresult
+
+2026-10-21 22:10:40.476 xcodebuild[62462:963708] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+Writing result bundle at path:
+	/tmp/korkort-10l-h001-ios-diagnostic-2.xcresult
+
+2026-10-21 22:10:40.486 xcodebuild[62462:963708] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-21 22:10:41.802 xcodebuild[62462:963708] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-21 22:10:44.275939+0200 NativeRouteTests-Runner[62488:964112] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-21 10:10:44.491 PM.
+Test Suite 'NativeRouteTests.xctest' started at 2026-10-21 10:10:44.493 PM.
+Test Suite 'NativeRouteTests' started at 2026-10-21 10:10:44.493 PM.
+Test Case '-[NativeRouteTests.NativeRouteTests testPositionB1Passage10L]' started.
+    t =     0.00s Start Test at 2026-10-21 10:10:44.494 PM
+    t =     0.02s Set Up
+    t =     0.03s Open se.korkort.study
+    t =     0.03s     Launch se.korkort.study
+2026-10-21 22:10:44.594 xcodebuild[62462:963708] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-21 22:10:44.594 xcodebuild[62462:963708] [MT] IDELaunchParametersSnapshot: no debugger version
+objc[62488]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x108a40310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x107a80398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.74s         Setting up automation session
+    t =     2.65s         Wait for se.korkort.study to idle
+    t =     4.43s Wait for se.korkort.study to become Running Foreground
+    t =     4.44s Checking existence of `"Study tools for your driving licence" StaticText`
+    t =     4.57s Swipe up Target Application 'se.korkort.study'
+    t =     4.57s     Wait for se.korkort.study to idle
+    t =     4.57s     Find the Target Application 'se.korkort.study'
+    t =     4.60s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     4.62s     Synthesize event
+    t =     5.12s     Wait for se.korkort.study to idle
+    t =     5.12s Swipe up Target Application 'se.korkort.study'
+    t =     5.12s     Wait for se.korkort.study to idle
+    t =     5.12s     Find the Target Application 'se.korkort.study'
+    t =     5.15s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     5.17s     Synthesize event
+    t =     5.66s     Wait for se.korkort.study to idle
+    t =     5.67s Swipe up Target Application 'se.korkort.study'
+    t =     5.68s     Wait for se.korkort.study to idle
+    t =     5.68s     Find the Target Application 'se.korkort.study'
+    t =     5.69s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     5.71s     Synthesize event
+    t =     6.21s     Wait for se.korkort.study to idle
+    t =     6.21s Swipe up Target Application 'se.korkort.study'
+    t =     6.21s     Wait for se.korkort.study to idle
+    t =     6.22s     Find the Target Application 'se.korkort.study'
+    t =     6.24s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     6.31s     Synthesize event
+    t =     6.84s     Wait for se.korkort.study to idle
+    t =     6.85s Swipe up Target Application 'se.korkort.study'
+    t =     6.85s     Wait for se.korkort.study to idle
+    t =     6.87s     Find the Target Application 'se.korkort.study'
+    t =     6.92s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     7.02s     Synthesize event
+    t =     7.58s     Wait for se.korkort.study to idle
+    t =     7.59s Swipe up Target Application 'se.korkort.study'
+    t =     7.60s     Wait for se.korkort.study to idle
+    t =     7.60s     Find the Target Application 'se.korkort.study'
+    t =     7.68s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     7.72s     Synthesize event
+    t =     8.22s     Wait for se.korkort.study to idle
+    t =     8.29s Swipe up Target Application 'se.korkort.study'
+    t =     8.29s     Wait for se.korkort.study to idle
+    t =     8.30s     Find the Target Application 'se.korkort.study'
+    t =     8.33s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     8.36s     Synthesize event
+    t =     8.93s     Wait for se.korkort.study to idle
+    t =     8.93s Swipe up Target Application 'se.korkort.study'
+    t =     8.93s     Wait for se.korkort.study to idle
+    t =     8.93s     Find the Target Application 'se.korkort.study'
+    t =     8.95s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     9.00s     Synthesize event
+    t =     9.49s     Wait for se.korkort.study to idle
+    t =     9.50s Swipe up Target Application 'se.korkort.study'
+    t =     9.50s     Wait for se.korkort.study to idle
+    t =     9.50s     Find the Target Application 'se.korkort.study'
+    t =     9.53s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     9.56s     Synthesize event
+    t =    10.07s     Wait for se.korkort.study to idle
+    t =    10.07s Swipe up Target Application 'se.korkort.study'
+    t =    10.07s     Wait for se.korkort.study to idle
+    t =    10.08s     Find the Target Application 'se.korkort.study'
+    t =    10.11s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    10.14s     Synthesize event
+    t =    10.65s     Wait for se.korkort.study to idle
+    t =    10.68s Requesting snapshot of accessibility hierarchy for app with pid 62497
+    t =    10.94s Requesting snapshot of accessibility hierarchy for app with pid 62497
+    t =    10.97s Added attachment named '10L-positioned-reader-tree'
+    t =    10.97s Find the Target Application 'se.korkort.study'
+    t =    11.12s Added attachment named '10L-positioned-reader'
+    t =    11.12s Tear Down
+Test Case '-[NativeRouteTests.NativeRouteTests testPositionB1Passage10L]' passed (11.449 seconds).
+Test Suite 'NativeRouteTests' passed at 2026-10-21 10:10:55.943 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 11.449 (11.450) seconds
+Test Suite 'NativeRouteTests.xctest' passed at 2026-10-21 10:10:55.943 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 11.449 (11.451) seconds
+Test Suite 'Selected tests' passed at 2026-10-21 10:10:55.944 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 11.449 (11.453) seconds
+2026-10-21 22:10:56.292 xcodebuild[62462:963708] [MT] IDETestOperationsObserverDebug: 14.481 elapsed -- Testing started completed.
+2026-10-21 22:10:56.292 xcodebuild[62462:963708] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-21 22:10:56.292 xcodebuild[62462:963708] [MT] IDETestOperationsObserverDebug: 14.481 sec, +14.481 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/korkort-10l-h001-ios-diagnostic-2.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started

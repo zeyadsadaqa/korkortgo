@@ -1,0 +1,1309 @@
+{
+  "task": "10L3",
+  "batch": "DEF-10H-001",
+  "closed_product_defects": [
+    "DEF-10H-001"
+  ],
+  "open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003",
+    "DEF-10F-001",
+    "DEF-10J-001",
+    "DEF-10J-002",
+    "DEF-10J-003",
+    "DEF-10J-004",
+    "DEF-10J-005",
+    "DEF-10J-006",
+    "DEF-10K-001"
+  ],
+  "findings": [
+    {
+      "id": "DEF-10C-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19110",
+        "10C2-CLAIM-24"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_public_service",
+        "basis": "Gagnefs kommun is Swedish municipal advice, not foreign guidance."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Gagnefs kommun",
+        "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-496b85361fc1b2c5",
+        "situation-079"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10C-002",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19111",
+        "10C2-CLAIM-25"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_public_service",
+        "basis": "G\u00f6teborgs Stad environmental guidance is Swedish municipal advice."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "G\u00f6teborgs Stad, Milj\u00f6f\u00f6rvaltningen",
+        "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-2816f9478f49eea3",
+        "situation-083"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10C-003",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19112",
+        "10C2-CLAIM-26"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Named Swedish Energy Agency/municipal energy advice is domestic guidance."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Energimyndigheten / municipal Energi- och klimatr\u00e5dgivningen",
+        "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-56e38aa92cb10d3e",
+        "situation-099"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10C-004",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19113",
+        "10C2-CLAIM-27"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Named MFD guidance is from a Swedish public agency."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Myndigheten f\u00f6r delaktighet (MFD)",
+        "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-6ca8f251127184be",
+        "situation-119"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10C-005",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19114",
+        "10C2-CLAIM-28"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "swedish_authority_guidance",
+        "basis": "Primary PDF identifies Trafikverket KRAV Grundv\u00e4rden VGU, publication 2024:148, version 1.0; domestic infrastructure requirements, not foreign guidance, research, or general driver legislation."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Trafikverket",
+        "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-b3162b40db29d9bd",
+        "situation-138",
+        "braking-5-2",
+        "braking-5-3",
+        "braking-8-2",
+        "braking-8-3",
+        "braking-10-2",
+        "braking-10-3",
+        "braking-12-2",
+        "braking-12-3",
+        "braking-15-2",
+        "braking-15-3",
+        "braking-18-2",
+        "braking-18-3",
+        "braking-20-2",
+        "braking-20-3",
+        "braking-25-2",
+        "braking-25-3",
+        "braking-30-2",
+        "braking-30-3",
+        "braking-35-2",
+        "braking-35-3"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10C-006",
+      "severity": "P2",
+      "state": "open",
+      "type": "source_metadata",
+      "detected_in_task": "10C1",
+      "case_ids": [
+        "10C1-19115",
+        "10C2-CLAIM-29"
+      ],
+      "candidate": {
+        "entry_commit": "a90df2e",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": {
+        "classification": "manufacturer",
+        "basis": "Kia MQ4/2022 owner handbook is model-specific manufacturer guidance, not a public authority."
+      },
+      "observed": {
+        "classifications": [
+          "foreign_public_authority"
+        ],
+        "publisher": "Kia, manufacturer owner handbook",
+        "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html"
+      },
+      "reproduction": {
+        "command": "python3 docs/curriculum/app-migration/verification-evidence/10C1/audit_sources.py",
+        "condition": "Independent publisher/type expectation contradicts retained foreign_public_authority; audit exits 1."
+      },
+      "evidence": [
+        "../10C1/source-binding-audit.json",
+        "../10C2/checked-claims.json"
+      ],
+      "affected_ids_files": [
+        "content/sources.json",
+        "content/package-sources.json",
+        "composeApp/src/commonMain/kotlin/se/korkort/GeneratedNavigation*.kt",
+        "tools/import_curriculum_remaining.py:build_source_catalog",
+        "REF-52a2a9e7d845ad8f",
+        "situation-174"
+      ],
+      "owners": [
+        "10L1",
+        "10C1",
+        "10C2"
+      ],
+      "impacted_gates": [
+        "T02"
+      ],
+      "fix_scope": "Bounded classification/note correction in authoritative source importer; regenerate source metadata and derived navigation through existing pipeline. Preserve exact URL IDs, publisher, dates, claim boundaries and question semantics; no blanket source refresh. Trafikverket VGU is infrastructure guidance, not general traffic law.",
+      "approval_if_required": "No new visual design. Apply existing accepted-content/release rules to changed package evidence; do not alter historical acceptance receipts.",
+      "invalidation": "Changed generated-source/package identity invalidates affected source parity/runtime evidence and package fingerprint. Preserve old passing receipts as historical; enumerate dependent T01/T02/10E/10K cases in 10L before retest.",
+      "retest": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10C3/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T02"
+      ],
+      "acceptance_check": {
+        "required": [
+          "Independent classification checks",
+          "Exact URL/binding/date/scope parity",
+          "Fresh generation/release checks and candidate fingerprint",
+          "Affected source detail/return/platform observations"
+        ],
+        "status": "not_run"
+      }
+    },
+    {
+      "id": "DEF-10D-001",
+      "severity": "P1",
+      "state": "open",
+      "type": "visible_selection",
+      "detected_in_task": "10D3",
+      "case_ids": [
+        "T03-ART-desktop-sign-recognise-S5-light-100",
+        "10D4-desktop-selection_confirmation"
+      ],
+      "candidate": {
+        "entry_commit": "bc5a13f",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "A pending choice is identifiable both visibly and in accessibility semantics, with neutral pre-evaluation styling and deliberate confirmation.",
+      "observed": "Selected B is visible in the shared 390x844 light-100 capture, yet full pre/pending images are pixel-identical; semantic selection and later confirmation still work.",
+      "reproduction": {
+        "test": "ArtworkRuntime10DTest; accepted sign-recognise-S5, Random(10), shared 390x844, light/100%, select displayed B without confirmation",
+        "pre": "captures/sign-recognise-S5-light-100-pre.png",
+        "pending": "captures/sign-recognise-S5-light-100-pending.png",
+        "pixel_comparison": "Full images have identical RGB pixels although B is visible and selected semantics/confirmed authored ID are preserved.",
+        "source": "AssessmentCard.kt Surface/selectable at lines 47\u201353 records selected state without persistent selection rendering."
+      },
+      "evidence": [
+        "../10D3/selection-visual-finding.json",
+        "../10D3/reviewed-contact-sheets/S5-visible-selection-failure.png",
+        "../10D3/shared-artwork-observations.json",
+        "shared-accessibility-observations.json",
+        "docs/curriculum/app-design-spec.md:51,65"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+        "Shared pre-confirmation assessment choices, including text and image questions",
+        "All affected supported platform/settings must be enumerated in 10L; one exact visible pixel counterexample is recorded, not a fabricated visual review of every case."
+      ],
+      "owners": [
+        "10L1",
+        "10D3",
+        "10D4",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T09"
+      ],
+      "fix_scope": "Restore persistent visible neutral selection within the approved assessment design, preserve authored IDs, accessibility selected state, equal artwork frames and confirmation/reveal gates. No official artwork change or correctness styling before evaluation.",
+      "approval_if_required": "A bounded restoration to approved selected-state behaviour belongs in 10L; a new visual design would require the user design-preview approval workflow. No production fix was applied by this verification run.",
+      "invalidation": "A renderer change changes runtime fingerprint and invalidates affected selection, artwork/focus/keyboard/theme observations; preserve this failed candidate record and enumerate T03/T05/T09/10K retests.",
+      "retest": {
+        "status": "not_run",
+        "required": [
+          "Visible before/pending/after selection at intended/narrow sizes in both themes and scales",
+          "Accessible selected state and stable authored-ID confirmation",
+          "Image zoom/reset/return selection/focus",
+          "Immediate and end feedback gates",
+          "Actual affected Android/iOS-simulator/Wasm/desktop methods in 10K"
+        ]
+      },
+      "closure_reason": null,
+      "triage_origin_ledger": "10D4/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T03",
+        "T09"
+      ],
+      "acceptance_check": {
+        "status": "not_run",
+        "required": [
+          "Visible before/pending/after selection at intended/narrow sizes in both themes and scales",
+          "Accessible selected state and stable authored-ID confirmation",
+          "Image zoom/reset/return selection/focus",
+          "Immediate and end feedback gates",
+          "Actual affected Android/iOS-simulator/Wasm/desktop methods in 10K"
+        ]
+      }
+    },
+    {
+      "id": "DEF-10E-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "asset_variant_metadata",
+      "detected_in_task": "10E4",
+      "case_ids": [
+        "T04-sign-meaning-A5",
+        "T04-sign-recognise-A5",
+        "T04-sign-meaning-A6",
+        "T04-sign-recognise-A6",
+        "T04-sign-meaning-A36",
+        "T04-sign-recognise-A36",
+        "T04-sign-meaning-C18",
+        "T04-sign-recognise-C18"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe the visible single lorry without inventing a trailer; retain the correct vehicle-or-combination length rule and 20 m value.",
+      "observed": "C18 original artwork shows a single three-axle lorry, but variant_description_en, study_alt_text and the compiled sign-entry caption say vehicle-and-trailer pictogram. The assessment neutral description correctly says lorry; legal scope vehicle or combination length and authored keys remain supported.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-6cf10ca702a501ec.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E4",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E4/reviewed-assets-1.png",
+        "../10E4/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-A5",
+        "sign-recognise-A5",
+        "sign-meaning-A6",
+        "sign-recognise-A6",
+        "sign-meaning-A36",
+        "sign-recognise-A36",
+        "sign-meaning-C18",
+        "sign-recognise-C18",
+        "docs/curriculum/sign-captions.json",
+        "content/curriculum.json",
+        "generated curriculum/navigation metadata and downstream accepted package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E4",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L source-caption/variant correction and affected input regeneration/retest; do not change official artwork, question IDs, keys or historical approval receipts.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10E18/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "acceptance_check": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery."
+    },
+    {
+      "id": "DEF-10E-002",
+      "severity": "P2",
+      "state": "open",
+      "type": "asset_variant_metadata",
+      "detected_in_task": "10E11",
+      "case_ids": [
+        "T04-sign-meaning-A4",
+        "T04-sign-recognise-A4",
+        "T04-sign-meaning-I2",
+        "T04-sign-recognise-I2",
+        "T04-sign-meaning-M8",
+        "T04-sign-recognise-M8",
+        "T04-sign-meaning-M17",
+        "T04-sign-recognise-M17",
+        "T04-sign-meaning-S3",
+        "T04-sign-recognise-S3"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe this selected single-line artwork separately from the general rule that a centre line can also be double.",
+      "observed": "M8 selected artwork shows one continuous white line. The shared variant says Single and double continuous white lines, and that wording is appended to the study caption. The neutral assessment description accurately says one line; the legal explanation permits the general single/double forms without changing the key.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-f977ba39e60a5ef3.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E11",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E11/reviewed-assets-1.png",
+        "../10E11/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-A4",
+        "sign-recognise-A4",
+        "sign-meaning-I2",
+        "sign-recognise-I2",
+        "sign-meaning-M8",
+        "sign-recognise-M8",
+        "sign-meaning-M17",
+        "sign-recognise-M17",
+        "sign-meaning-S3",
+        "sign-recognise-S3",
+        "docs/curriculum/sign-captions.json",
+        "content/curriculum.json",
+        "generated curriculum/navigation metadata and downstream accepted package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E11",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L variant-caption correction and affected regeneration/retest; preserve official artwork, authored question IDs/keys and historical receipts.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10E18/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "acceptance_check": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery."
+    },
+    {
+      "id": "DEF-10E-003",
+      "severity": "P2",
+      "state": "open",
+      "type": "neutral_description_geometry",
+      "detected_in_task": "10E13",
+      "case_ids": [
+        "T04-sign-meaning-F5",
+        "T04-sign-recognise-F5",
+        "T04-sign-meaning-M25",
+        "T04-sign-recognise-M25",
+        "T04-sign-meaning-S12",
+        "T04-sign-recognise-S12",
+        "T04-sign-meaning-T8",
+        "T04-sign-recognise-T8",
+        "T04-sign-meaning-T9",
+        "T04-sign-recognise-T9",
+        "T04-sign-meaning-X9",
+        "T04-sign-recognise-X9"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe successive separate right-pointing arrows without inventing a joining line.",
+      "observed": "X9 neutral description says the three right-pointing arrows are joined along a thin white line. The selected artwork has separate successive arrows with gaps between tails and preceding arrowheads. Direction and legal meaning are correct.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E13",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E13/reviewed-assets-1.png",
+        "../10E13/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-F5",
+        "sign-recognise-F5",
+        "sign-meaning-M25",
+        "sign-recognise-M25",
+        "sign-meaning-S12",
+        "sign-recognise-S12",
+        "sign-meaning-T8",
+        "sign-recognise-T8",
+        "sign-meaning-T9",
+        "sign-recognise-T9",
+        "sign-meaning-X9",
+        "sign-recognise-X9",
+        "docs/curriculum/app-migration/question-actions.json",
+        "accepted assessment image neutral descriptions and downstream generated package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E13",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L neutral-description correction with fresh review/acceptance and affected semantic retest; preserve authored IDs, artwork and keys.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10E18/defects.json",
+      "triage_category": "source_content",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "acceptance_check": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery."
+    },
+    {
+      "id": "DEF-10F-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "conditional_invalid_bank_identity_guard",
+      "detected_in_task": "10F3",
+      "case_ids": [
+        "missing_content_version",
+        "wrong_content_version",
+        "wrong_manifest_digest"
+      ],
+      "candidate": {
+        "entry_commit": "44462b4",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+        "accepted_identity": {
+          "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+          "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+        }
+      },
+      "expected": "Required invalid-bank model cases cannot start a scored session with a missing version, unrelated version or mismatched manifest digest. The positive accepted production bank and authorized fixture path remain supported.",
+      "observed": "practiceStartCheck and startPractice accept all three injected releaseAccepted=true identity variants. Other10 invalid-input cases reject correctly. App() uses a fixed accepted bank and exposes no package injection; this does not demonstrate an end-user runtime exploit.",
+      "reproduction": {
+        "test": "Snapshot10FTest.requiredInvalidInputsAreObservedWithoutBypassingProductionStart",
+        "steps": [
+          "Copy acceptedPracticeBank9J with identity.contentVersion empty, unrelated-package, or manifestSha25664zeros; keep releaseAccepted=true.",
+          "TransientQuizState(countText=\"1\").showSetup().startPractice(copiedBank, Random(1)) returns a scored session rather than rejecting."
+        ],
+        "source": "composeApp/src/commonMain/kotlin/se/korkort/TransientQuizSetup.kt: practiceStartCheck/startChecked and PracticeBank; Curriculum.kt ContentPackageIdentity has no version-blank constructor guard."
+      },
+      "evidence": [
+        "../10F3/invalid-input-observations.json",
+        "../10F3/snapshot-identity-results.json",
+        "../10F3/TEST-se.korkort.Snapshot10FTest.xml",
+        "../10F3/desktop-test.txt"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/TransientQuizSetup.kt",
+        "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+        "Conditional injected invalid-bank cases; no production accepted identity mutation"
+      ],
+      "owners": [
+        "10L1",
+        "10F3",
+        "10F1",
+        "10F4",
+        "10K"
+      ],
+      "impacted_gates": [
+        "T05",
+        "T09"
+      ],
+      "fix_scope": "Bounded10L review of the scored-start identity contract and validation boundary, with an explicit distinction between trusted release construction and test fixtures. Do not add hot replacement, package import, durable history or change approved content.",
+      "approval_if_required": "No design work or new feature authorized. Existing10L correction/retest workflow applies; no production fix made in this verification.",
+      "invalidation": "If validation code changes, runtime fingerprint and affected start/fixture/session/model/platform evidence must be regenerated; preserve this failing candidate result. Accepted content manifest changes only if actually required by the bounded fix.",
+      "retest": "All13 invalid-input cases, positive accepted starts at1\u201370, held/historical gates, historical snapshots, fixture APIs and required platform journeys.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10F4/defects.json",
+      "triage_category": "implementation_regression",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T05",
+        "T09"
+      ],
+      "acceptance_check": "All13 invalid-input cases, positive accepted starts at1\u201370, held/historical gates, historical snapshots, fixture APIs and required platform journeys."
+    },
+    {
+      "id": "DEF-10H-001",
+      "severity": "P1",
+      "state": "closed_fixed_and_retested",
+      "type": "navigation_return",
+      "detected_in_task": "10H1",
+      "case_ids": [
+        "T07-navigation_routes-2",
+        "T07-entry_point_rules-3",
+        "10H-READ-SIGN-RETURN"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "After lesson\u2192sign\u2192catalogue, Return to reading restores the validated origin and reading context.",
+      "observed": "The registered action executes but Road signs and signals stays displayed. returnToReading updates target/restored but leaves references=true; that branch takes precedence over target.",
+      "reproduction": [
+        "Open actual LearningRoute M03-L01/teaching-005.",
+        "Invoke rendered B1 internal link callback.",
+        "Choose \u2039 Road signs and reference.",
+        "Choose Return to reading; catalogue remains."
+      ],
+      "evidence": [
+        "../10H1/reading-sign-return-observations.json",
+        "../10H1/TEST-se.korkort.ReadingSignReturn10HTest.xml",
+        "../10H1/sign-return-test.txt",
+        "../10H1/captures/catalogue-return-stuck.png"
+      ],
+      "affected_ids_files": [
+        "M03-L01",
+        "sign-B1",
+        "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt:returnToReading / references branch"
+      ],
+      "owners": [
+        "10L bounded navigation correction",
+        "10K target retest"
+      ],
+      "impacted_gates": [
+        "T07"
+      ],
+      "fix_scope": "Restore a found reading origin from the reference-catalogue route by clearing incompatible route state; preserve validated position/focus and library/review context. Verify nested sign/group/source paths. No redesign or storage.",
+      "approval_if_required": "No new design/persistence is proposed; execute bounded10L under its existing change-control process.",
+      "invalidation": "Any route correction invalidates affected shared return observations and requires normal/proof target identity capture again. Accepted content need not change for route-only repair.",
+      "retest": [
+        "ReadingSignReturn10HTest must pass without changing its expected behaviour.",
+        "Repeat source/group/sign nested returns, moved/unknown origin recovery, library filters and review returns.",
+        "Fresh affected Android/desktop/iOS simulator/wasmJs route/focus observations through10K."
+      ],
+      "closure_reason": "Reference catalogue override cleared before restoring the reader. Original assertion, repeated passage regression, actual Android/iOS proof routes and normal/proof browser routes pass for the new runtime fingerprint.",
+      "triage_origin_ledger": "10H3/defects.json",
+      "triage_category": "implementation_regression",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "10L2/10L3 current batch",
+      "dependencies": [
+        "T07"
+      ],
+      "acceptance_check": [
+        "ReadingSignReturn10HTest must pass without changing its expected behaviour.",
+        "Repeat source/group/sign nested returns, moved/unknown origin recovery, library filters and review returns.",
+        "Fresh affected Android/desktop/iOS simulator/wasmJs route/focus observations through10K."
+      ],
+      "closure_evidence": [
+        "original-case-after.xml",
+        "android-route-result.json",
+        "ios-native-result.json",
+        "web-normal-route-result.json"
+      ]
+    },
+    {
+      "id": "DEF-10J-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Library composition and empty recovery must follow the exact documented approved visual direction",
+      "observed": "Library composition and empty recovery differ from approved8B/8C",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: LearningLibrary.kt",
+      "evidence": [
+        "../10J2/captures/library-empty-390-1.6.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/LearningLibrary.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10J-002",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Reader and knowledge-check hierarchy must follow the exact documented approved visual direction",
+      "observed": "Reader and knowledge-check hierarchy differ from approved8D/8E",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: LessonReader.kt",
+      "evidence": [
+        "../10J2/captures/knowledge-revealed-390-1.6.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10J-003",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Source-detail hierarchy must follow the exact documented approved visual direction",
+      "observed": "Source-detail hierarchy differs from approved8I",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: LearningSources.kt",
+      "evidence": [
+        "../10J2/captures/source-detail-390-1.6.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10J-004",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Reference heading bypasses approved bundled font must follow the exact documented approved visual direction",
+      "observed": "Reference heading bypasses approved bundled font",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: SignReferenceDetail.kt",
+      "evidence": [
+        "../10J2/captures/reference-detail-1280-1.0.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceDetail.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10J-005",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Chooser/unavailable grouping must follow the exact documented approved visual direction",
+      "observed": "Chooser/unavailable grouping differs from approved8K/8L",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: LearningRecovery.kt",
+      "evidence": [
+        "../10J2/captures/legacy-chooser-390-1.6.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10J-006",
+      "severity": "P2",
+      "state": "open",
+      "type": "approved_presentation_fidelity",
+      "detected_in_task": "10J2",
+      "case_ids": [
+        "T09-CLAUSE-02"
+      ],
+      "candidate": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      },
+      "expected": "Answer-review explanation and related/source grouping must follow the exact documented approved visual direction",
+      "observed": "Answer-review explanation and related/source grouping differ from approved8G/8H",
+      "reproduction": "Run Presentation10JTest; compare the unmodified current capture with the approved references in annotated-comparisons/index.html. Source locator: LearningAnswerReview.kt",
+      "evidence": [
+        "../10J2/captures/review-standard-390-1.6.png",
+        "../10J2/design-fidelity-review.md",
+        "../10J2/comparison-results.json"
+      ],
+      "affected_ids_files": [
+        "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt"
+      ],
+      "owners": [
+        "10L1",
+        "10L2"
+      ],
+      "impacted_gates": [
+        "T09"
+      ],
+      "fix_scope": "Bounded restoration against existing approved reference, preserve complete content and behavior; no repair performed in10J",
+      "approval_if_required": "Any changed design proposal requires imagegen preview and explicit user approval; existing approval is not a waiver for different treatment.",
+      "invalidation": "A production/style/content correction changes the candidate and invalidates relevant prior receipts; retain history.",
+      "retest": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons.",
+      "closure_reason": null,
+      "triage_origin_ledger": "10J3/defects.json",
+      "triage_category": "visual_design",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T09"
+      ],
+      "acceptance_check": "Affected components/production owner, same viewport100/160,font family, selected/feedback/scroll/focus; fresh10K target comparisons."
+    },
+    {
+      "id": "DEF-10K-001",
+      "severity": "P2",
+      "status": "open",
+      "title": "Wasm selected assessment choice lacks exposed browser selection state",
+      "target": "normal production Wasm; IAB; sampled sign-recognise-M7/rewrite-r2",
+      "expected": "The selected pending choice exposes a programmatic selected/checked state before confirmation, including after modal and leave-guard return.",
+      "actual": "Known wrong A is functionally retained and becomes Your answer/Incorrect with score0/1, but its pending DOM role is button and aria-checked/aria-selected/aria-pressed are absent. Pending AX does not announce selection.",
+      "reproduction": [
+        "Start one-question immediate production test",
+        "Select A on sign-recognise-M7",
+        "Cancel leave guard; enlarge/close option A",
+        "Inspect pending choice browser DOM/AX",
+        "Confirm; compare Your answer A and correct D"
+      ],
+      "affected_ids": [
+        "sign-recognise-M7/rewrite-r2 (observed sample)"
+      ],
+      "affected_surface": "Assessment choice semantics at the browser accessibility bridge; root cause and wider affected set require10L1 triage.",
+      "gate_dependencies": [
+        "T03",
+        "T05",
+        "T07",
+        "T10"
+      ],
+      "evidence": [
+        "browser-evidence/pending-choice-dom.json",
+        "browser-evidence/immediate-pending-after-viewer.txt",
+        "browser-evidence/immediate-pending-after-viewer.png",
+        "browser-evidence/immediate-confirmed.txt",
+        "browser-evidence/immediate-results.txt"
+      ],
+      "distinction": "Android exposes checked/Selected but lacks persistent visible styling (DEF-10D-001). This finding concerns absent browser programmatic state, not spoken screen-reader listening.",
+      "acceptance_check": "Repeat pending selection/guard/viewer return on normal Wasm; selected state is exposed and matches the subsequently confirmed answer. Retest dependent required cases.",
+      "state": "open",
+      "triage_origin_ledger": "10K7/defects.json",
+      "triage_category": "implementation_regression",
+      "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+      "action_owner": "subsequent bounded10L request",
+      "dependencies": [
+        "T03",
+        "T05",
+        "T07",
+        "T10"
+      ],
+      "affected_ids_files": [
+        "sign-recognise-M7/rewrite-r2",
+        "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+        "composeApp/src/wasmJsMain/kotlin/se/korkort/main.kt (browser host; root cause not yet established)"
+      ]
+    }
+  ],
+  "remaining_verification_blockers": [
+    "remaining exact normal/proof/assistive/source/copy/presentation matrix",
+    "source classifications/currency from10C",
+    "required selection failure and bounded repair/retest",
+    "all scope/conditional exclusions retained from prior gates"
+  ],
+  "step10_complete": false
+}

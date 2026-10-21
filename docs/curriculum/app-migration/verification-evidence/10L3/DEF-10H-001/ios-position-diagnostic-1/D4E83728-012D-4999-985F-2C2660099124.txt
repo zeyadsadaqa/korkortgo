@@ -1,0 +1,100 @@
+Optional(Attributes: Application, 0x1036870c0, pid: 61897, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1036870c0, pid: 61897, label: 'KörkortGo'
+    Window (Main), 0x103687340, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x103687480, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1036875c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x103687700, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x103687840, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x103687980, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103687ac0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x103687c00, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x103687d40, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x103687e80, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113940000, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113940140, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x113940280, {{0.0, 62.0}, {402.0, 778.0}}
+                        Image, 0x1139403c0, {{24.0, -1117.0}, {354.0, 236.0}}, label: 'Maximum speed. Red-bordered yellow circle displaying 30: maximum 30 km/h.'
+                        Button, 0x113940500, {{24.0, -877.0}, {237.3, 40.0}}, label: 'Enlarge Maximum speed image'
+                        StaticText, 0x113940640, {{24.0, -833.0}, {354.0, 120.0}}, label: 'Do not exceed the displayed speed in km/h. A junction alone does not necessarily end the limit, and conditions may require a lower speed. Red-bordered yellow circle displaying 30: maximum 30 km/h.'
+                        Image, 0x113940780, {{24.0, -697.0}, {354.0, 236.0}}, label: 'Mandatory direction. Arrow points left.'
+                        Button, 0x1139408c0, {{24.0, -457.0}, {262.0, 40.0}}, label: 'Enlarge Mandatory direction image'
+                        StaticText, 0x113940a00, {{24.0, -413.0}, {354.0, 48.0}}, label: 'Travel only in a direction shown by the arrow or arrows. Arrow points left.'
+                        Image, 0x113940b40, {{24.0, -349.0}, {354.0, 236.0}}, label: 'Built-up area. Black settlement skyline on white.'
+                        Button, 0x113940c80, {{24.0, -109.0}, {216.7, 40.0}}, label: 'Enlarge Built-up area image'
+                        StaticText, 0x113940dc0, {{24.0, -65.0}, {354.0, 96.0}}, label: 'A built-up area begins. Establish the applicable speed limit and other rules; a separate sign may prescribe a different limit. Black settlement skyline on white.'
+                        Other, 0x113940f00, {{0.0, 62.0}, {402.0, 778.0}}
+                        StaticText, 0x113941040, {{24.0, 62.0}, {155.3, 9.0}}, label: 'Continue the learning'
+                        Other, 0x113941180, {{24.0, 62.0}, {155.3, 9.0}}
+                        Other, 0x1139412c0, {{24.0, 87.0}, {354.0, 232.0}}
+                        Other, 0x113941400, {{36.0, 99.0}, {47.3, 24.0}}
+                        StaticText, 0x113941540, {{36.0, 99.0}, {47.3, 24.0}}, label: 'Family'
+                        StaticText, 0x113941680, {{36.0, 131.0}, {88.0, 24.0}}, label: 'A — warning'
+                        Other, 0x1139417c0, {{36.0, 131.0}, {88.0, 24.0}}
+                        StaticText, 0x113941900, {{36.0, 163.0}, {123.3, 24.0}}, label: 'What to establish'
+                        Other, 0x113941a40, {{36.0, 163.0}, {123.3, 24.0}}
+                        StaticText, 0x113941b80, {{36.0, 195.0}, {207.7, 24.0}}, label: 'The nature of a hazard ahead'
+                        Other, 0x113941cc0, {{36.0, 195.0}, {207.7, 24.0}}
+                        StaticText, 0x113941e00, {{36.0, 227.0}, {177.0, 24.0}}, label: 'A useful driving question'
+                        Other, 0x113941f40, {{36.0, 227.0}, {177.0, 24.0}}
+                        StaticText, 0x113942080, {{36.0, 259.0}, {330.0, 48.0}}, label: 'What might be hidden, and how much space do I need?'
+                        Other, 0x1139421c0, {{36.0, 259.0}, {330.0, 48.0}}
+                        Other, 0x113942300, {{24.0, 331.0}, {354.0, 208.0}}
+                        Other, 0x113942440, {{36.0, 343.0}, {47.3, 24.0}}
+                        StaticText, 0x113942580, {{36.0, 343.0}, {47.3, 24.0}}, label: 'Family'
+                        StaticText, 0x1139426c0, {{36.0, 375.0}, {84.3, 24.0}}, label: 'B — priority'
+                        Other, 0x113942800, {{36.0, 375.0}, {84.3, 24.0}}
+                        StaticText, 0x113942940, {{36.0, 407.0}, {123.3, 24.0}}, label: 'What to establish'
+                        Other, 0x113942a80, {{36.0, 407.0}, {123.3, 24.0}}
+                        StaticText, 0x113942bc0, {{36.0, 439.0}, {283.7, 24.0}}, label: 'A duty or relationship at a conflict point'
+                        Other, 0x113942d00, {{36.0, 439.0}, {283.7, 24.0}}
+                        StaticText, 0x113942e40, {{36.0, 471.0}, {177.0, 24.0}}, label: 'A useful driving question'
+                        Other, 0x113942f80, {{36.0, 471.0}, {177.0, 24.0}}
+                        StaticText, 0x1139430c0, {{36.0, 503.0}, {243.7, 24.0}}, label: 'Must I yield or stop, and to whom?'
+                        Other, 0x113943200, {{36.0, 503.0}, {243.7, 24.0}}
+                        Other, 0x113943340, {{24.0, 551.0}, {354.0, 208.0}}
+                        Other, 0x113943480, {{36.0, 563.0}, {47.3, 24.0}}
+                        StaticText, 0x1139435c0, {{36.0, 563.0}, {47.3, 24.0}}, label: 'Family'
+                        StaticText, 0x113943700, {{36.0, 595.0}, {191.3, 24.0}}, label: 'C — prohibition/restriction'
+                        Other, 0x113943840, {{36.0, 595.0}, {191.3, 24.0}}
+                        StaticText, 0x113943980, {{36.0, 627.0}, {123.3, 24.0}}, label: 'What to establish'
+                        Other, 0x113943ac0, {{36.0, 627.0}, {123.3, 24.0}}
+                        StaticText, 0x113943c00, {{36.0, 659.0}, {319.7, 24.0}}, label: 'What movement, vehicle or limit is restricted'
+                        Other, 0x113943d40, {{36.0, 659.0}, {319.7, 24.0}}
+                        StaticText, 0x113943e80, {{36.0, 691.0}, {177.0, 24.0}}, label: 'A useful driving question'
+                        Other, 0x113948000, {{36.0, 691.0}, {177.0, 24.0}}
+                        StaticText, 0x113948140, {{36.0, 723.0}, {304.3, 24.0}}, label: 'Does this apply to my vehicle and journey?'
+                        Other, 0x113948280, {{36.0, 723.0}, {304.3, 24.0}}
+                        Other, 0x1139483c0, {{24.0, 771.0}, {354.0, 69.0}}
+                        Other, 0x113948500, {{36.0, 783.0}, {47.3, 24.0}}
+                        StaticText, 0x113948640, {{36.0, 783.0}, {47.3, 24.0}}, label: 'Family'
+                        StaticText, 0x113948780, {{36.0, 815.0}, {191.7, 24.0}}, label: 'D — mandatory instruction'
+                        Other, 0x1139488c0, {{36.0, 815.0}, {191.7, 24.0}}
+                        StaticText, 0x113948a00, {{36.0, 847.0}, {123.3, 24.0}}, label: 'What to establish'
+                        StaticText, 0x113948b40, {{36.0, 879.0}, {311.7, 24.0}}, label: 'The required route, side or permitted traffic'
+                        StaticText, 0x113948c80, {{36.0, 911.0}, {177.0, 24.0}}, label: 'A useful driving question'
+                        StaticText, 0x113948dc0, {{36.0, 943.0}, {169.7, 24.0}}, label: 'Which path must I take?'
+                        StaticText, 0x113948f00, {{36.0, 1003.0}, {47.3, 24.0}}, label: 'Family'
+                        StaticText, 0x113949040, {{36.0, 1035.0}, {108.0, 24.0}}, label: 'E — instruction'
+                        StaticText, 0x113949180, {{36.0, 1067.0}, {123.3, 24.0}}, label: 'What to establish'
+                        StaticText, 0x1139492c0, {{36.0, 1099.0}, {330.0, 48.0}}, label: 'A road or area with a particular meaning or regime'
+                        StaticText, 0x113949400, {{36.0, 1155.0}, {177.0, 24.0}}, label: 'A useful driving question'
+                        StaticText, 0x113949540, {{36.0, 1187.0}, {219.3, 24.0}}, label: 'Which rules begin or end here?'
+                        Button, 0x113949680, {{24.0, 1383.0}, {355.0, 48.0}}
+                        Button, 0x1139497c0, {{24.0, 1407.0}, {357.0, 48.0}}
+                        Button, 0x113949900, {{135.0, 1471.0}, {18.3, 24.0}}
+                        Button, 0x113949a40, {{115.0, 1543.0}, {18.7, 24.0}}
+                        Button, 0x113949b80, {{151.3, 1663.0}, {212.3, 24.0}}
+                        Button, 0x113949cc0, {{24.0, 1687.0}, {281.7, 24.0}}
+                        StaticText, 0x113949e00, {{24.0, 1727.0}, {354.0, 72.0}}, label: 'Yield and stop Signs and markings are labelled teaching counterparts. These examples do not establish their position in a particular road scene.'
+    Window, 0x113949f40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x11394a080, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x11394a1c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1036870c0, pid: 61897, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x11394a300, pid: 61897, label: 'KörkortGo'
+  }
+)

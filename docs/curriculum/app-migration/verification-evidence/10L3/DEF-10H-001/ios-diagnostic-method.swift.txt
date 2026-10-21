@@ -1,0 +1,6 @@
+
+    func testPositionB1Passage10L() {
+        launch("learning", "M03-L01")
+        for _ in 0..<8 { app.swipeUp(velocity: .slow) }
+        record("10L-positioned-reader")
+    }

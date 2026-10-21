@@ -1,0 +1,18 @@
+
+    func testReadingSignCatalogueReturn10L() {
+        launch("learning", "M03-L01")
+        let passage = app.staticTexts.matching(NSPredicate(format: "label BEGINSWITH %@", "Requirements. B1 means")).firstMatch
+        reach(passage)
+        record("10L-reading-before")
+        // B1 is the first inline link, after Requirements.; offset grounded in the native screenshot at default type scale.
+        passage.coordinate(withNormalizedOffset: .zero).withOffset(CGVector(dx: 120, dy: 12)).tap()
+        let back = button("‹ Road signs and reference")
+        XCTAssertTrue(back.waitForExistence(timeout: 10)); record("10L-sign")
+        reach(back, up: false); back.tap()
+        let reading = button("Return to reading")
+        XCTAssertTrue(reading.waitForExistence(timeout: 10)); record("10L-catalogue")
+        reach(reading, up: false); reading.tap()
+        XCTAssertTrue(passage.waitForExistence(timeout: 10)); XCTAssertTrue(passage.isHittable)
+        XCTAssertFalse(app.staticTexts["Road signs and signals"].exists)
+        record("10L-reading-restored")
+    }

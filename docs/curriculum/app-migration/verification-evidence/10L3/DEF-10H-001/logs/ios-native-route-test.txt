@@ -1,0 +1,278 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild test-without-building -xctestrun /tmp/korkort-10l-h001-ios-proof/Build/Products/10L-diagnostic.xctestrun -destination id=F6E93C4B-958D-4CBB-B95E-537B4FB8070C -parallel-testing-enabled NO -resultBundlePath /tmp/korkort-10l-h001-ios-route.xcresult
+
+2026-10-21 22:11:57.502 xcodebuild[62840:967651] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+Writing result bundle at path:
+	/tmp/korkort-10l-h001-ios-route.xcresult
+
+2026-10-21 22:11:57.514 xcodebuild[62840:967651] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-21 22:11:58.007 xcodebuild[62840:967651] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+2026-10-21 22:12:00.128463+0200 NativeRouteTests-Runner[62866:968066] [Default] Running tests...
+    t =      nans Interface orientation changed to Portrait
+Test Suite 'Selected tests' started at 2026-10-21 10:12:00.335 PM.
+Test Suite 'NativeRouteTests.xctest' started at 2026-10-21 10:12:00.335 PM.
+Test Suite 'NativeRouteTests' started at 2026-10-21 10:12:00.336 PM.
+Test Case '-[NativeRouteTests.NativeRouteTests testReadingSignCatalogueReturn10L]' started.
+    t =     0.00s Start Test at 2026-10-21 10:12:00.337 PM
+    t =     0.02s Set Up
+    t =     0.02s Open se.korkort.study
+    t =     0.02s     Launch se.korkort.study
+2026-10-21 22:12:00.419 xcodebuild[62840:967651] [MT] IDELaunchParametersSnapshot: The operation couldn’t be completed. (DebuggerLLDB.DebuggerVersionStore.StoreError error 0.)
+2026-10-21 22:12:00.419 xcodebuild[62840:967651] [MT] IDELaunchParametersSnapshot: no debugger version
+objc[62866]: Class UIAccessibilityLoaderWebShared is implemented in both /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebCore.axbundle/WebCore (0x10b358310) and /Library/Developer/CoreSimulator/Volumes/iOS_23F77/Library/Developer/CoreSimulator/Profiles/Runtimes/iOS 26.5.simruntime/Contents/Resources/RuntimeRoot/System/Library/AccessibilityBundles/WebKit.axbundle/WebKit (0x10a79c398). This may cause spurious casting failures and mysterious crashes. One of the duplicates must be removed or renamed.
+    t =     1.51s         Setting up automation session
+    t =     2.21s         Wait for se.korkort.study to idle
+    t =     3.81s Wait for se.korkort.study to become Running Foreground
+    t =     3.81s Checking existence of `"Study tools for your driving licence" StaticText`
+    t =     3.87s Find the Target Application 'se.korkort.study'
+    t =     3.91s Find the Target Application 'se.korkort.study'
+    t =     3.91s Find the Target Application 'se.korkort.study'
+    t =     3.93s Find the Target Application 'se.korkort.study'
+    t =     3.94s Checking existence of `StaticText (First Match)`
+    t =     3.98s Checking existence of `StaticText (First Match)`
+    t =     4.01s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =     4.01s     Wait for se.korkort.study to idle
+    t =     4.02s     Find the Target Application 'se.korkort.study'
+    t =     4.04s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     4.07s     Synthesize event
+    t =     4.07s         Find the Target Application 'se.korkort.study'
+    t =     4.08s         Find the Target Application 'se.korkort.study'
+    t =     4.09s         Find the Target Application 'se.korkort.study'
+    t =     4.10s         Find the Target Application 'se.korkort.study'
+    t =     4.12s         Find the Target Application 'se.korkort.study'
+    t =     6.17s     Wait for se.korkort.study to idle
+    t =     6.17s Checking existence of `StaticText (First Match)`
+    t =     6.22s Checking existence of `StaticText (First Match)`
+    t =     6.28s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =     6.28s     Wait for se.korkort.study to idle
+    t =     6.28s     Find the Target Application 'se.korkort.study'
+    t =     6.31s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     6.34s     Synthesize event
+    t =     6.34s         Find the Target Application 'se.korkort.study'
+    t =     6.36s         Find the Target Application 'se.korkort.study'
+    t =     6.37s         Find the Target Application 'se.korkort.study'
+    t =     6.38s         Find the Target Application 'se.korkort.study'
+    t =     6.41s         Find the Target Application 'se.korkort.study'
+    t =     8.47s     Wait for se.korkort.study to idle
+    t =     8.47s Checking existence of `StaticText (First Match)`
+    t =     8.52s Checking existence of `StaticText (First Match)`
+    t =     8.55s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =     8.55s     Wait for se.korkort.study to idle
+    t =     8.56s     Find the Target Application 'se.korkort.study'
+    t =     8.57s     Check for interrupting elements affecting "KörkortGo" Application
+    t =     8.60s     Synthesize event
+    t =     8.60s         Find the Target Application 'se.korkort.study'
+    t =     8.61s         Find the Target Application 'se.korkort.study'
+    t =     8.62s         Find the Target Application 'se.korkort.study'
+    t =     8.64s         Find the Target Application 'se.korkort.study'
+    t =     8.67s         Find the Target Application 'se.korkort.study'
+    t =    10.72s     Wait for se.korkort.study to idle
+    t =    10.72s Checking existence of `StaticText (First Match)`
+    t =    10.76s Checking existence of `StaticText (First Match)`
+    t =    10.79s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    10.79s     Wait for se.korkort.study to idle
+    t =    10.83s     Find the Target Application 'se.korkort.study'
+    t =    10.87s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    10.89s     Synthesize event
+    t =    10.89s         Find the Target Application 'se.korkort.study'
+    t =    10.90s         Find the Target Application 'se.korkort.study'
+    t =    10.92s         Find the Target Application 'se.korkort.study'
+    t =    10.93s         Find the Target Application 'se.korkort.study'
+    t =    10.96s         Find the Target Application 'se.korkort.study'
+    t =    13.02s     Wait for se.korkort.study to idle
+    t =    13.02s Checking existence of `StaticText (First Match)`
+    t =    13.10s Checking existence of `StaticText (First Match)`
+    t =    13.21s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    13.21s     Wait for se.korkort.study to idle
+    t =    13.21s     Find the Target Application 'se.korkort.study'
+    t =    13.23s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    13.26s     Synthesize event
+    t =    13.26s         Find the Target Application 'se.korkort.study'
+    t =    13.28s         Find the Target Application 'se.korkort.study'
+    t =    13.30s         Find the Target Application 'se.korkort.study'
+    t =    13.31s         Find the Target Application 'se.korkort.study'
+    t =    13.34s         Find the Target Application 'se.korkort.study'
+    t =    15.39s     Wait for se.korkort.study to idle
+    t =    15.39s Checking existence of `StaticText (First Match)`
+    t =    15.46s Checking existence of `StaticText (First Match)`
+    t =    15.56s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    15.56s     Wait for se.korkort.study to idle
+    t =    15.56s     Find the Target Application 'se.korkort.study'
+    t =    15.58s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    15.62s     Synthesize event
+    t =    15.62s         Find the Target Application 'se.korkort.study'
+    t =    15.64s         Find the Target Application 'se.korkort.study'
+    t =    15.66s         Find the Target Application 'se.korkort.study'
+    t =    15.68s         Find the Target Application 'se.korkort.study'
+    t =    15.71s         Find the Target Application 'se.korkort.study'
+    t =    17.77s     Wait for se.korkort.study to idle
+    t =    17.77s Checking existence of `StaticText (First Match)`
+    t =    17.87s Checking existence of `StaticText (First Match)`
+    t =    17.95s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    17.95s     Wait for se.korkort.study to idle
+    t =    17.95s     Find the Target Application 'se.korkort.study'
+    t =    17.97s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    18.00s     Synthesize event
+    t =    18.00s         Find the Target Application 'se.korkort.study'
+    t =    18.02s         Find the Target Application 'se.korkort.study'
+    t =    18.04s         Find the Target Application 'se.korkort.study'
+    t =    18.06s         Find the Target Application 'se.korkort.study'
+    t =    18.09s         Find the Target Application 'se.korkort.study'
+    t =    20.14s     Wait for se.korkort.study to idle
+    t =    20.14s Checking existence of `StaticText (First Match)`
+    t =    20.27s Checking existence of `StaticText (First Match)`
+    t =    20.47s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    20.47s     Wait for se.korkort.study to idle
+    t =    20.48s     Find the Target Application 'se.korkort.study'
+    t =    20.50s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    20.53s     Synthesize event
+    t =    20.53s         Find the Target Application 'se.korkort.study'
+    t =    20.55s         Find the Target Application 'se.korkort.study'
+    t =    20.59s         Find the Target Application 'se.korkort.study'
+    t =    20.61s         Find the Target Application 'se.korkort.study'
+    t =    20.65s         Find the Target Application 'se.korkort.study'
+    t =    22.71s     Wait for se.korkort.study to idle
+    t =    22.72s Checking existence of `StaticText (First Match)`
+    t =    22.91s Checking existence of `StaticText (First Match)`
+    t =    23.21s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    23.22s     Wait for se.korkort.study to idle
+    t =    23.22s     Find the Target Application 'se.korkort.study'
+    t =    23.25s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    23.28s     Synthesize event
+    t =    23.29s         Find the Target Application 'se.korkort.study'
+    t =    23.32s         Find the Target Application 'se.korkort.study'
+    t =    23.34s         Find the Target Application 'se.korkort.study'
+    t =    23.36s         Find the Target Application 'se.korkort.study'
+    t =    23.41s         Find the Target Application 'se.korkort.study'
+    t =    25.50s     Wait for se.korkort.study to idle
+    t =    25.51s Checking existence of `StaticText (First Match)`
+    t =    25.59s Checking existence of `StaticText (First Match)`
+    t =    25.69s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    25.69s     Wait for se.korkort.study to idle
+    t =    25.75s     Find the Target Application 'se.korkort.study'
+    t =    25.78s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    25.81s     Synthesize event
+    t =    25.82s         Find the Target Application 'se.korkort.study'
+    t =    25.83s         Find the Target Application 'se.korkort.study'
+    t =    25.86s         Find the Target Application 'se.korkort.study'
+    t =    25.89s         Find the Target Application 'se.korkort.study'
+    t =    25.91s         Find the Target Application 'se.korkort.study'
+    t =    27.97s     Wait for se.korkort.study to idle
+    t =    27.97s Checking existence of `StaticText (First Match)`
+    t =    28.02s Find the StaticText (First Match)
+    t =    28.11s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    28.21s Checking existence of `"Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText`
+    t =    28.28s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    28.38s Press Target Application 'se.korkort.study'[0.50, 0.72] for 0.1 seconds, then drag to Target Application 'se.korkort.study'[0.50, 0.32] with velocity of 250.00 pixels per second, and then hold for 0.3 seconds 
+    t =    28.38s     Wait for se.korkort.study to idle
+    t =    28.38s     Find the Target Application 'se.korkort.study'
+    t =    28.41s     Check for interrupting elements affecting "KörkortGo" Application
+    t =    28.45s     Synthesize event
+    t =    28.45s         Find the Target Application 'se.korkort.study'
+    t =    28.48s         Find the Target Application 'se.korkort.study'
+    t =    28.51s         Find the Target Application 'se.korkort.study'
+    t =    28.53s         Find the Target Application 'se.korkort.study'
+    t =    28.55s         Find the Target Application 'se.korkort.study'
+    t =    30.62s     Wait for se.korkort.study to idle
+    t =    30.63s Checking existence of `"Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText`
+    t =    30.72s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    30.84s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    30.93s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    31.12s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    31.33s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    31.53s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    31.58s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    31.65s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    31.76s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    31.79s Added attachment named '10L-reading-before-tree'
+    t =    31.79s Find the Target Application 'se.korkort.study'
+    t =    31.92s Added attachment named '10L-reading-before'
+    t =    31.94s Tap "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText[0.00, 0.00] -> (120.0, 12.0)
+    t =    31.94s     Wait for se.korkort.study to idle
+    t =    31.94s     Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    32.01s     Check for interrupting elements affecting "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    32.04s     Synthesize event
+    t =    32.05s         Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    32.11s         Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    32.18s         Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    32.52s     Wait for se.korkort.study to idle
+    t =    32.52s Waiting 10.0s for Button (First Match) to exist
+    t =    33.56s     Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    33.56s         Checking existence of `Button (First Match)`
+    t =    33.59s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    33.67s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    33.69s Added attachment named '10L-sign-tree'
+    t =    33.69s Find the Target Application 'se.korkort.study'
+    t =    33.80s Added attachment named '10L-sign'
+    t =    33.80s Find the Target Application 'se.korkort.study'
+    t =    33.81s Find the Target Application 'se.korkort.study'
+    t =    33.82s Find the Target Application 'se.korkort.study'
+    t =    33.83s Find the Target Application 'se.korkort.study'
+    t =    33.84s Checking existence of `Button (First Match)`
+    t =    33.85s Find the Button (First Match)
+    t =    33.90s Find the "‹ Road signs and reference" Button
+    t =    33.93s Find the "‹ Road signs and reference" Button
+    t =    34.08s Find the "‹ Road signs and reference" Button
+    t =    34.22s Find the "‹ Road signs and reference" Button
+    t =    34.36s Find the "‹ Road signs and reference" Button
+    t =    34.41s Find the "‹ Road signs and reference" Button
+    t =    34.52s Tap "‹ Road signs and reference" Button
+    t =    34.52s     Wait for se.korkort.study to idle
+    t =    34.53s     Find the "‹ Road signs and reference" Button
+    t =    34.61s     Check for interrupting elements affecting "‹ Road signs and reference" Button
+    t =    34.64s     Synthesize event
+    t =    34.94s     Wait for se.korkort.study to idle
+    t =    34.94s Waiting 10.0s for Button (First Match) to exist
+    t =    35.98s     Checking `Expect predicate `existsNoRetry == 1` for object Button (First Match)`
+    t =    35.98s         Checking existence of `Button (First Match)`
+    t =    36.00s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    36.12s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    36.14s Added attachment named '10L-catalogue-tree'
+    t =    36.14s Find the Target Application 'se.korkort.study'
+    t =    36.25s Added attachment named '10L-catalogue'
+    t =    36.25s Find the Target Application 'se.korkort.study'
+    t =    36.27s Find the Target Application 'se.korkort.study'
+    t =    36.28s Find the Target Application 'se.korkort.study'
+    t =    36.29s Find the Target Application 'se.korkort.study'
+    t =    36.30s Checking existence of `Button (First Match)`
+    t =    36.33s Find the Button (First Match)
+    t =    36.37s Find the "Return to reading" Button
+    t =    36.40s Find the "Return to reading" Button
+    t =    36.52s Find the "Return to reading" Button
+    t =    36.65s Find the "Return to reading" Button
+    t =    36.78s Find the "Return to reading" Button
+    t =    36.82s Find the "Return to reading" Button
+    t =    36.86s Tap "Return to reading" Button
+    t =    36.86s     Wait for se.korkort.study to idle
+    t =    36.86s     Find the "Return to reading" Button
+    t =    36.89s     Check for interrupting elements affecting "Return to reading" Button
+    t =    36.91s     Synthesize event
+    t =    37.20s     Wait for se.korkort.study to idle
+    t =    37.22s Waiting 10.0s for "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText to exist
+    t =    38.26s     Checking `Expect predicate `existsNoRetry == 1` for object "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText`
+    t =    38.26s         Checking existence of `"Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText`
+    t =    38.34s Find the "Requirements. B1 means yield to vehicles on the crossing road or route. Make that intention clear early and proceed only without danger or obstruction. B2 requires a stop before entering the crossing road or track area. Stop at the stop line; without one, stop immediately before the signal or before entering the crossing road or track area, as applicable. A rolling pause does not meet a stop duty. Road Signs Regulation, B1–B2 · Traffic Regulation, chapter 3 §§5 and 19" StaticText
+    t =    38.41s Checking existence of `"Road signs and signals" StaticText`
+    t =    38.44s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    38.55s Requesting snapshot of accessibility hierarchy for app with pid 62872
+    t =    38.57s Added attachment named '10L-reading-restored-tree'
+    t =    38.57s Find the Target Application 'se.korkort.study'
+    t =    38.69s Added attachment named '10L-reading-restored'
+    t =    38.70s Tear Down
+Test Case '-[NativeRouteTests.NativeRouteTests testReadingSignCatalogueReturn10L]' passed (39.052 seconds).
+Test Suite 'NativeRouteTests' passed at 2026-10-21 10:12:39.389 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 39.052 (39.054) seconds
+Test Suite 'NativeRouteTests.xctest' passed at 2026-10-21 10:12:39.390 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 39.052 (39.055) seconds
+Test Suite 'Selected tests' passed at 2026-10-21 10:12:39.391 PM.
+	 Executed 1 test, with 0 failures (0 unexpected) in 39.052 (39.056) seconds
+2026-10-21 22:12:39.749 xcodebuild[62840:967651] [MT] IDETestOperationsObserverDebug: 41.736 elapsed -- Testing started completed.
+2026-10-21 22:12:39.749 xcodebuild[62840:967651] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2026-10-21 22:12:39.749 xcodebuild[62840:967651] [MT] IDETestOperationsObserverDebug: 41.736 sec, +41.736 sec -- end
+
+Test session results, code coverage, and logs:
+	/tmp/korkort-10l-h001-ios-route.xcresult
+
+** TEST EXECUTE SUCCEEDED **
+
+Testing started
