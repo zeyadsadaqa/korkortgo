@@ -1,0 +1,19 @@
+{
+  "task": "10G1",
+  "status": "pass",
+  "counts": {
+    "compatibility_records": 1921,
+    "families": {
+      "chapter_aliases": 39,
+      "legacy_page_aliases": 361,
+      "unused_topic_routes": 178,
+      "sign_routes": 343,
+      "question_routes": 1000
+    },
+    "question_routes": 1000,
+    "checks": 8888,
+    "failed": 0
+  },
+  "T06": "open for separate target external-link handling",
+  "sequence_review": "../10G3/review.md"
+}
