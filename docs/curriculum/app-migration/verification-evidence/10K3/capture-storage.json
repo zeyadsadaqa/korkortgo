@@ -1,0 +1,86 @@
+{
+  "task": "10K3",
+  "policy": "Byte-identical PNG copies only. Original receipts retain logical capture paths; resolve missing logical images through this map. No observation, failed run, metadata, test or restoration record is discarded.",
+  "removed_duplicate_files": 13,
+  "bytes_saved": 1720142,
+  "aliases": [
+    {
+      "logical_path": "captures/home.png",
+      "stored_path": "captures/home-attribution.png",
+      "sha256": "d37ef53ea230b3c7b9fa66dbf38ccfb664fb798c0d2f8de7fd3269db5ddc2173",
+      "bytes": 123579
+    },
+    {
+      "logical_path": "captures/signal-SIG17-false.png",
+      "stored_path": "captures/signal-SIG16-false.png",
+      "sha256": "6cac540387dc7aadf6feecd431fbbfd496c6aa0b1ed4581c0d75f72233ab2aa8",
+      "bytes": 39423
+    },
+    {
+      "logical_path": "captures/signal-SIG18-false.png",
+      "stored_path": "captures/signal-SIG16-false.png",
+      "sha256": "6cac540387dc7aadf6feecd431fbbfd496c6aa0b1ed4581c0d75f72233ab2aa8",
+      "bytes": 39423
+    },
+    {
+      "logical_path": "captures/signal-failure-390-1.0.png",
+      "stored_path": "captures/signal-SIG16-false.png",
+      "sha256": "6cac540387dc7aadf6feecd431fbbfd496c6aa0b1ed4581c0d75f72233ab2aa8",
+      "bytes": 39423
+    },
+    {
+      "logical_path": "captures/signal-SIG17-true.png",
+      "stored_path": "captures/signal-SIG16-true.png",
+      "sha256": "bfe726e3d97759704f017f577c333c5b2d697619810226ee90f9dea874290d3f",
+      "bytes": 31019
+    },
+    {
+      "logical_path": "captures/signal-SIG18-true.png",
+      "stored_path": "captures/signal-SIG16-true.png",
+      "sha256": "bfe726e3d97759704f017f577c333c5b2d697619810226ee90f9dea874290d3f",
+      "bytes": 31019
+    },
+    {
+      "logical_path": "captures/signal-unavailable-390-1.0.png",
+      "stored_path": "captures/signal-SIG16-true.png",
+      "sha256": "bfe726e3d97759704f017f577c333c5b2d697619810226ee90f9dea874290d3f",
+      "bytes": 31019
+    },
+    {
+      "logical_path": "captures/source-failure-1280-1.0.png",
+      "stored_path": "captures/source-detail-1280-1.0.png",
+      "sha256": "89f422d9ae7895db2933d1f679868680f0f80a1b1e2d033e213b6083ca00a837",
+      "bytes": 310751
+    },
+    {
+      "logical_path": "captures/source-failure-1280-1.6.png",
+      "stored_path": "captures/source-detail-1280-1.6.png",
+      "sha256": "0f7b6fecc0c46d0e353920cae06aed9580708de481bb055c03312d56410bcbb0",
+      "bytes": 301694
+    },
+    {
+      "logical_path": "captures/source-failure-320-1.0.png",
+      "stored_path": "captures/source-detail-320-1.0.png",
+      "sha256": "49e3c85694c96a4299a8bd7b005cbf3c8ea087fa569c6facfa2ecb1cea6c5b6a",
+      "bytes": 184122
+    },
+    {
+      "logical_path": "captures/source-failure-320-1.6.png",
+      "stored_path": "captures/source-detail-320-1.6.png",
+      "sha256": "4a6704e46ad99646b097f35702e50d4d269faa94bab89f97c3de94a15ed864f2",
+      "bytes": 166238
+    },
+    {
+      "logical_path": "captures/source-failure-390-1.0.png",
+      "stored_path": "captures/source-detail-390-1.0.png",
+      "sha256": "78afc4e01235f892e1473a2aef4ff366f9fdc89957ed303c2ec197bf8fbc87e5",
+      "bytes": 226172
+    },
+    {
+      "logical_path": "captures/source-failure-390-1.6.png",
+      "stored_path": "captures/source-detail-390-1.6.png",
+      "sha256": "bf65ce06873c60ff47871d6f79a2b0d4070241333bed947a3738f46234d872f5",
+      "bytes": 196260
+    }
+  ]
+}

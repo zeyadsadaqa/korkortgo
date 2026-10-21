@@ -1,0 +1,7 @@
+{
+ "source_tasks": ["10J2", "10J3", "10H1", "10F3"],
+ "purpose": "Fresh configured desktop re-execution and unchanged known-defect assertions",
+ "adaptation": "Copied approved audit harnesses into new 10K3 source directory; output task labels redirected to 10K3 only. Identity regression is the same three conditional injected identities; normal App injection is not implied.",
+ "historical_receipts": "Never rerun an old harness with its original output task paths.",
+ "expected_failures": ["DEF-10F-001", "DEF-10H-001"]
+}

@@ -1,0 +1,147 @@
+{
+  "task": "10K3",
+  "status": "required_inherited_regressions_fail",
+  "suites": [
+    {
+      "name": "se.korkort.AcceptedQuestionParityTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:50:24.657Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.AcceptedReleaseStateTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:50:25.216Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.Copy10JTest",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:50:27.688Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.CurriculumAppFlowTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:26.458Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.ExactVectorRenderingTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:29.229Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.IdentityRejection10KTest",
+      "tests": "1",
+      "failures": "1",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:30.751Z",
+      "failed_methods": [
+        "acceptedStartMustRejectEachInvalidInjectedIdentity[desktop]"
+      ]
+    },
+    {
+      "name": "se.korkort.LearningReaderParityTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:30.761Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.LearningViewsSemanticsTest",
+      "tests": "13",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:30.878Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.NavigationTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:41.534Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.Presentation10JTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:54:41.641Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.ReadingSignReturn10HTest",
+      "tests": "1",
+      "failures": "1",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:55:19.939Z",
+      "failed_methods": [
+        "readingSignLinkMustOfferReturnToReading[desktop]"
+      ]
+    },
+    {
+      "name": "se.korkort.ReferenceViewerSemanticsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:55:20.532Z",
+      "failed_methods": []
+    },
+    {
+      "name": "se.korkort.SignalDispatch10KTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T13:55:21.212Z",
+      "failed_methods": []
+    }
+  ],
+  "totals": {
+    "tests": 44,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0
+  },
+  "normal_jar": {
+    "path": "composeApp/build/libs/composeApp-desktop.jar",
+    "sha256": "afbe874befcd7c9c6ec78811156959ba5afebcad88c757e76e40474a21c3c6f0",
+    "manifest": "Manifest-Version: 1.0\r\n\r\n",
+    "no_proof_or_audit_classes": true
+  },
+  "configured_scope": "JVM library/resource package and real Compose/Skia scenes; no configured desktop launcher, installer/native-window accessibility or OS browser-launch claim",
+  "fresh_artwork_reuse": "../10K1/test-reports/desktop-artwork-observations.json;2464 current functional renderer cases, not pixel/readability acceptance",
+  "candidate_inputs": "Unchanged fingerprint in environment.json; audit test sources are isolated under10K3",
+  "inherited_failures_expected": [
+    "DEF-10F-001",
+    "DEF-10H-001"
+  ],
+  "T10": "open until relevant defects/required cases are repaired and re-executed"
+}
