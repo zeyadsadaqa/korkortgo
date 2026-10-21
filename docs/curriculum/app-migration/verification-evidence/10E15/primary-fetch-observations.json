@@ -1,0 +1,106 @@
+{
+  "task": "10E15",
+  "date": "2026-10-21",
+  "sources": [
+    {
+      "url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+      "retrieved_at": "2026-10-21T07:12:16.504463+00:00",
+      "http_status": 200,
+      "final_url": "https://www.northernireland.gov.uk/sites/default/files/2025-08/taxi-manual-august-2025.pdf",
+      "body_sha256": "b8596e657dd0512e122d1d0c19bce4b3cbd503d86a3745928f39dec1e7bb68d4",
+      "bytes": 4480232,
+      "content_type": "application/pdf",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+      "retrieved_at": "2026-10-21T07:12:16.504892+00:00",
+      "http_status": 200,
+      "final_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/fordonsforordning-2009211_sfs-2009-211/",
+      "body_sha256": "8c22fb6a516b99b3a11d225449bf036f46383bb0718685795f6b3292f13ce3ba",
+      "bytes": 538241,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "retrieved_at": "2026-10-21T07:12:16.504983+00:00",
+      "http_status": 200,
+      "final_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "body_sha256": "d465e7f4f0cbe1210beebdbcc57233e65bd7ee1750b13c99a852639042a92d65",
+      "bytes": 858701,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikskadelag-19751410_sfs-1975-1410/",
+      "retrieved_at": "2026-10-21T07:12:16.505040+00:00",
+      "http_status": 200,
+      "final_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikskadelag-19751410_sfs-1975-1410/",
+      "body_sha256": "f3dea0410bb604926f6cccace268c3dce6d1ca055dc6dca95702b3d1f1f2efb7",
+      "bytes": 358070,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+      "retrieved_at": "2026-10-21T07:12:16.505090+00:00",
+      "http_status": 200,
+      "final_url": "https://www.trafikverket.se/vara-projekt/projekt-i-stockholms-lan/e4-forbifart-stockholm/nyheter-for-e4-forbifart-stockholm/2025-02/avstangning-for-forberedande-arbeten/",
+      "body_sha256": "4ea1911e1e0d640d045ad15c8895da36b59acff43be228a9a9449183a4d6c8b7",
+      "bytes": 73308,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf",
+      "retrieved_at": "2026-10-21T07:12:16.705614+00:00",
+      "http_status": 200,
+      "final_url": "https://www.transportstyrelsen.se/globalassets/global/publikationer-och-rapporter/vag/trafikant/produkter/tran-049-choose-the-right-vehicle-lighting_a5_webb.pdf",
+      "body_sha256": "0e769f6552cc8151ef521936ce82f737241f4298df3911fb927aa075d9c4a28b",
+      "bytes": 759284,
+      "content_type": "application/pdf",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsregler/Vikter/",
+      "retrieved_at": "2026-10-21T07:12:16.768957+00:00",
+      "http_status": 200,
+      "final_url": "https://www.transportstyrelsen.se/sv/vagtrafik/Fordon/Fordonsregler/Vikter/",
+      "body_sha256": "f79b9b047c834ea9bde7bad1e1b01ef86e6a0eed967dbae3bff049b902620490",
+      "bytes": 174365,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+      "retrieved_at": "2026-10-21T07:12:16.950462+00:00",
+      "http_status": 200,
+      "final_url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/fordonsbesiktning/",
+      "body_sha256": "66438dd7d796f3fd99fd0b67398ec86edd15c4cc835feb8c2374d5c02ae88c15",
+      "bytes": 196855,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+      "retrieved_at": "2026-10-21T07:12:16.987980+00:00",
+      "http_status": 200,
+      "final_url": "https://www.transportstyrelsen.se/sv/vagtrafik/fordon/aga-kopa-eller-salja-fordon/stall-av-eller-pa-ditt-fordon/stalla-av-ditt-fordon/",
+      "body_sha256": "718d5a180ebb860d04fac2401e4f40957028f6c85a02e937b798598d4ba72fa2",
+      "bytes": 192361,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    },
+    {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tidsangivelse/",
+      "retrieved_at": "2026-10-21T07:12:17.053616+00:00",
+      "http_status": 200,
+      "final_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/tillaggstavlor/tidsangivelse/",
+      "body_sha256": "84a20a332317fdc3b87e2bb82f46e28b3758b09b3e8d6d4082d036523d2f6636",
+      "bytes": 130866,
+      "content_type": "text/html; charset=utf-8",
+      "claim_verification": "Separate manual scoped review required; HTTP success alone proves no legal fact."
+    }
+  ]
+}
