@@ -1,0 +1,70 @@
+@file:OptIn(androidx.compose.ui.InternalComposeUiApi::class)
+package se.korkort
+import androidx.compose.runtime.*
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.semantics.*
+import androidx.compose.ui.text.AnnotatedString
+import kotlin.test.*
+class Presentation10JTest {
+ @Test fun currentSharedPresentationAtSameViewportAndRealScale() {
+  val rows=mutableListOf<Any>()
+  val doc=readerDocuments.single{it.id==ContentId("M03-L02")}
+  val check=doc.bodyBlocks.first{it.payload is BlockPayload.KnowledgeCheck}
+  val sign=navigationSigns.single{it.id==ContentId("sign-B1")}
+  val asset=readerAssets.single{it.id==sign.assetId}
+  val q=acceptedPracticeBank9J.questions.single{it.key.questionId==QuestionId("situation-001")}
+  val snap=SessionQuestionSnapshot(q,acceptedIdentity9J,listOf(1,0,3,2).map{q.options[it].id})
+  val session=AssessmentSession(listOf(snap),Feedback.IMMEDIATE).answer(q.options[1].id)
+  val cases=listOf("library-overview","library-filter","library-empty","reader-opening","reader-moved","knowledge-hidden","knowledge-revealed","reader-long","review-standard","source-directory","source-detail","source-failure","reference-catalogue","reference-group","reference-detail","reference-credits","viewer","legacy-chooser","generic-unavailable","signal-unavailable","signal-failure","missing-results")
+  for(width in listOf(390,1280))for(scale in listOf(1f,1.6f))LibraryHarness10J(width,1800).use{h->
+   for(state in cases){
+    val source=navigationSources.references.single{it.id==SourceReferenceId("REF-9f4b74a976fa03fb")}
+    h.scene.setContent{key(state){CompositionLocalProvider(LocalDensity provides Density(1f,scale)){LearningTheme{
+     when(state){
+      "library-overview"->LearningLibrary({},{},{})
+      "library-filter"->LearningLibrary({},{},{},remember{LearningLibraryState().apply{filter=LibraryFilter(category=Category.SAFETY)}})
+      "library-empty"->LearningLibrary({},{},{},remember{LearningLibraryState().apply{filter=LibraryFilter("zzzxq10J",Category.SAFETY)}})
+      "reader-opening"->LessonReader(ContentTarget(doc.id),{},{_,_->},{})
+      "reader-moved"->LearningRoute(canonicalResolver.canonical(ContentTarget(ContentId("M03-L04"),BlockId("fixture-removed-block"))),onExternal={false})
+      "knowledge-hidden","knowledge-revealed"->TeachingBlock(check,doc.answerBlocks.associateBy{it.metadata.id},{})
+      "reader-long"->LessonReader(ContentTarget(ContentId("M03-L04")),{},{_,_->},{})
+      "review-standard"->LearningAnswerReview(session,onRelated={},onSource={})
+      "source-directory"->SourceDirectory(null,{}, {})
+      "source-detail","source-failure"->SourceDetail(source.id,{},{},{false})
+      "reference-catalogue"->LearningRoute(initialReferences=true,onExternal={false})
+      "reference-group"->LearningRoute(canonicalResolver.canonical(ContentTarget(navigationReferenceGroups.first().id)),onExternal={false})
+      "reference-detail","reference-credits"->SignReferenceDetail(sign,asset,navigationSources.references,{},{false})
+      "viewer"->ImageViewerSurface(ImageViewerContent(asset,"B1 · ${sign.englishLabel}",asset.studyAltText),{})
+      "legacy-chooser"->LearningRoute(canonicalResolver.legacy(LegacyLookup.Page("legacy-app-4768933c3d9a",46)),onExternal={false})
+      "generic-unavailable"->LearningRoute(canonicalResolver.canonical(ContentTarget(ContentId("unknown-10J"))),onExternal={false})
+      "signal-unavailable","signal-failure"->LearningRoute(canonicalResolver.legacy(LegacyLookup.Sign("legacy-app-4768933c3d9a","SIG16")),onExternal={false})
+      "missing-results"->MissingResults{}
+     }
+    }}}}
+    h.render();repeat(15){h.render();Thread.sleep(5)}
+    when(state){"knowledge-revealed"->h.click("Show answer");"source-failure"->h.click("Open source");"reference-credits"->h.click("Sources and artwork credits");"signal-failure"->h.click("Open official description")}
+    val name="$state-$width-$scale";h.capture("10J2",name)
+    rows.add(mapOf("state_id" to state,"width" to width,"height" to 1800,"font_scale" to scale,"theme" to "production fixed light","capture" to "captures/$name.png","text" to h.text(),"semantics" to h.nodes().map{mapOf("text" to it.config.getOrNull(SemanticsProperties.Text)?.map{t->t.text},"description" to it.config.getOrNull(SemanticsProperties.ContentDescription),"selected" to it.config.getOrNull(SemanticsProperties.Selected),"state" to it.config.getOrNull(SemanticsProperties.StateDescription),"heading" to (it.config.getOrNull(SemanticsProperties.Heading)!=null),"bounds" to it.boundsInRoot.toString())}))
+    Proof10J.write("10J2","shared-presentation-observations.json",mapOf("identity" to acceptedIdentity9J,"scope" to "fresh shared CanvasLayers; standalone production components; not10K native/platform distribution","cases" to rows))
+   }
+  }
+  assertEquals(88,rows.size)
+ }
+ @Test fun actualProductionHomeSetupQuizGuardAndResults() {
+  val rows=mutableListOf<Any>()
+  LibraryHarness10J(1280,1800).use{h->
+   fun record(name:String){h.capture("10J2",name);rows.add(mapOf("state_id" to name,"text" to h.text(),"capture" to "captures/$name.png"))}
+   h.scene.setContent{App()};h.await("home"){h.text().contains("practice questions")};record("home")
+   // Home is lazy; collect the migrated attribution after deliberate scroll.
+   h.nodes().first{it.config.getOrNull(SemanticsActions.ScrollToIndex)?.action!=null}.config[SemanticsActions.ScrollToIndex].action!!.invoke(5);h.render();record("home-attribution")
+   h.click("Practice");h.await("setup"){h.text().contains("Make every question count.")};record("setup")
+   h.nodes().first{it.config.getOrNull(SemanticsActions.SetText)?.action!=null}.config[SemanticsActions.SetText].action!!.invoke(AnnotatedString("1"));h.render();h.click("Start test  >");h.await("quiz"){h.text().contains("Question 1 of 1")};record("quiz-unanswered")
+   h.click("Learning library");h.await("guard"){h.text().contains("Leave this test?")};record("unfinished-guard");h.click("Keep practising")
+   h.nodes().first{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton}.config[SemanticsActions.OnClick].action!!.invoke();h.render();h.click("Confirm answer  >");record("quiz-confirmed")
+   h.click("Finish test  >");h.await("results"){h.text().contains("TEST COMPLETE")};record("results")
+   h.click("Review answers  >");h.await("review"){h.text().contains("Understand every answer.")};record("review-owner")
+  }
+  Proof10J.write("10J2","shared-production-observations.json",mapOf("identity" to acceptedIdentity9J,"cases" to rows,"scope" to "actualApp; one random accepted question; no exhaustive question visual claim"))
+ }
+}
