@@ -1,0 +1,29 @@
+{
+  "status": "accounting_pass_T04_open",
+  "partition": {
+    "retained": 336,
+    "sign_rewrites": 578,
+    "sign_replacements": 38,
+    "scenarios": 8,
+    "load_definitions": 30,
+    "exact_fuel_keys": 4,
+    "unit_wording": 6
+  },
+  "counts": {
+    "questions": 1000,
+    "concepts": 500,
+    "retain": 336,
+    "rewrite": 626,
+    "replace": 38,
+    "independently_reviewed": 1000,
+    "passed_within_required_scope": 970,
+    "open_asset_description_cases": 30,
+    "overlapping_distractor_changes": 134
+  },
+  "description_findings": {
+    "DEF-10E-001": 8,
+    "DEF-10E-002": 10,
+    "DEF-10E-003": 12
+  },
+  "known_unit_residual_questions": 3
+}

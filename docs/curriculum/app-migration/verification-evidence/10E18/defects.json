@@ -1,0 +1,297 @@
+{
+  "severity_policy": {
+    "P0": "Unsafe/wrong scored rule or key, corrupted acceptance/input, lost answer identity or release of held item; block every affected gate.",
+    "P1": "Required content/route/runtime/accessibility unavailable, broken package/source dispatch or material approved-design/readability failure; block affected gates.",
+    "P2": "Reproducible lesser correctness/usability/editorial defect; block its required acceptance case until fixed/retested or explicitly dispositioned under existing approved scope.",
+    "P3": "Optional polish or new feature request; record separate scope, do not silently change approved design."
+  },
+  "required_record_fields": [
+    "id",
+    "severity",
+    "state",
+    "type",
+    "detected_in_task",
+    "case_ids",
+    "candidate",
+    "expected",
+    "observed",
+    "reproduction",
+    "evidence",
+    "affected_ids_files",
+    "owners",
+    "impacted_gates",
+    "fix_scope",
+    "approval_if_required",
+    "invalidation",
+    "retest",
+    "closure_reason"
+  ],
+  "schema_version": 1,
+  "task": "10E18",
+  "date": "2026-10-21",
+  "continues": "../10D4/defects.json",
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001"
+  ],
+  "open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003"
+  ],
+  "open_verification_blockers": [
+    {
+      "id": "BLOCK-10D-PLATFORM",
+      "status": "open",
+      "owner": "10K2–10K6",
+      "expected": "456 replacement native/browser artwork contexts plus supplementary representative contexts, native modality/background exclusion, keyboard/return and actual Android TalkBack traversal. Desktop source observations are shared proof support only.",
+      "gate": "T03"
+    }
+  ],
+  "findings": [
+    {
+      "id": "DEF-10E-001",
+      "severity": "P2",
+      "state": "open",
+      "type": "asset_variant_metadata",
+      "detected_in_task": "10E4",
+      "case_ids": [
+        "T04-sign-meaning-A5",
+        "T04-sign-recognise-A5",
+        "T04-sign-meaning-A6",
+        "T04-sign-recognise-A6",
+        "T04-sign-meaning-A36",
+        "T04-sign-recognise-A36",
+        "T04-sign-meaning-C18",
+        "T04-sign-recognise-C18"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe the visible single lorry without inventing a trailer; retain the correct vehicle-or-combination length rule and 20 m value.",
+      "observed": "C18 original artwork shows a single three-axle lorry, but variant_description_en, study_alt_text and the compiled sign-entry caption say vehicle-and-trailer pictogram. The assessment neutral description correctly says lorry; legal scope vehicle or combination length and authored keys remain supported.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-6cf10ca702a501ec.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E4",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E4/reviewed-assets-1.png",
+        "../10E4/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-A5",
+        "sign-recognise-A5",
+        "sign-meaning-A6",
+        "sign-recognise-A6",
+        "sign-meaning-A36",
+        "sign-recognise-A36",
+        "sign-meaning-C18",
+        "sign-recognise-C18",
+        "docs/curriculum/sign-captions.json",
+        "content/curriculum.json",
+        "generated curriculum/navigation metadata and downstream accepted package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E4",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L source-caption/variant correction and affected input regeneration/retest; do not change official artwork, question IDs, keys or historical approval receipts.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10E-002",
+      "severity": "P2",
+      "state": "open",
+      "type": "asset_variant_metadata",
+      "detected_in_task": "10E11",
+      "case_ids": [
+        "T04-sign-meaning-A4",
+        "T04-sign-recognise-A4",
+        "T04-sign-meaning-I2",
+        "T04-sign-recognise-I2",
+        "T04-sign-meaning-M8",
+        "T04-sign-recognise-M8",
+        "T04-sign-meaning-M17",
+        "T04-sign-recognise-M17",
+        "T04-sign-meaning-S3",
+        "T04-sign-recognise-S3"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe this selected single-line artwork separately from the general rule that a centre line can also be double.",
+      "observed": "M8 selected artwork shows one continuous white line. The shared variant says Single and double continuous white lines, and that wording is appended to the study caption. The neutral assessment description accurately says one line; the legal explanation permits the general single/double forms without changing the key.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-f977ba39e60a5ef3.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E11",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E11/reviewed-assets-1.png",
+        "../10E11/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-A4",
+        "sign-recognise-A4",
+        "sign-meaning-I2",
+        "sign-recognise-I2",
+        "sign-meaning-M8",
+        "sign-recognise-M8",
+        "sign-meaning-M17",
+        "sign-recognise-M17",
+        "sign-meaning-S3",
+        "sign-recognise-S3",
+        "docs/curriculum/sign-captions.json",
+        "content/curriculum.json",
+        "generated curriculum/navigation metadata and downstream accepted package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E11",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L variant-caption correction and affected regeneration/retest; preserve official artwork, authored question IDs/keys and historical receipts.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null
+    },
+    {
+      "id": "DEF-10E-003",
+      "severity": "P2",
+      "state": "open",
+      "type": "neutral_description_geometry",
+      "detected_in_task": "10E13",
+      "case_ids": [
+        "T04-sign-meaning-F5",
+        "T04-sign-recognise-F5",
+        "T04-sign-meaning-M25",
+        "T04-sign-recognise-M25",
+        "T04-sign-meaning-S12",
+        "T04-sign-recognise-S12",
+        "T04-sign-meaning-T8",
+        "T04-sign-recognise-T8",
+        "T04-sign-meaning-T9",
+        "T04-sign-recognise-T9",
+        "T04-sign-meaning-X9",
+        "T04-sign-recognise-X9"
+      ],
+      "candidate": {
+        "entry_commit": "767fa1a",
+        "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21"
+      },
+      "expected": "Describe successive separate right-pointing arrows without inventing a joining line.",
+      "observed": "X9 neutral description says the three right-pointing arrows are joined along a thin white line. The selected artwork has separate successive arrows with gaps between tails and preceding arrowheads. Direction and legal meaning are correct.",
+      "reproduction": {
+        "source_artwork": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+        "steps": [
+          "Open unchanged official artwork and compare its geometry with selected variant/study text or question neutral text.",
+          "Compare reviewed-assets-1.png and source-review-packet.json for 10E13",
+          "Inspect all exact affected question image bindings; no key or picture substitution."
+        ]
+      },
+      "evidence": [
+        "../10E1/review-findings.json",
+        "../10E13/reviewed-assets-1.png",
+        "../10E13/reviewer-notes.json",
+        "complete-question-review.json",
+        "10D1-semantic-reconciliation.json"
+      ],
+      "affected_ids_files": [
+        "sign-meaning-F5",
+        "sign-recognise-F5",
+        "sign-meaning-M25",
+        "sign-recognise-M25",
+        "sign-meaning-S12",
+        "sign-recognise-S12",
+        "sign-meaning-T8",
+        "sign-recognise-T8",
+        "sign-meaning-T9",
+        "sign-recognise-T9",
+        "sign-meaning-X9",
+        "sign-recognise-X9",
+        "docs/curriculum/app-migration/question-actions.json",
+        "accepted assessment image neutral descriptions and downstream generated package identity"
+      ],
+      "owners": [
+        "10L1",
+        "10D1",
+        "10E13",
+        "10E18",
+        "10J"
+      ],
+      "impacted_gates": [
+        "T03",
+        "T04",
+        "T09"
+      ],
+      "fix_scope": "Bounded 10L neutral-description correction with fresh review/acceptance and affected semantic retest; preserve authored IDs, artwork and keys.",
+      "approval_if_required": "No new visual design requested. A bounded descriptive correction must follow 10L acceptance/invalidation; a new design would require the user preview/approval workflow.",
+      "invalidation": "Accepted input changes require a new manifest identity and affected source/compiled/description/semantic/delivery gate retests; preserve these candidate observations and old approvals.",
+      "retest": "Exact target and every affected distractor occurrence in both directions; source-caption or neutral review; downstream import/package identity and affected platform accessibility/delivery.",
+      "closure_reason": null
+    }
+  ],
+  "resolved_verification_dependencies": [
+    {
+      "id": "BLOCK-10D-SEMANTIC-RECONCILIATION",
+      "status": "executed_with_findings",
+      "evidence": "10D1-semantic-reconciliation.json",
+      "gate_closure": false
+    }
+  ],
+  "known_scope_limitations": [
+    {
+      "id": "LIMIT-9I5-UNIT-GRAMMAR",
+      "status": "documented_approved_scope",
+      "owner": "10L1 if corrected",
+      "evidence": "unit-wording-review.json",
+      "details": "Existing singular-number/plural-unit wording is outside the six approved option-unit changes; no claim of general grammar repair."
+    }
+  ]
+}
