@@ -1,0 +1,16 @@
+{
+  "task": "10J1",
+  "status": "complete_index_acceptance_open",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "gate": "T09 open",
+  "observed": {
+    "boards": 17,
+    "states": 38
+  },
+  "production_modified": false,
+  "new_design_generated": false,
+  "next_task": "10J2"
+}

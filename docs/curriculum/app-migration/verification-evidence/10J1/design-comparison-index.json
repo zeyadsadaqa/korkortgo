@@ -1,0 +1,1364 @@
+{
+  "task": "10J1",
+  "status": "complete_index_not_visual_acceptance",
+  "entry_commit": "a632daec5adecd2966c5266e9c3743fd4f9210fc",
+  "approval_authority": [
+    {
+      "path": "docs/curriculum/app-design-review.md",
+      "sha256": "d86c80309cfe269a69e23c8aea4a4ba01b117da98a5728846eeed94e13e40ca2"
+    },
+    {
+      "path": "docs/curriculum/app-design-spec.md",
+      "sha256": "edf414c9ef888f78e0875f3168da785f739e25d131f9dbb18a698f9016139c4f"
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/review.md",
+      "sha256": "4d6a8c123d916acfbf1785abe1353e7a3e2c3ad9e5411da63fb20fed92b8b1b9"
+    }
+  ],
+  "approved_boards": [
+    {
+      "path": "docs/curriculum/app-design/8b/library-overview-v1.png",
+      "sha256": "9aa1986197029ad123b67f1c3b348b7fec9bdfaefdfc7fbf2fd18b9369c1ee53",
+      "step": "8B",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "Looks great, approved",
+        "revision": "v1",
+        "scope": "8B library-overview visual direction; no implementation or new unbound functionality authorised"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8b/review.md",
+        "sha256": "650bf7c216134233620957819658c953982f26fd79fa1475a9c6c8098926d9ef"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/library-filter-v1.png",
+      "sha256": "a621e8fed14261d2ad8b1d71e4c9e6563024a2b1252b2064868778bc5c5597af",
+      "step": "8C",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "yes looks great, approved",
+        "revision": "v1",
+        "scope": "Both 8C filter and empty-search boards; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8c/review.md",
+        "sha256": "6a164b4e4d05f4f4a0c4ffffdc1711da181b128ac80440f6459f478def7503af"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/library-empty-v1.png",
+      "sha256": "af57d3ce4b0d5ee4e985844622b413de14154e720a18890b973a6927805a08b9",
+      "step": "8C",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "yes looks great, approved",
+        "revision": "v1",
+        "scope": "Both 8C filter and empty-search boards; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8c/review.md",
+        "sha256": "6a164b4e4d05f4f4a0c4ffffdc1711da181b128ac80440f6459f478def7503af"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8d/lesson-opening-v1.png",
+      "sha256": "0dde99f261222524ca899003277ae951755a9628ec9e3fc10853f08502ac75c4",
+      "step": "8D",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8D lesson-reader opening visual direction; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8d/review.md",
+        "sha256": "9176827c2953c369ebe88fb7866925cfcde0115be268086bb60e893b3f17ccc7"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8e/knowledge-check-v2.png",
+      "sha256": "99ff42b08a54582aa77fd3f723598ce3bdbcb57ac778277cbe7fdc81ca0154d8",
+      "step": "8E",
+      "revision": "v2",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "approved",
+        "revision": "v2",
+        "scope": "8E wide/phone knowledge-check reveal visual direction; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8e/review.md",
+        "sha256": "a555567d94627130e3255619128a38129c81c8a109525efe38eeabc2749ee9d8"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8f/long-content-v1.png",
+      "sha256": "a1f08908cdadda6201452cdba01ba40f6007b63562820e9f19127081a6171cc8",
+      "step": "8F",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8F long-content and enlarged-text visual direction; runtime verification remains required; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8f/review.md",
+        "sha256": "d9b7e0c6286538d8772a815d507d9a43eb6f86ef614f574abbd372092c7ddb3d"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8g/answer-review-v1.png",
+      "sha256": "efe223ae6e93d017f69657e6477f9cff623c794634bb36a5ee49fbeb01d56d48",
+      "step": "8G",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-14",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8G standard answer-review visual direction; documented quiz guards and unbound-menu limitation retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8g/review.md",
+        "sha256": "64d4a16518a68e02e8a0602b4c1f51b4f8331270b1501aef5880e505b450ef66"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8h/calculation-review-v1.png",
+      "sha256": "c8d006947cb830d4435b897b14d0eb39cbd224dc0c0163af969066644cddd830",
+      "step": "8H",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8H calculation answer-review visual direction only; proposed question remains unapplied and unaccepted for scoring; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8h/review.md",
+        "sha256": "36af9e1b923f7254b2ae4aeed832b14b4683d61d7783ab7f665c56f0177bbf8f"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/source-directory-v1.png",
+      "sha256": "b69eadea65b16145bc3174939bedb62086851b5ca01e2e217f869e2f7a76e311",
+      "step": "8I",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "Both 8I directory and detail boards; runtime and source-currency verification remain required; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8i/review.md",
+        "sha256": "fd1505e5ff6bf96d36a82010f183f3f0841d31344816e5658fdc730861b2f3fc"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/source-detail-v1.png",
+      "sha256": "20ce8df5ba562c3f0c2fa3e6ac45db40cd6e25a2e1c0406006f053b205edc3cb",
+      "step": "8I",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "Both 8I directory and detail boards; runtime and source-currency verification remain required; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8i/review.md",
+        "sha256": "fd1505e5ff6bf96d36a82010f183f3f0841d31344816e5658fdc730861b2f3fc"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8j/sign-reference-v1.png",
+      "sha256": "81d9de73545bc76cbbb78c31d9926c15bb9933243b502e3cb4963ca3fe94ec81",
+      "step": "8J",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8J B1 reference/framing/zoom visual direction with official asset bound separately; 38 delivery holds remain open; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8j/review.md",
+        "sha256": "5e529347ef05ac826dde18e30731a60ced31d324143e9e4125777f88734b6843"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/legacy-chooser-v2.png",
+      "sha256": "28cea6b407fc4651f4fcb4f8118e862bdc7b1ba47b47ffbe2c9fb88dd06c4e1b",
+      "step": "8K",
+      "revision": {
+        "chooser": "v2",
+        "moved_passage": "v1"
+      },
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "OK approved",
+        "revisions": {
+          "chooser": "v2",
+          "moved_passage": "v1"
+        },
+        "scope": "Both 8K previews; routing and runtime verification requirements retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8k/review.md",
+        "sha256": "51a43e22af58e2108323fd2619c7773deb5a335ad19601a6c2d25bf36252242b"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/moved-passage-v1.png",
+      "sha256": "4cb1859ae5ca5f364dddb575a640ce89707d1247a9570b9d77ce854f1445c9db",
+      "step": "8K",
+      "revision": {
+        "chooser": "v2",
+        "moved_passage": "v1"
+      },
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "OK approved",
+        "revisions": {
+          "chooser": "v2",
+          "moved_passage": "v1"
+        },
+        "scope": "Both 8K previews; routing and runtime verification requirements retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8k/review.md",
+        "sha256": "51a43e22af58e2108323fd2619c7773deb5a335ad19601a6c2d25bf36252242b"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+      "sha256": "6cd86d0d0920dbdd907de5fa51b3f2eb66e83e4c41b07eae4575a8b3b7115e0d",
+      "step": "8L",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "Both 8L unavailable-state previews; exact URL/no-substitution and runtime requirements retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8l/review.md",
+        "sha256": "ff9ea6604c2cd98e758d2913669433af81f457360e3db62291d3a99b213e0a61"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/content-unavailable-v1.png",
+      "sha256": "3fd9ae7636315436826adb5ac240d08c05cd622541c3f008a759104338c30359",
+      "step": "8L",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "Both 8L unavailable-state previews; exact URL/no-substitution and runtime requirements retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8l/review.md",
+        "sha256": "ff9ea6604c2cd98e758d2913669433af81f457360e3db62291d3a99b213e0a61"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/8m/missing-results-v1.png",
+      "sha256": "8ec1a7e36c1dcdfb0dbff06554c5d743c44b6ed565b26e735da3fa97d7be17d1",
+      "step": "8M",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-15",
+        "user_statement": "approved",
+        "revision": "v1",
+        "scope": "8M missing-results/setup-recovery visual direction; state and runtime requirements retained; no implementation started"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/8m/review.md",
+        "sha256": "9b187ab7bac07c79dcefb271d1fcfe67f3db25e3042c076de06566f93b03cbfd"
+      }
+    },
+    {
+      "path": "docs/curriculum/app-design/faint-assets-v1/preview.png",
+      "sha256": "8ff751b7211984231d06fd08af0f241d7bc3e27b5c7e2c82ffa31decba792136",
+      "step": "faint-assets",
+      "revision": "v1",
+      "approval": {
+        "date": "2026-10-17",
+        "user_statement": "approved",
+        "scope": "larger original-artwork presentation only; no content/eligibility waiver"
+      },
+      "review": {
+        "path": "docs/curriculum/app-design/faint-assets-v1/review.md",
+        "sha256": "4d6a8c123d916acfbf1785abe1353e7a3e2c3ad9e5411da63fb20fed92b8b1b9"
+      }
+    }
+  ],
+  "approval_input_checks": [
+    {
+      "path": "docs/curriculum/app-design/8b/content-bindings-v1.json",
+      "sha256": "658d6c9996b9708677f91f3193b1d973a6c60364470ec8eef065783dc7267782",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8b/review.md",
+      "sha256": "650bf7c216134233620957819658c953982f26fd79fa1475a9c6c8098926d9ef",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8b/prompt-v1.txt",
+      "sha256": "5d592acc232577f15d083a4b104430d7f7e3686ceb06072f63b4fea23c39f7e2",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/content-bindings-v1.json",
+      "sha256": "7cb96c574709fdcf8fdf40f391c0921b7499b30d8ee2a1a94dc474e68efa851c",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/review.md",
+      "sha256": "6a164b4e4d05f4f4a0c4ffffdc1711da181b128ac80440f6459f478def7503af",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/empty-prompt-v1.txt",
+      "sha256": "0456507db7ff8a2b1f71afe74243a347d56de5856ea3a53f28823e8d4209c585",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8c/filter-prompt-v1.txt",
+      "sha256": "3c18499e11e1f3dec20d97eadd5a0ff6a6a09d7a6681e3ad235ac6c4be66486d",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8d/content-bindings-v1.json",
+      "sha256": "d1dbe15c97b839f17710968c3583c22be0afb442b0c7e06296fb2240a8a2a8e0",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8d/review.md",
+      "sha256": "9176827c2953c369ebe88fb7866925cfcde0115be268086bb60e893b3f17ccc7",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8d/prompt-v1.txt",
+      "sha256": "7c5c983738807ba8e2166d67c75f972c09495a0e633fdca002cbb6d312b40b06",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8e/content-bindings-v2.json",
+      "sha256": "e84f8016df849bb89b7fb1e6de434dbe857ffd1d6da26e4f13dbaed68f48acb2",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8e/review.md",
+      "sha256": "a555567d94627130e3255619128a38129c81c8a109525efe38eeabc2749ee9d8",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8e/prompt-v2.txt",
+      "sha256": "37bab32bab831aeec719439d580e71f4897274628042975da58538ed02bab1c7",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8f/content-bindings-v1.json",
+      "sha256": "1a6b1a43427807ab6a5cb17485c7e8360834fdcb3f3fc11342e6a66121cd34ad",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8f/review.md",
+      "sha256": "d9b7e0c6286538d8772a815d507d9a43eb6f86ef614f574abbd372092c7ddb3d",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8f/prompt-v1.txt",
+      "sha256": "18d771872db408a8c2072264ec0837f82795424a3855f9d37e930ff6f2bd4697",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8g/content-bindings-v1.json",
+      "sha256": "808fab2c1ef72ce6c796c29d2f8e877571a483bfcfd4809d94650cea61caced0",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8g/review.md",
+      "sha256": "64d4a16518a68e02e8a0602b4c1f51b4f8331270b1501aef5880e505b450ef66",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8g/prompt-v1.txt",
+      "sha256": "133b7509ef166aa5cf85ae10251870cd60b3e7a15a0ebab673365cd30bb9d00a",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8h/content-bindings-v1.json",
+      "sha256": "38208f6ec0a1c620a010f6fb97c7acb6a744ecb4283ad90809bd8864eaf97a70",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8h/review.md",
+      "sha256": "36af9e1b923f7254b2ae4aeed832b14b4683d61d7783ab7f665c56f0177bbf8f",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8h/prompt-v1.txt",
+      "sha256": "62e61a6833bf8bf5c41c33b02392b9cdf6ca61e2ad8bea687831772fbf70f070",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/content-bindings-v1.json",
+      "sha256": "f885f263a4a3eb27635d016b4b29b0dbd06b333149a61a80c8b71719ce6d2672",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/review.md",
+      "sha256": "fd1505e5ff6bf96d36a82010f183f3f0841d31344816e5658fdc730861b2f3fc",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/detail-prompt-v1.txt",
+      "sha256": "a5da90fefdaf501d9afd2baf6d6172550ea1d058acce1e70bbdd9ea3ef111917",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8i/directory-prompt-v1.txt",
+      "sha256": "35906488a51fe2bf416fa15b800ccedd292a34b147bdb3808eee2356213b0443",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8j/content-bindings-v1.json",
+      "sha256": "fc7444e51385ddb0ef50f4b496beccc27d239c1fadaa77d0a49b350f7a727ef3",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8j/review.md",
+      "sha256": "5e529347ef05ac826dde18e30731a60ced31d324143e9e4125777f88734b6843",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8j/prompt-v1.txt",
+      "sha256": "0bb8f7173f37c384ffd99a9dc9a94dfe56083252e40b77a4f39a015c09c978c5",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/content-bindings.json",
+      "sha256": "1a6900738269a3420e8add02b343e6bc7148421d241188946884667f6aebcfa3",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/review.md",
+      "sha256": "51a43e22af58e2108323fd2619c7773deb5a335ad19601a6c2d25bf36252242b",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/chooser-prompt-v2.txt",
+      "sha256": "b5b5a05da0214c251e6be7c661b2acd64aee56a3f9dca7bc38c3660586c92218",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8k/moved-prompt-v1.txt",
+      "sha256": "97d1a2253d84bd2cd5d7a2b0356bf648cb49e78b5e06344b335a911698b2eef5",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/content-bindings-v1.json",
+      "sha256": "33c0adf2958c5ba41ba1f02363eb789b199001a9fb5d0fd96957dc7aaa77c706",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/review.md",
+      "sha256": "ff9ea6604c2cd98e758d2913669433af81f457360e3db62291d3a99b213e0a61",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/generic-prompt-v1.txt",
+      "sha256": "6476093f79aa52ebb6fa72386e45749d42ced01e79aec99e5cf920be608641af",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8l/signal-prompt-v1.txt",
+      "sha256": "90693c6e4889b1959c8beb4404e14fef494cce2272c44804c29fce2cdcce5859",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8m/content-bindings-v1.json",
+      "sha256": "f30ca0ffd4850c3280561fea6635a2f682c1ea73f17b3d17ef90b4a987dbe45c",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8m/review.md",
+      "sha256": "9b187ab7bac07c79dcefb271d1fcfe67f3db25e3042c076de06566f93b03cbfd",
+      "pass_identity": true
+    },
+    {
+      "path": "docs/curriculum/app-design/8m/prompt-v1.txt",
+      "sha256": "b3f8e076e9104f4423f1efbfde714b0779be661e53039971d9a1a6f6cc113daf",
+      "pass_identity": true
+    }
+  ],
+  "states": [
+    {
+      "state_id": "home",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [],
+      "approval_basis": "app-design-spec.md retained-existing-behaviour policy",
+      "contract": "existing home plus migrated attribution/counts",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "setup",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [],
+      "approval_basis": "app-design-spec.md retained-existing-behaviour policy",
+      "contract": "count, feedback, allocation, deliberate start",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "quiz-unanswered",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [],
+      "approval_basis": "app-design-spec.md retained-existing-behaviour policy",
+      "contract": "both feedback modes and neutral option selection",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "quiz-confirmed",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8g/answer-review-v1.png"
+      ],
+      "approval_basis": "8G",
+      "contract": "immediate feedback; deferred remains hidden",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "results",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [],
+      "approval_basis": "app-design-spec.md retained-existing-behaviour policy",
+      "contract": "valid pinned score and category breakdown",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "library-overview",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningLibrary.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8b/library-overview-v1.png"
+      ],
+      "approval_basis": "8B",
+      "contract": "ten modules, forty lessons, ten reviews; separate supporting links",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "library-filter",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningLibrary.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8c/library-filter-v1.png",
+        "docs/curriculum/app-design/8c/library-empty-v1.png"
+      ],
+      "approval_basis": "8C",
+      "contract": "intersection, full tags, ordered results, independent reset",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "library-empty",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningLibrary.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8c/library-filter-v1.png",
+        "docs/curriculum/app-design/8c/library-empty-v1.png"
+      ],
+      "approval_basis": "8C",
+      "contract": "no auto-open; query/category recovery",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reader-opening",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8d/lesson-opening-v1.png"
+      ],
+      "approval_basis": "8D",
+      "contract": "canonical title, goal, full content and navigation",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reader-moved",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8k/legacy-chooser-v2.png",
+        "docs/curriculum/app-design/8k/moved-passage-v1.png"
+      ],
+      "approval_basis": "8K",
+      "contract": "known parent with exact moved notice",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "knowledge-hidden",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8e/knowledge-check-v2.png"
+      ],
+      "approval_basis": "8E",
+      "contract": "answer absent from reading until reveal",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "knowledge-revealed",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8e/knowledge-check-v2.png"
+      ],
+      "approval_basis": "8E",
+      "contract": "answer visible and toggle focus restored on hide",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reader-long",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LessonReader.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8f/long-content-v1.png"
+      ],
+      "approval_basis": "8F",
+      "contract": "same viewport/font at 100/160%; full equations/tables",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "review-standard",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8g/answer-review-v1.png"
+      ],
+      "approval_basis": "8G",
+      "contract": "all four shuffled choices and explanations, related/source return",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "review-calculation",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8h/calculation-review-v1.png"
+      ],
+      "approval_basis": "8H",
+      "contract": "current accepted fuel revision; historical preview question is layout fixture only",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "review-filter-empty",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8g/answer-review-v1.png"
+      ],
+      "approval_basis": "8G",
+      "contract": "retained filter and expansion; empty-state text is not separately previewed",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "source-destination",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8i/source-directory-v1.png",
+        "docs/curriculum/app-design/8i/source-detail-v1.png"
+      ],
+      "approval_basis": "8I",
+      "contract": "canonical source landing; no separate exact landing board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "missing-source",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+        "docs/curriculum/app-design/8l/content-unavailable-v1.png"
+      ],
+      "approval_basis": "8L",
+      "contract": "missing reference recovery; no separate exact source-recovery board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "setup-invalid-count",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [],
+      "approval_basis": "app-design-spec.md retained-existing-behaviour policy",
+      "contract": "validation errors and disabled start; no separate exact validation board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "source-directory",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8i/source-directory-v1.png",
+        "docs/curriculum/app-design/8i/source-detail-v1.png"
+      ],
+      "approval_basis": "8I",
+      "contract": "global or lesson-scoped publishers/classifications",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "source-detail",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8i/source-directory-v1.png",
+        "docs/curriculum/app-design/8i/source-detail-v1.png"
+      ],
+      "approval_basis": "8I",
+      "contract": "exact dates/scope/limitations and return",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "source-failure",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningSources.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8i/source-directory-v1.png",
+        "docs/curriculum/app-design/8i/source-detail-v1.png"
+      ],
+      "approval_basis": "8I",
+      "contract": "failure text and usable return; no separate exact failure board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reference-catalogue",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8j/sign-reference-v1.png"
+      ],
+      "approval_basis": "8J",
+      "contract": "typed catalogue and 24 groups; no separate exact catalogue board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reference-group",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8j/sign-reference-v1.png"
+      ],
+      "approval_basis": "8J",
+      "contract": "full group teaching/membership; no separate exact group board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reference-detail",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceDetail.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8j/sign-reference-v1.png"
+      ],
+      "approval_basis": "8J",
+      "contract": "B1 identity, editorial notice, unchanged bytes",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "reference-credits",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/SignReferenceDetail.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8j/sign-reference-v1.png"
+      ],
+      "approval_basis": "8J",
+      "contract": "actual publishers, dates and artwork reuse",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "viewer",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/AccessibleImageViewer.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8j/sign-reference-v1.png"
+      ],
+      "approval_basis": "8J",
+      "contract": "fit/zoom/reset/pan/close with neutral assessment titles",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "legacy-chooser",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8k/legacy-chooser-v2.png",
+        "docs/curriculum/app-design/8k/moved-passage-v1.png"
+      ],
+      "approval_basis": "8K",
+      "contract": "page46 four exact validated choices; deliberate activation",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "generic-unavailable",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+        "docs/curriculum/app-design/8l/content-unavailable-v1.png"
+      ],
+      "approval_basis": "8L",
+      "contract": "unknown parent no guessed replacement",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "signal-unavailable",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+        "docs/curriculum/app-design/8l/content-unavailable-v1.png"
+      ],
+      "approval_basis": "8L",
+      "contract": "three distinct official URLs; no internal substitute",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "signal-failure",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8l/signal-unavailable-v1.png",
+        "docs/curriculum/app-design/8l/content-unavailable-v1.png"
+      ],
+      "approval_basis": "8L",
+      "contract": "external failure retains internal recovery",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "missing-results",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningRecovery.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8m/missing-results-v1.png"
+      ],
+      "approval_basis": "8M",
+      "contract": "no saved result; deliberate setup; no score invention",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "missing-quiz",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8m/missing-results-v1.png"
+      ],
+      "approval_basis": "8M",
+      "contract": "missing session recovery reuses existing policy, no separate board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "unfinished-guard",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8g/answer-review-v1.png"
+      ],
+      "approval_basis": "8G",
+      "contract": "existing cancel/discard guard; no separate exact guard board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "source-root-failure",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/8i/source-directory-v1.png",
+        "docs/curriculum/app-design/8i/source-detail-v1.png"
+      ],
+      "approval_basis": "8I",
+      "contract": "existing modal failure; no separate exact modal board",
+      "approval_limit": "No standalone exact board; retained behaviour or related-state policy only. Exact visual match unresolved.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "faint-question-stem",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/faint-assets-v1/preview.png"
+      ],
+      "approval_basis": "faint-assets",
+      "contract": "full-width3:2 frame;220dp minimum;white backing",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "faint-image-options",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/AssessmentCard.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/faint-assets-v1/preview.png"
+      ],
+      "approval_basis": "faint-assets",
+      "contract": "same rule all four options independent of correctness",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    },
+    {
+      "state_id": "faint-review-reader",
+      "implementation_locator": "composeApp/src/commonMain/kotlin/se/korkort/LearningAnswerReview.kt",
+      "approved_references": [
+        "docs/curriculum/app-design/faint-assets-v1/preview.png"
+      ],
+      "approval_basis": "faint-assets",
+      "contract": "reuse frame for reader/review; wide reference380dp minimum",
+      "approval_limit": "Exact copy/bindings govern raster approximations; compare full current state.",
+      "approved_deviations": [
+        "8O: state-specific chip/icon variants retained; unsupported menu/language/OS/crop annotations excluded",
+        "8F: reflow illustration, not measured font/viewport proof",
+        "17Oct: approved common artwork frames supersede earlier candidate dimensions"
+      ],
+      "required_captures": [
+        "normal and labelled proof builds on configured10K targets",
+        "390/conceptual narrow and wide natural reflow;100%/160% text",
+        "production light; actual dark capability/disposition, not a diagnostic override",
+        "full scroll/selected/feedback/focus/return states as applicable"
+      ],
+      "status": "mapped_pending_current_target_comparison"
+    }
+  ],
+  "unresolved_exact_board_states": [
+    "home",
+    "setup",
+    "quiz-unanswered",
+    "results",
+    "source-destination",
+    "missing-source",
+    "setup-invalid-count",
+    "source-failure",
+    "reference-catalogue",
+    "reference-group",
+    "missing-quiz",
+    "unfinished-guard",
+    "source-root-failure"
+  ],
+  "no_new_design": true,
+  "gate": "T09 remains open; fresh10K observations not present"
+}

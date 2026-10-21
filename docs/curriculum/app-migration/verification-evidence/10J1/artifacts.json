@@ -1,0 +1,36 @@
+{
+  "task": "10J1",
+  "scope": "unchanged candidate independent audit; hashes do not grant acceptance",
+  "files": [
+    {
+      "path": "baseline-entry.json",
+      "bytes": 262,
+      "sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b"
+    },
+    {
+      "path": "build_index.py",
+      "bytes": 7726,
+      "sha256": "f7885193b36eaaeedffd0d978d51e734e9d10bda7d1236018e215c9700eb7523"
+    },
+    {
+      "path": "design-comparison-index.json",
+      "bytes": 65440,
+      "sha256": "e5b3e2060faf5135ebce007ab785b461ac6e28ff83336f49921ee61b8845a940"
+    },
+    {
+      "path": "environment.json",
+      "bytes": 863,
+      "sha256": "e62c85d8e9a2c15879fb02af18318799b7f8150da73bdb60f42ed5d913dc0061"
+    },
+    {
+      "path": "results.json",
+      "bytes": 413,
+      "sha256": "fbe5555ae0ecbd98630719b63e10778462112cf7919a842fc0ee55f13c4427e8"
+    },
+    {
+      "path": "review.md",
+      "bytes": 1735,
+      "sha256": "584c26ab32bd7b166fa9bb975b3e509f8a4c4c1fb8a56bc27ed8268ec17b80b5"
+    }
+  ]
+}
