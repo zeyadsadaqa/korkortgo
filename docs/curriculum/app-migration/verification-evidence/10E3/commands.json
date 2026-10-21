@@ -1,0 +1,14 @@
+[
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10E1/record_sign_review.py",
+      "10E3",
+      "docs/curriculum/app-migration/verification-evidence/10E3/reviewer-notes.json"
+    ],
+    "log": "audit-run.txt",
+    "log_sha256": "4b9eb22a008133bbc8b9322c5c0a3fbe809ab0e327dc1200eb64b72dcebcee4c",
+    "exit_code": 0,
+    "precondition": "Persisted source-review-packet.json or prepare_sign_review.py TASK with PIL/pdftoppm; reviewer notes reflect actual source/artwork inspection, not generated verdicts."
+  }
+]

@@ -1,0 +1,927 @@
+[
+  {
+    "code": "H10",
+    "question_ids": [
+      "sign-meaning-H10",
+      "sign-recognise-H10"
+    ],
+    "label": "Cottage accommodation",
+    "official_sv": "Stuga",
+    "caption": "Identifies an establishment with a small number of cottages. Check its actual accommodation arrangements and availability.",
+    "variant": "The single-cottage illustration contrasts with the larger cottage village indicated by H9.",
+    "neutral": "Blue square with a white inset containing a single black small house.",
+    "options": [
+      [
+        "H10",
+        "Cottage accommodation"
+      ],
+      [
+        "A38",
+        "Rail-crossing countdown"
+      ],
+      [
+        "T7",
+        "Accessible-parking permit holders"
+      ],
+      [
+        "B4",
+        "Priority road"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stuga/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/9967d8a8e5f2d2e3148892f0.html.gz",
+      "sha256": "502db1ac4010319093702955b01ce38846f04a86fd671d4c137ce740ff54ab6e",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H11",
+    "question_ids": [
+      "sign-meaning-H11",
+      "sign-recognise-H11"
+    ],
+    "label": "Camp site",
+    "official_sv": "Campingplats",
+    "caption": "Identifies a facility providing pitches for both tents and vehicles with living accommodation. Check the site conditions and availability.",
+    "variant": "The tent symbol does not mean tents only. Compare H12 for living-accommodation vehicles only and H28 for motor homes only.",
+    "neutral": "Blue square with a white inset containing a black triangular tent with crossed poles.",
+    "options": [
+      [
+        "H11",
+        "Camp site"
+      ],
+      [
+        "F35",
+        "Walking or cycling destination table"
+      ],
+      [
+        "A1",
+        "Dangerous bend"
+      ],
+      [
+        "G12",
+        "Passenger ferry"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/campingplats/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/e6c3871c460750485a548d30.html.gz",
+      "sha256": "d68c5c9d1c7f7c88298a01b469953a1c4e0a07804aa65f830be91eb7d150b8c0",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H12",
+    "question_ids": [
+      "sign-meaning-H12",
+      "sign-recognise-H12"
+    ],
+    "label": "Caravan site",
+    "official_sv": "Husvagnsplats",
+    "caption": "Identifies a facility providing pitches only for vehicles with living accommodation. It does not indicate tent pitches.",
+    "variant": "The caravan illustration represents that accommodation category; compare H11 and the narrower motor-home facility H28.",
+    "neutral": "Blue square with a white inset containing a black caravan viewed from the side.",
+    "options": [
+      [
+        "H12",
+        "Caravan site"
+      ],
+      [
+        "H18",
+        "Chair lift"
+      ],
+      [
+        "G8",
+        "Airport"
+      ],
+      [
+        "A30",
+        "Roundabout ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/husvagnsplats/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/6beff32ee2ae83ff948fd987.html.gz",
+      "sha256": "1d67bd1a2aad42fcc492a760d963dd27dec0b379d389269c6300e440adb47a26",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H13",
+    "question_ids": [
+      "sign-meaning-H13",
+      "sign-recognise-H13"
+    ],
+    "label": "Rest area",
+    "official_sv": "Rastplats",
+    "caption": "This identifies a rest area with a toilet accessible to people with mobility impairments.",
+    "variant": "Picnic table and tree.",
+    "neutral": "Blue square with a white inset containing a black picnic table beside a fir tree.",
+    "options": [
+      [
+        "H13",
+        "Rest area"
+      ],
+      [
+        "D11",
+        "End of designated path or lane"
+      ],
+      [
+        "M26",
+        "Cycle route marking"
+      ],
+      [
+        "H22",
+        "Sight of national interest"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/rastplats/",
+      "file": "tmp/curriculum/sign-sources/55d554e537515db93ff9.html",
+      "sha256": "df05ac9c694e528973f715c239dae52387b6bf978dcd503741f792f4a6e163d2",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H14",
+    "question_ids": [
+      "sign-meaning-H14",
+      "sign-recognise-H14"
+    ],
+    "label": "Toilet",
+    "official_sv": "Toalett",
+    "caption": "This identifies a toilet accessible to people with mobility impairments.",
+    "variant": "Toilet building with a heart on the door.",
+    "neutral": "Blue square with a white inset containing a black upright door with a white heart.",
+    "options": [
+      [
+        "H14",
+        "Toilet"
+      ],
+      [
+        "A22",
+        "Traffic signals ahead"
+      ],
+      [
+        "D3",
+        "Roundabout"
+      ],
+      [
+        "A18",
+        "Horse riders ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/toalett/",
+      "file": "tmp/curriculum/sign-sources/222cb38966e6078c5eb0.html",
+      "sha256": "9fbb5b6e1b968ddf708518b334a62fa977fdcafcf4fb69dff7fa07882319e420",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H15",
+    "question_ids": [
+      "sign-meaning-H15",
+      "sign-recognise-H15"
+    ],
+    "label": "Bathing place",
+    "official_sv": "Badplats",
+    "caption": "Identifies a bathing beach or another bathing facility. Use it to locate the facility and check the conditions there.",
+    "variant": "The swimmer symbol does not itself guarantee safe water or supervised bathing.",
+    "neutral": "Blue square with a white inset containing a black head and shoulders above three wavy lines.",
+    "options": [
+      [
+        "H15",
+        "Bathing place"
+      ],
+      [
+        "F6",
+        "Destination table"
+      ],
+      [
+        "F20",
+        "Joining road with its own lane"
+      ],
+      [
+        "B1",
+        "Give way"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/badplats/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b1186af568abfad285cfb4bc.html.gz",
+      "sha256": "18fd7572f4330b1e1c49d1b8db01eccd01b334f1bd878db3dec649b3224023e8",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H16",
+    "question_ids": [
+      "sign-meaning-H16",
+      "sign-recognise-H16"
+    ],
+    "label": "Recreational area",
+    "official_sv": "Friluftsområde",
+    "caption": "Identifies an outdoor recreational area. Use the symbol to locate the area and read local access information.",
+    "variant": "The recreation symbol does not itself permit driving on paths or camping in the area.",
+    "neutral": "Blue square with a white inset containing three black walking figures beneath a curved overhanging rock shape.",
+    "options": [
+      [
+        "H16",
+        "Recreational area"
+      ],
+      [
+        "A24",
+        "Crosswinds"
+      ],
+      [
+        "C37",
+        "No parking on even-numbered dates"
+      ],
+      [
+        "E12",
+        "End of recommended lower speed"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/friluftsomrade/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2a9adc351a7e305403869af0.html.gz",
+      "sha256": "32f678242f4faba34223002b4168309a9f87378a183403b482bc19eab71c4d95",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H17",
+    "question_ids": [
+      "sign-meaning-H17",
+      "sign-recognise-H17"
+    ],
+    "label": "Hiking trail",
+    "official_sv": "Vandringsled",
+    "caption": "Identifies a hiking trail. Follow the information for the trail and check its actual route and conditions.",
+    "variant": "The walkers symbol identifies a trail, not a mandatory pedestrian-path instruction.",
+    "neutral": "Blue square with a white inset containing two black walkers with backpacks and a pole.",
+    "options": [
+      [
+        "H17",
+        "Hiking trail"
+      ],
+      [
+        "E33",
+        "Cycle street"
+      ],
+      [
+        "E22",
+        "Bus stop"
+      ],
+      [
+        "A13",
+        "Pedestrian crossing ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/vandringsled/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/41483ebb086c94db27cca0f7.html.gz",
+      "sha256": "3d718207873c8c69cf301cd8c350ff7d52c3cd943740fb9bda710a2582a75de5",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H18",
+    "question_ids": [
+      "sign-meaning-H18",
+      "sign-recognise-H18"
+    ],
+    "label": "Chair lift",
+    "official_sv": "Stollift",
+    "caption": "Identifies a lift facility with chairs or similar seating. Use it as facility information.",
+    "variant": "The seated passenger distinguishes a chair lift from ski tow H19.",
+    "neutral": "Blue square with a white inset containing a black seated person suspended beneath an overhead cable.",
+    "options": [
+      [
+        "H18",
+        "Chair lift"
+      ],
+      [
+        "C34",
+        "Stop for the stated purpose"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "D8",
+        "Compulsory riding path"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stollift/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/3f9ce3a435be3d4927591c73.html.gz",
+      "sha256": "6f99c49188bcea1d6a79bad1d9fcb29967bca656b2de1c6f346fff3147c1b46b",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H19",
+    "question_ids": [
+      "sign-meaning-H19",
+      "sign-recognise-H19"
+    ],
+    "label": "Ski tow",
+    "official_sv": "Släplift",
+    "caption": "Identifies a lift facility where skiers are pulled along. Use it as facility information.",
+    "variant": "The standing skier being towed distinguishes H19 from seated chair lift H18.",
+    "neutral": "Blue square with a white inset containing a black skier holding a diagonal overhead tow line.",
+    "options": [
+      [
+        "H19",
+        "Ski tow"
+      ],
+      [
+        "M20",
+        "Change-lane arrow"
+      ],
+      [
+        "F19",
+        "Joining road with acceleration lane"
+      ],
+      [
+        "M9",
+        "Hatched area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/slaplift/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a73a7fd0f0d1750af72d34e9.html.gz",
+      "sha256": "de42f7da99c6c568c09ccbf9f644d2db8003d8df5ae042a9aa16f07d871869a3",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H20",
+    "question_ids": [
+      "sign-meaning-H20",
+      "sign-recognise-H20"
+    ],
+    "label": "Golf course",
+    "official_sv": "Golfbana",
+    "caption": "Identifies a golf course. Use it to locate the facility; admission and access conditions are separate.",
+    "variant": "The golfer symbol identifies the service destination and imposes no traffic duty by itself.",
+    "neutral": "Blue square with a white inset containing a black person raising a golf club behind their head.",
+    "options": [
+      [
+        "H20",
+        "Golf course"
+      ],
+      [
+        "M21",
+        "No stopping or parking edge marking"
+      ],
+      [
+        "M10",
+        "Broken line beside a continuous line"
+      ],
+      [
+        "A8",
+        "Uneven road"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/golfbana/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7911a1d24d8572a1fbe38643.html.gz",
+      "sha256": "d2247af246c26bb0efba74986faefc705150002885744d2dbe6ecb1c3db0d6d2",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H21",
+    "question_ids": [
+      "sign-meaning-H21",
+      "sign-recognise-H21"
+    ],
+    "label": "Fishing licences for sale",
+    "official_sv": "Försäljningsställe för fiskekort",
+    "caption": "Identifies a place selling fishing permits. Check the permit needed for the actual fishing location.",
+    "variant": "The fish symbol indicates permit sales; it is not itself permission to fish or a fish-shop sign.",
+    "neutral": "Blue square with a white inset containing a black fish beside a fishing line and hook.",
+    "options": [
+      [
+        "H21",
+        "Fishing licences for sale"
+      ],
+      [
+        "H12",
+        "Caravan site"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "B2",
+        "Stop"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forsaljningsstalle-for-fiskekort/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/a1ae04732592ba4e19a4b28c.html.gz",
+      "sha256": "972ec70b8e0dcf36aeb248f1534a637eabbe74c4fa801e8c8ed3fcb80aad0d93",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H22",
+    "question_ids": [
+      "sign-meaning-H22",
+      "sign-recognise-H22"
+    ],
+    "label": "Sight of national interest",
+    "official_sv": "Sevärdhet",
+    "caption": "Identifies a sight of national interest. Information next to the sign states the nature of the sight.",
+    "variant": "The symbol identifies a sight of national interest; it does not itself establish a legal heritage designation.",
+    "neutral": "Blue square with a white inset containing a black four-loop knot symbol.",
+    "options": [
+      [
+        "H22",
+        "Sight of national interest"
+      ],
+      [
+        "E5",
+        "Built-up area"
+      ],
+      [
+        "T19",
+        "Resident-permit conditions"
+      ],
+      [
+        "A33",
+        "Off-road scooter traffic"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/sevardhet/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b8b785943425b2cf7b03db0e.html.gz",
+      "sha256": "a9080d47e1848c3ac2d2d89cef729c444a6c253e15858a491b3b6e211288a5f1",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H23",
+    "question_ids": [
+      "sign-meaning-H23",
+      "sign-recognise-H23"
+    ],
+    "label": "Advance information about nearby services",
+    "official_sv": "Förberedande upplysning om vägnära service",
+    "caption": "Gives advance information about roadside service facilities, sometimes with their names. The stated distance is to the relevant exit or junction; fuel, restaurant and hotel symbols may include company names or emblems.",
+    "variant": "The question example says 1 km. Read the individual service symbols rather than assuming every advertised service is immediately beside the sign.",
+    "neutral": "Blue rectangle with a white grid containing pump, crossed cutlery and bed pictograms in the left column, blank cells to the right, and 1 km below.",
+    "options": [
+      [
+        "H23",
+        "Advance information about nearby services"
+      ],
+      [
+        "E5",
+        "Built-up area"
+      ],
+      [
+        "T24",
+        "Parking for externally chargeable vehicles"
+      ],
+      [
+        "A23",
+        "Low-flying aircraft"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/forberedande-upplysning-om-vagnara-service/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/b0d21a1f977ea77dfc9261c0.html.gz",
+      "sha256": "0ad40112756589958d30d6de30224612788a7193f90cdb4409b83f08cb6ec153",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H24",
+    "question_ids": [
+      "sign-meaning-H24",
+      "sign-recognise-H24"
+    ],
+    "label": "Bed and breakfast",
+    "official_sv": "Rum och frukost",
+    "caption": "Identifies an establishment providing overnight rooms and breakfast. Check its actual accommodation arrangements.",
+    "variant": "B&B with the bed illustration identifies this service, not guaranteed room availability.",
+    "neutral": "Blue square with a white inset containing black B&B above a bed symbol.",
+    "options": [
+      [
+        "H24",
+        "Bed and breakfast"
+      ],
+      [
+        "H14",
+        "Toilet"
+      ],
+      [
+        "D10",
+        "Lane or carriageway for scheduled public transport and other permitted users"
+      ],
+      [
+        "B1",
+        "Give way"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/rum-och-frukost/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/7840f67d8e9003d343153ee3.html.gz",
+      "sha256": "fb97dfe27ce1cf9fca0d61230cf33339dff219445299a9f19cd25ecf8b1d63d7",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H25",
+    "question_ids": [
+      "sign-meaning-H25",
+      "sign-recognise-H25"
+    ],
+    "label": "Farm shop",
+    "official_sv": "Gårdsbutik",
+    "caption": "Identifies an establishment selling locally made or locally grown products. Use it to locate a farm shop rather than a general shopping area.",
+    "variant": "The question artwork says Gårdsbutik. It identifies a farm shop for local products rather than a general shop.",
+    "neutral": "Blue square with a white inset containing a black hanging sign reading Gårds-butik.",
+    "options": [
+      [
+        "H25",
+        "Farm shop"
+      ],
+      [
+        "C30",
+        "End of heavy-lorry overtaking prohibition"
+      ],
+      [
+        "E3",
+        "Expressway (motortrafikled)"
+      ],
+      [
+        "F2",
+        "Alternative route at a prohibited turn"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/gardsbutik/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/c75ea38ea7c03f859798ca42.html.gz",
+      "sha256": "2a471c8f10757cfafdac746100069a2401358881ffc64cdea2ad3acb9528861a",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H26",
+    "question_ids": [
+      "sign-meaning-H26",
+      "sign-recognise-H26"
+    ],
+    "label": "Handicrafts",
+    "official_sv": "Hantverk",
+    "caption": "Identifies an establishment making and selling handicraft products. Use it to locate that activity.",
+    "variant": "The craftsperson illustration concerns production and sales, not a general industrial-area sign.",
+    "neutral": "Blue square with a white inset containing a black standing person beside a table with a cup.",
+    "options": [
+      [
+        "H26",
+        "Handicrafts"
+      ],
+      [
+        "C42",
+        "Turning area"
+      ],
+      [
+        "E32",
+        "End of environmental zone"
+      ],
+      [
+        "H13",
+        "Rest area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/hantverk/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/83b43a88f645079e441c21ff.html.gz",
+      "sha256": "fa130f31252567ce5c8aa28e61b2da5d2d32e62a93a62418b41005eef0d00c97",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H27",
+    "question_ids": [
+      "sign-meaning-H27",
+      "sign-recognise-H27"
+    ],
+    "label": "Vehicle charging station",
+    "official_sv": "Laddstation",
+    "caption": "This identifies a facility for externally charging an electrically powered vehicle.",
+    "variant": "Car connected to a charging unit.",
+    "neutral": "Blue square with a white inset containing a black car connected by a cable to a black post with a red lightning bolt.",
+    "options": [
+      [
+        "H27",
+        "Vehicle charging station"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "M24",
+        "Parking-space boundary"
+      ],
+      [
+        "C2",
+        "No vehicles"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/laddstation/",
+      "file": "tmp/curriculum/sign-sources/ca9a9bc2375074299d88.html",
+      "sha256": "4664e16bc9daa3dfef80967625299f1e3214636a757a98812aa9869c6ae31d85",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "H28",
+    "question_ids": [
+      "sign-meaning-H28",
+      "sign-recognise-H28"
+    ],
+    "label": "Site only for motor homes",
+    "official_sv": "Anläggning som enbart tillhandahåller platser för bilar med bostadsutrymme",
+    "caption": "Identifies a facility providing pitches only for cars with living accommodation, such as motor homes. Do not assume that tents or towed caravans are included.",
+    "variant": "Compare H11 for tents and living-accommodation vehicles, and H12 for living-accommodation vehicles only.",
+    "neutral": "Blue square with a white inset containing a black motor caravan viewed from the side.",
+    "options": [
+      [
+        "H28",
+        "Site only for motor homes"
+      ],
+      [
+        "T4",
+        "Available width"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "T12",
+        "Direction to the signed feature"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/anlaggning-tillhandahaller-plats-for-bil-med-bostadsutrymme/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/144c435e57fc5965bab936d5.html.gz",
+      "sha256": "32b82ddbcd2a336d63ec6954d4a9950c5e463c6afc0401c65a25010c519945ed",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "I1",
+    "question_ids": [
+      "sign-meaning-I1",
+      "sign-recognise-I1"
+    ],
+    "label": "Tourist route",
+    "official_sv": "Turistväg",
+    "caption": "The road or route has tourist interest. Ordinary traffic restrictions still apply.",
+    "variant": "White flower on brown.",
+    "neutral": "Brown square with a white five-petalled flower and brown circular centre.",
+    "options": [
+      [
+        "I1",
+        "Tourist route"
+      ],
+      [
+        "A38",
+        "Rail-crossing countdown"
+      ],
+      [
+        "M19",
+        "Lane arrows"
+      ],
+      [
+        "A22",
+        "Traffic signals ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-turistiskt-intressanta-mal-med-mera/turistvag/",
+      "file": "tmp/curriculum/sign-sources/04187c5dbda0df02e519.html",
+      "sha256": "a65b77842914342892e9e1cf78c235c407e1fd10908f7acd73ada311daf3b251",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "I2",
+    "question_ids": [
+      "sign-meaning-I2",
+      "sign-recognise-I2"
+    ],
+    "label": "Tourist area",
+    "official_sv": "Turistområde",
+    "caption": "The symbol reflects the theme of the tourist area.",
+    "variant": "Glassworks-themed tourist-area sign, Glasriket.",
+    "neutral": "Brown rectangle with a white inset containing a brown person holding a long pipe with an oval object at its end; Glasriket below.",
+    "options": [
+      [
+        "I2",
+        "Tourist area"
+      ],
+      [
+        "G7",
+        "Bus station"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "M8",
+        "Continuous line"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-turistiskt-intressanta-mal-med-mera/turistomrade/",
+      "file": "tmp/curriculum/sign-sources/3f0ac587e7d812ffce92.html",
+      "sha256": "a165e9b1bd4c7ff74e6bbe4abba21f3350d1e20ea23f41b60a0c750fc1cc5318",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "I3",
+    "question_ids": [
+      "sign-meaning-I3",
+      "sign-recognise-I3"
+    ],
+    "label": "Landmark",
+    "official_sv": "Landmärke",
+    "caption": "The silhouette identifies a landmark of tourist interest visible from the road.",
+    "variant": "Landmark silhouette and the name Heliga Birgitta.",
+    "neutral": "Brown rectangle with a white inset containing a brown standing robed figure; Heliga Birgitta below.",
+    "options": [
+      [
+        "I3",
+        "Landmark"
+      ],
+      [
+        "C38",
+        "Date-dependent parking prohibition"
+      ],
+      [
+        "M16",
+        "Cycle passage or cycle crossing marking"
+      ],
+      [
+        "A7",
+        "Quayside or road ending at water"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-turistiskt-intressanta-mal-med-mera/landmarke/",
+      "file": "tmp/curriculum/sign-sources/76b2f9f7921a1b129dc8.html",
+      "sha256": "882343cfc77635728d2b1441b1279cbe8542c3175af810aeabbc5fefa5465abf",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "I4",
+    "question_ids": [
+      "sign-meaning-I4",
+      "sign-recognise-I4"
+    ],
+    "label": "World Heritage site",
+    "official_sv": "Världsarv",
+    "caption": "This identifies a site designated as World Heritage by UNESCO.",
+    "variant": "World Heritage emblem on brown.",
+    "neutral": "Brown square with a white circle surrounding an angular white loop on an upright stem.",
+    "options": [
+      [
+        "I4",
+        "World Heritage site"
+      ],
+      [
+        "M5",
+        "Cycle-lane boundary"
+      ],
+      [
+        "A16",
+        "Cyclists and moped riders ahead"
+      ],
+      [
+        "T12",
+        "Direction to the signed feature"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-turistiskt-intressanta-mal-med-mera/varldsarv/",
+      "file": "tmp/curriculum/sign-sources/53c79ef838b84f04463e.html",
+      "sha256": "fec2e23c2d269b6cf873513f29fcbce6074673acb645cd92f9edcc126a72dcd3",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "J2",
+    "question_ids": [
+      "sign-meaning-J2",
+      "sign-recognise-J2"
+    ],
+    "label": "Traffic information",
+    "official_sv": "Upplysningsmärke",
+    "caption": "Read the actual message: it supplies important information for safety or passage that is not given another way.",
+    "variant": "Message: Vägsaltning upphör — road salting ends.",
+    "neutral": "Wide yellow black-bordered rectangle with the black text VÄGSALTNING UPPHÖR.",
+    "options": [
+      [
+        "J2",
+        "Traffic information"
+      ],
+      [
+        "E13",
+        "Recommended maximum speed"
+      ],
+      [
+        "M29",
+        "Maximum-speed marking"
+      ],
+      [
+        "C30",
+        "End of heavy-lorry overtaking prohibition"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/upplysningsmarke/",
+      "file": "tmp/curriculum/sign-sources/c1049845fc89e98b90f2.html",
+      "sha256": "bf83ec246329b0a73b3061842bb9405d243cebe8e24df43d57576cb2d3f6d364",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "J3",
+    "question_ids": [
+      "sign-meaning-J3",
+      "sign-recognise-J3"
+    ],
+    "label": "Dangerous overhead electrical line",
+    "official_sv": "Livsfarlig ledning",
+    "caption": "Warns of an electrical line over the road or route that may present danger. Check the actual line and clearance conditions rather than treating the message as ordinary route guidance.",
+    "variant": "The question artwork says Livsfarlig ledning with a lightning symbol. The official narrower format has the same warning; this sign does not state a numerical safe clearance.",
+    "neutral": "Wide red-bordered yellow rectangle with a black lightning bolt and the black text Livsfarlig ledning.",
+    "options": [
+      [
+        "J3",
+        "Dangerous overhead electrical line"
+      ],
+      [
+        "H15",
+        "Bathing place"
+      ],
+      [
+        "H21",
+        "Fishing licences for sale"
+      ],
+      [
+        "C31",
+        "Maximum speed"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/upplysningsmarken/livsfarlig-ledning/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/42f40078e1d42b9557d530d0.html.gz",
+      "sha256": "8237bf9269c17b25e39d89010bab8532a3d653f12378830816af567c09f34e2b",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  }
+]

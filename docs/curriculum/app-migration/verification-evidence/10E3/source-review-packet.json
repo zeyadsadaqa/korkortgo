@@ -1,0 +1,927 @@
+[
+  {
+    "code": "A26",
+    "question_ids": [
+      "sign-meaning-A26",
+      "sign-recognise-A26"
+    ],
+    "label": "Tunnel ahead",
+    "official_sv": "Varning för tunnel",
+    "caption": "Prepare for a tunnel. Read any further tunnel information and traffic instructions.",
+    "variant": "Tunnel entrance inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black arched opening and lines radiating around its upper half.",
+    "options": [
+      [
+        "A26",
+        "Tunnel ahead"
+      ],
+      [
+        "F7",
+        "Exit direction sign"
+      ],
+      [
+        "M23",
+        "Reinforcement of a stopping or parking restriction"
+      ],
+      [
+        "C35",
+        "No parking"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-tunnel/",
+      "file": "tmp/curriculum/sign-sources/94621e41b0fa27c50f5b.html",
+      "sha256": "b48d9db4f85f2443d9ee77e2a28bbb765a87579d069c20b871c034a89ccfa315",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A27",
+    "question_ids": [
+      "sign-meaning-A27",
+      "sign-recognise-A27"
+    ],
+    "label": "Weak or high road edge",
+    "official_sv": "Varning för svag vägkant eller hög körbanekant",
+    "caption": "The edge may be weak or raised relative to the adjacent surface. Keep an appropriate margin.",
+    "variant": "Car at a crumbling road edge inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black car tilted right beside a broken edge and falling dots.",
+    "options": [
+      [
+        "A27",
+        "Weak or high road edge"
+      ],
+      [
+        "A19",
+        "Animals ahead"
+      ],
+      [
+        "A29",
+        "Junction with yielding side roads"
+      ],
+      [
+        "E9",
+        "Walking-speed area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-svag-vagkant-eller-hog-korbanekant/",
+      "file": "tmp/curriculum/sign-sources/da9a42910cbed83750a6.html",
+      "sha256": "b0238128ae4ee916307099893cc6199c7f56f68ff671aa43ec68b0b302d2baf1",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A28",
+    "question_ids": [
+      "sign-meaning-A28",
+      "sign-recognise-A28"
+    ],
+    "label": "Junction with right-hand priority",
+    "official_sv": "Varning för vägkorsning",
+    "caption": "The junction ahead is governed by the right-hand priority rule. Do not assume the broader road has priority.",
+    "variant": "Black cross inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a thick black diagonal cross.",
+    "options": [
+      [
+        "A28",
+        "Junction with right-hand priority"
+      ],
+      [
+        "B7",
+        "Oncoming traffic must give way"
+      ],
+      [
+        "E21",
+        "Zone ends"
+      ],
+      [
+        "F12",
+        "Watercourse"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-vagkorsning/",
+      "file": "tmp/curriculum/sign-sources/84469dcf75d981cacade.html",
+      "sha256": "2b4b19fd6564e1fc8ecd387564841b318327018e89748fe7e7c36969d50059b2",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A29",
+    "question_ids": [
+      "sign-meaning-A29",
+      "sign-recognise-A29"
+    ],
+    "label": "Junction with yielding side roads",
+    "official_sv": "Varning för vägkorsning där trafikanter på anslutande väg har väjningsplikt eller stopplikt",
+    "caption": "Traffic joining from the connecting roads must yield or stop. Match the diagram to the actual junction; it does not remove your duty of care.",
+    "variant": "Thick straight road with a thin road joining from each side at right angles.",
+    "neutral": "Red-bordered yellow triangle with a thick black upward-pointing strip crossed by a thinner horizontal strip.",
+    "options": [
+      [
+        "A29",
+        "Junction with yielding side roads"
+      ],
+      [
+        "I4",
+        "World Heritage site"
+      ],
+      [
+        "A11",
+        "Loose chippings"
+      ],
+      [
+        "C42",
+        "Turning area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-vagkorsning-dar-trafikanter-pa-anslutande-vag-har-vajningsplikt-eller-stopplikt/",
+      "file": "tmp/curriculum/sign-sources/6895cc22ad5c5db9fc2f.html",
+      "sha256": "f7989b8a11541fdb942c5305c64cad918f86c897a2d22c16a3560ce0a40495cc",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A30",
+    "question_ids": [
+      "sign-meaning-A30",
+      "sign-recognise-A30"
+    ],
+    "label": "Roundabout ahead",
+    "official_sv": "Varning för cirkulationsplats",
+    "caption": "Prepare for a roundabout and identify the entry instructions before reaching it.",
+    "variant": "Circulating arrows inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with three black curved arrows arranged in a circle.",
+    "options": [
+      [
+        "A30",
+        "Roundabout ahead"
+      ],
+      [
+        "A10",
+        "Slippery road"
+      ],
+      [
+        "E25",
+        "Road charge or tax"
+      ],
+      [
+        "A39",
+        "Railway crossbuck"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-cirkulationsplats/",
+      "file": "tmp/curriculum/sign-sources/de1443487e91fe7147c2.html",
+      "sha256": "4155b32fb21b16260e96bc90b7b2117be486b33d6c066248a26053dd31ae2f9c",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A31",
+    "question_ids": [
+      "sign-meaning-A31",
+      "sign-recognise-A31"
+    ],
+    "label": "Slow vehicles ahead",
+    "official_sv": "Varning för långsamtgående fordon",
+    "caption": "Slow-moving vehicles often cross or enter the road here.",
+    "variant": "Tractor with trailer inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black tractor and trailer facing left.",
+    "options": [
+      [
+        "A31",
+        "Slow vehicles ahead"
+      ],
+      [
+        "A10",
+        "Slippery road"
+      ],
+      [
+        "F31",
+        "Suitable route or bypass for a road-user class"
+      ],
+      [
+        "C6",
+        "Restriction on motor vehicles towing trailers"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-langsamtgaende-fordon/",
+      "file": "tmp/curriculum/sign-sources/22759f086bb92126e36a.html",
+      "sha256": "06cbcec4c5698f3a5eea1c010946e1ae08cd3db9ca446afbcbd18fd2d8e422e3",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A32",
+    "question_ids": [
+      "sign-meaning-A32",
+      "sign-recognise-A32"
+    ],
+    "label": "Vehicles drawn by draught animals",
+    "official_sv": "Varning för fordon med förspänt dragdjur",
+    "caption": "Vehicles drawn by draught animals often cross or remain on this road section. Look ahead for slow-moving animal-drawn traffic and allow space.",
+    "variant": "The illustration shows a horse and cart. Official variants show other animal-drawn vehicles; the meaning is not limited to horses.",
+    "neutral": "Red-bordered yellow triangle with a black horse pulling a cart, facing left.",
+    "options": [
+      [
+        "A32",
+        "Vehicles drawn by draught animals"
+      ],
+      [
+        "H11",
+        "Camp site"
+      ],
+      [
+        "E30",
+        "Parking with stated conditions"
+      ],
+      [
+        "F24",
+        "Temporary diversion direction"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-fordon-med-forspant-dragdjur/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/faaa1abef9eb86cfbc70bfc4.html.gz",
+      "sha256": "4817aaea248a44cb75bf293eb704af8af58dea5d9b08b5880cc3594a093ce72c",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A33",
+    "question_ids": [
+      "sign-meaning-A33",
+      "sign-recognise-A33"
+    ],
+    "label": "Off-road scooter traffic",
+    "official_sv": "Varning för terrängskotertrafik",
+    "caption": "Off-road scooters often cross or enter the road here. Watch the roadside and prepare for a vehicle entering your path.",
+    "variant": "The snowmobile illustration identifies off-road scooter traffic, not ordinary road mopeds.",
+    "neutral": "Red-bordered yellow triangle with a black rider on a tracked vehicle with curved front skis.",
+    "options": [
+      [
+        "A33",
+        "Off-road scooter traffic"
+      ],
+      [
+        "A20",
+        "Roadworks"
+      ],
+      [
+        "F37",
+        "Walking or cycling distance board"
+      ],
+      [
+        "E20",
+        "Zone begins"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-terrangskotertrafik/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/08e4b4f63c0f2cc9b4fb6c54.html.gz",
+      "sha256": "46a6a94b32dc708b45923fd3826adb2b896384dce3af0c28a98df7e87b7b2c24",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A34",
+    "question_ids": [
+      "sign-meaning-A34",
+      "sign-recognise-A34"
+    ],
+    "label": "Queues ahead",
+    "official_sv": "Varning för kö",
+    "caption": "A queue may form on this stretch. Look far enough ahead to respond to slowing or stationary traffic.",
+    "variant": "Queue of cars inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with two black cars, one partly behind the other.",
+    "options": [
+      [
+        "A34",
+        "Queues ahead"
+      ],
+      [
+        "E23",
+        "Taxi standing-place boundary"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "F20",
+        "Joining road with its own lane"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-ko/",
+      "file": "tmp/curriculum/sign-sources/60d0a6c720d8f51eaff2.html",
+      "sha256": "d80f9a1df30e043e36a7e55852fa60e0b3acf4982c953b2a04c52bfa1727f202",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A35",
+    "question_ids": [
+      "sign-meaning-A35",
+      "sign-recognise-A35"
+    ],
+    "label": "Rail crossing with barriers",
+    "official_sv": "Varning för järnvägskorsning med bommar",
+    "caption": "A railway or tramway crossing fitted with barriers lies ahead. Follow its signals and barrier indications.",
+    "variant": "Barrier pictogram inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black fence made of vertical bars and two horizontal rails.",
+    "options": [
+      [
+        "A35",
+        "Rail crossing with barriers"
+      ],
+      [
+        "F6",
+        "Destination table"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "A15",
+        "Children ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-jarnvagskorsning-med-bommar/",
+      "file": "tmp/curriculum/sign-sources/d0635a326e7aa77c0c36.html",
+      "sha256": "0fa506043c98316eab12af030bc721211c10cee1920878eea0b2e8a8ca3df667",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A36",
+    "question_ids": [
+      "sign-meaning-A36",
+      "sign-recognise-A36"
+    ],
+    "label": "Rail crossing without barriers",
+    "official_sv": "Varning för järnvägskorsning utan bommar",
+    "caption": "Prepare for a railway crossing without barriers. The lack of barriers does not mean a train cannot approach.",
+    "variant": "Locomotive inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black steam locomotive and smoke plume.",
+    "options": [
+      [
+        "A36",
+        "Rail crossing without barriers"
+      ],
+      [
+        "A19",
+        "Animals ahead"
+      ],
+      [
+        "C18",
+        "Maximum vehicle or combination length"
+      ],
+      [
+        "H5",
+        "Light refreshments"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-jarnvagskorsning-utan-bommar/",
+      "file": "tmp/curriculum/sign-sources/9e2512fd1856e5070387.html",
+      "sha256": "ed8977a56995d96cda226ab541ce7ef669a086fa4707caa555430211e0b9ff7b",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A37",
+    "question_ids": [
+      "sign-meaning-A37",
+      "sign-recognise-A37"
+    ],
+    "label": "Tram crossing without barriers",
+    "official_sv": "Varning för korsning med spårväg utan bommar",
+    "caption": "A tramway crossing without barriers lies ahead.",
+    "variant": "Tram inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black tram, overhead diamond and wheels.",
+    "options": [
+      [
+        "A37",
+        "Tram crossing without barriers"
+      ],
+      [
+        "D3",
+        "Roundabout"
+      ],
+      [
+        "F7",
+        "Exit direction sign"
+      ],
+      [
+        "E10",
+        "End of walking-speed area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-korsning-med-sparvag-utan-bommar/",
+      "file": "tmp/curriculum/sign-sources/dc30abd5657dba2fd977.html",
+      "sha256": "c5960ca3b14080b0d443f7d2d9df5d7a85cc10250f1b504039562383773a03e4",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A38",
+    "question_ids": [
+      "sign-meaning-A38",
+      "sign-recognise-A38"
+    ],
+    "label": "Rail-crossing countdown",
+    "official_sv": "Avstånd till plankorsning",
+    "caption": "The three markers divide the approach into thirds. They do not represent a universal fixed distance in metres.",
+    "variant": "Three red diagonal bars on a yellow board.",
+    "neutral": "Tall yellow rectangle with three short red diagonal stripes.",
+    "options": [
+      [
+        "A38",
+        "Rail-crossing countdown"
+      ],
+      [
+        "T21",
+        "How to position the vehicle"
+      ],
+      [
+        "A4",
+        "Steep ascent"
+      ],
+      [
+        "T9",
+        "People with impaired vision"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/avstand-till-plankorsning/",
+      "file": "tmp/curriculum/sign-sources/4e64d919ed2143e07966.html",
+      "sha256": "93db50199e209e759859153cf60d06eb3cec810290021bebe38140695a3ac96a",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A39",
+    "question_ids": [
+      "sign-meaning-A39",
+      "sign-recognise-A39"
+    ],
+    "label": "Railway crossbuck",
+    "official_sv": "Kryssmärke",
+    "caption": "The crossing is immediately ahead. The crossbuck arrangement distinguishes one track from multiple tracks.",
+    "variant": "A single horizontal crossbuck, for one track.",
+    "neutral": "Yellow-and-red diagonal cross with a grey double-rail symbol at its centre.",
+    "options": [
+      [
+        "A39",
+        "Railway crossbuck"
+      ],
+      [
+        "E14",
+        "End of recommended maximum speed"
+      ],
+      [
+        "E7",
+        "Pedestrian street"
+      ],
+      [
+        "H10",
+        "Cottage accommodation"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/kryssmarke/",
+      "file": "tmp/curriculum/sign-sources/5b5467bdf599db910732.html",
+      "sha256": "8c29214b8ce856d36c0e47134139f7b5df0730a8444b38f6e3b0a1719a5b3bf2",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A40",
+    "question_ids": [
+      "sign-meaning-A40",
+      "sign-recognise-A40"
+    ],
+    "label": "Other danger",
+    "official_sv": "Varning för annan fara",
+    "caption": "A hazard not covered by another warning sign is ahead. Read the supplementary description of the danger.",
+    "variant": "Exclamation mark inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a thick upright black bar with rounded ends.",
+    "options": [
+      [
+        "A40",
+        "Other danger"
+      ],
+      [
+        "E21",
+        "Zone ends"
+      ],
+      [
+        "F32",
+        "Recommended dangerous-goods route"
+      ],
+      [
+        "F19",
+        "Joining road with acceleration lane"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-annan-fara/",
+      "file": "tmp/curriculum/sign-sources/559afa79eb1233a0c2cc.html",
+      "sha256": "e55b4ee8753334b254c325c80e63c796dbdc1995bf37eb02896059bf3eaf6138",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "A41",
+    "question_ids": [
+      "sign-meaning-A41",
+      "sign-recognise-A41"
+    ],
+    "label": "Accident ahead",
+    "official_sv": "Varning för olycka",
+    "caption": "Prepare for an accident-related hazard and respond to the traffic conditions and further instructions.",
+    "variant": "Overturned car inside a warning triangle.",
+    "neutral": "Red-bordered yellow triangle with a black car lying on its side.",
+    "options": [
+      [
+        "A41",
+        "Accident ahead"
+      ],
+      [
+        "F25",
+        "Lane temporarily ends"
+      ],
+      [
+        "C22",
+        "Road bearing-capacity class"
+      ],
+      [
+        "H27",
+        "Vehicle charging station"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/varningsmarken/varning-for-olycka/",
+      "file": "tmp/curriculum/sign-sources/6525f717cbd688bff668.html",
+      "sha256": "a980f6cee2039e43e55800f95114dda15c262fd4c4dec98f89fdd395f2b74ff5",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B1",
+    "question_ids": [
+      "sign-meaning-B1",
+      "sign-recognise-B1"
+    ],
+    "label": "Give way",
+    "official_sv": "Väjningsplikt",
+    "caption": "Yield to vehicles on the crossing road or route. With a distance or stop-ahead panel, this can instead be advance information.",
+    "variant": "Inverted triangular give-way sign.",
+    "neutral": "Red-bordered yellow triangle pointing downward.",
+    "options": [
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "H7",
+        "Hotel"
+      ],
+      [
+        "M12",
+        "Centre line beside a warning line"
+      ],
+      [
+        "M9",
+        "Hatched area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/vajningsplikt/",
+      "file": "tmp/curriculum/sign-sources/d1d38cce8664fe04d787.html",
+      "sha256": "212134681ee64fa15e91c991f48f9a43720b4a443d619bdeaaf249a8ab9de91b",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B2",
+    "question_ids": [
+      "sign-meaning-B2",
+      "sign-recognise-B2"
+    ],
+    "label": "Stop",
+    "official_sv": "Stopplikt",
+    "caption": "Make a complete stop before entering the crossing road, route or track area. Use the stop line; without one, apply the prescribed stopping position.",
+    "variant": "Red octagon bearing STOP.",
+    "neutral": "Red octagon with a thin white border and the white word STOP.",
+    "options": [
+      [
+        "B2",
+        "Stop"
+      ],
+      [
+        "F15",
+        "Permanent diversion route"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "F27",
+        "Interchange number"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/stopplikt/",
+      "file": "tmp/curriculum/sign-sources/e2fb3e8a8487272186f4.html",
+      "sha256": "ff254e6e0c202d336d3e8284bd31d9a0293702441db04657523d7ec7b8f4f39a",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B3",
+    "question_ids": [
+      "sign-meaning-B3",
+      "sign-recognise-B3"
+    ],
+    "label": "Pedestrian crossing",
+    "official_sv": "Övergångsställe",
+    "caption": "This identifies a pedestrian crossing. At an uncontrolled crossing, drivers yield to people who have entered or are about to enter.",
+    "variant": "Pedestrian on crossing stripes within a white triangle on blue.",
+    "neutral": "Blue square with a white triangle containing a black walking figure over crossing stripes.",
+    "options": [
+      [
+        "B3",
+        "Pedestrian crossing"
+      ],
+      [
+        "F5",
+        "Direction sign"
+      ],
+      [
+        "M18",
+        "Give way or stop ahead marking"
+      ],
+      [
+        "B1",
+        "Give way"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/overgangsstalle/",
+      "file": "tmp/curriculum/sign-sources/03df3ee4f349577475a8.html",
+      "sha256": "4aa64a89cf853f9c97d376c082e1c65e95453092447f26f55f0e22f351235dca",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B4",
+    "question_ids": [
+      "sign-meaning-B4",
+      "sign-recognise-B4"
+    ],
+    "label": "Priority road",
+    "official_sv": "Huvudled",
+    "caption": "A priority road begins or continues. Still check the actual junction, controls and other road users.",
+    "variant": "Yellow diamond inside a white border.",
+    "neutral": "Yellow diamond with a white rim and black outer outline.",
+    "options": [
+      [
+        "B4",
+        "Priority road"
+      ],
+      [
+        "E2",
+        "End of motorway"
+      ],
+      [
+        "M17a",
+        "Bicycle box"
+      ],
+      [
+        "A33",
+        "Off-road scooter traffic"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/huvudled/",
+      "file": "tmp/curriculum/sign-sources/b56155e1f6c557da5d28.html",
+      "sha256": "c6450a6dbba89827ea140648cc6601f02d5394eaad8a43a15829d8042308e675",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B5",
+    "question_ids": [
+      "sign-meaning-B5",
+      "sign-recognise-B5"
+    ],
+    "label": "End of priority road",
+    "official_sv": "Huvudled upphör",
+    "caption": "The priority-road designation ends. Assess the rules at the next junction afresh.",
+    "variant": "Priority-road diamond crossed by a black diagonal band.",
+    "neutral": "Yellow diamond with a white rim and black outline, crossed by a thick black diagonal band.",
+    "options": [
+      [
+        "B5",
+        "End of priority road"
+      ],
+      [
+        "H8",
+        "Hostel"
+      ],
+      [
+        "E25",
+        "Road charge or tax"
+      ],
+      [
+        "C19",
+        "Minimum following distance"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/huvudled-upphor/",
+      "file": "tmp/curriculum/sign-sources/56bf7121b2b135261762.html",
+      "sha256": "f34aa0a969e97dff262e0ce5ff75efe090b4973d6982e877f58c1aec0f64904a",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B6",
+    "question_ids": [
+      "sign-meaning-B6",
+      "sign-recognise-B6"
+    ],
+    "label": "Give way to oncoming traffic",
+    "official_sv": "Väjningsplikt mot mötande trafik",
+    "caption": "Yield to oncoming vehicles at the restricted section.",
+    "variant": "Upward red arrow beside a downward black arrow.",
+    "neutral": "Red-bordered yellow circle with a black downward arrow on the left and red upward arrow on the right.",
+    "options": [
+      [
+        "B6",
+        "Give way to oncoming traffic"
+      ],
+      [
+        "H16",
+        "Recreational area"
+      ],
+      [
+        "C16",
+        "Maximum vehicle width"
+      ],
+      [
+        "C31",
+        "Maximum speed"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/vajningsplikt-mot-motande-trafik/",
+      "file": "tmp/curriculum/sign-sources/0e255032a4a51e5b98bb.html",
+      "sha256": "cad407ecc93bad764760076ab0890da680e11831b6f578c03cc4ea843dd36c9a",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B7",
+    "question_ids": [
+      "sign-meaning-B7",
+      "sign-recognise-B7"
+    ],
+    "label": "Oncoming traffic must give way",
+    "official_sv": "Mötande trafik har väjningsplikt",
+    "caption": "Oncoming vehicles have the yielding duty. Do not force passage when it would be unsafe.",
+    "variant": "Upward white arrow beside a downward red arrow on blue.",
+    "neutral": "Blue square with a red downward arrow on the left and white upward arrow on the right.",
+    "options": [
+      [
+        "B7",
+        "Oncoming traffic must give way"
+      ],
+      [
+        "M3",
+        "Warning line"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "H13",
+        "Rest area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/motande-trafik-har-vajningsplikt/",
+      "file": "tmp/curriculum/sign-sources/a62a2bf72347467648c8.html",
+      "sha256": "18116950be11f56eda7f770eef45ed49f75d949f84a460cbbe2c5aa523074454",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "B8",
+    "question_ids": [
+      "sign-meaning-B8",
+      "sign-recognise-B8"
+    ],
+    "label": "Cycle crossing",
+    "official_sv": "Cykelöverfart",
+    "caption": "This identifies a cycle crossing. Drivers yield to cyclists and class II moped riders on or about to enter it; riders must also consider approaching vehicles.",
+    "variant": "Cyclist above a crossing in a blue square.",
+    "neutral": "Blue square with a white triangle containing a black cyclist above crossing stripes.",
+    "options": [
+      [
+        "B8",
+        "Cycle crossing"
+      ],
+      [
+        "X5",
+        "Illuminated pass-side arrow"
+      ],
+      [
+        "C1",
+        "No entry"
+      ],
+      [
+        "E6",
+        "End of built-up area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vajningspliktsmarken/cykeloverfart/",
+      "file": "tmp/curriculum/sign-sources/61afce2d894a394b5554.html",
+      "sha256": "cfd232fc72fd94dbcc19630087bca069eff7c3a539eec6077e11ac945958565b",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "C1",
+    "question_ids": [
+      "sign-meaning-C1",
+      "sign-recognise-C1"
+    ],
+    "label": "No entry",
+    "official_sv": "Förbud mot infart med fordon",
+    "caption": "Vehicles must not enter from this direction. Do not confuse this with a prohibition applying in both directions.",
+    "variant": "Red circle with a horizontal yellow bar.",
+    "neutral": "Red circle containing a horizontal yellow bar.",
+    "options": [
+      [
+        "C1",
+        "No entry"
+      ],
+      [
+        "A24",
+        "Crosswinds"
+      ],
+      [
+        "E17",
+        "No through road"
+      ],
+      [
+        "C43",
+        "End of turning area"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/forbud-mot-infart-med-fordon/",
+      "file": "tmp/curriculum/sign-sources/7ec1b4a60cb361eed146.html",
+      "sha256": "e452b3b7b7da4ea964278c31ae2de3c85be285fd10118728498b2ed5cabcaa32",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  }
+]

@@ -1,0 +1,927 @@
+[
+  {
+    "code": "E19",
+    "question_ids": [
+      "sign-meaning-E19",
+      "sign-recognise-E19"
+    ],
+    "label": "Parking",
+    "official_sv": "Parkering",
+    "caption": "Parking is permitted subject to the sign's extent, panels and other applicable restrictions. The sign does not automatically cancel general stopping and parking prohibitions.",
+    "variant": "White P on blue.",
+    "neutral": "Blue square with a large white letter P.",
+    "options": [
+      [
+        "E19",
+        "Parking"
+      ],
+      [
+        "A40",
+        "Other danger"
+      ],
+      [
+        "F36",
+        "Place name on a walking or cycling route"
+      ],
+      [
+        "B1",
+        "Give way"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/parkering/",
+      "file": "tmp/curriculum/sign-sources/ae93a5d1b6e90d944251.html",
+      "sha256": "40dbccf71a0a9b8c418f1750009fa0359109144e31713e2eeabad9afbbb851d2",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E20",
+    "question_ids": [
+      "sign-meaning-E20",
+      "sign-recognise-E20"
+    ],
+    "label": "Zone begins",
+    "official_sv": "Områdesmärke",
+    "caption": "The inserted restrictions or permissions apply throughout the signed area. Locally signed exceptions do not automatically end the wider zone rule.",
+    "variant": "Zone board displaying no parking.",
+    "neutral": "Yellow square with a red border containing a blue circle with a red border and diagonal bar.",
+    "options": [
+      [
+        "E20",
+        "Zone begins"
+      ],
+      [
+        "C8",
+        "No tractors or class II motorised equipment"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "X2",
+        "Obstruction board"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/omradesmarke/",
+      "file": "tmp/curriculum/sign-sources/4c6bafa10ea5626f62c0.html",
+      "sha256": "b3518673f7a682de9ff57d6b7ab9bf69cc90a4797d1e0ae55db3f7663bd51109",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E21",
+    "question_ids": [
+      "sign-meaning-E21",
+      "sign-recognise-E21"
+    ],
+    "label": "Zone ends",
+    "official_sv": "Slut på område",
+    "caption": "The zone restriction or permission shown by the matching E20 sign ends.",
+    "variant": "Zone board crossed by black diagonal lines, ending no parking.",
+    "neutral": "White square with a grey slashed-circle symbol crossed by black parallel diagonal lines.",
+    "options": [
+      [
+        "E21",
+        "Zone ends"
+      ],
+      [
+        "D12",
+        "Required direction for specified dangerous-goods vehicles"
+      ],
+      [
+        "B5",
+        "End of priority road"
+      ],
+      [
+        "B3",
+        "Pedestrian crossing"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/slut-pa-omrade2/",
+      "file": "tmp/curriculum/sign-sources/b506e5421b325ed715f7.html",
+      "sha256": "4e4a657d1222bbbbc0de9f4f91b3aa720075b9f80a6f1493384baf2fa0a2d0ee",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E22",
+    "question_ids": [
+      "sign-meaning-E22",
+      "sign-recognise-E22"
+    ],
+    "label": "Bus stop",
+    "official_sv": "Busshållplats",
+    "caption": "This identifies a stop for scheduled services and school transport. Keep the stopping area available and watch for passengers.",
+    "variant": "White bus on a blue rectangular sign.",
+    "neutral": "Wide blue rectangle with a white bus viewed from the side.",
+    "options": [
+      [
+        "E22",
+        "Bus stop"
+      ],
+      [
+        "F2",
+        "Alternative route at a prohibited turn"
+      ],
+      [
+        "H15",
+        "Bathing place"
+      ],
+      [
+        "E15",
+        "Merge"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/busshallplats/",
+      "file": "tmp/curriculum/sign-sources/ea4151b7d996f401176b.html",
+      "sha256": "30a7fc09dd22f958a1809aaca5b0a99a98e773bc61507f0e95adfcdde7b9f803",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E23",
+    "question_ids": [
+      "sign-meaning-E23",
+      "sign-recognise-E23"
+    ],
+    "label": "Taxi standing-place boundary",
+    "official_sv": "Taxi",
+    "caption": "This sign marks the far end, in the direction of travel, of a special standing place for vehicles used in taxi traffic. Read it as a boundary of that place rather than a general taxi-service destination.",
+    "variant": "The blue TAXI panel identifies the designated standing-place instruction.",
+    "neutral": "Wide blue rectangle with the white word TAXI.",
+    "options": [
+      [
+        "E23",
+        "Taxi standing-place boundary"
+      ],
+      [
+        "G8",
+        "Airport"
+      ],
+      [
+        "A33",
+        "Off-road scooter traffic"
+      ],
+      [
+        "E11",
+        "Recommended lower speed"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/taxi2/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/50ca6da480c73bf78727516a.html.gz",
+      "sha256": "32ac50e385ba9b6d54c9dc8c30d2ec1760b0a3d24a51c40919ce1aec9e33677d",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E24",
+    "question_ids": [
+      "sign-meaning-E24",
+      "sign-recognise-E24"
+    ],
+    "label": "Automatic traffic surveillance",
+    "official_sv": "Automatisk trafikövervakning",
+    "caption": "Automatic camera or equivalent monitoring may take place here to enforce traffic rules, taxation or charges; personal data may be recorded under the applicable rules. If it concerns a longer road section, T1 states its length and the sign is repeated at suitable intervals.",
+    "variant": "The camera illustration is broader than speed-camera enforcement alone.",
+    "neutral": "Blue square with a white camera on a short upright support, angled down to the left.",
+    "options": [
+      [
+        "E24",
+        "Automatic traffic surveillance"
+      ],
+      [
+        "F23",
+        "Advance temporary diversion"
+      ],
+      [
+        "E2",
+        "End of motorway"
+      ],
+      [
+        "F5",
+        "Direction sign"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/automatisk-trafikovervakning/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/53a2cfcb816af9fed0b37743.html.gz",
+      "sha256": "81221958b3d4abf6f2fabef3aaff1977432f82537ad37960c76c56983d8d2a4a",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E25",
+    "question_ids": [
+      "sign-meaning-E25",
+      "sign-recognise-E25"
+    ],
+    "label": "Road charge or tax",
+    "official_sv": "Betalväg",
+    "caption": "A fee or special tax must be paid when travelling on a particular road or within a particular area. Check the applicable charging conditions for the route.",
+    "variant": "The payment illustration announces charging; it does not by itself specify the amount or payment method.",
+    "neutral": "White black-bordered square with a black road receding upward and a hand holding two yellow coins.",
+    "options": [
+      [
+        "E25",
+        "Road charge or tax"
+      ],
+      [
+        "E22",
+        "Bus stop"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "A25",
+        "Two-way traffic ahead"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/betalvag/",
+      "file": "docs/curriculum/question-book-review/remaining-gap-source-evidence/2090c9b3b172ada47cebb4dd.html.gz",
+      "sha256": "695becea5992b845e241a38f1271f36c21eb9e556f570984d0366104022b5421",
+      "retrieved_on": "2026-10-13",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E26",
+    "question_ids": [
+      "sign-meaning-E26",
+      "sign-recognise-E26"
+    ],
+    "label": "Tunnel",
+    "official_sv": "Tunnel",
+    "caption": "This identifies a tunnel and states its length; repeated signs may state the remaining length.",
+    "variant": "Tunnel symbol with length 2.0 km.",
+    "neutral": "Blue rectangle with a white inset containing a black arched opening and the text 2,0 km beneath.",
+    "options": [
+      [
+        "E26",
+        "Tunnel"
+      ],
+      [
+        "H27",
+        "Vehicle charging station"
+      ],
+      [
+        "H7",
+        "Hotel"
+      ],
+      [
+        "E2",
+        "End of motorway"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/tunnel/",
+      "file": "tmp/curriculum/sign-sources/e0cf0412513532969bd3.html",
+      "sha256": "7a1efee2a7c126faf6b15f9987d0d565b4934ffb1a113cb090880aa87ff82ac9",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E27",
+    "question_ids": [
+      "sign-meaning-E27",
+      "sign-recognise-E27"
+    ],
+    "label": "Emergency stopping bay",
+    "official_sv": "Nöduppställningsplats",
+    "caption": "This bay is intended for breakdowns or similar incidents, not routine parking. Additional symbols may identify emergency equipment.",
+    "variant": "Roadside bay diagram with SOS.",
+    "neutral": "Blue rectangle with a tall white tapered inset, a black dashed vertical line and the letters SOS stacked vertically.",
+    "options": [
+      [
+        "E27",
+        "Emergency stopping bay"
+      ],
+      [
+        "H21",
+        "Fishing licences for sale"
+      ],
+      [
+        "B8",
+        "Cycle crossing"
+      ],
+      [
+        "E28",
+        "Emergency exit"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/noduppstallningsplats/",
+      "file": "tmp/curriculum/sign-sources/f996a2b193915497cf63.html",
+      "sha256": "9dba0e85d7cabd1198754ff7a8a136a3c05843ce587924d4b78e164893118bb1",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E28",
+    "question_ids": [
+      "sign-meaning-E28",
+      "sign-recognise-E28"
+    ],
+    "label": "Emergency exit",
+    "official_sv": "Nödutgång",
+    "caption": "This is an emergency exit for people on foot.",
+    "variant": "Emergency-exit figure faces right.",
+    "neutral": "Green square with a white running figure beside a white doorway on the left.",
+    "options": [
+      [
+        "E28",
+        "Emergency exit"
+      ],
+      [
+        "E12",
+        "End of recommended lower speed"
+      ],
+      [
+        "F31",
+        "Suitable route or bypass for a road-user class"
+      ],
+      [
+        "F23",
+        "Advance temporary diversion"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/nodutgang/",
+      "file": "tmp/curriculum/sign-sources/1e310cd9ae4c24aae22b.html",
+      "sha256": "60e62558c9a8f1a839970be03c7833d70e7cc8c7b0f99e21b097e36773e2b8ba",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E29",
+    "question_ids": [
+      "sign-meaning-E29",
+      "sign-recognise-E29"
+    ],
+    "label": "Emergency escape route",
+    "official_sv": "Utrymningsväg",
+    "caption": "Follow the indicated direction and distance to an emergency exit or equivalent route for people on foot.",
+    "variant": "Left arrow, running figure and 100 m.",
+    "neutral": "Long green left-pointing arrow with a white doorway, left arrow, 100 m and running figure.",
+    "options": [
+      [
+        "E29",
+        "Emergency escape route"
+      ],
+      [
+        "C22",
+        "Road bearing-capacity class"
+      ],
+      [
+        "H12",
+        "Caravan site"
+      ],
+      [
+        "T3",
+        "Distance to a stop requirement"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/utrymningsvag/",
+      "file": "tmp/curriculum/sign-sources/bfb9e8d3c4a9a048fa23.html",
+      "sha256": "ce076bec62cc81abe9ab6488612eddd8c7e3b96fdae82be9518a27d0474d2bf8",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E30",
+    "question_ids": [
+      "sign-meaning-E30",
+      "sign-recognise-E30"
+    ],
+    "label": "Parking with stated conditions",
+    "official_sv": "Särskilda bestämmelser för parkering",
+    "caption": "Read the parking permission, duration and times together with the sign above. The conditions may vary the main restriction.",
+    "variant": "Parking permitted for 30 minutes during 8–18.",
+    "neutral": "Wide blue rectangle with white P inside a small outlined square, followed by 30 min above 8–18.",
+    "options": [
+      [
+        "E30",
+        "Parking with stated conditions"
+      ],
+      [
+        "F4",
+        "Advance exit information"
+      ],
+      [
+        "C12",
+        "No vehicles drawn by draught animals"
+      ],
+      [
+        "M33",
+        "Accessible parking marking"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/sarskilda-bestammelser-for-parkering/",
+      "file": "tmp/curriculum/sign-sources/5e9a5d89b7ff97e1202c.html",
+      "sha256": "c2269806ea0ecaf6bbe5ed94f678d5a02f1c2d260c8c3a72832471e6897c9788",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E31",
+    "question_ids": [
+      "sign-meaning-E31",
+      "sign-recognise-E31"
+    ],
+    "label": "Environmental zone",
+    "official_sv": "Miljözon",
+    "caption": "The indicated environmental-zone rules apply. Check the zone class and whether your actual vehicle qualifies; the illustration does not establish a city's current boundary.",
+    "variant": "Miljözon, class 1.",
+    "neutral": "Tall red-bordered yellow rectangle with MILJÖZON above a red slashed circle containing a black lorry and car, and KLASS 1 below.",
+    "options": [
+      [
+        "E31",
+        "Environmental zone"
+      ],
+      [
+        "M27",
+        "Pedestrian route marking"
+      ],
+      [
+        "C14",
+        "No riding"
+      ],
+      [
+        "A23",
+        "Low-flying aircraft"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/miljozon/",
+      "file": "tmp/curriculum/sign-sources/58d33675601e4e1ba07c.html",
+      "sha256": "1512c0b79908d90ba24fefe449b174a812f0435b3a3b3f737bd337bfcdb119e7",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E32",
+    "question_ids": [
+      "sign-meaning-E32",
+      "sign-recognise-E32"
+    ],
+    "label": "End of environmental zone",
+    "official_sv": "Slut på miljözon",
+    "caption": "The environmental zone ends.",
+    "variant": "Class 1 environmental-zone sign crossed by diagonal lines.",
+    "neutral": "Tall white rectangle with grey MILJÖZON, a slashed circle containing vehicles, and KLASS 1, crossed by black diagonal lines.",
+    "options": [
+      [
+        "E32",
+        "End of environmental zone"
+      ],
+      [
+        "X2",
+        "Obstruction board"
+      ],
+      [
+        "I4",
+        "World Heritage site"
+      ],
+      [
+        "C8",
+        "No tractors or class II motorised equipment"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/slut-pa-miljozon/",
+      "file": "tmp/curriculum/sign-sources/4bc1d201958e72a72a67.html",
+      "sha256": "c796bfad1fbce36a50bef6bc2d607f58fb19f7715cc6b3914dd0af89e446b4a7",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E33",
+    "question_ids": [
+      "sign-meaning-E33",
+      "sign-recognise-E33"
+    ],
+    "label": "Cycle street",
+    "official_sv": "Cykelgata",
+    "caption": "The maximum is 30 km/h and motor vehicles must adapt to bicycle traffic. Apply the cycle-street entry, exit and parking rules too.",
+    "variant": "Bicycle with a smaller car above it on blue.",
+    "neutral": "Blue-bordered white square with a blue inset containing a white car above a bicycle.",
+    "options": [
+      [
+        "E33",
+        "Cycle street"
+      ],
+      [
+        "M13",
+        "Stop line"
+      ],
+      [
+        "C38",
+        "Date-dependent parking prohibition"
+      ],
+      [
+        "B1",
+        "Give way"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/cykelgata/",
+      "file": "tmp/curriculum/sign-sources/90d403ada2dbc40eb312.html",
+      "sha256": "c5d4faaef81571394833f7a6c36abef71549da00f83aa407c6f2073332b07c43",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "E34",
+    "question_ids": [
+      "sign-meaning-E34",
+      "sign-recognise-E34"
+    ],
+    "label": "End of cycle street",
+    "official_sv": "Cykelgata upphör",
+    "caption": "The cycle street ends. Apply the yielding rule when leaving it for another road.",
+    "variant": "Cycle-street bicycle and car crossed by a red diagonal.",
+    "neutral": "Blue-bordered white square with a car and bicycle on blue, crossed by a red diagonal bar.",
+    "options": [
+      [
+        "E34",
+        "End of cycle street"
+      ],
+      [
+        "H12",
+        "Caravan site"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "H20",
+        "Golf course"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/cykelgata-upphor/",
+      "file": "tmp/curriculum/sign-sources/a77f1ba5da8138564110.html",
+      "sha256": "257ad0bfa6a53c65a443dc4bcd3884c71fb706f14b5912f465f487e4e28e178d",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F2",
+    "question_ids": [
+      "sign-meaning-F2",
+      "sign-recognise-F2"
+    ],
+    "label": "Alternative route at a prohibited turn",
+    "official_sv": "Orienteringstavla vid förbjuden sväng i korsning",
+    "caption": "A turn ahead is prohibited. The diagram indicates another direction you can take.",
+    "variant": "Route 50 towards Falun ahead; prohibited left turn towards Boda, with a loop to the right as the alternative route.",
+    "neutral": "Blue rectangle with white FALUN beside boxed 50, BODA to the left, and branching arrows around a red-and-yellow curved-arrow symbol.",
+    "options": [
+      [
+        "F2",
+        "Alternative route at a prohibited turn"
+      ],
+      [
+        "M11",
+        "Warning line beside a continuous line"
+      ],
+      [
+        "M6",
+        "Public-transport lane boundary"
+      ],
+      [
+        "F7",
+        "Exit direction sign"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/orienteringstavla-vid-forbjuden-svang-i-korsning/",
+      "file": "tmp/curriculum/sign-sources/3f1b82a822fb1e789e64.html",
+      "sha256": "77133c0f63b9f9364b9e208594a4247562aea0728f5a75cef01a722671154f59",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F3",
+    "question_ids": [
+      "sign-meaning-F3",
+      "sign-recognise-F3"
+    ],
+    "label": "Advance destination table",
+    "official_sv": "Tabellorienteringstavla",
+    "caption": "Read the listed directions and approach distance before the junction or roundabout.",
+    "variant": "Destination table: route 80 ahead; route 272 towards Bollnäs left; Forsbacka right; junction 500 m ahead.",
+    "neutral": "Stacked blue panels with white arrows and text: straight 80; left 272 BOLLNÄS; right FORSBACKA; 500 m below.",
+    "options": [
+      [
+        "F3",
+        "Advance destination table"
+      ],
+      [
+        "C15",
+        "No pedestrians"
+      ],
+      [
+        "M28",
+        "Bus lane marking"
+      ],
+      [
+        "F11",
+        "Road name"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/tabellorienteringstavla/",
+      "file": "tmp/curriculum/sign-sources/907558d122e181c671ee.html",
+      "sha256": "9390032bad8880ccbc4d5f17861eb502cdca12a206e9f04995f8d876ed957d9d",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F4",
+    "question_ids": [
+      "sign-meaning-F4",
+      "sign-recognise-F4"
+    ],
+    "label": "Advance exit information",
+    "official_sv": "Avfartsorienteringstavla",
+    "caption": "An exit is ahead at the indicated distance. Prepare the appropriate lane safely.",
+    "variant": "Advance exit towards Ornäs, 500 m ahead, while route 50 continues ahead.",
+    "neutral": "Stacked blue panels with white arrows: straight with boxed 50 above, and right-bending with ORNÄS 500 m below.",
+    "options": [
+      [
+        "F4",
+        "Advance exit information"
+      ],
+      [
+        "A18",
+        "Horse riders ahead"
+      ],
+      [
+        "M9",
+        "Hatched area"
+      ],
+      [
+        "A38",
+        "Rail-crossing countdown"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/avfartsorienteringstavla/",
+      "file": "tmp/curriculum/sign-sources/3681707ddfb7255342bb.html",
+      "sha256": "ad1726b6fe275e1e2421a9ad8d2ec72c15626785ff744d7e21a6beb5efc6477c",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F5",
+    "question_ids": [
+      "sign-meaning-F5",
+      "sign-recognise-F5"
+    ],
+    "label": "Direction sign",
+    "official_sv": "Vägvisare",
+    "caption": "The sign points to a destination at a junction. Any stated distance is in whole kilometres.",
+    "variant": "Right-pointing sign to Nyköping, 23 km.",
+    "neutral": "Long blue right-pointing panel with the white text NYKÖPING 23.",
+    "options": [
+      [
+        "F5",
+        "Direction sign"
+      ],
+      [
+        "X9",
+        "Roundabout centre marker"
+      ],
+      [
+        "M31",
+        "Standing place for a stated purpose"
+      ],
+      [
+        "A5",
+        "Road narrows"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/vagvisare/",
+      "file": "tmp/curriculum/sign-sources/8dc65bcad316b9df8866.html",
+      "sha256": "1a1a2570ed81d536b7cdd00459cfa96a58ebbc34ebd08866cb0335db8aeec596",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F6",
+    "question_ids": [
+      "sign-meaning-F6",
+      "sign-recognise-F6"
+    ],
+    "label": "Destination table",
+    "official_sv": "Tabellvägvisare",
+    "caption": "This lists directions near a junction or roundabout, including at an exit from a roundabout.",
+    "variant": "Destination table: Gävle via route 80 ahead, Bollnäs via route 272 left, Forsbacka right.",
+    "neutral": "Three blue panels with white arrows and text: straight 80 GÄVLE; left 272 BOLLNÄS; right FORSBACKA.",
+    "options": [
+      [
+        "F6",
+        "Destination table"
+      ],
+      [
+        "T5",
+        "Maximum authorised weight threshold"
+      ],
+      [
+        "E22",
+        "Bus stop"
+      ],
+      [
+        "M6",
+        "Public-transport lane boundary"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/tabellvagvisare/",
+      "file": "tmp/curriculum/sign-sources/82ad35e0fdc73e9a2845.html",
+      "sha256": "8269d4b621561bf0afb17df88209821f37e3603aee0a879bb3a1977796133941",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F7",
+    "question_ids": [
+      "sign-meaning-F7",
+      "sign-recognise-F7"
+    ],
+    "label": "Exit direction sign",
+    "official_sv": "Avfartsvisare",
+    "caption": "The exit begins at this sign. Do not make a late unsafe lane change to reach it.",
+    "variant": "Exit sign pointing towards Mora via route 70 and towards Enköping.",
+    "neutral": "Blue angled panel with boxed 70 MORA and ENKÖPING beside a diagonal up-right white arrow.",
+    "options": [
+      [
+        "F7",
+        "Exit direction sign"
+      ],
+      [
+        "T10",
+        "People with impaired hearing"
+      ],
+      [
+        "C5",
+        "No motorcycles or class I mopeds"
+      ],
+      [
+        "X5",
+        "Illuminated pass-side arrow"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/avfartsvisare/",
+      "file": "tmp/curriculum/sign-sources/354a68049a44bfe378e1.html",
+      "sha256": "3b2a1bbee4ab8878bb07af03121371d1a733c6c132340f7d5d257ef08ffc384d",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F8",
+    "question_ids": [
+      "sign-meaning-F8",
+      "sign-recognise-F8"
+    ],
+    "label": "Overhead lane destinations",
+    "official_sv": "Körfältsvägvisare",
+    "caption": "Use the lane or lanes beneath the relevant destination. Read any distance given for an upcoming exit.",
+    "variant": "Overhead destinations: Boda on the left panel; Falun via route 50 on the right panel.",
+    "neutral": "Two small blue panels with upward white arrows: BODA on the left and boxed 50 FALUN on the right.",
+    "options": [
+      [
+        "F8",
+        "Overhead lane destinations"
+      ],
+      [
+        "C4",
+        "No motor vehicles with more than two wheels"
+      ],
+      [
+        "A25",
+        "Two-way traffic ahead"
+      ],
+      [
+        "E14",
+        "End of recommended maximum speed"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/korfaltsvagvisare/",
+      "file": "tmp/curriculum/sign-sources/2d1ce75ee3b9419fbbd9.html",
+      "sha256": "be1005fcaf77fb9598ea1167aa91cfa9264704260e4784d619522b6d151f67f1",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F9",
+    "question_ids": [
+      "sign-meaning-F9",
+      "sign-recognise-F9"
+    ],
+    "label": "Grouped destinations",
+    "official_sv": "Samlingsmärke för vägvisning",
+    "caption": "The destinations inside the bracket share the route shown below its point.",
+    "variant": "Pajala and Övertorneå grouped above the shared route via Kiruna.",
+    "neutral": "Blue rectangle with white PAJALA and ÖVERTORNEÅ inside a notched white outline, and KIRUNA below.",
+    "options": [
+      [
+        "F9",
+        "Grouped destinations"
+      ],
+      [
+        "B1",
+        "Give way"
+      ],
+      [
+        "F5",
+        "Direction sign"
+      ],
+      [
+        "B6",
+        "Give way to oncoming traffic"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/samlingsmarke-for-vagvisning/",
+      "file": "tmp/curriculum/sign-sources/1663f02d3cb78e7c414f.html",
+      "sha256": "c56251f7c337c21f158ad8db67c6f799a666c3e0a56eb8821029ff17a85d9e50",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  },
+  {
+    "code": "F10",
+    "question_ids": [
+      "sign-meaning-F10",
+      "sign-recognise-F10"
+    ],
+    "label": "Place name",
+    "official_sv": "Platsmärke",
+    "caption": "This identifies a place for orientation. It is not by itself a speed-limit sign.",
+    "variant": "Place name Nyköping.",
+    "neutral": "Wide blue rectangle with the white word NYKÖPING.",
+    "options": [
+      [
+        "F10",
+        "Place name"
+      ],
+      [
+        "A4",
+        "Steep ascent"
+      ],
+      [
+        "X10",
+        "Signpost visibility marker"
+      ],
+      [
+        "F12",
+        "Watercourse"
+      ]
+    ],
+    "official_source": {
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-vagvisning/platsmarke/",
+      "file": "tmp/curriculum/sign-sources/5b99d7415ad3f75276a8.html",
+      "sha256": "e91d8dfc27a1da18fb3341007d9b128d0be01dec0787fafc4c3d7fbc8d14303a",
+      "retrieved_on": "2026-10-01",
+      "locator": "Official h1 and explanation preceding artwork downloads"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "task": "10E12",
+  "reviewed_on": "2026-10-21",
+  "notes": {
+    "M25": "Right arrow shows suitable pedestrian/cycle/class-II moped route according to context.",
+    "M26": "White bicycle marks path/suitable route for cycles and class-II mopeds.",
+    "M27": "Adult/child white figures designate pedestrian route.",
+    "M28": "BUSS marks scheduled-service and other permitted traffic, not unconditional bus-only.",
+    "M29": "Ringed30 supplies highest-permitted-speed information, not route30.",
+    "M30": "E4 is route number, not speed limit.",
+    "M31": "LAST-PLATS is this specific reserved-purpose example, not every possible M31 purpose.",
+    "M32": "STOPP reinforces B2 duty and prescribed stopping position.",
+    "M33": "Wheelchair marking reserves space for mobility-impaired users under applicable permit conditions.",
+    "M34": "SKOLA is one information/warning message, not definition limited to schools.",
+    "T3": "STOPP200m under B1 is advance information; stop is ahead, not at this panel.",
+    "T4": "Inward triangles3.5m denote available width, not permission to exceed other width limits.",
+    "T5": "3.5t applies main sign above registered totalvikt threshold, not actual gross weight.",
+    "T7": "Wheelchair on blue is E19 permit qualification; time conditions still apply.",
+    "T9": "Five black dots designate common use by people with impaired vision.",
+    "T10": "Three dots inside circle designate impaired hearing; cannot assume horn is heard.",
+    "T11": "Opposing horizontal arrows indicate extent both sides; one-direction/down variants have different meanings.",
+    "T12": "Bent right arrow directs toward main-sign feature, unlike one-way road E16.",
+    "T13": "Flervags-vajning means every approach yields, not necessarily stops.",
+    "T14": "Flervags-stopp means every approach must stop.",
+    "T15": "Thick path bends top to right with thin left/bottom; thin-road traffic yields to thick-road traffic.",
+    "T16": "Avgift requires tariff payment and other posted conditions.",
+    "T17": "Disc2tim8–17 combines indicated arrival and duration/time qualification.",
+    "T18": "2tim is maximum parking duration subject to any time qualification.",
+    "T19": "Boende requires special resident permit, not residence alone."
+  },
+  "analytical_artwork_sheets": [
+    "reviewed-assets-1.png"
+  ]
+}
