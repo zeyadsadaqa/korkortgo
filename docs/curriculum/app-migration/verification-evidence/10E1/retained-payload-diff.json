@@ -1,0 +1,2358 @@
+{
+  "task": "10E1",
+  "count": 336,
+  "questions": [
+    {
+      "question_id": "situation-001",
+      "status": "pass",
+      "original_payload_sha256": "45ed4637c5dfefc9fc5f7c0cd1f7cb16f2ad99ae24b933ea321aa32970c5c900",
+      "accepted_projection_sha256": "45ed4637c5dfefc9fc5f7c0cd1f7cb16f2ad99ae24b933ea321aa32970c5c900",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-002",
+      "status": "pass",
+      "original_payload_sha256": "950fea528e740412c93ee3fcb3214af5717cd59c4bd9a17357348c69a249de6b",
+      "accepted_projection_sha256": "950fea528e740412c93ee3fcb3214af5717cd59c4bd9a17357348c69a249de6b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-003",
+      "status": "pass",
+      "original_payload_sha256": "a28e6469ecc08609e38985e4ccec3470e90ab51421a759a786769ed9572c5b7a",
+      "accepted_projection_sha256": "a28e6469ecc08609e38985e4ccec3470e90ab51421a759a786769ed9572c5b7a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-004",
+      "status": "pass",
+      "original_payload_sha256": "1806dc3b30c358d9e73d6ce96aaf385fa115d79a2bed1a61372ce2e34c6bf33c",
+      "accepted_projection_sha256": "1806dc3b30c358d9e73d6ce96aaf385fa115d79a2bed1a61372ce2e34c6bf33c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-005",
+      "status": "pass",
+      "original_payload_sha256": "8fcae6ad2001047d7a2346397cf3fdc0f9602fbf87748eb379a36efbe566f143",
+      "accepted_projection_sha256": "8fcae6ad2001047d7a2346397cf3fdc0f9602fbf87748eb379a36efbe566f143",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-006",
+      "status": "pass",
+      "original_payload_sha256": "0e4f5dabb957d4bc6cad92cc938fba60802cca3f27f5cac7bf02dfba80d9194a",
+      "accepted_projection_sha256": "0e4f5dabb957d4bc6cad92cc938fba60802cca3f27f5cac7bf02dfba80d9194a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-007",
+      "status": "pass",
+      "original_payload_sha256": "9bd8e64ddef6cc6ebc57e988584c0a9ec7f8481fc1ed73a7fbed8265c57e5aa8",
+      "accepted_projection_sha256": "9bd8e64ddef6cc6ebc57e988584c0a9ec7f8481fc1ed73a7fbed8265c57e5aa8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-008",
+      "status": "pass",
+      "original_payload_sha256": "ea3c34b091dbd9c30b4ee6c8cca93b7b033b1abe95188af1f25ce660cacb707d",
+      "accepted_projection_sha256": "ea3c34b091dbd9c30b4ee6c8cca93b7b033b1abe95188af1f25ce660cacb707d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-009",
+      "status": "pass",
+      "original_payload_sha256": "4503ccf3579fa908636944bb41c4b3a78466d6d42284e72a764a15ae0aaef77b",
+      "accepted_projection_sha256": "4503ccf3579fa908636944bb41c4b3a78466d6d42284e72a764a15ae0aaef77b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-010",
+      "status": "pass",
+      "original_payload_sha256": "d159c82a4e4123ad69d10c24973aaeeacb3f3e40a3a4ed389826ee0806cd0de8",
+      "accepted_projection_sha256": "d159c82a4e4123ad69d10c24973aaeeacb3f3e40a3a4ed389826ee0806cd0de8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-011",
+      "status": "pass",
+      "original_payload_sha256": "0614085356095575d1b18cd9a020d379411a2545f703e6f1bb1cda8a0e6a8fc4",
+      "accepted_projection_sha256": "0614085356095575d1b18cd9a020d379411a2545f703e6f1bb1cda8a0e6a8fc4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-012",
+      "status": "pass",
+      "original_payload_sha256": "99e965dc9726f9681ce1d62926e84257ecc292150ab6007b98f17e45fe9c1e4d",
+      "accepted_projection_sha256": "99e965dc9726f9681ce1d62926e84257ecc292150ab6007b98f17e45fe9c1e4d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-013",
+      "status": "pass",
+      "original_payload_sha256": "516d4543b4b9bbb3531bec25e9fc4685f5636546dd25b539932e4341fdc4d368",
+      "accepted_projection_sha256": "516d4543b4b9bbb3531bec25e9fc4685f5636546dd25b539932e4341fdc4d368",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-014",
+      "status": "pass",
+      "original_payload_sha256": "3dfb55c07ae7d82291e2d780eb562ea4d709a0a5ce001c6fff408ac2d0938a05",
+      "accepted_projection_sha256": "3dfb55c07ae7d82291e2d780eb562ea4d709a0a5ce001c6fff408ac2d0938a05",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-015",
+      "status": "pass",
+      "original_payload_sha256": "035c11ec4f1bd2895941fbe735eaa63ae3753f1c3366dd4e2a484054ab79c17c",
+      "accepted_projection_sha256": "035c11ec4f1bd2895941fbe735eaa63ae3753f1c3366dd4e2a484054ab79c17c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-016",
+      "status": "pass",
+      "original_payload_sha256": "09111c223b407800f78596385e54c06f41de08edda72ef7e637507001ead1868",
+      "accepted_projection_sha256": "09111c223b407800f78596385e54c06f41de08edda72ef7e637507001ead1868",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-017",
+      "status": "pass",
+      "original_payload_sha256": "c6ab28ddaa8acd589144d76eb8ff692b26d0ed325cd963ba4b1cda2ca76fe28e",
+      "accepted_projection_sha256": "c6ab28ddaa8acd589144d76eb8ff692b26d0ed325cd963ba4b1cda2ca76fe28e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-018",
+      "status": "pass",
+      "original_payload_sha256": "1f4b32ef789b14eb871d9659d32b07c40cec51ca6e9b3122a84a80833c86f672",
+      "accepted_projection_sha256": "1f4b32ef789b14eb871d9659d32b07c40cec51ca6e9b3122a84a80833c86f672",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-019",
+      "status": "pass",
+      "original_payload_sha256": "1f890165a4017e2ed281449f52d6012921188313eeb354a35c69900a26356210",
+      "accepted_projection_sha256": "1f890165a4017e2ed281449f52d6012921188313eeb354a35c69900a26356210",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-020",
+      "status": "pass",
+      "original_payload_sha256": "e03591d501e6b55c6b9277185d56a04c5668f9817b64f6fe85e10c5c58b4103c",
+      "accepted_projection_sha256": "e03591d501e6b55c6b9277185d56a04c5668f9817b64f6fe85e10c5c58b4103c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-021",
+      "status": "pass",
+      "original_payload_sha256": "0f2452c3144e3b12ac6d9953a9620ba03f7569f42e1b74e85d8d3344294702da",
+      "accepted_projection_sha256": "0f2452c3144e3b12ac6d9953a9620ba03f7569f42e1b74e85d8d3344294702da",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-022",
+      "status": "pass",
+      "original_payload_sha256": "b2d69c503c1c50cdb8281a9130d04869b12ab0ca6085e410e1a81ef226f67aae",
+      "accepted_projection_sha256": "b2d69c503c1c50cdb8281a9130d04869b12ab0ca6085e410e1a81ef226f67aae",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-023",
+      "status": "pass",
+      "original_payload_sha256": "b44f89789e421cc4678bc49cd307d983004e016f45099375e4d28870f5fc9dbc",
+      "accepted_projection_sha256": "b44f89789e421cc4678bc49cd307d983004e016f45099375e4d28870f5fc9dbc",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-024",
+      "status": "pass",
+      "original_payload_sha256": "d0b9a9d2f7d7777b9697d24ee2443ebdfb477f4f3a866b9ae5c8972ad9154905",
+      "accepted_projection_sha256": "d0b9a9d2f7d7777b9697d24ee2443ebdfb477f4f3a866b9ae5c8972ad9154905",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-025",
+      "status": "pass",
+      "original_payload_sha256": "c479c53b208b6cfd78e21bcfe9af5b9ac9fd8628f5561c024efb2d6ec85f6ae1",
+      "accepted_projection_sha256": "c479c53b208b6cfd78e21bcfe9af5b9ac9fd8628f5561c024efb2d6ec85f6ae1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-026",
+      "status": "pass",
+      "original_payload_sha256": "b53986a940ce21d6674fc8d7feb4a0cd08cb8fc4a4122a5634979c1da324a340",
+      "accepted_projection_sha256": "b53986a940ce21d6674fc8d7feb4a0cd08cb8fc4a4122a5634979c1da324a340",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-027",
+      "status": "pass",
+      "original_payload_sha256": "13c67906e552bd915dc664997781f0d33d596820ae009064494eb95d3349eb4b",
+      "accepted_projection_sha256": "13c67906e552bd915dc664997781f0d33d596820ae009064494eb95d3349eb4b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-028",
+      "status": "pass",
+      "original_payload_sha256": "81b4f3e42440687b0296d865fae8009885c3cb4c0fdfa109758b7c392a77face",
+      "accepted_projection_sha256": "81b4f3e42440687b0296d865fae8009885c3cb4c0fdfa109758b7c392a77face",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-029",
+      "status": "pass",
+      "original_payload_sha256": "97dda369d409c47025fd2fcee4612470a86181132a63d334566f32d8cd77dd6a",
+      "accepted_projection_sha256": "97dda369d409c47025fd2fcee4612470a86181132a63d334566f32d8cd77dd6a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-030",
+      "status": "pass",
+      "original_payload_sha256": "f1db45df3d92fc2c428d9445e2a1017bcac431b4bbb9bf7797c3fe0b6afabf44",
+      "accepted_projection_sha256": "f1db45df3d92fc2c428d9445e2a1017bcac431b4bbb9bf7797c3fe0b6afabf44",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-031",
+      "status": "pass",
+      "original_payload_sha256": "71d339288cc35f846db7fbe0c9d0a9783549992c93427ae38c6935ae3865b0ba",
+      "accepted_projection_sha256": "71d339288cc35f846db7fbe0c9d0a9783549992c93427ae38c6935ae3865b0ba",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-033",
+      "status": "pass",
+      "original_payload_sha256": "c1bff5e65117a51849c4bbfefb456723c70abb5e347506d81648b8108d799e05",
+      "accepted_projection_sha256": "c1bff5e65117a51849c4bbfefb456723c70abb5e347506d81648b8108d799e05",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-034",
+      "status": "pass",
+      "original_payload_sha256": "7195c136966b23b379399bf4362996997d97c8050530ae517ae8c1de3dd16b10",
+      "accepted_projection_sha256": "7195c136966b23b379399bf4362996997d97c8050530ae517ae8c1de3dd16b10",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-035",
+      "status": "pass",
+      "original_payload_sha256": "00a56987d0a1e4b7b513d3449e11c4b1dfde8d8e71333a8a066027e87113db85",
+      "accepted_projection_sha256": "00a56987d0a1e4b7b513d3449e11c4b1dfde8d8e71333a8a066027e87113db85",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-036",
+      "status": "pass",
+      "original_payload_sha256": "ba8ba63748d4a8bf16b27a3459f539d145d4dbe228eae4e676f87d2867fde164",
+      "accepted_projection_sha256": "ba8ba63748d4a8bf16b27a3459f539d145d4dbe228eae4e676f87d2867fde164",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-037",
+      "status": "pass",
+      "original_payload_sha256": "47337be581b40fabceae6fed6cbb50ecc802c9ddd57e4d2da6bee9f03ef70b3a",
+      "accepted_projection_sha256": "47337be581b40fabceae6fed6cbb50ecc802c9ddd57e4d2da6bee9f03ef70b3a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-038",
+      "status": "pass",
+      "original_payload_sha256": "d667f8eeec355965fc7cc27b1e383141896ccd6af1af89d55fad5d238589ae71",
+      "accepted_projection_sha256": "d667f8eeec355965fc7cc27b1e383141896ccd6af1af89d55fad5d238589ae71",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-039",
+      "status": "pass",
+      "original_payload_sha256": "42e1164ea1d0423681ce2f9db69ee85563003581c0fe9fc4f6d25d1c9767c5fb",
+      "accepted_projection_sha256": "42e1164ea1d0423681ce2f9db69ee85563003581c0fe9fc4f6d25d1c9767c5fb",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-040",
+      "status": "pass",
+      "original_payload_sha256": "a3d2d8a8ca1722b58ba0e1ceb5adf143b343165ad7b22441ad56ea00225e3e66",
+      "accepted_projection_sha256": "a3d2d8a8ca1722b58ba0e1ceb5adf143b343165ad7b22441ad56ea00225e3e66",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-041",
+      "status": "pass",
+      "original_payload_sha256": "e386c3a8e42dd3c9855b43dfcfa4702a2f978bf9eb7b25b6195976c611204105",
+      "accepted_projection_sha256": "e386c3a8e42dd3c9855b43dfcfa4702a2f978bf9eb7b25b6195976c611204105",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-042",
+      "status": "pass",
+      "original_payload_sha256": "48c6142eb6bd8871b93f2f9e3ca8ac48d67d97735074e2890b5548a99019f083",
+      "accepted_projection_sha256": "48c6142eb6bd8871b93f2f9e3ca8ac48d67d97735074e2890b5548a99019f083",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-043",
+      "status": "pass",
+      "original_payload_sha256": "c77969b481149d27ea1c52d9c01779e63ba48a20c9cc44e0f1add7b43f0b9aed",
+      "accepted_projection_sha256": "c77969b481149d27ea1c52d9c01779e63ba48a20c9cc44e0f1add7b43f0b9aed",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-044",
+      "status": "pass",
+      "original_payload_sha256": "995f0f48de94ba75830e5f5d79aad4a734aa531f7c61a625729d0821e93deaf0",
+      "accepted_projection_sha256": "995f0f48de94ba75830e5f5d79aad4a734aa531f7c61a625729d0821e93deaf0",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-046",
+      "status": "pass",
+      "original_payload_sha256": "89487f658976eb9effedde93d391efe3a2a3c94bf10869622ea537e912130c57",
+      "accepted_projection_sha256": "89487f658976eb9effedde93d391efe3a2a3c94bf10869622ea537e912130c57",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-047",
+      "status": "pass",
+      "original_payload_sha256": "66ae1f26a648abacbff1905e29b7cbb4bd9f0c8c667d18492ecfcd53271a5d8d",
+      "accepted_projection_sha256": "66ae1f26a648abacbff1905e29b7cbb4bd9f0c8c667d18492ecfcd53271a5d8d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-048",
+      "status": "pass",
+      "original_payload_sha256": "db18b73071bbd523304a557c36401a7fb0c8e3540d301cc2f47445f788aa8ff5",
+      "accepted_projection_sha256": "db18b73071bbd523304a557c36401a7fb0c8e3540d301cc2f47445f788aa8ff5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-049",
+      "status": "pass",
+      "original_payload_sha256": "5fff44337cc187e71cf2e0fae614a4453aef17c4595043e6e684a84146f6e72a",
+      "accepted_projection_sha256": "5fff44337cc187e71cf2e0fae614a4453aef17c4595043e6e684a84146f6e72a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-050",
+      "status": "pass",
+      "original_payload_sha256": "5c566233a7d6e0b23000e3fd3b0f204dba8f5befe8a6c177625f10314869a7db",
+      "accepted_projection_sha256": "5c566233a7d6e0b23000e3fd3b0f204dba8f5befe8a6c177625f10314869a7db",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-051",
+      "status": "pass",
+      "original_payload_sha256": "2cab59791b94f691a4f9dab709abf353474e9b68a745dd9fe3af04451805eb7a",
+      "accepted_projection_sha256": "2cab59791b94f691a4f9dab709abf353474e9b68a745dd9fe3af04451805eb7a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-052",
+      "status": "pass",
+      "original_payload_sha256": "e5fb9249d179c1664d67814c94c618d4ece37e5bde103959ffd48e21722d9331",
+      "accepted_projection_sha256": "e5fb9249d179c1664d67814c94c618d4ece37e5bde103959ffd48e21722d9331",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-053",
+      "status": "pass",
+      "original_payload_sha256": "fb1101d9a1a62e6cbedc014edafed516d0577d26c5800255ab6cfee2bc0051ca",
+      "accepted_projection_sha256": "fb1101d9a1a62e6cbedc014edafed516d0577d26c5800255ab6cfee2bc0051ca",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-054",
+      "status": "pass",
+      "original_payload_sha256": "1f694febdeb5d56d963a51bfd271030aabcb5752c24b0615ad358e141df3d721",
+      "accepted_projection_sha256": "1f694febdeb5d56d963a51bfd271030aabcb5752c24b0615ad358e141df3d721",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-055",
+      "status": "pass",
+      "original_payload_sha256": "8002391c5b69246b0cb839304e12cf5bb77dd90a422e05018711f915244071d5",
+      "accepted_projection_sha256": "8002391c5b69246b0cb839304e12cf5bb77dd90a422e05018711f915244071d5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-056",
+      "status": "pass",
+      "original_payload_sha256": "361d163d17082950939bea3df21c494a77997ce30fe7ec6ca741b803e4a5dc55",
+      "accepted_projection_sha256": "361d163d17082950939bea3df21c494a77997ce30fe7ec6ca741b803e4a5dc55",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-057",
+      "status": "pass",
+      "original_payload_sha256": "35ec02ced38aa5890c4c1a917f0271a0427b967f4c8a10723e9f378a6d1b2a1f",
+      "accepted_projection_sha256": "35ec02ced38aa5890c4c1a917f0271a0427b967f4c8a10723e9f378a6d1b2a1f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-058",
+      "status": "pass",
+      "original_payload_sha256": "34a29677415a69acc42a3cbe3dfa8c51461ceefc4013fded7c4c162f4ce9e343",
+      "accepted_projection_sha256": "34a29677415a69acc42a3cbe3dfa8c51461ceefc4013fded7c4c162f4ce9e343",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-059",
+      "status": "pass",
+      "original_payload_sha256": "2efa7a6606615ec0906c18505d6efe0bcf381b2fa12053a3dbb86a8625f94f79",
+      "accepted_projection_sha256": "2efa7a6606615ec0906c18505d6efe0bcf381b2fa12053a3dbb86a8625f94f79",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-060",
+      "status": "pass",
+      "original_payload_sha256": "791c5a27da2c1174aabcf5bf1acd988bf7c58ef2a92e863638b0a58377c48f3c",
+      "accepted_projection_sha256": "791c5a27da2c1174aabcf5bf1acd988bf7c58ef2a92e863638b0a58377c48f3c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-061",
+      "status": "pass",
+      "original_payload_sha256": "7d9969be68d0f524793e2443fad7b920350af38cb99361c8fe09bb0ae80d1756",
+      "accepted_projection_sha256": "7d9969be68d0f524793e2443fad7b920350af38cb99361c8fe09bb0ae80d1756",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-062",
+      "status": "pass",
+      "original_payload_sha256": "cc030d5399261a2d3cb6985d5ac94c091ee9e696fe8120398f54cd1bbe867a4c",
+      "accepted_projection_sha256": "cc030d5399261a2d3cb6985d5ac94c091ee9e696fe8120398f54cd1bbe867a4c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-063",
+      "status": "pass",
+      "original_payload_sha256": "dadb9ff1880134d79153ea327e13eedf2fbffded6457f320b7dab7ef829d83ea",
+      "accepted_projection_sha256": "dadb9ff1880134d79153ea327e13eedf2fbffded6457f320b7dab7ef829d83ea",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-064",
+      "status": "pass",
+      "original_payload_sha256": "1946703c6eb8f6dc06f3fbc11ebeaa039844f8c74e2057e3a54210491c734fc9",
+      "accepted_projection_sha256": "1946703c6eb8f6dc06f3fbc11ebeaa039844f8c74e2057e3a54210491c734fc9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-065",
+      "status": "pass",
+      "original_payload_sha256": "ccdd1ba9b1f7ffae734fb3e275984866d10ba0624a135371b51eb3077025e4d4",
+      "accepted_projection_sha256": "ccdd1ba9b1f7ffae734fb3e275984866d10ba0624a135371b51eb3077025e4d4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-066",
+      "status": "pass",
+      "original_payload_sha256": "e5ff4a74c90af8bd1f240d850713b1605c64c0c0a3a4bdcd936e8464ea391ff7",
+      "accepted_projection_sha256": "e5ff4a74c90af8bd1f240d850713b1605c64c0c0a3a4bdcd936e8464ea391ff7",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-067",
+      "status": "pass",
+      "original_payload_sha256": "031b29791f0ddd15bc7c3c839c72d13a1956ea1aca1b0392b73943f82c392bb4",
+      "accepted_projection_sha256": "031b29791f0ddd15bc7c3c839c72d13a1956ea1aca1b0392b73943f82c392bb4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-068",
+      "status": "pass",
+      "original_payload_sha256": "d86a2c7c047b918a0f82457892af1f4eef1f149561c1a476640fdf640c333602",
+      "accepted_projection_sha256": "d86a2c7c047b918a0f82457892af1f4eef1f149561c1a476640fdf640c333602",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-069",
+      "status": "pass",
+      "original_payload_sha256": "58350697f89b05e6518d9fd124ba0fd4ae44d9f30bf989f46b06e0fa2c2e2142",
+      "accepted_projection_sha256": "58350697f89b05e6518d9fd124ba0fd4ae44d9f30bf989f46b06e0fa2c2e2142",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-070",
+      "status": "pass",
+      "original_payload_sha256": "fb822838170a83821be4be2b5065143b8f94e4d8d219871995f1e249c7993742",
+      "accepted_projection_sha256": "fb822838170a83821be4be2b5065143b8f94e4d8d219871995f1e249c7993742",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-071",
+      "status": "pass",
+      "original_payload_sha256": "c419851afc86b64d04cfeab52aa27928b512e7562e59822fd6b919acdb763847",
+      "accepted_projection_sha256": "c419851afc86b64d04cfeab52aa27928b512e7562e59822fd6b919acdb763847",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-072",
+      "status": "pass",
+      "original_payload_sha256": "55f826bb773a6090aee4ce7f1de02b3f4ca11f44a6b3ad98dd10a76e82383a98",
+      "accepted_projection_sha256": "55f826bb773a6090aee4ce7f1de02b3f4ca11f44a6b3ad98dd10a76e82383a98",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-073",
+      "status": "pass",
+      "original_payload_sha256": "238b6da3bc7af9e892c9d19117a333e4e3f7a51f464f7d72eea9fca87ec61a66",
+      "accepted_projection_sha256": "238b6da3bc7af9e892c9d19117a333e4e3f7a51f464f7d72eea9fca87ec61a66",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-074",
+      "status": "pass",
+      "original_payload_sha256": "19f177603a8893368f136cefda574d27850ddee0400e0b79778273e15a296b14",
+      "accepted_projection_sha256": "19f177603a8893368f136cefda574d27850ddee0400e0b79778273e15a296b14",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-075",
+      "status": "pass",
+      "original_payload_sha256": "87cc9cd32e66a9a4f8898b361da884029a11efc778fcc4c23ee56c3af3ba0e60",
+      "accepted_projection_sha256": "87cc9cd32e66a9a4f8898b361da884029a11efc778fcc4c23ee56c3af3ba0e60",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-076",
+      "status": "pass",
+      "original_payload_sha256": "cf7727d9737b5b84fe53ebf21c4ffb35f499976fc6003801e889265b1cd51408",
+      "accepted_projection_sha256": "cf7727d9737b5b84fe53ebf21c4ffb35f499976fc6003801e889265b1cd51408",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-077",
+      "status": "pass",
+      "original_payload_sha256": "d59aa459622310b8daeb4214ac32a3f282cf1001af3354453c47d52333eede0d",
+      "accepted_projection_sha256": "d59aa459622310b8daeb4214ac32a3f282cf1001af3354453c47d52333eede0d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-078",
+      "status": "pass",
+      "original_payload_sha256": "734f62ddc9c03995a72590c7fe38e674483ad6ee5421e82c0b090ba86c154742",
+      "accepted_projection_sha256": "734f62ddc9c03995a72590c7fe38e674483ad6ee5421e82c0b090ba86c154742",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-079",
+      "status": "pass",
+      "original_payload_sha256": "502d14bc51de3dc8ba02a0959523edd9577c193c912871a7d6fc4089919ec02a",
+      "accepted_projection_sha256": "502d14bc51de3dc8ba02a0959523edd9577c193c912871a7d6fc4089919ec02a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-080",
+      "status": "pass",
+      "original_payload_sha256": "1fd36ca73e0614413313bb36f6bd8261377fb375b4e1e077d67d197d162d7347",
+      "accepted_projection_sha256": "1fd36ca73e0614413313bb36f6bd8261377fb375b4e1e077d67d197d162d7347",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-081",
+      "status": "pass",
+      "original_payload_sha256": "e039a9258ef5da0d89be4cc0d10173c11e6d5bc36869fd5ba1d197c8b38dc210",
+      "accepted_projection_sha256": "e039a9258ef5da0d89be4cc0d10173c11e6d5bc36869fd5ba1d197c8b38dc210",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-082",
+      "status": "pass",
+      "original_payload_sha256": "e9bbbd6c3384f70a07d962fc5c8beb2c310ed897ad4d4e25e6f98fa7d0932819",
+      "accepted_projection_sha256": "e9bbbd6c3384f70a07d962fc5c8beb2c310ed897ad4d4e25e6f98fa7d0932819",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-083",
+      "status": "pass",
+      "original_payload_sha256": "476603a0349ab8e0001af89741e143e8d9459a9a14628d4551e9b621a3644471",
+      "accepted_projection_sha256": "476603a0349ab8e0001af89741e143e8d9459a9a14628d4551e9b621a3644471",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-084",
+      "status": "pass",
+      "original_payload_sha256": "bc9c935cacf08e067a493af1633c2f9f544374e9637a631a2dee5cf8bb2b5750",
+      "accepted_projection_sha256": "bc9c935cacf08e067a493af1633c2f9f544374e9637a631a2dee5cf8bb2b5750",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-085",
+      "status": "pass",
+      "original_payload_sha256": "2b8ce182cd5b0106c6ebe5f122f0f46f235fb60cd6c05da0696bd6d7c778e43a",
+      "accepted_projection_sha256": "2b8ce182cd5b0106c6ebe5f122f0f46f235fb60cd6c05da0696bd6d7c778e43a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-086",
+      "status": "pass",
+      "original_payload_sha256": "94f21514fbb806fcbde57298e5371ba31eed954885824e3ac5910d0ba492f93c",
+      "accepted_projection_sha256": "94f21514fbb806fcbde57298e5371ba31eed954885824e3ac5910d0ba492f93c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-087",
+      "status": "pass",
+      "original_payload_sha256": "c332777a96b15249f572a8e0a85f50e70d797a77b3e6f4535a7a07deaef4bb9c",
+      "accepted_projection_sha256": "c332777a96b15249f572a8e0a85f50e70d797a77b3e6f4535a7a07deaef4bb9c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-088",
+      "status": "pass",
+      "original_payload_sha256": "9a71887ea0cfc59f68fad9de3420cb0a224df2898513831eceee264a80d0c9c7",
+      "accepted_projection_sha256": "9a71887ea0cfc59f68fad9de3420cb0a224df2898513831eceee264a80d0c9c7",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-089",
+      "status": "pass",
+      "original_payload_sha256": "c44fc25c5e1a40de1c9f7ce3e8647b42a743d2eef3b106d166fc576353457313",
+      "accepted_projection_sha256": "c44fc25c5e1a40de1c9f7ce3e8647b42a743d2eef3b106d166fc576353457313",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-090",
+      "status": "pass",
+      "original_payload_sha256": "0a90ecf0557bd459b841d36bea70e0d2b02608ff97a438d7dd774a4949314648",
+      "accepted_projection_sha256": "0a90ecf0557bd459b841d36bea70e0d2b02608ff97a438d7dd774a4949314648",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-091",
+      "status": "pass",
+      "original_payload_sha256": "ffe296bd0aa60b6f04d26e8a6f81c1c25c8472d872a210116cf3aa0eb3b6833b",
+      "accepted_projection_sha256": "ffe296bd0aa60b6f04d26e8a6f81c1c25c8472d872a210116cf3aa0eb3b6833b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-092",
+      "status": "pass",
+      "original_payload_sha256": "3f284c279cdda4bceb53a70a005b9941c664a15727fc32272fe9f17557ce7ac2",
+      "accepted_projection_sha256": "3f284c279cdda4bceb53a70a005b9941c664a15727fc32272fe9f17557ce7ac2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-093",
+      "status": "pass",
+      "original_payload_sha256": "a0d6f3a1331732ea6f36a164a204d268df15bf06f388f29f638edc017ddfb73c",
+      "accepted_projection_sha256": "a0d6f3a1331732ea6f36a164a204d268df15bf06f388f29f638edc017ddfb73c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-094",
+      "status": "pass",
+      "original_payload_sha256": "0e29164598c62bcb9476c8d9fd15d17833c89920939b70b9e660dfd222c1821a",
+      "accepted_projection_sha256": "0e29164598c62bcb9476c8d9fd15d17833c89920939b70b9e660dfd222c1821a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-095",
+      "status": "pass",
+      "original_payload_sha256": "faad64b2eab2c3154af68455af2441699625fdde4dab4cd67610ea26b515a085",
+      "accepted_projection_sha256": "faad64b2eab2c3154af68455af2441699625fdde4dab4cd67610ea26b515a085",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-096",
+      "status": "pass",
+      "original_payload_sha256": "86b1f82ea368e6a81147dbd5b8905b58282815988504fc3e48ff75fa4a9e750b",
+      "accepted_projection_sha256": "86b1f82ea368e6a81147dbd5b8905b58282815988504fc3e48ff75fa4a9e750b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-097",
+      "status": "pass",
+      "original_payload_sha256": "0e01596ad4a111998f4fb10761cf3e60f7d5d97a8e48f31a15eb7a8bf343a18b",
+      "accepted_projection_sha256": "0e01596ad4a111998f4fb10761cf3e60f7d5d97a8e48f31a15eb7a8bf343a18b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-098",
+      "status": "pass",
+      "original_payload_sha256": "70c3f3ff085df33cb4b3f70733bc6b599008e8696ca80470ccd9306a990267f6",
+      "accepted_projection_sha256": "70c3f3ff085df33cb4b3f70733bc6b599008e8696ca80470ccd9306a990267f6",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-099",
+      "status": "pass",
+      "original_payload_sha256": "3219dce76e7b174d9883953a3ef75e197c96f0942692cecd623c4dfe4cfec77e",
+      "accepted_projection_sha256": "3219dce76e7b174d9883953a3ef75e197c96f0942692cecd623c4dfe4cfec77e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-100",
+      "status": "pass",
+      "original_payload_sha256": "931663f296747ca45694d93937d7321726a2d8578ebec8e8c2dafe3cbce70436",
+      "accepted_projection_sha256": "931663f296747ca45694d93937d7321726a2d8578ebec8e8c2dafe3cbce70436",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-101",
+      "status": "pass",
+      "original_payload_sha256": "0a04339d50b7b6c2be06ce719cc74d16b5b5e57d6fba720980d44810da41a9ff",
+      "accepted_projection_sha256": "0a04339d50b7b6c2be06ce719cc74d16b5b5e57d6fba720980d44810da41a9ff",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-102",
+      "status": "pass",
+      "original_payload_sha256": "9365ebc31b2a20b683083200bf9620de044de5b1cc70a6e1ea2782e9070d33ff",
+      "accepted_projection_sha256": "9365ebc31b2a20b683083200bf9620de044de5b1cc70a6e1ea2782e9070d33ff",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-103",
+      "status": "pass",
+      "original_payload_sha256": "b442c593e8d915df92f56671853dac2d408322ba3253729602b4543c4eca5a12",
+      "accepted_projection_sha256": "b442c593e8d915df92f56671853dac2d408322ba3253729602b4543c4eca5a12",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-104",
+      "status": "pass",
+      "original_payload_sha256": "0ada074530ebae6df0c414c0978adfdbf4696785d42ab68038b08d27ee9c8d5d",
+      "accepted_projection_sha256": "0ada074530ebae6df0c414c0978adfdbf4696785d42ab68038b08d27ee9c8d5d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-106",
+      "status": "pass",
+      "original_payload_sha256": "4625762b12125b1ef17b5beaf0b2491e78b995923752038fd956b8efb6775905",
+      "accepted_projection_sha256": "4625762b12125b1ef17b5beaf0b2491e78b995923752038fd956b8efb6775905",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-108",
+      "status": "pass",
+      "original_payload_sha256": "4e99d905d4b3a934ae03d0ab1c9310da1e0b2f9c2f46d091a3bf26cde9dcf7ae",
+      "accepted_projection_sha256": "4e99d905d4b3a934ae03d0ab1c9310da1e0b2f9c2f46d091a3bf26cde9dcf7ae",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-109",
+      "status": "pass",
+      "original_payload_sha256": "b1df23782bcdcb470b3dc2204650975cbbec8332c054dc7101daf67b022cdd5f",
+      "accepted_projection_sha256": "b1df23782bcdcb470b3dc2204650975cbbec8332c054dc7101daf67b022cdd5f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-110",
+      "status": "pass",
+      "original_payload_sha256": "060cd2a3d1941c4a0cd1c7789d865e50b39e411c24969b88d638c60f581dac89",
+      "accepted_projection_sha256": "060cd2a3d1941c4a0cd1c7789d865e50b39e411c24969b88d638c60f581dac89",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-111",
+      "status": "pass",
+      "original_payload_sha256": "6b69afc254f049e07e171c234ec8673070ebbc72e6425b40e730ad07a2e68f06",
+      "accepted_projection_sha256": "6b69afc254f049e07e171c234ec8673070ebbc72e6425b40e730ad07a2e68f06",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-112",
+      "status": "pass",
+      "original_payload_sha256": "4ca6d04444de46ccf6e6bc4015049cf4a116cfe03fa0e70443b7e103c23176e0",
+      "accepted_projection_sha256": "4ca6d04444de46ccf6e6bc4015049cf4a116cfe03fa0e70443b7e103c23176e0",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-113",
+      "status": "pass",
+      "original_payload_sha256": "cd3c168bc063b111f239803ee58eab3741f81a40fab92709b2070417ba3b65be",
+      "accepted_projection_sha256": "cd3c168bc063b111f239803ee58eab3741f81a40fab92709b2070417ba3b65be",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-114",
+      "status": "pass",
+      "original_payload_sha256": "4a1d180ed9b58362f468c419f8bd38eb69f6dca7e04aa653ea94ecd0d96de3bd",
+      "accepted_projection_sha256": "4a1d180ed9b58362f468c419f8bd38eb69f6dca7e04aa653ea94ecd0d96de3bd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-115",
+      "status": "pass",
+      "original_payload_sha256": "0e52a03ba03367822cbb5a74ff257ea67e11482959c6be80524e87b68193183e",
+      "accepted_projection_sha256": "0e52a03ba03367822cbb5a74ff257ea67e11482959c6be80524e87b68193183e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-116",
+      "status": "pass",
+      "original_payload_sha256": "8fb5e42eaa2f32b41d12d83c730c7d22b1cf9aa0764a3d571d30a7f76c25f617",
+      "accepted_projection_sha256": "8fb5e42eaa2f32b41d12d83c730c7d22b1cf9aa0764a3d571d30a7f76c25f617",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-117",
+      "status": "pass",
+      "original_payload_sha256": "9374b8fa7c6844746623c11af153de590ae74587fad381dd448a59960634bd65",
+      "accepted_projection_sha256": "9374b8fa7c6844746623c11af153de590ae74587fad381dd448a59960634bd65",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-118",
+      "status": "pass",
+      "original_payload_sha256": "86c4f118ef3d0182940d3947e8390b97ae74da01f0aff89d76d87e557e093d7c",
+      "accepted_projection_sha256": "86c4f118ef3d0182940d3947e8390b97ae74da01f0aff89d76d87e557e093d7c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-119",
+      "status": "pass",
+      "original_payload_sha256": "0a7de61e2c5ba174bb5f4e82362942ebe3e635948537199cdf53bbcfe00b5fb6",
+      "accepted_projection_sha256": "0a7de61e2c5ba174bb5f4e82362942ebe3e635948537199cdf53bbcfe00b5fb6",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-120",
+      "status": "pass",
+      "original_payload_sha256": "5389cec253fe39d89fcd953a7d8126fb0f12bd58b9d77ffac2b27dd224f8f401",
+      "accepted_projection_sha256": "5389cec253fe39d89fcd953a7d8126fb0f12bd58b9d77ffac2b27dd224f8f401",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-121",
+      "status": "pass",
+      "original_payload_sha256": "ed5d4c740d5c7aa4d2b89115339a26d825ee62569cae52b6273906b794ba3f27",
+      "accepted_projection_sha256": "ed5d4c740d5c7aa4d2b89115339a26d825ee62569cae52b6273906b794ba3f27",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-122",
+      "status": "pass",
+      "original_payload_sha256": "d68bc4a6b6c468c6f1b4fb4298e74ef8f58342ab87ecee278f62578ec3dd9621",
+      "accepted_projection_sha256": "d68bc4a6b6c468c6f1b4fb4298e74ef8f58342ab87ecee278f62578ec3dd9621",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-123",
+      "status": "pass",
+      "original_payload_sha256": "99f6fa58ef75a455911ae48ba346291ffe153afabaf14deaf738b5f376e5521b",
+      "accepted_projection_sha256": "99f6fa58ef75a455911ae48ba346291ffe153afabaf14deaf738b5f376e5521b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-124",
+      "status": "pass",
+      "original_payload_sha256": "014b5b3fc570f4aafe6d9c701012c6d86e1b10f077e3812941e327843b2ce6e4",
+      "accepted_projection_sha256": "014b5b3fc570f4aafe6d9c701012c6d86e1b10f077e3812941e327843b2ce6e4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-126",
+      "status": "pass",
+      "original_payload_sha256": "233e0157572a9ed9d456ee01d9e0b4ee8df97c8942f0698ca0ced24b7e8ccb25",
+      "accepted_projection_sha256": "233e0157572a9ed9d456ee01d9e0b4ee8df97c8942f0698ca0ced24b7e8ccb25",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-127",
+      "status": "pass",
+      "original_payload_sha256": "852fe2b27abe12cb901778bd45ce43725e4735a079c643041d4d773881af3085",
+      "accepted_projection_sha256": "852fe2b27abe12cb901778bd45ce43725e4735a079c643041d4d773881af3085",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-128",
+      "status": "pass",
+      "original_payload_sha256": "a033320a7e2a3be895cbd0d50d1ea4aa9ff8eaa16c2d4348f7bbcd4dff1761f5",
+      "accepted_projection_sha256": "a033320a7e2a3be895cbd0d50d1ea4aa9ff8eaa16c2d4348f7bbcd4dff1761f5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-129",
+      "status": "pass",
+      "original_payload_sha256": "5fac1a25b350c892ed0696c9f0048088524ce4ae34fd82ee0d52175f65d04cb8",
+      "accepted_projection_sha256": "5fac1a25b350c892ed0696c9f0048088524ce4ae34fd82ee0d52175f65d04cb8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-130",
+      "status": "pass",
+      "original_payload_sha256": "57a9784130464a3366a85f62aa26e815734250ca6fc88f51e13c4db1903891cd",
+      "accepted_projection_sha256": "57a9784130464a3366a85f62aa26e815734250ca6fc88f51e13c4db1903891cd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-131",
+      "status": "pass",
+      "original_payload_sha256": "178d5aa7dfda70582ae36c57cdeca7e4fdd411ceae482ea61846867167cad0c4",
+      "accepted_projection_sha256": "178d5aa7dfda70582ae36c57cdeca7e4fdd411ceae482ea61846867167cad0c4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-132",
+      "status": "pass",
+      "original_payload_sha256": "0add039f3956df5f9d8010fb31b5cb6fc8bd90d5fd9c4bce7a7a3c2a4ca5ae0f",
+      "accepted_projection_sha256": "0add039f3956df5f9d8010fb31b5cb6fc8bd90d5fd9c4bce7a7a3c2a4ca5ae0f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-133",
+      "status": "pass",
+      "original_payload_sha256": "aa0b90b33e4beab4ddfef7b840ef2e41d075e361a4dbc4bf745df565270248d9",
+      "accepted_projection_sha256": "aa0b90b33e4beab4ddfef7b840ef2e41d075e361a4dbc4bf745df565270248d9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-134",
+      "status": "pass",
+      "original_payload_sha256": "28407c1e569af036e9866b0b7a0e4a87f713e6f4c505c8efdbc3e8fac56d63f1",
+      "accepted_projection_sha256": "28407c1e569af036e9866b0b7a0e4a87f713e6f4c505c8efdbc3e8fac56d63f1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-135",
+      "status": "pass",
+      "original_payload_sha256": "6d0d960aa3a2596624e8ed2882e8538cb69a11aac952bc35157379a96e015720",
+      "accepted_projection_sha256": "6d0d960aa3a2596624e8ed2882e8538cb69a11aac952bc35157379a96e015720",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-136",
+      "status": "pass",
+      "original_payload_sha256": "ab7f8f5e09e5a463c561af2696741f1d054f12b1a123428f81af3c283f3b7036",
+      "accepted_projection_sha256": "ab7f8f5e09e5a463c561af2696741f1d054f12b1a123428f81af3c283f3b7036",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-137",
+      "status": "pass",
+      "original_payload_sha256": "01d619a9f77cbaabe635974f599e2feb0a3618f400aab700ffaadc3c8e47a779",
+      "accepted_projection_sha256": "01d619a9f77cbaabe635974f599e2feb0a3618f400aab700ffaadc3c8e47a779",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-138",
+      "status": "pass",
+      "original_payload_sha256": "f4705c34cd98c3c3d07f850b8afe83874f8af11d1e51a033151eb8abbc37ed00",
+      "accepted_projection_sha256": "f4705c34cd98c3c3d07f850b8afe83874f8af11d1e51a033151eb8abbc37ed00",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-139",
+      "status": "pass",
+      "original_payload_sha256": "4bbbaf2b311fd33da165ccd9d0eb3d0de33bd796e452c3a865b26936d0a9ae8f",
+      "accepted_projection_sha256": "4bbbaf2b311fd33da165ccd9d0eb3d0de33bd796e452c3a865b26936d0a9ae8f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-140",
+      "status": "pass",
+      "original_payload_sha256": "19abb7f12a8b4a3dadb18c17768a795f42f41ea6ae7f2a71cf17ca51a3711d6c",
+      "accepted_projection_sha256": "19abb7f12a8b4a3dadb18c17768a795f42f41ea6ae7f2a71cf17ca51a3711d6c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-141",
+      "status": "pass",
+      "original_payload_sha256": "3c689c16f4624bdd131c82dff297bfdfbe41e49719519282c0d43251d2c3335f",
+      "accepted_projection_sha256": "3c689c16f4624bdd131c82dff297bfdfbe41e49719519282c0d43251d2c3335f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-142",
+      "status": "pass",
+      "original_payload_sha256": "84a3a25c049e37bb695eab8fd666d5f3114794021d2767b7a99b9a21f2a2c538",
+      "accepted_projection_sha256": "84a3a25c049e37bb695eab8fd666d5f3114794021d2767b7a99b9a21f2a2c538",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-143",
+      "status": "pass",
+      "original_payload_sha256": "d268f7f4db1961c37ac58e3e0dc2d11ca799f84ed14b48f2c9cbaace4861324d",
+      "accepted_projection_sha256": "d268f7f4db1961c37ac58e3e0dc2d11ca799f84ed14b48f2c9cbaace4861324d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-144",
+      "status": "pass",
+      "original_payload_sha256": "a5d04aeb516e069416fa6a0329f96bd34312448e16b7ed75b7033b72d8fd7709",
+      "accepted_projection_sha256": "a5d04aeb516e069416fa6a0329f96bd34312448e16b7ed75b7033b72d8fd7709",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-145",
+      "status": "pass",
+      "original_payload_sha256": "d7c6a4e9973e5deaaa59102c227b95cb77e1fa9daa80a8195d68686c1965a8f2",
+      "accepted_projection_sha256": "d7c6a4e9973e5deaaa59102c227b95cb77e1fa9daa80a8195d68686c1965a8f2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-146",
+      "status": "pass",
+      "original_payload_sha256": "fe73a1c921d96dc087d7fd4e7a5045602dba99b97ff8208e9e040918d1af141e",
+      "accepted_projection_sha256": "fe73a1c921d96dc087d7fd4e7a5045602dba99b97ff8208e9e040918d1af141e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-147",
+      "status": "pass",
+      "original_payload_sha256": "2cff8fef5d7dc866f65df5a471e62c934b5cfc88dc68b41f6241e4b6c3134a28",
+      "accepted_projection_sha256": "2cff8fef5d7dc866f65df5a471e62c934b5cfc88dc68b41f6241e4b6c3134a28",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-148",
+      "status": "pass",
+      "original_payload_sha256": "5b5e4eb0c1c98f16ae9bd4c5fa74982459e0585fcd50fd6dee44cace13094597",
+      "accepted_projection_sha256": "5b5e4eb0c1c98f16ae9bd4c5fa74982459e0585fcd50fd6dee44cace13094597",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-149",
+      "status": "pass",
+      "original_payload_sha256": "05364927152f5b3454e8c086fd5a23c7fdbb0c588cfa0611bd16e6003eda415e",
+      "accepted_projection_sha256": "05364927152f5b3454e8c086fd5a23c7fdbb0c588cfa0611bd16e6003eda415e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-150",
+      "status": "pass",
+      "original_payload_sha256": "090545dd5d0e051c13f9dc21c857c9f7a86d18756ba01a6b941e7ce3bce0fa42",
+      "accepted_projection_sha256": "090545dd5d0e051c13f9dc21c857c9f7a86d18756ba01a6b941e7ce3bce0fa42",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-151",
+      "status": "pass",
+      "original_payload_sha256": "8abd757208c6d3552dca1b57503d982b11d76e5784d6511e657681d44a7f22d2",
+      "accepted_projection_sha256": "8abd757208c6d3552dca1b57503d982b11d76e5784d6511e657681d44a7f22d2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-152",
+      "status": "pass",
+      "original_payload_sha256": "6a1e7ba491ad3c31bbd8d26fee1f2d410c86abb16f3c5c0cdcf0e6186a19404b",
+      "accepted_projection_sha256": "6a1e7ba491ad3c31bbd8d26fee1f2d410c86abb16f3c5c0cdcf0e6186a19404b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-153",
+      "status": "pass",
+      "original_payload_sha256": "c3a35b6030a09b652b75d313fd8801ecd219a50fcc53b5627a62e0d0f3dade50",
+      "accepted_projection_sha256": "c3a35b6030a09b652b75d313fd8801ecd219a50fcc53b5627a62e0d0f3dade50",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-154",
+      "status": "pass",
+      "original_payload_sha256": "910564179435b013386aa2f2ca3731242ee174fb2796529cfe29fe2c04a52589",
+      "accepted_projection_sha256": "910564179435b013386aa2f2ca3731242ee174fb2796529cfe29fe2c04a52589",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-155",
+      "status": "pass",
+      "original_payload_sha256": "2e8fc77e6a4a3c36351d9441d1c5ac3e34294683e4266bafbfba3e1c1cdc5ee4",
+      "accepted_projection_sha256": "2e8fc77e6a4a3c36351d9441d1c5ac3e34294683e4266bafbfba3e1c1cdc5ee4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-156",
+      "status": "pass",
+      "original_payload_sha256": "4c1417117e372dc7bea1b0e943b0ee53a966fff186e8b4233ae05989ceb0f44c",
+      "accepted_projection_sha256": "4c1417117e372dc7bea1b0e943b0ee53a966fff186e8b4233ae05989ceb0f44c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-157",
+      "status": "pass",
+      "original_payload_sha256": "15c5ad8217874622c38c3af864964df2b159afb64ce66b186467606d0b32d313",
+      "accepted_projection_sha256": "15c5ad8217874622c38c3af864964df2b159afb64ce66b186467606d0b32d313",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-158",
+      "status": "pass",
+      "original_payload_sha256": "db91d423269fe19f0b3e96fd474a48beedc1988b5a2e061f00fd260f17a45d4d",
+      "accepted_projection_sha256": "db91d423269fe19f0b3e96fd474a48beedc1988b5a2e061f00fd260f17a45d4d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-159",
+      "status": "pass",
+      "original_payload_sha256": "61789357c229aaca7a1280c7a22f4f52c71402eef04e5f688d442749bc8459c8",
+      "accepted_projection_sha256": "61789357c229aaca7a1280c7a22f4f52c71402eef04e5f688d442749bc8459c8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-160",
+      "status": "pass",
+      "original_payload_sha256": "558dae7b60a515ff8685089eaa246c99e4051bb8b3bf4a95a7f2e97fe6931efe",
+      "accepted_projection_sha256": "558dae7b60a515ff8685089eaa246c99e4051bb8b3bf4a95a7f2e97fe6931efe",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-161",
+      "status": "pass",
+      "original_payload_sha256": "d60ea043e656784721556ded1f7571baa2a2089aa3c4dd7fad80296af257e6ce",
+      "accepted_projection_sha256": "d60ea043e656784721556ded1f7571baa2a2089aa3c4dd7fad80296af257e6ce",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-163",
+      "status": "pass",
+      "original_payload_sha256": "f3b3b0f6495bea05028d59587d598e66b8c3dc1cb2641c0566a6dee838e778b5",
+      "accepted_projection_sha256": "f3b3b0f6495bea05028d59587d598e66b8c3dc1cb2641c0566a6dee838e778b5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-164",
+      "status": "pass",
+      "original_payload_sha256": "2b5aca3ac984c1e62af190d2c333804546feab7174605b243ba6682ad2faaa24",
+      "accepted_projection_sha256": "2b5aca3ac984c1e62af190d2c333804546feab7174605b243ba6682ad2faaa24",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-165",
+      "status": "pass",
+      "original_payload_sha256": "1747ee44a8b4af7e9cc0eb3c9decc9078da3179d7af176008b930b3d9d7d3cf5",
+      "accepted_projection_sha256": "1747ee44a8b4af7e9cc0eb3c9decc9078da3179d7af176008b930b3d9d7d3cf5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-166",
+      "status": "pass",
+      "original_payload_sha256": "fa9fedbcd35fde40a95abd9df6af926dc1bc40769963587e3b0e1203bd60c764",
+      "accepted_projection_sha256": "fa9fedbcd35fde40a95abd9df6af926dc1bc40769963587e3b0e1203bd60c764",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-167",
+      "status": "pass",
+      "original_payload_sha256": "0c24188db430f7d603f111982b2be63eea45c65b25c261a86e47781b166ffce3",
+      "accepted_projection_sha256": "0c24188db430f7d603f111982b2be63eea45c65b25c261a86e47781b166ffce3",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-168",
+      "status": "pass",
+      "original_payload_sha256": "67c79e60fbde1c211f6556d0dfaff88005a44319b2b437e84286dcd02407d2c9",
+      "accepted_projection_sha256": "67c79e60fbde1c211f6556d0dfaff88005a44319b2b437e84286dcd02407d2c9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-169",
+      "status": "pass",
+      "original_payload_sha256": "ee829a1fb3f4e2d55b801fec63625fafdf2bacdde56feced96f983fb68ed83c8",
+      "accepted_projection_sha256": "ee829a1fb3f4e2d55b801fec63625fafdf2bacdde56feced96f983fb68ed83c8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-170",
+      "status": "pass",
+      "original_payload_sha256": "9956448f6906f82063440a1765dd4dfc93b63bb6f4d7564a34cd0654420a78de",
+      "accepted_projection_sha256": "9956448f6906f82063440a1765dd4dfc93b63bb6f4d7564a34cd0654420a78de",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-171",
+      "status": "pass",
+      "original_payload_sha256": "91d34e471b823eb3b6dbc6b2c439b364dd71606255f2fb2366d7f52534294fe8",
+      "accepted_projection_sha256": "91d34e471b823eb3b6dbc6b2c439b364dd71606255f2fb2366d7f52534294fe8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-173",
+      "status": "pass",
+      "original_payload_sha256": "034d0fc8689426c28c96b7c2f628cff4146af9cab32ea2073f0f700e1a9e21d9",
+      "accepted_projection_sha256": "034d0fc8689426c28c96b7c2f628cff4146af9cab32ea2073f0f700e1a9e21d9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-174",
+      "status": "pass",
+      "original_payload_sha256": "f4285562a637302a5a4ac339094abf7f429363021753eb7e10a548a725edbe6e",
+      "accepted_projection_sha256": "f4285562a637302a5a4ac339094abf7f429363021753eb7e10a548a725edbe6e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-175",
+      "status": "pass",
+      "original_payload_sha256": "abcb801c47498fe79e3bf8296c55b58c5ce17c89a14ceed188e5e23a836360e6",
+      "accepted_projection_sha256": "abcb801c47498fe79e3bf8296c55b58c5ce17c89a14ceed188e5e23a836360e6",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-176",
+      "status": "pass",
+      "original_payload_sha256": "4f4b7c16a514151c8e5c6d693addecae5063baad902b896a36d8ae325da4ada7",
+      "accepted_projection_sha256": "4f4b7c16a514151c8e5c6d693addecae5063baad902b896a36d8ae325da4ada7",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "situation-177",
+      "status": "pass",
+      "original_payload_sha256": "f4d9245a06ea9990029c95617191bb41da24cbaa11178bda512c4d3032ed1976",
+      "accepted_projection_sha256": "f4d9245a06ea9990029c95617191bb41da24cbaa11178bda512c4d3032ed1976",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-20-0.5",
+      "status": "pass",
+      "original_payload_sha256": "094443d89e73ad9b40f186e46bd2a6578f4f244d7c65dedf104e309b69732e67",
+      "accepted_projection_sha256": "094443d89e73ad9b40f186e46bd2a6578f4f244d7c65dedf104e309b69732e67",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-20-1",
+      "status": "pass",
+      "original_payload_sha256": "25931736ac9d0e8d93b8bbc2e42404989a58abcd4d60d2c20b7d751b626a2012",
+      "accepted_projection_sha256": "25931736ac9d0e8d93b8bbc2e42404989a58abcd4d60d2c20b7d751b626a2012",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-20-1.5",
+      "status": "pass",
+      "original_payload_sha256": "9bb779af49045ade7d7d35edb65db48488f59142c2860f5082653082edc40c61",
+      "accepted_projection_sha256": "9bb779af49045ade7d7d35edb65db48488f59142c2860f5082653082edc40c61",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-30-0.5",
+      "status": "pass",
+      "original_payload_sha256": "e2941c4c3a3b025ae3ee4b24ca156fbb4d23cdcf05f2abe8c3c41b6781af73c1",
+      "accepted_projection_sha256": "e2941c4c3a3b025ae3ee4b24ca156fbb4d23cdcf05f2abe8c3c41b6781af73c1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-30-1",
+      "status": "pass",
+      "original_payload_sha256": "7c60b7144a3c12c36f3a2750d133d56d573fc1eee767e178757dfdf846086f1f",
+      "accepted_projection_sha256": "7c60b7144a3c12c36f3a2750d133d56d573fc1eee767e178757dfdf846086f1f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-30-1.5",
+      "status": "pass",
+      "original_payload_sha256": "50c1c570eb48d794d85a9a56c4c992513bed5e2695b7e8cf12f4ddaf5ccf0afe",
+      "accepted_projection_sha256": "50c1c570eb48d794d85a9a56c4c992513bed5e2695b7e8cf12f4ddaf5ccf0afe",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-40-0.5",
+      "status": "pass",
+      "original_payload_sha256": "75c3cc9c4abdbadc7be1d6f2991afc01e3f6c61214c5964bb2db9da71441e38f",
+      "accepted_projection_sha256": "75c3cc9c4abdbadc7be1d6f2991afc01e3f6c61214c5964bb2db9da71441e38f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-40-1",
+      "status": "pass",
+      "original_payload_sha256": "8889f5ac2fa015ba22a7148c6b7c26f5aede784989e26d2635c2d87617c87599",
+      "accepted_projection_sha256": "8889f5ac2fa015ba22a7148c6b7c26f5aede784989e26d2635c2d87617c87599",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-40-1.5",
+      "status": "pass",
+      "original_payload_sha256": "894fc663e7ed932c47849863d6a9bcb74be7e1a43022845444d87c2ef8ed731f",
+      "accepted_projection_sha256": "894fc663e7ed932c47849863d6a9bcb74be7e1a43022845444d87c2ef8ed731f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-50-0.5",
+      "status": "pass",
+      "original_payload_sha256": "1cb2b29ffde1aee48f5fc0116586f0dee36b1bb606804b7271f66de4207d9600",
+      "accepted_projection_sha256": "1cb2b29ffde1aee48f5fc0116586f0dee36b1bb606804b7271f66de4207d9600",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-50-1",
+      "status": "pass",
+      "original_payload_sha256": "7e50dda90719e18f966bcf261c3d9c34edeba3880f0fd65b22b15373e92a9be5",
+      "accepted_projection_sha256": "7e50dda90719e18f966bcf261c3d9c34edeba3880f0fd65b22b15373e92a9be5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-50-1.5",
+      "status": "pass",
+      "original_payload_sha256": "c14bc884c3653adb81eeffbd4fcc2e828d08a143ee32028f0f1d87f7017fe2ee",
+      "accepted_projection_sha256": "c14bc884c3653adb81eeffbd4fcc2e828d08a143ee32028f0f1d87f7017fe2ee",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-60-0.5",
+      "status": "pass",
+      "original_payload_sha256": "c57b033fb294d9842017f4100985b41691afc6ff5d0d3df26f8474b1f5dc24b3",
+      "accepted_projection_sha256": "c57b033fb294d9842017f4100985b41691afc6ff5d0d3df26f8474b1f5dc24b3",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-60-1",
+      "status": "pass",
+      "original_payload_sha256": "e4aa785bf21d9a970648a1c1442147e14b5ba72e222c347763c7a3479278181b",
+      "accepted_projection_sha256": "e4aa785bf21d9a970648a1c1442147e14b5ba72e222c347763c7a3479278181b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-60-1.5",
+      "status": "pass",
+      "original_payload_sha256": "3d21efce542f28f5fb35fb1abb4958dd1d4c58ed3d35bc02539d83843a12c713",
+      "accepted_projection_sha256": "3d21efce542f28f5fb35fb1abb4958dd1d4c58ed3d35bc02539d83843a12c713",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-70-0.5",
+      "status": "pass",
+      "original_payload_sha256": "0a9679849ec7bb0e4e18f53d2020f052337c7f487dbb2d3c4dae9c0566f3b7dd",
+      "accepted_projection_sha256": "0a9679849ec7bb0e4e18f53d2020f052337c7f487dbb2d3c4dae9c0566f3b7dd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-70-1",
+      "status": "pass",
+      "original_payload_sha256": "6f449294d3741160097f599d49d3a54b7d6bbe09bf8befe5342a4b18b71ea55e",
+      "accepted_projection_sha256": "6f449294d3741160097f599d49d3a54b7d6bbe09bf8befe5342a4b18b71ea55e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-70-1.5",
+      "status": "pass",
+      "original_payload_sha256": "15334710cea60aa66e136720d06c136252a8f25c8347cfcf225701683e3a294e",
+      "accepted_projection_sha256": "15334710cea60aa66e136720d06c136252a8f25c8347cfcf225701683e3a294e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-80-0.5",
+      "status": "pass",
+      "original_payload_sha256": "d839e8e1de85fee01ee4492bec0ab7ed753ac48d7284740e33b51a6bf8fe50f8",
+      "accepted_projection_sha256": "d839e8e1de85fee01ee4492bec0ab7ed753ac48d7284740e33b51a6bf8fe50f8",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-80-1",
+      "status": "pass",
+      "original_payload_sha256": "3afb5b092b217453514e3cf8bfd60ca1bdf63942458e1b364268c19a3418eff1",
+      "accepted_projection_sha256": "3afb5b092b217453514e3cf8bfd60ca1bdf63942458e1b364268c19a3418eff1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-80-1.5",
+      "status": "pass",
+      "original_payload_sha256": "62bfffe920cdf12571cecf65f7d7f6372763300c2de8df0973fe02148759da1d",
+      "accepted_projection_sha256": "62bfffe920cdf12571cecf65f7d7f6372763300c2de8df0973fe02148759da1d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-90-0.5",
+      "status": "pass",
+      "original_payload_sha256": "95d47a39d2401ac16cff7c619dbe30bb77557a60ceb1275be082b35644856fad",
+      "accepted_projection_sha256": "95d47a39d2401ac16cff7c619dbe30bb77557a60ceb1275be082b35644856fad",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-90-1",
+      "status": "pass",
+      "original_payload_sha256": "935fd63cca93dca95110149d91485080c00ee537220add9bdba71a2651124f9c",
+      "accepted_projection_sha256": "935fd63cca93dca95110149d91485080c00ee537220add9bdba71a2651124f9c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-90-1.5",
+      "status": "pass",
+      "original_payload_sha256": "f1744480b6ab5fc24b0d53be7a29fae3d8235f6f2c35d6006e1daf7aadaca835",
+      "accepted_projection_sha256": "f1744480b6ab5fc24b0d53be7a29fae3d8235f6f2c35d6006e1daf7aadaca835",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-100-0.5",
+      "status": "pass",
+      "original_payload_sha256": "e7c1071632b79d526f0da4b7acad79cdc096e46db49b063d6c91f314db69fcf4",
+      "accepted_projection_sha256": "e7c1071632b79d526f0da4b7acad79cdc096e46db49b063d6c91f314db69fcf4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-100-1",
+      "status": "pass",
+      "original_payload_sha256": "0d36f57d3ae8509c2c0cfab4d4d63d3b7cc316cb956f58ca815591912bc7f399",
+      "accepted_projection_sha256": "0d36f57d3ae8509c2c0cfab4d4d63d3b7cc316cb956f58ca815591912bc7f399",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-100-1.5",
+      "status": "pass",
+      "original_payload_sha256": "171cb44a91bdfb18d0ef44d9b12e464abd8e9e9c55ca8f464d56564739065d32",
+      "accepted_projection_sha256": "171cb44a91bdfb18d0ef44d9b12e464abd8e9e9c55ca8f464d56564739065d32",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-110-0.5",
+      "status": "pass",
+      "original_payload_sha256": "5773cccd7cddaf269b13b1c2e61600ca092c14303d0692eba6e4802b174de6be",
+      "accepted_projection_sha256": "5773cccd7cddaf269b13b1c2e61600ca092c14303d0692eba6e4802b174de6be",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-110-1",
+      "status": "pass",
+      "original_payload_sha256": "f63524e26ed9350e4dfe8452459b030e2eeeede118d926598eb104274df5a46b",
+      "accepted_projection_sha256": "f63524e26ed9350e4dfe8452459b030e2eeeede118d926598eb104274df5a46b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-110-1.5",
+      "status": "pass",
+      "original_payload_sha256": "fb5e38bb8dfdb53e137b37b21f03a2c4fd08ab003f8f3712865cf7f0835f14f2",
+      "accepted_projection_sha256": "fb5e38bb8dfdb53e137b37b21f03a2c4fd08ab003f8f3712865cf7f0835f14f2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-120-0.5",
+      "status": "pass",
+      "original_payload_sha256": "941dd104d7973f9ab4f7a6c1c80a66efa994400ffb715977b1a42169f798427e",
+      "accepted_projection_sha256": "941dd104d7973f9ab4f7a6c1c80a66efa994400ffb715977b1a42169f798427e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-120-1",
+      "status": "pass",
+      "original_payload_sha256": "7d637bff8424663f554d93aea51fc49de5511d15bf2168b7a19d10a055118be7",
+      "accepted_projection_sha256": "7d637bff8424663f554d93aea51fc49de5511d15bf2168b7a19d10a055118be7",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-120-1.5",
+      "status": "pass",
+      "original_payload_sha256": "964311801f7c0b3fc6c86afd202fabe80925f23e1b87dda18ea0ab9b9fb280eb",
+      "accepted_projection_sha256": "964311801f7c0b3fc6c86afd202fabe80925f23e1b87dda18ea0ab9b9fb280eb",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-130-0.5",
+      "status": "pass",
+      "original_payload_sha256": "7f9ff41b56f314f2038193d933173d49f3571eb1edec80479ec55dc5f928fded",
+      "accepted_projection_sha256": "7f9ff41b56f314f2038193d933173d49f3571eb1edec80479ec55dc5f928fded",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-130-1",
+      "status": "pass",
+      "original_payload_sha256": "2531885a360507819d294557632cc908d8e7590344137f988a9f6ccbbdd341f9",
+      "accepted_projection_sha256": "2531885a360507819d294557632cc908d8e7590344137f988a9f6ccbbdd341f9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "reaction-130-1.5",
+      "status": "pass",
+      "original_payload_sha256": "90f4af6a6e95d8719bff0bc57fa37bde259f71aaa0231f1e504fcbdd078f1b7b",
+      "accepted_projection_sha256": "90f4af6a6e95d8719bff0bc57fa37bde259f71aaa0231f1e504fcbdd078f1b7b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-20-0.5",
+      "status": "pass",
+      "original_payload_sha256": "13dc04be6c91654181b27fdc7320e93889e189551c2675e1d3bbe0edd469257d",
+      "accepted_projection_sha256": "13dc04be6c91654181b27fdc7320e93889e189551c2675e1d3bbe0edd469257d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-20-1",
+      "status": "pass",
+      "original_payload_sha256": "c2e04fbff2cd4c4c01bc89470752233030985ef74a07d6ae2f5fea9290f847c4",
+      "accepted_projection_sha256": "c2e04fbff2cd4c4c01bc89470752233030985ef74a07d6ae2f5fea9290f847c4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-20-2",
+      "status": "pass",
+      "original_payload_sha256": "f19cc78142b7a8fd47e3869771c3e7ff88b07846a16fb45cbac85d8fad33d788",
+      "accepted_projection_sha256": "f19cc78142b7a8fd47e3869771c3e7ff88b07846a16fb45cbac85d8fad33d788",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-30-0.5",
+      "status": "pass",
+      "original_payload_sha256": "669054e4df49c0c80b80322eb02870e63bcca85ea8bd1066a44f9a561e2b1e9f",
+      "accepted_projection_sha256": "669054e4df49c0c80b80322eb02870e63bcca85ea8bd1066a44f9a561e2b1e9f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-30-1",
+      "status": "pass",
+      "original_payload_sha256": "010579f7178f364ebd483814662210b5953b7a038ac98824da499d18cf290783",
+      "accepted_projection_sha256": "010579f7178f364ebd483814662210b5953b7a038ac98824da499d18cf290783",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-30-2",
+      "status": "pass",
+      "original_payload_sha256": "ee23d2e76cff4b21a46964b347af32beecdcfc47e8fedda6f4974db446fd2c4b",
+      "accepted_projection_sha256": "ee23d2e76cff4b21a46964b347af32beecdcfc47e8fedda6f4974db446fd2c4b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-40-0.5",
+      "status": "pass",
+      "original_payload_sha256": "c6c9793d682ac2b3dcb1f20137da764d88733634a2efb1d2e31c1448fc1677c2",
+      "accepted_projection_sha256": "c6c9793d682ac2b3dcb1f20137da764d88733634a2efb1d2e31c1448fc1677c2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-40-1",
+      "status": "pass",
+      "original_payload_sha256": "1f7ebb6442e0694f4658786635cb01a837682263a040c3c8d6601a77b10ef17e",
+      "accepted_projection_sha256": "1f7ebb6442e0694f4658786635cb01a837682263a040c3c8d6601a77b10ef17e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-40-2",
+      "status": "pass",
+      "original_payload_sha256": "8cd07586b261713b644fba976c5889839fb742376af51e97e881fdfc959c2e45",
+      "accepted_projection_sha256": "8cd07586b261713b644fba976c5889839fb742376af51e97e881fdfc959c2e45",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-50-0.5",
+      "status": "pass",
+      "original_payload_sha256": "8f3a024b095ae62e0b21890247dbba1d799740379dee5cd0e84aba6f210e2696",
+      "accepted_projection_sha256": "8f3a024b095ae62e0b21890247dbba1d799740379dee5cd0e84aba6f210e2696",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-50-1",
+      "status": "pass",
+      "original_payload_sha256": "6f254c1b43537b1c8a041268fbf0ecb65b9cf3fb6970bbc4752f52f1fb013c48",
+      "accepted_projection_sha256": "6f254c1b43537b1c8a041268fbf0ecb65b9cf3fb6970bbc4752f52f1fb013c48",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-50-2",
+      "status": "pass",
+      "original_payload_sha256": "6f01d0680bf470a47ccb6cad1c2056a5f83ec7f06cbd921f844ce53184afd279",
+      "accepted_projection_sha256": "6f01d0680bf470a47ccb6cad1c2056a5f83ec7f06cbd921f844ce53184afd279",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-60-0.5",
+      "status": "pass",
+      "original_payload_sha256": "fbc18caf0729812b2b4a4917fd11316722d548bad0402515dad8033bfe012732",
+      "accepted_projection_sha256": "fbc18caf0729812b2b4a4917fd11316722d548bad0402515dad8033bfe012732",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-60-1",
+      "status": "pass",
+      "original_payload_sha256": "2f7fac59e6e9b80439c18b45ed52c453799ddfef81a05daa2ba7e36cf46c1903",
+      "accepted_projection_sha256": "2f7fac59e6e9b80439c18b45ed52c453799ddfef81a05daa2ba7e36cf46c1903",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-60-2",
+      "status": "pass",
+      "original_payload_sha256": "2907f232aa3f52329f10929625eaf5163c4d5b4bb7e64365510e115c4b2965e4",
+      "accepted_projection_sha256": "2907f232aa3f52329f10929625eaf5163c4d5b4bb7e64365510e115c4b2965e4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-70-0.5",
+      "status": "pass",
+      "original_payload_sha256": "d9e30451b130ed8efc08feb17a19ab24a1535a86a7bb2da3757890022567c33b",
+      "accepted_projection_sha256": "d9e30451b130ed8efc08feb17a19ab24a1535a86a7bb2da3757890022567c33b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-70-1",
+      "status": "pass",
+      "original_payload_sha256": "7bcd68ff4c2acd936be0932e0752ecbc78e9c0665594d829e926f9af347a6c57",
+      "accepted_projection_sha256": "7bcd68ff4c2acd936be0932e0752ecbc78e9c0665594d829e926f9af347a6c57",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-70-2",
+      "status": "pass",
+      "original_payload_sha256": "c50e7c234871b1b8a12eca5afec530b9595f40da30ee208facac560278b58ff4",
+      "accepted_projection_sha256": "c50e7c234871b1b8a12eca5afec530b9595f40da30ee208facac560278b58ff4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-80-0.5",
+      "status": "pass",
+      "original_payload_sha256": "b7f79f80e2a52e768c2b38d981ba1089582e0624c4f08dea777bd4ba04f93e77",
+      "accepted_projection_sha256": "b7f79f80e2a52e768c2b38d981ba1089582e0624c4f08dea777bd4ba04f93e77",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-80-1",
+      "status": "pass",
+      "original_payload_sha256": "d7a89ac36d83fa93db69fb7018685c549a531b24752b011dd13342bfad56a725",
+      "accepted_projection_sha256": "d7a89ac36d83fa93db69fb7018685c549a531b24752b011dd13342bfad56a725",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-80-2",
+      "status": "pass",
+      "original_payload_sha256": "386f74a9a49abff648a6953cfed36e35c36203cf8098cd080ef31b77b8d6d706",
+      "accepted_projection_sha256": "386f74a9a49abff648a6953cfed36e35c36203cf8098cd080ef31b77b8d6d706",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-90-0.5",
+      "status": "pass",
+      "original_payload_sha256": "00052f44750c64df9294c0f97fd4257dc28fa25abbdb50a143f1e8d0fef2b5b2",
+      "accepted_projection_sha256": "00052f44750c64df9294c0f97fd4257dc28fa25abbdb50a143f1e8d0fef2b5b2",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-90-1",
+      "status": "pass",
+      "original_payload_sha256": "f82aca1dbf9bd041e6adf079a17ab87cbec7724a24009923de805541956bcb36",
+      "accepted_projection_sha256": "f82aca1dbf9bd041e6adf079a17ab87cbec7724a24009923de805541956bcb36",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-90-2",
+      "status": "pass",
+      "original_payload_sha256": "8a3937bd5258a8e9ee5349ba1a1a6105aeaec3c8edd42300d6239fc00e13f999",
+      "accepted_projection_sha256": "8a3937bd5258a8e9ee5349ba1a1a6105aeaec3c8edd42300d6239fc00e13f999",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-100-0.5",
+      "status": "pass",
+      "original_payload_sha256": "22c1c9e18726899d1abe14c9700be7aca74a8b0f8f288189044904a2424ad416",
+      "accepted_projection_sha256": "22c1c9e18726899d1abe14c9700be7aca74a8b0f8f288189044904a2424ad416",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-100-1",
+      "status": "pass",
+      "original_payload_sha256": "26399900047f6815a8411dabf9ce4f964deda540722486cf87b91fbb201c08bc",
+      "accepted_projection_sha256": "26399900047f6815a8411dabf9ce4f964deda540722486cf87b91fbb201c08bc",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-100-2",
+      "status": "pass",
+      "original_payload_sha256": "f8e68ccf9294dbb48c17592ade5e061e96fb0905aeabb3495dccceb515f7bc27",
+      "accepted_projection_sha256": "f8e68ccf9294dbb48c17592ade5e061e96fb0905aeabb3495dccceb515f7bc27",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-110-0.5",
+      "status": "pass",
+      "original_payload_sha256": "b5fee29a04427f27f145155083672d1fde3a9d8f86b45b0c11a601e237ec4037",
+      "accepted_projection_sha256": "b5fee29a04427f27f145155083672d1fde3a9d8f86b45b0c11a601e237ec4037",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-110-1",
+      "status": "pass",
+      "original_payload_sha256": "6b0822087bda3541d9963b969f7ad9d88612b56a4915e7deb66395c1805d9a7f",
+      "accepted_projection_sha256": "6b0822087bda3541d9963b969f7ad9d88612b56a4915e7deb66395c1805d9a7f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "stopping-110-2",
+      "status": "pass",
+      "original_payload_sha256": "2c809684848a62cba0f4f775acc00abcfd6440111e353b6849d160b269f86597",
+      "accepted_projection_sha256": "2c809684848a62cba0f4f775acc00abcfd6440111e353b6849d160b269f86597",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-5-2",
+      "status": "pass",
+      "original_payload_sha256": "c2eb14900ec32ad472c0c1f1c6f2c776191c8884ead2e0e6451124a12df24500",
+      "accepted_projection_sha256": "c2eb14900ec32ad472c0c1f1c6f2c776191c8884ead2e0e6451124a12df24500",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-5-3",
+      "status": "pass",
+      "original_payload_sha256": "60ccd7e627ce410b215bdc6393bd73c9e201e7491c2e27d45412127f26ee30e9",
+      "accepted_projection_sha256": "60ccd7e627ce410b215bdc6393bd73c9e201e7491c2e27d45412127f26ee30e9",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-8-2",
+      "status": "pass",
+      "original_payload_sha256": "fff3181cad8cd4d57cc6c04f1fd1fb47ec6dccf6cd81e52de37b0020a668a5c3",
+      "accepted_projection_sha256": "fff3181cad8cd4d57cc6c04f1fd1fb47ec6dccf6cd81e52de37b0020a668a5c3",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-8-3",
+      "status": "pass",
+      "original_payload_sha256": "0bf09ea94d4044b9b1fb951d95265db48c732b5681e20eb1d514257ca5503557",
+      "accepted_projection_sha256": "0bf09ea94d4044b9b1fb951d95265db48c732b5681e20eb1d514257ca5503557",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-10-2",
+      "status": "pass",
+      "original_payload_sha256": "6c056ad857aca2bafb6c2802174b7513f6c9519e445232372188b26b86f36754",
+      "accepted_projection_sha256": "6c056ad857aca2bafb6c2802174b7513f6c9519e445232372188b26b86f36754",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-10-3",
+      "status": "pass",
+      "original_payload_sha256": "c37b1d39f4066acfe1cba5bb51ecfe2b4d25ce900f7e9d963a98008cacc21b6e",
+      "accepted_projection_sha256": "c37b1d39f4066acfe1cba5bb51ecfe2b4d25ce900f7e9d963a98008cacc21b6e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-12-2",
+      "status": "pass",
+      "original_payload_sha256": "a9d1684c0d86c6d3ff8ee8b71861dcda687fd181afdc5d91b6ffa84898b1122e",
+      "accepted_projection_sha256": "a9d1684c0d86c6d3ff8ee8b71861dcda687fd181afdc5d91b6ffa84898b1122e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-12-3",
+      "status": "pass",
+      "original_payload_sha256": "6bdba804bb9122b354a57db6489b58397f5710b63e33dfa930e53c4c11c2f199",
+      "accepted_projection_sha256": "6bdba804bb9122b354a57db6489b58397f5710b63e33dfa930e53c4c11c2f199",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-15-2",
+      "status": "pass",
+      "original_payload_sha256": "4528410e18f1a1756b25c3d84fd315b94ced81430b0f078e87ac60daa9c810cc",
+      "accepted_projection_sha256": "4528410e18f1a1756b25c3d84fd315b94ced81430b0f078e87ac60daa9c810cc",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-15-3",
+      "status": "pass",
+      "original_payload_sha256": "2a5fac1b61d071059b514e32a9d8b5156877f8179b0062ce24232c25ffd2fc6e",
+      "accepted_projection_sha256": "2a5fac1b61d071059b514e32a9d8b5156877f8179b0062ce24232c25ffd2fc6e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-18-2",
+      "status": "pass",
+      "original_payload_sha256": "6bc8e0a420f9866a97bdc763281fefbdc98e7125a578f08b7632674dd13ae26f",
+      "accepted_projection_sha256": "6bc8e0a420f9866a97bdc763281fefbdc98e7125a578f08b7632674dd13ae26f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-18-3",
+      "status": "pass",
+      "original_payload_sha256": "1881750f55a1f1856f844054de416d0d24373f3ec42765203b6b009489b65fc1",
+      "accepted_projection_sha256": "1881750f55a1f1856f844054de416d0d24373f3ec42765203b6b009489b65fc1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-20-2",
+      "status": "pass",
+      "original_payload_sha256": "970cf7705021e9848231a6b69b0e7e3f86cd711e372534e107ff0f1439f2126e",
+      "accepted_projection_sha256": "970cf7705021e9848231a6b69b0e7e3f86cd711e372534e107ff0f1439f2126e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-20-3",
+      "status": "pass",
+      "original_payload_sha256": "0db0e70f1b3205dcad5b9e0fb00715219b075fd5e644b1e86592d0b030113258",
+      "accepted_projection_sha256": "0db0e70f1b3205dcad5b9e0fb00715219b075fd5e644b1e86592d0b030113258",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-25-2",
+      "status": "pass",
+      "original_payload_sha256": "04eee8fdfe53560dae25e801cb204c2164c46e57c9cf517b1fe65fe5841d8140",
+      "accepted_projection_sha256": "04eee8fdfe53560dae25e801cb204c2164c46e57c9cf517b1fe65fe5841d8140",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-25-3",
+      "status": "pass",
+      "original_payload_sha256": "fe467afd5d5a17a77019e8d80882334c7e477041d985c67b0b3c1dd32c7beb1a",
+      "accepted_projection_sha256": "fe467afd5d5a17a77019e8d80882334c7e477041d985c67b0b3c1dd32c7beb1a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-30-2",
+      "status": "pass",
+      "original_payload_sha256": "757802db1da15e95e0e3098a05f509534171e4b9d5c07cf2b35436f3adebf442",
+      "accepted_projection_sha256": "757802db1da15e95e0e3098a05f509534171e4b9d5c07cf2b35436f3adebf442",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-30-3",
+      "status": "pass",
+      "original_payload_sha256": "3f663cba7c9e1ae8a91f167663bffc7933b1831aff7b20b804a164ac01cfd693",
+      "accepted_projection_sha256": "3f663cba7c9e1ae8a91f167663bffc7933b1831aff7b20b804a164ac01cfd693",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-35-2",
+      "status": "pass",
+      "original_payload_sha256": "7fcc49a04f70d77f738507d16ad5e7cd9d4483531cf7c2e39f805be2ca4839ad",
+      "accepted_projection_sha256": "7fcc49a04f70d77f738507d16ad5e7cd9d4483531cf7c2e39f805be2ca4839ad",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "braking-35-3",
+      "status": "pass",
+      "original_payload_sha256": "526c661173ef3c5b223d673c413a32d43399eb4a3a68390c9e11c4e570167f58",
+      "accepted_projection_sha256": "526c661173ef3c5b223d673c413a32d43399eb4a3a68390c9e11c4e570167f58",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-30-3",
+      "status": "pass",
+      "original_payload_sha256": "e3128953e8a330f355cf1be93d38a5cf2a9573f0576660214f7302a5d3ae884d",
+      "accepted_projection_sha256": "e3128953e8a330f355cf1be93d38a5cf2a9573f0576660214f7302a5d3ae884d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-30-4",
+      "status": "pass",
+      "original_payload_sha256": "14b29079170460bd766576fb1b77891bc8edae083b6a64cca4d8ed5438999369",
+      "accepted_projection_sha256": "14b29079170460bd766576fb1b77891bc8edae083b6a64cca4d8ed5438999369",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-40-3",
+      "status": "pass",
+      "original_payload_sha256": "fe003da7c2568858bd758d1c51e976d59196a29b0d984156de96ede73cc493bd",
+      "accepted_projection_sha256": "fe003da7c2568858bd758d1c51e976d59196a29b0d984156de96ede73cc493bd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-40-4",
+      "status": "pass",
+      "original_payload_sha256": "02d54867d6e476cfd842bca0106c0a45a840af8cab85df686a4d4085f20d93c1",
+      "accepted_projection_sha256": "02d54867d6e476cfd842bca0106c0a45a840af8cab85df686a4d4085f20d93c1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-50-3",
+      "status": "pass",
+      "original_payload_sha256": "25312a9ba33a6431477f01b210b81f791e33cc78ec6b1c80208f00214ddc791d",
+      "accepted_projection_sha256": "25312a9ba33a6431477f01b210b81f791e33cc78ec6b1c80208f00214ddc791d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-50-4",
+      "status": "pass",
+      "original_payload_sha256": "08484fa4045980e41401e13ed0045f59f7ee1fe27d14368347d72b14fd23610b",
+      "accepted_projection_sha256": "08484fa4045980e41401e13ed0045f59f7ee1fe27d14368347d72b14fd23610b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-60-3",
+      "status": "pass",
+      "original_payload_sha256": "aaf9407ee327d4ef65362175b35b3df87f4f438c7f813359494a23b6f15a2f67",
+      "accepted_projection_sha256": "aaf9407ee327d4ef65362175b35b3df87f4f438c7f813359494a23b6f15a2f67",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-60-4",
+      "status": "pass",
+      "original_payload_sha256": "ec45797b34bb93d17ca50f96f287550ce37d25ef47edeca0003be6c80076763c",
+      "accepted_projection_sha256": "ec45797b34bb93d17ca50f96f287550ce37d25ef47edeca0003be6c80076763c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-70-3",
+      "status": "pass",
+      "original_payload_sha256": "8cd7ef3482debbbc92cb9da606212269f3b4cebc9c34fe3ded33766606f70820",
+      "accepted_projection_sha256": "8cd7ef3482debbbc92cb9da606212269f3b4cebc9c34fe3ded33766606f70820",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-70-4",
+      "status": "pass",
+      "original_payload_sha256": "99a3fd3b77de5bb9cee7b1bff354e8dbbc3552b0c6e41e7fdec0526b0c681849",
+      "accepted_projection_sha256": "99a3fd3b77de5bb9cee7b1bff354e8dbbc3552b0c6e41e7fdec0526b0c681849",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-80-3",
+      "status": "pass",
+      "original_payload_sha256": "320a8b33348d90d1133ef8ad1b4462b67a9ec370a86b9ac33a5f096bbe9d1584",
+      "accepted_projection_sha256": "320a8b33348d90d1133ef8ad1b4462b67a9ec370a86b9ac33a5f096bbe9d1584",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-80-4",
+      "status": "pass",
+      "original_payload_sha256": "d71b1116800c27e5ebb49cf1fc09facc41f7c78153273d544ea6dbbc92532c12",
+      "accepted_projection_sha256": "d71b1116800c27e5ebb49cf1fc09facc41f7c78153273d544ea6dbbc92532c12",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-90-3",
+      "status": "pass",
+      "original_payload_sha256": "ff013b3fb2696de035a2b8da6832a6f9d079d7ab7d02e636f46cf941389fba59",
+      "accepted_projection_sha256": "ff013b3fb2696de035a2b8da6832a6f9d079d7ab7d02e636f46cf941389fba59",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-90-4",
+      "status": "pass",
+      "original_payload_sha256": "4ce04094dfc7b287b42b3bd35655769447cb91ddf493dabd9af7eb40fddea95f",
+      "accepted_projection_sha256": "4ce04094dfc7b287b42b3bd35655769447cb91ddf493dabd9af7eb40fddea95f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-100-3",
+      "status": "pass",
+      "original_payload_sha256": "54d48a9a7e56345c8f9c5cb88b073a19bc175276f77cdf1b4289897e8b6dc236",
+      "accepted_projection_sha256": "54d48a9a7e56345c8f9c5cb88b073a19bc175276f77cdf1b4289897e8b6dc236",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-100-4",
+      "status": "pass",
+      "original_payload_sha256": "8bf11c910f6bb503d192f006b6a50ad43d2372da34913708a7caae94a6e40a02",
+      "accepted_projection_sha256": "8bf11c910f6bb503d192f006b6a50ad43d2372da34913708a7caae94a6e40a02",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-110-3",
+      "status": "pass",
+      "original_payload_sha256": "f6d412a98b3cd7c918d0ffbe80c7437c882f605280c9efff0a6570fe10d01527",
+      "accepted_projection_sha256": "f6d412a98b3cd7c918d0ffbe80c7437c882f605280c9efff0a6570fe10d01527",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-110-4",
+      "status": "pass",
+      "original_payload_sha256": "733a85c2b480059500e27e5d3cc6ddb7715184bfa8a22002c6614c2cea81c446",
+      "accepted_projection_sha256": "733a85c2b480059500e27e5d3cc6ddb7715184bfa8a22002c6614c2cea81c446",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-120-3",
+      "status": "pass",
+      "original_payload_sha256": "7e48ee61f66b3bfddfb056eac8bfaaf6e8e9dfe33af4389c059a0555e36ec6ba",
+      "accepted_projection_sha256": "7e48ee61f66b3bfddfb056eac8bfaaf6e8e9dfe33af4389c059a0555e36ec6ba",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "gap-120-4",
+      "status": "pass",
+      "original_payload_sha256": "884abd7f486f5310cd324508efa5b2d46941b0c0620d5645d39264cb4e152902",
+      "accepted_projection_sha256": "884abd7f486f5310cd324508efa5b2d46941b0c0620d5645d39264cb4e152902",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-8-7",
+      "status": "pass",
+      "original_payload_sha256": "0b66442f0986cd1ec04165f8ee0da5dd62daa04d0d56743ee086baa60ed08a92",
+      "accepted_projection_sha256": "0b66442f0986cd1ec04165f8ee0da5dd62daa04d0d56743ee086baa60ed08a92",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-8-24",
+      "status": "pass",
+      "original_payload_sha256": "cb77c9268c9a77ac956dc3ab5978ef76d5fb01dbece98b6d31e5c135c11abc80",
+      "accepted_projection_sha256": "cb77c9268c9a77ac956dc3ab5978ef76d5fb01dbece98b6d31e5c135c11abc80",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-8-43",
+      "status": "pass",
+      "original_payload_sha256": "d24f5bf6c319a099c8564a62f19ec18965a4d621ad32954121057b11bad2a014",
+      "accepted_projection_sha256": "d24f5bf6c319a099c8564a62f19ec18965a4d621ad32954121057b11bad2a014",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-9-7",
+      "status": "pass",
+      "original_payload_sha256": "e977edda49e88b881678b7674a198946f0efa0a62e4ac9f941fbb2bace1920bd",
+      "accepted_projection_sha256": "e977edda49e88b881678b7674a198946f0efa0a62e4ac9f941fbb2bace1920bd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-9-24",
+      "status": "pass",
+      "original_payload_sha256": "9c9e756a31cab6c79c84d6d4e17580f72d664adc14ba30823e85e82cb7602fa6",
+      "accepted_projection_sha256": "9c9e756a31cab6c79c84d6d4e17580f72d664adc14ba30823e85e82cb7602fa6",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-9-43",
+      "status": "pass",
+      "original_payload_sha256": "46c5bb8f08692fe241b2c906d26e424f6c588877b8e4e16ce78b5afa2229aee1",
+      "accepted_projection_sha256": "46c5bb8f08692fe241b2c906d26e424f6c588877b8e4e16ce78b5afa2229aee1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-10-7",
+      "status": "pass",
+      "original_payload_sha256": "a690ea0193aa4c387fdc66644cef2fbffaad02f5a8ff153c8e4ae2229d30cdc5",
+      "accepted_projection_sha256": "a690ea0193aa4c387fdc66644cef2fbffaad02f5a8ff153c8e4ae2229d30cdc5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-10-24",
+      "status": "pass",
+      "original_payload_sha256": "bdf1d5788848b17765dc9246047498b3bc07856cf6d0264aa2040e3360de0204",
+      "accepted_projection_sha256": "bdf1d5788848b17765dc9246047498b3bc07856cf6d0264aa2040e3360de0204",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-10-43",
+      "status": "pass",
+      "original_payload_sha256": "e1c28c233e942b9a8a420906d89def657bc1ed37823f568f647149327c88a49b",
+      "accepted_projection_sha256": "e1c28c233e942b9a8a420906d89def657bc1ed37823f568f647149327c88a49b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-11-7",
+      "status": "pass",
+      "original_payload_sha256": "ad063dff416805b02063c9b07e28ae5f1e6a8057e6b10a153b689db7020d793e",
+      "accepted_projection_sha256": "ad063dff416805b02063c9b07e28ae5f1e6a8057e6b10a153b689db7020d793e",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-11-24",
+      "status": "pass",
+      "original_payload_sha256": "dd916cf25cc59f60354bd4e275bd536c92da6e46f7eb4d937c1eee25d53cb582",
+      "accepted_projection_sha256": "dd916cf25cc59f60354bd4e275bd536c92da6e46f7eb4d937c1eee25d53cb582",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-11-43",
+      "status": "pass",
+      "original_payload_sha256": "4046c10fb16592e21b021d87108caddc3edc0db596a28e3addbf4a15f66c5b01",
+      "accepted_projection_sha256": "4046c10fb16592e21b021d87108caddc3edc0db596a28e3addbf4a15f66c5b01",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-12-7",
+      "status": "pass",
+      "original_payload_sha256": "bb4ce1222c072dcd177807a07f39eeb607e22422ae5fdc985bde8032b3c666ed",
+      "accepted_projection_sha256": "bb4ce1222c072dcd177807a07f39eeb607e22422ae5fdc985bde8032b3c666ed",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-12-24",
+      "status": "pass",
+      "original_payload_sha256": "b45fd81e456e28a6302efcac88557c0e1b7a663d7acb716392e483079d292c91",
+      "accepted_projection_sha256": "b45fd81e456e28a6302efcac88557c0e1b7a663d7acb716392e483079d292c91",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-12-43",
+      "status": "pass",
+      "original_payload_sha256": "392a184c8c0a8e4495f50b9cdcc78636a0f711b8590545463a8a40e776d72776",
+      "accepted_projection_sha256": "392a184c8c0a8e4495f50b9cdcc78636a0f711b8590545463a8a40e776d72776",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-13-7",
+      "status": "pass",
+      "original_payload_sha256": "b338792d6dcbc8ed8bc72e5f479e09fd047c1e2bcaf682f01d37a1ed2d65c7cb",
+      "accepted_projection_sha256": "b338792d6dcbc8ed8bc72e5f479e09fd047c1e2bcaf682f01d37a1ed2d65c7cb",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-13-24",
+      "status": "pass",
+      "original_payload_sha256": "73f855dfcf65933eaddf25379dff8d0ad351d340594e7b0500095331accc0814",
+      "accepted_projection_sha256": "73f855dfcf65933eaddf25379dff8d0ad351d340594e7b0500095331accc0814",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-13-43",
+      "status": "pass",
+      "original_payload_sha256": "50a9f263e724aad0da0b6723a0d650c1083cfba540302896813a7b0425c20624",
+      "accepted_projection_sha256": "50a9f263e724aad0da0b6723a0d650c1083cfba540302896813a7b0425c20624",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-14-7",
+      "status": "pass",
+      "original_payload_sha256": "1c938f0dc9c2832a95770a0a94261363adeabab5702b2c7737e8430312737c9f",
+      "accepted_projection_sha256": "1c938f0dc9c2832a95770a0a94261363adeabab5702b2c7737e8430312737c9f",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-14-24",
+      "status": "pass",
+      "original_payload_sha256": "3655f2ebc6575b9977c297bc9a6d342e02e87eb372e1b43607795af97c2c632a",
+      "accepted_projection_sha256": "3655f2ebc6575b9977c297bc9a6d342e02e87eb372e1b43607795af97c2c632a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-14-43",
+      "status": "pass",
+      "original_payload_sha256": "0c085b0872c8114c4d985b88c6bd396f2ea8e239a66e5d4a0533b5d2957233ec",
+      "accepted_projection_sha256": "0c085b0872c8114c4d985b88c6bd396f2ea8e239a66e5d4a0533b5d2957233ec",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-15-7",
+      "status": "pass",
+      "original_payload_sha256": "aaef11a49f21ddbb34af49c783efdf02901c8787c5d241c3b2b33527802f1ac1",
+      "accepted_projection_sha256": "aaef11a49f21ddbb34af49c783efdf02901c8787c5d241c3b2b33527802f1ac1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-15-24",
+      "status": "pass",
+      "original_payload_sha256": "96a51629c967c274b61eb649cd4a1dd1ae61aac93c9520ce2a3684d313d04269",
+      "accepted_projection_sha256": "96a51629c967c274b61eb649cd4a1dd1ae61aac93c9520ce2a3684d313d04269",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-15-43",
+      "status": "pass",
+      "original_payload_sha256": "d596e15397db086bca3f639e8e56d6a6ab2bc3c185dd254393ce9fc2f931b4ca",
+      "accepted_projection_sha256": "d596e15397db086bca3f639e8e56d6a6ab2bc3c185dd254393ce9fc2f931b4ca",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-16-7",
+      "status": "pass",
+      "original_payload_sha256": "ac246cf2771a26658592aa0a7f818ba7402e2bdba3267ca55d4738ec53505cf3",
+      "accepted_projection_sha256": "ac246cf2771a26658592aa0a7f818ba7402e2bdba3267ca55d4738ec53505cf3",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-16-24",
+      "status": "pass",
+      "original_payload_sha256": "cbaf35f97c9265975052ab15a577b0609643a2a572c1674e54a0e19a5945d6ee",
+      "accepted_projection_sha256": "cbaf35f97c9265975052ab15a577b0609643a2a572c1674e54a0e19a5945d6ee",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-16-43",
+      "status": "pass",
+      "original_payload_sha256": "e6d38fe708afb6efbb09ceb725642772d6dc2e61645f3645f6fd3306edd3bc92",
+      "accepted_projection_sha256": "e6d38fe708afb6efbb09ceb725642772d6dc2e61645f3645f6fd3306edd3bc92",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-17-7",
+      "status": "pass",
+      "original_payload_sha256": "3d9726a165d92fd68f9ccbceb195f04504591ac51f33d4d5c1ede02f6b6e8f37",
+      "accepted_projection_sha256": "3d9726a165d92fd68f9ccbceb195f04504591ac51f33d4d5c1ede02f6b6e8f37",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-17-24",
+      "status": "pass",
+      "original_payload_sha256": "9f2692faaf5e000fd8c440bf608ca21242fa77e2385f3cf43401fbcba036111a",
+      "accepted_projection_sha256": "9f2692faaf5e000fd8c440bf608ca21242fa77e2385f3cf43401fbcba036111a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "disc-17-43",
+      "status": "pass",
+      "original_payload_sha256": "6fb4b4dbf5ec399fc6d054aa99e541b5127d69b196deee469026a4822cfad608",
+      "accepted_projection_sha256": "6fb4b4dbf5ec399fc6d054aa99e541b5127d69b196deee469026a4822cfad608",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-40-6",
+      "status": "pass",
+      "original_payload_sha256": "755b174954a9a9631fa843d3668f2458c308ebe820ac1fa335369caa334ddfff",
+      "accepted_projection_sha256": "755b174954a9a9631fa843d3668f2458c308ebe820ac1fa335369caa334ddfff",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-40-7",
+      "status": "pass",
+      "original_payload_sha256": "bf7be0dac90bb269c0877746bbec5844e2514e36a1d10f6ebcb5ddbd06d39f90",
+      "accepted_projection_sha256": "bf7be0dac90bb269c0877746bbec5844e2514e36a1d10f6ebcb5ddbd06d39f90",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-40-8",
+      "status": "pass",
+      "original_payload_sha256": "329474dc99797f1d4867c4826f947900b712d4f5224d3cd949ad43eb86823086",
+      "accepted_projection_sha256": "329474dc99797f1d4867c4826f947900b712d4f5224d3cd949ad43eb86823086",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-60-5",
+      "status": "pass",
+      "original_payload_sha256": "41dda5e9a26477a59235ff9df2b38bac6f4dd78bbc977f211600a504cb6876ec",
+      "accepted_projection_sha256": "41dda5e9a26477a59235ff9df2b38bac6f4dd78bbc977f211600a504cb6876ec",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-60-6",
+      "status": "pass",
+      "original_payload_sha256": "5fceff41414085684f2e959bcc88c50d1a1af763c0a246bbd40ca10155701d47",
+      "accepted_projection_sha256": "5fceff41414085684f2e959bcc88c50d1a1af763c0a246bbd40ca10155701d47",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-60-7",
+      "status": "pass",
+      "original_payload_sha256": "1a53da350e8a052f7b3f8f0fca1f8c392155ccff2d8eba8e7d65fb2c760d8964",
+      "accepted_projection_sha256": "1a53da350e8a052f7b3f8f0fca1f8c392155ccff2d8eba8e7d65fb2c760d8964",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-60-8",
+      "status": "pass",
+      "original_payload_sha256": "a6a4f8316268f8da0ecf88769addef318dcf5a5c09b817ac8aac7f04c43a3922",
+      "accepted_projection_sha256": "a6a4f8316268f8da0ecf88769addef318dcf5a5c09b817ac8aac7f04c43a3922",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-80-5",
+      "status": "pass",
+      "original_payload_sha256": "76ecf4e360256f9f910fb246dcd33c72bb679df9deadfac4c7ecc26c0fd20031",
+      "accepted_projection_sha256": "76ecf4e360256f9f910fb246dcd33c72bb679df9deadfac4c7ecc26c0fd20031",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-80-6",
+      "status": "pass",
+      "original_payload_sha256": "30d80b4d1732b91afb99d203512b6b166d99f6a5b9cda184bce95d45a7ef9b40",
+      "accepted_projection_sha256": "30d80b4d1732b91afb99d203512b6b166d99f6a5b9cda184bce95d45a7ef9b40",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-80-7",
+      "status": "pass",
+      "original_payload_sha256": "51b6c0f085053076dd0c907bc9d9ddd700fc82c3eadb7654f536a5d5e383495b",
+      "accepted_projection_sha256": "51b6c0f085053076dd0c907bc9d9ddd700fc82c3eadb7654f536a5d5e383495b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-80-8",
+      "status": "pass",
+      "original_payload_sha256": "cb848333db09aad2acda35bdf4a594006c622e3c24de629b016f8222f2032902",
+      "accepted_projection_sha256": "cb848333db09aad2acda35bdf4a594006c622e3c24de629b016f8222f2032902",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-100-5",
+      "status": "pass",
+      "original_payload_sha256": "6a223a3aa2b7b27835425db554a61b3656912f13f293da9b07f64b6dab4cab68",
+      "accepted_projection_sha256": "6a223a3aa2b7b27835425db554a61b3656912f13f293da9b07f64b6dab4cab68",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-100-6",
+      "status": "pass",
+      "original_payload_sha256": "54b45c6b7c2431715142f0b47375a4a529695f1de01121e19cf2a34c97813f29",
+      "accepted_projection_sha256": "54b45c6b7c2431715142f0b47375a4a529695f1de01121e19cf2a34c97813f29",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-100-7",
+      "status": "pass",
+      "original_payload_sha256": "de1975c240bc44769bd632a3874fcbbd398f30d92dd9d2a9e07245e9e019c727",
+      "accepted_projection_sha256": "de1975c240bc44769bd632a3874fcbbd398f30d92dd9d2a9e07245e9e019c727",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-100-8",
+      "status": "pass",
+      "original_payload_sha256": "71c6750d9a1c90b09e2246521ed1b02997dd22a79108bb9b67b7566d6f38abd1",
+      "accepted_projection_sha256": "71c6750d9a1c90b09e2246521ed1b02997dd22a79108bb9b67b7566d6f38abd1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-120-5",
+      "status": "pass",
+      "original_payload_sha256": "6ade404696bcdc2642ff24995e9c21f39325747e40e2f81fa0372acb6332368a",
+      "accepted_projection_sha256": "6ade404696bcdc2642ff24995e9c21f39325747e40e2f81fa0372acb6332368a",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-120-6",
+      "status": "pass",
+      "original_payload_sha256": "ca60fe74637dbe3701aa0e0e5ac6a1beb5b3afc32eb1ae1860c37397f2960fc4",
+      "accepted_projection_sha256": "ca60fe74637dbe3701aa0e0e5ac6a1beb5b3afc32eb1ae1860c37397f2960fc4",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-120-7",
+      "status": "pass",
+      "original_payload_sha256": "92e6ee86a6f913ef5299f6842503ceaa6126b2df516c591cffe049ac4eefc130",
+      "accepted_projection_sha256": "92e6ee86a6f913ef5299f6842503ceaa6126b2df516c591cffe049ac4eefc130",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-120-8",
+      "status": "pass",
+      "original_payload_sha256": "96d72859b29631b6385a3fbb5bc67d670b8410e905cf7089539c4208902abb62",
+      "accepted_projection_sha256": "96d72859b29631b6385a3fbb5bc67d670b8410e905cf7089539c4208902abb62",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-100-1.5",
+      "status": "pass",
+      "original_payload_sha256": "9ae6adee9f56642e34a2bb328b3cefed00d382f625e259dc5dbb0e78651f5d20",
+      "accepted_projection_sha256": "9ae6adee9f56642e34a2bb328b3cefed00d382f625e259dc5dbb0e78651f5d20",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-150-1",
+      "status": "pass",
+      "original_payload_sha256": "8badb0cc0e4e71fd4cd6882dc513181eabe4bb7cf8402852d9b5deb19752562d",
+      "accepted_projection_sha256": "8badb0cc0e4e71fd4cd6882dc513181eabe4bb7cf8402852d9b5deb19752562d",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-150-2",
+      "status": "pass",
+      "original_payload_sha256": "19de87fe91144778eb55663dd79c01227ce51755f22950f88fd79c0410879f9c",
+      "accepted_projection_sha256": "19de87fe91144778eb55663dd79c01227ce51755f22950f88fd79c0410879f9c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-200-1.5",
+      "status": "pass",
+      "original_payload_sha256": "9badeccd2d8947921be9683362cfab9c240a1c963d6612cbe84b0416821d9e81",
+      "accepted_projection_sha256": "9badeccd2d8947921be9683362cfab9c240a1c963d6612cbe84b0416821d9e81",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-200-2",
+      "status": "pass",
+      "original_payload_sha256": "0ff85e6d0e5bfe995910c2cb76454fba96a6127f2ad2778579bbe887f2f51f7c",
+      "accepted_projection_sha256": "0ff85e6d0e5bfe995910c2cb76454fba96a6127f2ad2778579bbe887f2f51f7c",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-250-1",
+      "status": "pass",
+      "original_payload_sha256": "60feea987441398ea5a9dc7891f60613a93f2258510c516f68cd17714908f587",
+      "accepted_projection_sha256": "60feea987441398ea5a9dc7891f60613a93f2258510c516f68cd17714908f587",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-250-2",
+      "status": "pass",
+      "original_payload_sha256": "2ee37b66401c2cd0c8c671ffb266ebe17da85d27790cb01a7672a6d9261cdac1",
+      "accepted_projection_sha256": "2ee37b66401c2cd0c8c671ffb266ebe17da85d27790cb01a7672a6d9261cdac1",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-300-0.5",
+      "status": "pass",
+      "original_payload_sha256": "18c3d480ad1a9ddc4925201a2b44474f94233e931848c033d67fc5932267eadd",
+      "accepted_projection_sha256": "18c3d480ad1a9ddc4925201a2b44474f94233e931848c033d67fc5932267eadd",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-300-1",
+      "status": "pass",
+      "original_payload_sha256": "ceb40d586652089bc57ec7032d7316134d96db52519eb5b46afed85de8b1d7e5",
+      "accepted_projection_sha256": "ceb40d586652089bc57ec7032d7316134d96db52519eb5b46afed85de8b1d7e5",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-300-1.5",
+      "status": "pass",
+      "original_payload_sha256": "4d7fa49e21f09b554a20bfd0b6e6e3c5d3d91348ad9a71b3d15575a6770ac995",
+      "accepted_projection_sha256": "4d7fa49e21f09b554a20bfd0b6e6e3c5d3d91348ad9a71b3d15575a6770ac995",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    },
+    {
+      "question_id": "fuel-saving-300-2",
+      "status": "pass",
+      "original_payload_sha256": "bebcee4aae567db9d9ad2d034a274fdf8304933ba64a7e64ea61b1b182a78d5b",
+      "accepted_projection_sha256": "bebcee4aae567db9d9ad2d034a274fdf8304933ba64a7e64ea61b1b182a78d5b",
+      "routing_provenance": "Approved canonical teaching/source/acceptance metadata compared separately; not part of legacy text payload."
+    }
+  ]
+}

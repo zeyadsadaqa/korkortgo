@@ -1,0 +1,29 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10E1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.QuestionContract10ETest"
+    ],
+    "log": "compiled-question-test.txt",
+    "log_sha256": "b4bc518c12578b5e0d0d82990f3613c3ae62eb38141c5dac0a18582b03618a2f",
+    "exit_code": 0,
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10E1/audit_questions.py"
+    ],
+    "log": "audit-run.txt",
+    "log_sha256": "b31698e7e0936a23dc241a4902ae2ff0857f6b4f7d56b79b459f1410f881b04d",
+    "exit_code": 0
+  }
+]
