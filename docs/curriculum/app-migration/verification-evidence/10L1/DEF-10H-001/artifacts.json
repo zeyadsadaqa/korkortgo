@@ -1,0 +1,29 @@
+{
+  "batch": "DEF-10H-001",
+  "files": [
+    {
+      "path": "defect-triage.md",
+      "sha256": "242ec48537999ff6e06d7521666422338cc0fc522a133e5618923ee8cbbe075d",
+      "bytes": 1604
+    },
+    {
+      "path": "defects.json",
+      "sha256": "dd44ccf00d19d0d76553af13a32cb188f4c6d2d70aa9e7603eb647cee21a98b6",
+      "bytes": 61811
+    },
+    {
+      "path": "entry-candidate.json",
+      "sha256": "d3686d149fccf087a82295b1a4af529f2a18bab67ec147b7dd28133815f0dded",
+      "bytes": 185027
+    },
+    {
+      "path": "fix-scope.json",
+      "sha256": "7db44cbb84ec6ebbd01a9d65595059678bdb3275e3e3f968cb7200ec0d4c0ee3",
+      "bytes": 1811
+    }
+  ],
+  "excluded": [
+    "artifacts.json",
+    "integrity-results.json"
+  ]
+}
