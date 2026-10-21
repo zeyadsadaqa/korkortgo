@@ -1,0 +1,43 @@
+{
+  "task": "10M1",
+  "status": "pass_report_accounting_product_acceptance_blocked",
+  "product_acceptance": "blocked_incomplete",
+  "step10_complete": false,
+  "checks": {
+    "candidate": 5,
+    "accepted_bound_files": 932,
+    "historical_artifact_hashes": 2251,
+    "task_accounting": 69,
+    "historical_artifact_sizes": 1509,
+    "oracle_files": 13,
+    "prepared_oracle_records": 6848,
+    "coverage_families": 36,
+    "questions": 2003,
+    "local_references": 2000,
+    "approval_hashes": 78,
+    "defects": 1003,
+    "bounded_retest": 9,
+    "capture_aliases": 3,
+    "scope": 2,
+    "platform_cases": 8,
+    "resources": 11,
+    "historical_markdown_links": 228,
+    "clauses": 43,
+    "report_links": 26
+  },
+  "total_assertions": 17077,
+  "tasks": 70,
+  "prior_manifests": 68,
+  "clauses": 42,
+  "original_coverage_families": 36,
+  "question_outcomes": {
+    "pass": 970,
+    "open_related_asset_description": 30
+  },
+  "open_product_findings": 18,
+  "closed_product_findings": 1,
+  "required_artwork_cases": 2920,
+  "required_normal_journeys": 132,
+  "new_platform_runs": 0,
+  "new_source_currency_checks": 0
+}
