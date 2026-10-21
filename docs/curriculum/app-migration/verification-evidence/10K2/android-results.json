@@ -1,0 +1,134 @@
+{
+  "task": "10K2",
+  "status": "executed_required_visual_failure_and_remaining_matrix_open",
+  "normal_resource_checks": 490,
+  "proof_resource_checks": 490,
+  "normal_offline_launch": "pass; native home visually inspected",
+  "native_initial_methods": [
+    {
+      "method": "librarySearchSurvivesLessonAndNativeSourceReturn",
+      "status": "pass",
+      "log": "logs/librarySearchSurvivesLessonAndNativeSourceReturn.txt",
+      "evidence": "native-evidence/librarySearchSurvivesLessonAndNativeSourceReturn",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "unknownQuestionAndLegacyChooserNeverGuessReading",
+      "status": "pass",
+      "log": "logs/unknownQuestionAndLegacyChooserNeverGuessReading.txt",
+      "evidence": "native-evidence/unknownQuestionAndLegacyChooserNeverGuessReading",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "referenceBackAndNativeModalPreserveContext",
+      "status": "pass",
+      "log": "logs/referenceBackAndNativeModalPreserveContext.txt",
+      "evidence": "native-evidence/referenceBackAndNativeModalPreserveContext",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "pendingCandidateSelectionSurvivesNativeZoom",
+      "status": "pass",
+      "log": "logs/pendingCandidateSelectionSurvivesNativeZoom.txt",
+      "evidence": "native-evidence/pendingCandidateSelectionSurvivesNativeZoom",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "nativeKnowledgeCheckRevealAndReadingNeighbours",
+      "status": "pass",
+      "log": "logs/nativeKnowledgeCheckRevealAndReadingNeighbours.txt",
+      "evidence": "native-evidence/nativeKnowledgeCheckRevealAndReadingNeighbours",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "productionPracticeAndReviewUseAcceptedPackage",
+      "status": "fail",
+      "log": "logs/productionPracticeAndReviewUseAcceptedPackage.txt",
+      "evidence": "native-evidence/productionPracticeAndReviewUseAcceptedPackage",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    },
+    {
+      "method": "heldQuestionNativeDeliveryMatrix",
+      "status": "fail",
+      "log": "logs/heldQuestionNativeDeliveryMatrix.txt",
+      "evidence": "native-evidence/heldQuestionNativeDeliveryMatrix",
+      "scope": "actual accepted production owner for production method; explicit unscored/route proof fixtures otherwise"
+    }
+  ],
+  "production_retry": "pass for both feedback modes at160% in unchanged accepted owner; test scrolled to offscreen setup control",
+  "exact_signal_final": {
+    "rows": [
+      {
+        "signal": "SIG16",
+        "expected_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-blinkande-ljus2/",
+        "dispatch_url_observed": true,
+        "external_package": "com.android.chrome",
+        "returned_library": true
+      },
+      {
+        "signal": "SIG17",
+        "expected_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-fast-ljus/",
+        "dispatch_url_observed": true,
+        "external_package": "com.android.chrome",
+        "returned_library": true
+      },
+      {
+        "signal": "SIG18",
+        "expected_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/gult-blinkande-ljus-for-pakallande-av-sarskild-forsiktighet/",
+        "dispatch_url_observed": true,
+        "external_package": "com.android.chrome",
+        "returned_library": true
+      }
+    ],
+    "scope": "Fresh offline OS dispatch and internal recovery; website availability and online success not established"
+  },
+  "artwork_matrix": {
+    "status": "controlled_stop_required_visual_failure",
+    "defect": "DEF-10D-001",
+    "completed_functional_rows": 25,
+    "required_rows": 152,
+    "remaining_rows": "not completed; resume after bounded10L repair/retest",
+    "evidence": [
+      "native-evidence/pendingCandidateSelectionSurvivesNativeZoom/candidate-return.png",
+      "native-evidence/pendingCandidateSelectionSurvivesNativeZoom/candidate-return.json"
+    ],
+    "reason": "Fresh native selected=true/checked=true semantics with no persistent visible selected indication. Functional row passes do not satisfy visual selection requirement. Instrumentation is deliberately stopped; any Process crashed termination is not a new app crash finding."
+  },
+  "known_product_defect_confirmed": "DEF-10D-001; checked native node has no persistent visual indicator",
+  "new_product_defects": [],
+  "restoration": {
+    "status": "pass",
+    "normal_apk_sha256": "e6bc295cd28072eeb1385197a95bb4195c6c4b7bdc91d8c036e4870670d4d354",
+    "installed_apk_sha256": "e6bc295cd28072eeb1385197a95bb4195c6c4b7bdc91d8c036e4870670d4d354",
+    "proof_activity_in_normal_manifest": false,
+    "original_settings": {
+      "wifi_on": "1",
+      "mobile_data": "1",
+      "font_scale": "1.0",
+      "enabled_accessibility_services": "null",
+      "accessibility_enabled": "0",
+      "model": "sdk_gphone16k_arm64",
+      "api": "36",
+      "abi": "arm64-v8a",
+      "size": "Physical size: 1440x3120",
+      "density": "Physical density: 560",
+      "avd": "16_KB_test\nOK"
+    },
+    "restored_settings": {
+      "wifi_on": "1",
+      "mobile_data": "1",
+      "font_scale": "1.0",
+      "enabled_accessibility_services": "null",
+      "accessibility_enabled": "0"
+    },
+    "normal_app_launched": true,
+    "publication": false
+  },
+  "emulator": "Existing16_KB_test/API36/ARM64,1440x3120,density560; started and stopped by this run; original boot state restored",
+  "limitations": [
+    "Proof-host flows are not normal APK full matrix acceptance",
+    "25/152 completed functional rows; remaining127 not completed after controlled selection-visibility failure",
+    "All source class/settings, actual TalkBack listening, complete normal-build journeys and visual/focus matrix still require closure",
+    "External URL dispatch/offline Chrome errors/recovery observed; no source-currency or online-website-availability certification"
+  ]
+}

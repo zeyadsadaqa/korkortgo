@@ -1,0 +1,930 @@
+[
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.LinearLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "androidx.compose.ui.platform.ComposeView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,145][1440,3036]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.ScrollView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,145][1440,3036]",
+    "actions": [
+      64,
+      4096,
+      16908346
+    ]
+  },
+  {
+    "label": "Learning library",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": true,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,229][937,383]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "10 modules · 40 lessons",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,439][668,523]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,579][422,747]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Sources",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[168,628][338,698]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,593][422,733]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[450,579][1152,747]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Road signs and reference",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[534,628][1068,698]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[450,593][1152,733]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Your route into driving",
+    "class": "android.widget.EditText",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,803][1356,1027]",
+    "actions": [
+      64,
+      1,
+      16,
+      32,
+      2097152,
+      16908372,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Search lessons",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,803][1356,1027]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,831][1356,1027]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Search lessons",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,803][420,859]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,845][1300,1013]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": true,
+    "bounds": "[84,1083][393,1251]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "All topics",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,1132][337,1202]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1111][393,1223]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[421,1083][1266,1251]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Vehicle knowledge & maneuvering",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[477,1132][1210,1202]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[421,1111][1266,1223]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1251][474,1419]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Environment",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,1300][418,1370]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1279][474,1391]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[502,1251][890,1419]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Traffic safety",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[558,1300][834,1370]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[502,1279][890,1391]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[918,1251][1282,1419]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Traffic rules",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[974,1300][1226,1370]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[918,1279][1282,1391]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1419][620,1587]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Personal conditions",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,1468][564,1538]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.CheckBox",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1447][620,1559]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1643][430,1811]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Clear search",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[126,1692][388,1762]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1657][430,1797]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[458,1643][789,1811]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Clear filters",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[500,1692][747,1762]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[458,1657][789,1797]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1867][1356,2515]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "1. Choose to drive responsibly",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": true,
+    "state_description": "Expanded",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,1923][1300,2235]",
+    "actions": [
+      64,
+      1,
+      16,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,2263][1300,2459]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Your route into driving",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[182,2291][716,2375]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Lesson",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[182,2375][315,2431]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,2263][1300,2459]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2571][292,2739]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Cover",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[126,2620][250,2690]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2585][292,2725]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2795][663,2963]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Sources and references",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[126,2844][621,2914]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2809][663,2949]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,3019][556,3120]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,3033][556,3036]",
+    "actions": [
+      64
+    ]
+  }
+]

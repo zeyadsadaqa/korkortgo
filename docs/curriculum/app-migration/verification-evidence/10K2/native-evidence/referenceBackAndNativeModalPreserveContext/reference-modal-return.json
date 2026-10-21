@@ -1,0 +1,354 @@
+[
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.LinearLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "androidx.compose.ui.platform.ComposeView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,145][1440,3036]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,145][1440,3036]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.ScrollView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,145][1440,3036]",
+    "actions": [
+      64,
+      4096,
+      16908346
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,229][1163,399]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Yield, stop and priority roads",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[126,257][1121,371]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,229][1163,399]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,455][1067,625]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "‹ Road signs and reference",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[126,483][1025,597]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,455][1067,625]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "B1",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,681][174,795]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Give way",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,851][619,998]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Väjningsplikt",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1054][707,1197]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Give way. Inverted triangular give-way sign.",
+    "class": "android.widget.ImageView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,1253][1356,2101]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": true,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2157][1356,2327]",
+    "actions": [
+      64,
+      2,
+      16
+    ]
+  },
+  {
+    "label": "Enlarge image",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[475,2185][965,2299]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2157][1356,2327]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Yield to vehicles on the crossing road or route. With a distance or stop-ahead panel, this can instead be advance information. Inverted triangular give-way sign.",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[84,2383][1356,3013]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  }
+]

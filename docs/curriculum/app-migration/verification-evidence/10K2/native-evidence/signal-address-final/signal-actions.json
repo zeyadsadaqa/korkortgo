@@ -1,0 +1,26 @@
+{
+  "rows": [
+    {
+      "signal": "SIG16",
+      "expected_url": "https:\/\/www.transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/rott-blinkande-ljus2\/",
+      "dispatch_url_observed": true,
+      "external_package": "com.android.chrome",
+      "returned_library": true
+    },
+    {
+      "signal": "SIG17",
+      "expected_url": "https:\/\/www.transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/rott-fast-ljus\/",
+      "dispatch_url_observed": true,
+      "external_package": "com.android.chrome",
+      "returned_library": true
+    },
+    {
+      "signal": "SIG18",
+      "expected_url": "https:\/\/www.transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/gult-blinkande-ljus-for-pakallande-av-sarskild-forsiktighet\/",
+      "dispatch_url_observed": true,
+      "external_package": "com.android.chrome",
+      "returned_library": true
+    }
+  ],
+  "scope": "Fresh offline OS dispatch and internal recovery; website availability and online success not established"
+}

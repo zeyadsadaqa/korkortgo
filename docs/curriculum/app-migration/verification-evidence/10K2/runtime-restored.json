@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "normal_apk_sha256": "e6bc295cd28072eeb1385197a95bb4195c6c4b7bdc91d8c036e4870670d4d354",
+  "installed_apk_sha256": "e6bc295cd28072eeb1385197a95bb4195c6c4b7bdc91d8c036e4870670d4d354",
+  "proof_activity_in_normal_manifest": false,
+  "original_settings": {
+    "wifi_on": "1",
+    "mobile_data": "1",
+    "font_scale": "1.0",
+    "enabled_accessibility_services": "null",
+    "accessibility_enabled": "0",
+    "model": "sdk_gphone16k_arm64",
+    "api": "36",
+    "abi": "arm64-v8a",
+    "size": "Physical size: 1440x3120",
+    "density": "Physical density: 560",
+    "avd": "16_KB_test\nOK"
+  },
+  "restored_settings": {
+    "wifi_on": "1",
+    "mobile_data": "1",
+    "font_scale": "1.0",
+    "enabled_accessibility_services": "null",
+    "accessibility_enabled": "0"
+  },
+  "normal_app_launched": true,
+  "publication": false
+}

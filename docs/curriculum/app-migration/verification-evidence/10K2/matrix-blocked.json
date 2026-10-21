@@ -1,0 +1,12 @@
+{
+  "status": "controlled_stop_required_visual_failure",
+  "defect": "DEF-10D-001",
+  "completed_functional_rows": 25,
+  "required_rows": 152,
+  "remaining_rows": "not completed; resume after bounded10L repair/retest",
+  "evidence": [
+    "native-evidence/pendingCandidateSelectionSurvivesNativeZoom/candidate-return.png",
+    "native-evidence/pendingCandidateSelectionSurvivesNativeZoom/candidate-return.json"
+  ],
+  "reason": "Fresh native selected=true/checked=true semantics with no persistent visible selected indication. Functional row passes do not satisfy visual selection requirement. Instrumentation is deliberately stopped; any Process crashed termination is not a new app crash finding."
+}

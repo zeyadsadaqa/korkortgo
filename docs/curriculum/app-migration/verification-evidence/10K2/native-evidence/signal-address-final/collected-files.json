@@ -1,0 +1,26 @@
+{
+  "device_folder": "files/native-10k-additional",
+  "prefix": "SIG",
+  "files": [
+    "SIG16-dispatch.json",
+    "SIG16-external.png",
+    "SIG16-return.json",
+    "SIG16-return.png",
+    "SIG16-unavailable.json",
+    "SIG16-unavailable.png",
+    "SIG17-dispatch.json",
+    "SIG17-external.png",
+    "SIG17-return.json",
+    "SIG17-return.png",
+    "SIG17-unavailable.json",
+    "SIG17-unavailable.png",
+    "SIG18-dispatch.json",
+    "SIG18-external.png",
+    "SIG18-return.json",
+    "SIG18-return.png",
+    "SIG18-unavailable.json",
+    "SIG18-unavailable.png",
+    "signal-actions.json"
+  ],
+  "scope": "Copied named current device outputs; no claim that an old failure file is freshly emitted by a later retry."
+}

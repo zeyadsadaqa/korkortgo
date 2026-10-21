@@ -1,0 +1,236 @@
+INSTRUMENTATION_STATUS: class=se.korkort.AdditionalNative10KTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stream=
+se.korkort.AdditionalNative10KTest:
+INSTRUMENTATION_STATUS: test=exactUnavailableSignalsDispatchAndReturnOffline
+INSTRUMENTATION_STATUS_CODE: 1
+INSTRUMENTATION_STATUS: class=se.korkort.AdditionalNative10KTest
+INSTRUMENTATION_STATUS: current=1
+INSTRUMENTATION_STATUS: id=AndroidJUnitRunner
+INSTRUMENTATION_STATUS: numtests=1
+INSTRUMENTATION_STATUS: stack=java.lang.IllegalStateException: No internal recovery after external return
+
+
+
+
+
+
+
+
+
+
+www.transportstyrelsen.se
+
+
+
+
+No internet
+
+Try:
+
+
+• 
+Turning off airplane mode
+
+• 
+Turning on mobile data or Wi-Fi
+
+• 
+Checking the signal in your area
+ERR_INTERNET_DISCONNECTED
+
+LOAD PAGE LATER
+
+
+LOAD PAGE LATER
+Chrome will let you know when this page is ready. Cancel
+
+Dino game, tap to play
+
+No internet connection
+
+
+
+Open the home page
+
+
+
+
+Your connection to this site is not secure
+transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-blinkande-ljus2/
+
+
+New tab
+See 1 tab
+
+Update available. More options
+
+
+
+
+
+
+
+
+
+
+
+	at se.korkort.AdditionalNative10KTest.waitFor(AdditionalNative10KTest.kt:28)
+	at se.korkort.AdditionalNative10KTest.exactUnavailableSignalsDispatchAndReturnOffline(AdditionalNative10KTest.kt:75)
+
+INSTRUMENTATION_STATUS: stream=
+Error in exactUnavailableSignalsDispatchAndReturnOffline(se.korkort.AdditionalNative10KTest):
+java.lang.IllegalStateException: No internal recovery after external return
+
+
+
+
+
+
+
+
+
+
+www.transportstyrelsen.se
+
+
+
+
+No internet
+
+Try:
+
+
+• 
+Turning off airplane mode
+
+• 
+Turning on mobile data or Wi-Fi
+
+• 
+Checking the signal in your area
+ERR_INTERNET_DISCONNECTED
+
+LOAD PAGE LATER
+
+
+LOAD PAGE LATER
+Chrome will let you know when this page is ready. Cancel
+
+Dino game, tap to play
+
+No internet connection
+
+
+
+Open the home page
+
+
+
+
+Your connection to this site is not secure
+transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-blinkande-ljus2/
+
+
+New tab
+See 1 tab
+
+Update available. More options
+
+
+
+
+
+
+
+
+
+
+
+	at se.korkort.AdditionalNative10KTest.waitFor(AdditionalNative10KTest.kt:28)
+	at se.korkort.AdditionalNative10KTest.exactUnavailableSignalsDispatchAndReturnOffline(AdditionalNative10KTest.kt:75)
+
+INSTRUMENTATION_STATUS: test=exactUnavailableSignalsDispatchAndReturnOffline
+INSTRUMENTATION_STATUS_CODE: -2
+INSTRUMENTATION_RESULT: stream=
+
+Time: 16.367
+There was 1 failure:
+1) exactUnavailableSignalsDispatchAndReturnOffline(se.korkort.AdditionalNative10KTest)
+java.lang.IllegalStateException: No internal recovery after external return
+
+
+
+
+
+
+
+
+
+
+www.transportstyrelsen.se
+
+
+
+
+No internet
+
+Try:
+
+
+• 
+Turning off airplane mode
+
+• 
+Turning on mobile data or Wi-Fi
+
+• 
+Checking the signal in your area
+ERR_INTERNET_DISCONNECTED
+
+LOAD PAGE LATER
+
+
+LOAD PAGE LATER
+Chrome will let you know when this page is ready. Cancel
+
+Dino game, tap to play
+
+No internet connection
+
+
+
+Open the home page
+
+
+
+
+Your connection to this site is not secure
+transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/trafiksignaler/rott-blinkande-ljus2/
+
+
+New tab
+See 1 tab
+
+Update available. More options
+
+
+
+
+
+
+
+
+
+
+
+	at se.korkort.AdditionalNative10KTest.waitFor(AdditionalNative10KTest.kt:28)
+	at se.korkort.AdditionalNative10KTest.exactUnavailableSignalsDispatchAndReturnOffline(AdditionalNative10KTest.kt:75)
+
+FAILURES!!!
+Tests run: 1,  Failures: 1
+
+
+INSTRUMENTATION_CODE: -1

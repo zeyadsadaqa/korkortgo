@@ -1,0 +1,104 @@
+{
+  "task": "10K2",
+  "policy": "Byte-identical PNG copies only. Original receipts retain logical capture paths; resolve missing logical images through this map. No observation, failed run, metadata, test or restoration record is discarded.",
+  "removed_duplicate_files": 16,
+  "bytes_saved": 2623183,
+  "aliases": [
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-AT_END-results.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-AT_END-results.png",
+      "sha256": "16e93deb259a280048f7533c0b64cf99db2d085defbfc754dbae7519eaee40bc",
+      "bytes": 201551
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-AT_END-review.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-AT_END-review.png",
+      "sha256": "d5fbb945607bc7eb77966eaeb002c2e6f7db58a032167ce8200ca0c338476f11",
+      "bytes": 217427
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-AT_END-setup-return.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-AT_END-setup-return.png",
+      "sha256": "8044a3186d9840083db0036294f4e9f5b37909b50bab1af862e055dab7b1387e",
+      "bytes": 197705
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-AT_END-teaching.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-AT_END-teaching.png",
+      "sha256": "0c41c34b0aebf947565d0f36ed66ecac87ac5d6d10b0d3955899f5d7698660b9",
+      "bytes": 262802
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-IMMEDIATE-results.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-IMMEDIATE-results.png",
+      "sha256": "97a97bc65c1bebb503c97322f4454dfc458ee76f80440ca89fa9127b2539fee9",
+      "bytes": 200856
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-IMMEDIATE-review.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-IMMEDIATE-review.png",
+      "sha256": "c62139a35fd06335074efe4f11822c03155057829e1aa4c1579e8f2732ba1b4a",
+      "bytes": 203249
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-IMMEDIATE-setup-return.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-IMMEDIATE-setup-return.png",
+      "sha256": "2bbfb21b456bdb55e044e922d597aadc3bbc1d8b00219f4bc8f5a6f12ed89c5a",
+      "bytes": 198454
+    },
+    {
+      "logical_path": "native-evidence/additional-productionFeedbackModesWithVisibleSetupControls/production-IMMEDIATE-teaching.png",
+      "stored_path": "native-evidence/additional-exactUnavailableSignalsDispatchAndReturnOffline/production-IMMEDIATE-teaching.png",
+      "sha256": "7b7bcb68652fd9ea2507c8c8b25fca82e6439d31a2367b21feca619395bfef59",
+      "bytes": 267856
+    },
+    {
+      "logical_path": "native-evidence/productionPracticeAndReviewUseAcceptedPackage/production-IMMEDIATE-setup-return.png",
+      "stored_path": "native-evidence/productionPracticeAndReviewUseAcceptedPackage/failure.png",
+      "sha256": "aeca6fe9ed5b400e12b0d81714227413489a6bcd5a29038d0c3db78b65f27c21",
+      "bytes": 198803
+    },
+    {
+      "logical_path": "native-evidence/signal-address-final/SIG17-unavailable.png",
+      "stored_path": "native-evidence/signal-address-final/SIG16-unavailable.png",
+      "sha256": "1a07846be00ac01608bf2ef4b4138eef8ca16ce0cdf24f59e0da981994cfa262",
+      "bytes": 96290
+    },
+    {
+      "logical_path": "native-evidence/signal-address-final/SIG18-unavailable.png",
+      "stored_path": "native-evidence/signal-address-final/SIG16-unavailable.png",
+      "sha256": "1a07846be00ac01608bf2ef4b4138eef8ca16ce0cdf24f59e0da981994cfa262",
+      "bytes": 96290
+    },
+    {
+      "logical_path": "native-evidence/signal-return-retry/SIG16-unavailable.png",
+      "stored_path": "native-evidence/signal-return-retry/SIG16-return.png",
+      "sha256": "8647339d746c870886f222b75ac7965fe8cc7392c2862218357f1b96cd571af6",
+      "bytes": 96380
+    },
+    {
+      "logical_path": "native-evidence/signal-return-retry/SIG17-return.png",
+      "stored_path": "native-evidence/signal-return-retry/SIG16-return.png",
+      "sha256": "8647339d746c870886f222b75ac7965fe8cc7392c2862218357f1b96cd571af6",
+      "bytes": 96380
+    },
+    {
+      "logical_path": "native-evidence/signal-return-retry/SIG17-unavailable.png",
+      "stored_path": "native-evidence/signal-return-retry/SIG16-return.png",
+      "sha256": "8647339d746c870886f222b75ac7965fe8cc7392c2862218357f1b96cd571af6",
+      "bytes": 96380
+    },
+    {
+      "logical_path": "native-evidence/signal-return-retry/SIG18-return.png",
+      "stored_path": "native-evidence/signal-return-retry/SIG16-return.png",
+      "sha256": "8647339d746c870886f222b75ac7965fe8cc7392c2862218357f1b96cd571af6",
+      "bytes": 96380
+    },
+    {
+      "logical_path": "native-evidence/signal-return-retry/SIG18-unavailable.png",
+      "stored_path": "native-evidence/signal-return-retry/SIG16-return.png",
+      "sha256": "8647339d746c870886f222b75ac7965fe8cc7392c2862218357f1b96cd571af6",
+      "bytes": 96380
+    }
+  ]
+}

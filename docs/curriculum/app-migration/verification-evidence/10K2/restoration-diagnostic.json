@@ -1,0 +1,9 @@
+{
+  "phase": "restore-normal runtime launch",
+  "normal_build": "pass",
+  "normal_resource_parity": "490/490 pass",
+  "initial_launch_error": "Test utility incorrectly expanded .MainActivity against applicationId se.korkort.study instead of Android namespace se.korkort",
+  "correct_component": "se.korkort.study/se.korkort.MainActivity",
+  "production_changed": false,
+  "retry": "finish_android.py uses already-built/installed normal APK; does not overwrite proof input identities"
+}

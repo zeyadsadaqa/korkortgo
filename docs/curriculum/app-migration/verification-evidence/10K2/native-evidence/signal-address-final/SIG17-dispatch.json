@@ -1,0 +1,10 @@
+{
+  "expected_url": "https:\/\/www.transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/rott-fast-ljus\/",
+  "foreground_package": "com.android.chrome",
+  "matching_activity_lines": [
+    "      Intent { act=android.intent.action.VIEW dat=https:\/\/www.transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/rott-fast-ljus\/ flg=0x800000 xflg=0x4 cmp=com.android.chrome\/com.google.android.apps.chrome.IntentDispatcher }"
+  ],
+  "matching_native_browser_address": [
+    "transportstyrelsen.se\/sv\/vagtrafik\/trafikregler-och-vagmarken\/vagmarken\/trafiksignaler\/rott-fast-ljus\/"
+  ]
+}
