@@ -1,0 +1,3924 @@
+{
+  "mode": "normal",
+  "source": "composeApp/build/dist/wasmJs/productionExecutable",
+  "served_copy": "/tmp/korkort-10k6-normal",
+  "proof_only": false,
+  "files": [
+    {
+      "path": "2dd5db7a0d0c03061fe6.wasm",
+      "sha256": "79394847f5343e976ac45e78f6de082016b44e10d8e3ffb4842a441cf5f7c7c7",
+      "bytes": 9972959
+    },
+    {
+      "path": "apple-touch-icon.png",
+      "sha256": "6be15836891eac9d59a8dadf253ec06c9fdbe671ee059ca68103ec33c68ccba6",
+      "bytes": 30893
+    },
+    {
+      "path": "bccfa839aa4b38489c76.wasm",
+      "sha256": "09ee5d3dcae24a6c90a811999dcc1287e8a669e2deed14e23c7ebd2068e8f73d",
+      "bytes": 8405319
+    },
+    {
+      "path": "composeApp.js",
+      "sha256": "e0085c5c2654af13457ca263e2ba87b27bf759287c43a09e271931af560e6a78",
+      "bytes": 589331
+    },
+    {
+      "path": "composeApp.js.LICENSE.txt",
+      "sha256": "85a703daf937b69e6a45c75947dcea43f4026a835b84a7ea4300843217311baf",
+      "bytes": 1298
+    },
+    {
+      "path": "composeApp.js.map",
+      "sha256": "6921d7ae9e5216303837106af8bebf6b362f7229091a342b52332a795ec996a9",
+      "bytes": 1693471
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/017d92e569632ead-d1-3.png",
+      "sha256": "024de4b31625b6cee3794ceaf1a99fa622f01a94c3e7d11742636f45913c840d",
+      "bytes": 10354
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/0a712c4dc36af994-d4-1.png",
+      "sha256": "8bca5059f2148fb333982d8c18a643b06744710bd2aed68d99f8a4ad05250cb9",
+      "bytes": 16956
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/1b86039090d5bf50-c2-1.png",
+      "sha256": "155ae0ff1fa53699e24346a7cae04b63bdf996ba86ee57985c772652d853646d",
+      "bytes": 6580
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/222347010f3d45c7-i3-1.png",
+      "sha256": "e16c450129a53853a887346daeacb59b36f1a75b5acc38c1b26e26b6e255f707",
+      "bytes": 10302
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/2394caff16b1948f-c27-1.png",
+      "sha256": "a01a5bb720981ea3771ea9781782cfc36c8bf9057d66427b7716ff8c4c634d67",
+      "bytes": 9602
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/2d638fc59a007458-c35-1.png",
+      "sha256": "f48cbeb6032575f5d94a6758a233523ab307bc0ebea20bfcd03ffc01ad39f293",
+      "bytes": 7487
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/370a3ba1e01be745-c28-1.png",
+      "sha256": "cc75906a2b0b93f3b5eeb08516c123a3f0e77aced8c38fdb0d152db5ccf4faa7",
+      "bytes": 8395
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/47c92d84373b4ef6-f8-2.png",
+      "sha256": "62604725fc709d4e7581a9b135ec2d3a1cdaf2ab517c4652141176ddf7282b66",
+      "bytes": 12704
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/4f78e03303117322-c25-2.png",
+      "sha256": "3238d0de4c5e26fa6ba284961b9d086189706b26e0adeb15237452229ce29887",
+      "bytes": 9821
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/5b3f31c943602f1c-c39-1.png",
+      "sha256": "83fe3919a89d221a0c896a5aff73a8c0c62fe1259af32db3cb1a5ea00b79f8c2",
+      "bytes": 7568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/6259c93d8d0cf37f-c26-1.png",
+      "sha256": "6f4e347fa3de0d46ac6576efbca65a4802c57a262ae2a10cb8b27d7c919835cb",
+      "bytes": 9876
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/6b1a28c415d6f67e-t12-1.png",
+      "sha256": "57d5939b2e12e1c1e953e9b94d70fc79a9540ac07b0a372329171515029734b0",
+      "bytes": 6319
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/72a4434d9b3b2c97-t4-1.png",
+      "sha256": "ba8ef3c5ac6b48b707d6043c0557d27abdbff6515eebc61c50ac00073483f67a",
+      "bytes": 6561
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/7bbeb68b4e366117-c1-1.png",
+      "sha256": "d6c389dd457c6c63a92647cc42ef1a6e6fbab39c4708cc2dd40d728693de997e",
+      "bytes": 4580
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/889101af749c4de5-c3-1.png",
+      "sha256": "ee1b74fac82924a8d10b44ed8ce59430ab2329c0932348370e6607d6cdb66c36",
+      "bytes": 11127
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/9da4a3b10f3db73a-d1-2.png",
+      "sha256": "94587516083fbd81e615f06652231682af6188aebfffbc46c241631a4a18dfa0",
+      "bytes": 10568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0142d5bfc91821d0.png",
+      "sha256": "2534732e40891a710bba452b1a0489559ab1ad3451e448ebb32ccc07ee3033f1",
+      "bytes": 61573
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-01a796275cd8dfcd.png",
+      "sha256": "430e58d6b505377dfab41ee0dd640192bdac0c563da740abe9c6859e0182a432",
+      "bytes": 63775
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-03ebbe58a1e4fb52.png",
+      "sha256": "89651295da82f87f36b2f8c36d95481c6b2bdb1f1aa1711e500d898824699152",
+      "bytes": 1169
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-045a370c1578d2c0.png",
+      "sha256": "69c1821a27f06788a3520b53f59815481ee1aee1511eabf97557fc7999b0f3d0",
+      "bytes": 5242
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0569331085a23e5b.png",
+      "sha256": "3dd1edbb6066bc5852515ceef12bd9ac5717c42d0275a8f787837f3ab4706386",
+      "bytes": 68753
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0621fc101c68d53f.png",
+      "sha256": "bb3370c7dd61fdd9fdc97bc0da2576553c9ef4404b61f9294f2e5ae7265bb95c",
+      "bytes": 78937
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0718e55107b2f165.png",
+      "sha256": "0ad6d882f30faff8dc55ae3ebbcf9de0865dc27c2b50709a98e20913d69cfe0f",
+      "bytes": 52144
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-073b1425afaa1f4f.png",
+      "sha256": "09404be00bc40b16a94432ee5ebcb7dd0063e4111283b6f8bc4eb3a2355bbbd8",
+      "bytes": 130340
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-07bc009be4798752.png",
+      "sha256": "563cb9005f008c6446ea656fe3aa2a989c10a1d036d31d8159c870fb60aae1e9",
+      "bytes": 23587
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-07c99ae392aa83bb.png",
+      "sha256": "881a3411c18a1d0bbfecf4e4cfe78c0e4129d6bb2a06d5e2ea75836d846981cf",
+      "bytes": 60839
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0937ec4e4542da21.png",
+      "sha256": "0723b022638ebe33fe181a46472289f3984b8500d0aedd96b82f49c2a0126386",
+      "bytes": 76416
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-094a84d6bc5dbea6.png",
+      "sha256": "7f0c18aedf71867f04b898b8645df80dfbe0f783671c509b789fcf94a004980f",
+      "bytes": 22964
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0ad414e84c3e9af8.png",
+      "sha256": "ed13e7c646c4d2f1af8379817c6bd956d68c09830252cfe1711f72b90456397f",
+      "bytes": 63255
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0c454ec27416069d.png",
+      "sha256": "c481a52c68bb2d48ae720e222ce102b121e5082b7c2aa50b5e24624a9786fe00",
+      "bytes": 77217
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0defdce1053fdb4f.png",
+      "sha256": "876e257faaa01064c2822da782b0e983e24e5d5c42c804587f3b21e6b7d5c2ce",
+      "bytes": 81287
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0e5fbc9f1b6d5662.png",
+      "sha256": "7f96cd5d4c8dc1f16ca70e7130d27c751d7ea29ea817f15eb302fcc68e6c988b",
+      "bytes": 67892
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0f3578db5badc5f1.png",
+      "sha256": "8d55fa12f8d75cd3a60e5470df86666b703500d1cec3127f0cf6aaf5fd6c8510",
+      "bytes": 63056
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0f70f525f4eee352.png",
+      "sha256": "f98e9d6a8d95730d0564320ca946faf12da0ac4ce5bb4979a50d1eecc8fa1bef",
+      "bytes": 1986
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-0f74f696e7067804.png",
+      "sha256": "b5b26cf790862556272768220a5454b2869fa4f2926d195a5d9452888baadf63",
+      "bytes": 208097
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-122186ff27f7a147.png",
+      "sha256": "cb1eff7793bff4f2cc381a3b1af9589adbe2a25e44812b3670d885530b9a3e5c",
+      "bytes": 118626
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-14f8470292a2e8ec.png",
+      "sha256": "067eb45ca79b6537cc702158f2d7018b9b355d75ab87b81340715a1b03c1e4cf",
+      "bytes": 37298
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-16412e62a8a16b88.png",
+      "sha256": "48ed2c2c74364b6875e9257fcca95b0a1ed3ea18934665fc113a2cbdbc85a2e4",
+      "bytes": 42778
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-17050dc49eb5e974.png",
+      "sha256": "ed0a844dc39f441eb2451dfd508b2ac89d17981bfc76d9e1177009a3b8ff87c7",
+      "bytes": 71426
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-173cfa098d6b51e8.png",
+      "sha256": "ac72dbb37e3bd04481fc613c97c1455914809e1ee01fd3352480532dc9ba9aeb",
+      "bytes": 92666
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1835b433c9e2f307.png",
+      "sha256": "9d248e40babbcdae646f9fba1596faee76344900a2b85265bb237ada17d19125",
+      "bytes": 57134
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-19062784f90c6be1.png",
+      "sha256": "93d9fd22fef040e458cd78d4b38fb6e9b083e0262a86a9392b0cacd26a1a41c6",
+      "bytes": 25888
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-19b0a13b093bb1e9.png",
+      "sha256": "f42a5e9f1d2e663df130eeea6a137c5d3c0a3830fd057b784fc4eb480bdfe4ec",
+      "bytes": 898
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1a0113c543143875.png",
+      "sha256": "2392fc5bbae098fe70bcd99f3fc06183de4fde955290e1862c26ad2f0a9d2a8b",
+      "bytes": 11555
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1a543005bd3730c9.png",
+      "sha256": "433f02f0c21b0c90e5b1c6f92d4f8b465b780aa9a19afea6b56c5a23c70a00b4",
+      "bytes": 97400
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1afb98b84592475e.png",
+      "sha256": "ec3165e878dd166dc3f19fd05f47216e1298a7b0a93c4833eb3880e756a81c16",
+      "bytes": 226524
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1b32b052ad9aa2f8.png",
+      "sha256": "63264c4ff944229ead9be6179c8f934982372a02d8043215b77d57cfd6bc4342",
+      "bytes": 93671
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-1d31cca9fed33f1e.png",
+      "sha256": "b0b86b246bab427bebdf788e1d4d27d5ec0e944d6d8ac1eb554411b5afd2e611",
+      "bytes": 56194
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-201444157a81e298.png",
+      "sha256": "6861968740c0403765fdb9e7aea6999e90fdcf2ffc01cd949c700a4a0b1b7616",
+      "bytes": 44332
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2077353469d3677b.png",
+      "sha256": "61d2c8a749f0c0446abbcf220c71b2da10126f3d8c2850d19e81dc8c323e536d",
+      "bytes": 34419
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2092b76800d57319.png",
+      "sha256": "f40f5738467fac3677d5aaf8f5a849afa47bacc1353948fed92281ea9ed74c1a",
+      "bytes": 12353
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-22898d107266f9b5.png",
+      "sha256": "12b1a1dfff63522d94693ab905e01af9993cb193dec391a9e21f199268a4b20d",
+      "bytes": 58096
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-22d3b5bd7249832c.png",
+      "sha256": "3368680512c06e3921f837e6f12978891e155d6e34ed11bcd64015cb103c4542",
+      "bytes": 83828
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-235569d62dbd1c27.png",
+      "sha256": "0d8dafe8d6cde078007ccffbe6bcd878c0293710d7de97d66732193860d7bb5d",
+      "bytes": 74356
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-23ce765e6e679c54.png",
+      "sha256": "b02bae78ed24a41229d63232ca2cc979dbad03957b7a1885bd933f616b0cbbdf",
+      "bytes": 15457
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2421ee81cbc90136.png",
+      "sha256": "807658636900a9177af6435bb5e5491a1b72b05105d181362e2a6b4d82f9f8de",
+      "bytes": 6459
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-248d5634fbef6e9a.png",
+      "sha256": "47481bb0b76254216a5d784523067260e411f6fd2237bdf76b60c77e7648357d",
+      "bytes": 22497
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2495332f803be7cb.png",
+      "sha256": "c4bb201b7f80b69157bf7d49546f14cd4c14c77d7a6eb509e8feb4ebde9a1218",
+      "bytes": 80620
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-254268c00a766b70.png",
+      "sha256": "c5f691c6a79f8b719b06227bc9d4621e35d066d056aedf090f03cc73ec7f1269",
+      "bytes": 77853
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-25bc779a5abd3c3a.png",
+      "sha256": "f130cc873579004ee3bcfac1a0fe2b2dafb9c372d07b12c0b9a3a68ddd79f56a",
+      "bytes": 52427
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-27be6c2d7112d13d.png",
+      "sha256": "e2739322dffa5e9825fc2a55df4d00efa80828305e21984046d6c015f8b10876",
+      "bytes": 14295
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2cc5361a79da5af7.png",
+      "sha256": "2207c4488a5d6afab702bab5ee1bcbee4e6b2830a3fdbc714985e7a401c3da2c",
+      "bytes": 9471
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2d3c5fbeaeb59dcb.png",
+      "sha256": "28f77f69ee56ff39d31848dd46e02da04fd00f716890d8953f176faad914b31f",
+      "bytes": 29886
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-2dacfc1a3122e52c.png",
+      "sha256": "61a3a711d3b8d328f0af0e4aa6ce670ce3e2b01164347775d257d4f3b4803e0e",
+      "bytes": 59789
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-30cfe57063f0a63e.png",
+      "sha256": "6294ff456fc8ad0f455bf6ca7527cb2e3bf02e7522ffc216bdf1c5f64d9a7422",
+      "bytes": 129030
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-311c623d7db9ee8f.png",
+      "sha256": "1dd6a8ef18f0c8adf825a44533ccf20e71efa9714b1792480dc7aa0d147dfbf5",
+      "bytes": 61698
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-323a46cb66b8460e.png",
+      "sha256": "a95df3a25449c98bcf417312e0bfabdc937bfbde44a8d2b8ca4ed70dbb3e8ca4",
+      "bytes": 143267
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-334ca0613ee35f41.png",
+      "sha256": "a274d190d5d0ea5defa8b91ea03c367bd3a57162d2f0146214452044f193299d",
+      "bytes": 12920
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-33f82f7684d51afe.png",
+      "sha256": "3a66944929af2f1ad013fda0d49df2d266bb3dd56c4e95045a7febe964e9a403",
+      "bytes": 11304
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-341c5be573a71dff.png",
+      "sha256": "4029daa9abaf6660bed0bf0e9d867a6a113211c2a7cf56610482509fdc443ef4",
+      "bytes": 15712
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3570be8229bd7ca6.png",
+      "sha256": "7397be9305be747eea4e604f16c9c28e8f2df8ac1b50214669c8b723a99287db",
+      "bytes": 1964
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-38bae0beaf60eb6f.png",
+      "sha256": "535fd45a686b51b622c6cbf32ae26a820540fd0bd0ea93dceafcd2494f5a1b2f",
+      "bytes": 9573
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-39d97ceca4d2cbb3.png",
+      "sha256": "bc56c1f2145bea0e075443a96ea1b2e31a8c9bfc774048a009f8a581e33f17a5",
+      "bytes": 63368
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3a0e2f302855106b.png",
+      "sha256": "6077b91b7f7aeed5fcf8eadde84ccb8e80ea30d8cf3ff70493b83b54bec83cc5",
+      "bytes": 57124
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3a17f6c19b2f1776.png",
+      "sha256": "f828f15359353317e966e899dd7057f764d1e924b35d999413e54f6b1c6ef75e",
+      "bytes": 86396
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3b1ff2f9e1450aa3.png",
+      "sha256": "96932e93e5be1d8faf23c87abb92897fab2311b43e9731592bf046d425ee5df1",
+      "bytes": 57614
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3bd08b95a52b4f00.png",
+      "sha256": "acb1fe00643ff8ac6458086541bba431543d46f0d38e120caa61fdbb0f0497fd",
+      "bytes": 75252
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3e668438003c038c.png",
+      "sha256": "7224b133046094d1cfb939f06973021bb59ad60c121a6fc346251446af34a663",
+      "bytes": 99519
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3e9e3e0d8165a741.png",
+      "sha256": "438dcdf98754a7ea1df5ce0bb21312b4c5611d772efed87e1080c357932e26bc",
+      "bytes": 44446
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-3ff5c667c026c1ae.png",
+      "sha256": "baa8fa386295b13a7a012a797ba1a9ccdf5d39397715548dfde077c1ccdc1265",
+      "bytes": 71545
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-402f6fa5583d36a5.png",
+      "sha256": "52f614753324cae8cf08c616202c6dee88fd4f64c3b1b133a16294cfd81cdd52",
+      "bytes": 83490
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-40b175abbf45fed1.png",
+      "sha256": "58b123f4eadb1cfce8553f4a0efaac50df2b5c671b032364695851a24d596811",
+      "bytes": 4566
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-41a2600873777874.png",
+      "sha256": "f148af1eb832a45aac26648453fa17a42efd9c9082cb5f73c47e0b4672b127d7",
+      "bytes": 40650
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-43e6ac15802c2108.png",
+      "sha256": "393ab56961807f430897474de943a6eaf6ee1998019d39c5bf343caafcc758e0",
+      "bytes": 57298
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4407e2090d148783.png",
+      "sha256": "765a51edef3c2bd8e9a706b15e0aae48003fd33f7054b7238af2b3d699b48a09",
+      "bytes": 30351
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-45790915d02e21ed.png",
+      "sha256": "b71b67b48b0239041341906dad1518720ce73a5dfd1e9804aedcf8ea132f325b",
+      "bytes": 72241
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4660be436d08d512.png",
+      "sha256": "568a2191803991d9178c2286259681f642f7a989dc6a570089222f6c3a2d42d3",
+      "bytes": 22798
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-47934d22d82864f8.png",
+      "sha256": "33093ca47dce8fa14f519d8efd58548eb3c9ff8f50316e2efaef8c1424528ad4",
+      "bytes": 1733
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-47ec60755fad1ea5.png",
+      "sha256": "93220bd9559289ae40c5487418643a7f1b0c9039316ae14ba48c92626b6c60a2",
+      "bytes": 52533
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-48bc9269e243d9dc.png",
+      "sha256": "14ca1fc146a331f86103066a06befc3726d81a6963c1ce960beecddef0e8a8ae",
+      "bytes": 86904
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-48fc941acd8877bf.png",
+      "sha256": "3e56970597f863535bc18db5520e0bc60a44a2668477c1edc3f7068c1d2baeb9",
+      "bytes": 44647
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-49865d94c96df5e1.png",
+      "sha256": "7ad6b341b8b8321a24575e3f659098479934cf7603453103902435c87d153db6",
+      "bytes": 95044
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4a1f54bf1783eb02.png",
+      "sha256": "ae4ad618a697b373d72feb524b9303dabffb5d849ec3d903402495ac34b07b11",
+      "bytes": 84566
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4b4a88d3e0afcbb9.png",
+      "sha256": "de70bf1fc393ada06f1f82c73ba8c163badffd4bf04de76ac653a12607a23bdc",
+      "bytes": 60187
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4b7938b41c795874.png",
+      "sha256": "4a6437282dec1cbcd3b4d6a5ab0be0303bace000c41a051c47a6658b123a02b1",
+      "bytes": 8882
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4ba68de2d64a2a7b.png",
+      "sha256": "25e2cf8ae9d29ade46d37a6188dd1c20607c369036236d17f635b095286a7373",
+      "bytes": 61987
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4baf01692afabc36.png",
+      "sha256": "b18933f3ef3a5fefbffd90064b56f83dfd205010884c7a7df7d35bda08166700",
+      "bytes": 72789
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4da8c8d3430dcde4.png",
+      "sha256": "f361c39a8c86e0167a53d5393ee5e571ffe6fd4b64210acfce2c7b67f97112c4",
+      "bytes": 43973
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-4fac27ebdc31304d.png",
+      "sha256": "726b8a7dbfb9f1c50cbb16140b05fff5f0ac4b96bd97e69ff8975b3e9421d0de",
+      "bytes": 49723
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-50712812cafd2746.png",
+      "sha256": "dd5552296c7665fcd6adb92dcb878ab1ee2813b6e69b419f488b62bfc78bb51c",
+      "bytes": 30061
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-51f2a947f7351c21.png",
+      "sha256": "16d8d30cff6ec3b85a67685411db5da15f8cf67a06eff65a7cfd9e9e06845e54",
+      "bytes": 62912
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-528c0e57f33217b1.png",
+      "sha256": "e6ab9448f9bfabb40270e2149fc7100faffbb45b98ef0a0596ca26078cfb68f4",
+      "bytes": 60381
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-554885a7844b2bd9.png",
+      "sha256": "171cd5bef443b51bd1292cd0b50eb67bfd70e6a101fbaaabbdca9b6700801733",
+      "bytes": 22517
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-55672d5459d665e6.png",
+      "sha256": "b1af8c88b8976f8da107e37ef983bffded658e0308e1d3475687099cb3d8c256",
+      "bytes": 20708
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-56052100e0de8d42.png",
+      "sha256": "6a795b63fbcc6af23615350175027c26c89029834a49e825660063a1d7a13ccf",
+      "bytes": 23980
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-562fc21f92deaaa0.png",
+      "sha256": "e80e199e9eba530f8fa0f20aba4241d35432192274ce53021babe812ce7689cb",
+      "bytes": 80353
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-565624938aee48d1.png",
+      "sha256": "3dcca33fffb4ca152e071bbff2450cf03e1b14a7ea4e341a2c7e2df54b26e2a1",
+      "bytes": 14175
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5689b781473347de.png",
+      "sha256": "dfd113749a5833e284b8aa056a2dae0ea20dfd5150dd77054a52811a585c9689",
+      "bytes": 30364
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5696d859876452c8.png",
+      "sha256": "622f9e7a1783970a5ef54e690aa04fed6f2719b74e077e389c54bab80bca529a",
+      "bytes": 5920
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-56ac8c01c49c8869.png",
+      "sha256": "3a6e6272f6dcbd41a531dba811bf9ec975be945801bc64ab9d41dbdf376c8ed2",
+      "bytes": 29184
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-57993062ed526f09.png",
+      "sha256": "757e6accdd2b14bd5e1e26487e41a64fd68129c3f97da5c4b120283292792788",
+      "bytes": 79723
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5800e80c62754d5c.png",
+      "sha256": "0485c910d77772ba76fe5714d40cc44fc502060851f25729495df1db5533617a",
+      "bytes": 50290
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-585d1981cf83b5ce.png",
+      "sha256": "ac15ee6ffe28ede2c310c152d897988689fd8eaad6805512e458f51996ace76e",
+      "bytes": 15124
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-594e991b1eb5ab1f.png",
+      "sha256": "f02fe146eb323510fd5f3559d44b6855fdbf7efa1a31cc87d1ae2ff26ef46518",
+      "bytes": 29204
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5a2c41291663841a.png",
+      "sha256": "20b9c2112f730010c1828e2a100ba2272b7de6fc74560a0985f6ca2f3b5f9157",
+      "bytes": 26845
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5a93a62ebe56b539.png",
+      "sha256": "3bf7d1289ea06bf010afa5252a967830e9c0ce3d9643ae5f7cc0ccb201e0eb04",
+      "bytes": 958
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5b635671be0b457a.png",
+      "sha256": "f71c62c55745c43d04fbfae176dd7112fcecad970b9d0d33810dde9c48b52366",
+      "bytes": 10998
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5bf137e7986d9400.png",
+      "sha256": "8f271a0522ef31dd1fe53e4e1a39f4e1fc357d62b349dadb08fe7fbd10ce6036",
+      "bytes": 40051
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5bfebf9e9f5657c0.png",
+      "sha256": "b5431bb23a08bfdb83eab5fd7a09fc5cc8a4ca3fd846c67f3e5e80e8107b8e9a",
+      "bytes": 78586
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5c9b7d8b5ffe4883.png",
+      "sha256": "78626c76288db7bc52df60b75286c4495e277057c43feedf4532e57bdbed38d5",
+      "bytes": 48632
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5d55b1642cfe47fe.png",
+      "sha256": "7e0dcf80e785f064004a7fdcaeab4ec450688499a658ad30f0d6f22f723077dc",
+      "bytes": 202139
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5e8b8250a75fd38b.png",
+      "sha256": "e129f1cd111c9ecc918d13b2ebb36192dbb655e39e458e9da3a43e337fee5845",
+      "bytes": 29928
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5f428511ea9eee7d.png",
+      "sha256": "15dc3d4ee51ffa91b6c8a81646120eef2664a9a27d5b46b69a817d0d587890aa",
+      "bytes": 22408
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-5f465bfa507edd6c.png",
+      "sha256": "e538e54c12516cad073027dd8277bb3771752770fb3f2e483d9728328da9d1ab",
+      "bytes": 23060
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-61d13d19ff1ae2ab.png",
+      "sha256": "441ee4053713a021f0be479057d2ca0e5aea221cac76c1e03e9e7910b0768738",
+      "bytes": 11679
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-641bf72f5ce81ee5.png",
+      "sha256": "e8ab0d1adf1390c498138aaf568b6e1dce4e9ae02864fec4c0f15966490a3bb1",
+      "bytes": 116538
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-64214aea95da66b7.png",
+      "sha256": "1ecbb2c321dc5919c7e1bd6e26400ef79bee3f465d1b32f01c14c20c5e1712d2",
+      "bytes": 86158
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-64721d8febddab43.png",
+      "sha256": "10846ca157ad4e0e5352c4a90da8fbdb34602881eb2a97717668c63a6b8e61be",
+      "bytes": 208836
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-649f5a49d79af22e.png",
+      "sha256": "ec4e9eeb9fe0b044d97643b67d4afdd51a16d6d9eb546ba3c3d7abe3fed1f0f6",
+      "bytes": 62094
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-654940edb6f83271.png",
+      "sha256": "08f627ed302b5d9cb2e4cb3cb6d90bcb8afa7482cb05f4b6c4d42f5f644524e6",
+      "bytes": 49011
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-654da6392ee3a433.png",
+      "sha256": "a18f8d61a477b2a49288d44d7109717bf6a6056cbe398ac7b66c19391aeb3dba",
+      "bytes": 150901
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-65aa5af3f45b2780.png",
+      "sha256": "0d4984940a877a13ba11aab3ded21fef23c4b8559eb9ba7641ae8ebd46035cf3",
+      "bytes": 37634
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6614d9b0b84d08b4.png",
+      "sha256": "51c5ac4b49af4e627500496608b7e4fbe09f01c660650aeff12c11b5c5132185",
+      "bytes": 15611
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-66cf4ace4eafef03.png",
+      "sha256": "088677c397c362964b3af32cf78368c2622d6643440bb8aedfaf7e3908b46161",
+      "bytes": 41014
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-674b1f2f935db753.png",
+      "sha256": "443c95beb67adc53815c9a2bffc7e0d7b516bd67a8b18c7d4267693ba100a150",
+      "bytes": 19725
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-67cb4c02e1b644a8.png",
+      "sha256": "093895e802ed774773ff846dddc68a9ec7e969cfa77134797aa3b4c1d57aaf99",
+      "bytes": 102539
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-67d09784a936df27.png",
+      "sha256": "98fac0c401319a18bac5a1b64cd9745aaccf4ec6915937f110d451a665664051",
+      "bytes": 67878
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6888de19019ee9ea.png",
+      "sha256": "12081440090f4fb6c1c7e9f7c913aa5f615cc0f5f207d4c54d89dee7b51c48ee",
+      "bytes": 843
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-68bcca875b2f5ea8.png",
+      "sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+      "bytes": 7393
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-68f1ea2002c2c50e.png",
+      "sha256": "3d95eae279ee91c629979ff227fddffba59f0a54089e591d4676fa6f3ecacccf",
+      "bytes": 82823
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-69be8b6277e8ae26.png",
+      "sha256": "c573c49bf2de074361801ffaaf52e9251496d72867d84faa669f56d3548c11ad",
+      "bytes": 20036
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6b1fd618456cec14.png",
+      "sha256": "5672005f3eed027b07ceaab682959334d163c4a49fec310b1c21236e6bd0cbf4",
+      "bytes": 12121
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6ba57f46d1e9d863.png",
+      "sha256": "d3e3bb67d8da7b3b2bddd778ec565085aab4d72b0dd3d4f093db5ad949af4750",
+      "bytes": 50252
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6bcecdb48f957965.png",
+      "sha256": "8c6027a14f693e1469ca7766dacaa1b702b0b359ac59053de622b79958a67a33",
+      "bytes": 129675
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-6cf10ca702a501ec.png",
+      "sha256": "745581e57e876bf346bc45d22ebd1e10139a314309c93e1d1a28a9d847bebef0",
+      "bytes": 58240
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-71d4b6da4c74caf9.png",
+      "sha256": "3679b8f7dc2ef10b84e17e01f46b0cd56a855a4667b6bd13268d06c2b0705f08",
+      "bytes": 31590
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-743da904a0ea5a00.png",
+      "sha256": "943ef256884e627e1cd2d2d6c0448d0c55dd467f55a39573a8caa1609bbec010",
+      "bytes": 57059
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-75a5b21dee8b6769.png",
+      "sha256": "b5f7f88814718d06ea718957c5126a1401cd6c6dfe85474a098904ecef95a9f3",
+      "bytes": 46706
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7671a42456af532b.png",
+      "sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+      "bytes": 55616
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-767c71e454414cf2.png",
+      "sha256": "22a7d968e5b6ebfac862400e826bb9994549556abcfbb2513b6b5665510fcacf",
+      "bytes": 133184
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-76a5d1cd4fda36bc.png",
+      "sha256": "a1be4116b103568a1b90c606ed889b535305747af33b94b4f3c445ba81feced6",
+      "bytes": 57186
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-794c17e1f0a5b42d.png",
+      "sha256": "b11d0f564207501169f8e63aef153f445c67307ce6adadc3baa30efae4cb9e80",
+      "bytes": 7754
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-795a8e6c72fc495e.png",
+      "sha256": "9b3d4dec9d5af1001b031ad6a8395763b085a53b7068ca84a65ca890f92f73f1",
+      "bytes": 687
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-79867121aaea7f5c.png",
+      "sha256": "c9e127ec6ec9ce9a6ffc6e6f012493ec7a714ad0fc780574e6044da12a32a73b",
+      "bytes": 61639
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7a3f818421eab792.png",
+      "sha256": "4f10c3579fab4d8f10ea0d8a1544df4694a16089ac2567c96b0cae5992912cf3",
+      "bytes": 82729
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7aaa2d6b58c8a828.png",
+      "sha256": "318779200e8dbb11cc2d17e400695ee22ca9bf86102fb2e40aa576be62851cc0",
+      "bytes": 90414
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7af6f8e0d1ee6009.png",
+      "sha256": "b6f40ef14b9ea18ca67e2f5a4ea8cc27a08b7c463086f822533f0188f7d991d1",
+      "bytes": 6859
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7afb49e4ba85ebfb.png",
+      "sha256": "cfbf79f3c0a1c5a133d234ec5b55a06a2bdd7a1a72a14a54841a4dcc5f740b42",
+      "bytes": 17213
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7b85e8bf1f5dd420.png",
+      "sha256": "829e456b5937e6dcea2678358f2673889a5c781861405abbe03f0732faf301bf",
+      "bytes": 40405
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7bd9dfd9570bc036.png",
+      "sha256": "2be6a68ddbdc89af8461d325955e6e162f58596d0147e0a3a67c53c2b259335a",
+      "bytes": 37142
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7c78662fa84ef12c.png",
+      "sha256": "aa2435f7831f4f28b9362104c39e31a848a801d07c711d8fe6ffc7e9942ac916",
+      "bytes": 229274
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7d5282f9362da5b8.png",
+      "sha256": "8d8a17132a4fb5c6476544437497ffe507d1a166c93a6f62b640d82ccbbb409e",
+      "bytes": 117469
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7dd8c94e91e0ac89.png",
+      "sha256": "ac71accf83a12b5f776b07835e7a899ddf5774d558621857393fdad926bc2d06",
+      "bytes": 120273
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7e0ca2cd31f51889.png",
+      "sha256": "d76b268cbc08d6409b88b3cb549a154942143ad3d8d6025512775adaeb310c9b",
+      "bytes": 7383
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7e8c678ceaabe367.png",
+      "sha256": "66612285ee8014f0659b4eb4f2e8dbeffa9351c0c58ee0b321cb8729f0d2a1d0",
+      "bytes": 1179
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-7f821136afa80789.png",
+      "sha256": "35adee8205f25f9352a84dbf09badf25510db5a9eee3ccae33c6a1eaccf0449c",
+      "bytes": 34272
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8077c3ed86a35325.png",
+      "sha256": "561a652a0a63b323f4455a55801b9be6ab306c63f20adaf919d610b3510bc0c4",
+      "bytes": 1172
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-80fd662ab6326f9d.png",
+      "sha256": "1b48c2457f0dee83d1e0d843d35a271f6171708e6a7e870790b90e23f0761dc5",
+      "bytes": 63501
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-829acd50c7cfecc9.png",
+      "sha256": "6f71b2a8ee1788806d26b620ba0519d96a1b9ea4e512ae9d97819f29a8e5bcbd",
+      "bytes": 1071
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-83d8322a1ea31bd8.png",
+      "sha256": "8106d1d841b6bfaac5dbae320bf4c517cb4cdd3ba95efdfe742bddfbd6e342f0",
+      "bytes": 39787
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-83e24f4d6c2f4737.png",
+      "sha256": "ea11775363c32ba75abfc4915427d3539737b12f20850eeaed1d0cb9b94caf90",
+      "bytes": 83745
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-849f8113ab69df2c.png",
+      "sha256": "0a586c0d42b2abcc8d13fc71574b859a1deaa78d6a465dde2ac23ccf70650acb",
+      "bytes": 22725
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-84c41f392028c083.png",
+      "sha256": "555c688ed84b8377e250ce1a583a57624d3df31c8295ba4978e323bdcbed9dbb",
+      "bytes": 83870
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-85dbdb5660f887c5.png",
+      "sha256": "a72c51a30aa6e42e6120908756017aa0a5382edd11a4d61e89a432244caf0fd6",
+      "bytes": 14255
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-85f13289e04c19d1.png",
+      "sha256": "6aef666cdda8b79ca5d3451dd37e1101d265769ccb94e2efc48475ee05e331e0",
+      "bytes": 83341
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-86303cbb6eabebd3.png",
+      "sha256": "3160cbf2698e42c3ad2ceba8fda1e9d850a0d82a563ba7335e16fa9b700ec399",
+      "bytes": 74397
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-864760509c6798d8.png",
+      "sha256": "f98647328732493bb0d15042c0711d31567c50a488b72828496304460350908d",
+      "bytes": 55603
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8682862e91ad901f.png",
+      "sha256": "60c8ca4f96603da5f34e83bfdd6fcf727fd453729c9af3fe713e26dbe5f094ba",
+      "bytes": 59487
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-873bd1870ca65919.png",
+      "sha256": "544cb1c09e2d641bbeb80adb42b74be42f5d9b6b2c41e8b10eb8c71bbe62564d",
+      "bytes": 58762
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-87ab0a0a81b76e13.png",
+      "sha256": "e131149b164135f94d5ae89983713bc0576fe323d6d032461b5c5a1e5d800725",
+      "bytes": 82861
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-88eb828a70851110.png",
+      "sha256": "a6a1605a5ac029cc3c3042d71d9e92b22f88df583fe50048fb5ede1332401963",
+      "bytes": 59053
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8a3f96661f058dd2.png",
+      "sha256": "c51f737f76b69f3076ef7e86465d21d10a23f25d8dc72d86d9638ae3630fb8b3",
+      "bytes": 11251
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8a653837561a0ac5.png",
+      "sha256": "aa7fbaaac9b548d7f9de361eb2ec134df3432ce607c8f1a1781372e9d55997c2",
+      "bytes": 73396
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8b39c4b8a66cfbe2.png",
+      "sha256": "2e861928c47f1334876548725aecf8d07d5322e47fa93fbb4d998404ab27f113",
+      "bytes": 70356
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8c35baefaf0cfa7b.png",
+      "sha256": "f81e5f16cca3861cbbe67c40226f2dbf66ba198fac9e0b46a992c422b9dfc7e5",
+      "bytes": 55574
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8d8a4782d85d9ea1.png",
+      "sha256": "58ed76318c55269c372a27bdf95ce8dd361817d0ca77523689d88589911276d1",
+      "bytes": 3164
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-8da3a212a0f3828e.png",
+      "sha256": "9d30ba92b7f93769316a276d5444db2d7489530ce4c95254bad453a8f7a7a0f6",
+      "bytes": 108273
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-912b4690e9d78a3e.png",
+      "sha256": "81cc5cfe4af69d47452fd2140bf78c2b56e8efce479bcaf87ef161b02916bc49",
+      "bytes": 55330
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-91c6790a8117faa4.png",
+      "sha256": "dad3a5e6814925679c557b0d2313f4e8bafe36607f5e71c13d1198b799bee840",
+      "bytes": 64225
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-94ea6474a66a2cbf.png",
+      "sha256": "80497c5d7f367ec5629935189b90f3a34201992dbc30731084653fdcdc254f04",
+      "bytes": 45490
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-96cef5215fc53d40.png",
+      "sha256": "2d976c3514e9a577fd03af1b814288653d041e573b74e1ee89c4fa53bee479df",
+      "bytes": 167443
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-97dff48c76815d5a.png",
+      "sha256": "1d2b81ccfc2d752c184c8fa706cb630908b16f9d506c818c671c80eb737f0e5d",
+      "bytes": 127362
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-99b8af0ab287bda5.png",
+      "sha256": "bc4c4845630a56b268378373053da075747a745728253701d008af8c5897aa9d",
+      "bytes": 92446
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9a495a39a00a3ac4.png",
+      "sha256": "62e4d76489453fa32693b49f32183b939caa4c63b9dcc7600b17f33004f33f4d",
+      "bytes": 22149
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9ae978dc6073ae0a.png",
+      "sha256": "60c178791370e297e8fcb19c3a515912990882f4e0cfce36d030263051199656",
+      "bytes": 13071
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9b0092aba50b17d0.png",
+      "sha256": "411457e4ae0769e05547a08c4142d6ab98ebf39f5b7bebbb2558b4588c3d9435",
+      "bytes": 61955
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9be3499f26e80ce4.png",
+      "sha256": "29496807ed9163e9b05ea13d47a0addc4ea4243e8a9dd96fa26da494284f4160",
+      "bytes": 44153
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9c0e6efdf0ee7d52.png",
+      "sha256": "42b17b2e0d995554b44f058b455226c778b1f9d60e6ffee77b00e9b4d7de7780",
+      "bytes": 58987
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9cc919907dd7eb08.png",
+      "sha256": "980101fef48c994a938da8312ea6007d9bb859b93ae1cadaae0c8fd87c731b51",
+      "bytes": 2259
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9cceadc756893647.png",
+      "sha256": "3b573b19d2b50411bd95b0535798195dc7c4eb7c8e0cca8a8a787c5a29d90059",
+      "bytes": 1026
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9dbec25c32c9563c.png",
+      "sha256": "44b8f2db27fedadb3d6e60d1aff92df9708fa3af7582632673072f0e2e802cf9",
+      "bytes": 19547
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-9e3179331e9837ba.png",
+      "sha256": "6f725f9c74fc2929ab56a7ab0bb1d89df875ed719feee63adedecd087c07b708",
+      "bytes": 57413
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a16930312ccc5182.png",
+      "sha256": "8a9d9213f4bb6d598ee5aa14633686a811f5a328286b2988a00f99339936b60a",
+      "bytes": 907
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a1cb3086cf634021.png",
+      "sha256": "f7f473009aa81b88978a63679bbf30e9c34fb2868c4a09bb4b217482276a2a63",
+      "bytes": 46039
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a1f6c429ccfc9c83.png",
+      "sha256": "8a0e4aac14fbe5bb3e43a861a5a9e14c24c68cb7b8b68ae011ce93ffd778d0a2",
+      "bytes": 94914
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a3fb01325afae942.png",
+      "sha256": "3a9bd39fa29a465d356641b9b3c8506c10d395c7094e2568bf6525e688381045",
+      "bytes": 128873
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a5dd1a5a99847df6.png",
+      "sha256": "bdd5c1316521818c6c57824e65bcc889f18736ca0520f8491f719cbb92c5b195",
+      "bytes": 83376
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a5fbe409ec30bf6d.png",
+      "sha256": "6d51ddf19dab7fc66dddf25d56c51f12c515737c6184007d748afd46cd409f89",
+      "bytes": 37840
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a8538d3656714f7e.png",
+      "sha256": "96786ba4a93433f279570724f4e2acbfcc335cda341f9574b422568772e8788a",
+      "bytes": 118981
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-a91382a07115d253.png",
+      "sha256": "1473db0aafa7b247b2c38f9ef037a9e2fb111966fb8e0a87b14c5da377aaa547",
+      "bytes": 83851
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-aa0e6e721cfb7e38.png",
+      "sha256": "d3e6ff415403a67a5ab6037f31d4e97335bc10d797a60758f3e836eb65641a50",
+      "bytes": 56568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-aa247841b99d80c5.png",
+      "sha256": "d4bedb7ef0a6843fe4f7d3493b945009336108f7c056f51233678161fe06c4af",
+      "bytes": 120934
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-aa5298f2c7087a8e.png",
+      "sha256": "ef6c5ba10d05bb087dcf2616bb8298a0b97946d3e58d4a9baa5b8347a58497b9",
+      "bytes": 60339
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-acbeceeb809eb750.png",
+      "sha256": "0b12bf2970e7169a43f2437be0cdba4c87e47fbacee5c84931aede3741a75e41",
+      "bytes": 25223
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ad18a9cb8bb656b0.png",
+      "sha256": "3131fc7c45d7c8f54f087fb13525d57a877c274c52586a8f1a3c22a28c23b492",
+      "bytes": 6233
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ae33f6eaeb6fa06e.png",
+      "sha256": "654123cfcfc519ac344e4a2ce2c000c62663b6a309528283fa5250bf133fb638",
+      "bytes": 87401
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-af5356033d1b82c3.png",
+      "sha256": "3d50ba3405c9c939d6a90548375bd90785ba4b8a420d17269927599816594895",
+      "bytes": 891
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b19d0c9cbd1e310c.png",
+      "sha256": "f2e719be7e3ccb6073f5e3b21e8d3c2d46eb0cbe1c980ec0911bd38222e133e5",
+      "bytes": 41532
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b1cff62dc37dcf07.png",
+      "sha256": "eb359f85f6aaa7c14c8cda9921e4da682a8e4426c30d41c3ade116d9f5d366aa",
+      "bytes": 57513
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b25eb3e4003d3757.png",
+      "sha256": "f019b35707b6a82c440efeb006ae495563a3725bf9e6706e6e9abc7b8b0aaf41",
+      "bytes": 967
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b265a6b6ff5ef94b.png",
+      "sha256": "22695cd85d38ffa7ab3d31001cd18bbab085e246d233ddd8b23d8fdd75458a70",
+      "bytes": 20062
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b26eb8ffb1810ca4.png",
+      "sha256": "5e91aa49a582cf50278797b0724ee2407f6cf4b03407c148f8436164de3465e4",
+      "bytes": 48316
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b313a07e60bd286d.png",
+      "sha256": "1db06aec40d038e1f9450f2c982ea26011c1b2eabbafade221974f7c4baa44ec",
+      "bytes": 13352
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b3d709203e63f122.png",
+      "sha256": "f7ba1c47586a5a12ba6006d8ec4f560f6f901a8c5b95d34f095896abf59efdf3",
+      "bytes": 287705
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b473b3a7a1741669.png",
+      "sha256": "c34fbb9be54fd0ba866d665b4226ff55bb0f1c4a805e0d0d5774be523f13e6a0",
+      "bytes": 66521
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b6991801d51839f9.png",
+      "sha256": "0b172cbf087137283ae49edd19d070013975137f725f8aaf5d8b20f16ace0aef",
+      "bytes": 31322
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b6da9b6db8c12433.png",
+      "sha256": "0e38a89fb4861fd02fe5c5eba513ce0f29600573940fc700c334bb59de17c214",
+      "bytes": 58939
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b703203245b8fa3f.png",
+      "sha256": "8fdc9d37a457335ae48bb0defe535aeaad897203f80af8c6e87178657426630b",
+      "bytes": 14625
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-b9a78b703f54e633.png",
+      "sha256": "798584e1ea786379e7114cb48491b9b418aca11ae3c21c4150be9c7495a7cb68",
+      "bytes": 44542
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ba5f2de2e2d1460b.png",
+      "sha256": "48cb811cf932e84a3657536462e3f85536546a545050c769f03373115c42c44a",
+      "bytes": 121227
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-bac8ea7f9fe4d30f.png",
+      "sha256": "e6d44a376538829cd551520bfe56aa04aefb0963f41b99983db04c172a71fca4",
+      "bytes": 104246
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-bc3bf4771179b30e.png",
+      "sha256": "d2a51ad42cfac8d9307c90ffc54ca7c7333ea4fccf17660208be799b136a7fdd",
+      "bytes": 43383
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-bd5ebbc7df5d307c.png",
+      "sha256": "26d48aa392ef7331b1853d311358269518bccda410913baaaf9e2b4dab8c7ee4",
+      "bytes": 6552
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-bde53c8f30d7bcc9.png",
+      "sha256": "366540110a3cd4df65c776e5eaf91fef30462668d432b818a512109dec046f68",
+      "bytes": 182356
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-beb0b3919541fe29.png",
+      "sha256": "0f4e92b6db518ec15effa2becd46659273a02b00030fea46e4feb67e29763280",
+      "bytes": 999
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-beba34200dcf62e8.png",
+      "sha256": "702542fbf3e9fce2b865aed154a6e5589fb30bf4b76343e9a30aebe442e34d06",
+      "bytes": 62940
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-bfcde6cf141cc017.png",
+      "sha256": "31df229c4fa5402d66bf1ba51074954ab816666b628299e3b56d9735d9ada44d",
+      "bytes": 87090
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c13e542f2154e3d5.png",
+      "sha256": "f94a2d094ebd086ee10c8c341af38f1db52f5ba8ab13ad92afcfab20024d0c40",
+      "bytes": 84741
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c1f7eabfe9f96287.png",
+      "sha256": "8a83fca644c081bef0cdd19544e3a7d6b72ad6059e29ebf1bc3e563eca920c57",
+      "bytes": 82757
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c2857bd55d18ec90.png",
+      "sha256": "197d327bc94bcf32d6246c36c71b507e8af09c6c53fe8e3ad6801b35c3276363",
+      "bytes": 103493
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c3007295d1f8386f.png",
+      "sha256": "bfd7d498b75ce7922796372b1ea27a3c2fd7bbe5db26223807e7be2505f23680",
+      "bytes": 36695
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c30b032f6958b8dc.png",
+      "sha256": "95dfb3284df7c125f6df30a48597c6de0ce8f90c76e41f6b46a6c4eb172b0efe",
+      "bytes": 12340
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c3a915ebc82433f2.png",
+      "sha256": "8608ba971e74bc8e1291721acb371c5d2a64d3979fedf5da520eaf2718ff8201",
+      "bytes": 30707
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c6a351c987312c0c.png",
+      "sha256": "9861199a803f75d45da01d413a112e6355c52cd96352677b5e0adc1a9750c117",
+      "bytes": 95489
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c72b6bd4be7b4819.png",
+      "sha256": "5cd5ab6baa17d59247cc8431c22b6c7343a0add845c497467b162baf28051cb3",
+      "bytes": 28821
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-c82c229975406684.png",
+      "sha256": "e631c785054e662f6435fb839eba231fef4e9c1f5d6e9437f656a558945b8d12",
+      "bytes": 18570
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ca4d1634d374b282.png",
+      "sha256": "bd2cc39afd6326d0a2524023262e0b66552cb7dfb39c5bd2a428899254819b3a",
+      "bytes": 59126
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ca5a9c9dafb1bcfd.png",
+      "sha256": "b70d64acd6554f55514d079c66275d5f3f1fd677377518f74ca7f6a87e623dbe",
+      "bytes": 83221
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ca8d0d3f53d176bd.png",
+      "sha256": "a909b69ed1b2d80256b0a1b87dd2a9a15b59bb4a453b1e498372af78a15f72ac",
+      "bytes": 3079
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-cd6e47993ee719e9.png",
+      "sha256": "ac1d92170c748658d56a17325fedaa161f446e44c30341fcabf623c1c8b3e958",
+      "bytes": 24527
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-cf6647f67e033667.png",
+      "sha256": "960fade3c10cb242d19349c659f297c6e657d193bd8e9ca2e20f40332b31f582",
+      "bytes": 84661
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d10e84e60c0680d5.png",
+      "sha256": "db81443479a3d81d5c4f4badba16a69b49e3cda08df98bd8153895ca1159e310",
+      "bytes": 38524
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d25cad5fb65dda19.png",
+      "sha256": "184d7bbcd414756ed3dac20911e777978ab7cd4766622e22feed57325d7786cf",
+      "bytes": 4930
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d3dbfa806bc2a04f.png",
+      "sha256": "5c7453febcddbbf1a514a4f8ae9c973442e42101cc8343072f13a0e074e1aafc",
+      "bytes": 44134
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d4f033b784e065a6.png",
+      "sha256": "9804ad19d412e0cbcdf72fa787a7a14a4c1286d739dfa2fee43f08c9c0335d35",
+      "bytes": 23453
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d5531cd434f4b57a.png",
+      "sha256": "f00e630336dadfa95feecde61354048795ed763ff0c1cde24988454f8ab97414",
+      "bytes": 87151
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-d73c60bcdd91138e.png",
+      "sha256": "cce7f8f13cae64d181f5bb13ff079819aa40708d5139517a5a0cb77f34e7cc94",
+      "bytes": 41987
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-da61afa18374e983.png",
+      "sha256": "8aeea54f4f779603b215a4a7c7fb60977dc84c951081a48baaaf6649d15a84f3",
+      "bytes": 66489
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-dd90049adf809b4a.png",
+      "sha256": "f48d2235ffd99f66e111d4fa0515f3db4baa0cd4bc90a2aa50208e6eb8e759c4",
+      "bytes": 65222
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-dddec8efc39e1788.png",
+      "sha256": "d2eefd7d2bb65459ee944c33b88c06c48210e03ffb4ee4adfc622ef5d7df31f3",
+      "bytes": 62274
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-df5008f0a4b3e964.png",
+      "sha256": "7bfa884081801caa0ce8b2799df423eed823b8549dd2c31dafd6bc2c92f88a47",
+      "bytes": 11972
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-df8edefece9d3082.png",
+      "sha256": "fcc42310334c63e6000b95b1699ca140caa5730a89070d8c0ca111a361894308",
+      "bytes": 72673
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e02bf8a7f06b031f.png",
+      "sha256": "eca4f03af2c858bb2a71cf8e288f415c2a861f3e573b99ec9bc0d3cc2e7d4535",
+      "bytes": 2315
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e37e7761ad735d83.png",
+      "sha256": "3415a0ecc10681a2dcdd2cb68b0d19988030b3fd51e68e7e8f87c9cbeddcd22b",
+      "bytes": 80189
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e3d667c4a8dba7a9.png",
+      "sha256": "731229ec5903154abe1f605a6189c920c9d2cca7301d612a93acab7e6b427785",
+      "bytes": 63320
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e47cfc10ed73b70a.png",
+      "sha256": "b9eb74e577a38ed517cbebae3d33f80668ec3dda973764536bced8912f12f880",
+      "bytes": 50571
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e4c21ee2e4cac04c.png",
+      "sha256": "ba2c95e88c5b6432cd23a8d881c2371ff49db5fdd970edf478d76465a0886a91",
+      "bytes": 37413
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e510bd95967d11cf.png",
+      "sha256": "5e9af758b8a9170aaf3adc63d024c555b5b4e4cc7222869fb97f38babf262578",
+      "bytes": 86349
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e55e48d3573e6592.png",
+      "sha256": "79509a94f03c60e3fead57ad11e098c5858a3f9ad3e568c6f3494c58159bdb48",
+      "bytes": 36783
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e71372d105c2a291.png",
+      "sha256": "ba0f86148bae91bf4842af5abb12e4a86e763673e5bccffca56bb546c70627af",
+      "bytes": 35648
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e742a922555f4ac4.png",
+      "sha256": "24f9c92de493de8d245075238d81d20c71dc4a26d4975e56bf531257861bb52f",
+      "bytes": 198043
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e7a5c732a44ce248.png",
+      "sha256": "9cde2a14d748bb5e75d328d86f4908958944596bb1c18ceca40577cfa0c08437",
+      "bytes": 11768
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e7f9f15bb15b8714.png",
+      "sha256": "8928826417fdecf0eff25f756fe5b3a4362fba666c3079e8b91dd04b08b295bd",
+      "bytes": 21125
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e96bc2de3caf0d05.png",
+      "sha256": "5fce23d75f96ff3668eacb37d5c7934dc18845dfaab63cd8059d6b1ace81ceb3",
+      "bytes": 985
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e970e9c0b5cb9789.png",
+      "sha256": "dfe42f7f7244a5631f224916e91fe50967bc3bd5741eda73087ae9f8174cae0a",
+      "bytes": 11263
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-e9f152d643969622.png",
+      "sha256": "19353c0754352bb2a3d7621dc6c80a228061f52b42030efb50272d5c18c74877",
+      "bytes": 83504
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-ef6c6361dabad5f6.png",
+      "sha256": "4cb1bb99d2b80f21730c3b812f7971c851cd36ad80ac029b27af2406ae3de880",
+      "bytes": 5529
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f151c1f70b8b24d9.png",
+      "sha256": "c294893818e309463b1ffcd272b44d982d4ed16bad800618ddee7f4b5915357e",
+      "bytes": 893
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f191512c5da94c1d.png",
+      "sha256": "b12c4f6d6bb0e36ac9abe10e85cf7978933025d289f0c66e2961ce358ef08dd2",
+      "bytes": 79197
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f2877ee42c37c52a.png",
+      "sha256": "65003be8d8ad1d3cd44e1a52a3c6449a87c0814dcdbe2d965eec3aaed98aa1b0",
+      "bytes": 22794
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f2c5bed8e2c900a9.png",
+      "sha256": "dbf47e3cfdb198c37ddd349a530921653ee2879e00980441b5e05d92e0a869cf",
+      "bytes": 12222
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f4fb42ce480e3445.png",
+      "sha256": "d2da0ff4293169e7a3c16296a896634815a2e19cbbbea52a260791e9a9226282",
+      "bytes": 19530
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f6803352c0c3b51a.png",
+      "sha256": "8ed9f7bc07b1ae4c3fee7f5b384d02f244535c9024d5b858bc6e411c23e997a3",
+      "bytes": 83860
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f714feca0d123b20.png",
+      "sha256": "1a250ac80d969df73694ce56f49d796ba927242f10e967ed23d8b9689445d69a",
+      "bytes": 81776
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f78c99db8d3047d1.png",
+      "sha256": "0415e03e6a4c2c858a110e225088e9fc5b9e376c565a2133ee89d0e90b5a1c25",
+      "bytes": 71876
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f7a29cbdec4eed5f.png",
+      "sha256": "d59a63134edd10e4cf9895b7b519bdc444a861d098ffb20f4da6b3bd2b817a10",
+      "bytes": 87037
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f7ca19f05598b409.png",
+      "sha256": "297251999bb2faafafe04b4bdce6df3ce6d81f4a02b90be5ceb80825a864ec3d",
+      "bytes": 53519
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f873691eab39f1b6.png",
+      "sha256": "1f6410eb8917e8eac21e313584986667668b006dadee83e7675a1e1e6e42e664",
+      "bytes": 60742
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f977ba39e60a5ef3.png",
+      "sha256": "e5312ee561009db95e3b46c8bd396bea2d4d54ed9ca39abc2576eeeef85ab422",
+      "bytes": 806
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-f9a6f5d4351042ae.png",
+      "sha256": "a1dc68cdf71caf0455e2ef5735107aeaccd3977900aeb247fb9a173eaf783d0f",
+      "bytes": 42803
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-fc0cd58ad25eb8ce.png",
+      "sha256": "accfa978b073feba6d813977201e4914486cbcbe4a8251710ac10b4cd23ef096",
+      "bytes": 79240
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-fcb20a27dc0421e2.png",
+      "sha256": "c956bff4944369ff1b09573234822f8de5c01df29d22ce3f3229ca56d062b514",
+      "bytes": 81631
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-fd2e9f98c0b58d86.png",
+      "sha256": "cd0624bdfcbf412b96dfab14ef4dd5bae7db822ab0e2b03a20c7e1b50368c4af",
+      "bytes": 59302
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ASSET-fd5e6563de6a3ddc.png",
+      "sha256": "dbe2071515d70fb644238d43b4e726b36e36601c34f4a3275ea2626967a05db8",
+      "bytes": 63256
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D01-priority-v3.png",
+      "sha256": "c8e957ac035258a2af3e396e79d5d2f24dc6c1a2c2cbe2fe4c71e04be330d5f8",
+      "bytes": 2291970
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D01-v2.png",
+      "sha256": "a1ff4ce11e2ee16265965b702b89fbb5f21daeef284afc26d8095a57d2700647",
+      "bytes": 2357809
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D02-v4.png",
+      "sha256": "201d5d8796da00503e85280d07347bccf5425ffe6f1ccee235650cb5f0c91551",
+      "bytes": 2136243
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D03-v1.png",
+      "sha256": "2f6def53dac8bddde4e63e44d94c5377fb5a7a9865577cfd36f92a201ee7d6d1",
+      "bytes": 2353210
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D04-v3.png",
+      "sha256": "1a33f7e0b58900471ae734d53d31cb7cf5e66ff53e933f0b835d88a4d56cfff5",
+      "bytes": 2173721
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/D05-v3.png",
+      "sha256": "78e381838150ecc3529b44b6f74281c31145ed8b9ed5e8631eba7fe67ea203d9",
+      "bytes": 2304916
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/F06-v4.png",
+      "sha256": "3032f54e79e3793951f29c333aa417d6d58ac6ef7ad6d994b047d07f21426f08",
+      "bytes": 1939845
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M01-v2.png",
+      "sha256": "cd07c62d6b1f936f5e8f9e2d1d850b5198a9fe5185428eb94bf6b2e8533fbb56",
+      "bytes": 2163002
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M02-v3.png",
+      "sha256": "0d08fd5edfaf7fda14e66529f35c5786126b7791d9e2b8c2e546b42129b5ec1a",
+      "bytes": 2199398
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M03-v4.png",
+      "sha256": "8c3df68c589d1c3b5a18c0f89785d00cd3f7a51d94ab2f6dbe54994db51c712f",
+      "bytes": 2219220
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M04R-v3.png",
+      "sha256": "480e73ae1a6ab27930e877969b71e80c6b0831f9cfb833ad4d16cca342acbf3e",
+      "bytes": 1913724
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M05-v2.png",
+      "sha256": "9075baefbf96f42ec6c7e43b96e731aae9d8a34a46f28165de8a3d8590c58fd4",
+      "bytes": 2278398
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M06-v1.png",
+      "sha256": "a4dd45bf8f1e3f4468c9909d69dd288de358ba1642d1cd931af37f2a53a6c91a",
+      "bytes": 2598130
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M07-v1.png",
+      "sha256": "08e1839a6b7415c3e8086e5c101f0c175108e57011a66389f8ec9cb26bcc81a0",
+      "bytes": 2190164
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M08-v2.png",
+      "sha256": "686bb80d7ea21d5031aae3e4ef784c54de80ec4db02d56a19dd13981dab3b1bc",
+      "bytes": 2002269
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M09-v2.png",
+      "sha256": "573db9fa10a655d44bdc08f2db7fe228d8b6f20b6eb4711f11f9f6244aa4cad0",
+      "bytes": 2000259
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/M10-v4.png",
+      "sha256": "2669e9132feabd157f83c5b4231e000b6538c631bd7bdf84c4cf0c1cdd0e36c3",
+      "bytes": 2114070
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S1-official-vector.pdf",
+      "sha256": "70a71fb014a4f553d276a6b12ed4d156d875035f64dc6ef390aab396b322b775",
+      "bytes": 3738019
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S10-official-vector.pdf",
+      "sha256": "49c890b5cd5f34d23206f19601d3203c3ba1c5128ad52e3a2edbdb15e503f1f4",
+      "bytes": 3738016
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S12-official-vector.pdf",
+      "sha256": "d4b6831a3c46b0e3413bd6e6a177d967a8dbb4259325b22dabd864eb0ae540e6",
+      "bytes": 3738018
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S2-official-vector.pdf",
+      "sha256": "9a0380ba0ee77e917ceebf52fccfc9dafd0eb17818373aa2bfb3eef14742f9c5",
+      "bytes": 3738020
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S3-official-vector.pdf",
+      "sha256": "4dc583e99952a61d2e382e1249f12c0f1765ccd0f784d11825b3c16452609335",
+      "bytes": 3738020
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S4-official-vector.pdf",
+      "sha256": "b86fab65a7c147c9c964a8cb6cbe6d4e88824455a5e499456dc35905f063a681",
+      "bytes": 3738020
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S8-official-vector.pdf",
+      "sha256": "db12d069eab85fa307b7f14a4a3830765fe13a544c4d83663d3f6ac4f0909d67",
+      "bytes": 3738018
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/S9-official-vector.pdf",
+      "sha256": "d6c3aa59aa52f21a9f5da4e3a4f07eb9cc0cac4d956a616c9de8285ee52c93ae",
+      "bytes": 3738006
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/T1-official-vector.pdf",
+      "sha256": "8d6939e56bd271b174617640cd731840dfd7908385ee95e9a6584c3f79a5450a",
+      "bytes": 3738022
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/T2-official-vector.pdf",
+      "sha256": "4377ceaae3e71deefa0b1de8f7d5f066118d0b19a9e47282611e038b7be16749",
+      "bytes": 3738020
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/T22-official-vector.pdf",
+      "sha256": "827dd89e0e589b8fcaea3771fce06a5a542cdba2aa7edfa954b010044ea17871",
+      "bytes": 3738036
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/T6-official-vector.pdf",
+      "sha256": "1625cefd3695263c6dc570e90b9e4183340542a28ec774f6adc78821e8647910",
+      "bytes": 3738018
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/T8-official-vector.pdf",
+      "sha256": "d3ec73144665f793214a6ea36c6ac47ed7a718075efa5e3861324396e7232ba2",
+      "bytes": 3738018
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/b1b846473f82666d-e31-4.png",
+      "sha256": "42e658e812bd63b6aa2f0f5625d598c8b13f7a68d10c044599fd483018d7933f",
+      "bytes": 57066
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/bcf00609cef1e570-e31-1.png",
+      "sha256": "135ac2a3fb14f7a80cf9bcb59f83dcf30df9180f1cbe59d4a5810ff106ad90aa",
+      "bytes": 54642
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/c2ad308d9963834b-d1-1.png",
+      "sha256": "c27d48a7f3d6bcea7b6125e090055f4e1dc45a30bbaecd3b4260150cf91705a2",
+      "bytes": 10678
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/cf07c6b7450fd85b-c6-1.png",
+      "sha256": "e582ed673869965dd4d548222366f0f840c7faf674058951f6eb87546155e1f2",
+      "bytes": 8959
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/cfec445947e106f4-d3-1.png",
+      "sha256": "28efc7c76a5c6111a237322ba254c954075380f3e7f3b8a12cb42d2565cd379f",
+      "bytes": 13957
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/cover-opening-v4.png",
+      "sha256": "9d2f3359961b9e7b3623d8980ae9ce630155fbe72503748daecaae096fd152f9",
+      "bytes": 1815540
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/d37e75b77a0ff340-f1-2.png",
+      "sha256": "d6f519a752dc4c07c5d15a3c5100f9c9ac25b93ef3ba75b12158aa7b0d2aa8ff",
+      "bytes": 11379
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/d740a51ffb88fef5-d1-8.png",
+      "sha256": "e38cdf4663dd65f5d1720afc1815a0d657b5f23a912b581463bcea43c15ca98c",
+      "bytes": 12277
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/ead6b5417bd9f239-e31-3.png",
+      "sha256": "31cf30fe2e84f15d21fc109a395c80f9f55810fdcea411cbc92194ddfa3ef1f6",
+      "bytes": 56624
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/eb29ac5b39f3f574-d1-6.png",
+      "sha256": "67c47531c1fb116f18780dfd3e4465344a076fa9005bbe17bca2647cb085abfd",
+      "bytes": 11129
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/f3f3b27f28b669ba-t3-1.png",
+      "sha256": "c424e4aed31caaba1a46faa4db598b3755ad356b66cb0e716ba4b3bc1a474cab",
+      "bytes": 12381
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/f4afe91a53679267-y2-1.gif",
+      "sha256": "54b960f4828662efb7977511380ecb3897704fc9040b2c28e25730ac4d3ebdf5",
+      "bytes": 2273
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/f60cdf59906e7ebf-d1-7.png",
+      "sha256": "c15307d69c4a1582e02a4a74f7604d3fc39f62ab75e28edfa2887f31375bc2f8",
+      "bytes": 11408
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/f9c1012644285959-e12-1.png",
+      "sha256": "91b2cc3a8ac028d072cbc85b3b89eb2cb350a904e5219328cafb16619e1e4302",
+      "bytes": 9977
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/fd930bdf924d3924-e31-2.png",
+      "sha256": "c1d7d850172973152aa3dbe465a464f2eb9ed07ff7e722069f87ec4a0573181a",
+      "bytes": 56474
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a12.png",
+      "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+      "bytes": 13777
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a17.png",
+      "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+      "bytes": 15484
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a23.png",
+      "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+      "bytes": 11568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a32.png",
+      "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+      "bytes": 13694
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a33.png",
+      "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+      "bytes": 13259
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a6.png",
+      "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+      "bytes": 10712
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-a7.png",
+      "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+      "bytes": 13754
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c10.png",
+      "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+      "bytes": 13108
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c11.png",
+      "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+      "bytes": 12637
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c12.png",
+      "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+      "bytes": 11120
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c13.png",
+      "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+      "bytes": 11367
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c14.png",
+      "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+      "bytes": 12720
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c15.png",
+      "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+      "bytes": 12114
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c29.png",
+      "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+      "bytes": 9029
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c30.png",
+      "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+      "bytes": 7520
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c33.png",
+      "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+      "bytes": 5287
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c34.png",
+      "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+      "bytes": 15918
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c4.png",
+      "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+      "bytes": 9174
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c5.png",
+      "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+      "bytes": 9926
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c7.png",
+      "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+      "bytes": 9723
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c8.png",
+      "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+      "bytes": 13074
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-c9.png",
+      "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+      "bytes": 8752
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-d12.png",
+      "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+      "bytes": 9205
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-d8.png",
+      "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+      "bytes": 15240
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-d9.png",
+      "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+      "bytes": 14528
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-e23.png",
+      "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+      "bytes": 3681
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-e24.png",
+      "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+      "bytes": 5334
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h1-e25.png",
+      "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+      "bytes": 9476
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f12.png",
+      "sha256": "1c83899b37472b5e7e53e538fd8d4ff5b0af4b6026a630ae94ad78e4ea5348a2",
+      "bytes": 6983
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f22.png",
+      "sha256": "c8fcd90de49b9c2f69658bcfff15a2b4d0e4f4b6a8031c15c50b6ad17b4dcecc",
+      "bytes": 82293
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f28.png",
+      "sha256": "576780fac3a818bc1aebc5e4acd46dbbd042055f05d6f64ba12f3494ca390703",
+      "bytes": 3246
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f29.png",
+      "sha256": "3932610fe3bcc398aac8a42483c2ef246ff7415f48a4c9e48b0f05ad04a1634c",
+      "bytes": 4043
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f30.png",
+      "sha256": "9b08e0ccf589a00320a5681862eb3878d7ff8330abb3c1fbcceca9c199576287",
+      "bytes": 10810
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f31.png",
+      "sha256": "8cc1dec297e967f8e603c67d6d9021efaefb2ac12f7c9e5f8bd37026477cc071",
+      "bytes": 6723
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f31a.png",
+      "sha256": "ab5ad1bf2f158314d8a5b12634aa041081b505aa064c0f5dbd665d97bdea8d5c",
+      "bytes": 32246
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f32.png",
+      "sha256": "0db992ee4cf7c0f49e74c29d0e152a934f68754ee0c57074c8d64febe1314695",
+      "bytes": 3817
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-f33.png",
+      "sha256": "8974d637aa3e15e1fed4b15f5f7e910c1d86e66e7d57410b0b2b316b27aaff6f",
+      "bytes": 7189
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-g1.png",
+      "sha256": "4b19017fc3cf3d69a54860b93087c739a06bab2ad57367aabd182421133bfb86",
+      "bytes": 6145
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-g10.png",
+      "sha256": "2ff4f76e69d45209e5de2082b686810c1f1cf512220a50eaa2d7afa53b9e6a28",
+      "bytes": 3650
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-g12.png",
+      "sha256": "951d3362877ba6df2a565fcb353bb1e05814e3e83091acc466a2a3a0e82d5eda",
+      "bytes": 7124
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-g3.png",
+      "sha256": "fa7b5b517d48e0130d01def007320227d9f95be7b531e5cc4f104c6542f178d8",
+      "bytes": 10234
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-g5.png",
+      "sha256": "84f7f5e1394d6b51a9f780ec5e0c07071650d879ccc9a33e4d4d79bd1a8f032e",
+      "bytes": 5291
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h10.png",
+      "sha256": "9cd7eb365c3cc00b690d3361ddcea9c4d54350927974e27213de44b7f06cf128",
+      "bytes": 4336
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h11.png",
+      "sha256": "7daf07c69e4e36c1d0e8007e1f91440e8b2b4db3b2924c9837e9458d51224dbe",
+      "bytes": 6966
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h12.png",
+      "sha256": "50190da5521b3c83919dbc58d8ff5134fcaf47de2fcb727f2916162106fee97b",
+      "bytes": 5424
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h15.png",
+      "sha256": "3240a4862dac2ac412fc716e2bc121e40b2b0bfdc5987b02f21f91f042ec1236",
+      "bytes": 7153
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h16.png",
+      "sha256": "5273c6b27e2ce566b24bcdd8d01f9b04ece9906cc0018d13449b989fdc89621c",
+      "bytes": 10220
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h17.png",
+      "sha256": "df7543ce7971dcf922d71e25f2757419916a780f7410429c11f08e1e18e0638d",
+      "bytes": 8893
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h18.png",
+      "sha256": "7eeabb921855699288b7af1e4c9d8d941f785f98e1d555d4967a54b49f9635f2",
+      "bytes": 5417
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h19.png",
+      "sha256": "e44a4044a9e75af207fac7261c4b6cf29b702500e4274c8bd3234338bad13ae9",
+      "bytes": 10511
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h20.png",
+      "sha256": "c4d4bb07bab9b8d5a9b2f7a4cbad90d6d5b2c582c79d1f894ad4f2c378d15531",
+      "bytes": 7763
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h21.png",
+      "sha256": "9790a271eacf1a892a64f7078260b8cfebcbde476bfc657c79fc0ee307fd0e17",
+      "bytes": 10330
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h22.png",
+      "sha256": "f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5",
+      "bytes": 8405
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h23.png",
+      "sha256": "939d20e125daf167776aae629eab47a7d2369505e535af4b08faad491f960571",
+      "bytes": 6782
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h24.png",
+      "sha256": "e4dcda284ccdae14db5a25c985df5afa7e0e8cab31baf8c3c2f190ff67c7b906",
+      "bytes": 7647
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h25.png",
+      "sha256": "6db797e5c015182eeec96c231bf664d52632298120e500c53c7d8b4d1267391d",
+      "bytes": 4893
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h26.png",
+      "sha256": "d93dd59282a849c24d12164b5b471df36fa004c6e1cac88336a1047058f02ef2",
+      "bytes": 3645
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h28.png",
+      "sha256": "99fbdd8a7ff9771ca9983d364202c35655d335a14d6ae5aad11a22047781f8ae",
+      "bytes": 6160
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h4.png",
+      "sha256": "61843504a931dd203657e6d94737572691d5e0e81fac9fb5a30656852925d8ae",
+      "bytes": 7173
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h5.png",
+      "sha256": "cdb8df91a27b083d77f12fa9e1f5aa3f40b6982099b4460af8d7760105bef0b6",
+      "bytes": 4821
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h6.png",
+      "sha256": "bdde2713288ff3b477cd0478188ba669efa0ecf7a64ce7c00f8d457d9dd0be8d",
+      "bytes": 7244
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h8.png",
+      "sha256": "2806263fd1dda637ef874b5bfb9a6098f322739263f94561eb9355320d32d787",
+      "bytes": 5573
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-h9.png",
+      "sha256": "599e81fbc45af7bce14250f094dd3a7ec4182e2b90a39be944a75f23a413bd60",
+      "bytes": 5907
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h2-j3.png",
+      "sha256": "53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d",
+      "bytes": 9940
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m17.png",
+      "sha256": "6fc1c268a9a2851f9aacd77ef03fd2aa79d43138647ade7799b72ffa63b7fafb",
+      "bytes": 2349
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m17a.png",
+      "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+      "bytes": 396261
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m28.png",
+      "sha256": "77613468d37370340702eb708e9c28340f6c03d66d9e201f3c2c37f269ae78bb",
+      "bytes": 4025
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m29.png",
+      "sha256": "1526ae0c39c44fd4562f5261303dfc01a973dd990fb172f3c02ebc8581b8e398",
+      "bytes": 6930
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m30.png",
+      "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+      "bytes": 2972
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m31.png",
+      "sha256": "3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612",
+      "bytes": 6308
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m32.png",
+      "sha256": "cadf2c13598636d5b1538f469b8347123b2fcbd948c8f979912fa688d42df2ad",
+      "bytes": 4650
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-m34.png",
+      "sha256": "2d45078a05463d2594d8019d8f9679d2d7c6775b1e5c92f5a70ba31004eb5854",
+      "bytes": 5164
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-s11.pdf",
+      "sha256": "04c7b368386b2ae9b3b9cb35c0941bc060b1040aaacda2b9347d510d39da047f",
+      "bytes": 3198
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-s13.pdf",
+      "sha256": "0ceea44db44afc78606ba7f0cef750f9dcd966aaf44fa88c85907965dbb53493",
+      "bytes": 5324
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-s5.pdf",
+      "sha256": "452aef342f824138210209b3da712d7c823c2f950e2a73727055f6f555df9fad",
+      "bytes": 3233
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-s6.pdf",
+      "sha256": "fa9fa57089348b3edc9cf9c025273aa8fc8cd80cf839c08fc94c658a7c9ba395",
+      "bytes": 3645
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-s7.pdf",
+      "sha256": "c6c0f41923b1d5bb36d8df73c22b10ad465635d9091d49c4e56540457c37873b",
+      "bytes": 4729
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-t23.jpg",
+      "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+      "bytes": 6468
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/h3-t25.png",
+      "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+      "bytes": 16106
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/curriculum/parking-v3.png",
+      "sha256": "2501f21bb1a88a7b618c0ca6381b1f7d38e531a145cb8b11e4ef05679134a41a",
+      "bytes": 2134453
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/font-licenses/SourceSans3-LICENSE.md",
+      "sha256": "89ad2c4f66dd29127527493e729c31e731f111cf10faf5774c3db9275ed0c22c",
+      "bytes": 4579
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/font-licenses/SourceSerif4-LICENSE.md",
+      "sha256": "75784a295293a8992f5a8d99210566e0064a012e6dab6731305e3787f15896c7",
+      "bytes": 4492
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a1.png",
+      "sha256": "a463df2963f9d0a79c0f6faca43d1512c86b402cb8f7432455ee059d9fe1a269",
+      "bytes": 10726
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a10.png",
+      "sha256": "b484e6a27dd7e0aa8bd0746224f679c6fda119159b0e0955d19f0c90cae65230",
+      "bytes": 13444
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a11.png",
+      "sha256": "24eb7a7048e0cd2e0530381908a4e6b6c496940bd688c5d3533a4ac6b31a56c2",
+      "bytes": 14390
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a12.png",
+      "sha256": "ec45a55f32074b022efa04ef347466ddb23748c287bb41a1beb05845fbec9972",
+      "bytes": 13777
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a13.png",
+      "sha256": "fb72572e950400d95bce0203576d23da3e8d11ca7cd650236e83c46cdbcd721e",
+      "bytes": 13994
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a14.png",
+      "sha256": "fde3c31f5fb8abf7ab32a53708660a62755fdca45194c8c78c836b27256a0303",
+      "bytes": 13447
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a15.png",
+      "sha256": "23b257e8e23bf9b015482790afb15801ad64c9e1f023f9e6e3e48faf3ac8ec16",
+      "bytes": 15689
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a16.png",
+      "sha256": "e80128ede9f09dac4510cec74f0f2434a2e4acb662aea67db17adc0d288998dd",
+      "bytes": 16334
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a17.png",
+      "sha256": "42d61fc55a09d3251ae691beb344f798206918f6b615eb747294ab3b4bbe0950",
+      "bytes": 15484
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a18.png",
+      "sha256": "26c5787326bfc761b62a9c7b79aa15fa852d45da81e5ec8d10aa615ac2a13972",
+      "bytes": 13939
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a19.png",
+      "sha256": "e031a7a8d9132aea0de611bbbb80314e653940994cde957566c9236099be8403",
+      "bytes": 14176
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a2.png",
+      "sha256": "c1971159350435b7ca2b0bb80b817b191f3170f5741d2e5ecc5822860d1650c9",
+      "bytes": 9967
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a20.png",
+      "sha256": "39b4efa1c0829c85d3260413f6afc1cf87395fa15a2dd254268abce0813f4607",
+      "bytes": 14162
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a21.png",
+      "sha256": "e0c5426b30afd1feed94a5aae1dc17820b8020e87983892e90a6d61d06cc22f0",
+      "bytes": 6443
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a22.png",
+      "sha256": "10daaa8f0d4bb96dd059191baab7b0edd7a122d47531b8c1337fdc18ee9a13c7",
+      "bytes": 15029
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a23.png",
+      "sha256": "553e7981f8893e9102315fab485456b63f82accd7e28593467a0793d8803205d",
+      "bytes": 11568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a24.png",
+      "sha256": "42bbae01e4b6e8a74a2e91fffcda0277825f6916275239e83f2f0563535d413c",
+      "bytes": 13877
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a25.png",
+      "sha256": "7ae6b93742fa55c80eefcc83614737169b78980f6f500a2cb07fb9854aadeafc",
+      "bytes": 9318
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a26.png",
+      "sha256": "0d60749a2725b4763310b5fcbc74637e9b02d91768c073f211e5e42e4a857e83",
+      "bytes": 11832
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a27.png",
+      "sha256": "a3b6fe61152af02dc26dec90d32b16446190f2129f7ba9cf66a838f92008b94b",
+      "bytes": 13807
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a28.png",
+      "sha256": "77e6237d9605c2abf33d84d4b623b66d6cf17de67f65e122bca52b6bcbe2fd33",
+      "bytes": 10636
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a29.png",
+      "sha256": "0c03189fa519eb847df9767e1942ab04770c1fd8636fbb622f4627f0defa44b4",
+      "bytes": 9141
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a3.png",
+      "sha256": "12bd730d3bda43f29f1ff6f5c42302a6535f3831fd2a516c40afcc985b12e6e5",
+      "bytes": 13961
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a30.png",
+      "sha256": "dd11e3f184a23413cf77fb1b072412894d3b5739fab3643ac21a1e039526fecd",
+      "bytes": 13747
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a31.png",
+      "sha256": "29a6f3536e6c858109bd76d6307f3772579a9c30e7ca9fdd86b27dd54e38498e",
+      "bytes": 6693
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a32.png",
+      "sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+      "bytes": 13694
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a33.png",
+      "sha256": "f2197e0c2b57b046c5880fd8e6bb39a6a682d20658a3d733843364c5db6102b3",
+      "bytes": 13259
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a34.png",
+      "sha256": "ed3d54625b4980672bd17988ae65245d364be31676147d02573749f0636c9fdb",
+      "bytes": 12158
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a35.png",
+      "sha256": "27caee704aa43f9faf0e5ea3eea6fb74a84f79a442e47cf08133074761bfd6ad",
+      "bytes": 10059
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a36.png",
+      "sha256": "444d1b8efe651fc19a4ad8c01be2504e5a77e48082cbbc1f202e341abe736c8c",
+      "bytes": 12881
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a37.png",
+      "sha256": "bcf48041946c244d15410c295cd61e024d204459b9879950d65593605bdf7725",
+      "bytes": 12323
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a38.png",
+      "sha256": "ac65f2f1e456dc14f75b5e7a31ecf08091ee1fe8c0bef8a5908fa70495b8dc17",
+      "bytes": 5933
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a39.png",
+      "sha256": "8cc9a44ccb320e1214fb1fbfc3850d12ce3d9e92f2c5fbcd1d8b31cf3725c871",
+      "bytes": 9415
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a4.png",
+      "sha256": "9566e6e9bd174798761cd1dbd939e71d59d61e4b31e65d3cbf42f7f871322cbf",
+      "bytes": 13550
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a40.png",
+      "sha256": "cd892013e3e6ff7eeffa097617d8e1aa92ae6ea4535d1eb07e2a6eec781c5091",
+      "bytes": 9825
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a41.png",
+      "sha256": "d399beeee121307b19ec8fca73194ab08cc6951bc91d6680afe3fc11065e831c",
+      "bytes": 5114
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a5.png",
+      "sha256": "5818c58b550619f4dd092f5bb459cfd9170c710fc52ad29dabe82cc63d628ecf",
+      "bytes": 9867
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a6.png",
+      "sha256": "796f14f8f0bb5b2cbe35416b785223f24ad07c32f7f2b4e39f4b2dbc6bbca6ff",
+      "bytes": 10712
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a7.png",
+      "sha256": "22f5077921607c0c2d9806117935f52f19d8a4b1c37240bbec2f643e75a3cc8a",
+      "bytes": 13754
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a8.png",
+      "sha256": "92ddac23312fc8798a509a338fcc27a4be3bb80c4449df529c666b6a22a4b10b",
+      "bytes": 10086
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/a9.png",
+      "sha256": "6c11c02a014a5ea1adf276c3a8004ceb823853118f10db271755c25066f5a9d1",
+      "bytes": 9534
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b1.png",
+      "sha256": "043697348143b1c9c11ec6d83fca700418a1df298d127289cc58a5de6cb9b7a8",
+      "bytes": 8702
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b2.png",
+      "sha256": "7169a31e6a621a9436fa4078e57f29c348d5dc9c19429a19bb6f93f109a0e881",
+      "bytes": 9384
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b3.png",
+      "sha256": "524d4aa3821f4e9206f832347d2cc4ca8c6406868cb4a1ce012c041d5474cbd6",
+      "bytes": 9528
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b4.png",
+      "sha256": "31892331c755f58e1a913ffcee6eef449446f69fb4028d860652476364aeef3a",
+      "bytes": 4058
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b5.png",
+      "sha256": "cc4c43c9b984efd7feb0e4790e955672b6e426023bf9f4c1fbfa5ee7d18a7e61",
+      "bytes": 5005
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b6.png",
+      "sha256": "f294eb128fee4963a08f270797e1c96127d76e3997ff5fdd64a4b729dcba640e",
+      "bytes": 7700
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b7.png",
+      "sha256": "c00d2b2cb5c66cfe2d69b97222deb67d8ef5f276bacaa153d708b3f8cafe6cb9",
+      "bytes": 2942
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/b8.png",
+      "sha256": "b480fa3472b7b88051358f85c3a16a3c68014e92bb01d64b52ad3cd9bd1b7372",
+      "bytes": 14570
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c1.png",
+      "sha256": "d6c389dd457c6c63a92647cc42ef1a6e6fbab39c4708cc2dd40d728693de997e",
+      "bytes": 4580
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c10.png",
+      "sha256": "e0dea9728193f7a8ad10de160b85906b890b223de5a00bd910487469c2d1b850",
+      "bytes": 13108
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c11.png",
+      "sha256": "6e2fc603162d3291bca61149cb4fad67c5ada4078ff5c54d4d039ed79690a543",
+      "bytes": 12637
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c12.png",
+      "sha256": "df7129ecf9be4b40cb49cc23786ded37ad5e08b6cbad317c683eca1dc787e8ac",
+      "bytes": 11120
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c13.png",
+      "sha256": "8e793194e58dae38dbce2960d5cfe5ebec53e39363101e6e7f9bc1c6682b29dd",
+      "bytes": 11367
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c14.png",
+      "sha256": "6e2336d2d53965dd7882993a5926202a91d6782fb82b04f2b9c4cc7ffd8fc219",
+      "bytes": 12720
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c15.png",
+      "sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+      "bytes": 12114
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c16.png",
+      "sha256": "0f72dfe1589567953151b808235df184e6894bc7e95bc76a7894de99e8585222",
+      "bytes": 10390
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c17.png",
+      "sha256": "e89ee577dce8f46cee72a87eb3767de7ae6e88108153976fdec1eae7de672c62",
+      "bytes": 11122
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c18.png",
+      "sha256": "d2948f2fe959beb9fdbd6aac255bca5fc510dc372bb75246e51f233f4459f82a",
+      "bytes": 10771
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c19.png",
+      "sha256": "576f2e9be7fa252b44747e545e98ca454935d467b41f68d141c95b301feb57cd",
+      "bytes": 12871
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c2.png",
+      "sha256": "155ae0ff1fa53699e24346a7cae04b63bdf996ba86ee57985c772652d853646d",
+      "bytes": 6580
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c20.png",
+      "sha256": "fab0e2cef1343e7545c7f581dc9d30f02c7495fcaa9e294ea02786728e88b6d6",
+      "bytes": 8958
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c21.png",
+      "sha256": "127da09b91d7e199ad3343eaf5ef8a7ee87d78a014b3b3d7068a407ff10929c8",
+      "bytes": 10849
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c22.png",
+      "sha256": "29b2202c5a5f2d550c7b4c4c79f268075b387c8b7ebff426768376ac21d4e92c",
+      "bytes": 30614
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c23.png",
+      "sha256": "cdd92367ba3597178cb73add74ac47c7b0ac56fea1ecbac44bb13b30146ba7ec",
+      "bytes": 10472
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c24.png",
+      "sha256": "7c367ad78f4db392efc8ab56ef75a273d9799114bf48b11d5b52e5d50450304a",
+      "bytes": 12596
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c25.png",
+      "sha256": "a0504c3ef311a37a53ce741671e29ff2fe052d7ef415076de6ef347e485f1d7a",
+      "bytes": 9947
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c26.png",
+      "sha256": "6f4e347fa3de0d46ac6576efbca65a4802c57a262ae2a10cb8b27d7c919835cb",
+      "bytes": 9876
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c27.png",
+      "sha256": "a01a5bb720981ea3771ea9781782cfc36c8bf9057d66427b7716ff8c4c634d67",
+      "bytes": 9602
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c28.png",
+      "sha256": "cc75906a2b0b93f3b5eeb08516c123a3f0e77aced8c38fdb0d152db5ccf4faa7",
+      "bytes": 8395
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c29.png",
+      "sha256": "df361c9c16bf657bfa9f78a3f6190e95a3b316c09c6fbd49829d8cb254a5829d",
+      "bytes": 9029
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c3.png",
+      "sha256": "ee1b74fac82924a8d10b44ed8ce59430ab2329c0932348370e6607d6cdb66c36",
+      "bytes": 11127
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c30.png",
+      "sha256": "b0aa0744b3add05e23d71435ccf0baa8436bc4e9a3a89645096ccaa104256173",
+      "bytes": 7520
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c31.png",
+      "sha256": "56cff9b2500f2b1c240bb6bc2a93e80e2d54c75d92d6f4298c00c8f83c8bf5e2",
+      "bytes": 11900
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c32.png",
+      "sha256": "fc065f0c6c69b4f8ce7015f4cfbc15e54c11585663afa35608b2ad3f8c34aa99",
+      "bytes": 5133
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c33.png",
+      "sha256": "b3ea60a917ead351ae9c43ffdba4202f420b02777b6f1701e3558c16c29c78c5",
+      "bytes": 5287
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c34.png",
+      "sha256": "5856958b4ed67a7e16a32c3a4c491f0672dbdaf87549bddc66530f3b77f3f3d5",
+      "bytes": 15918
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c35.png",
+      "sha256": "f48cbeb6032575f5d94a6758a233523ab307bc0ebea20bfcd03ffc01ad39f293",
+      "bytes": 7487
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c36.png",
+      "sha256": "74eabc48356d5ddcd77c5dbcb10f2ad43428179e1d6aa3c91cf7117ffd955b16",
+      "bytes": 7424
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c37.png",
+      "sha256": "f4bbde683f960ed50daf70f92073a59d468af8d4e08e4fdfc659f0ae28f418ea",
+      "bytes": 7531
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c38.png",
+      "sha256": "b9f03e805b8f2f00660361d07566103c822407e386b3ea8961d666f4e88bae34",
+      "bytes": 7562
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c39.png",
+      "sha256": "83fe3919a89d221a0c896a5aff73a8c0c62fe1259af32db3cb1a5ea00b79f8c2",
+      "bytes": 7568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c4.png",
+      "sha256": "a5b9b2157dac66a57761e10ba5661588282ff5cbdb266c23cf7e101c51c849f9",
+      "bytes": 9174
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c40.png",
+      "sha256": "3995428dbc552da3b4909cb2087ec92b36cf67ea1fd80ae6aaf299b4e3712d18",
+      "bytes": 3726
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c41.png",
+      "sha256": "ff4033a64f4aab3144e0095bc9add8df386028a8378ce0b9437ba44b234e3f48",
+      "bytes": 6001
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c42.png",
+      "sha256": "93f8e953bf39007b73ea8f3921396bfb942328ace93ed11e902037b262393364",
+      "bytes": 8446
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c43.png",
+      "sha256": "0892e26ea3baf5cfd557868008289458373f51c4bf9bdea9f2f55ce24e83b993",
+      "bytes": 12490
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c44.png",
+      "sha256": "cd4e96e32a46e9c66ee3172d8ec3d9a3e488d531159bcc0a25f8156865800096",
+      "bytes": 5928
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c45.png",
+      "sha256": "7d074c7fa3b530792007148b70b6d53fe04a2eaf8606fca84eee0f30580f905e",
+      "bytes": 9678
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c46.png",
+      "sha256": "0a0777a26ce8c666fd668602b873f376ea979407ca4604ff9551a64b99dfc32a",
+      "bytes": 236960
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c5.png",
+      "sha256": "53ed3a72e9700ec8cf3f290fd554fffa86d946ed5d66d4229e00a203ee0a0922",
+      "bytes": 9926
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c6.png",
+      "sha256": "e582ed673869965dd4d548222366f0f840c7faf674058951f6eb87546155e1f2",
+      "bytes": 8959
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c7.png",
+      "sha256": "839f260e2af609cac8e981baace131d0d64533149dd3b5b439f39e3f18874b50",
+      "bytes": 9723
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c8.png",
+      "sha256": "75d45165dc806f6d30f653734fbde7a34e80340bc873338cc3ccee7395e0caad",
+      "bytes": 13074
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/c9.png",
+      "sha256": "f0d38f51156c4f7b4f0bb7f64fe9976b3dce2d62782ae3302e81258e26310c79",
+      "bytes": 8752
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d1.png",
+      "sha256": "c27d48a7f3d6bcea7b6125e090055f4e1dc45a30bbaecd3b4260150cf91705a2",
+      "bytes": 10678
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d10.png",
+      "sha256": "b6acefd4f95e5dc8c82d147d07f5e70d3eeaf25be5bf9402355601b483672ad7",
+      "bytes": 11182
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d11.png",
+      "sha256": "6ea886bd949a0d9dbb608ca3ec27e53a8a71b317d549063f595960ba2a7d9fe3",
+      "bytes": 11922
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d12.png",
+      "sha256": "8cc803a5a3622931f0274d95c8d65f356143f8b63e0511c0b8a8f5050d665b7a",
+      "bytes": 9205
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d2.png",
+      "sha256": "6e21bed49538973a0830878afa83167222720a3ef58eb71d79cf098cb1f9a869",
+      "bytes": 10596
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d3.png",
+      "sha256": "28efc7c76a5c6111a237322ba254c954075380f3e7f3b8a12cb42d2565cd379f",
+      "bytes": 13957
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d4.png",
+      "sha256": "8bca5059f2148fb333982d8c18a643b06744710bd2aed68d99f8a4ad05250cb9",
+      "bytes": 16956
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d5.png",
+      "sha256": "78bf54263df8381f3b21cb2ae5a9169253b53cf9e66a04026cb05bae19a5c77f",
+      "bytes": 14894
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d6.png",
+      "sha256": "5bf2ac7637baa5500b369445ce35c0698a4022e4cb315b6b6843ce5161824ebb",
+      "bytes": 15871
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d7.png",
+      "sha256": "89dd2b2629a2eced3fa891a5dd9aa4a5c4f4e3d419e4443484fb2ce1626ff561",
+      "bytes": 15519
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d8.png",
+      "sha256": "9cffc2e33728e761794d64681da010b033f7fb9ed9316e7bf79ee85123c0f32c",
+      "bytes": 15240
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/d9.png",
+      "sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+      "bytes": 14528
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e1.png",
+      "sha256": "f7f169768f3eacefd9d5c0721369f4a2d8b90e2252e42727051e7884add66626",
+      "bytes": 5500
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e10.png",
+      "sha256": "c0cfe19bed8a32748ddaf8564dca9ad590f109a4c5dc34215dc6cfe5876d180f",
+      "bytes": 11328
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e11.png",
+      "sha256": "8f87fe6ca6c99df143a8144735c50d41b311ba229b11cf585b64d7a6ac59c00b",
+      "bytes": 9120
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e12.png",
+      "sha256": "91b2cc3a8ac028d072cbc85b3b89eb2cb350a904e5219328cafb16619e1e4302",
+      "bytes": 9977
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e13.png",
+      "sha256": "eb354240ebf5280a1031fb9173c4c985f7b80a92c9127b4e9bd5eca90995f8ce",
+      "bytes": 5248
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e14.png",
+      "sha256": "4f3820549608f7f80dab18770a39d338b7d19806a9d265699f1125a55139df0e",
+      "bytes": 3811
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e15.png",
+      "sha256": "539519eca5fefcdb53add7e1cd41266e54693cd8fec442dc930c16b77f6e2cee",
+      "bytes": 7218
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e16.png",
+      "sha256": "5c1acbfda27a300bc4f26dd645cecb02116bbcdafe78301d75fafd41dffc9c9a",
+      "bytes": 2024
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e17.png",
+      "sha256": "8c927e2cf379b0b86e3934069fa6a357cde6434a01b36f62c2f9129a3a682a4f",
+      "bytes": 1814
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e18.png",
+      "sha256": "1b88450768de497c4404cd9ffb1a84d16e6adbcf7d521fd4a0a2b7d93560007e",
+      "bytes": 2924
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e19.png",
+      "sha256": "877c274a86559687a6807af7ba2a0881f461710a4a91e4778da40871af72adb5",
+      "bytes": 2760
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e2.png",
+      "sha256": "1d09bf88ce34b41176baac874e3c556bf6024557f8c15f64a210dab69509f95c",
+      "bytes": 8027
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e20.png",
+      "sha256": "aeffc73ae9ac07cea6e75f14ac5ce0836153acf6bfca04d2d2194b18eb39f47c",
+      "bytes": 11154
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e21.png",
+      "sha256": "6503f60a9c126c5fdcb1d27aa72ad195dc52ccc9d2bad134be65b10deb117cf2",
+      "bytes": 19576
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e22.png",
+      "sha256": "f48ee46ea3e7f42fbb5224685d27e5598321b58c9392e0a3403c4a58261384f0",
+      "bytes": 2069
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e23.png",
+      "sha256": "00fb7007f06e27f55eece139cc15de493af57f39d25ce034dfb6098fb9f41b9f",
+      "bytes": 3681
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e24.png",
+      "sha256": "96767c226826d5fd8c84f38ec7b6cbea4031c136eeb9d28e9f25fc54eab194d4",
+      "bytes": 5334
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e25.png",
+      "sha256": "528ee9ee2e296acd5886a6d2ee5c512165787de7907a62b5af71b055871771f3",
+      "bytes": 9476
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e26.png",
+      "sha256": "6ca4f0a456344f629edd7bb5655c01f5342f07b7e56ee00208cf466ca7795b63",
+      "bytes": 7574
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e27.png",
+      "sha256": "7dac7e76bb195952f3574f03cbeb07c6cde941deaf6b0d44d91ef46f9ca253ee",
+      "bytes": 6127
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e28.png",
+      "sha256": "39f2ad4a87bba52d3e0b698bb41f7c0660ba0007fcf3784dcd3cd583aef0a81f",
+      "bytes": 4222
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e29.png",
+      "sha256": "6fca0e241f6f22329504bf42f7f7b2ca7abfe0648f3b36b0a54dbe825867804a",
+      "bytes": 4334
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e3.png",
+      "sha256": "165a18f10f5908d883d0c5db4a017961b01e5d568f5547fc4d80e3337bc1c110",
+      "bytes": 6698
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e30.png",
+      "sha256": "2615bbc61af50c678621a046aeb2e3b10c4863c82bfc16f1e50f6a3f6768d048",
+      "bytes": 8713
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e31.png",
+      "sha256": "135ac2a3fb14f7a80cf9bcb59f83dcf30df9180f1cbe59d4a5810ff106ad90aa",
+      "bytes": 54642
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e32.png",
+      "sha256": "92f381bc2876a50a8af9c81e5457d63cc2e829ee925bb5a49edbd12f6ae62b36",
+      "bytes": 84878
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e33.png",
+      "sha256": "bc0363011d388f5c558373670f7b8a8104810d50e03912e95116d1d4894bbb4a",
+      "bytes": 16147
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e34.png",
+      "sha256": "6e274369a57886aac36b9fdc50ea7f157f8984025492a025eef2cf1dd86ec202",
+      "bytes": 16564
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e4.png",
+      "sha256": "fffd673d615785a172a7c1a642e912976e6e9ee315b650dcb3c1fd4bf310f13f",
+      "bytes": 9157
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e5.png",
+      "sha256": "80fbd9eebef7ff63c99343328bf11ccb0eafb34d675d9895d6d7c2ac2642cab5",
+      "bytes": 6005
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e6.png",
+      "sha256": "eced1f9a326d62cc0d1b5fcb5e9a7b0bc231321c80ca4d839da82de0d6bf7f98",
+      "bytes": 7731
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e7.png",
+      "sha256": "807802c17901e4cbd59d155712c7ebd6d376d283706e23516009a8e3671bf26e",
+      "bytes": 7717
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e8.png",
+      "sha256": "246fb2f8e0d0b45643330141609432b7690a745381df527679a99482886c057b",
+      "bytes": 8656
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/e9.png",
+      "sha256": "76ead9fba6ad4319ab680b2a6f3abe8452870db00e96923f0bd7fa9b5448c972",
+      "bytes": 9253
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f10.png",
+      "sha256": "c149324c221cf233963d5f84ec9b80ebf685fc258186101e2b6ea42efd8134c6",
+      "bytes": 5395
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f11.png",
+      "sha256": "a45b13c59c4cb4d3a8ef7e70f47ecf2a001b18531afc8cf1954dd7f8326c5ff2",
+      "bytes": 4104
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f12.png",
+      "sha256": "1c83899b37472b5e7e53e538fd8d4ff5b0af4b6026a630ae94ad78e4ea5348a2",
+      "bytes": 6983
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f13.png",
+      "sha256": "9f3797663f1b21615c68e7cb0dc91ef11ec659046fcedc029e9042a8194761ff",
+      "bytes": 12171
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f14.png",
+      "sha256": "d2fce814dfc5e14826d98665a04021d8260bec1593fd58ab1f68b2c95066a7cd",
+      "bytes": 1627
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f15.png",
+      "sha256": "903fb2e03aac74c5be3b1570fe5c118cdfb1ce2dd50384f7e60070e42c0d4dcc",
+      "bytes": 2591
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f16.png",
+      "sha256": "7c27f48c4cb8f206fc9a041c33843b75caeb9d0610f0146db740fcbecaf73cef",
+      "bytes": 2156
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f17.png",
+      "sha256": "4b016c9c2a646657615899eee7ead0109e5e6cdaf7583be2d1f22f64f5e10430",
+      "bytes": 2011
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f18.png",
+      "sha256": "9ba378b870ab83759998efbaf1579f03d62b8f825fce446be30b388dde6c19ec",
+      "bytes": 1954
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f19.png",
+      "sha256": "642d9bd0bf6f85342725cf1b985cea4feb968cc25b9670c4da696870bd5df1fd",
+      "bytes": 1857
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f2.png",
+      "sha256": "cf7943226052a655bc1b37f59c73cab9168b2d1bb9d1c38c6baaeeb1fef51837",
+      "bytes": 17059
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f20.png",
+      "sha256": "d607d1e0aa2fec9b602355bc1db032b12f9d338be7b52200afe70f91f359f2cb",
+      "bytes": 2487
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f21.png",
+      "sha256": "32eb3087324ba087b81d5ccce4908c2f968608ca4434cd11c7121d2c7e3c561f",
+      "bytes": 2979
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f22.png",
+      "sha256": "c8fcd90de49b9c2f69658bcfff15a2b4d0e4f4b6a8031c15c50b6ad17b4dcecc",
+      "bytes": 82293
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f23.png",
+      "sha256": "0b5f311d5e22260c7b833292a0d3b337b50cb012df05b64e8526d6ae55e1df6d",
+      "bytes": 3083
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f24.png",
+      "sha256": "4c8c0e777374d14660cece905a3d2b88f9c496b7d3cf2f9123900152a28cd50e",
+      "bytes": 2281
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f25.png",
+      "sha256": "6a98fd5b14ee04f9101231aa5b81fcd735418a299b7a0df72ae24e5545acc919",
+      "bytes": 8145
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f26.png",
+      "sha256": "923f0b3f87eec16911bb336e57bb40ed1d27749ac1148bd189729810fdef3aa6",
+      "bytes": 2678
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f27.png",
+      "sha256": "41c9975bde256e9713a1f25592583b53b07095970f581e074ca7837a5be4b750",
+      "bytes": 4099
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f28.png",
+      "sha256": "576780fac3a818bc1aebc5e4acd46dbbd042055f05d6f64ba12f3494ca390703",
+      "bytes": 3246
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f29.png",
+      "sha256": "3932610fe3bcc398aac8a42483c2ef246ff7415f48a4c9e48b0f05ad04a1634c",
+      "bytes": 4043
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f3.png",
+      "sha256": "263291856342b415c6745e70089dec4b4d5e8a62b34f80dda757094ad0880538",
+      "bytes": 24510
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f30.png",
+      "sha256": "88d10da5d2d6c3a64a0912e40eb75621fb3c8a9c7ea7d2e301718d7ca0a2aa66",
+      "bytes": 1922
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f31.png",
+      "sha256": "51201f6d50ef07c1f64d2a4e9f729c5a4d030e0290036174386984d6ae591e5c",
+      "bytes": 1525
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f31a.png",
+      "sha256": "ab5ad1bf2f158314d8a5b12634aa041081b505aa064c0f5dbd665d97bdea8d5c",
+      "bytes": 32246
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f32.png",
+      "sha256": "0db992ee4cf7c0f49e74c29d0e152a934f68754ee0c57074c8d64febe1314695",
+      "bytes": 3817
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f33.png",
+      "sha256": "8974d637aa3e15e1fed4b15f5f7e910c1d86e66e7d57410b0b2b316b27aaff6f",
+      "bytes": 7189
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f34.png",
+      "sha256": "5fc2be041bee86b7dc6ffe7e9bba41508403d38c0d5de05adcf76f4c0aeec14d",
+      "bytes": 4574
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f35.png",
+      "sha256": "3ce02cdd4c23a3fae274985d46d8e05ca86b0d32246e258d15a5405c819dd226",
+      "bytes": 8240
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f36.png",
+      "sha256": "92033d8459d5d5c2b49ae43a2deb3ac324a42afeb0482960ecead2f3af9cfcfe",
+      "bytes": 2183
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f37.png",
+      "sha256": "d62f247a88941211afa54a3d6ab073f9adf2c576fb107d832e935afa5203bb78",
+      "bytes": 4826
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f38.png",
+      "sha256": "e0a342f357af5b6f704eecc8debe8784541393c6ceca95f2fc3a397e3898af59",
+      "bytes": 6774
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f4.png",
+      "sha256": "de19d914fc61839e6a706c6499a62c3a3814a228ef63c1504a51de212b5b6e42",
+      "bytes": 12497
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f5.png",
+      "sha256": "2e38730eda31cd838b50ed2ca76c7944a2e4ea41bf710e2916fe1e13b60337b6",
+      "bytes": 8153
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f6.png",
+      "sha256": "0f9fae9b0a52d694cfed685ef022439768ee54ff9cce5668f5da123d3a7bcd73",
+      "bytes": 22807
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f7.png",
+      "sha256": "8a5b4dc30c3ebbf74634bfbe68c9a23d8da127368d991159893ab2b93f63da7c",
+      "bytes": 14241
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f8.png",
+      "sha256": "113a69bf3f9bff77f0132c1e1f833d5a605ce0e9f110667d07ef6890584c0805",
+      "bytes": 9823
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/f9.png",
+      "sha256": "76e53fa5f2463e3868ac17c3911ba9c5d4f57f433e09285cd16157d8d926e2a8",
+      "bytes": 14358
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g1.png",
+      "sha256": "4b19017fc3cf3d69a54860b93087c739a06bab2ad57367aabd182421133bfb86",
+      "bytes": 6145
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g10.png",
+      "sha256": "2ff4f76e69d45209e5de2082b686810c1f1cf512220a50eaa2d7afa53b9e6a28",
+      "bytes": 3650
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g11.png",
+      "sha256": "070a15d9de49d5d1ecdc78d13b41ee6ff51754585ec50f19e04e00391e02ef60",
+      "bytes": 5094
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g12.png",
+      "sha256": "951d3362877ba6df2a565fcb353bb1e05814e3e83091acc466a2a3a0e82d5eda",
+      "bytes": 7124
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g2.png",
+      "sha256": "7b7dd31c6245cfac7771e1649d9663454a6d68f903a4e9390a1231e34d5e2f5c",
+      "bytes": 10097
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g3.png",
+      "sha256": "fa7b5b517d48e0130d01def007320227d9f95be7b531e5cc4f104c6542f178d8",
+      "bytes": 10234
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g4.png",
+      "sha256": "6149b545cd41ebd1a707c9baf7c624d7127bd171076e53d5c1eca84fcdc40c9c",
+      "bytes": 3166
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g5.png",
+      "sha256": "84f7f5e1394d6b51a9f780ec5e0c07071650d879ccc9a33e4d4d79bd1a8f032e",
+      "bytes": 5291
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g6.png",
+      "sha256": "d66e089e62f6aaaec3f7dba5cd7704cd1344eecb96d09a327f483e621c0d8224",
+      "bytes": 6365
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g7.png",
+      "sha256": "dfa367bb3fc81e0dbddcc0f870c26d896b5e581b5223f882539dd66a886e0165",
+      "bytes": 5388
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g8.png",
+      "sha256": "dcc94aa8f04c725c9f14392d434d6c2828de32a5258ac20f75e9a45e11a24e65",
+      "bytes": 5546
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/g9.png",
+      "sha256": "83e0bd933a9090ac51df5e1a0ef03b91515265716b205fc779ba645d138b6d1b",
+      "bytes": 4339
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h1.png",
+      "sha256": "c1705b81fbd40c834864a817cc2c27f5be61c98337975f38e09e13c4799976ae",
+      "bytes": 4485
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h10.png",
+      "sha256": "9cd7eb365c3cc00b690d3361ddcea9c4d54350927974e27213de44b7f06cf128",
+      "bytes": 4336
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h11.png",
+      "sha256": "7daf07c69e4e36c1d0e8007e1f91440e8b2b4db3b2924c9837e9458d51224dbe",
+      "bytes": 6966
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h12.png",
+      "sha256": "50190da5521b3c83919dbc58d8ff5134fcaf47de2fcb727f2916162106fee97b",
+      "bytes": 5424
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h13.png",
+      "sha256": "452d8ed0ca912b29f490d29cc4ba3824de36cd817e7c4d8cb9552c8969e11e18",
+      "bytes": 4258
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h14.png",
+      "sha256": "dcac55c63c1e71c067b8b205663701f8052507eb496eb73187168a3db887b7e2",
+      "bytes": 4181
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h15.png",
+      "sha256": "3240a4862dac2ac412fc716e2bc121e40b2b0bfdc5987b02f21f91f042ec1236",
+      "bytes": 7153
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h16.png",
+      "sha256": "5273c6b27e2ce566b24bcdd8d01f9b04ece9906cc0018d13449b989fdc89621c",
+      "bytes": 10220
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h17.png",
+      "sha256": "df7543ce7971dcf922d71e25f2757419916a780f7410429c11f08e1e18e0638d",
+      "bytes": 8893
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h18.png",
+      "sha256": "7eeabb921855699288b7af1e4c9d8d941f785f98e1d555d4967a54b49f9635f2",
+      "bytes": 5417
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h19.png",
+      "sha256": "e44a4044a9e75af207fac7261c4b6cf29b702500e4274c8bd3234338bad13ae9",
+      "bytes": 10511
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h2.png",
+      "sha256": "fcba7aa22deee0533baa69381bf47c156e864f6bb0ebd8ff6b18a8bbf4a85102",
+      "bytes": 3347
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h20.png",
+      "sha256": "c4d4bb07bab9b8d5a9b2f7a4cbad90d6d5b2c582c79d1f894ad4f2c378d15531",
+      "bytes": 7763
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h21.png",
+      "sha256": "9790a271eacf1a892a64f7078260b8cfebcbde476bfc657c79fc0ee307fd0e17",
+      "bytes": 10330
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h22.png",
+      "sha256": "f56e5ac64bc8621bc40f2024120283940c7bd2b2e6a016f58ccdca763db1f3c5",
+      "bytes": 8405
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h23.png",
+      "sha256": "939d20e125daf167776aae629eab47a7d2369505e535af4b08faad491f960571",
+      "bytes": 6782
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h24.png",
+      "sha256": "e4dcda284ccdae14db5a25c985df5afa7e0e8cab31baf8c3c2f190ff67c7b906",
+      "bytes": 7647
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h25.png",
+      "sha256": "6db797e5c015182eeec96c231bf664d52632298120e500c53c7d8b4d1267391d",
+      "bytes": 4893
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h26.png",
+      "sha256": "d93dd59282a849c24d12164b5b471df36fa004c6e1cac88336a1047058f02ef2",
+      "bytes": 3645
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h27.png",
+      "sha256": "b4b3ac14e7b513f5190d5213e8940b929778078151df4768ce294d700935410e",
+      "bytes": 7038
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h28.png",
+      "sha256": "99fbdd8a7ff9771ca9983d364202c35655d335a14d6ae5aad11a22047781f8ae",
+      "bytes": 6160
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h3.png",
+      "sha256": "e2c2e07acb941195244d067119bd95277e4f5663def2f3d1dab7c17d7fc6cd61",
+      "bytes": 5376
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h4.png",
+      "sha256": "61843504a931dd203657e6d94737572691d5e0e81fac9fb5a30656852925d8ae",
+      "bytes": 7173
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h5.png",
+      "sha256": "cdb8df91a27b083d77f12fa9e1f5aa3f40b6982099b4460af8d7760105bef0b6",
+      "bytes": 4821
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h6.png",
+      "sha256": "bdde2713288ff3b477cd0478188ba669efa0ecf7a64ce7c00f8d457d9dd0be8d",
+      "bytes": 7244
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h7.png",
+      "sha256": "f9e26880b31503242852b385a9c25e88fa7d303b21db7b268f425c9db4021c30",
+      "bytes": 5945
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h8.png",
+      "sha256": "2806263fd1dda637ef874b5bfb9a6098f322739263f94561eb9355320d32d787",
+      "bytes": 5573
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/h9.png",
+      "sha256": "599e81fbc45af7bce14250f094dd3a7ec4182e2b90a39be944a75f23a413bd60",
+      "bytes": 5907
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/i1.png",
+      "sha256": "4c46de73a160f1921f753af8438817bad69a7b74e6c3ac6e563b61c1b834408d",
+      "bytes": 8278
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/i2.png",
+      "sha256": "f6a5c4fbbaeabb6f09e359c5f33813dd8b90c1dc0436bf8a0ea0145ab4f3dbee",
+      "bytes": 13019
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/i3.png",
+      "sha256": "e16c450129a53853a887346daeacb59b36f1a75b5acc38c1b26e26b6e255f707",
+      "bytes": 10302
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/i4.png",
+      "sha256": "563af7a4fef15244760fea770490ae85dfef03ef0a3ec6a8308eb7fc1722b56b",
+      "bytes": 4222
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/j2.png",
+      "sha256": "9315bd68a1d382afc6eaa1a427899fbf7ae784f0f88b8435490a6500cbfcd8ed",
+      "bytes": 20087
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/j3.png",
+      "sha256": "53d2a2445912e51de76755dcdec082192a9971727eb2f3fbb155b77e48f09e0d",
+      "bytes": 9940
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m1.png",
+      "sha256": "25ee5c8a81b5add091f29b8c2138364af7d7982f5bbfc2e7012acfa90071361e",
+      "bytes": 559
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m10.png",
+      "sha256": "f230f4c4bdf11d52e09975ae9ee44e463ff1961ffb5249a018268bdbad71b96d",
+      "bytes": 508
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m11.png",
+      "sha256": "3ff967fa199feb9184c80e05c83d8bb5a8a46919d4a88830c0a7400970b25a15",
+      "bytes": 290
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m12.png",
+      "sha256": "ee5a2d684fc2822191629f419a60cc981538c66d3ff2664144efa680fd44c4a0",
+      "bytes": 321
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m13.png",
+      "sha256": "f3f828db3f5b37326ec17f3183480a0a5717de0a52ed16b59a87ec7d4e39bfa9",
+      "bytes": 212
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m14.png",
+      "sha256": "953bb22d45ef47edeccb4e5e59c570a9e3b4c09bb462c20b3b5cfc63e2684641",
+      "bytes": 526
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m15.png",
+      "sha256": "b854e6a881591a025bd401af0a1a46edfa29e35893c05493555310185ef72b9c",
+      "bytes": 307
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m16.jpg",
+      "sha256": "62d50d96de062c28761e7feeae418baf92293994fcaf84c0dc13a86ded698953",
+      "bytes": 3292
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m17.png",
+      "sha256": "e525e5f8cb5d0c3011f79d72b39860d3c91e7564cb7845d3148ad83b8ff319a0",
+      "bytes": 443
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m17a.png",
+      "sha256": "f8de58dc417a2a557e7d1335278375de76bad7791326ab96c27e315cded6045e",
+      "bytes": 396261
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m18.png",
+      "sha256": "1eb30c33a8a34e44eeaab9ebf5db4719a9ae282ab2703b324900b1e90dcf5848",
+      "bytes": 756
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m19.png",
+      "sha256": "89622dac7e0aeec742b053403b0402bebd2fdd8176c5993d21385d5d2a1afbae",
+      "bytes": 1387
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m2.png",
+      "sha256": "b90b6b2046fd3fa6bc58680f61a8696d8103b4cbff994c89822329282ea22cb3",
+      "bytes": 340
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m20.png",
+      "sha256": "2bd6e7824f189a9b15c8f4f010295f4cb6d56adc466d52c9f95071d57aa1c27d",
+      "bytes": 594
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m21.png",
+      "sha256": "7edfadf7e33349e8446a38d1736fafc78f3c9acc0fb63665472020af80221fb5",
+      "bytes": 305
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m22.png",
+      "sha256": "dc222e71868f5b26d5c506066b21cd60dfde59fa610dd9a47002f892c3fe58fe",
+      "bytes": 403
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m23.png",
+      "sha256": "f79ca9ccf563e84231f1a0c4b6117837f7d1734e6c66383ccd3f46dfae84d0ee",
+      "bytes": 617
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m24.png",
+      "sha256": "e585b3aba807fa6cc039e72207ae4c78cf601835df2e9cba9ff9ca3b8779b385",
+      "bytes": 337
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m25.png",
+      "sha256": "b5d75db2668a44fcd3fb9b9d7989719a9a31efb0db0dbd0d65dc62ead1c5f905",
+      "bytes": 328
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m26.png",
+      "sha256": "b5a368d1e888b9a1bc333d15c5f3de82fd9f65855101d20206a435101973720d",
+      "bytes": 1036
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m27.png",
+      "sha256": "56bb01a2802392688c891ba02b8c0c044e62249e788beb55b2eff3e7e396b814",
+      "bytes": 781
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m28.png",
+      "sha256": "b9031df071bea3d294af483504a40b1f4bee367e08fa215beb5369a1f2a70f13",
+      "bytes": 784
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m29.png",
+      "sha256": "70230ebeea8ce13a4d87a15d4bf1ff6e9e7ad5758c97b61c864c1b67da33bea1",
+      "bytes": 1422
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m3.png",
+      "sha256": "f3eb0dbecbd7282413856fce5a91a7436449e15eb99d0c481d84736a56ca292b",
+      "bytes": 267
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m30.png",
+      "sha256": "a3ee277fc092733ac74232a174cd1366640e5f3575a0ed8c2441c485cecf9d30",
+      "bytes": 2972
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m31.png",
+      "sha256": "cfe18af2791237edb0800756489378d575b099ea73732cd0e92996454818e208",
+      "bytes": 1180
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m32.png",
+      "sha256": "2324a2a877babe62adb8846b20a220beba163d6d3c88373cbfa9690388a8e317",
+      "bytes": 829
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m33.png",
+      "sha256": "2b551f3d985419e1bd273cfb8b8930caccce79dcadb66e835b5b2b6a0c294bde",
+      "bytes": 766
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m34.png",
+      "sha256": "5e87a066d8798aadd7f6dc61169f250ce2fb7214c4575a1528554c4132787d58",
+      "bytes": 913
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m4.png",
+      "sha256": "ca1bca960b8a433b4df7f316bbf185f1af5b4c1a17eda5c9474106a22a3af5e5",
+      "bytes": 321
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m5.png",
+      "sha256": "dd80278b91d767ccc21f5bf3e206caadfb2c476dccc3d02aacced98caff507c8",
+      "bytes": 277
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m6.png",
+      "sha256": "9d552710626adf3bf4a7e7de01df5789403ff2b347139a87459b74bf976abbb8",
+      "bytes": 374
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m7.png",
+      "sha256": "539699f99500ad1263d0b34945aae4abadfff42ea6f7b93e9a49c646f54f967d",
+      "bytes": 393
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m8.png",
+      "sha256": "fbc906f0b5aa02a96038b5c27b170e5f67a2a75cddfd1fc7bb2084aa61c1d28a",
+      "bytes": 237
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/m9.png",
+      "sha256": "40b92f76fc80d5652f42c78ed849e5a02112ca8b3d4934a81f64a18b71a6b258",
+      "bytes": 960
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p1.png",
+      "sha256": "2d12a93e79db55533204ff9cccdda36de5cb7a6c3bb931ea89076b32af2daee2",
+      "bytes": 8229
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p10.png",
+      "sha256": "aa4ec8493f66fe5a28fb4cf75d60cc5faa009219d28b8a30575a6496bebf9c16",
+      "bytes": 24830
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p11.png",
+      "sha256": "27e652f4562a7fa5a4d6bc872fbf0844d57a6b52cf33644c486df52f5f9ed3e6",
+      "bytes": 27291
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p2.png",
+      "sha256": "e8a3fcf1ed4186462a5f7c651450926b3b55d4544b7fe359095a7330e18e0f5b",
+      "bytes": 7814
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p3.png",
+      "sha256": "65b743b99b8beac85eb8fa75f2f3789d8ba85b5e339b910a471dd3581509bcfe",
+      "bytes": 7963
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p4.png",
+      "sha256": "c2ff1c118a9783fd00e02865e6cf1abbe58ec4d5c46b8b97c86b19e2708a6fb6",
+      "bytes": 9049
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p5.png",
+      "sha256": "d710e4a8c05c250e56925bcf8d77878362ac83490c0518e8256347a36e3b46e2",
+      "bytes": 8375
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p6.png",
+      "sha256": "95e76a6212106b4191b0b70cd0a765ae1e47e9b5a5a77063bc5903fc95a6f005",
+      "bytes": 22333
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p7.png",
+      "sha256": "a308af058e5f95662ebbc6e2c5c922162fb685c7909b8bdf65ccb3850a724436",
+      "bytes": 15732
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p8.png",
+      "sha256": "773328d6e78bc76e4cb9082180e99b1f3074fa064448f583dacd6d8f91f63e76",
+      "bytes": 23850
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/p9.png",
+      "sha256": "3f910b157a0c5828c30476efafb7da58f49760875e6e6352fd174ae479433c21",
+      "bytes": 29782
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s1.png",
+      "sha256": "66751c86de9f9ef468dd2bdb0f4af339d781566b5ea051c6bb407ef6829ae0c9",
+      "bytes": 1139
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s10.png",
+      "sha256": "2982b3a21cc9d4f7d400a45fafdf4678bed830c65fd60030567b4d6d6312bc0f",
+      "bytes": 2344
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s11.png",
+      "sha256": "84bcdcc353f6891088d9f93e7d6bb1089c08e802014a79b942f07caac41863f3",
+      "bytes": 2266
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s12.png",
+      "sha256": "e16f8be3fcde9e7775f5ca5fc17176870ac8ed938d3547cd4afdc87bec26d0b0",
+      "bytes": 4952
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s13.png",
+      "sha256": "efa113333e47973b82580a047a8723ff328200e9f420255f45691271f81e813d",
+      "bytes": 2841
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s2.png",
+      "sha256": "11e44b51d446a8801b0db39f125a8c3ffb637a41c91d19135e421ecf96d840fe",
+      "bytes": 1046
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s3.png",
+      "sha256": "57aec4510c543215e9c8cf0f88bafb363b278c3f8ba0047628bf1bc4c2dfb1d9",
+      "bytes": 1467
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s4.png",
+      "sha256": "a0e66bd67cff685a6cd71255c2b2d7a4cd9239e79af314b2ce3a989644f95ebc",
+      "bytes": 1747
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s5.png",
+      "sha256": "36c2e431022cc157bb979d2cb572f99deb8aa4946763dcc6ed1d4e9bc6b74ade",
+      "bytes": 1149
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s6.png",
+      "sha256": "f016ed186bf4498c05fdfe1daf325130e0c3144ec303d9c02cc0941bf320ebd4",
+      "bytes": 2430
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s7.png",
+      "sha256": "eb63e6d7ed0a3b1a6f045f6a3ec8f3eec0057695e8901287e1e0e108187d13b3",
+      "bytes": 2520
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s8.png",
+      "sha256": "965f4eaeb997092d249e19fa4c991dccaaee6f8397028f450e78b5637260885b",
+      "bytes": 3271
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/s9.png",
+      "sha256": "947b7a2dd37aacad6a9de1b0d7cd407581e7ee0ab9a2cbe45fc2510a5074ada6",
+      "bytes": 1299
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig1.png",
+      "sha256": "897f15262c84052d864778e6ca47539423c1ea905b5eba378c03b92bc5fce800",
+      "bytes": 14914
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig10.png",
+      "sha256": "76dedb29071ef8df3716b928a8718269e3082c8f8d534f216b7c8816b62a7b43",
+      "bytes": 4668
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig11.png",
+      "sha256": "e5c422bb8e49c0a319cf7220b991383799206d05d70c452646703a89e2fa10f3",
+      "bytes": 4524
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig12.png",
+      "sha256": "b8d91765f617bb1a3632cca9a4782b8b049b61cc6a1d1cde9b52a8b12b035c85",
+      "bytes": 1176
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig13.png",
+      "sha256": "98544de66f92528504079d492d372cdf0d43ecb10e42533ce2e25eefc0e57438",
+      "bytes": 1230
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig14.png",
+      "sha256": "8007f0b2df518de282d8f2ed03de8a2c16c2beeb4ee6ce7d205f01117139c7cd",
+      "bytes": 699
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig16.png",
+      "sha256": "d0de3a7b407c19896ee4eea6f8b617b5ae8fdcb41e673d65e93064729db10aac",
+      "bytes": 3136
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig17.png",
+      "sha256": "fa9cdf706d6065a2bb98d28733223ef7eab5eaa0862b5a24368439d2348b0616",
+      "bytes": 8104
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig18.png",
+      "sha256": "204777fe4218d26b243ec081cb10c6bcc553d83629adcebfcff2397e5b7907d1",
+      "bytes": 13338
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig2.png",
+      "sha256": "dbb2780f7aeefde4a53937fd5a94fe114e3e509eda26889a78ef291967c859de",
+      "bytes": 15110
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig3.png",
+      "sha256": "301fe0df898d869a3101e5e5127d9f891ce915297aff771e4b20d38a56a6be79",
+      "bytes": 15424
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig4.png",
+      "sha256": "919e60c472174e602336fb7218141676c683ab08f54d4ef93222cd079d7563b8",
+      "bytes": 15362
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig5.png",
+      "sha256": "e375cee88e62beaaff87d5815860fb3e9be1f12620aa8ef9437ca3a21e4770ff",
+      "bytes": 4577
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig6.png",
+      "sha256": "3eee14dc7bcef37422746b089f479846e3974c87e030260847cada083b5b3d01",
+      "bytes": 4031
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig7.png",
+      "sha256": "19d4b06b15d83b9026abd790b17fde0e9797e7c9622c65efb9bdb1b1aed48224",
+      "bytes": 4664
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig8.png",
+      "sha256": "b947bdaee5834c9fb297103e381e44bb09b0eaba27e32fa448c6785b9049cc1d",
+      "bytes": 5074
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/sig9.png",
+      "sha256": "1d1191fe43f4bf98e3486931b15571ab7ae4d2900e4293f3b4adc7fa2bfef923",
+      "bytes": 5215
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t1.png",
+      "sha256": "0a6e01413677a4f6d1e11c0685e64ef4d9faa9536ab4860e8eb06084cf1bf44e",
+      "bytes": 9860
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t10.png",
+      "sha256": "b4d9f63c41754a249f7646a65745bf82cb6fae9dff658d25d896e9b564acb5d8",
+      "bytes": 11860
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t11.png",
+      "sha256": "5d8a04adcbcc53869d1b067f158c75f4e97c64f591fda25e89a64f2152817d7b",
+      "bytes": 1654
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t12.png",
+      "sha256": "57d5939b2e12e1c1e953e9b94d70fc79a9540ac07b0a372329171515029734b0",
+      "bytes": 6319
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t13.png",
+      "sha256": "283c23a7f8610ffdede0961bf2acc68662938d64d544baf16900f11e83d70aba",
+      "bytes": 7274
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t14.png",
+      "sha256": "70b2c6f538ed981f72bd16a121d68591e8b2d859a5126efb933c61de0ae18a34",
+      "bytes": 15475
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t15.png",
+      "sha256": "03cb989def99632924c0fe6b56fba8fe2b792a4a9c056c99ead42c4cfb442d05",
+      "bytes": 3851
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t16.png",
+      "sha256": "b09b4eaa3b8719f06e765853151a6ab627cb58d6ecddc92a8860972e46e90405",
+      "bytes": 7596
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t17.png",
+      "sha256": "30620ae95b153097af7f6c6f8785f14aeb575ad08ccfe4fc92755e0f69500356",
+      "bytes": 9282
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t18.png",
+      "sha256": "2adc6d1c9ed0732a8414c1585244be4e95756753764420c61dddd1bdde2a4a78",
+      "bytes": 103872
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t19.png",
+      "sha256": "8aac02f0cca5586195e7e1ed357e5ee872691cac8c0f41ee73326fadbe62ccb6",
+      "bytes": 8463
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t2.png",
+      "sha256": "95fb27aa9bf089719d5526df5b767045c6b2e865ec7ca42a62d1663b39da745d",
+      "bytes": 8656
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t20.png",
+      "sha256": "8216bf7c7172363ef7091140918537e8f40ab939eb6b3bf9667e03ed9e83da43",
+      "bytes": 114292
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t21.png",
+      "sha256": "31be1cc74d662b7b91fd3c3f0d8bc76a808a66226a3bbd66d141d088f5cbe51e",
+      "bytes": 71717
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t22.png",
+      "sha256": "8ded422567d5d4d19d59417d6bc5761d24c3ac1eb1374bab24c59c82d6f3066a",
+      "bytes": 3339
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t23.jpg",
+      "sha256": "c0664aca8e54c80acfda613b409cc733ded7556e40ef12e024fd1b86cb749248",
+      "bytes": 6468
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t24.png",
+      "sha256": "a672b025c1c820d1cb54f2ed1e71976f223c873a9117253050a4f6b6d56196f7",
+      "bytes": 8144
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t25.png",
+      "sha256": "b6bcdd20806be3b336753856eee3bd7f9ebf10a3b080fe1cac3008fcc833e2c3",
+      "bytes": 16106
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t3.png",
+      "sha256": "c424e4aed31caaba1a46faa4db598b3755ad356b66cb0e716ba4b3bc1a474cab",
+      "bytes": 12381
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t4.png",
+      "sha256": "ba8ef3c5ac6b48b707d6043c0557d27abdbff6515eebc61c50ac00073483f67a",
+      "bytes": 6561
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t5.png",
+      "sha256": "f65f69c0ac6a2787e565f8f7f42cebd93000b4ac5f7a16562869c71a1997563b",
+      "bytes": 8176
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t6.png",
+      "sha256": "4f56b9cee28115d7673388100b6512a3f1c93b9391a69c65adac72f1889a8843",
+      "bytes": 6695
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t7.png",
+      "sha256": "ab000f0081b6b2161d6c91969e0682a26d69284f845c156f3184cc5f67433231",
+      "bytes": 2035
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t8.png",
+      "sha256": "52f9adc2c5261eafe2ce1dc7c0e7ee1bba33ee1e6cd91d1a120b7e815b61ef91",
+      "bytes": 2403
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/t9.png",
+      "sha256": "52360a8773c5d4c23816bb237ba043073da42558315ba234c1f10ee7d00849b4",
+      "bytes": 4475
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/v1.png",
+      "sha256": "256c4f996c516f426f5e7bc24784d38ac0b9b00b90df12de0d9c214ee770700e",
+      "bytes": 7471
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/v2.png",
+      "sha256": "99b38a5aa66c46fe76fe3fedb16c51c4a306ccfdcb25feba0877754afd7ab9ae",
+      "bytes": 7191
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/v3.png",
+      "sha256": "c1d2ebe349df153470a7fc068a6d52c0a96c62bbf7b1c11a4375160ae4fbb275",
+      "bytes": 5823
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x1.png",
+      "sha256": "011b36785375babe1e2bbe4c63b7091e8d8489ac81789e0fccb2729b1b7f3737",
+      "bytes": 5936
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x10.png",
+      "sha256": "acf21ec3f8e4d576ea3c689e20fe2d645c3899115aac1ee54d2ab45923621db7",
+      "bytes": 1434
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x2.png",
+      "sha256": "b49af3f09011481b75e90656a0f9fa6e90f80c4bfd467513c041311ec0c10e0c",
+      "bytes": 664
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x3.png",
+      "sha256": "7b6345c6b71a3c4e9c1222085fecbca98e1d8de2c633f0cccbdc7a6795efea9a",
+      "bytes": 1977
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x4.png",
+      "sha256": "e628f69e8b23bafa55ddc08a1060e8f84ce3fc040d5b9a87fcd1820bf5603f8b",
+      "bytes": 4192
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x5.png",
+      "sha256": "d6a78ef0a79f49952e9fe9a491c34902b27ee58985634951a7687ed21cafeb4a",
+      "bytes": 933
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x6.png",
+      "sha256": "ecffae595f3b8602c39a4f6857e04fde78916ae8c27b1ccb78ff9f9478ec075f",
+      "bytes": 14112
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x7.png",
+      "sha256": "e3eae9d47c0ab8a7eeff75d5f146e286fda23c49d4b8652da824891fd1dc33e1",
+      "bytes": 1446
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x8.png",
+      "sha256": "3a7e43d2a002f72ffec1838a14b2f7dbe099b85648a804df25bfe19de07b5006",
+      "bytes": 10678
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/x9.png",
+      "sha256": "f209fb495bc851d74a474671d636ca518013cfbd977d5ac5dc5c78be35e4f42a",
+      "bytes": 1159
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/y1.png",
+      "sha256": "8758456abc0eceed3531ac9dddcdd296c9724d87d7a05a3d0952a07ce1179192",
+      "bytes": 13597
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/y2.gif",
+      "sha256": "54b960f4828662efb7977511380ecb3897704fc9040b2c28e25730ac4d3ebdf5",
+      "bytes": 2273
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/y3.png",
+      "sha256": "fa582710faaed826767aca1dd4695aa5d4316ff3c7eadda33d6bb16cf8f75760",
+      "bytes": 1038
+    },
+    {
+      "path": "composeResources/se.korkort.resources/files/signs/y4.png",
+      "sha256": "785a9328bf50320116aec7d3d1353457552a7f4dc8b139b7fa234d33aa977e4e",
+      "bytes": 5157
+    },
+    {
+      "path": "composeResources/se.korkort.resources/font/SourceSans3-Regular.ttf",
+      "sha256": "4644c81b86ec9caaa76b634889968ed3c4f4f52f054855933acc7c2b21e53b0f",
+      "bytes": 431196
+    },
+    {
+      "path": "composeResources/se.korkort.resources/font/SourceSans3-Semibold.ttf",
+      "sha256": "a3f4f8dcf343a8f24dc61951de93f3ba1558b15cd250ba24af8a40e957081b7d",
+      "bytes": 425904
+    },
+    {
+      "path": "composeResources/se.korkort.resources/font/SourceSerif4-Bold.ttf",
+      "sha256": "7cf4f4e1ad74f45058d5bc61716b82560442fbdcd9d3654d2dea96bf6c683d86",
+      "bytes": 271568
+    },
+    {
+      "path": "composeResources/se.korkort.resources/font/SourceSerif4-Semibold.ttf",
+      "sha256": "36db62940cb5728b12b1802476dc7fcf4c6c519a7bdd476ba23a4e555fc4655f",
+      "bytes": 272088
+    },
+    {
+      "path": "favicon.ico",
+      "sha256": "c726e3ece2891c3cf7fe661b8816c5a87eac94807f2fec7121be8805b268546b",
+      "bytes": 5773
+    },
+    {
+      "path": "icons/icon-16.png",
+      "sha256": "feed4f20bd042f30dc6f15e5d0cd8c0520f8ccfdb89aeaf186f18e3961cf4ee6",
+      "bytes": 707
+    },
+    {
+      "path": "icons/icon-192.png",
+      "sha256": "c7ad021bc90e69c68e1b06d75a3879ad28c8f5bd1b239a9babd7caaed7e3ad41",
+      "bytes": 35201
+    },
+    {
+      "path": "icons/icon-32.png",
+      "sha256": "1e2b0ff092a63fd59809dd7279e17a9cb7ee751f8e63067dbe59e3e10213018b",
+      "bytes": 1774
+    },
+    {
+      "path": "icons/icon-48.png",
+      "sha256": "b0370097fbedea30ad9ba6afcd99bfb658e0726193bdfb3ab14684280dc1bc3a",
+      "bytes": 3238
+    },
+    {
+      "path": "icons/icon-512.png",
+      "sha256": "99ef0e3680f1bcc21da25578a6aec0674e42a6e8fa2df9a56ba4e71b97ccdadb",
+      "bytes": 241137
+    },
+    {
+      "path": "icons/icon-maskable-512.png",
+      "sha256": "8590d2617c1b770f8c02632ad6b8ecd6329c22934bf4b0588eff7f927c5133bc",
+      "bytes": 163919
+    },
+    {
+      "path": "index.html",
+      "sha256": "e72f0eb44d328dc798b753332fd87bd60d3fc3b9323ecc22009a7ffb78ce0853",
+      "bytes": 906
+    },
+    {
+      "path": "site.webmanifest",
+      "sha256": "7d8383936eb944a72528afcd3be0b83221ef20ad1dcc444fa3ed55409646ed3c",
+      "bytes": 625
+    }
+  ],
+  "policy": "Serve entire current distribution from a new localhost origin; proof resources/executable remain labelled and are not release artifacts."
+}

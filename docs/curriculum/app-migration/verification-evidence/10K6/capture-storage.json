@@ -1,0 +1,56 @@
+{
+  "task": "10K6",
+  "policy": "Byte-identical PNG copies only. Original receipts retain logical capture paths; resolve missing logical images through this map. No observation, failed run, metadata, test or restoration record is discarded.",
+  "removed_duplicate_files": 8,
+  "bytes_saved": 249087,
+  "aliases": [
+    {
+      "logical_path": "browser-evidence/deferred-teaching-review-return.png",
+      "stored_path": "browser-evidence/deferred-source-review-return.png",
+      "sha256": "3ed30fefc68f8750d783eb34a8a980b3f0e5099a9aa02b55fe2dbd6192ad6d0c",
+      "bytes": 46704
+    },
+    {
+      "logical_path": "browser-evidence/viewer-home-after-tab.png",
+      "stored_path": "browser-evidence/immediate-neutral-viewer.png",
+      "sha256": "65a8c62359dcddf4e387c7d8391f5c96384fc9e2a91026cc8e800ef0c1157542",
+      "bytes": 25033
+    },
+    {
+      "logical_path": "browser-evidence/library-title-query.png",
+      "stored_path": "browser-evidence/library-search-return.png",
+      "sha256": "cfbc237a3c97af5b539bbdab17bea6c8d45b2084501dbf722e2cb3a3c18a6e0e",
+      "bytes": 42604
+    },
+    {
+      "logical_path": "browser-evidence/proof-SIG17-unavailable.png",
+      "stored_path": "browser-evidence/proof-SIG16-unavailable.png",
+      "sha256": "9c9346d354b0e2baa1d8405a800c19a26b6c06834f997ef67685317b8a1941d9",
+      "bytes": 22066
+    },
+    {
+      "logical_path": "browser-evidence/proof-SIG18-unavailable.png",
+      "stored_path": "browser-evidence/proof-SIG16-unavailable.png",
+      "sha256": "9c9346d354b0e2baa1d8405a800c19a26b6c06834f997ef67685317b8a1941d9",
+      "bytes": 22066
+    },
+    {
+      "logical_path": "browser-evidence/proof-SIG18-library-recovery.png",
+      "stored_path": "browser-evidence/proof-SIG17-library-recovery.png",
+      "sha256": "2c12ce0ea2bfdcabd33112bbe04ba7632c948621e30395af79bb8a0e3239b4b2",
+      "bytes": 45424
+    },
+    {
+      "logical_path": "browser-evidence/proof-unknown-question.png",
+      "stored_path": "browser-evidence/proof-legacy-chapter-encoded-input.png",
+      "sha256": "8fa674d81210d5e70f2420bd7f93e95f2856fea90937968f1a63ca633e8a31b0",
+      "bytes": 11516
+    },
+    {
+      "logical_path": "browser-evidence/reference-home-reset.png",
+      "stored_path": "browser-evidence/reference-escape-return.png",
+      "sha256": "7b8fde62a57866b535f0bc4090a470da5cf4eb4dc448b5e774265f3109c5264e",
+      "bytes": 33674
+    }
+  ]
+}

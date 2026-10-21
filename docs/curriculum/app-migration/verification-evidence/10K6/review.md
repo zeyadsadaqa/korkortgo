@@ -1,0 +1,19 @@
+# 10K6 — production browser verification
+
+Executed for the available IAB scope. **Required browser acceptance remains open**, including new P2 finding **DEF-10K-001**: pending selected assessment choice has no exposed browser selected/checked/pressed state. Functional selection is retained; this is distinct from the inherited visible-selection defect. See [finding and reproduction](defects.json).
+
+The normal production distribution and labelled proof distribution were built separately. All 484 resource bindings plus four fonts and two licence files pass byte comparison in normal, proof and restored normal output. All **783 served production files** pass HTTP byte checks on each normal QA origin. Gradle cache reuse and actual executed tasks are preserved in logs. Production uses the accepted 1,000-question bank, with zero held questions.
+
+The immediate sample (`sign-recognise-M7/rewrite-r2`) retains wrong A through leave-guard cancellation and a neutral image modal, confirms it as incorrect, and scores 0/1. Expanded review links to M03-L02, deliberate reveal/hide and source detail; internal returns preserve the expanded answer and count1. The interrupted deferred sample is not promoted to a complete flow. A restarted fresh origin runs `sign-meaning-M8/rewrite-r2` in deferred mode: confirmation says “Answer saved” without correctness; finishing scores 0/1, then expanded review, exact source and lesson returns work.
+
+Actual reader-source and review-source callbacks open the recorded Riksdag and Transportstyrelsen destinations. Immediate inventories initially failed to expose the reader callback tab; the live destination was subsequently captured on continuation. This supersedes the initial “no destination observed” limitation only for dispatch, not the interrupted tab's external-return continuity. Labelled proof SIG16–18 callbacks open all three exact official URLs, with explicit related-reading/library recovery. These observations do not re-audit source currency or prove controlled external failure handling.
+
+Normal library title search, lesson return, retained query, empty filter combination and clear-filter recovery were observed. A normal Priority road reference modal hides background accessibility content, responds to zoom, Tab/Right/Home reset and Escape. Screenshot widths changed from 481 to 1280 with the app panel; this is sampled runtime evidence, not an imposed responsive acceptance matrix. No screen reader listening, cross-engine or cold-offline claim is made.
+
+The proof hash route for a spaced legacy chapter remains unavailable because the verification parser receives an encoded string; no chooser pass or production route defect is invented. Full artwork, font/theme, precise focus and assistive acceptance cases remain required and open. The [results](web-results.json) preserve these limitations; none of the132 exact normal-build journeys is marked fully closed.
+
+Normal production output is rebuilt after proof and compared with the original served distribution. Temporary servers are stopped. Available temporary tabs are closed; binding the failed connection's data error page is prohibited by browser URL policy, so that agent-created tab is left to automatic turn cleanup. No security warning is bypassed. See [restoration](runtime-restored.json).
+
+Reconciliation: `python3 docs/curriculum/app-migration/verification-evidence/10K6/collect_web.py`. Saved screenshots/AX/DOM receipts describe the observed UI; the script validates receipts and hashes, not new browser interaction.
+
+Storage cleanup: byte-identical screenshot copies are represented by their original logical paths and exact hashes in [capture-storage.json](capture-storage.json). Use its `stored_path` when an original PNG path is absent. All observations and failed-run receipts remain retained.

@@ -1,0 +1,41 @@
+{
+  "task": "10K6",
+  "new_product_findings": [
+    {
+      "id": "DEF-10K-001",
+      "severity": "P2",
+      "status": "open",
+      "title": "Wasm selected assessment choice lacks exposed browser selection state",
+      "target": "normal production Wasm; IAB; sampled sign-recognise-M7/rewrite-r2",
+      "expected": "The selected pending choice exposes a programmatic selected/checked state before confirmation, including after modal and leave-guard return.",
+      "actual": "Known wrong A is functionally retained and becomes Your answer/Incorrect with score0/1, but its pending DOM role is button and aria-checked/aria-selected/aria-pressed are absent. Pending AX does not announce selection.",
+      "reproduction": [
+        "Start one-question immediate production test",
+        "Select A on sign-recognise-M7",
+        "Cancel leave guard; enlarge/close option A",
+        "Inspect pending choice browser DOM/AX",
+        "Confirm; compare Your answer A and correct D"
+      ],
+      "affected_ids": [
+        "sign-recognise-M7/rewrite-r2 (observed sample)"
+      ],
+      "affected_surface": "Assessment choice semantics at the browser accessibility bridge; root cause and wider affected set require10L1 triage.",
+      "gate_dependencies": [
+        "T03",
+        "T05",
+        "T07",
+        "T10"
+      ],
+      "evidence": [
+        "browser-evidence/pending-choice-dom.json",
+        "browser-evidence/immediate-pending-after-viewer.txt",
+        "browser-evidence/immediate-pending-after-viewer.png",
+        "browser-evidence/immediate-confirmed.txt",
+        "browser-evidence/immediate-results.txt"
+      ],
+      "distinction": "Android exposes checked/Selected but lacks persistent visible styling (DEF-10D-001). This finding concerns absent browser programmatic state, not spoken screen-reader listening.",
+      "acceptance_check": "Repeat pending selection/guard/viewer return on normal Wasm; selected state is exposed and matches the subsequently confirmed answer. Retest dependent required cases."
+    }
+  ],
+  "repairs_performed": false
+}
