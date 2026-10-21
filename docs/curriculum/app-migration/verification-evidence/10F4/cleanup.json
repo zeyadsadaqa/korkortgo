@@ -1,0 +1,45 @@
+{
+  "duplicate_capture_removals": [
+    {
+      "path": "captures/at_end-3-home.png",
+      "retained_as": "captures/at_end-1-home.png",
+      "sha256": "6f3f7740e6b79bce10ef9191543087f66295951e88880d9dac61e345d5d0e530"
+    },
+    {
+      "path": "captures/immediate-1-filter-all.png",
+      "retained_as": "captures/at_end-1-filter-all.png",
+      "sha256": "5d99a598c40648e715127e70aa90de2825dcc12826a73ee0848527bccf090e7d"
+    },
+    {
+      "path": "captures/immediate-1-filter-correct.png",
+      "retained_as": "captures/at_end-1-filter-correct.png",
+      "sha256": "70b79bd2a3d4fdf825e19fcdafd41e8fbe9edf525512caff253590fe35f02566"
+    },
+    {
+      "path": "captures/immediate-1-filter-incorrect.png",
+      "retained_as": "captures/at_end-1-filter-incorrect.png",
+      "sha256": "2daf516f7fada2f9796b76144166518cf19e0d552d28a92fe7c45a4ed65a43f9"
+    },
+    {
+      "path": "captures/immediate-1-home.png",
+      "retained_as": "captures/at_end-1-home.png",
+      "sha256": "6f3f7740e6b79bce10ef9191543087f66295951e88880d9dac61e345d5d0e530"
+    },
+    {
+      "path": "captures/immediate-1-lesson.png",
+      "retained_as": "captures/at_end-1-lesson.png",
+      "sha256": "eac9368d4dea94ebdda69f60b83302435b39213a54ebd0b6daf1d4048ac268eb"
+    },
+    {
+      "path": "captures/immediate-1-results.png",
+      "retained_as": "captures/at_end-1-results.png",
+      "sha256": "16c97d93e66f7e39ce28308256ce2e757966bd6d3e3592ebf5810b285f8ccc66"
+    },
+    {
+      "path": "captures/immediate-3-home.png",
+      "retained_as": "captures/at_end-1-home.png",
+      "sha256": "6f3f7740e6b79bce10ef9191543087f66295951e88880d9dac61e345d5d0e530"
+    }
+  ],
+  "policy": "Only byte-identical fresh proof screenshots deduplicated; all logical cases retain exact hashes and stored paths. Production/source/historical evidence remains unchanged."
+}

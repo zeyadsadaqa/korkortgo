@@ -1,0 +1,38 @@
+{
+  "entry_commit": "44462b4",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "jvm_test": {
+    "class": "ProductionJourney10FTest",
+    "tests": 1,
+    "failures": 0,
+    "errors": 0,
+    "timestamp": "2026-10-21T08:50:10.223Z"
+  },
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ProductionJourney10FTest$fullAcceptedBankProductionOwnerJourneys$1$1.class",
+      "sha256": "1a9b3dddcd42236174531bc3c4ace7fe23c4a8410091af171e6e146b46ef26c1"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ProductionJourney10FTest$fullAcceptedBankProductionOwnerJourneys$listener$1.class",
+      "sha256": "d7d29cf6b6c7516e6b7e4bf6998b39be56f8bc24b9601f6c0c2ced9c8d3ba3d2"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ProductionJourney10FTest$fullAcceptedBankProductionOwnerJourneys$scene$1.class",
+      "sha256": "e504b83606d11a9c65b8f5f8ad9c5b95ea001bf8fdb553924e949847cfbf6257"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ProductionJourney10FTest.class",
+      "sha256": "6eddc9b1d451b57974e8b2649227435b9cb8215388436f49640cd12f72e68b99"
+    }
+  ],
+  "surface": "Compiled JVM/shared Compose proof only; no platform or speech inference."
+}

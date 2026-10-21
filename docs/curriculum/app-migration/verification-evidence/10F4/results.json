@@ -1,0 +1,57 @@
+{
+  "task": "10F sequence",
+  "status": "executed_T05_open",
+  "T05": "open",
+  "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "tasks": [
+    {
+      "task": "10F1",
+      "status": "pass",
+      "length_seed_cases": 1400,
+      "boundary_rejections": 15
+    },
+    {
+      "task": "10F2",
+      "status": "pass",
+      "sessions": 2800,
+      "answered_transitions": 99400,
+      "reviewed_rows": 198800,
+      "all_question_key_position_mode_cases": 8000
+    },
+    {
+      "task": "10F3",
+      "status": "fail_required_identity_rejection",
+      "historical_cases_passed": 8,
+      "invalid_cases_passed": 10,
+      "invalid_cases_failed": 3
+    },
+    {
+      "task": "10F4",
+      "status": "shared_production_pass_platform_acceptance_open",
+      "shared_journeys": 4,
+      "engine70_runs": 40,
+      "pending_platform_journeys": 32
+    }
+  ],
+  "new_findings": [
+    "DEF-10F-001"
+  ],
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003"
+  ],
+  "production_or_accepted_inputs_modified": false,
+  "historical_receipts_rewritten": false
+}
