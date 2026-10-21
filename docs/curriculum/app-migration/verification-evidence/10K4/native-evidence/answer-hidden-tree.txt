@@ -1,0 +1,48 @@
+Optional(Attributes: Application, 0x109735b80, pid: 46980, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x109735b80, pid: 46980, label: 'KörkortGo'
+    Window (Main), 0x109735cc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x109735180, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x109734000, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x109734f00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x109735040, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x109735400, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109735540, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109735680, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1097357c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x109735900, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x109735e00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x109736300, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x109736440, {{0.0, 62.0}, {402.0, 778.0}}
+                        Button, 0x109736580, {{24.0, -1234.3}, {283.3, 38.3}}
+                        Button, 0x1097366c0, {{24.0, -1234.3}, {355.7, 76.7}}
+                        Button, 0x109736800, {{24.0, -1196.0}, {252.0, 76.7}}
+                        Button, 0x109736940, {{24.0, -1157.7}, {329.7, 76.7}}
+                        Other, 0x109736a80, {{24.0, -1065.0}, {322.0, 51.3}}, label: 'Apply the learning'
+                        Button, 0x109736bc0, {{24.0, -461.0}, {275.0, 76.7}}
+                        Other, 0x109736d00, {{0.0, 62.0}, {402.0, 778.0}}
+                        StaticText, 0x109736e40, {{24.0, 62.0}, {354.0, 29.7}}, label: 'Build your checklist. Record your permit, supervisor approval if practising privately, entitlement conditions, risk-training status, test preparation and any support application. Use actual expiry dates from your records. Schedule practice around skills you need to improve, not only around an available test slot.'
+                        Other, 0x109736f80, {{24.0, 62.0}, {354.0, 29.7}}
+                        Other, 0x1097370c0, {{24.0, 107.7}, {354.0, 421.7}}
+                        StaticText, 0x109737200, {{24.0, 107.7}, {354.0, 421.7}}, label: 'Worked decision. Noor plans to practise privately in September 2026. Her relative says no approvals are needed because a course was abolished. Noor checks the current supervisor page and waits for supervisor approval. The removed course and the retained approval are different requirements.'
+                        Other, 0x109737340, {{24.0, 545.3}, {354.0, 241.3}}
+                        Other, 0x109737480, {{40.0, 561.3}, {322.0, 153.3}}
+                        StaticText, 0x1097375c0, {{40.0, 561.3}, {322.0, 153.3}}, label: 'Knowledge check. Does a theory pass from July 2026 automatically become valid for a year?'
+                        Button, 0x109737700, {{40.0, 722.7}, {154.0, 48.0}}, label: 'Show answer', value: Collapsed
+                          StaticText, 0x109737840, {{52.0, 730.7}, {130.0, 32.0}}, label: 'Show answer'
+                        StaticText, 0x109737980, {{24.0, 802.7}, {354.0, 37.3}}, label: 'Remember: Plan the administrative route and the learning route together.'
+                        Other, 0x109737ac0, {{24.0, 802.7}, {354.0, 37.3}}
+                        Button, 0x109737c00, {{24.0, 933.7}, {143.3, 60.7}}, label: 'Sources'
+                        Button, 0x109737d40, {{24.0, 1010.3}, {322.3, 48.0}}, label: 'Transportstyrelsen: category B'
+                        Button, 0x109737e80, {{24.0, 1074.3}, {267.3, 48.0}}, label: 'Supervisor requirements'
+    Window, 0x108d612c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x108d61b80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x108d61cc0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x109735b80, pid: 46980, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x108d60f00, pid: 46980, label: 'KörkortGo'
+  }
+)

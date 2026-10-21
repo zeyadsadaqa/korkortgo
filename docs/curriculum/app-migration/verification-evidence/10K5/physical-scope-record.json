@@ -1,0 +1,9 @@
+{
+ "task":"10K5",
+ "policy":"content/delivery-targets.json",
+ "ios_scope":"simulator",
+ "authorization":"User selected iOS simulator instead of physical iPhone on16October2026; unchanged existing scope.",
+ "required_checks":["normal iosArm64 framework build","ARM64/device platform metadata","all artwork/fonts/licence bytes in device resource aggregation"],
+ "physical_runtime":{"status":"excluded_unperformed_under_existing_policy","signing":"unperformed","installation":"unperformed","VoiceOver_listening":"unperformed","physical_legibility":"unperformed"},
+ "no_physical_pass_claim":true
+}

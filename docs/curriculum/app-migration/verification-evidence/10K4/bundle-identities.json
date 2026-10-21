@@ -1,0 +1,29 @@
+[
+  {
+    "mode": "normal",
+    "app": "/tmp/korkort-10k4-normal/Build/Products/Debug-iphonesimulator/Korkort.app",
+    "bundle_id": "se.korkort.study",
+    "executable": "Korkort",
+    "executable_sha256": "401d4b60aa98939d5a8fb956fc9f7e614bc26fa774635faa42047dbf03aa88e9",
+    "info_sha256": "19364bf4ce4051698cb5c1e0e0a7e50bd1d5247e4496818cdd02d0fca95eaff6",
+    "proof_only": false
+  },
+  {
+    "mode": "proof",
+    "app": "/tmp/korkort-10k4-proof/Build/Products/Debug-iphonesimulator/Korkort.app",
+    "bundle_id": "se.korkort.study",
+    "executable": "Korkort",
+    "executable_sha256": "1a799c33ee15468486ed4c0fe189edd39f0c978f3343b5f3704d345da59014e5",
+    "info_sha256": "19364bf4ce4051698cb5c1e0e0a7e50bd1d5247e4496818cdd02d0fca95eaff6",
+    "proof_only": true
+  },
+  {
+    "mode": "restore-normal",
+    "app": "/tmp/korkort-10k4-restore-normal/Build/Products/Debug-iphonesimulator/Korkort.app",
+    "bundle_id": "se.korkort.study",
+    "executable": "Korkort",
+    "executable_sha256": "27a7a55357fc0099030e34f0a939bbe61613c642b26a42ed4df9d41099ed6405",
+    "info_sha256": "19364bf4ce4051698cb5c1e0e0a7e50bd1d5247e4496818cdd02d0fca95eaff6",
+    "proof_only": false
+  }
+]

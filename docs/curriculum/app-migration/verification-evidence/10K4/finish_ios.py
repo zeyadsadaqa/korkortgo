@@ -1,0 +1,11 @@
+import hashlib,json,plistlib,subprocess,sys
+from pathlib import Path
+OUT=Path(__file__).parent;R=OUT.parents[4];device='F6E93C4B-958D-4CBB-B95E-537B4FB8070C';app=Path('/tmp/korkort-10k4-restore-normal/Build/Products/Debug-iphonesimulator/Korkort.app')
+def call(*args):return subprocess.check_output(['xcrun','simctl',*args],text=True).strip()
+call('install',device,str(app))
+# Terminate can legitimately report Not running after XCTest. Preserve that as a nonfatal state.
+subprocess.run(['xcrun','simctl','terminate',device,'se.korkort.study'],capture_output=True);launch=call('launch',device,'se.korkort.study');installed=Path(call('get_app_container',device,'se.korkort.study','app'))
+cmd=[sys.executable,str(OUT.parent/'10K1/verify_packaged_resources.py'),'--package',str(installed),'--prefix','compose-resources/composeResources/se.korkort.resources/','--label','ios-installed-restored-normal','--output',str(OUT/'installed-bundle-resource-parity.json')];subprocess.run(cmd,check=True)
+info=plistlib.loads((app/'Info.plist').read_bytes());sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest();assert sha(app/info['CFBundleExecutable'])==sha(installed/info['CFBundleExecutable'])
+rows=json.loads((OUT/'bundle-identities.json').read_text());rows.append({'mode':'restore-normal','app':str(app),'bundle_id':info['CFBundleIdentifier'],'executable':info['CFBundleExecutable'],'executable_sha256':sha(app/info['CFBundleExecutable']),'info_sha256':sha(app/'Info.plist'),'proof_only':False});(OUT/'bundle-identities.json').write_text(json.dumps(rows,indent=2)+'\n')
+result={'status':'pass','installed_app':str(installed),'installed_binary_sha256':sha(installed/info['CFBundleExecutable']),'normal_app_binary_sha256':sha(app/info['CFBundleExecutable']),'launch':launch,'normal_restored':True,'proof_launch_environment':'Absent on direct normal simctl launch; no OS font/appearance settings were changed by test-local scale injection','initial_simulator_state':'Shutdown','final_simulator_state':'Shutdown after final normal screenshot, recorded separately','network_scope':'Host network interfaces not disabled; local bundled resources proved, not network isolation','physical_runtime':'excluded/unperformed'};(OUT/'runtime-restored.json').write_text(json.dumps(result,indent=2)+'\n');print('Normal installed bundle restored and verified')

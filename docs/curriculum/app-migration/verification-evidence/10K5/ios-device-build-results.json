@@ -1,0 +1,17 @@
+{
+  "task": "10K5",
+  "status": "pass_required_device_build_and_metadata_physical_runtime_excluded",
+  "normal_framework": "composeApp/build/bin/iosArm64/debugFramework/KorkortKit.framework",
+  "framework_binary_sha256": "d45d30385e0659467b47cd59cad6d99f57d0e1dd3094f678e03af52de3b859db",
+  "architecture": "arm64",
+  "format": "Static framework archive as configured",
+  "object_build_platforms": {
+    "2": 2837
+  },
+  "platform_definition": "Mach-O2=iOS device;7=simulator",
+  "sample_build_metadata": "0\n reserved2 0\nLoad command 1\n      cmd LC_BUILD_VERSION\n  cmdsize 24\n platform 2\n    minos 12.0\n      sdk 18.0\n   ntools 0\nLoad command 2\n     cmd LC_SYMTAB\n cmdsize 24\n  symoff 78285144\n   nsyms 132347\n  stroff 80402696\n strsize 7068936\nLoad command 3\n      ",
+  "proof_flag": false,
+  "resources": "device-resource-parity.json must pass490 independent byte checks",
+  "physical_runtime": "excluded_unperformed by existing simulator-only policy; no signing,install,VoiceOver or physical legibility pass",
+  "publication": false
+}

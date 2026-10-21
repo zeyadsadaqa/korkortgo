@@ -1,0 +1,54 @@
+{
+  "task": "10K5",
+  "files": [
+    {
+      "path": "build_device.py",
+      "sha256": "ebb0438d9efdc37d24ed1905a66adf46438b7c9b7533f25b62015cff3732ddd1",
+      "bytes": 509
+    },
+    {
+      "path": "commands.json",
+      "sha256": "dbcb1163332b23a1930b8ea2092c145a49dddb6de09feaee934316c6ce802543",
+      "bytes": 573
+    },
+    {
+      "path": "device-resource-parity.json",
+      "sha256": "e80cf82f39010d15e67bdd9276bdbbd2e5ebc30b82a0a9c0094cf6f1f531adbb",
+      "bytes": 189980
+    },
+    {
+      "path": "environment.json",
+      "sha256": "d929fbb1f96deef2087d253796bc3b51f6941ac9e7a48a12cff2577e3117eb28",
+      "bytes": 647
+    },
+    {
+      "path": "inspect_device.py",
+      "sha256": "f0d8f7368f63dce4895b53d3713ef37fe5183a72c01d49a52aa70f0006d546a3",
+      "bytes": 1397
+    },
+    {
+      "path": "ios-device-build-results.json",
+      "sha256": "03914adba54fd2109c10c3b9b2d9073d40037c2ae232e8d7c63f9e1fc03d08a8",
+      "bytes": 1055
+    },
+    {
+      "path": "logs/normal-device-framework.txt",
+      "sha256": "d647b61e602fe7d2d73783264193932c5dd81f51bdc2b1a6d27c207aa5ff3534",
+      "bytes": 2213
+    },
+    {
+      "path": "physical-scope-record.json",
+      "sha256": "1d1737d82cdb9d8c675ee7b90a53e2e72b1d5ac763949863addc8a6cc8074748",
+      "bytes": 594
+    },
+    {
+      "path": "review.md",
+      "sha256": "4c0b7bc4924f02253c443e4960c3f8e4cde0af9c1036113406d583b632f2149d",
+      "bytes": 1150
+    }
+  ],
+  "excluded": [
+    "artifacts.json",
+    "integrity-results.json"
+  ]
+}

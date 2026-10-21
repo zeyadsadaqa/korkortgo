@@ -1,0 +1,15 @@
+{
+  "tests": [
+    "testAcceptedProductionPracticeAndReview",
+    "testLibrarySearchAndSourceReturn",
+    "testExactReferenceModalAndCatalogueBack",
+    "testUnknownQuestionAndLegacyChooser",
+    "testDeliberateAnswerAndNextReading",
+    "testPendingCandidateSelectionAndNeutralModal"
+  ],
+  "input_xctestrun": "/tmp/korkort-10k4-proof/Build/Products/NativeRouteTests_iphonesimulator26.5-arm64.xctestrun",
+  "selected_xctestrun": "/tmp/korkort-10k4-proof/Build/Products/10K4.xctestrun",
+  "proof_only": true,
+  "replacement_matrix": "152 contexts require selection visibility repair/retest; initial native run is six routes/owner checks, not a matrix pass",
+  "scope": "Fresh native route/accepted owner unscored modal fixture;152 replacement contexts are not run by this command; native descriptions/traits are not VoiceOver listening."
+}

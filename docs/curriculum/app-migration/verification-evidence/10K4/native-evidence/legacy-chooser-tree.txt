@@ -1,0 +1,36 @@
+Optional(Attributes: Application, 0x109735f40, pid: 47078, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x109735f40, pid: 47078, label: 'KörkortGo'
+    Window (Main), 0x1097366c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x109736bc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x109735180, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1097352c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x109734f00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1097348c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1097361c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109734500, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x109737480, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x109737700, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x109735680, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1097357c0, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x109737980, {{24.0, 86.0}, {260.7, 32.0}}, label: 'Choose related teaching'
+                      StaticText, 0x1097375c0, {{24.0, 134.0}, {354.0, 48.0}}, label: 'The material was reorganised. Choose related teaching.'
+                      Button, 0x1097370c0, {{24.0, 198.0}, {354.0, 48.0}}, label: 'Combine the instructions'
+                        StaticText, 0x109735040, {{124.0, 212.0}, {154.0, 20.0}}, label: 'Combine the instructions'
+                      Button, 0x109735400, {{24.0, 262.0}, {354.0, 48.0}}, label: 'Leave room to respond'
+                        StaticText, 0x109736300, {{131.0, 276.0}, {140.0, 20.0}}, label: 'Leave room to respond'
+                      Button, 0x109736a80, {{24.0, 326.0}, {354.0, 48.0}}, label: 'See the person behind the movement'
+                        StaticText, 0x109734780, {{87.0, 340.0}, {228.3, 20.0}}, label: 'See the person behind the movement'
+                      Button, 0x109736d00, {{24.0, 390.0}, {153.7, 48.0}}, label: 'Open learning library'
+                        StaticText, 0x109737c00, {{36.0, 404.0}, {129.7, 20.0}}, label: 'Open learning library'
+    Window, 0x109736580, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x109734b40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x109736f80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x109735f40, pid: 47078, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x109735900, pid: 47078, label: 'KörkortGo'
+  }
+)

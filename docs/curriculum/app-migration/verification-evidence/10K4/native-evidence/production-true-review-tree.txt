@@ -1,0 +1,73 @@
+Optional(Attributes: Application, 0x10970e6c0, pid: 46861, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x10970e6c0, pid: 46861, label: 'KörkortGo'
+    Window (Main), 0x10970e800, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10979a940, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10979b340, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x10979ae40, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x109798c80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x109798f00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10979bd40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x10979a1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x10979b200, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x10979a800, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x10979bc00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x10979a300, {{0.0, 0.0}, {402.0, 874.0}}
+                      Button, 0x10979be80, {{24.0, 78.7}, {236.7, 75.3}}, label: 'KörkortGo'
+                        StaticText, 0x10979a6c0, {{36.0, 86.7}, {212.7, 59.3}}, label: 'KörkortGo'
+                      StaticText, 0x10979a440, {{260.7, 78.0}, {117.3, 76.7}}, label: 'ENGLISH · CATEGORY B'
+                      Button, 0x1052735c0, {{24.0, 154.7}, {113.3, 48.0}}, label: 'Overview'
+                        StaticText, 0x105273e80, {{36.0, 162.7}, {89.3, 32.0}}, label: 'Overview'
+                      Button, 0x105273700, {{145.3, 154.7}, {174.0, 48.0}}, label: 'Learning library'
+                        StaticText, 0x105273980, {{157.3, 162.7}, {150.0, 32.0}}, label: 'Learning library'
+                      Button, 0x108d62a80, {{24.0, 202.7}, {103.0, 48.0}}, label: 'Practice'
+                        StaticText, 0x108d630c0, {{36.0, 210.7}, {79.0, 32.0}}, label: 'Practice'
+                      Other, 0x108d60c80, {{16.0, 291.7}, {370.0, 448.3}}
+                        Other, 0x108d60dc0, {{32.0, -805.7}, {338.0, 115.0}}, label: 'Which illustration identifies “Maximum gross weight of a vehicle or combination”?'
+                        Button, 0x108d63840, {{32.0, -682.7}, {209.3, 48.0}}, label: 'Hide explanation ↑'
+                        StaticText, 0x108d63e80, {{48.0, -610.7}, {28.0, 38.3}}, label: 'A. '
+                        Image, 0x108d60640, {{48.0, -556.3}, {306.0, 204.0}}, label: 'Black rectangle with the white text LAST-PLATS split over two lines.'
+                        Button, 0x108d62440, {{48.0, -336.3}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                        StaticText, 0x108d62f80, {{48.0, -280.3}, {139.3, 38.3}}, label: 'Your answer'
+                        StaticText, 0x108d60780, {{48.0, -234.0}, {103.3, 38.3}}, label: 'Incorrect'
+                        StaticText, 0x108d60b40, {{48.0, -187.7}, {306.0, 345.0}}, label: 'M31 · Standing place for a stated purpose · Provides information about a standing place intended for a particular purpose. The wording is adapted to that purpose; read the actual text and the applicable signs.'
+                        Other, 0x108d626c0, {{16.0, -67.3}, {370.0, 206.0}}, label: 'Understand every answer.'
+                        Button, 0x108d61680, {{16.0, 166.7}, {167.7, 48.0}}, label: 'Back to results'
+                        StaticText, 0x109718000, {{48.0, 205.3}, {29.0, 38.3}}, label: 'B. '
+                        Other, 0x109718140, {{16.0, 291.7}, {370.0, 448.3}}
+                        Button, 0x109718280, {{16.0, 267.7}, {57.3, 7.0}}, label: 'All'
+                        Button, 0x1097183c0, {{81.3, 267.7}, {120.7, 7.0}}, label: 'Incorrect', Selected
+                        Button, 0x109718500, {{210.0, 267.7}, {104.7, 7.0}}, label: 'Correct'
+                        Other, 0x109718640, {{16.0, 291.7}, {370.0, 448.3}}
+                        Other, 0x109718780, {{32.0, 291.7}, {338.0, 448.3}}
+                        Image, 0x1097188c0, {{48.0, 291.7}, {306.0, 172.0}}, label: 'Red-bordered yellow circle with a black lorry and trailer above the text 30 t.'
+                        Button, 0x109718a00, {{48.0, 479.7}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x109718b40, {{72.0, 487.7}, {225.7, 32.0}}, label: 'Enlarge option B image'
+                        StaticText, 0x109718c80, {{48.0, 535.7}, {172.7, 38.3}}, label: 'Correct answer'
+                        StaticText, 0x109718dc0, {{48.0, 582.0}, {306.0, 158.0}}, label: 'C21 · Maximum gross weight of a vehicle or combination · The displayed value limits the actual gross weight of the vehicle or combination.'
+                        StaticText, 0x109718f00, {{48.0, 860.0}, {28.7, 38.3}}, label: 'C. '
+                        Image, 0x109719040, {{48.0, 914.3}, {306.0, 204.0}}, label: 'Red-bordered yellow triangle with two black cars, one partly behind the other.'
+                        Button, 0x109719180, {{48.0, 1134.3}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                        StaticText, 0x1097192c0, {{48.0, 1190.3}, {306.0, 230.0}}, label: 'A34 · Queues ahead · A queue may form on this stretch. Look far enough ahead to respond to slowing or stationary traffic.'
+                        StaticText, 0x109719400, {{48.0, 1468.3}, {29.7, 38.3}}, label: 'D. '
+                        Image, 0x109719540, {{48.0, 1522.7}, {306.0, 204.0}}, label: 'Red-bordered yellow triangle pointing downward.'
+                        Button, 0x109719680, {{48.0, 1742.7}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                        StaticText, 0x1097197c0, {{48.0, 1798.7}, {306.0, 230.0}}, label: 'B1 · Give way · Yield to vehicles on the crossing road or route. With a distance or stop-ahead panel, this can instead be advance information.'
+                        StaticText, 0x109719900, {{32.0, 2060.7}, {338.0, 115.0}}, label: 'The displayed value limits the actual gross weight of the vehicle or combination.'
+                        Button, 0x109719a40, {{32.0, 2191.7}, {338.0, 80.0}}, label: 'Make the load part of the safety check'
+                        Button, 0x109719b80, {{32.0, 2287.7}, {334.7, 48.0}}, label: 'Understand what you may drive'
+                        Button, 0x109719cc0, {{32.0, 2351.7}, {338.0, 80.0}}, label: 'Begränsad bruttovikt på fordon och fordonståg'
+                        Button, 0x109719e00, {{32.0, 2447.7}, {331.3, 48.0}}, label: 'Vägmärkesförordning (2007:90)'
+                      Button, 0x109719f40, {{16.0, 752.0}, {238.0, 64.0}}, label: 'Take another test  >'
+                        StaticText, 0x10971a080, {{40.0, 768.0}, {190.0, 32.0}}, label: 'Take another test  >'
+    Window, 0x10971a1c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10971a300, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10971a440, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x10970e6c0, pid: 46861, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x10971a580, pid: 46861, label: 'KörkortGo'
+  }
+)

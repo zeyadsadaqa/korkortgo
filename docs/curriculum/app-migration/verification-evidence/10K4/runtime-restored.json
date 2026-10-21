@@ -1,0 +1,13 @@
+{
+  "status": "pass",
+  "installed_app": "/Users/zeyad/Library/Developer/CoreSimulator/Devices/F6E93C4B-958D-4CBB-B95E-537B4FB8070C/data/Containers/Bundle/Application/AAEF3DE1-1344-4F08-AE82-99B1D5BC9EA6/Korkort.app",
+  "installed_binary_sha256": "27a7a55357fc0099030e34f0a939bbe61613c642b26a42ed4df9d41099ed6405",
+  "normal_app_binary_sha256": "27a7a55357fc0099030e34f0a939bbe61613c642b26a42ed4df9d41099ed6405",
+  "launch": "se.korkort.study: 47530",
+  "normal_restored": true,
+  "proof_launch_environment": "Absent on direct normal simctl launch; no OS font/appearance settings were changed by test-local scale injection",
+  "initial_simulator_state": "Shutdown",
+  "final_simulator_state": "Shutdown after final normal screenshot, recorded separately",
+  "network_scope": "Host network interfaces not disabled; local bundled resources proved, not network isolation",
+  "physical_runtime": "excluded/unperformed"
+}

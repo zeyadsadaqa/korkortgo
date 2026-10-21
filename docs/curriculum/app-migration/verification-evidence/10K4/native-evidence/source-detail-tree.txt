@@ -1,0 +1,51 @@
+Optional(Attributes: Application, 0x108d60dc0, pid: 47034, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x108d60dc0, pid: 47034, label: 'KörkortGo'
+    Window (Main), 0x108d61400, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x108d63700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x108d62080, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x108d62d00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x108d61e00, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x108d63200, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x108d61900, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x108d635c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x108d617c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x108d61180, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x108d63480, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x108d62e40, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x108d61680, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x108d60f00, {{0.0, 62.0}, {402.0, 778.0}}
+                        Button, 0x108d612c0, {{24.0, 86.0}, {120.7, 48.0}}, label: 'Back to Sources'
+                          StaticText, 0x108d60b40, {{36.0, 100.0}, {96.7, 20.0}}, label: 'Back to Sources'
+                        Other, 0x108d608c0, {{24.0, 146.0}, {354.0, 80.0}}, label: 'Transportstyrelsen: category B'
+                        StaticText, 0x108d61a40, {{24.0, 238.0}, {134.0, 24.0}}, label: 'Transportstyrelsen'
+                        StaticText, 0x108d62580, {{24.0, 274.0}, {197.0, 24.0}}, label: 'swedish authority guidance'
+                        StaticText, 0x108d62300, {{24.0, 310.0}, {354.0, 48.0}}, label: 'Swedish transport authority guidance or hosted research; retain passage-specific distinction'
+                        StaticText, 0x108d61b80, {{24.0, 370.0}, {148.0, 24.0}}, label: 'Checked: 2026-10-04'
+                        StaticText, 0x108d61cc0, {{24.0, 406.0}, {170.0, 24.0}}, label: 'Retrieved: Not recorded'
+                        StaticText, 0x108d603c0, {{24.0, 442.0}, {173.0, 24.0}}, label: 'Published: Not recorded'
+                        StaticText, 0x108d63c00, {{24.0, 478.0}, {203.0, 24.0}}, label: 'M01; chapter teaching scope'
+                        StaticText, 0x108d62f80, {{24.0, 514.0}, {354.0, 96.0}}, label: 'Category B mass/age/residence/permit/test requirements; practice ages, approved supervisor, proof and visible learner sign. Exceptions retained.'
+                        StaticText, 0x108d63340, {{24.0, 622.0}, {148.0, 24.0}}, label: 'Checked: 2026-10-05'
+                        StaticText, 0x108d626c0, {{24.0, 658.0}, {170.0, 24.0}}, label: 'Retrieved: Not recorded'
+                        StaticText, 0x108d61f40, {{24.0, 694.0}, {173.0, 24.0}}, label: 'Published: Not recorded'
+                        StaticText, 0x108d61540, {{24.0, 730.0}, {210.0, 24.0}}, label: 'Retained evidence /sources/0'
+                        StaticText, 0x108d63e80, {{24.0, 766.0}, {354.0, 48.0}}, label: 'Ordinary B car/light goods vehicle limit of 3,500 kg registered total weight.'
+                        StaticText, 0x108d62440, {{24.0, 826.0}, {162.7, 14.0}}, label: 'Checked: Not recorded'
+                        StaticText, 0x108d60640, {{24.0, 862.0}, {155.3, 24.0}}, label: 'Retrieved: 2026-10-01'
+                        StaticText, 0x108d60280, {{24.0, 898.0}, {173.0, 24.0}}, label: 'Published: Not recorded'
+                        StaticText, 0x108d63980, {{24.0, 934.0}, {210.0, 24.0}}, label: 'Retained evidence /sources/0'
+                        StaticText, 0x108d61040, {{24.0, 970.0}, {354.0, 48.0}}, label: 'Step 1 retrieved text, inspected for manuscript claims on 2026-10-01'
+                        Button, 0x108d60c80, {{24.0, 1034.0}, {124.0, 40.0}}, label: 'Open source'
+                        Button, 0x105273ac0, {{24.0, 1094.0}, {131.0, 40.0}}, label: 'Return to reading'
+    Window, 0x105273c00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1052735c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x105273d40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x108d60dc0, pid: 47034, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x105273980, pid: 47034, label: 'KörkortGo'
+  }
+)

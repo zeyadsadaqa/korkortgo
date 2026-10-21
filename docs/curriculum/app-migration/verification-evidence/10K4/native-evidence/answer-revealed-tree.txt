@@ -1,0 +1,46 @@
+Optional(Attributes: Application, 0x108d61f40, pid: 46980, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x108d61f40, pid: 46980, label: 'KörkortGo'
+    Window (Main), 0x108d60140, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x108d61900, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x108d63d40, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x108d61400, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x108d61540, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x108d603c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x108d61180, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x108d60c80, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x108d635c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x108d63700, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x108d617c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x108d62300, {{0.0, 62.0}, {402.0, 778.0}}
+                      Other, 0x108d621c0, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x108d62580, {{24.0, -1404.7}, {322.0, 51.3}}, label: 'Apply the learning'
+                        Button, 0x108d60280, {{24.0, -800.7}, {275.0, 76.7}}
+                        StaticText, 0x108d60780, {{24.0, -708.0}, {354.0, 460.0}}, label: 'Build your checklist. Record your permit, supervisor approval if practising privately, entitlement conditions, risk-training status, test preparation and any support application. Use actual expiry dates from your records. Schedule practice around skills you need to improve, not only around an available test slot.'
+                        Other, 0x108d60640, {{0.0, 62.0}, {402.0, 778.0}}
+                        Other, 0x108d62440, {{24.0, 62.0}, {354.0, 127.7}}
+                        StaticText, 0x108d63840, {{24.0, 62.0}, {354.0, 127.7}}, label: 'Worked decision. Noor plans to practise privately in September 2026. Her relative says no approvals are needed because a course was abolished. Noor checks the current supervisor page and waits for supervisor approval. The removed course and the retained approval are different requirements.'
+                        Other, 0x108d63e80, {{24.0, 205.7}, {354.0, 517.7}}
+                        Other, 0x108d62a80, {{40.0, 221.7}, {322.0, 153.3}}
+                        StaticText, 0x108d60dc0, {{40.0, 221.7}, {322.0, 153.3}}, label: 'Knowledge check. Does a theory pass from July 2026 automatically become valid for a year?'
+                        Button, 0x108d630c0, {{40.0, 383.0}, {145.3, 48.0}}, label: 'Hide answer', value: Expanded
+                          StaticText, 0x109735a40, {{52.0, 391.0}, {121.3, 32.0}}, label: 'Hide answer'
+                        Other, 0x1097343c0, {{40.0, 439.0}, {322.0, 268.3}}
+                        StaticText, 0x109734280, {{40.0, 439.0}, {322.0, 268.3}}, label: 'Answer: No. The amendment has transitional rules for tests taken before 19 August. Confirm the applicable expiry in the official result information.'
+                        Other, 0x109734140, {{40.0, 439.0}, {322.0, 268.3}}
+                        StaticText, 0x109735f40, {{24.0, 739.3}, {354.0, 100.7}}, label: 'Remember: Plan the administrative route and the learning route together.'
+                        Other, 0x1097348c0, {{24.0, 739.3}, {354.0, 100.7}}
+                        Button, 0x1097352c0, {{24.0, 870.3}, {143.3, 60.7}}, label: 'Sources'
+                        Button, 0x1097361c0, {{24.0, 947.0}, {322.3, 48.0}}, label: 'Transportstyrelsen: category B'
+                        Button, 0x109736080, {{24.0, 1011.0}, {267.3, 48.0}}, label: 'Supervisor requirements'
+    Window, 0x109734b40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x109734780, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x109734640, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x108d61f40, pid: 46980, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x109734500, pid: 46980, label: 'KörkortGo'
+  }
+)

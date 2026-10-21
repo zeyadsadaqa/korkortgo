@@ -1,0 +1,11 @@
+{
+  "task": "10K4",
+  "status": "pass_scoped_bundle_bytes",
+  "checks_per_bundle": 490,
+  "receipts": [
+    "normal-bundle-resource-parity.json",
+    "proof-bundle-resource-parity.json",
+    "installed-bundle-resource-parity.json"
+  ],
+  "scope": "Normal, labelled proof and installed restored normal app; local bundled resources do not prove network isolation."
+}
