@@ -1,0 +1,107 @@
+[
+  {
+    "path": "Gaps10ITest.kt",
+    "sha256": "f2a8bc16c80f21217c7ebcac51293cd8c7c788f1df2a326f73e72e914ffb4635",
+    "bytes": 3159
+  },
+  {
+    "path": "TEST-se.korkort.Gaps10ITest.xml",
+    "sha256": "ccb0bbae7643175293bbaadc137b8b7f6f1c3e0e6b9242220e63cd9bb72e66cd",
+    "bytes": 456
+  },
+  {
+    "path": "audit_gaps.py",
+    "sha256": "3d3a0936bfc0eaff39f5e151977f3d1543cfbad1f93b2bc1dab7fb226253c0a8",
+    "bytes": 8290
+  },
+  {
+    "path": "baseline-exit.json",
+    "sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b",
+    "bytes": 262
+  },
+  {
+    "path": "capture-index.json",
+    "sha256": "8d231fef5f60ad9629b5e46e17990e857a88852cde304bb897de729cf507ffb2",
+    "bytes": 702
+  },
+  {
+    "path": "captures/M01-L01-unscored-teaching-answer.png",
+    "sha256": "298686b6ce048bb0d046dfc05e51f2b55b9fe818cb78c81b03d1383a5309a813",
+    "bytes": 337795
+  },
+  {
+    "path": "captures/M07-L04-unscored-teaching-answer.png",
+    "sha256": "c0057c96e10f5aa28adc1f77d2b5a60ed0e15929ddfe14eff0bdad245502cda9",
+    "bytes": 709554
+  },
+  {
+    "path": "captures/M10-L03-unscored-teaching-answer.png",
+    "sha256": "ab9b625bb653a3dd87b42578dcc41362210d05cb6422dadec97593b3179d716d",
+    "bytes": 914943
+  },
+  {
+    "path": "case-reconciliation.json",
+    "sha256": "3cb70f1357e2c15f985dbe9ea8b4e0e2608c6ebb8272996cdb179c7791ab68c8",
+    "bytes": 62735
+  },
+  {
+    "path": "commands.json",
+    "sha256": "b2d164573da2cacbbe9c6f0303b1c9be69a5246126cff6966478eb9c5954997d",
+    "bytes": 785
+  },
+  {
+    "path": "compiled-gap-observations.json",
+    "sha256": "c0e291e2f59b244c32b728fff47ddb77d9c87fa858b008d0355902a2560f4a52",
+    "bytes": 658498
+  },
+  {
+    "path": "coverage-gap-review.json",
+    "sha256": "4fdde5c25141941560c7f6842debdf268c796867d81e1dbcfac04f360ba30df2",
+    "bytes": 106458
+  },
+  {
+    "path": "defects.json",
+    "sha256": "4310cc94c9b30a70ff6f24c1c4095a1974920d0776de1f7e97b6019726461486",
+    "bytes": 3529
+  },
+  {
+    "path": "desktop-test.txt",
+    "sha256": "ec4d4f0ec9c14f03cfa67bbb3bb29093e253ff210b2453e39b7dcebfb2445937",
+    "bytes": 2487
+  },
+  {
+    "path": "environment.json",
+    "sha256": "1318516403b39f38e745818776060b94f30329d0598ab9061e8cb4bd977998ec",
+    "bytes": 1181
+  },
+  {
+    "path": "evidence-integrity.json",
+    "sha256": "26fee669b878c105f17486ec4da125ba4502452928c5813d2a86dfbf8ffed725",
+    "bytes": 4996
+  },
+  {
+    "path": "reconcile.py",
+    "sha256": "bf175d1697f2759974bf5da1b343945211b37776c619afa4e87f468f5cbdc5c2",
+    "bytes": 6272
+  },
+  {
+    "path": "results.json",
+    "sha256": "063b571050298c31f8a1589eb9a9bf37b2db44d7ebdb0e637290841fccf66d51",
+    "bytes": 838
+  },
+  {
+    "path": "review.md",
+    "sha256": "5e2b4cb322b1e2bb34c7af2c24f9883ba6f7de4650529370f2a0e8634842de3e",
+    "bytes": 4782
+  },
+  {
+    "path": "seal_evidence.py",
+    "sha256": "63374a6fa455daa513a1e4a1de96e304595b50b0f61e01ee51f716235d8f0848",
+    "bytes": 595
+  },
+  {
+    "path": "verify_evidence.py",
+    "sha256": "d66f5fddfe6eeb41192e51761d939e27797f05a6ffbc99797508e68a0bf67de0",
+    "bytes": 4818
+  }
+]

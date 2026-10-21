@@ -1,0 +1,35 @@
+{
+  "task": "10I3",
+  "status": "pass_existing_coverage_and_brief_scope_T08_open",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "totals": {
+    "gaps": 3,
+    "briefs": 3,
+    "rubric_criteria": 18,
+    "accepted": 1000,
+    "held": 0,
+    "concepts": 500,
+    "prepared_T08_cases": 139
+  },
+  "new_product_defects": 0,
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003",
+    "DEF-10F-001",
+    "DEF-10H-001"
+  ],
+  "T08_gate": "open_pending_fresh10K",
+  "next_task": "10J1",
+  "persistence_or_scored_content_added": false
+}

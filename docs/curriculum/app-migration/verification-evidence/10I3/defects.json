@@ -1,0 +1,99 @@
+{
+  "severity_policy": {
+    "P0": "Unsafe/wrong scored rule or key, corrupted acceptance/input, lost answer identity or release of held item; block every affected gate.",
+    "P1": "Required content/route/runtime/accessibility unavailable, broken package/source dispatch or material approved-design/readability failure; block affected gates.",
+    "P2": "Reproducible lesser correctness/usability/editorial defect; block its required acceptance case until fixed/retested or explicitly dispositioned under existing approved scope.",
+    "P3": "Optional polish or new feature request; record separate scope, do not silently change approved design."
+  },
+  "required_record_fields": [
+    "id",
+    "severity",
+    "state",
+    "type",
+    "detected_in_task",
+    "case_ids",
+    "candidate",
+    "expected",
+    "observed",
+    "reproduction",
+    "evidence",
+    "affected_ids_files",
+    "owners",
+    "impacted_gates",
+    "fix_scope",
+    "approval_if_required",
+    "invalidation",
+    "retest",
+    "closure_reason"
+  ],
+  "schema_version": 1,
+  "task": "10I3",
+  "continues": "../10H3/defects.json",
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003",
+    "DEF-10F-001",
+    "DEF-10H-001"
+  ],
+  "open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003",
+    "DEF-10F-001",
+    "DEF-10H-001"
+  ],
+  "findings": [],
+  "open_verification_blockers": [
+    {
+      "id": "BLOCK-10D-PLATFORM",
+      "status": "open",
+      "owner": "10K2–10K6",
+      "expected": "456 replacement native/browser artwork contexts plus supplementary representative contexts, native modality/background exclusion, keyboard/return and actual Android TalkBack traversal. Desktop source observations are shared proof support only.",
+      "gate": "T03"
+    },
+    {
+      "id": "BLOCK-10F-PLATFORM",
+      "status": "open",
+      "owner": "10K2/10K3/10K4/10K6",
+      "gate": "T05",
+      "expected": "All32 original production journeys in both modes/four settings on Android, desktop, iOS simulator and wasmJs. Four supplemental shared journeys and engine70 runs do not close them."
+    },
+    {
+      "id": "BLOCK-10G-EXTERNAL-TARGETS",
+      "status": "open",
+      "owner": "10K2/10K3/10K4/10K6",
+      "gate": "T06",
+      "expected": "Twelve exact SIG16–SIG18 target URI/recovery cases; common callbacks do not establish actual OS/browser handling.",
+      "evidence": "unavailable-sign-results.json#/required_target_cases"
+    },
+    {
+      "id": "BLOCK-10H-NATIVE",
+      "status": "open",
+      "owner": "10K2/10K3/10K4/10K6",
+      "gate": "T07",
+      "expected": "Fresh actual-target navigation, native pointer/keyboard focus, modal background exclusion and real restart/no-restoration observations; shared JVM semantics and model restart do not close them."
+    },
+    {
+      "id": "BLOCK-10I-TARGETS",
+      "status": "open",
+      "owner": "10K2/10K3/10K4/10K6",
+      "gate": "T08",
+      "expected": "Fresh required-target normal/proof library/reader/category/reset/gap-lesson delivery, actual text scale/theme/viewport, pointer/keyboard and complete visible rendering checks. Shared semantics1280x4096 and representative390px/1.5scale do not close native/current1.6/theme checks."
+    }
+  ]
+}
