@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-21",
+  "entry_commit": "a632daec5adecd2966c5266e9c3743fd4f9210fc",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "fingerprint_basis": "unchanged protected candidate; fresh baseline-entry/exit checks pass",
+  "scope": "read-only approval/compiled shared Compose/Skia/document audit; fixed productionlight; not final10K target acceptance",
+  "tests": [
+    {
+      "receipt": "TEST-se.korkort.Copy10JTest.xml",
+      "tests": "4",
+      "failures": "0",
+      "errors": "0",
+      "skipped": "0",
+      "timestamp": "2026-10-21T12:42:34.428Z"
+    }
+  ],
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Copy10JTest.class",
+      "sha256": "e637065ce61b0baf8ae87a00060517e6b7b97160af50066128f5043a3f0f2222"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/TeachingSegments10JKt.class",
+      "sha256": "f4e4d66a830fa2118cfbfbdac4da21c1e5945c4cf2a722d3fd12f30d36f36cd5"
+    }
+  ]
+}

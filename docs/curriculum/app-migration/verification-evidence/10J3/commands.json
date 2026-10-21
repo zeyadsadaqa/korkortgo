@@ -1,0 +1,38 @@
+[
+  {
+    "command": "python3 docs/curriculum/app-migration/verification-evidence/10J1/build_index.py",
+    "result": "17 boards/38 states, all frozen binding/review/prompt/image identities match"
+  },
+  {
+    "command": "JAVA_HOME=/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home ./gradlew :composeApp:desktopTest --offline --no-daemon --init-script docs/curriculum/app-migration/verification-evidence/10J2/jvm-test-init.gradle --tests se.korkort.Presentation10JTest",
+    "result": "initial2 methods/1 harness index error; corrected final2 pass",
+    "logs": [
+      "../10J2/initial-harness-diagnostic.txt",
+      "../10J2/desktop-test.txt"
+    ],
+    "supplemental_command": "--tests se.korkort.Presentation10JTest.actualProductionHomeSetupQuizGuardAndResults",
+    "supplemental_log": "../10J2/production-test.txt"
+  },
+  {
+    "command": "python3 docs/curriculum/app-migration/verification-evidence/10J2/reconcile_comparisons.py",
+    "result": "38 state dispositions;96 current shared captures;10 explicit visual pairs"
+  },
+  {
+    "command": "JAVA_HOME=/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home ./gradlew :composeApp:desktopTest --offline --no-daemon --init-script docs/curriculum/app-migration/verification-evidence/10J2/jvm-test-init.gradle --tests se.korkort.Copy10JTest",
+    "result": "4 distinct methods pass; all3563 surfaces accounted for",
+    "log": "desktop-test.txt"
+  },
+  {
+    "command": "JAVA_HOME=/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home ./gradlew :composeApp:desktopTest --offline --no-daemon --init-script docs/curriculum/app-migration/verification-evidence/10J2/jvm-test-init.gradle --tests se.korkort.Copy10JTest.everySourceReferenceRetainsPublisherClassificationAndDates",
+    "result": "1 rerun pass, correct scope string519; not counted twice",
+    "log": "source-scope-correction-test.txt"
+  },
+  {
+    "command": "python3 docs/curriculum/app-migration/verification-evidence/10J3/audit_copy.py",
+    "result": "54/54 preservation checks;13 scoped copy passes/one inherited classification issue; T09 open"
+  },
+  {
+    "command": "python3 docs/curriculum/app-migration/verification-evidence/10A1/verify_baseline.py --check",
+    "result": "entry/exit pass; no production or historical receipt mutation"
+  }
+]
