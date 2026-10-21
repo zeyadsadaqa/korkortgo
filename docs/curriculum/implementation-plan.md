@@ -2623,6 +2623,8 @@ Use the actual accepted bank for exhaustive structural checks, plus small labell
 
 #### 10F1. Verify every supported quiz length and quota
 
+**Status — 21 October 2026:** Pass — 1,400 length/seed cases, independent rational quota/tie oracle, 15 boundary rejections and mixed-held exclusion. [Evidence](app-migration/verification-evidence/10F1/review.md).
+
 Check lengths 1–70, existing largest-remainder rounding/tie rules, category capacity after quota selection, residual random selection and unique concepts. At 70 preserve VEHICLE 7, ENVIRONMENT 5, SAFETY 16, RULES 32, PERSONAL 5 plus five random. Use recorded deterministic seeds, at least the prior twenty-seed coverage, and controlled boundary fixtures.
 
 **Input:** 10A3, 10E1 and accepted-bank engine contracts.
@@ -2632,6 +2634,8 @@ Check lengths 1–70, existing largest-remainder rounding/tie rules, category ca
 **Done when:** Every length/seed satisfies the independent allocation, capacity and uniqueness oracle; insufficient/held/retired fixtures fail explicitly without borrowing ineligible items or weakening quotas.
 
 #### 10F2. Verify shuffled options and both feedback modes
+
+**Status — 21 October 2026:** Pass — 8,000 accepted-question/key-position/mode cases, 2,800 full sessions, 99,400 answer transitions and 198,800 review rows. [Evidence](app-migration/verification-evidence/10F2/review.md).
 
 Exercise every key position, authored-to-display option mapping, selection locking, next/end, immediate/deferred feedback and result totals. Use standard, image and all four exact-fuel questions; compare selection and scoring through review filters.
 
@@ -2643,6 +2647,8 @@ Exercise every key position, authored-to-display option mapping, selection locki
 
 #### 10F3. Verify immutable session snapshots and invalid-bank rejection
 
+**Status — 21 October 2026:** Executed with required rejection failure — eight conditional historical cases and ten invalid-input rejections pass; three injected invalid bank identities can start. DEF-10F-001 / P2 remains for 10L; no package-injection UI or durable history feature implied. [Evidence](app-migration/verification-evidence/10F3/review.md).
+
 Exercise old rounded-answer snapshots against newer teaching without regrading. Check pinned manifest/revision/options/answer/feedback, missing or mismatched identities and rejected held/historical candidate inputs. Future hot replacement remains a conditional model case, not a new runtime feature.
 
 **Input:** 10F2 and 7E/9M version contracts.
@@ -2652,6 +2658,8 @@ Exercise old rounded-answer snapshots against newer teaching without regrading. 
 **Done when:** Historical scores/options remain original; invalid inputs cannot start scored sessions and tests do not imply a durable attempt-history or package-switch feature exists.
 
 #### 10F4. Verify real-bank quiz journeys
+
+**Status — 21 October 2026:** Shared production work executed; T05 open — four full-bank App() journeys pass in both modes at sizes 1/3, and forty 70-question engine runs pass. All 32 original platform journeys remain pending fresh 10K evidence. [Evidence](app-migration/verification-evidence/10F4/review.md).
 
 Run setup → start → answer → finish → results → filtered review → related lesson/source → return in both feedback modes on required runtime targets. Include short sessions and a 70-question engine run, all result-filter states and displayed accepted counts. Distinguish real-bank production flows from fixture tests.
 
@@ -2929,7 +2937,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10F1 — verify every supported quiz length and quota.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. No 10F work has executed.
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10G1 — verify the complete alias tables.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. No 10G work has executed.
 
 ## Content principle
 
