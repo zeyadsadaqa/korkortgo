@@ -1,0 +1,64 @@
+{
+  "task": "10K7",
+  "files": [
+    {
+      "path": "baseline-exit.json",
+      "sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b",
+      "bytes": 262
+    },
+    {
+      "path": "cleanup-record.json",
+      "sha256": "3d549051690b0ef41e0f9c654863b88f85bbf4db6374d0d54d748b09c3f6d91f",
+      "bytes": 826
+    },
+    {
+      "path": "defects.json",
+      "sha256": "cf2193978190d9c16acfa068a09e662a96363dc97fb70d68c7c2f34ae65608a1",
+      "bytes": 16698
+    },
+    {
+      "path": "environment.json",
+      "sha256": "d929fbb1f96deef2087d253796bc3b51f6941ac9e7a48a12cff2577e3117eb28",
+      "bytes": 647
+    },
+    {
+      "path": "final-candidate-fingerprint.json",
+      "sha256": "d3686d149fccf087a82295b1a4af529f2a18bab67ec147b7dd28133815f0dded",
+      "bytes": 185027
+    },
+    {
+      "path": "platform-matrix.json",
+      "sha256": "8e0569b2b2c8ff17a3592ab3b8c2261e3a29436c14785b4d23e1c3e031d1bb78",
+      "bytes": 1116638
+    },
+    {
+      "path": "reconcile.py",
+      "sha256": "57bf66d95eef2a772de750834371ef564afb0edf1abcd0f0dc0b107f35411749",
+      "bytes": 8526
+    },
+    {
+      "path": "renderer-fixture-reconciliation.json",
+      "sha256": "4d74f8640c95f5c740b8782bfdecb2642dd467174b6b29c0977778725d36318e",
+      "bytes": 139592
+    },
+    {
+      "path": "review.md",
+      "sha256": "e42198a3db5ea56040cbb247a49be18bec7c42811d1c14e6c1207d5e4a7deb72",
+      "bytes": 6242
+    },
+    {
+      "path": "toolchain.json",
+      "sha256": "dc4741e88c0ec1151e5c389bdada06b89701616d6d2e7bcfe9e88d95a2bbc998",
+      "bytes": 1530
+    },
+    {
+      "path": "verify_integrity.py",
+      "sha256": "279405d83252df9dcec227cab3f3e18f464461df66a6e18f288778d298c9e986",
+      "bytes": 7115
+    }
+  ],
+  "excluded": [
+    "artifacts.json",
+    "integrity-results.json"
+  ]
+}
