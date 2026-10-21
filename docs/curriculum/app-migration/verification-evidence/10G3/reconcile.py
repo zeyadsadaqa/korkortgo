@@ -1,0 +1,41 @@
+"""Account for exact unavailable routes and distinguish shared callbacks from target URI handling."""
+import hashlib,json,platform,xml.etree.ElementTree as ET
+from pathlib import Path
+ROOT=next(p for p in Path(__file__).resolve().parents if (p/'content/curriculum.json').exists());BASE=Path(__file__).resolve().parent.parent;HERE=Path(__file__).resolve().parent
+read=lambda p:json.loads(p.read_text());sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+def write(p,v):p.write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n')
+m=read(ROOT/'docs/curriculum/app-migration/link-and-progress-map.json');manifest=read(ROOT/'content/accepted-content-manifest.json');observations=read(HERE/'shared-unavailable-signal-observations.json');curr=read(ROOT/'content/curriculum.json');sources=read(ROOT/'content/legacy-sources.json');g1=read(BASE/'10G1/complete-alias-results.json');g2=read(BASE/'10G2/route-edge-results.json');rows=[];checks=[]
+def check(name,ok):checks.append({'name':name,'status':'pass' if ok else 'fail'})
+for policy in m['unresolved_destinations']:
+ code=policy['legacy_code'];r=next(r for r in observations['signals'] if r['code']==code);actual=r['actual_resolution'];reference=r['official_reference'];record=next(s for s in sources['references'] if s['id']==reference['id']);start=len(checks)
+ check(code+' exact explicit unavailable policy',policy['resolution']==r['policy']=='unavailable_exact_entry' and actual['type']=='unavailable' and actual['message']==policy['learner_message'])
+ check(code+' exact official reference/URL and source metadata',reference==record and reference['url']==policy['legacy_external_url'] and actual['official_reference_id']==record['id'] and r['attempted_urls']==[policy['legacy_external_url']]*2)
+ check(code+' optional exact related action',actual['related']==[{'content_id':id,'block_id':None} for id in policy['related_target_ids']] and r['related_action']=={'content_id':'M03-L02','block_id':None})
+ check(code+' no substitute entry/artwork registered',not any(s['code']==code for s in curr['sign_entries']) and not any(a['code_or_illustration_id']==code for a in curr['assets']))
+ check(code+' failed open and retry retain unavailable route',r['first_open']=='injected_host_failure_retains_route_and_actions' and r['retry']=='registered_URI_callback_success_retains_route' and r['library_recovery']=='explicit_action' and r['status']=='pass_shared_scope')
+ rows.append({**r,'source_policy':policy,'checks':checks[start:],'status':'pass_shared_scope' if all(c['status']=='pass' for c in checks[start:]) else 'fail'})
+required=[]
+for target,owner in [('android','10K2'),('desktop','10K3'),('ios_simulator','10K4'),('wasm_js','10K6')]:
+ for r in rows:required.append({'case_id':f'T06-{target}-{r["code"]}-external-return','target':target,'owner':owner,'legacy_code':r['code'],'exact_official_url':r['official_reference']['url'],'expected':['Resolve exact unavailable signal without substituting another sign.','Exercise actual target URI handling and retained context; shared callbacks are supporting evidence only.','Check failure/retry recovery and optional M03-L02 action/library return under the accepted target scope.'],'status':'not_run_pending_10K','observation':None})
+report={'task':'10G3','status':'shared_pass_external_target_acceptance_open','T06':'open','identity':manifest['identity'],'manifest_file_sha256':sha(ROOT/'content/accepted-content-manifest.json'),'signals':rows,'checks':checks,'counts':{'unavailable_signals':len(rows),'shared_uri_attempts':sum(len(r['attempted_urls']) for r in rows),'checks':len(checks),'failed':sum(c['status']=='fail' for c in checks),'fresh_target_uri_passes':0,'pending_target_cases':len(required)},'required_target_cases':required,'prior_source_runtime_evidence':{'path':'../10C3/source-runtime-results.json','sha256':sha(BASE/'10C3/source-runtime-results.json'),'scope':'Historical source matrix and three supplemental components; none is a fresh exact SIG16–SIG18 target URI run. Historical receipt preserved.'},'limits':'No external HTTP availability, legal-source currency, platform dispatch or speech pass inferred from URI callbacks. Physical iOS remains excluded by existing simulator policy; no new asset/content destination/deep-link scheme introduced.'};write(HERE/'unavailable-sign-results.json',report)
+prior=read(BASE/'10F4/defects.json');ledger={k:prior[k] for k in ['severity_policy','required_record_fields']};ledger.update(schema_version=1,task='10G3',continues='../10F4/defects.json',inherited_open_product_defects=prior['open_product_defects'],open_product_defects=prior['open_product_defects'],findings=[],open_verification_blockers=prior['open_verification_blockers']+[{'id':'BLOCK-10G-EXTERNAL-TARGETS','status':'open','owner':'10K2/10K3/10K4/10K6','gate':'T06','expected':'Twelve exact SIG16–SIG18 target URI/recovery cases; common callbacks do not establish actual OS/browser handling.','evidence':'unavailable-sign-results.json#/required_target_cases'}]);write(HERE/'defects.json',ledger)
+summary={'task':'10G sequence','date':'2026-10-21','status':'executed_T06_target_handling_open','T06':'open','manifest_file_sha256':report['manifest_file_sha256'],'identity':manifest['identity'],'tasks':[{'task':'10G1','status':g1['status'],'counts':g1['counts']},{'task':'10G2','status':g2['status'],'counts':g2['counts']},{'task':'10G3','status':report['status'],'counts':report['counts']}],'new_product_findings':[],'inherited_open_product_defects':prior['open_product_defects'],'production_or_accepted_inputs_changed':False,'historical_receipts_rewritten':False,'next_planned_task':'10H1'};write(HERE/'results.json',summary)
+for i in [1,2]:write(BASE/f'10G{i}'/'results.json',summary['tasks'][i-1]|{'T06':'open for separate target external-link handling','sequence_review':'../10G3/review.md'})
+for i,classes in [(1,['Alias10GTest']),(2,['Edges10GTest','RecoveryActions10GTest']),(3,['UnavailableSignals10GTest'])]:
+ clsrows=[]
+ for cls in classes:
+  x=ET.parse(BASE/f'10G{i}'/f'TEST-se.korkort.{cls}.xml').getroot();clsrows.append({'class':cls,'tests':int(x.get('tests')),'failures':int(x.get('failures')),'errors':int(x.get('errors')),'timestamp':x.get('timestamp')})
+ proofs=[{'path':str(p.relative_to(ROOT)),'sha256':sha(p)} for cls in classes for p in sorted((ROOT/'composeApp/build/classes/kotlin/desktop/test/se/korkort').glob(cls+'*.class'))]
+ write(BASE/f'10G{i}'/'environment.json',{'date':'2026-10-21','entry_commit':'4627f10','host':platform.platform(),'python':platform.python_version(),'java_home':'/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home','manifest_file_sha256':report['manifest_file_sha256'],'identity':manifest['identity'],'source_runtime_fingerprint':'ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c','tests':clsrows,'proof_classes':proofs,'scope':'Compiled JVM model; G2/G3 real LearningRoute shared semantics at1000x1800/default light/font1, no OS/browser dispatch or speech inference.'})
+# Keep one byte copy for identical screenshot states and retain every logical path/hash.
+for task,visual in [('10G2','chooser-M04-L03.png inspected'),('10G3','SIG17-open-failed.png inspected')]:
+ p=BASE/task;rows=[];seen={};removed=[]
+ for file in sorted((p/'captures').glob('*.png')):
+  h=sha(file);rel=str(file.relative_to(p));store=seen.setdefault(h,rel);rows.append({'path':rel,'stored_path':store,'sha256':h})
+  if rel!=store:file.unlink();removed.append({'path':rel,'retained_as':store,'sha256':h})
+ if (p/'capture-index.json').exists():
+  known={r['path'] for r in rows};rows.extend(r for r in read(p/'capture-index.json')['captures'] if r['path'] not in known)
+  if not removed:removed=read(p/'cleanup.json')['duplicate_capture_removals']
+ write(p/'capture-index.json',{'captures':rows,'logical_count':len(rows),'stored_count':len({r['stored_path'] for r in rows}),'visual_review_scope':visual+'; no exhaustive visual/native/legibility acceptance inferred.'})
+ write(p/'cleanup.json',{'duplicate_capture_removals':removed,'policy':'Only byte-identical fresh captures deduplicated; all logical cases retain exact evidence hashes. No production, accepted, source-cache or historical evidence removed.'})
+print(json.dumps({'status':summary['status'],'tasks':summary['tasks'],'new_product_findings':[],'pending_target_cases':len(required)},indent=2))

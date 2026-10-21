@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-21",
+  "entry_commit": "4627f10",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "tests": [
+    {
+      "class": "UnavailableSignals10GTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "timestamp": "2026-10-21T09:24:03.440Z"
+    }
+  ],
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/UnavailableSignals10GTest$allExactUnavailableSignalsUseOfficialActionsAndSafeRecovery$3$1$1.class",
+      "sha256": "01620e3c471eb856eb6414ed673af78a0f8d2575fe47d62df773488432b551cc"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/UnavailableSignals10GTest.class",
+      "sha256": "984c23b280e63b8cae39a8156b89697b660c6ed1f5ae7405b3ca99aba07ff177"
+    }
+  ],
+  "scope": "Compiled JVM model; G2/G3 real LearningRoute shared semantics at1000x1800/default light/font1, no OS/browser dispatch or speech inference."
+}

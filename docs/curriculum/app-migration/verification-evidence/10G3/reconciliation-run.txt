@@ -1,0 +1,52 @@
+{
+  "status": "executed_T06_target_handling_open",
+  "tasks": [
+    {
+      "task": "10G1",
+      "status": "pass",
+      "counts": {
+        "compatibility_records": 1921,
+        "families": {
+          "chapter_aliases": 39,
+          "legacy_page_aliases": 361,
+          "unused_topic_routes": 178,
+          "sign_routes": 343,
+          "question_routes": 1000
+        },
+        "question_routes": 1000,
+        "checks": 8888,
+        "failed": 0
+      }
+    },
+    {
+      "task": "10G2",
+      "status": "pass",
+      "counts": {
+        "frozen_examples": 9,
+        "typed_resolution_cases": 45,
+        "noninteger_boundaries": 5,
+        "constructor_rejections": 2,
+        "chooser_model_actions": 4,
+        "shared_recovery_actions": 7,
+        "synthetic_retirement_cases": 3,
+        "resolution_policies": 10,
+        "checks": 56,
+        "failed": 0
+      }
+    },
+    {
+      "task": "10G3",
+      "status": "shared_pass_external_target_acceptance_open",
+      "counts": {
+        "unavailable_signals": 3,
+        "shared_uri_attempts": 6,
+        "checks": 15,
+        "failed": 0,
+        "fresh_target_uri_passes": 0,
+        "pending_target_cases": 12
+      }
+    }
+  ],
+  "new_product_findings": [],
+  "pending_target_cases": 12
+}

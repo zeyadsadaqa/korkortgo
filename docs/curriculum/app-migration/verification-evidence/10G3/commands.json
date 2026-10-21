@@ -1,0 +1,39 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10G1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.UnavailableSignals10GTest"
+    ],
+    "log": "desktop-test.txt",
+    "log_sha256": "40b777f01364c88408b6a2eee314ced44421992d9dd5d43e05fe13830facb739",
+    "exit_code": 0,
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10G3/reconcile.py"
+    ],
+    "log": "reconciliation-run.txt",
+    "log_sha256": "f35d0f2f57376a735855b48b9c770833599e46584a6c9265470186f31ebaff46",
+    "exit_code": 0
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10A1/verify_baseline.py",
+      "--check"
+    ],
+    "log": "baseline-exit.json",
+    "log_sha256": "604cc0b2383da00354608aade66b022fbdffbb630cee21013320d1b696ffb36b",
+    "exit_code": 0
+  }
+]

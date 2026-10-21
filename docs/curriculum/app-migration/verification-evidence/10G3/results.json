@@ -1,0 +1,75 @@
+{
+  "task": "10G sequence",
+  "date": "2026-10-21",
+  "status": "executed_T06_target_handling_open",
+  "T06": "open",
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "tasks": [
+    {
+      "task": "10G1",
+      "status": "pass",
+      "counts": {
+        "compatibility_records": 1921,
+        "families": {
+          "chapter_aliases": 39,
+          "legacy_page_aliases": 361,
+          "unused_topic_routes": 178,
+          "sign_routes": 343,
+          "question_routes": 1000
+        },
+        "question_routes": 1000,
+        "checks": 8888,
+        "failed": 0
+      }
+    },
+    {
+      "task": "10G2",
+      "status": "pass",
+      "counts": {
+        "frozen_examples": 9,
+        "typed_resolution_cases": 45,
+        "noninteger_boundaries": 5,
+        "constructor_rejections": 2,
+        "chooser_model_actions": 4,
+        "shared_recovery_actions": 7,
+        "synthetic_retirement_cases": 3,
+        "resolution_policies": 10,
+        "checks": 56,
+        "failed": 0
+      }
+    },
+    {
+      "task": "10G3",
+      "status": "shared_pass_external_target_acceptance_open",
+      "counts": {
+        "unavailable_signals": 3,
+        "shared_uri_attempts": 6,
+        "checks": 15,
+        "failed": 0,
+        "fresh_target_uri_passes": 0,
+        "pending_target_cases": 12
+      }
+    }
+  ],
+  "new_product_findings": [],
+  "inherited_open_product_defects": [
+    "DEF-10C-001",
+    "DEF-10C-002",
+    "DEF-10C-003",
+    "DEF-10C-004",
+    "DEF-10C-005",
+    "DEF-10C-006",
+    "DEF-10D-001",
+    "DEF-10E-001",
+    "DEF-10E-002",
+    "DEF-10E-003",
+    "DEF-10F-001"
+  ],
+  "production_or_accepted_inputs_changed": false,
+  "historical_receipts_rewritten": false,
+  "next_planned_task": "10H1"
+}
