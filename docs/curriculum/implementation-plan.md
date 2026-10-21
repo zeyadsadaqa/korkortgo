@@ -2675,6 +2675,8 @@ Compatibility resolution stays internal; no public deep-link scheme or old book 
 
 #### 10G1. Verify the complete alias tables
 
+**Status — 21 October 2026:** Pass — all 1,921 compatibility records and 1,000 accepted question relationships checked against independent 7E/registry oracles; 8,888 checks pass. [Evidence](app-migration/verification-evidence/10G1/review.md).
+
 Run all 39 chapter, 361 numeric-page, 178 topic and 343 sign alias records plus all 1,000 question routes. Check exact scoped targets/choosers/unavailable outcomes against 7E and registry, not just whether a destination exists.
 
 **Input:** 10A3, 10B1 and typed resolver/7E oracle.
@@ -2685,6 +2687,8 @@ Run all 39 chapter, 361 numeric-page, 178 topic and 343 sign alias records plus 
 
 #### 10G2. Verify ambiguous, malformed and missing routes
 
+**Status — 21 October 2026:** Pass — all nine 7E examples, 45 typed cases, noninteger/constructor boundaries, chooser/recovery actions and ten policies checked; 56 reconciliation checks pass. [Evidence](app-migration/verification-evidence/10G2/review.md).
+
 Run every 7E actual/synthetic example, including old page 46 with situation-017 versus situation-103, page gaps, unknown questions, wrong namespace, invalid numbers and case-sensitive F31a. Exercise chooser and recovery actions.
 
 **Input:** 10G1 and exact 7E fixtures.
@@ -2694,6 +2698,8 @@ Run every 7E actual/synthetic example, including old page 46 with situation-017 
 **Done when:** Context selects the two correct different lessons; malformed/missing routes never clamp to the first/adjacent lesson or alias a differently cased sign.
 
 #### 10G3. Verify SIG16–SIG18 unavailable actions
+
+**Status — 21 October 2026:** Shared checks pass; T06 open — SIG16–SIG18 retain exact unavailable/official URL/optional M03-L02 actions. Six shared URI attempts and recovery pass; twelve actual target cases await fresh 10K evidence. No new product finding. [Evidence](app-migration/verification-evidence/10G3/review.md).
 
 Check each signal retains its explicit unavailable_exact_entry state, exact official URL and optional M03-L02 teaching action. Verify return/recovery and actual external-link handling through 10C3/10K.
 
@@ -2937,7 +2943,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10G1 — verify the complete alias tables.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. No 10G work has executed.
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10H1 — verify state transitions and reading neighbours.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. [10G1–10G3](app-migration/verification-evidence/10G3/review.md) are executed for exhaustive internal/shared scope: no new product finding; T06 stays open for twelve exact unavailable-signal target URI/recovery cases in 10K. No 10H work has executed.
 
 ## Content principle
 
