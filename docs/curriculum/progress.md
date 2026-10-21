@@ -1,9 +1,9 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 20 October 2026 (10D artwork audits and shared keyboard/runtime checks executed)
+**Last updated:** 21 October 2026 (10E1–10E18 executed; T04 open for description corrections)
 **Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
-**Next action:** The next planned sequence is **10E1**. [10D results](app-migration/verification-evidence/10D4/review.md) leave T03 open for DEF-10D-001 (pending selection has no visible indication), required independent 10E semantic reconciliation and fresh 10K platform/assistive evidence. [10C/T02 blockers](app-migration/verification-evidence/10C3/review.md) remain open. **10A1–10B14 remain complete** for the unchanged candidate; T01 passes. No accepted input or production renderer changed during 10C/10D verification.
+**Next action:** The next planned sequence is **10F1**. [10E results](app-migration/verification-evidence/10E18/review.md) account for all 1,000 IDs and 500 concepts; T04 remains open for three description defects affecting 30 contexts. The independent 10D1 semantic reconciliation is executed. [T03](app-migration/verification-evidence/10D4/review.md) still requires visible-selection repair and fresh 10K platform/assistive evidence; [T02 blockers](app-migration/verification-evidence/10C3/review.md) remain open. **10A1–10B14 remain complete** for the unchanged candidate; T01 passes. No production/accepted input or historical receipt changed.
 
 This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
 
@@ -20,7 +20,7 @@ This file records actual work and approvals. It does not authorise the next step
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
 | 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
-| 10 | Verify the finished app | In progress; 10A–10B complete | [T01 import verification](app-migration/verification-evidence/10B14/review.md); [10C blockers](app-migration/verification-evidence/10C3/review.md) and [10D evidence/blockers](app-migration/verification-evidence/10D4/review.md); next planned sequence is 10E1 |
+| 10 | Verify the finished app | In progress; 10A–10B complete | [T01 import verification](app-migration/verification-evidence/10B14/review.md); [10C blockers](app-migration/verification-evidence/10C3/review.md) and [10D evidence/blockers](app-migration/verification-evidence/10D4/review.md); [10E results/T04](app-migration/verification-evidence/10E18/review.md); next planned sequence is 10F1 |
 
 ## Step 4 substep tracker
 
@@ -140,28 +140,28 @@ Each preview requires imagegen and explicit user approval before the next design
 | 10C1 | Audit exact source bindings and classifications | Audit executed; [six classification failures](app-migration/verification-evidence/10C1/review.md), acceptance open |
 | 10C2 | Recheck affected and time-sensitive source claims | [Executed: 29 claims and three briefs](app-migration/verification-evidence/10C2/source-currency-review.md); one currency blocker |
 | 10C3 | Verify source opening, failure and return context | [18 shared desktop matrix passes + 3 supplemental checks](app-migration/verification-evidence/10C3/review.md); 54 cases and final closure pending 10K |
-| 10D1 | Audit every sign description, variant and distractor change | [15,094 data checks pass](app-migration/verification-evidence/10D1/review.md); independent semantic reconciliation pending 10E2–10E14 |
+| 10D1 | Audit every sign description, variant and distractor change | [15,094 data checks pass](app-migration/verification-evidence/10D1/review.md); [independent 10E reconciliation executed](app-migration/verification-evidence/10E18/10D1-semantic-reconciliation.json), 30 description contexts remain open |
 | 10D2 | Verify the thirty-eight former holds and faint-artwork cases | [19 pairs / twelve assets / 24 slots reconciled](app-migration/verification-evidence/10D2/review.md); comparison sheets and platform cases prepared |
 | 10D3 | Verify visual delivery at approved sizes | [2,464 shared contexts / 6,160 zoom returns](app-migration/verification-evidence/10D3/review.md); visible-selection defect and fresh visual/platform acceptance open |
 | 10D4 | Verify accessible assessment interaction | [160 shared keyboard/feedback checks pass](app-migration/verification-evidence/10D4/review.md); actual platform modality/TalkBack and T03 closure pending |
-| 10E1 | Verify the retained bank and complete ID accounting | Not started |
-| 10E2 | Verify sign rewrite batch 1 — 50 questions | Not started |
-| 10E3 | Verify sign rewrite batch 2 — 50 questions | Not started |
-| 10E4 | Verify sign rewrite batch 3 — 50 questions | Not started |
-| 10E5 | Verify sign rewrite batch 4 — 50 questions | Not started |
-| 10E6 | Verify sign rewrite batch 5 — 50 questions | Not started |
-| 10E7 | Verify sign rewrite batch 6 — 50 questions | Not started |
-| 10E8 | Verify sign rewrite batch 7 — 50 questions | Not started |
-| 10E9 | Verify sign rewrite batch 8 — 50 questions | Not started |
-| 10E10 | Verify sign rewrite batch 9 — 50 questions | Not started |
-| 10E11 | Verify sign rewrite batch 10 — 50 questions | Not started |
-| 10E12 | Verify sign rewrite batch 11 — 50 questions | Not started |
-| 10E13 | Verify sign rewrite batch 12 — 28 questions | Not started |
-| 10E14 | Verify all thirty-eight replacement assessments | Not started |
-| 10E15 | Verify the eight scenario corrections | Not started |
-| 10E16 | Verify thirty driver-inclusive load definitions | Not started |
-| 10E17 | Verify the four exact fuel-saving keys | Not started |
-| 10E18 | Verify the six unit-wording changes and close content accounting | Not started |
+| 10E1 | Verify the retained bank and complete ID accounting | [Pass — 1,000 IDs / 500 concepts, all 336 retained payloads unchanged; 9,340 checks and fresh compiled export.](app-migration/verification-evidence/10E1/review.md) |
+| 10E2 | Verify sign rewrite batch 1 — 50 questions | [Executed — 50 exact questions, 44 pass / 6 open related description cases; 12 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E2/review.md) |
+| 10E3 | Verify sign rewrite batch 2 — 50 questions | [Executed — 50 exact questions, 48 pass / 2 open related description cases; 10 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E3/review.md) |
+| 10E4 | Verify sign rewrite batch 3 — 50 questions | [Executed — 50 exact questions, 48 pass / 2 open related description cases; 12 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E4/review.md) |
+| 10E5 | Verify sign rewrite batch 4 — 50 questions | [Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate.](app-migration/verification-evidence/10E5/review.md) |
+| 10E6 | Verify sign rewrite batch 5 — 50 questions | [Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate.](app-migration/verification-evidence/10E6/review.md) |
+| 10E7 | Verify sign rewrite batch 6 — 50 questions | [Executed — 50 exact questions, 48 pass / 2 open related description cases; 8 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E7/review.md) |
+| 10E8 | Verify sign rewrite batch 7 — 50 questions | [Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate.](app-migration/verification-evidence/10E8/review.md) |
+| 10E9 | Verify sign rewrite batch 8 — 50 questions | [Pass — 50 exact questions and 8 overlapping distractor changes; T04 closure remains separate.](app-migration/verification-evidence/10E9/review.md) |
+| 10E10 | Verify sign rewrite batch 9 — 50 questions | [Executed — 50 exact questions, 48 pass / 2 open related description cases; 14 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E10/review.md) |
+| 10E11 | Verify sign rewrite batch 10 — 50 questions | [Executed — 50 exact questions, 46 pass / 4 open related description cases; 12 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E11/review.md) |
+| 10E12 | Verify sign rewrite batch 11 — 50 questions | [Executed — 50 exact questions, 46 pass / 4 open related description cases; 6 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E12/review.md) |
+| 10E13 | Verify sign rewrite batch 12 — 28 questions | [Executed — 28 exact questions, 26 pass / 2 open related description cases; 10 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E13/review.md) |
+| 10E14 | Verify all thirty-eight replacement assessments | [Executed — 38 exact questions, 32 pass / 6 open related description cases; 6 overlapping distractor changes. T04 remains open.](app-migration/verification-evidence/10E14/review.md) |
+| 10E15 | Verify the eight scenario corrections | [Pass within recorded source scope — all eight scenarios supported by fresh primary rechecks; conditional editorial/safety advice and legal exceptions preserved.](app-migration/verification-evidence/10E15/review.md) |
+| 10E16 | Verify thirty driver-inclusive load definitions | [Pass — 30 independent prompt-derived load calculations; driver counted once, distinct options and all explanations checked.](app-migration/verification-evidence/10E16/review.md) |
+| 10E17 | Verify the four exact fuel-saving keys | [Pass — four exact Decimal results (0.75, 2.25, 1.25, 3.75 litres); old rounded snapshots preserved.](app-migration/verification-evidence/10E17/review.md) |
+| 10E18 | Verify the six unit-wording changes and close content accounting | [Executed — all six option-unit drafts pass; known “1 litres” residual retained. Full 1,000-ID accounting passes; T04 open for three description defects affecting 30 contexts.](app-migration/verification-evidence/10E18/review.md) |
 | 10F1 | Verify every supported quiz length and quota | Not started |
 | 10F2 | Verify shuffled options and both feedback modes | Not started |
 | 10F3 | Verify immutable session snapshots and invalid-bank rejection | Not started |
@@ -907,3 +907,5 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **20 October — 10C sequence audited:** 10C1 resolved all exact bindings but found six source-classification defects; 10C2 inspected 29 selected claims and all three briefs, confirming those defects and retaining an unresolved direct Volvo handbook check. 10C3 prepared 72 source cases, passed 18 shared desktop matrix cases and three supplemental recovery/return checks; 54 native/browser cases and production-owner/platform closure await fresh 10K evidence. No accepted inputs or historical source dates changed. T02 remains open with [findings, dependencies and retest handoff](app-migration/verification-evidence/10C3/review.md). No 10D work executed.
 
 **20 October — 10D sequence checked:** 10D1 reconciled all 616 sign revisions, 1,540 image occurrences and 134 overlapping distractor changes in 15,094 checks; independent 10E semantic reviews remain required. 10D2 reconciled all 19 replacement pairs and twelve faint assets/24 slots, prepared 2,920 original platform contexts and inspected six unchanged-artwork comparison sheets. 10D3 completed 2,464 shared artwork contexts and 6,160 image zoom returns but found DEF-10D-001: a selected visible choice has no persistent visual indication. 10D4 passed 160 accepted-question keyboard/feedback checks at 390px and diagnostic 320px. No native/browser/TalkBack result was inferred; required fresh 10K observations, full visual reviews and bounded 10L fix/retest remain open. Production inputs, official artwork and historical receipts are unchanged. [Evidence and T03 handoff](app-migration/verification-evidence/10D4/review.md). No 10E work executed.
+
+**21 October — 10E sequence executed:** All 18 tasks ran sequentially. Fresh compiled-bank export and 9,340 checks cover all 1,000 IDs, 500 concepts and unchanged 336 retained payloads. Independent reviews cover 578 sign rewrites, 38 replacements and all 134 overlapping distractor changes, plus eight freshly sourced scenarios, 30 driver-inclusive load calculations, four exact fuel keys and six approved option-unit changes. Three P2 findings (C18 invented trailer, M8 extra line variant, X9 invented joining line) affect 30 question contexts; 970 pass the required content checks. T04 remains open for bounded 10L corrections. The known “1 litres” residual remains explicit in three questions/four locations. New 10D1 semantic reconciliation supersedes its unexecuted dependency without rewriting historical receipts; T02/T03 and fresh 10K requirements remain open. Production inputs, artwork, accepted identities, dates and prior scores remain unchanged. [Full evidence and defect handoff](app-migration/verification-evidence/10E18/review.md). Next planned task: 10F1; no 10F execution.

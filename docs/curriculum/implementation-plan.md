@@ -2349,7 +2349,9 @@ Exercise in-app source details and the external Open source callback with repres
 
 #### 10D1. Audit every sign description, variant and distractor change
 
-**Status — 20 October 2026: Data audit passes; semantic reconciliation pending 10E2–10E14.** [616 revisions / 15,094 checks](app-migration/verification-evidence/10D1/review.md), including all 134 overlapping distractor changes and fresh gated compiled projections. Exact proposal/provenance parity is not an independent semantic/variant signoff.
+**Status — 21 October 2026: Data audit passes; independent semantic reviews executed with three open description defects.** [Fresh 10E reconciliation](app-migration/verification-evidence/10E18/10D1-semantic-reconciliation.json) covers all 616 revisions and 134 distractor changes; 30 contexts require bounded 10L description corrections. The original 10D receipts remain unchanged.
+
+**Original data evidence — 20 October 2026:** [616 revisions / 15,094 checks](app-migration/verification-evidence/10D1/review.md), including all 134 overlapping distractor changes and fresh gated compiled projections. Exact proposal/provenance parity is not an independent semantic/variant signoff.
 
 Reconcile the 578 sign rewrites and 38 replacements with exact official code/variant, neutral physical descriptions, authored option IDs and paired-direction semantics. Account for all 134 overlapping distractor changes without counting them as extra questions. Review visible and accessible pre-answer projections for code/name/key leaks.
 
@@ -2401,6 +2403,8 @@ Use exact IDs and current revisions from 7D/9J; do not regroup by current array 
 
 #### 10E1. Verify the retained bank and complete ID accounting
 
+**Status — 21 October 2026:** Pass — 1,000 IDs / 500 concepts, all 336 retained payloads unchanged; 9,340 checks and fresh compiled export. [Evidence](app-migration/verification-evidence/10E1/review.md).
+
 Diff all 1,000 IDs against frozen baseline/disposition records. Confirm the 336 retained assessment payloads are unchanged while distinguishing approved routing/provenance metadata changes. Account for all 626 rewrites and 38 replacements, no removals or active holds.
 
 **Input:** 10A3, baseline question bank, question decisions and accepted compiled/JSON records.
@@ -2410,6 +2414,8 @@ Diff all 1,000 IDs against frozen baseline/disposition records. Confirm the 336 
 **Done when:** All IDs and 500 concepts are accounted for exactly once by disposition; all 336 retained payloads match and every changed item has an exact owner/revision/acceptance locator.
 
 #### 10E2. Verify sign rewrite batch 1 — 50 questions
+
+**Status — 21 October 2026:** Executed — 50 exact questions, 44 pass / 6 open related description cases; 12 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E2/review.md).
 
 Independently review the exact 50 IDs assigned to 9E1 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2421,6 +2427,8 @@ Independently review the exact 50 IDs assigned to 9E1 against approved per-ID dr
 
 #### 10E3. Verify sign rewrite batch 2 — 50 questions
 
+**Status — 21 October 2026:** Executed — 50 exact questions, 48 pass / 2 open related description cases; 10 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E3/review.md).
+
 Independently review the exact 50 IDs assigned to 9E2 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E2 membership and 7D decisions.
@@ -2430,6 +2438,8 @@ Independently review the exact 50 IDs assigned to 9E2 against approved per-ID dr
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E4. Verify sign rewrite batch 3 — 50 questions
+
+**Status — 21 October 2026:** Executed — 50 exact questions, 48 pass / 2 open related description cases; 12 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E4/review.md).
 
 Independently review the exact 50 IDs assigned to 9E3 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2441,6 +2451,8 @@ Independently review the exact 50 IDs assigned to 9E3 against approved per-ID dr
 
 #### 10E5. Verify sign rewrite batch 4 — 50 questions
 
+**Status — 21 October 2026:** Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate. [Evidence](app-migration/verification-evidence/10E5/review.md).
+
 Independently review the exact 50 IDs assigned to 9E4 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E4 membership and 7D decisions.
@@ -2450,6 +2462,8 @@ Independently review the exact 50 IDs assigned to 9E4 against approved per-ID dr
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E6. Verify sign rewrite batch 5 — 50 questions
+
+**Status — 21 October 2026:** Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate. [Evidence](app-migration/verification-evidence/10E6/review.md).
 
 Independently review the exact 50 IDs assigned to 9E5 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2461,6 +2475,8 @@ Independently review the exact 50 IDs assigned to 9E5 against approved per-ID dr
 
 #### 10E7. Verify sign rewrite batch 6 — 50 questions
 
+**Status — 21 October 2026:** Executed — 50 exact questions, 48 pass / 2 open related description cases; 8 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E7/review.md).
+
 Independently review the exact 50 IDs assigned to 9E6 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E6 membership and 7D decisions.
@@ -2470,6 +2486,8 @@ Independently review the exact 50 IDs assigned to 9E6 against approved per-ID dr
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E8. Verify sign rewrite batch 7 — 50 questions
+
+**Status — 21 October 2026:** Pass — 50 exact questions and 12 overlapping distractor changes; T04 closure remains separate. [Evidence](app-migration/verification-evidence/10E8/review.md).
 
 Independently review the exact 50 IDs assigned to 9E7 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2481,6 +2499,8 @@ Independently review the exact 50 IDs assigned to 9E7 against approved per-ID dr
 
 #### 10E9. Verify sign rewrite batch 8 — 50 questions
 
+**Status — 21 October 2026:** Pass — 50 exact questions and 8 overlapping distractor changes; T04 closure remains separate. [Evidence](app-migration/verification-evidence/10E9/review.md).
+
 Independently review the exact 50 IDs assigned to 9E8 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E8 membership and 7D decisions.
@@ -2490,6 +2510,8 @@ Independently review the exact 50 IDs assigned to 9E8 against approved per-ID dr
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E10. Verify sign rewrite batch 9 — 50 questions
+
+**Status — 21 October 2026:** Executed — 50 exact questions, 48 pass / 2 open related description cases; 14 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E10/review.md).
 
 Independently review the exact 50 IDs assigned to 9E9 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2501,6 +2523,8 @@ Independently review the exact 50 IDs assigned to 9E9 against approved per-ID dr
 
 #### 10E11. Verify sign rewrite batch 10 — 50 questions
 
+**Status — 21 October 2026:** Executed — 50 exact questions, 46 pass / 4 open related description cases; 12 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E11/review.md).
+
 Independently review the exact 50 IDs assigned to 9E10 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E10 membership and 7D decisions.
@@ -2510,6 +2534,8 @@ Independently review the exact 50 IDs assigned to 9E10 against approved per-ID d
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E12. Verify sign rewrite batch 11 — 50 questions
+
+**Status — 21 October 2026:** Executed — 50 exact questions, 46 pass / 4 open related description cases; 6 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E12/review.md).
 
 Independently review the exact 50 IDs assigned to 9E11 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
@@ -2521,6 +2547,8 @@ Independently review the exact 50 IDs assigned to 9E11 against approved per-ID d
 
 #### 10E13. Verify sign rewrite batch 12 — 28 questions
 
+**Status — 21 October 2026:** Executed — 28 exact questions, 26 pass / 2 open related description cases; 10 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E13/review.md).
+
 Independently review the exact 28 IDs assigned to 9E12 against approved per-ID drafts and official artwork/meaning evidence. Apply the shared question checks and inspect every assigned overlapping distractor change in both paired directions.
 
 **Input:** 10E1, 10B13, exact 9E12 membership and 7D decisions.
@@ -2530,6 +2558,8 @@ Independently review the exact 28 IDs assigned to 9E12 against approved per-ID d
 **Done when:** Every assigned ID passes wording, key, feedback, source/lesson, revision and variant/neutral-description checks; no item is inferred correct from another batch or from generator parity alone.
 
 #### 10E14. Verify all thirty-eight replacement assessments
+
+**Status — 21 October 2026:** Executed — 38 exact questions, 32 pass / 6 open related description cases; 6 overlapping distractor changes. T04 remains open. [Evidence](app-migration/verification-evidence/10E14/review.md).
 
 Review the exact 9F1–9F19 pairs against per-ID approved content, authored identities and current delivery receipts. Validate intended assessment meaning and distinct options; carry required fresh visual checks into 10D2–10D4.
 
@@ -2541,6 +2571,8 @@ Review the exact 9F1–9F19 pairs against per-ID approved content, authored iden
 
 #### 10E15. Verify the eight scenario corrections
 
+**Status — 21 October 2026:** Pass within recorded source scope — all eight scenarios supported by fresh primary rechecks; conditional editorial/safety advice and legal exceptions preserved. [Evidence](app-migration/verification-evidence/10E15/review.md).
+
 Review situation-032, -045, -105, -107, -125, -162, -172 and -178 against their exact 9G decisions and source scope. Independently check conditions, exceptions, recommendations versus requirements, options, feedback and lesson routing. Recheck affected legal facts through 10C2.
 
 **Input:** 10E1, 9G records and relevant primary references.
@@ -2550,6 +2582,8 @@ Review situation-032, -045, -105, -107, -125, -162, -172 and -178 against their 
 **Done when:** All eight scenarios preserve approved meaning and have supported keys/feedback; newly identified source conflicts become defects rather than unreviewed edits.
 
 #### 10E16. Verify thirty driver-inclusive load definitions
+
+**Status — 21 October 2026:** Pass — 30 independent prompt-derived load calculations; driver counted once, distinct options and all explanations checked. [Evidence](app-migration/verification-evidence/10E16/review.md).
 
 Recompute all 30 accepted load questions using the stated ready-weight/driver assumptions and units. Check prompts, values, distinct options, correct keys and explanations independently of production helpers.
 
@@ -2561,6 +2595,8 @@ Recompute all 30 accepted load questions using the stated ready-weight/driver as
 
 #### 10E17. Verify the four exact fuel-saving keys
 
+**Status — 21 October 2026:** Pass — four exact Decimal results (0.75, 2.25, 1.25, 3.75 litres); old rounded snapshots preserved. [Evidence](app-migration/verification-evidence/10E17/review.md).
+
 Independently calculate fuel-saving-150-0.5, -150-1.5, -250-0.5 and -250-1.5 from their prompts. Compare exact values, precision, units, distractors and feedback; distinguish these revisions from old rounded-answer snapshots.
 
 **Input:** 10E1 and 9I1–9I4 approved questions/decisions.
@@ -2570,6 +2606,8 @@ Independently calculate fuel-saving-150-0.5, -150-1.5, -250-0.5 and -250-1.5 fro
 **Done when:** All four exact calculations agree with the accepted authored keys and explanations; no historical rounded key is reused or historical score changed.
 
 #### 10E18. Verify the six unit-wording changes and close content accounting
+
+**Status — 21 October 2026:** Executed — all six option-unit drafts pass; known “1 litres” residual retained. Full 1,000-ID accounting passes; T04 open for three description defects affecting 30 contexts. [Evidence](app-migration/verification-evidence/10E18/review.md).
 
 Inspect the six exact 9I5 drafts, documenting the known residual “1 litres” wording without claiming a broader grammar repair. Reconcile every 10E review with 336 + 578 + 38 + 8 + 30 + 4 + 6 = 1,000 IDs and all original acceptance criteria. Route any justified editorial correction through 10L.
 
@@ -2891,7 +2929,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10E1 — verify the retained bank and complete ID accounting.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. T02/T03 remain open for the bounded 10L corrections, source-currency disposition, required 10E reconciliation and fresh 10K observations.
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10F1 — verify every supported quiz length and quota.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. No 10F work has executed.
 
 ## Content principle
 
