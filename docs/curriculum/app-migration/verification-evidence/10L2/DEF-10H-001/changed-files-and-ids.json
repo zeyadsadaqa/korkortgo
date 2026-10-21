@@ -1,0 +1,18 @@
+{
+  "production": [
+    "composeApp/src/commonMain/kotlin/se/korkort/LearningRoute.kt"
+  ],
+  "regression": [
+    "composeApp/src/desktopTest/kotlin/se/korkort/LearningViewsSemanticsTest.kt"
+  ],
+  "affected_ids": [
+    "M03-L01",
+    "M03-L01/teaching-005",
+    "sign-B1",
+    "all reader-origin catalogue returns"
+  ],
+  "authored_or_generated_content_changes": [],
+  "visual_design_change": false,
+  "historical_evidence_changes": [],
+  "patch": "route-fix.patch"
+}

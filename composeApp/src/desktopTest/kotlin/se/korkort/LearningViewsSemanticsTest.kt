@@ -12,6 +12,7 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.PlatformContext
 import androidx.compose.ui.scene.CanvasLayersComposeScene
 import androidx.compose.ui.semantics.*
+import androidx.compose.ui.text.LinkAnnotation
 import androidx.compose.ui.unit.Density
 import androidx.compose.ui.unit.IntSize
 import org.jetbrains.skia.EncodedImageFormat
@@ -20,6 +21,45 @@ import java.io.File
 import kotlin.test.*
 
 class LearningViewsSemanticsTest {
+    @Test fun readingReferenceCatalogueReturnRestoresThePassageRepeatedly() {
+        for (width in listOf(390, 1280)) for (scale in listOf(1f, 1.6f)) Harness(width, 1800).use { h ->
+            val origin = ContentTarget(ContentId("M03-L01"), BlockId("M03-L01/teaching-005"))
+            h.scene.setContent {
+                CompositionLocalProvider(LocalDensity provides Density(1f, scale)) {
+                    LearningRoute(canonicalResolver.canonical(origin)) { false }
+                }
+            }
+            repeat(2) {
+                fun passage() = h.nodes().flatMap { it.config.getOrNull(SemanticsProperties.Text).orEmpty() }
+                    .firstOrNull { text -> text.getLinkAnnotations(0, text.length).any {
+                        (it.item as? LinkAnnotation.Clickable)?.tag?.contains("sign-B1") == true
+                    } }
+                h.awaitCondition { passage() != null }
+                val originalPassage = requireNotNull(passage())
+                val link = originalPassage.getLinkAnnotations(0, originalPassage.length)
+                    .map { it.item }.filterIsInstance<LinkAnnotation.Clickable>().first { it.tag.contains("sign-B1") }
+                requireNotNull(link.linkInteractionListener).onClick(link)
+                h.awaitCondition { h.text().contains("‹ Road signs and reference") }
+                h.click("‹ Road signs and reference")
+                h.awaitCondition { h.text().contains("Road signs and signals") }
+                h.click("Return to reading")
+                h.awaitCondition { h.text().contains(originalPassage.text) }
+                assertFalse(h.text().contains("Road signs and signals"), "Catalogue must not mask the restored reading target")
+            }
+        }
+    }
+
+    @Test fun referenceCatalogueWithoutReadingOriginReturnsToLibrary() {
+        Harness(390, 1800).use { h ->
+            h.scene.setContent { LearningRoute(initialReferences = true) { false } }
+            h.awaitCondition { h.text().contains("Road signs and signals") }
+            assertFalse(h.text().contains("Return to reading"))
+            h.click("Learning library")
+            h.awaitCondition { h.text().contains("10 modules · 40 lessons") }
+            assertFalse(h.text().contains("Road signs and signals"))
+        }
+    }
+
     private class Harness(width: Int, height: Int): AutoCloseable {
         private var owner: SemanticsOwner?=null
         private val listener=object: PlatformContext.SemanticsOwnerListener {

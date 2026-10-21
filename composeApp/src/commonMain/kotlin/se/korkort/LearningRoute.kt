@@ -27,7 +27,7 @@ import androidx.compose.ui.Alignment
     }
     fun library(){target=null;resolution=null;directory=false;source=null;origin=null;restored=null;references=false}
     fun returnToReading(){
-        source=null;directory=false
+        source=null;directory=false;references=false
         val o=origin
         if(o==null)library() else {
             val document=readerDocuments.singleOrNull{it.id==o.origin.contentId}
