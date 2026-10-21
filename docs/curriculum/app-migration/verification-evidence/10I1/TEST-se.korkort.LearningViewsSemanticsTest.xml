@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.LearningViewsSemanticsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-21T10:03:01.212Z" hostname="Zeyads-MacBook-Pro.local" time="3.209">
+  <properties/>
+  <testcase name="approvedContextualCropCannotPaintIntoFollowingContent[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.961"/>
+  <testcase name="calculationAndTableRetainFullTextAtSameViewportAndLargeScale[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.012"/>
+  <testcase name="deliberateRevealRemovesHiddenAnswerAndRestoresToggleFocus[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.236"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

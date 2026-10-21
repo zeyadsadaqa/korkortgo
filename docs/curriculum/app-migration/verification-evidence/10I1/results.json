@@ -1,0 +1,45 @@
+{
+  "task": "10I1",
+  "status": "pass_compiled_and_shared_scope",
+  "totals": {
+    "modules": 10,
+    "lessons": 40,
+    "reviews": 10,
+    "appendices": 4,
+    "reference_groups": 24,
+    "additional_front_matter": 27,
+    "documents": 91,
+    "routes": 115,
+    "top_level_blocks": 1316,
+    "knowledge_checks": 50,
+    "checks": 1609
+  },
+  "tests": [
+    {
+      "receipt": "TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "name": "se.korkort.LearningViewsSemanticsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T10:03:01.212Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.Reachability10ITest.xml",
+      "name": "se.korkort.Reachability10ITest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T10:12:03.786Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.TeachingRender10ITest.xml",
+      "name": "se.korkort.TeachingRender10ITest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T10:03:22.193Z"
+    }
+  ],
+  "T08_gate": "open_pending_fresh10K",
+  "new_product_defects": 0
+}

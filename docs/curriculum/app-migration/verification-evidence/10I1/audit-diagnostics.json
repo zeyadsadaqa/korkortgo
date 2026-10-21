@@ -1,0 +1,21 @@
+{
+  "initial_route_count": {
+    "expected": 94,
+    "observed": 115,
+    "cause": "The initial harness counted only6 front-matter/supporting documents rather than the full27; all115 recorded routes passed their per-route checks.",
+    "correction": "Assert115 and retain exact membership/status checks."
+  },
+  "initial_registry_lookup": {
+    "command": "python3 .../10I1/audit_teaching.py",
+    "exit_code": 1,
+    "error": "StopIteration",
+    "cause": "Registry curriculum_nodes includes24 reference groups; lookup initially searched documents only.",
+    "correction": "Look up registry entries in documents plus reference_groups, retaining exact title/order comparison."
+  },
+  "production_code_changed": false,
+  "duplicate_title_verification": {
+    "observation": "Some supporting anchors share exact titles; selecting the first matching label alone cannot prove all stable-ID callbacks.",
+    "correction": "Verify every actual LearningLibrary typed callback, then invoke each corresponding title occurrence in actual LearningRoute. All115 final routes still required.",
+    "product_change": false
+  }
+}
