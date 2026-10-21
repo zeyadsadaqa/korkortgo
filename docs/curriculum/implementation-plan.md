@@ -2823,6 +2823,8 @@ Use the 10A3 case index and the cases prepared by 10C/10D/10F/10G/10H/10I/10J. D
 
 #### 10K1. Run fresh common integration and generation checks
 
+**Status — 21 October 2026: Common checks pass: six generation/release checks, 150 Python tests and 85 forced-fresh JVM tests. [Evidence](app-migration/verification-evidence/10K1/review.md).**
+
 Run the six non-mutating generation/release commands from the content guide, full Python unittest discovery and forced fresh JVM desktop tests. Compare compiled/JSON parity, origins, source/artwork bindings and state results. Save actual totals rather than assuming the historical 150/85 counts are current.
 
 **Input:** 10B14, 10E18, 10F1–10F3, 10G1–10G2 and available shared-case checks.
@@ -2832,6 +2834,8 @@ Run the six non-mutating generation/release commands from the content guide, ful
 **Done when:** All required fresh common checks pass against the candidate; skips/failures and cache reuse are explicit and historical candidate versus accepted-release statuses remain distinct.
 
 #### 10K2. Verify the Android emulator build and runtime
+
+**Status — 21 October 2026: Available Android checks executed; required visual-selection failure and remaining matrix stay open. Normal app/settings restored; emulator stopped. [Evidence](app-migration/verification-evidence/10K2/review.md).**
 
 Build/install the normal Android APK on the available configured emulator; inspect packaged artwork/fonts/licences, offline launch/teaching/assets and real-bank flows in both feedback modes. Execute source/failure, library/reader/reference/recovery, artwork and scoped keyboard/accessibility cases. Restore original connectivity and normal app after proof runs.
 
@@ -2843,6 +2847,8 @@ Build/install the normal Android APK on the available configured emulator; inspe
 
 #### 10K3. Verify the configured JVM desktop harness
 
+**Status — 21 October 2026: Configured harness executed: 44 tests, 42 pass and two inherited failures reproduced. Normal JAR/classpath resource parity passes. [Evidence](app-migration/verification-evidence/10K3/review.md).**
+
 Build the normal desktop JAR/processed resources; run current Compose runtime, parity, session, route, reader and artwork cases. Verify every packaged binding and font/licence. Identify fixture production-owner flows separately from actual accepted-bank checks and record unsupported native window/external-launch behaviour.
 
 **Input:** 10K1 and configured desktop harness/case matrix.
@@ -2852,6 +2858,8 @@ Build the normal desktop JAR/processed resources; run current Compose runtime, p
 **Done when:** All required configured harness cases pass; no installer, standalone launcher, native accessibility bridge or unobserved external browser callback is claimed.
 
 #### 10K4. Verify the iOS simulator build and runtime
+
+**Status — 21 October 2026: Six native tests pass with normal/proof/restored bundle checks. Full artwork/assistive matrix remains open; normal app restored and simulator shut down. [Evidence](app-migration/verification-evidence/10K4/review.md).**
 
 Use the shared Korkort scheme for a normal app/framework build on the configured simulator. Verify installed resources, both real-bank feedback flows, reader/library/reference/source/recovery and required artwork/trait/focus cases. Distinguish local bundled-resource access from network isolation; restore the normal app after labelled proof runs.
 
@@ -2863,6 +2871,8 @@ Use the shared Korkort scheme for a normal app/framework build on the configured
 
 #### 10K5. Verify the iOS device framework and scope exclusion
 
+**Status — 21 October 2026: Required normal device framework/platform/resource scope passes. Physical runtime remains excluded/unperformed under unchanged simulator policy. [Evidence](app-migration/verification-evidence/10K5/review.md).**
+
 Build the normal iosArm64 framework and resource aggregation; verify device ARM64/platform metadata and all resource/font/licence bytes. Carry the bound simulator-only policy into results for signing, installation, physical runtime, VoiceOver and legibility.
 
 **Input:** 10K1, iOS build configuration and existing delivery policy.
@@ -2873,6 +2883,8 @@ Build the normal iosArm64 framework and resource aggregation; verify device ARM6
 
 #### 10K6. Verify the production web distribution and browser runtime
 
+**Status — 21 October 2026: Production build/resources, both accepted-bank feedback samples and exact source/signal callbacks observed. New DEF-10K-001 browser selection-semantics failure and remaining matrix stay open. Normal output restored; servers stopped. [Evidence](app-migration/verification-evidence/10K6/review.md).**
+
 Build the production Wasm distribution and verify all artwork/fonts/licences and served paths. Use a fresh origin/cache state and the real production bank for both feedback modes, keyboard/modal, reader/source/reference/recovery and required artwork cases. Exercise actual external-link callbacks and failure handling. Record static-host dependency; clean up temporary servers/tabs.
 
 **Input:** 10K1, available browser/static-host scope and prepared runtime matrix.
@@ -2882,6 +2894,8 @@ Build the production Wasm distribution and verify all artwork/fonts/licences and
 **Done when:** All required browser cases pass for the current executable/resources; stale origins are excluded and no cold-offline, cross-engine or screen-reader-listening claim is invented.
 
 #### 10K7. Reconcile platform and cross-gate results
+
+**Status — 21 October 2026: Reconciliation executed; T10 and step 10 remain incomplete. All 2,920 artwork and 132 exact normal journey cases retain explicit required dispositions; nineteen product findings are open. [Evidence](app-migration/verification-evidence/10K7/review.md).**
 
 Bind each platform output to the same final content and runtime fingerprint. Link fresh cases back to T02/T03/T05/T06/T07/T08/T09 and distinguish platform-specific build changes from shared input drift. Inventory unresolved required checks, excluded/conditional cases and source-link limitations.
 
@@ -2949,7 +2963,7 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10K1 — run fresh common integration and generation checks.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. [10G1–10G3](app-migration/verification-evidence/10G3/review.md) are executed for exhaustive internal/shared scope: no new product finding; T06 stays open for twelve exact unavailable-signal target URI/recovery cases in 10K. [10H1–10H3](app-migration/verification-evidence/10H3/review.md) are executed for available compiled/shared scope: all 128 state transitions, 60-node reading edges and eighteen accepted transient contracts pass, with four future-store contracts conditional. A real sign-catalogue return fails (DEF-10H-001/P1); T07 remains open for bounded 10L repair/retest and fresh 10K target navigation/focus/modal/relaunch evidence. All 110 prepared T07 cases have scoped dispositions. [10I1–10I3](app-migration/verification-evidence/10I3/review.md) are executed for exhaustive available compiled/shared/document-review scope: all 115 routes, 91 documents/1,316 body blocks, fifty deliberate reveals, 288 search/filter cases and all three coverage gaps/briefs pass. No new product finding; all 139 prepared T08 data cases have scoped dispositions. T08 remains open for fresh 10K target delivery, font/theme, visible rendering and interaction checks. [10J1–10J3](app-migration/verification-evidence/10J3/review.md) are executed for available approval/shared-copy/fidelity scope: seventeen approved boards map to 38 states; 96 fresh shared captures and 3,563 observed surfaces support six final distinct JVM methods and 54 preservation checks. Six new fidelity findings bring the open product total to eighteen. T09 remains open for these repairs, inherited source classifications and remaining detailed/fresh 10K target comparisons. No 10K work has executed.
+All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10L1 — triage a bounded issue or coherent fix batch.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. [10G1–10G3](app-migration/verification-evidence/10G3/review.md) are executed for exhaustive internal/shared scope: no new product finding; T06 stays open for twelve exact unavailable-signal target URI/recovery cases in 10K. [10H1–10H3](app-migration/verification-evidence/10H3/review.md) are executed for available compiled/shared scope: all 128 state transitions, 60-node reading edges and eighteen accepted transient contracts pass, with four future-store contracts conditional. A real sign-catalogue return fails (DEF-10H-001/P1); T07 remains open for bounded 10L repair/retest and fresh 10K target navigation/focus/modal/relaunch evidence. All 110 prepared T07 cases have scoped dispositions. [10I1–10I3](app-migration/verification-evidence/10I3/review.md) are executed for exhaustive available compiled/shared/document-review scope: all 115 routes, 91 documents/1,316 body blocks, fifty deliberate reveals, 288 search/filter cases and all three coverage gaps/briefs pass. No new product finding; all 139 prepared T08 data cases have scoped dispositions. T08 remains open for fresh 10K target delivery, font/theme, visible rendering and interaction checks. [10J1–10J3](app-migration/verification-evidence/10J3/review.md) are executed for available approval/shared-copy/fidelity scope: seventeen approved boards map to 38 states; 96 fresh shared captures and 3,563 observed surfaces support six final distinct JVM methods and 54 preservation checks. Six new fidelity findings bring the open product total to eighteen. T09 remains open for these repairs, inherited source classifications and remaining detailed/fresh 10K target comparisons. [10K1–10K7](app-migration/verification-evidence/10K7/review.md) have now executed for available configured scope: common checks pass; required native/shared/browser failures and incomplete runtime matrices keep T10 and step 10 open. Nineteen product findings remain open, including the new browser selection-state finding. The source/runtime fingerprint, accepted content and historical receipts remain unchanged. No 10L fix or 10M closure has executed.
 
 ## Content principle
 
