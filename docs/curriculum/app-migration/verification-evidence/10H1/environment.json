@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-21",
+  "entry_commit": "0023ca5",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "scope": "Compiled production model and shared Compose scene1000x1800, default light/font1; source focus tests800x1600 and library800x1800 as recorded in unchanged test source. No actual OS/browser delivery inferred.",
+  "tests": [
+    {
+      "receipt": "TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "name": "se.korkort.LearningViewsSemanticsTest",
+      "tests": "3",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:39:41.096Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.ReadingSignReturn10HTest.xml",
+      "name": "se.korkort.ReadingSignReturn10HTest",
+      "tests": "1",
+      "failures": "1",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:46:00.002Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.Transitions10HTest.xml",
+      "name": "se.korkort.Transitions10HTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:39:44.880Z"
+    }
+  ],
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Proof10H.class",
+      "sha256": "652f0dc25f6aa71723498fd34659822dde23dc3036ed94e31a82c35422960d83"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ReadingSignReturn10HTest.class",
+      "sha256": "7e1a509ef5fd8c40cb1a0c26b8e5bb0d1c1a2a90f39e100be7bcf0cb5a01e836"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/RecoveryHarness10H.class",
+      "sha256": "d92aa8214c6782b6f9296eedaf6d639dc860f0a599595f57664db256300cf656"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Transitions10HTest.class",
+      "sha256": "953557251fb81c2f224b7208ed2e0041f5f34b62cf050eedb0c1265ce0b7c0ce"
+    }
+  ]
+}
