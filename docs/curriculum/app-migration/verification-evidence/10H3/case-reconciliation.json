@@ -1,0 +1,1250 @@
+{
+  "gate": "T07",
+  "status": "open",
+  "prepared_cases": [
+    {
+      "case_id": "T07-navigation_routes-0",
+      "subject": "0",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/0",
+        "record_sha256": "c8e131b5c23d069211f80e0bd82c1d104d9b5c662f9ea2457c43e28cff2f781b"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-1",
+      "subject": "1",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/1",
+        "record_sha256": "1fbd602ad51e3849f48c6419ea7eafde067c21d0b75db406ce239df1230bb718"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-2",
+      "subject": "2",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/2",
+        "record_sha256": "df88378c0c4c1676d1fbddb8f2fa2fd16a0c5f598d63d89106ff222287a5096e"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-3",
+      "subject": "3",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/3",
+        "record_sha256": "ceb905f0accd934ec466af5a605fa3b85d5302635ba1e5d2e76a4203698bdd11"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-4",
+      "subject": "4",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/4",
+        "record_sha256": "be0de6c876358db79c624e415d664dd3a51a0c96154778caceec4938678dc62b"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-5",
+      "subject": "5",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/5",
+        "record_sha256": "c439935c30e42f5552f08784eb61d623acf3f8ed797009b123a01f2b120a173c"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-6",
+      "subject": "6",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/6",
+        "record_sha256": "fcfb808a7d24df6b3b6e7e40728c1a053602358a6dafe1536a78fba627ad8f26"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-navigation_routes-7",
+      "subject": "7",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/navigation_routes/7",
+        "record_sha256": "c726070a4da4e27d679ec458ca453f6210e3927ff704d5b47efa16e53a621a2b"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-0",
+      "subject": "App.navigate / all direct page assignments",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/0",
+        "record_sha256": "94b0df6ac5f6188b93b2034f5e910e7983e0c5a9cdec0c23414f7d62ccaa1e46"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-1",
+      "subject": "App.readPage / QuestionCard onRead",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/1",
+        "record_sha256": "170eed5864739d6157714f667aff84aac9324377a7d8db6ea73ba40516f81c0d"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-2",
+      "subject": "App library item keys/category/search",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/2",
+        "record_sha256": "0592e4074a71ecb7e6b4b8a260b12c59c85dcdb06b55178059bfa4d37d8a6095"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-3",
+      "subject": "Reader previous/next and chapter-title signs shortcut",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/3",
+        "record_sha256": "45abff74bffe198b45c4ebc25d97386a64ad0b3834532ef9d820eda07c1fb121"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-4",
+      "subject": "QuestionCard source attribution / SourceFooter",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/4",
+        "record_sha256": "f33e695e2982c6e8a41107233a3c39e172840397dc5bab96bfd86716df99713b"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-5",
+      "subject": "SourceLink / LocalUriHandler",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/5",
+        "record_sha256": "d586f8a47cfeaa4bb212e0d56e5afbc8e2be8f17299bc100aa6850ec6bb0b721"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-6",
+      "subject": "SignCard / roadSigns",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/6",
+        "record_sha256": "cfd569bbce823cfb7c49b027ac1785912a419e82c7ad922d9a48b37f08d92d5e"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-7",
+      "subject": "QuizEngine.select / Category allocation",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/7",
+        "record_sha256": "b3bca1fb0b73a8d75c5b47194041d6750c1a427052778f87ec97f2d9e5dec4f5"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-8",
+      "subject": "QuizSession / results / answer review",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/8",
+        "record_sha256": "5d5f7a1631c7ebfe34b1e34d6ad0094cda979616f224307ce8a08ad0c4d6ef47"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-9",
+      "subject": "ResourceImage / Compose resources",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/9",
+        "record_sha256": "3cbbfbac6a0515b14450b61d6a39427572412e2314f4b9e3414dbf208e127a62"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-10",
+      "subject": "Bank.kt / tools/build_content.py / Topic.page",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/10",
+        "record_sha256": "4e6bef130b74ac15d107daa92f712dd2af3c9862c12620a0c04193514ec41f2f"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-entry_point_rules-11",
+      "subject": "Android MainActivity, iOS MainViewController, web main",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/entry_point_rules/11",
+        "record_sha256": "4631d4830f22cf87c8998375e5c56768dc24b606a08fef1ba00dd8a5fa767af7"
+      },
+      "status": "audited_shared_scope_gate_open",
+      "evidence": "../10H1/results.json",
+      "remaining": "DEF-10H-001 and/or fresh10K target observations; do not infer gate closure."
+    },
+    {
+      "case_id": "T07-state_contracts-0",
+      "subject": "App.page",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/0",
+        "record_sha256": "b55d9ed3f7170ee0d5dcfac495d5e8abf0348674f647237976c596fb412c9b95"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-1",
+      "subject": "App.countText",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/1",
+        "record_sha256": "d7f00a4fac8c481683ddf05368dd3de8d1d31618fbda2e84a2cffe5472e3f5e1"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-2",
+      "subject": "App.feedback",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/2",
+        "record_sha256": "778eb9b2adb0bf95c47c58f38cb270463d2d6cc9047f3889de3cc3e186f246f6"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-3",
+      "subject": "App.session",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/3",
+        "record_sha256": "8befd5b5aa2eca12fa86bba8e9d3db423b717a1e0ee8d0581314d981564eb802"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-4",
+      "subject": "App.chapter",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/4",
+        "record_sha256": "b28ca91e7586b8ebd5e27473b6e8ce8db51ef58fcca3000017e943d3e856ff87"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-5",
+      "subject": "App.category",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/5",
+        "record_sha256": "5ec0986ab8fdac6d996fb5b77516a532f9d5b22595f4c55f67c7f48f268e59d6"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-6",
+      "subject": "App.search",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/6",
+        "record_sha256": "b173b2adf811edfe805a97e51ff12203668b52d706b1c3b0b413868cf73c253a"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-7",
+      "subject": "App.reviewFilter",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/7",
+        "record_sha256": "b5e3d6861ec58afd08e45be6005c06ce6b716f8101b79ba4b3c1b26e87886ab2"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-8",
+      "subject": "App.quitTarget",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/8",
+        "record_sha256": "95d1a47bf1cfc48b452ccfb366a87712b8c652e31d02f8da0dfb9050f421160e"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-9",
+      "subject": "QuestionCard.selected",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/9",
+        "record_sha256": "86ccbb8b66d359a8c76303384603048f74b7bed6e9198b49c9d88bb1021f05e8"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-10",
+      "subject": "Review.open",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/10",
+        "record_sha256": "9408fb3bb300e7a6ca8f5ce3f8739a24bba3d98f119ee78ec82be34e1edad644"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-11",
+      "subject": "QuizSession.questions",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/11",
+        "record_sha256": "82fab8a73fedd7919a614b1688ea49db7ff38c1ef7f708148799a285a1c32173"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-12",
+      "subject": "QuizSession.feedback",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/12",
+        "record_sha256": "e44e23a5e25f073db3257492127cc2067da552bbdda05acb2a9f5073ba749a3d"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-13",
+      "subject": "QuizSession.answers",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/13",
+        "record_sha256": "4ad946df24037d6f5e394924614e889ca36d7962000080d3275b2d4f54d7926f"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-14",
+      "subject": "QuizSession.index",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/14",
+        "record_sha256": "4cd4e8b8a4a7bee74e48e3f1136ee79c4c3857479f5d53a15e6f5fa5c18b764a"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-15",
+      "subject": "QuizSession.finished",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/15",
+        "record_sha256": "b37c333268b5350e2fea5b75b84add9a23d46e897403e9593475913b674ec703"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-16",
+      "subject": "QuizSession.current",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/16",
+        "record_sha256": "6df453d47b4dc732e7eb2bc89223d4d599ff779d7fb7b5ad11609887d25069d9"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-17",
+      "subject": "QuizSession.score",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/17",
+        "record_sha256": "b8a7e31279e95950110d799f8a8e8ff2a5db82acea3f8b1a71e54b818d1b4275"
+      },
+      "status": "pass_accepted_model_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-18",
+      "subject": "bookmarks",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/18",
+        "record_sha256": "709c05c2be2814bd61859891696aa0dae73c92bad912c814a3c596a4e94da4a3"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-19",
+      "subject": "completed_lessons",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/19",
+        "record_sha256": "704d70784f6cb7a0912d151fdced8f3c98b0aa9d6e598227246f7c07738b9ae0"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-20",
+      "subject": "question_history",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/20",
+        "record_sha256": "7d299f01bf167d8bfc2cd151692526a9ccbfe43f6e63994df4ed99935ce9ecfe"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-state_contracts-21",
+      "subject": "persistent_storage_schema",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/state_rules/21",
+        "record_sha256": "1a6b4ee873f87c282bb4e15948b6087d93340c9ba3941dee3321840a0d4eb02b"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json"
+    },
+    {
+      "case_id": "T07-version_transition-initial_update",
+      "subject": "Existing app bundles content at compile time; normal restart clears remember/QuizSession state. No durable records are lost or converted by this migration because none exist in audited source.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/initial_update",
+        "record_sha256": "1a495d5df8ef3933f0feaa6cb4dbc7dc14ac8ab86325b0543784570f93c88a54"
+      },
+      "status": "checked_existing_accepted_identity",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-same_process_policy",
+      "subject": "If content replacement is later supported, switch packages atomically at a safe idle boundary. Pin an active/completed session’s full original snapshot until finish/quit/review; do not hot-swap its bank or implicitly discard unfinished answers.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/same_process_policy",
+        "record_sha256": "f1e89135fdc9f61a507a65ac0dec7d3522ad72458d66200bd1c9261e696d4e98"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-package_identity",
+      "subject": "Immutable app-content version binds curriculum release, accepted question revisions, assets, aliases and sources through a manifest digest. The unchanged approved PDF hash alone does not identify a revised app question bank.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/package_identity",
+        "record_sha256": "aa6a02ec20402d3b2c254ca95d52b79206b5ff9a4f9d2304eac9e24bd145b32d"
+      },
+      "status": "checked_existing_accepted_identity",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-cross_version_reading",
+      "subject": "Keep original feedback/score in historical review. If opening newer teaching, state that learning material changed since the attempt; do not present an old result as a current assessment.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/cross_version_reading",
+        "record_sha256": "2ba3e2fcdbecc076767046a6d2807a24efa8f508389e27faf8d11a6352630ec3"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-new_package_manifest",
+      "subject": "['content_version', 'package_manifest_sha256', 'source_curriculum_version', 'source_release_sha256', 'schema_version', 'question_id + semantic_revision', 'stable authored option_id per question revision', 'active/accepted question IDs', 'canonical content/asset/source bindings', 'explicit aliases/tombstones']",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/new_package_manifest",
+        "record_sha256": "da7bc3c01d0ffc0c4eba73624f77abec8ddbccd9491cf8e9fcd6532d52876b98"
+      },
+      "status": "checked_existing_accepted_identity",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-question_history_compatibility",
+      "subject": "question_history_compatibility",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/question_history_compatibility",
+        "record_sha256": "7f256ca45b6abc808f02fb4ab3f3aae239852afa4f53649aa931d4a96d77ecab"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-unversioned_or_orderless_answers",
+      "subject": "Do not regrade or reinterpret. Mark unsupported legacy evidence if a separately audited import ever provides it; never assume selected index 0 was the correct canonical option.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/unversioned_or_orderless_answers",
+        "record_sha256": "9f50c3eadd2a7c971c755f61df22bdb9ae1fdb8dc015fd59c7bec328a103f289"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-version_transition-future_bookmark_completion_scope",
+      "subject": "Conditional compatibility rules above do not create a bookmark/completion/history store or authorise new persistence.",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/version_transition/future_bookmark_completion_scope",
+        "record_sha256": "c3670f6062cc06f7981031544cfb65e554fef2a8fee90dcb5b6a21247d150fdd"
+      },
+      "status": "conditional_future_scope",
+      "evidence": "state-contract-results.json",
+      "basis": "Initial restart is model/shared scope; future hot replacement/history/import is absent and remains conditional. Invalid-identity gate DEF-10F-001 stays open."
+    },
+    {
+      "case_id": "T07-EDGE-01",
+      "subject": "M01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/0",
+        "record_sha256": "649bd2578548534126d14dff7866cd995498f20bbef2162d14906982c9aaecd2"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-02",
+      "subject": "M01-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/1",
+        "record_sha256": "463eb88a101ff322fb01b840814c2bc8e65fb47760678097c225710d3bc7ad6f"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-03",
+      "subject": "M01-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/2",
+        "record_sha256": "2f21b333a187f174d30a48c681427b5e855769133483cc7c13a331ab35b2860d"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-04",
+      "subject": "M01-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/3",
+        "record_sha256": "bd1dab7ead6b2baa65700e279e85a9af9aa0b80e432c3cb93c9b907927462a57"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-05",
+      "subject": "M01-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/4",
+        "record_sha256": "0e6293acb27c5d917516bc66fcdffe2aa8194f7123d99357e4474e9fb89c0a43"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-06",
+      "subject": "M01-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/5",
+        "record_sha256": "5843c90b33b57af31be0ad34a89e8aa98da79cce394b9167d9a0fb63a0a4197c"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-07",
+      "subject": "M02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/6",
+        "record_sha256": "587a185f9a2a8b18630de9360d420adb6deca1b28e0d62bd9f53b11b143d17d9"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-08",
+      "subject": "M02-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/7",
+        "record_sha256": "a27b2c6a0a2f5525c488c03eff0cb385fa3c107a89f3bcbb67d52366eba7efdc"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-09",
+      "subject": "M02-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/8",
+        "record_sha256": "11870e7e1888ae1f483a7357e828ce212637ce8ec46e56a11a93469a788c4045"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-10",
+      "subject": "M02-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/9",
+        "record_sha256": "04887a8ea0759cd951ca4a31df41bde463b4dc709aa6f7aedc941e6524de4ef8"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-11",
+      "subject": "M02-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/10",
+        "record_sha256": "3dea3e2fb3411a5cf190798bd5be8a1f7979aa539f75b35897e53e516526d63e"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-12",
+      "subject": "M02-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/11",
+        "record_sha256": "339daff513dad3b4ca1486bae15000b69dca8ce6a23da0111576cb5edb8d6eb0"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-13",
+      "subject": "M03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/12",
+        "record_sha256": "88fd9f93674e83e987bb670935dd82b2a07c491aa08194241e84797eeff77413"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-14",
+      "subject": "M03-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/13",
+        "record_sha256": "46ee79badfed235dfbb3468fb09f4d9188ab9b2362c72232f96cd4ea58179d33"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-15",
+      "subject": "M03-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/14",
+        "record_sha256": "f0b92f44494ed746441a494fc265c12869e639075af844ac6f0360234c29b59b"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-16",
+      "subject": "M03-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/15",
+        "record_sha256": "663af77983ebffd37907c7f1985723b1b99c611176f32d156d8f97e9b2ef994c"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-17",
+      "subject": "M03-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/16",
+        "record_sha256": "4e088d906d97cd1aa8522fd5c455344f607a1279c5d8c0648619d9fb8f7be0ef"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-18",
+      "subject": "M03-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/17",
+        "record_sha256": "f3a32a764c63e132b1304a82b64b280339b28a9fb1246602e8400cabeb385818"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-19",
+      "subject": "M04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/18",
+        "record_sha256": "ba2d2f21dc9268f378c7cc15c1d85a44718592eee92ca1537276715d7613be1f"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-20",
+      "subject": "M04-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/19",
+        "record_sha256": "0eb76b2241fef8be9c58a29b57c498f88068ef183d35ff47e23efc93e03b6937"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-21",
+      "subject": "M04-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/20",
+        "record_sha256": "1460ac1fb9cf38d218d48a597376b534800c3fffe25ac986a506c95938a096a0"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-22",
+      "subject": "M04-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/21",
+        "record_sha256": "0f5ab3cd851550899b76a940d4ee0b1127975d58fd42e3f497013ea0a4e7772e"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-23",
+      "subject": "M04-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/22",
+        "record_sha256": "5249b0043d7f169fdc21969b0570fb32270821c8279463d4f444290bdfd7d9b9"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-24",
+      "subject": "M04-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/23",
+        "record_sha256": "7c492ed87a15c38d02620a3183a8dca9ddd5c4c0dc7601501a9271f6a43032c5"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-25",
+      "subject": "M05",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/24",
+        "record_sha256": "520897c7d74550e1dafc84259f6f05e2bd8ed90257210367b3b624dc844c0ca4"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-26",
+      "subject": "M05-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/25",
+        "record_sha256": "cfd7c020c67f802e7a0cdd9810bdf4312f2b9fefdf124267937917686a2026e3"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-27",
+      "subject": "M05-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/26",
+        "record_sha256": "b82573fe7b220cc436ffc6342ae744c3067c94c4895b4cb3d9864c554ace6cff"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-28",
+      "subject": "M05-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/27",
+        "record_sha256": "89b6398e2b665a19cc08f1ab4195f3f62c3f9dce9fb77b2e0eca2c137c5d19b6"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-29",
+      "subject": "M05-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/28",
+        "record_sha256": "0b098e38422391bbd33625066deaaf2296a3b0bc61c908d7caa2cb15f0622432"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-30",
+      "subject": "M05-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/29",
+        "record_sha256": "e0c6bc56603c170776f2a37cf85043244f949b6a0083034e44b4144941cf16b8"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-31",
+      "subject": "M06",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/30",
+        "record_sha256": "86db523785dcff82f764160910fdea22ad1af822e8cbb5fbe0fc797f62147509"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-32",
+      "subject": "M06-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/31",
+        "record_sha256": "dcb0e35cf749fc171565b20cc59d42a31d3fccc6d084cd10d6eb88c2b26c3416"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-33",
+      "subject": "M06-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/32",
+        "record_sha256": "880ac4b34b9207e2c5d9bb6add6db82dd74a618ebba5d02021f981c3fd29b5b3"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-34",
+      "subject": "M06-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/33",
+        "record_sha256": "b5fcb438b8258260939c1beaff2ea62eb594cf310f5c773ec42d09da92b47c02"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-35",
+      "subject": "M06-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/34",
+        "record_sha256": "f8e92483a92cc15340ae9af196f7aff571fca8110315a11bf710fb8313a810cf"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-36",
+      "subject": "M06-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/35",
+        "record_sha256": "2196f317ec50df937b33af68387b4929b86426b702aa643adbd9ddfe99c8089d"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-37",
+      "subject": "M07",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/36",
+        "record_sha256": "2fef32262c0fd976b4759c24f975aca3dbe333d877476e9c4e6180b6437261ff"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-38",
+      "subject": "M07-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/37",
+        "record_sha256": "aa8ca75ccb13a5388a5c567d778b269fe175d14e1a98751d6cfbee2d7d992c11"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-39",
+      "subject": "M07-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/38",
+        "record_sha256": "31f144a42477eb881547efb1e667cdd9492a3e96197fde5eb728ce792e26c026"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-40",
+      "subject": "M07-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/39",
+        "record_sha256": "8b3dd1518abea39f6e20424405712ed07b5ff433011d403ad742eef76aa75eef"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-41",
+      "subject": "M07-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/40",
+        "record_sha256": "8cfb591804c3be6de0b5aa03e107a26f14868f0e52f0e705aaba372699d729ea"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-42",
+      "subject": "M07-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/41",
+        "record_sha256": "103b770c05d430cc4622f739795d0bee971b464397beaf70966c49c55ea8436a"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-43",
+      "subject": "M08",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/42",
+        "record_sha256": "ec55d2f96b52c9167a98bf8d71f6ea77f1b028b29fd67d818d5fb6c1299a8616"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-44",
+      "subject": "M08-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/43",
+        "record_sha256": "97cccc16345f00b0bc3ddfe9c95ab7e247ed28ac50fa2b725de91243894421b9"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-45",
+      "subject": "M08-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/44",
+        "record_sha256": "ecb00c15ee9a60525c5adc2501c623484280a258a6f798ea208dbc6e35f21cae"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-46",
+      "subject": "M08-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/45",
+        "record_sha256": "32602872ec38c2a731767157bcb92a17c3f96451a836d90c35d6fb8083e5958d"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-47",
+      "subject": "M08-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/46",
+        "record_sha256": "f27403f5d189545b720ccb5ecac68c51d94465ff3f3168dca7d5e7bc2b7fcfd8"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-48",
+      "subject": "M08-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/47",
+        "record_sha256": "6590b740956f9daec25b72cff18ef9fe55d59eec2c2e3dc19b35363d21def287"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-49",
+      "subject": "M09",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/48",
+        "record_sha256": "8b36eb8fe506f43c67bc338b4e6593dbd89c941e2e13877f4c5ea88b2201a5c4"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-50",
+      "subject": "M09-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/49",
+        "record_sha256": "8f67e526b214a4ef4e46eee0fbc1f10a766120cef08d27063b83a9eb30961f72"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-51",
+      "subject": "M09-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/50",
+        "record_sha256": "33efc6d52f28dd7de853222f92aac46a8010f22d67fbd0100a7fbdc52c71b6e6"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-52",
+      "subject": "M09-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/51",
+        "record_sha256": "1c1325b954069dbeaf1d6512f474461227d186c4e803fef19d5f393ab62d838f"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-53",
+      "subject": "M09-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/52",
+        "record_sha256": "58fcf827d63a13501e5aad933f45e4ff5b3198f2b12fc90fbad7573ef7106bf5"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-54",
+      "subject": "M09-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/53",
+        "record_sha256": "a10dbe6c7351bc04a42482d06cc25ef69e627d81dec5151259d157c5b027bd8f"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-55",
+      "subject": "M10",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/54",
+        "record_sha256": "e429ec64b52ba7c6e4d46d2af77c37894bee0098c7b44de2b4077116d0146dfa"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-56",
+      "subject": "M10-L01",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/55",
+        "record_sha256": "f9d1e3ed18cfacddb16ca6b2ab657ab030e3ded0f87c724d4c1b2edf0425d253"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-57",
+      "subject": "M10-L02",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/56",
+        "record_sha256": "baf8af3d51130510087932165498d443b4e412aba4aa756ec6dc9e2653f7d157"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-58",
+      "subject": "M10-L03",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/57",
+        "record_sha256": "81fc30c6b3f49ca2a4c729fc6523efb1a3db7ca642a4068444d21128772352f4"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-59",
+      "subject": "M10-L04",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/58",
+        "record_sha256": "6c888bfe32953231ccba5c4e4a6d0ed662226359188fb7f07dc3796de5e9c2a3"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    },
+    {
+      "case_id": "T07-EDGE-60",
+      "subject": "M10-R",
+      "oracle": {
+        "oracle": "links",
+        "pointer": "/reading_order/59",
+        "record_sha256": "67026b65f8f0ad0de2d78558d20ba9e5aaa9082188fd4c83f1326e448c8662d8"
+      },
+      "status": "pass_frozen_vs_compiled",
+      "evidence": "../10H1/reading-edge-results.json"
+    }
+  ],
+  "totals": {
+    "prepared": 110,
+    "recorded": 110
+  },
+  "production_defect": "DEF-10H-001",
+  "native_gate": "BLOCK-10H-NATIVE"
+}

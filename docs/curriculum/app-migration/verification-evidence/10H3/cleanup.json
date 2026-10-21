@@ -1,0 +1,17 @@
+{
+  "scope": "Uncommitted10H evidence only; production and historical receipts unchanged.",
+  "removed_byte_identical_captures": [
+    {
+      "path": "captures/immediate-3-home.png",
+      "stored_path": "captures/at_end-3-home.png",
+      "bytes": 119772,
+      "sha256": "6f3f7740e6b79bce10ef9191543087f66295951e88880d9dac61e345d5d0e530"
+    }
+  ],
+  "bytes_removed": 119772,
+  "preserved": [
+    "All logical capture paths/hashes through stored_path aliases",
+    "Baseline entry and exit receipts despite equal bytes: separate audit purposes",
+    "Failing product receipt and harness diagnostics: distinct evidence"
+  ]
+}

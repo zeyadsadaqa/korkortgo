@@ -1,0 +1,757 @@
+{
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "contracts": [
+    {
+      "id": "7E-STATE-01",
+      "field": "App.page",
+      "baseline": "in-memory enum",
+      "migration_rule": "Map all eight states through navigation_routes; require valid content/session context. Missing session never recreates old results.",
+      "case_id": "T07-state_contracts-0",
+      "actual": {
+        "type": "quiz_setup"
+      },
+      "checks": [
+        "128 transitions in10H1",
+        "absent result explicit setup without invented session"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-02",
+      "field": "App.countText",
+      "baseline": "in-memory raw text",
+      "migration_rule": "Preserve valid setup preference in the same process; validate 1–70 as today. Fresh launch default remains 70; do not silently turn invalid input into a running test.",
+      "case_id": "T07-state_contracts-1",
+      "actual": {
+        "default": "70",
+        "retained": "3"
+      },
+      "checks": [
+        "valid same-process preference",
+        "all1–70 accepted preflight",
+        "invalid inputs blocked",
+        "fresh70"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-03",
+      "field": "App.feedback",
+      "baseline": "in-memory enum",
+      "migration_rule": "Preserve IMMEDIATE/AT_END preference; active QuizSession.feedback is pinned and does not change with setup edits.",
+      "case_id": "T07-state_contracts-2",
+      "actual": "immediate",
+      "checks": [
+        "both modes",
+        "global edit cannot alter pinned feedback",
+        "fresh immediate"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-04",
+      "field": "App.session",
+      "baseline": "in-memory QuizSession?",
+      "migration_rule": "No durable session exists. Pin the complete versioned snapshot until finish or deliberate quit; normal app restart loses transient state as today.",
+      "case_id": "T07-state_contracts-3",
+      "actual": "b15655a34574fa1d9351061affe78ace8063d9ecf17587795c6d6dde013a4b03",
+      "checks": [
+        "full accepted snapshots pinned until finish",
+        "restart loses transient session"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-05",
+      "field": "App.chapter",
+      "baseline": "in-memory Chapter object",
+      "migration_rule": "Resolve known legacy title/range within the frozen namespace to a canonical ID or topic chooser; never carry the old Chapter object into the new reader.",
+      "case_id": "T07-state_contracts-4",
+      "actual": {
+        "choices": [
+          {
+            "entry": {
+              "blocks": [
+                "M03-L02/illustration/M03-L02",
+                "M03-L02/official-example-M1-1",
+                "M03-L02/official-example-M10-1",
+                "M03-L02/official-example-M11-1",
+                "M03-L02/official-example-M12-1",
+                "M03-L02/official-example-M3-1",
+                "M03-L02/official-example-M8-1",
+                "M03-L02/official-example-M9-1",
+                "M03-L02/official-example-P1-1",
+                "M03-L02/official-example-P2-1",
+                "M03-L02/official-example-S3-1",
+                "M03-L02/official-example-S4-1",
+                "M03-L02/official-example-S8-1",
+                "M03-L02/official-example-SIG1-1",
+                "M03-L02/official-example-SIG10-1",
+                "M03-L02/official-example-SIG11-1",
+                "M03-L02/official-example-SIG12-1",
+                "M03-L02/official-example-SIG13-1",
+                "M03-L02/official-example-SIG14-1",
+                "M03-L02/official-example-SIG2-1",
+                "M03-L02/official-example-SIG3-1",
+                "M03-L02/official-example-SIG4-1",
+                "M03-L02/official-example-SIG5-1",
+                "M03-L02/official-example-SIG8-1",
+                "M03-L02/official-example-SIG9-1",
+                "M03-L02/official-example-T1-1",
+                "M03-L02/official-example-T11-1",
+                "M03-L02/official-example-T11-2-1",
+                "M03-L02/official-example-T12-1",
+                "M03-L02/official-example-T2-1",
+                "M03-L02/official-example-T22-1",
+                "M03-L02/official-example-T3-1",
+                "M03-L02/official-example-T6-1",
+                "M03-L02/official-example-T8-1",
+                "M03-L02/official-example-T8-3-1",
+                "M03-L02/official-example-T8-4-1",
+                "M03-L02/official-example-T8-8-1",
+                "M03-L02/official-example-V1-1",
+                "M03-L02/official-example-V3-1",
+                "M03-L02/production-0001",
+                "M03-L02/production-0002",
+                "M03-L02/production-0003",
+                "M03-L02/production-0004",
+                "M03-L02/production-0005",
+                "M03-L02/production-0006",
+                "M03-L02/production-0007",
+                "M03-L02/production-0008",
+                "M03-L02/production-0009",
+                "M03-L02/production-0010",
+                "M03-L02/production-0011",
+                "M03-L02/production-0012",
+                "M03-L02/production-0013",
+                "M03-L02/production-0014",
+                "M03-L02/production-0015",
+                "M03-L02/production-0016",
+                "M03-L02/production-0017",
+                "M03-L02/production-0018",
+                "M03-L02/production-0019",
+                "M03-L02/teaching-001",
+                "M03-L02/teaching-002",
+                "M03-L02/teaching-003",
+                "M03-L02/teaching-004",
+                "M03-L02/teaching-005",
+                "M03-L02/teaching-006",
+                "M03-L02/teaching-007",
+                "M03-L02/teaching-007/text",
+                "M03-L02/teaching-008",
+                "M03-L02/teaching-008/answer",
+                "M03-L02/teaching-008/answer/text",
+                "M03-L02/teaching-008/prompt",
+                "M03-L02/teaching-009"
+              ],
+              "id": "M03-L02",
+              "kind": "curriculum",
+              "title": "Combine the instructions"
+            },
+            "notice": null,
+            "target": {
+              "block_id": null,
+              "content_id": "M03-L02"
+            },
+            "type": "found"
+          },
+          {
+            "entry": {
+              "blocks": [
+                "M03-L04/illustration/M03-L04",
+                "M03-L04/official-example-C31-1",
+                "M03-L04/official-example-C31-11-1",
+                "M03-L04/official-example-C31-12-1",
+                "M03-L04/official-example-C31-4-1",
+                "M03-L04/official-example-C31-5-1",
+                "M03-L04/official-example-C31-7-1",
+                "M03-L04/official-example-C31-8-1",
+                "M03-L04/official-example-C32-1",
+                "M03-L04/official-example-E11-1",
+                "M03-L04/official-example-E12-1",
+                "M03-L04/official-example-E13-1",
+                "M03-L04/official-example-E14-1",
+                "M03-L04/official-example-E5-1",
+                "M03-L04/official-example-E6-1",
+                "M03-L04/production-0001",
+                "M03-L04/production-0002",
+                "M03-L04/production-0003",
+                "M03-L04/production-0004",
+                "M03-L04/production-0005",
+                "M03-L04/production-0006",
+                "M03-L04/production-0007",
+                "M03-L04/production-0008",
+                "M03-L04/production-0009",
+                "M03-L04/production-0010",
+                "M03-L04/teaching-001",
+                "M03-L04/teaching-002",
+                "M03-L04/teaching-003",
+                "M03-L04/teaching-004",
+                "M03-L04/teaching-005",
+                "M03-L04/teaching-006",
+                "M03-L04/teaching-007",
+                "M03-L04/teaching-008",
+                "M03-L04/teaching-009",
+                "M03-L04/teaching-010",
+                "M03-L04/teaching-011",
+                "M03-L04/teaching-012",
+                "M03-L04/teaching-013",
+                "M03-L04/teaching-014",
+                "M03-L04/teaching-015",
+                "M03-L04/teaching-016",
+                "M03-L04/teaching-017",
+                "M03-L04/teaching-018",
+                "M03-L04/teaching-018/text",
+                "M03-L04/teaching-019",
+                "M03-L04/teaching-020",
+                "M03-L04/teaching-021",
+                "M03-L04/teaching-022",
+                "M03-L04/teaching-023",
+                "M03-L04/teaching-024",
+                "M03-L04/teaching-024/text",
+                "M03-L04/teaching-025",
+                "M03-L04/teaching-025/answer",
+                "M03-L04/teaching-025/answer/text",
+                "M03-L04/teaching-025/prompt",
+                "M03-L04/teaching-026"
+              ],
+              "id": "M03-L04",
+              "kind": "curriculum",
+              "title": "Leave room to respond"
+            },
+            "notice": null,
+            "target": {
+              "block_id": null,
+              "content_id": "M03-L04"
+            },
+            "type": "found"
+          },
+          {
+            "entry": {
+              "blocks": [
+                "M05-L01/illustration/M05-L01",
+                "M05-L01/official-example-A14-1",
+                "M05-L01/official-example-A15-1",
+                "M05-L01/official-example-A16-1",
+                "M05-L01/official-example-A18-1",
+                "M05-L01/official-example-C31-4-1",
+                "M05-L01/official-example-E22-1",
+                "M05-L01/official-example-T10-1",
+                "M05-L01/official-example-T9-1",
+                "M05-L01/production-0001",
+                "M05-L01/production-0002",
+                "M05-L01/production-0003",
+                "M05-L01/production-0004",
+                "M05-L01/production-0005",
+                "M05-L01/production-0006",
+                "M05-L01/production-0007",
+                "M05-L01/production-0008",
+                "M05-L01/production-0009",
+                "M05-L01/teaching-001",
+                "M05-L01/teaching-002",
+                "M05-L01/teaching-003",
+                "M05-L01/teaching-004",
+                "M05-L01/teaching-005",
+                "M05-L01/teaching-006",
+                "M05-L01/teaching-007",
+                "M05-L01/teaching-008",
+                "M05-L01/teaching-009",
+                "M05-L01/teaching-010",
+                "M05-L01/teaching-010/text",
+                "M05-L01/teaching-011",
+                "M05-L01/teaching-011/answer",
+                "M05-L01/teaching-011/answer/text",
+                "M05-L01/teaching-011/prompt",
+                "M05-L01/teaching-012"
+              ],
+              "id": "M05-L01",
+              "kind": "curriculum",
+              "title": "See the person behind the movement"
+            },
+            "notice": null,
+            "target": {
+              "block_id": null,
+              "content_id": "M05-L01"
+            },
+            "type": "found"
+          }
+        ],
+        "notice": "The material was reorganised. Choose related teaching.",
+        "type": "choices"
+      },
+      "checks": [
+        "known frozen title canonical resolution",
+        "10G1 exhaustive39chapter mappings"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-06",
+      "field": "App.category",
+      "baseline": "in-memory Category?",
+      "migration_rule": "Retain the five enum values; null remains All. Unknown values reset to All with no inferred module conversion.",
+      "case_id": "T07-state_contracts-5",
+      "actual": [
+        "vehicle",
+        "environment",
+        "safety",
+        "rules",
+        "personal"
+      ],
+      "checks": [
+        "allfive category enums",
+        "unknown resetsAll only"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-07",
+      "field": "App.search",
+      "baseline": "in-memory string",
+      "migration_rule": "Preserve a transient query when staying in the library; re-run against canonical content/tags. Optional legacy-title lookup returns canonical choices only. Fresh launch empty.",
+      "case_id": "T07-state_contracts-6",
+      "actual": {
+        "category": "rules",
+        "query": "yield"
+      },
+      "checks": [
+        "query/category through navigation",
+        "restartempty",
+        "fresh shared library route in10H1"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-08",
+      "field": "App.reviewFilter",
+      "baseline": "in-memory string",
+      "migration_rule": "Retain All/Incorrect/Correct for the same pinned session. New/missing session resets to All; filter snapshot correctness, not revised current keys.",
+      "case_id": "T07-state_contracts-7",
+      "actual": {
+        "expanded": [
+          {
+            "question_id": "sign-meaning-C26",
+            "revision": "rewrite-r2"
+          }
+        ],
+        "filter": "correct",
+        "row": 1,
+        "session_id": "practice-1"
+      },
+      "checks": [
+        "snapshot correctness filter",
+        "row1 maps snapshot2",
+        "teaching roundtrip"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-09",
+      "field": "App.quitTarget",
+      "baseline": "in-memory Page?",
+      "migration_rule": "Validate the pending destination; dismiss keeps the session, confirm discards it and navigates atomically. Reset pending target on content/session replacement.",
+      "case_id": "T07-state_contracts-8",
+      "actual": {
+        "current": {
+          "type": "library"
+        },
+        "notice": null,
+        "pending": null,
+        "pending_notice": null,
+        "pending_session": null,
+        "return_context": null,
+        "session": null,
+        "source_to_open": null
+      },
+      "checks": [
+        "cancel exact equality",
+        "discard intended state only",
+        "stale pending rejection10H2"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-10",
+      "field": "QuestionCard.selected",
+      "baseline": "remember(question.id), unconfirmed shuffled option index",
+      "migration_rule": "Keep only for the same session, question revision and shuffle snapshot. Change identity to include session/revision. Never reinterpret the index against newly ordered options.",
+      "case_id": "T07-state_contracts-9",
+      "actual": "two feedback runs ×three accepted questions",
+      "checks": [
+        "same token only",
+        "wrong session/revision/package/order rejected",
+        "next draft cleared",
+        "production guard fresh10H2"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-11",
+      "field": "Review.open",
+      "baseline": "remember(question.id), expansion state",
+      "migration_rule": "Retain only within the same session/revision; reset on new session/content revision.",
+      "case_id": "T07-state_contracts-10",
+      "actual": {
+        "new": "practice-2",
+        "old": "practice-1"
+      },
+      "checks": [
+        "same session expansion retained",
+        "deliberate new attempt expansion resets"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-12",
+      "field": "QuizSession.questions",
+      "baseline": "in-memory shuffled List<Question>",
+      "migration_rule": "Keep original prompt, options/order, correct key, explanations, question revisions and package identity as the session snapshot.",
+      "case_id": "T07-state_contracts-11",
+      "actual": "b15655a34574fa1d9351061affe78ace8063d9ecf17587795c6d6dde013a4b03",
+      "checks": [
+        "complete accepted authored payloads exact",
+        "displayed option order and package pinned"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-13",
+      "field": "QuizSession.feedback",
+      "baseline": "in-memory Feedback",
+      "migration_rule": "Pinned at session creation; independent of later global setup preference.",
+      "case_id": "T07-state_contracts-12",
+      "actual": "at_end",
+      "checks": [
+        "both feedback modes pinned independent of setup preference"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-14",
+      "field": "QuizSession.answers",
+      "baseline": "in-memory Map<question_id, shuffled option index>",
+      "migration_rule": "Evaluate only against that session’s exact shuffled question. No mapping from a stored index to current-bank index is valid without the original order.",
+      "case_id": "T07-state_contracts-13",
+      "actual": [
+        {
+          "question": {
+            "question_id": "situation-111",
+            "revision": "legacy-r1"
+          },
+          "selected_option_id": "situation-111-option-1"
+        },
+        {
+          "question": {
+            "question_id": "sign-recognise-C33",
+            "revision": "rewrite-r2"
+          },
+          "selected_option_id": "sign-recognise-C33-option-4"
+        },
+        {
+          "question": {
+            "question_id": "sign-meaning-C26",
+            "revision": "rewrite-r2"
+          },
+          "selected_option_id": "sign-meaning-C26-option-1"
+        }
+      ],
+      "checks": [
+        "authored option identities from pinned displayed order",
+        "no reinterpretation by current bank index"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-15",
+      "field": "QuizSession.index",
+      "baseline": "in-memory integer",
+      "migration_rule": "Keep for same snapshot and bounds; never use as curriculum progress or question identity.",
+      "case_id": "T07-state_contracts-14",
+      "actual": 2,
+      "checks": [
+        "index0/1/2 bounded to same snapshot",
+        "review maps filtered row to snapshot index"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-16",
+      "field": "QuizSession.finished",
+      "baseline": "in-memory boolean",
+      "migration_rule": "Keep with same session; do not infer finished from route or from importing content.",
+      "case_id": "T07-state_contracts-15",
+      "actual": true,
+      "checks": [
+        "finished only after final answer/advance",
+        "new attempt unfinished"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-17",
+      "field": "QuizSession.current",
+      "baseline": "derived property",
+      "migration_rule": "Derive from the pinned questions/index; if context is missing, route explicitly to setup rather than fabricating a question.",
+      "case_id": "T07-state_contracts-16",
+      "actual": {
+        "displayed_option_ids": [
+          "situation-111-option-4",
+          "situation-111-option-1",
+          "situation-111-option-3",
+          "situation-111-option-2"
+        ],
+        "key": {
+          "question_id": "situation-111",
+          "revision": "legacy-r1"
+        },
+        "package_identity": {
+          "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+          "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+        },
+        "session_id": "practice-2"
+      },
+      "checks": [
+        "current from pinned snapshot/index",
+        "missing explicit setup noautostart"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-18",
+      "field": "QuizSession.score",
+      "baseline": "derived property",
+      "migration_rule": "Compute only with pinned answers and keys; never rescore a historical snapshot using revised bank content.",
+      "case_id": "T07-state_contracts-17",
+      "actual": 2,
+      "checks": [
+        "score2/3 only pinned answers/keys",
+        "uninstalled synthetic current-bank revisions cannot mutate pinned snapshot",
+        "no history imported"
+      ],
+      "status": "pass_accepted_model_scope",
+      "scope": "Fresh accepted-bank compiled transient model; shared production UI is supplemental, native relaunch remains10K."
+    },
+    {
+      "id": "7E-STATE-19",
+      "field": "bookmarks",
+      "baseline": "no implementation found",
+      "migration_rule": "No records to convert or create in this migration. If a future separately authorised store exists, exact canonical ID/block aliases may preserve a bookmark; removed block falls back to its known parent with notice, removed content stays unavailable/tombstoned.",
+      "case_id": "T07-state_contracts-18",
+      "status": "conditional_future_scope",
+      "basis": "No existing records or store/schema in audited baseline. No persistence/import/hot replacement is authorised or implemented by this verification.",
+      "tests": [],
+      "automatic_progress_or_mastery": false
+    },
+    {
+      "id": "7E-STATE-20",
+      "field": "completed_lessons",
+      "baseline": "no implementation found",
+      "migration_rule": "No completion data to convert. Future records require content version plus lesson semantic revision; unchanged lessons may keep credit, changed/split/merged lessons need explicit compatibility review. Old chapter/page coverage never awards new lesson completion.",
+      "case_id": "T07-state_contracts-19",
+      "status": "conditional_future_scope",
+      "basis": "No existing records or store/schema in audited baseline. No persistence/import/hot replacement is authorised or implemented by this verification.",
+      "tests": [],
+      "automatic_progress_or_mastery": false
+    },
+    {
+      "id": "7E-STATE-21",
+      "field": "question_history",
+      "baseline": "no implementation found",
+      "migration_rule": "No history dataset to migrate. Future history needs question ID/revision, option identity/order and original score snapshot. Preserve old outcomes as historical; rewrite/replace does not automatically transfer current mastery.",
+      "case_id": "T07-state_contracts-20",
+      "status": "conditional_future_scope",
+      "basis": "No existing records or store/schema in audited baseline. No persistence/import/hot replacement is authorised or implemented by this verification.",
+      "tests": [],
+      "automatic_progress_or_mastery": false
+    },
+    {
+      "id": "7E-STATE-22",
+      "field": "persistent_storage_schema",
+      "baseline": "no implementation/dependency found",
+      "migration_rule": "No schema migration, new database or cloud sync is authorised by 7E. Unknown imported storage is unsupported until separately audited; do not invent progress or infer it from chapter/page references.",
+      "case_id": "T07-state_contracts-21",
+      "status": "conditional_future_scope",
+      "basis": "No existing records or store/schema in audited baseline. No persistence/import/hot replacement is authorised or implemented by this verification.",
+      "tests": [],
+      "automatic_progress_or_mastery": false
+    }
+  ],
+  "totals": {
+    "recorded": 22,
+    "current_transient_passed": 18,
+    "future_conditional": 4
+  },
+  "defaults": {
+    "count_text": "70",
+    "feedback": "immediate"
+  },
+  "status": "pass_accepted_transient_scope",
+  "fresh_owner": {
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    },
+    "runs": [
+      {
+        "fresh_count": "70",
+        "fresh_feedback": "immediate",
+        "same_process_count": "20",
+        "same_process_feedback": "at_end",
+        "session_auto_started": false,
+        "shared_owner_creation": 1
+      },
+      {
+        "fresh_count": "70",
+        "fresh_feedback": "immediate",
+        "same_process_count": "20",
+        "same_process_feedback": "at_end",
+        "session_auto_started": false,
+        "shared_owner_creation": 2
+      }
+    ],
+    "scope": "Dispose shared Compose scene and create new App owner; no OS process kill/relaunch inferred",
+    "status": "pass_shared_scope"
+  },
+  "production_owner_journeys": {
+    "identity": {
+      "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+      "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+    },
+    "journeys": [
+      {
+        "bank_count": 1000,
+        "expected_score": 2,
+        "held_count": 0,
+        "mode": "immediate",
+        "opened_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+        "questions": [
+          {
+            "correct": true,
+            "display_order": [
+              "situation-120-option-1",
+              "situation-120-option-2",
+              "situation-120-option-4",
+              "situation-120-option-3"
+            ],
+            "id": "situation-120",
+            "key": "situation-120-option-1",
+            "revision": "legacy-r1",
+            "selected": "situation-120-option-1"
+          },
+          {
+            "correct": false,
+            "display_order": [
+              "sign-recognise-E1-option-3",
+              "sign-recognise-E1-option-4",
+              "sign-recognise-E1-option-2",
+              "sign-recognise-E1-option-1"
+            ],
+            "id": "sign-recognise-E1",
+            "key": "sign-recognise-E1-option-1",
+            "revision": "rewrite-r2",
+            "selected": "sign-recognise-E1-option-2"
+          },
+          {
+            "correct": true,
+            "display_order": [
+              "sign-recognise-E9-option-3",
+              "sign-recognise-E9-option-2",
+              "sign-recognise-E9-option-4",
+              "sign-recognise-E9-option-1"
+            ],
+            "id": "sign-recognise-E9",
+            "key": "sign-recognise-E9-option-1",
+            "revision": "rewrite-r2",
+            "selected": "sign-recognise-E9-option-1"
+          }
+        ],
+        "result": "2 / 3",
+        "scope": "App() production owner, full accepted bank, shared Compose semantics actions at1000x1800; production Random.Default, exact observed IDs/order retained",
+        "size": 3,
+        "source_reference": "REF-9f4b74a976fa03fb",
+        "status": "pass"
+      },
+      {
+        "bank_count": 1000,
+        "expected_score": 2,
+        "held_count": 0,
+        "mode": "at_end",
+        "opened_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/gagata-cykelgata-och-gangfartsomrade/",
+        "questions": [
+          {
+            "correct": true,
+            "display_order": [
+              "situation-044-option-3",
+              "situation-044-option-4",
+              "situation-044-option-2",
+              "situation-044-option-1"
+            ],
+            "id": "situation-044",
+            "key": "situation-044-option-1",
+            "revision": "legacy-r1",
+            "selected": "situation-044-option-1"
+          },
+          {
+            "correct": false,
+            "display_order": [
+              "stopping-40-1-option-3",
+              "stopping-40-1-option-4",
+              "stopping-40-1-option-2",
+              "stopping-40-1-option-1"
+            ],
+            "id": "stopping-40-1",
+            "key": "stopping-40-1-option-1",
+            "revision": "legacy-r1",
+            "selected": "stopping-40-1-option-2"
+          },
+          {
+            "correct": true,
+            "display_order": [
+              "sign-recognise-E21-option-4",
+              "sign-recognise-E21-option-2",
+              "sign-recognise-E21-option-1",
+              "sign-recognise-E21-option-3"
+            ],
+            "id": "sign-recognise-E21",
+            "key": "sign-recognise-E21-option-1",
+            "revision": "rewrite-r2",
+            "selected": "sign-recognise-E21-option-1"
+          }
+        ],
+        "result": "2 / 3",
+        "scope": "App() production owner, full accepted bank, shared Compose semantics actions at1000x1800; production Random.Default, exact observed IDs/order retained",
+        "size": 3,
+        "source_reference": "REF-b10ea78b3a467701",
+        "status": "pass"
+      }
+    ],
+    "limits": "No native/browser run, physical pointer hit-testing or screen-reader speech inferred. Shared image/source semantics retain existing10D/10E findings; no external browser delivery/network fetch asserted by URI callback.",
+    "status": "pass_shared_scope"
+  },
+  "limits": [
+    "Native restart/focus/browser modality pending10K.",
+    "Synthetic future bank is not installed or imported; no durable history is created.",
+    "DEF-10F-001 remains open: these valid-identity checks do not prove rejection of invalid package identities."
+  ],
+  "persistence_added": false
+}

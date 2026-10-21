@@ -1,0 +1,16 @@
+{
+  "base_command": "JAVA_HOME='/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home' ./gradlew :composeApp:desktopTest --offline --no-daemon --init-script docs/curriculum/app-migration/verification-evidence/10H1/jvm-test-init.gradle --tests <class-or-method>",
+  "receipt_logs": [
+    {
+      "log": "desktop-test.txt",
+      "successful": true,
+      "failure": false
+    },
+    {
+      "log": "fresh-owner-test.txt",
+      "successful": true,
+      "failure": false
+    }
+  ],
+  "historical_diagnostics": "Initial direct-return assumption, subsequent live return failure, offscreen review control and tombstone harness field diagnostic retained separately; none is treated as a passing product receipt."
+}
