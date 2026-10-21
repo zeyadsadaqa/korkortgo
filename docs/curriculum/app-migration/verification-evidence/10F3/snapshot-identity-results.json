@@ -1,0 +1,42 @@
+{
+  "task": "10F3",
+  "status": "fail_required_identity_rejection",
+  "historical_snapshots": {
+    "status": "pass",
+    "cases": 8,
+    "evidence": "historical-snapshot-observations.json"
+  },
+  "invalid_input_checks": {
+    "required": 13,
+    "rejected": 10,
+    "failed_cases": [
+      {
+        "case": "missing_content_version",
+        "error": null,
+        "expected": "rejected",
+        "observed": "accepted",
+        "scope": "conditional_invalid_injected_bank_model_contract; fixed App() does not expose package injection",
+        "status": "fail"
+      },
+      {
+        "case": "wrong_content_version",
+        "error": null,
+        "expected": "rejected",
+        "observed": "accepted",
+        "scope": "conditional_invalid_injected_bank_model_contract; fixed App() does not expose package injection",
+        "status": "fail"
+      },
+      {
+        "case": "wrong_manifest_digest",
+        "error": null,
+        "expected": "rejected",
+        "observed": "accepted",
+        "scope": "conditional_invalid_injected_bank_model_contract; fixed App() does not expose package injection",
+        "status": "fail"
+      }
+    ],
+    "evidence": "invalid-input-observations.json"
+  },
+  "finding": "DEF-10F-001",
+  "scope": "Injected invalid-bank model cases; App() is statically bound to the accepted bank. No durable history, import or live package-switch feature exists or is added."
+}
