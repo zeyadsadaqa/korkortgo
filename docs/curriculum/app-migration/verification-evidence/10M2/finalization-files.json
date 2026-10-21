@@ -1,0 +1,23 @@
+{
+  "task": "10M2",
+  "scope": "Incomplete finalization record and current plan/progress; does not reseal 10M1 or assert acceptance",
+  "path_base": "repository root",
+  "files": [
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10M2/completion-record.json",
+      "sha256": "6c4d90b18ef198790f4f13088f947982002e493365d0e46de60171068f2cda2d"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10M2/verify_finalization.py",
+      "sha256": "e7e2b6802579d1b4ed9ffa370e8bccf2d73e5b5b120be6f788e79dc90c66bac8"
+    },
+    {
+      "path": "docs/curriculum/implementation-plan.md",
+      "sha256": "2acb1f34ece168bc6c887507fca99c291fe303ddbf29665f7b8e65c1521e658c"
+    },
+    {
+      "path": "docs/curriculum/progress.md",
+      "sha256": "504d737e54686a5c0fc412bbc4f1ba47f100f1090035feebae1bba75a0591f57"
+    }
+  ]
+}
