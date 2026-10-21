@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-21",
+  "entry_commit": "0023ca5",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "scope": "Compiled production model and shared Compose scene1000x1800, default light/font1; source focus tests800x1600 and library800x1800 as recorded in unchanged test source. No actual OS/browser delivery inferred.",
+  "tests": [
+    {
+      "receipt": "TEST-se.korkort.Guards10HTest.xml",
+      "name": "se.korkort.Guards10HTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:44:54.973Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.LearningViewsSemanticsTest.xml",
+      "name": "se.korkort.LearningViewsSemanticsTest",
+      "tests": "2",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:44:55.219Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.NavigationTest.xml",
+      "name": "se.korkort.NavigationTest",
+      "tests": "11",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:44:56.740Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.ProductionGuard10HTest.xml",
+      "name": "se.korkort.ProductionGuard10HTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:44:56.847Z"
+    },
+    {
+      "receipt": "TEST-se.korkort.ReferenceViewerSemanticsTest.xml",
+      "name": "se.korkort.ReferenceViewerSemanticsTest",
+      "tests": "1",
+      "failures": "0",
+      "errors": "0",
+      "timestamp": "2026-10-21T09:44:58.061Z"
+    }
+  ],
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Guards10HTest.class",
+      "sha256": "f79f4b51e3cf07d78e3c2a17a7d8d188929a4a483abcb999ddf22b225bb71d09"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/ProductionGuard10HTest.class",
+      "sha256": "29dba7ae76f5ae99673801a6b3c6b06bc1f35ed17a9436f547442a381b37841a"
+    }
+  ]
+}
