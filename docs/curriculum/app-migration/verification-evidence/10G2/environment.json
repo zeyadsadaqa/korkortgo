@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-21",
+  "entry_commit": "4627f10",
+  "host": "macOS-26.3-arm64-arm-64bit-Mach-O",
+  "python": "3.14.7",
+  "java_home": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "manifest_file_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+  "identity": {
+    "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+    "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+  },
+  "source_runtime_fingerprint": "ac0d4e6b6b226b1f87f8d09521b4c334cccecd6cb7827c1bbd3889127402973c",
+  "tests": [
+    {
+      "class": "Edges10GTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "timestamp": "2026-10-21T09:19:50.535Z"
+    },
+    {
+      "class": "RecoveryActions10GTest",
+      "tests": 1,
+      "failures": 0,
+      "errors": 0,
+      "timestamp": "2026-10-21T09:21:57.099Z"
+    }
+  ],
+  "proof_classes": [
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Edges10GTest$everyFrozenExampleAndTypedBoundary$construction$1.class",
+      "sha256": "12e3bf7b4a2be4a893c5dc2846c1e704425ef1d9dec191e2817fb111efe1b74f"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Edges10GTest$everyFrozenExampleAndTypedBoundary$construction$2.class",
+      "sha256": "e4280b25e856f6410a1deb573d912665f86e2bfe84b01c15715e4121ff491e70"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/Edges10GTest.class",
+      "sha256": "274c223c874db22b6d82bbdc29cfe12721f4ed6a3260a0acef35fe2c97d81548"
+    },
+    {
+      "path": "composeApp/build/classes/kotlin/desktop/test/se/korkort/RecoveryActions10GTest.class",
+      "sha256": "1b95f5f0fcd854e350717efe1a411781205e04dad388fec31141142362840e08"
+    }
+  ],
+  "scope": "Compiled JVM model; G2/G3 real LearningRoute shared semantics at1000x1800/default light/font1, no OS/browser dispatch or speech inference."
+}

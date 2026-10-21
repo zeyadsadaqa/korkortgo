@@ -1,0 +1,47 @@
+[
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10G1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.Edges10GTest"
+    ],
+    "log": "desktop-test.txt",
+    "log_sha256": "82d35d329c98baadaebd77baaeb7c9798772c724af40f70bf478258ad3852589",
+    "exit_code": 0,
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "argv": [
+      "./gradlew",
+      ":composeApp:desktopTest",
+      "--offline",
+      "--no-daemon",
+      "--init-script",
+      "docs/curriculum/app-migration/verification-evidence/10G1/jvm-test-init.gradle",
+      "--tests",
+      "se.korkort.RecoveryActions10GTest"
+    ],
+    "log": "recovery-test.txt",
+    "log_sha256": "40b777f01364c88408b6a2eee314ced44421992d9dd5d43e05fe13830facb739",
+    "exit_code": 0,
+    "environment": {
+      "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home"
+    }
+  },
+  {
+    "argv": [
+      "python3",
+      "docs/curriculum/app-migration/verification-evidence/10G2/audit_edges.py"
+    ],
+    "log": "audit-run.txt",
+    "log_sha256": "fa8ed16ea33f1b805d1241063a58fcc2dfe23ae40df5bd49def49f402b6bfc6e",
+    "exit_code": 0
+  }
+]

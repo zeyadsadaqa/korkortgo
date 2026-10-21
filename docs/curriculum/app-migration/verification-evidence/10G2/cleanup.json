@@ -1,0 +1,20 @@
+{
+  "duplicate_capture_removals": [
+    {
+      "path": "captures/chooser-M04-L02.png",
+      "retained_as": "captures/chooser-M04-L01.png",
+      "sha256": "7715d6f03ad6d8b12e22c6edc79c1fc71b4e287c3ded3f6eff0c35209edaa067"
+    },
+    {
+      "path": "captures/chooser-M04-L03.png",
+      "retained_as": "captures/chooser-M04-L01.png",
+      "sha256": "7715d6f03ad6d8b12e22c6edc79c1fc71b4e287c3ded3f6eff0c35209edaa067"
+    },
+    {
+      "path": "captures/chooser-M05-L01.png",
+      "retained_as": "captures/chooser-M04-L01.png",
+      "sha256": "7715d6f03ad6d8b12e22c6edc79c1fc71b4e287c3ded3f6eff0c35209edaa067"
+    }
+  ],
+  "policy": "Only byte-identical fresh captures deduplicated; all logical cases retain exact evidence hashes. No production, accepted, source-cache or historical evidence removed."
+}
