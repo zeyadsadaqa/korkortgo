@@ -1,0 +1,55 @@
+Optional(Attributes: Application, 0x1130bdcc0, pid: 6515, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1130bdcc0, pid: 6515, label: 'KörkortGo'
+    Window (Main), 0x1130bd040, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1130bca00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bea80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1130bf340, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1130be080, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1130bd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130bd7c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130be6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1130be440, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1130bcf00, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1130bf700, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1130bf840, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1130bee40, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1130bcdc0, {{8.0, 70.0}, {195.0, 24.0}}, label: 'Unscored correction fixture'
+                      StaticText, 0x1130bd540, {{0.0, 102.0}, {177.0, 24.0}}, label: 'Fixture: sign-meaning-X9'
+                      Button, 0x1130bc640, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1130be300, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x1130bc500, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x1130bfac0, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x1130bf480, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x1130bcb40, {{16.0, 214.0}, {370.0, 610.0}}
+                          StaticText, 0x1130bf5c0, {{16.0, 214.0}, {370.0, 96.0}}, label: 'Which description identifies this illustrated Swedish sign, symbol or road marking?'
+                          Other, 0x1130bed00, {{16.0, 324.0}, {370.0, 246.7}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.'
+                          Button, 0x1130bc780, {{16.0, 584.7}, {191.3, 48.0}}, label: 'Enlarge question image'
+                            StaticText, 0x1130bdb80, {{40.0, 598.7}, {143.3, 20.0}}, label: 'Enlarge question image'
+                          Other, 0x1130bef80, {{16.0, 646.7}, {370.0, 84.0}}
+                          Button, 0x1130bcc80, {{16.0, 646.7}, {370.0, 84.0}}, label: 'A
+Compulsory off-road vehicle route', value: Not selected
+                            StaticText, 0x1130bf980, {{34.0, 664.7}, {9.3, 24.0}}, label: 'A'
+                            StaticText, 0x1130be1c0, {{34.0, 688.7}, {244.7, 24.0}}, label: 'Compulsory off-road vehicle route'
+                          Other, 0x1130bd400, {{16.0, 646.7}, {370.0, 177.3}}
+                          Button, 0x1130bc8c0, {{16.0, 744.7}, {370.0, 84.0}}, label: 'B
+Two-way traffic ahead', value: Not selected
+                            StaticText, 0x1130bfd40, {{34.0, 762.7}, {10.0, 24.0}}, label: 'B'
+                            StaticText, 0x1130bdf40, {{34.0, 786.7}, {157.7, 24.0}}, label: 'Two-way traffic ahead'
+                          Other, 0x1130bc000, {{16.0, 744.7}, {370.0, 79.3}}
+                          Button, 0x1130bf200, {{16.0, 842.7}, {370.0, 84.0}}, label: 'C
+Give way', value: Not selected
+                          Button, 0x1130bc3c0, {{16.0, 940.7}, {370.0, 84.0}}, label: 'D
+Roundabout centre marker', value: Not selected
+                          Button, 0x1130bc140, {{16.0, 1038.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1130bf0c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1130bfe80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bfc00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1130bdcc0, pid: 6515, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1130bd680, pid: 6515, label: 'KörkortGo'
+  }
+)

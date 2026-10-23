@@ -1,0 +1,18 @@
+{
+  "name": "current-shared-and-corrected-delivery",
+  "argv": [
+    "./gradlew",
+    ":composeApp:desktopTest",
+    "--rerun-tasks",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/corrected-jvm-init.gradle"
+  ],
+  "JAVA_HOME": "/Users/zeyad/Library/Java/JavaVirtualMachines/ms-17.0.16/Contents/Home",
+  "started_utc": "2026-10-22T06:50:39.780228+00:00",
+  "seconds": 460.94,
+  "exit_code": 0,
+  "log": "current-shared-and-corrected-delivery.txt",
+  "input_snapshot": "input-snapshots/130a31ec6be16eac2a14b9879c73ee33c6765724d4c78f730e39ad2b54692d6b.json",
+  "source_runtime_fingerprint": "130a31ec6be16eac2a14b9879c73ee33c6765724d4c78f730e39ad2b54692d6b",
+  "inputs_changed_during_run": []
+}

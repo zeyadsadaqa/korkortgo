@@ -1,0 +1,779 @@
+{
+  "status": "passed_exact_changed_revision_delivery",
+  "reviewed_on": "2026-10-22",
+  "ios_scope": "simulator",
+  "candidate_manifest": {
+    "path": "docs/curriculum/app-migration/verification-evidence/10L2/content-corrections/candidate/candidate-manifest.json",
+    "sha256": "20ca04c75f1f1a56cc643f29dbebefea51c999aef43d70027fb2ad9ed7416f35"
+  },
+  "review_basis": "X9 exact official artwork inspected: separate right arrows; neutral text names visible form without answer leakage. All7 revised image occurrences exercised on four configured targets, every required setting. Official asset bytes, prompts, options, keys and feedback unchanged. Source/caption fixtures independently checked; original source dates retained.",
+  "limits": "Renewed acceptance covers the bounded description revision and unchanged artwork delivery. It does not close the outstanding full step10 platform, visual, spoken assistive or normal-route matrix. Dark fixtures inject a palette into the fixed-light app solely for verification.",
+  "inputs": [
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json",
+      "sha256": "48d6b4e8df65b54b6c36552b1c75801ae9972580e054448da77295b5fb6dc425"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L2/content-corrections/candidate/candidate-manifest.json",
+      "sha256": "20ca04c75f1f1a56cc643f29dbebefea51c999aef43d70027fb2ad9ed7416f35"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/browser-concatenated-choice-projection-build.json",
+      "sha256": "c10f960865ffa824ff319f469f1b8412ef60d4997366d8fb918e88c62c41e503"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/corrected-android-dark-after-system-ui-recovery.json",
+      "sha256": "e8d7185a662a1c27ba4f1eb7b0c487e58adbfa1b4be425e7f2289627d65ec0c7"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/corrected-ios-dark-surface-matrix.json",
+      "sha256": "026b3f9dded06e5e4d41fbae4e7001583068a15764dfbbb2db573e81155d0198"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/corrected-ios-native-matrix.json",
+      "sha256": "b6470a2cfadd83fda17e32af4a6841a5cc4dea44b5bbc2cd7bc9694179d79927"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/corrected-proof-background-build.json",
+      "sha256": "a7c03cc532a2f31ce32a1b4bdcb07bb06c140326993dd8fc8a5c2e0f6e74f585"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/current-shared-and-corrected-delivery.json",
+      "sha256": "56a48c31820331e52cb6325239b53ab7631aeb9b2d67a9e64f70b717bdb7d8ba"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/acceptance-inputs/native-corrected-description-matrix.json",
+      "sha256": "b55daf71305c81f4c30da8307e01fb3a0fbd404bfc6b99d3d334567366dd3ab5"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/android-corrected-r1/question-matrix-0-7.json",
+      "sha256": "9375354d8c5e0574229c97d9f3b44e677fa79224cb6aaa2bbf713774b5a46cc9"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/android-dark-r2/installed-package.json",
+      "sha256": "52d6da2167bb5d80d408eae3c4fe2cda4211fb6fc5b6d8196e27b4f1850c2fe6"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/android-dark-r2/question-matrix-0-7.json",
+      "sha256": "af1c4f0a01f617b3da7ea554bf2a97ab73de2171fa6dd1d3a5702369f74ee61c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-corrected-r2/distribution.json",
+      "sha256": "8319f37a79899ec379207bb764ab579f856a8a8bfaa14eb71051617c69c8fe04"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-corrected-r2/matrix-runner.js",
+      "sha256": "edf39aad6e7ddf9de5238f0beef6e8e02bfee725d57bb96ca4c6042bf9f8221e"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-corrected-r2/rows.json",
+      "sha256": "593a9f4499c8cdd515c6ff4f50a81c07cff7f1f7feaa4bbb63ef39a923d0962c"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-dark-r3/distribution.json",
+      "sha256": "6ac39221e06b3efe81f0a072635d31fd88a04996181c9dd3ad864b1699505acc"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-dark-r3/matrix-runner.js",
+      "sha256": "7346f67447dc26b166f9bfe03904cca1e3ce0f29b80f19c4eff38099b1f8c030"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/browser-dark-r3/rows.json",
+      "sha256": "50db8ddd02e250e16b69383742a1affdd75183d6bfef1437fe0c1e6ef3c2da07"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/desktop-corrected-r3/result.json",
+      "sha256": "c2c0e20962ec27e43903ad2c4c110cdedd9464885769f6cc4e4fcd54772f7183"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/ios-corrected-r1/rows.json",
+      "sha256": "e76581e79126c18a14c69ce09ad633cd1c9b9ac7997b2f89ad64d10e4b9c2420"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/ios-dark-r2/bundle.json",
+      "sha256": "65d7bcad2fe9534177b41fc0251f687a69e83fbafc29f85c8d4e52ea8cb8fe40"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/ios-dark-r2/rows.json",
+      "sha256": "5a0026c405bbc85653db7d70a3b2d6b915c86ea43abd8a56ace9317efa1cf60b"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/metadata-corrected-r1/results.json",
+      "sha256": "0ac4fb6b61f767c63db5d4899ae2c838849d952ee72ad5d91bc911261aa6d225"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/shared-current-r1/result.json",
+      "sha256": "7b11df1d7ff663b47f283685258cb4a5c4d6cd2507d6f8c8c33b273981c1e1e3"
+    },
+    {
+      "path": "tools/review_step10_delivery.py",
+      "sha256": "b2827137fac83709820659fc11e080ffbd5799a6717059342ade64a92fd0c1e1"
+    },
+    {
+      "path": "docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/accepted-delivery-artifacts.json",
+      "sha256": "2414b28e3b61c855caac6622030f4184fcade896ae0353fdb89ea2a5eceaa7cd"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "sign-recognise-F5",
+      "revision": "rewrite-r2-step10-description-r1",
+      "assessment_sha256": "38fd0769440d37fe2722ee6ec8f42ce839bf4d0c0e101725f181be0ccfa6855d",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/A5",
+          "asset_sha256": "881a3411c18a1d0bbfecf4e4cfe78c0e4129d6bb2a06d5e2ea75836d846981cf",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/F5",
+          "asset_sha256": "d2a51ad42cfac8d9307c90ffc54ca7c7333ea4fccf17660208be799b136a7fdd",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/M31",
+          "asset_sha256": "3a5e88fe4cbbb90bd7adebfde82b436b5e916a940c48bdc202fbde572aa1d612",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-recognise-M25",
+      "revision": "rewrite-r2-step10-description-r1",
+      "assessment_sha256": "e31f9e194d53a0eb163aeada620bf852970e22d5beca62421f7ea2578ccf6207",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/A32",
+          "asset_sha256": "249a57ebd946008d1cff9a5268997264d5932d907601628da2b34c0d1ff7866b",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/B1",
+          "asset_sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/M25",
+          "asset_sha256": "66612285ee8014f0659b4eb4f2e8dbeffa9351c0c58ee0b321cb8729f0d2a1d0",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-recognise-S12",
+      "revision": "replacement-candidate-r2-step10-description-r1",
+      "assessment_sha256": "6ba319270f4fd2e48bee179575b7771c65174472bb5b81c7a2a99676f01ff66b",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/B1",
+          "asset_sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/S12",
+          "asset_sha256": "d4b6831a3c46b0e3413bd6e6a177d967a8dbb4259325b22dabd864eb0ae540e6",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X4",
+          "asset_sha256": "067eb45ca79b6537cc702158f2d7018b9b355d75ab87b81340715a1b03c1e4cf",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-recognise-T8",
+      "revision": "replacement-candidate-r2-step10-description-r1",
+      "assessment_sha256": "9f886a21e673ef58519395e4f79b027778a27684a3a8f473e87c72d07a4cc4c2",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/C15",
+          "asset_sha256": "dc0c851b70c7cedfb4dbb114c9cd0c87312ae58019318530c52d09134b179723",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/D9",
+          "asset_sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/T8",
+          "asset_sha256": "d3ec73144665f793214a6ea36c6ac47ed7a718075efa5e3861324396e7232ba2",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-recognise-T9",
+      "revision": "rewrite-r2-step10-description-r1",
+      "assessment_sha256": "8eb394ec25916fb84ac1bbcb8c03fa600871bd94ea408859dda8543d5485884f",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/A39",
+          "asset_sha256": "aa2435f7831f4f28b9362104c39e31a848a801d07c711d8fe6ffc7e9942ac916",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/B1",
+          "asset_sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/T9",
+          "asset_sha256": "b1af8c88b8976f8da107e37ef983bffded658e0308e1d3475687099cb3d8c256",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-meaning-X9",
+      "revision": "rewrite-r2-step10-description-r1",
+      "assessment_sha256": "ddd3190ffea1a70191e028e73babeb2629b5c08817754108e421bb3f92f9dbd1",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 4
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 4
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 4
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 8
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    },
+    {
+      "question_id": "sign-recognise-X9",
+      "revision": "rewrite-r2-step10-description-r1",
+      "assessment_sha256": "a8c0155f4d4563dc1d54732ca783a25a8a2f71e57b781b2c1de253ddcbf45fd4",
+      "status": "passed",
+      "reviewed_description_and_artwork": true,
+      "targets": {
+        "android": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "ios_simulator": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "browser": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 4,
+          "zoom_returns": 16
+        },
+        "desktop": {
+          "status": "passed",
+          "settings": [
+            "dark/1",
+            "dark/1.6",
+            "light/1",
+            "light/1.6"
+          ],
+          "cases": 8,
+          "zoom_returns": 32
+        }
+      },
+      "assets": [
+        {
+          "asset_id": "official/A25",
+          "asset_sha256": "42b17b2e0d995554b44f058b455226c778b1f9d60e6ffee77b00e9b4d7de7780",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/B1",
+          "asset_sha256": "4c006030d1ffaa641df7e62f23b08187d545f9f777e1fe99afb2e98a6f5b6f5b",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/D9",
+          "asset_sha256": "74e96f560e756ead64a6f94b92d2bb9822dcf1a2b619789cb6e89a5ca5d7bf23",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        },
+        {
+          "asset_id": "official/X9",
+          "asset_sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3",
+          "status": "passed",
+          "platforms": [
+            "android",
+            "desktop",
+            "ios_simulator",
+            "wasm_js"
+          ]
+        }
+      ]
+    }
+  ]
+}

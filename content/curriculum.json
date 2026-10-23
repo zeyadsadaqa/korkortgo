@@ -11585,6 +11585,18 @@
             "pdf_evidence_page": null
           },
           "reviewed_on": null
+        },
+        {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json",
+              "sha256": "48d6b4e8df65b54b6c36552b1c75801ae9972580e054448da77295b5fb6dc425"
+            },
+            "locator": "json:/captions/M8",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-21"
         }
       ],
       "bundled": {
@@ -11626,9 +11638,9 @@
           }
         }
       ],
-      "study_alt_text": "Continuous line. Single and double continuous white lines.",
+      "study_alt_text": "Continuous line. Single continuous white line.",
       "translation_status": "editorial_english",
-      "variant": "Single and double continuous white lines."
+      "variant": "Single continuous white line."
     },
     {
       "approval": [
@@ -33845,6 +33857,18 @@
             "pdf_evidence_page": null
           },
           "reviewed_on": null
+        },
+        {
+          "record": {
+            "file": {
+              "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json",
+              "sha256": "48d6b4e8df65b54b6c36552b1c75801ae9972580e054448da77295b5fb6dc425"
+            },
+            "locator": "json:/captions/C18",
+            "evidence_ids": [],
+            "pdf_evidence_page": null
+          },
+          "reviewed_on": "2026-10-21"
         }
       ],
       "bundled": {
@@ -33886,9 +33910,9 @@
           }
         }
       ],
-      "study_alt_text": "Maximum vehicle or combination length. Length 20 metres, with a vehicle-and-trailer pictogram.",
+      "study_alt_text": "Maximum vehicle or combination length. Length 20 metres, with a single lorry pictogram.",
       "translation_status": "editorial_english",
-      "variant": "Length 20 metres, with a vehicle-and-trailer pictogram."
+      "variant": "Length 20 metres, with a single lorry pictogram."
     },
     {
       "approval": [
@@ -145379,7 +145403,7 @@
       "asset_id": "official/M8",
       "caption": [
         {
-          "text": "Crossing restrictions apply according to the type of continuous line and the traffic rules. Do not invent an exception merely because the road appears clear. Single and double continuous white lines.",
+          "text": "Crossing restrictions apply according to the type of continuous line and the traffic rules. Do not invent an exception merely because the road appears clear. Single continuous white line.",
           "type": "text"
         }
       ],
@@ -145390,12 +145414,12 @@
       "limitations": [],
       "official_name_sv": "Heldragen linje",
       "origin": {
-        "evidence_ids": [],
         "file": {
-          "path": "docs/curriculum/sign-captions.json",
-          "sha256": "80de2bfe133635215eabbc00b8a1bef079ca4def6a8459782869618869529a9b"
+          "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json",
+          "sha256": "48d6b4e8df65b54b6c36552b1c75801ae9972580e054448da77295b5fb6dc425"
         },
-        "locator": "json:/captions/188",
+        "locator": "json:/captions/M8",
+        "evidence_ids": [],
         "pdf_evidence_page": null
       },
       "source_uses": [
@@ -157211,7 +157235,7 @@
       "asset_id": "official/C18",
       "caption": [
         {
-          "text": "Do not pass with a vehicle or combination longer than the displayed limit. Length 20 metres, with a vehicle-and-trailer pictogram.",
+          "text": "Do not pass with a vehicle or combination longer than the displayed limit. Length 20 metres, with a single lorry pictogram.",
           "type": "text"
         }
       ],
@@ -157222,12 +157246,12 @@
       "limitations": [],
       "official_name_sv": "Begränsad fordonslängd",
       "origin": {
-        "evidence_ids": [],
         "file": {
-          "path": "docs/curriculum/sign-captions.json",
-          "sha256": "80de2bfe133635215eabbc00b8a1bef079ca4def6a8459782869618869529a9b"
+          "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json",
+          "sha256": "48d6b4e8df65b54b6c36552b1c75801ae9972580e054448da77295b5fb6dc425"
         },
-        "locator": "json:/captions/45",
+        "locator": "json:/captions/C18",
+        "evidence_ids": [],
         "pdf_evidence_page": null
       },
       "source_uses": [

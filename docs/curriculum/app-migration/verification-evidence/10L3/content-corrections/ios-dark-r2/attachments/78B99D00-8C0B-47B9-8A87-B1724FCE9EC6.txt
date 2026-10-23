@@ -1,0 +1,49 @@
+Optional(Attributes: Application, 0x1130bf480, pid: 7077, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1130bf480, pid: 7077, label: 'KörkortGo'
+    Window (Main), 0x1130bfe80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1130bcb40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bd680, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1130bdcc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1130bf840, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1130be1c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130bc280, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130be440, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1130bd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1130bf5c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bde00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1130bebc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1130bef80, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1130bcc80, {{0.0, 0.0}, {402.0, 874.0}}
+          ScrollView, 0x1130bcdc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1130bdb80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1130bc8c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130bc140, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130bf980, {{0.0, 62.0}, {402.0, 778.0}}
+                Other, 0x1130bf0c0, {{20.0, 82.0}, {309.7, 92.7}}
+                  Other, 0x1132a1cc0, {{20.0, 82.0}, {309.7, 92.7}}
+                  StaticText, 0x1132a1900, {{20.0, 82.0}, {309.7, 44.7}}, label: 'Question illustration'
+                  Button, 0x1132a3340, {{20.0, 126.7}, {101.0, 48.0}}, label: 'Close'
+                    StaticText, 0x1132a1400, {{44.0, 134.7}, {53.0, 32.0}}, label: 'Close'
+                Image, 0x1132a0780, {{20.0, 186.7}, {362.0, 470.0}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.'
+                Other, 0x1132a03c0, {{20.0, 186.7}, {362.0, 470.0}}, label: 'Image viewport. Arrow keys pan when enlarged.'
+                Other, 0x1132a3980, {{20.0, 668.7}, {362.0, 151.3}}
+                  Other, 0x1132a26c0, {{20.0, 668.7}, {362.0, 151.3}}
+                  Button, 0x1132a2e40, {{20.0, 668.7}, {127.3, 48.0}}, label: 'Zoom in'
+                    StaticText, 0x1132a2a80, {{44.0, 676.7}, {79.3, 32.0}}, label: 'Zoom in'
+                  Button, 0x1132a35c0, {{155.3, 668.7}, {142.0, 48.0}}, label: 'Zoom out'
+                    StaticText, 0x1132a1180, {{179.3, 676.7}, {94.0, 32.0}}, label: 'Zoom out'
+                  Button, 0x1132a21c0, {{20.0, 720.7}, {102.3, 48.0}}, label: 'Reset'
+                    StaticText, 0x1132a12c0, {{44.0, 728.7}, {54.3, 32.0}}, label: 'Reset'
+                  Other, 0x1132a1e00, {{20.0, 768.7}, {362.0, 51.3}}, label: '150% · Original artwork proportions preserved.'
+    Window, 0x1132a2f80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1132a0a00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1132a3c00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1130bf480, pid: 7077, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1132a3d40, pid: 7077, label: 'KörkortGo'
+  }
+)

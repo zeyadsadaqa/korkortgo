@@ -7,23 +7,33 @@ The production root is `App.kt` → `CurriculumApp.kt`, using `acceptedPracticeB
 Run from the repository root with Python 3 and the JDK/SDK requirements in [README](../../README.md):
 
 ```sh
-python3 tools/import_curriculum_remaining.py --check
+python3 tools/stage_step10_corrections.py --check
+python3 tools/review_step10_delivery.py --check
+python3 tools/finalize_step10_corrections.py --check
 python3 tools/build_navigation.py --check
-python3 tools/build_reader.py --check
-python3 tools/assemble_question_package_9j.py --check
-python3 tools/review_question_delivery_9j.py --check
-python3 tools/finalize_question_package_9j.py --check
+python3 tools/verify_step10_content.py reader
+python3 tools/verify_step10_content.py baseline
 ```
 
-The assembler deliberately reports the historical candidate as 384 accepted / 616 held. That is retained audit data, not the production release status. The finalizer separately validates the accepted package: 1,000 accepted / zero held, using exact revision delivery decisions. Do not interpret successful structural compilation as delivery acceptance.
+The step-10 correction release retains 1,000 accepted questions and 500 concepts. Six source classifications and the C18/M8 captions are corrected; seven questions have new X9 neutral-description revisions with renewed delivery acceptance. Prompts, answer keys, feedback, IDs, official artwork bytes and source dates are preserved. The [authored amendments](../curriculum/app-migration/verification-evidence/10L1/content-corrections/amendments.json), immutable compressed baseline and [renewed delivery receipt](../curriculum/app-migration/verification-evidence/10L3/content-corrections/renewed-delivery-acceptance.json) bind this bounded change.
+
+These six checks cover the approved baseline/amendments, exact-revision delivery, complete release regeneration and typed validation, navigation/aliases, reader generation/parity and preservation of the historical candidate/assets. JVM parity tests independently compare every compiled accepted question and every reader field with the current JSON receipts. Structural validation and delivery acceptance remain separate checks.
 
 ## Regeneration and changes
 
-For unchanged approved inputs, the commands above compare generated outputs and receipts byte-for-byte. To restore generated outputs, use the same order: the importer uses `--write` instead of `--check`; navigation, reader, assembler, delivery review and finalizer use no `--check` flag. Review the resulting diff and rerun all check commands. The finalizer writes `accepted-assessment-questions.json`, `accepted-content-manifest.json`, `AcceptedQuestionPackage9J*.kt` and its release-validation receipt. It overlays acceptance decisions without rewriting the historical candidate. Navigation and reader generators own their respective generated Kotlin families and parity receipts.
+For unchanged approved inputs, restore the current generated outputs with:
 
-This restoration sequence is for the existing approved inputs. Deliberately changed text, assets, source records, models or questions require renewed origin/parity checks, affected delivery decisions, generated output review and release validation; do not bypass hash failures or copy old acceptance decisions onto new revisions. The importer uses frozen approved production inputs and refuses edited/colliding authoring inputs. A curriculum editorial change therefore needs an updated approved import/source decision before regeneration, rather than editing generated Kotlin.
+```sh
+python3 tools/stage_step10_corrections.py --stage
+python3 tools/review_step10_delivery.py --write
+python3 tools/finalize_step10_corrections.py --write
+```
 
-`tools/build_content.py` and `tools/scrape_sources.py` describe the original bank/catalogue pipeline. They are not the accepted-release regeneration path. A scrape downloads material; it does not approve new wording, reuse conditions or replacement resources. Keep source dates scoped to their recorded checks. The completed 9N briefs authorize no new scored questions or coverage-count changes.
+The review producer requires retained exact-revision rows on all four configured targets and settings. The finalizer rejects missing/stale inputs and validates prospective payloads in an isolated filesystem copy before changing active files. It emits accepted questions/manifest, navigation, reader and the current parity receipts under `verification-evidence/10L3/content-corrections/release/`; it never rewrites the historical 9J/9L receipts. Review the diff and run all six checks afterward. New editorial or runtime changes require affected evidence and renewed acceptance; do not manufacture rows, copy old acceptance onto revised questions or bypass hash failures.
+
+The original `import_curriculum_remaining.py`, `assemble_question_package_9j.py`, `review_question_delivery_9j.py` and `finalize_question_package_9j.py` preserve the pre-correction release. Their full historical checks belong in the original checkout at `fcafdadc80bcda06c71e8c6ebdca4916f3d69930`; they intentionally do not regenerate the corrected live release. Do not run their write modes over this release. The original candidate remains 384 accepted / 616 held as audit data; its retained question JSON, manifest and policy are checked by the baseline command. The new finalizer overlays the seven corrected records on the retained candidate without changing it.
+
+`tools/build_content.py` and `tools/scrape_sources.py` describe the original bank/catalogue pipeline and are not the accepted-release regeneration path. Source checks remain scoped to their recorded editions and dates. The 9N briefs authorize no new scored questions or coverage-count changes.
 
 ## Resource packaging
 

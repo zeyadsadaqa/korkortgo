@@ -4,7 +4,7 @@ import hashlib
 import unittest
 from pathlib import Path
 from collections import Counter
-from assemble_question_package_9j import ROOT, BASE, MAP, ACTIONS, prepare, assemble, read
+from assemble_question_package_9j import ROOT, BASE, MAP, ACTIONS, prepare, assemble, read, review
 from compile_curriculum import Validator, ContentError, manifest_digest
 class QuestionPackageTest(unittest.TestCase):
  @classmethod
@@ -12,6 +12,12 @@ class QuestionPackageTest(unittest.TestCase):
   cls.c,cls.s,cls.bank,cls.rels,cls.questions,cls.audit,cls.retained=prepare()
   cls.questions=read(Path('content/assessment-questions.json'))['questions']
   cls.manifest=read(Path('content/content-manifest.json'))
+  # An unaccepted test fixture may combine the retained candidate with corrected
+  # metadata. Bind its actual payload bytes; never overwrite the frozen manifest.
+  cls.manifest['identity']['content_version']+='-test-current-metadata'
+  for row in cls.manifest['payloads']:
+   path=ROOT/row['file']['path'];row['file']['sha256']=hashlib.sha256(path.read_bytes()).hexdigest()
+  cls.manifest['identity']['manifest_sha256']=manifest_digest(cls.manifest)
  def validate(self,payloads=None,manifest=None,profile='fixture'):
   return Validator(source_authority=str(BASE/'source-authority.json')).package(payloads or {'curriculum':self.c,'sources':self.s,'questions':{'schema_version':1,'questions':self.questions},'legacy_aliases':read(Path('content/legacy-aliases.json'))},manifest or self.manifest,profile)
  def test_every_id_and_exact_relationship_resolve(self):
@@ -45,5 +51,15 @@ class QuestionPackageTest(unittest.TestCase):
   p={'curriculum':self.c,'sources':copy.deepcopy(self.s),'questions':{'schema_version':1,'questions':self.questions},'legacy_aliases':read(Path('content/legacy-aliases.json'))}
   p['sources']['references'][-1]['url']='https://example.invalid/changed'
   with self.assertRaisesRegex(ContentError,'unknown or changed approved source'):self.validate(p)
- def test_reproduction(self):assemble(check=True)
+ def test_reproduction(self):
+  # Metadata has a separate corrected producer; candidate question semantics and
+  # generated candidate code must still reproduce the original held records.
+  *_,questions,audit,retained=prepare()
+  for q in questions:
+   r=q['acceptance']['content_review']
+   if r and 'pending_retained_review_index' in r:
+    q['acceptance']['content_review']=review(BASE/'retained-review.json',f'json:/questions/{r["pending_retained_review_index"]}')
+  self.assertEqual(self.questions,questions)
+  from verify_step10_content import verify_baseline
+  verify_baseline()
 if __name__=='__main__':unittest.main()

@@ -1,0 +1,13 @@
+{
+  "status": "pass_exact_description_delivery_browser",
+  "cases": 28,
+  "image_zoom_returns": 100,
+  "candidate_manifest_sha256": "20ca04c75f1f1a56cc643f29dbebefea51c999aef43d70027fb2ad9ed7416f35",
+  "scope": "Actual IAB native accessibility actions on proof-only Wasm fixtures; no screen-reader listening or normal production route acceptance.",
+  "diagnostics": [
+    "Prior R1 image choices passed but text choices exposed generic buttons; corrected A-D prefix matching after combined DOM text was observed.",
+    "Initial R2 automation used stale lexical tab handles; discarded partial attempts and used explicit tab arguments.",
+    "DOM clicks cannot reach off-screen canvas controls; final matrix uses native accessibility actions.",
+    "Transient modal tree initialization is observed before deriving action IDs."
+  ]
+}

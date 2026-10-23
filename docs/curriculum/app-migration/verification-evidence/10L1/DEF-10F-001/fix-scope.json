@@ -1,0 +1,81 @@
+{
+  "issue": {
+    "id": "DEF-10F-001",
+    "severity": "P2",
+    "state": "open",
+    "type": "conditional_invalid_bank_identity_guard",
+    "detected_in_task": "10F3",
+    "case_ids": [
+      "missing_content_version",
+      "wrong_content_version",
+      "wrong_manifest_digest"
+    ],
+    "candidate": {
+      "entry_commit": "44462b4",
+      "manifest_sha256": "ba91c96975c39b5f6db552c6bead17c0e0474c11dd590f811a7eeb1e1ae54a21",
+      "accepted_identity": {
+        "content_version": "screen-2026-10-14-78a89d8ffbb8-accepted-9j",
+        "manifest_sha256": "d9ba2f0261dc9c908146676f903a5ee7fd9c73b50231cd10c2182ecf5d87f82a"
+      }
+    },
+    "expected": "Required invalid-bank model cases cannot start a scored session with a missing version, unrelated version or mismatched manifest digest. The positive accepted production bank and authorized fixture path remain supported.",
+    "observed": "practiceStartCheck and startPractice accept all three injected releaseAccepted=true identity variants. Other10 invalid-input cases reject correctly. App() uses a fixed accepted bank and exposes no package injection; this does not demonstrate an end-user runtime exploit.",
+    "reproduction": {
+      "test": "Snapshot10FTest.requiredInvalidInputsAreObservedWithoutBypassingProductionStart",
+      "steps": [
+        "Copy acceptedPracticeBank9J with identity.contentVersion empty, unrelated-package, or manifestSha25664zeros; keep releaseAccepted=true.",
+        "TransientQuizState(countText=\"1\").showSetup().startPractice(copiedBank, Random(1)) returns a scored session rather than rejecting."
+      ],
+      "source": "composeApp/src/commonMain/kotlin/se/korkort/TransientQuizSetup.kt: practiceStartCheck/startChecked and PracticeBank; Curriculum.kt ContentPackageIdentity has no version-blank constructor guard."
+    },
+    "evidence": [
+      "../10F3/invalid-input-observations.json",
+      "../10F3/snapshot-identity-results.json",
+      "../10F3/TEST-se.korkort.Snapshot10FTest.xml",
+      "../10F3/desktop-test.txt"
+    ],
+    "affected_ids_files": [
+      "composeApp/src/commonMain/kotlin/se/korkort/TransientQuizSetup.kt",
+      "composeApp/src/commonMain/kotlin/se/korkort/Curriculum.kt",
+      "Conditional injected invalid-bank cases; no production accepted identity mutation"
+    ],
+    "owners": [
+      "10L1",
+      "10F3",
+      "10F1",
+      "10F4",
+      "10K"
+    ],
+    "impacted_gates": [
+      "T05",
+      "T09"
+    ],
+    "fix_scope": "Bounded10L review of the scored-start identity contract and validation boundary, with an explicit distinction between trusted release construction and test fixtures. Do not add hot replacement, package import, durable history or change approved content.",
+    "approval_if_required": "No design work or new feature authorized. Existing10L correction/retest workflow applies; no production fix made in this verification.",
+    "invalidation": "If validation code changes, runtime fingerprint and affected start/fixture/session/model/platform evidence must be regenerated; preserve this failing candidate result. Accepted content manifest changes only if actually required by the bounded fix.",
+    "retest": "All13 invalid-input cases, positive accepted starts at1–70, held/historical gates, historical snapshots, fixture APIs and required platform journeys.",
+    "closure_reason": null,
+    "triage_origin_ledger": "10F4/defects.json",
+    "triage_category": "implementation_regression",
+    "blocking_disposition": "Required affected acceptance cases remain blocked; no scope waiver.",
+    "action_owner": "subsequent bounded10L request",
+    "dependencies": [
+      "T05",
+      "T09"
+    ],
+    "acceptance_check": "All13 invalid-input cases, positive accepted starts at1–70, held/historical gates, historical snapshots, fixture APIs and required platform journeys."
+  },
+  "boundary_decision": "Production scoring requires exact compiled accepted identity and question payload. Existing internal fixture entry supports synthetic banks without claiming release acceptance. No package import or hot replacement UI.",
+  "acceptance": [
+    "Three original injected identity counterexamples rejected by production start",
+    "Accepted identity cannot authenticate a modified/reordered/subset payload",
+    "Existing accepted release can start sizes1–70 in both feedback modes",
+    "Fixture quota/state tests remain meaningful through explicit fixture-only entry"
+  ],
+  "unchanged": [
+    "Accepted content and identities",
+    "Design and official artwork",
+    "Historical receipts"
+  ],
+  "owner": "10L bounded implementation and retest"
+}

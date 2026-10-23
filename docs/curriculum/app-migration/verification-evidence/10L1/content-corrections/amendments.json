@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "status": "authored_corrections_pending_fresh_delivery_acceptance",
+  "authorization": "User request to finalize step10 authorizes bounded nonvisual defect repairs; original accepted sources/receipts are retained.",
+  "base_release": {
+    "path": "docs/curriculum/app-migration/verification-evidence/10L1/content-corrections/base-release.json.gz",
+    "sha256": "4c5fd6cd283144d56ff61877ba9bc77224392e3b7c16ad95089edebe9057a2e0"
+  },
+  "classifications": [
+    {
+      "finding": "DEF-10C-001",
+      "reference_id": "REF-496b85361fc1b2c5",
+      "url": "https://www.gagnef.se/bygga-bo-och-miljo/boende-och-miljo-2/energi-och-klimatradgivning/",
+      "publisher": "Gagnefs kommun",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "swedish_public_service"
+      ],
+      "basis": "Gagnefs kommun is Swedish municipal advice, not foreign guidance.",
+      "evidence_dates_changed": false
+    },
+    {
+      "finding": "DEF-10C-002",
+      "reference_id": "REF-2816f9478f49eea3",
+      "url": "https://goteborg.se/wps/portal/start/bygga-bo-och-leva-hallbart/leva-hallbart/smarta-resor/tvatta-inte-bilen-pa-gatan",
+      "publisher": "Göteborgs Stad, Miljöförvaltningen",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "swedish_public_service"
+      ],
+      "basis": "Göteborgs Stad environmental guidance is Swedish municipal advice.",
+      "evidence_dates_changed": false
+    },
+    {
+      "finding": "DEF-10C-003",
+      "reference_id": "REF-56e38aa92cb10d3e",
+      "url": "https://energiochklimatradgivningen.se/hushall/resahallbart/sparsamkorning.685.html",
+      "publisher": "Energimyndigheten / municipal Energi- och klimatrådgivningen",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "swedish_authority_guidance"
+      ],
+      "basis": "Named Swedish Energy Agency/municipal energy advice is domestic guidance.",
+      "evidence_dates_changed": false
+    },
+    {
+      "finding": "DEF-10C-004",
+      "reference_id": "REF-6ca8f251127184be",
+      "url": "https://www.mfd.se/ledarhundsverksamheten/fakta-om-ledarhundar/",
+      "publisher": "Myndigheten för delaktighet (MFD)",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "swedish_authority_guidance"
+      ],
+      "basis": "Named MFD guidance is from a Swedish public agency.",
+      "evidence_dates_changed": false
+    },
+    {
+      "finding": "DEF-10C-005",
+      "reference_id": "REF-b3162b40db29d9bd",
+      "url": "https://trafikverket.diva-portal.org/smash/get/diva2%3A1909331/FULLTEXT01.pdf",
+      "publisher": "Trafikverket",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "swedish_authority_guidance"
+      ],
+      "basis": "Primary PDF identifies Trafikverket KRAV Grundvärden VGU, publication 2024:148, version 1.0; domestic infrastructure requirements, not foreign guidance, research, or general driver legislation.",
+      "evidence_dates_changed": false
+    },
+    {
+      "finding": "DEF-10C-006",
+      "reference_id": "REF-52a2a9e7d845ad8f",
+      "url": "https://ownersmanual.kia.com/full_webhelp/MQ4/2022/sv_SE/topics/chapter7_8_1.html",
+      "publisher": "Kia, manufacturer owner handbook",
+      "before": [
+        "foreign_public_authority"
+      ],
+      "after": [
+        "manufacturer"
+      ],
+      "basis": "Kia MQ4/2022 owner handbook is model-specific manufacturer guidance, not a public authority.",
+      "evidence_dates_changed": false
+    }
+  ],
+  "captions": {
+    "C18": {
+      "finding": "DEF-10E-001",
+      "before_variant": "Length 20 metres, with a vehicle-and-trailer pictogram.",
+      "after_variant": "Length 20 metres, with a single lorry pictogram.",
+      "asset_id": "official/C18",
+      "original": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-6cf10ca702a501ec.png",
+        "sha256": "745581e57e876bf346bc45d22ebd1e10139a314309c93e1d1a28a9d847bebef0"
+      },
+      "basis": "Current exact official artwork visibly has one three-axle lorry, no trailer; legal vehicle-or-combination limit is unchanged.",
+      "before_caption": [
+        {
+          "text": "Do not pass with a vehicle or combination longer than the displayed limit. Length 20 metres, with a vehicle-and-trailer pictogram.",
+          "type": "text"
+        }
+      ],
+      "after_caption": [
+        {
+          "text": "Do not pass with a vehicle or combination longer than the displayed limit. Length 20 metres, with a single lorry pictogram.",
+          "type": "text"
+        }
+      ],
+      "before_study_alt_text": "Maximum vehicle or combination length. Length 20 metres, with a vehicle-and-trailer pictogram.",
+      "after_study_alt_text": "Maximum vehicle or combination length. Length 20 metres, with a single lorry pictogram.",
+      "original_caption_origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/sign-captions.json",
+          "sha256": "80de2bfe133635215eabbc00b8a1bef079ca4def6a8459782869618869529a9b"
+        },
+        "locator": "json:/captions/45",
+        "pdf_evidence_page": null
+      }
+    },
+    "M8": {
+      "finding": "DEF-10E-002",
+      "before_variant": "Single and double continuous white lines.",
+      "after_variant": "Single continuous white line.",
+      "asset_id": "official/M8",
+      "original": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-f977ba39e60a5ef3.png",
+        "sha256": "e5312ee561009db95e3b46c8bd396bea2d4d54ed9ca39abc2576eeeef85ab422"
+      },
+      "basis": "Selected exact artwork visibly has one white line; this does not change the general single/double legal rule.",
+      "before_caption": [
+        {
+          "text": "Crossing restrictions apply according to the type of continuous line and the traffic rules. Do not invent an exception merely because the road appears clear. Single and double continuous white lines.",
+          "type": "text"
+        }
+      ],
+      "after_caption": [
+        {
+          "text": "Crossing restrictions apply according to the type of continuous line and the traffic rules. Do not invent an exception merely because the road appears clear. Single continuous white line.",
+          "type": "text"
+        }
+      ],
+      "before_study_alt_text": "Continuous line. Single and double continuous white lines.",
+      "after_study_alt_text": "Continuous line. Single continuous white line.",
+      "original_caption_origin": {
+        "evidence_ids": [],
+        "file": {
+          "path": "docs/curriculum/sign-captions.json",
+          "sha256": "80de2bfe133635215eabbc00b8a1bef079ca4def6a8459782869618869529a9b"
+        },
+        "locator": "json:/captions/188",
+        "pdf_evidence_page": null
+      }
+    }
+  },
+  "descriptions": {
+    "X9": {
+      "finding": "DEF-10E-003",
+      "before": "Long blue horizontal panel with three white right-pointing arrows joined along a thin white line.",
+      "after": "Long blue horizontal panel with three separate white arrows pointing right.",
+      "asset_id": "official/X9",
+      "original": {
+        "path": "docs/curriculum/sign-assets/rendered/ASSET-68bcca875b2f5ea8.png",
+        "sha256": "d9da0a5da396c5421093197097aa5d2683351e64dba15c4522f2ed47519b19c3"
+      },
+      "basis": "Exact original artwork inspected: arrows have separate heads and shafts with gaps; thin white outer borders do not join the arrows.",
+      "question_ids": [
+        "sign-meaning-F5",
+        "sign-recognise-F5",
+        "sign-meaning-M25",
+        "sign-recognise-M25",
+        "sign-meaning-S12",
+        "sign-recognise-S12",
+        "sign-meaning-T8",
+        "sign-recognise-T8",
+        "sign-meaning-T9",
+        "sign-recognise-T9",
+        "sign-meaning-X9",
+        "sign-recognise-X9"
+      ],
+      "image_question_ids": [
+        "sign-recognise-F5",
+        "sign-recognise-M25",
+        "sign-recognise-S12",
+        "sign-recognise-T8",
+        "sign-recognise-T9",
+        "sign-meaning-X9",
+        "sign-recognise-X9"
+      ],
+      "context_scope": "Twelve related audit contexts; seven questions actually render this neutral image description. The other five meaning-direction contexts retain unchanged revisions and must be re-reviewed with the shared corrected description."
+    }
+  },
+  "reviewed_on": "2026-10-21",
+  "scope_limits": [
+    "No scored key, legal meaning, official artwork bytes or existing question ID changes",
+    "Changed neutral-description revisions require new delivery acceptance before release",
+    "No blanket source-currency refresh; existing publisher and evidence dates preserved"
+  ],
+  "primary_source_locators": [
+    "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/forbudsmarken/begransad-fordonslangd/",
+    "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/heldragen-linje/"
+  ]
+}

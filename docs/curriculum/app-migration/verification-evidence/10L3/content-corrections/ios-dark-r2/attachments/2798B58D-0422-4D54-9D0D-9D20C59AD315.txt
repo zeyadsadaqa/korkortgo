@@ -1,0 +1,50 @@
+Optional(Attributes: Application, 0x1130bd040, pid: 7077, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1130bd040, pid: 7077, label: 'KörkortGo'
+    Window (Main), 0x1130bf480, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1130bcc80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bebc0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1130be800, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1130be580, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1130bc780, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130be440, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1130bf5c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1130bd7c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1130bd2c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1130bf980, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1130bef80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1130be940, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1130bf340, {{8.0, 70.0}, {311.7, 38.3}}, label: 'Unscored correction fixture'
+                      StaticText, 0x1130bea80, {{0.0, 116.3}, {314.0, 38.3}}, label: 'Fixture: sign-recognise-M25'
+                      Button, 0x1130be080, {{0.0, 154.7}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1130bd400, {{12.0, 162.7}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x1130bfac0, {{0.0, 202.7}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x1130bc000, {{16.0, 257.0}, {370.0, 567.0}}
+                        Other, 0x1130be6c0, {{16.0, 257.0}, {370.0, 567.0}}
+                        Other, 0x1130bc640, {{16.0, 257.0}, {370.0, 567.0}}
+                          Button, 0x1130bc500, {{16.0, 849.3}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle pointing downward.', value: Not selected
+                          Button, 0x1130bee40, {{16.0, 1160.3}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x1130bfd40, {{16.0, 257.0}, {370.0, 205.3}}, label: 'Which illustration identifies “Pedestrian or cycle direction arrow”?'
+                          Other, 0x1130bcf00, {{16.0, 476.3}, {370.0, 297.0}}
+                          Button, 0x1130bed00, {{16.0, 476.3}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with a black horse pulling a cart, facing left.', value: Not selected
+                            StaticText, 0x1130bdf40, {{34.0, 494.3}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x1130be1c0, {{34.0, 532.7}, {334.0, 222.7}}, label: 'Red-bordered yellow triangle with a black horse pulling a cart, facing left.'
+                          Other, 0x1130bca00, {{16.0, 476.3}, {370.0, 347.7}}
+                          Button, 0x1130bc280, {{16.0, 787.3}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x1130bf840, {{40.0, 795.3}, {224.7, 28.7}}, label: 'Enlarge option A image'
+                          Button, 0x1130bc140, {{16.0, 1222.3}, {370.0, 297.0}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.', value: Not selected
+                          Button, 0x1130bd180, {{16.0, 1533.3}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1130bf200, {{16.0, 1595.3}, {370.0, 297.0}}, label: 'Black rectangle with a thick white arrow pointing right.', value: Not selected
+                          Button, 0x1130bc8c0, {{16.0, 1906.3}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1130bf0c0, {{16.0, 1968.3}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1130bc3c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1130bcdc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1130bdb80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1130bd040, pid: 7077, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1130be300, pid: 7077, label: 'KörkortGo'
+  }
+)

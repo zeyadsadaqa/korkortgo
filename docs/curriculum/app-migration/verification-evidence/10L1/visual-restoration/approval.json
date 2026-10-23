@@ -1,0 +1,25 @@
+{
+  "status": "explicitly_approved",
+  "user_statement": "Approve this preview and implement the visual repairs",
+  "preview": "preview-v3.png",
+  "sha256": "2dcdc565584137b6c2b791b3cf157b960ee00af9c3f1bfe27bab59d0aad204dc",
+  "tool": "built-in image_gen",
+  "scope": [
+    "DEF-10D-001",
+    "DEF-10K-001",
+    "DEF-10J-001",
+    "DEF-10J-002",
+    "DEF-10J-003",
+    "DEF-10J-004",
+    "DEF-10J-005",
+    "DEF-10J-006"
+  ],
+  "invariants": [
+    "No generated official artwork",
+    "Authored questions/keys and complete per-option feedback retained",
+    "Exact source classifications/dates/limits retained from records",
+    "No automatic correct/incorrect cue before confirmation",
+    "Existing routes, content availability and focus/return contracts retained"
+  ],
+  "preview_copy_policy": "Illustrative layout text is not authoring input or a source-currency claim; implementation uses exact existing records."
+}

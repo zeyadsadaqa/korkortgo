@@ -1,0 +1,16 @@
+{
+  "status": "pass_exact_description_delivery_android",
+  "matrix": "question-matrix-0-7.json",
+  "cases": 28,
+  "settings": [
+    "light/1",
+    "light/1.6",
+    "dark/1",
+    "dark/1.6"
+  ],
+  "image_zoom_returns": 100,
+  "installed_apk_sha256": "80f97b67a09a0a32fb0ae821d975cb38b435a682f678dafe617c54e4fd991ea0",
+  "test_apk_sha256": "759e07cb55ded64f86689869955c8bdf2aab63336318ea7aa1b715de4e00190d",
+  "candidate_manifest_sha256": "20ca04c75f1f1a56cc643f29dbebefea51c999aef43d70027fb2ad9ed7416f35",
+  "scope": "Unscored held revised questions on real native emulator. This does not activate a release or complete the full platform matrix."
+}

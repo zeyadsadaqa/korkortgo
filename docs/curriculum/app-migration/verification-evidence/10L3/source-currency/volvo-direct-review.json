@@ -1,0 +1,20 @@
+{
+  "case_id": "10C2-CLAIM-17",
+  "status": "pass_scoped_direct_model_specific_inspection",
+  "observed_utc": "2026-10-21T21:03:12.952Z",
+  "url": "https://www.volvocars.com/se/support/car/v60-twin-engine/18w46/article/73e14f8cc7f8d151c0a81f6f7932e5d8/45dffbb5c7f91239c0a81f6f36dce48d/c73c954b9380b97ac0a801512086b8d5/",
+  "method": "Exact recorded URL loaded in real in-app browser, visible accessibility content and screenshot inspected; web fetch cache miss is distinct.",
+  "model_edition_visible": true,
+  "publisher_updated_on": "2020-03-19",
+  "supports": [
+    "Temporary Spare is temporary replacement only",
+    "Maximum speed in this model handbook is 80 km/h",
+    "Use manufacturer-recommended pressure; replace normal wheel promptly"
+  ],
+  "scope_limits": [
+    "Applies to recorded V60 Twin Engine 2019 handbook only, not universal law or every car",
+    "No numerical maximum distance stated",
+    "No blanket renewal of other source dates; no changed production source date"
+  ],
+  "capture": "volvo-visible.png"
+}

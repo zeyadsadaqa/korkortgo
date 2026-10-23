@@ -1,0 +1,42 @@
+@file:OptIn(androidx.compose.ui.InternalComposeUiApi::class)
+package se.korkort
+
+import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.unit.Density
+import androidx.compose.ui.semantics.*
+import androidx.compose.ui.state.ToggleableState
+import java.nio.file.Files
+import kotlin.test.*
+
+class PendingSelectionRepairTest {
+    @Test fun pendingChoiceChangesPixelsAndExposesSelectionWithoutRevealingCorrectness() {
+        val rows=mutableListOf<Any>()
+        val bank=acceptedPracticeBank9J
+        val q=bank.questions.single{it.key.questionId==QuestionId("situation-001")}
+        for(width in listOf(390,1280))for(scale in listOf(1f,1.6f))LibraryHarness10J(width,1800).use { h ->
+            var confirmed:OptionId?=null
+            val presentation=AssessmentSession(listOf(SessionQuestionSnapshot(q,bank.identity,q.options.map{it.id})),Feedback.IMMEDIATE).presentation()
+            h.scene.setContent { CompositionLocalProvider(LocalDensity provides Density(1f,scale)) {LearningTheme {AssessmentCard(presentation,{confirmed=it})}} }
+            h.await("four choices"){h.nodes().count{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton}==4}
+            val suffix="$width-$scale"
+            h.capture("10L3/visual-restoration/revision-2","pending-before-$suffix")
+            val option=h.nodes().filter{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton}[1]
+            assertTrue(option.config[SemanticsActions.OnClick].action!!.invoke())
+            h.await("selected state"){h.nodes().any{it.config.getOrNull(SemanticsProperties.Selected)==true}}
+            val selected=h.nodes().single{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton && it.config.getOrNull(SemanticsProperties.Selected)==true}
+            assertEquals(ToggleableState.On,selected.config[SemanticsProperties.ToggleableState])
+            assertEquals("Selected",selected.config[SemanticsProperties.StateDescription])
+            assertNull(confirmed)
+            assertFalse(h.text().contains("Correct answer"))
+            assertFalse(h.text().contains(q.feedback.explanation.assessmentText()))
+            h.capture("10L3/visual-restoration/revision-2","pending-after-$suffix")
+            val folder=Proof10J.root.resolve("docs/curriculum/app-migration/verification-evidence/10L3/visual-restoration/revision-2/captures")
+            assertFalse(Files.readAllBytes(folder.resolve("pending-before-$suffix.png")).contentEquals(Files.readAllBytes(folder.resolve("pending-after-$suffix.png"))))
+            h.click("Confirm answer  >")
+            assertEquals(q.options[1].id,confirmed)
+            rows.add(mapOf("width" to width,"font_scale" to scale,"visible_pending_state" to true,"selected_and_checked_semantics" to true,"correctness_hidden_until_confirmation" to true,"confirmed_authored_option_id" to confirmed!!.value))
+        }
+        Proof10J.write("10L3/visual-restoration/revision-2","pending-selection-results.json",mapOf("status" to "pass_shared_scope","cases" to rows,"native_browser_acceptance" to "requires actual target observations"))
+    }
+}
