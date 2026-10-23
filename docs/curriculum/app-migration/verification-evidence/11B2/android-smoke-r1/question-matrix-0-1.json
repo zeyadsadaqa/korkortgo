@@ -1,0 +1,42 @@
+{
+  "package": "ContentPackageIdentity(contentVersion=screen-2026-10-14-78a89d8ffbb8-accepted-9j-step10-r1, manifestSha256=Sha256(value=e08dddeb7f744029096d7e64568bd3980d272a503415f3837db3dddaaa293a79))",
+  "complete": true,
+  "rows": [
+    {
+      "question_id": "sign-meaning-S1",
+      "revision": "replacement-candidate-r2",
+      "dark": false,
+      "font_scale": 1,
+      "image_zoom_returns": 1,
+      "native_selection_focus_confirm": "passed",
+      "native_pending_pixels_changed": true
+    },
+    {
+      "question_id": "sign-meaning-S1",
+      "revision": "replacement-candidate-r2",
+      "dark": false,
+      "font_scale": 1.6,
+      "image_zoom_returns": 1,
+      "native_selection_focus_confirm": "passed",
+      "native_pending_pixels_changed": true
+    },
+    {
+      "question_id": "sign-meaning-S1",
+      "revision": "replacement-candidate-r2",
+      "dark": true,
+      "font_scale": 1,
+      "image_zoom_returns": 1,
+      "native_selection_focus_confirm": "passed",
+      "native_pending_pixels_changed": true
+    },
+    {
+      "question_id": "sign-meaning-S1",
+      "revision": "replacement-candidate-r2",
+      "dark": true,
+      "font_scale": 1.6,
+      "image_zoom_returns": 1,
+      "native_selection_focus_confirm": "passed",
+      "native_pending_pixels_changed": true
+    }
+  ]
+}

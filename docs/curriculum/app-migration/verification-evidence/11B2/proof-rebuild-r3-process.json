@@ -1,0 +1,21 @@
+{
+  "pid": 2713,
+  "command": [
+    "python3",
+    "docs/curriculum/app-migration/verification-evidence/run_step11.py",
+    "11B2",
+    "proof-rebuild-r3",
+    "./gradlew",
+    ":composeApp:wasmJsBrowserDevelopmentExecutableDistribution",
+    ":composeApp:linkDebugFrameworkIosSimulatorArm64",
+    "-PreferenceProof",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/11B2/proof-output.gradle",
+    "--offline",
+    "--no-daemon",
+    "--max-workers=1",
+    "-Pkotlin.compiler.execution.strategy=in-process",
+    "-Dorg.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8"
+  ],
+  "started_utc": "2026-10-22T19:18:32.243719+00:00"
+}

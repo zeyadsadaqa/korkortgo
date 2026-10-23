@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "generation_checks": 6,
+  "python_tests": 158,
+  "failures": 0,
+  "evidence": "content-and-python-r1.json",
+  "log": "content-and-python-r1.log",
+  "input_changes": [
+    "docs/curriculum/app-migration/verification-evidence/11B1/normal-jar-inspection.json"
+  ]
+}

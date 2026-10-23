@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.ImageViewportTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-22T13:29:21.684Z" hostname="Zeyads-MacBook-Pro.local" time="0.0">
+  <properties/>
+  <testcase name="panCannotLoseTheImageAndResetReturnsToFit[desktop]" classname="se.korkort.ImageViewportTest" time="0.0"/>
+  <testcase name="assessmentViewerDoesNotUseStudyMeaningOrCode[desktop]" classname="se.korkort.ImageViewportTest" time="0.0"/>
+  <testcase name="fitContainsWholeImageWithOneScale[desktop]" classname="se.korkort.ImageViewportTest" time="0.0"/>
+  <testcase name="resourceHashMatchesStandardSha256Vectors[desktop]" classname="se.korkort.ImageViewportTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="se.korkort.LearningViewsSemanticsTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2026-10-22T13:29:21.829Z" hostname="Zeyads-MacBook-Pro.local" time="14.519">
+  <properties/>
+  <testcase name="exactFuelReviewUsesASelectedBCorrectAndSelectableUnroundedExplanation[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.35"/>
+  <testcase name="sourceReturnRestoresTheExactTriggerWithoutFabricatedPosition[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="2.858"/>
+  <testcase name="approvedContextualCropCannotPaintIntoFollowingContent[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.746"/>
+  <testcase name="routeRetainsLibrarySearchExpansionAndAccessibleFieldState[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.09"/>
+  <testcase name="calculationAndTableRetainFullTextAtSameViewportAndLargeScale[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.38"/>
+  <testcase name="deliberateRevealRemovesHiddenAnswerAndRestoresToggleFocus[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.231"/>
+  <testcase name="libraryClearActionsPreserveTheOtherInput[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.85"/>
+  <testcase name="referenceBackUsesCatalogueRatherThanLibrary[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.049"/>
+  <testcase name="chooserRequiresDeliberateChoiceAndMovedPassageShowsParentNotice[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.746"/>
+  <testcase name="unavailableExternalFailureKeepsAllRecoveryActions[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.244"/>
+  <testcase name="reviewUsesShuffledSnapshotAndWithholdsFeedbackUntilAllowed[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.592"/>
+  <testcase name="referenceCatalogueWithoutReadingOriginReturnsToLibrary[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.037"/>
+  <testcase name="readingReferenceCatalogueReturnRestoresThePassageRepeatedly[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="1.103"/>
+  <testcase name="libraryAndReaderRenderAtPhoneWideAndActualLargeText[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="4.06"/>
+  <testcase name="missingResultRequiresDeliberateSetupAction[desktop]" classname="se.korkort.LearningViewsSemanticsTest" time="0.183"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

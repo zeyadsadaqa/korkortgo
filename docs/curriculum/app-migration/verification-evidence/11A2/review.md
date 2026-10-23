@@ -1,0 +1,3 @@
+# 11A2 — complete scope accounting
+
+Mapped all 132 original journeys to supported execution methods. Normal reachable flows retain their normal App/accepted-bank requirement. The 16 composite recovery journeys include arbitrary inputs with no normal UI entry point; the strict end-to-end claims remain open, while route-harness evidence will be labeled supplementary. This follows11A2’s explicit instruction to retain strict cases when equivalence is not authorized. Desktop URI callbacks remain scoped to the existing harness policy. Actual Android TalkBack playback/listening remains required and distinct from native node/trait audits; iOS remains simulator-scoped with no VoiceOver-listening inference. No required case is waived by this task’s completion.

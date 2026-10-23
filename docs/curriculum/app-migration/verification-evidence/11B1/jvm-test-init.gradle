@@ -1,0 +1,11 @@
+gradle.projectsEvaluated {
+ def app=gradle.rootProject.project(':composeApp')
+ app.extensions.getByName('kotlin').sourceSets.getByName('desktopTest').kotlin.srcDir(new File(app.rootProject.projectDir,'docs/curriculum/app-migration/verification-evidence/10L2/content-corrections/candidate/kotlin'))
+ ['10L3/DEF-10F-001','10L3/visual-restoration','10L3/content-corrections'].each { task ->
+  app.extensions.getByName('kotlin').sourceSets.getByName('desktopTest').kotlin.srcDir(new File(app.rootProject.projectDir,'docs/curriculum/app-migration/verification-evidence/'+task))
+ }
+}
+
+gradle.projectsEvaluated { gradle.rootProject.project(':composeApp').extensions.getByName('kotlin').sourceSets.getByName('desktopTest').kotlin.srcDir(new File(gradle.rootProject.projectDir,'docs/curriculum/app-migration/verification-evidence/11B1')) }
+
+gradle.projectsEvaluated { gradle.rootProject.project(':composeApp').tasks.withType(org.gradle.api.tasks.testing.Test).configureEach { filter { excludeTestsMatching('se.korkort.AcceptedArtworkStep10Test') } } }

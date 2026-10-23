@@ -1,0 +1,30 @@
+{
+  "status": "pass_smoke",
+  "platform_build": "proof-platforms-r1.json",
+  "android": "android-smoke-r1.json",
+  "ios_build": "ios-build-r2.json",
+  "ios_simulator": "ios-smoke-r1.json",
+  "browser_smoke_row": {
+    "question_id": "sign-meaning-S1",
+    "revision": "replacement-candidate-r2",
+    "theme": "light",
+    "font_scale": "1",
+    "image_zoom_returns": 1,
+    "checked_selection": "pass",
+    "confirm_disabled_until_selection": "pass",
+    "modal_background_hidden": "pass",
+    "selection_survives_zoom": "pass",
+    "interaction": "native browser accessibility actions"
+  },
+  "desktop_smoke_row": {
+    "question_id": "sign-meaning-A1",
+    "revision": "rewrite-r2",
+    "width": 390,
+    "height": 844,
+    "dark": false,
+    "font_scale": 1.0,
+    "image_occurrences": 1,
+    "zoom_returns": 1
+  },
+  "scope": "Current accepted artwork hosts compile and original smoke cases pass; full matrices and final normal-build acceptance remain separate."
+}

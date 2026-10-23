@@ -1,0 +1,58 @@
+Optional(Attributes: Application, 0x114ce8b40, pid: 10217, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x114ce8b40, pid: 10217, label: 'KörkortGo'
+    Window (Main), 0x114ce9b80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x114ce8280, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x114ceb0c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x114ceb840, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x114cea6c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x114ce88c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x114ce8f00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x114cebac0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x114ce8a00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x114ceb700, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x114ce8000, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x114ceaa80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x114ceabc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x114ceae40, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x114cebe80, {{0.0, 154.7}, {284.0, 38.3}}, label: 'Fixture: sign-meaning-S1'
+                      Button, 0x114cea800, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x114ce8c80, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x114ce92c0, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x114cea940, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x114ceb5c0, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x114cea300, {{16.0, 295.3}, {370.0, 528.7}}
+                          StaticText, 0x114cea080, {{16.0, -44.3}, {370.0, 256.7}}, label: 'Which description identifies this illustrated Swedish sign, symbol or road marking?'
+                          Other, 0x114ceaf80, {{16.0, 295.3}, {370.0, 177.7}}, label: 'White rectangle with a very thin outline of a lorry viewed from the side, cab facing left.'
+                          Button, 0x114ce97c0, {{16.0, 487.0}, {277.0, 48.0}}, label: 'Enlarge question image'
+                            StaticText, 0x114ce8dc0, {{40.0, 495.0}, {229.0, 32.0}}, label: 'Enlarge question image'
+                          Other, 0x114ceb200, {{16.0, 549.0}, {370.0, 112.7}}
+                          Button, 0x114ce9e00, {{16.0, 549.0}, {370.0, 112.7}}, label: 'A
+Fire extinguisher', value: Selected, Selected
+                            StaticText, 0x114ce9cc0, {{34.0, 567.0}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x114ce9f40, {{292.3, 567.0}, {75.7, 25.7}}
+                            StaticText, 0x114ce83c0, {{34.0, 605.3}, {190.7, 38.3}}, label: 'Fire extinguisher'
+                          Other, 0x114ce9900, {{16.0, 549.0}, {370.0, 275.0}}
+                          Button, 0x114cea1c0, {{16.0, 675.7}, {370.0, 112.7}}, label: 'B
+Accessible parking marking', value: Not selected
+                            StaticText, 0x114ce9400, {{34.0, 693.7}, {16.0, 38.3}}, label: 'B'
+                            StaticText, 0x114ce8500, {{34.0, 732.0}, {311.7, 38.3}}, label: 'Accessible parking marking'
+                          Other, 0x114e997c0, {{16.0, 675.7}, {370.0, 112.7}}
+                          Button, 0x114e988c0, {{16.0, 802.3}, {370.0, 45.7}}, label: 'C
+Stop marking', value: Not selected
+                            StaticText, 0x114e99680, {{34.0, 820.3}, {15.7, 3.7}}, label: 'C'
+                          Other, 0x114e99f40, {{16.0, 802.3}, {370.0, 21.7}}
+                          Button, 0x114e9a440, {{16.0, 929.0}, {370.0, 112.7}}, label: 'D
+Heavy goods vehicle symbol', value: Not selected
+                          Button, 0x114e9b700, {{16.0, 1055.7}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x114e9a800, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x114e98640, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x114e983c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x114ce8b40, pid: 10217, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x114e99a40, pid: 10217, label: 'KörkortGo'
+  }
+)
