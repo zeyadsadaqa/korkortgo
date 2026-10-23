@@ -5,6 +5,31 @@ import kotlin.test.*
 
 /** Repeats scored/transient checks on the release bank, never the candidate subset. */
 class AcceptedReleaseStateTest {
+    @Test fun productionStartRejectsInjectedIdentityAndPayloadChanges() {
+        val bank = acceptedPracticeBank9J
+        val invalidIdentities = listOf(
+            bank.identity.copy(contentVersion = ""),
+            bank.identity.copy(contentVersion = "unrelated-package"),
+            bank.identity.copy(manifestSha256 = Sha256("0".repeat(64))),
+        )
+        val changed = bank.questions.first().let { q ->
+            q.copy(feedback = q.feedback.copy(correctOptionId = q.options.first { it.id != q.feedback.correctOptionId }.id))
+        }
+        val invalidBanks = invalidIdentities.map { bank.copy(identity = it) } + listOf(
+            bank.copy(questions = listOf(changed) + bank.questions.drop(1)),
+            bank.copy(questions = bank.questions.drop(1)),
+            bank.copy(questions = bank.questions.reversed()),
+            bank.copy(releaseAccepted = false),
+        )
+        invalidBanks.forEachIndexed { index, invalid ->
+            assertFalse(practiceStartCheck("1", invalid).allowed, "Invalid release case $index must fail preflight")
+            assertFailsWith<IllegalArgumentException>("Invalid release case $index must not start") {
+                TransientQuizState(countText = "1").showSetup().startPractice(invalid, Random(1))
+            }
+        }
+        assertTrue(practiceStartCheck("70", bank.copy(questions = bank.questions.toList())).allowed)
+    }
+
     @Test fun acceptedPackagePreservesEverySizeBothFeedbackModesAndExactSnapshotScores() {
         val bank=acceptedPracticeBank9J
         assertTrue(bank.releaseAccepted)

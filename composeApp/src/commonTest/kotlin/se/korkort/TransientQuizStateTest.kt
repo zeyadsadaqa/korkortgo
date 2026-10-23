@@ -96,19 +96,19 @@ class TransientQuizStateTest {
     @Test fun setupPreflightsEveryQuotaAndRandomSlotWithoutWeakeningReleaseGate() {
         val questions=Category.entries.flatMap{category->(0 until category.quota+5).map{question("${category.name}-$it",category)}}
         val bank=PracticeBank(identity,questions,true)
-        for(size in 1..70)assertTrue(practiceStartCheck(size.toString(),bank).allowed)
-        listOf("","0","71","abc","1.5","999999999999999").forEach{assertFalse(practiceStartCheck(it,bank).allowed)}
+        for(size in 1..70)assertTrue(practiceStartCheck(size.toString(),bank,fixture=true).allowed)
+        listOf("","0","71","abc","1.5","999999999999999").forEach{assertFalse(practiceStartCheck(it,bank,fixture=true).allowed)}
         val setup=TransientQuizState(countText="70",feedback=Feedback.AT_END).showSetup()
-        val started=setup.startPractice(bank,Random(3));assertEquals(70,started.pinned!!.assessment.snapshots.size)
+        val started=setup.startPracticeFixture(bank,Random(3));assertEquals(70,started.pinned!!.assessment.snapshots.size)
         assertEquals(Feedback.AT_END,started.copy(feedback=Feedback.IMMEDIATE).pinned!!.assessment.feedbackMode)
         assertFailsWith<IllegalArgumentException>{setup.startPractice(bank.copy(releaseAccepted=false))}
-        assertFailsWith<IllegalArgumentException>{started.startPractice(bank)}
-        assertFalse(practiceStartCheck("70",bank.copy(questions=questions.filter{it.category!=Category.RULES})).allowed)
-        assertFalse(practiceStartCheck("70",bank.copy(questions=questions+questions.first())).allowed)
+        assertFailsWith<IllegalArgumentException>{started.startPracticeFixture(bank)}
+        assertFalse(practiceStartCheck("70",bank.copy(questions=questions.filter{it.category!=Category.RULES}),fixture=true).allowed)
+        assertFalse(practiceStartCheck("70",bank.copy(questions=questions+questions.first()),fixture=true).allowed)
         val cross=questions.last().copy(conceptId=questions.first().conceptId)
-        assertFalse(practiceStartCheck("70",bank.copy(questions=questions.dropLast(1)+cross)).allowed)
+        assertFalse(practiceStartCheck("70",bank.copy(questions=questions.dropLast(1)+cross),fixture=true).allowed)
         val held=questions.map{it.copy(acceptance=it.acceptance.copy(eligibility=ScoringEligibility.HELD))}
-        assertFalse(practiceStartCheck("1",bank.copy(questions=held)).allowed)
+        assertFalse(practiceStartCheck("1",bank.copy(questions=held),fixture=true).allowed)
     }
     @Test fun staleRoutesCannotAbandonAnExistingAttemptAndZoomDoesNotChangeIt() {
         val original=practice()
@@ -131,13 +131,13 @@ class TransientQuizStateTest {
         assertEquals(1,old.reviewPositions().size)
         val bank=PracticeBank(identity.copy(contentVersion="new"),revised,true)
         val setup=old.copy(countText="1").showSetup()
-        val next=setup.startPractice(bank,Random(1))
+        val next=setup.startPracticeFixture(bank,Random(1))
         assertNotEquals(oldPin.id,next.pinned!!.id)
         assertNull(next.review);assertNull(next.draft);assertEquals("new",next.pinned!!.token.packageIdentity.contentVersion)
         assertEquals(2,oldPin.assessment.score)
         val token=next.pinned!!.token
         val discarded=next.request(NavigationRequest(AppDestination.QuizSetup)).first.discardExit()
-        val again=discarded.startPractice(bank,Random(1))
+        val again=discarded.startPracticeFixture(bank,Random(1))
         assertNotEquals(token.sessionId,again.pinned!!.token.sessionId)
         assertFailsWith<IllegalArgumentException>{again.select(token,token.displayedOptionIds.first())}
     }

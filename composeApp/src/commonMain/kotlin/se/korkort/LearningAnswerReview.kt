@@ -35,9 +35,16 @@ import androidx.compose.ui.unit.dp
             }}
         }
         presentation.explanation?.let { explanation ->
-            Text(explanation,style=MaterialTheme.typography.bodyLarge)
-            (listOf(question.relationship.primaryLessonId)+question.relationship.relatedLessonIds).distinct().forEach{id->TextButton({onRelated(ContentTarget(id))}){Text(readerDocuments.single{it.id==id}.title)}}
-            question.relationship.sourceUses.map{it.referenceId}.distinct().forEach{id->TextButton({onSource(id)},Modifier.focusRequester(sourceFocus.getValue(id)).focusProperties{canFocus=true}){Text(navigationSources.references.single{it.id==id}.title)}}
+            LearningInfoPanel {
+                Text("Explanation",style=MaterialTheme.typography.headlineSmall,modifier=Modifier.semantics{heading()})
+                Text(explanation,style=MaterialTheme.typography.bodyLarge)
+            }
+            (listOf(question.relationship.primaryLessonId)+question.relationship.relatedLessonIds).distinct().forEach{id->
+                LearningAction(readerDocuments.single{it.id==id}.title,{onRelated(ContentTarget(id))},detail="Related lesson")
+            }
+            question.relationship.sourceUses.map{it.referenceId}.distinct().forEach{id->
+                LearningAction(navigationSources.references.single{it.id==id}.title,{onSource(id)},Modifier.focusRequester(sourceFocus.getValue(id)).focusProperties{canFocus=true},detail="Sources")
+            }
         }
     }
 }

@@ -62,7 +62,7 @@ See [accepted-content build and regeneration guidance](docs/development/content.
 - `content/source-manifest.json`: the official catalogue and rules pages visited.
 - `content/quality-report.json`: counts and content composition.
 - `composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt`: integrated canonical learning and practice routes.
-- `tools/finalize_question_package_9j.py`: accepted package assembly and release validation.
+- `tools/finalize_step10_corrections.py`: current accepted package assembly and release validation; historical producers remain audit tools.
 - `tools/build_content.py`: historical question compiler, including explicit calculation models.
 - `tools/scrape_sources.py`: bounded downloader for the public Transportstyrelsen section.
 
@@ -75,8 +75,12 @@ Calculations are labelled with assumptions. Approximate braking models are educa
 To verify the current candidate and accepted package without changing acceptance decisions:
 
 ```sh
-python3 tools/assemble_question_package_9j.py --check
-python3 tools/finalize_question_package_9j.py --check
+python3 tools/stage_step10_corrections.py --check
+python3 tools/review_step10_delivery.py --check
+python3 tools/finalize_step10_corrections.py --check
+python3 tools/build_navigation.py --check
+python3 tools/verify_step10_content.py reader
+python3 tools/verify_step10_content.py baseline
 ./gradlew :composeApp:desktopTest
 ```
 

@@ -28,7 +28,7 @@ private val Sage=Color(0xFFE7EEE5)
 private val Muted=Color(0xFF61706B)
 private val Line=Color(0xFFD5DED5)
 /** One transient owner for production navigation, practice identity and review state. */
-@Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size)) {
+@Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size), fixtureBank: Boolean = false) {
     require(summary.questions==bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED})
     require(summary.modules==readerModules.size && summary.lessons==readerModules.sumOf{it.lessonIds.size} && summary.signEntries==navigationSigns.size)
     var state by remember { mutableStateOf(TransientQuizState()) }
@@ -134,13 +134,13 @@ private val Line=Color(0xFFD5DED5)
                             }
                         },{
                             Panel(Sage){Text("Your question mix",fontFamily=MaterialTheme.typography.headlineLarge.fontFamily,fontSize=26.sp,fontWeight=FontWeight.Bold)
-                                val check=practiceStartCheck(state.countText,bank)
+                                val check=practiceStartCheck(state.countText,bank,fixture=fixtureBank)
                                 val mix=QuizEngine.allocation((check.size?:1).coerceIn(1,70))
                                 Category.entries.forEach{category->Row(Modifier.fillMaxWidth()){Text(category.title,Modifier.weight(1f));Text(mix.categories.getValue(category).toString())}}
                                 Row(Modifier.fillMaxWidth()){Text("Random from any category",Modifier.weight(1f));Text(mix.random.toString())}
                                 Text("The extra random questions can belong to any category. No repeated learning point within a test.",fontSize=12.sp)
                                 check.errors.forEach{Text(it,color=MaterialTheme.colorScheme.error)}
-                                Primary("Start test  >",check.allowed && state.recovery==PracticeRecovery.NONE){state=state.startPractice(bank)}
+                                Primary("Start test  >",check.allowed && state.recovery==PracticeRecovery.NONE){state=if(fixtureBank)state.startPracticeFixture(bank)else state.startPractice(bank)}
                                 Text("No time pressure. All questions count towards your practice score.",fontSize=12.sp)
                             }
                         })}
@@ -209,7 +209,12 @@ private val Line=Color(0xFFD5DED5)
 
 @Composable private fun MissingPractice(onSetup:()->Unit) {Column(Modifier.padding(24.dp)){Text("No active test is available.");TextButton(onSetup){Text("Set up a practice test")}}}
 
-@Composable private fun Nav(label:String,active:Boolean,onClick:()->Unit) { TextButton(onClick=onClick,colors=ButtonDefaults.textButtonColors(containerColor=if(active)Sage else Color.Transparent)) { Text(label,color=Forest,fontWeight=if(active)FontWeight.Bold else FontWeight.Normal) } }
+@Composable private fun Nav(label:String,active:Boolean,onClick:()->Unit) {
+    Column(Modifier.width(IntrinsicSize.Min)) {
+        TextButton(onClick=onClick) { Text(label,color=Forest,fontWeight=if(active)FontWeight.Bold else FontWeight.Normal) }
+        if(active) HorizontalDivider(color=Forest,thickness=3.dp)
+    }
+}
 @Composable private fun Eyebrow(text:String) { Text(text.uppercase(),fontSize=11.sp,letterSpacing=1.3.sp,color=Muted,fontWeight=FontWeight.SemiBold,modifier=Modifier.padding(bottom=10.dp)) }
 @Composable private fun Heading(text:String,large:Boolean=false) { Text(text,fontFamily=MaterialTheme.typography.headlineLarge.fontFamily,fontWeight=FontWeight.Bold,fontSize=if(large)48.sp else 36.sp,lineHeight=if(large)54.sp else 43.sp,color=Forest,modifier=Modifier.padding(bottom=16.dp).semantics{heading()}) }
 @Composable private fun Primary(text:String,enabled:Boolean=true,onClick:()->Unit) { Button(onClick=onClick,enabled=enabled,shape=RoundedCornerShape(9.dp),contentPadding=PaddingValues(horizontal=24.dp,vertical=16.dp),modifier=Modifier.heightIn(min=52.dp)) {Text(text,fontWeight=FontWeight.SemiBold)} }

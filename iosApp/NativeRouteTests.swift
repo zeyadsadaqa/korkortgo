@@ -12,7 +12,11 @@ import XCTest
     }
     private func button(_ label: String) -> XCUIElement { app.buttons.matching(NSPredicate(format: "label == %@", label)).firstMatch }
     private func reach(_ element: XCUIElement, up: Bool = true) {
-        let viewport = CGRect(x: app.frame.minX, y: app.frame.minY + 65, width: app.frame.width, height: app.frame.height - 100)
+        // The artwork fixture has a fixed header above its independently
+        // scrolling question. Do not mistake that header for usable card space.
+        let ready = app.staticTexts["Exact question images ready"]
+        let top = ready.exists ? max(app.frame.minY + 65, ready.frame.maxY + 10) : app.frame.minY + 65
+        let viewport = CGRect(x: app.frame.minX, y: top, width: app.frame.width, height: app.frame.maxY - 35 - top)
         for _ in 0..<60 {
             if element.exists && element.isHittable && viewport.contains(element.frame) {
                 var previous = element.frame
@@ -28,8 +32,12 @@ import XCTest
             // Slow, held drags avoid fling overshoot. If a large image carries the
             // target above the viewport, reverse rather than repeatedly scrolling away.
             let forward = element.exists ? element.frame.midY >= viewport.midY : up
-            let start = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: forward ? 0.72 : 0.32))
-            let end = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: forward ? 0.32 : 0.72))
+            // Bound the drag by the remaining distance. A fixed 350-point drag
+            // oscillates across the usable viewport for a 300-point answer card.
+            let distance = element.exists ? min(160, max(40, abs(element.frame.midY - viewport.midY))) : 160
+            let anchor = max(viewport.minY + 170, viewport.midY)
+            let start = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: anchor / app.frame.height))
+            let end = app.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: (anchor + (forward ? -distance : distance)) / app.frame.height))
             start.press(forDuration: 0.1, thenDragTo: end, withVelocity: .slow, thenHoldForDuration: 0.3)
         }
         record("unreachable-control")
@@ -92,7 +100,12 @@ import XCTest
     func testPendingCandidateSelectionAndNeutralModal() throws {
         launch("candidate", "sign-recognise-A1")
         let description = "Orange black-bordered rectangle with two upward black arrows; the left bends right, with a dashed lower divider and black diagonal wedge at upper left."
-        let radio = button(description); reach(radio); let choiceLabel = radio.label; radio.tap(); XCTAssertTrue(button(choiceLabel).isSelected)
+        let radio = button(description); reach(radio); let choiceLabel = radio.label
+        let beforePixels = radio.screenshot().image.cgImage!.dataProvider!.data! as Data
+        radio.tap(); XCTAssertTrue(button(choiceLabel).isSelected)
+        let afterPixels = radio.screenshot().image.cgImage!.dataProvider!.data! as Data
+        XCTAssertNotEqual(beforePixels, afterPixels, "Pending candidate selection must visibly change")
+        record("candidate-pending")
         let enlarge = button("Enlarge option A image"); reach(enlarge); enlarge.tap()
         XCTAssertTrue(button("Close").waitForExistence(timeout: 5)); record("candidate-neutral-modal")
         XCTAssertFalse(app.staticTexts["Correct answer"].exists)
@@ -126,25 +139,41 @@ import XCTest
         let env = ProcessInfo.processInfo.environment
         let start = Int(env["QUESTION_START"] ?? "0")!
         let replacements = (env["QUESTION_GROUP"] ?? (env["QUESTION_START"] == nil ? "replacements" : "all")) == "replacements"
-        let count = Int(env["QUESTION_COUNT"] ?? (replacements ? "38" : "616"))!
-        let pool = replacements ? questions.filter { $0["revision"] as! String == "replacement-candidate-r2" } : questions
+        let corrected = env["QUESTION_GROUP"] == "corrected"
+        let accepted = (env["QUESTION_GROUP"] ?? "").hasPrefix("accepted-")
+        let count = Int(env["QUESTION_COUNT"] ?? (corrected ? "7" : replacements ? "38" : "616"))!
+        let pool: [[String: Any]]
+        if accepted {
+            pool = try JSONSerialization.jsonObject(with: Data(env["CURRENT_QUESTIONS_JSON"]!.utf8)) as! [[String: Any]]
+        } else if corrected {
+            pool = try JSONSerialization.jsonObject(with: Data(env["CORRECTED_QUESTIONS_JSON"]!.utf8)) as! [[String: Any]]
+        } else {
+            pool = replacements ? questions.filter { $0["revision"] as! String == "replacement-candidate-r2" } : questions
+        }
         let selected = Array(pool.dropFirst(start).prefix(count))
         XCTAssertFalse(selected.isEmpty)
         let themes = env["MATRIX_DARK"].map { [$0 == "true"] } ?? [false, true]
         let scales = env["MATRIX_SCALE"].map { [$0] } ?? ["1", "1.6"]
         for dark in themes { for scale in scales {
-            launch(replacements ? "candidate-replacements" : "candidate", selected[0]["id"] as! String, scale: scale, dark: dark)
+            launch(accepted ? (env["QUESTION_GROUP"] == "accepted-replacements" ? "accepted-replacements" : "accepted-artwork") : corrected ? "corrected-question" : replacements ? "candidate-replacements" : "candidate", selected[0]["id"] as! String, scale: scale, dark: dark)
             var rows = [[String: Any]]()
             for (index, question) in selected.enumerated() {
                 let id = question["id"] as! String
                 XCTAssertTrue(app.staticTexts["Fixture: " + id].waitForExistence(timeout: 10))
                 XCTAssertTrue(app.staticTexts["Exact question images ready"].waitForExistence(timeout: 10))
                 XCTAssertFalse(app.staticTexts["Correct answer"].exists)
-                let capture = ["S5","S6","S7","S11","S12","S13","T1","T2","T6","T8","T22","X8"].contains(String(id.split(separator: "-").last!))
+                let capture = corrected || accepted || ["S5","S6","S7","S11","S12","S13","T1","T2","T6","T8","T22","X8"].contains(String(id.split(separator: "-").last!))
                 let captureName = "question-\(id)-\(dark)-\(scale)"
                 if capture { record(captureName + "-inline") }
                 let radio = app.buttons.containing(.staticText, identifier: "A").firstMatch
-                reach(radio); let choiceLabel = radio.label; radio.tap(); XCTAssertTrue(button(choiceLabel).isSelected)
+                reach(radio); let choiceLabel = radio.label
+                let beforePixels = accepted ? (radio.screenshot().image.cgImage!.dataProvider!.data! as Data) : nil
+                radio.tap(); XCTAssertTrue(button(choiceLabel).isSelected)
+                if accepted {
+                    let afterPixels = radio.screenshot().image.cgImage!.dataProvider!.data! as Data
+                    XCTAssertNotEqual(beforePixels!, afterPixels, "Pending choice must visibly change: " + id)
+                    record(captureName + "-pending")
+                }
                 var triggers = (question["stem"] as! Bool) ? ["Enlarge question image"] : []
                 if question["optionImages"] as! Int > 0 {
                     XCTAssertEqual(question["optionImages"] as! Int, 4)
@@ -165,7 +194,7 @@ import XCTest
                 }
                 let confirm = button("Confirm answer  >"); reach(confirm); confirm.tap()
                 XCTAssertTrue(app.staticTexts["Selection recorded for this unscored verification fixture."].waitForExistence(timeout: 5))
-                rows.append(["question_id": id, "revision": question["revision"]!, "dark": dark, "font_scale": scale, "image_zoom_returns": triggers.count, "native_selection_confirm": "passed"])
+                rows.append(["question_id": id, "revision": question["revision"]!, "dark": dark, "font_scale": scale, "image_zoom_returns": triggers.count, "native_selection_confirm": "passed", "native_pending_pixels_changed": accepted])
                 let data = try JSONSerialization.data(withJSONObject: rows, options: [.sortedKeys])
                 let attachment = XCTAttachment(data: data, uniformTypeIdentifier: "public.json")
                 attachment.name = "question-matrix-\(start)-\(count)-\(dark)-\(scale)-\(index)"

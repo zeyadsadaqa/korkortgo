@@ -17,6 +17,11 @@ fun practiceStartCheck(countText: String, bank: PracticeBank, fixture: Boolean =
     val errors=mutableListOf<String>()
     if(size==null)errors.add("Choose a number from 1 to 70.")
     if(!fixture && !bank.releaseAccepted)errors.add("The question package is not accepted for release.")
+    // A caller-supplied release flag or identity cannot authenticate a changed payload.
+    // Synthetic model banks use the explicit internal fixture start, never the app route.
+    if(!fixture && (bank.identity!=acceptedIdentity9J || bank.questions!=acceptedQuestions9J)) {
+        errors.add("The question package does not match the accepted release.")
+    }
     if(bank.questions.map{it.key.questionId}.distinct().size!=bank.questions.size)errors.add("Duplicate question identity.")
     val eligible=bank.questions.filter{it.acceptance.eligibility==ScoringEligibility.ACCEPTED}
     val concepts=eligible.groupBy{it.conceptId}

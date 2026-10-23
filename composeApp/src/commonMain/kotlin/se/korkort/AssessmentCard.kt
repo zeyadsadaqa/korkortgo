@@ -1,6 +1,7 @@
 package se.korkort
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.focusable
 import androidx.compose.foundation.selection.selectable
 import androidx.compose.foundation.selection.selectableGroup
@@ -11,6 +12,7 @@ import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
 import androidx.compose.ui.semantics.*
+import androidx.compose.ui.state.ToggleableState
 import androidx.compose.ui.unit.dp
 
 /** Uses the existing question card's vertical reading order. Wiring into routes is 9L7.
@@ -33,6 +35,8 @@ fun AssessmentCard(
         if (!presentation.canConfirm) feedbackFocus.requestFocus()
     }
     val selection = presentation.choices.singleOrNull { it.selected }?.id ?: pending
+    DisposableEffect(presentation.key) { onDispose { clearBrowserAssessmentChoices() } }
+    SideEffect { updateBrowserAssessmentChoices(presentation.choices.singleOrNull{it.id==selection}?.letter,presentation.canConfirm) }
     Column(Modifier.semantics { isTraversalGroup = true }, verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(presentation.prompt, style = MaterialTheme.typography.headlineSmall)
         presentation.image?.let { picture ->
@@ -40,18 +44,28 @@ fun AssessmentCard(
             AssessmentPicture(picture, Modifier.readableArtworkFrame(), image)
             if(onEnlargeImage!=null) OutlinedButton(onClick={onEnlargeImage(picture,focus)},modifier=Modifier.heightIn(min=48.dp).focusRequester(focus).focusProperties{canFocus=true}) {Text("Enlarge question image")}
         }
-        Column(Modifier.selectableGroup(), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+        Column(Modifier.selectableGroup().then(if(singleLayerBrowserModals)Modifier.semantics{contentDescription="Answer choices"}else Modifier), verticalArrangement = Arrangement.spacedBy(14.dp)) {
             presentation.choices.forEach { choice ->
                 key(choice.id) {
                     // Foundation selectable supplies Space/Enter, focus and radio semantics as one target.
-                    Surface(shape = MaterialTheme.shapes.medium) {
+                    val isSelected = choice.id == selection
+                    Surface(shape = MaterialTheme.shapes.medium,
+                        border = BorderStroke(if(isSelected)2.dp else 1.dp,if(isSelected)MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outlineVariant),
+                        color = if(isSelected && presentation.canConfirm)MaterialTheme.colorScheme.secondaryContainer else MaterialTheme.colorScheme.surface) {
                         Column(Modifier.fillMaxWidth().selectable(
                             selected = choice.id == selection,
                             enabled = presentation.canConfirm,
                             role = Role.RadioButton,
                             onClick = { pending = choice.id },
-                        ).semantics(mergeDescendants = true) {}.padding(18.dp)) {
-                            Text(choice.letter)
+                        ).semantics(mergeDescendants = true) {
+                            toggleableState = if(isSelected)ToggleableState.On else ToggleableState.Off
+                            stateDescription = if(isSelected)"Selected" else "Not selected"
+                        }.padding(18.dp)) {
+                            Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween) {
+                                Text(choice.letter)
+                                // The radio's checked state/stateDescription supplies this to AT once.
+                                if(isSelected && presentation.canConfirm)Text("Selected",modifier=Modifier.clearAndSetSemantics {},style=MaterialTheme.typography.labelMedium)
+                            }
                             if (choice.text.isNotEmpty()) Text(choice.text)
                             choice.image?.let { AssessmentPicture(it, Modifier.readableArtworkFrame(), image) }
                             choice.correct?.let { correct ->

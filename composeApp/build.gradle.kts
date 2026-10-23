@@ -50,6 +50,8 @@ if (referenceProof) {
         require(allTasks.none {it.name.contains("release",ignoreCase=true) || it.name.contains("publish",ignoreCase=true)}) {"Verification fixtures must not be released or published"}
     }
     kotlin.sourceSets.getByName("commonMain").kotlin.srcDir("src/verificationCommonMain/kotlin")
+    // Unaccepted step10 correction fixtures stay confined to opt-in proof builds.
+    kotlin.sourceSets.getByName("commonMain").kotlin.srcDir(rootProject.file("docs/curriculum/app-migration/verification-evidence/10L2/content-corrections/candidate/kotlin"))
     kotlin.targets.getByName("android").compilations.configureEach {
         if (name == "debug") defaultSourceSet.kotlin.srcDir("src/verificationAndroidMain/kotlin")
     }

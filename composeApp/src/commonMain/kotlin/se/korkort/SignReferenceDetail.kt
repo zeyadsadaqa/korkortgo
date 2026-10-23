@@ -10,7 +10,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
 import androidx.compose.ui.focus.focusRequester
-import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.unit.dp
 
 /** Approved 8J detail. The caller owns canonical routing and validates its return context. */
@@ -32,7 +31,7 @@ fun SignReferenceDetail(
     var openedViewer by remember(entry.id) { mutableStateOf(false) }
     var error by remember(entry.id) { mutableStateOf<String?>(null) }
     val enlargeFocus=remember(entry.id) { FocusRequester() }
-    val titleStyle=MaterialTheme.typography.headlineLarge.copy(fontFamily=FontFamily.Serif)
+    val titleStyle=MaterialTheme.typography.headlineLarge
     val bound=entry.sourceUses.map { use->references.single { it.id==use.referenceId } }.distinctBy { it.id }
     val official=bound.firstOrNull { it.publisher=="Transportstyrelsen" && "transportstyrelsen.se" in it.url }
     fun open(reference: SourceReference) { if(!onExternal(reference))error="Could not open the official page. You can still use this reference and its saved sources." }

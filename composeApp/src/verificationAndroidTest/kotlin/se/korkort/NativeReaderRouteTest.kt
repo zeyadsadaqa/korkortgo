@@ -17,7 +17,7 @@ import java.io.File
 class NativeReaderRouteTest {
     private val instrumentation=InstrumentationRegistry.getInstrumentation()
     private val ui=instrumentation.getUiAutomation(UiAutomation.FLAG_DONT_SUPPRESS_ACCESSIBILITY_SERVICES)
-    private val folder=File(instrumentation.targetContext.filesDir,"native-reader-step1").apply{mkdirs()}
+    private val folder=File(instrumentation.targetContext.filesDir,InstrumentationRegistry.getArguments().getString("evidenceRun") ?: "native-reader-step1").apply{mkdirs()}
     private fun nodes():List<Node> {
         ui.clearCache()
         fun walk(n:Node):List<Node> = listOf(n)+(0 until n.childCount).flatMap{n.getChild(it)?.let(::walk).orEmpty()}
@@ -103,10 +103,13 @@ class NativeReaderRouteTest {
     @Test fun nativeKnowledgeCheckRevealAndReadingNeighbours(){
         val doc=readerDocuments.first{d->d.kind==DocumentKind.LESSON && d.bodyBlocks.any{it.payload is BlockPayload.KnowledgeCheck}}
         val check=doc.bodyBlocks.first{it.payload is BlockPayload.KnowledgeCheck}.payload as BlockPayload.KnowledgeCheck
-        val answer=doc.answerBlocks.single{it.metadata.id==check.answerId}.blocks.first().searchText()
+        val authoredAnswer=doc.answerBlocks.single{it.metadata.id==check.answerId}.blocks.first().searchText()
+        val answer=authoredAnswer.removePrefix("Answer:").trim()
         launch("learning",doc.id.value,1.6f)
         scrollTo("Show answer");assertFalse(nodes().any{label(it).contains(answer)});dump("answer-hidden")
-        click("Show answer");waitFor("Authored answer was not revealed"){nodes().any{label(it).contains(answer)}};dump("answer-revealed")
+        click("Show answer");waitFor("Authored answer was not revealed"){nodes().any{label(it).contains(answer)}}
+        if(authoredAnswer.startsWith("Answer:"))assertTrue(nodes().any{it.isHeading && label(it)=="Answer:"})
+        dump("answer-revealed")
         click("Hide answer");waitFor("Hidden answer remained accessible"){nodes().none{label(it).contains(answer)}}
         val next=readingNeighbours(doc.id).second!!;val nextTitle=readerDocuments.single{it.id==next}.title
         scrollTo("Next: $nextTitle");click("Next: $nextTitle");waitFor("Next used wrong reading order"){nodes().any{it.isHeading && it.text?.toString()==nextTitle}};dump("next-reading")
@@ -133,16 +136,22 @@ class NativeReaderRouteTest {
     @Test fun heldQuestionNativeDeliveryMatrix() {
         val args=InstrumentationRegistry.getArguments()
         val start=args.getString("questionStart")?.toInt() ?: 0
-        val replacements=(args.getString("questionGroup") ?: if(args.containsKey("questionStart"))"all" else "replacements")=="replacements"
-        val count=args.getString("questionCount")?.toInt() ?: if(replacements)38 else 616
-        val questions=candidateQuestions9J.filter {it.acceptance.eligibility==ScoringEligibility.HELD && (!replacements || it.key.revision.value=="replacement-candidate-r2")}.drop(start).take(count)
+        val group=args.getString("questionGroup")
+        val accepted=group?.startsWith("accepted-")==true
+        val corrected=group=="corrected"
+        val replacements=(args.getString("questionGroup") ?: if(args.containsKey("questionStart"))"all" else "replacements") in listOf("replacements","accepted-replacements")
+        val count=args.getString("questionCount")?.toInt() ?: if(corrected)7 else if(replacements)38 else 616
+        val originalIds=candidateQuestions9J.filter{it.acceptance.eligibility==ScoringEligibility.HELD && (!replacements || it.key.revision.value=="replacement-candidate-r2")}.map{it.key.questionId}.toSet()
+        val matrixBank=if(accepted)acceptedQuestions9J.filter{it.key.questionId in originalIds} else if(corrected)step10CandidateQuestions else candidateQuestions9J
+        val matrixIdentity=if(accepted)acceptedIdentity9J else if(corrected)step10CandidateIdentity else candidateIdentity9J
+        val questions=matrixBank.filter {accepted || (it.acceptance.eligibility==ScoringEligibility.HELD && (!replacements || it.key.revision.value=="replacement-candidate-r2"))}.drop(start).take(count)
         require(questions.isNotEmpty())
         val rows=JSONArray()
         val output=File(folder,"question-matrix-$start-$count.json")
         val themes=args.getString("matrixDark")?.let{listOf(it.toBoolean())} ?: listOf(false,true)
         val scales=args.getString("matrixScale")?.let{listOf(it.toFloat())} ?: listOf(1f,1.6f)
         for(dark in themes) for(scale in scales) {
-            launch(if(replacements)"candidate-replacements" else "candidate",questions.first().key.questionId.value,scale,dark)
+            launch(if(accepted)if(replacements)"accepted-replacements" else "accepted-artwork" else if(corrected)"corrected-question" else if(replacements)"candidate-replacements" else "candidate",questions.first().key.questionId.value,scale,dark)
             for((index,q) in questions.withIndex()) {
                 val id=q.key.questionId.value
                 waitFor("Wrong exact question: $id"){find("Fixture: $id")!=null}
@@ -158,8 +167,24 @@ class NativeReaderRouteTest {
                 }
                 val radio=nodes().first{it.isVisibleToUser && it.isCheckable}
                 val choiceLabel=label(radio)
+                val pixelBounds=android.graphics.Rect().also{radio.getBoundsInScreen(it)}
+                fun pendingPixels():IntArray {
+                    val bitmap=requireNotNull(ui.takeScreenshot())
+                    try {
+                        val region=android.graphics.Rect(pixelBounds)
+                        assertTrue(region.intersect(0,0,bitmap.width,bitmap.height))
+                        return IntArray(region.width()*region.height()).also{bitmap.getPixels(it,0,region.width(),region.left,region.top,region.width(),region.height())}
+                    } finally {bitmap.recycle()}
+                }
+                val beforePixels=if(accepted)pendingPixels() else null
                 assertTrue(radio.performAction(Node.ACTION_CLICK))
-                val projection=q.snapshot(candidateIdentity9J,kotlin.random.Random(9)).presentation(null,false,true)
+                waitFor("Pending state not exposed: $id"){nodes().any{label(it)==choiceLabel && it.isCheckable && (it.isChecked || it.isSelected)}}
+                if(accepted) {
+                    instrumentation.waitForIdleSync();SystemClock.sleep(200)
+                    assertFalse("Pending choice must visibly change: $id",beforePixels!!.contentEquals(pendingPixels()))
+                    if(capture)dump("$captureName-pending")
+                }
+                val projection=q.snapshot(matrixIdentity,kotlin.random.Random(9)).presentation(null,false,true)
                 val triggers=listOfNotNull(projection.image?.let{"Enlarge question image"})+projection.choices.filter{it.image!=null}.map{"Enlarge option ${it.letter} image"}
                 for(trigger in triggers) {
                     if(find(trigger)==null)scrollTo(trigger,forward=trigger!="Enlarge question image")
@@ -177,12 +202,12 @@ class NativeReaderRouteTest {
                 waitFor("Lost pending option: $id"){nodes().any{label(it)==choiceLabel && it.isCheckable && (it.isChecked || it.isSelected)}}
                 scrollTo("Confirm answer  >");waitFor("Confirm not settled"){find("Confirm answer  >")!=null};click("Confirm answer  >")
                 waitFor("No recorded confirmation: $id"){find("Selection recorded for this unscored verification fixture.")!=null}
-                rows.put(JSONObject().put("question_id",id).put("revision",q.key.revision.value).put("dark",dark).put("font_scale",scale).put("image_zoom_returns",triggers.size).put("native_selection_focus_confirm","passed"))
-                output.writeText(JSONObject().put("package",candidateIdentity9J.toString()).put("complete",false).put("rows",rows).toString(2))
+                rows.put(JSONObject().put("question_id",id).put("revision",q.key.revision.value).put("dark",dark).put("font_scale",scale).put("image_zoom_returns",triggers.size).put("native_selection_focus_confirm","passed").put("native_pending_pixels_changed",accepted))
+                output.writeText(JSONObject().put("package",matrixIdentity.toString()).put("complete",false).put("rows",rows).toString(2))
                 if(index<questions.lastIndex)click("Next fixture")
             }
         }
-        output.writeText(JSONObject().put("package",candidateIdentity9J.toString()).put("complete",true).put("rows",rows).toString(2))
+        output.writeText(JSONObject().put("package",matrixIdentity.toString()).put("complete",true).put("rows",rows).toString(2))
     }
 
     @Test fun productionPracticeAndReviewUseAcceptedPackage() {

@@ -6,9 +6,12 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.platform.LocalFocusManager
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.text.KeyboardActions
@@ -63,6 +66,7 @@ internal class LearningLibraryState {
     val focus=LocalFocusManager.current
     val documents=remember {readerDocuments.associateBy{it.id}}
     val filtering=filter.query.isNotBlank() || filter.category!=null
+    var supportingExpanded by remember { mutableStateOf(false) }
     val visible=readerModules.sortedBy{it.order}.map { module ->
         module to (module.lessonIds + module.reviewId).map{documents.getValue(it)}.filter {
             if(filtering) it.kind==DocumentKind.LESSON && filter.matches(it,readerTags) else true
@@ -72,8 +76,8 @@ internal class LearningLibraryState {
         Text("Learning library",style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
         Text("${readerModules.size} modules · ${readerModules.sumOf{it.lessonIds.size}} lessons")
         FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
-            OutlinedButton(onClick=onSources){Text("Sources")}
-            OutlinedButton(onClick=onReferences){Text("Road signs and reference")}
+            OutlinedButton(onClick=onSources,shape=RoundedCornerShape(8.dp)){DocumentMark();Spacer(Modifier.width(8.dp));Text("Sources")}
+            OutlinedButton(onClick=onReferences,shape=RoundedCornerShape(8.dp)){DocumentMark();Spacer(Modifier.width(8.dp));Text("Road signs and reference")}
         }
         OutlinedTextField(filter.query,{state.filter=filter.copy(query=it)},label={Text("Search lessons")},singleLine=true,
             keyboardOptions=KeyboardOptions(imeAction=ImeAction.Search),keyboardActions=KeyboardActions(onSearch={focus.clearFocus()}),
@@ -86,24 +90,35 @@ internal class LearningLibraryState {
             TextButton({state.filter=filter.clearQuery()}){Text("Clear search")}
             TextButton({state.filter=filter.clearCategory()}){Text("Clear filters")}
         }
-        if(visible.isEmpty()) Text("No matching lessons.",Modifier.semantics{liveRegion=LiveRegionMode.Polite})
+        if(visible.isEmpty()) LearningInfoPanel {
+            Text("No matching lessons.",style=MaterialTheme.typography.headlineSmall,modifier=Modifier.semantics{liveRegion=LiveRegionMode.Polite})
+            Text("Try another search or clear the topic filters.")
+        }
         visible.forEach { (module,children) ->
             OutlinedCard(Modifier.fillMaxWidth()) {
-                Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
-                    Text("${module.order}. ${module.title}",style=MaterialTheme.typography.headlineSmall,modifier=Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.secondaryContainer).clickable{state.expanded=if(module.id in expanded)expanded-module.id else expanded+module.id}.padding(12.dp).semantics{heading();role=Role.Button;stateDescription=if(module.id in expanded || filtering)"Expanded" else "Collapsed"})
+                Column {
+                    Row(Modifier.fillMaxWidth().background(MaterialTheme.colorScheme.secondaryContainer).clickable{state.expanded=if(module.id in expanded)expanded-module.id else expanded+module.id}.padding(16.dp).semantics(mergeDescendants=true){text=androidx.compose.ui.text.AnnotatedString("${module.order}. ${module.title}");heading();role=Role.Button;stateDescription=if(module.id in expanded || filtering)"Expanded" else "Collapsed"},verticalAlignment=Alignment.CenterVertically,horizontalArrangement=Arrangement.spacedBy(12.dp)) {
+                        Surface(shape=CircleShape,color=MaterialTheme.colorScheme.primary.copy(alpha=.12f)) {Text(module.order.toString(),Modifier.padding(horizontal=12.dp,vertical=6.dp).clearAndSetSemantics {},style=MaterialTheme.typography.titleLarge)}
+                        Text(module.title,style=MaterialTheme.typography.headlineSmall,modifier=Modifier.weight(1f).clearAndSetSemantics {})
+                        Text(if(module.id in expanded || filtering)"⌄" else "›",Modifier.clearAndSetSemantics {})
+                    }
                     if(module.id in expanded || filtering) children.forEach { document ->
-                        TextButton({onOpen(ContentTarget(document.id))},modifier=Modifier.fillMaxWidth()) {
-                            Column(Modifier.fillMaxWidth()) {
+                        HorizontalDivider()
+                        TextButton({onOpen(ContentTarget(document.id))},modifier=Modifier.fillMaxWidth(),shape=RoundedCornerShape(0.dp),contentPadding=PaddingValues(16.dp)) {
+                            DocumentMark();Spacer(Modifier.width(12.dp))
+                            Column(Modifier.weight(1f)) {
                                 Text(document.title,style=MaterialTheme.typography.titleMedium)
                                 Text(if(document.kind==DocumentKind.MODULE_REVIEW) "Module review" else "Lesson",style=MaterialTheme.typography.labelMedium)
                             }
+                            Text("›",Modifier.clearAndSetSemantics {})
                         }
                     }
                 }
             }
         }
-        readerDocuments.filter{it.kind==DocumentKind.APPENDIX || it.kind==DocumentKind.FRONT_MATTER}.sortedBy{it.order}.forEach { document ->
-            TextButton({onOpen(ContentTarget(document.id))}){Text(document.title)}
+        if(filtering) OutlinedButton({supportingExpanded=!supportingExpanded},Modifier.fillMaxWidth()) {Text(if(supportingExpanded)"Hide supporting documents" else "Browse supporting documents")}
+        if(!filtering || supportingExpanded) readerDocuments.filter{it.kind==DocumentKind.APPENDIX || it.kind==DocumentKind.FRONT_MATTER}.sortedBy{it.order}.forEach { document ->
+            LearningAction(document.title,{onOpen(ContentTarget(document.id))})
         }
     }
 }

@@ -23,6 +23,15 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
     var loadedAssets by remember(code,mode) {mutableStateOf(setOf<AssetId>())}
     var selected by remember(code,mode) {mutableStateOf(false)}
     val uri=LocalUriHandler.current
+    if(initialMode.startsWith("corrected-")) {
+        Step10CorrectionProof(initialCode,initialMode,dark,fontScale)
+        return
+    }
+    if(initialMode=="accepted-artwork" || initialMode=="accepted-replacements") {
+        val originalIds=candidateQuestions9J.filter{it.acceptance.eligibility==ScoringEligibility.HELD && (initialMode!="accepted-replacements" || it.key.revision.value=="replacement-candidate-r2")}.map{it.key.questionId}.toSet()
+        Step10CorrectionProof(initialCode,initialMode,dark,fontScale,acceptedQuestions9J.filter{it.key.questionId in originalIds},acceptedIdentity9J,"Unscored accepted artwork fixture")
+        return
+    }
     if(initialMode=="production") {
         CompositionLocalProvider(LocalDensity provides Density(LocalDensity.current.density,fontScale)) {
             CurriculumApp(acceptedPracticeBank9J,acceptedCurriculumSummary9J)
@@ -104,7 +113,7 @@ fun DeliveryProofScreen(initialCode: String = "S1", initialMode: String = "meani
             }
         }
     }
-    CompositionLocalProvider(LocalDensity provides Density(density.density,fontScale)) {
+    CompositionLocalProvider(LocalDensity provides Density(density.density,fontScale)) {RootModalHost {
         if(dark)MaterialTheme(colorScheme=darkColorScheme()) {content()} else KorkortTheme {content()}
-    }
+    }}
 }

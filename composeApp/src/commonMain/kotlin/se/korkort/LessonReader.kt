@@ -2,6 +2,7 @@
 package se.korkort
 
 import androidx.compose.foundation.layout.*
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.lazy.*
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material3.*
@@ -109,7 +110,21 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
 @Composable internal fun TeachingBlock(block:ContentBlock,answers:Map<BlockId,AnswerBlock>,onLink:(TeachingLink)->Unit) {
     when(val p=block.payload) {
         is BlockPayload.Heading -> Text(p.text.annotated(onLink),style=if(p.level<=2)MaterialTheme.typography.headlineSmall else MaterialTheme.typography.titleLarge,modifier=Modifier.semantics{heading()})
-        is BlockPayload.Paragraph -> TeachingText(p.text,onLink)
+        is BlockPayload.Paragraph -> {
+            val leading=p.text.firstOrNull() as? InlineContent.Strong
+            val label=leading?.children?.assessmentText()
+            when(label) {
+                "Your goal:" -> LearningInfoPanel {
+                    Text(label,style=MaterialTheme.typography.titleMedium,modifier=Modifier.semantics{heading()})
+                    TeachingText(p.text.drop(1),onLink)
+                }
+                "Requirements.","Knowledge check.","Knowledge check:","Answer:" -> Column(verticalArrangement=Arrangement.spacedBy(10.dp)) {
+                    Text(label,style=MaterialTheme.typography.headlineSmall,modifier=Modifier.semantics{heading()})
+                    TeachingText(p.text.drop(1),onLink)
+                }
+                else -> TeachingText(p.text,onLink)
+            }
+        }
         is BlockPayload.ListItems -> Column(verticalArrangement=Arrangement.spacedBy(8.dp)) { p.items.forEachIndexed{index,blocks->
             Row {Text(if(p.ordered)"${index+p.start}. " else "• ");Column(Modifier.weight(1f)){blocks.forEach{TeachingBlock(it,answers,onLink)}}}
         } }
@@ -133,8 +148,12 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
             val focus=remember{FocusRequester()}
             OutlinedCard(Modifier.fillMaxWidth()) {Column(Modifier.padding(16.dp),verticalArrangement=Arrangement.spacedBy(8.dp)) {
                 p.prompts.forEach{TeachingBlock(it,answers,onLink)}
-                TextButton({ if(expanded) focus.requestFocus();expanded=!expanded },modifier=Modifier.focusRequester(focus).focusProperties{canFocus=true}.semantics{stateDescription=if(expanded)"Expanded" else "Collapsed"}){Text(if(expanded)"Hide answer" else "Show answer")}
-                if(expanded) Column(Modifier.semantics{paneTitle="Answer"}) { answers.getValue(p.answerId).blocks.forEach{TeachingBlock(it,answers,onLink)} }
+                OutlinedButton({ if(expanded) focus.requestFocus();expanded=!expanded },shape=RoundedCornerShape(8.dp),modifier=Modifier.focusRequester(focus).focusProperties{canFocus=true}.semantics{stateDescription=if(expanded)"Expanded" else "Collapsed"}){Text(if(expanded)"Hide answer" else "Show answer")}
+                if(expanded) LearningInfoPanel {
+                    Column(Modifier.semantics{paneTitle="Answer"},verticalArrangement=Arrangement.spacedBy(8.dp)) {
+                        answers.getValue(p.answerId).blocks.forEach{TeachingBlock(it,answers,onLink)}
+                    }
+                }
             }}
         }
         is BlockPayload.Image -> TeachingIllustration(p.assetId,null,emptyList(),emptyList(),p.caption,onLink)

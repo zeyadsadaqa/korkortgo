@@ -10,7 +10,7 @@ import kotlin.test.*
 /** End-to-end parity uses actual compiled objects, independent of the Python emitter. */
 class AcceptedQuestionParityTest {
     private val root: Path get() = generateSequence(Path.of(System.getProperty("user.dir"))) { it.parent }.first { Files.exists(it.resolve("content/assessment-questions.json")) }
-    private val evidence get() = root.resolve("docs/curriculum/app-migration/implementation-evidence/closure-9j-9m-9l14")
+    private val evidence get() = root.resolve("docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/release")
     private fun quote(text: String): String = buildString {
         append('"')
         text.forEach { c -> when (c) {

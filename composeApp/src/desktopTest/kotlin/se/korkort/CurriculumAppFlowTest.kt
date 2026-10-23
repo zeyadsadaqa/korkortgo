@@ -16,7 +16,7 @@ import org.jetbrains.skia.EncodedImageFormat
 import java.io.File
 import kotlin.test.*
 
-/** Actual production owner; a single already-accepted text question makes UI assertions deterministic. */
+/** Actual shared owner with an explicit one-question fixture for deterministic route assertions. */
 class CurriculumAppFlowTest {
     private fun flow(mode:Feedback) {
         val question=candidateQuestions9J.single{it.key.questionId.value=="situation-001"}
@@ -42,7 +42,7 @@ class CurriculumAppFlowTest {
         fun click(label:String){await("Missing $label"){nodes().any{it.config.getOrNull(SemanticsProperties.Text)?.any{t->t.text==label}==true && it.config.getOrNull(SemanticsActions.OnClick)?.action!=null}};val n=nodes().first{it.config.getOrNull(SemanticsProperties.Text)?.any{t->t.text==label}==true && it.config.getOrNull(SemanticsActions.OnClick)?.action!=null};assertTrue(n.config[SemanticsActions.OnClick].action!!.invoke());render()}
         fun screenshot(name:String){render();val file=File("build/verification/9L14/${mode.name.lowercase()}-$name.png");file.parentFile.mkdirs();file.writeBytes(surface.makeImageSnapshot().encodeToData(EncodedImageFormat.PNG)!!.bytes)}
         try {
-            scene.setContent{CompositionLocalProvider(LocalUriHandler provides object:UriHandler{override fun openUri(uri:String){opened.add(uri)}}){CurriculumApp(bank)}}
+            scene.setContent{CompositionLocalProvider(LocalUriHandler provides object:UriHandler{override fun openUri(uri:String){opened.add(uri)}}){CurriculumApp(bank,fixtureBank=true)}}
             await("Home missing"){text().contains("KörkortGo")};screenshot("home")
             click("Learning library")
             val query="Combine the instructions"
