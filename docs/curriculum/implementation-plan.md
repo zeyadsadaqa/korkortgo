@@ -2,7 +2,25 @@
 
 The finished PDF will become the app’s learning source, with original teaching material supported by official references. Each step produces a saved deliverable and can be requested independently.
 
-**Finalization status — 21 October 2026: recorded incomplete.** Steps 1–9 are complete within the accepted screen-edition/app scope. The final candidate matches the tested 10L source/runtime fingerprint; T01 passes within unchanged input scope. Eighteen findings, T02–T10 and required platform cases keep step 10 open. The [verification report](app-migration/verification-evidence/verification-report.md) and [finalization record](app-migration/verification-evidence/10M2/completion-record.json) record the exact candidate, exclusions, conditional contracts and remaining work. A passing 10M1 remains required before final acceptance; this status record does not waive that prerequisite.
+**Plan finalization — 22 October 2026: status and remaining scope reconciled.** Steps 1–9 are complete within their recorded approvals and accepted screen-edition/app scope. Step 10 execution stopped at the user’s request; all unfinished verification, defect closure and final acceptance requirements now belong to step 11. Step 11 has 16 executable tasks and is now in progress under the user’s subsequent instruction to finalize everything. Final app acceptance is pending.
+
+| Step | Current disposition | Completion evidence / remaining scope |
+|---|---|---|
+| 1 | Completed | [Source inventory](source-inventory.md) |
+| 2 | Completed and approved | [Curriculum outline](curriculum-outline.md) and [official-source map](curriculum-source-map.md) |
+| 3 | Completed | [Manuscript](manuscript.md) and [verification](manuscript-verification.md) |
+| 4 | Completed | [Official-vector resolution](sign-assets/official-poster/README.md); 4F passes with zero selected gaps; four optional variants excluded |
+| 5 | Approved visual direction complete | [PDF design reviews](pdf-design/); chapter rendering and artwork completed within step 6’s accepted scope |
+| 6 | Approved screen edition complete | [PDF](pdf-production/korkortgo-curriculum.pdf) and [release approval](pdf-production/final-review/screen-release.json); print masters deferred |
+| 7 | Completed | [Migration verification](app-migration/verification.md) and [implementation backlog](app-migration/implementation-backlog.md) |
+| 8 | Completed and approved | [App design approval](app-design-review.md) and [specification](app-design-spec.md) |
+| 9 | Completed within accepted scope | [Implementation handoff](app-migration/implementation-evidence/implementation-review.md); final independent acceptance remains pending |
+| 10 | Execution stopped; unfinished requirements transferred | [22 October handoff](app-migration/verification-evidence/step11-handoff-2026-10-22.md); completed repairs and bounded checks retained |
+| 11 | In progress — 10/16 tasks complete | [11D closure](app-migration/verification-evidence/11D/review.md); next task: **11E1** |
+
+**Current evidence — 23 October 2026:** Six generation checks, 158 Python tests and the 96-test JVM suite passed. Step 11D is complete across all 2,920 current-revision artwork contexts: Desktop (2,464), Android (152), iOS simulator (152) and browser (152) have completed matrix acceptance with 7,300 total image-viewer returns verified. Production journeys have 36/132 scoped passing dispositions. Assistive/presentation acceptance, 18 formal defect closures, final artifact/restoration sealing and the final report/decision remain unfinished. See the [all-task status audit](app-migration/verification-evidence/step11-status-review-2026-10-23.md).
+
+**How to read this plan:** This summary and the [progress tracker](progress.md) describe the current position. Dated substep results, earlier next-action notes and sealed 10M reports describe their original candidates; the 22 October handoff and step 11 supersede their unfinished-work assignments. Historical receipts remain unchanged. Print masters and the existing excluded/conditional platform and future-store scope remain separate; document finalization does not certify those deliverables or start execution.
 
 ## 1. Build the source inventory — completed
 
@@ -2057,7 +2075,7 @@ All 9A–9O outputs must satisfy the original backlog acceptance criteria as wel
 
 ## 10. Verify the finished app
 
-**Current status — 20 October 2026: 10A1–10B14 complete; T01 import verification passed, T02–T10 remain pending.** [T01 verification](app-migration/verification-evidence/10B14/review.md) records complete approved-source/PDF/compiled-content parity, shared reader/reference observations and deterministic generation for the unchanged accepted candidate. [10A preparation](app-migration/verification-evidence/10A3/review.md) binds its baseline and scope. Other gates and final step-10 closure remain pending; no publication is authorized.
+**Current status — 22 October 2026: Execution stopped at the user’s request; all unfinished work is transferred to step 11.** The completed audits, implemented repairs and bounded retests remain recorded below and in the [handoff](app-migration/verification-evidence/step11-handoff-2026-10-22.md). This closes the current execution phase without claiming that all T01–T10 acceptance gates passed. Dated 10A–10M entries and sealed reports are historical; their unfinished requirements are owned by step 11. **Do not resume step-10 execution or start step 11 without a new request.**
 
 Execute exact task IDs such as **10A1** or **10B2**. **10A–10M are groups, not single executable tasks.** Complete the requested task, save its evidence and update [progress.md](progress.md); starting another task requires a separate request unless the user explicitly requests a sequence. Outputs below remain planned unless a dated execution record links their completed evidence.
 
@@ -2975,7 +2993,163 @@ Perform a final input-fingerprint check against 10M1, confirm no code/content/re
 
 **Done when:** Step 10 is marked complete only for the verified candidate with all required gates passed; otherwise record exactly what remains. Final-report/progress-only changes are identified without rewriting prior receipts. No publication occurs.
 
-All 10A–10M deliverables live under `docs/curriculum/app-migration/verification-evidence/` unless an output explicitly names another path. Completing the plan or an individual task does not execute subsequent tasks. **Next planned separately requestable task: 10L1 for another bounded issue; DEF-10H-001 has completed its correction/retest cycle.** [10C](app-migration/verification-evidence/10C3/review.md) and [10D](app-migration/verification-evidence/10D4/review.md) record the executed audits/shared checks. [10E1–10E18](app-migration/verification-evidence/10E18/review.md) are executed: all 1,000 IDs accounted for, with three description defects affecting 30 contexts. T02/T03/T04 remain open for bounded 10L corrections, source-currency disposition and fresh 10K observations. [10F1–10F4](app-migration/verification-evidence/10F4/review.md) are executed for available engine/shared scope: T05 remains open for DEF-10F-001 and 32 fresh 10K production journeys. [10G1–10G3](app-migration/verification-evidence/10G3/review.md) are executed for exhaustive internal/shared scope: no new product finding; T06 stays open for twelve exact unavailable-signal target URI/recovery cases in 10K. [10H1–10H3](app-migration/verification-evidence/10H3/review.md) are executed for available compiled/shared scope: all 128 state transitions, 60-node reading edges and eighteen accepted transient contracts pass, with four future-store contracts conditional. A real sign-catalogue return fails (DEF-10H-001/P1); T07 remains open for bounded 10L repair/retest and fresh 10K target navigation/focus/modal/relaunch evidence. All 110 prepared T07 cases have scoped dispositions. [10I1–10I3](app-migration/verification-evidence/10I3/review.md) are executed for exhaustive available compiled/shared/document-review scope: all 115 routes, 91 documents/1,316 body blocks, fifty deliberate reveals, 288 search/filter cases and all three coverage gaps/briefs pass. No new product finding; all 139 prepared T08 data cases have scoped dispositions. T08 remains open for fresh 10K target delivery, font/theme, visible rendering and interaction checks. [10J1–10J3](app-migration/verification-evidence/10J3/review.md) are executed for available approval/shared-copy/fidelity scope: seventeen approved boards map to 38 states; 96 fresh shared captures and 3,563 observed surfaces support six final distinct JVM methods and 54 preservation checks. Six new fidelity findings bring the open product total to eighteen. T09 remains open for these repairs, inherited source classifications and remaining detailed/fresh 10K target comparisons. [10K1–10K7](app-migration/verification-evidence/10K7/review.md) have now executed for available configured scope: common checks pass; required native/shared/browser failures and incomplete runtime matrices keep T10 and step 10 open. The 10K run ended with nineteen product findings and preserved its source/runtime fingerprint, accepted content and historical receipts. [The first 10L cycle](app-migration/verification-evidence/10L3/DEF-10H-001/review.md) now closes DEF-10H-001 after a bounded nonvisual correction and affected retests. Eighteen findings and required remaining cases stay open. Only the route and regression source changed; accepted inputs and historical receipts remain unchanged. The new runtime fingerprint and invalidation map bind the corrected candidate. [10M1](app-migration/verification-evidence/verification-report.md) has assembled and audited an incomplete report: required failures and remaining matrices prevent acceptance. [10M2 status recording](app-migration/verification-evidence/10M2/completion-record.json) now confirms the same tested inputs and records incomplete finalization; its passing-10M1 prerequisite remains unmet. Next work is another bounded 10L correction, its affected retests and remaining required platform matrices, followed by a refreshed 10M1 and final acceptance check.
+All 10A–10M deliverables remain under `docs/curriculum/app-migration/verification-evidence/`. Their dated results are retained as historical evidence. **Current next executable task: 11E1** (Step 11D completed on 23 October across all 2,920 artwork contexts; finish production journeys). The [22 October handoff](app-migration/verification-evidence/step11-handoff-2026-10-22.md) supersedes earlier next-action statements; unfinished gate closure, platform matrices and final reporting are transferred below.
+
+## 11. Complete deferred verification and final acceptance
+
+**Status — 22 October 2026: In progress.** The user subsequently authorized execution of all remaining work: “And I’m asking you now to finalize everything.” Created originally at the user’s stop/transfer instruction. Step 11 owns every unfinished requirement from 10C–10M, including unclosed defect dispositions, affected retests, final platform acceptance and reporting. Existing pass evidence may be reused only with an explicit input/impact justification. Transferring work does not turn failed, interrupted or unobserved cases into passes.
+
+**Inputs:** [Handoff and known issues](app-migration/verification-evidence/step11-handoff-2026-10-22.md), current accepted manifest, approved repair preview, the original T01–T10 contracts, 10A3 case/runtime indexes, historical 10K7 matrix and 10M reports, and all new 10L correction evidence. Keep simulator-only iOS runtime, the configured JVM harness, static web hosting and four conditional future-store contracts unchanged. Any new visual design still requires preview and explicit approval.
+
+**Status update — 23 October 2026:** Step 11D finalized across all 2,920 contexts. 10 tasks complete, 4 in progress, 2 not started. **Next: 11E1**. [11D consolidated review](app-migration/verification-evidence/11D/review.md) consolidates 11D1–11D4 and supersedes prior interim status in the historical audit (see [23 October status review](app-migration/verification-evidence/step11-status-review-2026-10-23.md)). Mark each task complete before proceeding to its successor.
+
+Execute exact IDs below in order unless a requested sequence explicitly allows otherwise. Save each task’s `review.md`, `results.json`, commands, input/build hashes and case evidence under `verification-evidence/<task-id>/`. Do not overwrite sealed historical receipts or start execution merely because this plan was saved.
+
+### 11A. Establish the resumed candidate and exact carry-forward scope
+
+#### 11A1. Freeze inputs and inventory the stopped work
+
+**Status — 22 October 2026: Complete.** [Results](app-migration/verification-evidence/11A1/results.json) and [review](app-migration/verification-evidence/11A1/review.md).
+
+Read the handoff; capture the resumed working-tree/content/runtime fingerprints, toolchains and device state. Inventory complete, failed, superseded and interrupted runs. Check temporary artifact availability and current regeneration commands. Record the active seven revised question keys and retain original case IDs.
+
+**Output:** candidate-fingerprint.json, carry-forward.json, environment.json. **Done when:** every pending gate/case has an owner and evidence disposition; neither interrupted process is counted as a pass.
+
+#### 11A2. Resolve unreachable recovery inputs and supported assistive scope
+
+**Status — 22 October 2026: Complete scope accounting.** [Results](app-migration/verification-evidence/11A2/results.json), [case execution map](app-migration/verification-evidence/11A2/case-execution-map.json) and [review](app-migration/verification-evidence/11A2/review.md). Strict recovery equivalence claims remain open; no acceptance requirement is waived.
+
+Reconcile the 132 prepared normal journeys with actual entry points and supported target methods. The normal app has no input path for arbitrary unknown question IDs/invalid legacy links, and public OS deep links are excluded. Resolve whether explicitly labeled accepted-bank route harnesses cover those inputs; retain the strict cases as open if that equivalence is not authorized. Preserve native versus shared, callback versus website response, and listening versus semantic-audit distinctions.
+
+**Output:** scope-decisions.json and updated case execution map. **Done when:** every unreachable/excluded/conditional case has a justified disposition; no product scope or acceptance requirement is silently reduced.
+
+### 11B. Finish and validate verification infrastructure
+
+#### 11B1. Isolate fixtures and complete the artwork capture harness
+
+**Status — 22 October 2026: Complete.** [Results](app-migration/verification-evidence/11B1/results.json) and [review](app-migration/verification-evidence/11B1/review.md).
+
+Move staged correction Kotlin from JVM `commonMain` to `desktopTest` in the external test init. Rebuild a fixture-free normal desktop JAR/classpath. Complete pre-answer and selected captures for each artwork case at 390×844; retain clean frames, bundled fonts, exact image bounds, real large text and proper dark-fixture backgrounds. Keep the rejected overdraw/dark captures as diagnostics. Reconcile normal/proof artifacts and any test-only source drift.
+
+**Output:** harness-validation.json, fixture-isolation.json and fresh normal-JAR identity. **Done when:** normal artifacts exclude verification classes and the capture/selection checks prove the intended pixels and bounds.
+
+#### 11B2. Compile and smoke-test the new accepted-artwork hosts
+
+**Status — 22 October 2026: Complete.** [Results](app-migration/verification-evidence/11B2/results.json) and [review](app-migration/verification-evidence/11B2/review.md).
+
+Complete the interrupted proof build. Test one current accepted question on Android, iOS simulator, browser and desktop before full matrices. Verify updated revisions/identity, native pending-pixel comparisons, selection retention, modal isolation, focus return and confirmation. Check the Android answer test against the complete authored body and separate heading.
+
+**Output:** proof-builds.json and smoke-results.json. **Done when:** every new host/assertion compiles and its original smoke case passes on its actual target; proof artifacts stay labeled.
+
+### 11C. Renew common generation, content and integration checks
+
+#### 11C1. Verify current authoring, delivery and release regeneration
+
+**Status — 22 October 2026: Complete.** [Results](app-migration/verification-evidence/11C1/results.json) and [review](app-migration/verification-evidence/11C1/review.md).
+
+Run the six non-mutating commands in the current [content guide](../development/content.md) and full Python discovery. Verify the bounded source/caption amendments, seven renewed revisions, original candidate preservation, all 1,000 IDs/500 concepts, complete origins and unchanged artwork/source dates. Preserve historical producer receipts.
+
+**Output:** common-content-results.json, command logs and actual Python totals. **Done when:** every current generation/release check passes and the frozen candidate remains audit data.
+
+#### 11C2. Run the complete post-activation JVM suite
+
+**Status — 22 October 2026: Complete.** [96-test combined results](app-migration/verification-evidence/11C2/shared-results.json) and [review](app-migration/verification-evidence/11C2/review.md). The disk-space capture failure passed its identity-validated rerun; original logs remain intact.
+
+Run all current common/desktop integration, full accepted-question and reader parity, production-owner, quota/identity/scoring, navigation/library/recovery and approved-presentation regressions. Earlier 95-test and targeted post-activation passes are supporting evidence, not a completed full current run. Save fresh reports to new paths.
+
+**Output:** shared-results.json and test reports. **Done when:** all required current tests pass, with actual totals and input drift recorded.
+
+### 11D. Complete the 2,920 current-revision artwork contexts
+
+**Status — 23 October 2026: Complete across all 2,920 contexts.** [Consolidated results](app-migration/verification-evidence/11D/results.json) and [closure review](app-migration/verification-evidence/11D/review.md). All 2,920 artwork contexts (2,464 desktop, 152 Android, 152 iOS simulator, 152 browser) and 7,300 image-viewer returns passed against the verified candidate. Subtasks 11D1, 11D2, 11D3, and 11D4 are all complete. Next task: **11E1**.
+
+#### 11D1. Complete the desktop 2,464-case matrix
+
+**Status — 22 October 2026: Complete.** [2,464-case results](app-migration/verification-evidence/11D1/desktop-artwork-results.json), [capture audit](app-migration/verification-evidence/11D1/capture-audit.json) and [visual review](app-migration/verification-evidence/11D1/visual-review.md).
+
+Run all 616 current accepted artwork questions × four settings at the baseline viewport. Restart or explicitly resume the interrupted run with exact case accounting. Record every image slot, selected pixels/state, neutral pre-answer semantics, fit/zoom/pan/reset/close and focus/selection return. Review captures and bounds for legibility; file existence or semantics alone is insufficient.
+
+**Output:** desktop-artwork-results.json and visual review. **Done when:** all 2,464 case IDs have supported current-revision dispositions.
+
+#### 11D2. Complete the Android 152-case matrix
+
+**Status — 22 October 2026: Complete.** [152-case results](app-migration/verification-evidence/11D2/results.json), [visual review](app-migration/verification-evidence/11D2/visual-review.md) and [review](app-migration/verification-evidence/11D2/review.md). Normal journeys and TalkBack remain separate.
+
+Run the 38 representative/former-hold accepted questions × four settings on the isolated emulator using the new accepted host. Verify the installed APK, native pixel changes, all image returns and actual viewport/insets. Retain System UI/environment failures separately from app defects.
+
+**Output:** android-artwork-results.json and native captures. **Done when:** all 152 cases pass against the verified artifact with explicit visual/accessibility scope.
+
+#### 11D3. Complete the iOS simulator 152-case matrix
+
+**Status — 23 October 2026: Complete within simulator artwork scope.** [152-case results](app-migration/verification-evidence/11D3/ios-artwork-results.json), [artifact identities](app-migration/verification-evidence/11D3/artifact-identity.json), [684-capture audit](app-migration/verification-evidence/11D3/capture-audit.json), [visual review](app-migration/verification-evidence/11D3/visual-review.md) and [closure review](app-migration/verification-evidence/11D3/review.md). All 380 image returns pass; the original failed run remains failed, with only completed checkpoints reused. One notification-obscured capture has a passing clean rerun. Physical-device and VoiceOver-listening acceptance are not inferred.
+
+Run the same current 38 questions × four settings on the configured simulator. Verify the normal/proof bundle identities and resource-copy procedure, pending pixels, native traits, artwork and return context. Keep physical runtime and VoiceOver listening limits explicit.
+
+**Output:** ios-artwork-results.json and native attachments. **Done when:** all 152 simulator cases pass without physical-device or listening overclaims.
+
+#### 11D4. Complete the browser 152-case matrix
+
+**Status — 22 October 2026: Complete.** [152-case results](app-migration/verification-evidence/11D4/browser-artwork-results.json), [capture audit](app-migration/verification-evidence/11D4/capture-audit.json), [keyboard results](app-migration/verification-evidence/11D4/keyboard-results.json) and [visual review](app-migration/verification-evidence/11D4/visual-review.md).
+
+Serve the current accepted proof build on a fresh origin. Run the same 38 questions × four settings; verify both text/image radio roles, checked/disabled values, pending pixels, all image controls, background exclusion, keyboard/focus and same selection after return. Use actual canvas/native accessibility actions where DOM clicks cannot reach off-screen controls.
+
+**Output:** browser-artwork-results.json and executable/distribution receipts. **Done when:** all 152 cases pass on the observed browser; no cross-engine, cold-offline or screen-reader-listening claim is inferred.
+
+### 11E. Complete production journeys and detailed target reviews
+
+#### 11E1. Finish all 132 prepared production journeys
+
+**Status — 22 October 2026: In progress.** [Case ledger](app-migration/verification-evidence/11E1/production-journeys.json): 36/132 scoped passing dispositions (28 desktop, eight normal Android practice cases). Remaining target flows and 16 strict recovery equivalence claims are open. Android library traversal was repaired and compiled but has not passed its rerun.
+
+Execute/reconcile the 36 Android and 32-per-other-target cases under the 11A2 scope decision. Use the actual accepted bank, normal builds for reachable flows, and clearly labeled harness coverage where authorized. Cover both feedback modes, wrong authored choice and exact score, leave guards, review→teaching→source→same review, library search/filter/empty/reset, deliberate reveals/neighbours, reference viewers, recovery, restart/defaults and actual source callbacks/failure return. Do not substitute a subset for a full case.
+
+**Output:** production-journeys.json linked to original FLOW IDs. **Done when:** every required journey has complete current evidence and no unresolved input/scope ambiguity.
+
+#### 11E2. Finish accessibility, source and visual acceptance
+
+**Status — 22 October 2026: In progress.** [Scoped source reconciliation](app-migration/verification-evidence/11E2/source-results.json) and [browser keyboard evidence](app-migration/verification-evidence/11D4/keyboard-results.json) are saved. TalkBack traversal/listening and full target presentation/source acceptance remain.
+
+Complete the Android TalkBack traversal/listening cases separately from node audits; execute supported keyboard/modal methods and narrow/large/wide rendering checks. Compare the approved repairs, learner copy, source-type badges, dates, scopes/limits, disclosures and reference font on actual targets. Reconcile the exact Volvo review and affected T02–T09 clauses without blanket source-currency certification. Any further visual redesign follows the user’s preview/approval workflow.
+
+**Output:** accessibility-results.json, presentation-review.md and source-results.json. **Done when:** supported required checks pass and every listening/physical/launcher limitation is explicitly scoped.
+
+### 11F. Close defect and evidence impact accounting
+
+#### 11F1. Reconcile all findings and affected gates
+
+**Status — 22 October 2026: In progress.** [Defect ledger](app-migration/verification-evidence/11F1/defects.json): 18 implemented findings await formal retest/gate closure; the historical DEF-10H-001 closure is retained.
+
+Review the 18 inherited open findings against implemented fixes and fresh target evidence; retain the historical DEF-10H-001 closure and its regressions. Close a finding only after its original case and dependent gates pass. Bind retained/invalidated/superseding evidence to the current candidate; add any new defects found in step 11 and repair/retest them within the approved scope.
+
+**Output:** defects.json, evidence-invalidation-map.json and T01–T10 gate dispositions. **Done when:** no required failure/blocker is hidden by a status edit or stale receipt.
+
+### 11G. Seal platform artifacts and restore the environment
+
+#### 11G1. Verify normal packages, resources and cleanup
+
+**Status — 22 October 2026: In progress.** [768-entry resource parity](app-migration/verification-evidence/11G1/resource-parity.json) and the [latest normal-artifact rebuild](app-migration/verification-evidence/11G1/normal-artifacts-restore-r4.json) pass. Website packaging is repaired. Final artifact inventory/install verification and environment restoration are unfinished while native tests run.
+
+Complete normal Android/JVM/simulator/device-framework/Wasm package/resource checks on the final code, including all artwork and bundled font/licence bytes. Build/install the normal apps where runtime is supported; restore original service/font/network settings, close temporary tabs/servers and stop only task-owned devices. Rebuild missing/stale temporary artifacts. Desktop remains a harness, device-iOS remains build/resource-only, and web remains static-host dependent.
+
+**Output:** platform-matrix.json, resource-parity.json and cleanup-record.json. **Done when:** every supported target is bound to the final candidate and restoration is documented.
+
+### 11H. Publish the internal verification record and acceptance decision
+
+#### 11H1. Assemble and audit the refreshed report/index
+
+**Status — 22 October 2026: Not started.** Depends on the remaining verification, defect/gate reconciliation and final artifact seal.
+
+Cross-check all carried requirements, T01–T10 clauses, 1,000 per-ID outcomes, 2,920 artwork cases, 132 journeys, approvals, defects, scope decisions and resource results. Save a new report/index under 11H1 and keep sealed 10M1/10M2 records intact. Validate local links, evidence hashes, commands and current candidate identity.
+
+**Output:** verification-report.md and evidence-index.json under 11H1. **Done when:** report claims match actual supported observations and every required case is accounted for.
+
+#### 11H2. Record final acceptance and update plan/progress
+
+**Status — 22 October 2026: Not started.** Depends on the audited 11H1 report and final candidate fingerprint; no final acceptance is recorded.
+
+Check the final input fingerprint and 11H1 outcome. Mark final verification accepted only if all required gates/cases pass or have an explicitly authorized scope disposition. Otherwise save an incomplete record with exact remaining work. Update the plan/progress and current report pointer; this is not publication or store submission.
+
+**Output:** completion-record.json and updated plan/progress. **Done when:** the acceptance decision is supported by the final candidate and independently auditable evidence.
 
 ## Content principle
 
@@ -2985,7 +3159,7 @@ The work will use independently written material and appropriately sourced illus
 
 ## Execution
 
-Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production, app migration planning, app previews, app implementation or final app verification, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1), “Execute step 7A”, “Execute step 8B”, “Execute step 9A1” or “Execute step 10A1”. Step 9 and step 10 group labels (9A–9O and 10A–10M) contain smaller executable tasks; request the exact task ID to keep work bounded. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
+Request a step by number, for example: “Execute step 2.” For sign preparation, PDF design, chapter production, app migration planning, app previews, app implementation or final app verification, request a substep such as “Execute step 4A”, “Execute step 5A” or “Execute step 6B” (chapter 1), “Execute step 7A”, “Execute step 8B”, “Execute step 9A1” or “Execute step 10A1” or “Execute step 11A1”. Step 9, step 10 and step 11 group labels (9A–9O, 10A–10M and 11A–11H) contain smaller executable tasks; request the exact task ID to keep work bounded. Use the saved deliverables from preceding steps and respect each approval checkpoint. Saving this plan does not start the remaining steps.
 
 
 **Sequencing update — 2 October 2026:** Following the 5A blocker notice, the user directly requested execution of 5B. A limited cover/opening-page preview without sign artwork was prepared under that instruction and is [awaiting approval](pdf-design/5b/review.md). The 13 required sign gaps and 4F completion gate remain unresolved; this exception does not clear sign-dependent layouts or final PDF production.

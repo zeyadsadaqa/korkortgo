@@ -1,12 +1,12 @@
 # KörkortGo Curriculum Plan Progress
 
 **Source of truth:** [Implementation plan](implementation-plan.md)  
-**Last updated:** 21 October 2026 (finalization status recorded incomplete; eighteen findings remain open)
-**Current position:** Steps 1–9 are complete within the approved screen-edition and accepted delivery scope. The [9O8 handoff](app-migration/implementation-evidence/implementation-review.md) accounts for all 125 step-9 tasks and 1,000 accepted questions with zero active holds. Physical iPhone runtime remains excluded/unperformed under the existing simulator policy; desktop is the configured JVM harness and web uses static hosting. Historical limitations and four conditional future-store cases remain explicit.
-**Finalization outcome:** [Final candidate/status record](app-migration/verification-evidence/10M2/completion-record.json) confirms unchanged tested inputs and report links. A passing 10M1 is unavailable, so final acceptance is blocked; step 10 remains incomplete. The sealed 10M1 report/index describe their original audit time; this later record adds the current closure decision.
-**Next action:** Request **10L1 for another bounded issue**, such as DEF-10F-001. [The first 10L cycle](app-migration/verification-evidence/10L3/DEF-10H-001/review.md) triaged all nineteen findings, corrected DEF-10H-001/P1 and passed its original/shared/native/browser route retests. Eighteen product findings and remaining platform matrices keep T02–T10 and step 10 open. The runtime fingerprint changes for the route correction and permanent regression; accepted content, sources, assets and historical receipts remain unchanged. No new design or final release acceptance is implied.
+**Last updated:** 23 October 2026 (Step 11D finalized across all 2,920 contexts; 10/16 tasks complete)
+**Current position:** Steps 1–9 retain their accepted scope. Step 10 history is preserved; step 11 is in progress with 10/16 tasks complete. Step 11D is complete across all four platforms.
+**Current execution:** 11A, 11B, 11C, and 11D (11D1, 11D2, 11D3, 11D4) are fully completed; production journeys (11E1) and assistive/target review (11E2) in progress.
+**Handoff:** [Entry state and known issues](app-migration/verification-evidence/step11-handoff-2026-10-22.md). The prior stop remains historical; the latest request authorizes resumed execution.
 
-This file records actual work and approvals. It does not authorise the next step or replace the implementation plan. Nine of ten steps have cleared their requirements for the chosen scope; print production is deferred. This is a step count, not an estimate of total effort completed.
+This file records actual work and approvals. Simulator-only iOS runtime, the JVM harness, static web hosting and four conditional future-store contracts remain unchanged.
 
 ## Status overview
 
@@ -21,7 +21,8 @@ This file records actual work and approvals. It does not authorise the next step
 | 7 | Plan the app’s curriculum migration | Completed; 7G passed, no planning blockers | [Verification report](app-migration/verification.md), [60 cross-stage checks](app-migration/verification.json), [implementation backlog](app-migration/implementation-backlog.md), [preview handoff](app-migration/preview-handoff.md) |
 | 8 | Generate previews of the revised app | Completed; complete package explicitly approved | [Final approval](app-design-review.md), [681 checks](app-design/8o/verification.json), [specification](app-design-spec.md) |
 | 9 | Implement the approved app changes | Completed within accepted scope | [9O8 handoff](app-migration/implementation-evidence/implementation-review.md), [125-task evidence index](app-migration/implementation-evidence/evidence-index.json); independent verification remains step 10 |
-| 10 | Verify the finished app | Incomplete; finalization status recorded | [T01 import verification](app-migration/verification-evidence/10B14/review.md); [10C blockers](app-migration/verification-evidence/10C3/review.md) and [10D evidence/blockers](app-migration/verification-evidence/10D4/review.md); [10E results/T04](app-migration/verification-evidence/10E18/review.md); [10F results/T05](app-migration/verification-evidence/10F4/review.md); [10G results/T06](app-migration/verification-evidence/10G3/review.md); [10H/T07](app-migration/verification-evidence/10H3/review.md), [10I/T08](app-migration/verification-evidence/10I3/review.md), [10J/T09](app-migration/verification-evidence/10J3/review.md); [10K/T10 results](app-migration/verification-evidence/10K7/review.md); [first 10L correction](app-migration/verification-evidence/10L3/DEF-10H-001/review.md); next task is another bounded 10L1 issue |
+| 10 | Verify the finished app | Execution stopped; unfinished work transferred | [22 October handoff](app-migration/verification-evidence/step11-handoff-2026-10-22.md); completed audits/repairs retained, final acceptance pending step 11 |
+| 11 | Complete deferred verification and final acceptance | In progress — 10/16 tasks complete | [Executable 11A1–11H2 plan](implementation-plan.md#11-complete-deferred-verification-and-final-acceptance); Step 11D finalized; next: **11E1** |
 
 ## Step 4 substep tracker
 
@@ -117,7 +118,7 @@ Each preview requires imagegen and explicit user approval before the next design
 
 ## Step 10 substep tracker
 
-**Current status — 20 October 2026:** 10A1–10B14 completed under the user’s requested sequences. T01 import verification passes. 10C1 and 10C2 audits executed with findings; 10C3 has 18 shared desktop matrix passes and three supplemental checks, with native/browser closure pending 10K. Six metadata defects and one current-source blocker keep T02 open. 10D data and available shared checks are executed: 15,094 data checks, 2,464 artwork contexts and 160 keyboard/gate observations; a new visible-selection defect and 10E/10K requirements keep T03 open. 10E–10M remain unstarted. Each row is a separately requestable task in the [step 10 plan](implementation-plan.md#10-verify-the-finished-app); evidence is linked only for executed work. 10A preparation establishes identity, scope and case coverage; 10B records the independently executed T01 import/content gate. 10L is the bounded repair/retest loop and records an explicit no-fix disposition when none is required.
+**Current status — 22 October 2026:** Execution stopped and unfinished requirements moved to step 11 at the user’s request. Rows below retain their dated execution history; they are not a fresh final acceptance of the corrected candidate. The [handoff](app-migration/verification-evidence/step11-handoff-2026-10-22.md) records the latest repairs/results and interrupted work. **Next task: 11A1.**
 
 | Task | Work | Status |
 |---|---|---|
@@ -928,3 +929,32 @@ All 1000 questions reviewed: 772 covered, 158 missing exact sign entries, 70 pro
 **21 October — 10M1 report assembled and audited:** The complete report and machine-readable index reconcile all 70 planned tasks, 42 gate clauses, 36 original coverage families, 1,000 exact per-ID content outcomes and all 2,920 artwork/132 normal journey cases. All 68 prior artifact manifests and 2,251 historical file hashes match; protected baseline deviations are exactly the declared route/regression changes and plan/progress documents. The report preserves the corrected 10L fingerprint and bounded DEF-10H-001 closure, 18 remaining product findings, 970 scoped content passes/30 open description cases, historical runtime invalidation, assessment/editorial gaps and existing exclusions/conditional contracts. Report accounting passes; 10M1 acceptance is blocked/incomplete and T02–T10/step 10 remain open. No 10M2, new product correction, platform run, source-currency refresh or publication is performed. [Full report and next required work](app-migration/verification-evidence/verification-report.md).
 
 **21 October — implementation-plan finalization status recorded:** Final source/resource hashes match the corrected 10L candidate and the sealed 10M1 report/index; report links resolve. The finalization record retains all 18 open findings, nine open gates, 2,920 required artwork cases, 132 required normal journeys, 17 existing policy exclusions and four conditional future-store contracts. These case sets are not summed as independent coverage. Steps 1–9 retain their accepted scope; step 10 and final acceptance remain incomplete because 10M1 has not passed. This is an incomplete status decision, not a waiver or a successful 10M2 closure. Historical receipts remain unchanged. Next work is bounded corrections/retests and remaining required matrices before a new 10M1/final acceptance check. [Candidate and closure decision](app-migration/verification-evidence/10M2/completion-record.json).
+
+## Step 11 tracker
+
+**In progress — 23 October 2026: 10/16 tasks complete; Step 11D finalized; next task 11E1.** [23 October status review](app-migration/verification-evidence/step11-status-review-2026-10-23.md). The user authorized execution of all remaining tasks. The [implementation plan](implementation-plan.md#11-complete-deferred-verification-and-final-acceptance) defines each executable task and its acceptance condition.
+
+| Task | Work | Status |
+|---|---|---|
+| 11A1 | Resumed candidate, environment and carry-forward inventory | [Complete](app-migration/verification-evidence/11A1/results.json) |
+| 11A2 | Recovery-input and assistive scope dispositions | [Complete scope accounting](app-migration/verification-evidence/11A2/results.json); 16 strict recovery claims remain open |
+| 11B1 | Fixture isolation and capture harness validation | [Complete](app-migration/verification-evidence/11B1/results.json) |
+| 11B2 | Compile and smoke accepted-artwork hosts | [Complete](app-migration/verification-evidence/11B2/results.json) |
+| 11C1 | Six current content checks and full Python suite | [Complete — 158 tests pass](app-migration/verification-evidence/11C1/results.json) |
+| 11C2 | Full current JVM suite | [Complete — 96 tests pass after environment-failure retest](app-migration/verification-evidence/11C2/shared-results.json) |
+| 11D1 | Desktop 2,464 artwork contexts | [Complete — 2,464 cases](app-migration/verification-evidence/11D1/desktop-artwork-results.json) |
+| 11D2 | Android 152 artwork contexts | [Complete — 152 cases / 380 image returns](app-migration/verification-evidence/11D2/results.json) |
+| 11D3 | iOS simulator 152 artwork contexts | [Complete — 152 cases / 380 image returns; simulator scope](app-migration/verification-evidence/11D3/results.json) |
+| 11D4 | Browser 152 artwork contexts | [Complete — 152 cases / 380 image returns](app-migration/verification-evidence/11D4/browser-artwork-results.json) |
+| 11E1 | 132 production journeys | [In progress — 36/132 scoped passing dispositions](app-migration/verification-evidence/11E1/production-journeys.json); 16 strict recovery claims remain open |
+| 11E2 | Accessibility, source and visual acceptance | In progress — scoped source review and keyboard checks saved; TalkBack listening and full target review outstanding |
+| 11F1 | Defect and evidence/gate reconciliation | In progress — 18 implemented findings await formal closure; one historical closure retained |
+| 11G1 | Normal artifacts, resources and restoration | In progress — builds and 768 resource checks pass; final artifact inventory/install/restoration outstanding |
+| 11H1 | Final report/index | Not started |
+| 11H2 | Final acceptance decision | Not started |
+
+**23 October — 11D3 completed:** Consolidated all 152 original iOS simulator case IDs and current revisions with 380 image returns; audited 684 screenshot/tree pairs and reviewed the presentation across all four settings. Retained only completed checkpoints from the failed original run, with the 27-case resume and both dark runs passing. A fresh one-case rerun replaces a system-notification-obscured capture. Verified normal/proof bundle identities and all 768 copied resources per bundle. Historical receipts remain intact; no physical-device, VoiceOver-listening or normal-production runtime claim. [Closure review](app-migration/verification-evidence/11D3/review.md).
+
+**23 October — Step 11D finalized across all 2,920 contexts:** All four platform artwork matrices are complete: Desktop (11D1: 2,464 contexts, 6,160 returns, 11,088 captures), Android (11D2: 152 contexts, 380 returns), iOS simulator (11D3: 152 contexts, 380 returns, 684 audited pairs), and Browser (11D4: 152 contexts, 380 returns, 684 captures, 4-setting keyboard verification). Total: 2,920 context cases and 7,300 image-viewer returns verified. Selection pixel changes, neutral pre-answer state, modal zoom/pan/reset, and selection retention confirmed. [11D consolidated review](app-migration/verification-evidence/11D/review.md) and [11D consolidated results](app-migration/verification-evidence/11D/results.json).
+
+**Next action — 23 October 2026:** Continue 11E1 (production journeys), then 11E2 → 11F1 → 11G1 → 11H1 → 11H2. Final acceptance remains pending.
