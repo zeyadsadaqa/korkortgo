@@ -1,0 +1,21 @@
+{
+  "pid": 6699,
+  "command": [
+    "python3",
+    "docs/curriculum/app-migration/verification-evidence/run_step11.py",
+    "11E1",
+    "normal-android-test-build-r6",
+    "./gradlew",
+    ":composeApp:assembleDebugAndroidTest",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/11G1/normal-output.gradle",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/11E1/normal-android-tests.gradle",
+    "--offline",
+    "--no-daemon",
+    "--max-workers=1",
+    "-Pkotlin.compiler.execution.strategy=in-process",
+    "-Dorg.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8"
+  ],
+  "started_utc": "2026-10-22T19:32:51.299942+00:00"
+}

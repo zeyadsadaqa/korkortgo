@@ -1,0 +1,78 @@
+{
+  "status": "pass_with_retained_completed_cases_and_targeted_retest",
+  "case_count": 8,
+  "rows": [
+    {
+      "case_id": "FLOW-android-production-immediate-light-100",
+      "question_id": "sign-meaning-E2",
+      "revision": "rewrite-r2",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/motorvag-upphor/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-deferred-light-100",
+      "question_id": "situation-031",
+      "revision": "legacy-r1",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/vagmarkesforordning-200790_sfs-2007-90/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-immediate-light-160",
+      "question_id": "sign-meaning-M5",
+      "revision": "rewrite-r2",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/vagmarkeringar/cykelfaltslinje/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-deferred-light-160",
+      "question_id": "situation-005",
+      "revision": "legacy-r1",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-immediate-dark-100",
+      "question_id": "sign-meaning-H18",
+      "revision": "rewrite-r2",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/lokaliseringsmarken-for-upplysning-om-serviceanlaggningar-med-mera/stollift/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-deferred-dark-100",
+      "question_id": "sign-recognise-E1",
+      "revision": "rewrite-r2",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/vagmarken/anvisningsmarken/motorvag/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-immediate-dark-160",
+      "question_id": "situation-034",
+      "revision": "legacy-r1",
+      "source_url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/generella-trafikregler/stanna-och-parkera/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    },
+    {
+      "case_id": "FLOW-android-production-deferred-dark-160",
+      "question_id": "situation-006",
+      "revision": "legacy-r1",
+      "source_url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/trafikforordning-19981276_sfs-1998-1276/",
+      "normal_app": "se.korkort.study",
+      "status": "pass"
+    }
+  ],
+  "retained_completed_run": "normal-android-r5",
+  "original_run_status": "failed on eighth case because return footer was below viewport; not relabeled pass",
+  "successful_retest": "normal-android-r6",
+  "normal_app_artifact": {
+    "path": "/tmp/korkort-step11-normal-build/outputs/apk/debug/composeApp-debug.apk",
+    "sha256": "2a41052d19a3f6d74656d1b955ce147578de6ebbd203d8227d52c9827b34c318"
+  },
+  "scope": "Native UI actions on normal installed se.korkort.study; exact nonblocking ACTION_VIEW intent observation and actual Chrome dispatch; Back or existing-task return; no claim that the remote website response is controlled."
+}

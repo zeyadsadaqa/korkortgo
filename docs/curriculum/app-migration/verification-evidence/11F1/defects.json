@@ -1,0 +1,140 @@
+{
+  "status": "reconciliation_in_progress",
+  "findings": [
+    {
+      "id": "DEF-10C-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10C-002",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10C-003",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10C-004",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10C-005",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10C-006",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Six source classifications corrected in the active package; current generation and metadata parity rerun.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10D-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Neutral selected tint/border and visible Selected label; exact per-case native/browser/desktop pixel and state retests underway.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10E-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "C18 selected-variant caption corrected; legal scope preserved.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10E-002",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "M8 selected-variant caption corrected; general explanation preserved.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10E-003",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "X9 neutral description corrected; seven affected question revisions renewed.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10F-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Production start requires the complete accepted identity and exact question payload.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10H-001",
+      "status": "closed_historical",
+      "repair": "Reader/sign catalogue origin return repaired in 10L; preserve historical closure and rerun regressions.",
+      "closure_evidence": [
+        "../10L3/DEF-10H-001/review.md"
+      ],
+      "pending": "Current regression retained."
+    },
+    {
+      "id": "DEF-10J-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10J-002",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10J-003",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10J-004",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10J-005",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10J-006",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Approved eight-panel presentation repair implemented; current rendering, route and target comparisons required.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    },
+    {
+      "id": "DEF-10K-001",
+      "status": "implemented_awaiting_retest_closure",
+      "repair": "Browser bridge projects radio/checked/disabled state to existing Compose accessibility nodes.",
+      "closure_evidence": [],
+      "pending": "Fresh current candidate case and affected gates; no blanket closure."
+    }
+  ]
+}

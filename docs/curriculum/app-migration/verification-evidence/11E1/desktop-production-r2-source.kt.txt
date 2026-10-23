@@ -1,0 +1,93 @@
+@file:OptIn(androidx.compose.ui.InternalComposeUiApi::class)
+package se.korkort
+import androidx.compose.runtime.*
+import androidx.compose.runtime.snapshots.Snapshot
+import androidx.compose.ui.graphics.asComposeCanvas
+import androidx.compose.ui.platform.*
+import androidx.compose.ui.scene.CanvasLayersComposeScene
+import androidx.compose.ui.semantics.*
+import androidx.compose.ui.text.AnnotatedString
+import androidx.compose.ui.unit.IntSize
+import org.jetbrains.skia.Surface
+import org.jetbrains.skia.EncodedImageFormat
+import java.nio.file.Files
+import kotlin.test.*
+
+class ProductionJourneyStep11Test {
+ @Test fun fullAcceptedBankProductionOwnerJourneys() {
+  val observations=mutableListOf<Any>()
+  for(dark in listOf(false,true))for(scale in listOf(1f,1.6f))for(mode in Feedback.entries)for(size in listOf(1)){
+   val owners=mutableListOf<SemanticsOwner>();val opened=mutableListOf<String>()
+   val listener=object:PlatformContext.SemanticsOwnerListener{
+    override fun onSemanticsOwnerAppended(o:SemanticsOwner){owners.add(o)}
+    override fun onSemanticsOwnerRemoved(o:SemanticsOwner){owners.remove(o)}
+    override fun onSemanticsChange(o:SemanticsOwner){}
+    override fun onLayoutChange(o:SemanticsOwner,id:Int){}
+   }
+   val scene=CanvasLayersComposeScene(size=IntSize(390,844),platformContext=object:PlatformContext by PlatformContext.Empty{override val semanticsOwnerListener=listener})
+   val surface=Surface.makeRasterN32Premul(390,844);var frame=0L
+   fun render(){Snapshot.sendApplyNotifications();repeat(4){surface.canvas.clear(org.jetbrains.skia.Color.TRANSPARENT);scene.render(surface.canvas.asComposeCanvas(),++frame*16_666_667)}}
+   fun nodes():List<SemanticsNode>{fun walk(n:SemanticsNode):List<SemanticsNode> = listOf(n)+n.children.flatMap(::walk)
+return owners.lastOrNull()?.rootSemanticsNode?.let(::walk).orEmpty()}
+   fun nodeText(n:SemanticsNode)=n.config.getOrNull(SemanticsProperties.Text).orEmpty().map{it.text}
+   fun text()=nodes().flatMap(::nodeText).joinToString(" | ")
+   fun await(label:String,f:()->Boolean){repeat(200){render();if(f())return;Thread.sleep(5)};error("$label\n${text()}")}
+   fun click(label:String){
+    repeat(40){
+     render()
+     if(nodes().any{label in nodeText(it) && it.config.getOrNull(SemanticsActions.OnClick)?.action!=null})return@repeat
+     val delta=if(label in listOf("Back to results","Correct","Incorrect","All","Overview","Learning library","Practice"))-500f else 500f
+     nodes().firstOrNull{it.config.getOrNull(SemanticsActions.ScrollBy)?.action!=null}?.config?.get(SemanticsActions.ScrollBy)?.action?.invoke(0f,delta)
+     render()
+    }
+    await("Missing $label"){nodes().any{label in nodeText(it) && it.config.getOrNull(SemanticsActions.OnClick)?.action!=null}};val n=nodes().first{label in nodeText(it) && it.config.getOrNull(SemanticsActions.OnClick)?.action!=null};assertTrue(n.config[SemanticsActions.OnClick].action!!.invoke());render()}
+   fun capture(stage:String){render();val p=Proof10F.root.resolve("docs/curriculum/app-migration/verification-evidence/11E1/captures/${mode.name.lowercase()}-$dark-$scale-$stage.png");Files.createDirectories(p.parent);Files.write(p,surface.makeImageSnapshot().encodeToData(EncodedImageFormat.PNG)!!.bytes)}
+   val rows=mutableListOf<Map<String,Any?>>()
+   try {
+    scene.setContent{CompositionLocalProvider(LocalDensity provides androidx.compose.ui.unit.Density(1f,scale), LocalUriHandler provides object:UriHandler{override fun openUri(uri:String){opened.add(uri)}}){App()}}
+    await("Home missing"){text().contains("KörkortGo")};capture("home")
+    click("Start a practice test  >")
+    val input=nodes().first{it.config.getOrNull(SemanticsActions.SetText)?.action!=null};assertTrue(input.config[SemanticsActions.SetText].action!!.invoke(AnnotatedString(size.toString())));render()
+    if(mode==Feedback.AT_END)click("At the end of the test")
+    capture("setup");click("Start test  >")
+    var expected=0
+    for(i in 0 until size){
+     await("Question missing"){text().contains("Question ${i+1} of $size")}
+     val content=nodes().flatMap(::nodeText);val descriptions=nodes().flatMap{it.config.getOrNull(SemanticsProperties.ContentDescription).orEmpty()}
+     val candidates=acceptedQuestions9J.filter{q->q.prompt.assessmentText() in content && (q.image==null || q.image.neutralDescription!!.text in descriptions)}
+     assertEquals(1,candidates.size,"Current accepted question must resolve uniquely from actual prompt/neutral stem")
+     val q=candidates.single();val radios=nodes().filter{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton};assertEquals(4,radios.size)
+     val optionOrder=radios.map{r->q.options.single{o->if(o.image!=null)o.image.neutralDescription!!.text in r.config.getOrNull(SemanticsProperties.ContentDescription).orEmpty() else o.text.assessmentText() in nodeText(r)}.id}
+     val chooseCorrect=false;val selected=if(chooseCorrect)q.feedback.correctOptionId else q.options.first{it.id!=q.feedback.correctOptionId}.id
+     if(chooseCorrect)expected++
+     assertFalse(text().contains("Correct answer"));val radio=radios[optionOrder.indexOf(selected)];assertTrue(radio.config[SemanticsActions.OnClick].action!!.invoke());render();assertFalse(text().contains("Correct answer"));click("Learning library");click("Keep practising");assertEquals(1,nodes().count{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton && it.config.getOrNull(SemanticsProperties.Selected)==true})
+     click("Confirm answer  >");assertEquals(mode==Feedback.IMMEDIATE,text().contains("Correct answer"));assertTrue(nodes().filter{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton}.all{it.config.contains(SemanticsProperties.Disabled)})
+     rows.add(mapOf("id" to q.key.questionId.value,"revision" to q.key.revision.value,"display_order" to optionOrder,"selected" to selected,"correct" to chooseCorrect,"key" to q.feedback.correctOptionId))
+     capture("confirmed-${i+1}");click(if(i==size-1)"Finish test  >" else "Next question  >")
+    }
+    await("Results missing"){text().contains("$expected / $size")};assertTrue(text().contains("$expected correct · ${size-expected} to revisit"));capture("results")
+    click("Review answers  >")
+    for(filter in listOf("Correct","Incorrect","All")){
+     click(filter)
+     val visible=rows.filter{filter=="All" || (it["correct"]==true)==(filter=="Correct")}
+     if(visible.isEmpty())assertTrue(text().contains("No answers in this filter."))
+     else assertTrue(text().contains(acceptedQuestions9J.single{it.key.questionId.value==visible.first()["id"]}.prompt.assessmentText()))
+     capture("filter-${filter.lowercase()}")
+    }
+    // All returns to row zero, retaining the first accepted snapshot and authored choices.
+    click("Review all four options ↓")
+    val first=acceptedQuestions9J.single{it.key.questionId.value==rows.first()["id"]};assertTrue(text().contains(first.feedback.explanation.assessmentText()));assertTrue(text().contains("Correct answer"))
+    val lesson=readerDocuments.single{it.id==first.relationship.primaryLessonId};click(lesson.title)
+    await("Related lesson return missing"){text().contains("Return to answer review")};capture("lesson");click("Return to answer review")
+    assertTrue(text().contains("Hide explanation ↑"));assertTrue(text().contains(first.feedback.explanation.assessmentText()))
+    val reference=navigationSources.references.single{it.id==first.relationship.sourceUses.first().referenceId};click(reference.title)
+    await("Source detail missing"){text().contains("Back to answer review")};capture("source");click("Open source");await("Wrong source callback"){opened==listOf(reference.url)};click("Back to answer review")
+    assertTrue(text().contains("Hide explanation ↑"));assertTrue(text().contains(first.feedback.explanation.assessmentText()));capture("returned-review");assertTrue(nodes().any{it.config.getOrNull(SemanticsProperties.Focused)==true && reference.title in nodeText(it)})
+    click("Back to results");assertTrue(text().contains("$expected / $size"))
+    click("Review answers  >");click("Take another test  >");assertEquals("1",nodes().first{it.config.getOrNull(SemanticsProperties.EditableText)!=null}.config[SemanticsProperties.EditableText].text)
+    observations.add(mapOf("case_id" to "FLOW-desktop-production-${if(mode==Feedback.IMMEDIATE)"immediate" else "deferred"}-${if(dark)"dark" else "light"}-${if(scale==1f)"100" else "160"}","requested_appearance" to if(dark)"dark" else "light","font_scale" to scale,"app_theme" to "Approved fixed light production theme; harness appearance labels do not imply native OS changes","mode" to mode,"size" to size,"bank_count" to 1000,"held_count" to 0,"scope" to "App() production owner, full accepted bank, shared Compose semantics actions at390x844; production Random.Default, exact observed IDs/order retained","questions" to rows,"expected_score" to expected,"result" to "$expected / $size","source_reference" to reference.id,"opened_url" to reference.url,"status" to "pass"))
+   }finally{scene.close();surface.close()}
+  }
+  Proof10F.write("11E1","desktop-production-journeys.json",mapOf("status" to "pass_shared_scope","identity" to acceptedIdentity9J,"journeys" to observations,"limits" to "No native/browser run, physical pointer hit-testing or screen-reader speech inferred. Shared image/source semantics retain existing10D/10E findings; no external browser delivery/network fetch asserted by URI callback."))
+ }
+}

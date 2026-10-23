@@ -1,0 +1,8 @@
+{
+  "original_writer": "Inherited Proof10F.write ignores its task argument and writes to the active repair directory.",
+  "original_path": "docs/curriculum/app-migration/verification-evidence/10L3/DEF-10F-001/revision-3-active/desktop-production-journeys.json",
+  "retained_path": "docs/curriculum/app-migration/verification-evidence/11E1/desktop-production-journeys.json",
+  "sha256": "d1b82a48258c60dc1d28734b40a553d74ab8d803046a8063d941741a53a284f5",
+  "executed_source": "desktop-production-r2-source.kt.txt",
+  "repair": "Subsequent runs write directly to11E1; path-only harness correction, no production behavior change."
+}

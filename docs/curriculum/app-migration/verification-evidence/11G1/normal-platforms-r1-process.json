@@ -1,0 +1,25 @@
+{
+  "pid": 33580,
+  "command": [
+    "python3",
+    "docs/curriculum/app-migration/verification-evidence/run_step11.py",
+    "11G1",
+    "normal-platforms-r1",
+    "./gradlew",
+    ":composeApp:assembleDebug",
+    ":composeApp:desktopJar",
+    ":composeApp:linkDebugFrameworkIosSimulatorArm64",
+    ":composeApp:assembleIosSimulatorArm64MainResources",
+    ":composeApp:linkDebugFrameworkIosArm64",
+    ":composeApp:assembleIosArm64MainResources",
+    ":composeApp:wasmJsBrowserDistribution",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/11G1/normal-output.gradle",
+    "--offline",
+    "--no-daemon",
+    "--max-workers=1",
+    "-Pkotlin.compiler.execution.strategy=in-process",
+    "-Dorg.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8"
+  ],
+  "started_utc": "2026-10-22T13:07:31.676399+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "pass_scoped_metadata_and_prior_direct_review",
+  "reference_id": "REF-8994a6a11921a063",
+  "source_file_sha256": "cdaeac3b3bf6f1a0e7bba92cf2c1895ad9ff9c950d7882dfd199c7a8b60b65ec",
+  "exact_direct_review": {
+    "path": "10L3/source-currency/volvo-direct-review.json",
+    "sha256": "4a9dd0cbcb553b80a5482ca5354141caf30ee695a30d844e42612ad049a4707b",
+    "observed_utc": "2026-10-21T21:03:12.952Z"
+  },
+  "findings": [
+    "Temporary Spare is temporary replacement only",
+    "Maximum speed in this model handbook is 80 km/h",
+    "Use manufacturer-recommended pressure; replace normal wheel promptly"
+  ],
+  "scope_limits": [
+    "Applies to recorded V60 Twin Engine 2019 handbook only, not universal law or every car",
+    "No numerical maximum distance stated",
+    "No blanket renewal of other source dates; no changed production source date"
+  ],
+  "production_source_dates_unchanged": true,
+  "current_metadata_assertions": [
+    "Manufacturer classification",
+    "2019/model-specific limits on both retained evidence records",
+    "No numeric maximum distance imported",
+    "80 km/h is not a universal legal rule"
+  ],
+  "related_gates": {
+    "T02": "Exact model-specific source review reconciled; runtime source/callback requirements remain in 11E1/11E2",
+    "T03": "Current artwork and neutral accessibility evidence in 11D1\u201311D4; listening remains separate",
+    "T04": "Current six checks/158 Python tests and 1000-ID content parity in 11C1",
+    "T05": "96 current JVM cases in 11C2; production target flows remain separate",
+    "T06": "Alias/model tests retained, strict normal-input equivalence remains explicit under 11A2",
+    "T07": "Current normal journeys must substantiate exact return context",
+    "T08": "Current reader parity in 11C2 and full library journeys in 11E1",
+    "T09": "Approved repaired presentation remains subject to target review; no blanket acceptance"
+  }
+}
