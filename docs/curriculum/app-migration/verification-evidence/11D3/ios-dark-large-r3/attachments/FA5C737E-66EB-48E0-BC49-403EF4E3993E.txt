@@ -1,0 +1,49 @@
+Optional(Attributes: Application, 0x117e46bc0, pid: 9351, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x117e46bc0, pid: 9351, label: 'KörkortGo'
+    Window (Main), 0x117e45cc0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117e46080, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117e470c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117e457c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117e46940, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117e45900, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117e47700, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117e47ac0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117e44dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117e44500, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117e452c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117e44f00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117e45b80, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x117e47200, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x117e47c00, {{0.0, 154.7}, {294.3, 38.3}}, label: 'Fixture: sign-recognise-X8'
+                      Button, 0x117e45a40, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x117e475c0, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x117e44000, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x117e466c0, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117e46a80, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117e45540, {{16.0, 295.3}, {370.0, 528.7}}
+                          Button, 0x117e47d40, {{16.0, 928.3}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                          Button, 0x117e45e00, {{16.0, 990.3}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with three black curved arrows arranged in a circle.', value: Not selected
+                          StaticText, 0x117e44280, {{16.0, 295.3}, {370.0, 308.0}}, label: 'Which illustration identifies “Temporary cancellation of direction information”?'
+                          Other, 0x117e45680, {{16.0, 617.3}, {370.0, 206.7}}
+                          Button, 0x117e47340, {{16.0, 617.3}, {370.0, 230.7}}, label: 'Brown rectangle with a white inset containing a brown standing robed figure; Heliga Birgitta below.', value: Not selected
+                            StaticText, 0x117e461c0, {{34.0, 635.3}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x117e44640, {{34.0, 673.7}, {334.0, 150.3}}, label: 'Brown rectangle with a white inset containing a brown standing robed figure; Heliga Birgitta below.'
+                          Other, 0x117e45040, {{16.0, 617.3}, {370.0, 206.7}}
+                          Button, 0x117e47840, {{16.0, 1301.3}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x117e46800, {{16.0, 1363.3}, {370.0, 297.0}}, label: 'Black strip above a grey lower strip, with a continuous yellow horizontal line along their boundary.', value: Not selected
+                          Button, 0x117e46d00, {{16.0, 1674.3}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x117e46300, {{16.0, 1736.3}, {370.0, 297.0}}, label: 'Very thin outlined rectangular panel with a faint outlined letter P, crossed by two red diagonal lines forming a large X.', value: Not selected
+                          Button, 0x117e45f40, {{16.0, 2047.3}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x117e47480, {{16.0, 2109.3}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x117e45180, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117e44a00, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117e47980, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117e46bc0, pid: 9351, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x117e44780, pid: 9351, label: 'KörkortGo'
+  }
+)

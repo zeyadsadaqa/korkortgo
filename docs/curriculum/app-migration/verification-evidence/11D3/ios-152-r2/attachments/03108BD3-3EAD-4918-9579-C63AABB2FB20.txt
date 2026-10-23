@@ -1,0 +1,53 @@
+Optional(Attributes: Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+    Window (Main), 0x109538780, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10953a440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10953a580, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x109539540, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x109539400, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1095392c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109538f00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109539180, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x109539040, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x109539a40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x109539b80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x109539cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x109538000, {{8.0, 70.0}, {245.7, 24.0}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x109538280, {{0.0, 102.0}, {193.0, 24.0}}, label: 'Fixture: sign-recognise-S13'
+                      Button, 0x109539900, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x10953a6c0, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x10953a800, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x10953a940, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x10953aa80, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x10953abc0, {{16.0, 214.0}, {370.0, 610.0}}
+                          Button, 0x10953ad00, {{16.0, 947.3}, {189.0, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x10953ae40, {{16.0, 214.0}, {370.0, 64.0}}, label: 'Which illustration identifies “Passenger-ferry symbol”?'
+                          Other, 0x10953af80, {{16.0, 292.0}, {370.0, 282.7}}
+                          Button, 0x10953b0c0, {{16.0, 292.0}, {370.0, 282.7}}, label: 'Blue rectangle with a black telephone handset in a white inset and the white letters SOS beneath.', value: Selected, Selected
+                            StaticText, 0x10953b200, {{34.0, 310.0}, {9.3, 24.0}}, label: 'A'
+                            Other, 0x10953b340, {{320.7, 310.0}, {47.3, 16.0}}
+                            Other, 0x10953b480, {{34.0, 334.0}, {334.0, 222.7}}, label: 'Blue rectangle with a black telephone handset in a white inset and the white letters SOS beneath.'
+                          Other, 0x10953b5c0, {{16.0, 292.0}, {370.0, 532.0}}
+                          Button, 0x10953b700, {{16.0, 588.7}, {188.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x10953b840, {{40.0, 602.7}, {140.7, 20.0}}, label: 'Enlarge option A image'
+                          Button, 0x10953b980, {{16.0, 650.7}, {370.0, 197.3}}, label: 'Two black horizontal strips, each with a row of white dashes; the upper row has longer gaps than the lower row.', value: Not selected
+                            StaticText, 0x10953bac0, {{34.0, 668.7}, {10.0, 24.0}}, label: 'B'
+                            Other, 0x10953bc00, {{34.0, 692.7}, {334.0, 131.3}}, label: 'Two black horizontal strips, each with a row of white dashes; the upper row has longer gaps than the lower row.'
+                          Other, 0x10953bd40, {{16.0, 650.7}, {370.0, 173.3}}
+                          Button, 0x10953be80, {{16.0, 1009.3}, {370.0, 282.7}}, label: 'Blue square with a white inset containing a black four-loop knot symbol.', value: Not selected
+                          Button, 0x1096d6e40, {{16.0, 1306.0}, {188.7, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1096d4500, {{16.0, 1368.0}, {370.0, 282.7}}, label: 'White rectangle with a very thin outline of a boat containing people beneath a flat canopy.', value: Not selected
+                          Button, 0x1096d5e00, {{16.0, 1664.7}, {189.7, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1096d6080, {{16.0, 1726.7}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x1096d48c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1096d5900, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1096d5f40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1096d4f00, pid: 32621, label: 'KörkortGo'
+  }
+)

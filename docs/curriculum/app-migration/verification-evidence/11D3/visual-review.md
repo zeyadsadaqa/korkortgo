@@ -1,0 +1,13 @@
+# 11D3 visual review — 23 October 2026
+
+The retained simulator captures support the approved artwork presentation in light/dark themes at font scales 1.0 and 1.6, in a 402 × 874 point viewport (1206 × 2622 screenshot pixels). The [capture audit](capture-audit.json) checks every one of the 684 retained screenshot/tree pairs; the [contact-sheet index](visual-review/index.json) links review thumbnails to their original attachments.
+
+Visually inspected all 16 contact sheets: all 152 pending-selection screens and the first image viewer for each of the 152 cases. The remaining 228 viewer captures receive automated image/tree integrity, neutral-content and control checks; this is not a claim of manual inspection of every screenshot. Native XCTest independently opens every image slot, checks 150% zoom, resets to 100%, closes, verifies the invoking control is hittable and preserves the selected choice, then confirms that choice.
+
+The selected option has a visible border, fill and “Selected” text in both themes; text choices and image choices remain distinct from unselected alternatives. Large text wraps and the selected card is fully reachable below the fixed proof header. A question heading or part of an image may scroll above that header when reaching a lower choice; this is a scroll position, not lost content. No selected card crosses the audited viewport bounds. At large scale the viewer controls wrap onto two rows without overlap, and Close remains above the image.
+
+Artwork retains white backing, original proportions and the known faint outlines. The faint bus, tractor, motorcycle, wheelchair, camper, ferry, supplementary panels and crossed panel are consistent with the [approved larger-artwork delivery](../../implementation-evidence/faint-assets-approved/README.md). This does not certify a new contrast treatment or alter those approved source assets. Zoomed 150% captures deliberately clip outer artwork at the viewport; the tested 100% reset provides the fit view. No pan gesture assertion is claimed by this matrix.
+
+One original dark/100 S1 zoom capture contains an Apple Intelligence system banner covering the title/Close area. Its functional checkpoint passed, but the screenshot was unsuitable for unobscured visual evidence. A dedicated same-input one-case rerun (`ios-dark-s1-clean-r4`) supplies the replacement; the original screenshot and run remain intact.
+
+This is a simulator proof-host review. Native selected traits and control actions are observed; VoiceOver listening/focus traversal, physical-device readability, production journeys and full target accessibility acceptance remain outside this task.

@@ -1,0 +1,9 @@
+# Browser artwork visual review — 22 October 2026
+
+All 152 current accepted cases (38 exact revisions × four settings) completed native accessibility selection, disabled-before-selection confirmation, image zoom150/reset100/close, background exclusion and preserved selection. All 380 image-slot returns passed. No per-slot keyboard pan claim is made: pan and keyboard focus were separately exercised in one image case under each of the four settings.
+
+The 684 final PNGs pass a full dimension/expected-slot/hash audit. All 152 corrected pre-answer/pending pairs now show actual pixel changes with the first radio visible, using rendered DOM bounds rather than a fixed scroll. Earlier off-screen captures remain diagnostic evidence and are not used for visual acceptance. Four keyboard pan captures show changes within the artwork region; Tab/reverse Tab, zoom, Home, Escape and Return reopening the same exact trigger passed in all four settings.
+
+Visually inspected the 16-case montage visual-sample.png: S6 and S11 image options and T22 and X8 stems across both themes/font scales. Selected labels, fill/border and neutral artwork remain legible and separate from feedback. T22 preserves the official faint outline/white background; larger original-proportion viewing is available. No substitute artwork or unapproved restyling was introduced. Other questions and slots have exhaustive captures/interactions and pixel checks; this report does not claim individual manual inspection of every PNG.
+
+The current distribution was rebuilt after temporary artifacts were removed; all Compose/content runtime inputs match the original proof build. Its only concurrent input change was the Swift test driver, which is not part of the browser executable. Current distribution hashes and the exact local origin are recorded. Normal App journeys, screen-reader listening, cross-engine behavior and cold offline start remain separately scoped.

@@ -1,0 +1,55 @@
+Optional(Attributes: Application, 0x1096d6800, pid: 45286, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1096d6800, pid: 45286, label: 'KörkortGo'
+    Window (Main), 0x1096d6f80, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1096d5900, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1096d61c0, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1096d70c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1096d5180, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1096d52c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1096d6580, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1096d6080, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1096d66c0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1096d5540, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1096d6a80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1096d5400, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1096d7200, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x1096d4f00, {{0.0, 154.7}, {284.0, 38.3}}, label: 'Fixture: sign-meaning-S3'
+                      Button, 0x1096d5680, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1096d6940, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x1096d5e00, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x1096d5f40, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x1096d6bc0, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x1096d75c0, {{16.0, 295.3}, {370.0, 528.7}}
+                          StaticText, 0x1096d7340, {{16.0, -44.3}, {370.0, 256.7}}, label: 'Which description identifies this illustrated Swedish sign, symbol or road marking?'
+                          Other, 0x1096d6300, {{16.0, 295.3}, {370.0, 177.7}}, label: 'White rectangle with a very thin outline of a car viewed from the side, facing left.'
+                          Button, 0x1096d4a00, {{16.0, 487.0}, {277.0, 48.0}}, label: 'Enlarge question image'
+                            StaticText, 0x1096d4500, {{40.0, 495.0}, {229.0, 32.0}}, label: 'Enlarge question image'
+                          Other, 0x1096d4140, {{16.0, 549.0}, {370.0, 151.0}}
+                          Button, 0x1096d7700, {{16.0, 549.0}, {370.0, 151.0}}, label: 'A
+Warning line beside a continuous line', value: Selected, Selected
+                            StaticText, 0x1096d4000, {{34.0, 567.0}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x1096d5cc0, {{292.3, 567.0}, {75.7, 25.7}}
+                            StaticText, 0x1096d48c0, {{34.0, 605.3}, {334.0, 76.7}}, label: 'Warning line beside a continuous line'
+                          Other, 0x1096d7e80, {{16.0, 549.0}, {370.0, 275.0}}
+                          Button, 0x104e43c00, {{16.0, 714.0}, {370.0, 112.7}}, label: 'B
+Continuous line', value: Not selected
+                            StaticText, 0x104e43ac0, {{34.0, 732.0}, {16.0, 38.3}}, label: 'B'
+                            StaticText, 0x104e43840, {{34.0, 770.3}, {180.7, 38.3}}, label: 'Continuous line'
+                          Other, 0x104e43d40, {{16.0, 714.0}, {370.0, 110.0}}
+                          Button, 0x104e43700, {{16.0, 840.7}, {370.0, 151.0}}, label: 'C
+Parking for externally chargeable vehicles', value: Not selected
+                          Button, 0x104e43480, {{16.0, 1005.7}, {370.0, 112.7}}, label: 'D
+Passenger car symbol', value: Not selected
+                          Button, 0x104e42f80, {{16.0, 1132.3}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x104e43340, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x104e43e80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x104e435c0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1096d6800, pid: 45286, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x104e43200, pid: 45286, label: 'KörkortGo'
+  }
+)

@@ -1,0 +1,51 @@
+Optional(Attributes: Application, 0x117ce6300, pid: 9351, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x117ce6300, pid: 9351, label: 'KörkortGo'
+    Window (Main), 0x117ce6440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117ce5cc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117ce5e00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117ce5900, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117ce4780, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117ce4a00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117ce48c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117ce4640, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117ce4500, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117ce43c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117ce4280, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117ce4000, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117ce5a40, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x117ce5b80, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x117ce4f00, {{0.0, 154.7}, {308.0, 38.3}}, label: 'Fixture: sign-recognise-T22'
+                      Button, 0x117ce5f40, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x117ce4b40, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x117ce5680, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x117ce57c0, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117ce4140, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117ce5400, {{16.0, 295.3}, {370.0, 528.7}}
+                          Button, 0x117ce52c0, {{16.0, 836.3}, {370.0, 297.0}}, label: 'Black horizontal strip with a row of closely spaced tiny white rectangular dashes.', value: Not selected
+                          Button, 0x117ce5180, {{16.0, 1147.3}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x117ce5040, {{16.0, 295.3}, {370.0, 154.0}}, label: 'Which illustration identifies “Additional written instruction”?'
+                          Other, 0x117ce7200, {{16.0, 463.3}, {370.0, 297.0}}
+                          Button, 0x117ce7340, {{16.0, 463.3}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with a black tram, overhead diamond and wheels.', value: Selected, Selected
+                            StaticText, 0x117ce7480, {{34.0, 481.3}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x117ce75c0, {{292.3, 481.3}, {75.7, 25.7}}
+                            Other, 0x117ce7700, {{34.0, 519.7}, {334.0, 222.7}}, label: 'Red-bordered yellow triangle with a black tram, overhead diamond and wheels.'
+                          Other, 0x117ce7840, {{16.0, 463.3}, {370.0, 360.7}}
+                          Button, 0x117ce7980, {{16.0, 774.3}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x117ce7ac0, {{40.0, 782.3}, {224.7, 32.0}}, label: 'Enlarge option A image'
+                          Button, 0x117ce7c00, {{16.0, 1209.3}, {370.0, 297.0}}, label: 'Rounded yellow black-bordered panel with two black tapering upright strips, the right strip branching into an up-right arrow, beside the number 75.', value: Not selected
+                          Button, 0x117ce7d40, {{16.0, 1520.3}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x117ce7e80, {{16.0, 1582.3}, {370.0, 297.0}}, label: 'White outlined rectangular panel with the thin outlined word Text.', value: Not selected
+                          Button, 0x117e44500, {{16.0, 1893.3}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x117e46080, {{16.0, 1955.3}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x117e46e40, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117e45180, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117e47980, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117ce6300, pid: 9351, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x117e45400, pid: 9351, label: 'KörkortGo'
+  }
+)

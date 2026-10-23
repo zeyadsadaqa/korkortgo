@@ -1,0 +1,49 @@
+Optional(Attributes: Application, 0x117e46300, pid: 9351, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x117e46300, pid: 9351, label: 'KörkortGo'
+    Window (Main), 0x117e44000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117e45040, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117e44f00, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x117e44c80, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x117e470c0, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x117e46800, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117e47340, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x117e45180, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x117e44dc0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x117e44500, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x117e475c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117e452c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x117e45e00, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x117e47700, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x117e44b40, {{0.0, 154.7}, {295.0, 38.3}}, label: 'Fixture: sign-recognise-S6'
+                      Button, 0x117e44a00, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x117e461c0, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x117e44780, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x117e457c0, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117e47480, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x117e448c0, {{16.0, 295.3}, {370.0, 528.7}}
+                          Button, 0x117e46d00, {{16.0, 877.0}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                          Button, 0x117e45900, {{16.0, 939.0}, {370.0, 297.0}}, label: 'Black rectangle with two separated horizontal rows of white square dashes.', value: Not selected
+                          StaticText, 0x117e46e40, {{16.0, 295.3}, {370.0, 256.7}}, label: 'Which illustration identifies “Tractor and class II motorised-equipment symbol”?'
+                          Other, 0x117e44280, {{16.0, 566.0}, {370.0, 258.0}}
+                          Button, 0x117e46f80, {{16.0, 566.0}, {370.0, 282.0}}, label: 'Yellow circle with the grey number 30 crossed by several thin black parallel diagonal lines.', value: Not selected
+                            StaticText, 0x117e47980, {{34.0, 584.0}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x117e45a40, {{34.0, 622.3}, {334.0, 201.7}}, label: 'Yellow circle with the grey number 30 crossed by several thin black parallel diagonal lines.'
+                          Other, 0x117e47c00, {{16.0, 566.0}, {370.0, 258.0}}
+                          Button, 0x117e45540, {{16.0, 1250.0}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x117e46a80, {{16.0, 1312.0}, {370.0, 297.0}}, label: 'Stacked blue panels: a white bicycle above an upward arrow with Kumla 5, and a left-bending arrow with Haga 0,2 below.', value: Not selected
+                          Button, 0x117e44640, {{16.0, 1623.0}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x117e46080, {{16.0, 1685.0}, {370.0, 297.0}}, label: 'White rectangle with a very thin outline of a tractor with a large rear wheel, facing left.', value: Not selected
+                          Button, 0x117e47ac0, {{16.0, 1996.0}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x117e46940, {{16.0, 2058.0}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x117e47200, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x117e45680, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x117e45cc0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x117e46300, pid: 9351, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x117e45f40, pid: 9351, label: 'KörkortGo'
+  }
+)

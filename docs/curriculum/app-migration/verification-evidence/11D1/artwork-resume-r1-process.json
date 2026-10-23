@@ -1,0 +1,23 @@
+{
+  "pid": 46678,
+  "command": [
+    "env",
+    "STEP11_CHECKPOINT_FROM=docs/curriculum/app-migration/verification-evidence/11C2/full-jvm-r3.json",
+    "python3",
+    "docs/curriculum/app-migration/verification-evidence/run_step11.py",
+    "11D1",
+    "artwork-resume-r1",
+    "./gradlew",
+    ":composeApp:desktopTest",
+    "--tests",
+    "se.korkort.AcceptedArtworkStep11Test",
+    "-I",
+    "docs/curriculum/app-migration/verification-evidence/11B1/jvm-test-init.gradle",
+    "--offline",
+    "--no-daemon",
+    "--max-workers=1",
+    "-Pkotlin.compiler.execution.strategy=in-process",
+    "-Dorg.gradle.jvmargs=-Xmx6g -Dfile.encoding=UTF-8"
+  ],
+  "started_utc": "2026-10-22T13:31:17.782723+00:00"
+}

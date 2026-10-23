@@ -1,0 +1,52 @@
+Optional(Attributes: Application, 0x1096d6800, pid: 32621, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x1096d6800, pid: 32621, label: 'KörkortGo'
+    Window (Main), 0x1096d4000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1096d66c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1096d6940, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x1096d4dc0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x1096d5680, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1096d6440, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1096d52c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x1096d7700, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x1096d6d00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x1096d70c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x1096d5180, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x1096d4c80, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x1096d7480, {{8.0, 70.0}, {245.7, 24.0}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x1096d61c0, {{0.0, 102.0}, {193.0, 24.0}}, label: 'Fixture: sign-recognise-S11'
+                      Button, 0x1096d4640, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x1096d5040, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x1096d57c0, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x1096d5400, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x1096d4140, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x1096d7200, {{16.0, 214.0}, {370.0, 610.0}}
+                          Button, 0x1096d5540, {{16.0, 947.3}, {189.0, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x1096d7d40, {{16.0, 214.0}, {370.0, 64.0}}, label: 'Which illustration identifies “Mobility-disability symbol”?'
+                          Other, 0x1096d75c0, {{16.0, 292.0}, {370.0, 282.7}}
+                          Button, 0x1096d6bc0, {{16.0, 292.0}, {370.0, 282.7}}, label: 'Blue rectangle with white PAJALA and ÖVERTORNEÅ inside a notched white outline, and KIRUNA below.', value: Not selected
+                            StaticText, 0x1096d5900, {{34.0, 310.0}, {9.3, 24.0}}, label: 'A'
+                            Other, 0x1096d7340, {{34.0, 334.0}, {334.0, 222.7}}, label: 'Blue rectangle with white PAJALA and ÖVERTORNEÅ inside a notched white outline, and KIRUNA below.'
+                          Other, 0x1096d4a00, {{16.0, 292.0}, {370.0, 532.0}}
+                          Button, 0x1096d5cc0, {{16.0, 588.7}, {188.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x1096d43c0, {{40.0, 602.7}, {140.7, 20.0}}, label: 'Enlarge option A image'
+                          Button, 0x1096d7ac0, {{16.0, 650.7}, {370.0, 197.3}}, label: 'Tall white rectangle with grey Last-plats text and grey crossed-circle symbol, crossed by black parallel diagonal lines.', value: Not selected
+                            StaticText, 0x1096d4f00, {{34.0, 668.7}, {10.0, 24.0}}, label: 'B'
+                            Other, 0x1096d48c0, {{34.0, 692.7}, {334.0, 131.3}}, label: 'Tall white rectangle with grey Last-plats text and grey crossed-circle symbol, crossed by black parallel diagonal lines.'
+                          Other, 0x1096d7c00, {{16.0, 650.7}, {370.0, 173.3}}
+                          Button, 0x1096d5a40, {{16.0, 1009.3}, {370.0, 282.7}}, label: 'Red-bordered yellow triangle with a black line forming two bends, the lower bend turning left.', value: Not selected
+                          Button, 0x1096d6580, {{16.0, 1306.0}, {188.7, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1096d6a80, {{16.0, 1368.0}, {370.0, 282.7}}, label: 'White rectangle with a very thin outline of a seated figure and large wheel symbol.', value: Not selected
+                          Button, 0x1096d6f80, {{16.0, 1664.7}, {189.7, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1096d7e80, {{16.0, 1726.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x1096d6300, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1096d5f40, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1096d5b80, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x1096d6800, pid: 32621, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1096d4500, pid: 32621, label: 'KörkortGo'
+  }
+)

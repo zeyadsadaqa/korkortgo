@@ -1,0 +1,51 @@
+Optional(Attributes: Application, 0x113a488c0, pid: 4555, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x113a488c0, pid: 4555, label: 'KörkortGo'
+    Window (Main), 0x113a48780, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113a4a6c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113a4a800, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113a48f00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113a49040, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113a49180, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113a492c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113a49400, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x113a49540, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113a49680, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113a497c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113a49900, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x113a49a40, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x113a49b80, {{0.0, 154.7}, {295.0, 38.3}}, label: 'Fixture: sign-recognise-S6'
+                      Button, 0x113a4a300, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x113a4ae40, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x113a49e00, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x113a49f40, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x113a4af80, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x113a4b0c0, {{16.0, 295.3}, {370.0, 528.7}}
+                          StaticText, 0x113a4a080, {{16.0, 295.3}, {370.0, 123.7}}, label: 'Which illustration identifies “Tractor and class II motorised-equipment symbol”?'
+                          Other, 0x113a4a1c0, {{16.0, 433.0}, {370.0, 297.0}}
+                          Button, 0x113a4aa80, {{16.0, 433.0}, {370.0, 297.0}}, label: 'Yellow circle with the grey number 30 crossed by several thin black parallel diagonal lines.', value: Selected, Selected
+                            StaticText, 0x113a4abc0, {{34.0, 451.0}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x113a4b700, {{292.3, 451.0}, {75.7, 25.7}}
+                            Other, 0x113a4b840, {{34.0, 489.3}, {334.0, 222.7}}, label: 'Yellow circle with the grey number 30 crossed by several thin black parallel diagonal lines.'
+                          Other, 0x113a4b980, {{16.0, 433.0}, {370.0, 391.0}}
+                          Button, 0x113a4bac0, {{16.0, 744.0}, {272.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x113a4bc00, {{40.0, 752.0}, {224.7, 32.0}}, label: 'Enlarge option A image'
+                          Button, 0x113a4bd40, {{16.0, 806.0}, {370.0, 42.0}}, label: 'Black rectangle with two separated horizontal rows of white square dashes.', value: Not selected
+                          Other, 0x113a4be80, {{16.0, 806.0}, {370.0, 18.0}}
+                          Button, 0x102e5ef80, {{16.0, 1117.0}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x102e5f0c0, {{16.0, 1179.0}, {370.0, 297.0}}, label: 'Stacked blue panels: a white bicycle above an upward arrow with Kumla 5, and a left-bending arrow with Haga 0,2 below.', value: Not selected
+                          Button, 0x102e5f200, {{16.0, 1490.0}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x102e5f340, {{16.0, 1552.0}, {370.0, 297.0}}, label: 'White rectangle with a very thin outline of a tractor with a large rear wheel, facing left.', value: Not selected
+                          Button, 0x102e5f480, {{16.0, 1863.0}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x102e5f5c0, {{16.0, 1925.0}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x102e5f700, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x102e5fac0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x102e5fc00, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113a488c0, pid: 4555, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x102e5fd40, pid: 4555, label: 'KörkortGo'
+  }
+)

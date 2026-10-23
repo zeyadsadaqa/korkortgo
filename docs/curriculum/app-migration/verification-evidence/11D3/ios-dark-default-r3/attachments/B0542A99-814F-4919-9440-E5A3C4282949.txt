@@ -1,0 +1,53 @@
+Optional(Attributes: Application, 0x118c2a580, pid: 8953, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x118c2a580, pid: 8953, label: 'KörkortGo'
+    Window (Main), 0x118c2b0c0, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x118c2b700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x118c29a40, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x118c2bc00, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x118c2b340, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x118c2aa80, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x118c2a6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x118c2be80, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x118c2b980, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x118c288c0, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x118c29180, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x118c2ad00, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x118c2a940, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x118c2b840, {{8.0, 70.0}, {245.7, 24.0}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x118c2a1c0, {{0.0, 102.0}, {193.0, 24.0}}, label: 'Fixture: sign-recognise-S12'
+                      Button, 0x118c29e00, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x118c29400, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x118c29540, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x118c29040, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x118c2a080, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x118c28a00, {{16.0, 214.0}, {370.0, 610.0}}
+                          Button, 0x118c28f00, {{16.0, 947.3}, {189.0, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x118c29f40, {{16.0, 214.0}, {370.0, 64.0}}, label: 'Which illustration identifies “Class II passenger car symbol”?'
+                          Other, 0x118c2b480, {{16.0, 292.0}, {370.0, 282.7}}
+                          Button, 0x118c29b80, {{16.0, 292.0}, {370.0, 282.7}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.', value: Not selected
+                            StaticText, 0x118c28dc0, {{34.0, 310.0}, {9.3, 24.0}}, label: 'A'
+                            Other, 0x118c2abc0, {{34.0, 334.0}, {334.0, 222.7}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.'
+                          Other, 0x118c2a800, {{16.0, 292.0}, {370.0, 532.0}}
+                          Button, 0x118c292c0, {{16.0, 588.7}, {188.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x118c28780, {{40.0, 602.7}, {140.7, 20.0}}, label: 'Enlarge option A image'
+                          Button, 0x118c2bd40, {{16.0, 650.7}, {370.0, 197.3}}, label: 'Tall blue rectangle with two white upward-pointing chevrons.', value: Not selected
+                            StaticText, 0x118c2a300, {{34.0, 668.7}, {10.0, 24.0}}, label: 'B'
+                            Other, 0x118c2b5c0, {{34.0, 692.7}, {334.0, 131.3}}, label: 'Tall blue rectangle with two white upward-pointing chevrons.'
+                          Other, 0x118c28500, {{16.0, 650.7}, {370.0, 173.3}}
+                          Button, 0x118c29900, {{16.0, 1009.3}, {370.0, 282.7}}, label: 'Red-bordered yellow triangle pointing downward.', value: Not selected
+                          Button, 0x118c2af80, {{16.0, 1306.0}, {188.7, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x118c28b40, {{16.0, 1368.0}, {370.0, 282.7}}, label: 'White rectangle with a very thin outline of a motor caravan viewed from the side, facing left.', value: Not selected
+                          Button, 0x118c28280, {{16.0, 1664.7}, {189.7, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x118c29680, {{16.0, 1726.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x118c2a440, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x118c29cc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x118c2b200, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x118c2a580, pid: 8953, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x118c28c80, pid: 8953, label: 'KörkortGo'
+  }
+)

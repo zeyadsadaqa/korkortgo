@@ -1,0 +1,56 @@
+Optional(Attributes: Application, 0x118c117c0, pid: 8953, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x118c117c0, pid: 8953, label: 'KörkortGo'
+    Window (Main), 0x118c11900, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x118c13700, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x118c10500, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x118c108c0, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x118c12f80, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x118c13840, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x118c11400, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x118c13e80, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x118c12d00, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x118c11540, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x118c12580, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x118c10780, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x118c135c0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x118c12940, {{8.0, 70.0}, {245.7, 24.0}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x118c12440, {{0.0, 102.0}, {177.0, 24.0}}, label: 'Fixture: sign-meaning-T1'
+                      Button, 0x118c13ac0, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x118c12300, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x118c11a40, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x118c10b40, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x118c10a00, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x118c12080, {{16.0, 214.0}, {370.0, 610.0}}
+                          StaticText, 0x118c130c0, {{16.0, 214.0}, {370.0, 96.0}}, label: 'Which description identifies this illustrated Swedish sign, symbol or road marking?'
+                          Other, 0x118c112c0, {{16.0, 324.0}, {370.0, 246.7}}, label: 'Two white outlined rectangular panels with thin outlined text: 200–800 m above and 0–1,2 km below.'
+                          Button, 0x118c11040, {{16.0, 584.7}, {191.3, 48.0}}, label: 'Enlarge question image'
+                            StaticText, 0x118c11b80, {{40.0, 598.7}, {143.3, 20.0}}, label: 'Enlarge question image'
+                          Other, 0x118c126c0, {{16.0, 646.7}, {370.0, 84.0}}
+                          Button, 0x118c12bc0, {{16.0, 646.7}, {370.0, 84.0}}, label: 'A
+No motor vehicles except class II mopeds', value: Selected, Selected
+                            StaticText, 0x118c11e00, {{34.0, 664.7}, {9.3, 24.0}}, label: 'A'
+                            Other, 0x118c121c0, {{320.7, 664.7}, {47.3, 16.0}}
+                            StaticText, 0x118bf4000, {{34.0, 688.7}, {292.7, 24.0}}, label: 'No motor vehicles except class II mopeds'
+                          Other, 0x118bfc000, {{16.0, 646.7}, {370.0, 177.3}}
+                          Button, 0x118c28780, {{16.0, 744.7}, {370.0, 84.0}}, label: 'B
+Golf course', value: Not selected
+                            StaticText, 0x118c29680, {{34.0, 762.7}, {10.0, 24.0}}, label: 'B'
+                            StaticText, 0x118c28500, {{34.0, 786.7}, {80.7, 24.0}}, label: 'Golf course'
+                          Other, 0x118c29e00, {{16.0, 744.7}, {370.0, 79.3}}
+                          Button, 0x118c297c0, {{16.0, 842.7}, {370.0, 84.0}}, label: 'C
+Give way', value: Not selected
+                          Button, 0x118c288c0, {{16.0, 940.7}, {370.0, 84.0}}, label: 'D
+Length of affected road section', value: Not selected
+                          Button, 0x118c28f00, {{16.0, 1038.7}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x118c2b340, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x118c29b80, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x118c29cc0, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x118c117c0, pid: 8953, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x118c2b700, pid: 8953, label: 'KörkortGo'
+  }
+)

@@ -1,0 +1,53 @@
+Optional(Attributes: Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+    Window (Main), 0x109538780, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x10953a440, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x10953a580, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x109539540, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x109539400, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x1095392c0, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109538f00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x109539180, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x109539040, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x109539a40, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x109539b80, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x109539cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x109538000, {{8.0, 70.0}, {245.7, 24.0}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x109538280, {{0.0, 102.0}, {184.0, 24.0}}, label: 'Fixture: sign-recognise-T8'
+                      Button, 0x109539900, {{0.0, 126.0}, {95.3, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x10953a6c0, {{12.0, 140.0}, {71.3, 20.0}}, label: 'Next fixture'
+                      StaticText, 0x10953a800, {{0.0, 174.0}, {202.7, 24.0}}, label: 'Exact question images ready'
+                      Other, 0x10953a940, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x10953aa80, {{16.0, 214.0}, {370.0, 610.0}}
+                        Other, 0x10953abc0, {{16.0, 214.0}, {370.0, 610.0}}
+                          Button, 0x10953ad00, {{16.0, 979.3}, {189.0, 48.0}}, label: 'Enlarge option B image'
+                          StaticText, 0x10953ae40, {{16.0, 214.0}, {370.0, 96.0}}, label: 'Which illustration identifies “Vehicle or road-user qualification”?'
+                          Other, 0x10953af80, {{16.0, 324.0}, {370.0, 282.7}}
+                          Button, 0x10953b0c0, {{16.0, 324.0}, {370.0, 282.7}}, label: 'Red-bordered yellow circle with a black walking figure crossed by a red diagonal bar.', value: Selected, Selected
+                            StaticText, 0x10953b200, {{34.0, 342.0}, {9.3, 24.0}}, label: 'A'
+                            Other, 0x10953b340, {{320.7, 342.0}, {47.3, 16.0}}
+                            Other, 0x10953b480, {{34.0, 366.0}, {334.0, 222.7}}, label: 'Red-bordered yellow circle with a black walking figure crossed by a red diagonal bar.'
+                          Other, 0x10953b5c0, {{16.0, 324.0}, {370.0, 500.0}}
+                          Button, 0x10953b700, {{16.0, 620.7}, {188.7, 48.0}}, label: 'Enlarge option A image'
+                            StaticText, 0x10953b840, {{40.0, 634.7}, {140.7, 20.0}}, label: 'Enlarge option A image'
+                          Button, 0x10953b980, {{16.0, 682.7}, {370.0, 165.3}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.', value: Not selected
+                            StaticText, 0x10953bac0, {{34.0, 700.7}, {10.0, 24.0}}, label: 'B'
+                            Other, 0x10953bc00, {{34.0, 724.7}, {334.0, 99.3}}, label: 'Long blue horizontal panel with three separate white arrows pointing right.'
+                          Other, 0x10953bd40, {{16.0, 682.7}, {370.0, 141.3}}
+                          Button, 0x10953be80, {{16.0, 1041.3}, {370.0, 282.7}}, label: 'Blue circle with a white rider on a tracked vehicle with front skis.', value: Not selected
+                          Button, 0x1096d7480, {{16.0, 1338.0}, {188.7, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x1096d6940, {{16.0, 1400.0}, {370.0, 282.7}}, label: 'White outlined rectangular panel with a thin outlined lorry viewed from the side, facing left.', value: Not selected
+                          Button, 0x1096d6300, {{16.0, 1696.7}, {189.7, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x1096d4a00, {{16.0, 1758.7}, {370.0, 52.0}}, label: 'Confirm answer  >'
+    Window, 0x1096d4f00, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x1096d6580, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x1096d6e40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x109538b40, pid: 32621, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x1096d5f40, pid: 32621, label: 'KörkortGo'
+  }
+)

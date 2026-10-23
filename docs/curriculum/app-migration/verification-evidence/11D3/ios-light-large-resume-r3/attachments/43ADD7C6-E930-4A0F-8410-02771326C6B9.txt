@@ -1,0 +1,48 @@
+Optional(Attributes: Application, 0x113a497c0, pid: 4555, label: 'KörkortGo'
+Element subtree:
+ →Application, 0x113a497c0, pid: 4555, label: 'KörkortGo'
+    Window (Main), 0x113a48000, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113a4b5c0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113a49040, {{0.0, 0.0}, {402.0, 874.0}}
+          Other, 0x113a49900, {{0.0, 0.0}, {402.0, 874.0}}
+            Other, 0x113a49680, {{0.0, 0.0}, {402.0, 874.0}}
+              Other, 0x113a48a00, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113a48b40, {{0.0, 0.0}, {402.0, 874.0}}
+                Other, 0x113a4a6c0, {{0.0, 0.0}, {402.0, 874.0}}
+                ScrollView, 0x113a49cc0, {{0.0, 0.0}, {402.0, 874.0}}
+                  Other, 0x113a48500, {{0.0, 0.0}, {402.0, 874.0}}
+                    Other, 0x113a4b480, {{0.0, 0.0}, {402.0, 874.0}}
+                      Other, 0x113a49f40, {{0.0, 0.0}, {402.0, 874.0}}
+                      StaticText, 0x113a483c0, {{8.0, 70.0}, {386.0, 76.7}}, label: 'Unscored accepted artwork fixture'
+                      StaticText, 0x113a4a080, {{0.0, 154.7}, {294.3, 38.3}}, label: 'Fixture: sign-recognise-T2'
+                      Button, 0x113a49e00, {{0.0, 193.0}, {138.0, 48.0}}, label: 'Next fixture'
+                        StaticText, 0x113a4a940, {{12.0, 201.0}, {114.0, 32.0}}, label: 'Next fixture'
+                      StaticText, 0x113a48780, {{0.0, 241.0}, {324.3, 38.3}}, label: 'Exact question images ready'
+                      Other, 0x113a48140, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x113a4a800, {{16.0, 295.3}, {370.0, 528.7}}
+                        Other, 0x113a4af80, {{16.0, 295.3}, {370.0, 528.7}}
+                          Button, 0x113a4a1c0, {{16.0, 887.7}, {370.0, 297.0}}, label: 'Red-bordered yellow triangle with two black running children, one larger than the other.', value: Not selected
+                          Button, 0x113a49400, {{16.0, 1198.7}, {273.7, 48.0}}, label: 'Enlarge option B image'
+                          Button, 0x113a488c0, {{16.0, 825.7}, {272.7, 22.3}}, label: 'Enlarge option A image'
+                          StaticText, 0x113a4be80, {{16.0, 295.3}, {370.0, 205.3}}, label: 'Which illustration identifies “Distance to the signed feature”?'
+                          Other, 0x113a4ad00, {{16.0, 514.7}, {370.0, 297.0}}
+                          Button, 0x113a4b700, {{16.0, 514.7}, {370.0, 297.0}}, label: 'Blue circle with a red border and a red diagonal cross.', value: Not selected
+                            StaticText, 0x113a4a300, {{34.0, 532.7}, {15.0, 38.3}}, label: 'A'
+                            Other, 0x113a49a40, {{34.0, 571.0}, {334.0, 222.7}}, label: 'Blue circle with a red border and a red diagonal cross.'
+                          Other, 0x113a4b840, {{16.0, 514.7}, {370.0, 309.3}}
+                          Button, 0x113a4b980, {{16.0, 1260.7}, {370.0, 297.0}}, label: 'Blue square with a white inset containing a black skier holding a diagonal overhead tow line.', value: Not selected
+                          Button, 0x113a48280, {{16.0, 1571.7}, {273.3, 48.0}}, label: 'Enlarge option C image'
+                          Button, 0x113a4bac0, {{16.0, 1633.7}, {370.0, 297.0}}, label: 'White outlined rectangular panel with thin outlined text 100 m.', value: Not selected
+                          Button, 0x113a4bc00, {{16.0, 1944.7}, {274.3, 48.0}}, label: 'Enlarge option D image'
+                          Button, 0x113a492c0, {{16.0, 2006.7}, {370.0, 52.0}}, label: 'Confirm answer  >', Disabled
+    Window, 0x113a49180, {{0.0, 0.0}, {402.0, 874.0}}
+      Other, 0x113a48dc0, {{0.0, 0.0}, {402.0, 874.0}}
+        Other, 0x113a4bd40, {{0.0, 0.0}, {402.0, 874.0}}
+Path to element:
+ →Application, 0x113a497c0, pid: 4555, label: 'KörkortGo'
+Query chain:
+ →Find: Target Application 'se.korkort.study'
+  Output: {
+    Application, 0x113a48c80, pid: 4555, label: 'KörkortGo'
+  }
+)

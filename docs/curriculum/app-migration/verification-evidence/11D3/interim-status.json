@@ -1,0 +1,29 @@
+{
+  "status": "in_progress",
+  "saved_completed_case_checkpoints": 76,
+  "required_cases": 152,
+  "remaining_dark_cases": 76,
+  "completed_runs": [
+    {
+      "run": "ios-152-r2",
+      "completed_checkpoints": 49,
+      "attachment_manifest_sha256": "f6f85615994df6e5999efffe27543cdb9396f55a63f6c738c25726ea3f2259f1",
+      "run_summary_sha256": "d1db6e763de129fcf0ee4d89946665d211a02582ffa0c7764e25f81e3af6e031"
+    },
+    {
+      "run": "ios-light-large-resume-r3",
+      "completed_checkpoints": 27,
+      "attachment_manifest_sha256": "bcf7cc5b05e82ad95e6f7859df99f33e77093eec9f6a6c74a001b84dba80937d",
+      "run_summary_sha256": "94b09f5d1cf2188d35a0d177c3b58766a517506fcde7b6e6bd5eceb7ff7897d7"
+    }
+  ],
+  "active_runs": [
+    "ios-dark-default-r3",
+    "ios-dark-large-r3"
+  ],
+  "limitations": [
+    "The original ios-152-r2 run failed overall; its 49 finished checkpoints do not turn the run into a pass.",
+    "The 27-case light/large retest passed; all cases still need final artifact/identity, attachment and visual consolidation.",
+    "No physical-device or VoiceOver-listening acceptance inferred."
+  ]
+}

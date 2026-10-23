@@ -1,0 +1,14 @@
+{
+  "pid": 2711,
+  "command": [
+    "/Users/zeyad/Library/Android/sdk/emulator/emulator",
+    "-avd",
+    "16_KB_test",
+    "-no-window",
+    "-no-snapshot-save",
+    "-no-boot-anim",
+    "-gpu",
+    "swiftshader_indirect"
+  ],
+  "started_utc": "2026-10-22T19:18:32.173989+00:00"
+}

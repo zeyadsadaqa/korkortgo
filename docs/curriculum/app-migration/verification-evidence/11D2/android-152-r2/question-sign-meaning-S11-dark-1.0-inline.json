@@ -1,0 +1,555 @@
+[
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.LinearLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.FrameLayout",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "androidx.compose.ui.platform.ComposeView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      4,
+      8,
+      64,
+      16908342
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,0][1440,3120]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Unscored accepted artwork fixture",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[28,173][886,257]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Fixture: sign-meaning-S11",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,285][650,369]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,369][336,537]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Next fixture",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[42,418][294,488]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,383][336,523]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Exact question images ready",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[0,537][707,621]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.ScrollView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,677][1384,2980]",
+    "actions": [
+      64,
+      4096,
+      16908346
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,677][1384,2980]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,677][1384,1017]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "White rectangle with a very thin outline of a seated figure and large wheel symbol.",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,1066][1384,1951]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2000][724,2168]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "Enlarge question image",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[140,2049][640,2119]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.Button",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2000][724,2168]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2217][1384,2980]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2217][1384,2511]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2217][1384,2511]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "A",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[119,2280][150,2364]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "Grouped destinations",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[119,2364][657,2448]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.RadioButton",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2217][1384,2511]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2560][1384,2854]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2560][1384,2854]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "B",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[119,2623][153,2707]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "End of reserved-purpose place",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[119,2707][878,2791]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.RadioButton",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2560][1384,2854]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2903][1384,2980]",
+    "actions": [
+      64
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.view.View",
+    "visible": true,
+    "heading": false,
+    "state_description": "Not selected",
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2903][1384,3064]",
+    "actions": [
+      64,
+      1,
+      16
+    ]
+  },
+  {
+    "label": "C",
+    "class": "android.widget.TextView",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[119,2966][152,2980]",
+    "actions": [
+      64,
+      131072,
+      256,
+      512
+    ]
+  },
+  {
+    "label": "",
+    "class": "android.widget.RadioButton",
+    "visible": true,
+    "heading": false,
+    "focused": false,
+    "accessibility_focused": false,
+    "selected": false,
+    "checked": false,
+    "bounds": "[56,2903][1384,2980]",
+    "actions": [
+      64
+    ]
+  }
+]
