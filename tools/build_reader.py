@@ -1,4 +1,4 @@
-"""Compile complete approved teaching for isolated 9L views; does not activate the package."""
+"""Generate the shared reader and its parity fixture from the retained curriculum."""
 import argparse
 import hashlib,json,struct
 from pathlib import Path
@@ -26,7 +26,7 @@ def generate():
         files[DEST/f'GeneratedReaderPart{i//150:03}.kt']=header+''.join(f'internal fun {fn}(): {kind} = {expr}\n' for fn,kind,expr in emitter.functions[i:i+150])
     values={'modules':c['modules'],'documents':c['documents'],'reading_order':c['reading_order'],'lesson_category_tags':c['lesson_category_tags'],'assets':c['assets']}
     parity=''.join(name+'\t'+hashlib.sha256(json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode()).hexdigest()+'\n' for name,value in values.items())
-    files[Path('docs/curriculum/app-migration/implementation-evidence/9L/reader-parity.tsv')]=parity
+    files[Path('composeApp/src/desktopTest/resources/content-parity/reader-parity.tsv')]=parity
     return files
 
 def main():
@@ -36,5 +36,5 @@ def main():
         else:
             (ROOT/path).parent.mkdir(parents=True,exist_ok=True)
             (ROOT/path).write_text(value)
-    print(f'Complete reader: {len(files)-1} Kotlin files plus parity receipt; no route or eligibility activation.')
+    print(f'Reader: {len(files)-1} Kotlin files plus the retained test parity fixture.')
 if __name__=='__main__':main()

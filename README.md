@@ -56,6 +56,8 @@ The browser uses WebAssembly GC, supported by modern Chrome, Edge, Firefox and S
 - `content/accepted-content-manifest.json`: release identity, payload hashes and revisions.
 - `content/package-sources.json`: classified source references, dates and scope limits.
 - `content/legacy-aliases.json`: compatibility routes.
+- `content/source-manifest.json`: original official catalogue/source provenance.
+- `content/delivery-targets.json`: recorded platform acceptance scope.
 - `composeApp/src/commonMain/kotlin/se/korkort/`: shared UI, quiz engine and generated curriculum code.
 - `composeApp/src/commonMain/composeResources/`: bundled artwork, fonts and font licences.
 
@@ -63,7 +65,14 @@ The bank contains 178 situation questions, 616 two-direction sign-recognition qu
 
 The approved 578-page tagged screen book is [korkortgo-curriculum.pdf](output/pdf/korkortgo-curriculum.pdf). The old research book remains locally as `theory-book-2026-1 (1).pdf` and is Git-ignored. Duplicate exports and the historical migration/design/verification archive have been removed from the working folder after backup.
 
-Run the maintained shared tests with `./gradlew :composeApp:desktopTest`. Their content-parity fixtures live under `composeApp/src/desktopTest/resources/content-parity/`. Historical Python import/release scripts still depend on the archived inputs and await the tooling cleanup step; their old check/write commands are not a supported workflow in this cleaned checkout. Keep the generated production Kotlin when building the app.
+Run the maintained shared tests with `./gradlew :composeApp:desktopTest`. Their content-parity fixtures live under `composeApp/src/desktopTest/resources/content-parity/`. The reader and navigation generators use the retained content directly:
+
+```sh
+python3 tools/build_reader.py --check
+python3 tools/build_navigation.py --check
+```
+
+Omit `--check` to regenerate their Kotlin outputs; the reader also updates its test parity fixture. Review those diffs and run the JVM tests after content changes. Historical import, scraping, correction and release-approval scripts are archived. These two generators do not publish or approve question-bank revisions. Keep the generated production Kotlin when building the app; changes to the scored bank require separate generation/review work rather than the archived commands.
 
 Road-sign illustrations: Transportstyrelsen. English labels and explanations are editorial translations. Contextual illustrations: KörkortGo, built-in imagegen artwork. Retain bundled Source Sans 3 and Source Serif 4 licence notices and the per-asset source/reuse conditions recorded in the content. Calculations carry educational assumptions; sources and rules require ongoing maintenance. Migration does not establish a fresh source-currency or final platform acceptance review.
 
