@@ -2,6 +2,8 @@
 
 Created: 27 October 2026. Updated: 29 October 2026. Phase 1's storage proof is implemented, with remaining browser acceptance checks recorded in the [phase-1 report](evidence/storage-phase1/README.md). The user authorized the required Kotlin upgrade to 2.3.20. Dashboard layouts and later phases still await their applicable design approval; this update does not implement the redesigned screens.
 
+Phase 2 implementation: the `progress-data` library now contains the versioned Room schema, transactional repository, persisted snapshots/catalogue, revision-aware metrics and migration/reopen tests. See [module documentation](../../progress-data/README.md). UI and lifecycle integration remain phase 3.
+
 ## 1. Intended outcome
 
 Replace the current promotional overview with a useful personal dashboard. The three primary destinations are exactly **Home**, **Learning**, and **Exercise**. A learner can see what they have read, how much of the accepted question bank they have covered, what needs review, and one useful next action. Progress and an unfinished exercise survive an app restart.

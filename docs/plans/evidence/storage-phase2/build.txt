@@ -1,0 +1,114 @@
+> Task :progress-data:kmpPartiallyResolvedDependenciesChecker
+> Task :progress-data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :progress-data:preBuild UP-TO-DATE
+> Task :progress-data:preDebugBuild UP-TO-DATE
+> Task :progress-data:generateDebugResValues UP-TO-DATE
+> Task :progress-data:generateDebugResources UP-TO-DATE
+> Task :progress-data:packageDebugResources UP-TO-DATE
+> Task :progress-data:processDebugNavigationResources UP-TO-DATE
+> Task :progress-data:parseDebugLocalResources UP-TO-DATE
+> Task :progress-data:generateDebugRFile UP-TO-DATE
+> Task :progress-data:javaPreCompileDebug UP-TO-DATE
+> Task :progress-data:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :progress-data:checkDebugAarMetadata UP-TO-DATE
+> Task :progress-data:mergeDebugJniLibFolders UP-TO-DATE
+> Task :progress-data:mergeDebugNativeLibs NO-SOURCE
+> Task :progress-data:stripDebugDebugSymbols NO-SOURCE
+> Task :progress-data:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :progress-data:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :progress-data:mergeDebugShaders UP-TO-DATE
+> Task :progress-data:compileDebugShaders NO-SOURCE
+> Task :progress-data:debugAssetsCopyForAGP NO-SOURCE
+> Task :progress-data:generateDebugAssets UP-TO-DATE
+> Task :progress-data:mergeDebugAssets UP-TO-DATE
+> Task :progress-data:prepareDebugArtProfile UP-TO-DATE
+> Task :progress-data:prepareLintJarForPublish UP-TO-DATE
+> Task :progress-data:processDebugManifest UP-TO-DATE
+> Task :progress-data:writeDebugAarMetadata UP-TO-DATE
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForDesktopMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForDesktopMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForDesktopMain UP-TO-DATE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :composeApp:compileKotlinDesktop UP-TO-DATE
+> Task :composeApp:compileDesktopMainJava NO-SOURCE
+> Task :composeApp:assembleDesktopMainResources UP-TO-DATE
+> Task :composeApp:desktopProcessResources UP-TO-DATE
+> Task :composeApp:processDesktopMainResources SKIPPED
+> Task :composeApp:desktopMainClasses UP-TO-DATE
+> Task :composeApp:desktopJar UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForCommonTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForCommonTest NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForDesktopTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForDesktopTest NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForDesktopTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForDesktopTest NO-SOURCE
+> Task :composeApp:compileTestKotlinDesktop UP-TO-DATE
+> Task :composeApp:compileDesktopTestJava NO-SOURCE
+> Task :composeApp:assembleDesktopTestResources UP-TO-DATE
+> Task :composeApp:desktopTestProcessResources UP-TO-DATE
+> Task :composeApp:processDesktopTestResources SKIPPED
+> Task :composeApp:desktopTestClasses UP-TO-DATE
+> Task :composeApp:desktopTest UP-TO-DATE
+> Task :progress-data:kspKotlinDesktop
+> Task :progress-data:desktopProcessResources NO-SOURCE
+> Task :progress-data:processDesktopMainResources SKIPPED
+> Task :progress-data:kspDebugKotlinAndroid
+> Task :progress-data:kspKotlinIosArm64
+> Task :progress-data:kspKotlinIosSimulatorArm64
+> Task :progress-data:kspKotlinWasmJs
+
+> Task :progress-data:compileKotlinIosArm64
+w: file:///Users/zeyad/Desktop/korkort/progress-data/build/generated/ksp/iosArm64/iosArm64Main/kotlin/se/korkort/progress/ProgressDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/progress-data/src/commonMain/kotlin/se/korkort/progress/ProgressDatabase.kt:60:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :progress-data:compileDebugKotlinAndroid
+w: file:///Users/zeyad/Desktop/korkort/progress-data/build/generated/ksp/android/androidDebug/kotlin/se/korkort/progress/ProgressDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/progress-data/src/commonMain/kotlin/se/korkort/progress/ProgressDatabase.kt:60:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :progress-data:compileKotlinDesktop
+w: file:///Users/zeyad/Desktop/korkort/progress-data/build/generated/ksp/desktop/desktopMain/kotlin/se/korkort/progress/ProgressDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/progress-data/src/commonMain/kotlin/se/korkort/progress/ProgressDatabase.kt:60:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :progress-data:compileKotlinIosSimulatorArm64
+w: file:///Users/zeyad/Desktop/korkort/progress-data/build/generated/ksp/iosSimulatorArm64/iosSimulatorArm64Main/kotlin/se/korkort/progress/ProgressDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/progress-data/src/commonMain/kotlin/se/korkort/progress/ProgressDatabase.kt:60:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :progress-data:compileDebugJavaWithJavac NO-SOURCE
+> Task :progress-data:compileDesktopMainJava NO-SOURCE
+> Task :progress-data:desktopMainClasses
+> Task :progress-data:kspTestKotlinDesktop
+> Task :progress-data:copyRoomSchemas NO-SOURCE
+> Task :progress-data:desktopJar
+> Task :progress-data:desktopTestProcessResources UP-TO-DATE
+> Task :progress-data:processDesktopTestResources SKIPPED
+> Task :progress-data:extractDebugAnnotations
+> Task :progress-data:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :progress-data:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :progress-data:processDebugJavaRes UP-TO-DATE
+> Task :progress-data:mergeDebugJavaResource UP-TO-DATE
+> Task :progress-data:syncDebugLibJars
+> Task :progress-data:bundleDebugAar
+> Task :progress-data:assembleDebug
+> Task :progress-data:compileTestKotlinDesktop
+> Task :progress-data:compileDesktopTestJava NO-SOURCE
+> Task :progress-data:desktopTestClasses
+
+> Task :progress-data:compileKotlinWasmJs
+w: file:///Users/zeyad/Desktop/korkort/progress-data/build/generated/ksp/wasmJs/wasmJsMain/kotlin/se/korkort/progress/ProgressDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/progress-data/src/commonMain/kotlin/se/korkort/progress/ProgressDatabase.kt:60:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :progress-data:desktopTest
+
+BUILD SUCCESSFUL in 4s
+56 actionable tasks: 19 executed, 37 up-to-date
