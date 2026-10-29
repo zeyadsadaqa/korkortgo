@@ -1,3 +1,0 @@
-/Users/zeyad/Desktop/korkort/tools/import_curriculum_remaining.py:245: DeprecationWarning: 'maxsplit' is passed as positional argument
-  text=(ROOT/source).read_text();teaching=re.split(r'^\[[^]]+\]: ',text,1,flags=re.M)[0].strip()
-PASS: complete import and bundled artwork reproduce without writes.

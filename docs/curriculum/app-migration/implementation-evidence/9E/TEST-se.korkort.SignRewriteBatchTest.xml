@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.korkort.SignRewriteBatchTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-16T13:27:42.141Z" hostname="Zeyads-MacBook-Pro.local" time="0.201">
-  <properties/>
-  <testcase name="heldRewritesCannotEnterLegacyOrNewScoredSessions[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.021"/>
-  <testcase name="recognitionLabelsHaveNoCodeAndEveryPermutationKeepsOptionFeedback[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.178"/>
-  <testcase name="exactBatchHasStableIdsRevisionsAndBindings[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

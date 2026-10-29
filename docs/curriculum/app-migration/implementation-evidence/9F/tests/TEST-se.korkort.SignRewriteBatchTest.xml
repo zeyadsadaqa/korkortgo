@@ -1,9 +1,0 @@
-<testsuite name="se.korkort.SignRewriteBatchTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2026-10-16T17:00:23.586Z" hostname="&lt;host&gt;" time="0.127">
-  <properties />
-  <testcase name="heldRewritesCannotEnterLegacyOrNewScoredSessions[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.017" />
-  <testcase name="recognitionLabelsHaveNoCodeAndEveryPermutationKeepsOptionFeedback[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.107" />
-  <testcase name="exactBatchHasStableIdsRevisionsAndBindings[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.002" />
-  <testcase name="all38UnacceptedLegacyReplacementsStayOutOfScoredSessions[desktop]" classname="se.korkort.SignRewriteBatchTest" time="0.001" />
-  <system-out />
-  <system-err />
-</testsuite>

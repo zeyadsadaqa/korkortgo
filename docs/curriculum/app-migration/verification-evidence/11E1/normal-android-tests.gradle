@@ -1,7 +1,0 @@
-gradle.beforeProject { p -> if(p.path == ':composeApp') p.pluginManager.withPlugin('com.android.application') { p.extensions.getByName('android').defaultConfig.testInstrumentationRunner='androidx.test.runner.AndroidJUnitRunner' } }
-gradle.projectsEvaluated {
- def app=gradle.rootProject.project(':composeApp')
- app.extensions.getByName('kotlin').sourceSets.getByName('androidInstrumentedTest').kotlin.srcDir(new File(gradle.rootProject.projectDir,'docs/curriculum/app-migration/verification-evidence/11E1/android-normal'))
- app.dependencies.add('androidInstrumentedTestImplementation','androidx.test:runner:1.6.1')
- app.dependencies.add('androidInstrumentedTestImplementation','junit:junit:4.13.2')
-}

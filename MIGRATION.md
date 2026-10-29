@@ -24,7 +24,7 @@ Old: e9aadde3822471a1ea2d85d17cdd23df30ff9f91c41c2dcb27e222104a71d994
 New: 78a89d8ffbb83b6e9eec6193396871ac2fb9feccf245b85112809646dd595581
 ```
 
-The new book is the **578-page tagged screen edition approved on 14 October 2026**. Print masters and print approval were deferred. Its retained output copy matches the approved production copy and the tagged duplicate exactly. Other exports are cleanup candidates; no duplicate has been removed yet. The old research PDF is Git-ignored and is separately protected by the recovery archive.
+The new book is the **578-page tagged screen edition approved on 14 October 2026**. Print masters and print approval were deferred. Its retained output copy matches the approved production copy and the tagged duplicate exactly. Duplicate exports and the production-folder copies were removed in step 4; the output path above is the retained new book. The old research PDF is Git-ignored and is separately protected by the recovery archive.
 
 ## Where the maintained app content lives
 
@@ -35,7 +35,7 @@ The new book is the **578-page tagged screen edition approved on 14 October 2026
 - `composeApp/src/commonMain/composeResources/`: bundled artwork, fonts and complete font licences. These are app assets, including small reference PDFs.
 - `composeApp/src/androidMain`, `iosMain`, `wasmJsMain`, and `iosApp/`: platform entry points and the native iOS host.
 
-Generated production Kotlin remains necessary for normal builds. Current regeneration still depends on the migration archive; those dependencies must be resolved before removing the archive or its tools. Current question/reader parity tests use small retained fixtures in `composeApp/src/desktopTest/resources/content-parity/`; candidate runtime tests no longer read or write migration evidence. Historical candidate banks and import-state files do not supersede the accepted release. Build commands remain in `README.md`.
+Generated production Kotlin remains necessary for normal builds. The remaining historical regeneration scripts depend on the now-archived migration inputs and await step-5 tooling cleanup; their check/write modes are not a supported workflow in this cleaned checkout. Normal Gradle builds use the retained production Kotlin and resources. Current question/reader parity tests use small retained fixtures in `composeApp/src/desktopTest/resources/content-parity/`; candidate runtime tests no longer read or write migration evidence. Historical candidate banks and import-state files do not supersede the accepted release. Build commands remain in `README.md`.
 
 ## Credits and maintenance
 
@@ -45,7 +45,7 @@ Source Sans 3 and Source Serif 4 ship with their complete SIL Open Font License 
 
 ## Remaining limitations
 
-The content import and approved screen book are complete within their recorded scope; final app acceptance is unfinished. The current journey ledger records **92/132 scoped passing dispositions**, including proof-host coverage, rather than 132 fully accepted normal-app journeys. Keyboard/focus behaviour, assistive listening, recovery equivalence, remaining target journeys and formal defect/gate reconciliation still require work. Proof-build dark requests can render the fixed light theme. iOS runtime evidence is simulator-scoped; physical-device acceptance is unperformed.
+The content import and approved screen book are complete within their recorded scope; final app acceptance is unfinished. The archived journey ledger records **92/132 scoped passing dispositions**, including proof-host coverage, rather than 132 fully accepted normal-app journeys. Keyboard/focus behaviour, assistive listening, recovery equivalence, remaining target journeys and formal defect/gate reconciliation still require work. Proof-build dark requests can render the fixed light theme. iOS runtime evidence is simulator-scoped; physical-device acceptance is unperformed.
 
 Reading and practice state is currently transient. Persistent progress and the dashboard are a separate, unapproved proposal. Cleanup does not implement them or close the outstanding acceptance work.
 
@@ -62,6 +62,8 @@ The folder contains `project-checkpoint.tar`, `manifest.json`, `VERIFIED.json` a
 Step 2 verified both retained book identities and created this brief. Step 3 removes the five verification-only source sets, their opt-in Gradle wiring, the iOS migration test target/scheme and the historical held-candidate capture test. Production app code and resources remain intact. Useful runtime tests and the current accepted question/reader parity checks are retained; running these tests no longer writes into the migration archive. Cleanup does not change historical acceptance decisions.
 
 Step-3 validation: all 86 retained JVM tests passed, and Android, Wasm and iOS simulator Kotlin compilation succeeded. The Xcode project parses with valid app-scheme references. Both books, all 1,147 production source/resource files and the five protected redesign files were checked for unchanged bytes. Full platform packaging and final acceptance remain separate work.
+
+Step 4 removed the historical curriculum/migration archive, obsolete development/verification documents, old mockup/brand/icon design sources and all duplicate/chapter PDF exports. The retained new book stays at `output/pdf/korkortgo-curriculum.pdf`. All 42,769 removed files matched the recovery checkpoint before deletion (5,584,103,127 bytes). Historical file paths embedded in provenance records identify archived evidence; they are not active build inputs. README links and PDF Git/LFS rules now match the retained layout. After removal, all 86 retained JVM tests passed again with zero failures, errors or skips; both books, all production files and all five protected redesign files remain byte-for-byte unchanged. The protected redesign plan, preview and prompt remain in the project.
 
 ## Protected redesign files
 

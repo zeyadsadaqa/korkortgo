@@ -47,52 +47,29 @@ For iOS, open `iosApp/Korkort.xcodeproj`, select the Korkort scheme and an iPhon
 
 The browser uses WebAssembly GC, supported by modern Chrome, Edge, Firefox and Safari. No server, account or remote question-generation service is required.
 
-## Content and provenance
+## Content and migration
 
-See [accepted-content build and regeneration guidance](docs/development/content.md) and the [provenance and credit inventory](docs/curriculum/app-migration/provenance-inventory.md).
+[Migration brief](MIGRATION.md) records the migration outcome, retained book hashes, source credits, recovery archive and remaining acceptance work.
 
-- `content/concepts.tsv`: 178 authored situation questions and misconception-specific explanations.
-- `content/accepted-assessment-questions.json`: the accepted, reviewable 1,000-question production bank.
-- `content/accepted-content-manifest.json`: validated release identity, payload hashes and counts.
-- `content/assessment-questions.json`: retained historical candidate and hold evidence.
-- `content/curriculum.json`: canonical teaching, references, exact artwork and source evidence.
-- `content/package-sources.json`: the accepted manifest’s classified source references, dates and scope limits.
-- `content/delivery-targets.json`: explicit platform acceptance policy, including simulator-scoped iOS evidence.
-- `content/signs.json`: official sign URLs, image URLs, retrieval dates and SHA-256 hashes.
-- `content/source-manifest.json`: the official catalogue and rules pages visited.
-- `content/quality-report.json`: counts and content composition.
-- `composeApp/src/commonMain/kotlin/se/korkort/CurriculumApp.kt`: integrated canonical learning and practice routes.
-- `tools/finalize_step10_corrections.py`: current accepted package assembly and release validation; historical producers remain audit tools.
-- `tools/build_content.py`: historical question compiler, including explicit calculation models.
-- `tools/scrape_sources.py`: bounded downloader for the public Transportstyrelsen section.
+- `content/curriculum.json`: canonical teaching, references, navigation and artwork records.
+- `content/accepted-assessment-questions.json`: the accepted 1,000-question production bank.
+- `content/accepted-content-manifest.json`: release identity, payload hashes and revisions.
+- `content/package-sources.json`: classified source references, dates and scope limits.
+- `content/legacy-aliases.json`: compatibility routes.
+- `composeApp/src/commonMain/kotlin/se/korkort/`: shared UI, quiz engine and generated curriculum code.
+- `composeApp/src/commonMain/composeResources/`: bundled artwork, fonts and font licences.
 
-The bank contains **178 situation questions, 616 two-direction sign-recognition questions and 206 calculation scenarios**, representing **500 distinct learning concepts**. It does not present reworded copies as independent learning concepts. The distribution of the stored bank is not the distribution of a test; the engine enforces the requested test allocation.
+The bank contains 178 situation questions, 616 two-direction sign-recognition questions and 206 calculation scenarios, representing 500 distinct concepts. The engine enforces test allocations independently of these bank totals.
 
-The original research and migration provenance remains in `docs/curriculum/`; learner routes use the original KörkortGo curriculum and classified supporting sources. Official sign artwork retains its exact source bytes and attribution. Approved editorial illustrations are separately identified. Source dates and scope limits are retained; this integration does not claim a new universal source check.
+The approved 578-page tagged screen book is [korkortgo-curriculum.pdf](output/pdf/korkortgo-curriculum.pdf). The old research book remains locally as `theory-book-2026-1 (1).pdf` and is Git-ignored. Duplicate exports and the historical migration/design/verification archive have been removed from the working folder after backup.
 
-Calculations are labelled with assumptions. Approximate braking models are educational estimates, not guaranteed stopping distances. Rules and source links should be maintained as the source material changes.
+Run the maintained shared tests with `./gradlew :composeApp:desktopTest`. Their content-parity fixtures live under `composeApp/src/desktopTest/resources/content-parity/`. Historical Python import/release scripts still depend on the archived inputs and await the tooling cleanup step; their old check/write commands are not a supported workflow in this cleaned checkout. Keep the generated production Kotlin when building the app.
 
-To verify the current candidate and accepted package without changing acceptance decisions:
+Road-sign illustrations: Transportstyrelsen. English labels and explanations are editorial translations. Contextual illustrations: KörkortGo, built-in imagegen artwork. Retain bundled Source Sans 3 and Source Serif 4 licence notices and the per-asset source/reuse conditions recorded in the content. Calculations carry educational assumptions; sources and rules require ongoing maintenance. Migration does not establish a fresh source-currency or final platform acceptance review.
 
-```sh
-python3 tools/stage_step10_corrections.py --check
-python3 tools/review_step10_delivery.py --check
-python3 tools/finalize_step10_corrections.py --check
-python3 tools/build_navigation.py --check
-python3 tools/verify_step10_content.py reader
-python3 tools/verify_step10_content.py baseline
-./gradlew :composeApp:desktopTest
-```
+## Planned redesign
 
-Do not run the historical `build_content.py` over the accepted release. Content changes require renewed parity, delivery and release validation.
-
-Official asset refreshes require a separate source/reuse review and renewed hash, delivery and release checks. The historical scraper is documented in the build guide; running it alone does not update the accepted release.
-
-Road-sign illustrations: Transportstyrelsen. English labels and explanations are editorial translations. Contextual illustrations: KörkortGo, built-in imagegen artwork. Source Sans 3 and Source Serif 4 ship with their SIL Open Font License texts; retain them with redistributed font resources. Exact per-asset credits, reuse conditions, approval records and licence locations are listed in the provenance inventory.
-
-## Design
-
-Original ImageGen boards are in `design/mockups/`, with prompts in `prompts.md`; the curriculum migration’s approved screen references and bindings are in `docs/curriculum/app-design/`. They cover overview, library, reader, setup, question, feedback, results and review, including mobile adaptations. They are design references; the app uses actual UI components and official sign assets, not mockup images as screens.
+The proposed dashboard and persistent-progress work is preserved in the [implementation plan](docs/plans/progress-dashboard-plan.md), [revised preview](design/progress-dashboard/preview-v2.png), and [generation prompt](design/progress-dashboard/prompt-v2.md). It awaits explicit design approval. Additional original generated images remain at the protected local paths listed in `MIGRATION.md`.
 
 ## Project structure
 

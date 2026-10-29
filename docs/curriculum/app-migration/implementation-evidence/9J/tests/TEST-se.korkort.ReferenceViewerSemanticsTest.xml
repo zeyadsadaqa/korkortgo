@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.korkort.ReferenceViewerSemanticsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-16T21:14:14.978Z" hostname="Zeyads-MacBook-Pro.local" time="0.832">
-  <properties/>
-  <testcase name="neutralS1ViewerSupportsKeyboardAndLargeTextOnLightAndDarkSurfaces[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.307"/>
-  <testcase name="b1DetailUsesExactCaptionSourceAndReturnsFocusAfterZoom[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.242"/>
-  <testcase name="assessmentZoomPreservesPendingChoiceAndDoesNotRevealMeaning[desktop]" classname="se.korkort.ReferenceViewerSemanticsTest" time="0.283"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

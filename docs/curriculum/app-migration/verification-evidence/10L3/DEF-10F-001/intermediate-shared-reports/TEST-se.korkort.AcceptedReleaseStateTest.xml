@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="se.korkort.AcceptedReleaseStateTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-10-21T20:52:01.765Z" hostname="Zeyads-MacBook-Pro.local" time="2.418">
-  <properties/>
-  <testcase name="acceptedPackagePreservesEverySizeBothFeedbackModesAndExactSnapshotScores[desktop]" classname="se.korkort.AcceptedReleaseStateTest" time="2.406"/>
-  <testcase name="productionStartRejectsInjectedIdentityAndPayloadChanges[desktop]" classname="se.korkort.AcceptedReleaseStateTest" time="0.01"/>
-  <testcase name="acceptedPackageGuardsDraftReviewSourcesPreferencesAndProcessReset[desktop]" classname="se.korkort.AcceptedReleaseStateTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

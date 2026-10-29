@@ -1,8 +1,0 @@
-{
-  "status": "pass_exact_description_delivery_ios_simulator",
-  "cases": 28,
-  "image_zoom_returns": 100,
-  "candidate_manifest_sha256": "20ca04c75f1f1a56cc643f29dbebefea51c999aef43d70027fb2ad9ed7416f35",
-  "scope": "iPhone17/iOS26.5 simulator; exact changed revisions, native selection and modal returns; unscored proof-only build. No VoiceOver listening or physical device acceptance.",
-  "test_log": "../../DEF-10F-001/corrected-ios-native-matrix.txt"
-}

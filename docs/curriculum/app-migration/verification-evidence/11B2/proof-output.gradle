@@ -1,1 +1,0 @@
-gradle.projectsLoaded { gradle.rootProject.allprojects { p -> if (p.path == ':composeApp') p.layout.buildDirectory.set(new File('/tmp/korkort-step11-proof-build')) } }
