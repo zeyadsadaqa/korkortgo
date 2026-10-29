@@ -35,36 +35,3 @@ kotlin.targets.withType<org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget>
     compilerOptions.jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
 }
 compose.resources { packageOfResClass = "se.korkort.resources"; publicResClass = true }
-
-// Opt-in verification binaries contain held renderer fixtures, never scored content/routes.
-val referenceProof = providers.gradleProperty("referenceProof").isPresent
-if (referenceProof) {
-    android.defaultConfig.testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    kotlin.sourceSets.getByName("androidInstrumentedTest").dependencies {
-        implementation("androidx.test:runner:1.6.1")
-        implementation("junit:junit:4.13.2")
-    }
-    kotlin.sourceSets.getByName("androidInstrumentedTest").kotlin.srcDir("src/verificationAndroidTest/kotlin")
-    require(gradle.startParameter.taskNames.none {it.contains("release",ignoreCase=true)}) {"Verification fixtures must not be included in a release build"}
-    gradle.taskGraph.whenReady {
-        require(allTasks.none {it.name.contains("release",ignoreCase=true) || it.name.contains("publish",ignoreCase=true)}) {"Verification fixtures must not be released or published"}
-    }
-    kotlin.sourceSets.getByName("commonMain").kotlin.srcDir("src/verificationCommonMain/kotlin")
-    // Unaccepted step10 correction fixtures stay confined to opt-in proof builds.
-    kotlin.sourceSets.getByName("commonMain").kotlin.srcDir(rootProject.file("docs/curriculum/app-migration/verification-evidence/10L2/content-corrections/candidate/kotlin"))
-    kotlin.targets.getByName("android").compilations.configureEach {
-        if (name == "debug") defaultSourceSet.kotlin.srcDir("src/verificationAndroidMain/kotlin")
-    }
-    kotlin.sourceSets.getByName("wasmJsMain").kotlin.apply {
-        srcDir("src/verificationWasmMain/kotlin")
-        exclude { it.file == project.file("src/wasmJsMain/kotlin/se/korkort/main.kt") }
-    }
-    kotlin.sourceSets.configureEach {
-        if (name == "iosMain") kotlin.apply {
-            srcDir("src/verificationIosMain/kotlin")
-            exclude { it.file == project.file("src/iosMain/kotlin/se/korkort/MainViewController.kt") }
-        }
-    }
-    android.sourceSets.getByName("debug").manifest.srcFile("src/verificationAndroidMain/AndroidManifest.xml")
-    android.buildTypes.getByName("debug").applicationIdSuffix = ".verification"
-}

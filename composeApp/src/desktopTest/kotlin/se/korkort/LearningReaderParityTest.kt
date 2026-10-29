@@ -1,16 +1,11 @@
 package se.korkort
 
 import java.lang.reflect.Modifier
-import java.nio.file.Files
-import java.nio.file.Path
 import java.security.MessageDigest
-import kotlin.random.Random
 import kotlin.test.*
 
-/** End-to-end parity uses actual compiled objects, independent of the Python emitter. */
+/** Compiled teaching must match the accepted step10-r1 hashes retained as test resources. */
 class LearningReaderParityTest {
-    private val root: Path get() = generateSequence(Path.of(System.getProperty("user.dir"))) { it.parent }.first { Files.exists(it.resolve("content/assessment-questions.json")) }
-    private val evidence get() = root.resolve("docs/curriculum/app-migration/verification-evidence/10L3/content-corrections/release")
     private fun quote(text: String): String = buildString {
         append('"')
         text.forEach { c -> when (c) {
@@ -40,7 +35,10 @@ class LearningReaderParityTest {
         }
     }
     @Test fun completeCompiledTeachingMatchesAllAuthoringFields() {
-        val expected=Files.readAllLines(evidence.resolve("reader-parity.tsv")).associate{it.split('\t').let{parts->parts[0] to parts[1]}}
+        val expected = checkNotNull(javaClass.getResourceAsStream("/content-parity/reader-parity.tsv")) {
+            "Missing reader parity fixture"
+        }.bufferedReader().use { it.readLines() }
+            .associate { line -> line.split('\t').let { it[0] to it[1] } }
         val fields=mapOf("modules" to readerModules,"documents" to readerDocuments,"reading_order" to readerOrder,"lesson_category_tags" to readerTags,"assets" to readerAssets)
         fields.forEach{(name,value)->
             val text=canonical(value)
