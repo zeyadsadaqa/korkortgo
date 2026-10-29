@@ -1,0 +1,128 @@
+> Task :storage-spike:kmpPartiallyResolvedDependenciesChecker
+> Task :storage-spike:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :storage-spike:preBuild UP-TO-DATE
+> Task :storage-spike:preDebugBuild UP-TO-DATE
+> Task :storage-spike:checkDebugAarMetadata
+> Task :storage-spike:processDebugNavigationResources
+> Task :storage-spike:compileDebugNavigationResources
+> Task :storage-spike:generateDebugResValues
+> Task :storage-spike:mapDebugSourceSetPaths
+> Task :storage-spike:generateDebugResources
+> Task :storage-spike:mergeDebugResources
+> Task :storage-spike:packageDebugResources
+> Task :storage-spike:createDebugCompatibleScreenManifests
+> Task :storage-spike:extractDeepLinksDebug
+> Task :storage-spike:parseDebugLocalResources
+> Task :storage-spike:processDebugMainManifest
+> Task :storage-spike:processDebugManifest
+> Task :storage-spike:processDebugManifestForPackage
+> Task :storage-spike:javaPreCompileDebug
+> Task :storage-spike:preDebugAndroidTestBuild SKIPPED
+> Task :storage-spike:checkDebugAndroidTestAarMetadata
+> Task :storage-spike:processDebugAndroidTestNavigationResources
+> Task :storage-spike:compileDebugAndroidTestNavigationResources
+> Task :storage-spike:generateDebugAndroidTestResValues
+> Task :storage-spike:mapDebugAndroidTestSourceSetPaths
+> Task :storage-spike:generateDebugAndroidTestResources
+> Task :storage-spike:mergeDebugAndroidTestResources
+> Task :storage-spike:processDebugAndroidTestManifest
+> Task :storage-spike:javaPreCompileDebugAndroidTest
+> Task :storage-spike:processDebugResources
+> Task :storage-spike:processDebugAndroidTestResources
+> Task :storage-spike:kspKotlinDesktop
+> Task :storage-spike:kspKotlinIosArm64
+> Task :storage-spike:kspDebugKotlinAndroid
+> Task :storage-spike:desktopProcessResources NO-SOURCE
+> Task :storage-spike:processDesktopMainResources SKIPPED
+> Task :storage-spike:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :storage-spike:mergeDebugShaders
+> Task :storage-spike:compileDebugShaders NO-SOURCE
+> Task :storage-spike:debugAssetsCopyForAGP NO-SOURCE
+> Task :storage-spike:generateDebugAssets UP-TO-DATE
+> Task :storage-spike:mergeDebugAssets
+> Task :storage-spike:compressDebugAssets
+> Task :storage-spike:desugarDebugFileDependencies
+> Task :storage-spike:mergeDebugJniLibFolders
+> Task :storage-spike:checkDebugDuplicateClasses
+> Task :storage-spike:mergeDebugNativeLibs
+> Task :storage-spike:kspKotlinIosSimulatorArm64
+
+> Task :storage-spike:compileKotlinDesktop
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/desktop/desktopMain/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :storage-spike:compileDebugKotlinAndroid
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/android/androidDebug/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :storage-spike:compileDebugJavaWithJavac NO-SOURCE
+> Task :storage-spike:compileDesktopMainJava NO-SOURCE
+> Task :storage-spike:desktopMainClasses
+> Task :storage-spike:kspTestKotlinDesktop SKIPPED
+> Task :storage-spike:bundleDebugClassesToCompileJar
+> Task :storage-spike:desktopJar
+> Task :storage-spike:kspDebugAndroidTestKotlinAndroid SKIPPED
+> Task :storage-spike:desktopTestProcessResources NO-SOURCE
+> Task :storage-spike:processDesktopTestResources SKIPPED
+> Task :storage-spike:dexBuilderDebug
+> Task :storage-spike:mergeDebugGlobalSynthetics
+> Task :storage-spike:processDebugJavaRes
+> Task :storage-spike:mergeLibDexDebug
+> Task :storage-spike:validateSigningDebug
+> Task :storage-spike:writeDebugAppMetadata
+> Task :storage-spike:writeDebugSigningConfigVersions
+> Task :storage-spike:mergeProjectDexDebug
+> Task :storage-spike:mergeDebugAndroidTestShaders
+> Task :storage-spike:compileDebugAndroidTestShaders NO-SOURCE
+> Task :storage-spike:copyRoomSchemasToAndroidTestAssetsDebugAndroidTest NO-SOURCE
+> Task :storage-spike:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :storage-spike:mergeDebugAndroidTestAssets
+> Task :storage-spike:compressDebugAndroidTestAssets
+> Task :storage-spike:desugarDebugAndroidTestFileDependencies
+> Task :storage-spike:stripDebugDebugSymbols
+> Task :storage-spike:checkDebugAndroidTestDuplicateClasses
+> Task :storage-spike:mergeDebugAndroidTestJniLibFolders
+> Task :storage-spike:mergeDebugJavaResource
+> Task :storage-spike:compileDebugAndroidTestKotlinAndroid
+> Task :storage-spike:compileTestKotlinDesktop
+> Task :storage-spike:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :storage-spike:copyRoomSchemas
+> Task :storage-spike:compileDesktopTestJava NO-SOURCE
+> Task :storage-spike:desktopTestClasses
+> Task :storage-spike:mergeExtDexDebugAndroidTest
+> Task :storage-spike:mergeExtDexDebug
+> Task :storage-spike:desktopTest
+> Task :storage-spike:dexBuilderDebugAndroidTest
+> Task :storage-spike:mergeDebugAndroidTestGlobalSynthetics
+> Task :storage-spike:processDebugAndroidTestJavaRes
+> Task :storage-spike:mergeLibDexDebugAndroidTest
+> Task :storage-spike:mergeProjectDexDebugAndroidTest
+> Task :storage-spike:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :storage-spike:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :storage-spike:validateSigningDebugAndroidTest
+> Task :storage-spike:writeDebugAndroidTestSigningConfigVersions
+> Task :storage-spike:mergeDebugAndroidTestJavaResource
+
+> Task :storage-spike:compileKotlinIosArm64 FAILED
+w: KLIB resolver: Skipping '/Users/zeyad/.gradle/caches/modules-2/files-2.1/androidx.room3/room3-common-iosarm64/3.0.3/6bfcc7fbdf2e85a320618355e136af7da8666f76/room3-common-iosArm64Main-3.0.3.klib' having incompatible ABI version '2.3.0'. The library was produced by '2.3.20' compiler.
+The current Kotlin compiler can consume libraries having ABI version <= '2.2.0'.
+Please upgrade your Kotlin compiler version to consume this library.
+e: KLIB resolver: Could not find "/Users/zeyad/.gradle/caches/modules-2/files-2.1/androidx.room3/room3-common-iosarm64/3.0.3/6bfcc7fbdf2e85a320618355e136af7da8666f76/room3-common-iosArm64Main-3.0.3.klib" in [/Users/zeyad/.konan/kotlin-native-prebuilt-macos-aarch64-2.2.20/klib/common, /Users/zeyad/.konan/kotlin-native-prebuilt-macos-aarch64-2.2.20/klib/platform/ios_arm64, /Users/zeyad/Desktop/korkort]
+
+> Task :storage-spike:packageDebug
+> Task :storage-spike:createDebugApkListingFileRedirect
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':storage-spike:compileKotlinIosArm64'.
+> Compilation finished with errors
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 21s
+75 actionable tasks: 75 executed

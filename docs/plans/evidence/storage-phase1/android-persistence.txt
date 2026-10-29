@@ -1,0 +1,27 @@
+$ adb -s emulator-5554 install -r storage-spike/build/outputs/apk/debug/KorkortStorageSpike-debug.apk
+Performing Streamed Install
+Success
+
+$ adb -s emulator-5554 install -r storage-spike/build/outputs/apk/androidTest/debug/KorkortStorageSpike-debug-androidTest.apk
+Performing Streamed Install
+Success
+
+$ adb -s emulator-5554 shell am instrument -w -e probeAction write se.korkort.storageprobe.test/androidx.test.runner.AndroidJUnitRunner
+
+se.korkort.storageprobe.AndroidPersistenceTest:.
+
+Time: 0.262
+
+OK (1 test)
+
+
+
+$ adb -s emulator-5554 shell am force-stop se.korkort.storageprobe
+
+$ adb -s emulator-5554 shell am instrument -w -e probeAction verify se.korkort.storageprobe.test/androidx.test.runner.AndroidJUnitRunner
+
+se.korkort.storageprobe.AndroidPersistenceTest:.
+
+Time: 0.112
+
+OK (1 test)

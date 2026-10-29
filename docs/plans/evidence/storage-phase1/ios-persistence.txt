@@ -1,0 +1,6 @@
+iOS 26.5 iPhone 17 simulator. Executable copied to /private/tmp to avoid Desktop-directory simulator access restrictions.
+$ xcrun simctl spawn F6E93C4B-958D-4CBB-B95E-537B4FB8070C /private/tmp/korkort-storage-proof.kexe write
+STORAGE_PROBE_PASS ios write
+
+$ xcrun simctl spawn F6E93C4B-958D-4CBB-B95E-537B4FB8070C /private/tmp/korkort-storage-proof.kexe verify
+STORAGE_PROBE_PASS ios verify

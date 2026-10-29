@@ -1,6 +1,6 @@
 # Progress dashboard and persistent learning plan
 
-Date: 27 October 2026. Status: proposed, awaiting explicit design approval. This document and its image are planning artifacts only. No application code, dependencies, database, or existing migration evidence have been changed by this proposal.
+Created: 27 October 2026. Updated: 29 October 2026. Phase 1's storage proof is implemented, with remaining browser acceptance checks recorded in the [phase-1 report](evidence/storage-phase1/README.md). The user authorized the required Kotlin upgrade to 2.3.20. Dashboard layouts and later phases still await their applicable design approval; this update does not implement the redesigned screens.
 
 ## 1. Intended outcome
 
@@ -115,7 +115,7 @@ Recommended starting point: a shared Kotlin progress domain and repository backe
 
 Room 3.0.3 is listed as stable at research time and Room 3 includes WasmJS support. Browser setup uses a worker-backed SQLite driver; verify its persistence and packaging in the first implementation spike. Do not copy the alpha version shown in an example into production without a deliberate decision. [Official Room releases](https://developer.android.com/jetpack/androidx/releases/room3)
 
-The spike must prove compatibility with this repository's Kotlin 2.2.20, Compose 1.9.3 and AGP 8.13.2, pin compatible KSP/coroutines/serialization dependencies, and identify any necessary toolchain upgrade. No compatibility claim is made before building the targets.
+The spike was required to test this repository's original Kotlin 2.2.20, Compose 1.9.3 and AGP 8.13.2 and identify necessary toolchain changes. The recorded build found that Room's iOS artifacts require Kotlin 2.3.20. That compiler upgrade is now applied with user authorization, and existing app tests and platform builds pass. See the phase-1 report for pinned dependencies, persistence results and remaining Firefox/branded-Safari acceptance checks.
 
 Platform strategy:
 

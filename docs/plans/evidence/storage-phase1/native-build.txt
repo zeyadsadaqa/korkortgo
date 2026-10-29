@@ -1,0 +1,131 @@
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :checkDebugAarMetadata
+> Task :processDebugNavigationResources
+> Task :generateDebugResValues
+> Task :compileDebugNavigationResources
+> Task :mapDebugSourceSetPaths
+> Task :generateDebugResources
+> Task :mergeDebugResources
+> Task :packageDebugResources
+> Task :createDebugCompatibleScreenManifests
+> Task :extractDeepLinksDebug
+> Task :parseDebugLocalResources
+> Task :processDebugMainManifest
+> Task :processDebugManifest
+> Task :preDebugAndroidTestBuild SKIPPED
+> Task :javaPreCompileDebug
+> Task :checkDebugAndroidTestAarMetadata
+> Task :processDebugAndroidTestNavigationResources
+> Task :compileDebugAndroidTestNavigationResources
+> Task :generateDebugAndroidTestResValues
+> Task :mapDebugAndroidTestSourceSetPaths
+> Task :generateDebugAndroidTestResources
+> Task :processDebugManifestForPackage
+> Task :processDebugAndroidTestManifest
+> Task :javaPreCompileDebugAndroidTest
+> Task :mergeDebugAndroidTestResources
+> Task :processDebugResources
+> Task :kspKotlinDesktop
+
+> Task :downloadKotlinNativeDistribution
+Kotlin/Native bundle directory /Users/zeyad/.konan/kotlin-native-prebuilt-macos-aarch64-2.3.20 is not empty. Native bundle files will be overwritten.
+Downloading native dependencies (LLVM, sysroot etc). This is a one-time action performed only on the first run of the compiler.
+Downloading dependency https://download.jetbrains.com/kotlin/native/resources/llvm/19-aarch64-macos/llvm-19-aarch64-macos-essentials-81.tar.gz to /Users/zeyad/.konan/dependencies/cache/llvm-19-aarch64-macos-essentials-81.tar.gz
+Done.
+Extracting dependency: /Users/zeyad/.konan/dependencies/cache/llvm-19-aarch64-macos-essentials-81.tar.gz into /Users/zeyad/.konan/dependencies
+
+> Task :processDebugAndroidTestResources
+> Task :kspDebugKotlinAndroid
+> Task :desktopProcessResources NO-SOURCE
+> Task :processDesktopMainResources SKIPPED
+> Task :mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :mergeDebugShaders
+> Task :compileDebugShaders NO-SOURCE
+> Task :debugAssetsCopyForAGP NO-SOURCE
+> Task :generateDebugAssets UP-TO-DATE
+> Task :mergeDebugAssets
+> Task :compressDebugAssets
+> Task :desugarDebugFileDependencies
+> Task :mergeDebugJniLibFolders
+> Task :checkDebugDuplicateClasses
+> Task :mergeDebugNativeLibs
+> Task :kspKotlinIosArm64
+> Task :kspKotlinIosSimulatorArm64
+
+> Task :compileKotlinDesktop
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/desktop/desktopMain/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :compileDebugKotlinAndroid
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/android/androidDebug/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :compileDebugJavaWithJavac NO-SOURCE
+> Task :compileDesktopMainJava NO-SOURCE
+> Task :desktopMainClasses
+> Task :bundleDebugClassesToCompileJar
+> Task :kspTestKotlinDesktop
+> Task :kspDebugAndroidTestKotlinAndroid
+> Task :desktopJar
+> Task :desktopTestProcessResources NO-SOURCE
+> Task :processDesktopTestResources SKIPPED
+> Task :dexBuilderDebug
+> Task :mergeDebugGlobalSynthetics
+> Task :processDebugJavaRes
+> Task :mergeLibDexDebug
+> Task :validateSigningDebug
+> Task :mergeProjectDexDebug
+> Task :writeDebugAppMetadata
+> Task :writeDebugSigningConfigVersions
+> Task :mergeDebugAndroidTestShaders
+> Task :compileDebugAndroidTestShaders NO-SOURCE
+> Task :copyRoomSchemasToAndroidTestAssetsDebugAndroidTest
+> Task :generateDebugAndroidTestAssets UP-TO-DATE
+> Task :mergeDebugAndroidTestAssets
+> Task :compressDebugAndroidTestAssets
+> Task :desugarDebugAndroidTestFileDependencies
+> Task :stripDebugDebugSymbols
+> Task :checkDebugAndroidTestDuplicateClasses
+> Task :mergeDebugAndroidTestJniLibFolders
+> Task :mergeDebugJavaResource
+> Task :compileDebugAndroidTestKotlinAndroid
+> Task :compileTestKotlinDesktop
+> Task :mergeExtDexDebug
+> Task :compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :copyRoomSchemas NO-SOURCE
+> Task :compileDesktopTestJava NO-SOURCE
+> Task :desktopTestClasses
+> Task :mergeExtDexDebugAndroidTest
+> Task :desktopTest
+> Task :dexBuilderDebugAndroidTest
+> Task :mergeDebugAndroidTestGlobalSynthetics
+> Task :processDebugAndroidTestJavaRes
+> Task :mergeLibDexDebugAndroidTest
+> Task :mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :mergeProjectDexDebugAndroidTest
+> Task :validateSigningDebugAndroidTest
+> Task :writeDebugAndroidTestSigningConfigVersions
+> Task :mergeDebugAndroidTestJavaResource
+
+> Task :compileKotlinIosArm64
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/iosArm64/iosArm64Main/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :compileKotlinIosSimulatorArm64
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/build/generated/ksp/iosSimulatorArm64/iosSimulatorArm64Main/kotlin/se/korkort/storageprobe/ProbeDatabaseConstructor.kt:5:8 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+w: file:///Users/zeyad/Desktop/korkort/storage-spike/src/commonMain/kotlin/se/korkort/storageprobe/ProbeDatabase.kt:36:1 'expect'/'actual' classes (including interfaces, objects, annotations, enums, and 'actual' typealiases) are in Beta. Consider using the '-Xexpect-actual-classes' flag to suppress this warning. Also see: https://youtrack.jetbrains.com/issue/KT-61573
+
+> Task :linkDebugExecutableIosSimulatorArm64
+> Task :packageDebug
+> Task :createDebugApkListingFileRedirect
+> Task :assembleDebug
+> Task :packageDebugAndroidTest
+> Task :createDebugAndroidTestApkListingFileRedirect
+> Task :assembleDebugAndroidTest
+
+BUILD SUCCESSFUL in 1m 17s
+82 actionable tasks: 82 executed

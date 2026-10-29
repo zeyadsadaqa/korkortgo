@@ -1,0 +1,147 @@
+Configuration 'wasmJsNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'wasmJsTestNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kspKotlinDesktop UP-TO-DATE
+> Task :compileKotlinDesktop UP-TO-DATE
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :checkDebugAarMetadata UP-TO-DATE
+> Task :processDebugNavigationResources UP-TO-DATE
+> Task :compileDebugNavigationResources UP-TO-DATE
+> Task :generateDebugResValues UP-TO-DATE
+> Task :mapDebugSourceSetPaths UP-TO-DATE
+> Task :generateDebugResources UP-TO-DATE
+> Task :mergeDebugResources UP-TO-DATE
+> Task :packageDebugResources UP-TO-DATE
+> Task :parseDebugLocalResources UP-TO-DATE
+> Task :createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :extractDeepLinksDebug UP-TO-DATE
+> Task :processDebugMainManifest UP-TO-DATE
+> Task :processDebugManifest UP-TO-DATE
+> Task :processDebugManifestForPackage UP-TO-DATE
+> Task :processDebugResources UP-TO-DATE
+> Task :kspDebugKotlinAndroid UP-TO-DATE
+> Task :compileDebugKotlinAndroid UP-TO-DATE
+> Task :javaPreCompileDebug UP-TO-DATE
+> Task :compileDebugJavaWithJavac NO-SOURCE
+> Task :bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :preDebugAndroidTestBuild SKIPPED
+> Task :checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :processDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :compileDebugAndroidTestNavigationResources UP-TO-DATE
+> Task :generateDebugAndroidTestResValues UP-TO-DATE
+> Task :mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :generateDebugAndroidTestResources UP-TO-DATE
+> Task :mergeDebugAndroidTestResources UP-TO-DATE
+> Task :processDebugAndroidTestManifest UP-TO-DATE
+> Task :processDebugAndroidTestResources UP-TO-DATE
+> Task :kspDebugAndroidTestKotlinAndroid UP-TO-DATE
+> Task :compileDebugAndroidTestKotlinAndroid UP-TO-DATE
+> Task :javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :downloadKotlinNativeDistribution UP-TO-DATE
+> Task :kspKotlinIosArm64 UP-TO-DATE
+> Task :kspKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :kspKotlinWasmJs UP-TO-DATE
+> Task :compileDesktopMainJava NO-SOURCE
+> Task :desktopProcessResources NO-SOURCE
+> Task :processDesktopMainResources SKIPPED
+> Task :desktopMainClasses UP-TO-DATE
+> Task :kspTestKotlinDesktop UP-TO-DATE
+> Task :copyRoomSchemas NO-SOURCE
+> Task :desktopJar UP-TO-DATE
+> Task :compileTestKotlinDesktop UP-TO-DATE
+> Task :compileDesktopTestJava NO-SOURCE
+> Task :desktopTestProcessResources NO-SOURCE
+> Task :processDesktopTestResources SKIPPED
+> Task :desktopTestClasses UP-TO-DATE
+> Task :desktopTest UP-TO-DATE
+> Task :mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :mergeDebugShaders UP-TO-DATE
+> Task :compileDebugShaders NO-SOURCE
+> Task :debugAssetsCopyForAGP NO-SOURCE
+> Task :generateDebugAssets UP-TO-DATE
+> Task :mergeDebugAssets UP-TO-DATE
+> Task :compressDebugAssets UP-TO-DATE
+> Task :desugarDebugFileDependencies UP-TO-DATE
+> Task :dexBuilderDebug UP-TO-DATE
+> Task :mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :processDebugJavaRes UP-TO-DATE
+> Task :mergeDebugJavaResource UP-TO-DATE
+> Task :checkDebugDuplicateClasses UP-TO-DATE
+> Task :mergeExtDexDebug UP-TO-DATE
+> Task :mergeLibDexDebug UP-TO-DATE
+> Task :mergeProjectDexDebug UP-TO-DATE
+> Task :mergeDebugJniLibFolders UP-TO-DATE
+> Task :mergeDebugNativeLibs UP-TO-DATE
+> Task :stripDebugDebugSymbols UP-TO-DATE
+> Task :validateSigningDebug UP-TO-DATE
+> Task :writeDebugAppMetadata UP-TO-DATE
+> Task :writeDebugSigningConfigVersions UP-TO-DATE
+> Task :packageDebug UP-TO-DATE
+> Task :createDebugApkListingFileRedirect UP-TO-DATE
+> Task :assembleDebug UP-TO-DATE
+> Task :mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :compileDebugAndroidTestShaders NO-SOURCE
+> Task :copyRoomSchemasToAndroidTestAssetsDebugAndroidTest UP-TO-DATE
+> Task :generateDebugAndroidTestAssets UP-TO-DATE
+> Task :mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :compressDebugAndroidTestAssets UP-TO-DATE
+> Task :desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :dexBuilderDebugAndroidTest UP-TO-DATE
+> Task :mergeDebugAndroidTestGlobalSynthetics UP-TO-DATE
+> Task :processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :mergeLibDexDebugAndroidTest UP-TO-DATE
+> Task :mergeProjectDexDebugAndroidTest UP-TO-DATE
+> Task :mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :validateSigningDebugAndroidTest UP-TO-DATE
+> Task :writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :packageDebugAndroidTest UP-TO-DATE
+> Task :createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :assembleDebugAndroidTest UP-TO-DATE
+> Task :compileKotlinIosArm64 UP-TO-DATE
+> Task :compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :linkDebugExecutableIosSimulatorArm64 UP-TO-DATE
+> Task :kotlinWasmKotlinNpmCachesSetup
+> Task :kotlinWasmNodeJsSetup UP-TO-DATE
+> Task :kotlinWasmRestoreYarnLock SKIPPED
+> Task :kotlinWasmYarnSetup UP-TO-DATE
+> Task :wasmJsPackageJson UP-TO-DATE
+> Task :wasmJsTestPackageJson UP-TO-DATE
+> Task :wasmJsPublicPackageJson UP-TO-DATE
+> Task :wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :kotlinWasmPackageJsonUmbrella UP-TO-DATE
+> Task :wasmRootPackageJson UP-TO-DATE
+> Task :kotlinWasmNpmInstall UP-TO-DATE
+> Task :kotlinWasmStoreYarnLock UP-TO-DATE
+> Task :kotlinWasmToolingSetup UP-TO-DATE
+
+> Task :installWebWorker
+
+added 3 packages in 354ms
+
+> Task :prepareWebWorker UP-TO-DATE
+> Task :wasmJsProcessResources UP-TO-DATE
+> Task :compileKotlinWasmJs UP-TO-DATE
+> Task :wasmJsMainClasses UP-TO-DATE
+> Task :compileProductionExecutableKotlinWasmJs UP-TO-DATE
+> Task :kotlinWasmBinaryenSetup UP-TO-DATE
+> Task :compileProductionExecutableKotlinWasmJsOptimize UP-TO-DATE
+> Task :wasmJsProductionExecutableCompileSync UP-TO-DATE
+> Task :wasmJsBrowserProductionWebpack UP-TO-DATE
+> Task :wasmJsBrowserDistribution UP-TO-DATE
+
+BUILD SUCCESSFUL in 2s
+104 actionable tasks: 3 executed, 101 up-to-date

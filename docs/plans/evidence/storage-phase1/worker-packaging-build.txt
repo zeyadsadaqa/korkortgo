@@ -1,0 +1,58 @@
+Configuration 'wasmJsNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'wasmJsTestNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :kotlinWasmKotlinNpmCachesSetup
+> Task :kotlinWasmNodeJsSetup UP-TO-DATE
+> Task :kotlinWasmRestoreYarnLock SKIPPED
+> Task :kotlinWasmYarnSetup UP-TO-DATE
+> Task :wasmJsPackageJson UP-TO-DATE
+> Task :wasmJsTestPackageJson UP-TO-DATE
+> Task :wasmJsPublicPackageJson UP-TO-DATE
+> Task :wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :kotlinWasmPackageJsonUmbrella UP-TO-DATE
+> Task :wasmRootPackageJson UP-TO-DATE
+> Task :kotlinWasmNpmInstall UP-TO-DATE
+> Task :kotlinWasmStoreYarnLock UP-TO-DATE
+> Task :kotlinWasmToolingSetup UP-TO-DATE
+> Task :installWebWorker UP-TO-DATE
+> Task :prepareWebWorker
+> Task :wasmJsProcessResources
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kspKotlinWasmJs UP-TO-DATE
+> Task :copyRoomSchemas NO-SOURCE
+> Task :compileKotlinWasmJs UP-TO-DATE
+> Task :wasmJsMainClasses
+> Task :compileProductionExecutableKotlinWasmJs UP-TO-DATE
+> Task :kotlinWasmBinaryenSetup UP-TO-DATE
+> Task :compileProductionExecutableKotlinWasmJsOptimize UP-TO-DATE
+> Task :wasmJsProductionExecutableCompileSync
+
+> Task :wasmJsBrowserProductionWebpack
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  845eb5de34feb94878b1.wasm (412 KiB)
+webpack performance recommendations:
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+assets by status 412 KiB [cached] 1 asset
+asset KorkortStorageSpike.js 12.3 KiB [compared for emit] [minimized] (name: main) 1 related asset
+runtime modules 4.38 KiB 7 modules
+cacheable modules 15.1 KiB (javascript) 412 KiB (asset)
+  modules with warnings 13.8 KiB [true warnings]
+    ./kotlin/KorkortStorageSpike.mjs 2.78 KiB [built] [code generated] [4 warnings]
+    ./kotlin/KorkortStorageSpike.import-object.mjs 11.1 KiB [built] [code generated] [1 warning]
+  ./kotlin/KorkortStorageSpike.wasm 412 KiB (asset) 42 bytes (javascript) [built] [code generated]
+  ./kotlin/KorkortStorageSpike.js-builtins.mjs 1.24 KiB [built] [code generated]
+webpack 5.101.3 compiled with 2 warnings in 217 ms
+
+> Task :wasmJsBrowserDistribution
+
+BUILD SUCCESSFUL in 2s
+23 actionable tasks: 7 executed, 16 up-to-date

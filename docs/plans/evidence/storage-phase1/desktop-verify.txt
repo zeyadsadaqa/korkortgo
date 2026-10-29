@@ -1,0 +1,15 @@
+> Task :kmpPartiallyResolvedDependenciesChecker
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :kspKotlinDesktop UP-TO-DATE
+> Task :compileKotlinDesktop UP-TO-DATE
+> Task :copyRoomSchemas NO-SOURCE
+> Task :compileDesktopMainJava NO-SOURCE
+> Task :desktopProcessResources NO-SOURCE
+> Task :processDesktopMainResources SKIPPED
+> Task :desktopMainClasses UP-TO-DATE
+
+> Task :runDesktopProbe
+STORAGE_PROBE_PASS desktop verify
+
+BUILD SUCCESSFUL in 2s
+4 actionable tasks: 2 executed, 2 up-to-date
