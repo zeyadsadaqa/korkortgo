@@ -1,0 +1,193 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][3120,84]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "12:35",
+        "content-desc": "12:35\u202fPM",
+        "bounds": "[159,14][325,71]",
+        "center": "[242,42]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[325,1][402,84]",
+        "center": "[363,42]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[2868,16][2921,69]",
+        "center": "[2894,42]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, three bars.",
+        "bounds": "[2921,4][2974,81]",
+        "center": "[2947,42]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[2995,19][3022,65]",
+        "center": "[3008,42]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][3120,1440]",
+    "content": [
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[145,196][425,392]",
+        "center": "[285,294]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Home",
+            "bounds": "[228,322][341,378]",
+            "center": "[284,350]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[145,406][425,602]",
+        "center": "[285,504]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning",
+            "bounds": "[201,532][368,588]",
+            "center": "[284,560]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[145,616][425,812]",
+        "center": "[285,714]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[207,742][363,798]",
+            "center": "[285,770]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.Button",
+        "content-desc": "Back",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[495,126][663,294]",
+        "center": "[579,210]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "K\u00f6rkortGo",
+        "bounds": "[663,152][2834,268]",
+        "center": "[1748,210]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "CATEGORY B",
+        "bounds": "[2834,182][3050,238]",
+        "center": "[2942,210]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "PRACTICE TEST",
+        "bounds": "[481,420][787,504]",
+        "center": "[634,462]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[2667,420][3064,588]",
+        "center": "[2865,504]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Pause exercise",
+            "bounds": "[2709,469][3022,539]",
+            "center": "[2865,504]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Question 2 of 10",
+        "bounds": "[481,686][883,770]",
+        "center": "[682,728]"
+      },
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[481,812][3064,1146]",
+        "center": "[1772,979]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "A category B driver has a 3,500 kg total-weight car and a 750 kg total-weight trailer. Are the licence weight limits alone satisfied?",
+            "bounds": "[481,812][3064,1040]",
+            "center": "[1772,926]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "FOCUSABLE"
+            ],
+            "state": [
+              "CHECKED"
+            ],
+            "bounds": "[481,1089][3064,1230]",
+            "center": "[1772,1159]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Answers revealed at the end",
+        "bounds": "[481,1188][1019,1272]",
+        "center": "[750,1230]"
+      }
+    ]
+  }
+]

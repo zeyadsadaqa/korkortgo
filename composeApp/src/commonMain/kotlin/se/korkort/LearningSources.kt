@@ -42,12 +42,12 @@ internal fun lessonSources(document:CurriculumDocument): List<SourceReference> {
     }
 }
 
-@Composable internal fun SourceDetail(id:SourceReferenceId,onBack:()->Unit,onReturn:()->Unit,onExternal:(SourceReference)->Boolean,backLabel:String="Back to Sources",returnLabel:String="Return to reading",references:List<SourceReference> = navigationSources.references) {
+@Composable internal fun SourceDetail(id:SourceReferenceId,onBack:()->Unit,onReturn:()->Unit,onExternal:(SourceReference)->Boolean,backLabel:String="Back to Sources",returnLabel:String="Return to reading",references:List<SourceReference> = navigationSources.references,scroll:ScrollState=rememberScrollState()) {
     val source=references.singleOrNull{it.id==id}
     if(source==null){Text("This source is unavailable.");TextButton(onBack){Text("Sources")};return}
     var failed by remember(id){mutableStateOf(false)}
     var evidenceExpanded by remember(id){mutableStateOf(false)}
-    Column(Modifier.widthIn(max=800.dp).fillMaxSize().verticalScroll(rememberScrollState()).padding(24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
+    Column(Modifier.widthIn(max=800.dp).fillMaxSize().verticalScroll(scroll).padding(24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
         TextButton(onBack){Text(backLabel)}
         Text(source.title,style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
         Text(source.publisher)

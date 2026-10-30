@@ -44,16 +44,16 @@ class CurriculumAppFlowTest {
         try {
             scene.setContent{CompositionLocalProvider(LocalUriHandler provides object:UriHandler{override fun openUri(uri:String){opened.add(uri)}}){CurriculumApp(bank,fixtureBank=true)}}
             await("Home missing"){text().contains("KörkortGo")};screenshot("home")
-            click("Learning library")
+            click("Learning")
             val query="Combine the instructions"
             await("No library query"){nodes().any{it.config.getOrNull(SemanticsActions.SetText)?.action!=null}}
             val search=nodes().first{it.config.getOrNull(SemanticsActions.SetText)?.action!=null}
             assertTrue(search.config[SemanticsActions.SetText].action!!.invoke(AnnotatedString(query)));render()
             click(query)
-            // Header tab must reset a reader even when its route began inside Library.
+            // Reader back link returns to the retained filtered library.
             click("Learning library")
             await("Header library tab left the reader open"){nodes().any{it.config.getOrNull(SemanticsProperties.EditableText)?.text==query}}
-            click("Overview")
+            click("Home")
             click("Start a practice test  >")
             val field=nodes().first{it.config.getOrNull(SemanticsActions.SetText)?.action!=null}
             assertTrue(field.config[SemanticsActions.SetText].action!!.invoke(AnnotatedString("1")));render()
@@ -63,7 +63,7 @@ class CurriculumAppFlowTest {
             assertFalse(text().contains("Correct answer"))
             val wrong=question.options.first{it.id!=question.feedback.correctOptionId}.text.assessmentText()
             click(wrong)
-            click("Learning library")
+            click("Learning")
             await("No discard guard"){text().contains("Leave this test?")}
             click("Keep practising")
             assertEquals(1,nodes().count{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton && it.config.getOrNull(SemanticsProperties.Selected)==true})
@@ -92,8 +92,10 @@ class CurriculumAppFlowTest {
             click("Start test  >")
             assertEquals(0,nodes().count{it.config.getOrNull(SemanticsProperties.Role)==Role.RadioButton && it.config.getOrNull(SemanticsProperties.Selected)==true})
             assertFalse(text().contains("Correct answer"))
-            click("Learning library");click("Leave test")
-            await("Discard destination missing"){text().contains("Search lessons")}
+            click("Learning");click("Leave test")
+            await("Retained learning destination missing"){text().contains(lesson.title)}
+            click("Learning library")
+            await("Library back link missing"){text().contains("Search lessons")}
             assertFalse(text().contains(question.prompt.assessmentText()))
             screenshot("discarded-library")
         } finally {scene.close();surface.close()}

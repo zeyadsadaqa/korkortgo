@@ -1,0 +1,213 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "12:33",
+        "content-desc": "12:33\u202fPM",
+        "bounds": "[64,44][230,101]",
+        "center": "[147,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[230,1][307,145]",
+        "center": "[268,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, two bars.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.widget.Button",
+        "content-desc": "Back",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,187][238,355]",
+        "center": "[154,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "K\u00f6rkortGo",
+        "bounds": "[238,213][1154,329]",
+        "center": "[696,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "CATEGORY B",
+        "bounds": "[1154,243][1370,299]",
+        "center": "[1262,271]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[0,397][1440,2756]",
+        "center": "[720,1576]",
+        "children": [
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,481][507,649]",
+            "center": "[295,565]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Learning library",
+                "bounds": "[126,530][465,600]",
+                "center": "[295,565]"
+              }
+            ]
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "1. Choose to drive responsibly",
+            "bounds": "[84,691][831,775]",
+            "center": "[457,733]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Your route into driving",
+            "bounds": "[84,817][1261,971]",
+            "center": "[672,894]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Your goal:",
+            "bounds": "[147,1090][382,1174]",
+            "center": "[264,1132]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "FOCUSABLE"
+            ],
+            "bounds": "[147,1209][1293,1461]",
+            "center": "[720,1335]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": " Build a personal preparation checklist covering entitlement, permits, supervised practice, risk training and examinations.",
+                "bounds": "[147,1209][1293,1461]",
+                "center": "[720,1335]"
+              }
+            ]
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Requirements.",
+            "bounds": "[84,1580][645,1696]",
+            "center": "[364,1638]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,1731][1356,2739]",
+            "center": "[720,2235]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": " For an ordinary new category B licence, you need a valid learner permit, permanent residence in Sweden or at least six months of study here, the minimum age of 18, valid car risk training, and successful theory and practical tests. Holding another EEA licence affects the application route. Category B normally covers a passenger car or light goods vehicle with a registered maximum weight of no more than 3,500 kg; trailers are explained in module 8. Check any conditions on your entitlement, including an automatic-transmission restriction. Transportstyrelsen: category B",
+                "bounds": "[84,1731][1356,2739]",
+                "center": "[720,2235]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,2756][462,3036]",
+        "center": "[231,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Home",
+            "bounds": "[174,2924][287,2980]",
+            "center": "[230,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[490,2756][951,3036]",
+        "center": "[720,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning",
+            "bounds": "[637,2924][804,2980]",
+            "center": "[720,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[979,2756][1440,3036]",
+        "center": "[1209,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[1131,2924][1287,2980]",
+            "center": "[1209,2952]"
+          }
+        ]
+      }
+    ]
+  }
+]

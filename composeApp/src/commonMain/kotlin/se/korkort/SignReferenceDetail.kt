@@ -22,10 +22,11 @@ fun SignReferenceDetail(
     onExternal: (SourceReference) -> Boolean,
     modifier: Modifier = Modifier,
     referenceGroups: List<Pair<String, () -> Unit>> = emptyList(),
+    scrollState: androidx.compose.foundation.ScrollState = rememberScrollState(),
     viewerHost: @Composable (ImageViewerContent, () -> Unit) -> Unit = { content,close -> AccessibleImageViewer(content,close) },
 ) {
     require(entry.assetId==asset.id)
-    val scroll=rememberScrollState()
+    val scroll=scrollState
     var viewer by remember(entry.id) { mutableStateOf(false) }
     var credits by remember(entry.id) { mutableStateOf(false) }
     var openedViewer by remember(entry.id) { mutableStateOf(false) }

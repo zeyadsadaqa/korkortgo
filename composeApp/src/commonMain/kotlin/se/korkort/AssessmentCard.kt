@@ -30,7 +30,9 @@ fun AssessmentCard(
     onEnlargeImage: ((AssessmentImagePresentation, FocusRequester) -> Unit)? = null,
 ) {
     val canInteract=LocalStudy.current?.let { !it.busy && it.failure==null } ?: true
-    var pending by remember(presentation.key, presentation.choices.map { it.id }) { mutableStateOf<OptionId?>(null) }
+    var localPending by remember(presentation.key, presentation.choices.map { it.id }) { mutableStateOf<OptionId?>(null) }
+    val retained=LocalQuestionUi.current
+    val pending=retained?.pending ?: localPending
     val feedbackFocus = remember(presentation.key) { FocusRequester() }
     LaunchedEffect(presentation.key, presentation.canConfirm, presentation.explanation) {
         if (!presentation.canConfirm) feedbackFocus.requestFocus()
@@ -57,7 +59,7 @@ fun AssessmentCard(
                             selected = choice.id == selection,
                             enabled = presentation.canConfirm && canInteract,
                             role = Role.RadioButton,
-                            onClick = { pending = choice.id },
+                            onClick = { if(retained!=null)retained.pending=choice.id else localPending=choice.id },
                         ).semantics(mergeDescendants = true) {
                             toggleableState = if(isSelected)ToggleableState.On else ToggleableState.Off
                             stateDescription = if(isSelected)"Selected" else "Not selected"
@@ -117,3 +119,9 @@ private fun AssessmentPicture(
         image(picture, Modifier.fillMaxWidth())
     }
 }
+
+internal class QuestionUiState {
+    var pending by mutableStateOf<OptionId?>(null)
+    val scroll=androidx.compose.foundation.ScrollState(0)
+}
+internal val LocalQuestionUi=staticCompositionLocalOf<QuestionUiState?> {null}

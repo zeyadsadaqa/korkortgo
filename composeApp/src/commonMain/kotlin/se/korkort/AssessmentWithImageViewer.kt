@@ -17,11 +17,13 @@ fun AssessmentWithImageViewer(
     trailingContent: @Composable () -> Unit = {},
     viewerHost: @Composable (ImageViewerContent, () -> Unit) -> Unit = {content,close->AccessibleImageViewer(content,close)},
 ) {
+    val fallbackScroll=rememberScrollState()
+    val questionScroll=LocalQuestionUi.current?.scroll ?: fallbackScroll
     var picture by remember(presentation.key) {mutableStateOf<AssessmentImagePresentation?>(null)}
     var originFocus by remember(presentation.key) {mutableStateOf<FocusRequester?>(null)}
     var restore by remember(presentation.key) {mutableStateOf(false)}
     Box(Modifier.fillMaxSize()) {
-        Column(Modifier.fillMaxSize().verticalScroll(rememberScrollState())) {
+        Column(Modifier.fillMaxSize().verticalScroll(questionScroll)) {
         AssessmentCard(presentation,onConfirm,image={image,modifier->
             ExactAssetImage(assets.single {it.id==image.assetId},image.description,modifier,onLoaded={onImageLoaded(image.assetId,it)})
         },onEnlargeImage={image,focus->originFocus=focus;picture=image})

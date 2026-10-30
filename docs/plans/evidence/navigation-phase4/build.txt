@@ -1,0 +1,292 @@
+Starting a Gradle Daemon, 1 busy and 1 stopped Daemons could not be reused, use --status for details
+Daemon JVM discovery is an incubating feature.
+Configuration 'wasmJsNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'wasmJsTestNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'wasmJsNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+Configuration 'wasmJsTestNpmAggregated' was resolved during configuration time.
+This is a build performance and scalability issue.
+See https://github.com/gradle/gradle/issues/2298
+Run with --info for a stacktrace.
+> Task :composeApp:kmpPartiallyResolvedDependenciesChecker
+> Task :composeApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :composeApp:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonMain UP-TO-DATE
+> Task :composeApp:prepareComposeResourcesTaskForCommonMain UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForCommonMain UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForDesktopMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForDesktopMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForDesktopMain UP-TO-DATE
+> Task :composeApp:generateComposeResClass UP-TO-DATE
+> Task :composeApp:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :progress-data:kmpPartiallyResolvedDependenciesChecker
+> Task :progress-data:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :progress-data:kspKotlinDesktop UP-TO-DATE
+> Task :progress-data:compileKotlinDesktop UP-TO-DATE
+> Task :progress-data:preBuild UP-TO-DATE
+> Task :progress-data:preDebugBuild UP-TO-DATE
+> Task :progress-data:generateDebugResValues UP-TO-DATE
+> Task :progress-data:generateDebugResources UP-TO-DATE
+> Task :progress-data:packageDebugResources UP-TO-DATE
+> Task :progress-data:processDebugNavigationResources UP-TO-DATE
+> Task :progress-data:parseDebugLocalResources UP-TO-DATE
+> Task :progress-data:generateDebugRFile UP-TO-DATE
+> Task :progress-data:kspDebugKotlinAndroid UP-TO-DATE
+> Task :progress-data:compileDebugKotlinAndroid UP-TO-DATE
+> Task :progress-data:javaPreCompileDebug UP-TO-DATE
+> Task :progress-data:compileDebugJavaWithJavac NO-SOURCE
+> Task :progress-data:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :progress-data:kspKotlinIosArm64 UP-TO-DATE
+> Task :progress-data:kspKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :progress-data:kspKotlinWasmJs UP-TO-DATE
+> Task :progress-data:compileDesktopMainJava NO-SOURCE
+> Task :progress-data:desktopProcessResources NO-SOURCE
+> Task :progress-data:processDesktopMainResources SKIPPED
+> Task :progress-data:desktopMainClasses UP-TO-DATE
+> Task :progress-data:kspTestKotlinDesktop UP-TO-DATE
+> Task :progress-data:copyRoomSchemas NO-SOURCE
+> Task :progress-data:desktopJar UP-TO-DATE
+> Task :composeApp:assembleDesktopMainResources UP-TO-DATE
+> Task :composeApp:desktopProcessResources UP-TO-DATE
+> Task :composeApp:processDesktopMainResources SKIPPED
+> Task :composeApp:convertXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForCommonTest NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForCommonTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForCommonTest NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForDesktopTest NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForDesktopTest NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForDesktopTest NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForDesktopTest NO-SOURCE
+> Task :composeApp:assembleDesktopTestResources UP-TO-DATE
+> Task :composeApp:desktopTestProcessResources UP-TO-DATE
+> Task :composeApp:processDesktopTestResources SKIPPED
+> Task :progress-data:compileTestKotlinDesktop UP-TO-DATE
+> Task :progress-data:compileDesktopTestJava NO-SOURCE
+> Task :progress-data:desktopTestProcessResources UP-TO-DATE
+> Task :progress-data:processDesktopTestResources SKIPPED
+> Task :progress-data:desktopTestClasses UP-TO-DATE
+> Task :progress-data:desktopTest UP-TO-DATE
+> Task :composeApp:preBuild UP-TO-DATE
+> Task :composeApp:preDebugBuild UP-TO-DATE
+> Task :composeApp:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForAndroidMain UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAndroidDebug NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAndroidDebug NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAndroidDebug NO-SOURCE
+> Task :progress-data:writeDebugAarMetadata UP-TO-DATE
+> Task :composeApp:checkDebugAarMetadata UP-TO-DATE
+> Task :composeApp:processDebugNavigationResources UP-TO-DATE
+> Task :composeApp:compileDebugNavigationResources UP-TO-DATE
+> Task :composeApp:generateDebugResValues UP-TO-DATE
+> Task :composeApp:mapDebugSourceSetPaths UP-TO-DATE
+> Task :composeApp:generateDebugResources UP-TO-DATE
+> Task :composeApp:mergeDebugResources UP-TO-DATE
+> Task :composeApp:packageDebugResources UP-TO-DATE
+> Task :composeApp:parseDebugLocalResources UP-TO-DATE
+> Task :composeApp:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :composeApp:extractDeepLinksDebug UP-TO-DATE
+> Task :progress-data:extractDeepLinksDebug UP-TO-DATE
+> Task :progress-data:processDebugManifest UP-TO-DATE
+> Task :composeApp:processDebugMainManifest UP-TO-DATE
+> Task :composeApp:processDebugManifest UP-TO-DATE
+> Task :composeApp:processDebugManifestForPackage UP-TO-DATE
+> Task :progress-data:compileDebugLibraryResources UP-TO-DATE
+> Task :composeApp:processDebugResources UP-TO-DATE
+> Task :progress-data:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :composeApp:javaPreCompileDebug UP-TO-DATE
+> Task :composeApp:mergeDebugShaders UP-TO-DATE
+> Task :composeApp:compileDebugShaders NO-SOURCE
+> Task :composeApp:copyDebugComposeResourcesToAndroidAssets UP-TO-DATE
+> Task :composeApp:debugAssetsCopyForAGP NO-SOURCE
+> Task :composeApp:generateDebugAssets UP-TO-DATE
+> Task :progress-data:mergeDebugShaders UP-TO-DATE
+> Task :progress-data:compileDebugShaders NO-SOURCE
+> Task :progress-data:debugAssetsCopyForAGP NO-SOURCE
+> Task :progress-data:generateDebugAssets UP-TO-DATE
+> Task :progress-data:mergeDebugAssets UP-TO-DATE
+> Task :composeApp:mergeDebugAssets UP-TO-DATE
+> Task :composeApp:compressDebugAssets UP-TO-DATE
+> Task :progress-data:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :composeApp:desugarDebugFileDependencies UP-TO-DATE
+> Task :progress-data:processDebugJavaRes UP-TO-DATE
+> Task :composeApp:checkDebugDuplicateClasses UP-TO-DATE
+> Task :composeApp:mergeExtDexDebug UP-TO-DATE
+> Task :progress-data:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :composeApp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :progress-data:mergeDebugJniLibFolders UP-TO-DATE
+> Task :progress-data:mergeDebugNativeLibs NO-SOURCE
+> Task :progress-data:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :composeApp:mergeDebugNativeLibs UP-TO-DATE
+> Task :composeApp:mergeLibDexDebug UP-TO-DATE
+> Task :composeApp:stripDebugDebugSymbols UP-TO-DATE
+> Task :composeApp:validateSigningDebug UP-TO-DATE
+> Task :composeApp:writeDebugAppMetadata UP-TO-DATE
+> Task :composeApp:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :composeApp:downloadKotlinNativeDistribution UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForAppleMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForAppleMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForAppleMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForAppleMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForIosArm64Main NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForIosArm64Main NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForIosArm64Main NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForIosMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForIosMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForIosMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForIosMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForNativeMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForNativeMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForNativeMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForNativeMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForIosArm64Main UP-TO-DATE
+> Task :progress-data:compileKotlinIosArm64 UP-TO-DATE
+> Task :progress-data:exportCrossCompilationMetadataForIosArm64ApiElements UP-TO-DATE
+> Task :composeApp:compileKotlinDesktop
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:168:183 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:169:120 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt:45:38 'var exit: (FocusDirection) -> FocusRequester' is deprecated. Use onExit instead.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/TransientQuizState.kt:127:89 No cast needed.
+
+> Task :composeApp:compileDebugKotlinAndroid
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:168:183 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:169:120 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt:45:38 'var exit: (FocusDirection) -> FocusRequester' is deprecated. Use onExit instead.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/TransientQuizState.kt:127:89 No cast needed.
+
+> Task :composeApp:compileKotlinIosArm64
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:168:183 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:169:120 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt:45:38 'var exit: (FocusDirection) -> FocusRequester' is deprecated. Use onExit instead.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/TransientQuizState.kt:127:89 No cast needed.
+
+> Task :composeApp:compileDesktopMainJava NO-SOURCE
+> Task :composeApp:desktopMainClasses
+> Task :composeApp:desktopJar
+> Task :composeApp:compileDebugJavaWithJavac NO-SOURCE
+> Task :composeApp:compileTestKotlinDesktop
+> Task :composeApp:dexBuilderDebug
+> Task :composeApp:compileDesktopTestJava NO-SOURCE
+> Task :composeApp:desktopTestClasses
+> Task :composeApp:desktopTest
+> Task :composeApp:mergeDebugGlobalSynthetics UP-TO-DATE
+> Task :composeApp:processDebugJavaRes UP-TO-DATE
+> Task :composeApp:mergeDebugJavaResource UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForIosSimulatorArm64Main NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForIosSimulatorArm64Main NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForIosSimulatorArm64Main NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForIosSimulatorArm64Main NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForIosSimulatorArm64Main UP-TO-DATE
+> Task :progress-data:compileKotlinIosSimulatorArm64 UP-TO-DATE
+> Task :progress-data:exportCrossCompilationMetadataForIosSimulatorArm64ApiElements UP-TO-DATE
+> Task :composeApp:mergeProjectDexDebug
+
+> Task :composeApp:compileKotlinIosSimulatorArm64
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:168:183 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:169:120 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt:45:38 'var exit: (FocusDirection) -> FocusRequester' is deprecated. Use onExit instead.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/TransientQuizState.kt:127:89 No cast needed.
+
+> Task :kotlinWasmKotlinNpmCachesSetup
+> Task :kotlinWasmNodeJsSetup UP-TO-DATE
+> Task :kotlinWasmRestoreYarnLock UP-TO-DATE
+> Task :kotlinWasmYarnSetup UP-TO-DATE
+> Task :progress-data:wasmJsPackageJson UP-TO-DATE
+> Task :composeApp:wasmJsPackageJson UP-TO-DATE
+> Task :composeApp:wasmJsTestPackageJson UP-TO-DATE
+> Task :progress-data:wasmJsTestPackageJson UP-TO-DATE
+> Task :composeApp:wasmJsPublicPackageJson UP-TO-DATE
+> Task :composeApp:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :progress-data:wasmJsPublicPackageJson UP-TO-DATE
+> Task :progress-data:wasmJsTestPublicPackageJson UP-TO-DATE
+> Task :kotlinWasmPackageJsonUmbrella UP-TO-DATE
+> Task :wasmRootPackageJson UP-TO-DATE
+> Task :kotlinWasmNpmInstall UP-TO-DATE
+> Task :kotlinWasmStoreYarnLock UP-TO-DATE
+> Task :kotlinWasmToolingSetup UP-TO-DATE
+> Task :composeApp:installProgressWorker UP-TO-DATE
+> Task :composeApp:progressWorkerResources UP-TO-DATE
+> Task :composeApp:wasmJsResolveResourcesFromDependencies UP-TO-DATE
+> Task :composeApp:convertXmlValueResourcesForWasmJsMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForWasmJsMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForWasmJsMain NO-SOURCE
+> Task :composeApp:convertXmlValueResourcesForWebMain NO-SOURCE
+> Task :composeApp:copyNonXmlValueResourcesForWebMain NO-SOURCE
+> Task :composeApp:prepareComposeResourcesTaskForWebMain NO-SOURCE
+> Task :composeApp:assembleWasmJsMainResources UP-TO-DATE
+> Task :composeApp:wasmJsResolveSelfResourcesCopyHierarchicalMultiplatformResources UP-TO-DATE
+> Task :composeApp:wasmJsAggregateResources UP-TO-DATE
+> Task :composeApp:wasmJsProcessResources UP-TO-DATE
+> Task :composeApp:generateResourceAccessorsForWasmJsMain NO-SOURCE
+> Task :composeApp:generateResourceAccessorsForWebMain NO-SOURCE
+> Task :composeApp:generateActualResourceCollectorsForWasmJsMain UP-TO-DATE
+> Task :progress-data:compileKotlinWasmJs UP-TO-DATE
+> Task :composeApp:kotlinWasmBinaryenSetup UP-TO-DATE
+> Task :composeApp:unpackSkikoWasmRuntime UP-TO-DATE
+> Task :composeApp:processSkikoRuntimeForKWasm UP-TO-DATE
+> Task :composeApp:packageDebug
+> Task :composeApp:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :composeApp:assembleDebug
+
+> Task :composeApp:compileKotlinWasmJs
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:168:183 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/Navigation.kt:169:120 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/RootModalHost.kt:45:38 'var exit: (FocusDirection) -> FocusRequester' is deprecated. Use onExit instead.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/commonMain/kotlin/se/korkort/TransientQuizState.kt:127:89 No cast needed.
+w: file:///Users/zeyad/Desktop/korkort/composeApp/src/wasmJsMain/kotlin/se/korkort/RootModalPlatform.kt:20:100 This declaration needs opt-in. Its usage should be marked with '@kotlin.js.ExperimentalWasmJsInterop' or '@OptIn(kotlin.js.ExperimentalWasmJsInterop::class)'
+
+> Task :composeApp:wasmJsMainClasses
+> Task :composeApp:compileProductionExecutableKotlinWasmJs
+> Task :composeApp:compileProductionExecutableKotlinWasmJsOptimize
+> Task :composeApp:wasmJsProductionExecutableCompileSync
+
+> Task :composeApp:wasmJsBrowserProductionWebpack
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  composeApp.js (580 KiB)
+  bccfa839aa4b38489c76.wasm (8.02 MiB)
+  6921bde4be0e093f1710.wasm (9.49 MiB)
+assets by status 8.02 MiB [cached] 1 asset
+asset 6921bde4be0e093f1710.wasm 9.49 MiB [emitted] [immutable] [from: kotlin/Korkort-composeApp.wasm] [big] (auxiliary name: main)
+asset composeApp.js 580 KiB [emitted] [compared for emit] [minimized] [big] (name: main) 2 related assets
+runtime modules 4.38 KiB 7 modules
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  main (580 KiB)
+      composeApp.js
+cacheable modules 1.02 MiB (javascript) 17.5 MiB (asset)
+  javascript modules 1.02 MiB
+    modules with warnings 39.6 KiB [true warnings]
+webpack performance recommendations:
+You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+For more info visit https://webpack.js.org/guides/code-splitting/
+      ./kotlin/Korkort-composeApp.mjs 2.78 KiB [built] [code generated] [4 warnings]
+      ./kotlin/Korkort-composeApp.import-object.mjs 36.8 KiB [built] [code generated] [1 warning]
+    ./kotlin/skiko.mjs 613 KiB [built] [code generated]
+    ../../node_modules/@js-joda/core/dist/js-joda.esm.js 392 KiB [built] [code generated]
+    ./kotlin/Korkort-composeApp.js-builtins.mjs 2.05 KiB [built] [code generated]
+  asset modules 17.5 MiB (asset) 84 bytes (javascript)
+    ./kotlin/Korkort-composeApp.wasm 9.49 MiB (asset) 42 bytes (javascript) [built] [code generated]
+    ./kotlin/skiko.wasm 8.02 MiB (asset) 42 bytes (javascript) [built] [code generated]
+webpack 5.101.3 compiled with 3 warnings in 2166 ms
+
+> Task :composeApp:wasmJsBrowserDistribution
+
+BUILD SUCCESSFUL in 3m 35s
+130 actionable tasks: 19 executed, 111 up-to-date

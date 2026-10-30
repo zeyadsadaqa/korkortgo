@@ -121,6 +121,7 @@ class ProgressRepository(private val db: ProgressDatabase) {
     suspend fun history(token: WriteToken, limit: Int = 20, offset: Int = 0): List<Session> = db.withWriteTransaction {
         checkToken(token); require(limit in 1..100 && offset >= 0); dao.history(token.profileId,limit,offset)
     }
+    fun observeLessons(token: WriteToken) = dao.observeMetadata().map { lessons(token) }
     fun observeSummary(token: WriteToken, catalog: ContentCatalog) = dao.observeMetadata().map { summary(token,catalog) }
     suspend fun summary(token: WriteToken, catalog: ContentCatalog): ProgressSummary = db.withWriteTransaction {
         checkToken(token)
