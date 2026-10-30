@@ -1,0 +1,230 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "8:33",
+        "content-desc": "8:33\u202fAM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, signal full.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,201][631,387]",
+        "center": "[357,294]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "K\u00f6rkortGo",
+            "bounds": "[126,229][589,359]",
+            "center": "[357,294]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "ENGLISH \u00b7 CATEGORY B",
+        "bounds": "[983,252][1356,336]",
+        "center": "[1169,294]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,387][370,555]",
+        "center": "[227,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Overview",
+            "bounds": "[126,436][328,506]",
+            "center": "[227,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[398,387][675,583]",
+        "center": "[536,485]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning library",
+            "bounds": "[440,415][633,555]",
+            "center": "[536,485]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[703,387][954,555]",
+        "center": "[828,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Practice",
+            "bounds": "[745,436][912,506]",
+            "center": "[828,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[0,643][1440,3036]",
+        "center": "[720,1839]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise in progress",
+            "bounds": "[168,811][935,927]",
+            "center": "[551,869]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Mixed practice",
+            "bounds": "[168,976][644,1078]",
+            "center": "[406,1027]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "1 of 10 questions answered",
+            "bounds": "[168,1127][842,1211]",
+            "center": "[505,1169]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Answers will be shown at the end.",
+            "bounds": "[168,1323][1007,1407]",
+            "center": "[587,1365]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[168,1456][692,1638]",
+            "center": "[430,1547]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Resume exercise",
+                "bounds": "[252,1512][608,1582]",
+                "center": "[430,1547]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[168,1687][695,1855]",
+            "center": "[431,1771]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "End this exercise",
+                "bounds": "[252,1736][611,1806]",
+                "center": "[431,1771]"
+              }
+            ]
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Your confirmed answers are saved on this device.",
+            "bounds": "[168,1904][1272,2072]",
+            "center": "[720,1988]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "YOUR SWEDISH DRIVING JOURNEY",
+            "bounds": "[84,2226][770,2310]",
+            "center": "[427,2268]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Your road to\nconfidence.",
+            "bounds": "[84,2345][1055,2765]",
+            "center": "[569,2555]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Learn the rules. Understand the why. Practise at your pace.",
+            "bounds": "[84,2821][1356,2989]",
+            "center": "[720,2905]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,3073][716,3120]",
+            "center": "[400,3096]"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -7,6 +7,8 @@ import androidx.compose.foundation.lazy.*
 import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.FlowPreview
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.focus.FocusRequester
 import androidx.compose.ui.focus.focusProperties
@@ -51,7 +53,44 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
     val found=canonicalResolver.canonical(target) as? Resolution.Found
     val document=readerDocuments.singleOrNull{it.id==found?.target?.contentId}
     if(document==null) { Text("This content is unavailable."); return }
+    val environment=LocalStudy.current
     key(document.id) {
+        var chapterRead by remember { mutableIntStateOf(0) }
+        val chapter=readerModules.singleOrNull {it.id==document.moduleId}
+        var lessonRead by remember { mutableStateOf(false) }
+        var positionLoaded by remember { mutableStateOf(environment==null) }
+        LaunchedEffect(document.id,environment) {
+            if(environment!=null && document.kind==DocumentKind.LESSON) environment.position {
+                val lessons=environment.study.repository.lessons(environment.study.token)
+                val saved=lessons.find {it.lessonId==document.id.value && it.revision==document.revision.value}
+                chapterRead=lessons.count {it.read && it.lessonId in chapter?.lessonIds.orEmpty().map {id->id.value} && environment.study.catalog.lessons[it.lessonId]==it.revision}
+                lessonRead=saved?.read==true
+                if(restored==null && target.blockId==null && saved?.blockId!=null) {
+                    val index=document.bodyBlocks.indexOfFirst {it.metadata.id.value==saved.blockId}
+                    if(index>=0)state.requestScrollToItem(index+1,saved.offset)
+                }
+                positionLoaded=true
+            } else positionLoaded=true
+        }
+        @OptIn(FlowPreview::class)
+        LaunchedEffect(document.id,positionLoaded) {
+            if(environment!=null && positionLoaded && document.kind==DocumentKind.LESSON) {
+                snapshotFlow {state.firstVisibleItemIndex to state.firstVisibleItemScrollOffset}.debounce(200).collect { (index,offset)->
+                    document.bodyBlocks.getOrNull((index-1).coerceIn(0,document.bodyBlocks.lastIndex))?.let {block->
+                        environment.position { environment.study.repository.savePosition(environment.study.token,document.id.value,document.revision.value,block.metadata.id.value,offset) }
+                    }
+                }
+            }
+        }
+        DisposableEffect(document.id) { onDispose {
+            if(environment!=null && positionLoaded && document.kind==DocumentKind.LESSON) {
+                document.bodyBlocks.getOrNull((state.firstVisibleItemIndex-1).coerceIn(0,document.bodyBlocks.lastIndex))?.let {block->
+                    val offset=state.firstVisibleItemScrollOffset
+                    environment.position {environment.study.repository.savePosition(environment.study.token,document.id.value,document.revision.value,block.metadata.id.value,offset)}
+                }
+            }
+        } }
+
         val answers=document.answerBlocks.associateBy{it.metadata.id}
         val sources=remember(document.id){lessonSources(document)}
         val module=readerModules.singleOrNull{it.id==document.moduleId}
@@ -96,6 +135,28 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
             }
             items(sources,key={"source:${it.id.value}"}){source->
                 TextButton({onSource(source.id,context("source:${source.id.value}"))},modifier=Modifier.focusRequester(sourceFocus.getValue(source.id)).focusProperties{canFocus=true}){Text(source.title)}
+            }
+            if(environment!=null && document.kind==DocumentKind.LESSON) item("completion") {
+                Surface(color=MaterialTheme.colorScheme.secondaryContainer,shape=RoundedCornerShape(16.dp)) {
+                    Column(Modifier.fillMaxWidth().padding(20.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
+                        Text(if(lessonRead)"Lesson marked as read" else "Finished reading?",style=MaterialTheme.typography.headlineSmall)
+                        Text(if(lessonRead)"$chapterRead of ${chapter?.lessonIds?.size ?: 0} lessons read in this chapter." else "Mark this lesson as read to update your progress.")
+                        fun mark() { environment.save {
+                            val nextRead=!lessonRead
+                            environment.study.repository.markLesson(environment.study.token,document.id.value,document.revision.value,nextRead)
+                            chapterRead=environment.study.repository.lessons(environment.study.token).count {it.read && it.lessonId in chapter?.lessonIds.orEmpty().map {id->id.value} && environment.study.catalog.lessons[it.lessonId]==it.revision}
+                            lessonRead=nextRead
+                        } }
+                        if(lessonRead) {
+                            LinearProgressIndicator(progress={chapterRead.toFloat()/(chapter?.lessonIds?.size ?: 1)},modifier=Modifier.fillMaxWidth())
+                            neighbours.second?.let {next->Button({onOpen(ContentTarget(next))},enabled=!environment.busy,modifier=Modifier.fillMaxWidth()){Text("Next lesson")}}
+                            TextButton(::mark,enabled=!environment.busy){Text("Mark as unread")}
+                        } else {
+                            Button(::mark,enabled=!environment.busy && positionLoaded,modifier=Modifier.fillMaxWidth()){Text("Mark lesson as read")}
+                            neighbours.second?.let { next->OutlinedButton({onOpen(ContentTarget(next))},enabled=!environment.busy,modifier=Modifier.fillMaxWidth()) {Text("Next lesson")}}
+                        }
+                    }
+                }
             }
             item("neighbours") {
                 FlowRow(horizontalArrangement=Arrangement.spacedBy(12.dp)) {

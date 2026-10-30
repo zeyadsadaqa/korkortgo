@@ -1,0 +1,303 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "8:43",
+        "content-desc": "8:43\u202fAM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, three bars.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,201][631,387]",
+        "center": "[357,294]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "K\u00f6rkortGo",
+            "bounds": "[126,229][589,359]",
+            "center": "[357,294]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "ENGLISH \u00b7 CATEGORY B",
+        "bounds": "[983,252][1356,336]",
+        "center": "[1169,294]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,387][363,555]",
+        "center": "[223,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Overview",
+            "bounds": "[126,436][321,506]",
+            "center": "[223,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[391,387][672,583]",
+        "center": "[531,485]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning library",
+            "bounds": "[433,415][630,555]",
+            "center": "[531,485]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[700,387][951,555]",
+        "center": "[825,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Practice",
+            "bounds": "[742,436][909,506]",
+            "center": "[825,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[0,654][1440,3036]",
+        "center": "[720,1845]",
+        "children": [
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,654][1356,750]",
+            "center": "[720,702]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Remember: A route can be corrected later. An unsafe last-second manoeuvre cannot be planned away afterwards.",
+                "bounds": "[84,654][1356,750]",
+                "center": "[720,702]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,806][430,974]",
+            "center": "[257,890]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Sources",
+                "bounds": "[126,839][388,941]",
+                "center": "[257,890]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,1030][830,1198]",
+            "center": "[457,1114]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Traffic Regulation, chapter 3 \u00a71",
+                "bounds": "[126,1079][788,1149]",
+                "center": "[457,1114]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,1254][838,1422]",
+            "center": "[461,1338]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "V\u00e4gm\u00e4rkesf\u00f6rordning (2007:90)",
+                "bounds": "[126,1303][796,1373]",
+                "center": "[461,1338]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,1478][847,1646]",
+            "center": "[465,1562]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "V\u00e4gm\u00e4rken - Transportstyrelsen",
+                "bounds": "[126,1527][805,1597]",
+                "center": "[465,1562]"
+              }
+            ]
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Lesson marked as read",
+            "bounds": "[154,1772][1021,1888]",
+            "center": "[587,1830]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "1 of 4 lessons read in this chapter.",
+            "bounds": "[154,1930][993,2014]",
+            "center": "[573,1972]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[154,2112][1286,2280]",
+            "center": "[720,2196]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Next lesson",
+                "bounds": "[597,2161][843,2231]",
+                "center": "[720,2196]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[154,2322][565,2490]",
+            "center": "[359,2406]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Mark as unread",
+                "bounds": "[196,2371][523,2441]",
+                "center": "[359,2406]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,2616][918,2784]",
+            "center": "[501,2700]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Previous: Combine the instructions",
+                "bounds": "[126,2665][876,2735]",
+                "center": "[501,2700]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[84,2784][782,2952]",
+            "center": "[433,2868]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Next: Leave room to respond",
+                "bounds": "[126,2833][740,2903]",
+                "center": "[433,2868]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -21,4 +21,4 @@ private val WrongBg=Color(0xFFFFEDEA)
 
 
 /** Only the validated accepted release enters normal learner routes. */
-@Composable fun App() { CurriculumApp(acceptedPracticeBank9J,acceptedCurriculumSummary9J) }
+@Composable fun App() { ProgressHost() }

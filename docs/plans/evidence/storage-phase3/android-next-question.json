@@ -1,0 +1,270 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "8:36",
+        "content-desc": "8:36\u202fAM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, three bars.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,201][631,387]",
+        "center": "[357,294]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "K\u00f6rkortGo",
+            "bounds": "[126,229][589,359]",
+            "center": "[357,294]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "ENGLISH \u00b7 CATEGORY B",
+        "bounds": "[983,252][1356,336]",
+        "center": "[1169,294]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[84,387][363,555]",
+        "center": "[223,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Overview",
+            "bounds": "[126,436][321,506]",
+            "center": "[223,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[391,387][668,583]",
+        "center": "[529,485]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning library",
+            "bounds": "[433,415][626,555]",
+            "center": "[529,485]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[696,387][954,555]",
+        "center": "[825,471]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Practice",
+            "bounds": "[738,436][912,506]",
+            "center": "[825,471]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "PRACTICE TEST",
+        "bounds": "[56,727][362,811]",
+        "center": "[209,769]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[987,727][1384,895]",
+        "center": "[1185,811]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Pause exercise",
+            "bounds": "[1029,776][1342,846]",
+            "center": "[1185,811]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Question 2 of 10",
+        "bounds": "[56,993][458,1077]",
+        "center": "[257,1035]"
+      },
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[56,1119][1384,2826]",
+        "center": "[720,1972]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "A category B driver has a 3,500 kg total-weight car and a 750 kg total-weight trailer. Are the licence weight limits alone satisfied?",
+            "bounds": "[56,1119][1384,1571]",
+            "center": "[720,1345]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,1620][1384,1914]",
+            "center": "[720,1767]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "A",
+                "bounds": "[119,1683][150,1767]",
+                "center": "[134,1725]"
+              },
+              {
+                "class": "android.widget.TextView",
+                "text": "Yes regardless of the car's towing limit",
+                "bounds": "[119,1767][1068,1851]",
+                "center": "[593,1809]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,1963][1384,2341]",
+            "center": "[720,2152]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "B",
+                "bounds": "[119,2026][153,2110]",
+                "center": "[136,2068]"
+              },
+              {
+                "class": "android.widget.TextView",
+                "text": "No because every B combination is capped at 3,500 kg",
+                "bounds": "[119,2110][1321,2278]",
+                "center": "[720,2194]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,2390][1384,2684]",
+            "center": "[720,2537]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "C",
+                "bounds": "[119,2453][152,2537]",
+                "center": "[135,2495]"
+              },
+              {
+                "class": "android.widget.TextView",
+                "text": "Yes, under the trailer-not-exceeding-750-kg rule.",
+                "bounds": "[119,2537][1319,2621]",
+                "center": "[719,2579]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,2733][1384,2910]",
+            "center": "[720,2821]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "D",
+                "bounds": "[119,2796][154,2826]",
+                "center": "[136,2811]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Answers revealed at the end",
+        "bounds": "[56,2868][594,2952]",
+        "center": "[325,2910]"
+      }
+    ]
+  }
+]

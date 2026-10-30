@@ -27,11 +27,28 @@ private val Paper=Color(0xFFF7F8F3)
 private val Sage=Color(0xFFE7EEE5)
 private val Muted=Color(0xFF61706B)
 private val Line=Color(0xFFD5DED5)
-/** One transient owner for production navigation, practice identity and review state. */
+/** UI projection; production learner writes pass through the durable study adapter. */
 @Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size), fixtureBank: Boolean = false) {
     require(summary.questions==bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED})
     require(summary.modules==readerModules.size && summary.lessons==readerModules.sumOf{it.lessonIds.size} && summary.signEntries==navigationSigns.size)
     var state by remember { mutableStateOf(TransientQuizState()) }
+    val environment=LocalStudy.current
+    var initializing by remember { mutableStateOf(environment!=null) }
+    var savedUnavailable by remember { mutableStateOf(false) }
+    LaunchedEffect(environment) {
+        environment?.save {
+            try {
+                val saved=environment.study.active()
+                if(saved!=null) state=state.copy(pinned=saved,navigation=GuardedNavigation(AppDestination.Home,saved.navigation))
+            } catch(e:IllegalArgumentException) {savedUnavailable=true}
+            initializing=false
+        }
+    }
+    fun resumeSaved() { environment?.save { state=environment.study.quizState(requireNotNull(state.pinned).id) } }
+    fun endSaved() { environment?.save {
+        environment.study.endActive(); savedUnavailable=false
+        state=TransientQuizState(navigation=GuardedNavigation(AppDestination.QuizSetup,null))
+    } }
     val library = remember { LearningLibraryState() }
     var sourceFailure by remember { mutableStateOf(false) }
     var libraryVisit by remember { mutableIntStateOf(0) }
@@ -44,14 +61,17 @@ private val Line=Color(0xFFD5DED5)
     val reviewScroll = androidx.compose.foundation.lazy.rememberLazyListState()
     LaunchedEffect(practice?.id,state.review?.filter) { reviewScroll.scrollToItem((state.review?.row ?: 0).let{if(it==0)0 else it+1}) }
     fun navigate(target: AppDestination, intent: NavigationIntent = NavigationIntent.GENERAL) {
-        state = state.request(NavigationRequest(target,intent)).first
+        if(environment?.busy==true || environment?.failure!=null || initializing)return
+        state = if(environment!=null) state.copy(navigation=GuardedNavigation(target,state.pinned?.navigation))
+            else state.request(NavigationRequest(target,intent)).first
         if(state.navigation.pending==null) {
             reviewSource=null;restoreReviewSource=null;sourceOrigin=null
             if(target==AppDestination.Library && state.navigation.current==target)libraryVisit++
         }
     }
     fun setup() {
-        state=state.showSetup()
+        if(environment?.busy==true || environment?.failure!=null || initializing)return
+        state=if(environment!=null)state.copy(navigation=GuardedNavigation(AppDestination.QuizSetup,state.pinned?.navigation)) else state.showSetup()
         if(state.navigation.pending==null){reviewSource=null;restoreReviewSource=null;sourceOrigin=null}
     }
     fun returnToReviewSource() {
@@ -59,7 +79,8 @@ private val Line=Color(0xFFD5DED5)
         reviewSource=null
     }
     fun source(id: SourceReferenceId) {
-        state=state.request(NavigationRequest(state.navigation.current,NavigationIntent.SOURCE,sourceReferenceId=id)).first
+        if(environment!=null) sourceFailure=runCatching{uri.openUri(navigationSources.references.single{it.id==id}.url)}.isFailure
+        else state=state.request(NavigationRequest(state.navigation.current,NavigationIntent.SOURCE,sourceReferenceId=id)).first
     }
     LaunchedEffect(state.navigation.sourceToOpen) {
         val (id, consumed) = state.takeSourceToOpen()
@@ -71,6 +92,17 @@ private val Line=Color(0xFFD5DED5)
     }
     LearningTheme { RootModalHost {
         Column(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing)) {
+            if(environment?.failure!=null) {
+                Surface(color=MaterialTheme.colorScheme.errorContainer) { Column(Modifier.fillMaxWidth().padding(16.dp)) {
+                    Text(if(destination is AppDestination.Quiz)"Answer not saved" else "Progress not saved",style=MaterialTheme.typography.titleMedium)
+                    Text(environment.failure!!)
+                    Button({environment.retry()},enabled=!environment.busy){Text("Retry saving")}
+                } }
+            }
+            if(savedUnavailable) Column(Modifier.padding(16.dp)) {
+                Text("Your saved exercise uses content that is no longer available. End it to start a new one.")
+                Button(::endSaved,enabled=environment?.busy!=true){Text("End this exercise")}
+            }
             Box(Modifier.fillMaxWidth(),contentAlignment=Alignment.Center) {
                 Column(Modifier.widthIn(max=1160.dp).fillMaxWidth().padding(horizontal=24.dp,vertical=16.dp)) {
                     Row(Modifier.fillMaxWidth(),verticalAlignment=Alignment.CenterVertically) {
@@ -97,6 +129,7 @@ private val Line=Color(0xFFD5DED5)
                     SourceDetail(reviewSource!!,::returnToReviewSource,::returnToReviewSource,{reference->source(reference.id);true},backLabel="Back to answer review",returnLabel="Return to answer review")
                 } else when(val page=destination) {
                     AppDestination.Home -> LazyColumn(Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
+                        if(environment!=null && practice?.assessment?.finished==false) item { SavedExercise(practice,environment.busy,::resumeSaved,::endSaved) }
                         item {AdaptiveColumns({
                             Eyebrow("YOUR SWEDISH DRIVING JOURNEY");Heading("Your road to\nconfidence.",true)
                             Text("Learn the rules. Understand the why. Practise at your pace.",color=Muted,fontSize=18.sp)
@@ -122,6 +155,7 @@ private val Line=Color(0xFFD5DED5)
                         Box(Modifier.weight(1f)) {key(page,libraryVisit){LearningRoute((page as? AppDestination.Content)?.let{canonicalResolver.canonical(it.target)},libraryState=library,initialReferences=page==AppDestination.SignCatalogue){reference->runCatching{uri.openUri(reference.url)}.isSuccess}}}
                     }
                     AppDestination.QuizSetup -> LazyColumn(Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
+                        if(environment!=null && practice?.assessment?.finished==false) item { SavedExercise(practice,environment.busy,::resumeSaved,::endSaved) }
                         item {Eyebrow("PRACTICE TEST");Heading("Make every question count.")}
                         item {AdaptiveColumns({
                             Panel {Text("1. How many questions?",fontSize=20.sp,fontWeight=FontWeight.Bold)
@@ -140,7 +174,10 @@ private val Line=Color(0xFFD5DED5)
                                 Row(Modifier.fillMaxWidth()){Text("Random from any category",Modifier.weight(1f));Text(mix.random.toString())}
                                 Text("The extra random questions can belong to any category. No repeated learning point within a test.",fontSize=12.sp)
                                 check.errors.forEach{Text(it,color=MaterialTheme.colorScheme.error)}
-                                Primary("Start test  >",check.allowed && state.recovery==PracticeRecovery.NONE){state=if(fixtureBank)state.startPracticeFixture(bank)else state.startPractice(bank)}
+                                Primary("Start test  >",check.allowed && state.recovery==PracticeRecovery.NONE && !initializing && environment?.busy!=true && !savedUnavailable && (environment==null || practice?.assessment?.finished!=false)){
+                                    if(environment==null)state=if(fixtureBank)state.startPracticeFixture(bank)else state.startPractice(bank)
+                                    else environment.save { state=environment.study.start(state) }
+                                }
                                 Text("No time pressure. All questions count towards your practice score.",fontSize=12.sp)
                             }
                         })}
@@ -149,7 +186,7 @@ private val Line=Color(0xFFD5DED5)
                         if(practice==null || practice.id!=page.sessionId) MissingPractice {setup()}
                         else Column(Modifier.widthIn(max=900.dp).fillMaxSize().padding(horizontal=16.dp,vertical=24.dp),verticalArrangement=Arrangement.spacedBy(12.dp)) {
                             val assessment=practice.assessment
-                            Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween){Eyebrow("PRACTICE TEST");TextButton({setup()}){Text("End test")}}
+                            Row(Modifier.fillMaxWidth(),horizontalArrangement=Arrangement.SpaceBetween){Eyebrow("PRACTICE TEST");TextButton({setup()}){Text(if(environment==null)"End test" else "Pause exercise")}}
                             LinearProgressIndicator(progress={assessment.index.toFloat()/assessment.snapshots.size},modifier=Modifier.fillMaxWidth())
                             Text("Question ${assessment.index+1} of ${assessment.snapshots.size}")
                             Box(Modifier.weight(1f)){PinnedAssessmentCard(practice,trailingContent={
@@ -158,8 +195,10 @@ private val Line=Color(0xFFD5DED5)
                                     TextButton({navigate(AppDestination.Content(ContentTarget(question.relationship.primaryLessonId)),NavigationIntent.RELATED_READING)}){Text("Read the related lesson")}
                                     question.relationship.sourceUses.map{it.referenceId}.distinct().forEach{id->TextButton({source(id)}){Text(navigationSources.references.single{it.id==id}.title)}}
                                 }
-                            }){token,option->state=state.select(token,option).confirm(token)}}
-                            if(assessment.currentAnswer!=null)Primary(if(assessment.index==assessment.snapshots.lastIndex)"Finish test  >" else "Next question  >"){state=state.nextQuestion()}
+                            }){token,option->
+                                if(environment==null)state=state.select(token,option).confirm(token)
+                                else environment.save { state=environment.study.confirm(practice,option) }}}
+                            if(assessment.currentAnswer!=null)Primary(if(assessment.index==assessment.snapshots.lastIndex)"Finish test  >" else "Next question  >"){if(environment==null)state=state.nextQuestion() else environment.save { state=environment.study.next(practice) }}
                             else Text(if(assessment.feedbackMode==Feedback.AT_END)"Answers revealed at the end" else "Answers explained after each question",fontSize=12.sp,color=Muted)
                         }
                     }
@@ -231,3 +270,16 @@ private fun categoryIcon(c:Category)=when(c){Category.VEHICLE->"01";Category.ENV
     drawPath(road,Color(0xFFF9FAF4),style=Stroke(width=w*.15f,cap=StrokeCap.Round));drawPath(road,Color(0xFF7A8A80),style=Stroke(width=w*.12f,cap=StrokeCap.Round));drawPath(road,Color(0xFFF6E7A0),style=Stroke(width=2.dp.toPx()))
     listOf(.13f to .63f,.22f to .38f,.82f to .68f,.89f to .49f,.71f to .37f).forEach { (x,y)->val tree=Path().apply {moveTo(w*x,h*(y-.17f));lineTo(w*(x-.055f),h*y);lineTo(w*(x+.055f),h*y);close()};drawPath(tree,Forest);drawLine(Forest,Offset(w*x,h*y),Offset(w*x,h*(y+.05f)),3.dp.toPx())}
 } }
+
+@Composable private fun SavedExercise(practice: PinnedPractice,busy: Boolean,onResume:()->Unit,onEnd:()->Unit) {
+    Panel(Sage) {
+        Text("Exercise in progress",style=MaterialTheme.typography.headlineSmall)
+        Text("Mixed practice",style=MaterialTheme.typography.titleLarge)
+        Text("${practice.assessment.answers.size} of ${practice.assessment.snapshots.size} questions answered")
+        LinearProgressIndicator(progress={practice.assessment.answers.size.toFloat()/practice.assessment.snapshots.size},modifier=Modifier.fillMaxWidth())
+        Text(if(practice.assessment.feedbackMode==Feedback.AT_END)"Answers will be shown at the end." else "Continue where you left off.")
+        Primary("Resume exercise",!busy,onResume)
+        OutlinedButton(onEnd,enabled=!busy){Text("End this exercise")}
+        Text("Your confirmed answers are saved on this device.")
+    }
+}

@@ -4,6 +4,10 @@ Created: 27 October 2026. Updated: 29 October 2026. Phase 1's storage proof is i
 
 Phase 2 implementation: the `progress-data` library now contains the versioned Room schema, transactional repository, persisted snapshots/catalogue, revision-aware metrics and migration/reopen tests. See [module documentation](../../progress-data/README.md). UI and lifecycle integration remain phase 3.
 
+Design selection, 30 October 2026: the user chose `preview-v2.png` as the current direction. Later color and study-journal revisions were rejected and removed from the project.
+
+Phase 3 implementation, 30 October 2026: approved completion/resume/retry controls are connected to production persistent storage. See [integration evidence and remaining platform checks](evidence/storage-phase3/README.md). The v2 navigation/dashboard layout remains scheduled for the later UI phases.
+
 ## 1. Intended outcome
 
 Replace the current promotional overview with a useful personal dashboard. The three primary destinations are exactly **Home**, **Learning**, and **Exercise**. A learner can see what they have read, how much of the accepted question bank they have covered, what needs review, and one useful next action. Progress and an unfinished exercise survive an app restart.

@@ -97,6 +97,27 @@ class ProgressRepository(private val db: ProgressDatabase) {
         checkToken(token); val s = checkNotNull(dao.session(id)); check(s.profileId == token.profileId)
         s to dao.answers(id)
     }
+    suspend fun activeSession(token: WriteToken): Session? = db.withWriteTransaction {
+        checkToken(token); dao.active(token.profileId).singleOrNull()
+    }
+    suspend fun lessons(token: WriteToken): List<LessonProgress> = db.withWriteTransaction {
+        checkToken(token); dao.lessons(token.profileId)
+    }
+    suspend fun cursor(token: WriteToken, id: String): Int = db.withWriteTransaction {
+        checkToken(token); check(dao.session(id)?.profileId == token.profileId)
+        dao.metadataByKey("cursor:$id")?.value?.toInt() ?: 0
+    }
+    suspend fun advance(token: WriteToken, id: String, position: Int, version: Long) = db.withWriteTransaction {
+        checkToken(token); val s=checkNotNull(dao.session(id)); check(s.profileId==token.profileId)
+        val cursor=dao.metadataByKey("cursor:$id")?.value?.toInt() ?: 0
+        if(cursor!=position+1) {
+            check(cursor==position && s.status=="active" && s.version==version)
+            check(dao.answers(id).any { it.position==position })
+            check(position+1 < dao.questions(id).size)
+            check(dao.transition(id,version,"active")==1)
+            dao.metadata(StoreMetadata("cursor:$id",(position+1).toString())); changed()
+        }
+    }
     suspend fun history(token: WriteToken, limit: Int = 20, offset: Int = 0): List<Session> = db.withWriteTransaction {
         checkToken(token); require(limit in 1..100 && offset >= 0); dao.history(token.profileId,limit,offset)
     }

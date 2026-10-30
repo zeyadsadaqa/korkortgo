@@ -29,6 +29,7 @@ fun AssessmentCard(
     },
     onEnlargeImage: ((AssessmentImagePresentation, FocusRequester) -> Unit)? = null,
 ) {
+    val canInteract=LocalStudy.current?.let { !it.busy && it.failure==null } ?: true
     var pending by remember(presentation.key, presentation.choices.map { it.id }) { mutableStateOf<OptionId?>(null) }
     val feedbackFocus = remember(presentation.key) { FocusRequester() }
     LaunchedEffect(presentation.key, presentation.canConfirm, presentation.explanation) {
@@ -36,7 +37,7 @@ fun AssessmentCard(
     }
     val selection = presentation.choices.singleOrNull { it.selected }?.id ?: pending
     DisposableEffect(presentation.key) { onDispose { clearBrowserAssessmentChoices() } }
-    SideEffect { updateBrowserAssessmentChoices(presentation.choices.singleOrNull{it.id==selection}?.letter,presentation.canConfirm) }
+    SideEffect { updateBrowserAssessmentChoices(presentation.choices.singleOrNull{it.id==selection}?.letter,presentation.canConfirm && canInteract) }
     Column(Modifier.semantics { isTraversalGroup = true }, verticalArrangement = Arrangement.spacedBy(14.dp)) {
         Text(presentation.prompt, style = MaterialTheme.typography.headlineSmall)
         presentation.image?.let { picture ->
@@ -54,7 +55,7 @@ fun AssessmentCard(
                         color = if(isSelected && presentation.canConfirm)MaterialTheme.colorScheme.secondaryContainer else MaterialTheme.colorScheme.surface) {
                         Column(Modifier.fillMaxWidth().selectable(
                             selected = choice.id == selection,
-                            enabled = presentation.canConfirm,
+                            enabled = presentation.canConfirm && canInteract,
                             role = Role.RadioButton,
                             onClick = { pending = choice.id },
                         ).semantics(mergeDescendants = true) {
@@ -82,7 +83,7 @@ fun AssessmentCard(
             }
         }
         if (presentation.canConfirm) {
-            Button(onClick = { selection?.let(onConfirm) }, enabled = selection != null,
+            Button(onClick = { selection?.let(onConfirm) }, enabled = selection != null && canInteract,
                 modifier = Modifier.fillMaxWidth().heightIn(min = 52.dp)) {
                 Text("Confirm answer  >")
             }
