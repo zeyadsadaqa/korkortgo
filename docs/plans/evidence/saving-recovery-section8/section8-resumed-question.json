@@ -1,0 +1,222 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "3:19",
+        "content-desc": "3:19\u202fPM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, signal full.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.widget.Button",
+        "content-desc": "Back",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,187][238,355]",
+        "center": "[154,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "K\u00f6rkortGo",
+        "bounds": "[238,213][1154,329]",
+        "center": "[696,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "CATEGORY B",
+        "bounds": "[1154,243][1370,299]",
+        "center": "[1262,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "PRACTICE TEST",
+        "bounds": "[56,481][362,565]",
+        "center": "[209,523]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[987,481][1384,649]",
+        "center": "[1185,565]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Pause exercise",
+            "bounds": "[1029,530][1342,600]",
+            "center": "[1185,565]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Question 1 of 1",
+        "bounds": "[56,747][428,831]",
+        "center": "[242,789]"
+      },
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[56,873][1384,2546]",
+        "center": "[720,1709]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Which description identifies this illustrated Swedish sign, symbol or road marking?",
+            "bounds": "[56,873][1384,1213]",
+            "center": "[720,1043]"
+          },
+          {
+            "class": "android.view.View",
+            "content-desc": "White rectangle with a very thin outline of a caravan above a long horizontal base.",
+            "bounds": "[56,1262][1384,2147]",
+            "center": "[720,1704]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,2196][724,2364]",
+            "center": "[390,2280]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Enlarge question image",
+                "bounds": "[140,2245][640,2315]",
+                "center": "[390,2280]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CHECKABLE",
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[56,2413][1384,2630]",
+            "center": "[720,2521]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "A",
+                "bounds": "[119,2476][150,2546]",
+                "center": "[134,2511]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Answers explained after each question",
+        "bounds": "[56,2588][792,2672]",
+        "center": "[424,2630]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,2756][462,3036]",
+        "center": "[231,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Home",
+            "bounds": "[174,2924][287,2980]",
+            "center": "[230,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[490,2756][951,3036]",
+        "center": "[720,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning",
+            "bounds": "[637,2924][804,2980]",
+            "center": "[720,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[979,2756][1440,3036]",
+        "center": "[1209,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[1131,2924][1287,2980]",
+            "center": "[1209,2952]"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -30,7 +30,8 @@ private val Sage=Color(0xFFE7EEE5)
 private val Muted=Color(0xFF61706B)
 private val Line=Color(0xFFD5DED5)
 /** UI projection; production learner writes pass through the durable study adapter. */
-@Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size), fixtureBank: Boolean = false) {
+@Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size), fixtureBank: Boolean = false, previewDashboard:Dashboard?=null) {
+    if(previewDashboard!=null){LearningTheme {AppChrome(AppDestination.Home,{},false,{}) {HomeDashboard(previewDashboard,false,{},androidx.compose.foundation.lazy.rememberLazyListState(),{},{},{},{},{})}};return}
     require(summary.questions==bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED})
     require(summary.modules==readerModules.size && summary.lessons==readerModules.sumOf{it.lessonIds.size} && summary.signEntries==navigationSigns.size)
     val environment=LocalStudy.current
@@ -60,7 +61,7 @@ private val Line=Color(0xFFD5DED5)
     }
     val homeData=remember(records,environment){if(records!=null && environment!=null)dashboard(records!!,environment.study) else null}
     var initializing by remember { mutableStateOf(environment!=null) }
-    var savedUnavailable by remember { mutableStateOf(false) }
+    var savedUnavailable by remember { mutableStateOf(environment?.study?.invalidatedExercise==true) }
     LaunchedEffect(environment) {
         environment?.save {
             try {
@@ -71,7 +72,9 @@ private val Line=Color(0xFFD5DED5)
             initializing=false
         }
     }
-    fun resumeId(id:String) {environment?.save {state=environment.study.quizState(id)}}
+    fun resumeId(id:String) {environment?.save {
+        try{state=environment.study.quizState(id)}catch(e:UnavailableExercise){environment.study.active();savedUnavailable=true;state=TransientQuizState(navigation=GuardedNavigation(AppDestination.QuizSetup,null))}
+    }}
     fun resumeSaved() { val id=records?.sessions?.singleOrNull{it.status=="active"}?.id ?: state.pinned?.id; if(id!=null)resumeId(id) }
     fun endSaved() { environment?.save {
         environment.study.endActive(); savedUnavailable=false;exerciseUi.page=ExercisePage.HUB
@@ -93,22 +96,52 @@ private val Line=Color(0xFFD5DED5)
     }
     fun navigate(target: AppDestination, intent: NavigationIntent = NavigationIntent.GENERAL, restoreTab: Boolean=false) {
         if(environment?.busy==true || initializing)return
-        state = if(environment!=null) state.copy(navigation=GuardedNavigation(target,state.pinned?.navigation))
-            else state.request(NavigationRequest(target,intent)).first
-        if(state.navigation.pending==null) {
-            if(!restoreTab){reviewSource=null;restoreReviewSource=null;sourceOrigin=null}
-            if(!restoreTab && state.navigation.current==target) {
-                if(target==AppDestination.Library || target is AppDestination.Content || target==AppDestination.SignCatalogue)
+        fun move() {
+            state = if(environment!=null) state.copy(navigation=GuardedNavigation(target,state.pinned?.navigation))
+                else state.request(NavigationRequest(target,intent)).first
+            if(state.navigation.pending==null) {
+                if(!restoreTab){reviewSource=null;restoreReviewSource=null;sourceOrigin=null}
+                if(!restoreTab && state.navigation.current==target && (target==AppDestination.Library || target is AppDestination.Content || target==AppDestination.SignCatalogue))
                     learningRoute=LearningRouteState((target as? AppDestination.Content)?.let{canonicalResolver.canonical(it.target)},target==AppDestination.SignCatalogue)
             }
         }
+        val leaving=state.pinned?.takeIf{environment!=null && state.navigation.current is AppDestination.Quiz && target!=state.navigation.current}
+        if(leaving!=null && environment!=null)environment.save {environment.study.pause(leaving);lastExercise=AppDestination.QuizSetup;move()}
+        else move()
     }
-    fun setup() {
-        exerciseUi.page=ExercisePage.HUB
-        if(environment?.busy==true || initializing)return
-        state=if(environment!=null)state.copy(navigation=GuardedNavigation(AppDestination.QuizSetup,state.pinned?.navigation)) else state.showSetup()
-        if(state.navigation.pending==null){reviewSource=null;restoreReviewSource=null;sourceOrigin=null}
+    fun setup() {exerciseUi.page=ExercisePage.HUB;navigate(AppDestination.QuizSetup)}
+    OnStudyBackground {
+        if(environment!=null)environment.background {
+            val p=state.pinned
+            if(state.navigation.current is AppDestination.Quiz && p!=null) {
+                environment.study.pause(p);lastExercise=AppDestination.QuizSetup
+                state=state.copy(navigation=GuardedNavigation(AppDestination.QuizSetup,p.navigation))
+            }
+        }
     }
+    LaunchedEffect(records,destination,environment?.conflict,environment?.busy) {
+        if(environment!=null && !environment.busy && destination is AppDestination.Quiz) {
+            val p=state.pinned
+            val saved=records?.sessions?.singleOrNull{it.id==p?.id}
+            if(p!=null && saved!=null && (saved.version!=p.storeVersion || environment.conflict)) {
+                if(saved.status !in setOf("active","completed")) {
+                    savedUnavailable=records?.value("unavailable:${p.id}")=="1"
+                    state=state.copy(pinned=null,navigation=GuardedNavigation(AppDestination.QuizSetup,null),draft=null)
+                    environment.acknowledgeConflict()
+                    return@LaunchedEffect
+                }
+                try {
+                    val fresh=environment.study.restore(p.id)
+                    val paused=fresh.paused
+                    val route=if(paused)AppDestination.QuizSetup else if(fresh.assessment.finished)AppDestination.Results(p.id) else AppDestination.Quiz(p.id)
+                    state=state.copy(pinned=fresh,navigation=GuardedNavigation(route,fresh.navigation),draft=null)
+                    environment.acknowledgeConflict()
+                }catch(e:CancellationException){throw e}
+                catch(e:Exception){if(e is UnavailableExercise){environment.study.active();savedUnavailable=true;setup()} else {recordsFailed=true}}
+            }
+        }
+    }
+
     fun returnToReviewSource() {
         restoreReviewSource=sourceOrigin?.let{key->reviewSource?.let{id->key to id}}
         reviewSource=null
@@ -139,12 +172,12 @@ private val Line=Color(0xFFD5DED5)
                 Surface(color=MaterialTheme.colorScheme.errorContainer) { Column(Modifier.fillMaxWidth().padding(16.dp)) {
                     Text(if(destination is AppDestination.Quiz)"Answer not saved" else "Progress not saved",style=MaterialTheme.typography.titleMedium)
                     Text(environment.failure!!)
-                    Button({environment.retry()},enabled=!environment.busy){Text("Retry saving")}
+                    if(!environment.conflict)Button({environment.retry()},enabled=!environment.busy){Text("Retry saving")}
                 } }
             }
             if(savedUnavailable) Column(Modifier.padding(16.dp)) {
-                Text("Your saved exercise uses content that is no longer available. End it to start a new one.")
-                Button(::endSaved,enabled=environment?.busy!=true){Text("End this exercise")}
+                Text("Your saved exercise uses content that is no longer available. Its history has been kept. Start a new exercise to continue.")
+                Button({savedUnavailable=false;setup()},enabled=environment?.busy!=true){Text("Start a new exercise")}
             }
             Box(Modifier.weight(1f).fillMaxWidth(),contentAlignment=Alignment.TopCenter) {
                 if(state.recovery==PracticeRecovery.MISSING_RESULT) {
@@ -192,7 +225,7 @@ private val Line=Color(0xFFD5DED5)
                         if(practice?.assessment?.finished==true && state.review!=null) TextButton({state=state.openReview()}){Text("Return to answer review")}
                         Box(Modifier.weight(1f)) {LearningRoute((page as? AppDestination.Content)?.let{canonicalResolver.canonical(it.target)},libraryState=library,initialReferences=page==AppDestination.SignCatalogue,retainedState=learningRoute){reference->runCatching{uri.openUri(reference.url)}.isSuccess}}
                     }
-                    AppDestination.QuizSetup -> if(environment!=null)ExerciseScreens(environment.study,records,recordsFailed,{refresh++},exerciseUi,environment.busy,{
+                    AppDestination.QuizSetup -> if(environment!=null)ExerciseScreens(environment.study.bank,environment.study.catalog,records,recordsFailed,{refresh++},exerciseUi,environment.busy,{
                         environment.save {
                             state=environment.study.start(state.copy(countText=exerciseUi.count,feedback=exerciseUi.feedback),exerciseUi.request)
                         }

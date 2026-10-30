@@ -1,0 +1,240 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "3:23",
+        "content-desc": "3:23\u202fPM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, signal full.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "text": "K\u00f6rkortGo",
+        "bounds": "[70,187][1154,303]",
+        "center": "[612,245]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "CATEGORY B",
+        "bounds": "[1154,217][1370,273]",
+        "center": "[1262,245]"
+      },
+      {
+        "class": "android.widget.ScrollView",
+        "interactions": [
+          "SCROLLABLE"
+        ],
+        "bounds": "[0,345][1440,2756]",
+        "center": "[720,1550]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[70,415][506,569]",
+            "center": "[288,492]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Put your knowledge into practice.",
+            "bounds": "[70,625][909,709]",
+            "center": "[489,667]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "1 / 1000",
+            "bounds": "[140,835][536,989]",
+            "center": "[338,912]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Unique questions answered",
+            "bounds": "[140,1031][831,1115]",
+            "center": "[485,1073]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "0 correct on latest attempt \u00b7 1 to revisit",
+            "bounds": "[140,1213][1103,1297]",
+            "center": "[621,1255]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "EXERCISE IN PROGRESS",
+            "bounds": "[140,1493][647,1563]",
+            "center": "[393,1528]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Review mistakes",
+            "bounds": "[140,1605][772,1721]",
+            "center": "[456,1663]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "0 of 1 questions answered",
+            "bounds": "[140,1763][785,1847]",
+            "center": "[462,1805]"
+          },
+          {
+            "class": "android.widget.TextView",
+            "text": "Answers are explained after each question.",
+            "bounds": "[140,1889][1205,1973]",
+            "center": "[672,1931]"
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[140,2015][1300,2197]",
+            "center": "[720,2106]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Resume exercise",
+                "bounds": "[542,2071][898,2141]",
+                "center": "[720,2106]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE",
+              "FOCUSABLE"
+            ],
+            "bounds": "[140,2239][1300,2407]",
+            "center": "[720,2323]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "End this exercise",
+                "bounds": "[541,2288][900,2358]",
+                "center": "[720,2323]"
+              }
+            ]
+          },
+          {
+            "class": "android.view.View",
+            "interactions": [
+              "CLICKABLE"
+            ],
+            "bounds": "[70,2533][1370,2756]",
+            "center": "[720,2644]",
+            "children": [
+              {
+                "class": "android.widget.TextView",
+                "text": "Practise unanswered",
+                "bounds": "[126,2589][626,2673]",
+                "center": "[376,2631]"
+              },
+              {
+                "class": "android.widget.TextView",
+                "text": "999 questions remaining",
+                "bounds": "[126,2673][646,2743]",
+                "center": "[386,2708]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[0,2756][462,3036]",
+        "center": "[231,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Home",
+            "bounds": "[174,2924][287,2980]",
+            "center": "[230,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[490,2756][951,3036]",
+        "center": "[720,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning",
+            "bounds": "[637,2924][804,2980]",
+            "center": "[720,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[979,2756][1440,3036]",
+        "center": "[1209,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[1131,2924][1287,2980]",
+            "center": "[1209,2952]"
+          }
+        ]
+      }
+    ]
+  }
+]

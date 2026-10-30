@@ -83,13 +83,13 @@ internal class ExerciseUiState {
     fun setup(request:ExerciseRequest){this.request=request;page=ExercisePage.SETUP;error=null}
     fun back(){error=null;page=if(page==ExercisePage.DETAIL)ExercisePage.HISTORY else ExercisePage.HUB}
 }
-@Composable internal fun ExerciseScreens(study:DurableStudy,records:StudyRecords?,failed:Boolean,retry:()->Unit,ui:ExerciseUiState,busy:Boolean,onStart:()->Unit,onResume:(String)->Unit,onEnd:()->Unit,onResult:(String)->Unit) {
+@Composable internal fun ExerciseScreens(bank:PracticeBank,catalog:ContentCatalog,records:StudyRecords?,failed:Boolean,retry:()->Unit,ui:ExerciseUiState,busy:Boolean,onStart:()->Unit,onResume:(String)->Unit,onEnd:()->Unit,onResult:(String)->Unit) {
     val r=records
     Column(Modifier.widthIn(max=1000.dp).fillMaxSize().verticalScroll(ui.scrolls.getValue(ui.page)).padding(20.dp),verticalArrangement=Arrangement.spacedBy(16.dp)) {
         StudyHeading(when(ui.page){ExercisePage.HUB->"Exercise";ExercisePage.SETUP->if(ui.request.mode==ExerciseMode.MIXED)"Set up an exercise" else ui.request.mode.label;ExercisePage.HISTORY->"Exercise history";ExercisePage.DETAIL->"Exercise details"})
         if(r==null){ProgressUnavailable(failed,retry);return@Column}
         ui.error?.let {StudyCard{Text(it,color=MaterialTheme.colorScheme.error,modifier=Modifier.semantics{liveRegion=LiveRegionMode.Polite});TextButton({ui.error=null}){Text("Dismiss")}}}
-        val summary=r.summary(study.catalog)
+        val summary=r.summary(catalog)
         val active=r.sessions.singleOrNull{it.status=="active"}
         when(ui.page) {
             ExercisePage.HUB->{
@@ -124,7 +124,7 @@ internal class ExerciseUiState {
                 }})
                 if(ui.request.mode==ExerciseMode.CHAPTER)ChoiceMenu("Chapter",readerModules.single{it.id.value==ui.request.chapter}.title,readerModules.map{m->m.title to {ui.request=ui.request.copy(chapter=m.id.value)}})
                 if(ui.request.mode!=ExerciseMode.MIXED && ui.request.mode!=ExerciseMode.CHAPTER)ChoiceMenu("Category",ui.request.category?.title ?: "All categories",listOf("All categories" to {ui.request=ui.request.copy(category=null)})+Category.entries.map{c->c.title to {ui.request=ui.request.copy(category=c)}})
-                val pool=study.pool(ui.request,r);val capacity=pool.map{it.conceptId}.distinct().size.coerceAtMost(70)
+                val pool=exercisePool(bank,ui.request,r,catalog);val capacity=pool.map{it.conceptId}.distinct().size.coerceAtMost(70)
                 if(capacity==0){StudyCard(true){Text(if(ui.request.mode==ExerciseMode.REVIEW)"No mistakes to review" else "No questions in this pool",style=MaterialTheme.typography.headlineSmall);Text("Choose another mode or category to keep practising.");StudyAction("Choose another mode"){ui.request=ExerciseRequest()}};return@Column}
                 val targeted=ui.request.mode!=ExerciseMode.MIXED
                 if(targeted)StudyCard(true){Text("${pool.size} eligible ${if(pool.size==1)"question covers" else "questions cover"} ${pool.map{it.conceptId}.distinct().size} distinct ${if(pool.map{it.conceptId}.distinct().size==1)"learning point" else "learning points"}. ${if(capacity==1)"This exercise has 1 question." else "Choose 1–$capacity questions."}");Text("One question per learning point in this exercise.",style=MaterialTheme.typography.bodySmall)}
@@ -143,7 +143,7 @@ internal class ExerciseUiState {
                     TextButton({mix=!mix}){Text(if(mix)"Hide question mix" else "View question mix")}
                     if(mix){val allocation=QuizEngine.allocation((ui.count.toIntOrNull() ?: 1).coerceIn(1,70));allocation.categories.forEach{(c,n)->Text("${c.title}: $n")};Text("Random from any category: ${allocation.random}")}
                 }
-                val size=ui.count.toIntOrNull();val allowed=size!=null && size in 1..capacity && (targeted || practiceStartCheck(ui.count,study.bank).allowed)
+                val size=ui.count.toIntOrNull();val allowed=size!=null && size in 1..capacity && (targeted || practiceStartCheck(ui.count,bank).allowed)
                 if(!allowed)Text("Choose a valid number from 1 to $capacity.",color=MaterialTheme.colorScheme.error)
                 StudyAction("Start ${ui.count} ${if(ui.count=="1")"question" else "questions"}",allowed && !busy,onStart)
             }
@@ -157,7 +157,7 @@ internal class ExerciseUiState {
                 val s=r.sessions.singleOrNull{it.id==ui.detail}
                 if(s==null)Text("This exercise is unavailable.") else StudyCard {
                     Text(ExerciseRequest.decode(r.value("mode:${s.id}")).label,style=MaterialTheme.typography.headlineSmall)
-                    Text("Ended early · ${r.attempts.count{it.sessionId==s.id}} of ${r.questions.count{it.sessionId==s.id}} answered")
+                    Text(if(r.value("unavailable:${s.id}")=="1")"Unavailable content · History kept" else "Ended early · ${r.attempts.count{it.sessionId==s.id}} of ${r.questions.count{it.sessionId==s.id}} answered")
                     Text("This partial exercise has no completed score.")
                     if(s.deferred)Text("Its deferred answers were not added to coverage or review progress.")
                 }
@@ -174,8 +174,15 @@ internal class ExerciseUiState {
     val answers=r.attempts.filter{it.sessionId==s.id};val questions=r.questions.filter{it.sessionId==s.id}
     // Only authenticated current snapshots can expose a score. Older content remains historical.
     val current=questions.all{q->acceptedQuestions9J.any{it.key.questionId.value==q.questionId && it.key.revision.value==q.revision && it.feedback.correctOptionId.value==q.correctOption}}
-    val detail=if(s.status=="completed" && current)"Completed · ${answers.count{a->questions.single{it.position==a.position}.correctOption==a.selectedOption}} / ${questions.size} correct"
+    val detail=if(r.value("unavailable:${s.id}")=="1")"Unavailable content · History kept" else if(s.status=="completed" && current)"Completed · ${answers.count{a->questions.single{it.position==a.position}.correctOption==a.selectedOption}} / ${questions.size} correct"
         else if(s.status=="completed")"Completed · Earlier content; results unavailable" else "Ended early · ${answers.size} of ${questions.size} answered"
     val date=if(s.createdAt==0L)"Date unavailable" else Instant.fromEpochMilliseconds(s.createdAt).toString().take(10)+" UTC"
     StudyRow(ExerciseRequest.decode(r.value("mode:${s.id}")).label,"$detail\n$date",enabled,onClick)
+}
+
+@org.jetbrains.compose.ui.tooling.preview.Preview(name="History · unavailable exercise",widthDp=390,heightDp=140)
+@Composable private fun HistoryRowPreview() {
+    val session=Session("preview","preview","earlier-package",true,"[]",status="abandoned")
+    val records=StudyRecords(sessions=listOf(session),metadata=listOf(StoreMetadata("unavailable:preview","1")))
+    LearningTheme {HistoryRow(session,records,true){}}
 }

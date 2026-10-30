@@ -60,6 +60,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
         var chapterRead by remember { mutableIntStateOf(0) }
         val chapter=readerModules.singleOrNull {it.id==document.moduleId}
         var lessonRead by remember { mutableStateOf(false) }
+        var savedPositionNotice by remember {mutableStateOf<String?>(null)}
         var positionLoaded by remember { mutableStateOf(environment==null) }
         LaunchedEffect(document.id,environment) {
             if(environment!=null && document.kind==DocumentKind.LESSON) environment.position {
@@ -68,9 +69,9 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
                 val saved=lessons.find {it.lessonId==document.id.value && it.revision==document.revision.value}
                 chapterRead=lessons.count {it.read && it.lessonId in chapter?.lessonIds.orEmpty().map {id->id.value} && environment.study.catalog.lessons[it.lessonId]==it.revision}
                 lessonRead=saved?.read==true
-                if(restored==null && target.blockId==null && saved?.blockId!=null) {
+                if(restored==null && target.blockId==null && saved?.blockId!=null && state.firstVisibleItemIndex==0 && state.firstVisibleItemScrollOffset==0) {
                     val index=document.bodyBlocks.indexOfFirst {it.metadata.id.value==saved.blockId}
-                    if(index>=0)state.requestScrollToItem(index+1,saved.offset)
+                    if(index>=0)state.requestScrollToItem(index+1,saved.offset) else {state.requestScrollToItem(0);savedPositionNotice="Your saved position has moved. Showing the start of this lesson."}
                 }
                 positionLoaded=true
             } else positionLoaded=true
@@ -85,14 +86,18 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
                 }
             }
         }
-        DisposableEffect(document.id) { onDispose {
+        DisposableEffect(document.id,environment) {
+            val flush:()->Unit = {
             if(environment!=null && positionLoaded && document.kind==DocumentKind.LESSON) {
                 document.bodyBlocks.getOrNull((state.firstVisibleItemIndex-1).coerceIn(0,document.bodyBlocks.lastIndex))?.let {block->
                     val offset=state.firstVisibleItemScrollOffset
                     environment.position {environment.study.repository.savePosition(environment.study.token,document.id.value,document.revision.value,block.metadata.id.value,offset)}
                 }
             }
-        } }
+            }
+            val unregister=environment?.registerPositionFlush(flush)
+            onDispose {flush();unregister?.invoke()}
+        }
 
         val answers=document.answerBlocks.associateBy{it.metadata.id}
         val sources=remember(document.id){lessonSources(document)}
@@ -127,7 +132,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
                 Column(verticalArrangement=Arrangement.spacedBy(12.dp)) {
                     TextButton(onLibrary){Text("Learning library")}
                     module?.let{Text("${it.order}. ${it.title}")}
-                    (notice ?: found?.notice)?.let{Text(if(it=="The precise passage has moved. Showing its parent.")"This passage has moved. The related lesson is shown below."else it,Modifier.semantics{liveRegion=LiveRegionMode.Polite})}
+                    (notice ?: found?.notice ?: savedPositionNotice)?.let{Text(if(it=="The precise passage has moved. Showing its parent.")"This passage has moved. The related lesson is shown below."else it,Modifier.semantics{liveRegion=LiveRegionMode.Polite})}
                     Text(document.title,style=MaterialTheme.typography.headlineLarge,modifier=Modifier.semantics{heading()})
                     document.objectives.filter{objective->document.bodyBlocks.none{it.searchText().contains(objective.assessmentText())}}.forEach{TeachingText(it,link)}
                 }

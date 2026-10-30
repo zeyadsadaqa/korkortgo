@@ -34,7 +34,7 @@ const val MAX_BACKUP_BYTES = 32 * 1024 * 1024
         return ProgressSummary(catalog.chapters.values.count {read.containsAll(it)},catalog.chapters.size,read.size,catalog.lessons.size,latest.size,catalog.questions.size,correct,latest.size-correct)
     }
 }
-@Serializable data class ProgressBackup(@EncodeDefault val format:String="korkortgo-progress",@EncodeDefault val version:Int=1,
+@Serializable data class ProgressBackup(@EncodeDefault val format:String="korkortgo-progress",@EncodeDefault val version:Int=2,
     val exportedAt:Long, val catalog:ContentCatalog, val records:StudyRecords)
 
 /** Structural validation is independent of app-level authentication of authored question content. */
@@ -46,9 +46,9 @@ fun decodeProgressBackup(text:String): ProgressBackup {
         else if(c=='"')quoted=true else if(c=='{' || c=='['){depth++;require(depth<=64){"File nesting is too deep"}} else if(c=='}' || c==']')depth--
     }
     val envelope=Json.parseToJsonElement(text).jsonObject
-    require(envelope["format"]?.jsonPrimitive?.content=="korkortgo-progress" && envelope["version"]?.jsonPrimitive?.content=="1") {"Unsupported progress format"}
+    require(envelope["format"]?.jsonPrimitive?.content=="korkortgo-progress" && envelope["version"]?.jsonPrimitive?.content in setOf("1","2")) {"Unsupported progress format"}
     val backup=Json.decodeFromString<ProgressBackup>(text)
-    require(backup.format=="korkortgo-progress" && backup.version==1 && backup.exportedAt>=0) {"Unsupported progress format"}
+    require(backup.format=="korkortgo-progress" && backup.version in 1..2 && backup.exportedAt>=0) {"Unsupported progress format"}
     validateRecords(backup.records)
     return backup
 }
@@ -85,8 +85,9 @@ fun validateRecords(r:StudyRecords) {
     }
     r.metadata.forEach {m->
         require(m.key.length<=300 && m.value.length<=20_000)
-        require(m.key=="openOrder" || m.key=="studyOrder" || m.key.startsWith("readOrder:") || m.key.startsWith("opened:") || m.key.startsWith("chapterPractice:") || m.key=="reviewDone" || m.key.startsWith("mode:") || m.key.startsWith("cursor:"))
-        if(m.key.startsWith("mode:") || m.key.startsWith("cursor:"))require(m.key.substringAfter(':') in ids)
+        require(m.key=="openOrder" || m.key=="studyOrder" || m.key.startsWith("readOrder:") || m.key.startsWith("opened:") || m.key.startsWith("chapterPractice:") || m.key=="reviewDone" || m.key.startsWith("mode:") || m.key.startsWith("paused:") || m.key.startsWith("unavailable:") || m.key.startsWith("cursor:"))
+        if(m.key.startsWith("mode:") || m.key.startsWith("paused:") || m.key.startsWith("unavailable:") || m.key.startsWith("cursor:"))require(m.key.substringAfter(':') in ids)
+        if(m.key.startsWith("paused:") || m.key.startsWith("unavailable:"))require(m.value in setOf("0","1"))
         if(m.key.startsWith("cursor:"))require(m.value.toIntOrNull()?.let{it in 0..69}==true)
         if(m.key=="openOrder" || m.key=="studyOrder" || m.key.startsWith("readOrder:") || m.key.startsWith("opened:"))require(m.value.toLongOrNull()?.let{it in 0..Long.MAX_VALUE-10000}==true)
         if(m.key=="openOrder" || m.key=="studyOrder" || m.key.startsWith("readOrder:") || m.key.startsWith("opened:") || m.key=="reviewDone" || m.key.startsWith("chapterPractice:"))require((m.value.toLongOrNull() ?: -1)>=0)

@@ -171,6 +171,8 @@ Question progress, chapter completion, category statistics and dashboard totals 
 
 ## 8. Saving, recovery, and updates
 
+Section-8 audit, 30 October 2026: remaining saving/recovery gaps are addressed, including version-bound writes, consistent session reads, persisted pause, lifecycle position flushes and unavailable-content recovery. See [section-8 evidence and limitations](evidence/saving-recovery-section8/README.md). This is a numbered plan section, distinct from the delivery-phase table below.
+
 ### Reading
 
 Save lesson start and explicit completion transactionally. Save block-based reading position on navigation and lifecycle transitions, with a short debounce while scrolling. Reuse canonical target resolution; a missing block restores to the lesson start with a clear notice. Saved offsets are advisory across font-size and layout changes. Never let a delayed position write undo a newer completion event.

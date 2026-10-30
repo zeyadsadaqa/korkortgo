@@ -7,7 +7,7 @@ data class PracticeQuestionToken(
     val packageIdentity: ContentPackageIdentity,
     val displayedOptionIds: List<OptionId>,
 )
-data class PinnedPractice(val id: String, val assessment: AssessmentSession) {
+data class PinnedPractice(val id: String, val assessment: AssessmentSession, val storeVersion:Long?=null,val paused:Boolean=false) {
     init { require(id.isNotBlank()) }
     val token get() = assessment.current.let { PracticeQuestionToken(id,it.question.key,it.packageIdentity,it.displayedOptionIds) }
     val navigation get() = SessionNavigation(id,assessment.finished,assessment.presentation().explanation!=null)

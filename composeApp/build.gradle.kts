@@ -15,6 +15,7 @@ kotlin {
     sourceSets {
         commonMain.dependencies {
             implementation(compose.components.resources)
+            implementation(compose.components.uiToolingPreview)
             implementation(compose.runtime)
             implementation(project(":progress-data"))
             implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
@@ -65,3 +66,6 @@ val progressWorkerResources by tasks.registering(Sync::class) {
     into(layout.buildDirectory.dir("generated/progressWorker"))
 }
 kotlin.sourceSets.named("wasmJsMain") { resources.srcDir(progressWorkerResources) }
+
+// IDE renderer for the common @Preview functions (kept out of release builds).
+dependencies { add("debugImplementation", compose.uiTooling) }
