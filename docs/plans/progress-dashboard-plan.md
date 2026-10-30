@@ -10,6 +10,10 @@ Phase 3 implementation, 30 October 2026: approved completion/resume/retry contro
 
 Phase 4 implementation, 30 October 2026: the selected v2 direction now supplies the three-tab shell and progress-aware Learning library. Tab routes and scroll state are retained; phone navigation becomes a rail at wider window sizes. See [navigation and Learning verification](evidence/navigation-phase4/README.md). Exercise hub and Home dashboard content remain phases 5 and 6.
 
+Phase 5 design review, 30 October 2026: [Exercise flow and recovery previews](../../design/progress-dashboard/phase5/README.md) are committed. Exercise hub implementation remains pending; committing the previews did not implement this phase.
+
+Phase 6 design review, 30 October 2026: [supplementary Home states and implementation outline](../../design/progress-dashboard/phase6/README.md) are prepared for explicit approval. Home's targeted-practice actions depend on the pending phase-5 implementation.
+
 ## 1. Intended outcome
 
 Replace the current promotional overview with a useful personal dashboard. The three primary destinations are exactly **Home**, **Learning**, and **Exercise**. A learner can see what they have read, how much of the accepted question bank they have covered, what needs review, and one useful next action. Progress and an unfinished exercise survive an app restart.
