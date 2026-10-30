@@ -1,0 +1,217 @@
+[
+  {
+    "window-title": "",
+    "type": "SYSTEM",
+    "layer": 1,
+    "bounds": "[0,0][1440,145]",
+    "content": [
+      {
+        "class": "android.widget.TextView",
+        "resource-id": "com.android.systemui:id/clock",
+        "text": "1:48",
+        "content-desc": "1:48\u202fPM",
+        "bounds": "[64,44][202,101]",
+        "center": "[133,72]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "content-desc": "Android System notification: ",
+        "bounds": "[202,1][279,145]",
+        "center": "[240,73]"
+      },
+      {
+        "class": "android.widget.ImageView",
+        "resource-id": "com.android.systemui:id/wifi_signal",
+        "content-desc": "Wifi signal full.",
+        "bounds": "[1188,46][1241,99]",
+        "center": "[1214,72]"
+      },
+      {
+        "class": "android.widget.FrameLayout",
+        "resource-id": "com.android.systemui:id/mobile_combo",
+        "content-desc": "T-Mobile, three bars.",
+        "bounds": "[1241,34][1294,111]",
+        "center": "[1267,72]"
+      },
+      {
+        "class": "android.widget.LinearLayout",
+        "resource-id": "com.android.systemui:id/battery",
+        "content-desc": "Battery 100 percent.",
+        "bounds": "[1315,49][1342,95]",
+        "center": "[1328,72]"
+      }
+    ]
+  },
+  {
+    "window-title": "K\u00f6rkortGo",
+    "type": "APPLICATION",
+    "active": true,
+    "focused": true,
+    "layer": 0,
+    "bounds": "[0,0][1440,3120]",
+    "content": [
+      {
+        "class": "android.widget.Button",
+        "content-desc": "Back",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,187][238,355]",
+        "center": "[154,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "K\u00f6rkortGo",
+        "bounds": "[238,213][1154,329]",
+        "center": "[696,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "CATEGORY B",
+        "bounds": "[1154,243][1370,299]",
+        "center": "[1262,271]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Reset progress?",
+        "bounds": "[70,467][877,621]",
+        "center": "[473,544]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Backup file saved",
+        "bounds": "[140,747][714,849]",
+        "center": "[427,798]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "This clears:",
+        "bounds": "[70,975][441,1077]",
+        "center": "[255,1026]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "Reading progress and saved positions\nExercise history and answers\nYour unfinished exercise",
+        "bounds": "[70,1133][1008,1385]",
+        "center": "[539,1259]"
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "The lessons and question bank stay available. Exported files are not deleted.",
+        "bounds": "[70,1441][1370,1609]",
+        "center": "[720,1525]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,1665][1370,1833]",
+        "center": "[720,1749]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Export progress first",
+            "bounds": "[503,1714][937,1784]",
+            "center": "[720,1749]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,1889][1370,2071]",
+        "center": "[720,1980]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Keep my progress",
+            "bounds": "[530,1945][910,2015]",
+            "center": "[720,1980]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[70,2127][1370,2309]",
+        "center": "[720,2218]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Reset progress",
+            "bounds": "[563,2183][878,2253]",
+            "center": "[720,2218]"
+          }
+        ]
+      },
+      {
+        "class": "android.widget.TextView",
+        "text": "You can't undo this without an exported backup.",
+        "bounds": "[70,2365][1276,2449]",
+        "center": "[673,2407]"
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "FOCUSABLE"
+        ],
+        "state": [
+          "SELECTED"
+        ],
+        "bounds": "[0,2756][462,3036]",
+        "center": "[231,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Home",
+            "bounds": "[174,2924][287,2980]",
+            "center": "[230,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[490,2756][951,3036]",
+        "center": "[720,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Learning",
+            "bounds": "[637,2924][804,2980]",
+            "center": "[720,2952]"
+          }
+        ]
+      },
+      {
+        "class": "android.view.View",
+        "interactions": [
+          "CLICKABLE",
+          "FOCUSABLE"
+        ],
+        "bounds": "[979,2756][1440,3036]",
+        "center": "[1209,2896]",
+        "children": [
+          {
+            "class": "android.widget.TextView",
+            "text": "Exercise",
+            "bounds": "[1131,2924][1287,2980]",
+            "center": "[1209,2952]"
+          }
+        ]
+      }
+    ]
+  }
+]

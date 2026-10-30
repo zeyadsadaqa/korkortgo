@@ -22,7 +22,7 @@ fun SessionQuestionSnapshot.isCorrect(answer: SnapshotAnswer): Boolean {
 /** This selector is the scored entry point. Fixtures can use snapshot() without activating a bank. */
 object AssessmentEngine {
     fun select(bank: List<AssessmentQuestion>, size: Int, packageIdentity: ContentPackageIdentity,
-               random: Random = Random.Default): List<SessionQuestionSnapshot> {
+               random: Random = Random.Default, answered: Set<String> = emptySet()): List<SessionQuestionSnapshot> {
         require(bank.map { it.key.questionId }.distinct().size == bank.size)
         val eligible = bank.filter { it.acceptance.eligibility == ScoringEligibility.ACCEPTED }
         val result = mutableListOf<AssessmentQuestion>()
@@ -31,7 +31,7 @@ object AssessmentEngine {
             val groups = pool.filter { it.conceptId !in used }.groupBy { it.conceptId }.values.shuffled(random)
             require(groups.size >= count) { "Not enough accepted distinct learning topics" }
             groups.take(count).forEach { group ->
-                val question = group.random(random)
+                val question = group.filter { it.key.questionId.value !in answered }.ifEmpty { group }.random(random)
                 used.add(question.conceptId)
                 result.add(question)
             }

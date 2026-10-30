@@ -14,6 +14,10 @@ Phase 5 design review, 30 October 2026: [Exercise flow and recovery previews](..
 
 Phase 6 design review, 30 October 2026: [supplementary Home states and implementation outline](../../design/progress-dashboard/phase6/README.md) are prepared for explicit approval. Home's targeted-practice actions depend on the pending phase-5 implementation.
 
+Phase 7 design review, 30 October 2026: [data-controls preview](../../design/progress-dashboard/phase7/README.md) and [release implementation/acceptance checklist](progress-release-checklist.md) are prepared. Export/import/reset implementation and final release acceptance remain pending, including phases 5–6 and outstanding platform/accessibility verification.
+
+Approved implementation, 30 October 2026: the user explicitly approved the phase-5–7 designs. Exercise modes/history, the Home projection and next-step rules, and export/import/reset are now implemented. See [integration evidence and release limits](evidence/progress-integration/README.md). Feature implementation does not close the remaining platform, accessibility and dark-mode release gates.
+
 ## 1. Intended outcome
 
 Replace the current promotional overview with a useful personal dashboard. The three primary destinations are exactly **Home**, **Learning**, and **Exercise**. A learner can see what they have read, how much of the accepted question bank they have covered, what needs review, and one useful next action. Progress and an unfinished exercise survive an app restart.

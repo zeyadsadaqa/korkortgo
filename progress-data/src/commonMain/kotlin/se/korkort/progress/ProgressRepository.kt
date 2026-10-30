@@ -25,15 +25,15 @@ data class ProgressSummary(val chaptersRead: Int, val chaptersTotal: Int, val le
     val lessonsTotal: Int, val answered: Int, val questionTotal: Int, val correct: Int, val revisit: Int)
 
 /** Phase-2 data boundary. Callers supply authenticated accepted content through the phase-3 adapter. */
-class ProgressRepository(private val db: ProgressDatabase) {
-    private val dao = db.progress()
+class ProgressRepository(internal val db: ProgressDatabase) {
+    internal val dao = db.progress()
     private val json = Json
     private fun now() = kotlin.time.Clock.System.now().toEpochMilliseconds()
     private fun newId() = Uuid.random().toString()
-    private suspend fun checkToken(token: WriteToken) {
+    internal suspend fun checkToken(token: WriteToken) {
         check(dao.profile(token.profileId)?.generation == token.generation) { "Stale learner generation" }
     }
-    private suspend fun changed() { dao.metadata(StoreMetadata("change", newId())) }
+    internal suspend fun changed() { dao.metadata(StoreMetadata("change", newId())) }
     suspend fun createProfile(): WriteToken = db.withWriteTransaction {
         dao.localProfile()?.let { return@withWriteTransaction WriteToken(it.id,it.generation) }
         val p = Profile(newId(), newId()); dao.insertProfile(p); changed(); WriteToken(p.id, p.generation)
@@ -53,6 +53,10 @@ class ProgressRepository(private val db: ProgressDatabase) {
         val old = dao.lessons(token.profileId).find { it.lessonId == id && it.revision == revision }
         dao.clearLesson(token.profileId,id)
         dao.saveLesson((old ?: LessonProgress(token.profileId, id, revision)).copy(read = read))
+        val previousOrder=dao.metadataByKey("studyOrder")?.value?.toLongOrNull() ?: (dao.events(token.profileId).maxOfOrNull{it.occurredAt} ?: 0)
+        val order=maxOf(previousOrder,now())+1;require(order>0)
+        dao.metadata(StoreMetadata("studyOrder",order.toString()))
+        if(read)dao.metadata(StoreMetadata("readOrder:$id",order.toString()))
         dao.insertEvent(StudyEvent(newId(), token.profileId, id, if(read) "read" else "unread",now())); changed()
     }
     suspend fun savePosition(token: WriteToken, id: String, revision: String, block: String, offset: Int) = db.withWriteTransaction {
@@ -60,7 +64,7 @@ class ProgressRepository(private val db: ProgressDatabase) {
         val old = dao.lessons(token.profileId).find { it.lessonId == id && it.revision == revision }
         dao.saveLesson((old ?: LessonProgress(token.profileId, id, revision)).copy(blockId = block, offset = offset)); changed()
     }
-    suspend fun start(token: WriteToken, packageId: String, deferred: Boolean, questions: List<QuestionSnapshot>): String = db.withWriteTransaction {
+    suspend fun start(token: WriteToken, packageId: String, deferred: Boolean, questions: List<QuestionSnapshot>, mode: String? = null): String = db.withWriteTransaction {
         checkToken(token); check(dao.active(token.profileId).isEmpty()) { "An unfinished exercise exists" }
         require(questions.size in 1..70 && packageId.isNotBlank())
         require(questions.map { it.id }.distinct().size == questions.size)
@@ -68,6 +72,7 @@ class ProgressRepository(private val db: ProgressDatabase) {
         val id = newId()
         dao.insertSession(Session(id, token.profileId, packageId, deferred, json.encodeToString(questions), createdAt=now()))
         dao.insertQuestions(questions.mapIndexed { i,q -> StoredQuestion(id,i,q.id,q.revision,q.concept,json.encodeToString(q.options),q.correctOption) })
+        mode?.let { dao.metadata(StoreMetadata("mode:$id",it)) }
         changed(); id
     }
     suspend fun confirm(token: WriteToken, sessionId: String, version: Long, position: Int, option: String, eventId: String) = db.withWriteTransaction {
@@ -85,12 +90,12 @@ class ProgressRepository(private val db: ProgressDatabase) {
             check(dao.transition(sessionId,version,"active") == 1); changed()
         }
     }
-    suspend fun finish(token: WriteToken, id: String, version: Long, abandon: Boolean = false) = db.withWriteTransaction {
+    suspend fun finish(token: WriteToken, id: String, version: Long, abandon: Boolean = false, metadata: List<StoreMetadata> = emptyList()) = db.withWriteTransaction {
         checkToken(token); val s = checkNotNull(dao.session(id))
         check(s.profileId == token.profileId && s.status == "active" && s.version == version)
         if (!abandon) check(dao.answers(id).size == dao.questions(id).size) { "Exercise incomplete" }
         check(dao.transition(id,version,if(abandon) "abandoned" else "completed") == 1)
-        if (!abandon) dao.publish(id)
+        if (!abandon) {dao.publish(id);metadata.forEach{dao.metadata(it)}}
         dao.insertEvent(StudyEvent(newId(),token.profileId,id,if(abandon) "abandoned" else "completed",now())); changed()
     }
     suspend fun restore(token: WriteToken, id: String): Pair<Session,List<Attempt>> = db.withWriteTransaction {

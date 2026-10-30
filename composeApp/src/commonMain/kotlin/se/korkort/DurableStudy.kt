@@ -4,20 +4,45 @@ import kotlinx.serialization.json.Json
 import se.korkort.progress.*
 
 /** Bridges only the authenticated accepted bank to durable, revision-pinned learner actions. */
-internal class DurableStudy(val repository: ProgressRepository, val token: WriteToken, private val bank: PracticeBank) {
+internal class DurableStudy(val repository: ProgressRepository, val token: WriteToken, internal val bank: PracticeBank) {
     init { require(bank.releaseAccepted && bank.identity==acceptedIdentity9J && bank.questions==acceptedQuestions9J) }
     val packageId = "${bank.identity.contentVersion}:${bank.identity.manifestSha256.value}"
     val catalog = ContentCatalog(packageId,readerModules.associate { it.id.value to it.lessonIds.map { id->id.value } },
         readerDocuments.filter { it.kind==DocumentKind.LESSON }.associate { it.id.value to it.revision.value },
         bank.questions.associate { it.key.questionId.value to it.key.revision.value })
     suspend fun initialize() { repository.setCatalog(token,catalog) }
-    suspend fun start(state: TransientQuizState): TransientQuizState {
+    fun pool(request:ExerciseRequest,records:StudyRecords)=exercisePool(bank,request,records,catalog)
+    suspend fun start(state: TransientQuizState,request:ExerciseRequest=ExerciseRequest()): TransientQuizState {
         repository.activeSession(token)?.let { return quizState(it.id) }
-        val selected=state.startPractice(bank).pinned!!
-        val id=repository.start(token,packageId,selected.assessment.feedbackMode==Feedback.AT_END,
-            selected.assessment.snapshots.map { snap-> val q=snap.question
-                QuestionSnapshot(q.key.questionId.value,q.key.revision.value,q.conceptId,snap.displayedOptionIds.map { it.value },q.feedback.correctOptionId.value,q.toString()) })
-        return quizState(id)
+        val records=repository.records(token)
+        val size=state.countText.toIntOrNull() ?: error("Choose a number of questions")
+        val selected=selectExercise(bank,request,records,catalog,size)
+        val id=repository.start(token,packageId,state.feedback==Feedback.AT_END,
+            selected.map { snap-> val q=snap.question
+                QuestionSnapshot(q.key.questionId.value,q.key.revision.value,q.conceptId,snap.displayedOptionIds.map { it.value },q.feedback.correctOptionId.value,q.toString()) },request.encode())
+        return quizState(id).copy(countText=state.countText,feedback=state.feedback)
+    }
+    fun validateImport(text:String):ProgressBackup {
+        val backup=decodeProgressBackup(text)
+        val current=bank.questions.associateBy{it.key.questionId.value to it.key.revision.value}
+        backup.records.sessions.forEach { s->
+            val snapshots=Json.decodeFromString<List<QuestionSnapshot>>(s.snapshot)
+            var available=s.packageId==packageId
+            snapshots.forEach {q->
+                val authored=current[q.id to q.revision]
+                if(authored!=null)require(q.contentJson==authored.toString() && q.correctOption==authored.feedback.correctOptionId.value && q.concept==authored.conceptId && q.options.toSet()==authored.options.map{it.id.value}.toSet()) {"Question content does not match the accepted bank"}
+                else { require(catalog.questions[q.id]!=q.revision);available=false }
+            }
+            if(s.status=="active")require(available){"Unfinished exercise content is unavailable"}
+            ExerciseRequest.decode(backup.records.value("mode:${s.id}"))
+        }
+        backup.records.lessons.forEach {require(it.lessonId in catalog.lessons){"Unknown teaching lesson"}}
+        backup.records.events.forEach {event->
+            if(event.kind=="read" || event.kind=="unread")require(event.target in catalog.lessons)
+            else require(backup.records.sessions.any{it.id==event.target && it.status==event.kind})
+        }
+        backup.records.metadata.filter{it.key.startsWith("opened:") || it.key.startsWith("readOrder:")}.forEach{require(it.key.substringAfter(':') in catalog.lessons)}
+        return backup
     }
     suspend fun active(): PinnedPractice? = repository.activeSession(token)?.let { restore(it.id) }
     suspend fun restore(id: String): PinnedPractice {
@@ -46,7 +71,17 @@ internal class DurableStudy(val repository: ProgressRepository, val token: Write
     suspend fun next(p: PinnedPractice): TransientQuizState {
         val stored=repository.restore(token,p.id).first
         if(stored.status!="completed") {
-            if(p.assessment.index==p.assessment.snapshots.lastIndex) repository.finish(token,p.id,stored.version)
+            if(p.assessment.index==p.assessment.snapshots.lastIndex) {
+                val records=repository.records(token)
+                val completed=mutableListOf<StoreMetadata>()
+                val request=ExerciseRequest.decode(records.value("mode:${p.id}"))
+                if(request.mode==ExerciseMode.REVIEW)completed.add(StoreMetadata("reviewDone",(records.attempts.maxOfOrNull{it.sequence} ?: 0).toString()))
+                if(request.mode==ExerciseMode.CHAPTER) {
+                    val ids=readerModules.single{it.id.value==request.chapter}.lessonIds.map{it.value}
+                    completed.add(StoreMetadata("chapterPractice:${request.chapter}",(ids.maxOfOrNull{id->records.value("readOrder:$id")?.toLongOrNull() ?: (records.events.filter{it.kind=="read" && it.target==id}.maxOfOrNull{it.occurredAt} ?: 0)} ?: 0).toString()))
+                }
+                repository.finish(token,p.id,stored.version,metadata=completed)
+            }
             else repository.advance(token,p.id,p.assessment.index,stored.version)
         }
         return quizState(p.id)

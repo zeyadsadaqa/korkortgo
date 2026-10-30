@@ -40,7 +40,7 @@ internal fun tabFor(destination: AppDestination): StudyTab = when(destination) {
 @Composable internal expect fun PlatformStudyBack(enabled: Boolean,onBack:()->Unit)
 @Composable internal fun AppChrome(destination: AppDestination,onTab:(StudyTab)->Unit,canBack:Boolean,onBack:()->Unit,showBack:Boolean=canBack,content:@Composable ColumnScope.()->Unit) {
     PlatformStudyBack(canBack,onBack)
-    BoxWithConstraints(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing).onPreviewKeyEvent { event->
+    BoxWithConstraints(Modifier.fillMaxSize().windowInsetsPadding(WindowInsets.safeDrawing.union(WindowInsets.ime)).onPreviewKeyEvent { event->
         if(canBack && event.type==KeyEventType.KeyDown && event.key==Key.Escape) {onBack();true} else false
     }) {
         val wide=maxWidth>=840.dp

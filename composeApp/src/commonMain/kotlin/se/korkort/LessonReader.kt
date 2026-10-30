@@ -1,6 +1,8 @@
 @file:OptIn(androidx.compose.foundation.layout.ExperimentalLayoutApi::class,androidx.compose.foundation.ExperimentalFoundationApi::class)
 package se.korkort
 
+import se.korkort.progress.recordOpen
+
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.lazy.*
@@ -61,6 +63,7 @@ internal fun readingNeighbours(id:ContentId): Pair<ContentId?,ContentId?> {
         var positionLoaded by remember { mutableStateOf(environment==null) }
         LaunchedEffect(document.id,environment) {
             if(environment!=null && document.kind==DocumentKind.LESSON) environment.position {
+                environment.study.repository.recordOpen(environment.study.token,document.id.value,document.revision.value)
                 val lessons=environment.study.repository.lessons(environment.study.token)
                 val saved=lessons.find {it.lessonId==document.id.value && it.revision==document.revision.value}
                 chapterRead=lessons.count {it.read && it.lessonId in chapter?.lessonIds.orEmpty().map {id->id.value} && environment.study.catalog.lessons[it.lessonId]==it.revision}

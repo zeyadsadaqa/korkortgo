@@ -54,6 +54,8 @@ internal fun ContentBlock.searchText(): String = when(val p=payload) {
 internal class LearningLibraryState {
     var expanded by mutableStateOf(setOf(ContentId("M03")))
     var progressInitialized=false
+    var showFilters by mutableStateOf(false)
+    var supportingExpanded by mutableStateOf(false)
     var filter by mutableStateOf(LibraryFilter())
     val scroll = androidx.compose.foundation.ScrollState(0)
 }
@@ -81,7 +83,7 @@ internal class LearningLibraryState {
     val focus=LocalFocusManager.current
     val documents=remember {readerDocuments.associateBy{it.id}}
     val filtering=filter.query.isNotBlank() || filter.category!=null
-    var supportingExpanded by remember { mutableStateOf(false) }
+    var supportingExpanded by state::supportingExpanded
     val visible=readerModules.sortedBy{it.order}.map { module ->
         module to (module.lessonIds + module.reviewId).map{documents.getValue(it)}.filter {
             if(filtering) it.kind==DocumentKind.LESSON && filter.matches(it,readerTags) else true
@@ -97,7 +99,7 @@ internal class LearningLibraryState {
         OutlinedTextField(filter.query,{state.filter=filter.copy(query=it)},label={Text("Search lessons")},singleLine=true,
             keyboardOptions=KeyboardOptions(imeAction=ImeAction.Search),keyboardActions=KeyboardActions(onSearch={focus.clearFocus()}),
             modifier=Modifier.fillMaxWidth().semantics{contentDescription="Search lessons";stateDescription=filter.query})
-        var showFilters by remember { mutableStateOf(false) }
+        var showFilters by state::showFilters
         if(environment!=null) TextButton({showFilters=!showFilters}) {Text(if(showFilters)"Hide topic filters" else "Filter by topic")}
         if(environment==null || showFilters) FlowRow(horizontalArrangement=Arrangement.spacedBy(8.dp)) {
             FilterChip(filter.category==null,{state.filter=filter.clearCategory()},label={Text("All topics")})
@@ -133,7 +135,7 @@ internal class LearningLibraryState {
                             Spacer(Modifier.width(12.dp))
                             Column(Modifier.weight(1f)) {
                                 Text(document.title,style=MaterialTheme.typography.titleMedium)
-                                Text(if(document.kind==DocumentKind.MODULE_REVIEW) "Module review" else if(environment==null)"Lesson" else if(document.id in read)"Read" else if(module.id==current?.id && document.id==module.lessonIds.firstOrNull{it !in read} && (module.lessonIds.any{it in read} || progress.orEmpty().any{it.lessonId==document.id.value && it.blockId!=null}))"Continue" else "Not started",style=MaterialTheme.typography.labelMedium)
+                                Text(if(document.kind==DocumentKind.MODULE_REVIEW) "Module review" else if(environment==null)"Lesson" else if(document.id in read)"Read" else if(progress.orEmpty().any{it.lessonId==document.id.value && it.revision==document.revision.value})"Continue" else "Not started",style=MaterialTheme.typography.labelMedium)
                             }
                             Text("›",Modifier.clearAndSetSemantics {})
                         }

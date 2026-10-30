@@ -21,6 +21,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import kotlin.math.roundToInt
+import kotlinx.coroutines.*
+import se.korkort.progress.*
 
 private val Forest=Color(0xFF173E32)
 private val Paper=Color(0xFFF7F8F3)
@@ -31,48 +33,66 @@ private val Line=Color(0xFFD5DED5)
 @Composable internal fun CurriculumApp(bank: PracticeBank, summary: CurriculumSummary = CurriculumSummary("2026 curriculum",readerModules.size,readerModules.sumOf{it.lessonIds.size},bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED},navigationSigns.size), fixtureBank: Boolean = false) {
     require(summary.questions==bank.questions.count{it.acceptance.eligibility==ScoringEligibility.ACCEPTED})
     require(summary.modules==readerModules.size && summary.lessons==readerModules.sumOf{it.lessonIds.size} && summary.signEntries==navigationSigns.size)
-    var state by remember { mutableStateOf(TransientQuizState()) }
-    var learningRoute by remember {mutableStateOf(LearningRouteState())}
-    var lastLearning by remember {mutableStateOf<AppDestination>(AppDestination.Library)}
-    var lastExercise by remember {mutableStateOf<AppDestination>(AppDestination.QuizSetup)}
-    val questionViews=remember {mutableMapOf<PracticeQuestionToken,QuestionUiState>()}
-    val homeScroll=androidx.compose.foundation.lazy.rememberLazyListState()
-    val setupScroll=androidx.compose.foundation.lazy.rememberLazyListState()
-    val resultsScroll=androidx.compose.foundation.lazy.rememberLazyListState()
-    val reviewSourceScrolls=remember {mutableMapOf<SourceReferenceId,androidx.compose.foundation.ScrollState>()}
     val environment=LocalStudy.current
+    val workspace=rememberStudyWorkspace(environment?.study?.token?.generation ?: "fixture",environment?.notice)
+    var state by workspace.state
+    var learningRoute by workspace.learningRoute
+    var lastLearning by workspace.lastLearning
+    var lastExercise by workspace.lastExercise
+    val questionViews=workspace.questionViews
+    val homeScroll=workspace.homeScroll
+    val setupScroll=workspace.setupScroll
+    val resultsScroll=workspace.resultsScroll
+    val reviewSourceScrolls=workspace.reviewSourceScrolls
+    val exerciseUi=workspace.exerciseUi
+    val dataUi=workspace.dataUi
+    var showData by workspace.showData
+    var records by remember {mutableStateOf<StudyRecords?>(null)}
+    var recordsFailed by remember {mutableStateOf(false)}
+    var refresh by remember {mutableIntStateOf(0)}
+    LaunchedEffect(environment,refresh) {
+        if(environment!=null)while(isActive) {
+            try {records=environment.study.repository.records(environment.study.token);recordsFailed=false}
+            catch(e:CancellationException){throw e}
+            catch(e:Exception){records=null;recordsFailed=true;try{environment.refreshGeneration()}catch(refreshError:Exception){if(refreshError is CancellationException)throw refreshError}}
+            delay(1500)
+        }
+    }
+    val homeData=remember(records,environment){if(records!=null && environment!=null)dashboard(records!!,environment.study) else null}
     var initializing by remember { mutableStateOf(environment!=null) }
     var savedUnavailable by remember { mutableStateOf(false) }
     LaunchedEffect(environment) {
         environment?.save {
             try {
                 val saved=environment.study.active()
-                if(saved!=null) state=state.copy(pinned=saved,navigation=GuardedNavigation(AppDestination.Home,saved.navigation))
+                if(saved!=null && state.pinned==null) state=state.copy(pinned=saved,navigation=GuardedNavigation(state.navigation.current,saved.navigation))
+                else if(saved!=null && state.pinned?.id==saved.id)state=state.copy(pinned=saved)
             } catch(e:IllegalArgumentException) {savedUnavailable=true}
             initializing=false
         }
     }
-    fun resumeSaved() { environment?.save { state=environment.study.quizState(requireNotNull(state.pinned).id) } }
+    fun resumeId(id:String) {environment?.save {state=environment.study.quizState(id)}}
+    fun resumeSaved() { val id=records?.sessions?.singleOrNull{it.status=="active"}?.id ?: state.pinned?.id; if(id!=null)resumeId(id) }
     fun endSaved() { environment?.save {
-        environment.study.endActive(); savedUnavailable=false
+        environment.study.endActive(); savedUnavailable=false;exerciseUi.page=ExercisePage.HUB
         state=TransientQuizState(navigation=GuardedNavigation(AppDestination.QuizSetup,null))
     } }
-    val library = remember { LearningLibraryState() }
-    var sourceFailure by remember { mutableStateOf(false) }
-    var sourceOrigin by remember { mutableStateOf<QuestionRevisionKey?>(null) }
-    var restoreReviewSource by remember { mutableStateOf<Pair<QuestionRevisionKey,SourceReferenceId>?>(null) }
-    var reviewSource by remember { mutableStateOf<SourceReferenceId?>(null) }
+    val library = workspace.library
+    var sourceFailure by workspace.sourceFailure
+    var sourceOrigin by workspace.sourceOrigin
+    var restoreReviewSource by workspace.restoreReviewSource
+    var reviewSource by workspace.reviewSource
     val uri = LocalUriHandler.current
     val destination = state.navigation.current
     val practice = state.pinned
     LaunchedEffect(practice?.id){questionViews.keys.removeAll{it.sessionId!=practice?.id}}
-    val reviewScroll = androidx.compose.foundation.lazy.rememberLazyListState()
+    val reviewScroll = workspace.reviewScroll
     LaunchedEffect(practice?.id,state.review?.filter) { reviewScroll.scrollToItem((state.review?.row ?: 0).let{if(it==0)0 else it+1}) }
     SideEffect {
         when(tabFor(destination)) { StudyTab.LEARNING->lastLearning=destination;StudyTab.EXERCISE->lastExercise=destination;else->Unit }
     }
     fun navigate(target: AppDestination, intent: NavigationIntent = NavigationIntent.GENERAL, restoreTab: Boolean=false) {
-        if(environment?.busy==true || environment?.failure!=null || initializing)return
+        if(environment?.busy==true || initializing)return
         state = if(environment!=null) state.copy(navigation=GuardedNavigation(target,state.pinned?.navigation))
             else state.request(NavigationRequest(target,intent)).first
         if(state.navigation.pending==null) {
@@ -84,7 +104,8 @@ private val Line=Color(0xFFD5DED5)
         }
     }
     fun setup() {
-        if(environment?.busy==true || environment?.failure!=null || initializing)return
+        exerciseUi.page=ExercisePage.HUB
+        if(environment?.busy==true || initializing)return
         state=if(environment!=null)state.copy(navigation=GuardedNavigation(AppDestination.QuizSetup,state.pinned?.navigation)) else state.showSetup()
         if(state.navigation.pending==null){reviewSource=null;restoreReviewSource=null;sourceOrigin=null}
     }
@@ -105,13 +126,15 @@ private val Line=Color(0xFFD5DED5)
         }
     }
     LearningTheme { RootModalHost {
-        AppChrome(destination,{tab->navigate(when(tab){StudyTab.HOME->AppDestination.Home;StudyTab.LEARNING->lastLearning;StudyTab.EXERCISE->lastExercise},restoreTab=true)},destination!=AppDestination.Home,{
-            if(reviewSource!=null && tabFor(destination)==StudyTab.EXERCISE)returnToReviewSource()
+        AppChrome(destination,{tab->navigate(when(tab){StudyTab.HOME->AppDestination.Home;StudyTab.LEARNING->lastLearning;StudyTab.EXERCISE->lastExercise},restoreTab=true)},destination!=AppDestination.Home || showData,{
+            if(destination==AppDestination.Home && showData) {if(!dataUi.back())showData=false}
+            else if(environment!=null && destination==AppDestination.QuizSetup && exerciseUi.page!=ExercisePage.HUB)exerciseUi.back()
+            else if(reviewSource!=null && tabFor(destination)==StudyTab.EXERCISE)returnToReviewSource()
             else if(tabFor(destination)==StudyTab.LEARNING && learningRoute.canBack)learningRoute.back()
             else if(destination is AppDestination.Quiz || destination is AppDestination.Results)setup()
             else if(destination is AppDestination.Review && practice!=null)navigate(AppDestination.Results(practice.id))
             else navigate(AppDestination.Home,restoreTab=true)
-        },showBack=(tabFor(destination)==StudyTab.LEARNING && learningRoute.canBack) || (tabFor(destination)==StudyTab.EXERCISE && destination!=AppDestination.QuizSetup)) {
+        },showBack=(destination==AppDestination.Home && showData) || (tabFor(destination)==StudyTab.LEARNING && learningRoute.canBack) || (tabFor(destination)==StudyTab.EXERCISE && (destination!=AppDestination.QuizSetup || environment!=null && exerciseUi.page!=ExercisePage.HUB))) {
             if(environment?.failure!=null) {
                 Surface(color=MaterialTheme.colorScheme.errorContainer) { Column(Modifier.fillMaxWidth().padding(16.dp)) {
                     Text(if(destination is AppDestination.Quiz)"Answer not saved" else "Progress not saved",style=MaterialTheme.typography.titleMedium)
@@ -134,7 +157,16 @@ private val Line=Color(0xFFD5DED5)
                 } else if(reviewSource!=null && tabFor(destination)==StudyTab.EXERCISE) {
                     SourceDetail(reviewSource!!,::returnToReviewSource,::returnToReviewSource,{reference->source(reference.id);true},backLabel="Back to answer review",returnLabel="Return to answer review",scroll=reviewSourceScrolls.getOrPut(reviewSource!!){androidx.compose.foundation.ScrollState(0)})
                 } else when(val page=destination) {
-                    AppDestination.Home -> LazyColumn(state=homeScroll,modifier=Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
+                    AppDestination.Home -> if(environment!=null) {
+                        if(showData)DataControls(environment,records,dataUi){showData=false;navigate(AppDestination.Library)}
+                        else HomeDashboard(homeData,recordsFailed,{refresh++},homeScroll,{navigate(AppDestination.Library)},{exerciseUi.page=ExercisePage.HUB;navigate(AppDestination.QuizSetup)},{step->
+                            when {
+                                step.resume!=null->resumeId(step.resume)
+                                step.lesson!=null->navigate(AppDestination.Content(ContentTarget(step.lesson)))
+                                step.request!=null->{exerciseUi.setup(step.request);navigate(AppDestination.QuizSetup)}
+                            }
+                        },{chapter->library.expanded=setOf(chapter.id);library.progressInitialized=true;navigate(AppDestination.Library)},{showData=true})
+                    } else LazyColumn(state=homeScroll,modifier=Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
                         if(environment!=null && practice?.assessment?.finished==false) item { SavedExercise(practice,environment.busy,::resumeSaved,::endSaved) }
                         item {AdaptiveColumns({
                             Eyebrow("YOUR SWEDISH DRIVING JOURNEY");Heading("Your road to\nconfidence.",true)
@@ -160,7 +192,17 @@ private val Line=Color(0xFFD5DED5)
                         if(practice?.assessment?.finished==true && state.review!=null) TextButton({state=state.openReview()}){Text("Return to answer review")}
                         Box(Modifier.weight(1f)) {LearningRoute((page as? AppDestination.Content)?.let{canonicalResolver.canonical(it.target)},libraryState=library,initialReferences=page==AppDestination.SignCatalogue,retainedState=learningRoute){reference->runCatching{uri.openUri(reference.url)}.isSuccess}}
                     }
-                    AppDestination.QuizSetup -> LazyColumn(state=setupScroll,modifier=Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
+                    AppDestination.QuizSetup -> if(environment!=null)ExerciseScreens(environment.study,records,recordsFailed,{refresh++},exerciseUi,environment.busy,{
+                        environment.save {
+                            state=environment.study.start(state.copy(countText=exerciseUi.count,feedback=exerciseUi.feedback),exerciseUi.request)
+                        }
+                    },::resumeId,::endSaved,{id->
+                        environment.scope.launch {
+                            try {state=environment.study.quizState(id)}
+                            catch(e:CancellationException){throw e}
+                            catch(e:Exception){exerciseUi.error="This exercise uses earlier or unavailable content. Its history is retained, but results cannot be opened."}
+                        }
+                    }) else LazyColumn(state=setupScroll,modifier=Modifier.widthIn(max=1160.dp).fillMaxSize(),contentPadding=PaddingValues(24.dp),verticalArrangement=Arrangement.spacedBy(20.dp)) {
                         if(environment!=null && practice?.assessment?.finished==false) item { SavedExercise(practice,environment.busy,::resumeSaved,::endSaved) }
                         item {Eyebrow("PRACTICE TEST");Heading("Make every question count.")}
                         item {AdaptiveColumns({

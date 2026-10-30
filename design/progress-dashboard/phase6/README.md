@@ -1,6 +1,6 @@
 # Phase 6 Home dashboard review
 
-30 October 2026. Pending explicit design approval. Generated with the built-in image generation tool. The selected [v2 Home layout](../preview-v2.png) remains the visual direction; this board supplements it without replacing the original.
+30 October 2026. Approved by the user on 30 October 2026; the approved flows are implemented. Generated with the built-in image generation tool. The selected [v2 Home layout](../preview-v2.png) remains the visual direction; this board supplements it without replacing the original.
 
 - [Six Home states](preview-states-v1.png)
 - [Exact generation prompt](prompt-states-v1.md)
@@ -9,7 +9,7 @@ The board shows first use, an unfinished exercise taking priority, a newly read 
 
 ## Current scope and dependency
 
-Phases 1–4 are implemented. Phase 5 currently contains design previews and an implementation outline only. Phase 6 requires the targeted question pools and routes from phase 5 for chapter practice, review and unanswered recommendations. These previews do not imply that either phase's implementation is complete or approved. The existing mixed-practice setup alone cannot satisfy those shortcuts.
+Phases 1–6 now have implementation. Phase 5 was initially a design-only commit; the approved Exercise and Home code is now connected. Phase 6 requires the targeted question pools and routes from phase 5 for chapter practice, review and unanswered recommendations. These previews remain design references; the implementation supplies the typed targeted-practice routes rather than redirecting those shortcuts to mixed practice.
 
 Keep the established light theme. Export/import/reset and full release acceptance remain phase 7; do not add placeholder data-management actions. Preserve the unrelated root README and migration edits.
 
@@ -23,4 +23,4 @@ Keep the established light theme. Export/import/reset and full release acceptanc
 6. Support honest first-use, loading and retry states. Load failure suppresses unverified totals and recommendations. Navigation fallback actions must not start an exercise or claim progress was saved. Resume validates the stored snapshot and follows the established unavailable-exercise flow when content cannot be restored.
 7. Verify recommendation priority and ties, mark/unmark chapter transitions, revision changes, stale suggestions, repeated attempts, deferred publication boundaries, exact CTA destinations, restart recovery and database failures. Run existing tests and platform builds, plus Android journeys at phone/wide widths and enlarged text. Document runtime gaps rather than treating successful compilation as device acceptance.
 
-No application source was changed for this design review. Implementation remains pending the user's approval under the supplied design workflow.
+The user subsequently approved the designs. Implementation is recorded in [implementation and verification](../../../docs/plans/evidence/progress-integration/README.md).

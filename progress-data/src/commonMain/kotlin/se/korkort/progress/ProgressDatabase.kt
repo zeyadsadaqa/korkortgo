@@ -7,24 +7,32 @@ import androidx.sqlite.async.executeSQL
 import androidx.room3.migration.Migration
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
+import kotlinx.serialization.Serializable
 
+@Serializable
 @Entity(tableName = "learner_profile")
 data class Profile(@PrimaryKey val id: String, val generation: String)
+@Serializable
 @Entity(tableName = "lesson_progress", primaryKeys = ["profileId", "lessonId", "revision"])
 data class LessonProgress(val profileId: String, val lessonId: String, val revision: String,
     val read: Boolean = false, val blockId: String? = null, val offset: Int = 0)
+@Serializable
 @Entity(tableName = "exercise_session", indices = [Index("profileId")])
 data class Session(@PrimaryKey val id: String, val profileId: String, val packageId: String,
     val deferred: Boolean, val snapshot: String, val status: String = "active", val version: Long = 0, @ColumnInfo(defaultValue="0") val createdAt: Long = 0)
+@Serializable
 @Entity(tableName = "session_question", primaryKeys = ["sessionId", "position"],
     indices = [Index(value = ["sessionId", "questionId"], unique = true)])
 data class StoredQuestion(val sessionId: String, val position: Int, val questionId: String,
     val revision: String, val conceptId: String, val optionsJson: String, val correctOption: String)
+@Serializable
 @Entity(tableName = "answer_attempt", indices = [Index(value = ["sessionId", "position"], unique = true), Index(value = ["eventId"], unique = true)])
 data class Attempt(@PrimaryKey(autoGenerate = true) val sequence: Long = 0, val eventId: String,
     val sessionId: String, val position: Int, val selectedOption: String, val published: Boolean, @ColumnInfo(defaultValue="0") val confirmedAt: Long = 0)
+@Serializable
 @Entity(tableName = "study_event", indices = [Index(value = ["profileId", "target"])])
 data class StudyEvent(@PrimaryKey val id: String, val profileId: String, val target: String, val kind: String, @ColumnInfo(defaultValue="0") val occurredAt: Long = 0)
+@Serializable
 @Entity(tableName = "store_metadata")
 data class StoreMetadata(@PrimaryKey val key: String, val value: String)
 
@@ -50,6 +58,17 @@ interface ProgressDao {
     @Insert suspend fun insertEvent(event: StudyEvent)
     @Query("SELECT * FROM store_metadata") fun observeMetadata(): Flow<List<StoreMetadata>>
     @Query("SELECT * FROM store_metadata WHERE `key`=:key") suspend fun metadataByKey(key: String): StoreMetadata?
+    @Query("SELECT * FROM exercise_session WHERE profileId=:profile ORDER BY createdAt DESC, id DESC") suspend fun sessions(profile: String): List<Session>
+    @Query("SELECT q.* FROM session_question q JOIN exercise_session s ON s.id=q.sessionId WHERE s.profileId=:profile ORDER BY q.sessionId,q.position") suspend fun allQuestions(profile: String): List<StoredQuestion>
+    @Query("SELECT * FROM study_event WHERE profileId=:profile ORDER BY occurredAt,id") suspend fun events(profile: String): List<StudyEvent>
+    @Query("SELECT * FROM store_metadata") suspend fun allMetadata(): List<StoreMetadata>
+    @Query("DELETE FROM answer_attempt") suspend fun clearAttempts()
+    @Query("DELETE FROM session_question") suspend fun clearQuestions()
+    @Query("DELETE FROM exercise_session") suspend fun clearSessions()
+    @Query("DELETE FROM lesson_progress") suspend fun clearLessons()
+    @Query("DELETE FROM study_event") suspend fun clearEvents()
+    @Query("DELETE FROM store_metadata") suspend fun clearMetadata()
+    @Query("UPDATE learner_profile SET generation=:generation WHERE id=:id") suspend fun generation(id:String,generation:String)
     @Upsert suspend fun metadata(value: StoreMetadata)
 }
 @Database(entities = [Profile::class, LessonProgress::class, Session::class, StoredQuestion::class,

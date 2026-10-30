@@ -35,6 +35,13 @@ android {
     namespace = "se.korkort"
     compileSdk = 36
     defaultConfig { applicationId = "se.korkort.study"; minSdk = 24; targetSdk = 36; versionCode = 1; versionName = "1.0" }
+    // Separate installed data for destructive import/reset verification.
+    buildTypes.create("verification") {
+        initWith(buildTypes.getByName("debug"))
+        applicationIdSuffix = ".verification"
+        versionNameSuffix = "-verification"
+        matchingFallbacks += listOf("debug")
+    }
     compileOptions { sourceCompatibility = JavaVersion.VERSION_17; targetCompatibility = JavaVersion.VERSION_17 }
 }
 kotlin.targets.withType<org.jetbrains.kotlin.gradle.targets.jvm.KotlinJvmTarget>().configureEach {
